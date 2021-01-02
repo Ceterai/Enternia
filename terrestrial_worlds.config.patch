@@ -1,0 +1,44 @@
+[
+  {
+    "op" : "add",
+    "path" : "/planetTypes/ctforest",
+    "value" : {
+      "threatRange" : [3, 4],
+      "layers" : {
+        "surface" : {
+          "primaryRegion" : [ "ctforest" ],
+          "secondaryRegions" : [ "bioluminescence", "colourful", "hive" ],
+          "dungeonCountRange" : [2, 3],
+          "dungeons" : [
+            [1.0,"oasis"],
+            [1.0,"hylotlcity"],
+            [1.0,"hylotlcity"],
+            [1.0,"floranvillagetower"],
+            [1.0,"floranhutvillage"]
+          ]
+        }
+      }
+    }
+  },
+
+  {
+    "op" : "add",
+    "path" : "/planetTypes/forest/layers/surface/secondaryRegions/-",
+    "value" : "ctforest"
+  },
+
+  {
+    "op" : "add",
+    "path" : "/regionTypes/ctforest",
+    "value" : {
+      "caveLiquid" : [ "water", "healingliquid" ], //what liquids appear on your biome surface?
+      "caveLiquidChanceRange" : [10, 10],  //how often does your liquid appear on the surface?
+      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],  //surface terrain generation
+      "fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
+      "bgOreSelector" : [ "empty" ],  // background ore terrain selector
+      "biome" : [
+        [0, [ "ctforest" ]]    // and one more case of the "name" value
+      ]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctsphere", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "moonstone", "count" : 100 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ctsword", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

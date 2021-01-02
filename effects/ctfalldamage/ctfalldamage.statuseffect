@@ -1,0 +1,14 @@
+{
+  "name" : "ctfalldamage",
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [
+    "ctfalldamage.lua"
+  ],
+
+  "animationConfig" : "ctfalldamage.animation",
+
+  "label" : "Halfed Falldamage",
+  "icon" : "ctfalldamage.png"
+}

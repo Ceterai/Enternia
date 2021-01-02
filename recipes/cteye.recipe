@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "cellmatter", "count" : 5 },
+    { "item" : "ctaya", "count" : 1 },
+    { "item" : "moonrock", "count" : 20 }
+  ],
+  "output" : { 
+    "item" : "cteye",
+    "count" : 1 
+  },
+  "groups" : [ "treasuredtrophies", "mod" ]
+}

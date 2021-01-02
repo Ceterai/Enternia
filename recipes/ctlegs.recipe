@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cteye", "count" : 3 },
+    { "item" : "durasteelbar", "count" : 15 },
+    { "item" : "moonstone", "count" : 60 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ctlegs", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

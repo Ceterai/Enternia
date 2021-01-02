@@ -1,0 +1,18 @@
+{
+  "itemName" : "cttsaycooked",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cttsaycooked.png",
+  "description" : "Unlike its fresh version, cooked tsay tastes mostly like meat.",
+  "shortdescription" : "Cooked Tsay",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

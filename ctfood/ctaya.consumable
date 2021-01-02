@@ -1,0 +1,20 @@
+{
+  "itemName" : "ctaya",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "ctaya.png",
+  "description" : "A very juicy, sweet fruit.",
+  "shortdescription" : "Aya",
+  "foodValue" : 7,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ctayajam", "ctayafresh", "ctassorti", "ctayabaked", "ctayacandy", "ctayapowder", "ctayaboiled", "ctpie", "ctcannedfood" ]
+}

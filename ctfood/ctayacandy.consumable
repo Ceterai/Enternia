@@ -1,0 +1,24 @@
+{
+  "itemName" : "ctayacandy",
+  "rarity" : "Common",
+  "price" : 115,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayacandy.png",
+  "description" : "Made with aya jam, it's a sour and sweet lollipop!",
+  "shortdescription" : "Aya Candy",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 125
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

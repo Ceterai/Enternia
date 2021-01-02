@@ -1,0 +1,11 @@
+{
+  "itemName" : "cteye",
+  "price" : 1500,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "cteye.png",
+  "description" : "A material named after a terrible pun? Neat.",
+  "shortdescription" : "^blue;Ceter-Eye^reset;",
+  "learnBlueprintsOnPickup" : ["cthead", "cthead2", "ctbody", "ctlegs", "ctgun1", "ctgun2", "ctsword"],
+  "itemTags" : [ "reagent" ]
+}

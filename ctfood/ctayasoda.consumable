@@ -1,0 +1,17 @@
+{
+  "itemName" : "ctayasoda",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "ctayasoda.png",
+  "description" : "What a sweet drink this is.",
+  "shortdescription" : "Ayoda",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

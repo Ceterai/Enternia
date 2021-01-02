@@ -1,0 +1,13 @@
+//updated format for 1.0
+[{"op":"add","path":"/visitableTypeDescription/ctforest",
+"value":[
+"^#0087ff;Enternia^white; forests are home to insteresting fruits and creatures. Pieces of moonstones can be found here, buried in the ground.",
+"Scanners show this planet is covered in dense forests and rivers. Almost unknown flora type - ^#0087ff;enternia^white; - is nearly only thing, that can be found here.",
+"It seems like this planet is teeming with lifeforms. Flora type - ^#0087ff;enternia^white;. It is recommended to be careful out there.",
+"Planet is overrun with ^#0087ff;enternia^white;. The flora of this planet includes rare crops and plants, but the data says it is best to not land there at night.",
+"This is ^#0087ff;enternia^white;. Pieces of moonstones and moonrocks are scattered everywhere. The flora of this planet consists of rare crops and plants. At night this planet becomes more dangerous then ever."
+]},
+{"op":"add","path":"/planetTypeNames/ctforest",
+"value":"Enternia"},
+{"op":"add","path":"/planetTypeColors/ctforest",
+"value":[0, 135, 255]}]

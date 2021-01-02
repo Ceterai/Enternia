@@ -1,0 +1,17 @@
+{
+  "itemName" : "cttsaycola",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "cttsaycola.png",
+  "description" : "A lemon in a can? Isn't it just lemonade then?",
+  "shortdescription" : "Tsay-Cola",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "swimboostcola",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

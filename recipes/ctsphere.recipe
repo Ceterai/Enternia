@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "cteye", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 10 },
+    { "item" : "moondust", "count" : 100 }
+  ],
+  "output" : { 
+    "item" : "ctsphere",
+    "count" : 1 
+  },
+  "groups" : [ "treasuredtrophies", "mod" ]
+}

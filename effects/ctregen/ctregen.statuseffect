@@ -1,0 +1,17 @@
+{
+  "name" : "ctregen",
+
+  "effectConfig" : {
+    "healTime" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [
+    "ctregen.lua"
+  ],
+
+  "animationConfig" : "ctregen.animation",
+
+  "label" : "Life Support",
+  "icon" : "ctregen.png"
+}
