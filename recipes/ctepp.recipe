@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctsphere2", "count" : 1 },
+    { "item" : "cteye", "count" : 3 },
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "moonstone", "count" : 150 },
+    { "item" : "moonrock", "count" : 150 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ctepp", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear", "all" ]
+}

@@ -38,9 +38,9 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
 
-    "fireTime" : 0.06,
-    "baseDps" : 12.0,
-    "energyUsage" : 22,
+    "fireTime" : 0.08,
+    "baseDps" : 10.0,
+    "energyUsage" : 28,
     "inaccuracy" : 0.06,
 
     "projectileCount" : 1,
@@ -70,7 +70,7 @@
         "allowFlip" : true
       },
       "cooldown" : {
-        "duration" : 0.06,
+        "duration" : 0.08,
         "armRotation" : 3,
         "weaponRotation" : 3,
         "twoHanded" : false,
@@ -90,8 +90,8 @@
     },
     "muzzleOffset" : [0.7, 0.0],
     "primaryAbility" : {
-      "baseDps" : 16.0,
-      "energyUsage" : 24,
+      "baseDps" : 12.0,
+      "energyUsage" : 32,
       "projectileCount" : 2
     },
     "shortdescription" : "^blue;Double Point Hyperblaster^reset; ^yellow;^reset;"

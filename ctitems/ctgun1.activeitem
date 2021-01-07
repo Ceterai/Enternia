@@ -39,8 +39,8 @@
     "class" : "GunFire",
 
     "fireTime" : 0.06,
-    "baseDps" : 12.0,
-    "energyUsage" : 12,
+    "baseDps" : 10.0,
+    "energyUsage" : 15,
     "inaccuracy" : 0.06,
 
     "projectileCount" : 1,
@@ -89,8 +89,8 @@
     },
     "muzzleOffset" : [0.7, 0.0],
     "primaryAbility" : {
-      "baseDps" : 16.0,
-      "energyUsage" : 14,
+      "baseDps" : 12.0,
+      "energyUsage" : 20,
       "projectileCount" : 2
     },
     "shortdescription" : "^blue;Double Point SMG^reset; ^yellow;^reset;"

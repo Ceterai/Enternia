@@ -10,4 +10,23 @@
 {"op":"add","path":"/planetTypeNames/ctforest",
 "value":"Enternia"},
 {"op":"add","path":"/planetTypeColors/ctforest",
-"value":[0, 135, 255]}]
+"value":[0, 135, 255]},
+{"op":"add","path":"/displayWeathers/ctrainweather",
+"value":{
+      "displayName" : "Ionic Rain",
+      "icon" : "/interface/cockpit/weather/ctrain.png"
+    }},
+{"op":"add","path":"/displayWeathers/ctdrizzleweather",
+"value":{
+      "displayName" : "Drizzle",
+      "icon" : "/interface/cockpit/weather/drizzle.png"
+    }},
+{"op":"add","path":"/displayWeathers/ctstormweather",
+"value":{
+      "displayName" : "Ionic Storms",
+      "icon" : "/interface/cockpit/weather/ctthunder.png"
+    }}
+
+
+
+]

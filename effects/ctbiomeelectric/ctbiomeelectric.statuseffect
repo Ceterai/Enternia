@@ -1,0 +1,24 @@
+{
+  "name" : "ctbiomeelectric",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 1.4,
+      "airJumpModifier" : 1.4
+    },
+    "tickRate" : 200,
+    "energyCost" : 10,
+    "healthDamage" : 20
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "ctbiomeelectric.lua"
+  ],
+
+  "animationConfig" : "ctbiomeelectric.animation",
+
+  "label" : "Ionized Air",
+  "icon" : "ctbiomeelectric.png"
+}

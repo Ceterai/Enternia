@@ -1,12 +1,12 @@
 {
   "name" : "ctayastem",
   "shape" : "ctforest",
-  "health" : 10,
+  "health" : 25,
   "middleMinSize" : 5,
   "middleMaxSize" : 8,
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "logblock", "count" : 3 } ]
+      [ { "item" : "ctwood", "count" : 2 } ]
     ],
     "sounds" : {
       "breakTree" : [

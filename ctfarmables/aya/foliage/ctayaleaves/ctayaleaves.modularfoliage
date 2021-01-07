@@ -4,8 +4,11 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 } ],
-      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 2 } ]
+      [ { "item" : "ctsapling" } ],
+      [ { "item" : "ctsapling" } ],
+      [ { "item" : "ctsapling" }, { "item" : "ctaya", "count" : 1 } ],
+      [ { "item" : "ctsapling" }, { "item" : "ctaya", "count" : 1 } ],
+      [ { "item" : "ctsapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
     ],
     
     "particles" : {

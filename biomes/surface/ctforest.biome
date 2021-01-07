@@ -7,21 +7,25 @@
       {
         "select" : 2,
         "pool" : [
-          [ 0.334, "poptop" ],
-          [ 0.200, "iguarmor" ],
-          [ 0.200, "scandroid" ],
-          [ 0.266, "orbide" ]
+          [ 0.334, "ctminidrone" ],
+          [ 0.333, "ctscandroid" ],
+          [ 0.333, "ctnarfin" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1, "ctadultpoptop" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1, "ctorbide" ]
         ]
       },
       {
         "select" : 2,
-        "pool" : [
-          [ 0.5, "adultpoptop" ],
-          [ 0.5, "adultpoptop" ]
-        ]
-      },
-      {
-        "select" : 5,
         "pool" : "nightTerrors"
       },
       {
@@ -29,29 +33,33 @@
         "pool" : "generatedFlying"
       },
       {
-        "select" : 4,
+        "select" : 2,
         "pool" : [
           [ 1, "birdcritter" ],
           [ 1, "sporelingcritter" ],
-          [ 1, "blipcritter" ],
+          [ 1, "bouncercritter" ],
           [ 1, "fireflyspawner" ],
-          [ 1, "fireflyspawner" ],
-          [ 1, "fireflyspawner" ],
-          [ 1, "fishcritter" ],
           [ 1, "bioluminfireflyspawner" ]
         ]
       }
     ],
     "monsterParameters" : {
-      "colors" : "forest"
+      "colors" : "ocean",
+      "statusSettings" : {
+        "stats" : {
+          "electricStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
     }
   },
 
   "hueShiftOptions" : [0, 20],
-
+  "statusEffects" : [ "ctbiomeelectric" ],
   "weather" : [
     [0, [
-      "/weather.config:garden"
+      "/weather.config:ctforest"
     ]]
   ],
 
@@ -120,7 +128,7 @@
       "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      "tracks" : [ "/sfx/environmental/tundra_night.ogg", "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
   },
 
@@ -150,7 +158,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredSmall",
+        "distribution" : "/biomes/distributions.config:denseMedium",
 
         "type" : "object",
         "objectSets" : [
@@ -174,7 +182,7 @@
         "mode" : "floor",
         "priority" : 1,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+        "distribution" : "/biomes/distributions.config:overgroundChests",
 
         "type" : "object",
         "objectSets" : [
@@ -184,27 +192,18 @@
           }
         ]
       },
-      {
-        "mode" : "floor",
-        "priority" : 0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
 
-        "type" : "treasureBox",
-        "treasureBoxSets" : [ "weaponChest" ]
-      },
+      // MICRO DUNGEONS
 
       {
         "mode" : "floor",
         "priority" : 3.0,
-        "variants" : 1,
+        "variants" : 2,
         "distribution" : "/biomes/distributions.config:tiyDist",
 
         "type" : "microdungeon",
         "microdungeons" : [ "spiralspikes", "aridplatforming", "oasis", "blank", "none" ]
       },
-
-      // MICRO DUNGEONS
 
       {
         "mode" : "floor",
@@ -219,7 +218,7 @@
       {
         "mode" : "floor",
         "priority" : 1.0,
-        "variants" : 1,
+        "variants" : 4,
         "distribution" : "/biomes/distributions.config:denseSmall",
 
         "type" : "grass",
@@ -235,8 +234,10 @@
         "bushes" : [
           {
             "name" : "testbush",
-            "baseHueShiftMax" : 100,
-            "modHueShiftMax" : 100
+            "baseHueShiftMax" : 200,
+            "modHueShiftMax" : 200,
+            "baseHueShiftMin" : 200,
+            "modHueShiftMin" : 200
           }
         ]
       },
@@ -244,7 +245,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "tree",
         "treeFoliageHueShiftMax" : 30,
@@ -257,7 +258,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "tree",
         "treeFoliageHueShiftMax" : 30,
@@ -266,38 +267,22 @@
         "treeStemList" : [ "ctayastem" ],
         "treeFoliageList" : [ "ctayaleaves" ]
       },
+
+      
 
       // CROPS
 
       {
         "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
+        "priority" : 1.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
 
         "type" : "object",
         "objectSets" : [
           {
-            "pool" : [ [1, "wildctgilseed" ] ],
-            "parameters" : {
-              "startingStage" : 4
-            }
-          }
-        ]
-      },
-      {
-        "mode" : "floor",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseLarge",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildcttsayseed" ] ],
-            "parameters" : {
-              "startingStage" : 4
-            }
+            "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ] ],
+            "parameters" : { }
           }
         ]
       }
@@ -312,15 +297,6 @@
     "ceilingGrassModDensity" : 0.3,
 
     "items" : [
-      {
-        "mode" : "floor",
-        "priority" : 0.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:undergroundChests",
-
-        "type" : "treasureBox",
-        "treasureBoxSets" : [ "basicChest" ]
-      },
 
       {
         "mode" : "floor",
@@ -382,7 +358,7 @@
         "mode" : "ceiling",
         "priority" : 2.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:denseMedium",
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "tree",
         "treeFoliageHueShiftMax" : 180,
@@ -392,13 +368,41 @@
       },
       {
         "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "period" : 5,
+        "priority" : 1.0,
+        "variants" : 4,
         "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "groundspike1" ], [0.35, "groundspike2" ], [0.35, "groundspike3" ], [0.35, "groundspike4" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 3.0,
+        "variants" : 4,
+        "period" : 5,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
 
         "type" : "grass",
         "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 3,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ] ],
+            "parameters" : { }
+          }
+        ]
       }
     ]
   }

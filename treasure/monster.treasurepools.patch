@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/ctdrone3Treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"item" : [ "ctlaserdiode", 1]},
+          {"pool" : "robotTreasure"}
+        ]
+      }]
+    ]
+  }
+]

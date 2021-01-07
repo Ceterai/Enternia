@@ -1,0 +1,250 @@
+{
+  "type" : "ctdrone3",
+  "shortdescription" : "Defensive Drone R300",
+  "description" : "Hightech durasteel drone operated by the EDS. Has ranged attacks and spreads ionized clouds.",
+
+  "categories" : [ "ctdrone3_parts" ],
+  "parts" : [ "body" ],
+  "partParameters" : "ctdrone3.partparams",
+
+  "animation" : "ctdrone3.animation",
+  "reversed" : true,
+
+  "dropPools" : [ { "default" : "ctdrone3Treasure" } ],
+
+  "baseParameters" : {
+    "monsterClass" : "rare",
+    "elite" : true,
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+    "seeThroughLiquid" : false,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 5.0,
+          "parameters" : {
+            "onGround" : false,
+            "requireLineOfSight" : true,
+            "maximumRange" : 30,
+            "minimumRange" : 2,
+            "windupState" : "fire",
+            "windupTime" : 0.6,
+            "windupStopForce" : 200,
+
+            "projectileType" : "energycrystal",
+            "fireOffset" : [0, -0.5],
+            "fireSound" : "fire2",
+            "fireState" : "",
+
+            "winddownState" : "",
+            "winddownTime" : 0.1
+          }
+        }
+      ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly"
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-fly"
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-fly",
+          "cooldown" : [5,20],
+          "parameters" : {
+            "wanderTime" : [10,40],
+            "groundDistance" : 20,
+            "ceilingDistance" : 10,
+            "xVelocity" : 8,
+            "yVelocity" : 12
+          }
+        },
+        {
+          "name" : "land-fly",
+          "parameters" : {
+            "flySpeed" : 8,
+            "flyControlForce" : 25,
+            "landCheckDistance" : 40,
+            "idleTime" : 40
+          }
+        }
+      ],
+
+      "concurrentActions" : [ ],
+
+      "concurrentHostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 10.0,
+          "parameters" : {
+            "maximumRange" : 50,
+            "requireLineOfSight" : false,
+            "onGround" : false,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "projectileType" : "smallelectriccloud",
+            "projectileParameters" : {
+              "speed" : 10.0,
+              "timeToLive" : 1.0
+            },
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : false,
+            "inaccuracy" : 3.14,
+            "projectileCount" : 8,
+            "projectileInterval" : 0.0,
+            "fireState" : "",
+            "fireDelay" : 0.0,
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.0
+          }
+        }
+      ]
+    },
+
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "gravityEnabled" : false,
+      "collisionPoly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+
+      "mass" : 1.0,
+      "flySpeed" : 12,
+      "airFriction" : 0.25,
+      "airForce" : 25.0
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0.1,
+    "knockoutEffect" : "blink",
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+      "damage" : 10,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "default",
+      "knockback" : 20,
+      "statusEffects" : [ "stun" ]
+    },
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : true,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 68
+        },
+        "protection" : {
+          "baseValue" : 30.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.1
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.3
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.2,
+    "nametagColor" : [64, 200, 255]
+  }
+}

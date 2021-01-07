@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ctgil", "count" : 1 },
+    { "item" : "crystal", "count" : 100 },
+    { "item" : "ctlaserdiode", "count" : 1 },
+    { "item" : "moondust", "count" : 100 },
+    { "item" : "ctwoodsap", "count" : 50 }
+  ],
+  "output" : { 
+    "item" : "ctsphere2",
+    "count" : 1 
+  },
+  "groups" : [ "treasuredtrophies", "mod" ]
+}
