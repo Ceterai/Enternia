@@ -1,0 +1,24 @@
+{
+  "itemName" : "ctpie",
+  "rarity" : "Common",
+  "price" : 250,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctpie.png",
+  "description" : "Nice addition to the gil-tsay stew.",
+  "shortdescription" : "Aya-Gil Pie",
+  "effects" : [ [
+    {
+        "effect" : "ragefood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "ctayafresh",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "drink",
+  "inventoryIcon" : "ctayafresh.png",
+  "description" : "Made with aya powder and some fresh ayas. Refreshing! Fresh is the word.",
+  "shortdescription" : "Aya Fresh",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 2.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

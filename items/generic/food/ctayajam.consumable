@@ -1,0 +1,29 @@
+{
+  "itemName" : "ctayajam",
+  "rarity" : "Common",
+  "price" : 165,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayajam.png",
+  "description" : "Pure jam from baked ayas. Good for pancakes.",
+  "shortdescription" : "Aya Jam",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 158
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 158
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 10.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

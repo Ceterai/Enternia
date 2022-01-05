@@ -1,0 +1,43 @@
+[
+  {
+    "op": "add",
+    "path": "/ct_enterniaChestTreasure",
+    "value": [
+      [0, {
+        "poolRounds" : [
+          [0.1, 1],
+          [0.4, 2],
+          [0.4, 3],
+          [0.1, 4]
+        ],
+        "pool" : [
+          {"weight" : 0.30, "pool" : "maybeWeaponTreasure"},
+          {"weight" : 0.70, "pool" : "chestMoney"},
+          {"weight" : 0.40, "pool" : "healingItem"},
+          {"weight" : 0.40, "pool" : "thrownWeapon"},
+          {"weight" : 0.05, "pool" : "weapon"},
+          {"weight" : 0.05, "pool" : "tool"},
+          {"weight" : 0.08, "item" : "manipulatormodule"},
+          {"weight" : 0.03, "item" : "techcard"},
+          {"weight" : 0.01, "item" : "upgrademodule"},
+          {"weight" : 0.01, "pool" : "instrument"},
+          {"weight" : 0.01, "pool" : "costume"},
+          {"weight" : 0.02, "item" : "ct_devices-codex"},
+          {"weight" : 0.02, "item" : "ct_notes_cen-codex"},
+          {"weight" : 0.02, "item" : "ct_notes_cmcen-codex"},
+          {"weight" : 0.02, "item" : "ct_notes_ctleave-codex"},
+          {"weight" : 0.02, "item" : "ct_notes_drones-codex"},
+          {"weight" : 0.02, "item" : "et_devices-codex"},
+          {"weight" : 0.05, "item" : "ct_decaystim"},
+          {"weight" : 0.10, "item" : "ctaya"},
+          {"weight" : 0.10, "item" : "ctgil"},
+          {"weight" : 0.10, "item" : "cttsay"},
+          {"weight" : 0.30, "item" : "cttsaycola"},
+          {"weight" : 0.30, "item" : "ctayasoda"},
+          {"weight" : 0.30, "item" : "ctcannedfood"},
+          {"weight" : 0.02, "item" : "cteye"}
+        ]
+      }]
+    ]
+  }
+]

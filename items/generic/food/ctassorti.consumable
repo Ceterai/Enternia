@@ -1,0 +1,28 @@
+{
+  "itemName" : "ctassorti",
+  "rarity" : "Common",
+  "price" : 300,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctassorti.png",
+  "description" : "A healthy mix of ayas and tsays.",
+  "shortdescription" : "Assorti",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 135
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 135
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

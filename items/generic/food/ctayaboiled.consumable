@@ -1,0 +1,18 @@
+{
+  "itemName" : "ctayaboiled",
+  "rarity" : "Common",
+  "price" : 70,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayaboiled.png",
+  "description" : "A bowl of boiled grinded ayas. Less sweet, but very nourishing.",
+  "shortdescription" : "Boiled Ayas",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,12 +1,28 @@
 [
   {
     "op": "add",
+    "path": "/ctdroneTreasure",
+    "value": [
+      [1, {
+        "pool" : [
+          {"weight" : 0.8, "pool" : "smallRobotTreasure"},
+          {"weight" : 0.2, "item" : "cteye"}
+        ],
+        "poolRounds" : [
+          [0.9, 0],
+          [0.1, 1]
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add",
     "path": "/ctdrone3Treasure",
     "value": [
       [1, {
         "fill" : [
-          {"item" : [ "ctlaserdiode", 1]},
-          {"pool" : "robotTreasure"}
+          {"item" : "ctlaserdiode"},
+          {"pool" : "smallRobotTreasure"}
         ]
       }]
     ]

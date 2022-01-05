@@ -44,7 +44,7 @@
   {"op": "add", "path": "/-", "value": {
     "name" : "ctminidrone",
     "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 2], "spawnChance" : 0.07,
+    "groupSize" : [1, 2], "spawnChance" : 0.06,
     "monsterType" : [ [0.9, "ctdrone"], [0.1, "ctdrone2"] ],
     "monsterParameters" : {"aggressive" : true}
   }},

@@ -12,8 +12,8 @@
           "dungeons" : [
             [4.0, "apextestfacility"], [3.0, "apexbase"],
             [3.0, "cultistlair"],
-            [1.0,"hylotlcity"],
-            [1.0,"floranvillagetower"]
+            [1.0, "hylotlcity"],
+            [1.0, "floranvillagetower"]
           ]
         },
         "subsurface" : {
@@ -35,91 +35,53 @@
       }
     }
   },
-
-  {
-    "op" : "add",
-    "path" : "/planetTypes/forest/layers/surface/secondaryRegions/-",
-    "value" : "ctforest"
-  },
-
   {
     "op" : "add",
     "path" : "/regionTypes/ctforest",
     "value" : {
-      "caveLiquid" : [ "water" ], //what liquids appear on your biome surface?
-      "caveLiquidChanceRange" : [10, 50],  //how often does your liquid appear on the surface?
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],  //surface terrain generation
-      "fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
-      "bgOreSelector" : [ "empty" ],  // background ore terrain selector
-      "biome" : [
-        [0, [ "ctforest" ]]    // and one more case of the "name" value
-      ],
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 50],
+      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [ [0, [ "ctforest" ]] ],
       "subRegion" : ["ctforestlabs", "ctforestpoptop"]
     }
   },
-
   {
     "op" : "add",
     "path" : "/regionTypes/ctforestlabs",
     "value" : {
-      "caveLiquid" : [ "water" ], //what liquids appear on your biome surface?
-      "caveLiquidChanceRange" : [10, 10],  //how often does your liquid appear on the surface?
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],  //surface terrain generation
-      "fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
-      "bgOreSelector" : [ "empty" ],  // background ore terrain selector
-      "biome" : [
-        [0, [ "ctforestlabs" ]]    // and one more case of the "name" value
-      ]
+      "caveLiquid" : [ "water" ],
+      "caveLiquidChanceRange" : [10, 10],
+      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [ [0, [ "ctforestlabs" ]] ]
     }
   },
-
   {
     "op" : "add",
     "path" : "/regionTypes/ctforestpoptop",
     "value" : {
-      "caveLiquid" : [ "water" ], //what liquids appear on your biome surface?
-      "caveLiquidChanceRange" : [10, 10],  //how often does your liquid appear on the surface?
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],  //surface terrain generation
-      "fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
-      "bgOreSelector" : [ "empty" ],  // background ore terrain selector
-      "biome" : [
-        [0, [ "ctforestpoptop" ]]    // and one more case of the "name" value
-      ]
-    }
-  },
-
-  {
-    "op" : "add",
-    "path" : "/regionTypes/ctforestsub",
-    "value" : {
       "caveLiquid" : [ "water" ],
-      "biome" : [
-        [0, [ "ctforestsub" ]]
-      ],
-      "subRegion" : ["ctforesthive"]
+      "caveLiquidChanceRange" : [10, 10],
+      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
+      "fgCaveSelector" : [ "surfaceCaves" ],
+      "bgOreSelector" : [ "empty" ],
+      "biome" : [ [0, [ "ctforestpoptop" ]] ]
     }
   },
-
   {
-    "op" : "add",
-    "path" : "/regionTypes/ctforestsub2",
-    "value" : {
-      "caveLiquid" : [ "water", "poison" ],
-      "biome" : [
-        [0, [ "ctforestsub2" ]]
-      ]
-    }
+    "op" : "add", "path" : "/regionTypes/ctforestsub",
+    "value" : { "caveLiquid" : [ "water" ], "biome" : [ [0, [ "ctforestsub" ]] ], "subRegion" : ["ctforesthive"] }
   },
-
   {
-    "op" : "add",
-    "path" : "/regionTypes/ctforesthive",
-    "value" : {
-      "caveLiquid" : [ "water" ],
-      "biome" : [
-        [0, [ "ctforesthive" ]]
-      ],
-      "subRegion" : ["ctforestsub"]
-    }
+    "op" : "add", "path" : "/regionTypes/ctforestsub2",
+    "value" : { "caveLiquid" : [ "water", "poison" ], "biome" : [ [0, [ "ctforestsub2" ]] ] }
+  },
+  {
+    "op" : "add", "path" : "/regionTypes/ctforesthive",
+    "value" : { "caveLiquid" : [ "water", "poison" ], "biome" : [ [0, [ "ctforesthive" ]] ], "subRegion" : ["ctforestsub"] }
   }
 ]

@@ -8,8 +8,7 @@
         "select" : 2,
         "pool" : [
           [ 0.600, "ctminidrone" ],
-          [ 0.300, "ctscandroid" ],
-          [ 0.100, "cticenarfin" ]
+          [ 0.400, "ctscandroid" ]
         ]
       },
       {
@@ -170,7 +169,7 @@
         "distribution" : "/biomes/distributions.config:overgroundChests",
 
         "type" : "treasureBox",
-        "treasureBoxSets" : [ "forestChest" ]
+        "treasureBoxSets" : [ "ct_podChest" ]
       },
       {
         "mode" : "floor",
@@ -277,7 +276,7 @@
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
+        "distribution" : "/biomes/distributions.config:denseSurfaceCrops",
 
         "type" : "object",
         "objectSets" : [
@@ -397,25 +396,6 @@
 
         "type" : "grass",
         "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-      },
-
-      // CROPS
-
-      {
-        "mode" : "floor",
-        "priority" : 3.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:scatteredLarge",
-
-        "type" : "object",
-        "objectSets" : [
-          {
-            "pool" : [ [1, "wildcttsayseed" ] ],
-            "parameters" : {
-              "startingStage" : 2
-            }
-          }
-        ]
       },
       {
         "mode" : "floor",

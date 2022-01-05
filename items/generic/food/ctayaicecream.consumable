@@ -1,0 +1,24 @@
+{
+  "itemName" : "ctayaicecream",
+  "rarity" : "Common",
+  "price" : 115,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayaicecream.png",
+  "description" : "One tasty snowcone, aya flavoured!",
+  "shortdescription" : "Aya Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 10.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

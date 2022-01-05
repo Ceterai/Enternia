@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add", "path": "/ct_podChest",
+    "value": [
+      {
+        "containers" : [ "podchest" ],
+        "treasurePool" : "ct_enterniaChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  }
+]
