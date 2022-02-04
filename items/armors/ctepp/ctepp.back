@@ -6,8 +6,8 @@
   "rarity" : "Legendary",
   "pickupQuestTemplates" : [ ],
   "category" : "enviroProtectionPack",
-  "description" : "- full immunity to electricity-related statuses;\n- +20% electric resist;\n- ^blue;Static Field^reset; effect (nonstackable). Useful on ^#0087ff;Enternia^reset; planets.",
-  "shortdescription" : "^blue;Enter-EPP^reset;",
+  "description" : "- full immunity to electricity-related statuses;\n- +20% electric resist. Useful on ^#2080f0;Alterash^reset; planets.",
+  "shortdescription" : "^#8020f0;Enter^reset;-EPP",
 
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
@@ -21,8 +21,7 @@
     {
       "stat" : "electricResistance",
       "amount" : 0.20
-    },
-    "ctmind"
+    }
   ],
 
   "acceptsAugmentType" : "back",

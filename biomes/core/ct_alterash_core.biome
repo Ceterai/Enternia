@@ -1,0 +1,80 @@
+{
+  "name" : "ct_alterash_core",
+  "friendlyName" : "Alterash Core",
+  "statusEffects" : [ "ctbiomeelectric" ],
+  "mainBlock" : "obsidian",
+  "subBlocks" : [ "rock14" ],
+  "ores" : "ct_alterash_core",
+
+  "hueShiftOptions" : [105, 120],
+  "parallax" : "ct_alterash_end.parallax",
+
+  "spawnProfile" : {
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_core_drone_spawn" ] ] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/magma_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/magma_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.7,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.35, "ct_capsule_red" ], [0.35, "ct_capsule_blue" ], [0.35, "ct_capsule_blue" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_backdoor"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_big_cargoChest" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } } ]
+      }
+    ]
+  }
+}

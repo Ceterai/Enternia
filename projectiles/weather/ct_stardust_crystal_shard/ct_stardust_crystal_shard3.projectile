@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_stardust_crystal_shard3",
+  "image" : "ct_stardust_crystal_shard3.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/weatheringexplosion/weatheringexplosion.config"
+    }
+  ],
+  "power" : 4.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-15, -15], [15, -15], [15, 15], [-15, 15] ],
+
+  "flippable" : true,
+  "statusEffects" : [
+    "electrified"
+  ]
+}

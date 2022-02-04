@@ -1,0 +1,24 @@
+{
+  "name" : "ct_overtension",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "initialCharge" : 12,
+    "maxCharge" : 50,
+    "chargePerHit" : 3,
+    "chargeDecay" : 2,
+    "damageInterval" : 0.5,
+    "fadeFactor" : 0.03,
+    "emissionRateFactor" : 0.75
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "ct_overtension.lua"
+  ],
+
+  "animationConfig" : "ct_overtension.animation",
+
+  "label" : "Overtension",
+  "icon" : "ct_overtension.png"
+}

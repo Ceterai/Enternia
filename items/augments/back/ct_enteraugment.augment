@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_enteraugment",
+  "price" : 3000,
+  "rarity" : "Rare",
+  "category" : "eppAugment",
+  "inventoryIcon" : "ct_enteraugment.png",
+  "description" : "Boosts electric damage by 2.5x but consumes energy (or health if energy is at 0) for every electric hit.",
+  "shortdescription" : "^#8020f0;Enter^reset;-Augment",
+  "tooltipKind" : "eppaugment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_enteraugment",
+    "displayName" : "^#8020f0;Enter^reset;-Augment",
+    "displayIcon" : "/items/augments/back/ct_enteraugment.png",
+    "effects" : [ "ct_electricdamageboostenteraugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

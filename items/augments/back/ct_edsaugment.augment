@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_edsaugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "ct_edsaugment.png",
+  "description" : "An EPP module that slightly boosts your power, movement speed and protection.",
+  "shortdescription" : "^#f02020;EDS^reset; Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_edsaugment",
+    "displayName" : "^#f02020;EDS^reset; Enhancement",
+    "displayIcon" : "/items/augments/back/ct_edsaugment.png",
+    "effects" : [ "runboostaugment", "rageaugment1", "ct_edsprotection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

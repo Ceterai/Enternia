@@ -4,7 +4,27 @@
     "value": [
       {
         "containers" : [ "podchest" ],
-        "treasurePool" : "ct_enterniaChestTreasure",
+        "treasurePool" : "ct_alterash_tier1ChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_small_cargoChest",
+    "value": [
+      {
+        "containers" : [ "outpostcargocrateshort" ],
+        "treasurePool" : "ct_alterash_tier2ChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_big_cargoChest",
+    "value": [
+      {
+        "containers" : [ "outpostshippingcontainer" ],
+        "treasurePool" : "ct_alterashEndTreasure",
         "minimumLevel" : 0
       }
     ]

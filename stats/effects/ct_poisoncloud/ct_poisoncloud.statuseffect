@@ -1,0 +1,20 @@
+{
+  "name" : "ct_poisoncloud",
+  "effectConfig" : {
+    "range" : 3,
+
+    "damageProjectileType" : "smallpoisoncloud",
+    "damageMultiplier" : 1,
+
+    "cooldown" : 1
+
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "ct_poisoncloud.lua"
+  ],
+
+  "label" : "Poison Clouds",
+  "icon" : "ct_poisoncloud.png"
+}

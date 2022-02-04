@@ -1,0 +1,17 @@
+{
+  "name" : "ct_intension",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "modifiedStat": "electricResistance",
+    "modifiedValue" : 0.1
+  },
+  "defaultDuration" : 4,
+
+  "scripts" : [
+    "ct_intension.lua"
+  ],
+
+  "label" : "Intension",
+  "icon" : "ct_intension.png"
+}

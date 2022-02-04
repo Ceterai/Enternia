@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 5 },
+    { "item" : "ct_edsdiode", "count" : 15 },
+    { "item" : "upgrademodule", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_edsaugment",
+    "count" : 1 
+  },
+  "groups" : [ "edstier2", "edsmilitary" ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "ct_nivera_geyser",
+  "colonyTags" : ["alterash", "nature", "warped", "nivera"],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 105,
+  "race" : "generic",
+  "printable" : false,
+
+  "description" : "A small geyser wrapped in growing nivera vines.",
+  "shortdescription" : "Nivera-Overgrown Geyser",
+  "apexDescription" : "This small geyser doesn't seem to be active.",
+  "avianDescription" : "There's no steam rising from this geyser, so I think it's inactive.",
+  "floranDescription" : "Plantss ssoak in power from this ssmall geysser.",
+  "glitchDescription" : "Confident. There's no indication this geyser will erupt.",
+  "humanDescription" : "Plants have crept all over this little geyser.",
+  "hylotlDescription" : "This little geyser seems inert, but I should stay away just in case.",
+  "novaDescription" : "I don't think this little geyser is gonna give me any trouble.",
+
+  "inventoryIcon" : "ct_nivera_geysericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_nivera_geyser.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "projectileName" : "ct_glow_drop",
+  "image" : "ct_glow_drop.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : true,
+  "actionOnReap" : [ ],
+  "power" : 0.0,
+  "lightColor" : [96, 192, 252],
+  "emitters" : [ "sparks" ],
+  "hydrophobic" : true,
+  "statusEffects" : [
+    "glow"
+  ]
+}

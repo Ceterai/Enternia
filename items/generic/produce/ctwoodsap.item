@@ -5,9 +5,7 @@
   "category" : "craftingMaterial",
   "inventoryIcon" : "ctwoodsap.png",
   "description" : "This ferment acts as aya wood sap and is what some fruits turn into when expire. Very sticky.",
-  "shortdescription" : "Enternia Ferment",
+  "shortdescription" : "Alterash Sap",
   "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [
-    "ctwoodsap"
-  ]
+  "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello" ]
 }

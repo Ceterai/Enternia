@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add", "path": "/ct_glow_smashables",
+    "value": [
+      [1, {
+        "pool" : [
+          {"weight" : 1, "item" : "glowfibre"}
+        ],
+        "poolRounds" : [
+          [0.3, 0],
+          [0.3, 1],
+          [0.4, 2]
+        ]
+      }]
+    ]
+  }
+]

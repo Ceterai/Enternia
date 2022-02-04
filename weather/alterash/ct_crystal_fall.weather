@@ -1,0 +1,21 @@
+{
+  "name" : "ct_crystal_fall",
+
+  "projectiles" : [
+    {
+      "projectile" : "ct_crystal_shard",
+      "parameters" : {
+        "power" : 6
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.1,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 15.0,
+  "weatherNoises" : [ ]
+}

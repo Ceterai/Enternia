@@ -1,0 +1,54 @@
+{
+  "name" : "ct_orbital_strike",
+
+  "projectiles" : [
+    {
+      "projectile" : "plasma2",
+      "parameters" : {
+        "power" : 8
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.05,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 0.0
+    },
+    {
+      "projectile" : "plasma4pink",
+      "parameters" : {
+        "power" : 12
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.05,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "doomshot",
+      "parameters" : {
+        "power" : 20
+      },
+      "velocity" : [0, -90],
+      "ratePerX" : 0.04,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 0.0
+    },
+    {
+      "projectile" : "redplasmatorpedo",
+      "parameters" : {
+        "power" : 64
+      },
+      "velocity" : [0, -90],
+      "ratePerX" : 0.02,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 0.0
+    }
+  ],
+
+  "duration" : [40, 60],
+  "maximumWind" : 10.0,
+  "weatherNoises" : [ "/sfx/objects/bluealert.ogg" ]
+}

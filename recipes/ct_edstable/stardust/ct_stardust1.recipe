@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 5 },
+    { "item" : "moondust", "count" : 5 }
+  ],
+  "output" : { "item" : "ct_stardust", "count" : 1 },
+  "groups" : [ "stardust" ]
+}

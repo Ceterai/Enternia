@@ -1,12 +1,38 @@
 [
   {
-    "op" : "add",
-    "path" : "/ctforest",
-    "value" : [
-      [0.7, "clear"],
-      [0.16, "ctrainweather"],
-      [0.04, "ctdrizzleweather"],
-      [0.10, "ctstormweather"]
+    "op" : "add", "path" : "/ct_alterash_normal", "value" : [
+      [0.66, "clear"],
+      [0.14, "ct_ionic_rain"],
+      [0.10, "ct_glow_rain"],
+      [0.08, "ct_ionic_storm"],
+      [0.04, "ct_ionic_drizzle"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_crystal", "value" : [
+      [0.55, "clear"],
+      [0.4, "ct_glow_rain"],
+      [0.2, "ct_ionic_rain"],
+      [0.2, "ct_crystal_fall"],
+      [0.05, "ct_ionic_drizzle"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_stardust", "value" : [
+      [0.55, "clear"],
+      [0.4, "ct_stardust_fall"],
+      [0.2, "ct_ionic_rain"],
+      [0.2, "ct_stardust_storm"],
+      [0.05, "ct_glow_rain"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_hazardous", "value" : [
+      [0.2, "clear"],
+      [0.2, "ct_crystal_fall"],
+      [0.2, "ct_stardust_storm"],
+      [0.2, "ct_ionic_storm"],
+      [0.2, "ct_orbital_strike"]
     ]
   }
 ]

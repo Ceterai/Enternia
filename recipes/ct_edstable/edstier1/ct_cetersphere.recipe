@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetereye", "count" : 1 },
+    { "item" : "crystal", "count" : 50 }
+  ],
+  "output" : { 
+    "item" : "ct_cetersphere",
+    "count" : 1 
+  },
+  "groups" : [ "edstier1", "edslabs" ]
+}

@@ -1,87 +1,102 @@
 [
-  {
-    "op" : "add",
-    "path" : "/planetTypes/ctforest",
-    "value" : {
-      "threatRange" : [4, 6],
-      "layers" : {
-        "surface" : {
-          "primaryRegion" : [ "ctforest" ],
-          "secondaryRegions" : [ "ctforestlabs", "ctforestpoptop" ],
-          "dungeonCountRange" : [3, 4],
-          "dungeons" : [
-            [4.0, "apextestfacility"], [3.0, "apexbase"],
-            [3.0, "cultistlair"],
-            [1.0, "hylotlcity"],
-            [1.0, "floranvillagetower"]
-          ]
-        },
-        "subsurface" : {
-          "primaryRegion" : ["ctforestsub"],
-          "secondaryRegions" : []
-        },
-        "underground1" : {
-          "primaryRegion" : ["ctforestsub"],
-          "secondaryRegions" : [ "ctforesthive" ]
-        },
-        "underground2" : {
-          "primaryRegion" : ["ctforestsub2"],
-          "secondaryRegions" : [ "ctforesthive" ]
-        },
-        "underground3" : {
-          "primaryRegion" : ["ctforestsub2"],
-          "secondaryRegions" : []
-        }
-      }
+  { "op": "add", "path": "/planetTypes/ct_alterash_planet", "value": {
+    "threatRange": [4, 6], "layers": {
+      "space" : { "primaryRegion" : ["ct_alterash_space"] },
+      "surface": { "primaryRegion": ["ct_alterash_garden"], "secondaryRegions": ["ct_alterash_labs", "ct_alterash_valley"],
+        "dungeonCountRange": [2, 3], "dungeons": [[4,"apextestfacility"], [4,"apexbase"], [1,"hylotlcity"]] },
+      "subsurface": { "primaryRegion": ["ct_alterash_caves"] },
+      "underground1": { "primaryRegion": ["ct_alterash_deep"], "secondaryRegions": ["ct_alterash_deep_flooded", "ct_alterash_deep_hive"] },
+      "underground2": { "primaryRegion": ["ct_alterash_deeper_crystal"], "secondaryRegions": ["ct_alterash_deeper_yaara"] },
+      "underground3": { "primaryRegion": ["ct_alterash_deepest"], "secondaryRegions": ["ct_alterash_deepest_warped", "ct_alterash_deepest_enternia"],
+        "dungeonCountRange": [3, 4], "dungeons": [[4,"apextestfacility"], [4,"apexbase"], [3,"cultistlair"]] },
+      "core": { "primaryRegion": ["ct_alterash_core"], "secondaryRegions": ["ct_alterash_core_enternia", "ct_alterash_core_barrens"] }
     }
-  },
-  {
-    "op" : "add",
-    "path" : "/regionTypes/ctforest",
-    "value" : {
-      "caveLiquid" : [ "water" ],
-      "caveLiquidChanceRange" : [10, 50],
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [ [0, [ "ctforest" ]] ],
-      "subRegion" : ["ctforestlabs", "ctforestpoptop"]
-    }
-  },
-  {
-    "op" : "add",
-    "path" : "/regionTypes/ctforestlabs",
-    "value" : {
-      "caveLiquid" : [ "water" ],
-      "caveLiquidChanceRange" : [10, 10],
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [ [0, [ "ctforestlabs" ]] ]
-    }
-  },
-  {
-    "op" : "add",
-    "path" : "/regionTypes/ctforestpoptop",
-    "value" : {
-      "caveLiquid" : [ "water" ],
-      "caveLiquidChanceRange" : [10, 10],
-      "blockSelector" : [ "remixedSwampySurface", "remixedPoolsSurface" ],
-      "fgCaveSelector" : [ "surfaceCaves" ],
-      "bgOreSelector" : [ "empty" ],
-      "biome" : [ [0, [ "ctforestpoptop" ]] ]
-    }
-  },
-  {
-    "op" : "add", "path" : "/regionTypes/ctforestsub",
-    "value" : { "caveLiquid" : [ "water" ], "biome" : [ [0, [ "ctforestsub" ]] ], "subRegion" : ["ctforesthive"] }
-  },
-  {
-    "op" : "add", "path" : "/regionTypes/ctforestsub2",
-    "value" : { "caveLiquid" : [ "water", "poison" ], "biome" : [ [0, [ "ctforestsub2" ]] ] }
-  },
-  {
-    "op" : "add", "path" : "/regionTypes/ctforesthive",
-    "value" : { "caveLiquid" : [ "water", "poison" ], "biome" : [ [0, [ "ctforesthive" ]] ], "subRegion" : ["ctforestsub"] }
-  }
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_space", "value" : {
+      "blockSelector": ["asteroids"], "fgCaveSelector": ["empty"],
+      "biome": [[0,[ "ct_enternia_asteroids" ]]]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_garden", "value" : { "caveLiquid":["water"],"caveLiquidSeedDensityRange":[20,20],
+      "blockSelector": ["remixedSwampySurface"], "fgCaveSelector": ["surfaceCaves"],
+      "biome": [[0,[ "ct_alterash_garden" ]]], "subRegion": ["ct_alterash_labs", "ct_alterash_valley"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_labs", "value" : { "caveLiquid":["water"],
+      "blockSelector": ["remixedSwampySurface"], "fgCaveSelector": ["surfaceCaves"],
+      "biome": [[0,[ "ct_alterash_labs" ]]], "subRegion": ["ct_alterash_garden", "ct_alterash_valley", "ct_alterash_haven"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_valley", "value" : { "caveLiquid":["water"],"caveLiquidSeedDensityRange":[10,10],
+      "blockSelector": [ "remixedSwampySurface"], "fgCaveSelector": ["sparseCaves"], "fgOreSelector": ["empty"],
+      "biome": [[0,[ "ct_alterash_valley" ]]], "subRegion": ["ct_alterash_labs", "ct_alterash_garden", "ct_alterash_haven"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_haven", "value" : { "caveLiquid":["water"],"caveLiquidSeedDensityRange":[10,10],
+      "blockSelector": [ "remixedSwampySurface"], "fgCaveSelector": ["sparseCaves"], "fgOreSelector": ["empty"],
+      "biome": [[0,[ "ct_alterash_haven" ]]], "subRegion": ["ct_alterash_labs", "ct_alterash_valley", "ct_alterash_garden"]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_caves", "value": {
+    "caveLiquid": ["water"],
+    "biome": [[0,[ "ct_alterash_caves" ]]]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_deep", "value": {
+    "caveLiquid": ["water", "poison"],
+    "biome": [[0,[ "ct_alterash_caves_deep" ]]], "subRegion": ["ct_alterash_deep_flooded", "ct_alterash_deep_hive"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deep_flooded", "value": {
+    "caveLiquid": ["water"], "caveLiquidSeedDensityRange": [150, 150],
+    "biome": [[0,[ "ct_alterash_flooded" ]]], "subRegion": ["ct_alterash_deep_yaara", "ct_alterash_deep", "ct_alterash_deep_hive"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deep_yaara", "value": {
+    "caveLiquid": ["poison"],
+    "biome": [[0,[ "ct_alterash_yaara" ]]], "subRegion": ["ct_alterash_deep", "ct_alterash_deep_flooded"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deep_hive", "value": {
+    "caveLiquid": ["water", "poison"],
+    "biome": [[0,[ "ct_alterash_hive" ]]], "subRegion": ["ct_alterash_deep_yaara", "ct_alterash_deep", "ct_alterash_deep_flooded"]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_deeper_crystal", "value": {
+    "fgCaveSelector": ["ct_underworld_ceiling"], "bgCaveSelector": ["ct_underworld_ceiling_bg"], "caveLiquid": ["water"],
+    "biome" : [[0,[ "ct_alterash_crystal" ]]], "subRegion": ["ct_alterash_deeper_yaara"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deeper_yaara", "value": { "caveLiquidSeedDensityRange": [10, 10],
+    "fgCaveSelector": ["ct_underworld_ceiling"], "bgCaveSelector": ["ct_underworld_ceiling_bg"], "caveLiquid": ["water"],
+    "biome" : [[0,[ "ct_alterash_yaara" ]]], "subRegion": ["ct_alterash_deeper_crystal"]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_deepest", "value": {
+    "blockSelector": ["ct_underworld"], "caveLiquid": ["water"],
+    "biome" : [[0,[ "ct_alterash_underworld" ]]], "subRegion": ["ct_alterash_deepest_spikes", "ct_alterash_deepest_warped", "ct_alterash_deepest_enternia"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deepest_spikes", "value": {
+    "blockSelector": ["ct_underworld_extreme_spikes"], "caveLiquid" : ["water"],
+    "biome" : [[0,[ "ct_alterash_underworld" ]]], "subRegion": ["ct_alterash_deepest", "ct_alterash_deepest_warped", "ct_alterash_deepest_enternia"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deepest_warped", "value": {
+    "blockSelector": ["ct_underworld"], "caveLiquid": ["poison"], "caveLiquidSeedDensityRange": [10, 10],
+    "biome" : [[0,[ "ct_alterash_warped" ]]], "subRegion": ["ct_alterash_deepest_spikes", "ct_alterash_deepest", "ct_alterash_deepest_enternia"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_deepest_enternia", "value": {
+    "blockSelector": ["ct_underworld"], "caveLiquid": ["fuel"],
+    "biome" : [[0,[ "ct_alterash_starforest" ]]], "subRegion": ["ct_alterash_deepest_spikes", "ct_alterash_deepest_warped", "ct_alterash_deepest"]
+  } },
+
+  { "op": "add", "path": "/regionTypes/ct_alterash_core", "value": { "fgCaveSelector":["coreCaves"],"bgCaveSelector":["coreBackgroundCaves"],
+    "caveLiquid": [ ], "oceanLiquid": ["corelava"], "oceanLevelOffset": -20,
+    "biome" : [ [0, [ "ct_alterash_core" ]] ], "subRegion" : ["ct_alterash_core_enternia", "ct_alterash_core_barrens"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_core_enternia", "value": { "fgCaveSelector":["coreCaves"],"bgCaveSelector":["coreBackgroundCaves"],
+    "caveLiquid": [ "fuel" ], "caveLiquidSeedDensityRange": [10, 10], "oceanLiquid": ["corelava"], "oceanLevelOffset": -20,
+    "biome" : [ [0, [ "ct_alterash_core_starfields" ]] ], "subRegion" : ["ct_alterash_core_haven", "ct_alterash_core_barrens", "ct_alterash_core"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_core_haven", "value": { "fgCaveSelector":["coreCaves"],"bgCaveSelector":["coreBackgroundCaves"],
+    "caveLiquid": [ ], "oceanLiquid": ["corelava"], "oceanLevelOffset": -20,
+    "biome" : [ [0, [ "ct_alterash_core_haven" ]] ], "subRegion" : ["ct_alterash_core_enternia", "ct_alterash_core_barrens", "ct_alterash_core"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_alterash_core_barrens", "value": { "fgCaveSelector":["coreCaves"],"bgCaveSelector":["coreBackgroundCaves"],
+    "caveLiquid": [ ], "oceanLiquid": ["corelava"], "oceanLevelOffset": -20,
+    "biome" : [ [0, [ "ct_alterash_core_barrens" ]] ], "subRegion" : ["ct_alterash_core_haven", "ct_alterash_core_enternia", "ct_alterash_core"]
+  } }
 ]

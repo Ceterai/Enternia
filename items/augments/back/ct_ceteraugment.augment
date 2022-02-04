@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_ceteraugment",
+  "price" : 2000,
+  "rarity" : "Rare",
+  "category" : "eppAugment",
+  "inventoryIcon" : "ct_ceteraugment.png",
+  "description" : "Boosts all electric damage by 1.5x.",
+  "shortdescription" : "Pure Energy Augment",
+  "tooltipKind" : "eppaugment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_ceteraugment",
+    "displayName" : "Pure Energy Augment",
+    "displayIcon" : "/items/augments/back/ct_ceteraugment.png",
+    "effects" : [ "ct_electricdamageboostaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

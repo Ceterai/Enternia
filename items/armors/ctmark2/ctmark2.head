@@ -6,7 +6,7 @@
   "rarity" : "Legendary",
   "category" : "headarmour",
   "description" : "\nA misterious device, that you can put on your head. What is its purpose?",
-  "shortdescription" : "^blue;C.T. Mindframe^reset;",
+  "shortdescription" : "^#2080f0;C.T. Mindframe^reset;",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
@@ -38,7 +38,7 @@
   ],
 
   "statusEffects" : [
-    "ctmind"
+    "ct_mind"
   ],
 
   "itemTags" : [ "tier6armour" ],

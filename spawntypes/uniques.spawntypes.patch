@@ -1,65 +1,68 @@
 [
   {"op": "add", "path": "/-", "value": {
-    "name" : "ctpoptop",
-    "spawnParameters" : {"area" : "surface","region" : "exposed","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.26,
-    "monsterType" : [ [0.58, "poptop"], [0.01, "albinopoptop"], [0.40, "adultpoptop"], [0.01, "albinoadultpoptop"] ],
-    "monsterParameters" : {"aggressive" : true}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "ctadultpoptop",
-    "spawnParameters" : {"area" : "surface","region" : "all","time" : "day"},
-    "groupSize" : [1, 1], "spawnChance" : 0.06,
-    "monsterType" : [ [0.99, "adultpoptop"], [0.01, "albinoadultpoptop"] ],
-    "monsterParameters" : {"aggressive" : true}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "ctscandroid",
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.08,
-    "monsterType" : [ [0.99, "scandroid"], [0.01, "cultistscandroid"] ],
-    "monsterParameters" : {"aggressive" : false}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "cticenarfin",
-    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.06,
-    "monsterType" : [ [1, "icenarfin"] ],
-    "monsterParameters" : {"aggressive" : true}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "ctnarfin",
-    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
-    "groupSize" : [1, 2], "spawnChance" : 0.05,
-    "monsterType" : [ [1, "narfin"] ],
-    "monsterParameters" : {"aggressive" : true}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "ctorbide",
-    "spawnParameters" : {"area" : "surface","region" : "exposed","time" : "night"},
-    "groupSize" : [1, 1], "spawnChance" : 0.16,
-    "monsterType" : [ [0.99, "orbide"], [0.01, "iceorbide"] ],
-    "monsterParameters" : {"aggressive" : true}
-  }},
-  {"op": "add", "path": "/-", "value": {
-    "name" : "ctminidrone",
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 2], "spawnChance" : 0.06,
+    "name" : "ct_drone_spawn",
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 2], "spawnChance" : 0.03,
     "monsterType" : [ [0.9, "ctdrone"], [0.1, "ctdrone2"] ],
     "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
-    "name" : "ctminidronesub",
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 2], "spawnChance" : 0.06,
-    "monsterType" : [ [0.9, "ctdrone2"], [0.1, "ctdrone3"] ],
+    "name" : "ct_narfin_spawn", "monsterType" : [ [1, "narfin"] ], "spawnChance" : 0.05,
+    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"}, "groupSize" : [1, 2], "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_poptop_spawn",
+    "spawnParameters" : {"area" : "surface","region" : "exposed","time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.26,
+    "monsterType" : [ [0.50, "poptop"], [0.01, "albinopoptop"], [0.40, "adultpoptop"], [0.01, "albinoadultpoptop"], [0.08, "ct_valleypoptop"] ],
     "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
-    "name" : "ctadultpoptopsub",
+    "name" : "ct_big_drone_spawn", "monsterType" : [ [0.8, "ct_shieldrone"], [0.2, "ct_sentrydrone"] ], "spawnChance" : 0.06,
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "monsterParameters" : {"aggressive" : false}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_night_orbide_spawn", "monsterType" : [ [0.95, "orbide"], [0.05, "ct_prismantler"] ], "spawnChance" : 0.16,
+    "spawnParameters" : {"area" : "surface","region" : "exposed","time" : "night"}, "groupSize" : [1, 1], "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_caves_drone_spawn",
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
+    "groupSize" : [1, 1], "spawnChance" : 0.04,
+    "monsterType" : [ [0.65, "ctdrone2"], [0.20, "ctdrone3"], [0.15, "ct_engineerdrone"] ],
+    "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_caves_narfin_spawn",
     "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
     "groupSize" : [1, 1], "spawnChance" : 0.1,
-    "monsterType" : [ [0.8, "adultpoptop"], [0.2, "albinoadultpoptop"] ],
+    "monsterType" : [ [1, "icenarfin"] ],
+    "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_caves_poptop_spawn",
+    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
+    "groupSize" : [1, 1], "spawnChance" : 0.1,
+    "monsterType" : [ [0.79, "ct_crystalpoptop"], [0.19, "ct_rarecrystalpoptop"], [0.02, "ct_stardustpoptop"] ],
+    "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_core_drone_spawn",
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
+    "groupSize" : [1, 1], "spawnChance" : 0.07,
+    "monsterType" : [ [0.9, "ctdrone3"], [0.1, "ct_engineerdrone"] ],
+    "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_enternia_stardust_spawn",
+    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
+    "groupSize" : [1, 1], "spawnChance" : 0.1,
+    "monsterType" : [ [0.6, "narfin"], [0.4, "ct_stardustpoptop"] ],
+    "monsterParameters" : {"aggressive" : true}
+  }},
+  {"op": "add", "path": "/-", "value": {
+    "name" : "ct_enternia_barrens_spawn",
+    "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
+    "groupSize" : [1, 1], "spawnChance" : 0.1,
+    "monsterType" : [ [1.0, "swarpion"] ],
     "monsterParameters" : {"aggressive" : true}
   }}
 ]

@@ -1,0 +1,269 @@
+{
+  "type" : "ct_engineerdroneempty",
+  "shortdescription" : "EDS Engineer",
+  "description" : "This huge flying machine is able to construct new drones on the fly.",
+
+  "categories" : [ "ct_engineerdroneempty" ],
+  "parts" : [ "body" ],
+
+  "animation" : "ct_sentrydrone.animation",
+
+  "dropPools" : [ { "default" : "ct_big_tier3_drone_treasure", "bow" : "ct_big_tier3_drone_treasure" } ],
+
+  "baseParameters" : {
+    "monsterClass" : "rare",
+
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "seeThroughLiquid" : false,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "hurtWaitForGround" : false,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-animate",
+          "parameters" : {
+            "stateType" : "body",
+            "state" : "aggro",
+            "animationTime" : 0.6
+          }
+        }
+      ],
+
+      "spawnActions" : [
+        {
+          "name" : "action-nudge",
+          "parameters" : {
+            "minX" : -10,
+            "maxX" : 10,
+            "minY" : 10,
+            "maxY" : 20
+          }
+        }
+      ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 0.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 20,
+            "minimumRange" : 3,
+            "windupStopForce" : 50,
+            "windupState" : "fire",
+            "windupTime" : 0.8,
+
+            "projectileType" : "firelasershot",
+            "projectileParameters" : {
+              "speed" : 35
+            },
+            "fireOffset" : [0.5, 0],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "",
+            "fireSound" : "fire",
+
+            "winddownState" : "idle",
+            "winddownTime" : 2.0
+          }
+        }
+      ],
+
+      "periodicActions" : [
+      ],
+
+      "approachActions" : [
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-fly"
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-fly",
+          "parameters" : {
+            "wanderTime" : [2,4],
+            "groundDistance" : 8,
+            "ceilingDistance" : 8,
+            "xVelocity" : 4,
+            "yVelocity" : 12
+          }
+        }
+      ],
+
+      "concurrentActions" : [
+        {
+          "name" : "action-globaltag",
+          "parameters" : {
+            "tagName" : "aggro",
+            "tag" : ""
+          }
+        },
+        {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 2,
+            "spawnCooldown" : 1,
+            "monsterType" : "ct_minidrone"
+          }
+        }
+      ],
+
+      "concurrentHostileActions" : [
+        {
+          "name" : "action-globaltag",
+          "parameters" : {
+            "tagName" : "aggro",
+            "tag" : "aggro"
+          }
+        },
+        {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 3,
+            "spawnCooldown" : 1,
+            "monsterType" : "ct_minidrone"
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.625, 0.9375], [1.125, 0.4375], [1.125, -0.4375], [0.625, -0.9375], [-0.625, -0.9375], [-1.125, -0.4375], [-1.125, 0.4375], [-0.625, 0.9375] ],
+      "damage" : 9,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "electric",
+      "knockback" : 25,
+      "statusEffects" : [ "ctionizedrain" ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.2,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.625, 0.9375], [1.125, 0.4375], [1.125, -0.4375], [0.625, -0.9375], [-0.625, -0.9375], [-1.125, -0.4375], [-1.125, 0.4375], [-0.625, 0.9375] ],
+
+      "mass" : 2.5,
+      "walkSpeed" : 3,
+      "runSpeed" : 6,
+      "gravityEnabled" : false,
+
+      "airFriction" : 4,
+      "airForce" : 40,
+      "flySpeed" : 10
+    },
+
+    "bodyMaterialKind" : "robotic",
+
+    "knockoutTime" : 0.1,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "robotic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.2
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 120
+        },
+        "protection" : {
+          "baseValue" : 75.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireResistance" : {
+          "baseValue" : 0.3
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.3
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "nametagColor" : [64, 200, 255]
+  }
+}

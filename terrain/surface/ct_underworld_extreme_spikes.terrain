@@ -1,0 +1,38 @@
+{
+  "name" : "ct_underworld_extreme_spikes",
+
+  "type" : "displacement",
+
+  "xType" : "perlin",
+  "xOctaves" : 1,
+  "xFreq" : 0.07,
+  "xAmp" : 2,
+  "xXInfluence" : 0.3,
+  "xYInfluence" : 0.5,
+  "yType" : "perlin",
+  "yOctaves" : 3,
+  "yFreq" : 0.045,
+  "yAmp" : 130,
+  "yYInfluence" : 0,
+
+  "source" : {
+    "type" : "displacement",
+    "xType" : "perlin",
+    "xOctaves" : 1,
+    "xFreq" : 0.01,
+    "xAmp" : 0,
+    "yType" : "perlin",
+    "yOctaves" : 2,
+    "yFreq" : 0.03,
+    "yAmp" : 130,
+    "yClamp" : [130, 140],
+    "yClampSmoothing" : 3,
+    "yYInfluence" : 0.2,
+
+    "source" : {
+      "type" : "flatSurface",
+
+      "adjustment" : 140
+    }
+  }
+}

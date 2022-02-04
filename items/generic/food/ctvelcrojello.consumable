@@ -1,0 +1,24 @@
+{
+  "itemName" : "ctvelcrojello",
+  "rarity" : "Legendary",
+  "price" : 155,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctvelcrojello.png",
+  "description" : "Sweet jello, filled with electric particles, giving it a nice sour aftertaste. And making it quite sticky too - don't put it in your pocket!",
+  "shortdescription" : "Velcro Jello",
+  "effects" : [ [
+    {
+      "effect" : "electricStatusImmunity",
+      "duration" : 180
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : [ ],
+  "rottingMultiplier" : 0.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

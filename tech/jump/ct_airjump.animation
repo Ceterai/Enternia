@@ -1,0 +1,17 @@
+{
+  "particleEmitters" : {
+    "airJumpParticles" : {
+      "burstCount" : 8,
+      "particles" : [
+        {
+          "particle" : "doublejump",
+          "offset" : [0.2, -3]
+        }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "airJumpSound" : ["/sfx/tech/tech_doublejump.ogg"]
+  }
+}

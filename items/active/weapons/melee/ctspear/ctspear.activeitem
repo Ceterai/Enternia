@@ -1,0 +1,216 @@
+{
+  "itemName" : "ctspear",
+  "itemTags" : ["weapon", "melee", "spear", "upgradeableWeapon"],
+  "rarity" : "Rare",
+  "category" : "spear",
+  "level" : 4,
+  "price" : 1100,
+  "description" : "This belongs to Ceterai. How did you get it?",
+  "shortdescription" : "Asirai",
+  "tooltipKind" : "sword",
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "inventoryIcon" : "ctspear.png",
+  "animation" : "ctspear.animation",
+
+  "animationScripts" : [ "/items/active/effects/lightning.lua" ],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+  "aimOffset" : -1.0,
+
+
+
+  "altAbilityType" : "ct_chargedelementalspin",
+  "altAbility" : {
+    "name" : "Energy Seeker",
+    "type" : "ct_chargedelementalspin",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/ct_chargedelementalspin/ct_chargedelementalspin.lua"],
+    "class" : "ElementalSpin",
+
+    "chargeTime" : 4.0, "minChargeTime" : 0.5, "chargeLevels" : 5,
+    "lightningChargeLevels" : [
+      [0.80, 0, 0.02, [32, 128, 240, 75]],
+      [0.90, 0, 0.04, [32, 128, 240, 100]],
+      [1.00, 0, 0.06, [32, 128, 240, 125]],
+      [1.10, 0, 0.08, [32, 128, 240, 150]],
+      [1.20, 0, 0.10, [80, 80, 240, 175]]
+    ],
+
+    "energyUsage" : 40, "projectileEnergyCost" : 20, "cooldownTime" : 1.0, "spinRate" : -1750,
+
+    "damageConfig" : {
+      "damageSourceKind" : "electricspear",
+      "statusEffects" : [ ],
+      "knockbackMode" : "none",
+      "knockback" : 0,
+      "timeout" : 0.25,
+      "timeoutGroup" : "alt"
+    },
+    "projectileType" : "electricspinswoosh",
+    "projectileParameters" : { "knockback" : 15, "timeToLive": 2.0, "statusEffects" : [ "ct_overtension" ] },
+    "baseDps" : 4,
+
+    "cycleRotationOffsets" : [0, 7.5, -7.5],
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.35, "armRotation" : -160, "weaponRotation" : -40, "twoHanded" : false, "weaponOffset" : [0, 0],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.25, "armRotation" : -20, "weaponRotation" : -50, "twoHanded" : false, "weaponOffset" : [0, 1.5],
+        "allowRotate" : false, "allowFlip" : false
+      }
+    }
+  },
+
+
+
+  "primaryAbilityType" : "ct_stabndash",
+  "primaryAbility" : {
+    "name" : "Stab'n'Dash",
+    "type" : "ct_stabndash",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/ct_stabndash/ct_stabndash.lua"],
+    "class" : "SpearStab",
+
+    "fireTime" : 0.3,
+    "holdFireTime" : 0.4,
+    "baseDps" : 4,
+    "energyUsage" : 30,
+
+    "dashMaxSpeed" : 100, "dashControlForce" : 600, "maxDashTime" : 0.20, "freezeTime" : 0.1,
+
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "knockbackMode" : "aim",
+      "timeoutGroup" : "primary", "timeout" : 0.2
+    },
+
+    "holdDamageMultiplier" : 1.85,
+    "holdDamageConfig" : { "timeoutGroup" : "hold", "timeout" : 0.06 },
+
+    "comboSteps" : 4,
+    "flashTime" : 0.15,
+    "flashDirectives" : "fade=FFFFFFFF=0.15",
+    "comboSpeedFactor" : 0.5,
+    "edgeTriggerGrace" : 0.25,
+    "stepDamageConfig" : [
+      { "baseDamageFactor" : 1.25, "knockback" : 10, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.00, "knockback" : 5, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.45, "knockback" : 15, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 2.10, "knockback" : 30, "statusEffects" : [ "ct_overtension", "paralysis" ] }
+    ],
+    "swooshOffsetRegions" : [
+      [3.0, -0.5, 4.5, 5.0],
+      [1.5, -1.0, 5.5, 1.0],
+      [3.0, -0.5, 4.5, 5.0],
+      [0.75, 0.0, 6.25, 5.0]
+    ],
+    "projectileType" : "smallelectriccloud",
+    "projectileParameters" : { "power": 1, "knockbackMode": "none", "knockback": 0, "speed": 15, "timeToLive": 0.4 },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90, "weaponRotation" : 0, "twoHanded" : false, "weaponOffset" : [0, 0.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "dash" : {
+        "armRotation" : -25, "weaponRotation" : -65, "twoHanded" : true, "weaponOffset" : [0.0, 2.0],
+        "allowRotate" : false, "allowFlip" : false
+      },
+      "windup1" : {
+        "duration" : 0.025, "armRotation" : -110, "weaponRotation" : 20, "twoHanded" : false, "weaponOffset" : [0, 0.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "fire1" : {
+        "duration" : 0.1, "armRotation" : -20, "weaponRotation" : -70, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "wait1" : {
+        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup2" : {
+        "duration" : 0.0, "armRotation" : -15, "weaponRotation" : -60, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "fire2" : {
+        "duration" : 0.05, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "wait2" : {
+        "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup3" : {
+        "duration" : 0.05, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.1, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "wait3" : {
+        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup4" : {
+        "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "preslash4" : {
+        "duration" : 0.1, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : false
+      },
+      "fire4" : {
+        "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : false
+      }
+    }
+  },
+
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters":{
+    "rarity" : "Legendary",
+    "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
+    "category" : "axe",
+    "inventoryIcon" : "ctspearup.png",
+    "animation" : "ctspearup.animation",
+    "altAbility" : {
+      "projectileType" : "electricspinswoosh",
+      "projectileParameters" : { "knockback" : 25, "timeToLive": 2.5, "statusEffects" : [ "ct_overtension" ] },
+      "baseDps" : 4
+    },
+    "primaryAbility" : {
+      "fireTime" : 1.0,
+      "holdFireTime" : 1.6,
+      "baseDps" : 16,
+      "energyUsage" : 50,
+      "dashMaxSpeed" : 120, "maxDashTime" : 0.25,
+      "damageConfig" : {
+        "damageSourceKind" : "axe", "timeout" : 0.2
+      },
+      "holdDamageConfig" : { "timeoutGroup" : "hold", "timeout" : 0.06 },
+      "stances" : {
+        "wait1" : {
+          "duration" : 0.6, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+          "allowRotate" : true, "allowFlip" : true
+        },
+        "wait2" : {
+          "duration" : 0.6, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+          "allowRotate" : true, "allowFlip" : true
+        },
+        "wait3" : {
+          "duration" : 0.6, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+          "allowRotate" : true, "allowFlip" : true
+        }
+      }
+    },
+    "shortdescription":"Ammerax ^yellow;^reset;"
+  }
+}

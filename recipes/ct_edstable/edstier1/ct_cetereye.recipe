@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 50 },
+    { "item" : "moondust", "count" : 20 }
+  ],
+  "output" : { 
+    "item" : "ct_cetereye",
+    "count" : 1 
+  },
+  "groups" : [ "edstier1", "ceterai", "mod" ]
+}

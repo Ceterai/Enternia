@@ -1,41 +1,120 @@
 [
   {
     "op": "add",
-    "path": "/ct_enterniaChestTreasure",
+    "path": "/ct_alterashChestTreasure",
     "value": [
       [0, {
         "poolRounds" : [
-          [0.1, 1],
-          [0.4, 2],
-          [0.4, 3],
-          [0.1, 4]
+          [1.0, 1]
         ],
         "pool" : [
-          {"weight" : 0.30, "pool" : "maybeWeaponTreasure"},
-          {"weight" : 0.70, "pool" : "chestMoney"},
-          {"weight" : 0.40, "pool" : "healingItem"},
-          {"weight" : 0.40, "pool" : "thrownWeapon"},
+          {"weight" : 1.00, "pool" : "chestMoney"},
+          {"weight" : 0.25, "pool" : "healingItem"},
+          {"weight" : 0.25, "pool" : "thrownWeapon"},
           {"weight" : 0.05, "pool" : "weapon"},
-          {"weight" : 0.05, "pool" : "tool"},
-          {"weight" : 0.08, "item" : "manipulatormodule"},
-          {"weight" : 0.03, "item" : "techcard"},
-          {"weight" : 0.01, "item" : "upgrademodule"},
-          {"weight" : 0.01, "pool" : "instrument"},
+          {"weight" : 0.10, "pool" : "tool"},
+          {"weight" : 0.05, "item" : "manipulatormodule"},
+          {"weight" : 0.05, "item" : "techcard"},
+          {"weight" : 0.05, "item" : "upgrademodule"},
           {"weight" : 0.01, "pool" : "costume"},
-          {"weight" : 0.02, "item" : "ct_devices-codex"},
-          {"weight" : 0.02, "item" : "ct_notes_cen-codex"},
-          {"weight" : 0.02, "item" : "ct_notes_cmcen-codex"},
-          {"weight" : 0.02, "item" : "ct_notes_ctleave-codex"},
-          {"weight" : 0.02, "item" : "ct_notes_drones-codex"},
-          {"weight" : 0.02, "item" : "et_devices-codex"},
-          {"weight" : 0.05, "item" : "ct_decaystim"},
-          {"weight" : 0.10, "item" : "ctaya"},
-          {"weight" : 0.10, "item" : "ctgil"},
-          {"weight" : 0.10, "item" : "cttsay"},
+          {"weight" : 0.12, "item" : "ct_docs_cen-codex"},
+          {"weight" : 0.12, "item" : "ct_docs_ct-codex"},
+          {"weight" : 0.12, "item" : "ct_docs_eds-codex"},
+          {"weight" : 0.12, "item" : "ct_docs_drones-codex"},
+          {"weight" : 0.12, "item" : "ct_notes_mira_cen-codex"},
+          {"weight" : 0.12, "item" : "ct_notes_tiana_leave-codex"},
+          {"weight" : 0.24, "item" : "ctaya"},
+          {"weight" : 0.24, "item" : "ctgil"},
+          {"weight" : 0.24, "item" : "cttsay"},
           {"weight" : 0.30, "item" : "cttsaycola"},
           {"weight" : 0.30, "item" : "ctayasoda"},
-          {"weight" : 0.30, "item" : "ctcannedfood"},
-          {"weight" : 0.02, "item" : "cteye"}
+          {"weight" : 0.30, "item" : "ctcannedfood"}
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_alterash_tier1ChestTreasure",
+    "value": [
+      [0, {
+        "poolRounds" : [
+          [0.1, 2],
+          [0.4, 3],
+          [0.4, 4],
+          [0.1, 5]
+        ],
+        "pool" : [
+          {"weight" : 1.00, "pool" : "ct_alterashChestTreasure"},
+          {"weight" : 0.24, "item" : "titaniumbar"},
+          {"weight" : 0.05, "item" : "tier3chair"},
+          {"weight" : 0.05, "item" : "tier3door"},
+          {"weight" : 0.05, "item" : "tier3switch"},
+          {"weight" : 0.05, "item" : "tier3table"},
+          {"weight" : 0.05, "item" : "tier3bed"},
+          {"weight" : 0.15, "item" : "ct_cetereye"}
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_alterash_tier2ChestTreasure",
+    "value": [
+      [0, {
+        "poolRounds" : [
+          [0.1, 3],
+          [0.4, 4],
+          [0.4, 5],
+          [0.1, 6]
+        ],
+        "pool" : [
+          {"weight" : 1.00, "pool" : "ct_alterashChestTreasure"},
+          {"weight" : 0.08, "item" : "ct_edsarmor"},
+          {"weight" : 0.06, "item" : "ct_edsdiode"},
+          {"weight" : 0.005, "item" : "ctbody"},
+          {"weight" : 0.005, "item" : "ctlegs"},
+          {"weight" : 0.005, "item" : "ctmark1"},
+          {"weight" : 0.005, "item" : "ctgun1"},
+          {"weight" : 0.1, "item" : "ct_capsule"},
+          {"weight" : 0.1, "item" : "ct_capsule_red"},
+          {"weight" : 0.1, "item" : "ct_capsule_blue"},
+          {"weight" : 0.1, "item" : "ct_capsule_purple"}
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_alterashEndNoteTreasure",
+    "value": [
+      [0, {
+        "poolRounds" : [
+          [0.6, 0],
+          [0.4, 1]
+        ],
+        "pool" : [
+          {"weight" : 1, "item" : "ct_notes_maya_backdoor-codex"}
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_alterashEndTreasure",
+    "value": [
+      [0, {
+        "fill" : [
+          {"pool" : "ct_alterashEndNoteTreasure"}
+        ],
+        "poolRounds" : [
+          [0.1, 2],
+          [0.4, 3],
+          [0.4, 4],
+          [0.1, 5]
+        ],
+        "pool" : [
+          {"weight" : 1, "pool" : "ct_alterash_tier2ChestTreasure"}
         ]
       }]
     ]

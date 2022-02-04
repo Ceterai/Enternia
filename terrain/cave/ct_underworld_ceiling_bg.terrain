@@ -1,0 +1,42 @@
+{
+  "name" : "ct_underworld_ceiling_bg",
+
+  "type" : "minmax",
+  "sources" : [
+    {
+      //jaggy spikes
+      "type" : "displacement",
+      "xType" : "perlin",
+      "xOctaves" : 1,
+      "xFreq" : 0.01,
+      "xAmp" : 0,
+      "yType" : "perlin",
+      "yOctaves" : 3,
+      "yFreq" : 0.16,
+      "yAmp" : 20,
+      "yBias" : 0,
+      "yClamp" : [-5, 20],
+      "yClampSmoothing" : 5,
+      "yYInfluence" : 0,
+
+      "source" : {
+        //slightly shakey ceiling variation
+        "type" : "displacement",
+        "xType" : "perlin",
+        "xOctaves" : 1,
+        "xFreq" : 0.02,
+        "xAmp" : 10,
+        "yType" : "perlin",
+        "yOctaves" : 2,
+        "yFreq" : 0.015,
+        "yAmp" : 20,
+        "yYInfluence" : 0.2,
+
+        "source" : {
+          "type" : "flatSurface",
+          "adjustment" : -5
+        }
+      }
+    }
+  ]
+}

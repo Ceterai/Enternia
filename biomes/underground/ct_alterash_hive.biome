@@ -1,0 +1,139 @@
+{
+  "name" : "ct_alterash_hive",
+  "friendlyName" : "Hive on Alterash",
+  "statusEffects" : [ "ctbiomeelectric" ],
+  "mainBlock" : "hive",
+  "subBlocks" : [ "moonrock" ],
+  "ores" : "ct_alterash_depth1",
+
+  "hueShiftOptions" : [0],
+  "parallax" : "ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "orbide" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ], [ 1, "ct_caves_poptop_spawn" ] ] },
+      { "select" : 2, "pool" : [[1,"swarmcritter"],[1,"swarmflyingcritter"],[1,"rolypolycritter"],[1,"maggotcritter"]] }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "hivegrass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "hiveceilinggrass" ], "ceilingGrassModDensity" : 0.9,
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "hiveChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.1,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "hivebush1" ], [0.35, "hivebush2" ], [0.35, "hivebush3" ], [0.35, "hivebush4" ], [0.35, "hivebush5" ], [0.35, "buglike1" ], [0.35, "buglike2" ], [0.35, "buglike3" ], [0.35, "buglike4" ], [0.35, "buglike5" ], [0.35, "hivelight1" ], [0.35, "hivelight2" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 0.1,
+        "variants" : 11,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "buglike6" ], [0.35, "buglike7" ], [0.35, "buglike8" ], [0.35, "buglike9" ], [0.35, "buglike10" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 0.1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseMedium",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 180,
+        "treeStemHueShiftMax" : 180,
+        "treeStemList" : [ "podvine" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "hivemicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:minibiomeChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_podChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "hive" ],
+        "treeFoliageList" : [ "hive" ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:superCommon",
+
+        "type" : "tree",
+        "treeFoliageHueShiftMax" : 0,
+        "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "hivevine" ],
+        "treeFoliageList" : [ "" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      }
+    ]
+  }
+}

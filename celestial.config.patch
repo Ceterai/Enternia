@@ -1,16 +1,14 @@
 [
-  { "op" : "add", "path" : "/terrestrialHorizonGraphics/ctforest", "value" : {
-   "baseImages" : "/celestial/system/terrestrial/horizon/textures/forest_<selector>.png",
+  { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_planet", "value" : {
+   "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_<selector>.png",
     "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
     "maskRange" : [1, 25], "maskPerPlanetRange" : [3, 3] }
   },
-  { "op" : "add", "path" : "/terrestrialGraphics/ctforest", "value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ctforest/maskie<num>.png",
+  { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_planet", "value" : {
+    "baseImages" : "/celestial/system/terrestrial/biomes/ct_alterash_garden/maskie<num>.png",
     "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
     "dynamicsRange" : [1, 30], "baseCount" : 5 }
   },
-  { "op":"add", "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value":"ctforest" },
-  { "op":"add", "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value":"ctforest" },
-  { "op":"add", "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value":"ctforest" },
-  { "op":"add", "path":"/satelliteTypes/Tier3/baseParameters/terrestrialType/-", "value":"ctforest" }
+  { "op":"add", "path":"/planetaryTypes/Tier2/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+  { "op":"add", "path":"/satelliteTypes/Tier2/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" }
 ]

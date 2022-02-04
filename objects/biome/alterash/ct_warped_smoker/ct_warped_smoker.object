@@ -1,0 +1,67 @@
+{
+  "objectName" : "ct_warped_smoker",
+  "colonyTags" : ["alterash", "warped", "misc"],
+  "category" : "breakable",
+  "rarity" : "Common",
+  "price" : 105,
+  "race" : "generic",
+  "printable" : false,
+
+  "description" : "Smoke billows from this point.",
+  "shortdescription" : "Warped Smoke Source",
+  "apexDescription" : "Smoke seems to be coming from somewhere nearby.",
+  "avianDescription" : "This smoke is getting in my feathers!",
+  "floranDescription" : "Thiss smoke is getting in Floran's way!",
+  "glitchDescription" : "Confused. This smoke must have a origin.",
+  "humanDescription" : "This smoke must be coming from somewhere.",
+  "hylotlDescription" : "Smoke, but no fire? Quite the conundrum.",
+  "novakidDescription" : "I see smoke, did someone leave a kettle boilin'?",
+
+  "inventoryIcon" : "ct_warped_smokericon.png",
+  "orientations" : [
+    {
+      "image" : "ct_warped_smoker.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_warped_smoker.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "particleEmitter" : {
+    "emissionRate" : 0.25,
+    "emissionVariance" : 0.05,
+    "pixelOrigin" : [0, 0],
+
+    "particle" : {
+      "type" : "textured",
+      "image" : "/animations/volcanosmoke/volcanosmoke.png",
+      "size" : 1.0,
+      "color" : [210, 50, 50, 255],
+      "destructionAction" : "fade",
+      "destructionTime" : 3,
+      "initialVelocity" : [0, 0],
+      "timeToLive" : 15,
+      "layer" : "front",
+      "position" : [2, 3],
+      "collidesForeground" : true
+    },
+    "particleVariance" : {
+      "initialVelocity" : [3.0, 0.0],
+      "position" : [1, 1]
+    }
+  },
+
+  "smashOnBreak" : true,
+
+  "biomePlaced" : true
+}

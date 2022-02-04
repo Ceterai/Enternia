@@ -1,0 +1,20 @@
+{
+  "name" : "ct_mind",
+
+  "effectConfig" : {
+    "boltInterval" : 0.5,
+    "jumpDistance" : 10,
+    "healthDamageFactor" : 0.05,
+    "damageClampRange" : [5, 15]
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "ct_mind.lua"
+  ],
+
+  "animationConfig" : "ct_mind.animation",
+
+  "label" : "Static Field",
+  "icon" : "ct_mind.png"
+}

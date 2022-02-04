@@ -1,0 +1,17 @@
+{
+  "name" : "ct_airjump",
+  "type" : "legs",
+
+  "scripts" : ["ct_airjump.lua"],
+  "animator" : "ct_airjump.animation",
+
+  "description" : "You can jump in the air with a small cooldown, creating an electric cloud with each jump.",
+  "shortDescription" : "Air Jump",
+  "rarity" : "Legendary",
+  "icon" : "/tech/ct_airjump.png",
+
+  "chipCost" : 10,
+
+  "airJumpTimeout" : 1.0,
+  "airJumpModifier" : 0.65
+}

@@ -1,0 +1,23 @@
+{
+  "itemName" : "ct_entersphere",
+  "price" : 900,
+  "rarity" : "Rare",
+  "category" : "eppAugment",
+  "inventoryIcon" : "ct_entersphere.png",
+  "description" : "Provides powerful discarges of ^#8020f0;Enternia^reset; energy. Uses: crafting or as EPP module (2.0x electric dmg but consumes energy/health).",
+  "shortdescription" : "^#8020f0;Enter^reset;-Sphere",
+  "itemTags" : [ "reagent" ],
+  "tooltipKind" : "eppaugment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_entersphere",
+    "displayName" : "^#8020f0;Enter^reset;-Sphere",
+    "displayIcon" : "/items/generic/crafting/ct_entersphere.png",
+    "effects" : [ "ct_electricdamageboostenter" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -1,12 +1,10 @@
 [
   {
-    "op": "add",
-    "path": "/ctdroneTreasure",
+    "op": "add", "path": "/ct_drone_treasure",
     "value": [
       [1, {
         "pool" : [
-          {"weight" : 0.8, "pool" : "smallRobotTreasure"},
-          {"weight" : 0.2, "item" : "cteye"}
+          {"weight" : 1, "pool" : "smallRobotTreasure"}
         ],
         "poolRounds" : [
           [0.9, 0],
@@ -16,13 +14,102 @@
     ]
   },
   {
-    "op": "add",
-    "path": "/ctdrone3Treasure",
+    "op": "add", "path": "/ct_small_tier1_drone_treasure",
     "value": [
       [1, {
         "fill" : [
-          {"item" : "ctlaserdiode"},
-          {"pool" : "smallRobotTreasure"}
+          {"pool" : "ct_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 0.9, "item" : "titaniumbar"},
+          {"weight" : 0.1, "item" : "ct_cetereye"}
+        ],
+        "poolRounds" : [
+          [0.99, 0],
+          [0.01, 1]
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_big_tier1_drone_treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"pool" : "ct_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 0.5, "item" : "titaniumbar"},
+          {"weight" : 0.45, "item" : "ct_cetereye"},
+          {"weight" : 0.05, "item" : "ct_cetersphere"}
+        ],
+        "poolRounds" : [
+          [0.95, 0],
+          [0.05, 1]
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_small_tier2_drone_treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"pool" : "ct_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 0.1, "item" : "ct_edsarmor"}
+        ],
+        "poolRounds" : [
+          [0.95, 0],
+          [0.05, 1]
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_big_tier2_drone_treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"pool" : "ct_small_tier2_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 0.95, "pool" : "ct_small_tier2_drone_treasure"},
+          {"weight" : 0.05, "item" : "ct_edsarmor"}
+        ],
+        "poolRounds" : [
+          [0.5, 1],
+          [0.5, 2]
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_small_tier3_drone_treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"item" : "ct_edsdiode"},
+          {"pool" : "ct_small_tier2_drone_treasure"}
+        ]
+      }]
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_big_tier3_drone_treasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"pool" : "ct_big_tier2_drone_treasure"},
+          {"pool" : "ct_big_tier2_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 1, "item" : "ct_edsdiode"}
+        ],
+        "poolRounds" : [
+          [0.5, 2],
+          [0.5, 3]
         ]
       }]
     ]

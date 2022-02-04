@@ -1,0 +1,16 @@
+{
+  "name" : "ct_electricdamageboostaugment",
+
+  "effectConfig" : {
+    "damageModifier" : 1.5,
+    "consumeEnergy" : 0
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [
+    "ct_electricdamageboost.lua"
+  ],
+
+  "label" : "Electric Damage x1.5",
+  "icon" : "ct_electricdamageboost.png"
+}

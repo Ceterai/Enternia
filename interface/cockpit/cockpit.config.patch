@@ -1,32 +1,27 @@
-//updated format for 1.0
-[{"op":"add","path":"/visitableTypeDescription/ctforest",
-"value":[
-"^#0087ff;Enternia^white; forests are home to insteresting fruits and creatures. Pieces of moonstones can be found here, buried in the ground.",
-"Scanners show this planet is covered in dense forests and rivers. Almost unknown flora type - ^#0087ff;enternia^white; - is nearly only thing, that can be found here.",
-"It seems like this planet is teeming with lifeforms. Flora type - ^#0087ff;enternia^white;. It is recommended to be careful out there.",
-"Planet is overrun with ^#0087ff;enternia^white;. The flora of this planet includes rare crops and plants, but the data says it is best to not land there at night.",
-"This is ^#0087ff;enternia^white;. Pieces of moonstones and moonrocks are scattered everywhere. The flora of this planet consists of rare crops and plants. At night this planet becomes more dangerous then ever."
-]},
-{"op":"add","path":"/planetTypeNames/ctforest",
-"value":"Enternia"},
-{"op":"add","path":"/planetTypeColors/ctforest",
-"value":[0, 135, 255]},
-{"op":"add","path":"/displayWeathers/ctrainweather",
-"value":{
-      "displayName" : "Ionic Rain",
-      "icon" : "/interface/cockpit/weather/ctrain.png"
-    }},
-{"op":"add","path":"/displayWeathers/ctdrizzleweather",
-"value":{
-      "displayName" : "Drizzle",
-      "icon" : "/interface/cockpit/weather/drizzle.png"
-    }},
-{"op":"add","path":"/displayWeathers/ctstormweather",
-"value":{
-      "displayName" : "Ionic Storms",
-      "icon" : "/interface/cockpit/weather/ctthunder.png"
-    }}
+[
+  { "op": "add", "path": "/planetTypeNames/ct_alterash_planet", "value": "Alterash" },
+  { "op": "add", "path": "/planetTypeColors/ct_alterash_planet", "value": [32, 128, 240] },
+  {
+    "op": "add", "path": "/visitableTypeDescription/ct_alterash_planet", "value":[
+      "The forests of this planet are home to exotic fruits and creatures. Plasts of crystals and prisms can be found here, buried in the ground.",
+      "Scanners show this planet is covered in dense forests and rivers. Effects of ^#8020f0;Enternia^white; can be found throughout the surface.",
+      "It seems like this planet is teeming with lifeforms. Scanners detect ^#8020f0;Enternia^white; in the atmosphere. It is recommended to be careful.",
+      "Planet is overrun with ^#8020f0;Enternia^white;. Additionally, the data suggests it is best to not land there at night or during bad weather.",
+      "^#8020f0;Enternia^white; effects detected. Pieces of moonstones and moonrocks are scattered everywhere. The flora consists of rare crops and plants."
+    ]
+  },
+
+  { "op": "add", "path": "/displayWeathers/ct_ionic_rain", "value": { "displayName": "Ionic Rain", "icon": "/interface/cockpit/weather/ct_ionic_rain.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_ionic_drizzle", "value": { "displayName" : "Drizzle", "icon" : "/interface/cockpit/weather/drizzle.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_ionic_storm", "value": { "displayName" : "Ionic Storm", "icon" : "/interface/cockpit/weather/ct_ionic_storm.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_glow_rain", "value": { "displayName" : "Glowing Rain", "icon" : "/interface/cockpit/weather/ct_glow_rain.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_crystal_fall", "value": { "displayName" : "Crystal Fall", "icon" : "/interface/cockpit/weather/ct_crystal_fall.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_stardust_fall", "value": { "displayName" : "Stardust Fall", "icon" : "/interface/cockpit/weather/ct_stardust_fall.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_stardust_storm", "value": { "displayName" : "Stardust Storm", "icon" : "/interface/cockpit/weather/ct_stardust_storm.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_orbital_strike", "value": { "displayName" : "Orbital Strike", "icon" : "/interface/cockpit/weather/ct_orbital_strike.png" } },
 
 
 
+  { "op": "add", "path": "/planetTypeNames/ctforest", "value": "Old Enternia" }, { "op": "add", "path": "/planetTypeColors/ctforest", "value": [110, 32, 240] },
+  { "op": "add", "path": "/visitableTypeDescription/ctforest", "value": [ "This planet was once overrun with ^#0087ff;Enternia^white;. Perhaps you should find a new one." ] }
 ]

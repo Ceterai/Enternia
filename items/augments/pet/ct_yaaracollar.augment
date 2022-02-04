@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_yaaracollar",
+  "price" : 5500,
+  "rarity" : "Rare",
+  "tooltipKind" : "petcollar",
+  "category" : "petCollar",
+  "inventoryIcon" : "ct_yaaracollar.png",
+  "description" : "A collar that makes your pet immune to Enternia effects.",
+  "shortdescription" : "Conscious Collar",
+
+  "collar" : {
+    "name" : "ct_yaaracollar",
+    "displayName" : "Conscious",
+    "displayIcon" : "/items/augments/pet/ct_yaaracollar.png",
+    "effects" : [ "enterniaStatusImmunity" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+
+  "scripts" : [ "/scripts/augments/collar.lua" ]
+}
