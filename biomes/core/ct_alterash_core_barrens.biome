@@ -60,11 +60,15 @@
         "treasureBoxSets" : [ "ct_small_cargoChest" ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_big_cargoChest" ]
       },
       {
-        "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_big_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
       },
       // Other

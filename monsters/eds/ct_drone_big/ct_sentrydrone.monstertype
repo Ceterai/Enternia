@@ -47,27 +47,26 @@
       "hostileActions" : [
         {
           "name" : "action-fire",
-          "cooldown" : 0.0,
+          "cooldown" : 3.0,
           "parameters" : {
             "requireLineOfSight" : true,
             "maximumRange" : 20,
             "minimumRange" : 3,
             "windupStopForce" : 50,
             "windupState" : "fire",
-            "windupTime" : 0.8,
+            "windupTime" : 0.3,
 
-            "projectileType" : "firelasershot",
-            "projectileParameters" : {
-              "speed" : 35
-            },
-            "fireOffset" : [0.5, 0],
+            "projectileType" : "bullet-4",
+            "projectileCount" : 30,
+            "projectileInterval" : 0.03,
+            "fireOffset" : [0, -1.5],
             "aimAtTarget" : true,
             "onGround" : false,
             "fireState" : "",
             "fireSound" : "fire",
 
             "winddownState" : "idle",
-            "winddownTime" : 2.0
+            "winddownTime" : 1.5
           }
         }
       ],

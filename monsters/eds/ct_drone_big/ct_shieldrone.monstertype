@@ -58,8 +58,8 @@
           "cooldown" : 4,
           "parameters" : {
             "requireLineOfSight" : true,
-            "maximumRange" : 10,
-            "minimumRange" : 3,
+            "maximumRange" : 15,
+            "minimumRange" : 0,
             "windupStopForce" : 50,
             "windupState" : "fire",
             "windupTime" : 0.4,

@@ -88,7 +88,7 @@
       "timeoutGroup" : "primary", "timeout" : 0.2
     },
 
-    "holdDamageMultiplier" : 1.85,
+    "holdDamageMultiplier" : 2.00,
     "holdDamageConfig" : { "timeoutGroup" : "hold", "timeout" : 0.06 },
 
     "comboSteps" : 4,
@@ -97,10 +97,10 @@
     "comboSpeedFactor" : 0.5,
     "edgeTriggerGrace" : 0.25,
     "stepDamageConfig" : [
-      { "baseDamageFactor" : 1.25, "knockback" : 10, "statusEffects" : [ ] },
-      { "baseDamageFactor" : 1.00, "knockback" : 5, "statusEffects" : [ ] },
-      { "baseDamageFactor" : 1.45, "knockback" : 15, "statusEffects" : [ ] },
-      { "baseDamageFactor" : 2.10, "knockback" : 30, "statusEffects" : [ "ct_overtension", "paralysis" ] }
+      { "baseDamageFactor" : 1.35, "knockback" : 10, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.10, "knockback" : 5, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.55, "knockback" : 15, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 2.20, "knockback" : 30, "statusEffects" : [ "ct_overtension", "paralysis" ] }
     ],
     "swooshOffsetRegions" : [
       [3.0, -0.5, 4.5, 5.0],
@@ -129,7 +129,7 @@
         "allowRotate" : true, "allowFlip" : true
       },
       "wait1" : {
-        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "duration" : 0.15, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
         "allowRotate" : true, "allowFlip" : true
       },
       "windup2" : {
@@ -141,7 +141,7 @@
         "allowRotate" : false, "allowFlip" : true
       },
       "wait2" : {
-        "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "duration" : 0.15, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
         "allowRotate" : true, "allowFlip" : true
       },
       "windup3" : {
@@ -153,7 +153,7 @@
         "allowRotate" : true, "allowFlip" : true
       },
       "wait3" : {
-        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "duration" : 0.15, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
         "allowRotate" : true, "allowFlip" : true
       },
       "windup4" : {

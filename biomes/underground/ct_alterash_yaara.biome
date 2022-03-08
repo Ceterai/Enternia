@@ -71,7 +71,11 @@
         "objectSets" : [ { "pool" : [[1,"ct_yaara_bulb"]], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_yaara_heart" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_yaara_heart" ] ], "parameters" : { } } ]
       },
       {
@@ -93,6 +97,10 @@
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "tree",
         "treeStemList" : [ "ct_yaara" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_yaaraChest" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",

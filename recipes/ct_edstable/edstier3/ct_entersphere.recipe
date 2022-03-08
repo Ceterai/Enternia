@@ -1,9 +1,9 @@
 {
   "input" : [
     { "item" : "prisiliteore", "count" : 50 },
+    { "item" : "liquidfuel", "count" : 50 },
     { "item" : "glowfibre", "count" : 50 },
-    { "item" : "ct_enterite", "count" : 5 },
-    { "item" : "staticcell", "count" : 2 }
+    { "item" : "ct_enterite", "count" : 5 }
   ],
   "output" : { 
     "item" : "ct_entersphere",

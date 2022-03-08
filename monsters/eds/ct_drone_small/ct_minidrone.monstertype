@@ -5,11 +5,12 @@
 
   "categories" : [ "ct_minidrone" ],
   "parts" : [ "body" ],
+  "partParameters" : "ctdrone.partparams",
 
   "animation" : "ct_minidrone.animation",
   "reversed" : true,
 
-  "dropPools" : [ { "default" : "", "bow" : "ct_small_tier2_drone_treasure" } ],
+  "dropPools" : [ { "default" : "empty", "bow" : "ct_small_tier2_drone_treasure" } ],
 
   "baseParameters" : {
     "scripts" : [

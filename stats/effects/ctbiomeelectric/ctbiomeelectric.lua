@@ -9,7 +9,8 @@ function init()
   self.energyCost = config.getParameter("energyCost", 1)
   self.healthDamage = config.getParameter("healthDamage", 1)
   
-  script.setUpdateDelta(config.getParameter("tickRate", 1))
+  script.setUpdateDelta(config.getParameter("tickRate", 1) / 2)
+  self.doPenalty = false
 
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", effectiveMultiplier = 1}})
 
@@ -17,7 +18,21 @@ function init()
 end
 
 function update(dt)
-  if not status.overConsumeResource("energy", self.energyCost) or mcontroller.liquidId() == 1 then
+  if self.doPenalty then
+    self.doPenalty = false
+  else
+    self.doPenalty = true
+  end
+  if mcontroller.liquidId() == 1 then
+    mcontroller.controlModifiers(self.movementModifiers)
+    status.applySelfDamageRequest({
+        damageType = "IgnoresDef",
+        damage = self.healthDamage / 2,
+        damageSourceKind = "electric",
+        sourceEntityId = entity.id()
+      })
+  end
+  if not status.overConsumeResource("energy", self.energyCost) and self.doPenalty then
     mcontroller.controlModifiers(self.movementModifiers)
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",

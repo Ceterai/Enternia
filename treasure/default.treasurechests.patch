@@ -10,11 +10,31 @@
     ]
   },
   {
+    "op": "add", "path": "/ct_yaaraChest",
+    "value": [
+      {
+        "containers" : [ "podchest" ],
+        "treasurePool" : "ct_alterash_yaaraChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
     "op": "add", "path": "/ct_small_cargoChest",
     "value": [
       {
         "containers" : [ "outpostcargocrateshort" ],
         "treasurePool" : "ct_alterash_tier2ChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_warpedChest",
+    "value": [
+      {
+        "containers" : [ "outpostcargocrateshort" ],
+        "treasurePool" : "ct_alterash_warpedChestTreasure",
         "minimumLevel" : 0
       }
     ]

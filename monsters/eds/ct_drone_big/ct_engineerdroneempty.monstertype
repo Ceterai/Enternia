@@ -59,27 +59,28 @@
       "hostileActions" : [
         {
           "name" : "action-fire",
-          "cooldown" : 0.0,
+          "cooldown" : 2.0,
           "parameters" : {
             "requireLineOfSight" : true,
             "maximumRange" : 20,
             "minimumRange" : 3,
             "windupStopForce" : 50,
             "windupState" : "fire",
-            "windupTime" : 0.8,
+            "windupTime" : 0.3,
 
-            "projectileType" : "firelasershot",
+            "projectileType" : "redplasmatorpedo",
             "projectileParameters" : {
-              "speed" : 35
+              "power" : 64,
+              "speed" : 25
             },
-            "fireOffset" : [0.5, 0],
+            "fireOffset" : [0.5, -1.5],
             "aimAtTarget" : true,
             "onGround" : false,
             "fireState" : "",
             "fireSound" : "fire",
 
             "winddownState" : "idle",
-            "winddownTime" : 2.0
+            "winddownTime" : 1.5
           }
         }
       ],
@@ -116,36 +117,36 @@
 
       "concurrentActions" : [
         {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 2,
+            "spawnCooldown" : 3,
+            "monsterType" : "ct_minidrone"
+          }
+        },
+        {
           "name" : "action-globaltag",
           "parameters" : {
             "tagName" : "aggro",
             "tag" : ""
-          }
-        },
-        {
-          "name" : "action-spawncompanions",
-          "parameters" : {
-            "maxCount" : 2,
-            "spawnCooldown" : 1,
-            "monsterType" : "ct_minidrone"
           }
         }
       ],
 
       "concurrentHostileActions" : [
         {
+          "name" : "action-spawncompanions",
+          "parameters" : {
+            "maxCount" : 3,
+            "spawnCooldown" : 2,
+            "monsterType" : "ct_minidrone"
+          }
+        },
+        {
           "name" : "action-globaltag",
           "parameters" : {
             "tagName" : "aggro",
             "tag" : "aggro"
-          }
-        },
-        {
-          "name" : "action-spawncompanions",
-          "parameters" : {
-            "maxCount" : 3,
-            "spawnCooldown" : 1,
-            "monsterType" : "ct_minidrone"
           }
         }
       ]
@@ -208,7 +209,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 120
+          "baseValue" : 100
         },
         "protection" : {
           "baseValue" : 75.0

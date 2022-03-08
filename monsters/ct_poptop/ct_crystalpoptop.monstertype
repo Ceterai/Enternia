@@ -38,7 +38,7 @@
           "name" : "action-fire",
           "cooldown" : 10,
           "parameters" : {
-            "animationTime" : 0.53,
+            "animationTime" : 0.0,
             "maximumRange" : 15,
             "minimumRange" : 2,
             "windupState" : "",
@@ -46,7 +46,7 @@
 
             "projectileType" : "ct_crystal_shard",
             "projectileParameters" : {
-              "speed" : 10.0,
+              "speed" : 30.0,
               "timeToLive" : 1.0
             },
             "aimAtTarget" : false,

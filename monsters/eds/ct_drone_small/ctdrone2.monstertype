@@ -49,7 +49,7 @@
             "projectileParameters" : {
               "speed" : 35
             },
-            "fireOffset" : [0.5, 0.0],
+            "fireOffset" : [0.25, -0.25],
             "aimAtTarget" : true,
             "onGround" : false,
             "fireState" : "",
@@ -162,7 +162,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 30
+          "baseValue" : 25
         },
         "protection" : {
           "baseValue" : 30.0

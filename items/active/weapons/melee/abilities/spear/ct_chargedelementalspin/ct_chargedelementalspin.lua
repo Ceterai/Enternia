@@ -40,7 +40,7 @@ function ElementalSpin:windup()
     chargeLevel = self:setChargeLevel(chargeTimer, chargeLevel)
 
     if status.overConsumeResource("energy", self.energyUsage * self.dt) then
-      self.damageConfig.baseDamage = self.baseDps * chargeLevel / 4
+      self.damageConfig.baseDamage = self.baseDps * 1.5 * chargeLevel / 4
       local damageArea = partDamageArea("spinSwoosh")
       self.weapon:setDamage(self.damageConfig, damageArea)
     elseif duration == 0 then
