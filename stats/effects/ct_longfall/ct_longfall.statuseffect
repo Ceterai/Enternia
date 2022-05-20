@@ -1,0 +1,11 @@
+{
+  "name" : "ct_longfall",
+  "label" : "Halfed Falldamage",
+
+  "effectConfig" : {},
+  "defaultDuration" : 1.0,
+
+  "scripts" : [ "ct_longfall.lua" ],
+  "animationConfig" : "ct_longfall.animation",
+  "icon" : "ct_longfall.png"
+}

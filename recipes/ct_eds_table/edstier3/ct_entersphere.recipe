@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_enterite", "count" : 4 },
+    { "item" : "ctwoodsap", "count" : 8 },
+    { "item" : "crystal", "count" : 24 },
+  ],
+  "output" : { 
+    "item" : "ct_entersphere",
+    "count" : 1 
+  },
+  "groups" : [ "edstier3", "enternia" ]
+}

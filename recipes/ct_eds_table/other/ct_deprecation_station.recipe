@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "prisiliteore", "count" : 20 }
+  ],
+  "output" : { "item" : "ct_deprecation_station", "count" : 1 },
+  "groups" : [ "edstier1", "alterash_other" ]
+}

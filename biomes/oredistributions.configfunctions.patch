@@ -3,34 +3,29 @@
   {
     "op":"add", "path":"/ct_alterash_depth1",
     "value": [
-      [0.5, [ [ "crystal", 0.70 ], [ "diamond", 0.00 ], [ "titanium", 0.30 ], [ "durasteel", 0.00 ] ] ],
-      [1.5, [ [ "crystal", 0.70 ], [ "diamond", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.30 ] ] ],
-      [2.5, [ [ "crystal", 0.70 ], [ "diamond", 0.00 ], [ "titanium", 0.30 ], [ "durasteel", 0.30 ] ] ]
+      [0.5, [ [ "prisilite", 0.70 ], [ "diamond", 0.00 ], [ "titanium", 0.30 ] ] ],
+      [3.5, [ [ "crystal", 0.70 ], [ "diamond", 0.00 ], [ "durasteel", 0.30 ] ] ]
     ]
   },
   {
     "op":"add", "path":"/ct_alterash_depth2",
     "value": [
-      [0.5, [ [ "crystal", 1.00 ], [ "diamond", 0.10 ], [ "titanium", 0.60 ], [ "durasteel", 0.00 ] ] ],
-      [1.5, [ [ "crystal", 1.00 ], [ "diamond", 0.10 ], [ "titanium", 0.00 ], [ "durasteel", 0.60 ] ] ],
-      [2.5, [ [ "crystal", 1.00 ], [ "diamond", 0.10 ], [ "titanium", 0.60 ], [ "durasteel", 0.60 ] ] ]
+      [0.5, [ [ "prisilite", 1.00 ], [ "diamond", 0.05 ], [ "titanium", 0.60 ] ] ],
+      [3.5, [ [ "crystal", 1.00 ], [ "diamond", 0.10 ], [ "durasteel", 0.60 ] ] ]
     ]
   },
   {
     "op":"add", "path":"/ct_alterash_core",
     "value": [
-      [0.5, [ [ "diamond", 0.25 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ] ] ],
-      [1.5, [ [ "diamond", 0.25 ], [ "titanium", 0.00 ], [ "durasteel", 0.80 ] ] ],
-      [2.5, [ [ "diamond", 0.25 ], [ "titanium", 1.00 ], [ "durasteel", 0.00 ] ] ],
-      [3.5, [ [ "diamond", 0.25 ], [ "titanium", 0.80 ], [ "durasteel", 1.00 ] ] ]
+      [0.5, [ [ "diamond", 0.25 ], [ "titanium", 0.80 ] ] ],
+      [3.5, [ [ "diamond", 0.30 ], [ "durasteel", 0.80 ] ] ]
     ]
   },
   {
     "op":"add", "path":"/ct_alterash_core_enternia",
     "value": [
-      [0.5, [ [ "prisilite", 1.00 ], [ "titanium", 0.60 ], [ "durasteel", 0.00 ] ] ],
-      [1.5, [ [ "prisilite", 1.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.60 ] ] ],
-      [2.5, [ [ "prisilite", 1.00 ], [ "titanium", 0.60 ], [ "durasteel", 0.60 ] ] ]
+      [0.5, [ [ "prisilite", 1.00 ], [ "titanium", 0.60 ] ] ],
+      [3.5, [ [ "prisilite", 1.00 ], [ "durasteel", 0.60 ] ] ]
     ]
   }
 ]

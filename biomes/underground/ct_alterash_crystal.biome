@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_crystal",
   "friendlyName" : "Electric Crystal Caves",
-  "statusEffects" : [ "ctbiomeelectric" ],
+  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "crystalblock", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -46,7 +46,7 @@
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",

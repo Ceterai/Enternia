@@ -1,0 +1,13 @@
+{
+  "name" : "ct_energizer",
+  "label" : "Energizer",
+
+  "effectConfig" : {
+    "healTime" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_energy_generator.lua" ],
+  "animationConfig" : "ct_energy_generator.animation",
+  "icon" : "ct_energizer.png"
+}

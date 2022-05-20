@@ -1,12 +1,12 @@
 [
   {"op": "add", "path": "/-", "value": {
     "name" : "ct_drone_spawn",
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 2], "spawnChance" : 0.03,
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 2], "spawnChance" : 0.02,
     "monsterType" : [ [0.9, "ctdrone"], [0.1, "ctdrone2"] ],
     "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
-    "name" : "ct_narfin_spawn", "monsterType" : [ [1, "narfin"] ], "spawnChance" : 0.05,
+    "name" : "ct_narfin_spawn", "monsterType" : [ [1, "narfin"] ], "spawnChance" : 0.08,
     "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"}, "groupSize" : [1, 2], "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
@@ -16,7 +16,7 @@
     "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
-    "name" : "ct_big_drone_spawn", "monsterType" : [ [0.8, "ct_shieldrone"], [0.2, "ct_sentrydrone"] ], "spawnChance" : 0.06,
+    "name" : "ct_big_drone_spawn", "monsterType" : [ [0.8, "ct_shieldrone"], [0.2, "ct_sentrydrone"] ], "spawnChance" : 0.04,
     "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "monsterParameters" : {"aggressive" : false}
   }},
   {"op": "add", "path": "/-", "value": {
@@ -26,7 +26,7 @@
   {"op": "add", "path": "/-", "value": {
     "name" : "ct_caves_drone_spawn",
     "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.04,
+    "groupSize" : [1, 1], "spawnChance" : 0.03,
     "monsterType" : [ [0.65, "ctdrone2"], [0.20, "ctdrone3"], [0.15, "ct_engineerdrone"] ],
     "monsterParameters" : {"aggressive" : true}
   }},
@@ -47,14 +47,14 @@
   {"op": "add", "path": "/-", "value": {
     "name" : "ct_core_drone_spawn",
     "spawnParameters" : {"area" : "air","region" : "all","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.05,
+    "groupSize" : [1, 1], "spawnChance" : 0.04,
     "monsterType" : [ [0.9, "ctdrone3"], [0.1, "ct_engineerdrone"] ],
     "monsterParameters" : {"aggressive" : true}
   }},
   {"op": "add", "path": "/-", "value": {
     "name" : "ct_enternia_stardust_spawn",
     "spawnParameters" : {"area" : "surface","region" : "all","time" : "all"},
-    "groupSize" : [1, 1], "spawnChance" : 0.1,
+    "groupSize" : [1, 1], "spawnChance" : 0.15,
     "monsterType" : [ [0.6, "narfin"], [0.4, "ct_stardustpoptop"] ],
     "monsterParameters" : {"aggressive" : true}
   }},

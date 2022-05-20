@@ -21,12 +21,12 @@
           {"pool" : "ct_drone_treasure"}
         ],
         "pool" : [
-          {"weight" : 0.9, "item" : "titaniumbar"},
-          {"weight" : 0.1, "item" : "ct_cetereye"}
+          {"weight" : 0.95, "item" : "titaniumbar"},
+          {"weight" : 0.05, "item" : "ct_alta_combat_droid_head"}
         ],
         "poolRounds" : [
-          [0.99, 0],
-          [0.01, 1]
+          [0.95, 0],
+          [0.05, 1]
         ]
       }]
     ]
@@ -39,13 +39,13 @@
           {"pool" : "ct_drone_treasure"}
         ],
         "pool" : [
-          {"weight" : 0.5, "item" : "titaniumbar"},
-          {"weight" : 0.45, "item" : "ct_cetereye"},
-          {"weight" : 0.05, "item" : "ct_cetersphere"}
+          {"weight" : 0.900, "item" : "titaniumbar"},
+          {"weight" : 0.075, "item" : "ct_cetereye"},
+          {"weight" : 0.025, "item" : "ct_alta_combat_droid_back"}
         ],
         "poolRounds" : [
-          [0.95, 0],
-          [0.05, 1]
+          [0.80, 0],
+          [0.20, 1]
         ]
       }]
     ]
@@ -58,7 +58,8 @@
           {"pool" : "ct_drone_treasure"}
         ],
         "pool" : [
-          {"weight" : 0.1, "item" : "ct_edsarmor"}
+          {"weight" : 0.95, "item" : "ct_edsarmor"},
+          {"weight" : 0.05, "item" : "ct_alta_eds_droid_head"}
         ],
         "poolRounds" : [
           [0.95, 0],
@@ -75,8 +76,9 @@
           {"pool" : "ct_small_tier2_drone_treasure"}
         ],
         "pool" : [
-          {"weight" : 0.95, "pool" : "ct_small_tier2_drone_treasure"},
-          {"weight" : 0.05, "item" : "ct_edsarmor"}
+          {"weight" : 0.950, "pool" : "ct_small_tier2_drone_treasure"},
+          {"weight" : 0.045, "item" : "ct_edsarmor"},
+          {"weight" : 0.005, "item" : "ct_alta_eds_droid_back"}
         ],
         "poolRounds" : [
           [0.5, 1],
@@ -92,6 +94,14 @@
         "fill" : [
           {"item" : "ct_edsdiode"},
           {"pool" : "ct_small_tier2_drone_treasure"}
+        ],
+        "pool" : [
+          {"weight" : 0.95, "item" : "ct_edsarmor"},
+          {"weight" : 0.05, "item" : "ct_alta_alternia_droid_head"}
+        ],
+        "poolRounds" : [
+          [0.95, 0],
+          [0.05, 1]
         ]
       }]
     ]
@@ -105,7 +115,8 @@
           {"pool" : "ct_big_tier2_drone_treasure"}
         ],
         "pool" : [
-          {"weight" : 1, "item" : "ct_edsdiode"}
+          {"weight" : 0.975, "item" : "ct_edsdiode"},
+          {"weight" : 0.025, "item" : "ct_alta_eds_droid_back"}
         ],
         "poolRounds" : [
           [0.5, 2],

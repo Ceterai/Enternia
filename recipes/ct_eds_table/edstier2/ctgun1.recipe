@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 1 },
+    { "item" : "ct_edsdiode", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ctgun1", "count" : 1 },
+  "groups" : [ "edstier2", "edsmilitary" ]
+}

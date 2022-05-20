@@ -13,7 +13,7 @@
     "name" : "ct_edsaugment",
     "displayName" : "^#f02020;EDS^reset; Enhancement",
     "displayIcon" : "/items/augments/back/ct_edsaugment.png",
-    "effects" : [ "runboostaugment", "rageaugment1", "ct_edsprotection" ]
+    "effects" : [ "runboostaugment", "rageaugment1", "ct_eds_protection_module" ]
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],

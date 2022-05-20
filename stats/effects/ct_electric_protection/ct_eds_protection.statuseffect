@@ -1,0 +1,12 @@
+{
+  "name" : "ct_eds_protection",
+  "label" : "^#f02020;EDS^reset; Protection Enhancement",
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "protection" : 3
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_electric_protection.lua" ],
+  "icon" : "ct_eds_protection.png"
+}

@@ -1,0 +1,24 @@
+{
+  "name" : "ct_entersleepy",
+  "blockingStat" : "enterniaStatusImmunity",
+
+  "effectConfig" : { // down speed and jump
+    "movementModifiers" : {
+      "speedModifier" : 1.4,
+      "airJumpModifier" : 1.4
+    },
+    "tickRate" : 200,
+    "energyCost" : 10,
+    "healthDamage" : 20
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "ct_entersleepy.lua"
+  ],
+
+  "animationConfig" : "ct_entersleepy.animation",
+
+  "label" : "Sleepy",
+  "icon" : "ct_entersleepy.png"
+}

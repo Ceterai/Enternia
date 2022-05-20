@@ -138,7 +138,7 @@
           "name" : "action-spawncompanions",
           "parameters" : {
             "maxCount" : 3,
-            "spawnCooldown" : 2,
+            "spawnCooldown" : 3,
             "monsterType" : "ct_minidrone"
           }
         },
@@ -206,7 +206,7 @@
           "baseValue" : 0.2
         },
         "knockbackThreshold" : {
-          "baseValue" : 9
+          "baseValue" : 16
         },
         "maxHealth" : {
           "baseValue" : 100

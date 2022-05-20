@@ -1,0 +1,101 @@
+[
+  {
+    "op": "add",
+    "path": "/ct_altaTier1SupplyTreasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"item" : "ct_alterash_bench"},
+          {"item" : "ct_alterash_lamppost"},
+          {"item" : "ct_alterash_pyramid"},
+
+          {"item" : "ct_ceteraugment"},
+          {"item" : "ct_ceternia_epp_augment"},
+          {"item" : "ct_mindcollar"},
+
+          {"item" : "ct_alta_scout_lightwear"},
+          {"item" : "ct_alta_scout_mask"},
+          {"item" : "ct_alta_scout_velocity_eaters"},
+
+          {"item" : "ct_alta_combat_chest"},
+          {"item" : "ct_alta_combat_helmet"},
+          {"item" : "ct_alta_combat_legwear"},
+          {"item" : "ct_alta_combat_pack"},
+          {"item" : "ct_alta_combat_droid_back"},
+          {"item" : "ct_alta_combat_droid_head"},
+
+          {"item" : "ct_alta_backpack"},
+          {"item" : "ct_alta_halogen_pack"},
+          {"item" : "ct_alta_hologlasses"},
+          {"item" : "ct_alta_protective_collar"},
+          {"item" : "ct_alta_researcher_coat"},
+          {"item" : "ct_alta_researcher_skirt"},
+          {"item" : "ct_alta_respiratory_mask"},
+          {"item" : "ct_alta_respiratory_mask_colorful"},
+          {"item" : "ct_alta_science_ocular"},
+          {"item" : "ct_alta_science_pack"},
+          {"item" : "ct_alta_state_beret"},
+          {"item" : "ct_alta_visor"}
+        ]
+      } ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_altaTier2SupplyTreasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"item" : "ct_eds_backdoor"},
+          {"item" : "ct_eds_lamppost"},
+          {"item" : "ct_eds_lifechamber"},
+          {"item" : "ct_eds_table"},
+          {"item" : "ct_capsule"},
+          {"item" : "ct_capsule_blue"},
+          {"item" : "ct_capsule_purple"},
+          {"item" : "ct_capsule_red"},
+
+          {"item" : "ctsword"},
+          {"item" : "ctgun1"},
+          {"item" : "ct_edsaugment"},
+
+          {"item" : "ct_alta_eds_chest"},
+          {"item" : "ct_alta_eds_helmet"},
+          {"item" : "ct_alta_eds_legwear"},
+          {"item" : "ct_alta_eds_beret"},
+          {"item" : "ct_alta_eds_visor"},
+          {"item" : "ct_alta_eds_droid_back"},
+          {"item" : "ct_alta_eds_droid_head"},
+
+          {"item" : "ct_alta_enviro_chest"},
+          {"item" : "ct_alta_enviro_helmet"},
+          {"item" : "ct_alta_enviro_legwear"},
+          {"item" : "ct_alta_enviro_protector"},
+
+          {"item" : "ct_alta_industrial_collar"},
+          {"item" : "ct_alta_industrial_helmet"}
+        ]
+      } ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_altaTier3SupplyTreasure",
+    "value": [
+      [1, {
+        "fill" : [
+          {"item" : "ctgun2"},
+          {"item" : "ct_enteraugment"},
+
+          {"item" : "ct_alta_alternia_chest"},
+          {"item" : "ct_alta_alternia_helmet"},
+          {"item" : "ct_alta_alternia_legwear"},
+          {"item" : "ct_alta_alternia_droid_head"},
+          {"item" : "ct_alta_alternia_mindframe"},
+
+          {"item" : "ct_alta_enternia_epp"}
+        ]
+      } ]
+    ]
+  }
+]

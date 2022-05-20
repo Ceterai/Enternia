@@ -1,0 +1,68 @@
+{
+  "objectName" : "ct_eds_lamppost",
+  "colonyTags" : ["alta", "edstier2", "light"],
+  "category" : "light",
+  "rarity" : "Uncommon",
+  "price" : 120,
+  "race" : "alta",
+  "printable" : false,
+
+  "description" : "A standard Alterash advanced lamppost.",
+  "shortdescription" : "Alterash Lamppost",
+  "apexDescription" : "Tall and thin, provides high area of visibility.",
+  "avianDescription" : "Maybe I could make a nest up there...",
+  "floranDescription" : "Thisss possst is very tall.",
+  "glitchDescription" : "Observant. The light from this post lights up lots of space.",
+  "humanDescription" : "Uh... Who is this even for?",
+  "hylotlDescription" : "The height of this lamppost is an interesting choice.",
+  "novakidDescription" : "I'm not climbin' up there.",
+
+  "statusEffects" : [ ],
+
+  "pointLight" : true,
+  "pointBeam" : 16,
+  "beamAmbience" : 0.45,
+
+  "lightColor" : [179, 160, 143],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_eds_lamppost.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [-1, 18],
+      "beamAngle" : 240,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_eds_lamppost.png:<color>.<frame>",
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, 18],
+      "beamAngle" : 300,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "ct_eds_lamppost.png",
+    "fg" : "ct_eds_lamppostlit.png"
+  },
+  "animationPosition" : [-4, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 3] ],
+
+  "interactive" : false
+}

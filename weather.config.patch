@@ -9,15 +9,6 @@
     ]
   },
   {
-    "op" : "add", "path" : "/ct_alterash_crystal", "value" : [
-      [0.55, "clear"],
-      [0.4, "ct_glow_rain"],
-      [0.2, "ct_ionic_rain"],
-      [0.2, "ct_crystal_fall"],
-      [0.05, "ct_ionic_drizzle"]
-    ]
-  },
-  {
     "op" : "add", "path" : "/ct_alterash_stardust", "value" : [
       [0.55, "clear"],
       [0.4, "ct_stardust_fall"],
@@ -27,12 +18,57 @@
     ]
   },
   {
+    "op" : "add", "path" : "/ct_alterash_crystal", "value" : [
+      [0.55, "clear"],
+      [0.4, "ct_glow_rain"],
+      [0.2, "ct_ionic_rain"],
+      [0.2, "ct_crystal_fall"],
+      [0.05, "ct_ionic_drizzle"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_prime", "value" : [
+      [0.55, "clear"],
+      [0.05, "ct_glow_rain"],
+      [0.2, "snow"],
+      [0.2, "ct_ionic_peak"],
+      [0.2, "ct_crystal_fall"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_snowy", "value" : [
+      [0.40, "clear"],
+      [0.20, "snow"],
+      [0.15, "snowstorm"],
+      [0.15, "hailstones"],
+      [0.05, "fog"],
+      [0.05, "ct_glow_rain"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_prime_heavy", "value" : [
+      [0.60, "clear"],
+      [0.05, "ct_ionic_peak"],
+      [0.15, "icestorm"],
+      [0.05, "snowstorm"],
+      [0.15, "ct_crystal_fall"]
+    ]
+  },
+  {
+    "op" : "add", "path" : "/ct_alterash_unstable", "value" : [
+      [0.60, "ct_ionic_peak"],
+      [0.15, "ct_ionic_storm"],
+      [0.15, "ct_crystal_fall"],
+      [0.10, "fog"]
+    ]
+  },
+  {
     "op" : "add", "path" : "/ct_alterash_hazardous", "value" : [
       [0.2, "clear"],
       [0.2, "ct_crystal_fall"],
       [0.2, "ct_stardust_storm"],
       [0.2, "ct_ionic_storm"],
-      [0.2, "ct_orbital_strike"]
+      [0.2, "ct_ionic_peak"]
     ]
   }
 ]

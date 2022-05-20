@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_lifechamber",
+  "colonyTags" : ["alterash", "edstier2", "outpost", "light"],
+  "category" : "furniture",
+  "rarity" : "Rare",
+  "price" : 250,
+  "race" : "human",
+  "printable" : false,
+
+  "description" : "A healing station. Provides additional positive effects. \n^red;Destroyed when broken.",
+  "shortdescription" : "Life Chamber",
+  "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
+  "avianDescription" : "Should I... Go inside?",
+  "floranDescription" : "Way smaller than thorn podsss on my planet.",
+  "glitchDescription" : "Cautious. Devices like these are not to be trusted.",
+  "humanDescription" : "Is it dangerous to go in? Well, only one way to find out!",
+  "hylotlDescription" : "An inclosed tall capsule with semi-transparent glass. Fancy.",
+  "novakidDescription" : "Ain't afraid of no booth I tell ya. Let's try it!",
+
+  "lightColor" : [32, 128, 240],
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/alta/ct_eds_lifechamber/ct_eds_lifechambercover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "bed6",
+    "nude",
+    "maxenergyscalingboost"
+  ],
+
+  "health" : 20,
+
+  "breakDropPool" : "ct_glow_smashables",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_eds_lifechamber.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_eds_lifechamber.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

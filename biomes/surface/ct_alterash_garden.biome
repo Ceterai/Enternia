@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_garden",
   "friendlyName" : "Alterash Gardens",
-  "statusEffects" : [ "ctbiomeelectric" ],
+  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
   "ores" : "prismore",
@@ -71,7 +71,7 @@
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [
-      // Same for all surface biomes
+      // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:surfaceCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
@@ -84,7 +84,7 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
       },
-      // Dungeons, Only this biome
+      // Dungeons
       {
         "mode" : "floor", "priority" : 2, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
         "microdungeons" : [ "aridplatforming", "blank", "none" ]
@@ -93,7 +93,7 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
         "microdungeons" : [ "encounterdungeons" ]
       },
-      // Growth, Only this biome
+      // Growth
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "flowerblue" ] ], "parameters" : { } } ]
@@ -109,14 +109,14 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem" ], "treeFoliageList" : [ "ctayaleaves" ]
+        "treeStemList" : [ "ct_ayaka_garden_stem" ], "treeFoliageList" : [ "ct_ayaka_garden_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem2" ], "treeFoliageList" : [ "ctayaleaves2" ]
+        "treeStemList" : [ "ct_ayaka_prime_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
-      // Other, Only this biome
+      // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "prismrock1"], [1, "prismrock2"], [1, "prismrock3"] ], "parameters" : { } } ]
@@ -128,7 +128,7 @@
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [
-      // Same for all surface biomes
+      // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
@@ -141,11 +141,7 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
       },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "weaponChest" ]
-      },
-      // Growth, Same for all surface biomes
+      // Growth
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
         "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
@@ -155,16 +151,12 @@
         "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
       },
       {
-        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
         "treeStemList" : [ "ct_aya" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
       },
-      // Other, Only this biome
+      // Other
       {
-        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "object",
+        "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "prismrock1"], [1, "prismrock2"], [1, "prismrock3"] ], "parameters" : { } } ]
       }
     ]

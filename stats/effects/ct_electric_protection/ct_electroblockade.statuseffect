@@ -1,0 +1,13 @@
+{
+  "name" : "ct_electroblockade",
+  "label" : "Electroblockade",
+
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_electric_protection.lua" ],
+  "icon" : "ct_electroblockade.png"
+}

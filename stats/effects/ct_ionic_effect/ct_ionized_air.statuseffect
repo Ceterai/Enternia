@@ -1,0 +1,21 @@
+{
+  "name" : "ct_ionized_air",
+  "label" : "Ionized Air",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 1.4,
+      "airJumpModifier" : 1.4
+    },
+    "tickRate" : 200,
+    "energyCost" : 10,
+    "healthDamage" : 20,
+    "queueRadioMessage" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_ionic_effect.lua" ],
+  "animationConfig" : "ct_ionized_air.animation",
+  "icon" : "ct_ionized_air.png"
+}

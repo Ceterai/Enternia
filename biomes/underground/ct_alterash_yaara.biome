@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_yaara",
   "friendlyName" : "Yaara Groves",
-  "statusEffects" : [ "ctbiomeelectric" ],
+  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -47,7 +47,7 @@
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
       },
       // Other
       {
@@ -101,6 +101,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_yaaraChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",

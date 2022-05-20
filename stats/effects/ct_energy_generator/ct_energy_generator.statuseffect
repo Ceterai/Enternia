@@ -1,0 +1,14 @@
+{
+  "name" : "ct_energy_generator",
+  "label" : "Energy Generator",
+
+  "effectConfig" : {
+    "healBase" : 0.005,
+    "healTime" : 0.25
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_energy_generator.lua" ],
+  "animationConfig" : "ct_energy_generator.animation",
+  "icon" : "ct_energy_generator.png"
+}

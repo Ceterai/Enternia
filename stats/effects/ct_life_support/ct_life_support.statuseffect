@@ -1,0 +1,14 @@
+{
+  "name" : "ct_life_support",
+  "label" : "Life Support",
+
+  "effectConfig" : {
+    "healBase" : 0.005,
+    "healTime" : 0.25
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_life_support.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_life_support.png"
+}

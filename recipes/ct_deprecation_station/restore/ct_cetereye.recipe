@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "cteye", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_cetereye",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

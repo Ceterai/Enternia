@@ -1,0 +1,78 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "aura" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "windup" : {
+            "frames" : 3,
+            "cycle" : 0.5,
+            "mode" : "transition",
+            "transition" : "on"
+          },
+          "on" : {
+            "frames" : 10,
+            "cycle" : 0.9,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+    "parts" : {
+      "aura" : {
+        "properties" : {
+          "zLevel" : -1
+        },
+        "partStates" : {
+          "aura" : {
+            "windup" : {
+              "properties" : {
+                "image" : "asirai_potential_effect.png:windup.<frame>"
+              }
+            },
+            "on" : {
+              "properties" : {
+                "image" : "asirai_potential_effect.png:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "particleEmitters" : {
+    "electricAura" : {
+      "active" : true,
+      "emissionRate" : 10,
+      "offsetRegion" : [-2.5, -1.0, 2.5, 1.0],
+      "particles" : [
+        { "particle" : "electricswoosh1"},
+        { "particle" : "electricswoosh2"},
+        { "particle" : "fastrisingelectric"}
+      ]
+    },
+    "sparks" : {
+      "enabled" : true,
+      "emissionRate" : 5.0,
+      "particles" : [
+        {
+          "particle" : "electricswoosh1"
+        },
+        {
+          "particle" : "electricswoosh2"
+        }
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [0, 50, 150]
+    }
+  },
+  "sounds" : {
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+  }
+}

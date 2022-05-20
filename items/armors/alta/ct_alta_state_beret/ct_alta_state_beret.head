@@ -1,0 +1,40 @@
+{
+  "itemName" : "ct_alta_state_beret",
+  "shortdescription" : "State Beret",
+  "description" : "Decorative parade alta headwear.",
+
+  "price" : 2400, "rarity" : "Rare",
+  "category" : "headwear", "tooltipKind" : "armor", "maxStack" : 1,
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    // DEFAULT - OMNIBLUE
+    { "2080f0" : "2080f0", "0050c0" : "0050c0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
+    // BLACK - TEAL
+    { "2080f0" : "b0fcdb", "0050c0" : "008ec0", "60c0fc" : "60f2fc", "b0e0fc" : "b0f9fc" },
+    // GREY - ROSE
+    { "2080f0" : "f0206f", "0050c0" : "c00041", "60c0fc" : "fc60b3", "b0e0fc" : "fcb0da" },
+    // WHITE - LIME
+    { "2080f0" : "c2f020", "0050c0" : "8dc000", "60c0fc" : "f1fc60", "b0e0fc" : "f8fcb0" },
+    // RED
+    { "2080f0" : "f0202a", "0050c0" : "c00000", "60c0fc" : "fc607f", "b0e0fc" : "fcb0c0" },
+    // ORANGE
+    { "2080f0" : "f08520", "0050c0" : "c06600", "60c0fc" : "fc9460", "b0e0fc" : "fcc8b0" },
+    // YELLOW
+    { "2080f0" : "f0d820", "0050c0" : "c0b200", "60c0fc" : "fcd260", "b0e0fc" : "fce6b0" },
+    // GREEN
+    { "2080f0" : "20f05b", "0050c0" : "00c03f", "60c0fc" : "60fc75", "b0e0fc" : "b0fcb9" },
+    // BLUE
+    { "2080f0" : "2045f0", "0050c0" : "001bc0", "60c0fc" : "6094fc", "b0e0fc" : "b0cbfc" },
+    // PURPLE
+    { "2080f0" : "9320f0", "0050c0" : "7100c0", "60c0fc" : "9e60fc", "b0e0fc" : "ccb0fc" },
+    // PINK
+    { "2080f0" : "ccb0fc", "0050c0" : "c00082", "60c0fc" : "fc60e7", "b0e0fc" : "fcb0f4" },
+    // BROWN - CYAN
+    { "2080f0" : "20f0bd", "0050c0" : "00c097", "60c0fc" : "60fcbd", "b0e0fc" : "b0fcdb" }
+  ]
+}

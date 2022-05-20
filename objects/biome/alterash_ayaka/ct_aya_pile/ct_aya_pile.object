@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_aya_pile",
+  "colonyTags" : ["alterash", "nature", "ayaka"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+
+  "shortdescription" : "Aya Pile",
+  "description" : "A vile bubble of slime. Yuk.",
+  "race" : "generic",
+
+  "fullbright" : true,
+  "lightColor" : [0, 50, 40],
+
+  "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
+  "avianDescription" : "A large blob of slime. Why does this exist?",
+  "floranDescription" : "Like sssap.",
+  "glitchDescription" : "Disgusted. A vile mound of slime!",
+  "humanDescription" : "A huge glob of jelly. I kind of want to poke it.",
+  "hylotlDescription" : "Slime blobs are not unpleasant to handle when you have amphibian skin.",
+  "novakidDescription" : "I reckon this'll come in handy for something.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_aya_pile.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashDropPool" : "ct_smashable_aya_pile",
+
+  "biomePlaced" : true
+}

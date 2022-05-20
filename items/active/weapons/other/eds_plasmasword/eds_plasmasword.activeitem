@@ -1,0 +1,63 @@
+{
+  "itemName":"ctsword",
+  "price":1080,
+  "level":4,
+  "maxStack":1,
+  "rarity":"Rare",
+  "category":"broadsword",
+  "description":"It's interesting what a ceter-eye can do to a sword.",
+  "shortdescription":"^#f02020;EDS^reset; Plasmasword",
+  "tooltipKind":"sword",
+  "twoHanded":true,
+  "itemTags":["weapon","melee","broadsword","upgradeableWeapon"],
+  "inventoryIcon":"eds_plasmasword.png",
+  "animation":"/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts":{
+    "handle":"",
+    "blade":"eds_plasmasword.png"
+  },
+  "animationCustom":{
+    "sounds":{
+      "fire":[
+        "/sfx/melee/swing_broadsword.ogg"
+      ]
+    }
+  },
+  "scripts":[
+    "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+  "elementalType":"electric",
+  "primaryAbilityType":"broadswordcombo",
+  "primaryAbility":{
+    "fireTime":1.1,
+    "baseDps":18,
+    "stepDamageConfig":[
+      {
+        "baseDamageFactor":1.0,
+        "knockback":10
+      },
+      {
+        "baseDamageFactor":0.4,
+        "knockback":5
+      },
+      {
+        "baseDamageFactor":1.1,
+        "knockback":25
+      }
+    ]
+  },
+  "altAbilityType":"elementalaura",
+  "builder":"/items/buildscripts/buildunrandweapon.lua",
+  "upgradeParameters":{
+    "rarity" : "Legendary",
+    "inventoryIcon":"alternia_sword.png",
+    "animationParts":{
+      "blade":"alternia_sword.png"
+    },
+    "primaryAbility":{
+      "baseDps":19.0,
+      "fireTime":0.9
+    },
+    "shortdescription":"^#2080f0;Plasmasword of Alterash^reset; ^yellow;^reset;"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alterash_pyramid",
+  "colonyTags" : ["alta", "edstier1"],
+  "category" : "furniture",
+  "rarity" : "Rare",
+  "price" : 600,
+  "race" : "alta",
+  "printable" : false,
+
+  "description" : "A pyramid-like Alterash structure.",
+  "shortdescription" : "Alterash Pyramid",
+  "apexDescription" : "A structure of unknown purpose.",
+  "avianDescription" : "What is this for?",
+  "floranDescription" : "A big metal triangle. Floran wondersss what's inssside.",
+  "glitchDescription" : "Cautious. This look misterious.",
+  "humanDescription" : "A metal pyramid.",
+  "hylotlDescription" : "What could be the purpose of this structure?",
+  "novakidDescription" : "T'is a weird shape for a building.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_alterash_pyramid.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "health" : 60
+}

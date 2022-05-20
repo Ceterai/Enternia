@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_alta_tier3_supply",
+  "price" : 20,
+  "level" : 1,
+  "maxStack" : 1000,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "description" : "Contains all alta tier 3 items.",
+  "shortdescription" : "Alta Tier 3 Supply",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "ct_alta_loot_icon.png",
+  "animation" : "ct_alta_loot.animation",
+  "animationCustom" : {},
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_altaTier3SupplyTreasure",
+    "level" : 1
+  }
+}

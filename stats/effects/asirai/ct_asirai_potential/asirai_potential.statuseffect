@@ -1,0 +1,16 @@
+{
+  "name" : "ct_asirai_potential",
+  "label" : "Asirai's Potential^gray; - damages nearby enemies, gives 20% electric resistance^reset;",
+  "icon" : "asirai_potential.png",
+  "scripts" : [ "asirai_potential.lua" ],
+  "animationConfig" : "asirai_potential.animation",
+  "effectConfig" : {
+    "electricResistanceModifier" : 0.2,
+    "boltInterval" : 0.5,
+    "jumpDistance" : 10,
+    "healthDamageFactor" : 0.05,
+    "damageClampRange" : [5, 15],
+    "animateAura" : true
+  },
+  "defaultDuration" : 12.0
+}

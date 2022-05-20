@@ -1,0 +1,24 @@
+{
+  "name" : "ctbiomeenternia",
+  "blockingStat" : "enterniaStatusImmunity",
+
+  "effectConfig" : { // half energy, -0.5 electric resistance
+    "movementModifiers" : {
+      "speedModifier" : 1.4,
+      "airJumpModifier" : 1.4
+    },
+    "tickRate" : 200,
+    "energyCost" : 10,
+    "healthDamage" : 20
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "ctbiomeenternia.lua"
+  ],
+
+  "animationConfig" : "ctbiomeenternia.animation",
+
+  "label" : "Enternia",
+  "icon" : "ctbiomeenternia.png"
+}

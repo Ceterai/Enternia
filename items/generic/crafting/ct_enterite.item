@@ -1,13 +1,16 @@
 {
   "itemName" : "ct_enterite",
-  "price" : 120,
-  "rarity" : "Rare",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "ct_enterite.png",
-  "description" : "A piece of contained ^#8020f0;Enternia^reset; energy.",
   "shortdescription" : "^#8020f0;Enterite^reset;",
+  "description" : "A piece of contained ^#8020f0;Enternia^reset; energy.",
+
+  "price" : 160,
+  "rarity" : "Rare",
+
+  "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
-  "maxStack" : 1,
+
+  "inventoryIcon" : "ct_enterite.png",
+
   "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
   "rottedItem" : "",
   "rottingMultiplier" : 0.03

@@ -1,10 +1,13 @@
 {
   "itemName" : "ct_stardust",
+  "shortdescription" : "Stardust",
+  "description" : "Put in a bowl and carefully mixed together.",
+
   "price" : 0,
   "rarity" : "Legendary",
+
   "category" : "craftingMaterial",
-  "inventoryIcon" : "ct_stardust.png",
-  "description" : "Put in a bowl and carefully mixed together.",
-  "shortdescription" : "Stardust",
-  "itemTags" : [ "reagent" ]
+  "itemTags" : [ "reagent" ],
+
+  "inventoryIcon" : "ct_stardust.png"
 }

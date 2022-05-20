@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctayapowder", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 16 },
+    { "item" : "ctwood", "count" : 8 }
+  ],
+  "output" : { 
+    "item" : "ct_alta_energy_cell",
+    "count" : 1 
+  },
+  "groups" : [ "edstier1", "edslabs" ]
+}

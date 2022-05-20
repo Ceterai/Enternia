@@ -1,0 +1,26 @@
+{
+  "id" : "ct_docs_mining_desc",
+  "title" : "Energy Mines",
+  "species" : "human",
+  "description" : "Mining facility description.",
+  "icon" : "ct_datamass_eds.png",
+  "contentPages" : [
+
+    "The energy mine is a separate part of object 17, going 20 levels underground. It produces energy mixtures and alien material - phospholion.
+
+The mine is divided into three parts: Warehouse, Energy Mine and Phospholion Mine.
+
+The phospholion mine is divided into 16 levels, the 16th level is not used and is considered abandoned.",
+
+"Phosfolion is a gray shiny material, often found in a solid state of aggregation. Obtained by roasting phospholion ore mined in mines.
+
+Phospholion ore is one of the most abundant minerals on Iceterion. It is used by its inhabitants as a building material.
+
+Additionally, cores for plasma weapons are made from radiation-enhanced phospholion."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 25
+  }
+}

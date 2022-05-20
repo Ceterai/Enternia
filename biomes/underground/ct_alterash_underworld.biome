@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_underworld",
   "friendlyName" : "Alterash Underworld",
-  "statusEffects" : [ "ctbiomeelectric" ],
+  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "rock14", "obsidian" ],
   "ores" : "ct_alterash_depth2",
@@ -44,7 +44,11 @@
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
@@ -75,20 +79,16 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : 10, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem2" ], "treeFoliageList" : [ "ctayaleaves2" ]
+        "treeStemList" : [ "ct_ayaka_prime_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : 10, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem2" ], "treeFoliageList" : [ "ctayaleaves2" ]
+        "treeStemList" : [ "ct_ayaka_prime_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "flowerblue" ] ], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       // Other
       {
@@ -117,7 +117,7 @@
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
@@ -148,16 +148,12 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : 10, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem2" ], "treeFoliageList" : [ "ctayaleaves2" ]
+        "treeStemList" : [ "ct_ayaka_prime_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : 10, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem2" ], "treeFoliageList" : [ "ctayaleaves2" ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "treeStemList" : [ "ct_ayaka_prime_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",

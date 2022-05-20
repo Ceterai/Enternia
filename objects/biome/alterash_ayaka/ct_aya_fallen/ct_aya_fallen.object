@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_aya_fallen",
+  "colonyTags" : ["alterash", "nature", "ayaka"],
+  "category" : "breakable",
+  "rarity" : "Common",
+  "price" : 45,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Fallen Aya",
+  "description" : "An empty EDS capsule.",
+  "apexDescription" : "This object looks empty, but maybe it contains pixels.",
+  "avianDescription" : "Doesn't glow, but might be full of other stuff!",
+  "floranDescription" : "Floran wonderssss what's inssside.",
+  "glitchDescription" : "Observant. It appears this object has something inside of it.",
+  "humanDescription" : "It's a chest! Or a capsule! Or a plane! Wait, no.",
+  "hylotlDescription" : "Maybe there's something inside.",
+  "novakidDescription" : "Let's open it up!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_aya_fallen.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.3,
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
+  "smashDropPool" : "ct_smashable_aya",
+
+  "biomePlaced" : true
+}

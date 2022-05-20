@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 1 },
+    { "item" : "glowfibre", "count" : 8 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : { 
+    "item" : "ct_edsdiode",
+    "count" : 4 
+  },
+  "groups" : [ "edstier2", "edsmilitary" ]
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "ct_energy_support_system",
+  "label" : "Energy Support System",
+
+  "effectConfig" : {
+    "healTime" : 0.5
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_energy_generator.lua" ],
+  "animationConfig" : "ct_energy_generator.animation",
+  "icon" : "ct_energy_generator.png"
+}

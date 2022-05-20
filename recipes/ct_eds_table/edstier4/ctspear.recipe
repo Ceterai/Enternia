@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_stardust", "count" : 20 },
+    { "item" : "ct_starsteel", "count" : 8 },
+    { "item" : "ct_starmatter", "count" : 2 },
+    { "item" : "ct_starfire", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ctspear", "count" : 1 },
+  "groups" : [ "edstier4", "stardust" ]
+}

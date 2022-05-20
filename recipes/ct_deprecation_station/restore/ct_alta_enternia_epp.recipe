@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctepp", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_alta_enternia_epp",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

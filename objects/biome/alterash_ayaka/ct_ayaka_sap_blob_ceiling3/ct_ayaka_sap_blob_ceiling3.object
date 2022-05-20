@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_ayaka_sap_blob_ceiling3",
+  "colonyTags" : ["alterash", "nature", "ayaka"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "price" : 60,
+  "printable" : false,
+
+  "shortdescription" : "Hanging Ayaka Sap Blob",
+  "description" : "A glob of dripping slime.",
+  "race" : "generic",
+
+  "apexDescription" : "A slime deposit. It appears to be dripping.",
+  "avianDescription" : "A disgusting slime ball.",
+  "floranDescription" : "Floran wants to avoid touching ssslime.",
+  "glitchDescription" : "Disgusted. A viscous slime deposit.",
+  "humanDescription" : "Slime is so gross.",
+  "hylotlDescription" : "Slime isn't so bad when your skin is already slimy.",
+  "novakidDescription" : "Oozing slime.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+
+      "image" : "ct_ayaka_sap_blob_ceiling3.png:<color>",
+      "imagePosition" : [-3, -5],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
+  "smashDropPool" : "ct_smashable_sap_blob_small",
+
+  "biomePlaced" : true
+}

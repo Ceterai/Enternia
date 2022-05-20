@@ -1,0 +1,20 @@
+{
+  "name" : "ct_ionic_stroke",
+  "label" : "Ionic Stroke",
+  "blockingStat" : "electricStatusImmunity",
+
+  "effectConfig" : {
+    "movementModifiers" : {
+      "speedModifier" : 0.8,
+      "airJumpModifier" : 0.8
+    },
+    "tickRate" : 100,
+    "energyCost" : 10,
+    "healthDamage" : 5
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_ionic_effect.lua" ],
+  "animationConfig" : "ct_ionic_stroke.animation",
+  "icon" : "ct_ionic_stroke.png"
+}

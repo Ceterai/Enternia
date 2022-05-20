@@ -1,0 +1,86 @@
+{
+  "name" : "ct_enternia_asteroids",
+  "friendlyName" : "Enternia Asteroids",
+
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "obsidian" ],
+  "ores" : "ct_alterash_core",
+
+  "spawnProfile" : {
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "groups" : [
+      {
+        "select" : 1,
+        "pool" : [
+          [ 1, "asteroidskimbus" ]
+        ]
+      }
+    ]
+  },
+
+  "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
+
+  "parallax" : "/parallax/space/asteroids.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+    }
+  },
+
+  "hueShiftOptions" : [0],
+
+  "surfacePlaceables" : {
+    "grassMod" : [ ], "grassModDensity" : 0.0,
+    "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ ], "grassModDensity" : 0.0,
+    "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingCore", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
+      }
+    ]
+  }
+}

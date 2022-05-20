@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "cttsaycooked", "count" : 2 },
-    { "item" : "ctgil", "count" : 1 }
+    { "item" : "ctgil", "count" : 1 },
+    { "item" : "ct_verriskoywa_alto", "count" : 1 }
   ],
   "output" : { "item" : "ctgiltsaystew", "count" : 1 },
   "groups" : [ "craftingfood", "mains" ]

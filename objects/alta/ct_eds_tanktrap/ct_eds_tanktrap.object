@@ -1,0 +1,57 @@
+{
+  "objectName" : "ct_eds_tanktrap",
+  "colonyTags" : ["alta", "edstier2", "combat", "misc"],
+  "category" : "trap",
+  "rarity" : "Common",
+  "price" : 55,
+  "race" : "alta",
+  "printable" : false,
+
+  "description" : "Used to trap tanks.",
+  "shortdescription" : "EDS Tank Trap",
+  "apexDescription" : "A jagged metal shape used to trap tanks.",
+  "avianDescription" : "These nails can stop a tank!",
+  "floranDescription" : "Tank trapsss!",
+  "glitchDescription" : "Observant. A jagged metal shape used to trap vehicles.",
+  "humanDescription" : "This could stop a tank!",
+  "hylotlDescription" : "A jagged metal shape used to trap tanks.",
+  "novakidDescription" : "These nails could halt any ride. Classic.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_eds_tanktrap.png:<color>",
+      "imagePosition" : [-14, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_eds_tanktrap.png:<color>",
+      "imagePosition" : [-10, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "touchDamage" : {
+    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "damage" : 15,
+    "knockback" : 20,
+    "statusEffects" : [ "paralysis" ],
+
+    "damageType" : "Environment",
+    "damageSourceKind" : "spear"
+  },
+
+  "health" : 10,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashDropPool" : "ct_glow_smashables",
+
+  "biomePlaced" : true
+}

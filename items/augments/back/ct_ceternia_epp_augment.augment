@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_ceternia_epp_augment",
+  "shortdescription" : "^#20f080;Ceter^reset;-EPP Augment",
+  "description" : "^#20f080;Ceter^reset;-EPP, condenced into an augment.",
+
+  "price" : 6400, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "eppaugment",
+
+  "inventoryIcon" : "ct_ceternia_epp_augment.png",
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_alta_ceternia_epp_augment",
+    "displayName" : "^#20f080;Ceter^reset;-EPP Augment",
+    "displayIcon" : "/items/augments/back/ct_ceternia_epp_augment.png",
+
+    "effects" : [
+      "enterniaStatusImmunity",
+      "voidStatusImmunity"
+    ]
+  }
+}

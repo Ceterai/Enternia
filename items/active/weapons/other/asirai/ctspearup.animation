@@ -1,0 +1,115 @@
+{
+  "globalTagDefaults" : {
+    "paletteSwaps" : ""
+  },
+
+  "animatedParts" : {
+    "parts" : {
+      "blade" : { "properties":{"zLevel":0,"centered":true,"image":"ammerax.png",
+        "offset":[0.0,0.0],"projectileSource":[0.0,2.5],"transformationGroups":["weapon"]} },
+      "dashSwoosh" : {
+        "properties" : {
+          "zLevel" : 1, "centered" : true, "transformationGroups" : ["swoosh"], "offset" : [3.75, 0.0625],
+          "fullbright" : true, "damageArea" : [[-6, 0], [-3.5, 1], [-1.5, 1], [1.5, 0], [-1.5, -1], [-3.5, -1]]
+        },
+        "partStates" : {
+          "dashSwoosh" : {
+            "idle" : { "properties" : { "image" : "" } },
+            "charge" : { "properties" : { "image" : "/items/active/weapons/melee/abilities/spear/charge/chargeswoosh.png:<frame>" } },
+            "full" : { "properties" : { "image" : "/items/active/weapons/melee/abilities/spear/charge/chargeswoosh.png:4" } }
+        } }
+      },
+      "spinSwoosh" : {
+        "properties" : {
+          "zLevel" : 1, "centered" : true, "transformationGroups" : ["swoosh"], "offset" : [0, 0],
+          "damageArea" : [ [-3.75, 1.75], [-1.75, 3.75], [1.75, 3.75], [3.75, 1.75], [3.75, -1.75], [1.75, -3.75], [-1.75, -3.75], [-3.75, -1.75] ]
+        },
+        "partStates" : { "spinSwoosh" : {
+            "idle" : { "properties" : { "image" : "" } },
+            "spin" : { "properties" : { "image" : "/items/active/weapons/melee/abilities/spear/elementalspin/<elementalType>spinswoosh.png:<frame>" } }
+        } }
+      },
+      "swoosh" : { "properties" : { "zLevel" : -1, "centered" : true, "transformationGroups" : ["swoosh"], "rotationCenter" : [0, 0] },
+        "partStates" : { "swoosh" : {
+            "idle" : { "properties" : { "image" : "" } },
+            "fire" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh3/physicalswoosh.png:<frame>",
+                "offset" : [4.0, 0.0], "damageArea" : [[-4.5, 0], [-2, 1], [1, 1], [4, 0], [1, -1], [-2, -1]] } },
+            "fire2" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh2/physicalswoosh.png:<frame>",
+                "offset" : [5.0, 1.0], "damageArea" : [[-4, 1], [2.5, 1], [2.5, -2], [-4, -2]] } },
+            "fire3" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh3/<elementalType>swoosh.png:<frame>",
+                "offset" : [4.0, 0.0], "damageArea" : [[-4.5, 0], [-2, 1], [1, 1], [4, 0], [1, -1], [-2, -1]] } },
+            "fire4" : { "properties" : { "image" : "/items/active/weapons/melee/broadsword/swoosh/<elementalType>swoosh.png:<frame>",
+                "offset" : [0, 2.5], "damageArea" : [[-5, 2], [-2.5, 3], [1, 3], [4, 1.75], [5, -0.25], [5, -2.25], [4, -3.25], [0, -2.5]] } }
+        } }
+      }
+    },
+    "stateTypes" : {
+      "swoosh" : { "default" : "idle", "states" : {
+          "idle" : { },
+          "fire" : { "frames" : 3, "cycle" : 0.1, "mode" : "transition", "transition" : "idle" },
+          "fire2" : { "frames" : 3, "cycle" : 0.1, "mode" : "transition", "transition" : "idle" },
+          "fire3" : { "frames" : 3, "cycle" : 0.1, "mode" : "transition", "transition" : "idle" },
+          "fire4" : { "frames" : 3, "cycle" : 0.1, "mode" : "transition", "transition" : "idle" }
+      } },
+      "dashSwoosh" : { "default" : "idle", "states" : {
+          "idle" : { },
+          "full" : { "properties" : { "immediateSound" : "/sfx/melee/charge_full_swing4.ogg" } }
+      } },
+      "spinSwoosh" : { "default" : "idle", "states" : {
+          "idle" : { },
+          "spin" : { "frames" : 1, "cycle" : 0.5, "properties" : { "persistentSound" : "/sfx/melee/spear_twirl_loop.ogg" } }
+      } }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {},
+    "swoosh" : {}
+  },
+
+  "particleEmitters" : {
+    "physicalswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 1,
+      "burstCount" : 1,
+      "particles" : []
+    },
+    "electricswoosh" : {
+      "active" : false,
+      "transformationGroups" : ["swoosh"],
+      "emissionRate" : 50,
+      "burstCount" : 3,
+      "particles" : [
+        { "particle" : "electricswoosh1"},
+        { "particle" : "electricswoosh2"},
+        { "particle" : "electricswoosh2"}
+      ]
+    },
+    "charge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 60,
+      "offsetRegion" : [-0.5, 1.25, 0.5, 3.25],
+      "particles" : [ 
+        { "particle" : "charge" }
+      ]
+    },
+    "electricSpin" : { "active" : false, "emissionRate" : 12, "offsetRegion" : [-3.5, -3.5, 3.5, 3.5], "particles" : [
+        { "particle" : "electricswoosh1"}, { "particle" : "electricswoosh2"}, { "particle" : "electricswoosh2"}
+      ]
+    }
+  },
+
+  "sounds" : {
+    "charge" : [ "/sfx/melee/nurusspear_charge.ogg" ],
+    "fire" : [ "/sfx/melee/swing_spear.ogg" ],
+    "fire2" : [ "/sfx/melee/swing_shortsword.ogg" ],
+    "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+    "fire4" : [ "/sfx/melee/travelingslash_electric5.ogg" ],
+    "electricSpin" : [ "/sfx/melee/elemental_spin_electric.ogg" ],
+    "electricSpinFire" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
+    "electricSpinLightning" : [ "/sfx/objects/teslaspike.ogg" ],
+    "electricSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ]
+  }
+}

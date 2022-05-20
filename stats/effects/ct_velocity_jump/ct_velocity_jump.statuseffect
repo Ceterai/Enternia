@@ -1,0 +1,12 @@
+{
+  "name" : "ct_velocity_jump",
+  "label" : "Velocity Jump Boost",
+  "effectConfig" : {
+    "addJump" : 0.50
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_velocity_jump.lua" ],
+  "animationConfig" : "ct_velocity_jump.animation",
+  "icon" : "/interface/statuses/jumpboost.png"
+}

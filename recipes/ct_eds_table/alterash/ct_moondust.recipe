@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 5 },
+    { "item" : "ctwoodsap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "moondust",
+    "count" : 5
+  },
+  "duration" : 0.25,
+  "groups" : [ "edstier1", "alterash", "materials", "all" ]
+}

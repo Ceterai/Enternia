@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_stardust", "count" : 1 },
+    { "item" : "crystal", "count" : 8 }
+  ],
+  "output" : { 
+    "item" : "ct_alternia_shard",
+    "count" : 1 
+  },
+  "groups" : [ "edstier1", "edslabs" ]
+}

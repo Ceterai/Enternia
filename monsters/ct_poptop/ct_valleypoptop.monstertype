@@ -40,7 +40,7 @@
       "hostileActions" : [
         {
           "name" : "action-animate",
-          "cooldown" : 6,
+          "cooldown" : 3,
           "parameters" : {
             "stateType" : "body",
             "state" : "roar",
@@ -49,7 +49,7 @@
         },
         {
           "name" : "action-charge",
-          "cooldown" : 6.0,
+          "cooldown" : 1.0,
           "parameters" : {
             "maximumRange" : 20,
             "windupState" : "chargewindup",
@@ -117,7 +117,7 @@
 
     "damageParts" : {
       "body" : {
-        "damage" : 23,
+        "damage" : 15,
 
         "teamType" : "enemy",
         "damageSourceKind" : "slash",
@@ -183,10 +183,10 @@
           "baseValue" : 0.25
         },
         "knockbackThreshold" : {
-          "baseValue" : 9
+          "baseValue" : 29
         },
         "maxHealth" : {
-          "baseValue" : 120
+          "baseValue" : 140
         },
         "protection" : {
           "baseValue" : 0.0

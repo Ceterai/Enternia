@@ -1,0 +1,23 @@
+{
+  "name" : "ct_ionic_peak",
+
+  "projectiles" : [
+    {
+      "projectile" : "fogprimer",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [30, 0],
+      "ratePerX" : 0.075,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    }
+  ],
+
+  "statusEffects" : ["ct_ionic_stroke"],
+
+  "duration" : [50, 400],
+  "lightningFrequency" : 0.00,
+  "maximumWind" : 4.5
+}

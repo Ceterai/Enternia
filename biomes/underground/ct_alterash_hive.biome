@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_hive",
   "friendlyName" : "Hive on Alterash",
-  "statusEffects" : [ "ctbiomeelectric" ],
+  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "hive",
   "subBlocks" : [ "moonrock" ],
   "ores" : "ct_alterash_depth1",

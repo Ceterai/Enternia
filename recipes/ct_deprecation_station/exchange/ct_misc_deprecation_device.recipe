@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ct_misc_deprecation_device",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups"  : [ "ct_deprecation_station", "exchange" ]
+}

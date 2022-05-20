@@ -1,0 +1,14 @@
+{
+  "name" : "ct_asirai_energy",
+  "label" : "Asirai's Energy^gray; - damages nearby enemies^reset;",
+  "icon" : "asirai_energy.png",
+  "scripts" : [ "asirai_potential.lua" ],
+  "animationConfig" : "asirai_potential.animation",
+  "effectConfig" : {
+    "boltInterval" : 0.5,
+    "jumpDistance" : 10,
+    "healthDamageFactor" : 0.10,
+    "damageClampRange" : [5, 15]
+  },
+  "defaultDuration" : 0.8
+}

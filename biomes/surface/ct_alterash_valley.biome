@@ -1,7 +1,6 @@
 {
   "name" : "ct_alterash_valley",
   "friendlyName" : "Alterash Poptop Valley",
-  "statusEffects" : [ "ctbiomeelectric" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
   "ores" : "prismore",
@@ -68,7 +67,7 @@
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [
-      // Same for all surface biomes
+      // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:surfaceCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
@@ -81,7 +80,7 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
       },
-      // Dungeons, Only this biome
+      // Dungeons
       {
         "mode" : "floor", "priority" : 2, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
         "microdungeons" : ["oasis", "blank", "none" ]
@@ -90,7 +89,7 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
         "microdungeons" : [ "encounterdungeons" ]
       },
-      // Growth, Only this biome
+      // Growth
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "flowerred" ] ], "parameters" : { } } ]
@@ -106,18 +105,18 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
         "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem3" ], "treeFoliageList" : [ "ctayaleaves3" ]
+        "treeStemList" : [ "ct_ayaka_blossom_stem" ], "treeFoliageList" : [ "ct_ayaka_blossom_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ctayastem3" ], "treeFoliageList" : [ "ctayaleaves3" ]
+        "treeStemList" : [ "ct_ayaka_blossom_stem" ], "treeFoliageList" : [ "ct_ayaka_blossom_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "wildctgilseed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
-      // Other, Only this biome
+      // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:potsRare", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "groundspike1" ], [0.35, "groundspike2" ], [0.35, "groundspike3" ], [0.35, "groundspike4" ] ], "parameters" : { } } ]
@@ -133,7 +132,7 @@
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [
-      // Same for all surface biomes
+      // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
@@ -150,7 +149,11 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "weaponChest" ]
       },
-      // Growth, Same for all surface biomes
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+      },
+      // Growth
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
         "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
@@ -159,11 +162,7 @@
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
         "treeStemList" : [ "ct_aya" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
       },
-      // Other, Only this biome
-      {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
-      },
+      // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "groundspike1" ], [0.35, "groundspike2" ], [0.35, "groundspike3" ], [0.35, "groundspike4" ] ], "parameters" : { } } ]

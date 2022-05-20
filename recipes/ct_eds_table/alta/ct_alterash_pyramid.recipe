@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 4 },
+    { "item" : "ctwood", "count" : 24 },
+    { "item" : "titaniumbar", "count" : 24 }
+  ],
+  "output" : {
+    "item" : "ct_alterash_pyramid",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "edstier2", "alta", "all" ]
+}
