@@ -2,6 +2,13 @@ function init()
   animator.setParticleEmitterOffsetRegion("electricalburn", mcontroller.boundBox())
   animator.setParticleEmitterActive("electricalburn", true)
 
+  effect.addStatModifierGroup({{stat = "electricResistance", amount = config.getParameter("electricResistance", 0.00)}})
+  effect.addStatModifierGroup({{stat = "poisonResistance", amount = config.getParameter("poisonResistance", 0.00)}})
+
+  if config.getParameter("removeElectricStatusImmunity", false) then
+    effect.setStatModifierGroup({{stat = "electricStatusImmunity", amount = 0.0}})
+  end
+
   -- effect.setParentDirectives(config.getParameter("directives", ""))
 
   self.movementModifiers = config.getParameter("movementModifiers", {})

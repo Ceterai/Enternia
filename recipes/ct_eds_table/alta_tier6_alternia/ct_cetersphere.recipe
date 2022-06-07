@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alternia_shard", "count" : 4 },
+    { "item" : "diamond", "count" : 1 }, //ct_ionic_crystal
+    { "item" : "crystal", "count" : 24 }
+  ],
+  "output" : { 
+    "item" : "ct_cetersphere",
+    "count" : 1 
+  },
+  "groups" : [ "edstier4", "alta_tier6_alternia" ]
+}

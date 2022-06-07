@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_alta_combat_legwear",
-  "shortdescription" : "Alterash Security Greaves",
+  "shortdescription" : "Alta Security Greaves",
   "description" : "A standard protocol armour-plated legwear for Alterash combat units.",
 
   "price" : 1600, "rarity" : "Uncommon",
@@ -11,15 +11,11 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
-  "statusEffects" : [
-    "ct_longfall"
-  ],
-
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.05
+      "baseMultiplier" : 1.1
     },
     {
       "levelFunction" : "standardArmorLevelProtectionMultiplier",

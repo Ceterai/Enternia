@@ -4,7 +4,7 @@
     "value": [
       {
         "containers" : [ "podchest" ],
-        "treasurePool" : "ct_alterash_tier1ChestTreasure",
+        "treasurePool" : "ct_alta_pod_loot_tier1",
         "minimumLevel" : 0
       }
     ]
@@ -24,7 +24,7 @@
     "value": [
       {
         "containers" : [ "outpostcargocrateshort" ],
-        "treasurePool" : "ct_alterash_tier2ChestTreasure",
+        "treasurePool" : "ct_alta_pod_loot_tier2",
         "minimumLevel" : 0
       }
     ]
@@ -35,6 +35,16 @@
       {
         "containers" : [ "outpostcargocrateshort" ],
         "treasurePool" : "ct_alterash_warpedChestTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_cargoChest",
+    "value": [
+      {
+        "containers" : [ "outpostcargocrateshort" ],
+        "treasurePool" : "ct_alta_pod_loot_tier3",
         "minimumLevel" : 0
       }
     ]

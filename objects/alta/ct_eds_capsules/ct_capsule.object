@@ -1,14 +1,16 @@
 {
   "objectName" : "ct_capsule",
-  "colonyTags" : ["alterash", "edstier2", "outpost", "misc"],
+  "colonyTags" : ["alta", "eds", "outpost", "misc"],
   "category" : "breakable",
   "rarity" : "Common",
   "price" : 45,
-  "race" : "human",
+  "race" : "alta",
   "printable" : false,
 
-  "description" : "An empty EDS capsule.",
   "shortdescription" : "Empty EDS Capsule",
+  "description" : "An empty EDS capsule.",
+  "altaDescription" : "A storage capsule. There's always something useful inside.",
+
   "apexDescription" : "This object looks empty, but maybe it contains pixels.",
   "avianDescription" : "Doesn't glow, but might be full of other stuff!",
   "floranDescription" : "Floran wonderssss what's inssside.",

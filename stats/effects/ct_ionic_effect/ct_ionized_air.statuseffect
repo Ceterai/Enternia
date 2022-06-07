@@ -1,13 +1,14 @@
 {
   "name" : "ct_ionized_air",
   "label" : "Ionized Air",
-  "blockingStat" : "electricStatusImmunity",
+  "blockingStat" : "ionicStatusImmunity",
 
   "effectConfig" : {
     "movementModifiers" : {
       "speedModifier" : 1.4,
       "airJumpModifier" : 1.4
     },
+    "electricResistance" : -0.2,
     "tickRate" : 200,
     "energyCost" : 10,
     "healthDamage" : 20,

@@ -1,13 +1,15 @@
 {
   "name" : "ct_ionic_stroke",
   "label" : "Ionic Stroke",
-  "blockingStat" : "electricStatusImmunity",
+  "blockingStat" : "ionicStatusImmunity",
 
   "effectConfig" : {
     "movementModifiers" : {
       "speedModifier" : 0.8,
       "airJumpModifier" : 0.8
     },
+    "poisonResistance" : -0.2,
+    "removeElectricStatusImmunity" : true,
     "tickRate" : 100,
     "energyCost" : 10,
     "healthDamage" : 5

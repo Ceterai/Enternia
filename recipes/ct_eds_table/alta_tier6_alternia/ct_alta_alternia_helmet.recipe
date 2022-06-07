@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "ct_edsdiode", "count" : 8 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_alternia_helmet", "count" : 1 },
+  "groups" : [ "edstier4", "alta_tier6_alternia" ]
+}

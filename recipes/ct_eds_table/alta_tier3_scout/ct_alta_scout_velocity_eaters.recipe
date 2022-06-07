@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_scout_velocity_eaters", "count" : 1 },
+  "groups" : [ "edstier1", "alta_tier3_scout" ]
+}

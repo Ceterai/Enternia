@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_alternia_shard", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_combat_legwear", "count" : 1 },
+  "groups" : [ "edstier2", "alta_tier4_combat" ]
+}

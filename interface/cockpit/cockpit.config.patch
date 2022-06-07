@@ -22,7 +22,7 @@
   },
 
   { "op": "add", "path": "/displayWeathers/ct_ionic_rain", "value": { "displayName": "Ionic Rain", "icon": "/interface/cockpit/weather/ct_ionic_rain.png" } },
-  { "op": "add", "path": "/displayWeathers/ct_ionic_drizzle", "value": { "displayName" : "Drizzle", "icon" : "/interface/cockpit/weather/drizzle.png" } },
+  { "op": "add", "path": "/displayWeathers/ct_ionic_drizzle", "value": { "displayName" : "Ionic Drizzle", "icon" : "/interface/cockpit/weather/ct_ionic_drizzle.png" } },
   { "op": "add", "path": "/displayWeathers/ct_ionic_storm", "value": { "displayName" : "Ionic Storm", "icon" : "/interface/cockpit/weather/ct_ionic_storm.png" } },
   { "op": "add", "path": "/displayWeathers/ct_ionic_peak", "value": { "displayName" : "Ionic Peak", "icon" : "/interface/cockpit/weather/ct_ionic_peak.png" } },
   { "op": "add", "path": "/displayWeathers/ct_glow_rain", "value": { "displayName" : "Glowing Rain", "icon" : "/interface/cockpit/weather/ct_glow_rain.png" } },

@@ -1,8 +1,11 @@
 {
   "name" : "ct_omniblue_light",
+  "label" : "Omniblue Light",
+
   "effectConfig" : {},
   "defaultDuration" : 5,
 
   "scripts" : [ "ct_omniblue_light.lua" ],
-  "animationConfig" : "ct_omniblue_light.animation"
+  "animationConfig" : "ct_omniblue_light.animation",
+  "icon" : "ct_omniblue_light.png"
 }

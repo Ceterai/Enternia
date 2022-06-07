@@ -1,0 +1,79 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "ct_edstable1",
+        "states" : {
+          "ct_edstable1" : {},
+          "ct_edstable2" : {},
+          "ct_edstable3" : {},
+          "ct_edstable4" : {},
+          "ct_edstable5" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "lights" : {
+        "properties" : {},
+        "partStates" : {
+          "stage" : {
+            "ct_edstable1" : {},
+            "ct_edstable2" : {},
+            "ct_edstable3" : {},
+            "ct_edstable4" : {},
+            "ct_edstable5" : {}
+          }
+        }
+      },
+      "chassis" : {
+        "properties" : {},
+        "partStates" : {
+          "stage" : {
+            "ct_edstable1" : {
+              "properties" : {
+                "image" : "body1.png:<color>"
+              }
+            },
+            "ct_edstable2" : {
+              "properties" : {
+                "image" : "body2.png:<color>"
+              }
+            },
+            "ct_edstable3" : {
+              "properties" : {
+                "image" : "body3.png:<color>"
+              }
+            },
+            "ct_edstable4" : {
+              "properties" : {
+                "image" : "body4.png:<color>"
+              }
+            },
+            "ct_edstable5" : {
+              "properties" : {
+                "image" : "body5.png:<color>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {},
+
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

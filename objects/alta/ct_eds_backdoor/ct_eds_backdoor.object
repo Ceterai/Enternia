@@ -1,14 +1,16 @@
 {
   "objectName" : "ct_eds_backdoor",
-  "colonyTags" : ["alta", "edstier2", "outpost", "teleporter", "light"],
+  "colonyTags" : ["alta", "eds", "outpost", "teleporter", "light"],
   "category" : "teleporter",
   "rarity" : "Rare",
   "price" : 500,
   "race" : "alta",
   "printable" : false,
 
-  "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
   "shortdescription" : "Unknown Device",
+  "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
+  "altaDescription" : "... Blocked. No cell, too.",
+
   "apexDescription" : "Unknown technology. Better be careful with it.",
   "avianDescription" : "What's this? Looks like a door!",
   "floranDescription" : "Floran found treasure! Or not...",

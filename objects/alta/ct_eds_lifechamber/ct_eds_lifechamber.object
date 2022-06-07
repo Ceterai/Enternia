@@ -1,14 +1,16 @@
 {
   "objectName" : "ct_eds_lifechamber",
-  "colonyTags" : ["alta", "edstier2", "outpost", "light"],
+  "colonyTags" : ["alta", "eds", "outpost", "light"],
   "category" : "furniture",
   "rarity" : "Rare",
-  "price" : 250,
+  "price" : 800,
   "race" : "alta",
   "printable" : false,
 
-  "description" : "A healing station. Provides additional positive effects. \n^red;Destroyed when broken.",
   "shortdescription" : "Life Chamber",
+  "description" : "A healing station. Provides additional positive effects. \n^red;Destroyed when broken.",
+  "altaDescription" : "Ah, a checkpoint! I can rest here.",
+
   "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
   "avianDescription" : "Should I... Go inside?",
   "floranDescription" : "Way smaller than thorn podsss on my planet.",
