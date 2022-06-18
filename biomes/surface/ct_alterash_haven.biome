@@ -97,8 +97,8 @@
       },
       // Growth
       {
-        "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "grass",
-        "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+        "mode" : "floor", "priority" : 0.5, "variants" : 3, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "grass",
+        "grasses" : [ "grass", "lillies", "pods", "r", "sflower", "colourfulflower", "spikes", "spin", "springy", "sticky", "thickpetals", "viney" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
@@ -157,8 +157,8 @@
       },
       // Growth
       {
-        "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
-        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+        "mode" : "floor", "priority" : 0.5, "variants" : 3, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "grass",
+        "grasses" : [ "grass", "lillies", "pods", "r", "sflower", "colourfulflower", "spikes", "spin", "springy", "sticky", "thickpetals", "viney" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",

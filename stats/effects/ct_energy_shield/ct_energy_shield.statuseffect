@@ -1,0 +1,19 @@
+{
+  "name" : "ct_energy_shield",
+  "label" : "Energy Shield",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "shieldBase" : 0.0,
+    "shieldFromHealthPercent" : 0.5,
+    "shieldInitialPercent" : 1.0,
+
+    "visuals" : "border=3;00FFFF99;00000000"
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_energy_shield.lua" ],
+  "animationConfig" : "ct_energy_shield.animation",
+  "icon" : "ct_energy_shield.png"
+}

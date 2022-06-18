@@ -1,0 +1,16 @@
+{
+  "name" : "ct_force_shield",
+  "label" : "Force Shield",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "shieldFromHealthPercent" : 0.5,
+    "hideBorder" : true
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_energy_shield.lua" ],
+  "animationConfig" : "ct_force_shield.animation",
+  "icon" : "ct_energy_shield.png"
+}

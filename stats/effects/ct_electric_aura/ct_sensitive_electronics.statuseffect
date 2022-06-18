@@ -1,0 +1,17 @@
+{
+  "name" : "ct_sensitive_electronics",
+  "label" : "Sensitive Electronics",
+
+  "effectConfig" : {
+    "boltInterval" : -1,
+    "jumpDistance" : 2,
+    "damageFromMaxHealth" : true,
+    "damageFromMaxHealthPercent" : 0.05,
+    "damageClamp" : true
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "ct_electric_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_mind.png"
+}

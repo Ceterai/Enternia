@@ -1,0 +1,19 @@
+{
+  "name" : "ct_mind",
+  "label" : "Mind Field",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "boltInterval" : 0.5,
+    "jumpDistance" : 8,
+    "damageFromMaxEnergy" : true,
+    "damageFromMaxEnergyPercent" : 0.05,
+    "damageClamp" : true,
+    "damageClampRange" : [1, 15]
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "ct_electric_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_mind.png"
+}

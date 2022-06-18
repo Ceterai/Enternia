@@ -16,6 +16,7 @@ end
 function update(dt)
   self.tickTimer = self.tickTimer - dt
   local boltPower = util.clamp(status.resourceMax("health") * config.getParameter("healthDamageFactor", 1.0), self.damageClampRange[1], self.damageClampRange[2])
+  if status.stat("electricStatusImmunity") > 0.0 and boltPower > 1 then boltPower = 1 end
   status.applySelfDamageRequest({
     damageType = "IgnoresDef",
     damage = boltPower,

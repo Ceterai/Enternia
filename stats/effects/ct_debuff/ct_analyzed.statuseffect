@@ -1,0 +1,12 @@
+{
+  "name" : "ct_analyzed",
+  "label" : "Analyzed",
+  "effectConfig" : {
+    "statName" : "protection",
+    "statAmount" : -3
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_debuff.lua" ],
+  "icon" : "ct_analyzed.png"
+}

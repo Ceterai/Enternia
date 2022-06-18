@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_enterite_sample",
+  "colonyTags" : ["alterash", "pretty", "enternia"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 100,
+  "printable" : false,
+  "description" : "This moonrock formation seems suspicious.",
+  "shortdescription" : "Enterite Sample",
+
+  "apexDescription" : "A fascinating rock formation! Seems like a great place to rest nearby...",
+  "avianDescription" : "Pretty!.. Yaaaaawn... Huh?",
+  "floranDescription" : "Sssparkly stone. Floran wants to sssleep.",
+  "glitchDescription" : "Pleased. Ah, a dreamy sight!",
+  "humanDescription" : "I feel a little sleepy. Oh, a rock!",
+  "hylotlDescription" : "Something is happening. Why is this here?",
+  "novakidDescription" : "I'm dozing off...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_enterite_sample.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_enterite_sample.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "ct_ionicblockade",
+  "label" : "Ionoblockade",
+
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "ionicStatusImmunity" : true,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_electric_protection.lua" ],
+  "icon" : "ct_electroblockade.png"
+}

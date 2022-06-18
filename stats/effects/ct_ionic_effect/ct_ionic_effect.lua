@@ -6,7 +6,7 @@ function init()
   effect.addStatModifierGroup({{stat = "poisonResistance", amount = config.getParameter("poisonResistance", 0.00)}})
 
   if config.getParameter("removeElectricStatusImmunity", false) then
-    effect.setStatModifierGroup({{stat = "electricStatusImmunity", amount = 0.0}})
+    effect.addStatModifierGroup({{stat = "electricStatusImmunity", effectiveMultiplier = 0.0}})
   end
 
   -- effect.setParentDirectives(config.getParameter("directives", ""))
@@ -32,7 +32,7 @@ function update(dt)
   else
     self.doPenalty = true
   end
-  if mcontroller.liquidId() == 1 then
+  if mcontroller.liquidId() == 1 and status.stat("electricStatusImmunity") == 0.0 then
     mcontroller.controlModifiers(self.movementModifiers)
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",
@@ -41,7 +41,7 @@ function update(dt)
         sourceEntityId = entity.id()
       })
   end
-  if not status.overConsumeResource("energy", self.energyCost) and self.doPenalty then
+  if not status.overConsumeResource("energy", self.energyCost) and self.doPenalty and status.stat("electricStatusImmunity") == 0.0 then
     mcontroller.controlModifiers(self.movementModifiers)
     status.applySelfDamageRequest({
         damageType = "IgnoresDef",

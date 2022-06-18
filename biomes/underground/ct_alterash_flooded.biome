@@ -56,7 +56,11 @@
       // Other
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "grass",
-        "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3" ]
+        "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3", "strange" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "grass",
+        "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3", "strange" ]
       },
       {
         "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "grass",

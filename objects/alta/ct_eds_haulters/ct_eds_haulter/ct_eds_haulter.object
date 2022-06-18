@@ -44,7 +44,7 @@
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
     "damage" : 15,
     "knockback" : 20,
-    "statusEffects" : [ "paralysis", "ct_ionic_shock" ],
+    "statusEffects" : [ "ct_ionic_stun", "ct_ionic_shock" ],
 
     "damageType" : "Environment",
     "damageSourceKind" : "spear"

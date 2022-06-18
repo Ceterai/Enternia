@@ -31,6 +31,7 @@
         "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
         "pool" : [
           {"weight" : 1.00, "pool" : "ct_alta_pod_loot"},
+          {"weight" : 0.01, "item" : "largecooler1"},
           {"weight" : 0.24, "item" : "titaniumbar"},
           {"weight" : 0.04, "item" : "tier3chair"},
           {"weight" : 0.04, "item" : "tier3door"},

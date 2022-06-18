@@ -1,0 +1,62 @@
+{
+  "objectName" : "ct_stardust_prism",
+  "colonyTags" : ["alterash", "stardust", "light"],
+  "category" : "decorative",
+  "rarity" : "Legendary",
+  "price" : 205,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Stardust Prism",
+  "description" : "This prism is packed with uncrystallized stardust. Can be destroyed to extract it.",
+  "altaDescription" : "That large prism in the middle contains pure stardust. I can just break it to get it.",
+
+  "apexDescription" : "Light is refracted as it passes through this prism.",
+  "avianDescription" : "This crystal refracts light into pretty patterns.",
+  "floranDescription" : "Colours burssst out of this rock. Makes Floran curious.",
+  "glitchDescription" : "Bewildered. I find these prism rocks to be quite mesmerising.",
+  "humanDescription" : "These rocks are responsible for the impressive light show.",
+  "hylotlDescription" : "Prisms are a true wonder of the natural world.",
+  "novakidDescription":  "I enjoy a good light show!",
+
+  "inventoryIcon" : "ct_stardust_prismicon.png",
+  "orientations" : [
+    {
+      "image" : "ct_stardust_prism.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_stardust_prism.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/lightsensor/unwiredlightsensor.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "ct_stardust_prism.animation",
+  "animationParts" : {
+    "prism" : "ct_stardust_prism.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "detectThresholdLow" : 10,
+  "detectThresholdHigh" : 30,
+
+  "health" : 20,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/prism_break_large1.ogg", "/sfx/objects/prism_break_large2.ogg" ],
+  "smashParticles" : [ { "count" : 10, "particle" : "mediumprismshard" }, { "count" : 20, "particle" : "mediumprismfineshard" } ],
+  "smashDropOptions" : [
+    [ [ "ct_stardust", 2, { } ], [ "prisiliteore", 3, { } ] ]
+  ]
+}

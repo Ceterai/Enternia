@@ -1,0 +1,12 @@
+{
+  "name" : "ct_ionic_stun",
+  "label" : "Ionic Paralysis",
+  "blockingStat" : "ionicStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 0.75,
+
+  "scripts" : [ "ct_ionic_stun.lua" ],
+  "animationConfig" : "ct_ionic_stun.animation",
+  "icon" : "ct_ionic_stun.png"
+}

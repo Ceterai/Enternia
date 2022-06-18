@@ -2,6 +2,20 @@
 
 ## Update 1.4 - Exploration & Restoration
 
+### 1.4.2
+
+**Main:**
+
+- updated icons for some effects;
+- adjusted rarity, price, other params of more objects;
+- minor bug fixes.
+
+**Alterash:**
+
+- adjusted biome spawns;
+- adjusted chest loot tables;
+- fixed a major liquid generation bug with the Flooded Caves biome that caused the game to crash.
+
 ### 1.4.1
 
 **Main:**

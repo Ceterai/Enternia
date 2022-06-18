@@ -1,0 +1,51 @@
+{
+  "objectName" : "ct_yaara_heart",
+  "colonyTags" : ["alterash", "nature", "yaara"],
+  "category" : "trap",
+  "rarity" : "Rare",
+  "price" : 605,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Yaara Heart",
+  "description" : "Don't wanna step in those...",
+  "apexDescription" : "Sharp. I'd better avoid them.",
+  "avianDescription" : "If only I could fly.",
+  "floranDescription" : "Plant no friend of Floran.",
+  "glitchDescription" : "Cautious. These look dangerous.",
+  "humanDescription" : "Very sharp thorns.",
+  "hylotlDescription" : "These look deadly.",
+  "novakidDescription" : "These sure look sharp, I'm ready to hightail it outta here!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_yaara_heart.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "touchDamage" : {
+    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "damage" : 20,
+    "knockback" : 20,
+    "statusEffects" : [ "ct_ionic_stun", "ct_ionic_shock" ],
+
+    "damageType" : "Environment",
+    "damageSourceKind" : "electricspear"
+  },
+
+  "health" : 50,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashDropOptions" : [
+    [ [ "ct_yaararoot", 3, { } ], [ "crystal", 3, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}

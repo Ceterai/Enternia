@@ -1,0 +1,12 @@
+{
+  "name" : "ct_crystal_poison",
+  "label" : "Crystal-Poisoned",
+  "effectConfig" : {
+    "statName" : "protection",
+    "statAmount" : -3
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_debuff.lua" ],
+  "icon" : "ct_crystal_poison.png"
+}

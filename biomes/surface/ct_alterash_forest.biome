@@ -9,7 +9,7 @@
   "parallax" : "ct_alterash_labs.parallax",
 
   "spawnProfile" : {
-    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "ionicStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },

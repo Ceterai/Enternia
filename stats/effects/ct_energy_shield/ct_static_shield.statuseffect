@@ -1,0 +1,16 @@
+{
+  "name" : "ct_static_shield",
+  "label" : "Static Shield",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "shieldFromHealthPercent" : 0.5,
+    "visuals" : "border=3;00FFFF99;00000000"
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_energy_shield.lua" ],
+  "animationConfig" : "ct_energy_shield.animation",
+  "icon" : "ct_energy_shield.png"
+}

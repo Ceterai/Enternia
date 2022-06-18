@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_stardust_crystal",
+  "colonyTags" : ["alterash", "stardust", "light"],
+  "category" : "light",
+  "rarity" : "Rare",
+  "price" : 125,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Stardust Crystal",
+  "description" : "Pure crystallized stardust. Can be used as light/energy source or destroyed to extract the stardust.",
+  "altaDescription" : "If only I could find a way to extract stardust from this...",
+
+  "apexDescription" : "A well-made light source.",
+  "avianDescription" : "This crystal is not Avian, but it shines in a similar fashion to their lamps.",
+  "floranDescription" : "Crystal light sssafe for Floran.",
+  "glitchDescription" : "Intrigued. A crystal lantern.",
+  "humanDescription" : "A neat, sturdy lamp made from a crystal.",
+  "hylotlDescription" : "A useful light source.",
+  "novakidDescription" : "I've always wanted a crystal lookin' lamp.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [255, 155, 255],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "ct_stardust_crystalicon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ct_stardust_crystal.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "ct_stardust_crystal.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}
