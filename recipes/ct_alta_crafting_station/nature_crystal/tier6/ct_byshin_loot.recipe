@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "venomsample", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_byshin_loot", "count" : 1 },
+  "groups" : [ "alta_tier6", "nature", "alterash_prime_nature", "crystal", "all" ]
+}

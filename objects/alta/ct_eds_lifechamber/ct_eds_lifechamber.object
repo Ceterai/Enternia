@@ -47,7 +47,8 @@
       "sitPosition" : [-2, 22],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     },
     {
       "image" : "ct_eds_lifechamber.png:<color>",
@@ -57,7 +58,8 @@
       "sitPosition" : [6, 22],
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     }
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 20 },
+    { "item" : "prisiliteore", "count" : 20 }
+  ],
+  "output" : { "item" : "ct_alta_crafting_station", "count" : 1 },
+  "groups" : [ "inventorstable2", "craftingstations", "all", "alta_tier1" ]
+}

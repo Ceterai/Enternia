@@ -1,0 +1,124 @@
+{
+  "name" : "ct_aric",
+  "friendlyName" : "Aric",
+  "statusEffects" : [ "ct_ionized_air", "ct_ionic_stroke" ],
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "waste", "moonrock" ],
+  "ores" : "ct_alterash_depth2",
+
+  "hueShiftOptions" : [-70, -55],
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_caves_narfin_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
+      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "colourfulgrass" ], "grassModDensity" : 0.7,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.0,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:tiyDistPlatform", "type" : "microdungeon",
+        "microdungeons" : [ "aridplatforming" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_shroomicChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 2, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
+        "treeStemList" : [
+          "ct_aric_bulb", "ct_aric_bulb_spots",
+          "ct_aric_glow", "ct_aric_glow_bursting", "ct_aric_glow_dark", "ct_aric_glow_eyes",
+          "ct_aric_growth", "ct_aric_growth_crystal", "ct_aric_growth_dense", "ct_aric_growth_giant",
+          "ct_aric_mutant", "ct_aric_mutant_blue", "ct_aric_mutant_giant", "ct_aric_mutant_green", "ct_aric_mutant_palm", "ct_aric_mutant_pink",
+          "ct_aric_shady", "ct_aric_shady_giant", "ct_aric_shady_old", "ct_aric_shady_sprouts",
+          "ct_aric_twisted", "ct_aric_twisted_giant", "ct_aric_twisted_short", "ct_aric_twisted_undone"
+        ], "treeFoliageList" : [
+          "ct_akollic", "ct_hyolic", "ct_mooplic", "ct_perolic", "ct_coroplic", "ct_vyralic"
+        ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "colourfulgrass" ], "grassModDensity" : 0.7,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.0,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_shroomicChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
+        "objectSets" : [
+          { "pool" : [[1,"ct_kodorric1"],[1,"ct_kodorric2"],[1,"ct_kodorric3"],[1,"ct_kodorric4"],[1,"ct_kodorric5"]], "parameters" : { } },
+          { "pool" : [[1,"ct_agaranic1"],[1,"ct_agaranic2"],[1,"ct_agaranic3"],[1,"ct_agaranic4"],[1,"ct_agaranic5"]], "parameters" : { } }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 2, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
+        "treeStemList" : [
+          "ct_aric_bulb", "ct_aric_bulb_spots",
+          "ct_aric_glow", "ct_aric_glow_bursting", "ct_aric_glow_dark", "ct_aric_glow_eyes",
+          "ct_aric_growth", "ct_aric_growth_crystal", "ct_aric_growth_dense", "ct_aric_growth_giant",
+          "ct_aric_mutant", "ct_aric_mutant_blue", "ct_aric_mutant_giant", "ct_aric_mutant_green", "ct_aric_mutant_palm", "ct_aric_mutant_pink",
+          "ct_aric_shady", "ct_aric_shady_giant", "ct_aric_shady_old", "ct_aric_shady_sprouts",
+          "ct_aric_twisted", "ct_aric_twisted_giant", "ct_aric_twisted_short", "ct_aric_twisted_undone"
+        ], "treeFoliageList" : [
+          "ct_akollic", "ct_hyolic", "ct_mooplic", "ct_perolic", "ct_coroplic", "ct_vyralic"
+        ]
+      }
+    ]
+  }
+}

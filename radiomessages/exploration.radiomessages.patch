@@ -5,4 +5,20 @@
     "text" : "Be careful, the air appears to be ionized. Unless you don't have immunity to electricity, try to not drain your energy as it may damage you periodically.",
     "textSpeed" : 70
   }
+},
+{"op":"add",
+"path":"/ct_ionized_air",
+"value":{
+    "unique" : false,
+    "text" : "Be careful, the air appears to be ionized. Unless you don't have immunity to electricity, try to not drain your energy as it may damage you periodically.",
+    "textSpeed" : 70
+  }
+},
+{"op":"add",
+"path":"/ct_ionized_air_alta",
+"value":{
+    "unique" : false,
+    "text" : "The air appears to be ionized. Thankfully, your immunity to electricity should mitigate the majority of negative effects.",
+    "textSpeed" : 70
+  }
 }]

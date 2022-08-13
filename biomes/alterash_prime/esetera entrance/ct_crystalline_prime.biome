@@ -1,0 +1,69 @@
+{
+  "name" : "ct_crystalline_prime",
+  "friendlyName" : "Crystalline Prime",
+  "mainBlock" : "moonstone",
+  "subBlocks" : [ "ice", "moonrock" ],
+  "ores" : "ct_alterash_depth1",
+
+  "hueShiftOptions" : [40, 135, 140, 150, 150, 165, 175],
+  "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_caves_poptop_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
+      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "crystalgrass" ], "grassModDensity" : 0.6,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.05, "ct_capsule_blue" ], [0.95, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      // Dungeons
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon", "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      },
+      // Growth
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_crystalline_primeChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : -70, "modHueShiftMax" : 0, "baseHueShiftMin" : -112, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCrops", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "wildcrystalplantseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"crystallinebush1"],[1,"crystallinebush2"],[1,"crystallinebush3"],[1,"crystallinebush4"]], "parameters" : { } } ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_stardust", "count" : 16 },
+    { "item" : "moonstone", "count" : 16 },
+    { "item" : "ct_enterite", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_starmatter", "count" : 1 },
+  "groups" : [ "alta_tier5", "stardust" ]
+}

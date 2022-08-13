@@ -1,12 +1,13 @@
 {
   "name" : "ct_velocity_jump",
-  "label" : "Velocity Jump Boost",
+  "label" : "Velocity Jump",
   "effectConfig" : {
-    "addJump" : 0.50
+    "fallDamageMultiplier" : 0.5,
+    "addJump" : 0.5
   },
   "defaultDuration" : 5,
 
-  "scripts" : [ "ct_velocity_jump.lua" ],
+  "scripts" : [ "ct_velocity_jump.lua", "ct_longfall.lua" ],
   "animationConfig" : "ct_velocity_jump.animation",
-  "icon" : "/interface/statuses/jumpboost.png"
+  "icon" : "ct_longfall.png"
 }

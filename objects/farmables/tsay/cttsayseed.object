@@ -17,15 +17,15 @@
   "hylotlDescription" : "Tsays can be sweet, but mostly they just taste bitter and sour. Great spice for a meal.",
   "novakidDescription" : "Heard this one's a doozy!",
 
-  "inventoryIcon" : "cttsayseedicon.png",
+  "inventoryIcon" : "icon.png",
 
   "tooltipKind" : "seed",
-  "largeImage" : "cttsayseed.png:default.3.0",
+  "largeImage" : "ct_tsay_seed.png:default.3.0",
 
 
   "orientations" : [
     {
-      "dualImage" : "cttsayseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "ct_tsay_seed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

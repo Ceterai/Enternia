@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "whitedye", "count" : 1 },
+    { "item" : "ct_bionid", "count" : 12 },
+    { "item" : "ct_phospholion", "count" : 8 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_enviro_chest", "count" : 1 },
+  "groups" : [ "alta_tier3", "tier5_arco", "all" ]
+}

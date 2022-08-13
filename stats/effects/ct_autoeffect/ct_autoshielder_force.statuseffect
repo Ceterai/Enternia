@@ -1,0 +1,19 @@
+{
+  "name" : "ct_autoshielder_force",
+  "label" : "Force Field Autoshielder",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "effectConfig" : {
+      "name" : "Force Shield",
+      "type" : "ct_force_shield",
+      "duration" : 12
+    }
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_autoeffect.lua" ],
+  "animationConfig" : "ct_autoeffect.animation",
+  "icon" : "ct_autoeffect.png"
+}

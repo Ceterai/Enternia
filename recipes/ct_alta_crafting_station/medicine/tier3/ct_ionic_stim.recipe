@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "bluestim", "count" : 1 },
+    { "item" : "ct_alternia_shard", "count" : 1 },
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "crystalplant", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_ionic_stim",
+    "count" : 1
+  },
+  "groups" : [ "alta_tier3", "medicine", "all" ]
+}

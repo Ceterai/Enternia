@@ -1,0 +1,118 @@
+{
+  "name" : "ct_alta_prime_labs",
+  "friendlyName" : "Alta Prime Labs",
+  "mainBlock" : "moonstone",
+  "subBlocks" : [ "moonstone", "moonrock" ],
+  "ores" : "ct_alterash_crystal",
+
+  "hueShiftOptions" : [30, 35, 40, 45],
+  "parallax" : "ct_alterash_labs.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_big_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
+      { "select" : 2, "pool" : "nightTerrors" },
+      { "select" : 2, "pool" : [[0.15,"crystalbirdcritter"], [0.6,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"], [0.1,"bluebutterflycritter"]] }
+    ]
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.2, "ct_capsule_purple" ], [0.4, "ct_capsule_blue" ], [1.4, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "teslaspike" ] ], "parameters" : { } } ]
+      },
+      // Dungeons
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon", "type" : "microdungeon",
+        "microdungeons" : [ "tundramicrodungeons" ]
+      },
+      // Growth
+      {
+        "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "grass",
+        "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+      {
+        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax" : 20, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "ct_ayaka_prime_stem", "ct_ayaka_crystal_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [[0.35,"crystalcavebush1"],[0.35,"crystalcavebush2"],[0.35,"crystalcavebush3"],[0.35,"crystalcavebush4"]], "parameters" : { } } ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.2, "ct_capsule_purple" ], [0.4, "ct_capsule_blue" ], [1.4, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "teslaspike" ] ], "parameters" : { } } ]
+      },
+      // Growth
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+      {
+        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeStemList" : [ "ct_ayaka_roots" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } } ]
+      }
+    ]
+  }
+}

@@ -39,29 +39,29 @@
   ],
 
   "colorOptions" : [
-    // DEFAULT - OMNIBLUE
-    { "2080f0" : "2080f0", "0050c0" : "0050c0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
-    // BLACK - TEAL
-    { "2080f0" : "b0fcdb", "0050c0" : "008ec0", "60c0fc" : "60f2fc", "b0e0fc" : "b0f9fc" },
-    // GREY - ROSE
-    { "2080f0" : "f0206f", "0050c0" : "c00041", "60c0fc" : "fc60b3", "b0e0fc" : "fcb0da" },
-    // WHITE - LIME
-    { "2080f0" : "c2f020", "0050c0" : "8dc000", "60c0fc" : "f1fc60", "b0e0fc" : "f8fcb0" },
+    // OMNIBLUE (DEFAULT)
+    { "0050c0" : "0050c0", "2080f0" : "2080f0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
+    // LIME (BLACK)
+    { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
     // RED
-    { "2080f0" : "f0202a", "0050c0" : "c00000", "60c0fc" : "fc607f", "b0e0fc" : "fcb0c0" },
+    { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
     // ORANGE
-    { "2080f0" : "f08520", "0050c0" : "c06600", "60c0fc" : "fc9460", "b0e0fc" : "fcc8b0" },
+    { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
     // YELLOW
-    { "2080f0" : "f0d820", "0050c0" : "c0b200", "60c0fc" : "fcd260", "b0e0fc" : "fce6b0" },
+    { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
     // GREEN
-    { "2080f0" : "20f05b", "0050c0" : "00c03f", "60c0fc" : "60fc75", "b0e0fc" : "b0fcb9" },
+    { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
     // BLUE
-    { "2080f0" : "2045f0", "0050c0" : "001bc0", "60c0fc" : "6094fc", "b0e0fc" : "b0cbfc" },
+    { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
     // PURPLE
-    { "2080f0" : "9320f0", "0050c0" : "7100c0", "60c0fc" : "9e60fc", "b0e0fc" : "ccb0fc" },
+    { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
     // PINK
-    { "2080f0" : "ccb0fc", "0050c0" : "c00082", "60c0fc" : "fc60e7", "b0e0fc" : "fcb0f4" },
-    // BROWN - CYAN
-    { "2080f0" : "20f0bd", "0050c0" : "00c097", "60c0fc" : "60fcbd", "b0e0fc" : "b0fcdb" }
+    { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
   ]
 }

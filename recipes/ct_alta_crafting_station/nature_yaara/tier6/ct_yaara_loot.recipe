@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_yaararoot", "count" : 1 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_yaara_loot", "count" : 1 },
+  "groups" : [ "alta_tier6", "nature", "alterash_nature", "yaara", "all" ]
+}

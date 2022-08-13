@@ -1,5 +1,11 @@
 {
   "particleEmitters" : {
+    "feathers" : {
+      "enabled" : true,
+      "emissionRate" : 1.0,
+      "emissionRateVariance" : 0.5,
+      "particles" : [ ]
+    },
     "jumpparticles" : {
       "enabled" : true,
       "emissionRate" : 1000.0,

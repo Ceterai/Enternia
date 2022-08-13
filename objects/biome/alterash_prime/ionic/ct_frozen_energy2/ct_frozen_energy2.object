@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_frozen_energy2",
+  "colonyTags" : ["alterash_prime", "frozen_energy", "energy", "alternia"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+  "race" : "generic",
+
+  "shortdescription" : "Frozen Energy Impulse",
+  "description" : "This ball of lightning got frozen. How is that even possible?",
+  "altaDescription" : "A frozen plasma charge. A lot of these can form in cold ionic environments.",
+
+  "apexDescription" : "Crystals are quite beautiful.",
+  "avianDescription" : "A bunch of shiny crystals.",
+  "floranDescription" : "Shiny, pointy rocksss.",
+  "glitchDescription" : "Impatient. Crystals are unpleasant when underfoot.",
+  "humanDescription" : "Ooh, pretty.",
+  "hylotlDescription" : "This crystal reminds me of frozen coral.",
+  "novakidDescription" : "A sparklin' crystal.",
+
+  "fullbright" : true,
+  "lightColor" : [84, 104, 128],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_frozen_energy2.png:<color>",
+      "imagePosition" : [0, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "health" : 8,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "crystalshard" } ],
+  "smashDropOptions" : [
+    [ [ "frozenwater", 1, { } ] ],
+    [ [ "ice", 1, { } ], [ "frozenwater", 1, { } ] ],
+    [ [ "frozenwater", 2, { } ] ],
+    [ [ "frozenwater", 1, { } ] ],
+    [ [ "frozenwater", 1, { } ] ]
+  ]
+}

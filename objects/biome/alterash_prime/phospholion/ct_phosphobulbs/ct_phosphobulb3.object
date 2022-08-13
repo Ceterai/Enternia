@@ -1,0 +1,54 @@
+{
+  "objectName" : "ct_phosphobulb3",
+  "colonyTags" : ["alterash_prime", "nature", "phospholion"],
+  "rarity" : "Common",
+
+  "category" : "trap",
+  "price" : 105,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Irradiated Phosphobubble",
+  "description" : "A bulb of irradiated phospholion.",
+  "altaDescription" : "This phospholion deposit collected too much radiation. Better be careful.",
+
+  "apexDescription" : "This seems lie it's about to burst, better be careful.",
+  "avianDescription" : "Uh oh! I do not want to step near this.",
+  "floranDescription" : "Watch your ssstep!",
+  "glitchDescription" : "Cautious. An active phosphobulb, I had better be careful.",
+  "humanDescription" : "I don't want to risk it, this thing could explode.",
+  "hylotlDescription" : "Phosphobulbs, smaller than sea mines but still lethal.",
+  "novakidDescription" : "This thing could still blow!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_phosphobulb3.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "fullbright" : true,
+  "lightColor" : [116, 141, 126],
+
+  "scripts" : [ "ct_phosphobulb.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "default.animation",
+  "animationParts" : {
+    "pod" : "ct_phosphobulb3.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "firstProjectile" : "smoke",
+  "triggerDelay" : 0.5,
+  "secondProjectile" : "burningstatusprojectile",
+  "detectArea" : [[-1.0, 0], [1.0, 0.5]],
+
+  "health" : 2.5,
+  "breakDropOptions" : [],
+  "biomePlaced" : true
+}

@@ -36,8 +36,8 @@
   "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
   "smashParticles" : [ { "count" : 6, "particle" : "plantshard" } ],
   "smashDropOptions" : [
-    [ ["plantfibre", 0, { } ] ],
-    [ ["plantfibre", 1, { } ] ],
+    [ ["ct_verriskoywa_grass4", 0, { } ] ],
+    [ ["ct_verriskoywa_grass4", 1, { } ] ],
     [ ["ct_verriskoywa_miko", 1, { } ] ]
   ],
 

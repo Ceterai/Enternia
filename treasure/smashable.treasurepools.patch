@@ -52,5 +52,30 @@
           {"pool" : "ct_smashable_sap_blob"},
           {"item" : "ctwood"}
         ]
+  }] ] },
+  { "op": "add", "path": "/ct_smashable_isoslime", "value": [ [1, {
+        "pool" : [
+          {"weight" : 0.80, "item" : "greenslime"},
+          {"weight" : 0.15, "item" : "biosample"},
+          {"weight" : 0.05, "item" : "cryonicextract"}
+        ],
+        "poolRounds" : [
+          [0.3, 0],
+          [0.6, 1],
+          [0.1, 2]
+        ]
+  }] ] },
+  { "op": "add", "path": "/ct_smashable_isoslime_blob", "value": [ [1, {
+        "fill" : [
+          {"item" : "cryonicextract"}
+        ],
+        "pool" : [
+          {"weight" : 1.00, "pool" : "ct_smashable_isoslime"}
+        ],
+        "poolRounds" : [
+          [0.3, 3],
+          [0.6, 4],
+          [0.1, 5]
+        ]
   }] ] }
 ]

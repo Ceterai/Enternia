@@ -7,7 +7,7 @@
   "category" : "headarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
   "level" : 6, "itemTags" : [ "tier6armour" ],
 
-  "inventoryIcon" : "head.png",
+  "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
@@ -20,22 +20,22 @@
     {
       "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
-      "baseMultiplier" : 1.16
+      "baseMultiplier" : 1.15
     },
     {
       "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.5
+      "amount" : 0.3
     },
     {
       "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 10
+      "amount" : 3
     },
     {
       "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 2
+      "amount" : 3
     }
   ],
 

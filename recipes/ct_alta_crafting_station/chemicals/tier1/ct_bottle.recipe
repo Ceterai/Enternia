@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "bottle",
+    "count" : 1
+  },
+  "groups" : [ "alta_tier1", "chemicals", "all" ]
+}

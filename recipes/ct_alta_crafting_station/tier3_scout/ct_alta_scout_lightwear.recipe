@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 8 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_scout_lightwear", "count" : 1 },
+  "groups" : [ "alta_tier1", "tier3_scout", "all" ]
+}

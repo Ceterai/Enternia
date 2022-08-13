@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_edsdiode", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_industrial_collar", "count" : 1 },
+  "groups" : [ "alta_tier3", "cosmetics", "all" ]
+}

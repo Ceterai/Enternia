@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetereye", "count" : 1 },
+    { "item" : "glowfibre", "count" : 32 },
+    { "item" : "ct_bionid", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_alternia_mindframe", "count" : 1 },
+  "groups" : [ "alta_tier5", "tier6_alternia", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_eds_table", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_alta_crafting_station",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

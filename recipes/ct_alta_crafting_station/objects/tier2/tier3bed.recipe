@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ctwood", "count" : 10 }
+  ],
+  "output" : { "item" : "tier3bed", "count" : 1 },
+  "groups" : [ "alta_tier2", "objects", "beds", "all" ]
+}

@@ -22,7 +22,11 @@ function init()
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", effectiveMultiplier = 1}})
 
   if config.getParameter("queueRadioMessage", false) then
-    world.sendEntityMessage(entity.id(), "queueRadioMessage", "ctbiomeelectric", 5.0)
+    if status.stat("electricStatusImmunity") == 0.0 then
+      world.sendEntityMessage(entity.id(), "queueRadioMessage", "ct_ionized_air", 5.0)
+    else
+      world.sendEntityMessage(entity.id(), "queueRadioMessage", "ct_ionized_air_alta", 5.0)
+    end
   end
 end
 

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 6 },
+    { "item" : "ctwood", "count" : 8 },
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_science_pack",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_tier2", "cosmetics", "all" ]
+}

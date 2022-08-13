@@ -17,14 +17,14 @@
   "hylotlDescription" : "A salty fruit of unknown origin.",
   "novakidDescription" : "Have never seen a salty fruit until now.",
 
-  "inventoryIcon" : "ctgilseedicon.png",
+  "inventoryIcon" : "icon.png",
 
   "tooltipKind" : "seed",
-  "largeImage" : "ctgilseed.png:default.3.0",
+  "largeImage" : "ct_gil_seed.png:default.3.0",
 
   "orientations" : [
     {
-      "dualImage" : "ctgilseed.png:<color>.<stage>.<alt>",
+      "dualImage" : "ct_gil_seed.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

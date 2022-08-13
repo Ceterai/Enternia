@@ -1,0 +1,85 @@
+{
+  "name" : "ct_phospholion_mines",
+  "friendlyName" : "Phospholion Mines",
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "moonstone", "moonrock" ],
+  "ores" : "ct_alterash_depth1",
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_caves_poptop_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
+      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.0,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.0,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.20, "ct_capsule_purple" ], [0.02, "ct_capsule_blue" ], [0.78, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      // Dungeons
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon", "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_phospholionChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
+        "objectSets" : [
+          { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } },
+          { "pool" : [[1,"ct_kodorric1"],[1,"ct_kodorric2"],[1,"ct_kodorric3"],[1,"ct_kodorric4"],[1,"ct_kodorric5"]], "parameters" : { } },
+          { "pool" : [[1,"miningbelt"],[1,"miningcrusher"],[1.5,"miningfence"],[1,"miningskip"],[1,"floodlights"]], "parameters" : { } }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_phosphobulb1"],[1,"ct_phosphobulb2"],[1,"ct_phosphobulb3"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [[0.45,"ct_phospholion_deposit1"],[0.35,"ct_phospholion_deposit2"],[0.15,"ct_phospholion_deposit3"],[0.05,"ct_phospholion_formation"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [[0.65,"ct_phospholion_deposit_ceiling1"],[0.35,"ct_phospholion_deposit_ceiling2"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "background", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [[0.65,"ct_phospholion_deposit_wall1"],[0.35,"ct_phospholion_deposit_wall2"]], "parameters" : { } } ]
+      }
+    ]
+  }
+}

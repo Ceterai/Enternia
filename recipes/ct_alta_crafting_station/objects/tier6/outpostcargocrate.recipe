@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "crystal", "count" : 1 },
+    { "item" : "glowfibre", "count" : 1 }
+  ],
+  "output" : { "item" : "outpostcargocrate", "count" : 1 },
+  "groups" : [ "alta_tier6", "objects", "all" ]
+}

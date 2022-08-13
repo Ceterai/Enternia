@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_bionid", "count" : 10 },
+    { "item" : "ct_phospholion", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_enviro_helmet", "count" : 1 },
+  "groups" : [ "alta_tier3", "tier5_arco", "all" ]
+}

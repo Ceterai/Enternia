@@ -1,0 +1,45 @@
+{
+  "objectName" : "ct_isoslime_blob",
+  "colonyTags" : ["alterash_prime", "isoslime"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+  "race" : "generic",
+
+  "shortdescription" : "Isoblob",
+  "description" : "A vile bubble of slime. There's something stuck inside.",
+  "altaDescription" : "A giant isoslime blob. Things tend to get stuck in isoslime, resulting in pods like this one. I wonder what's inside.",
+
+  "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
+  "avianDescription" : "A large blob of slime. Why does this exist?",
+  "floranDescription" : "Like sssap.",
+  "glitchDescription" : "Disgusted. A vile mound of slime!",
+  "humanDescription" : "A huge glob of jelly. I kind of want to poke it.",
+  "hylotlDescription" : "Slime blobs are not unpleasant to handle when you have amphibian skin.",
+  "novakidDescription" : "I reckon this'll come in handy for something.",
+
+  "fullbright" : true,
+  "lightColor" : [0, 50, 40],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_isoslime_blob.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "health" : 16,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "slimeshard" } ],
+  "smashDropPool" : "ct_smashable_isoslime_blob",
+
+  "biomePlaced" : true
+}

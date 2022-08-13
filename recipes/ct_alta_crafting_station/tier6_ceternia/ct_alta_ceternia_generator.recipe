@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 4 },
+    { "item" : "ct_phospholion", "count" : 6 },
+    { "item" : "refinedaegisalt", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_ceternia_generator", "count" : 1 },
+  "groups" : [ "alta_tier5", "tier6_ceternia", "all" ]
+}

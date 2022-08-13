@@ -99,7 +99,7 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "snow", "alpinegrass" ], "grassModDensity" : 0.9,
+    "grassMod" : [ "snow", "snowygrass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth", "ceilingsnow" ], "ceilingGrassModDensity" : 0.9,
     "items" : [
       {
@@ -119,7 +119,7 @@
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundweaponChests", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "weaponChest" ]
       },
       {

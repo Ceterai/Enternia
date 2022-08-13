@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_isoslime_spawner",
+  "colonyTags" : ["alterash_prime", "isoslime", "misc", "spawner"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+  "race" : "generic",
+
+  "shortdescription" : "Isospawner",
+  "description" : "A vile pile of slime. There's something moving inside.",
+  "altaDescription" : "That's an isoslime spawner! Better be careful.",
+
+  "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
+  "avianDescription" : "A large blob of slime. Why does this exist?",
+  "floranDescription" : "Like sssap.",
+  "glitchDescription" : "Disgusted. A vile mound of slime!",
+  "humanDescription" : "A huge glob of jelly. I kind of want to poke it.",
+  "hylotlDescription" : "Slime blobs are not unpleasant to handle when you have amphibian skin.",
+  "novakidDescription" : "I reckon this'll come in handy for something.",
+
+  "fullbright" : true,
+  "lightColor" : [0, 50, 40],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_isoslime_spawner.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ],
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "slimeshard" } ],
+  "smashDropPool" : "ct_smashable_isoslime",
+
+  "biomePlaced" : true,
+
+  "scripts" : ["/objects/spawner/monsterspawner.lua"],
+  "spawner" : {
+    "monsterTypes" : ["tentaclecrawler"], //type of monster to spawn (random from list)
+    "monsterParams" : { //additional parameters of spawned monster
+      "aggressive" : true
+    },
+    "position" : [0, 1], //relative position to spawn at
+    "positionVariance" : [2, 0], //[x,y] size of randomized spawn area, centered on position
+    "stock" : 3, //total number of spawns, -1 for infinite
+    "trigger" : "break",
+    "outOfSight" : false
+  }
+}

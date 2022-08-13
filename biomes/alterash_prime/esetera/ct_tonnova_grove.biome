@@ -1,0 +1,109 @@
+{
+  "name" : "ct_tonnova_grove",
+  "friendlyName" : "Tonnova Grove",
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "moonrock", "moonstone" ],
+
+  "hueShiftOptions" : [0],
+  "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_big_drone_spawn" ] ] },
+      {"select": 1, "pool": [[0.1429, "wisper"], [0.1429, "lilodon"], [0.1429, "capricoat"], [0.1429, "pulpin"], [0.1429, "monopus"]]},
+      { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
+      { "select" : 1, "pool" : "generatedGroundAggroDay" }, 
+      { "select" : 3, "pool" : "nightTerrors" },      
+      { "select" : 2, "pool" : "generatedGround" },
+      { "select" : 2, "pool" : "generatedFlying" },
+      { "select": 2, "pool": [ [ 1, "frozenowlcritter" ], [ 1, "sealcritter" ], [ 1, "icescabcritter" ], [ 1, "dancercritter" ], [ 1, "snowbcritter" ] ] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/arctic_day.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/arctic_night.ogg" ] }
+  },
+
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-exploration1.ogg", "/music/mercury.ogg", "/music/inviolate-loop.ogg", "/music/europa.ogg","/music/psyche.ogg", "/music/haiku.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg", "/music/error-0xbfaf000.ogg", "/music/large-magellanic-cloud.ogg" ]},
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/the-deep.ogg", "/music/arctic-constellation2.ogg", "/music/arctic-exploration2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/tranquility-base.ogg", "/music/accretion-disc.ogg", "/music/horsehead-nebula.ogg", "/music/nomads.ogg", "/music/error-0xbfaf000.ogg", "/music/casiopeia.ogg" ]}
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "snow", "colourfulgrass" ], "grassModDensity" : 0.3,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.3, "ct_capsule_purple" ], [0.3, "ct_capsule_red" ], [0.3, "ct_capsule_blue" ], [1.3, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      // Dungeons
+      // Growth
+      {
+        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
+        "bushes" : [
+          { "name" : "ct_tonnova_spring", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
+        "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "ct_tonnova_stem" ], "treeFoliageList" : [ "ct_tonnova_blob" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bionidChest" ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "snow", "colourfulgrass" ], "grassModDensity" : 0.3,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.3, "ct_capsule_purple" ], [0.3, "ct_capsule_red" ], [0.3, "ct_capsule_blue" ], [1.3, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      // Dungeons
+      // Growth
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
+        "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
+        "treeStemList" : [ "ct_tonnova_stem" ], "treeFoliageList" : [ "ct_tonnova_blob" ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bionidChest" ]
+      }
+    ]
+  }
+}

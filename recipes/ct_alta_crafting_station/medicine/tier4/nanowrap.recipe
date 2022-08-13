@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_bionid", "count" : 1 },
+    { "item" : "crystalplant", "count" : 1 },
+    { "item" : "biosample", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nanowrap",
+    "count" : 5
+  },
+  "groups" : [ "alta_tier4", "medicine", "all" ]
+}

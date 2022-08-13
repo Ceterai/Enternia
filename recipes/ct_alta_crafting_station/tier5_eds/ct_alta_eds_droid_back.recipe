@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_security_droid_back", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "upgrademodule", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_eds_droid_back", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier5_eds", "all" ]
+}

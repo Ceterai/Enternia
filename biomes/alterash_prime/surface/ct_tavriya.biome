@@ -1,0 +1,159 @@
+{
+  "name" : "ct_tavriya",
+  "friendlyName" : "Tavriya",
+  "mainBlock" : "snow",
+  "subBlocks" : [ "ice", "moonrock", "slush", "frozenwater" ],
+
+  "hueShiftOptions" : [-10, -5, 0, 0, 5, 10, 15],
+  "parallax" : "/parallax/surface/arctic.parallax",
+
+  "spawnProfile" : {
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
+      { "select" : 1, "pool" : "generatedGroundAggroDay" }, 
+      { "select" : 3, "pool" : "nightTerrors" },      
+      { "select" : 2, "pool" : "generatedGround" },
+      { "select" : 2, "pool" : "generatedFlying" },
+      { "select": 2, "pool": [ [ 1, "frozenowlcritter" ], [ 1, "sealcritter" ], [ 1, "icescabcritter" ], [ 1, "dancercritter" ], [ 1, "snowbcritter" ] ] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/arctic_day.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/arctic_night.ogg" ] }
+  },
+
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-exploration1.ogg", "/music/mercury.ogg", "/music/inviolate-loop.ogg", "/music/europa.ogg","/music/psyche.ogg", "/music/haiku.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg", "/music/error-0xbfaf000.ogg", "/music/large-magellanic-cloud.ogg" ]},
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/the-deep.ogg", "/music/arctic-constellation2.ogg", "/music/arctic-exploration2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/tranquility-base.ogg", "/music/accretion-disc.ogg", "/music/horsehead-nebula.ogg", "/music/nomads.ogg", "/music/error-0xbfaf000.ogg", "/music/casiopeia.ogg" ]}
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ "snow" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "ceilingsnow" ], "ceilingGrassModDensity" : 0.9,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      // Dungeons
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon", "type" : "microdungeon",
+        "microdungeons" : [ "snowmicrodungeons" ]
+      },
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 3, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
+        "microdungeons" : [ "block1platforms", "loops", "spiralspikes", "flats", "spikes", "rods", "wiggles", "rockyshapes", "layeredspire", "blank" ]
+      },
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:tiyDistPlatform", "type" : "microdungeon",
+        "microdungeons" : [ "iceplatforming" ]
+      },
+      {
+        "mode" : "floor", "priority" : 3.0, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDistTerrainfeatures", "type" : "microdungeon",
+        "microdungeons" : [ "terrainfeatures", "rocktunnel", "rockclimb" ]
+      },
+      // Growth
+      {
+        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
+        "bushes" : [
+          { "name" : "algae", "baseHueShiftMax" : 30, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 },
+          { "name" : "ct_tonnova_spring", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
+        "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : 10, "treeStemHueShiftMax" : 15,
+        "treeStemList" : [ "geometricstem", "icespherestem", "purewhite", "snowslimey", "snowtwisted", "snowspikey" ],
+        "treeFoliageList" : [ "geometricfoliage", "icespherefoliage", "purewhitey", "snowblank" ]
+      },
+      {
+        "mode" : "floor", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:surfaceCrops", "type" : "object",
+        "objectSets" : [
+          { "pool" : [ [1, "wildfeathercrownseed" ] ], "parameters" : { "startingStage" : 2 } },
+          { "pool" : [ [1, "wildbeakseedseed" ] ], "parameters" : { "startingStage" : 2 } }
+        ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:potsRare", "type" : "object",
+        "objectSets" : [
+          { "pool" : [ [1.0, "frozenmistprimer" ] ], "parameters" : { } },
+          { "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ], "parameters" : { } },
+          { "pool" : [ [0.2, "geometricshard1" ], [0.2, "geometricshard2" ], [0.2, "geometricshard3" ], [0.2, "geometricshard4" ], [0.2, "geometricshard5" ] ], "parameters" : { } },
+          { "pool" : [ [0.2, "iceshard1" ], [0.2, "iceshard2" ], [0.2, "iceshard3" ], [0.2, "iceshard4" ], [0.2, "iceshard5" ] ], "parameters" : { } },
+          { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } },
+          { "pool" : [[1,"ct_frozen_energy1"],[1,"ct_frozen_energy2"],[1,"ct_frozen_energy3"],[0.5,"ct_frozen_energy_ball"]], "parameters" : { } }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 2, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
+        "objectSets" : [
+          { "pool" : [ [1.0, "frozenmistprimer" ] ], "parameters" : { } },
+          { "pool" : [ [0.35, "snowdrift1" ], [0.35, "snowdrift2" ], [0.35, "snowdrift3" ], [0.35, "snowdrift4" ] ], "parameters" : { } },
+          { "pool" : [ [0.2, "geometricshard1" ], [0.2, "geometricshard2" ], [0.2, "geometricshard3" ], [0.2, "geometricshard4" ], [0.2, "geometricshard5" ] ], "parameters" : { } },
+          { "pool" : [ [0.2, "iceshard1" ], [0.2, "iceshard2" ], [0.2, "iceshard3" ], [0.2, "iceshard4" ], [0.2, "iceshard5" ] ], "parameters" : { } },
+          { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } },
+          { "pool" : [[1,"ct_frozen_energy1"],[1,"ct_frozen_energy2"],[1,"ct_frozen_energy3"],[0.5,"ct_frozen_energy_ball"]], "parameters" : { } }
+        ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:ultraRare", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "fancysnowman" ] ], "parameters" : { } } ]
+      }
+    ]
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "snow" ], "grassModDensity" : 0.3,
+    "ceilingGrassMod" : [ "ceilingsnow" ], "ceilingGrassModDensity" : 0.3,
+    "items" : [
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 0.0, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      // Dungeons
+      {
+        "mode" : "floor", "priority" : 99.0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "microdungeon",
+        "microdungeons" : [ "underground3cmicrodungeons" ]
+      },
+      // Growth
+      // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundOreRocks", "type" : "object",
+        "objectSets" : [
+          { "pool" : [ [0.50, "ct_isoslime1" ], [0.35, "ct_isoslime2" ], [0.15, "ct_isoslime3" ] ], "parameters" : { } },
+          { "pool" : [[0.45,"ct_phospholion_deposit1"],[0.35,"ct_phospholion_deposit2"],[0.2,"ct_phospholion_deposit3"]], "parameters" : { } },
+          { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } },
+          { "pool" : [[1,"ct_frozen_energy1"],[1,"ct_frozen_energy2"],[1,"ct_frozen_energy3"],[0.5,"ct_frozen_energy_ball"]], "parameters" : { } }
+        ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 2.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "grass",
+        "grasses" : [ "ceilingice", "ceilingthinice", "ceilingiceballs", "ceilingsnow" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundMid", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.20, "icestalagmite1" ], [0.20, "icestalagmite2" ], [0.20, "icestalagmite3" ], [0.20, "icestalagmite4" ] ] } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingMid", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ] } ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_verriskoywa_grass4", "count" : 2 },
+    { "item" : "ct_bionid", "count" : 8 },
+    { "item" : "durasteelbar", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_combat_helmet", "count" : 1 },
+  "groups" : [ "alta_tier3", "tier5_combat", "all" ]
+}

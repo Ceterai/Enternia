@@ -1,11 +1,11 @@
 {
   "itemName" : "ct_alta_combat_legwear",
-  "shortdescription" : "Alta Security Greaves",
-  "description" : "A standard protocol armour-plated legwear for Alterash combat units.",
+  "shortdescription" : "Alta Combat Off-Roaders",
+  "description" : "\nAll alta combat units wear these boots to ease traversing any landscape.",
 
-  "price" : 1600, "rarity" : "Uncommon",
+  "price" : 2000, "rarity" : "Rare",
   "category" : "legarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
-  "level" : 4, "itemTags" : [ "tier4armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour" ],
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
@@ -13,51 +13,51 @@
 
   "leveledStatusEffects" : [
     {
-      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
       "stat" : "powerMultiplier",
       "baseMultiplier" : 1.1
     },
     {
-      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
       "stat" : "protection",
       "amount" : 0.2
     },
     {
-      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
       "amount" : 2
     },
     {
-      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 1
+      "amount" : 2
     }
   ],
 
   "colorOptions" : [
-    // DEFAULT - OMNIBLUE
-    { "2080f0" : "2080f0", "0050c0" : "0050c0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
-    // BLACK - TEAL
-    { "2080f0" : "b0fcdb", "0050c0" : "008ec0", "60c0fc" : "60f2fc", "b0e0fc" : "b0f9fc" },
-    // GREY - ROSE
-    { "2080f0" : "f0206f", "0050c0" : "c00041", "60c0fc" : "fc60b3", "b0e0fc" : "fcb0da" },
-    // WHITE - LIME
-    { "2080f0" : "c2f020", "0050c0" : "8dc000", "60c0fc" : "f1fc60", "b0e0fc" : "f8fcb0" },
+    // BIONID (DEFAULT)
+    { "10b4ef" : "10b4ef", "71d4f8" : "71d4f8", "e1f4fa" : "e1f4fa", "f4fafd" : "f4fafd" },
+    // LIME (BLACK)
+    { "10b4ef" : "8fc000", "71d4f8" : "c5f020", "e1f4fa" : "f3fc60", "f4fafd" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "10b4ef" : "00c063", "71d4f8" : "20f081", "e1f4fa" : "60fc91", "f4fafd" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "10b4ef" : "009cc0", "71d4f8" : "20d3f0", "e1f4fa" : "60fcf9", "f4fafd" : "b0fcf9" },
     // RED
-    { "2080f0" : "f0202a", "0050c0" : "c00000", "60c0fc" : "fc607f", "b0e0fc" : "fcb0c0" },
+    { "10b4ef" : "c00003", "71d4f8" : "f0202d", "e1f4fa" : "fc6082", "f4fafd" : "fcb0c2" },
     // ORANGE
-    { "2080f0" : "f08520", "0050c0" : "c06600", "60c0fc" : "fc9460", "b0e0fc" : "fcc8b0" },
+    { "10b4ef" : "c07000", "71d4f8" : "f08f20", "e1f4fa" : "fc9c60", "f4fafd" : "fcccb0" },
     // YELLOW
-    { "2080f0" : "f0d820", "0050c0" : "c0b200", "60c0fc" : "fcd260", "b0e0fc" : "fce6b0" },
+    { "10b4ef" : "c0af00", "71d4f8" : "f0d420", "e1f4fa" : "fcd060", "f4fafd" : "fce5b0" },
     // GREEN
-    { "2080f0" : "20f05b", "0050c0" : "00c03f", "60c0fc" : "60fc75", "b0e0fc" : "b0fcb9" },
+    { "10b4ef" : "03c000", "71d4f8" : "2df020", "e1f4fa" : "82fc60", "f4fafd" : "c2fcb0" },
     // BLUE
-    { "2080f0" : "2045f0", "0050c0" : "001bc0", "60c0fc" : "6094fc", "b0e0fc" : "b0cbfc" },
+    { "10b4ef" : "001cc0", "71d4f8" : "2049f0", "e1f4fa" : "6096fc", "f4fafd" : "b0ccfc" },
     // PURPLE
-    { "2080f0" : "9320f0", "0050c0" : "7100c0", "60c0fc" : "9e60fc", "b0e0fc" : "ccb0fc" },
+    { "10b4ef" : "7c00c0", "71d4f8" : "9d20f0", "e1f4fa" : "a660fc", "f4fafd" : "d1b0fc" },
     // PINK
-    { "2080f0" : "ccb0fc", "0050c0" : "c00082", "60c0fc" : "fc60e7", "b0e0fc" : "fcb0f4" },
-    // BROWN - CYAN
-    { "2080f0" : "20f0bd", "0050c0" : "00c097", "60c0fc" : "60fcbd", "b0e0fc" : "b0fcdb" }
+    { "10b4ef" : "c00069", "71d4f8" : "f0209b", "e1f4fa" : "fc60d4", "f4fafd" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "10b4ef" : "366388", "71d4f8" : "4e8fb8", "e1f4fa" : "76c7e4", "f4fafd" : "c9eef6" }
   ]
 }

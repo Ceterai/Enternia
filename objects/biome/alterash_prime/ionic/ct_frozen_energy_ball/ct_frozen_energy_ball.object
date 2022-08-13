@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_frozen_energy_ball",
+  "colonyTags" : ["alterash_prime", "frozen_energy", "energy", "alternia"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+  "race" : "generic",
+
+  "shortdescription" : "Frozen Energy Ball",
+  "description" : "This ball of lightning got frozen. How is that even possible?",
+  "altaDescription" : "There are so many ionic discharges happening in the atmosphere that some of them freeze the moment they turn into plasma.",
+
+  "apexDescription" : "Crystals are quite beautiful.",
+  "avianDescription" : "A bunch of shiny crystals.",
+  "floranDescription" : "Shiny, pointy rocksss.",
+  "glitchDescription" : "Impatient. Crystals are unpleasant when underfoot.",
+  "humanDescription" : "Ooh, pretty.",
+  "hylotlDescription" : "This crystal reminds me of frozen coral.",
+  "novakidDescription" : "A sparklin' crystal.",
+
+  "fullbright" : true,
+  "lightColor" : [84, 104, 128],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_frozen_energy_ball.png:<color>",
+      "imagePosition" : [0, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "health" : 4
+}

@@ -1,0 +1,19 @@
+{
+  "name" : "ct_autoshielder_eds",
+  "label" : "^#b81824;EDS^reset; Autoshielder",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "effectConfig" : {
+      "name" : "EDS Shield",
+      "type" : "ct_static_shield_eds",
+      "duration" : 24
+    }
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_autoeffect.lua" ],
+  "animationConfig" : "ct_autoeffect.animation",
+  "icon" : "ct_autoeffect.png"
+}

@@ -14,7 +14,77 @@
     "value": [
       {
         "containers" : [ "ct_yaara_orb" ],
-        "treasurePool" : "ct_alterash_yaaraChestTreasure",
+        "treasurePool" : "ct_yaara_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_warpedChest",
+    "value": [
+      {
+        "containers" : [ "glowchest" ],
+        "treasurePool" : "ct_warped_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_isoslimeChest",
+    "value": [
+      {
+        "containers" : [ "slimehide" ],
+        "treasurePool" : "ct_isoslime_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_phospholionChest",
+    "value": [
+      {
+        "containers" : [ "miningchest" ],
+        "treasurePool" : "ct_phospholion_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_crystalline_primeChest",
+    "value": [
+      {
+        "containers" : [ "crystalchest" ],
+        "treasurePool" : "ct_crystalline_prime_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_bionidChest",
+    "value": [
+      {
+        "containers" : [ "techchest", "techchest2" ],
+        "treasurePool" : "ct_bionid_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_byshinChest",
+    "value": [
+      {
+        "containers" : [ "crystalchest" ],
+        "treasurePool" : "ct_byshin_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_shroomicChest",
+    "value": [
+      {
+        "containers" : [ "toxicchest" ],
+        "treasurePool" : "ct_shroomic_loot",
         "minimumLevel" : 0
       }
     ]
@@ -25,16 +95,6 @@
       {
         "containers" : [ "outpostcargocrateshort" ],
         "treasurePool" : "ct_alta_pod_loot_tier2",
-        "minimumLevel" : 0
-      }
-    ]
-  },
-  {
-    "op": "add", "path": "/ct_warpedChest",
-    "value": [
-      {
-        "containers" : [ "outpostcargocrateshort" ],
-        "treasurePool" : "ct_alterash_warpedChestTreasure",
         "minimumLevel" : 0
       }
     ]

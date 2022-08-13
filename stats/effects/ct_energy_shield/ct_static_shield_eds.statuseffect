@@ -1,0 +1,16 @@
+{
+  "name" : "ct_static_shield_eds",
+  "label" : "^#b81824;EDS^reset; Shield",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "shieldFromHealthPercent" : 0.2,
+    "visuals" : "border=2;b8182499;b81824ff"
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_energy_shield.lua" ],
+  "animationConfig" : "ct_energy_shield.animation",
+  "icon" : "ct_energy_shield.png"
+}

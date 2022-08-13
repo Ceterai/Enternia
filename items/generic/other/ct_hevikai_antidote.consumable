@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_hevikai_antidote",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "medicine",
+  "inventoryIcon" : "ct_hevikai_antidote.png",
+  "description" : "A stimpack full of green liquid, gives your run a boost!",
+  "shortdescription" : "Hevikai Antidote",
+  "effects" : [ [
+      {
+        "effect" : "runboost",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

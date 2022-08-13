@@ -1,10 +1,12 @@
 {
   "objectName" : "ct_kodorric4",
-  "colonyTags" : ["ocean"],
+  "colonyTags" : ["alterash_prime", "nature", "kodorric", "shroom"],
   "rarity" : "Common",
-  "description" : "A toxic glowing oshroom.",
-  "shortdescription" : "Toxic Glowing Oshroom",
   "race" : "generic",
+
+  "shortdescription" : "Gloopy Kodorric Shroom",
+  "description" : "A toxic glowing oshroom.",
+  "altaDescription" : "Kodorrics are shrooms full on useful biosamples. Great for making different types of medicine.",
 
   "apexDescription" : "This is a gently lit oshroom.",
   "avianDescription" : "This little oshroom doubles up as a little light.",
@@ -17,9 +19,7 @@
   "category" : "light",
   "printable" : false,
 
-  "minimumLiquidLevel" : 0.8,
-
-  "lightColor" : [161, 37, 213],
+  "lightColor" : [32, 72, 40],
 
   "inventoryIcon" : "ct_kodorric4.png",
 
@@ -45,6 +45,9 @@
 
   "smashOnBreak" : true,
   "smashParticles" : [ { "count" : 5, "particle" : "toxicoshroomshard" } ],
+  "smashDropOptions" : [
+    [ [ "biosample", 1, { } ] ]
+  ],
 
   "biomePlaced" : true
 }

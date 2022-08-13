@@ -131,6 +131,7 @@
     "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
     "category" : "axe",
     "inventoryIcon" : "enternia_halberd.png",
+    "animation" : "enternia_halberd.animation",
     "altAbility" : {
       "projectileParameters" : { "knockback" : 25, "timeToLive": 2.5 }
     },

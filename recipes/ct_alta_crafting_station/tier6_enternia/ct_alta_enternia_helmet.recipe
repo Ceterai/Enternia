@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "refinedviolium", "count" : 6 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_enternia_helmet", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier6_enternia", "all" ]
+}

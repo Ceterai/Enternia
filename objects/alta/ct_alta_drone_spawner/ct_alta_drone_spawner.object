@@ -1,14 +1,16 @@
 {
   "objectName" : "ct_alta_drone_spawner",
-  "colonyTags" : ["tentacle"],
+  "colonyTags" : ["alta", "combat", "misc", "spawner"],
   "rarity" : "Common",
 
   "category" : "breakable",
   "price" : 65,
   "printable" : false,
-  "description" : "This green substance has something moving inside it...",
-  "shortdescription" : "Tentacle Egg",
-  "race" : "tentacle",
+  "race" : "alta",
+
+  "shortdescription" : "Alta Drone Station",
+  "description" : "This strange device contains drones.",
+  "altaDescription" : "A scout drone dispenser. Harmful enough.",
 
   "apexDescription" : "What's that moving inside...?",
   "avianDescription" : "A green... thing. Wait, did I just spot something moving inside it?",
@@ -68,6 +70,7 @@
     }
   ],
 
+  "health" : 10,
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break2.ogg", "/sfx/objects/meat_break3.ogg" ],
   "smashParticles" : [ { "count" : 5, "particle" : "tentacleshard" }, { "count" : 8, "particle" : "tentaclegooshard" } ],

@@ -1,5 +1,58 @@
 # Changelog
 
+## Update 1.5 - Alterash Prime
+
+### 1.5.0
+
+**Main:**
+
+- added new planet type - Alterash Prime;
+- added in total 48 objects, 5 items, 18 biomes, ... effects;
+- added in total 26 tree types, 1 bush type, over 100 recipes;
+- updated EDS table (now alta crafting station) with new interface, new recipes and categories;
+- added level 6 upgrade to alta crafting station with recipes for every mod object and more;
+- added loot boxes - items that when used drop loot from certain chests from the mod;
+- updated some ids (use the Deprecation Station to convert deprecated items or get rewards for lost items).
+
+**Alterash Prime:**
+
+- added 1 atmosphere biome (Eva Prime) with clouds and bg stat effects;
+- added 4 surface biomes (Alterash Prime Gardens, Alta Prime Labs, EDS Grounds, Tavriya);
+- added 4 subsurface biomes (Calocaves, Crystalline Prime, Isoslime Plasts, Phospholion Mines);
+- added 2 shallow underground biomes (Hidden Alta Labs, Tonnova Grove);
+- added 4 mid underground biomes (Alta Lab Debris, Bishyn Halls, Hevika, Shroomic Depths);
+- added 2 deep underground biomes (Hevika Tunnels, Ionic Hive);
+- added 1 core biome (Barren Ion Core);
+- added 37 new natural objects that can be found on alterash prime planets.
+
+**Alterash:**
+
+- updated planet descriptions;
+- fixed a crash because of the Snowy Alterash Ridges biome generation;
+- rebalanced object spawns for some biomes.
+
+**Alta:**
+
+- added EDS Haulters - 5 different types of alta tank traps;
+- added EDS Status & Defensive Pods (WIP), EDS Turrets (WIP), EDS Retainders (WIP);
+- added 2 other alta misc objects - Alta Energy Source and Alta Drone Spawner (WIP);
+- added alta soda recipes to more original vending machines;
+- added Combat Set - lvl 5 alta armor set (WIP);
+- added Elite Set - lvl 6 alta armor set (WIP);
+- added Dreamer Set - lvl 6 alta armor set (WIP);
+- added 3 bonus helmets to already existing alta sets;
+- added VR Headset - lvl 1 cosmetic hat;
+- fixed some codexes.
+
+**Other:**
+
+- added palettes folder with palettes commonly used in the mod;
+- updated coloring options for all armors & clothing;
+- updated icons for some effects;
+- updated biome chest loot tables;
+- biome chest loot tables now can also drop their according loot boxes as bonus loot, meaning loot boxes can also drop themselves;
+- minor bug fixes.
+
 ## Update 1.4 - Exploration & Restoration
 
 ### 1.4.2

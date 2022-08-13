@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "electricdoor", "count" : 1 },
+  "groups" : [ "alta_tier6", "objects", "all" ]
+}

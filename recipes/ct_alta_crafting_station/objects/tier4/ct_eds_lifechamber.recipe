@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 8 },
+    { "item" : "ct_edsdiode", "count" : 12 },
+    { "item" : "crystal", "count" : 12 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_lifechamber", "count" : 1 },
+  "groups" : [ "alta_tier4", "objects", "all" ]
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_phospholion_formation",
+  "colonyTags" : ["alterash_prime", "nature", "phospholion"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 240,
+  "printable" : false,
+
+  "shortdescription" : "Phospholion Formation",
+  "description" : "This natural metallic formation can be used in crafting to get the metal it's made of!",
+  "altaDescription" : "I can use this phospholion formation at a crafting station to extract all of its phospholion.",
+
+  "apexDescription" : "A deposit of some sort of metallic material.",
+  "avianDescription" : "There's some kind of metal in it!",
+  "floranDescription" : "Ssshiny stone. Floran sees metal inside.",
+  "glitchDescription" : "Pleased. Ah, a shiny sight!",
+  "humanDescription" : "Oh, a rock!",
+  "hylotlDescription" : "Something is inside that rock. Perhaps this is a deposit of some sort.",
+  "novakidDescription" : "I can see metal 'n there!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_phospholion_formation.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_phospholion_formation.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "biomePlaced" : true
+}
