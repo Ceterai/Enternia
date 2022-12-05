@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_tonnakada", "count" : 1 },
+    { "item" : "ctvelcrojello", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ion_risotto", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

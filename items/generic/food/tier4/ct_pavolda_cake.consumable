@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_pavolda_cake",
+  "rarity" : "Legendary",
+  "price" : 1120,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_pavolda_cake.png",
+  "description" : "Calin alta cuisine. A crystally cake with a strange name. Most altas love it anyway.",
+  "shortdescription" : "Pavolda Cake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name" : "ct_alterash_caves",
+  "friendlyName" : "Alterash Caves",
+  "statusEffects" : [ "ct_ionized_air" ],
+  "mainBlock" : "moonstone",
+  "subBlocks" : [ "moonrock", "moondust" ],
+  "ores" : "ct_alterash_depth1",
+
+  "hueShiftOptions" : [30, 45],
+  "parallax" : "/biomes/underground/ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_caves_poptop_spawn" ] ] },
+      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.9,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_podChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax":45,"treeStemHueShiftMax":45,"treeFoliageHueShiftMin":45,"treeStemHueShiftMin":45,
+        "treeStemList":["vine","vine2","vine3","vine4"],"treeFoliageList":["flowery","starry","dreamy"]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingLower", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "prismrock1"], [1, "prismrock2"], [1, "prismrock3"] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
+        "microdungeons" : [ "encounterdungeons" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon", "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      }
+    ]
+  }
+}

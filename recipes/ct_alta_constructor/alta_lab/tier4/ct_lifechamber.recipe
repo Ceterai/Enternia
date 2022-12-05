@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bionid", "count" : 12 },
+    { "item" : "ct_edsdiode", "count" : 8 },
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_lifechamber", "count" : 1 },
+  "groups" : [ "alta_constructor4", "alta_lab", "objects", "special", "all" ]
+}

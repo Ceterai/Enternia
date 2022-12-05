@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_gheanade",
+  "rarity" : "Common",
+  "price" : 40,
+  "category" : "drink",
+  "inventoryIcon" : "ct_gheanade.png",
+  "description" : "Some say it was made from liquid crystals! As if that's possible.",
+  "shortdescription" : "Gheanade",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 30
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

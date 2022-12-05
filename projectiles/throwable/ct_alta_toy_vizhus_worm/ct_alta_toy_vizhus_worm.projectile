@@ -1,0 +1,48 @@
+{
+  "projectileName" : "ct_alta_toy_vizhus_worm",
+  "image" : "ct_alta_toy_vizhus_worm.png",
+
+  "physics" : "noveltybanana",
+  "speed" : 35,
+  "bounces" : 7,
+  "timeToLive" : 30,
+  "frameNumber" : 1,
+  "animationCycle" : 0.3,
+  "windupFrames" : 1,
+  "intangibleWindup" : true,
+  "lightColor" : [60, 60, 60],
+
+  "power" : 0,
+  "damageKind" : "snowball",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "clientEntityMode" : "ClientSlaveOnly",
+  "actionOnReap" : [
+    {
+      "action" : "item",
+      "name" : "ct_alta_toy_vizhus_worm"
+    },
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/toy_bounce1.ogg",
+        "/sfx/projectiles/toy_bounce2.ogg",
+        "/sfx/projectiles/toy_bounce3.ogg",
+        "/sfx/projectiles/toy_bounce4.ogg",
+        "/sfx/projectiles/toy_bounce5.ogg"
+      ]
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/toy_bounce1.ogg",
+        "/sfx/projectiles/toy_bounce2.ogg",
+        "/sfx/projectiles/toy_bounce3.ogg",
+        "/sfx/projectiles/toy_bounce4.ogg",
+        "/sfx/projectiles/toy_bounce5.ogg"
+      ]
+    }
+  ],
+  "emitters" : [ "sparkles", "sparkles", "sparkles" ]
+}

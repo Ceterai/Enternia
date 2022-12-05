@@ -1,7 +1,6 @@
 {
   "name" : "ct_hevika",
   "friendlyName" : "Hevika",
-  "statusEffects" : [ "ct_ionized_air", "ct_ionic_stroke" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "crystalblock", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -58,6 +57,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_alternia_crystal"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_hevikaChest" ]
       }
     ]
   },
@@ -94,6 +97,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_alternia_crystal"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_hevikaChest" ]
       }
     ]
   }

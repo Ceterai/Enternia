@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_toy_vizhus_worm",
+  "rarity" : "Uncommon",
+  "price" : 640,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_toy_vizhus_worm.png",
+  "image" : "ct_alta_toy_vizhus_worm.png",
+  "shortdescription" : "Vizhus Worm Plushie",
+  "description" : "What have we here?",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_toy_vizhus_worm",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/toy_throw1.ogg", "/sfx/projectiles/toy_throw2.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_calin_hatch",
+  "colonyTags" : ["crystal", "calin", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 125,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Calin Hatch",
+  "description" : "A vertical crystal doorway. Similar to calin gateways, the crystal plays the main role.",
+  "altaDescription" : "Not many places that use calin style have the need for hatches, yet they still prove themselves useful.",
+
+  "apexDescription" : "A hatch with a crystal in it.",
+  "avianDescription" : "Surely it's a nice hatch.",
+  "floranDescription" : "Floran see door. Floran come in.",
+  "glitchDescription" : "Calm. A firm vertical door.",
+  "humanDescription" : "A crystal hatch.",
+  "hylotlDescription" : "That a wonderful door!",
+  "novakidDescription" : "A vertical doorway. Watch your steps!",
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_calin_hatch.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "ct_calin_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "ct_calin_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
+}

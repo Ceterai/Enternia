@@ -1,0 +1,19 @@
+{
+  "name" : "ct_autoprotector",
+  "label" : "Autoprotector",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "effectConfig" : {
+      "name" : "Autoprotection",
+      "type" : "ct_autoprotection",
+      "duration" : 10
+    }
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_autoeffect.lua" ],
+  "animationConfig" : "ct_autoeffect.animation",
+  "icon" : "ct_autoprotector.png"
+}

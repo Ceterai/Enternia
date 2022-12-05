@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_eds_helmet",
   "shortdescription" : "^#f02020;EDS^reset; Helmet",
-  "description" : "An advanced headwear upgrade for alta combat units.",
+  "description" : "An advanced headwear upgrade for alta security units.",
 
   "price" : 2800, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "armor", "maxStack" : 1,
@@ -11,6 +11,10 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_autoshielder_eds"
+  ],
 
   "leveledStatusEffects" : [
     {

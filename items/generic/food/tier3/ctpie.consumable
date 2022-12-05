@@ -1,0 +1,25 @@
+{
+  "itemName" : "ctpie",
+  "rarity" : "Rare",
+  "price" : 760,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctpie.png",
+  "description" : "Runeva alta cuisine. Nice addition to the gil-tsay stew.",
+  "shortdescription" : "Aya-Gil Pie",
+  "effects" : [ [
+    {
+        "effect" : "ct_longfall",
+        "duration" : 255
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alliana_cake", "ct_haruplavu_venetto", "ct_special_mimosa" ]
+}

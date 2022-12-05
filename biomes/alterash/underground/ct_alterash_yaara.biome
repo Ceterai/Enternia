@@ -1,0 +1,124 @@
+{
+  "name" : "ct_alterash_yaara",
+  "friendlyName" : "Yaara Groves",
+  "statusEffects" : [ "ct_ionized_air" ],
+  "mainBlock" : "moonrock",
+  "subBlocks" : [ "moonrock", "moonrock" ],
+  "ores" : "ct_alterash_depth2",
+
+  "hueShiftOptions" : [75],
+  "parallax" : "/biomes/underground/ct_alterash_underground.parallax",
+
+  "spawnProfile" : {
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "iguarmor" ] ] },
+      { "select" : 2, "pool" : [ [ 1, "nutmidge" ], [ 1, "pteropod" ], [ 1, "toumingo" ], [ 1, "miasmop" ] ] },
+      { "select" : 1, "pool" : [[1,"jellocritter"]] },
+      { "select" : 3, "pool" : [[1,"sackbagcritter"], [1,"leafscabcritter"], [1,"bouncebagcritter"], [1,"bouncercritter"], [1,"crystalbirdcritter"]] }
+    ]
+  },
+
+  "ambientNoises" : {
+    "day" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] },
+    "night" : { "tracks" : [ "/sfx/environmental/desert_underground.ogg" ] }
+  },
+  "musicTrack" : {
+    "day" : { "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ] },
+    "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "flowerygrass", "thickgrass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.7,
+    "items" : [
+      // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "objectSets" : [ { "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_podChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
+      },
+      // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_thorns1"],[1,"ct_yaara_thorns2"],[1,"ct_yaara_thorns3"],[1,"ct_yaara_thorns4"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_thorns1"],[1,"ct_yaara_thorns2"],[1,"ct_yaara_thorns3"],[1,"ct_yaara_thorns4"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 2, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_lamp"],[1,"ct_yaara_lamp_crystal"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_bulb"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_bulb"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_yaara_heart" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_yaara_heart" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "grass",
+        "grasses" : [ "ct_yaara" ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "grass",
+        "grasses" : [ "ct_yaara" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_yaara", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeStemList" : [ "ct_yaara" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "tree",
+        "treeStemList" : [ "ct_yaara" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax" : 25, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 10,
+        "treeStemList" : [ "ct_yaara_node_stem", "ct_yaara_baobab_stem" ], "treeFoliageList" : [ "ct_yaara_leaves", "ct_yaara_eye_leaves", "ct_yaara_crystal_leaves" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_yaaraChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCrops", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } } ]
+      }
+    ]
+  }
+}

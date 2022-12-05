@@ -1,0 +1,23 @@
+{
+  "id" : "ct_docs_units_ceternia",
+  "title" : "Tech Docs: Elite Set",
+  "description" : "A brief description of tier 6 alta equipment worn by elite alta operatives.",
+  "icon" : "ct_docs_long.png",
+  "contentPages" : [
+
+    "Elite security units are usually protecting high-importancy objects, like the Citadel of the main alta capitol Alliana, or the biggest alta mothership Al'deron.",
+
+"Elite Ceter-Helm - A full protection helmet with a special Autoprotector system integrated into its system.
+
+Elite Guard Armor - An ultra heavy class of armor meant to protect the life of its wearer at all costs. Has a Life Support System installed.
+
+Elite Energy Greaves - This ceternia-enhanced legwear reduses any falldamage by 75%.",
+
+"> Note: be cautious, since effects like Autoprotector and Life Support System can be blocked by EMI attacks."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 120
+  }
+}

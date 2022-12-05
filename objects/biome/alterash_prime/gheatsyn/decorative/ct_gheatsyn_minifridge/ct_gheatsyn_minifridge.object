@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_gheatsyn_minifridge",
+  "colonyTags" : ["crystal", "gheatsyn", "cooking", "storage"],
+  "category" : "fridgeStorage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Uncommon",
+  "price" : 240,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Fridge",
+  "description" : "A minifridge that seems to be running on crystal energy.",
+  "altaDescription" : "This minifridge uses charged gheatchyn crystals as a subcoolant and discharged ones as a battery. Creative and useful.",
+
+  "apexDescription" : "A compact fridge. It seems like it is fueled by crystals.",
+  "avianDescription" : "This small fridge isn't even plugged in! How is it running?",
+  "floranDescription" : "A dark cryssstal fridge with pretty green lightsss.",
+  "glitchDescription" : "Excited. I can save up on energy with this little guy!",
+  "humanDescription" : "Small, but spacey enough to hold some snacks. Wait, where's the plug?",
+  "hylotlDescription" : "This minifridge seems to run on the energy it extracts from these crystals. Pretty useful.",
+  "novakidDescription" : "It has them crystals for damn batteries! Neat!",
+
+  "health" : 1.5,
+
+  "lightColor" : [33, 44, 0],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png:<color>", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png:<color>" } ],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png:<color>", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png:<color>" } ],
+      "direction" : "right",
+
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 12,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+
+}

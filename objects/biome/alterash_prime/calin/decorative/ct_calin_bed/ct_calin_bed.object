@@ -1,0 +1,48 @@
+{
+  "objectName" : "ct_calin_bed",
+  "colonyTags" : ["crystal", "calin"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Calin Bed",
+  "description" : "A beautiful bed with crystals on the corners. Well-balanced and light.",
+  "altaDescription" : "Although not as rich on energy, calin crystals look nice and are often used as lounge and party decor.",
+
+  "apexDescription" : "A pretty charming bed.",
+  "avianDescription" : "An elegant bed in a business style.",
+  "floranDescription" : "Floran can get a ressst here.",
+  "glitchDescription" : "Satisfied. This is what I call a stylish bed.",
+  "humanDescription" : "An awesome bed. Bet I could get a good sleep here.",
+  "hylotlDescription" : "A really glorious bed.",
+  "novakidDescription" : "Wow, this bed is really ravishin'!",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/alterash_prime/calin/decorative/ct_calin_bed/ct_calin_bed_cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed4"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_calin_bed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

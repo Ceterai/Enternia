@@ -1,8 +1,10 @@
 {
   "name" : "ct_longfall",
-  "label" : "Halfed Falldamage",
+  "label" : "1/4 Falldamage",
 
-  "effectConfig" : {},
+  "effectConfig" : {
+    "fallDamageMultiplier" : 0.25
+  },
   "defaultDuration" : 1.0,
 
   "scripts" : [ "ct_longfall.lua" ],

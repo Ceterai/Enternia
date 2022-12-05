@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phospholion", "count" : 1 },
+    { "item" : "hive", "count" : 5 },
+    { "item" : "larva", "count" : 10 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "wire", "count" : 2 }
+  ],
+  "output" : { "item" : "hivelamp", "count" : 1 },
+  "groups" : [ "alta_constructor5", "hive", "lights", "all" ]
+}

@@ -1,7 +1,7 @@
 [
   {"op": "add", "path": "/-", "value": {
     "name" : "ct_drone_spawn",
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 2], "spawnChance" : 0.02,
+    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.02,
     "monsterType" : [ [0.9, "ctdrone"], [0.1, "ctdrone2"] ],
     "monsterParameters" : {"aggressive" : true}
   }},

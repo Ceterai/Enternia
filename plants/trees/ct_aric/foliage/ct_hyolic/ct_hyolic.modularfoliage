@@ -4,7 +4,7 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "sapling" } ]
+      [ { "item" : "ct_alta_lab_sapling" } ]
     ],
     
     "particles" : {
@@ -105,6 +105,22 @@
     },
     "crown2" : {
       "image" : "crown2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown4" : {
+      "image" : "crown4.png",
       "backimage" : "",
       "attachment" : {
         "bx" : 0,

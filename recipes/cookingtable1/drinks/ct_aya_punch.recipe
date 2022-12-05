@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ctayajam", "count" : 1 },
+    { "item" : "ctayapowder", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_aya_punch", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

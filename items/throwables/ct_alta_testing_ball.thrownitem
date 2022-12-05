@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_testing_ball",
+  "rarity" : "Uncommon",
+  "price" : 560,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_testing_ball.png",
+  "image" : "ct_alta_testing_ball.png",
+  "shortdescription" : "Testing Ball",
+  "description" : "A large heavy metal ball with crystal panels and energy lines. Can be used for testing.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_testing_ball",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_huge.ogg" ]
+      }
+    ]
+  }
+}

@@ -6,9 +6,10 @@
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ctsapling" }, { "item" : "ct_bionid", "count" : 3 } ],
-      [ { "item" : "ctsapling" }, { "item" : "ct_bionid", "count" : 2 } ],
-      [ { "item" : "ctsapling" }, { "item" : "ct_bionid", "count" : 2 } ]
+      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 3 } ],
+      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 2 }, { "item" : "ct_bionid", "count" : 1 } ],
+      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 1 }, { "item" : "ct_bionid", "count" : 2 } ],
+      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 2 } ]
     ],
     
     "particles" : {

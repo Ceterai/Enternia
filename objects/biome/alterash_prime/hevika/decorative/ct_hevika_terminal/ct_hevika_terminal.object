@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_hevika_terminal",
+  "colonyTags" : ["crystal", "hevika", "wired"],
+  "category" : "wire",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Hevika Terminal",
+  "description" : "A crystal-powered terminal. Can be used to control stuff.",
+  "altaDescription" : "A neatly designed terminal with additional segments for visual elements. Powered by alternia.",
+
+  "apexDescription" : "A terminal on a white reinforced stand.",
+  "avianDescription" : "A terminal with holographic interface.",
+  "floranDescription" : "Can Floran tear off sssome piecess of the cryssstal??",
+  "glitchDescription" : "Glad. I'm sure this terminal will come in handy.",
+  "humanDescription" : "Can I play games on it?",
+  "hylotlDescription" : "Seems like this terminal is powered via some blue crystal below it.",
+  "novakidDescription" : "All these terminals are really somethin'.",
+
+  "lightColor" : [0, 80, 192],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_hevika_terminal.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+1",
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,2], [0,2], [1,2] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "ct_hevika_terminal.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

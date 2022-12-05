@@ -1,0 +1,83 @@
+{
+  "objectName" : "ct_eds_turret",
+  "colonyTags" : ["alta", "eds", "combat", "electronic"],
+  "category" : "wire",
+  "printable" : false,
+  "rarity" : "Rare",
+  "price" : 520,
+  "race" : "alta",
+
+  "shortdescription" : "EDS Turret",
+  "description" : "An armored automated security turret. Seems like anyone could become its target.",
+  "altaDescription" : "An EDS turret. Has some blind spots, but pretty effective in general.",
+
+  "apexDescription" : "Always ready to fire.",
+  "avianDescription" : "I must move like the wind to remain unseen by this turret.",
+  "floranDescription" : "Such bright lasersss. Don't want to be in their sssights.",
+  "glitchDescription" : "Determined. I must not become the target.",
+  "humanDescription" : "An automated security gun. Nasty piece of work.",
+  "hylotlDescription" : "A reminder of the extreme lengths the some will go to.",
+  "novakidDescription" : "An automated gun has no soul to keep in it check.",
+
+  "health" : 8,
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 4, "particle" : "steelshard" } ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "turret.png:idle" }, { "image" : "turret.png:bracket" } ],
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ],
+      "direction" : "right",
+      "imagePosition" : [-12, 0]
+    },
+    {
+      "imageLayers" : [ { "image" : "turret.png:idle" }, { "image" : "turret.png:bracket" } ],
+      "flipImages" : true,
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "right" ],
+      "direction" : "left",
+      "imagePosition" : [-12, 0]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/alta/ct_eds_turret/turret.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "animation" : "turret.animation",
+  "animationParts" : {
+    "gun" : "turret.png",
+    "bracket" : "turret.png",
+    "beam" : "beam.png"
+  },
+
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 20,
+
+  "baseOffset" : [1.625, 0.9375],
+  "tipOffset" : [3.375, 0.875],
+
+  "fireCooldown" : 0.05,
+  "fireOffsets" : [-0.25, -0.125, 0, 0.125, 0.25, 0.125, 0, -0.125],
+  "targetHoldTime" : 2
+
+}

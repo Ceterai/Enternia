@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_enviro_legwear",
   "shortdescription" : "Enviroleggings",
-  "description" : "A great balance between armor and hazard protection.",
+  "description" : "\nA great balance between armor and hazard protection.",
 
   "price" : 2000, "rarity" : "Rare",
   "category" : "legarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
@@ -12,7 +12,7 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
-    "ct_longfall"
+    "ct_enviro_protection"
   ],
 
   "leveledStatusEffects" : [

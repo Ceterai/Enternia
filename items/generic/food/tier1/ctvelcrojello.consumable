@@ -1,0 +1,25 @@
+{
+  "itemName" : "ctvelcrojello",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctvelcrojello.png",
+  "description" : "Nia alta cuisine. Sweet jello, filled with electric particles, giving it a nice sour aftertaste. And making it quite sticky too - don't put it in your pocket!",
+  "shortdescription" : "Velcro Jello",
+  "effects" : [ [
+    {
+      "effect" : "electricStatusImmunity",
+      "duration" : 60
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : [ ],
+  "rottingMultiplier" : 0.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_maito_tea", "ct_ionice_cube" ]
+}

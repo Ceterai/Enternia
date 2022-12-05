@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_tonnakada",
+  "rarity" : "Common",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_tonnakada.png",
+  "description" : "Nia alta cuisine. A properly cooked tonna fresh from a fully grown tonnova!",
+  "shortdescription" : "Tonnakada",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ]
+}

@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_calin_chest",
+  "colonyTags" : ["crystal", "calin", "storage"],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Common",
+  "price" : 100,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Calin Chest",
+  "description" : "A dark metal pod chest.",
+  "altaDescription" : "The mechanism and looks are similar to regular alta pods, except with encrusted calin crystals.",
+
+  "apexDescription" : "A chest. What's inside? Food? Any valuables?",
+  "avianDescription" : "A tough metal chest. It's not empty, is it?",
+  "floranDescription" : "Floran found sssome goodss.",
+  "glitchDescription" : "Impatient. Let's get it open!",
+  "humanDescription" : "A metal chest.",
+  "hylotlDescription" : "A simple chest with simple contents inside it.",
+  "novakidDescription" : "A heavy chest. Does it have some valuable goods inside?",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_calin_chest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

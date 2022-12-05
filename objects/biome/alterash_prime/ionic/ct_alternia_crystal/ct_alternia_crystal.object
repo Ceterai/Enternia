@@ -7,8 +7,8 @@
   "race" : "generic",
 
   "shortdescription" : "Alternia Crystal",
-  "description" : "A blueish crystal deposit. Shiny.",
-  "altaDescription" : "A crystal full of alternia energy. So powerful!",
+  "description" : "Found in esetera depths and in hevika, this blueish crystal deposit is highly ionized. Alta-scan for more.",
+  "altaDescription" : "A crystal full of alternia energy. So powerful! I can break it to get some fully-charged alternia shards.",
 
   "apexDescription" : "Crystals are quite beautiful.",
   "avianDescription" : "A bunch of shiny crystals.",
@@ -62,8 +62,8 @@
   "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
   "smashParticles" : [ { "count" : 4, "particle" : "crystalshard" } ],
   "smashDropOptions" : [
-    [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ] ],
-    [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ] ],
-    [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ] ]
+    [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ],
+    [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ], [ "crystal", 1, { } ] ],
+    [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ]
   ]
 }

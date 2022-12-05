@@ -1,0 +1,71 @@
+{
+  "objectName" : "ct_yaara_watcher",
+  "colonyTags" : ["yaara", "wired"],
+  "category" : "wire",
+  "rarity" : "Uncommon",
+  "price" : 320,
+  "race" : "floran",
+  "printable" : false,
+
+  "shortdescription" : "Yaara Watcher",
+  "description" : "A seemingly sentient plant-based contraption that detects movement in big area and can be wired.",
+  "altaDescription" : "This watcher is supposedly semi-sentient. Yaara Keepers often use it as a defence mechanism.",
+
+  "apexDescription" : "Be on alert, this thing is watching our movements.",
+  "avianDescription" : "A scary looking eye.",
+  "floranDescription" : "Ssscanning eyes on the wall sssee the enemy coming. No electrogirl will passss!",
+  "glitchDescription" : "Suspicious. This thing isn't here for nothing.",
+  "humanDescription" : "I feel some gaze on me.",
+  "hylotlDescription" : "It's some kind of a tracking device, it reacts to my movements.",
+  "novakidDescription" : "Does this thing watch my steps, or am I imagining things?",
+
+  "lightColor" : [165, 96, 31],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ct_yaara_watcher.png:<color>.<frame>", "fullbright" : true }, { "image" : "ct_yaara_watcher_lit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "ct_yaara_watcher.png:<color>.<frame>", "fullbright" : true }, { "image" : "ct_yaara_watcher_lit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left",
+      "flippedImage" : "true"
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/proximitysensor/proximitysensor.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "default.animation",
+  "animationParts" : {
+    "switch" : "ct_yaara_watcher.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 3,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [10, 10], [5, 10] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "proximitysensor"
+    ],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  }
+}

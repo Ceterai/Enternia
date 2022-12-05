@@ -23,7 +23,7 @@
     "op": "add", "path": "/ct_warpedChest",
     "value": [
       {
-        "containers" : [ "glowchest" ],
+        "containers" : [ "ct_warped_chest" ],
         "treasurePool" : "ct_warped_loot",
         "minimumLevel" : 0
       }
@@ -50,11 +50,31 @@
     ]
   },
   {
+    "op": "add", "path": "/ct_calinChest",
+    "value": [
+      {
+        "containers" : [ "ct_calin_chest" ],
+        "treasurePool" : "ct_calin_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
     "op": "add", "path": "/ct_crystalline_primeChest",
     "value": [
       {
         "containers" : [ "crystalchest" ],
         "treasurePool" : "ct_crystalline_prime_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_gheatsynChest",
+    "value": [
+      {
+        "containers" : [ "ct_gheatsyn_chest" ],
+        "treasurePool" : "ct_gheatsyn_loot",
         "minimumLevel" : 0
       }
     ]
@@ -70,11 +90,21 @@
     ]
   },
   {
-    "op": "add", "path": "/ct_byshinChest",
+    "op": "add", "path": "/ct_bishynChest",
     "value": [
       {
-        "containers" : [ "crystalchest" ],
-        "treasurePool" : "ct_byshin_loot",
+        "containers" : [ "ct_bishyn_chest" ],
+        "treasurePool" : "ct_bishyn_loot",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_hevikaChest",
+    "value": [
+      {
+        "containers" : [ "ct_hevika_chest" ],
+        "treasurePool" : "ct_hevika_loot",
         "minimumLevel" : 0
       }
     ]
@@ -115,6 +145,16 @@
       {
         "containers" : [ "outpostshippingcontainer" ],
         "treasurePool" : "ct_alterashEndTreasure",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_byshinChest",
+    "value": [
+      {
+        "containers" : [ "crystalchest" ],
+        "treasurePool" : "ct_bishyn_loot",
         "minimumLevel" : 0
       }
     ]

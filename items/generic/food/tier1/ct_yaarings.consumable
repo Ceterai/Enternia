@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_yaarings",
+  "rarity" : "Common",
+  "price" : 220,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_yaarings.png",
+  "description" : "Yava alta cuisine. Neat crunchy snacks made from throroughly baked yaara eyes.",
+  "shortdescription" : "Yaarings",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_biomix_icecream" ]
+}

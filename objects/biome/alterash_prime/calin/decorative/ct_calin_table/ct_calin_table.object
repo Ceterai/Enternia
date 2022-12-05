@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_calin_table",
+  "colonyTags" : ["crystal", "calin", "commerce"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 145,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Calin Table",
+  "description" : "An elegant stylish table. Raised dull edges with light strips prevent any accidents.",
+  "altaDescription" : "Calin style is popular in big cities with party places and video game lounges.",
+
+  "apexDescription" : "This table looks really luxuriously.",
+  "avianDescription" : "A fabulous table.",
+  "floranDescription" : "Table gonna sslice sssome meat!",
+  "glitchDescription" : "Admired. An excellent table.",
+  "humanDescription" : "On the Earth we used a tables like that to play billiards.",
+  "hylotlDescription" : "No way this table is floating.",
+  "novakidDescription" : "Ain't it a pool table?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_calin_table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

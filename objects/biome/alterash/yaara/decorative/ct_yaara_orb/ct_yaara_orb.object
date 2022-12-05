@@ -1,0 +1,53 @@
+{
+  "objectName" : "ct_yaara_orb",
+  "colonyTags" : ["alterash", "nature", "yaara", "storage"],
+  "objectType" : "container", "tooltipKind" : "container", "category" : "storage",
+  "rarity" : "Common",
+  "price" : 180,
+  "race" : "floran",
+  "printable" : false,
+
+  "shortdescription" : "Yaara Glowing Orb",
+  "description" : "A glowing orb. It looks like there's room to store things inside.",
+  "altaDescription" : "Yaara orbs are hollow on the inside, and if found in the wild you might just find something inside.",
+
+  "apexDescription" : "This round plant emits a blueish glow. I think I can see something inside.",
+  "avianDescription" : "A glowing plant, the orb is hollow inside.",
+  "floranDescription" : "Orb lightss make good containersss. Floran put trophiesss in to hide from electrogirlss.",
+  "glitchDescription" : "Astonished. This orb is an impressive natural light source.",
+  "humanDescription" : "There's room to store quite a few things inside this little orb.",
+  "hylotlDescription" : "The light this orb casts is hauntingly beautiful.",
+  "novakidDescription" : "It don't look like much, but you never know what's hidin' inside.",
+
+  "health" : 1.5,
+
+  "lightColor" : [31, 139, 165],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ct_yaara_orb.png:<color>", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "ct_yaara_orb.png:<color>", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png:<color>" } ],
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "flippedImage" : "true"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/plantorb_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/plantorb_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "biomePlaced" : true
+}

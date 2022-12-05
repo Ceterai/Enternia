@@ -2,12 +2,16 @@ require "/scripts/util.lua"
 require "/scripts/status.lua"
 
 function init()
+  self.playSound = config.getParameter("playSound", true)
   if config.getParameter("animateAura", false) then setUpAnimation() end
   script.setUpdateDelta(5)
 
   self.power = 0
   self.range = config.getParameter("jumpDistance", 10)
   self.bolt = config.getParameter("projectile", "teslaboltsmall")
+  self.projectileConfig = {}
+  self.statusEffects = config.getParameter("statusEffects", nil)
+  self.speed = config.getParameter("speed", nil)
 
   self.tickTime = config.getParameter("boltInterval", 1.0)
   self.tickTimer = self.tickTime
@@ -33,11 +37,14 @@ function update(dt)
       if world.entityCanDamage(sourceEntityId, id) and world.entityAggressive(id) and not world.lineTileCollision(mcontroller.position(), world.entityPosition(id)) then
         local sourceDamageTeam = world.entityDamageTeam(sourceEntityId)
         local directionTo = world.distance(world.entityPosition(id), mcontroller.position())
-        world.spawnProjectile( self.bolt, mcontroller.position(), entity.id(), directionTo, false, {
+        local projectile = {
           power = self.power,
           damageTeam = sourceDamageTeam
-        } )
-        animator.playSound("bolt")
+        }
+        if self.statusEffects then projectile.statusEffects = self.statusEffects end
+        if self.speed then projectile.speed = self.speed end
+        world.spawnProjectile( self.bolt, mcontroller.position(), entity.id(), directionTo, false, projectile )
+        if self.playSound then animator.playSound("bolt") end
         return
       end
     end
@@ -45,13 +52,6 @@ function update(dt)
   if self.tickTimer <= 0 then
     updateTickTime()
   end
-end
-
-function setUpAnimation()
-  animator.setAnimationState("aura", "windup")
-  animator.setParticleEmitterOffsetRegion("sparks", mcontroller.boundBox())
-  animator.setParticleEmitterActive("sparks", true)
-  -- effect.setParentDirectives("fade=7733AA=0.25")
 end
 
 function updateTickTime()
@@ -66,6 +66,13 @@ function updateTickTime()
   else
     self.tickTimer = self.tickTime
   end
+end
+
+function setUpAnimation()
+  animator.setAnimationState("aura", "windup")
+  animator.setParticleEmitterOffsetRegion("sparks", mcontroller.boundBox())
+  animator.setParticleEmitterActive("sparks", true)
+  -- effect.setParentDirectives("fade=7733AA=0.25")
 end
 
 function setUpDamage()

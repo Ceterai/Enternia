@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_gheatsyn_shelf",
+  "colonyTags" : ["crystal", "gheatsyn"],
+  "category" : "decorative",
+  "rarity" : "Common",
+  "price" : 70,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Shelf",
+  "description" : "A blue shelf used for displaying items.",
+  "altaDescription" : "A mini shelf, that can be used as a walking platform. Gheatsyn here is purely decorative.",
+
+  "apexDescription" : "It's a wall shelf.",
+  "avianDescription" : "A simple wall shelf.",
+  "floranDescription" : "Boring shelf.",
+  "glitchDescription" : "Bored. A wall shelf.",
+  "humanDescription" : "It's a wall shelf.",
+  "hylotlDescription" : "A blue wall shelf for displaying curios.",
+  "novakidDescription" : "A blue wall shelf.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_gheatsyn_shelf.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

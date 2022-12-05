@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_alternia_legwear",
   "shortdescription" : "^#2080f0;C.T. Alternia^reset; Walkers",
-  "description" : "\nThis legwear reduses any falldamage by 50%.",
+  "description" : "\nThis alternia-enhanced legwear provides additional energy to its wearer.",
 
   "price" : 2400, "rarity" : "Legendary",
   "category" : "legarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
@@ -12,7 +12,7 @@
   "femaleFrames" : "pants.png",
 
   "statusEffects" : [
-    "ct_longfall"
+    "maxenergyboostaugment3"
   ],
 
   "leveledStatusEffects" : [

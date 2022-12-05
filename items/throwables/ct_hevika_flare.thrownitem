@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_hevika_flare",
+  "rarity" : "Uncommon",
+  "price" : 15,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_hevika_flare.png",
+  "image" : "ct_hevika_flare.png",
+  "shortdescription" : "Hevika Flare",
+  "description" : "Good for lighting up a dark cave before you dive into it. Lasts 60 seconds.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_hevika_flare",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

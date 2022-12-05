@@ -1,0 +1,26 @@
+{
+  "itemName" : "ctayajam",
+  "rarity" : "Common",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayajam.png",
+  "description" : "Runeva alta cuisine. Pure jam from baked ayas. Good for pancakes.",
+  "shortdescription" : "Aya Jam",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 45
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 10.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ctayacandy", "ctayaicecream", "cttsayicecream" ]
+}

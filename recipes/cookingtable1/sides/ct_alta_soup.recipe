@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctayaboiled", "count" : 1 },
+    { "item" : "ctgil", "count" : 2 },
+    { "item" : "cttsaycooked", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_soup", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

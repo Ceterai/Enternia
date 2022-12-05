@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_zandarm_tart", "count" : 1 },
+    { "item" : "ct_tonnakada", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tonna_split", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 16 },
+    { "item" : "liquidpoison", "count" : 16 },
+    { "item" : "glowfibre", "count" : 16 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_warpedcollar", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

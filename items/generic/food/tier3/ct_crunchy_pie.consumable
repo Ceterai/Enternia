@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_crunchy_pie",
+  "rarity" : "Rare",
+  "price" : 760,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_crunchy_pie.png",
+  "description" : "Calin alta cuisine. A regular pie with crunchy filling that tastes like pineapple.",
+  "shortdescription" : "Crunchy Pie",
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 270
+    },
+    {
+        "effect" : "ct_crystal_poison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_pavolda_cake" ]
+}

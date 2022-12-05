@@ -1,0 +1,16 @@
+{
+  "itemName" : "ct_yaara_eye",
+  "price" : 60,
+  "rarity" : "Uncommon",
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "ct_yaara_eye.png",
+  "description" : "This juicy fruit-like sphere is actually part of a flower. Can be used for cooking, but is fermenting very quickly.",
+  "shortdescription" : "^#20f080;Yaara Eye^reset;",
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 0.003,
+  "learnBlueprintsOnPickup" : [ "ct_lifespring" ]
+}

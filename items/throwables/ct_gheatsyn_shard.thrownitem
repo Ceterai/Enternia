@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_gheatsyn_shard",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_gheatsyn_shard.png",
+  "image" : "ct_gheatsyn_shard.png",
+
+  "shortdescription" : "Gheatsyn Shard",
+  "description" : "A liquid crystal shard that can be used as a throwable poisonous charge or as a crafting material.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_gheatsyn_charge",
+  "projectileConfig" : {
+    "power" : 12.75,
+
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/plasmabullet_ricochet2.ogg" ]
+      }
+    ]
+  },
+  "learnBlueprintsOnPickup" : [ "ct_crystal_jam" ]
+}

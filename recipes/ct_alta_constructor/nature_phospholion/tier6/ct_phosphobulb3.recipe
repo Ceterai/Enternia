@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "moonrock", "count" : 2 },
+    { "item" : "ct_phospholion", "count" : 1 },
+    { "item" : "toxicwaste", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_phosphobulb3", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "phospholion", "hazard", "all" ]
+}

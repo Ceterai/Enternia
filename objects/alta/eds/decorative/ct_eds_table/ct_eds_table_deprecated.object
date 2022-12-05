@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_edstable",
+  "colonyTags" : ["alta", "eds"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 160,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "ED-STable",
+  "description" : "Something went wrong with this table markings. It is, in fact, very stable though.",
+  "altaDescription" : "An armored EDS table. Maximum protection - even for the simplest things, huh.",
+
+  "apexDescription" : "An armored table. Seems to be powered.",
+  "avianDescription" : "There's red paint all over this table. Doesn't look very friendly.",
+  "floranDescription" : "Dark and red. And metal. Floran can't even push it.",
+  "glitchDescription" : "Observant. This table looks very heavy and sturdy.",
+  "humanDescription" : "This thing looks pretty heavy and aggressive. Is this on purpose?",
+  "hylotlDescription" : "Looks like table, but judging by the lights I'll assume it's a device of sorts.",
+  "novakidDescription" : "Nothin' looks good to me about this one table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_eds_table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_tonna_shake",
+  "rarity" : "Rare",
+  "price" : 800,
+  "category" : "drink",
+  "inventoryIcon" : "ct_tonna_shake.png",
+  "description" : "Nia alta cuisine. Milky substance you get from baked tonnas turned into a milkshake!",
+  "shortdescription" : "Tonna Shake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 300
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_enternia_cocktail", "ct_tonna_split" ]
+}

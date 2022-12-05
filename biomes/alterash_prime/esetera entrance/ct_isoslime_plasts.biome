@@ -40,7 +40,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",

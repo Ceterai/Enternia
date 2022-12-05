@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ct_warped_hive",
+  "image" : "ct_warped_hive.png",
+  "physics" : "grenade",
+  "animationCycle" : 0.35,
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile", "type" : "ct_warped_hive1",
+      "inheritDamageFactor" : 1
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/hivebomb_impact.ogg" ]
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/throwable/ct_warped_hive/loop/loop.config"
+    }
+  ],
+  "speed" : 180,
+  "power" : 5.0,
+  "damageKind" : "default"
+}
+
+

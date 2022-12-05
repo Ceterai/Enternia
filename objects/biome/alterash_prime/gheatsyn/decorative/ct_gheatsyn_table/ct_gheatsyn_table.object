@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_gheatsyn_table",
+  "colonyTags" : ["crystal", "gheatsyn", "commerce"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 145,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Table",
+  "description" : "A gheatsyn crystal table.",
+  "altaDescription" : "A metal table with gheatsyn crystals as a stand.",
+
+  "apexDescription" : "A table made from gheatsyn crystal.",
+  "avianDescription" : "A wide plain crystal table.",
+  "floranDescription" : "Floran want to eat some snacksss.",
+  "glitchDescription" : "Encouraged. This table is very large and convenient.",
+  "humanDescription" : "A really big crystal table.",
+  "hylotlDescription" : "A kind of strict, but elegant and stylish table.",
+  "novakidDescription" : "How much booze I can put on this table?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_gheatsyn_table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

@@ -32,5 +32,21 @@
         ]
       } ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_warped_hive_harvest",
+    "value": [
+      [0, {
+        "pool" : [
+          {"weight" : 0.9, "item" : "ct_warped_hive"},
+          {"weight" : 0.1, "item" : "ct_warped_hive_seed"}
+        ],
+        "poolRounds" : [
+          [0.9, 1],
+          [0.1, 2]
+        ]
+      } ]
+    ]
   }
 ]

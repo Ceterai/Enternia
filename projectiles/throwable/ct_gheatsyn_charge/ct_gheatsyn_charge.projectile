@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ct_gheatsyn_charge",
+  "image" : "ct_gheatsyn_charge.png",
+
+  "physics" : "laser",
+  "speed" : 165,
+  "bounces" : 0,
+
+  "power" : 24,
+  "knockback" : 10,
+  "statusEffects" : [ "ct_crystal_poison" ],
+
+  "damageKind" : "poisonplasmabullet",
+  "damageKindImage" : "icon.png",
+
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+
+  "lightColor" : [183, 246, 1],
+  "animationCycle" : 0.2,
+  "frameNumber" : 2
+}

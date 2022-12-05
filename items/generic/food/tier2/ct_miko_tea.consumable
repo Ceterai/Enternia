@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_miko_tea",
+  "rarity" : "Legendary",
+  "price" : 400,
+  "category" : "drink",
+  "inventoryIcon" : "ct_miko_tea.png",
+  "description" : "Yava alta cuisine. A very carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
+  "shortdescription" : "Miko Tea",
+  "effects" : [ [
+    {
+        "effect" : "love",
+        "duration" : 240
+    },
+    {
+        "effect" : "slowlove",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_yuri_cocktail" ]
+}

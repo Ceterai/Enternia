@@ -12,6 +12,10 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
+  "statusEffects" : [
+    "ct_energizer"
+  ],
+
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",

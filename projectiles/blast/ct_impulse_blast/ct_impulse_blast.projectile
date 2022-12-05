@@ -1,0 +1,15 @@
+{
+  "projectileName" : "ct_impulse_blast",
+  "image" : "ct_impulse_blast.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [0, 192, 80],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "knockback" : 40,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "ct_impulse"
+}

@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_tonna_meringue",
+  "rarity" : "Rare",
+  "price" : 760,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_tonna_meringue.png",
+  "description" : "Nia alta cuisine. A wery soft tonna pie with meringue topping.",
+  "shortdescription" : "Tonna Meringue",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 255
+    }
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_ion_risotto", "ct_tonna_split" ]
+}

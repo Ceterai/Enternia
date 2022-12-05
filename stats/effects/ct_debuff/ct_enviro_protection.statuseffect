@@ -1,0 +1,14 @@
+{
+  "name" : "ct_enviro_protection",
+  "label" : "Enviro Protection",
+  "effectConfig" : {
+    "statName" : "fireResistance",
+    "statAmount" : 0.15,
+    "statName2" : "poisonResistance",
+    "statAmount2" : 0.15
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [ "ct_debuff.lua" ],
+  "icon" : "ct_enviro_protection.png"
+}

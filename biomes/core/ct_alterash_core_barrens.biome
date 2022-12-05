@@ -1,7 +1,6 @@
 {
   "name" : "ct_alterash_core_barrens",
   "friendlyName" : "Obsidian Depths",
-  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core",
@@ -39,20 +38,24 @@
         "objectSets" : [ { "pool" : [ [1, "ct_capsule_blue" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [[1,"ct_eds_backdoor"]], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [[1, "ct_backdoor"]], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_small_cargoChest" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_small_cargoChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_big_cargoChest" ]
       },
       {
         "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",

@@ -1,0 +1,25 @@
+{
+  "id" : "ct_docs_units_enternia",
+  "title" : "Tech Docs: Dreamer Set",
+  "description" : "A brief description of tier 6 alta equipment worn by alta 'dreamers'.",
+  "icon" : "ct_docs_long.png",
+  "contentPages" : [
+
+    "Dreamers are energy-enhanced alta travelers, drowned in enternia, not really consious but not unconsious either, stuck in their on dreams.",
+
+"^#8020f0;Dreamer's Mask - Mask worn by the one who's able to withstand the consuming power of enternia. WIP - has Omniblue Vision.
+
+^#8020f0;Dreamer's Plating - Will protect you with ionic bursts whenever you receive damage. WIP - includes Life Support Module.
+
+^#8020f0;Dreamer's Footwear - This energy legwear refills your energy when you loose your health. WIP - has Longfall (-75% fall damage).
+
+^#8020f0;Enter^reset;-EPP - Provides full immunity to ionic and electric statuses, gives +20% electric resist (WIP). Allows walking safely on ^#8020f0;enternia^reset; planets.",
+
+"> Note: be cautious, since effects like Energiser, Autorepeller, Life Support System, Autoprotector, Autoanalyzer, Omniblue Light and Energy Support System can be blocked by EMI attacks."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Common",
+    "price" : 120
+  }
+}

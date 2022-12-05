@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 1 },
+    { "item" : "crystalplant", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_biomix_icecream", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

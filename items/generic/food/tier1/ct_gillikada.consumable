@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_gillikada",
+  "rarity" : "Common",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_gillikada.png",
+  "description" : "Runeva alta cuisine. A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
+  "shortdescription" : "Gillikada",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_miko_tea", "ct_vermont_tea" ]
+}

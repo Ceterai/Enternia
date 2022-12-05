@@ -1,0 +1,12 @@
+{
+  "name" : "ct_omniblue_vision",
+  "label" : "Omniblue Vision",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [ "ct_omniblue_light.lua" ],
+  "animationConfig" : "ct_omniblue_vision.animation",
+  "icon" : "ct_omniblue_vision.png"
+}

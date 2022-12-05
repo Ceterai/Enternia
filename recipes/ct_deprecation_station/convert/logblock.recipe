@@ -1,0 +1,11 @@
+{
+  "input" : [   
+    { "item" : "ctwood", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "logblock",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "ct_deprecation_station", "convert", "all" ]
+}

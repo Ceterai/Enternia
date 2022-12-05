@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_tonna_split",
+  "rarity" : "Legendary",
+  "price" : 1000,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_tonna_split.png",
+  "description" : "Nia alta cuisine. An exquisite arrangement that tickles your visual, smelling and tasting receptors!",
+  "shortdescription" : "Tonna Split",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 428
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 428
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_haruplavu_venetto",
+  "rarity" : "Legendary",
+  "price" : 1040,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_haruplavu_venetto.png",
+  "description" : "Runeva alta cuisine. An elegant turn on gillicada mashed with baked ayas.",
+  "shortdescription" : "Haruplavu Venetto",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

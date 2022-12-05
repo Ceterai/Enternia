@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 3 },
+    { "item" : "ct_bionid", "count" : 14 },
+    { "item" : "refinedferozium", "count" : 20 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_alternia_set", "count" : 1 },
+  "groups" : [ "alta_tier5", "tier6_alternia", "all" ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alterash_bench",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor2", "alta_city", "objects", "all" ]
+}

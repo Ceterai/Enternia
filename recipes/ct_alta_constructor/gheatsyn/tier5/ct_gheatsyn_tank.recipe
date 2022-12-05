@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_gheatsyn_crystal", "count" : 4 },
+    { "item" : "wire", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_gheatsyn_tank", "count" : 1 },
+  "groups" : [ "alta_constructor5", "crystal", "gheatsyn", "lights", "all" ]
+}

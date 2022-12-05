@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_warped_glowbomb",
+  "rarity" : "Uncommon",
+  "price" : 10,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_warped_glowbomb.png",
+  "image" : "ct_warped_glowbomb.png",
+  "shortdescription" : "Warped Fumes",
+  "description" : "For when you need a quick light source.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_warped_glowbomb",
+  "projectileConfig" : {
+    "speed" : 55,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

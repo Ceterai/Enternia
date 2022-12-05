@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_enviro_chest",
   "shortdescription" : "Envirosuit Chestpiece",
-  "description" : "Created for work in unstable and hazardous environments.",
+  "description" : "\nCreated for work in unstable and hazardous environments.",
 
   "price" : 4800, "rarity" : "Rare",
   "category" : "chestarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
@@ -20,7 +20,7 @@
   },
 
   "statusEffects" : [
-    "ct_life_support_module"
+    "ct_electroblockade"
   ],
 
   "leveledStatusEffects" : [

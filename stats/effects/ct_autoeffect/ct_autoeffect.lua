@@ -1,5 +1,5 @@
 function init()
-  self.energyUsage = config.getParameter("energyUsage", 20)
+  self.energyUsage = config.getParameter("energyUsage", 0)
   self.cooldownTime = config.getParameter("cooldown", 30)
   self.cooldownTimer = 0
 
@@ -39,8 +39,8 @@ end
 function effectLoop(dt)
   if self.active then
     self.activeTimer = math.max(0, self.activeTimer - dt)
-    if not status.overConsumeResource("energy", self.energyUsage / 4 * dt) or self.activeTimer == 0 then
-      self:effectDeactivate()
+    if (self.energyUsage > 0 and not status.overConsumeResource("energy", self.energyUsage / 4 * dt)) or self.activeTimer == 0 then
+      effectDeactivate()
     end
   end
 end
@@ -53,5 +53,7 @@ function effectDeactivate()
 end
 
 function uninit()
-
+  status.clearPersistentEffects(self.effectConfig.name)
+  animator.stopAllSounds(self.effectConfig.animActive)
+  animator.playSound(self.effectConfig.animDeactivate)
 end

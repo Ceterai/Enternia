@@ -11,6 +11,10 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
+  "statusEffects" : [
+    "ct_velocity_jump"
+  ],
+
   "leveledStatusEffects" : [
     {
       "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",

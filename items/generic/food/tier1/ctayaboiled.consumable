@@ -1,0 +1,19 @@
+{
+  "itemName" : "ctayaboiled",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayaboiled.png",
+  "description" : "Runeva alta cuisine. A bowl of boiled grinded ayas. Less sweet, but very nourishing.",
+  "shortdescription" : "Boiled Ayas",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ctayajam" ]
+}

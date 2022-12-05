@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_gheatsyn_crystal",
+  "colonyTags" : ["crystal", "gheatsyn", "misc"],
+  "category" : "breakable",
+  "printable" : false,
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "generic",
+
+  "shortdescription" : "Gheatsyn Crystal",
+  "description" : "A smashable crystal. Can be used for cooking, crafting furniture and useful items. Alta-scan for more.",
+  "altaDescription" : "A refined gheatsyn crystal. They can be used in a variety of fields, from cooking to crafting, popular for its unique specs.",
+
+  "apexDescription" : "I must smash this crystal!",
+  "avianDescription" : "Smashing this crystal will be satisfying.",
+  "floranDescription" : "Sssmashy shiny!",
+  "glitchDescription" : "Excited. Smashing this crystal will produce great wealth.",
+  "humanDescription" : "Time to make some crystal mess.",
+  "hylotlDescription" : "Green crystals. Pretty. I hope I don't smash them!",
+  "novakidDescription" : "I just got the strongest urge to smash this 'ere crystal.",
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "crystalshard" } ],
+  "smashDropOptions" : [
+    [ [ "ct_gheatsyn_shard", 2, { } ], [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 2, { } ], [ "ct_gheatsyn_shard", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ] ]
+  ],
+
+  "lightColor" : [32, 44, 0],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_gheatsyn_crystal.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    },
+    {
+      "image" : "ct_gheatsyn_crystal.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "biomePlaced" : true
+}

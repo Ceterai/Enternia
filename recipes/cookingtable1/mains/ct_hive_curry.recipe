@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "chili", "count" : 1 },
+    { "item" : "larva", "count" : 2 },
+    { "item" : "rice", "count" : 1 },
+    { "item" : "biosample", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_hive_curry", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

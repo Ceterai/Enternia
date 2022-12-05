@@ -19,6 +19,10 @@
     "frontSleeve" : "fsleeve.png"
   },
 
+  "statusEffects" : [
+    "ct_emergency_healer"
+  ],
+
   "leveledStatusEffects" : [
     {
       "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",

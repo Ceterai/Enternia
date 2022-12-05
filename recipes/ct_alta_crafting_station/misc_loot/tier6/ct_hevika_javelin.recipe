@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ct_alternia_shard", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_hevika_javelin", "count" : 4 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

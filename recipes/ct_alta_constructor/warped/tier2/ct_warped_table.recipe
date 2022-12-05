@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "liquidpoison", "count" : 1 },
+    { "item" : "glowfibre", "count" : 8 }
+  ],
+  "output" : { "item" : "ct_warped_table", "count" : 1 },
+  "groups" : [ "alta_constructor2", "warped", "decoration", "all" ]
+}

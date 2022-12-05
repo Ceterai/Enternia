@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 8 },
+    { "item" : "crystal", "count" : 5 },
+    { "item" : "titaniumbar", "count" : 42 }
+  ],
+  "output" : { "item" : "ct_alta_security_droid_set", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier4_security", "set", "all" ]
+}

@@ -1,0 +1,19 @@
+{
+  "itemName" : "ctayabaked",
+  "rarity" : "Common",
+  "price" : 160,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ctayabaked.png",
+  "description" : "Runeva alta cuisine. Crispy on the outside, filled with hot sweet, slightly sour jam.",
+  "shortdescription" : "Baked Aya",
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ctassorti" ]
+}

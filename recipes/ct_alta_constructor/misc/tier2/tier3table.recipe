@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 5 }
+
+  ],
+  "output" : { "item" : "tier3table", "count" : 1 },
+  "groups" : [ "alta_constructor2", "misc", "objects", "decoration", "all" ]
+}

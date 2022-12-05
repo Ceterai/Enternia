@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "perfectlygenericitem", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "ct_alta_backpack",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups"  : [ "ct_deprecation_station", "exchange" ]
+}

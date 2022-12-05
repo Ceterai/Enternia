@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "whitedye", "count" : 2 },
+    { "item" : "ct_bionid", "count" : 28 },
+    { "item" : "ct_phospholion", "count" : 18 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_enviro_set", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier5_arco", "all" ]
+}

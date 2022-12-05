@@ -19,6 +19,10 @@
     "frontSleeve" : "fsleeve.png"
   },
 
+  "statusEffects" : [
+    "ct_autorepeller"
+  ],
+
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",

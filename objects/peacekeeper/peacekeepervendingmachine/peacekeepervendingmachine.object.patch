@@ -1,7 +1,22 @@
-[{"op" : "add",
+[
+{"op" : "add",
 "path" : "/interactData/items/-",
 "value" : { "item" : "ctayasoda" }
-},{"op" : "add",
+},
+{"op" : "add",
 "path" : "/interactData/items/-",
 "value" : { "item" : "cttsaycola" }
-}]
+},
+{"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "ct_gheanade" }
+},
+{"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "ct_vmax" }
+},
+{"op" : "add",
+"path" : "/interactData/items/-",
+"value" : { "item" : "ctcannedfood" }
+}
+]

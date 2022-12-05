@@ -1,0 +1,69 @@
+{
+  "objectName" : "ct_bulbonid",
+  "colonyTags" : ["alterash_prime", "nature", "bionid", "light"],
+  "category" : "light",
+  "rarity" : "Common",
+  "price" : 120,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Bulbonid",
+  "description" : "A tall biometal growth with brightly-lit bulbs on top.",
+  "altaDescription" : "This plant is growing bionid formations that glow with the energy it provides.",
+
+  "apexDescription" : "It's some kind of a natural light.",
+  "avianDescription" : "Those bulbs on it are way too big!",
+  "floranDescription" : "Floran want to ssslash white glowing ball!",
+  "glitchDescription" : "Positive. It sure produces a lot of light.",
+  "humanDescription" : "A 'little' glowing flower.",
+  "hylotlDescription" : "This is a specimen of a natural light source.",
+  "novakidDescription" : "Wow, those bulbs are glowin' really bright!",
+
+  "health" : 12,
+
+  "lightColor" : [225, 244, 250],
+  "lightColorOff": [16, 180, 239],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_bulbonid.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_bulbonid.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "ct_bulbonid.png",
+    "fg" : "ct_bulbonid_lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "breakDropOptions" : [
+    [ [ "ct_bionid", 2, { } ] ],
+    [ [ "ct_bionid", 1, { } ] ],
+    [ [ "ct_bionid", 1, { } ] ]
+  ],
+
+  "inputNodes" : [ [0, 0] ],
+
+  "biomePlaced" : true
+}

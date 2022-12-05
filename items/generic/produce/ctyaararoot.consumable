@@ -1,15 +1,16 @@
 {
   "itemName" : "ct_yaararoot",
-  "price" : 120,
-  "rarity" : "Rare",
+  "price" : 80,
+  "rarity" : "Common",
   "category" : "food",
   "eventCategory" : "eventCrop",
-  "inventoryIcon" : "ctyaararoot.png",
-  "description" : "A severed piece of evolved plant matter. Can be used for crafting, but is fermenting very quickly.",
+  "inventoryIcon" : "ct_yaara_root.png",
+  "description" : "A living thriving piece of evolved plant matter charged with alternia crystals. Can be used for cooking and crafting.",
   "shortdescription" : "^#20f080;Living Yaara Root^reset;",
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
-  "rottingMultiplier" : 0.003
+  "rottingMultiplier" : 0.003,
+  "learnBlueprintsOnPickup" : [ "ct_lifespring" ]
 }

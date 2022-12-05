@@ -1,0 +1,29 @@
+{
+  "projectileName" : "ct_impulse_wave_blast",
+  "image" : "ct_impulse_wave_blast.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 5,
+  "damageKindImage" : "/items/generic/crafting/ct_ceternia_core.png",
+  "pointLight" : false,
+  "timeToLive" : 0.25,
+  "actionOnReap" : [
+    {
+      "action" : "spark"
+    },
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/pulsecannon_blast1.ogg" ]
+    },
+    {
+      "action" : "explosion",
+      "foregroundRadius" : 1,
+      "backgroundRadius" : 0,
+      "explosiveDamageAmount" : 0.5,
+      "delaySteps" : 2
+    }
+  ],
+  "power" : 16,
+  "damageKind" : "default",
+  "piercing" : true,
+  "damagePoly" : [ [-24, 0], [-16, -16], [0, -24], [16, -16], [24, 0], [16, 16], [0, 24], [-16, 16] ]
+}

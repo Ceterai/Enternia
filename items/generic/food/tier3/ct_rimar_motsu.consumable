@@ -1,0 +1,34 @@
+{
+  "itemName" : "ct_rimar_motsu",
+  "rarity" : "Rare",
+  "price" : 840,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_rimar_motsu.png",
+  "description" : "An alta cuisine. A tasty mix of various ingredients turned into a favorite alta motsu!",
+  "shortdescription" : "Rimar Motsu Soup",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "lightaugment2",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_staris_soup", "ct_alta_soup" ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_ion_cake",
+  "rarity" : "Legendary",
+  "price" : 1160,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_ion_cake.png",
+  "description" : "Nia alta cuisine. A bright colored cake most appropriate for parties and special occasions.",
+  "shortdescription" : "Ion Cake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 540
+    }
+  ] ],
+  "foodValue" : 90,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

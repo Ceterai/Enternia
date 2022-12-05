@@ -11,15 +11,12 @@ function init()
 end
 
 function update(dt)
-  if not status.resourcePositive("damageAbsorption") then
-    if self.active then removeVisualEffect() end
-    if self.expirationTimer <= 0 then effect.expire() end
-    self.expirationTimer = self.expirationTimer - dt
+  if self.expirationTimer <= 0 or not status.resourcePositive("damageAbsorption") then
     self.active = false
+    removeVisualEffect()
+    effect.expire()
   else
-    if not self.active then addVisualEffect() end
-    self.expirationTimer = self.expirationTime
-    self.active = true
+    self.expirationTimer = self.expirationTimer - dt
   end
 end
 

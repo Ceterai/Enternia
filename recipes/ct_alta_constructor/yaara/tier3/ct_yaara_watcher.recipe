@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_root", "count" : 4 },
+    { "item" : "glowfibre", "count" : 4 },
+    { "item" : "wire", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_yaara_watcher", "count" : 1 },
+  "groups" : [ "alta_constructor3", "yaara", "wired", "all" ]
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_onitti_cake",
+  "rarity" : "Legendary",
+  "price" : 1080,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_onitti_cake.png",
+  "description" : "Yava alta cuisine. A delicious layered cake with yaara flower topping.",
+  "shortdescription" : "Onitti Cake",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 495
+    }
+  ] ],
+  "foodValue" : 70,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

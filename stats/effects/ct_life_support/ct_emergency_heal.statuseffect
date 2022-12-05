@@ -1,0 +1,15 @@
+{
+  "name" : "ct_emergency_heal",
+  "label" : "Emergency Heal",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healBase" : 0.025,
+    "healTime" : 0.05
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "ct_life_support.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_life_support.png"
+}

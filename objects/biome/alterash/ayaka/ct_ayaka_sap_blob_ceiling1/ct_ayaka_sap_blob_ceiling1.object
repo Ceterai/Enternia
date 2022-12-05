@@ -5,18 +5,19 @@
   "category" : "breakable",
   "price" : 60,
   "printable" : false,
-
-  "shortdescription" : "Overgrown Ayaka Sap Blob",
-  "description" : "A glob of dripping slime.",
   "race" : "generic",
 
-  "apexDescription" : "A slime deposit. It appears to be dripping.",
-  "avianDescription" : "A disgusting slime ball.",
-  "floranDescription" : "Floran wants to avoid touching ssslime.",
-  "glitchDescription" : "Disgusted. A viscous slime deposit.",
-  "humanDescription" : "Slime is so gross.",
-  "hylotlDescription" : "Slime isn't so bad when your skin is already slimy.",
-  "novakidDescription" : "Oozing slime.",
+  "shortdescription" : "Overgrown Ayaka Sap Blob",
+  "description" : "A big glob of dripping sap, trapped in some growing roots.",
+  "altaDescription" : "All this ionic sap has collected from those ayaka roots around it.",
+
+  "apexDescription" : "A resin deposit. It appears to be dripping.",
+  "avianDescription" : "A disgusting resin ball.",
+  "floranDescription" : "Floran wants to eat thisss tassty smelling ssssap.",
+  "glitchDescription" : "Disgusted. A viscous resin deposit.",
+  "humanDescription" : "Resin isn't pleasent to touch.",
+  "hylotlDescription" : "A blob of purple resin.",
+  "novakidDescription" : "Oozing resin.",
 
   "particleEmitter" : {
     "emissionRate" : 0.2,
@@ -26,7 +27,7 @@
     "particle" : {
       "type" : "ember",
       "size" : 1.0,
-      "color" : [90, 211, 133, 255],
+      "color" : [133, 90, 211, 255],
       "fade" : 0.9,
       "initialVelocity" : [0.0, -2],
       "finalVelocity" : [0.0, -5],

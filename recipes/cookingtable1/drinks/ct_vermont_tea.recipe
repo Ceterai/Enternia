@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ctayapowder", "count" : 1 },
+    { "item" : "ctgil", "count" : 1 },
+    { "item" : "cttsay", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_vermont_tea", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

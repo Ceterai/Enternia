@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_bishyn_terminal",
+  "colonyTags" : ["crystal", "bishyn", "wired"],
+  "category" : "wire",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Terminal",
+  "description" : "A small bishyn terminal.",
+  "altaDescription" : "A regular terminal in bishyn style. Anything is better then a console.",
+
+  "apexDescription" : "An easy-to-use control panel.",
+  "avianDescription" : "A cute minimalistic terminal.",
+  "floranDescription" : "Floran touch!!",
+  "glitchDescription" : "Admiring. Such little control panel can do so much stuff.",
+  "humanDescription" : "A remote handy terminal.",
+  "hylotlDescription" : "This control panel has some charm in it.",
+  "novakidDescription" : "This little buddy is really helpful!",
+
+  "lightColor" : [55, 135, 84],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_bishyn_terminal.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "renderLayer" : "Object+1",
+
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,2], [0,2], [1,2] ],
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch3.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "ct_bishyn_terminal.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "wallbutton"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

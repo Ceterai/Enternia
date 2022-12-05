@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_plasma_nade",
+  "rarity" : "Rare",
+  "price" : 100,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_plasma_nade.png",
+  "image" : "ct_alta_plasma_nade.png",
+  "shortdescription" : "Plasma Nade",
+  "description" : "A blast device that bursts with plasma on impact. Provides lasting damage from blobs of plasma.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.5,
+
+  "projectileType" : "ct_alta_plasma_nade",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

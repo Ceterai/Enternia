@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "liquidpoison", "count" : 2 },
+    { "item" : "glowfibre", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_warped_glowbomb", "count" : 4 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

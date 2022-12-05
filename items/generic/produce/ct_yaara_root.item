@@ -1,0 +1,13 @@
+{
+  "itemName" : "ct_yaara_root",
+  "shortdescription" : "^#20f080;Yaara Root^reset;",
+  "description" : "A living thriving piece of evolved plant matter charged with alternia crystals. Can be used for cooking and crafting.",
+  "inventoryIcon" : "ct_yaara_root.png",
+
+  "price" : 20,
+  "rarity" : "Uncommon",
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "ct_lifespring" ]
+}

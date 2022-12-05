@@ -12,7 +12,7 @@
   { "op":"add", "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
 
   { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_prime_planet", "value" : {
-   "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_<selector>.png",
+   "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_prime_<selector>.png",
     "maskPerPlanetRange" : [0, 0] }
   },
   { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_prime_planet", "value" : {

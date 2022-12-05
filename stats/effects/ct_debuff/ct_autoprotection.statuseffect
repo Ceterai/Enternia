@@ -1,0 +1,12 @@
+{
+  "name" : "ct_autoprotection",
+  "label" : "Autoprotection",
+  "effectConfig" : {
+    "statName" : "protection",
+    "statAmount" : 4
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [ "ct_debuff.lua" ],
+  "icon" : "ct_autoprotection.png"
+}

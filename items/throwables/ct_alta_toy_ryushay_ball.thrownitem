@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_toy_ryushay_ball",
+  "rarity" : "Common",
+  "price" : 620,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_toy_ryushay_ball.png",
+  "image" : "ct_alta_toy_ryushay_ball.png",
+  "shortdescription" : "Ryushay Ball",
+  "description" : "It's a colorful inflatable beachball.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_toy_ryushay_ball",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_yaara_cabinet",
+  "colonyTags" : ["yaara", "storage"],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Common",
+  "price" : 200,
+  "race" : "floran",
+  "printable" : false,
+
+  "shortdescription" : "Yaara Cabinet",
+  "description" : "The cabinet made of plant fibre stretched between four large vines.",
+  "altaDescription" : "This furniture is mainly made by a sentient plant-based species that often live in yaara caves and valleys.",
+
+  "apexDescription" : "A big cabinet. Looks like it was made from some plants.",
+  "avianDescription" : "This cabinet is supported by four really large vines.",
+  "floranDescription" : "Floran knowsss this sstyle. Made by other Floran.",
+  "glitchDescription" : "Indifferent. A purple plant cabinet.",
+  "humanDescription" : "Some kind of a plant cabinet. If I pour a water onto it, will it grow bigger?",
+  "hylotlDescription" : "A bit strangely designed cabinet, but very imposing.",
+  "novakidDescription" : "Those vines are lookin' pretty impressive, I would say.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_yaara_cabinet.png:<color>",
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 40,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 16 },
+    { "item" : "ct_edsdiode", "count" : 12 },
+    { "item" : "ct_enterite", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_defense_pod", "count" : 1 },
+  "groups" : [ "alta_constructor5", "eds", "objects", "hazard", "all" ]
+}

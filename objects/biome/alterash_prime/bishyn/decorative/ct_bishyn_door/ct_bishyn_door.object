@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_bishyn_door",
+  "colonyTags" : ["crystal", "bishyn", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Door",
+  "description" : "A solid bishyn door.",
+  "altaDescription" : "A good use for the biggest bishyn formations. Sturdy and efficient, and no longer poisonous.",
+
+  "apexDescription" : "A strange looking door.",
+  "avianDescription" : "A crystal door.",
+  "floranDescription" : "Floran don't want to come through the poison door.",
+  "glitchDescription" : "Puzzled. Was this door created from poisonous materials?",
+  "humanDescription" : "A reliable door.",
+  "hylotlDescription" : "A trustworthy durable door.",
+  "novakidDescription" : "This door is lookin' really safe.",
+
+  "inventoryIcon" : "icon.png",
+   
+  "orientations" : [
+    {
+      "dualImage" : "ct_bishyn_door.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/stonedoor_open_fast.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/stonedoor_close_fast.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_bishyn_door.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

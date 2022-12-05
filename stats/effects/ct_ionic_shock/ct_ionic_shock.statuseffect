@@ -4,12 +4,12 @@
   "blockingStat" : "ionicStatusImmunity",
 
   "effectConfig" : {
-    "boltInterval" : 30.0,
+    "boltInterval" : 1.4,
     "jumpDistance" : 8,
     "healthDamageFactor" : 0.03,
     "damageClampRange" : [2, 8]
   },
-  "defaultDuration" : 1,
+  "defaultDuration" : 3,
 
   "scripts" : [ "ct_ionic_shock.lua" ],
   "animationConfig" : "ct_ionic_shock.animation",

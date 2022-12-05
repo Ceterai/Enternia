@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_calio_tea",
+  "rarity" : "Uncommon",
+  "price" : 400,
+  "category" : "drink",
+  "inventoryIcon" : "ct_calio_tea.png",
+  "description" : "Calin alta cuisine. A sweet and sour slightly dense tea, brewed using various alterash prime crystals.",
+  "shortdescription" : "Calio Tea",
+  "effects" : [ [
+    {
+        "effect" : "poisonblock",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ]
+}

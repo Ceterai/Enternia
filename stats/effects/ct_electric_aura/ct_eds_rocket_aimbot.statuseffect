@@ -1,0 +1,19 @@
+{
+  "name" : "ct_eds_rocket_aimbot",
+  "label" : "EDS Rocket Aimbot",
+
+  "effectConfig" : {
+    "playSound" : false,
+    "boltInterval" : 40.0,
+    "jumpDistance" : 30,
+    "projectile" : "homingrocket",
+    "statusEffects" : [ ],
+    "speed" : 40,
+    "damageBase" : 16
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "ct_electric_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_eds_rocket_aimbot.png"
+}

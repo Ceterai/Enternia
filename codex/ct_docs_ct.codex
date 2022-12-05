@@ -1,7 +1,6 @@
 {
   "id" : "ct_docs_ct",
   "title" : "Ceterai Project Database",
-  "species" : "alta",
   "description" : "A list of unknown devices. It seems like it's missing some entries. Code on the back reads 'CEN-**0'.",
   "icon" : "ct_datamass_alter.png",
   "contentPages" : [
@@ -34,7 +33,7 @@ CT63, Vortex Battery - a high-volume energy accumulator. Can be used to power en
 
   ],
     "itemConfig" : {
-    "rarity" : "Common",
-    "price" : 25
+    "rarity" : "Legendary",
+    "price" : 960
   }
 }

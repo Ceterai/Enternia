@@ -1,0 +1,62 @@
+{
+  "objectName" : "ct_hevika_monitor",
+  "colonyTags" : ["crystal", "hevika", "electronic"],
+  "category" : "decorative",
+  "rarity" : "Common",
+  "price" : 140,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Hevika Monitor",
+  "description" : "A wall mounted titanium monitor. Doesn't really show anything. May need configuring first.",
+  "altaDescription" : "This monitor only accepts encrypted alta signals and should be configured, but I don't have access.",
+
+  "apexDescription" : "A monitor. It shows only a couple of lines, nothing more.",
+  "avianDescription" : "This monitor sure is broken.",
+  "floranDescription" : "Iss thisss thing broken? Can Floran sssmash it?",
+  "glitchDescription" : "Annoyed. This monitor seems to be defective.",
+  "humanDescription" : "Seems like its broken.",
+  "hylotlDescription" : "You can't see anything here. This monitor needs to be configured first.",
+  "novakidDescription" : "I can't make out anythin' on it. Is it broken?",
+
+  "lightColor" : [0, 80, 192],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_hevika_monitor.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "ct_hevika_monitor.png:<color>.on",
+      "imagePosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "default.animation",
+  "animationParts" : {
+    "bg" : "ct_hevika_monitor.png",
+    "fg" : "ct_hevika_monitor_lit.png"
+  },
+  "animationPosition" : [-16, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

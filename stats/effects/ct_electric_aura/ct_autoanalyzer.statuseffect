@@ -1,0 +1,18 @@
+{
+  "name" : "ct_autoanalyzer",
+  "label" : "Autoanalyzer",
+
+  "effectConfig" : {
+    "playSound" : false,
+    "boltInterval" : 2.0,
+    "jumpDistance" : 10,
+    "projectile" : "invisibleprojectile",
+    "statusEffects" : ["ct_analyzed"],
+    "speed" : 50
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "ct_electric_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_autoanalyzer.png"
+}

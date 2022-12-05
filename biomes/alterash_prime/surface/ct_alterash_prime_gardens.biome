@@ -95,12 +95,8 @@
         "treasureBoxSets" : [ "ct_podChest" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "statuspod" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
@@ -147,12 +143,8 @@
         "treasureBoxSets" : [ "ct_podChest" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "statuspod" ] ], "parameters" : { } } ]
       },
       // Growth
       {

@@ -1,0 +1,42 @@
+{
+  "objectName" : "ct_bishyn_locker",
+  "colonyTags" : ["crystal", "bishyn", "storage"],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Uncommon",
+  "price" : 360,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Locker",
+  "description" : "A locker with crystal sliding doors.",
+  "altaDescription" : "Since the bishyn decor is popular among some alta factions, they often use the style for secure storage spaces.",
+
+  "apexDescription" : "A metal locker with crystal doors.",
+  "avianDescription" : "A well-made storage in bright colors.",
+  "floranDescription" : "Floran scared. Please don't eat Floran.",
+  "glitchDescription" : "Apathetic. A metal storage.",
+  "humanDescription" : "Is this thing gonna eat me?",
+  "hylotlDescription" : "Some space to store up my goods.",
+  "novakidDescription" : "Wow, that ol' fella has a really scary sharp mouth, dontcha think?",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_bishyn_locker.png:<color>.<key>",
+      "imagePosition" : [-16, -8],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/gunchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/gunchest_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 4,
+  "autoCloseCooldown" : 3600
+}

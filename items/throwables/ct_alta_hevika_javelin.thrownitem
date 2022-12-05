@@ -1,0 +1,27 @@
+{
+  "itemName" : "ct_alta_hevika_javelin",
+  "rarity" : "Legendary",
+  "price" : 160,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_hevika_javelin_icon.png",
+  "image" : "ct_alta_hevika_javelin.png",
+  "shortdescription" : "Advanced Hevika Javelin",
+  "description" : "An improved and reinforced hevika javelin full of freed alternia and enternia energy. Commonly used by alta dreamers for hunting.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 2.0,
+  "projectileType" : "ct_alta_hevika_javelin",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

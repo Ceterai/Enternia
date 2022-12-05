@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_warped_hive",
+  "rarity" : "Uncommon",
+  "price" : 20,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_warped_hive.png",
+  "image" : "ct_warped_hive.png",
+  "shortdescription" : "Warped Hive",
+  "description" : "A hive of warped flies. These tiny poisonous creatures can become quite a threat when a hive is disturbed.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.5,
+
+  "projectileType" : "ct_warped_hive",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 1.5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_plasma_spray",
+  "image" : "ct_plasma_spray.png",
+  "physics" : "statuspod",
+  "bounces" : -1,
+  "timeToLive" : 0,
+  "speed" : 0,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/blast/ct_plasma_blast/ct_plasma_burst.config"
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  "damagePoly" : [ [-60, -60], [-60, 60], [60, 60], [60, -60]  ],
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" }
+}

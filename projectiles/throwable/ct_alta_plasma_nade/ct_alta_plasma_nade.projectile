@@ -1,0 +1,18 @@
+{
+  "projectileName" : "ct_alta_plasma_nade",
+  "image" : "ct_alta_plasma_nade.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 4,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/blast/ct_plasma_blast/ct_plasma_burst.config"
+    }
+  ],
+  "power" : 16,
+  "speed" : 25,  // hand: 25, launchers: 40, 45-65, rockets: 180
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "damageKind" : "ct_plasma"
+}

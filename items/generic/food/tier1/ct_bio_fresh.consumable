@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_bio_fresh",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "drink",
+  "inventoryIcon" : "ct_bio_fresh.png",
+  "description" : "Yava alta cuisine. A healthy fresh made out of pure biosamples rich on vitamins.",
+  "shortdescription" : "Bio Fresh",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 60
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ]
+}

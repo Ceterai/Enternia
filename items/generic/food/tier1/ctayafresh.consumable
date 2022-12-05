@@ -1,0 +1,26 @@
+{
+  "itemName" : "ctayafresh",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "drink",
+  "inventoryIcon" : "ctayafresh.png",
+  "description" : "Runeva alta cuisine. Made with aya powder and some fresh ayas. Refreshing! Fresh is the word.",
+  "shortdescription" : "Aya Fresh",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 45
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 2.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_vermont_tea" ]
+}

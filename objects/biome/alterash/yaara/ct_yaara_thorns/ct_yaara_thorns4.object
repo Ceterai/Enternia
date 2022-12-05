@@ -8,14 +8,16 @@
   "printable" : false,
 
   "shortdescription" : "Yaara Snaky Roots",
-  "description" : "Don't wanna step in those...",
-  "apexDescription" : "Sharp. I'd better avoid them.",
-  "avianDescription" : "If only I could fly.",
-  "floranDescription" : "Plant no friend of Floran.",
-  "glitchDescription" : "Cautious. These look dangerous.",
-  "humanDescription" : "Very sharp thorns.",
-  "hylotlDescription" : "These look deadly.",
-  "novakidDescription" : "These sure look sharp, I'm ready to hightail it outta here!",
+  "description" : "Entangled pile of roots that look like some twisted snake. Except with spikes and electricity.",
+  "altaDescription" : "These protective measures are arguably good for yaara, especially with nearby warped forests.",
+
+  "apexDescription" : "Snaky sharp vines. They look deadly.",
+  "avianDescription" : "This bunch of vines looks like a snake!.",
+  "floranDescription" : "Poor plant. Bad electrogirlss and their cryssstalss.",
+  "glitchDescription" : "Cautious. The shape of these vines looks symbolic of the danger.",
+  "humanDescription" : "Snaky sharpiness with a punch of electricity.",
+  "hylotlDescription" : "A really symbolic shape for some deadly thorns.",
+  "novakidDescription" : "That vine snake bites for real.",
 
   "particleEmitter" : {
     "emissionRate" : 0.5, "emissionVariance" : 0.25, "pixelOrigin" : [0, 0], "placeInSpaces" : true,
@@ -32,11 +34,8 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_yaara_thorns4.png:<color>",
+      "dualImage" : "ct_yaara_thorns4.png:<color>",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -55,7 +54,11 @@
   "health" : 2.5,
   "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
-  "smashDropPool" : "ct_glow_smashables",
+  "smashDropOptions" : [
+    [ [ "ct_yaara_root", 2, { } ] ],
+    [ [ "ct_yaara_root", 1, { } ] ],
+    [ ]
+  ],
 
   "biomePlaced" : true
 }

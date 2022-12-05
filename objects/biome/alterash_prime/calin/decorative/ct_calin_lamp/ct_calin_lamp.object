@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_calin_lamp",
+  "colonyTags" : ["crystal", "calin", "light"],
+  "category" : "light",
+  "rarity" : "Common",
+  "price" : 85,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Calin Lamp",
+  "description" : "A glowing calin lamp. The mix of lights and shadows reminds of water light reflection.",
+  "altaDescription" : "A supercharged calin used as a lamp. These do crystals have a broad use after all.",
+
+  "apexDescription" : "A lamp made from a blue crystal.",
+  "avianDescription" : "A cute small crystal light.",
+  "floranDescription" : "It's a blue torch!",
+  "glitchDescription" : "Carefree. I feel secure beneath this lamp.",
+  "humanDescription" : "A little lamp made of blue crystal.",
+  "hylotlDescription" : "This light gives me a feeling of peace.",
+  "novakidDescription" : "I'm gonna add this to my collection. Always wanted a crystal lamp.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [118, 199, 228],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ct_calin_lamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "ct_calin_lamp.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

@@ -97,5 +97,101 @@
         ]
       } ]
     ]
-  }
+  },
+  { "op": "add", "path": "/ct_alta_scout_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_scout_mask"},
+          {"item" : "ct_alta_scout_lightwear"},
+          {"item" : "ct_alta_scout_velocity_eaters"},
+          {"item" : "ct_docs_units_scout-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_metrocop_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_visor"},
+          {"item" : "ct_alta_scout_lightwear"},
+          {"item" : "ct_alta_scout_velocity_eaters"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_security_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_security_helmet"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"},
+          {"item" : "ct_docs_units_security-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_security_mk2_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_security_helmet_mk2"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_security_captain_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_security_captain_helmet"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_security_droid_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_security_droid_head"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_droid_back"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_enviro_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_enviro_helmet"},
+          {"item" : "ct_alta_enviro_chest"},
+          {"item" : "ct_alta_enviro_legwear"},
+          {"item" : "ct_docs_units_enviro-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_enviro_mk2_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_enviro_helmet_mk2"},
+          {"item" : "ct_alta_enviro_chest"},
+          {"item" : "ct_alta_enviro_legwear"},
+          {"item" : "ct_alta_enviro_protector"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_combat_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_combat_helmet"},
+          {"item" : "ct_alta_combat_chest"},
+          {"item" : "ct_alta_combat_legwear"},
+          {"item" : "ct_docs_units_combat-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_eds_officer_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_eds_beret"},
+          {"item" : "ct_alta_eds_chest"},
+          {"item" : "ct_alta_eds_legwear"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_eds_op_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_eds_beret"},
+          {"item" : "ct_alta_eds_chest"},
+          {"item" : "ct_alta_eds_legwear"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_eds_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_eds_helmet"},
+          {"item" : "ct_alta_eds_chest"},
+          {"item" : "ct_alta_eds_legwear"},
+          {"item" : "ct_docs_units_eds-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_eds_droid_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_eds_droid_head"},
+          {"item" : "ct_alta_eds_chest"},
+          {"item" : "ct_alta_eds_legwear"},
+          {"item" : "ct_alta_eds_droid_back"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_ceternia_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_ceternia_helmet"},
+          {"item" : "ct_alta_ceternia_chest"},
+          {"item" : "ct_alta_ceternia_legwear"},
+          {"item" : "ct_alta_ceternia_protector"},
+          {"item" : "ct_docs_units_ceternia-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_alternia_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_alternia_helmet"},
+          {"item" : "ct_alta_alternia_chest"},
+          {"item" : "ct_alta_alternia_legwear"},
+          {"item" : "ct_docs_units_alternia-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_enternia_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_alta_enternia_droid_head"},
+          {"item" : "ct_alta_enternia_chest"},
+          {"item" : "ct_alta_enternia_legwear"},
+          {"item" : "ct_alta_enternia_epp"},
+          {"item" : "ct_docs_units_enternia-codex"}
+  ] } ] ] }
 ]

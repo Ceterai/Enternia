@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_alliana_cake",
+  "rarity" : "Legendary",
+  "price" : 1200,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_alliana_cake.png",
+  "description" : "Runeva alta cuisine. This delicious cake is named after the first and the biggest alta capitol and its empress.",
+  "shortdescription" : "Alliana Cake",
+  "effects" : [ [
+    {
+        "effect" : "ct_velocity_jump",
+        "duration" : 405
+    },
+    {
+        "effect" : "ct_static_shield",
+        "duration" : 120
+    },
+    {
+        "effect" : "invulnerable",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

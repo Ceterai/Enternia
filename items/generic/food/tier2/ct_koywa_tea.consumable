@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_koywa_tea",
+  "rarity" : "Uncommon",
+  "price" : 400,
+  "category" : "drink",
+  "inventoryIcon" : "ct_koywa_tea.png",
+  "description" : "Yava alta cuisine. A tea brewed from various koywa herbs. Very healthy.",
+  "shortdescription" : "Koywa Tea",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_onitti_motsu", "ct_gharus_spice", "ct_fivaldo_salad" ]
+}

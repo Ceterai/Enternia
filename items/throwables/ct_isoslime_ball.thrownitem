@@ -1,0 +1,27 @@
+{
+  "itemName" : "ct_isoslime_ball",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_isoslime_ball.png",
+  "image" : "ct_isoslime_ball.png",
+  "shortdescription" : "Ball of Isoslime",
+  "description" : "A chunk of isoslime (a.k.a. izoslime) that you can maliciously throw at someone to cover them in cryonic goo. Or make jam out of it.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_isoslime_ball",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

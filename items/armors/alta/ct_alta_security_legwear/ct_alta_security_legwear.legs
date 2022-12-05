@@ -11,6 +11,10 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
+  "statusEffects" : [
+    "ct_longfall"
+  ],
+
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",

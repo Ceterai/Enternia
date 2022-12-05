@@ -36,7 +36,8 @@
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
   "smashDropOptions" : [
-    [ [ "greenslime", 1, { } ] ]
+    [ [ "ct_isoslime_ball", 1, { } ] ],
+    [ ]
   ],
 
   "biomePlaced" : true

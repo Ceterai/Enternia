@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_plasma",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 10,
+  "speed" : 15,
+  "image" : "ct_plasma.png",
+  "animationCycle" : 0.8,
+  "lightColor" : [32, 128, 240],
+  "frameNumber" : 8,
+  "emitters" : [ "electricplasma" ],
+  "piercing" : true,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "damageKind" : "ct_plasma",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKindImage" : "icon.png",
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "hydrophobic" : true,
+  "persistentAudio" : "/sfx/objects/torch.ogg"
+}

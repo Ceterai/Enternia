@@ -49,7 +49,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       // Dungeons
       // Growth
@@ -62,7 +62,11 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
         "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "ct_tonnova_stem" ], "treeFoliageList" : [ "ct_tonnova_blob" ]
+        "treeStemList" : [ "ct_tonnova_stem", "ct_tonnova_spiral_stem", "ct_tonnova_wide_stem" ], "treeFoliageList" : [ "ct_tonnova_blob", "ct_tonnova_bulb" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_bulbonid" ] ], "parameters" : { } } ]
       },
       // Other
       {
@@ -90,14 +94,14 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       // Dungeons
       // Growth
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
         "treeFoliageHueShiftMax" : 0, "treeFoliageHueShiftMin" : 0, "treeStemHueShiftMax" : 0,
-        "treeStemList" : [ "ct_tonnova_stem" ], "treeFoliageList" : [ "ct_tonnova_blob" ]
+        "treeStemList" : [ "ct_tonnova_stem", "ct_tonnova_spiral_stem", "ct_tonnova_wide_stem" ], "treeFoliageList" : [ "ct_tonnova_blob", "ct_tonnova_bulb" ]
       },
       // Other
       {

@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_biomix_icecream",
+  "rarity" : "Uncommon",
+  "price" : 440,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_biomix_icecream.png",
+  "description" : "An alta cuisine. This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
+  "shortdescription" : "Biomix Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "thorns",
+        "duration" : 75
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 75
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ]
+}

@@ -1,0 +1,33 @@
+{
+  "itemName" : "ct_mohitava_cocktail",
+  "rarity" : "Legendary",
+  "price" : 1000,
+  "category" : "drink",
+  "inventoryIcon" : "ct_mohitava_cocktail.png",
+  "description" : "Yava alta cuisine. A mojito made with appropriate yava alternatives.",
+  "shortdescription" : "Mohitava",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

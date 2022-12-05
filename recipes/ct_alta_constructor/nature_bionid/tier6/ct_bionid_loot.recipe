@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_bionid", "count" : 1 },
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_bionid_loot", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "bionid", "loot", "all" ]
+}

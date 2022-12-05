@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctayajam", "count" : 1 },
+    { "item" : "ctassorti", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 4 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alliana_cake", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

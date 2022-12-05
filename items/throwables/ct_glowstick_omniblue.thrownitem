@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_glowstick_omniblue",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_glowstick_omniblue.png",
+  "image" : "ct_glowstick_omniblue.png",
+  "shortdescription" : "Omniblue Glowstick",
+  "description" : "Creates an omniblue bioluminescent glow when thrown. Is made from rare crystallic materials.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_glowstick_omniblue",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_glowstick_ionic", "ct_glowstick_omniblue"
+  ]
+}

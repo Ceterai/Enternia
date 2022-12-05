@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_gheatsyn_gateway",
+  "colonyTags" : ["crystal", "gheatsyn", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Gateway",
+  "description" : "An exceedingly firm gheatsyn gateway.",
+  "altaDescription" : "This gateway has an emergency airtight mode, like most alta gateways do, except here it works by liquifying inner geatchyn panels",
+
+  "apexDescription" : "This gateway is way too secure.",
+  "avianDescription" : "A very solid gateway.",
+  "floranDescription" : "Floran likesss green cryssstal gateway.",
+  "glitchDescription" : "Admiring. A splendid gateway.",
+  "humanDescription" : "A massive rugged gateway.",
+  "hylotlDescription" : "A robust gateway.",
+  "novakidDescription" : "This gateway is lookin' real sturdy.",
+
+  "inventoryIcon" : "icon.png",
+   
+  "orientations" : [
+    {
+      "dualImage" : "ct_gheatsyn_gateway.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_gheatsyn_gateway.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_gheatsyn_bed",
+  "colonyTags" : ["crystal", "gheatsyn"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Bed",
+  "description" : "A sturdy bed with a shiny crystal below it.",
+  "altaDescription" : "A metal bed with a giant gheatsyn crystal as a base. It's quite high up, so the ladder helps a lot.",
+
+  "apexDescription" : "A gheatsyn bed with a simple little ladder.",
+  "avianDescription" : "A shining bed.",
+  "floranDescription" : "A green bed. Floran likesss green.",
+  "glitchDescription" : "Bored. This bed is too simple to me.",
+  "humanDescription" : "There is a way too big crystal below this bed! I bet it's worth a fortune.",
+  "hylotlDescription" : "Who want to build a bed on the crystal? For what reason?",
+  "novakidDescription" : "A bed on a shiny green crystal.",
+
+  "lightColor" : [32, 44, 0],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_gheatsyn_bed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-8, 19],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_gheatsyn_bed.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPosition" : [-8, 19],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

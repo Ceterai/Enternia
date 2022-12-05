@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_warped_light",
+  "colonyTags" : ["warped", "light"],
+  "category" : "light",
+  "rarity" : "Common",
+  "price" : 40,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Warped Light",
+  "description" : "An organic biolight, that softly flickers in the dark.",
+  "altaDescription" : "A glowing bulb, another form of warped growth. This one can be used as a wall light.",
+
+  "apexDescription" : "A wall light, previously a part of a living being.",
+  "avianDescription" : "A pretty soft wall light.",
+  "floranDescription" : "Floran like plant lightss. Even warpy evil onesss.",
+  "glitchDescription" : "Satisfied. These little glowing bulbs sure provide a comfy gentle light.",
+  "humanDescription" : "Please tell me that this bulb won't explode.",
+  "hylotlDescription" : "Just forget about the origin of this wall light. Now. It's. Just. A. Wall. Light.",
+  "novakidDescription" : "Wow, a little glowin' orb!",
+
+  "lightColor" : [174, 111, 29],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_warped_light.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+
+    {
+      "image" : "ct_warped_light_left.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "ct_warped_light_right.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ]
+    },
+
+    {
+      "image" : "ct_warped_light.png:<frame>", "fullbright" : true,
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

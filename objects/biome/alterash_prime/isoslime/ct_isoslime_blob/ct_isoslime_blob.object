@@ -38,7 +38,7 @@
   "health" : 16,
   "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
-  "smashParticles" : [ { "count" : 8, "particle" : "slimeshard" } ],
+  "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime_blob",
 
   "biomePlaced" : true

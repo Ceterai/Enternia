@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_iso_jam",
+  "rarity" : "Common",
+  "price" : 280,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_iso_jam.png",
+  "description" : "Nia alta cuisine. A great way to prepare nia treats is with a good amount of cold izoslime jam.",
+  "shortdescription" : "Izo Jam",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 45
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_zandarm_tart", "ct_ionice_cube", "ct_biomix_icecream" ]
+}

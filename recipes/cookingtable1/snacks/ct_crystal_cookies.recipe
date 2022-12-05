@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_crystal_cookies", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]
+}

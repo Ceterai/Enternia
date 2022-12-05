@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_warped_hive", "count" : 1 },
+    { "item" : "glowfibre", "count" : 10 }
+  ],
+  "output" : { "item" : "ct_warped_bed", "count" : 1 },
+  "groups" : [ "alta_constructor2", "warped", "beds", "all" ]
+}

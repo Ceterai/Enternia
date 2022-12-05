@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "glowfibre", "count" : 8 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_warped_loot", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_nature", "warped", "loot", "all" ]
+}

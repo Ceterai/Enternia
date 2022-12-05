@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_tonna", "count" : 2 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "cheese", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ometonna", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

@@ -1,6 +1,6 @@
 [
   { "op": "add", "path": "/planetTypes/ct_alterash_planet", "value": {
-    "threatRange": [4, 4], "layers": {
+    "threatRange": [3, 4], "layers": {
       "space" : { "primaryRegion" : ["ct_alterash_space"], "secondaryRegions": ["ct_alterash_space_islands"] },
       "atmosphere" : { "primaryRegion" : ["ct_alterash_air"], "secondaryRegions": ["atmosphere"] },
       "surface": { "primaryRegion": ["ct_alterash_garden"],
@@ -91,7 +91,7 @@
 
   { "op": "add", "path": "/regionTypes/ct_alterash_deeper_crystal", "value": {
     "fgCaveSelector": ["ct_underworld_ceiling"], "bgCaveSelector": ["ct_underworld_ceiling_bg"], "caveLiquid": ["water"],
-    "biome" : [[0,[ "ct_alterash_crystal" ]]], "subRegion": ["ct_alterash_deeper_yaara"]
+    "biome" : [[3,[ "ct_alterash_crystal" ]]], "subRegion": ["ct_alterash_deeper_yaara"]
   } },
   { "op": "add", "path": "/regionTypes/ct_alterash_deeper_yaara", "value": { "caveLiquidSeedDensityRange": [10, 10],
     "fgCaveSelector": ["ct_underworld_ceiling"], "bgCaveSelector": ["ct_underworld_ceiling_bg"], "caveLiquid": ["water"],
@@ -141,7 +141,7 @@
       "surface": { "primaryRegion": ["ct_alterash_prime_gardens"], "secondaryRegions": ["ct_alta_prime_grounds", "ct_tavriya"],
         "dungeonCountRange": [1, 2], "dungeons": [[1,"apextestfacility"], [1,"apexbase"]] },
       "subsurface": { "primaryRegion": ["ct_calin"], "secondaryRegions": ["ct_crystalline_prime", "ct_isoslime_plasts", "ct_phospholion_mines"] },
-      "underground1": { "primaryRegion": ["ct_alta_hidden_labs"], "secondaryRegions": ["ct_tonnova_grove"] },
+      "underground1": { "primaryRegion": ["ct_alta_hidden_labs"], "secondaryRegions": ["ct_tonnova_grove", "ct_gheatorn"] },
       "underground2": { "primaryRegion": ["ct_alta_lab_debris"], "secondaryRegions": ["ct_bishyn_halls","ct_hevika","ct_aric"],
         "dungeonCountRange": [3, 4], "dungeons": [[5,"wreck"], [1,"cultistlair"]] },
       "underground3": { "primaryRegion": ["ct_hevika_tunnels"], "secondaryRegions": ["ct_ionic_hive"] },
@@ -199,11 +199,15 @@
 
   { "op": "add", "path": "/regionTypes/ct_alta_hidden_labs", "value": {
     "blockSelector": ["asteroids"],
-    "biome": [[0,[ "ct_alta_hidden_labs" ]]], "subRegion": ["ct_tonnova_grove"]
+    "biome": [[0,[ "ct_alta_hidden_labs" ]]], "subRegion": ["ct_tonnova_grove", "ct_gheatorn"]
   } },
   { "op": "add", "path": "/regionTypes/ct_tonnova_grove", "value": {
     "blockSelector": ["asteroids"],
-    "biome": [[0,[ "ct_tonnova_grove" ]]], "subRegion": ["ct_alta_hidden_labs"]
+    "biome": [[0,[ "ct_tonnova_grove" ]]], "subRegion": ["ct_alta_hidden_labs", "ct_gheatorn"]
+  } },
+  { "op": "add", "path": "/regionTypes/ct_gheatorn", "value": {
+    "blockSelector": ["asteroids"], "caveLiquid": ["poison"],
+    "biome": [[0,[ "ct_gheatorn" ]]], "subRegion": ["ct_alta_hidden_labs", "ct_tonnova_grove"]
   } },
 
   { "op": "add", "path": "/regionTypes/ct_alta_lab_debris", "value": {

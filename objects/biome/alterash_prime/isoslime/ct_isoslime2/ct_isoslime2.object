@@ -45,7 +45,7 @@
 
   "smashable" : true,
   "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
-  "smashParticles" : [ { "count" : 8, "particle" : "slimeshard" } ],
+  "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime",
 
   "biomePlaced" : true

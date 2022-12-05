@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_enternia_set",
+  "shortdescription" : "Alta Dreamer Set",
+  "description" : "Contains full equipment set of an alta dreamer.",
+
+  "inventoryIcon" : "ct_alta_enternia_set.png",
+  "treasure" : { "pool" : "ct_alta_enternia_set", "level" : 1 },
+
+  "price" : 17600,
+  "level" : 6,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false,
+
+  "animation" : "ct_alta_loot.animation", "animationCustom" : {},
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ionic_fresh", "count" : 1 },
+    { "item" : "ctvelcrojello", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ion_cake", "count" : 1 },
+  "groups" : [ "craftingfood", "desserts" ]
+}

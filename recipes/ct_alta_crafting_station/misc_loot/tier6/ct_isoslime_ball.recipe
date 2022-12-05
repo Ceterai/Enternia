@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "greenslime", "count" : 4 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_isoslime_ball", "count" : 4 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

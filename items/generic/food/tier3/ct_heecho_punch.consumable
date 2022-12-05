@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_heecho_punch",
+  "rarity" : "Rare",
+  "price" : 720,
+  "category" : "drink",
+  "inventoryIcon" : "ct_heecho_punch.png",
+  "description" : "An alta cuisine. A mixture of only the sweetest of sweet fruit.",
+  "shortdescription" : "Heecho Punch",
+  "effects" : [ [
+    {
+        "effect" : "ct_overcharged_crystals",
+        "duration" : 240
+    },
+    {
+        "effect" : "maxhealthboost20",
+        "duration" : 240
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_mohitava_cocktail", "ct_minto_soup", "ct_warped_cocktail" ]
+}

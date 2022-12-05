@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "ct_phospholion", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_phospholion_deposit1", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "phospholion", "all" ]
+}

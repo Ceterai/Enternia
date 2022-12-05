@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_natal_punch",
+  "rarity" : "Rare",
+  "price" : 720,
+  "category" : "drink",
+  "inventoryIcon" : "ct_natal_punch.png",
+  "description" : "Calin alta cuisine. A punch high on calcium.",
+  "shortdescription" : "Natal Punch",
+  "effects" : [ [
+    {
+        "effect" : "biomeradiationImmunity",
+        "duration" : 300
+    },
+    {
+        "effect" : "ct_crystal_poison",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_warped_cocktail" ]
+}

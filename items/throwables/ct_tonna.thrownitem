@@ -1,0 +1,31 @@
+{
+  "itemName" : "ct_tonna",
+  "price" : 20,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_tonna.png",
+  "image" : "ct_tonna.png",
+  "shortdescription" : "Tonna",
+  "description" : "A tonnova fruit. Feels lighter than a coconut. You can throw it at someone or cook it!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "coconut",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 2,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+  "learnBlueprintsOnPickup" : [ "ct_tonnakada" ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemName" : "ct_alta_toy_warpball",
+  "rarity" : "Uncommon",
+  "price" : 360,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_toy_warpball.png",
+  "image" : "ct_alta_toy_warpball.png",
+
+  "shortdescription" : "Warpball",
+  "description" : "Sounds like a name of a sports game. A neat pet ball.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_toy_warpball",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

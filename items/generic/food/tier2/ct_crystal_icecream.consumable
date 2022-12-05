@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_crystal_icecream",
+  "rarity" : "Uncommon",
+  "price" : 440,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_crystal_icecream.png",
+  "description" : "Calin alta cuisine. Crystal plants are ideal for dusting them down and making an icecream!",
+  "shortdescription" : "Crystal Ice Cream",
+  "effects" : [ [
+    {
+        "effect" : "lightaugment1",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "objectName" : "ct_warped_bed",
+  "colonyTags" : ["warped"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Warped Bed",
+  "description" : "A plant bed with tentacle-like vines and different colorful glowing bulbs of random sizes.",
+  "altaDescription" : "A bed made from warped growth. Such growth is hard to manage and contain, which is why it looks so chaotic.",
+
+  "apexDescription" : "This bed looks disgustingly.",
+  "avianDescription" : "I didn't want to sleep anyway.",
+  "floranDescription" : "Bad plant want to deceive Floran! To get to ssleep and then eat Floran up!! Floran should ssstay away.",
+  "glitchDescription" : "Sarcastic. A best choice if you want a good rest at night.",
+  "humanDescription" : "I-I-I t-think I prefer to stay awake tonight.", 
+  "hylotlDescription" : "A horrifying living bed. You can sleep here if you want to see a nightmare.",
+  "novakidDescription" : "This bed won't look that scary if we bring some music with us.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/alterash/warped/decorative/ct_warped_bed/ct_warped_bed_cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_warped_bed.png:<color>",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "imagePosition" : [-24, 0],
+      "sitPosition" : [-3, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "image" : "ct_warped_bed.png:<color>",
+      "direction" : "right",
+
+      "imagePosition" : [-24, 0],
+      "sitPosition" : [-11, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

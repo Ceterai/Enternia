@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_hevika_javelin",
+  "rarity" : "Rare",
+  "price" : 100,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_hevika_javelin_icon.png",
+  "image" : "ct_hevika_javelin.png",
+  "shortdescription" : "Hevika Javelin",
+  "description" : "A throwing spear made out of hevika crystals. Can be used for hunting or upgraded at an alta crafting station.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.25,
+
+  "projectileType" : "ct_hevika_javelin",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

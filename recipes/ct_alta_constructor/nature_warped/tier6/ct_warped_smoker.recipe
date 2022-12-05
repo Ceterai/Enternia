@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "liquidpoison", "count" : 2 },
+    { "item" : "liquidlava", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_smoker", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_nature", "warped", "effect", "all" ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_bishyn_table",
+  "colonyTags" : ["crystal", "bishyn"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 145,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Table",
+  "description" : "A bishyn table.",
+  "altaDescription" : "The crystals at the bottom are functionally useless, except maybe as a mini shelf.",
+
+  "apexDescription" : "An elegant crystal table.",
+  "avianDescription" : "A smooth ordinary table.",
+  "floranDescription" : "Floran wants to eat.",
+  "glitchDescription" : "Observant. This table has some very oddly designed legs.",
+  "humanDescription" : "I want to take a lunch break.",
+  "hylotlDescription" : "This table looks really astonishing.",
+  "novakidDescription" : "Do you wanna take a break?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_bishyn_table.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

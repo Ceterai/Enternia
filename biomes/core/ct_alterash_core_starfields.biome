@@ -1,7 +1,6 @@
 {
   "name" : "ct_alterash_core_starfields",
   "friendlyName" : "Starfields",
-  "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core_enternia",
@@ -42,15 +41,11 @@
         "objectSets" : [ { "pool" : [ [1, "ct_stardust_crystal" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_stardust_prism" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_stardust_prism" ] ], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_stardust_prism" ] ], "parameters" : { } } ]
       },
       {

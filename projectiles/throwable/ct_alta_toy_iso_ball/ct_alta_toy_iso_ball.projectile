@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_alta_toy_iso_ball",
+  "image" : "ct_alta_toy_iso_ball.png",
+
+  "physics" : "bouncyball",
+  "speed" : 30,
+  "bounces" : -1,
+  "timeToLive" : 30,
+  "frameNumber" : 1,
+  "windupFrames" : 1,
+  "animationCycle" : 0.2,
+  "intangibleWindup" : true,
+
+  "damageKind" : "snowball",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "power" : 0,
+
+  "clientEntityMode" : "ClientSlaveOnly",
+  "actionOnReap" : [
+    {
+      "action" : "item",
+      "name" : "ct_alta_toy_iso_ball"
+    }
+  ],
+  "damagePoly" : [ [-7.5, 0], [-5, -5], [0, -7.5], [5, -5], [7.5, 0], [5, 5], [0, 7.5], [-5, 5] ]
+}

@@ -1,6 +1,6 @@
 # My Enternia
 
-This mod adds a whole new planet type with it's own biomes, weather, monsters, materials and unique equipment.
+This mod adds a whole new world with new planet types, biomes, weather, monsters, materials and unique equipment.
 
 ## Installation
 
@@ -21,6 +21,8 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 ## Contents
 
 A GitHub Wiki with full list of contents is coming soon!
+
+The list below is severely outdated.
 
 ### Planet
 

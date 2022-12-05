@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_ionic_fresh",
+  "rarity" : "Common",
+  "price" : 200,
+  "category" : "drink",
+  "inventoryIcon" : "ct_ionic_fresh.png",
+  "description" : "Nia alta cuisine. Charges you with fresh energy to get through the day! Literally.",
+  "shortdescription" : "Ionic Fresh",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyboostaugment1",
+        "duration" : 60
+    },
+    {
+        "effect" : "ct_ionic_shock",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_maito_tea", "ct_zandarm_tart" ]
+}

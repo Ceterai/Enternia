@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_hevika_chest",
+  "colonyTags" : ["crystal", "hevika", "storage"],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Common",
+  "price" : 100,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Hevika Chest",
+  "description" : "A seemingly upside-down container powered by the crystals attached to it.",
+  "altaDescription" : "A reverse-pod powered by alternia crystals. Useful for loading hazardous objects.",
+
+  "apexDescription" : "They really made a mistake when constructed this chest upside down...",
+  "avianDescription" : "It's a chest!! Gonna grab all treasures for myself!",
+  "floranDescription" : "Thiss chesst want to eat Floran. Floran ssscared.",
+  "glitchDescription" : "Wary. Does this chest have some kind of strange vibe around it, or am I imagining things?",
+  "humanDescription" : "This chest is staring at me! I swear I saw it's moved those eyes!",
+  "hylotlDescription" : "This chest resembles a robotic head and looks creepy in some way. Like it can eat you at any minute or something like that.",
+  "novakidDescription" : "Ain't you gonna eat me, pal?",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_hevika_chest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32,
+  "autoCloseCooldown" : 3600
+}

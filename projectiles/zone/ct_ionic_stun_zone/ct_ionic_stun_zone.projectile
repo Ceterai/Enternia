@@ -1,0 +1,35 @@
+{
+  "projectileName" : "ct_ionic_stun_zone",
+  "image" : "ct_ionic_stun_zone.png",
+  "physics" : "laser",
+  "timeToLive" : 5,
+  "animationCycle" : 0.8,
+  "frameNumber" : 12,
+  "windupFrames" : 3,
+  "winddownFrames" : 3,
+  "periodicActions" : [
+    {
+      "time" : 4.7,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/tech/vehicle_disappear1.ogg" ]
+    }
+  ],
+  "actionOnReap" : [],
+  "damagePoly" : [ [-24, 0], [-16, -16], [0, -24], [16, -16], [24, 0], [16, 16], [0, 24], [-16, 16] ],
+  "damageType" : "Status",
+  "damageRepeatTimeout" : 1.0,
+  "speed" : 0,
+  "power" : 0,
+  "renderLayer" : "Player+1",
+  "statusEffects" : ["ct_ionic_stun"],
+
+  "orientationLocked" : true,
+  "fullbright" : true,
+  "emitters" : [ ],
+
+  "piercing" : true,
+  "bounces" : -1,
+
+  "persistentAudio" : "/sfx/projectiles/zone_slow_loop.ogg"
+}

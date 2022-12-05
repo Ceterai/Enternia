@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ct_hevika_flare",
+  "image" : "ct_hevika_flare.png",
+
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 60,
+  "onlyHitTerrain" : true,
+  "speed" : 30,
+
+  "power" : 0,
+
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+
+  "level" : 10,
+  "animationCycle" : 0.25,
+  "lightColor" : [192, 96, 252],
+  "frameNumber" : 2
+}

@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_gheatsyn_door",
+  "colonyTags" : ["crystal", "gheatsyn", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Door",
+  "description" : "A plain gheatsyn glass door.",
+  "altaDescription" : "Liquifying and re-crystallizing gheatsyn allows to create sturdy, yet thin and still mostly transparent crystal panels. Neat.",
+
+  "apexDescription" : "This is a glass door.",
+  "avianDescription" : "A glass door.",
+  "floranDescription" : "Floran smash glassss. Floran come through.",
+  "glitchDescription" : "Calm. A useful door.",
+  "humanDescription" : "A glass door.",
+  "hylotlDescription" : "A glass door. I can see what's on other side.",
+  "novakidDescription" : "A solid glass door.",
+
+  "inventoryIcon" : "icon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "ct_gheatsyn_door.png:right",
+   
+  "orientations" : [
+    {
+      "image" : "ct_gheatsyn_door.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_gheatsyn_door.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

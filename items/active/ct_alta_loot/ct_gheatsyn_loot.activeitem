@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_gheatsyn_loot",
+  "shortdescription" : "Gheatsyn Loot Crate",
+  "description" : "Contains random loot from gheatsyn biome chests.",
+
+  "price" : 20,
+  "level" : 3,
+  "maxStack" : 1000,
+  "rarity" : "Common",
+  "category" : "mysteriousReward",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "ct_gheatsyn_loot.png",
+  "animation" : "ct_alta_loot.animation",
+  "animationCustom" : {},
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_gheatsyn_loot",
+    "level" : 1
+  }
+}

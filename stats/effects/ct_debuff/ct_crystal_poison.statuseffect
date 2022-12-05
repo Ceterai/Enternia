@@ -2,10 +2,12 @@
   "name" : "ct_crystal_poison",
   "label" : "Crystal-Poisoned",
   "effectConfig" : {
-    "statName" : "protection",
-    "statAmount" : -3
+    "statName" : "electricResistance",
+    "statAmount" : -0.15,
+    "statName2" : "poisonResistance",
+    "statAmount2" : -0.15
   },
-  "defaultDuration" : 5,
+  "defaultDuration" : 30,
 
   "scripts" : [ "ct_debuff.lua" ],
   "icon" : "ct_crystal_poison.png"

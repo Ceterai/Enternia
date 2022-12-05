@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_bishyn_hatch",
+  "colonyTags" : ["crystal", "bishyn", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 125,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Hatch",
+  "description" : "A smooth bishyn hatch.",
+  "altaDescription" : "Unlike a gateway, this hatch uses lots of small bishyn crystals to act as way blockers.",
+
+  "apexDescription" : "Don't get distracted while coming through.",
+  "avianDescription" : "A green crystal hatch.",
+  "floranDescription" : "Floran will ambush sssomeone here.",
+  "glitchDescription" : "Wary. Sharp edges of this hatch looks really dangerous. Not to mention that it's made from poison crystals.",
+  "humanDescription" : "Why can't they use safer materials to build these?",
+  "hylotlDescription" : "This hatch was made from poisonous materials. Be careful when it closes or you can get hurt.",
+  "novakidDescription" : "A poisonous vertical doorway.",
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_bishyn_hatch.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "ct_bishyn_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "ct_bishyn_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
+}

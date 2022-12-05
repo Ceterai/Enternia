@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_niatto_motsu",
+  "rarity" : "Rare",
+  "price" : 840,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_niatto_motsu.png",
+  "description" : "Nia alta cuisine. A regular herb-based alta soup but based on nia ingredients.",
+  "shortdescription" : "Niatto Motsu Soup",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "energyregen",
+        "duration" : 30
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_enternia_cocktail", "ct_ion_risotto" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_source", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 32 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "ct_alternia_shard", "count" : 8 },
+    { "item" : "crystal", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_alta_datacenter", "count" : 1 },
+  "groups" : [ "alta_tier1", "objects", "all" ]
+}

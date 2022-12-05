@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_gheatsyn_tea", "count" : 1 },
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "ctayabaked", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_cocktail", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

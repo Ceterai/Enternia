@@ -1,0 +1,79 @@
+{
+  "objectName" : "ct_hevika_turret",
+  "colonyTags" : ["crystal", "hevika", "combat", "electronic"],
+  "category" : "wire",
+  "rarity" : "Uncommon",
+  "price" : 400,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Hevika Turret",
+  "description" : "An automated security turret powered by hevika crystals.",
+  "altaDescription" : "A protective peace of technology designed to keep alta labs safe.",
+
+  "apexDescription" : "It's an automated sentry gun.",
+  "avianDescription" : "I'm faster than these slowpoke lasers!!",
+  "floranDescription" : "Floran don't like bright lasers. Esspecially when they point at Floran.",
+  "glitchDescription" : "Tense. Rule of 3 C - be calm, composured, concentrated.",
+  "humanDescription" : "It's an automatic big gun! Hide!",
+  "hylotlDescription" : "I wish I would be protected by it, not attacked.",
+  "novakidDescription" : "Wow, dude, relax!! You can kill someone.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "turret.png:idle" }, { "image" : "turret.png:bracket" } ],
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ],
+      "direction" : "right",
+      "imagePosition" : [-12, 0]
+    },
+    {
+      "imageLayers" : [ { "image" : "turret.png:idle" }, { "image" : "turret.png:bracket" } ],
+      "flipImages" : true,
+      "spaces" : [
+        [0, 0], [1, 0], [2, 0], [3, 0],
+        [0, 1], [1, 1], [2, 1], [3, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "right" ],
+      "direction" : "left",
+      "imagePosition" : [-12, 0]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/alta/ct_eds_turret/turret.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "animation" : "turret.animation",
+  "animationParts" : {
+    "gun" : "turret.png",
+    "bracket" : "turret.png",
+    "beam" : "beam.png"
+  },
+
+  "scriptDelta" : 5,
+
+  "outputNodes" : [ [0, 0] ],
+
+  "rotationTime" : 2.5,
+  "rotationRange" : [0, 60],
+  "rotationPauseTime" : 0.5,
+
+  "maxLaserLength" : 20,
+
+  "baseOffset" : [1.625, 0.9375],
+  "tipOffset" : [3.375, 0.875],
+
+  "fireCooldown" : 0.05,
+  "fireOffsets" : [-0.25, -0.125, 0, 0.125, 0.25, 0.125, 0, -0.125],
+  "targetHoldTime" : 2
+
+}

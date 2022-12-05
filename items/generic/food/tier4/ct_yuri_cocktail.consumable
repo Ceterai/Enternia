@@ -1,0 +1,41 @@
+{
+  "itemName" : "ct_yuri_cocktail",
+  "rarity" : "Legendary",
+  "price" : 1200,
+  "category" : "drink",
+  "inventoryIcon" : "ct_yuri_cocktail.png",
+  "description" : "Yava alta cuisine. The drink of love.",
+  "shortdescription" : "Yuri Cocktail",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "love",
+        "duration" : 270
+    },
+    {
+        "effect" : "slowlove",
+        "duration" : 270
+    },
+    {
+        "effect" : "invulnerable",
+        "duration" : 5
+    },
+    {
+        "effect" : "stunImmunity",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

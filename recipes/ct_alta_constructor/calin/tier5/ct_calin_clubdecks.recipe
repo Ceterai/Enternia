@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alternia_shard", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 },
+    { "item" : "crystal", "count" : 10 }
+  ],
+  "output" : { "item" : "ct_calin_clubdecks", "count" : 1 },
+  "groups" : [ "alta_constructor5", "crystal", "calin", "wired", "special", "all" ]
+}

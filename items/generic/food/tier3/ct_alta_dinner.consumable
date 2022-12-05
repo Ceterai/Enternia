@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_alta_dinner",
+  "rarity" : "Rare",
+  "price" : 880,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_alta_dinner.png",
+  "description" : "An alta cuisine. A prepared assortment of highly satisfying goodness that will get you full in no time.",
+  "shortdescription" : "Proper Alta Dinner",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_special_mimosa", "ct_palopias" ]
+}

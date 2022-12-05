@@ -5,18 +5,19 @@
   "category" : "breakable",
   "price" : 60,
   "printable" : false,
-
-  "shortdescription" : "Dripping Ayaka Sap Blob",
-  "description" : "A glob of dripping slime.",
   "race" : "generic",
 
-  "apexDescription" : "A slime deposit. It appears to be dripping.",
-  "avianDescription" : "A disgusting slime ball.",
-  "floranDescription" : "Floran wants to avoid touching ssslime.",
-  "glitchDescription" : "Disgusted. A viscous slime deposit.",
-  "humanDescription" : "Slime is so gross.",
-  "hylotlDescription" : "Slime isn't so bad when your skin is already slimy.",
-  "novakidDescription" : "Oozing slime.",
+  "shortdescription" : "Dripping Ayaka Sap Blob",
+  "description" : "A glob of dripping sap that got stuck in the ceiling.",
+  "altaDescription" : "A blob of ionic sap. I could gather it for cooking, or even crafting.",
+
+  "apexDescription" : "A resin deposit. It appears to be dripping.",
+  "avianDescription" : "A disgusting resin ball.",
+  "floranDescription" : "Floran knowsss where electric ssap comesss from. Floran can cook it and eat, very tassty.",
+  "glitchDescription" : "Disgusted. A viscous resin deposit.",
+  "humanDescription" : "Resin isn't pleasent to touch.",
+  "hylotlDescription" : "A blob of purple resin.",
+  "novakidDescription" : "Oozing resin.",
 
   "particleEmitter" : {
     "emissionRate" : 0.2,

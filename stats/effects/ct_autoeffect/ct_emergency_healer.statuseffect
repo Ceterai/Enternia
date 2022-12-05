@@ -1,0 +1,19 @@
+{
+  "name" : "ct_emergency_healer",
+  "label" : "Emergency Healer",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "effectConfig" : {
+      "name" : "Emergency Heal",
+      "type" : "ct_emergency_heal",
+      "duration" : 2
+    }
+  },
+  "defaultDuration" : 10,
+  "scriptDelta" : 10,
+
+  "scripts" : [ "ct_autoeffect.lua" ],
+  "animationConfig" : "ct_autoeffect.animation",
+  "icon" : "ct_emergency_healer.png"
+}

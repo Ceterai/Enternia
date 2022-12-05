@@ -1,0 +1,28 @@
+{
+  "projectileName" : "ct_tonna",
+  "image" : "ct_tonna.png",
+
+  "physics" : "grenade",
+  "speed" : 120,
+
+  "power" : 4,
+
+  "damageKind" : "hammer",
+  "damageKindImage" : "icon.png",
+
+  "actionOnReap" : [
+    {
+      "action" : "liquid",
+      "liquid" : "milk",
+      "quantity" : 2
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/coconutexplosion/coconutbreak.config"
+    }
+  ],
+
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "emitters" : [ "defaultlightblue" ]
+}

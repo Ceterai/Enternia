@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_toy_runeva_ball",
+  "rarity" : "Common",
+  "price" : 480,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_alta_toy_runeva_ball.png",
+  "image" : "ct_alta_toy_runeva_ball.png",
+  "shortdescription" : "Runeva Ball",
+  "description" : "It's an inflatable tricolor ball.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_toy_runeva_ball",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

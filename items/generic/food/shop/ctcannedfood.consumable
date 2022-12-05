@@ -1,0 +1,18 @@
+{
+  "itemName" : "ctcannedfood",
+  "rarity" : "Uncommon",
+  "price" : 320,
+  "category" : "food",
+  "inventoryIcon" : "ctcannedfood.png",
+  "description" : "The best combination of boiled ayas, some fresh gils and cooked tsays.",
+  "shortdescription" : "Canned Altasoup",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_tonna", "count" : 1 },
+    { "item" : "ctwoodsap", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tonnakada", "count" : 1 },
+  "groups" : [ "craftingfood", "sides" ]
+}

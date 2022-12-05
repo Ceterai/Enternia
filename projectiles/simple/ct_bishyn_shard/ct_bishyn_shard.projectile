@@ -1,0 +1,12 @@
+{
+  "projectileName" : "ct_bishyn_shard",
+  "image" : "ct_bishyn_shard.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "power" : 5.0,
+  "speed" : 100,
+  "damageKind" : "default",
+  "damageTeam" : { "type" : "indiscriminate" }
+}

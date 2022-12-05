@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_enviro_helmet",
   "shortdescription" : "Envirosuit Helmet",
-  "description" : "Comes as part of the Envirosuit.",
+  "description" : "\nComes as part of the Envirosuit.",
 
   "price" : 2800, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "armor", "maxStack" : 1,
@@ -11,6 +11,10 @@
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_energizer"
+  ],
 
   "leveledStatusEffects" : [
     {

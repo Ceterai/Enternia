@@ -32,31 +32,23 @@
       // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
-        "objectSets" : [ { "pool" : [ [0.35, "ct_capsule_red" ], [0.35, "ct_capsule_blue" ], [0.35, "ct_capsule_blue" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [0.35, "ct_capsule_red" ], [0.7, "ct_capsule_blue" ], [0.35, "ct_capsule" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [[1,"ct_backdoor"]], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
-        "objectSets" : [ { "pool" : [[1,"ct_eds_backdoor"]], "parameters" : { } } ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_small_cargoChest" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_small_cargoChest" ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
-      },
-      {
-        "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_big_cargoChest" ]
       },
       {
         "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",

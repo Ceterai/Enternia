@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_warped_glowbomb", "count" : 2 },
+    { "item" : "glowfibre", "count" : 4 },
+    { "item" : "wire", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_drainer", "count" : 1 },
+  "groups" : [ "alta_constructor3", "warped", "wired", "all" ]
+}

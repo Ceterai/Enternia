@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_vmax",
+  "rarity" : "Uncommon",
+  "price" : 160,
+  "category" : "drink",
+  "inventoryIcon" : "ct_vmax.png",
+  "description" : "Tastes like... herbs? Is this an energy tea?",
+  "shortdescription" : "V-Max",
+  "maxStack" : 1,
+  "effects" : [ [
+    {
+        "effect" : "swimboostcola",
+        "duration" : 30
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 60
+    }
+  ] ],
+  "emitters" : [ "drinking" ]
+}

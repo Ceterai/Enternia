@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_crystal_cookies",
+  "rarity" : "Uncommon",
+  "price" : 560,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_crystal_cookies.png",
+  "description" : "Calin alta cuisine. Spiky cookies with crystal jam filling and crystal bits all around.",
+  "shortdescription" : "Crystal Cookies",
+  "effects" : [ [
+    {
+        "effect" : "nova",
+        "duration" : 75
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_alta_dinner", "ct_caliopa", "ct_crunchy_pie" ]
+}

@@ -1,0 +1,17 @@
+{
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0.5, 0.5],
+      "color" : [0, 80, 192]
+    },
+    "beam" : {
+      "active" : true,
+      "position" : [0.5, 0.5],
+      "color" : [32, 128, 240],
+      "pointLight" : true,
+      "pointAngle" : 0,
+      "pointBeam" : 8
+    }
+  }
+}

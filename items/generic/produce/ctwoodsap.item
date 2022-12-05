@@ -1,11 +1,13 @@
 {
   "itemName" : "ctwoodsap",
-  "price" : 2,
-  "rarity" : "Common",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "ctwoodsap.png",
-  "description" : "This ferment acts as aya wood sap and is what some fruits turn into when expire. Very sticky.",
   "shortdescription" : "Ionic Ferment",
-  "itemTags" : [ "reagent" ],
-  "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello" ]
+  "description" : "This ferment acts as aya wood sap and is what some fruits turn into when expire. Very sticky.",
+  "inventoryIcon" : "ctwoodsap.png",
+
+  "price" : 5,
+  "rarity" : "Common",
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ]
 }

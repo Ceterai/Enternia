@@ -1,0 +1,70 @@
+{
+  "objectName" : "ct_gheatsyn_hatch",
+  "colonyTags" : ["crystal", "gheatsyn", "door"],
+  "category" : "door",
+  "rarity" : "Common",
+  "price" : 125,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Gheatsyn Hatch",
+  "description" : "A plain gheatsyn vertical doorway.",
+  "altaDescription" : "A very useful hatch that uses unique gheatsyn abilities as a locking mechanism.",
+
+  "apexDescription" : "A green hatch.",
+  "avianDescription" : "An ably crafted hatch.",
+  "floranDescription" : "Floran jump in. Floran ssstab!",
+  "glitchDescription" : "Tranquil. An inelaborate hatch.",
+  "humanDescription" : "A simple hatch.",
+  "hylotlDescription" : "An elegant uncomplicated hatch.",
+  "novakidDescription" : "A smooth lookin' plain hatch.",
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_gheatsyn_hatch.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "ct_gheatsyn_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "ct_gheatsyn_hatch.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
+}

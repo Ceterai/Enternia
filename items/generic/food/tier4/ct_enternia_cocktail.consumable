@@ -1,0 +1,33 @@
+{
+  "itemName" : "ct_enternia_cocktail",
+  "rarity" : "Legendary",
+  "price" : 1000,
+  "category" : "drink",
+  "inventoryIcon" : "ct_enternia_cocktail.png",
+  "description" : "Nia alta cuisine. A tingy cocktail full of enternia energy. Does not classify as an energy drink.",
+  "shortdescription" : "Enternia Cocktail",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

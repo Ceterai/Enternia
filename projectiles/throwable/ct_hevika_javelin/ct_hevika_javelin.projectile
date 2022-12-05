@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ct_hevika_javelin",
+  "image" : "ct_hevika_javelin.png",
+
+  "physics" : "arrownosticky",
+  "timeToLive" : 30,
+  "speed" : 50,
+
+  "power" : 48,
+  "knockback" : 20,
+
+  "damageKind" : "bow",
+  "damageKindImage" : "icon.png",
+  "damagePoly" : [ [-12, -1], [14, -1], [14, 3], [-12, 3] ],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+
+  "pointLight" : false,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "emitters" : [ "daggerblue" ]
+}

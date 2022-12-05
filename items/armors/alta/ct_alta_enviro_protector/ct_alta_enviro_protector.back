@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_enviro_protector",
   "shortdescription" : "Enviroprotector",
-  "description" : "Provides life support and enhanced protection.",
+  "description" : "\nProvides life support and enhanced protection.",
 
   "price" : 2400, "rarity" : "Rare",
   "category" : "backwear",  "tooltipKind" : "back",  "maxStack" : 1,
@@ -12,8 +12,7 @@
 
   "statusEffects" : [
     "ct_life_support",
-    "ct_edsprotection",
-    "ct_force_shield"
+    "ct_autoshielder_force"
   ],
 
   "colorOptions" : [

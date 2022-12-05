@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_caliopa",
+  "rarity" : "Rare",
+  "price" : 800,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_caliopa.png",
+  "description" : "Calin alta cuisine. A pizza with crystal toppings that taste similar to pineapple. That's right, you can run but you can't hide.",
+  "shortdescription" : "Caliopa Slice",
+  "effects" : [ [
+    {
+        "effect" : "lightaugment1",
+        "duration" : 270
+    },
+    {
+        "effect" : "ct_crystal_poison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_staris_soup", "ct_warped_cocktail" ]
+}

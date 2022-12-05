@@ -1,0 +1,33 @@
+{
+  "itemName" : "ct_fivaldo_salad",
+  "rarity" : "Rare",
+  "price" : 880,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_fivaldo_salad.png",
+  "description" : "An alta cuisine. Various tasty stuff all conveniently mixed together.",
+  "shortdescription" : "Fival'do Salad",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 210
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 210
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 210
+    }
+  ] ],
+  "foodValue" : 45,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ]
+}

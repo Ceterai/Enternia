@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_yaarizza",
+  "rarity" : "Rare",
+  "price" : 800,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_yaarizza.png",
+  "description" : "Yava alta cuisine. Yaara roots make this pizza satisfyingly crunchy.",
+  "shortdescription" : "Yaarizza Slice",
+  "effects" : [ [
+    {
+        "effect" : "regeneration2",
+        "duration" : 270
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail", "ct_palopias" ]
+}

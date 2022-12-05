@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_yaara_bulb",
-  "colonyTags" : ["alterash", "nature", "yaara"],
+  "colonyTags" : ["alterash", "nature", "yaara", "light"],
   "category" : "light",
   "rarity" : "Common",
   "price" : 65,
@@ -8,28 +8,33 @@
   "printable" : false,
 
   "shortdescription" : "Yaara Bulb",
-  "description" : "An EDS capsule containing luminescent material.",
-  "apexDescription" : "Perhaps this object contains a glowing liquid material.",
+  "description" : "A natural biolight source in form of a tiny bulb that looks like a flower.",
+  "altaDescription" : "This flower's light is fueled by the surrounding yaara. After all, it's all a one big plant.",
+
+  "apexDescription" : "Perhaps this plant contains a bioluminescent substance.",
   "avianDescription" : "It glows in the dark!",
-  "floranDescription" : "Floran wonderssss what's inssside.",
+  "floranDescription" : "Beautiful yaara flowerss. Floran likesss them. Yaara Floran grow these to ssee in the dark.",
   "glitchDescription" : "Observant. It appears this object is containing some sort of luminescent material.",
-  "humanDescription" : "It's a chest! Or a capsule! Or a plane! Wait, no.",
-  "hylotlDescription" : "I believe illumination is not the true purpose of this device.",
+  "humanDescription" : "A little friendly glowing flower! Now I can see!",
+  "hylotlDescription" : "I looks like this flower is just a part of a bigger plant.",
   "novakidDescription" : "It's shinin' with colorful lights!",
 
-  "fullbright" : "true",
-  "lightColor" : [240, 240, 128],
+  "lightColor" : [226, 148, 75],
 
-  "inventoryIcon" : "ct_yaara_bulbicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
       "image" : "ct_yaara_bulb.png:<color>.<frame>",
       "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-      
       "direction" : "right",
-
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_yaara_bulb.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+      "flippedImage" : "true",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -38,7 +43,7 @@
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationParts" : {
     "bg" : "ct_yaara_bulb.png",
-    "fg" : "ct_yaara_bulblit.png"
+    "fg" : "ct_yaara_bulb_lit.png"
   },
   "animationPosition" : [0, 0],
 
@@ -46,8 +51,12 @@
   "scriptDelta" : 60,
   
   "breakDropOptions" : [
-    [ [ "glowfibre", 1, { } ] ]
+    [ [ "ct_yaara_eye", 1, { } ] ],
+    [ [ "ct_yaara_root", 1, { } ] ],
+    [ ]
   ],
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "biomePlaced" : true
 }

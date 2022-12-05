@@ -5,7 +5,7 @@
     "statName" : "protection",
     "statAmount" : -3
   },
-  "defaultDuration" : 5,
+  "defaultDuration" : 10,
 
   "scripts" : [ "ct_debuff.lua" ],
   "icon" : "ct_analyzed.png"

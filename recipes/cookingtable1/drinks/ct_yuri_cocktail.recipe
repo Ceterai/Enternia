@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_miko_tea", "count" : 1 },
+    { "item" : "ctayabaked", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_yuri_cocktail", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

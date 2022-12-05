@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_zandarm_tart",
+  "rarity" : "Uncommon",
+  "price" : 520,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_zandarm_tart.png",
+  "description" : "Nia alta cuisine. A dish form weird ingredients that somehow tastes good.",
+  "shortdescription" : "Zandarm Tart",
+  "effects" : [ [
+    {
+        "effect" : "energyregen",
+        "duration" : 120
+    },
+    {
+        "effect" : "ct_ionic_shock",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_niatto_motsu" ]
+}

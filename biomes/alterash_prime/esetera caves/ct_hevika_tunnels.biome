@@ -59,6 +59,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_alternia_crystal"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_hevikaChest" ]
       }
     ]
   }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_gheatsyn_crystal", "count" : 2 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_gheatsyn_minifridge", "count" : 1 },
+  "groups" : [ "alta_constructor5", "crystal", "gheatsyn", "storage", "special", "all" ]
+}

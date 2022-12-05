@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 1 },
+    { "item" : "ct_tonnakada", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tonna_shake", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}

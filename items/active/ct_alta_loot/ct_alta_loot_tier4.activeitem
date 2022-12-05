@@ -3,14 +3,14 @@
   "shortdescription" : "Alta Tier 4 Loot Crate",
   "description" : "Contains random loot from alta tier 4 pods.",
 
-  "price" : 20,
-  "level" : 3,
+  "price" : 640,
+  "level" : 6,
   "maxStack" : 1000,
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "category" : "mysteriousReward",
   "twoHanded" : true,
 
-  "inventoryIcon" : "ct_alta_loot_icon.png",
+  "inventoryIcon" : "ct_alta_loot_tier4.png",
   "animation" : "ct_alta_loot.animation",
   "animationCustom" : {},
   "scripts" : ["ct_alta_loot.lua"],

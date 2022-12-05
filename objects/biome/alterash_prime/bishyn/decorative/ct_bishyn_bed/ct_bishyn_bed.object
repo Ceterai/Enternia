@@ -1,0 +1,59 @@
+{
+  "objectName" : "ct_bishyn_bed",
+  "colonyTags" : ["crystal", "bishyn"],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 170,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Bishyn Bed",
+  "description" : "A stunningly clean bed on a crystal base.",
+  "altaDescription" : "In actuality refined bishyn is harmless, so sleeping on a bed like this one shouldn't cause any issues.",
+
+  "apexDescription" : "I refuse to sleep here. These crystals are poisonous.",
+  "avianDescription" : "A nice crystal bed.",
+  "floranDescription" : "Floran don't sssleep on the toxic crystalsss.",
+  "glitchDescription" : "Disappointed. Why someone spent so much valuable crystals to build a bed?",
+  "humanDescription" : "Some kind of sturdy crystal bed.",
+  "hylotlDescription" : "A deceptively attractive bed.",
+  "novakidDescription":  "A tough lookin' bed.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_bed/ct_bishyn_bed_cover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed5"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_bishyn_bed.png:<color>",
+      "imagePosition" : [-24, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-5, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_bishyn_bed.png:<color>",
+      "imagePosition" : [-24, 0],
+      
+      "direction" : "right",
+
+      "sitPosition" : [-15, 14],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

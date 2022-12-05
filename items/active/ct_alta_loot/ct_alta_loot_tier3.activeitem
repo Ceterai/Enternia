@@ -3,14 +3,14 @@
   "shortdescription" : "Alta Tier 3 Loot Crate",
   "description" : "Contains random loot from alta tier 3 pods.",
 
-  "price" : 20,
-  "level" : 3,
+  "price" : 440,
+  "level" : 5,
   "maxStack" : 1000,
-  "rarity" : "Common",
+  "rarity" : "Rare",
   "category" : "mysteriousReward",
   "twoHanded" : true,
 
-  "inventoryIcon" : "ct_alta_loot_icon.png",
+  "inventoryIcon" : "ct_alta_loot_tier3.png",
   "animation" : "ct_alta_loot.animation",
   "animationCustom" : {},
   "scripts" : ["ct_alta_loot.lua"],

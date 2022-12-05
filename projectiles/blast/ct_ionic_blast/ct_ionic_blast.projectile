@@ -1,0 +1,16 @@
+{
+  "projectileName" : "ct_ionic_blast",
+  "image" : "ct_ionic_blast.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [80, 0, 192],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "knockback" : 5,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "ct_ionic",
+  "statusEffects" : [ "ct_ionic_shock" ]
+}

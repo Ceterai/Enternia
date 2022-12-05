@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_eds_legwear",
   "shortdescription" : "^#f02020;EDS^reset; Armored Greaves",
-  "description" : "\nAn advanced legwear upgrade for alta combat units with added leg protection.",
+  "description" : "\nAn advanced legwear upgrade for alta security units with added leg protection.",
 
   "price" : 2000, "rarity" : "Rare",
   "category" : "legarmour",  "tooltipKind" : "armor",  "maxStack" : 1,
@@ -10,6 +10,10 @@
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
+
+  "statusEffects" : [
+    "ct_eds_protection_module"
+  ],
 
   "leveledStatusEffects" : [
     {

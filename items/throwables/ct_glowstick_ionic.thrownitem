@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_glowstick_ionic",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_glowstick_ionic.png",
+  "image" : "ct_glowstick_ionic.png",
+  "shortdescription" : "Ionic Glowstick",
+  "description" : "Creates an ionic bioluminescent glow when thrown. Is made from rare crystallic materials.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_glowstick_ionic",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_glowstick_ionic", "ct_glowstick_omniblue"
+  ]
+}

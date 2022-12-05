@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_bionid", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "staticcell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tonna", "count" : 4 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_onitti_motsu",
+  "rarity" : "Rare",
+  "price" : 840,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_onitti_motsu.png",
+  "description" : "Yava alta cuisine. A very nutritious herb soup.",
+  "shortdescription" : "Onitti Motsu Soup",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 360
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail" ]
+}

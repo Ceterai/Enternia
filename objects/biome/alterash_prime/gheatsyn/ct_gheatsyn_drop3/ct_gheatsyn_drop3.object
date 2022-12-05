@@ -1,0 +1,60 @@
+{
+  "objectName" : "ct_gheatsyn_drop3",
+  "colonyTags" : ["crystal", "gheatsyn", "misc"],
+  "category" : "breakable",
+  "printable" : false,
+  "rarity" : "Common",
+  "price" : 60,
+  "race" : "generic",
+  // "scannable" : false,
+
+  "shortdescription" : "Gheatsyn Dripping Crystal",
+  "description" : "A crystal slowly dripping itself on the ground. Alta-scan for more.",
+  "altaDescription" : "This is big enough to drop some neat gheatsyn shards.",
+
+  "smashable" : true,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashParticles" : [ { "count" : 5, "particle" : "crystalshard" } ],
+  "smashDropOptions" : [
+    [ [ "ct_gheatsyn_shard", 2, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ] ]
+  ],
+
+  "lightColor" : [32, 44, 0],
+
+  "particleEmitter" : {
+    "emissionRate" : 1,
+    "emissionVariance" : 0.1,
+    "pixelOrigin" : [4, 7],
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [108, 144, 0, 255],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, -10],
+      "finalVelocity" : [0.0, -20],
+      "approach" : [0, 20],
+      "timeToLive" : 4.0,
+      "layer" : "back"
+    }
+
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_gheatsyn_drop3.png:<color>.<frame>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+
+    }
+  ]
+}

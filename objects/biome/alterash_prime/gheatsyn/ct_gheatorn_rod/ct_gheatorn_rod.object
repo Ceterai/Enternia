@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_gheatorn_rod",
+  "colonyTags" : ["gheatorn", "crystal", "gheatsyn", "misc"],
+  "category" : "breakable",
+  "printable" : false,
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "generic",
+
+  "shortdescription" : "Gheatorn Rod",
+  "description" : "These formations rise right from the ground in a slow bursting manner. Alta-scan for more.",
+  "altaDescription" : "What's left from a gheatsyn crystal growing inside of moonrock. I can break it to harvest some gheatsyn.",
+
+  "apexDescription" : "A stone that chimes when I get close to it.",
+  "avianDescription" : "A glowing stone. It chimes",
+  "floranDescription" : "Stone glow, make chime noissse. Floran listen.",
+  "glitchDescription" : "Curious. Sound waves are emitted by this geological formation.",
+  "humanDescription" : "A ringing stone. Pretty cool.",
+  "hylotlDescription" : "A glowing, sound-emitting stone.",
+  "novakidDescription" : "Big ol' green rock that rings like a church bell. It's a head scratcher alright.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg", "/sfx/objects/rock_break5.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "crystalshard" }, { "count" : 8, "particle" : "geodeshard" } ],
+  "smashDropOptions" : [
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "ct_gheatsyn_shard", 1, { } ], [ "moonrock", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "moonrock", 1, { } ], [ "moonrock", 1, { } ] ],
+    [ [ "ct_gheatsyn_shard", 1, { } ], [ "moonrock", 1, { } ] ]
+  ],
+
+  "lightColor" : [32, 44, 0],
+
+  "inventoryIcon" : "icon.png",
+
+  "orientations" : [
+    {
+      "image" : "ct_gheatorn_rod.png:<color>.<frame>",
+
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_gheatorn_rod.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "biomePlaced" : true
+}

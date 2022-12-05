@@ -1,7 +1,8 @@
 {
   "input" : [
     { "item" : "ctayapowder", "count" : 1 },
-    { "item" : "ctaya", "count" : 1 }
+    { "item" : "ctaya", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ctayaicecream", "count" : 1 },
   "groups" : [ "craftingfood", "desserts" ]

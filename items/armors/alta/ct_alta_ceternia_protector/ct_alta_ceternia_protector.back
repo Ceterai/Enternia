@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_ceternia_protector",
   "shortdescription" : "Elite Ceter-Protector",
-  "description" : "Automatically applies a static shield whenever HP is down to 20%. Provides small protection and energy buffs.",
+  "description" : "Automatically applies a static shield whenever HP is down to 20%. Provides a life support system. Has an augment slot.",
 
   "price" : 4800, "rarity" : "Legendary",
   "category" : "enviroProtectionPack",  "tooltipKind" : "baseaugment",  "maxStack" : 1,
@@ -15,14 +15,8 @@
   "femaleFrames" : "back.png",
 
   "statusEffects" : [
-    {
-      "stat" : "enterniaStatusImmunity",
-      "amount" : 1.0
-    },
-    {
-      "stat" : "voidStatusImmunity",
-      "amount" : 1.0
-    }
+    "ct_autoshielder_elite",
+    "ct_life_support_system"
   ],
 
   "colorOptions" : [

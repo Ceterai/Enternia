@@ -8,6 +8,7 @@ function init()
   script.setUpdateDelta(60)
 
   self.damageClampRange = config.getParameter("damageClampRange")
+  self.damageKind = config.getParameter("damageKind", "ct_ionic")
 
   self.tickTime = config.getParameter("boltInterval", 1.0)
   self.tickTimer = self.tickTime
@@ -20,7 +21,7 @@ function update(dt)
   status.applySelfDamageRequest({
     damageType = "IgnoresDef",
     damage = boltPower,
-    damageSourceKind = "electric",
+    damageSourceKind = self.damageKind,
     sourceEntityId = entity.id()
   })
 end

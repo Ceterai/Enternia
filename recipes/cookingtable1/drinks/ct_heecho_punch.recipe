@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_biomix_icecream", "count" : 1 },
+    { "item" : "ct_maito_tea", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_heecho_punch", "count" : 1 },
+  "groups" : [ "craftingfood", "drinks" ]
+}
