@@ -1,12 +1,15 @@
 {
   "objectName" : "ct_enhancedmoonrock",
-  "colonyTags" : ["alterash", "nature", "enternia"],
+  "colonyTags" : [ "enterash", "nature", "enternia" ],
+  "category" : "breakable",
   "rarity" : "Common",
-  "category" : "decorative",
   "price" : 100,
+  "race" : "generic",
   "printable" : false,
-  "description" : "This moonrock formation seems suspicious.",
+
   "shortdescription" : "Enhanced Moonrock",
+  "description" : "This moonrock formation seems suspicious.",
+  "altaDescription" : "A bunch of moonrock filled with enternia dream gas.",
 
   "apexDescription" : "A fascinating rock formation! Seems like a great place to rest nearby...",
   "avianDescription" : "Pretty!.. Yaaaaawn... Huh?",
@@ -19,19 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_enhancedmoonrock.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_enhancedmoonrock.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "right",
-
+      "dualImage" : "ct_enhancedmoonrock.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

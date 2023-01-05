@@ -36,7 +36,7 @@
   } },
   { "op": "add", "path": "/regionTypes/ct_alterash_labs", "value" : { "caveLiquid":["water"],
       "blockSelector": ["remixedSwampySurface"], "fgCaveSelector": ["surfaceCaves"],
-      "biome": [[0,[ "ct_alterash_labs" ]]], "subRegion": ["ct_alterash_riverside", "ct_alterash_forest", "ct_alterash_snowy", "ct_alterash_valley"]
+      "biome": [[0,[ "ct_alterash_garden" ]]], "subRegion": ["ct_alterash_riverside", "ct_alterash_forest", "ct_alterash_snowy", "ct_alterash_valley"]
   } },
   { "op": "add", "path": "/regionTypes/ct_alterash_park", "value" : { "caveLiquid":["water"],
       "blockSelector": ["remixedSwampySurface"], "fgCaveSelector": ["surfaceCaves"],

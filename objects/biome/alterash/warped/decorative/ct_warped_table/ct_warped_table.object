@@ -22,16 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_warped_table.png:<color>",
-
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_warped_table.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     }
   ]
 }

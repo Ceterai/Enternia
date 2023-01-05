@@ -1,0 +1,30 @@
+{
+  "projectileName" : "ct_warped_hive2",
+  "image" : "ct_warped_hive.png:2",
+  "physics" : "grenade",
+  "animationCycle" : 0,
+  "frameNumber" : 1,
+  "speed" : 5,
+  "bounces" : -1,
+  "timeToLive" : 0.5,
+  "damagePoly" : [ ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default",
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/bugswarm2.ogg" ]
+    },
+    {
+      "action" : "projectile", "type" : "ct_warped_hive3",
+      "fuzzAngle" : 0, "inheritDamageFactor" : 1, "angleAdjust" : 0
+    },
+    {
+      "action" : "config",
+      "file" : "/projectiles/throwable/ct_warped_hive/loop.config"
+    }
+  ]
+}

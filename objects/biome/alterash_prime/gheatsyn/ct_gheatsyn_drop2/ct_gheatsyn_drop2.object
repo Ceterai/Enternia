@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_gheatsyn_drop2",
-  "colonyTags" : ["crystal", "gheatsyn", "misc"],
+  "colonyTags" : [ "crystal", "gheatsyn", "misc" ],
   "category" : "breakable",
-  "printable" : false,
   "rarity" : "Common",
   "price" : 50,
   "race" : "generic",
+  "printable" : false,
   // "scannable" : false,
 
   "shortdescription" : "Gheatsyn Dripping Formation",
@@ -46,12 +46,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_gheatsyn_drop2.png:<color>.<frame>",
-
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_gheatsyn_drop2.png",
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
 

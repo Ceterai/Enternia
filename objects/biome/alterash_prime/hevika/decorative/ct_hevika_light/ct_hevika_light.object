@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_light",
-  "colonyTags" : ["crystal", "hevika", "light"],
+  "colonyTags" : [ "crystal", "hevika", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 60,
@@ -24,21 +24,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_hevika_light.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-
-      "direction" : "left",
-
-      "flipImages" : true,
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-    },
-    {
-      "image" : "ct_hevika_light.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-
-      "direction" : "right",
-
+      "dualImage" : "ct_hevika_light.png:<color>.<frame>",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ]
     }

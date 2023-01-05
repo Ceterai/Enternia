@@ -1,0 +1,13 @@
+{
+  "name" : "ctfalldamage",
+  "label" : "Halved Falldamage",
+
+  "effectConfig" : {
+    "fallDamageMultiplier" : 0.5
+  },
+  "defaultDuration" : 1.0,
+
+  "scripts" : [ "/stats/effects/ct_velocity_jump/ct_longfall.lua" ],
+  "animationConfig" : "/stats/effects/ct_velocity_jump/ct_velocity_jump.animation",
+  "icon" : "/stats/effects/ct_velocity_jump/ct_velocity_jump.png"
+}

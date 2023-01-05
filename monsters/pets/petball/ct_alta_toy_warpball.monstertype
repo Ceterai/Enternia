@@ -15,8 +15,9 @@
       "/scripts/util.lua",
       "/scripts/vec2.lua",
 
-      "/monsters/pets/petball/petball.lua"
+      "/monsters/pets/petball/ct_alta_pet_ball.lua"
     ],
+    "spawnedItem" : "ct_alta_toy_warpball",
 
     "speedRange" : [20, 45],
     "angleRange" : [0.3, 1.2],

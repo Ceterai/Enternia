@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_munris_ash_black",  // sandstorm
+  "physics" : "rain",
+  "image" : "/projectiles/weather/sandstorm/sandstorm.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 2,
+  "damagePoly" : [ [-30, -30], [30, -30], [30, 30], [-30, 30] ],
+  "damageKind" : "hidden",
+  "actionOnReap" : [
+    {
+      "action" : "applySurfaceMod",
+      //"previousMod" : "black",
+      "previousMod" : "metamod:none",
+      // "previousMod" : null,
+      "newMod" : "blackash",
+      "radius" : 2
+    }
+  ],
+
+  "onlyHitTerrain" : true,
+  "hydrophobic" : false,
+  "masterOnly" : true
+}

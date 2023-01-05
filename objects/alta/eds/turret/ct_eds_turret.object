@@ -1,0 +1,150 @@
+{
+  "objectName" : "ct_eds_turret",
+  "colonyTags" : [ "alta", "eds", "combat", "electronic" ],
+  "category" : "wire",
+  "rarity" : "Rare",
+  "price" : 520,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "EDS Turret",
+  "description" : "An armored automated security turret. Seems like anyone could become its target.",
+  "altaDescription" : "An EDS turret. Has some blind spots, but pretty effective in general.",
+  "subtitle" : "Automatic Base Defense",
+
+  "apexDescription" : "Always ready to fire.",
+  "avianDescription" : "I must move like the wind to remain unseen by this turret.",
+  "floranDescription" : "Such bright lasersss. Don't want to be in their sssights.",
+  "glitchDescription" : "Determined. I must not become the target.",
+  "humanDescription" : "An automated security gun. Nasty piece of work.",
+  "hylotlDescription" : "A reminder of the extreme lengths the some will go to.",
+  "novakidDescription" : "An automated gun has no soul to keep in it check.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "metalshard" } ],
+
+  "objectType" : "container",
+  "slotCount" : 0,
+  "uiConfig" : "/interface/turret/standingturret.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "stand.png:bottom", "imagePosition" : [-16, 0],
+      "imageLayers" : [ { "image" : "stand.png:bottom" }, { "image" : "gun.png:dead", "position": [4, 12] } ],
+      "spaces" : [
+        [-2, 0], [-1, 0], [0, 0], [1, 0],
+        [-2, 1], [-1, 1], [0, 1], [1, 1]
+      ],
+      "anchors" : [ "bottom" ],
+
+      "animationParts" : { "gun" : "gun.png", "stand" : "stand.png:bottom", "energy" : "/objects/wired/standingturret/energy.png" },
+      "animationPosition" : [0, 16], "animationCenterLine" : 0,
+      "baseOffset" : [0, 2], "energyBarOffset" : [0.375, -1.5], "verticalScaling" : false
+    },
+    {
+      "dualImage" : "stand.png:top", "imagePosition" : [-16, -24],
+      "imageLayers" : [ { "image" : "stand.png:top" }, { "image" : "gun.png:dead", "position": [4, 12] } ],
+      "spaces" : [
+        [-2, -1], [-1, -1], [0, -1], [1, -1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "top" ],
+
+      "animationParts" : { "gun" : "gun.png", "stand" : "stand.png:top", "energy" : "/objects/wired/standingturret/energy.png" },
+      "animationPosition" : [0, -8], "animationCenterLine" : 0,
+      "baseOffset" : [0, -1], "energyBarOffset" : [0.375, 1.375], "verticalScaling" : false
+    },
+    {
+      "image" : "stand.png:left", "imagePosition" : [0, 0],
+      "imageLayers" : [ { "image" : "stand.png:left" }, { "image" : "gun.png:dead", "position": [4, 12] } ],
+      "spaces" : [
+        [0, 0], [1, 0],
+        [0, 1], [1, 1],
+        [0, 2], [1, 2]
+      ],
+      "anchors" : [ "left" ], "direction" : "right",
+
+      "animationParts" : { "gun" : "gun.png", "stand" : "stand.png:left", "energy" : "/objects/wired/standingturret/energy.png" },
+      "animationPosition" : [16, 16],
+      "baseOffset" : [2, 2], "energyBarOffset" : [-1.5, -0.625], "verticalScaling" : true
+    },
+    {
+      "image" : "stand.png:left", "imagePosition" : [-24, 0],
+      "imageLayers" : [ { "image" : "stand.png:left" }, { "image" : "gun.png:dead", "position": [4, 12] } ],
+      "spaces" : [
+        [-1, 0], [0, 0],
+        [-1, 1], [0, 1],
+        [-1, 2], [0, 2]
+      ],
+      "anchors" : [ "right" ], "direction" : "left", "flipImages" : true,
+
+      "animationParts" : { "gun" : "gun.png", "stand" : "stand.png:left", "energy" : "/objects/wired/standingturret/energy.png" },
+      "animationPosition" : [-10, 16],
+      "baseOffset" : [-1, 2], "energyBarOffset" : [-1.5, -0.625], "verticalScaling" : true
+    }
+  ],
+
+  "objectWidth" : 4,
+  "animation" : "/objects/wired/standingturret/standingturret.animation",
+
+  "scripts" : [
+    "/objects/wired/standingturret/standingturret.lua",
+    "/scripts/npcToyObject.lua",
+    "/scripts/stateMachine.lua",
+    "/scripts/util.lua",
+    "/scripts/vec2.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "damageTeam" : { "type" : "assistant" },
+
+  "outputNodes" : [ [0, 0] ],
+  "inputNodes" : [ [0, 1] ],
+
+
+
+  "rotationSpeed" : 25,
+
+  "tipOffset" : [2.5, 0],
+  "offAngle" : -30,
+
+  "scanInterval" : 6,
+  "scanAngle" : 30,
+  "scanRange" : 35,
+
+  "targetQueryRange" : 35,
+  "targetMinRange" : 2.5,
+  "targetMaxRange" : 50,
+  "targetAngleRange" : 75,
+
+  "maxFireAngle" : 5,
+
+  "energyUsage" : 4,
+  "power" : 5.0,
+  "fireTime" : 0.1,
+
+  "maxEnergy" : 100,
+  "energyRegen" : 25,
+  "energyRegenBlock" : 1.0,
+
+  "npcToy" : {
+    "influence" : [
+      "turret"
+    ],
+    "defaultReactions" : {
+      "turret" : [
+        [1.0, "pressbutton"],
+        [1.0, "oh"],
+        [1.0, "laugh"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

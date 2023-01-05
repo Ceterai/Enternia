@@ -9,7 +9,8 @@
   "category" : "spear", "tooltipKind" : "sword", "elementalType" : "electric",
 
   "inventoryIcon" : "asirai.png",
-  "animation" : "asirai.animation",
+  "animation" : "default.animation",
+  "animationParts" : { "blade" : "asirai.png" },
   "scripts" : ["asirai.lua"],
   "animationScripts" : [ "/items/active/effects/lightning.lua" ],
 
@@ -142,7 +143,8 @@
     "itemTags" : ["weapon", "melee", "axe"],
     "category" : "axe",
     "inventoryIcon" : "ammerax.png",
-    "animation" : "ammerax.animation",
+    "animation" : "default.animation",
+    "animationParts" : { "blade" : "ammerax.png" },
     "altAbility" : {
       "projectileParameters" : { "knockback" : 25, "timeToLive": 2.5, "statusEffects" : [ "ct_overtension" ] }
     },

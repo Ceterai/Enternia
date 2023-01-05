@@ -7,7 +7,7 @@
 
   "hueShiftOptions" : [30, 45],
   "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
-  "parallax" : "/biomes/surface/ct_alterash_labs.parallax",
+  "parallax" : "/parallax/surface/ct_alterash_labs.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -118,7 +118,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
@@ -132,7 +132,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       // Other
       {

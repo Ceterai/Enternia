@@ -9,7 +9,8 @@
   "category" : "spear", "tooltipKind" : "sword", "elementalType" : "electric",
 
   "inventoryIcon" : "alternia_spear.png",
-  "animation" : "alternia_spear.animation",
+  "animation" : "default.animation",
+  "animationParts" : { "blade" : "alternia_spear.png" },
   "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
   "animationScripts" : [ "/items/active/effects/lightning.lua" ],
 
@@ -131,7 +132,8 @@
     "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
     "category" : "axe",
     "inventoryIcon" : "enternia_halberd.png",
-    "animation" : "enternia_halberd.animation",
+    "animation" : "default.animation",
+    "animationParts" : { "blade" : "enternia_halberd.png" },
     "altAbility" : {
       "projectileParameters" : { "knockback" : 25, "timeToLive": 2.5 }
     },

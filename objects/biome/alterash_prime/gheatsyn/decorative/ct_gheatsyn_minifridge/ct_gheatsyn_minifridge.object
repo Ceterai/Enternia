@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_minifridge",
-  "colonyTags" : ["crystal", "gheatsyn", "cooking", "storage"],
+  "colonyTags" : [ "crystal", "gheatsyn", "cooking", "storage" ],
   "category" : "fridgeStorage", "objectType" : "container", "tooltipKind" : "container",
   "rarity" : "Uncommon",
   "price" : 240,
@@ -26,7 +26,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png:<color>", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png" } ],
       "flipImages" : true,
       "direction" : "left",
 
@@ -41,7 +41,7 @@
       "collision" : "platform"
     },
     {
-      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png:<color>", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "ct_gheatsyn_minifridge.png", "fullbright" : true }, { "image" : "ct_gheatsyn_minifridge_lit.png" } ],
       "direction" : "right",
 
       "lightPosition" : [0, 1],

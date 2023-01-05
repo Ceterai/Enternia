@@ -5,6 +5,7 @@ function init()
   self.statName2 = config.getParameter("statName2", nil)
   self.statAmount2 = config.getParameter("statAmount2", 2)
   if self.statName2 then effect.addStatModifierGroup({{stat = self.statName2, amount = self.statAmount2}}) end
+  if config.getParameter("useEffect", false) then animator.setAnimationState("shield", "on") end
 end
 
 function update(dt)

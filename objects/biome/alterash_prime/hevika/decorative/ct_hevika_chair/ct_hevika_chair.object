@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_chair",
-  "colonyTags" : ["crystal", "hevika"],
+  "colonyTags" : [ "crystal", "hevika" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 105,
@@ -22,15 +22,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_hevika_chair.png:<color>",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_hevika_chair.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 

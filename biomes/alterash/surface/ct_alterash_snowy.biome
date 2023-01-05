@@ -155,7 +155,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",

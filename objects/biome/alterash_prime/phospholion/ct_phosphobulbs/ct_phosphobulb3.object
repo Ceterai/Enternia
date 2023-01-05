@@ -45,10 +45,16 @@
 
   "firstProjectile" : "smoke",
   "triggerDelay" : 0.5,
-  "secondProjectile" : "burningstatusprojectile",
+  "secondProjectile" : "burningexplosion",
   "detectArea" : [[-1.0, 0], [1.0, 0.5]],
 
-  "health" : 2.5,
-  "breakDropOptions" : [],
+  "health" : 4,
+  "smashOnBreak" : true,
+  "smashSounds" : [
+    "/sfx/objects/rock_break1.ogg", "/sfx/objects/rock_break2.ogg", "/sfx/objects/rock_break3.ogg", "/sfx/objects/rock_break4.ogg",
+    "/sfx/objects/rock_break5.ogg", "/sfx/objects/rock_crumble1.ogg", "/sfx/objects/rock_crumble2.ogg", "/sfx/objects/rock_crumble3.ogg",
+    "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg"
+  ],
+  "smashParticles" : [ { "count" : 6, "particle" : "rockshard" } ],
   "biomePlaced" : true
 }

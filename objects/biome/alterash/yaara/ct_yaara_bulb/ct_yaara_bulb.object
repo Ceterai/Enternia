@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_yaara_bulb",
-  "colonyTags" : ["alterash", "nature", "yaara", "light"],
+  "colonyTags" : [ "alterash", "nature", "yaara", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 65,
@@ -24,17 +24,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_yaara_bulb.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-      "direction" : "right",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_yaara_bulb.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-      "direction" : "left",
-      "flippedImage" : "true",
+      "dualImage" : "ct_yaara_bulb.png:<color>.<frame>",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_byshin_loot", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_bishyn_loot",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

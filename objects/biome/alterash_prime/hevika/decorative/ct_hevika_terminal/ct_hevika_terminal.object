@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_terminal",
-  "colonyTags" : ["crystal", "hevika", "wired"],
+  "colonyTags" : [ "crystal", "hevika", "wired" ],
   "category" : "wire",
   "rarity" : "Common",
   "price" : 170,
@@ -19,7 +19,7 @@
   "hylotlDescription" : "Seems like this terminal is powered via some blue crystal below it.",
   "novakidDescription" : "All these terminals are really somethin'.",
 
-  "lightColor" : [0, 80, 192],
+  "lightColor" : [80, 0, 192],
   "flickerDistance" : 0.2,
   "flickerStrength" : 0.05,
   "flickerTiming" : 4,

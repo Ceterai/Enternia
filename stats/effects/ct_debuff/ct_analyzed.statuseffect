@@ -3,10 +3,12 @@
   "label" : "Analyzed",
   "effectConfig" : {
     "statName" : "protection",
-    "statAmount" : -3
+    "statAmount" : -3,
+    "useEffect" : true
   },
   "defaultDuration" : 10,
 
+  "animationConfig" : "/stats/effects/ct_energy_shield/ct_force_shield.animation",
   "scripts" : [ "ct_debuff.lua" ],
   "icon" : "ct_analyzed.png"
 }

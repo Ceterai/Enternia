@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_table",
-  "colonyTags" : ["crystal", "gheatsyn", "commerce"],
+  "colonyTags" : [ "crystal", "gheatsyn", "commerce" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 145,
@@ -22,16 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_gheatsyn_table.png:<color>",
-
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_gheatsyn_table.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     }
   ]
 }

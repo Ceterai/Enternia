@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctsphere", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_altersphere",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

@@ -1,10 +1,11 @@
 {
   "objectName" : "ct_isoslime1",
-  "colonyTags" : ["alterash_prime", "isoslime"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "isoslime" ],
   "category" : "breakable",
-  "printable" : false,
+  "rarity" : "Common",
+  "price" : 20,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Isoslime Puddle",
   "description" : "A glob of slime.",
@@ -23,14 +24,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_isoslime1.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_isoslime1.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "smashable" : true,

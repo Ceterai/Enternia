@@ -78,14 +78,21 @@
 
   "projectiles" : [
     {
-      "projectile" : "sandstorm",
-      "parameters" : {
-        "power" : 0
-      },
-      "velocity" : [0, 0],
-      "ratePerX" : 0.01,
-      "spawnAboveRegion" : 10,
-      "spawnHorizontalPad" : 10,
+      "projectile" : "ash", "parameters" : { "power" : 0 },
+      "velocity" : [0, 0], "ratePerX" : 0.005,
+      "spawnAboveRegion" : 10, "spawnHorizontalPad" : 10,
+      "windAffectAmount" : 1
+    },
+    {
+      "projectile" : "ct_munris_ash_black", "parameters" : { "power" : 0 },
+      "velocity" : [0, 0], "ratePerX" : 0.02,
+      "spawnAboveRegion" : 10, "spawnHorizontalPad" : 10,
+      "windAffectAmount" : 1
+    },
+    {
+      "projectile" : "ct_munris_ash", "parameters" : { "power" : 0 },
+      "velocity" : [0, 0], "ratePerX" : 0.01,
+      "spawnAboveRegion" : 10, "spawnHorizontalPad" : 10,
       "windAffectAmount" : 1
     }
   ],

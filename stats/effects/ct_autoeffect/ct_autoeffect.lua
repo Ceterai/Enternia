@@ -5,7 +5,6 @@ function init()
 
   local effectConfig = {}
   effectConfig.duration = 12
-  effectConfig.name = "Auto Placed Effect"
   effectConfig.type = "electrified"
   effectConfig.animActivate = "effectActivate"
   effectConfig.animActive = "effectActive"
@@ -27,7 +26,7 @@ function update(dt)
 end
 
 function effectActivate()
-  status.setPersistentEffects(self.effectConfig.name, { self.effectConfig.type })
+  status.addEphemeralEffect(self.effectConfig.type, self.effectConfig.duration)
   animator.playSound(self.effectConfig.animActivate)
   self.activeTimer = self.effectConfig.duration
   if not self.active then
@@ -46,14 +45,14 @@ function effectLoop(dt)
 end
 
 function effectDeactivate()
-  status.clearPersistentEffects(self.effectConfig.name)
-  animator.stopAllSounds(self.effectConfig.animActive)
-  animator.playSound(self.effectConfig.animDeactivate)
+  if self.active then
+    status.removeEphemeralEffect(self.effectConfig.type)
+    animator.stopAllSounds(self.effectConfig.animActive)
+    animator.playSound(self.effectConfig.animDeactivate)
+  end
   self.active = false
 end
 
 function uninit()
-  status.clearPersistentEffects(self.effectConfig.name)
-  animator.stopAllSounds(self.effectConfig.animActive)
-  animator.playSound(self.effectConfig.animDeactivate)
+  effectDeactivate()
 end

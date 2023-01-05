@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_clubdecks",
-  "colonyTags" : ["crystal", "calin", "electronic", "musical"],
+  "colonyTags" : [ "crystal", "calin", "electronic", "musical" ],
   "category" : "decorative",
   "rarity" : "Uncommon",
   "price" : 320,
@@ -47,7 +47,7 @@
     }
   ],
 
-  "animation" : "default.animation",
+  "animation" : "/objects/hylotl/clubdecks/clubdecks.animation",
   "animationParts" : {
     "bg" : "ct_calin_clubdecks.png",
     "fg" : "ct_calin_clubdecks_lit.png"

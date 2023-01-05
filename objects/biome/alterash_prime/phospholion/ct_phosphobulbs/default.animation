@@ -4,28 +4,17 @@
       "podState" : {
         "default" : "idle",
         "states" : {
-          "idle" : {
-            "frames" : 4,
-            "cycle" : 0.5,
-            "mode" : "loop"
-          }
+          "idle" : { "frames" : 4, "cycle" : 0.5, "mode" : "loop" }
         }
       }
     },
 
     "parts" : {
       "pod" : {
-        "properties" : {
-          "centered" : false,
-          "fullbright" : true
-        },
+        "properties" : { "centered" : false, "fullbright" : true },
         "partStates" : {
           "podState" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:default.<frame>"
-              }
-            }
+            "idle" : { "properties" : { "image" : "<partImage>:default.<frame>" } }
           }
         }
       }
@@ -33,7 +22,15 @@
   },
 
   "sounds" : {
-    "windup" : [ "/sfx/objects/bardoor_open.ogg" ],
-    "explode" : [ "/sfx/objects/bardoor_open.ogg" ]
+    "windup" : [ "/sfx/npc/monsters/anglure_windup.ogg", "/sfx/npc/monsters/wisper_windup1.ogg" ],
+    "explode" : [
+      "/sfx/gun/grenadeblast_small_poison1.ogg",
+      "/sfx/gun/grenadeblast_poison1.ogg",
+      "/sfx/gun/grenadeblast_poison2.ogg"
+    ],
+    "settle" : [
+      "/sfx/projectiles/poisonorb_break1.ogg",
+      "/sfx/projectiles/poisonorb_break2.ogg"
+    ]
   }
 }

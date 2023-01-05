@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_chair",
-  "colonyTags" : ["crystal", "calin"],
+  "colonyTags" : [ "crystal", "calin" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 105,
@@ -22,20 +22,13 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_calin_chair.png:<color>",
-
-      "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_calin_chair.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [2, 22]
-
 }

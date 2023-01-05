@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_monitor",
-  "colonyTags" : ["crystal", "hevika", "electronic"],
+  "colonyTags" : [ "crystal", "hevika", "electronic" ],
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 140,
@@ -47,7 +47,7 @@
 
   "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
 
-  "animation" : "default.animation",
+  "animation" : "/objects/outpost/outpostmonitor/outpostmonitor.animation",
   "animationParts" : {
     "bg" : "ct_hevika_monitor.png",
     "fg" : "ct_hevika_monitor_lit.png"

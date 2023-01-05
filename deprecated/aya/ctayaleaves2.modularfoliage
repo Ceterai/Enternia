@@ -1,0 +1,167 @@
+{
+  "name" : "ctayaleaves2",
+  "shape" : "ctforest",
+
+  "dropConfig" : {
+    "drops" : [
+      [ ]
+    ],
+    
+    "particles" : {
+      "breakTree" : {
+        "density" : 3,
+        "options" : [
+          {
+            "type" : "ember",
+            "color" : [34, 57, 32],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [58, 83, 48],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [73, 109, 72],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          }
+        ]
+      },
+      "hitGround" : {
+        "density" : 3,
+        "options" : [
+          {
+            "type" : "ember",
+            "color" : [34, 57, 32],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [58, 83, 48],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [73, 109, 72],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          }
+        ]
+      }
+    }
+  },
+
+
+  "parallaxFoliage" : false,
+  
+  "crownLeaves" : {
+    "crown1" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/crown1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/crown2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/crown3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    }
+  },
+  "branchLeaves" : {
+    "branch1" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/branch1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch2" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/branch2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch3" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/branch3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch4" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/branch4.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch5" : {
+      "image" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/branch5.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_gateway",
-  "colonyTags" : ["crystal", "gheatsyn", "door"],
+  "colonyTags" : [ "crystal", "gheatsyn", "door" ],
   "category" : "door",
   "rarity" : "Common",
   "price" : 170,
@@ -18,6 +18,8 @@
   "humanDescription" : "A massive rugged gateway.",
   "hylotlDescription" : "A robust gateway.",
   "novakidDescription" : "This gateway is lookin' real sturdy.",
+
+  "health" : 1.5,
 
   "inventoryIcon" : "icon.png",
    

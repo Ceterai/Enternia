@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctgilseed", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_gil_seed",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

@@ -1,24 +1,24 @@
 {
   "itemName" : "ctbody",
   "price" : 6400,
-  "inventoryIcon" : "icons.png:chest",
+  "inventoryIcon" : "/items/armors/alta/ct_alta_alternia_chest/icon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "\nProvides enhanced energy flow in exchange for protection. Adds slow health regen, unaffected by regen blockers.",
-  "shortdescription" : "^#2080f0;C.T. Suit^reset;",
+  "description" : "\nEnhanced energy flow in exchange for protection.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "shortdescription" : "^red;Outdated^reset; ^#2080f0;C.T. Suit^reset;",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
-    "body" : "chestm.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "body" : "/items/armors/alta/ct_alta_alternia_chest/chest.png",
+    "backSleeve" : "/items/armors/alta/ct_alta_alternia_chest/bsleeve.png",
+    "frontSleeve" : "/items/armors/alta/ct_alta_alternia_chest/fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "chestf.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "body" : "/items/armors/alta/ct_alta_alternia_chest/chest.png",
+    "backSleeve" : "/items/armors/alta/ct_alta_alternia_chest/bsleeve.png",
+    "frontSleeve" : "/items/armors/alta/ct_alta_alternia_chest/fsleeve.png"
   },
 
   "level" : 6,
@@ -43,10 +43,6 @@
       "stat" : "maxHealth",
       "amount" : 4
     }
-  ],
-
-  "statusEffects" : [
-    "ctregen"
   ],
 
   "itemTags" : [ "tier6armour" ],

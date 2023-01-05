@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_lamp",
-  "colonyTags" : ["crystal", "gheatsyn", "light"],
+  "colonyTags" : [ "crystal", "gheatsyn", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 85,
@@ -19,8 +19,6 @@
   "hylotlDescription" : "This green light is so enigmatic and bewitching.",
   "novakidDescription" : "A brightly shining crystal lamp.",
 
-  "statusEffects" : [ ],
-
   "lightColor" : [183, 246, 1],
 
   "inventoryIcon" : "icon.png",
@@ -37,7 +35,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     },
-
     {
       "image" : "ct_gheatsyn_lamp.png:<color>.<frame>",
       "imagePosition" : [0, 0],

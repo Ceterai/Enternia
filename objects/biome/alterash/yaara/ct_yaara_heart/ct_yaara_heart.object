@@ -1,9 +1,9 @@
 {
   "objectName" : "ct_yaara_heart",
-  "colonyTags" : ["alterash", "nature", "yaara"],
+  "colonyTags" : [ "alterash", "nature", "yaara" ],
   "category" : "trap",
   "rarity" : "Rare",
-  "price" : 605,
+  "price" : 640,
   "race" : "generic",
   "printable" : false,
 
@@ -22,9 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_yaara_heart.png:<color>",
-      "imagePosition" : [-32, 0],
-
+      "dualImage" : "ct_yaara_heart.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

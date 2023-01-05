@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_warped_light",
-  "colonyTags" : ["warped", "light"],
+  "colonyTags" : [ "warped", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 40,
@@ -24,35 +24,20 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_warped_light.png:<frame>", "fullbright" : true,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left", "right" ]
+      "image" : "body.png:background", "fullbright" : true,
+      "spaceScan" : 0.1, "anchors" : [ "left", "right" ]
     },
-
     {
-      "image" : "ct_warped_light_left.png:<frame>", "fullbright" : true,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "left" ]
+      "image" : "body.png:left", "fullbright" : true,
+      "spaceScan" : 0.1, "anchors" : [ "left" ]
     },
-
     {
-      "image" : "ct_warped_light_right.png:<frame>", "fullbright" : true,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "right" ]
+      "image" : "body.png:right", "fullbright" : true,
+      "spaceScan" : 0.1, "anchors" : [ "right" ]
     },
-
     {
-      "image" : "ct_warped_light.png:<frame>", "fullbright" : true,
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "image" : "body.png:background", "fullbright" : true,
+      "spaceScan" : 0.1, "anchors" : [ "background" ]
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "objectName" : "ct_stardust_crystal",
-  "colonyTags" : ["alterash", "stardust", "light"],
+  "colonyTags" : [ "stardust", "light" ],
   "category" : "light",
   "rarity" : "Rare",
-  "price" : 125,
+  "price" : 180,
   "race" : "generic",
   "printable" : false,
 
@@ -19,13 +19,11 @@
   "hylotlDescription" : "A useful light source.",
   "novakidDescription" : "I've always wanted a crystal lookin' lamp.",
 
-  "statusEffects" : [ ],
-
   "lightColor" : [255, 155, 255],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.01,
 
-  "inventoryIcon" : "ct_stardust_crystalicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
 
     {

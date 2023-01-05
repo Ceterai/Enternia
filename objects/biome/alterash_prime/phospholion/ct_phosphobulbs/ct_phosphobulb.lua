@@ -12,7 +12,7 @@ end
 function trigger()
   animator.playSound("windup")
   if config.getParameter("firstProjectile") ~= nil then
-    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({ 0.0, 0.2 }))
+    world.spawnProjectile(config.getParameter("firstProjectile"), object.toAbsolutePosition({ 0.0, 1.5 }))
   end
   self.triggerTimer = config.getParameter("triggerDelay")
 end
@@ -22,9 +22,13 @@ function update(dt)
     self.triggerTimer = math.max(0, self.triggerTimer - dt)
     if self.triggerTimer == 0 then
       if config.getParameter("secondProjectile") ~= nil then
-        world.spawnProjectile(config.getParameter("secondProjectile"), object.toAbsolutePosition({ 0.0, 0.2 }))
+        world.spawnProjectile(
+          config.getParameter("secondProjectile"), object.toAbsolutePosition({ 0.0, 1.5 }), nil, nil, nil,
+          { power = 64 }
+        )
       end
       animator.playSound("explode")
+      animator.playSound("settle")
       object.smash()
     end
   else

@@ -1,9 +1,9 @@
 {
   "objectName" : "ct_stardust_prism",
-  "colonyTags" : ["alterash", "stardust", "light"],
-  "category" : "decorative",
+  "colonyTags" : [ "stardust", "light" ],
+  "category" : "breakable",
   "rarity" : "Legendary",
-  "price" : 205,
+  "price" : 640,
   "race" : "generic",
   "printable" : false,
 
@@ -19,22 +19,11 @@
   "hylotlDescription" : "Prisms are a true wonder of the natural world.",
   "novakidDescription":  "I enjoy a good light show!",
 
-  "inventoryIcon" : "ct_stardust_prismicon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_stardust_prism.png:<color>.<frame>",
+      "dualImage" : "ct_stardust_prism.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_stardust_prism.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
-      "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -43,7 +32,7 @@
   "scripts" : [ "/objects/wired/lightsensor/unwiredlightsensor.lua" ],
   "scriptDelta" : 5,
 
-  "animation" : "ct_stardust_prism.animation",
+  "animation" : "/objects/biome/prism/prismrock6/prismrock6.animation",
   "animationParts" : {
     "prism" : "ct_stardust_prism.png"
   },
@@ -54,7 +43,7 @@
 
   "health" : 20,
   "smashOnBreak" : true,
-  "smashSounds" : [ "/sfx/objects/prism_break_large1.ogg", "/sfx/objects/prism_break_large2.ogg" ],
+  "smashSounds" : [ "/sfx/objects/prism_break_large1.ogg", "/sfx/objects/prism_break_large2.ogg", "/sfx/objects/ancient_pot_break_medium1.ogg" ],
   "smashParticles" : [ { "count" : 10, "particle" : "mediumprismshard" }, { "count" : 20, "particle" : "mediumprismfineshard" } ],
   "smashDropOptions" : [
     [ [ "ct_stardust", 2, { } ], [ "prisiliteore", 3, { } ] ]

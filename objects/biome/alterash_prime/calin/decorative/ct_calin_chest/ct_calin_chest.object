@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_chest",
-  "colonyTags" : ["crystal", "calin", "storage"],
+  "colonyTags" : [ "crystal", "calin", "storage" ],
   "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
   "rarity" : "Common",
   "price" : 100,
@@ -26,7 +26,7 @@
     {
       "dualImage" : "ct_calin_chest.png:<color>.<key>",
       "imagePosition" : [-8, 0],
-
+      "spaceScan" : 0.1,
       "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
       "anchors" : [ "bottom" ]
     }

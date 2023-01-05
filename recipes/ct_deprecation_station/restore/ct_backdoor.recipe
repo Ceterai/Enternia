@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_eds_backdoor", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_backdoor",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

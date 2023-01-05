@@ -6,7 +6,7 @@
   "ores" : "ct_alterash_core",
 
   "hueShiftOptions" : [20],
-  "parallax" : "ct_alterash_end.parallax",
+  "parallax" : "/parallax/underground/ct_alterash_end.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },

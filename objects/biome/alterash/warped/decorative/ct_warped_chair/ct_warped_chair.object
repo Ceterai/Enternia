@@ -25,7 +25,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_warped_chair.png:<color>",
+      "image" : "ct_warped_chair.png",
       "imagePosition" : [-8, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -35,7 +35,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_warped_chair.png:<color>",
+      "image" : "ct_warped_chair.png",
       "imagePosition" : [-8, 0],
       "direction" : "right",
       "sitPosition" : [2, 24],

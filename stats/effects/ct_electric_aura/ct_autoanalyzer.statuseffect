@@ -7,6 +7,7 @@
     "boltInterval" : 2.0,
     "jumpDistance" : 10,
     "projectile" : "invisibleprojectile",
+    "projectileParams" : { "damageKind" : "nodamage" },
     "statusEffects" : ["ct_analyzed"],
     "speed" : 50
   },

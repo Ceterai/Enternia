@@ -7,7 +7,7 @@
   "ores" : "ct_alterash_depth2",
 
   "hueShiftOptions" : [75, 90],
-  "parallax" : "/biomes/underground/ct_alterash_underworld.parallax",
+  "parallax" : "/parallax/underground/ct_alterash_underworld.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -74,7 +74,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
@@ -139,7 +139,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",

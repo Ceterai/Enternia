@@ -7,7 +7,7 @@
   "ores" : "ct_alterash_depth2",
 
   "hueShiftOptions" : [75],
-  "parallax" : "/biomes/underground/ct_alterash_underground.parallax",
+  "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -109,7 +109,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "wildcttsayseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",

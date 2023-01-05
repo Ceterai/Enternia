@@ -7,7 +7,7 @@
 
   "hueShiftOptions" : [40, 50],
   "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
-  "parallax" : "/biomes/surface/ct_alterash_garden.parallax",
+  "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },

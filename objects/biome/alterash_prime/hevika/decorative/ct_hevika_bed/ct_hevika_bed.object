@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_bed",
-  "colonyTags" : ["crystal", "hevika"],
+  "colonyTags" : [ "crystal", "hevika" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 170,
@@ -32,7 +32,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_hevika_bed.png:<color>",
+      "image" : "ct_hevika_bed.png",
       "imagePosition" : [-24, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -43,7 +43,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_hevika_bed.png:<color>",
+      "image" : "ct_hevika_bed.png",
       "imagePosition" : [-24, 0],
       "direction" : "right",
 

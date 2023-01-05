@@ -1,9 +1,10 @@
 {
   "objectName" : "ct_phospholion_deposit1",
-  "colonyTags" : ["alterash_prime", "nature", "phospholion"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "nature", "phospholion" ],
   "category" : "decorative",
+  "rarity" : "Common",
   "price" : 100,
+  "race" : "generic",
   "printable" : false,
 
   "shortdescription" : "Small Phospholion Deposit",
@@ -21,19 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_phospholion_deposit1.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_phospholion_deposit1.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "right",
-
+      "dualImage" : "ct_phospholion_deposit1.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

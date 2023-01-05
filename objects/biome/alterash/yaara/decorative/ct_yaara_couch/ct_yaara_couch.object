@@ -25,8 +25,8 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_yaara_couch.png:<color>",
-      "sitCoverImage" : "/objects/floran/florancouch/ct_yaara_couch_cover.png",
+      "image" : "ct_yaara_couch.png",
+      "sitCoverImage" : "/objects/biome/alterash/yaara/ct_yaara_couch/ct_yaara_couch_cover.png",
       "imagePosition" : [-24, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -41,8 +41,8 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_yaara_couch.png:<color>",
-      "sitCoverImage" : "/objects/floran/florancouch/ct_yaara_couch_cover.png",
+      "image" : "ct_yaara_couch.png",
+      "sitCoverImage" : "/objects/biome/alterash/yaara/ct_yaara_couch/ct_yaara_couch_cover.png",
       "imagePosition" : [-24, 0],
       "direction" : "right",
 

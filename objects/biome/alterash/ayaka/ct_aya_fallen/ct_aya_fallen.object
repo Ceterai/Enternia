@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_aya_fallen",
-  "colonyTags" : ["alterash", "nature", "ayaka"],
+  "colonyTags" : [ "alterash", "nature", "ayaka" ],
   "category" : "breakable",
   "rarity" : "Common",
   "price" : 45,
@@ -22,13 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_aya_fallen.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.3,
-      
-      "direction" : "right",
-
+      "dualImage" : "ct_aya_fallen.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

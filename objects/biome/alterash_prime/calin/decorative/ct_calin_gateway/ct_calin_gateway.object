@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_gateway",
-  "colonyTags" : ["crystal", "calin", "door"],
+  "colonyTags" : [ "crystal", "calin", "door" ],
   "category" : "door",
   "rarity" : "Common",
   "price" : 170,
@@ -18,6 +18,8 @@
   "humanDescription" : "A sturdy door.",
   "hylotlDescription" : "I'm intrigued why this door has a crystal mounted inside.",
   "novakidDescription" : "This mate looks really solid and reliable.",
+
+  "health" : 1.5,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

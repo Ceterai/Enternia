@@ -60,7 +60,7 @@
 
   "projectiles" : [
     {
-      "projectile" : "ct_purple_drop",
+      "projectile" : "ct_dreaming_drop",
       "parameters" : {
         "power" : 0
       },
@@ -72,7 +72,7 @@
     }
   ],
 
-  "statusEffects" : ["wet"],
+  "statusEffects" : [ "wet" ],
 
   "duration" : [50, 400],
   "maximumWind" : 60.0,

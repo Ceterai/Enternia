@@ -22,12 +22,12 @@
   "inventoryIcon" : "icon.png",
 
   "tooltipKind" : "seed",
-  "largeImage" : "ct_tsay_seed.png:default.3.0",
+  "largeImage" : "body.png:default.3.0",
 
 
   "orientations" : [
     {
-      "dualImage" : "ct_tsay_seed.png:<color>.<stage>.<alt>",
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
       "imagePosition" : [0, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

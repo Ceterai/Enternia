@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_table",
-  "colonyTags" : ["crystal", "hevika", "commerce"],
+  "colonyTags" : [ "crystal", "hevika", "commerce" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 145,
@@ -22,16 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_hevika_table.png:<color>",
-
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_hevika_table.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "collision" : "platform"
-
     }
   ]
 }

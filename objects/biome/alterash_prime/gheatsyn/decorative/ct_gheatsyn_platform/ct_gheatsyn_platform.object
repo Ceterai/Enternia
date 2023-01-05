@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_platform",
-  "colonyTags" : ["crystal", "gheatsyn"],
+  "colonyTags" : [ "crystal", "gheatsyn" ],
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 70,
@@ -22,15 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_gheatsyn_platform.png:<color>",
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 0.4,
-
+      "dualImage" : "ct_gheatsyn_platform.png",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       "collision" : "platform"
-
     }
   ]
 }

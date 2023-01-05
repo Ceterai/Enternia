@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_alta_combat_set",
+  "shortdescription" : "Alta Combat Set",
+  "description" : "Contains full equipment set of an alta army soldier.",
+
+  "inventoryIcon" : "ct_alta_combat_set.png",
+  "treasure" : { "pool" : "ct_alta_combat_set", "level" : 1 },
+  "animationParts" : { "gun" : "ct_alta_combat_set.png" },
+
+  "price" : 9600,
+  "level" : 5,
+  "rarity" : "Rare",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false,
+
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+}

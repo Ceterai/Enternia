@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alterash_pyramid",
+  "colonyTags" : ["alta", "alta_city", "electronic"],
+  "category" : "furniture",
+  "rarity" : "Rare",
+  "price" : 600,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alterash Pyramid",
+  "description" : "A pyramid-like alterash structure.",
+  "altaDescription" : "A generator. It's usual to see these in parks, powering nearby lights and stuff.",
+
+  "apexDescription" : "A structure of unknown purpose.",
+  "avianDescription" : "What is this for?",
+  "floranDescription" : "A big metal triangle. Floran wondersss what's inssside.",
+  "glitchDescription" : "Cautious. This look misterious.",
+  "humanDescription" : "A metal pyramid.",
+  "hylotlDescription" : "What could be the purpose of this structure?",
+  "novakidDescription" : "T'is a weird shape for a building.",
+
+  "health" : 60,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alterash_pyramid.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

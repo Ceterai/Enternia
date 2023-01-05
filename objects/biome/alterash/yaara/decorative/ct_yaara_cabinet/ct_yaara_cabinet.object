@@ -24,11 +24,8 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_yaara_cabinet.png:<color>",
+      "dualImage" : "ct_yaara_cabinet.png",
       "imagePosition" : [-32, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

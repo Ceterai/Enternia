@@ -7,7 +7,7 @@
 
   "hueShiftOptions" : [250],
   "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
-  "parallax" : "/biomes/surface/ct_alterash_garden.parallax",
+  "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "ionicStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -114,7 +114,7 @@
       },
       {
         "mode" : "floor", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "wildctgilseed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_wild_gil_seed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       // Other
       {

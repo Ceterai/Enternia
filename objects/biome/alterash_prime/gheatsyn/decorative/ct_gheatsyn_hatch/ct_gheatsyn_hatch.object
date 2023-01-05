@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_hatch",
-  "colonyTags" : ["crystal", "gheatsyn", "door"],
+  "colonyTags" : [ "crystal", "gheatsyn", "door" ],
   "category" : "door",
   "rarity" : "Common",
   "price" : 125,
@@ -18,6 +18,8 @@
   "humanDescription" : "A simple hatch.",
   "hylotlDescription" : "An elegant uncomplicated hatch.",
   "novakidDescription" : "A smooth lookin' plain hatch.",
+
+  "health" : 1.5,
 
   "inventoryIcon" : "icon.png",
 

@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_agaranic1",
+  "colonyTags" : [ "alterash_prime", "nature", "agaranic", "shroom" ],
+  "category" : "decorative",
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Giant Agaranic Shroom",
+  "description" : "A greenish mushroom.",
+  "altaDescription" : "A giant agaranic. Probably full of biosamples.",
+
+  "apexDescription" : "It's cuter than the Agarans.",
+  "avianDescription" : "I wonder what purpose this mushroom serves.",
+  "floranDescription" : "Floran know your sssecret, little shroomy. Floran keep quiet.",
+  "glitchDescription" : "Amused. This is a living Agaran, cleverly disguised.",
+  "humanDescription" : "Needs more caterpillar.",
+  "hylotlDescription" : "A vile mushroom of Agaran origin.",
+  "novakidDescription" : "What's so special about this mushroom?",
+
+  "inventoryIcon" : "ct_agaranic1.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_agaranic1.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "health" : 6,
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 5, "particle" : "toxicoshroomshard" } ],
+  "smashDropOptions" : [
+    [ [ "biosample", 2, { } ] ],
+    [ [ "biosample", 2, { } ] ],
+    [ [ "biosample", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}

@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_hatch",
-  "colonyTags" : ["crystal", "hevika", "door"],
+  "colonyTags" : [ "crystal", "hevika", "door" ],
   "category" : "door",
   "rarity" : "Common",
   "price" : 125,
@@ -18,6 +18,8 @@
   "humanDescription" : "I bet I can even blow up a bomb right here and it won't break. Wanna check it?",
   "hylotlDescription" : "This doorway was strengthened too much, like it was intended to be in some secret bunker or some kind of secret and really valuable lab.",
   "novakidDescription" : "Buddy, ain't you hidin' anythin' valuable on the other side? Why bother to be so sturdy and secure?",
+
+  "health" : 1.5,
 
   "inventoryIcon" : "icon.png",
 

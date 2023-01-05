@@ -1,0 +1,42 @@
+{
+  "objectName" : "ct_verriskoywa_alto_twin",
+  "colonyTags" : [ "alterash", "nature", "verriskoywa" ],
+  "category" : "breakable",
+  "rarity" : "Common",
+  "price" : 30,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Verriskoywa Twin Alto Flower",
+  "description" : "Tall, blue reed flowers.",
+  "altaDescription" : "Blue 'skoywa flowers can be used as spices in some alta dishes. Nifty!",
+
+  "apexDescription" : "Reeds.",
+  "avianDescription" : "Just reeds.",
+  "floranDescription" : "Reedsss.",
+  "glitchDescription" : "Disinterested. Just reeds.",
+  "humanDescription" : "Reeds.",
+  "hylotlDescription" : "Tall, leafy reeds.",
+  "novakidDescription" : "It's just some reeds.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_verriskoywa_alto_twin.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "plantshard" } ],
+  "smashDropOptions" : [
+    [ ["ct_verriskoywa_grass4", 0, { } ] ],
+    [ ["ct_verriskoywa_grass4", 1, { } ] ],
+    [ ["ct_verriskoywa_alto", 1, { } ] ],
+    [ ["ct_verriskoywa_alto_twin", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}

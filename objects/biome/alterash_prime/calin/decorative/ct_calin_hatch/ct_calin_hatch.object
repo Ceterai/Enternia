@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_hatch",
-  "colonyTags" : ["crystal", "calin", "door"],
+  "colonyTags" : [ "crystal", "calin", "door" ],
   "category" : "door",
   "rarity" : "Common",
   "price" : 125,
@@ -18,6 +18,8 @@
   "humanDescription" : "A crystal hatch.",
   "hylotlDescription" : "That a wonderful door!",
   "novakidDescription" : "A vertical doorway. Watch your steps!",
+
+  "health" : 1.5,
 
   "inventoryIcon" : "icon.png",
 

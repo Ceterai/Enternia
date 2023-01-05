@@ -1,10 +1,11 @@
 {
   "objectName" : "ct_alternia_crystal",
-  "colonyTags" : ["alterash_prime", "crystal", "alternia"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "crystal", "alternia" ],
   "category" : "breakable",
-  "printable" : false,
+  "rarity" : "Common",
+  "price" : 160,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Alternia Crystal",
   "description" : "Found in esetera depths and in hevika, this blueish crystal deposit is highly ionized. Alta-scan for more.",
@@ -36,14 +37,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_alternia_crystal.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_alternia_crystal.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
@@ -60,7 +56,7 @@
   "health" : 16,
   "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
-  "smashParticles" : [ { "count" : 4, "particle" : "crystalshard" } ],
+  "smashParticles" : [ { "count" : 8, "particle" : "generatorglassshard" } ],
   "smashDropOptions" : [
     [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ],
     [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ], [ "crystal", 1, { } ] ],

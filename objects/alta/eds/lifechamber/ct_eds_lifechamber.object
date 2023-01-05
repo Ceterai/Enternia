@@ -1,0 +1,63 @@
+{
+  "objectName" : "ct_eds_lifechamber",
+  "colonyTags" : [ "alta", "eds", "light", "misc", "electronic" ],
+  "category" : "other",
+  "rarity" : "Legendary",
+  "price" : 800,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "EDS Life Chamber",
+  "description" : "A special EDS healing station. Provides healing and protective effects. \n^red;Destroyed when broken.",
+  "altaDescription" : "An EDS version of Tserera healing stations, the ones used mainly in labs. This one's a real deal.",
+
+  "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
+  "avianDescription" : "Should I... Go inside?",
+  "floranDescription" : "Way smaller than thorn podsss on my planet.",
+  "glitchDescription" : "Cautious. Devices like these are not to be trusted.",
+  "humanDescription" : "Is it dangerous to go in? Well, only one way to find out!",
+  "hylotlDescription" : "An inclosed tall capsule with semi-transparent glass. Fancy.",
+  "novakidDescription" : "Ain't afraid of no booth I tell ya. Let's try it!",
+
+  "health" : 20,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "electriceggshard" }, { "count" : 6, "particle" : "metalshard" } ],
+  "smashDropPool" : "ct_glow_smashables",
+
+  "lightColor" : [32, 128, 240],
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/alta/eds/lifechamber/cover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "bed6",
+    "nude",
+    "maxenergyscalingboost"
+  ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPosition" : [-2, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "sitPosition" : [6, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

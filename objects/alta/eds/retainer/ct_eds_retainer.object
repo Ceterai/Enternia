@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_eds_retainer",
+  "colonyTags" : [ "alta", "eds", "misc", "electronic" ],
+  "category" : "other",
+  "printable" : false,
+  "rarity" : "Rare",
+  "price" : 560,
+  "race" : "alta",
+
+  "shortdescription" : "EDS Retainer",
+  "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
+  "altaDescription" : "... Blocked. No cell, too.",
+
+  "apexDescription" : "Unknown technology. Better be careful with it.",
+  "avianDescription" : "What's this? Looks like a door!",
+  "floranDescription" : "Floran found treasure! Or not...",
+  "glitchDescription" : "Observing. A lonely tech in the middle of nowhere. I feel you.",
+  "humanDescription" : "Looks like a phone booth. Can I call Earth? ...",
+  "hylotlDescription" : "There's a big slot on the back. What for?..",
+  "novakidDescription" : "Is this an elevator? I feel not.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 8, "particle" : "metalshard" } ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_eds_retainer.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ],
+
+  "biomePlaced" : true
+}

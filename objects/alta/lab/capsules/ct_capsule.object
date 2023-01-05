@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_capsule",
+  "colonyTags" : [ "alta", "alta_lab", "misc" ],
+  "category" : "breakable",
+  "rarity" : "Uncommon",
+  "price" : 60,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Capsule",
+  "description" : "A seemingly empty bionid capsule.",
+  "altaDescription" : "A lab storage capsule. There's always something useful inside.",
+
+  "apexDescription" : "This object looks empty, but maybe it contains pixels.",
+  "avianDescription" : "Doesn't glow, but might be full of other stuff!",
+  "floranDescription" : "Floran wonderssss what's inssside.",
+  "glitchDescription" : "Observant. It appears this object has something inside of it.",
+  "humanDescription" : "It's a chest! Or a capsule! Or a plane! Wait, no.",
+  "hylotlDescription" : "Maybe there's something inside.",
+  "novakidDescription" : "Let's open it up!",
+
+  "inventoryIcon" : "ct_capsule_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_capsule.png:<frame>",
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "capsule"
+}

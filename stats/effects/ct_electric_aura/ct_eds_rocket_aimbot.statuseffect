@@ -4,12 +4,12 @@
 
   "effectConfig" : {
     "playSound" : false,
-    "boltInterval" : 40.0,
+    "boltInterval" : 4.0,
     "jumpDistance" : 30,
     "projectile" : "homingrocket",
     "statusEffects" : [ ],
     "speed" : 40,
-    "damageBase" : 16
+    "damageBase" : 64
   },
   "defaultDuration" : 0,
 

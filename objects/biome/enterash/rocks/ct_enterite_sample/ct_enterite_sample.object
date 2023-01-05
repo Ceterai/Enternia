@@ -1,12 +1,15 @@
 {
   "objectName" : "ct_enterite_sample",
-  "colonyTags" : ["alterash", "pretty", "enternia"],
-  "rarity" : "Common",
+  "colonyTags" : [ "enterash", "pretty", "enternia" ],
   "category" : "decorative",
-  "price" : 100,
+  "rarity" : "Legendary",
+  "price" : 960,
+  "race" : "generic",
   "printable" : false,
-  "description" : "This moonrock formation seems suspicious.",
+
   "shortdescription" : "Enterite Sample",
+  "description" : "This moonrock formation seems pretty. Pretty suspicious.",
+  "altaDescription" : "A big enterite sample! This stuff can be dangerous in this quantity.",
 
   "apexDescription" : "A fascinating rock formation! Seems like a great place to rest nearby...",
   "avianDescription" : "Pretty!.. Yaaaaawn... Huh?",
@@ -19,19 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_enterite_sample.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_enterite_sample.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "right",
-
+      "dualImage" : "ct_enterite_sample.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

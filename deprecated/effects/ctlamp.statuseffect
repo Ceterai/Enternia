@@ -1,0 +1,11 @@
+{
+  "name" : "ctlamp",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "/stats/effects/ct_omniblue_light/ct_omniblue_light.lua"
+  ],
+
+  "animationConfig" : "/stats/effects/ct_omniblue_light/ct_omniblue_light.animation"
+}

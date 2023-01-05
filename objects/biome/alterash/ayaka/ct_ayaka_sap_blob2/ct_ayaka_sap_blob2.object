@@ -21,14 +21,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_ayaka_sap_blob2.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_ayaka_sap_blob2.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "smashable" : true,

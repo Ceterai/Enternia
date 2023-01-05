@@ -1,0 +1,211 @@
+{
+  "objectName" : "ct_alta_crafting_station",
+  "colonyTags" : ["alta", "crafting"],
+  "category" : "crafting",
+  "rarity" : "Uncommon",
+  "price" : 300,
+  "race" : "alta",
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "default.animation",
+  "animationPosition" : [12, 12],
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "body1.png:default",
+  "placementImagePosition" : [0, 0],
+
+  "shortdescription" : "^orange;Alta Crafting Station^white;",
+  "description" : "Used for crafting alta technology and resources.",
+  "altaDescription" : "This station allows to craft useful equipment using encoded blueprints from various datamasses.",
+
+  "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
+  "avianDescription" : "A crafting bench made of titanium.",
+  "floranDescription" : "Floran putsss a crystal in - getsss a shiny out.",
+  "glitchDescription" : "Impressed. Simple yet functional, contains unusual instruments.",
+  "humanDescription" : "A crafting table out of a titanium. Do you need to have another workbench just to create this one?",
+  "hylotlDescription" : "The simplicity of its design compliments the simplicity of its functionality.",
+  "novakidDescription" : "Basic lookin' bench.",
+
+  "breakDropOptions" : [], "learnBlueprintsOnPickup" : [], "startingUpgradeStage" : 1, "maxUpgradeStage" : 6,
+
+  "soundEffect" : "/sfx/objects/scififurnace.ogg",
+  "soundEffectRangeMultiplier" : 1.0,
+  "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+  "upgradeStages" : [
+    {
+      "animationState" : "tier1",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon1.png",
+        "placementImage" : "body1.png:default",
+        "price" : 300,
+
+        "shortdescription" : "^orange;Alta Tier 1 Crafting Station^white;",
+        "description" : "Used for crafting alta technology and resources."
+      },
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier1.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Alta Research Station",
+            "subtitle" : " ^#b9b5b2;Alta Tier 1 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon1.png" }
+        } },
+        "filter" : [ "alta_tier1" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_alta_energy_cell", "count" : 4 },
+          { "item" : "crystal", "count" : 8 },
+          { "item" : "upgrademodule", "count" : 1 }
+        ]
+      },
+      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "tier2",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon2.png",
+        "placementImage" : "body2.png:default",
+        "price" : 500,
+
+        "shortdescription" : "^orange;Alta Tier 2 Crafting Station^white;",
+        "description" : "Used for crafting alta technology and resources."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier2.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Alta Research Station",
+            "subtitle" : " ^#b9b5b2;Alta Tier 2 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon2.png" }
+        } },
+        "filter" : [ "alta_tier1", "alta_tier2" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_edsarmor", "count" : 4 },
+          { "item" : "ct_edsdiode", "count" : 4 },
+          { "item" : "upgrademodule", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "tier3",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon3.png",
+        "placementImage" : "body3.png:default",
+        "price" : 750,
+
+        "shortdescription" : "^orange;Alta Tier 3 Crafting Station^white;",
+        "description" : "Used for crafting alta technology and resources."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier3.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Alta Research Station",
+            "subtitle" : " ^#b9b5b2;Alta Tier 3 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon3.png" }
+        } },
+        "filter" : [ "alta_tier1", "alta_tier2", "alta_tier3" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_enterite", "count" : 4 },
+          { "item" : "ct_edsarmor", "count" : 12 },
+          { "item" : "upgrademodule", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "tier4",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon4.png",
+        "placementImage" : "body4.png:default",
+        "price" : 1000,
+
+        "shortdescription" : "^orange;Alta Tier 4 Crafting Station^white;",
+        "description" : "Used for crafting alta technology and resources."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier4.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Alta Research Station",
+            "subtitle" : " ^#b9b5b2;Alta Tier 4 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon4.png" }
+        } },
+        "filter" : [ "alta_tier1", "alta_tier2", "alta_tier3", "alta_tier4" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_stardust", "count" : 16 },
+          { "item" : "upgrademodule", "count" : 1 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "tier5",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon5.png",
+        "placementImage" : "body5.png:default",
+        "price" : 1250,
+
+        "shortdescription" : "^orange;Stardust Extractor^white;",
+        "description" : "Used for crafting alta technology and resources."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier5.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Stardust Extractor",
+            "subtitle" : " ^#b9b5b2;Alta Tier 5 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon5.png" }
+        } },
+        "filter" : [ "alta_tier1", "alta_tier2", "alta_tier3", "alta_tier4", "alta_tier5" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_starfire", "count" : 256 },
+          { "item" : "ct_starsteel", "count" : 256 },
+          { "item" : "ct_starmatter", "count" : 256 },
+          { "item" : "upgrademodule", "count" : 4 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : []
+    },
+
+    {
+      "animationState" : "tier6",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon5.png",
+        "placementImage" : "body5.png:default",
+        "price" : 1600,
+
+        "shortdescription" : "^orange;Ultimate Alta Station^white;",
+        "description" : "Used for crafting all alta technology, resources and materials."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/crafting_station/tier5.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Ultimate Alta Station",
+            "subtitle" : " ^#b9b5b2;Alta Tier 6 Recipes",
+            "icon" : { "file" : "/objects/alta/crafting/crafting_station/interface/icon5.png" }
+        } },
+        "filter" : [ "alta_tier1", "alta_tier2", "alta_tier3", "alta_tier4", "alta_tier5", "alta_tier6" ], "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "dualImage" : "body1.png:<color>",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

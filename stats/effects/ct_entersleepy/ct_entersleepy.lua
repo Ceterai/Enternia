@@ -14,7 +14,7 @@ function init()
 
   effect.addStatModifierGroup({{stat = "energyRegenPercentageRate", effectiveMultiplier = 1}})
 
-  world.sendEntityMessage(entity.id(), "queueRadioMessage", "ctbiomeelectric", 5.0)
+  world.sendEntityMessage(entity.id(), "queueRadioMessage", "ct_ionized_air", 5.0)
 end
 
 function update(dt)

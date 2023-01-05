@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_phospholion_formation",
-  "colonyTags" : ["alterash_prime", "nature", "phospholion"],
+  "colonyTags" : [ "alterash_prime", "nature", "phospholion" ],
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 240,
@@ -21,19 +21,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_phospholion_formation.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_phospholion_formation.png:<color>",
-      "imagePosition" : [0, 0],
-      "direction" : "right",
-
+      "dualImage" : "ct_phospholion_formation.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_hevika_lamp",
-  "colonyTags" : ["crystal", "hevika", "light"],
+  "colonyTags" : [ "crystal", "hevika", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 85,
@@ -18,8 +18,6 @@
   "humanDescription" : "An elegant light source on a firm stand.",
   "hylotlDescription" : "Is this a lamp? At first glance I thought it was some kind of a magical stuff or spear. Why would a lamp be shaped like that?",
   "novakidDescription" : "You can't hurt anyone, can you?",
-
-  "statusEffects" : [ ],
 
   "lightColor" : [192, 96, 252],
   "flickerDistance" : 0.5,

@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ctayaboiled", "count" : 1 },
-    { "item" : "cttsaycooked", "count" : 1 },
-    { "item" : "ctgil", "count" : 2 }
-  ],
-  "output" : { "item" : "ctcannedfood", "count" : 1 },
-  "groups" : [ "craftingfood", "mains" ]
-}

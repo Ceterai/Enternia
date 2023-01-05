@@ -1,0 +1,57 @@
+{
+  "objectName" : "ct_alta_drone_spawner",
+  "colonyTags" : ["alta", "combat", "wired", "spawner"],
+  "category" : "breakable",
+  "rarity" : "Uncommon",
+  "price" : 320,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Drone Station",
+  "description" : "This strange device contains drones.\n^red;Destroyed when broken.",
+  "altaDescription" : "A scout drone dispenser. Harmful enough.",
+
+  "apexDescription" : "What's that moving inside...?",
+  "avianDescription" : "A green... thing. Wait, did I just spot something moving inside it?",
+  "floranDescription" : "Looks interesting... But sssmells funny!",
+  "glitchDescription" : "Stressed. I should probably get away from this green goo!",
+  "humanDescription" : "I swear I just saw something moving inside that.",
+  "hylotlDescription" : "This green substance smells absolutely horrendous.",
+  "novakidDescription" : "Some sort of green gel. Ain't sure about it.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "body.png:<color>.top.<frame>",
+      "imagePosition" : [-8, -8],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "health" : 6,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "electriceggshard" }, { "count" : 4, "particle" : "steelshard" } ],
+
+  "scripts" : ["/objects/spawner/monsterspawner.lua"],
+  "spawner" : {
+    "monsterTypes" : [ "ctdrone" ],
+    "monsterParams" : { "aggressive" : true },
+    "position" : [0, 0],
+    "positionVariance" : [0, 0],
+    "stock" : -1,
+    "trigger" : "wire",
+    "outOfSight" : false
+  }
+}

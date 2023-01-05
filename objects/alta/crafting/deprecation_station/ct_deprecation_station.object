@@ -1,0 +1,44 @@
+{
+  "objectName" : "ct_deprecation_station",
+  "colonyTags" : [ "crafting", "electronic" ],
+  "category" : "crafting",
+  "rarity" : "Legendary",
+  "price" : 1250,
+  "race" : "generic",
+  "printable" : false,
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/objects/alta/crafting/deprecation_station/default.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Deprecation Station",
+        "subtitle" : " Get rewards for deprecated or lost items from Enternia mod",
+        "icon" : {
+          "file" : "/objects/alta/crafting/deprecation_station/interface.png"
+        }
+      }
+    },
+    "filter" : [ "ct_deprecation_station" ]
+  },
+  "description" : "Get rewards for deprecated or lost items from Enternia mod.",
+  "shortdescription" : "^orange;Deprecation Station^white;",
+
+  "apexDescription" : "I can create equipment to use for wiring here.",
+  "avianDescription" : "It's a workstation for crafting equipment to use for wiring.",
+  "floranDescription" : "Floran can make equipment for wiring thingsss.",
+  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
+  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
+  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
+  "novakidDescription" : "A workstation for all things wirin' related.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "ores" : "ct_alterash_core_enternia",
 
   "hueShiftOptions" : [180],
-  "parallax" : "ct_alterash_end.parallax",
+  "parallax" : "/parallax/underground/ct_alterash_end.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -57,8 +57,8 @@
         "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
       },
       {
-        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_prism", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 120, "modHueShiftMax" : 0, "baseHueShiftMin" : 30, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "object",

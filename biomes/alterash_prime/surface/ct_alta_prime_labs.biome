@@ -6,7 +6,7 @@
   "ores" : "ct_alterash_crystal",
 
   "hueShiftOptions" : [30, 35, 40, 45],
-  "parallax" : "ct_alterash_labs.parallax",
+  "parallax" : "/parallax/surface/ct_alterash_labs.parallax",
 
   "spawnProfile" : {
     "groups" : [
@@ -55,7 +55,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
@@ -102,7 +102,7 @@
       },
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
-        "bushes" : [ { "name" : "ct_labs_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 20, "modHueShiftMax" : 0, "baseHueShiftMin" : 20, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",

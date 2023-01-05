@@ -20,9 +20,6 @@
           {"item" : "ct_alta_combat_chest"},
           {"item" : "ct_alta_combat_helmet"},
           {"item" : "ct_alta_combat_legwear"},
-          {"item" : "ct_alta_combat_pack"},
-          {"item" : "ct_alta_combat_droid_back"},
-          {"item" : "ct_alta_combat_droid_head"},
 
           {"item" : "ct_alta_backpack"},
           {"item" : "ct_alta_halogen_pack"},
@@ -46,7 +43,6 @@
     "value": [
       [1, {
         "fill" : [
-          {"item" : "ct_eds_backdoor"},
           {"item" : "ct_eds_lamppost"},
           {"item" : "ct_eds_lifechamber"},
           {"item" : "ct_eds_table"},
@@ -188,7 +184,7 @@
           {"item" : "ct_docs_units_alternia-codex"}
   ] } ] ] },
   { "op": "add", "path": "/ct_alta_enternia_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_enternia_droid_head"},
+          {"item" : "ct_alta_enternia_helmet"},
           {"item" : "ct_alta_enternia_chest"},
           {"item" : "ct_alta_enternia_legwear"},
           {"item" : "ct_alta_enternia_epp"},

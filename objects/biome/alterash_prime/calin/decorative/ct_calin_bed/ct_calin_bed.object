@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_bed",
-  "colonyTags" : ["crystal", "calin"],
+  "colonyTags" : [ "crystal", "calin" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 170,
@@ -34,15 +34,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_calin_bed.png:<color>",
-
+      "dualImage" : "ct_calin_bed.png",
       "imagePosition" : [-24, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

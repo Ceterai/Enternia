@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_capsule_purple",
+  "colonyTags" : [ "alta", "alta_lab", "misc", "light" ],
+  "category" : "breakable",
+  "rarity" : "Rare",
+  "price" : 80,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Capsule With Yonnur",
+  "description" : "A bionid capsule containing some luminescent material.",
+  "altaDescription" : "A lab capsule filled with glowing juice from bulbs of warped plants. It's called 'Yonnur'.",
+
+  "apexDescription" : "Perhaps this object contains a glowing liquid material.",
+  "avianDescription" : "It glows in the dark!",
+  "floranDescription" : "Floran wonderssss what's inssside.",
+  "glitchDescription" : "Observant. It appears this object is containing some sort of luminescent material.",
+  "humanDescription" : "It's a chest! Or a capsule! Or a plane! Wait, no.",
+  "hylotlDescription" : "I believe illumination is not the true purpose of this device.",
+  "novakidDescription" : "It's shinin' with colorful lights!",
+
+  "lightColor" : [240, 32, 128],
+
+  "inventoryIcon" : "ct_capsule_purple_icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_capsule.png:enternia",
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
+  "smashDropPool" : "ct_glow_smashables"
+}

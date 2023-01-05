@@ -7,7 +7,7 @@
   "ores" : "ct_alterash_depth2",
 
   "hueShiftOptions" : [180],
-  "parallax" : "/biomes/underground/ct_alterash_underworld.parallax",
+  "parallax" : "/parallax/underground/ct_alterash_underworld.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -62,8 +62,8 @@
         "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
       },
       {
-        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
-        "bushes" : [ { "name" : "ct_prism", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 120, "modHueShiftMax" : 0, "baseHueShiftMin" : 30, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
@@ -127,8 +127,8 @@
         "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
       },
       {
-        "mode" : "floor", "priority" : 0.5, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
-        "bushes" : [ { "name" : "ct_prism", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+        "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 120, "modHueShiftMax" : 0, "baseHueShiftMin" : 30, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "moonrock", "count" : 4 },
+    { "item" : "ct_enterite", "count" : 8 }
+  ],
+  "output" : { "item" : "ct_enterite_sample", "count" : 1 },
+  "groups" : [ "alta_constructor5", "nature", "enterash_nature", "enterite", "all" ]
+}

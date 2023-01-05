@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_lamp",
-  "colonyTags" : ["crystal", "calin", "light"],
+  "colonyTags" : [ "crystal", "calin", "light" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 85,
@@ -19,19 +19,14 @@
   "hylotlDescription" : "This light gives me a feeling of peace.",
   "novakidDescription" : "I'm gonna add this to my collection. Always wanted a crystal lamp.",
 
-  "statusEffects" : [ ],
-
   "lightColor" : [118, 199, 228],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.01,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-
     {
       "dualImage" : "ct_calin_lamp.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-
       "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "bottom" ]
     }

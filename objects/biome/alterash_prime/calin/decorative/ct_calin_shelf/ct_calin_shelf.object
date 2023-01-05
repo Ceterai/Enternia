@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_shelf",
-  "colonyTags" : ["crystal", "calin"],
+  "colonyTags" : [ "crystal", "calin" ],
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 70,
@@ -22,15 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_calin_shelf.png:<color>",
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 0.4,
-
+      "dualImage" : "ct_calin_shelf.png",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
       "collision" : "platform"
-
     }
   ]
 }

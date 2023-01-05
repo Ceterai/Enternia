@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_light",
-  "colonyTags" : ["light", "crystal", "gheatsyn"],
+  "colonyTags" : [ "light", "crystal", "gheatsyn" ],
   "category" : "light",
   "rarity" : "Common",
   "price" : 40,
@@ -18,8 +18,6 @@
   "humanDescription" : "A fine lantern.",
   "hylotlDescription" : "A little green lamp emits soft gentle light.",
   "novakidDescription" : "A green ceiling lamp.",
-
-  "statusEffects" : [ ],
 
   "lightColor" : [183, 246, 1],
   "flickerDistance" : 0.5,

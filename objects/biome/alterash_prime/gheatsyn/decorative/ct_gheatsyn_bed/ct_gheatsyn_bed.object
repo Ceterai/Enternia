@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_bed",
-  "colonyTags" : ["crystal", "gheatsyn"],
+  "colonyTags" : [ "crystal", "gheatsyn" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 170,
@@ -34,7 +34,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_gheatsyn_bed.png:<color>",
+      "image" : "ct_gheatsyn_bed.png",
       "imagePosition" : [-24, 0],
       "direction" : "left",
       "flipImages" : true,
@@ -45,7 +45,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_gheatsyn_bed.png:<color>",
+      "image" : "ct_gheatsyn_bed.png",
       "imagePosition" : [-24, 0],
       "direction" : "right",
 

@@ -22,14 +22,10 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_nivera_geyser.png:<color>",
+      "dualImage" : "ct_nivera_geyser.png",
       "imagePosition" : [-8, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

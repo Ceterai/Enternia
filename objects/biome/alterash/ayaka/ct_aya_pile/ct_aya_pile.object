@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_aya_pile",
-  "colonyTags" : ["alterash", "nature", "ayaka"],
+  "colonyTags" : [ "alterash", "nature", "ayaka" ],
   "rarity" : "Common",
   "category" : "breakable",
   "printable" : false,
@@ -24,14 +24,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_aya_pile.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_aya_pile.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
   "smashable" : true,

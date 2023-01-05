@@ -26,14 +26,14 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "ct_yaara_orb.png:<color>", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "ct_yaara_orb.png", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png" } ],
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "right"
     },
     {
-      "imageLayers" : [ { "image" : "ct_yaara_orb.png:<color>", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png:<color>" } ],
+      "imageLayers" : [ { "image" : "ct_yaara_orb.png", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png" } ],
       "imagePosition" : [-16, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],

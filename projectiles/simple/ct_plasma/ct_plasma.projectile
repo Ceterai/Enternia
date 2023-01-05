@@ -19,7 +19,7 @@
   ],
   "damageKind" : "ct_plasma",
   "damageTeam" : { "type" : "indiscriminate" },
-  "damageKindImage" : "icon.png",
+  "damageKindImage" : "/stats/effects/ct_ionic_shock/ct_plasma_burn.png",
   "statusEffects" : [ "ct_plasma_burn" ],
   "hydrophobic" : true,
   "persistentAudio" : "/sfx/objects/torch.ogg"

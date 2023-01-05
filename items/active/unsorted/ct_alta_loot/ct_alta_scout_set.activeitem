@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_alta_scout_set",
+  "shortdescription" : "Scout Set",
+  "description" : "Contains full equipment set of an alta scout.",
+
+  "inventoryIcon" : "ct_alta_scout_set.png",
+  "treasure" : { "pool" : "ct_alta_scout_set", "level" : 1 },
+  "animationParts" : { "gun" : "ct_alta_scout_set.png" },
+
+  "price" : 6400,
+  "level" : 3,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false,
+
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+}

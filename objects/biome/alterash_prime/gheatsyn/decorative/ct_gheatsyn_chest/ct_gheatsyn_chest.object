@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_gheatsyn_chest",
-  "colonyTags" : ["crystal", "gheatsyn", "storage"],
+  "colonyTags" : [ "crystal", "gheatsyn", "storage" ],
   "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
   "rarity" : "Common",
   "price" : 100,
@@ -31,7 +31,6 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-
   ],
 
   "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],

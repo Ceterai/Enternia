@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_terminal",
-  "colonyTags" : ["crystal", "calin", "wired"],
+  "colonyTags" : [ "crystal", "calin", "wired" ],
   "category" : "wire",
   "rarity" : "Common",
   "price" : 170,
@@ -30,10 +30,9 @@
       "dualImage" : "ct_calin_terminal.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "renderLayer" : "Object+1",
-
+      "spaceScan" : 0.1,
       "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,2], [0,2], [1,2] ],
       "anchors" : [ "bottom" ]
-
     }
   ],
 

@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_isoslime2",
-  "colonyTags" : ["alterash_prime", "isoslime"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "isoslime" ],
   "category" : "breakable",
+  "rarity" : "Common",
   "price" : 60,
-  "printable" : false,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Isoslime Pile",
   "description" : "A glob of slime.",
@@ -24,20 +24,8 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-
-      "image" : "ct_isoslime2.png:<color>",
+      "dualImage" : "ct_isoslime2.png",
       "imagePosition" : [-3, -5],
-      "direction" : "right",
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-
-      "image" : "ct_isoslime2.png:<color>",
-      "imagePosition" : [-3, -5],
-      "direction" : "left",
-
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

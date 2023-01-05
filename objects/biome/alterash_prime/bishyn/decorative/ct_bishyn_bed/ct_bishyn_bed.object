@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_bishyn_bed",
-  "colonyTags" : ["crystal", "bishyn"],
+  "colonyTags" : [ "crystal", "bishyn" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 170,
@@ -33,7 +33,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_bishyn_bed.png:<color>",
+      "image" : "ct_bishyn_bed.png",
       "imagePosition" : [-24, 0],
 
       "direction" : "left",
@@ -45,7 +45,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_bishyn_bed.png:<color>",
+      "image" : "ct_bishyn_bed.png",
       "imagePosition" : [-24, 0],
       
       "direction" : "right",

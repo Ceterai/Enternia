@@ -1,10 +1,11 @@
 {
   "objectName" : "ct_isoslime_spawner",
-  "colonyTags" : ["alterash_prime", "isoslime", "misc", "spawner"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "isoslime", "misc", "spawner" ],
   "category" : "breakable",
-  "printable" : false,
+  "rarity" : "Common",
+  "price" : 180,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Isospawner",
   "description" : "A vile pile of slime. There's something moving inside.",
@@ -24,14 +25,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_isoslime_spawner.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_isoslime_spawner.png",
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
-
     }
   ],
 
@@ -52,7 +48,7 @@
     "position" : [0, 1], //relative position to spawn at
     "positionVariance" : [2, 0], //[x,y] size of randomized spawn area, centered on position
     "stock" : 3, //total number of spawns, -1 for infinite
-    "trigger" : "break",
+    // "trigger" : "break",
     "outOfSight" : false
   }
 }

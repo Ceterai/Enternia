@@ -40,10 +40,8 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_ayaka_sap_blob_ceiling1.png:<color>",
+      "dualImage" : "ct_ayaka_sap_blob_ceiling1.png",
       "imagePosition" : [-3, -11],
-      "direction" : "right",
-
       "spaceScan" : 0.1,
       "anchors" : [ "top" ]
     }

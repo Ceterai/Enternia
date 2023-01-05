@@ -5,7 +5,6 @@
 
   "categories" : [ "ct_minidrone" ],
   "parts" : [ "body" ],
-  "partParameters" : "ctdrone.partparams",
 
   "animation" : "ct_minidrone.animation",
   "reversed" : true,
@@ -86,8 +85,6 @@
       "concurrentHostileActions" : [
       ]
     },
-
-    "baseSkills" : [ "flyingSwoopAttack" ],
 
     "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5],
     "scale" : 1.0,

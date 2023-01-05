@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_calin_sample",
-  "colonyTags" : ["crystal", "calin"],
+  "colonyTags" : [ "crystal", "calin" ],
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 120,
@@ -22,15 +22,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_calin_sample.png:<color>",
-
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
+      "dualImage" : "ct_calin_sample.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ]
 }

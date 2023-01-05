@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_bishyn_chair",
-  "colonyTags" : ["crystal", "bishyn"],
+  "colonyTags" : [ "crystal", "bishyn" ],
   "category" : "furniture",
   "rarity" : "Common",
   "price" : 105,
@@ -27,7 +27,7 @@
   
   "orientations" : [
     {
-      "image" : "ct_bishyn_chair.png:<color>",
+      "image" : "ct_bishyn_chair.png",
       "imagePosition" : [-16, 0],
       "flipImages" : true,
       "direction" : "left",
@@ -37,7 +37,7 @@
       "sitPosition" : [1, 22]
     },
     {
-      "image" : "ct_bishyn_chair.png:<color>",
+      "image" : "ct_bishyn_chair.png",
       "imagePosition" : [-16, 0],
       "direction" : "right",
 

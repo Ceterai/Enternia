@@ -22,40 +22,13 @@ function init()
 end
 
 function update(dt)
-  self.tickTimer = self.tickTimer - dt
-  if self.tickTimer <= 0 and self.active then
-    setUpDamage()
-    local targetIds = world.entityQuery(mcontroller.position(), self.range, {
-      withoutEntityId = entity.id(),
-      includedTypes = {"creature"}
-    } )
-
-    shuffle(targetIds)
-
-    for i,id in ipairs(targetIds) do
-      local sourceEntityId = effect.sourceEntity() or entity.id()
-      if world.entityCanDamage(sourceEntityId, id) and world.entityAggressive(id) and not world.lineTileCollision(mcontroller.position(), world.entityPosition(id)) then
-        local sourceDamageTeam = world.entityDamageTeam(sourceEntityId)
-        local directionTo = world.distance(world.entityPosition(id), mcontroller.position())
-        local projectile = {
-          power = self.power,
-          damageTeam = sourceDamageTeam
-        }
-        if self.statusEffects then projectile.statusEffects = self.statusEffects end
-        if self.speed then projectile.speed = self.speed end
-        world.spawnProjectile( self.bolt, mcontroller.position(), entity.id(), directionTo, false, projectile )
-        if self.playSound then animator.playSound("bolt") end
-        return
-      end
-    end
-  end
-  if self.tickTimer <= 0 then
-    updateTickTime()
-  end
+  self.tickTimer = math.max(self.tickTimer - dt, 0)
+  if self.tickTimer <= 0 and self.active then fire() end
+  if self.tickTimer <= 0 then resetTickTimer() end
 end
 
-function updateTickTime()
-  if self.tickTime <= 0 then
+function resetTickTimer()
+  if self.tickTime <= 0 then -- if using the scale tickTime
     local healthCoef = status.resourcePercentage("health")
     if healthCoef > 0.5 then
       self.active = false
@@ -65,6 +38,34 @@ function updateTickTime()
     self.tickTimer = math.max(healthCoef * 2, 0.25)
   else
     self.tickTimer = self.tickTime
+  end
+end
+
+function fire()
+  local power = setUpDamage()
+  local targetIds = world.entityQuery(mcontroller.position(), self.range, {
+    withoutEntityId = entity.id(),
+    includedTypes = {"creature"}
+  } )
+
+  shuffle(targetIds)
+
+  for i,id in ipairs(targetIds) do
+    local sourceEntityId = effect.sourceEntity() or entity.id()
+    if world.entityCanDamage(sourceEntityId, id) and world.entityAggressive(id) and not world.lineTileCollision(mcontroller.position(), world.entityPosition(id)) then
+      local sourceDamageTeam = world.entityDamageTeam(sourceEntityId)
+      local directionTo = world.distance(world.entityPosition(id), mcontroller.position())
+      local projectile = {
+        power = power or self.power,
+        damageTeam = sourceDamageTeam
+      }
+      if self.statusEffects then projectile.statusEffects = self.statusEffects end
+      if self.speed then projectile.speed = self.speed end
+      projectile = sb.jsonMerge(projectile, config.getParameter("projectileParams", {}))
+      world.spawnProjectile( self.bolt, mcontroller.position(), entity.id(), directionTo, false, projectile )
+      if self.playSound then animator.playSound("bolt") end
+      break
+    end
   end
 end
 
@@ -102,6 +103,7 @@ function setUpDamage()
   end
 
   self.power = math.abs(dmg)
+  return self.power
 end
 
 function uninit()

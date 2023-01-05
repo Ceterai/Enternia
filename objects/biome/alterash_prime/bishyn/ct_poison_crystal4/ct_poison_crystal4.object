@@ -1,10 +1,11 @@
 {
   "objectName" : "ct_poison_crystal4",
-  "colonyTags" : ["alterash_prime", "crystal", "bishyn"],
-  "rarity" : "Common",
+  "colonyTags" : [ "alterash_prime", "crystal", "bishyn" ],
   "category" : "breakable",
-  "printable" : false,
+  "rarity" : "Common",
+  "price" : 80,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Shady Bishyn Crystal",
   "description" : "A crystal deposit. Shiny.",
@@ -24,14 +25,9 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_poison_crystal4.png:<color>",
-      "imagePosition" : [0, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-
+      "dualImage" : "ct_poison_crystal4.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
-
     }
   ],
 
@@ -39,7 +35,7 @@
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
     "damage" : 10,
     "knockback" : 10,
-    "statusEffects" : [ "ct_crystal_poison", "ct_hevikai_strike" ],
+    "statusEffects" : [ "ct_crystal_poison" ],
 
     "damageType" : "Environment",
     "damageSourceKind" : "poisonspear"

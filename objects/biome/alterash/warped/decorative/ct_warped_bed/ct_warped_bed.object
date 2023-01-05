@@ -33,7 +33,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_warped_bed.png:<color>",
+      "image" : "ct_warped_bed.png",
       "direction" : "left",
       "flipImages" : true,
 
@@ -45,7 +45,7 @@
 
     },
     {
-      "image" : "ct_warped_bed.png:<color>",
+      "image" : "ct_warped_bed.png",
       "direction" : "right",
 
       "imagePosition" : [-24, 0],

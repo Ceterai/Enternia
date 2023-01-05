@@ -1,0 +1,62 @@
+{
+  "objectName" : "ct_lifechamber",
+  "colonyTags" : ["alta", "alta_lab", "outpost", "light"],
+  "category" : "furniture",
+  "rarity" : "Rare",
+  "price" : 640,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Life Chamber",
+  "description" : "A healing station made by altas. Provides additional positive effects. \n^red;Destroyed when broken.",
+  "altaDescription" : "Ah, a checkpoint! I can rest here.",
+
+  "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
+  "avianDescription" : "Should I... Go inside?",
+  "floranDescription" : "Way smaller than thorn podsss on my planet.",
+  "glitchDescription" : "Cautious. Devices like these are not to be trusted.",
+  "humanDescription" : "Is it dangerous to go in? Well, only one way to find out!",
+  "hylotlDescription" : "An inclosed tall capsule with semi-transparent glass. Fancy.",
+  "novakidDescription" : "Ain't afraid of no booth I tell ya. Let's try it!",
+
+  "health" : 20,
+  "breakDropPool" : "ct_glow_smashables",
+
+  "lightColor" : [32, 128, 240],
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/alta/lab/lifechamber/cover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "bed6",
+    "nude",
+    "maxenergyscalingboost"
+  ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

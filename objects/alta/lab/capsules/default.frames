@@ -1,0 +1,16 @@
+{
+
+  "frameGrid" : {
+    "size" : [8, 8],
+    "dimensions" : [4, 2],
+    "names" : [
+      [ "default", "ceternia", "alternia", "enternia" ],
+      [ "lit", "light", "crystal", "red" ]
+    ]
+  },
+
+  "aliases" : {
+    "off" : "default",
+    "0" : "default"
+  }
+}

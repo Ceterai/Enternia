@@ -1,16 +1,16 @@
 {
   "itemName" : "ctlegs",
   "price" : 4800,
-  "inventoryIcon" : "icons.png:pants",
+  "inventoryIcon" : "/items/armors/alta/ct_alta_alternia_legwear/icon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "legarmour",
-  "description" : "\nThis legwear reduses any falldamage by 50%.",
-  "shortdescription" : "^#2080f0;C.T. Walkers^reset;",
+  "description" : "\nThis legwear reduses any falldamage by 50%.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "shortdescription" : "^red;Outdated^reset; ^#2080f0;C.T. Walkers^reset;",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "pants.png",
-  "femaleFrames" : "pants.png",
+  "maleFrames" : "/items/armors/alta/ct_alta_alternia_legwear/pants.png",
+  "femaleFrames" : "/items/armors/alta/ct_alta_alternia_legwear/pants.png",
 
   "level" : 6,
   "leveledStatusEffects" : [
@@ -34,10 +34,6 @@
       "stat" : "maxHealth",
       "amount" : 1
     }
-  ],
-
-  "statusEffects" : [
-    "ctfalldamage"
   ],
 
   "itemTags" : [ "tier6armour" ],

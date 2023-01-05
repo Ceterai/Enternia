@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_gheatorn_arc",
-  "colonyTags" : ["gheatorn", "crystal", "gheatsyn", "misc"],
+  "colonyTags" : [ "gheatorn", "crystal", "gheatsyn", "misc" ],
   "category" : "breakable",
-  "printable" : false,
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
+  "printable" : false,
 
   "shortdescription" : "Gheatorn Arc",
   "description" : "A green glowing rock formation in a shape of an arc. It's a result of a slow gheatsyn crystal growth process. Alta-scan for more.",
@@ -35,20 +35,7 @@
 
   "orientations" : [
     {
-      "image" : "ct_gheatorn_arc.png:<color>.<frame>",
-
-      "direction" : "left",
-      "flipImages" : true,
-      "imagePosition" : [-8, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_gheatorn_arc.png:<color>.<frame>",
-      "direction" : "right",
-      "imagePosition" : [-8, 0],
-
+      "dualImage" : "body.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

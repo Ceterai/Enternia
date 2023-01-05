@@ -4,6 +4,10 @@ function init()
   effect.addStatModifierGroup({
     {stat = "jumpModifier", amount = config.getParameter("addJump", 0.5)}
   })
+  if config.getParameter("feathers", true) then
+    animator.setParticleEmitterOffsetRegion("feathers", mcontroller.boundBox())
+    animator.setParticleEmitterActive("feathers", true)
+  end
 end
 
 function update(dt)

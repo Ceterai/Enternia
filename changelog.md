@@ -2,7 +2,53 @@
 
 ## Update 1.6 - Crystal Rapture
 
+### 1.6.1
+
+A big bugfix update that brings to life a lot of features that previously were almost or completely broken! This includes elite back armor, turrets, saplings, spawners, etc.  
+The update also cleans up the mod significantly and does some restructuring to prepare it for the next version!  
+Other small things like adding missing recipes, fixing objects scripts, sounds and positioning and many more.
+
+> **Note**: planning on gradually removing deprecated resources starting from 1.8, use `Deprecation Station` to exchange them if you have any.
+
+**Main:**
+
+- cleaned up the mod significantly by removing unused resources and reusing certain assets;
+- restructured certain folders to make them easier to navigate and prepare it for 1.7 update;
+- moved all deprecated resources to the deprecated folder (again);
+- moved all parallaxes to the parallax folder (left old copies in their places for compatability);
+- updated 5 codexes (text, formatting, price).
+
+**Alterash Prime:**
+
+- fixed `Phosphobulb` sounds and effects;
+- fixed `Isoslime Spawner`s - they now work as intended.
+
+**Alta:**
+
+- fixed `Dreamer Set` giving a `Perfectly Generic Item` instead of the helmet;
+- fixed all set and loot item sounds, visuals and particles;
+
+- added proper visuals to `Elite Protector` and `Elite Generator` items;
+- added proper visuals to `Alta Drone Spawner` and finished it (no longer WIP);
+- fixed turrets (no longer crash the game and now work properly, with sound etc).
+
+**Other:**
+
+- added fix recipes for all remaining deprecated objects and items to `Deprecation Station`;
+- added recipes for all remaining mod objects to `Alta Constructor` (enterash and stardust ones);
+- marked all deprecated objects and items as "Outdated" and updated their descriptions;
+- fixed positioning for all crafting tables and other objects;
+- fixed `Autoeffect` and `Electric Aura` status effects and their derivatives;
+- fixed any resources that were using or linking to deprecated resources;
+- removed certain recipes that no longer should exist;
+- added small descriptions to every update in the changelog and fixed update descriptions before 1.2;
+- minor bug fixes.
+
 ### 1.6.0
+
+Welcome to the crystal carnaval! This update adds tons of new crystal-based decorations and items to `Alterash Prime` planets!
+It also adds lots of throwable items, like grenades, flares, javelins, toys, etc., as well as ways to obtain them.  
+Finally, the update adds a `Guide Book` that can help you get through the mod and see all of it!  
 
 **Main:**
 
@@ -95,6 +141,9 @@
 
 ### 1.5.0
 
+Alterash Prime is here! Explore a new planet type added by this mode - like alterash, but colder, harder to traverse, with lots of layers and new biomes!  
+The update also adds tier 5 and 6 armor sets, as well as loot items and set items! Loot items contain loot from corresponding chests, and set items contain full sets of armor of a specific type.
+
 **Main:**
 
 - added new planet type - `Alterash Prime`;
@@ -148,6 +197,9 @@
 
 ### 1.4.2
 
+This is an urgent update that fixes a game-crashing bug related to biome generation on some alterash planets.  
+It also does some minor fixes related to biome spawns and treasure.
+
 **Main:**
 
 - updated icons for some effects;
@@ -158,14 +210,16 @@
 
 - adjusted biome spawns;
 - adjusted chest loot tables;
-- fixed a major liquid generation bug with the Flooded Caves biome that caused the game to crash.
+- fixed a major liquid generation bug with the `Flooded Caves` biome that caused the game to crash.
 
 ### 1.4.1
+
+This update does a rework of all loot found in chests across the mod, as well as focuses on updating status effects and expanding the crafting station.
 
 **Main:**
 
 - added icons and names to some effects;
-- updated Ionic Stroke effect;
+- updated `Ionic Stroke` effect;
 - changed effects of some decorative clothing items;
 - fixed visuals and coloring of some clothing items;
 - adjsuted prices and rarity of some clothing items;
@@ -180,44 +234,47 @@
 **EDS Station:**
 
 - updated interface and descriptions;
-- added tier 5 and Envirosuit Set;
+- added tier 5 and `Envirosuit Set`;
 - added missing recipes for some items and objects;
 - fixed recipes for certain resources;
 - reworked some of the recipes.
 
 ### 1.4.0
 
+A major update that significantly expands alterash planets by adding a lot of unique biomes, weather, plants and decorative clothing items.  
+It also adds the `Deprecation Station` - a crafting table where you can exchange any deprecated items for new ones, or trade [Perfectly Generic Item](https://starbounder.org/Perfectly_Generic_Item)s for some gifts. Here you can also convert mod crafting materials and other items into standard Starbound resources.
+
 **Main:**
 
 - added in total 24 objects, 45 items, 6 biomes, 10 effects, 1 weather type;
-- added the EDS Deprecation Station - for converting deprecated items into useful, for converting perfectly generic items into decorative clothing/objects;
-- updated some ids (...again. Sorry for that. Use the Deprecation Station to convert deprecated items or get rewards for lost items).
+- added the `Deprecation Station` - for converting deprecated items into useful, for converting perfectly generic items into decorative clothing/objects;
+- updated some ids (...again. Sorry for that. Use the `Deprecation Station` to convert deprecated items or get rewards for lost items).
 
 **Alterash:**
 
-- added 1 asteroid biome (Moonrock Space Islands) with custom objects and enemies (and rewards);
-- added 1 atmosphere biome (Evostaris) with prism ore and crystals;
-- added 4 surface biomes (2 common (Alterash Riversides, Ayaka Forest), 2 uncommon (Snowy Alterash Ridges, Enchanted Meadows));
-- added new objects to surface biome Alterash Labs;
-- added new objects to underworld biome Underworld Forests;
-- added new tree type for the Alterash Riversides biome;
-- added 1 object (reeds) for the Alterash Riversides biome;
-- added bg bushes (reeds) for the Alterash Riversides biome;
-- added beakseed spawns to the Enchanted Meadows biome;
-- added snowy dungeons to surface biome Snowy Alterash Ridges;
+- added 1 asteroid biome (`Moonrock Space Islands`) with custom objects and enemies (and rewards);
+- added 1 atmosphere biome (`Evostaris`) with prism ore and crystals;
+- added 4 surface biomes (2 common (`Alterash Riversides`, `Ayaka Forest`), 2 uncommon (`Snowy Alterash Ridges`, `Enchanted Meadows`));
+- added new objects to surface biome `Alterash Labs`;
+- added new objects to underworld biome `Underworld Forests`;
+- added new tree type for the `Alterash Riversides` biome;
+- added 1 object (reeds) for the `Alterash Riversides` biome;
+- added bg bushes (reeds) for the `Alterash Riversides` biome;
+- added beakseed spawns to the `Enchanted Meadows` biome;
+- added snowy dungeons to surface biome `Snowy Alterash Ridges`;
 - added 2 more possible planet descriptions;
-- added 1 weather type (Ionic Peak) - creates radiowaves that worsen player's overall condition;
-- moved tsay wild crops to the Yaara Groves biome;
+- added 1 weather type (`Ionic Peak`) - creates radiowaves that worsen player's overall condition;
+- moved tsay wild crops to the `Yaara Groves` biome;
 - rebalanced object spawns for some biomes;
-- enhanced Alterash tier 1 and 2 chest loot tables with themed decorative clothing, furniture and other (music, drills);
-- removed Orbital Strike from weather configs - replaced with Ionic Peak.
+- enhanced `Alterash` tier 1 and 2 chest loot tables with themed decorative clothing, furniture and other (music, drills);
+- removed `Orbital Strike` from weather configs - replaced with `Ionic Peak`.
 
 **Other:**
 
 - added 6 objects (2 lights, 2 hazards, 2 decor);
 - added 38 clothing items (7 hats, 3 backs) - paintable;
 - added 1 augment and 1 collar;
-- added 10 effects (Life Support System, Asirai's Potential, Asirai's Energy, Ionic Stroke, Electroblockade, Energizer, etc.);
+- added 10 effects (`Life Support System`, `Asirai's Potential`, `Asirai's Energy`, `Ionic Stroke`, `Electroblockade`, `Energizer`, etc.);
 - rebalanced prices for many objects;
 - rebalanced weapon damage for some weapons;
 - changed abilities of the spear, renamed it and added Asirai as a separate secret weapon with slightly different abils and params.
@@ -225,6 +282,8 @@
 ## Update 1.3 - Alterash
 
 ### 1.3.1
+
+A small bugfix update that focuses on recipes and biome content. Oh, and also the water on all mod planets is now electric. Enjoy!
 
 - fixed recipes;
 - changed some item colors and attributes;
@@ -234,6 +293,8 @@
 - bug fixes.
 
 ### 1.3.0
+
+Welcome to **Alterash**! This update adds alterash planets that can be found mainly around temperate stars and replace the old planet type.
 
 - 14 new biomes (including 4 core biomes and 8 cave biomes);
 - complete rework of old 6 biomes;
@@ -257,9 +318,11 @@
 - 1 unique upgradeable weapon;
 - 10+ new materials.
 
-## Update 1.2 - Enternia 1.2
+## Update 1.2 - Enternia Enhanced
 
 ### 1.2.1
+
+A small preparation update that cleans up the mod a little and fixes minor bugs.
 
 - minor improvements;
 - slight restructuring;
@@ -268,6 +331,8 @@
 
 ### 1.2.0
 
+This update finally fixes the bug where the planet appears much, much bigger than it is. This was due to allowing incorrect liquids in the main biome that don't have a celestial graphic (mainly the healing water - don't put it in the main biome).
+
 - fixed 'large planet' bug;
 - added 2 new surface biomes and 3 underground biomes;
 - completely reworked and rebalanced the planet - the old biome, all recipes, item stats, etc.;
@@ -278,16 +343,33 @@
 - changed possible dungeons;
 - minor improvements.
 
-## Update 1.1 - Enternia 1.1
+## Update 1.1 - Enternia
 
 ### 1.1.0
 
-- fixed 'large planet' bug;
-- added 2 new surface biomes and 3 underground biomes;
-- completely reworked and rebalanced the planet - the old biome, all recipes, item stats, etc.;
-- added 3 new capturable monsters, 1 new EPP and 2 new crafting materials;
-- made the planet much harder to survive - added a planet hazard - ionized air, new weather - ionized rain, added teslaspikes and other hazards to spawn;
-- reworked all monster spawns;
-- changed possible planet difficulty to 4-6;
-- changed possible dungeons;
-- minor improvements.
+This is a general expansion that adds a planet type and some content to it.
+
+- desided to give the mod a proper name;
+- added new planet type - `Enternia`;
+- added 1 new biome with a similar name;
+- added a tree type for the new biome;
+- added food and crops - `Aya`, `Gil` and `Tsay`, as well as prepared food made from them;
+- added 1 upgradeable sword.
+
+## Update 1.0 - Little Expansion
+
+### 1.0.1
+
+A small correction update that balances out the guns a little bit.
+
+- adjusted gun prices;
+- added piercing shot to SMGs.
+
+### 1.0.0
+
+Welcome to my mod! Hope you'll enjoy it as much as I do! ^^
+
+- added a set of armor - the `C.T. Set`, including chest, legs and 2 helmets with unique abilities;
+- added 2 upgradeable one-handed guns - `Fixed Point SMG` and `Fixed Point Hyperblaster`;
+- added 2 crafting materials - `Cetereye` and `Ceter-Sphere`, that are needed to craft most of the mod items;
+- these materials can be purchased at [Treasured Trophies](https://starbounder.org/Treasured_Trophies) or in [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) if installed.

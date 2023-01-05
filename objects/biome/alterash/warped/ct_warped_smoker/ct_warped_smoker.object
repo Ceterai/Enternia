@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_warped_smoker",
-  "colonyTags" : ["alterash", "warped", "misc"],
+  "colonyTags" : [ "alterash", "warped", "misc" ],
   "category" : "breakable",
   "rarity" : "Common",
   "price" : 105,
@@ -19,22 +19,10 @@
   "hylotlDescription" : "Smoke, but no fire? Quite the conundrum.",
   "novakidDescription" : "I see smoke, did someone leave a kettle boilin'?",
 
-  "inventoryIcon" : "ct_warped_smokericon.png",
+  "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_warped_smoker.png:<color>",
-      "imagePosition" : [-16, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "image" : "ct_warped_smoker.png:<color>",
-      "imagePosition" : [-16, 0],
-      "direction" : "right",
-
+      "dualImage" : "ct_warped_smoker.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
