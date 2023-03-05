@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_lifechamber",
-  "colonyTags" : ["alta", "alta_lab", "outpost", "light"],
+  "colonyTags" : [ "alta", "alta_lab", "light" ],
   "category" : "furniture",
   "rarity" : "Rare",
   "price" : 640,
@@ -8,7 +8,7 @@
   "printable" : false,
 
   "shortdescription" : "Life Chamber",
-  "description" : "A healing station made by altas. Provides additional positive effects. \n^red;Destroyed when broken.",
+  "description" : "A healing station made by altas. Provides additional positive effects.\n^red;Destroyed when broken.",
   "altaDescription" : "Ah, a checkpoint! I can rest here.",
 
   "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
@@ -20,17 +20,20 @@
   "novakidDescription" : "Ain't afraid of no booth I tell ya. Let's try it!",
 
   "health" : 20,
-  "breakDropPool" : "ct_glow_smashables",
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "electriceggshard" }, { "count" : 6, "particle" : "steelshard" } ],
+  "smashDropPool" : "ct_glow_smashables",
 
   "lightColor" : [32, 128, 240],
 
   "objectType" : "loungeable",
-  "sitCoverImage" : "/objects/alta/lab/lifechamber/cover.png",
+  "sitCoverImage" : "/objects/alta/lab/ct_alta_lab_lifechamber/cover.png",
   "sitFlipDirection" : false,
   "sitOrientation" : "lay",
   "sitAngle" : 0,
   "sitStatusEffects" : [
-    "bed6",
+    "bed3",
     "nude",
     "maxenergyscalingboost"
   ],
@@ -40,23 +43,18 @@
     {
       "image" : "body.png",
       "imagePosition" : [-8, 0],
-      "direction" : "left",
-      "flipImages" : true,
-
+      "direction" : "left", "flipImages" : true,
       "sitPosition" : [-2, 22],
-
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ], "collision" : "platform"
     },
     {
       "image" : "body.png",
       "imagePosition" : [-8, 0],
       "direction" : "right",
-
       "sitPosition" : [6, 22],
-
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ], "collision" : "platform"
     }
   ]
 }

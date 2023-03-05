@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_enternia_cocktail", "ct_tonna_split" ]
+  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_nia_cocktail", "ct_tonna_split" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Tonna Shake",
+      "description" : "Nia alta cuisine. A tonna milkshake made with the best baked tonnas around!",
+      "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
+      "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ]
+    }
+  ]
 }

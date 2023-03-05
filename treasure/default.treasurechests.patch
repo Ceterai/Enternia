@@ -3,8 +3,18 @@
     "op": "add", "path": "/ct_podChest",
     "value": [
       {
-        "containers" : [ "podchest" ],
+        "containers" : [ "ct_alta_pod" ],
         "treasurePool" : "ct_alta_pod_loot_tier1",
+        "minimumLevel" : 0
+      }
+    ]
+  },
+  {
+    "op": "add", "path": "/ct_enchanted_chest",
+    "value": [
+      {
+        "containers" : [ "ct_enchanted_chest" ],
+        "treasurePool" : "ct_enchanted_loot",
         "minimumLevel" : 0
       }
     ]
@@ -123,7 +133,7 @@
     "op": "add", "path": "/ct_small_cargoChest",
     "value": [
       {
-        "containers" : [ "outpostcargocrateshort" ],
+        "containers" : [ "ct_alta_security_pod" ],
         "treasurePool" : "ct_alta_pod_loot_tier2",
         "minimumLevel" : 0
       }
@@ -133,7 +143,7 @@
     "op": "add", "path": "/ct_cargoChest",
     "value": [
       {
-        "containers" : [ "outpostcargocrateshort" ],
+        "containers" : [ "ct_alta_lab_pod" ],
         "treasurePool" : "ct_alta_pod_loot_tier3",
         "minimumLevel" : 0
       }

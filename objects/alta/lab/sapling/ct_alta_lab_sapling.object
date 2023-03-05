@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_lab_sapling",
-  "colonyTags" : ["alta", "alta_lab", "alta_garden"],
+  "colonyTags" : [ "alta", "alta_lab", "alta_garden" ],
   "category" : "sapling",
   "rarity" : "Rare",
   "price" : 80,
@@ -19,35 +19,23 @@
   "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
   "novakidDescription" : "It'll grow into a big tree if I plant it.",
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "body.png:<color>.<stage>.<alt>",
-      "imagePosition" : [0, 0],
-
-      "spaceScan" : 0.1,
+      "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>",
       "requireTilledAnchors" : false,
       "requireSoilAnchors" : false,
       "anchors" : [ "bottom" ]
     }
   ],
 
-  "stages" : [
-    {
-      "duration" : [180, 210]
-    },
-    {
-      "duration" : [180, 210]
-    },
-    {
-      "tree" : true
-    }
-  ],
-
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
   "consumeSoilMoisture" : false,
-
-  "builder" : "/objects/alta/lab/sapling/builder.lua"
+  "stages" : [
+    { "duration" : [180, 210] },
+    { "duration" : [180, 210] },
+    { "tree" : true }
+  ],
+  "builder" : "/objects/alta/lab/ct_alta_lab_sapling/builder.lua"
 }

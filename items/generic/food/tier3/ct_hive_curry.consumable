@@ -29,5 +29,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_palopias", "ct_onitti_cake" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_palopias", "ct_onitti_cake" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Spice-Hive Curry",
+      "description" : "Yava alta cuisine. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
+      "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
+    }
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_entersphere", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_ship_fuel_hatch", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor6", "alta_ship", "objects", "special", "all" ]
+}

@@ -26,5 +26,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_yuri_cocktail" ]
+  "learnBlueprintsOnPickup" : [ "ct_yuri_cocktail" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Yae Tea",
+      "description" : "Yava alta cuisine. A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "love", "duration" : 300 }, { "effect" : "slowlove", "duration" : 300 } ] ]
+    }
+  ]
 }

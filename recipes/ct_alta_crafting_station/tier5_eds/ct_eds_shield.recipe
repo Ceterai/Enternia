@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_shield", "count" : 1 },
+  "groups" : [ "alta_tier3", "tier5_eds", "shield", "all" ]
+}

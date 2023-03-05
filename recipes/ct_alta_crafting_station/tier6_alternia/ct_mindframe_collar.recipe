@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 2 },
+    { "item" : "ct_bion", "count" : 6 }
+  ],
+  "output" : { 
+    "item" : "ct_mindframe_collar",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier5", "tier6_alternia", "all" ]
+}

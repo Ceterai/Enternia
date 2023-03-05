@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_bed",
+  "colonyTags" : [ "alta" ],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 100,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Bed",
+  "description" : "A simplistic titanium bed. Not too comfy.",
+  "altaDescription" : "This bed could use a matrass for maximum comfort.",
+
+  "apexDescription" : "A simple bed.",
+  "avianDescription" : "This bed looks rather basic.",
+  "floranDescription" : "Floran likes to ssleep!",
+  "glitchDescription" : "Pleased. A comfortable place for a nap.",
+  "humanDescription" : "A good standard bed.",
+  "hylotlDescription" : "A crude bed.",
+  "novakidDescription" : "Good a place as any to take a nap.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-12, 14.3], "sitOrientation" : "lay", "sitAngle" : 90,
+  "sitCoverImage" : "/objects/alta/basic/bed/cover.png",
+  "sitEmote" : "sleep", "sitStatusEffects" : [ "bed3" ], "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "spaces" : [ [-3, 0], [-3, 1], [-2, 0], [-2, 1], [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1], [2, 0], [2, 1], [3, 0], [3, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

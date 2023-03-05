@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 8 },
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_lab_teleporter", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor4", "alta_lab", "objects", "teleporter", "special", "all" ]
+}

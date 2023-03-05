@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alliana_cake", "ct_haruplavu_venetto", "ct_special_mimosa" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alliana_cake", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Runeva Pie",
+      "description" : "Runeva alta cuisine. A carefully crafted pie from peak-ripe ayas and gils.",
+      "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+    }
+  ]
 }

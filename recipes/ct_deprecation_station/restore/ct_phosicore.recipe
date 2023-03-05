@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_edsdiode", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_phosicore",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

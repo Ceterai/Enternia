@@ -26,5 +26,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_calio_tea" ]
+  "learnBlueprintsOnPickup" : [ "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_calio_tea" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Crystalline Jam",
+      "description" : "Calin alta cuisine. This pristine condiment with great sour-sweet balance and perfectly melted gheatsyn is glowing in the dark.",
+      "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+    }
+  ]
 }

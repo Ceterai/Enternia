@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctayapowder", "count" : 2 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ctwood", "count" : 2 }
+  ],
+  "output" : { 
+    "item" : "ct_alta_energy_cell",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier2", "components", "all" ]
+}

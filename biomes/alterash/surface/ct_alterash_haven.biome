@@ -12,8 +12,7 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
+      {"select": 1, "pool": [[0.5, "gleap"], [0.5, "ringram"]]},
       { "select" : 1, "pool" : "generatedFlying" },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"sporelingcritter"],[1,"bouncercritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
     ]

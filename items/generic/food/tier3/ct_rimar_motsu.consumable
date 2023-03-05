@@ -30,5 +30,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_staris_soup", "ct_alta_soup" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_staris_soup", "ct_alta_soup" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Rimar Motsu",
+      "description" : "An alta cuisine. A perfect mix of various ingredients turned into an exquisite alta motsu!",
+      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+    }
+  ]
 }

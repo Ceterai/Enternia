@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_teleporter",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor3", "alta_city", "objects", "teleporter", "special", "all" ]
+}

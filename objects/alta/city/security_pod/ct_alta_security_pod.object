@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_alta_security_pod",
+  "colonyTags" : [ "alta", "alta_city", "storage", "mechanical", "wired" ],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Uncommon",
+  "price" : 240,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Security Pod",
+  "description" : "An armored titanium pod that can be used as a chest.",
+  "altaDescription" : "A basic alta storage unit. This one is a security and transport storage unit.",
+
+  "apexDescription" : "A pod chest. What's inside?",
+  "avianDescription" : "These chests are built strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A pod chest is always a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+  "novakidDescription" : "A pod chest. Wonder what's inside...",
+
+  "health" : 2.0,
+
+  "lightColor" : [0, 80, 192],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_pod.png:<color>.<key>", "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 1], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32, "autoCloseCooldown" : 3600,
+
+  "outputNodes" : [ [0, 0] ]
+}

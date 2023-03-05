@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_niatto_motsu" ]
+  "learnBlueprintsOnPickup" : [ "ct_niatto_motsu" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Zandarm Prime",
+      "description" : "Nia alta cuisine. This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
+      "rarity" : "Rare", "price" : 760, "foodValue" : 35
+    }
+  ]
 }

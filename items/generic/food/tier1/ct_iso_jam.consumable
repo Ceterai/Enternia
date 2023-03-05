@@ -22,5 +22,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_zandarm_tart", "ct_ionice_cube", "ct_biomix_icecream" ]
+  "learnBlueprintsOnPickup" : [ "ct_zandarm_tart", "ct_ionice_cube", "ct_biomix_icecream" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Cryo Jam",
+      "description" : "Nia alta cuisine. This iso jam turned out colder and purer than usual. Some say it tastes much better this way.",
+      "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+    }
+  ]
 }

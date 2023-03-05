@@ -1,0 +1,58 @@
+{
+  "globalTagDefaults" : { "paletteSwaps" : "", "flashlight" : "", "stabilizer" : "", "laser" : "", "legs" : "" },
+  "animatedParts" : {
+    "stateTypes" : {
+      "firing" : { "default":"off","states":{"off":{}, "fire":{"frames": 2,"cycle": 0.07,"mode":"transition","transition":"off"}}},
+      "middle": {"default":"idle","states":{"idle":{"frames": 8, "cycle": 0.6, "mode": "loop"}}}
+    },
+    "parts" : {
+      "butt" : {"properties":{"centered":true,"image":"","offset":[0,0],"transformationGroups":["weapon"]}},
+      "middle" : {"properties":{"centered":true,"image":"<partImage><paletteSwaps>","offset":[0,0],"transformationGroups":["weapon"]}},
+      "barrel" : {"properties":{"centered":true,"image":"","offset":[0,0],"transformationGroups":["weapon"]}},
+      "muzzleFlash" : {"properties":{"zLevel":-1,"centered":true,"offset":[0.75,0],"fullbright":true,"transformationGroups":["muzzle"]},
+        "partStates" : {"firing" : {"fire" : {"properties" : {"image" : "<partImage>:<variant>.<frame>"}}}}
+      },
+      "flashlight" : { "properties" : { "zLevel" : 5, "centered" : true, "offset" : [-1.25, -0.375],
+        "transformationGroups" : ["muzzle"], "image" : "<flashlight><stabilizer><laser><legs>" }
+      }
+    }
+  },
+  "rotationGroups" : { "weapon" : { "angularVelocity" : 0 } },
+  "transformationGroups" : { "weapon" : {}, "muzzle" : {} },
+  "particleEmitters" : {
+    "muzzleFlash" : { "transformationGroups" : ["muzzle"], "offsetRegion" : [0, 0, 0, 0], "particles" : [ ] }
+  },
+  "lights" : {
+    "muzzleFlash" : { "active" : false, "position" : [0, 0], "color" : [90, 90, 0] },
+    "flashlightSpread" : { "active" : false, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [80, 80, 80] },
+    "flashlight" : { "active" : false, "position" : [-1.25, -0.5],
+      "transformationGroups" : ["muzzle"], "color" : [200, 200, 200], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5
+    },
+    "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [2.3, 0.385], "color" : [90, 0, 0] }
+  },
+  "sounds" : {
+    "init" : [ ],
+    "single" : [ "/sfx/gun/plasma_ar4.ogg" ],
+    "auto" : [ "/sfx/gun/plasma_ar4.ogg" ],
+    "burst" : [ "/sfx/gun/burstshot1.ogg" ],
+    "semi" : [ "/sfx/gun/plasma_ar4.ogg" ],
+    "charge" : [ "/sfx/gun/dragonhead_charged_fire1.ogg" ],
+    "chargeLoop" : [ "/sfx/melee/charge_combo4.ogg" ],
+    "alt" : [ "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/grenade1.ogg", "/sfx/gun/grenade2.ogg", "/sfx/gun/grenade3.ogg" ],
+    "alt2" : [ "/sfx/gun/electricrailgun1.ogg" ],
+    "toggle" : [ "/sfx/tools/flashlight_toggle.ogg" ],
+    "toggleFire" : [ "/sfx/tools/wiretool.ogg" ],
+
+    "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ],
+    "primary_hold" : [ "/sfx/gun/burstshot1.ogg" ],
+    "alt_press" : [ "/sfx/gun/grenade3.ogg" ],
+    "alt_hold" : [ "/sfx/gun/grenade3.ogg" ],
+
+    "primary_start" : [ ],
+    "primary_loop" : [ "/sfx/melee/charge_combo3.ogg" ],
+    "primary_end" : [ ],
+    "alt_start" : [ ],
+    "alt_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+    "alt_end" : [ ]
+  }
+}

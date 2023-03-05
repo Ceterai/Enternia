@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "venomsample", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alternia_shard", "count" : 1 },
+  "groups" : [ "alta_tier4", "materials", "all" ]
+}

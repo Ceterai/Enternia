@@ -26,5 +26,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_haruplavu_venetto", "ct_special_mimosa" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Gharus Stew",
+      "description" : "Runeva alta cuisine. This spice-rich stew is exceptionally fulfilling!",
+      "rarity" : "Legendary", "price" : 1040, "foodValue" : 50
+    }
+  ]
 }

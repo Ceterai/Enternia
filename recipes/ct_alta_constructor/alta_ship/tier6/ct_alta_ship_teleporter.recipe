@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "ct_bion", "count" : 6 },
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_entersphere", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_ship_teleporter", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor6", "alta_ship", "objects", "teleporter", "special", "all" ]
+}

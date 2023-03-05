@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_container", "count" : 1 },
+  "groups" : [ "alta_constructor3", "eds", "objects", "storage", "all" ]
+}

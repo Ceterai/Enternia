@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail", "ct_palopias" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail", "ct_palopias" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Yaarizza Extra Toppings Slice",
+      "description" : "Yava alta cuisine. This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
+      "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
+    }
+  ]
 }

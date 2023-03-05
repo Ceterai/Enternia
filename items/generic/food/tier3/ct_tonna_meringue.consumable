@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_ion_risotto", "ct_tonna_split" ]
+  "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_ion_risotto", "ct_tonna_split" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Tonnakada Meringue",
+      "description" : "Nia alta cuisine. The softness of this pie makes it feel like it's melting in your mouth.",
+      "rarity" : "Legendary", "price" : 960, "foodValue" : 55
+    }
+  ]
 }

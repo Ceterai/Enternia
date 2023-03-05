@@ -1,0 +1,62 @@
+{
+  "itemName" : "ct_calin_shield",
+  "shortdescription" : "Calin Shield",
+  "description" : "A shield made of charged crystals with a sharpened surface. Pulsating energy stuggers any attackers on impact.",
+
+  "level" : 4, "rarity" : "Uncommon", "price" : 480,
+
+  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "crystal", "calin", "upgradeableWeapon" ],
+  "twoHanded" : false, "maxStack" : 1,
+
+  "inventoryIcon" : "ct_calin_shield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "ct_calin_shield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_ice_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 40,
+  "cooldownTime" : 0.45,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "knockback" : 10,
+  "statusEffects" : [ "ct_ionic_stun" ],
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_calin_shield.png:nearidle",
+    "animationParts" : { "shield" : "ct_calin_shield.png" },
+    "shortdescription" : "Crystal Heart ^#8020f0;^reset;"
+  }
+}

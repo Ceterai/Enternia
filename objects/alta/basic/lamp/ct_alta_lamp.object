@@ -1,0 +1,47 @@
+{
+  "objectName" : "ct_alta_lamp",
+  "colonyTags" : [ "alta", "light" ],
+  "category" : "light",
+  "rarity" : "Common",
+  "price" : 60,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lamp",
+  "description" : "A small titanium lamp. Could be put on a matching alta table!",
+  "altaDescription" : "Very useful and lightweight lamp. I can put it on the floor, on a table or a shelf.",
+
+  "apexDescription" : "A lamp made from a blue crystal.",
+  "avianDescription" : "A cute small crystal light.",
+  "floranDescription" : "It's a blue torch!",
+  "glitchDescription" : "Carefree. I feel secure beneath this lamp.",
+  "humanDescription" : "A little lamp made of blue crystal.",
+  "hylotlDescription" : "This light gives me a feeling of peace.",
+  "novakidDescription" : "I'm gonna add this to my collection. Always wanted a crystal lamp.",
+
+  "lightColor" : [174, 211, 229],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "ct_alta_lamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "ct_alta_lamp.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

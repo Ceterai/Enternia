@@ -20,5 +20,13 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Iced Crystal Desert",
+      "description" : "Calin alta cuisine. It's like a pile of magical sparkles that melt in your mouth!",
+      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+    }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_flag",
+  "colonyTags" : [ "alta" ],
+  "category" : "teleportMarker", "objectType" : "teleporter",
+  "rarity" : "Common",
+  "price" : 70,
+  "race" : "alta",
+  "printable" : false,
+  
+  "shortdescription" : "Alta Flag",
+  "description" : "An Alta flag. The symbol of Alliana. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "altaDescription" : "I can use this flag's locator module as a teleportation waypoint.",
+
+  "apexDescription" : "An Alta flag. I can use this as a waypoint for teleportation.",
+  "avianDescription" : "This Alta flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Alta flag makess good point to teleport back to ussing teleporter!",
+  "glitchDescription" : "Observant. A small locator module attached to this Alta flag allows it to be bookmarked for teleportation.",
+  "humanDescription" : "This Alta flag can be saved as a location for my teleporter. Then I can return to it any time.",
+  "hylotlDescription" : "This Alta flag can act as a way point, enabling me to return to this point using a teleporter.",
+  "novakidDescription" : "I can bookmark this Alta flag for quick teleportin'.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupflag" ]
+  //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+}

@@ -1,0 +1,63 @@
+{
+  "itemName" : "ct_crystalline_shield",
+  "shortdescription" : "Crystalline Shield",
+  "description" : "A hardened crystal shield. Wearing it makes your energy flow faster, increasing your energy regen slightly.",
+
+  "level" : 4, "rarity" : "Uncommon", "price" : 480,
+
+  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "crystal", "crystalline", "upgradeableWeapon" ],
+  "twoHanded" : false, "maxStack" : 1,
+
+  "inventoryIcon" : "ct_crystalline_shield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "ct_crystalline_shield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/charge_traildash1.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/shield_block_ice_perfect.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 48,
+  "cooldownTime" : 0.65,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.2,
+
+  "statusEffects" : [ "ct_energizer" ],
+  "raisedStatusEffects" : [ "ct_energy_generator" ],
+  "knockback" : 10,
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_crystalline_shield.png:nearidle",
+    "animationParts" : { "shield" : "ct_crystalline_shield.png" },
+    "shortdescription" : "Cave Keeper ^#8020f0;^reset;"
+  }
+}

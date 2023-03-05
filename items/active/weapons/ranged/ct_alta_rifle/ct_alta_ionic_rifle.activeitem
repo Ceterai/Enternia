@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_alta_ionic_rifle",
+  "shortdescription" : "Ionic Rifle NG6",
+  "description" : "A rifled enternia impulse blaster, mostly used by alta dreamers and heavy units.",
+  "elementalType" : "electric",
+
+  "level" : 6, "price" : 720, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "assaultRifle",
+  "itemTags" : [ "weapon", "ranged", "assaultrifle", "alta", "ionic" ],
+
+  "inventoryIcon" : "ct_alta_ionic_rifle.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
+  "animationParts" : { "middle" : "ct_alta_ionic_rifle.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
+    "primary_hold" : [ "/sfx/gun/plasma_ar1.ogg" ],
+    "primary_start" : [ ],
+    "primary_loop" : [ "/sfx/melee/charge_combo7.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaRanged",
+    "name" : "Ionic Blast",
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.65,
+    "pressType" : "burst",
+    "pressParams" : { "type" : "ct_ionic_medium", "count" : 5 },
+    "holdType" : "semi",
+    "holdParams" : { "type" : "ct_ionic_medium", "count" : 6 }
+  },
+  "altAbility" : {
+    "class" : "AltaSwitch",
+    "name" : "Tactical Ambush",
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.1,
+    "holdType" : "nade",
+    "holdParams" : { "type" : "electriccloudgrenade" },
+    "pressAttachments" : true,
+    "attachments" : [ "none", "laser", "flashlight", "stabilizer" ]
+  }
+}

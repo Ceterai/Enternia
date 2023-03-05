@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_lab_tanks",
+  "colonyTags" : [ "alta", "alta_lab", "light" ],
+  "category" : "decorative",
+  "rarity" : "Uncommon",
+  "price" : 240,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Tanks",
+  "description" : "Empty interconnected tanks. The glass seems to be made out of crystals.",
+  "altaDescription" : "An energy filter. This is probably used to exctract ions from certain materials.",
+
+  "apexDescription" : "A crystal sample on the white stand.",
+  "avianDescription" : "A pretty blue crystal.",
+  "floranDescription" : "Floran can try to sssmash thingss.",
+  "glitchDescription" : "Calm. A blue crystal sample.",
+  "humanDescription" : "Can I take it? For educational purposes only. I won't sell it. Absolutely.",
+  "hylotlDescription" : "An interesting sample that, seemingly, can power its stand by itself.",
+  "novakidDescription" : "Two-in-one, a fine exhibit and a mirror.",
+
+  "health" : 2.0,
+
+  "lightColor" : [0, 80, 192],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_lab_tanks.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ]
+}

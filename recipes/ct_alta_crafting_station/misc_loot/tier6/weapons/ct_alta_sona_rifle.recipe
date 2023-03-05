@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_sona_rifle", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

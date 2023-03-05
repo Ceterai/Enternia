@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_emergencer_charge",
+  "image" : "ct_emergencer_charge.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [96, 192, 252],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/blaster/other/ct_emergencer_charge/ct_emergencer_charge.config"
+    }
+  ],
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "emitters" : [ "electricplasma" ],
+  "flippable" : true,
+  "power" : 12.0,
+  "speed" : 48.0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "ct_plasma"
+}

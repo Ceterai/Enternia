@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_impulse_medium",
+  "image" : "ct_impulse.png",
+  "damageKindImage" : "/damage/ct_impulse.png",
+  "physics" : "laser",
+  "piercing" : true,
+  "bounces" : 0,
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 32,
+  "speed" : 144,
+  "knockback" : 8,
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [32, 240, 128],
+  "damageKind" : "ct_impulse"
+}

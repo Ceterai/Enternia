@@ -1,0 +1,61 @@
+{
+  "itemName" : "ct_kinetic_shield",
+  "shortdescription" : "Kinetic Shield",
+  "description" : "This directional energy shield multiplies the impact and returns it to your enemies, launching them into the air.",
+
+  "level" : 5, "rarity" : "Rare", "price" : 480,
+
+  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "alta", "energy", "upgradeableWeapon" ],
+  "twoHanded" : false, "maxStack" : 1,
+
+  "inventoryIcon" : "ct_kinetic_shield.png:nearidle",
+
+  "animation" : "shield.animation",
+  "animationParts" : {
+    "shield" : "ct_kinetic_shield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/melee/charge_full_swing2.ogg" ],
+      "perfectBlock" : [ "/sfx/melee/elemental_aura_activate.ogg" ],
+      "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
+      "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+
+  "minActiveTime" : 0.2,
+
+  "forceWalk" : true,
+  "baseShieldHealth" : 24,
+  "cooldownTime" : 0.45,
+
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.4,
+
+  "knockback" : 64, // whipshock on charge, "statusEffects" : [ "ct_ionic_stun" ],
+  
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandshield.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_kinetic_shield.png:nearidle",
+    "animationParts" : { "shield" : "ct_kinetic_shield.png" },
+    "shortdescription" : "Energy Blockade ^#8020f0;^reset;"
+  }
+}

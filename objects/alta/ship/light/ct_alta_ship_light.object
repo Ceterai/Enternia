@@ -1,0 +1,51 @@
+{
+  "objectName" : "ct_alta_ship_light",
+  "colonyTags" : [ "alta", "alta_ship", "light" ],
+  "category" : "light",
+  "rarity" : "Rare",
+  "price" : 100,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Light",
+  "description" : "A tiny wall light made with isolating airtight materials. Works perfectly even in outer space.",
+  "altaDescription" : "A small protected light, often found on alta ships. Despite its size, produces lots of light.",
+
+  "apexDescription" : "It's a wall light.",
+  "avianDescription" : "A wall light.",
+  "floranDescription" : "Light.",
+  "glitchDescription" : "Indifferent. A light.",
+  "humanDescription" : "It's a light.",
+  "hylotlDescription" : "A light fixture.",
+  "novakidDescription" : "A tiny light.",
+
+  "health" : 2.5,
+
+  "lightColor" : [130, 170, 140],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_alta_ship_light.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "ct_alta_ship_light.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

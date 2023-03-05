@@ -26,5 +26,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_mohitava_cocktail", "ct_minto_soup", "ct_warped_cocktail" ]
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_mohitava_cocktail", "ct_minto_soup", "ct_warped_cocktail" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Extra Heecho Punch",
+      "description" : "An alta cuisine. A mistery mixture that takes a fresh turn on the heecho punch.",
+      "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
+      "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 300 }, { "effect" : "maxhealthboost20", "duration" : 300 } ] ]
+    }
+  ]
 }

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 8 },
+    { "item" : "ct_cetersphere", "count" : 2 },
+    { "item" : "ct_altersphere", "count" : 2 },
+    { "item" : "ct_entersphere", "count" : 2 },
+    { "item" : "ct_edsarmor", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_phase_cannon", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

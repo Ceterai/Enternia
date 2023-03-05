@@ -26,5 +26,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ]
+  "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Bio Essence",
+      "description" : "Yava alta cuisine. This vitamin-full juice, made from finest prime biosamples, is both very healthy and exceptionally refreshing.",
+      "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
+      "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 } ] ]
+    }
+  ]
 }

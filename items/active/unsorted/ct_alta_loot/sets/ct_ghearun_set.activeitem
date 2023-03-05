@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_ghearun_set",
+  "shortdescription" : "Ghearun M1 Set",
+  "description" : "Contains full equipment set of an alta researcher from gheatsyn labs.",
+
+  "inventoryIcon" : "ct_ghearun_set.png",
+  "treasure" : { "pool" : "ct_ghearun_set", "level" : 1 },
+  "animationParts" : { "gun" : "ct_ghearun_set.png" },
+
+  "price" : 17600,
+  "level" : 6,
+  "rarity" : "Legendary",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false,
+
+  "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
+  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+}

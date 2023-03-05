@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_phosphonade",
+  "rarity" : "Uncommon",
+  "price" : 80,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_phosphonade.png",
+  "image" : "ct_phosphonade.png",
+  "shortdescription" : "Phosphonade",
+  "description" : "A dangerous device that bursts with radioactive waves on impact.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.5,
+
+  "projectileType" : "ct_phosphonade",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

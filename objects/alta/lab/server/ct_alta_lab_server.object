@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_alta_lab_server",
+  "colonyTags" : [ "alta", "alta_lab", "electronic" ],
+  "category" : "decorative",
+  "rarity" : "Uncommon",
+  "price" : 200,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Server",
+  "description" : "It looks like a server. I wonder what kind of games could be hosted on that.",
+  "altaDescription" : "A protected server. The waterproof bionid seal keeps it working even in rough conditions.",
+
+  "apexDescription" : "A secure server. Inaccessible.",
+  "avianDescription" : "There are many blinking lights.",
+  "floranDescription" : "Box of lights makes clicky ssound.",
+  "glitchDescription" : "Ashamed. A server protected by security even I can not bypass.",
+  "humanDescription" : "It looks like a data server. No way we're getting anything from this.",
+  "hylotlDescription" : "This server would contain enough data to fill a thousand Hylotl libraries.",
+  "novakidDescription" : "This piece of technology stores information.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_lab_server.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "frames" : 3, "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "lightColor" : [0, 12, 64],
+
+  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
+  "animationCustom" : { "animatedParts" : { "stateTypes" : { "switchState" : { "states" : { "on" : { "frames" : 3, "cycle" : 0.3, "mode" : "loop" } } } } } },
+  "animationParts" : {
+    "bg" : "ct_alta_lab_server.png",
+    "fg" : "ct_alta_lab_server_lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua", "/scripts/npcToyObject.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [-1, 2] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_vortex_nade",
+  "rarity" : "Rare",
+  "price" : 100,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_vortex_nade.png",
+  "image" : "ct_vortex_nade.png",
+  "shortdescription" : "Vortex Nade",
+  "description" : "A grenade that creates a localised vortex field that slows and damages enemies.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_vortex_nade",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

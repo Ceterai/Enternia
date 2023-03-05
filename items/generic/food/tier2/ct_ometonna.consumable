@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_tonna_meringue", "ct_tonna_shake", "ct_rimar_motsu" ]
+  "learnBlueprintsOnPickup" : [ "ct_tonna_meringue", "ct_tonna_shake", "ct_rimar_motsu" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Caretaker's Ometonna",
+      "description" : "Nia alta cuisine. Usually only the most proficient caretakers at elin gardens and alta corfals can cook it this good.",
+      "rarity" : "Rare", "price" : 800, "foodValue" : 45
+    }
+  ]
 }

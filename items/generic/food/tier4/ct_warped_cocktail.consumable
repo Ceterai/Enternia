@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Glowarp ^#8020f0;^reset;",
+      "description" : "Calin alta cuisine. An extra-warpy drink that will warp your perception of drinks as a concept.",
+      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+    }
+  ]
 }

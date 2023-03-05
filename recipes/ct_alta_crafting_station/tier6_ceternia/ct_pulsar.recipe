@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_pulsar", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier6_ceternia", "weapon", "all" ]
+}

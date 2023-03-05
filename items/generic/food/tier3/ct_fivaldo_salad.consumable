@@ -29,5 +29,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Fival'do Banquet",
+      "description" : "An alta cuisine. Now we're talking! This salad goes far and beyond, what a masterpiece!",
+      "rarity" : "Legendary", "price" : 1100, "foodValue" : 55
+    }
+  ]
 }

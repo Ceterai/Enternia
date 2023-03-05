@@ -1,14 +1,16 @@
 {
   "objectName" : "ct_backdoor",
-  "colonyTags" : ["alta", "alta_lab", "teleporter", "light"],
+  "colonyTags" : [ "alta", "alta_lab", "teleporter", "light" ],
   "category" : "teleporter", "objectType" : "teleporter", "rooting" : true,
   "rarity" : "Rare",
   "price" : 560,
   "race" : "alta",
   "printable" : false,
 
-  "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
   "shortdescription" : "Unknown Device",
+  "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
+  "altaDescription" : "... Blocked. No cell, too.",
+
   "apexDescription" : "Unknown technology. Better be careful with it.",
   "avianDescription" : "What's this? Looks like a door!",
   "floranDescription" : "Floran found treasure! Or not...",
@@ -17,7 +19,7 @@
   "hylotlDescription" : "There's a big slot on the back. What for?..",
   "novakidDescription" : "Is this an elevator? I feel not.",
 
-  "health" : 10,
+  "health" : 16,
 
   "lightColor" : [32, 128, 240],
   "lightPosition" : [0, 1],
@@ -26,8 +28,8 @@
   "orientations" : [
     {
       "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
-      "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
+      "spaceScan" : 0.1,
       "collision" : "solid", "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
     }
   ]

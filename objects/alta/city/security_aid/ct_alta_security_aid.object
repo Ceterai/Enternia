@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_security_aid",
+  "colonyTags" : [ "alta", "alta_city" ],
+  "category" : "other", "objectType" : "farmable", "tooltipKind" : "seed",
+  "rarity" : "Uncommon",
+  "price" : 320,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Security Aid",
+  "description" : "An emergency aid station that dispences various madicine. Needs time to recharge.",
+  "altaDescription" : "A first aid stand! I can get some medicine here, if it's recharged.",
+
+  "apexDescription" : "Tastes like a tomato with spices.",
+  "avianDescription" : "The hardest seeds I've seen.",
+  "floranDescription" : "... Sssssssssssssssssssalt.",
+  "glitchDescription" : "Disappointed. A fruit with salt, what an innovation.",
+  "humanDescription" : "A salty tomato!",
+  "hylotlDescription" : "A salty fruit of unknown origin.",
+  "novakidDescription" : "Have never seen a salty fruit until now.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 12, "particle" : "steelshard" } ],
+
+  "lightColor" : [0, 80, 192],
+
+  "inventoryIcon" : "icon.png",
+
+  "largeImage" : "body.png:default.1.0",
+
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [1170, 1230]
+    },
+    {
+      "harvestPool" : "ct_alta_aid",
+      "resetToStage" : 0
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

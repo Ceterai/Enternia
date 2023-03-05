@@ -9,11 +9,11 @@
   "effects" : [ [
     {
         "effect" : "runboostfood",
-        "duration" : 428
+        "duration" : 382
     },
     {
         "effect" : "maxenergyscalingboostfood",
-        "duration" : 428
+        "duration" : 382
     }
   ] ],
   "foodValue" : 55,
@@ -24,5 +24,28 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "chance" : 0.3,
+      "shortdescription" : "Tonna Split Extra",
+      "description" : "Nia alta cuisine. A tonna split with extra toppings! Doudble the sweetness, double the effect.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_extra.png",
+      "effects" : [ [ { "effect" : "runboostfood", "duration" : 428 }, { "effect" : "maxenergyscalingboostfood", "duration" : 428 } ] ]
+    },
+    {
+      "chance" : 0.2,
+      "shortdescription" : "Tonna Split Mega",
+      "description" : "Nia alta cuisine. Perhaps this is the most topping one can fit on a single dish. This tonna split will taste like no other.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_mega.png",
+      "effects" : [ [ { "effect" : "runboostfood", "duration" : 546 }, { "effect" : "maxenergyscalingboostfood", "duration" : 546 } ] ]
+    },
+    {
+      "chance" : 0.1,
+      "shortdescription" : "Split Surprize ^#8020f0;^reset;",
+      "description" : "Nia alta cuisine. You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
+      "rarity" : "Legendary", "price" : 1300, "foodValue" : 70
+    }
   ]
 }

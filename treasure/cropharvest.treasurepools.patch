@@ -48,5 +48,23 @@
         ]
       } ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/ct_alta_aid",
+    "value": [
+      [0, {
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+        ],
+        "poolRounds" : [
+          [0.6, 1],
+          [0.4, 2]
+        ]
+      } ]
+    ]
   }
 ]

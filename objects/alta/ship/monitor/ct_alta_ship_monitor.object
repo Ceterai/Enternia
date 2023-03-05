@@ -1,0 +1,62 @@
+{
+  "objectName" : "ct_alta_ship_monitor",
+  "colonyTags" : [ "alta", "alta_ship", "electronic" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 160,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Monitor",
+  "description" : "A small monitor. But what does it display?",
+  "altaDescription" : "A small monitor that only accepts encrypted connections. Airtight so can work in any environment.",
+
+  "apexDescription" : "I can't read this.",
+  "avianDescription" : "It's impossible to make out the text on this screen.",
+  "floranDescription" : "Floran doesn't know what thisss screen says.",
+  "glitchDescription" : "Frustrated. I cannot make out what is written on this monitor.",
+  "humanDescription" : "This monitor doesn't have the greatest picture quality.",
+  "hylotlDescription" : "The information displayed here is difficult to make out.",
+  "novakidDescription" : "Hard to see what's written on here. Hope it ain't somethin' important.",
+
+  "health" : 2.5,
+
+  "lightColor" : [0, 80, 192],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.on",
+      "imagePosition" : [-8, -8],
+      "flipImages" : true,
+      "direction" : "left",
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "body.png:<color>.on",
+      "imagePosition" : [-8, -8],
+      "direction" : "right",
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+  "soundEffectRadius" : 15,
+
+  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
+  "animationCustom" : { "animatedParts" : {"stateTypes":{"switchState":{"states":{"on":{"frames":4,"cycle":0.3,"mode":"loop"} } } } } },
+  "animationParts" : {
+    "bg" : "body.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [-8, -8],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

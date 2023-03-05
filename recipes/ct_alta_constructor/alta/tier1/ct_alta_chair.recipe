@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_chair",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor1", "alta", "objects", "decoration", "all" ]
+}

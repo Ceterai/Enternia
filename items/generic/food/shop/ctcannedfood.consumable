@@ -14,5 +14,13 @@
   "rottingMultiplier" : 10,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Canned Altasoup Extra Size",
+      "description" : "This extra size can contains 50% more tastiness!",
+      "rarity" : "Rare", "price" : 520, "foodValue" : 50
+    }
   ]
 }

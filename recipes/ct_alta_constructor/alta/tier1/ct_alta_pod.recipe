@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 12 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor1", "alta", "objects", "storage", "all" ]
+}

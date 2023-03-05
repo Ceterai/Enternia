@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 2 },
+    { "item" : "ct_edsarmor", "count" : 10 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_alta_defensive_droid", "count" : 1 },
+  "groups" : [ "alta_tier6", "tier5_eds", "spawner", "droid", "all" ]
+}

@@ -26,5 +26,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_hive_curry", "ct_niatto_motsu", "ct_heecho_punch" ]
+  "learnBlueprintsOnPickup" : [ "ct_hive_curry", "ct_niatto_motsu", "ct_heecho_punch" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Calming Tea",
+      "description" : "An alta cuisine. A mixed cuisine tea that will make all the toubles go away.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ]
+    }
+  ]
 }

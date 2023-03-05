@@ -24,7 +24,7 @@ Tabula Rasa compatible.
 
 To explore the worlds added by this mod, try to find new planet types around tier 3+ stars!
 
-To start progressing in the mod content, craft an [[Alta Crafting Station]]! It should be available at the inventor's table.  
+To start progressing in the mod content, craft an [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station)! It should be available at the inventor's table.  
 From there, you'll be able to craft:
 
 - mod equipment (armor, weapons, throwables, etc);
@@ -33,9 +33,9 @@ From there, you'll be able to craft:
 
 Other crafting tables include:
 
-- [[Alta Constructor]] for crafting objects/decorations/traps (upgrading to tier 6 allows you to even craft natural objects and loot tables);
-- [[Alta Datacenter]] for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them so you don't have to visit the wiki);
-- [[Deprecation Station]] is a tiny crafting table that allows you to convert deprecated items/objects to new ones, or exchange Perfectly Generic Items for different presents.
+- [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) for crafting objects/decorations/traps (upgrading to tier 6 allows you to even craft natural objects and loot tables);
+- [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them so you don't have to visit the wiki);
+- [Deprecation Station](https://github.com/Ceterai/Enternia/wiki/Deprecation-Station) is a tiny crafting table that allows you to convert deprecated items/objects to new ones, or exchange Perfectly Generic Items for different presents.
 
 ### Screenshots
 
@@ -43,4 +43,13 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 ## Contents
 
-A [[GitHub Wiki|Home]] with full list of contents is coming soon!
+There's a [GitHub Wiki](https://github.com/Ceterai/Enternia/wiki) with a semi-full list of contents now!
+
+### Compatability
+
+1. The mod uses a regular Starbound folder structure so should be easy to navigate and integrate with;
+1. All IDs added by the mod have a `ct_` prefix to make it impossible to conflict with IDs from other mods;
+1. The mod tries to explore somewhat unusual concepts with unique names so there should be little to no idea overlap;
+1. Doesn't require any other mods to work;
+1. Should be FU-compatible;
+1. Tabula Rasa compatible.

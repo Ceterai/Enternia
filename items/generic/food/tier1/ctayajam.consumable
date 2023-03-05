@@ -22,5 +22,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ctayacandy", "ctayaicecream", "cttsayicecream" ]
+  "learnBlueprintsOnPickup" : [ "ctayacandy", "ctayaicecream", "cttsayicecream" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Runeva Jam",
+      "description" : "Runeva alta cuisine. The purest jam from best baked ayas. Excellent for pancakes!",
+      "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+    }
+  ]
 }

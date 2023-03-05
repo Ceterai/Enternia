@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_onitti_motsu", "ct_gharus_spice", "ct_fivaldo_salad" ]
+  "learnBlueprintsOnPickup" : [ "ct_onitti_motsu", "ct_gharus_spice", "ct_fivaldo_salad" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Riverside Surprise",
+      "description" : "Yava alta cuisine. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 300 } ] ]
+    }
+  ]
 }

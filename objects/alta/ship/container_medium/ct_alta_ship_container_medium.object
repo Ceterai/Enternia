@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_ship_container_medium",
+  "colonyTags" : [ "alta", "alta_ship", "storage", "commerce" ],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Rare",
+  "price" : 320,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Container G2",
+  "description" : "A crate containing cargo. What cargo? Who knows.",
+  "altaDescription" : "A shipping cargo container. Highly reinforced to withstand the harshest environments.",
+
+  "apexDescription" : "A mysterious cargo crate.",
+  "avianDescription" : "I wonder what's in here.",
+  "floranDescription" : "Floran ship Floran in cargo crate. Leap out. Sssurprise!",
+  "glitchDescription" : "Intrigued. A cargo container - anything could be inside.",
+  "humanDescription" : "Ooh, cargo!",
+  "hylotlDescription" : "A cargo crate of modern design.",
+  "novakidDescription" : "A basic lookin' crate. Could hold valuable cargo...",
+
+  "health" : 4.0,
+
+  "lightColor" : [16, 16, 20],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "flipImages" : true, "direction" : "left",
+      "lightPosition" : [-1, 1],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

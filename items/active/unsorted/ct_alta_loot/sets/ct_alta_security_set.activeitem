@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_alta_security_set",
+  "shortdescription" : "Security Set",
+  "description" : "Contains full equipment set of an alta security soldier.",
+
+  "inventoryIcon" : "ct_alta_security_set.png",
+  "treasure" : { "pool" : "ct_alta_security_set", "level" : 1 },
+  "animationParts" : { "gun" : "ct_alta_security_set.png" },
+
+  "price" : 9200,
+  "level" : 4,
+  "rarity" : "Uncommon",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false,
+
+  "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
+  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0]
+}

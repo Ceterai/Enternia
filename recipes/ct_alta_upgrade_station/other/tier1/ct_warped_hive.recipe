@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "hivebomb", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 24 }
+  ],
+  "output" : { "item" : "ct_warped_hive", "count" : 1 },
+  "groups" : [ "ct_alta_upg1", "other", "all" ]
+}

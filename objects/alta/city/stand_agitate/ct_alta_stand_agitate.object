@@ -1,0 +1,53 @@
+{
+  "objectName" : "ct_alta_stand_agitate",
+  "colonyTags" : [ "alta", "alta_city", "electronic" ],
+  "category" : "decorative",
+  "rarity" : "Common",
+  "price" : 160,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Agitational Stand",
+  "description" : "A titanium platform with a holographic message.",
+  "altaDescription" : "An agitational stand that encourages caring about environment.",
+
+  "apexDescription" : "A monitor. It shows only a couple of lines, nothing more.",
+  "avianDescription" : "This monitor sure is broken.",
+  "floranDescription" : "Iss thisss thing broken? Can Floran sssmash it?",
+  "glitchDescription" : "Annoyed. This monitor seems to be defective.",
+  "humanDescription" : "Seems like its broken.",
+  "hylotlDescription" : "You can't see anything here. This monitor needs to be configured first.",
+  "novakidDescription" : "I can't make out anythin' on it. Is it broken?",
+
+  "lightColor" : [0, 80, 192],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_stand_agitate.png:<color>.on",
+      "imagePosition" : [-8, 0],
+      "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,2], [0,2], [1,2] ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
+  "animationCustom" : { "animatedParts" : {"stateTypes":{"switchState":{"default":"on","states":{"on":{"frames":3,"cycle":0.3,"mode":"loop"} } } } } },
+  "animationParts" : {
+    "bg" : "ct_alta_stand_agitate.png",
+    "fg" : "ct_alta_stand_agitate_lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

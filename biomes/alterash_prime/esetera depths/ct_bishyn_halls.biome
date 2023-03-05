@@ -10,8 +10,8 @@
 
   "spawnProfile" : {
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_caves_narfin_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier4" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier4" ] ] },
       { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
     ]
   },
@@ -36,7 +36,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_cargoChest" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -69,7 +69,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_cargoChest" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",

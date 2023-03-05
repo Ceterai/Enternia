@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alta_statue",
+  "colonyTags" : [ "alta", "alta_city", "pretty" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 1200,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Statue",
+  "description" : "A statue on a titanium platform. The label says the statue was build in the name of all altas.",
+  "altaDescription" : "Looking at the monument to all of us and the progress we've made fills me with determination.",
+
+  "apexDescription" : "A monitor. It shows only a couple of lines, nothing more.",
+  "avianDescription" : "This monitor sure is broken.",
+  "floranDescription" : "Iss thisss thing broken? Can Floran sssmash it?",
+  "glitchDescription" : "Annoyed. This monitor seems to be defective.",
+  "humanDescription" : "Seems like its broken.",
+  "hylotlDescription" : "You can't see anything here. This monitor needs to be configured first.",
+  "novakidDescription" : "I can't make out anythin' on it. Is it broken?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_statue.png",
+      "imagePosition" : [-32, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

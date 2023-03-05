@@ -1,0 +1,75 @@
+{
+  "objectName" : "ct_alta_lab_console",
+  "colonyTags" : [ "alta", "alta_lab", "wired" ],
+  "category" : "wire",
+  "rarity" : "Uncommon",
+  "price" : 280,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Console",
+  "description" : "A control console.",
+  "altaDescription" : "Although considered an outdated tech by altas, these consoles can still be found in some labs.",
+
+  "apexDescription" : "A control console for some unknown thing.",
+  "avianDescription" : "A control console.",
+  "floranDescription" : "Floran can use thisss... But not sure what for.",
+  "glitchDescription" : "Concerned. I cannot determine what this console is used for.",
+  "humanDescription" : "A console. I can turn it on and off again.",
+  "hylotlDescription" : "A console for something unknown.",
+  "novakidDescription" : "If I press enough buttons it might do somethin'.",
+
+  "health" : 2.0,
+
+  "lightColor" : [23, 33, 38],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_lab_console.png:<color>.<frame>",
+      "lightPosition" : [0, 1],
+      "imagePosition" : [-8, 0],
+      "frames" : 3, "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
+  "animationCustom" : {
+    "animatedParts" : {"stateTypes":{"switchState":{"states":{"on":{"frames":3,"cycle":0.5,"mode":"loop"} } } } },
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "ct_alta_lab_console.png",
+    "fg" : "ct_alta_lab_console_lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "ownerOnly" : true,
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_staris_soup", "ct_warped_cocktail" ]
+  "learnBlueprintsOnPickup" : [ "ct_staris_soup", "ct_warped_cocktail" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Caliopa Stuffed Crust Slice",
+      "description" : "Calin alta cuisine. This caliopa has a stuffed crust! Delicious!",
+      "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
+    }
+  ]
 }

@@ -4,7 +4,7 @@
   "price" : 960,
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alta_soup.png",
-  "description" : "Runeva alta cuisine. The best combination of boiled ayas, some fresh gils and cooked tsays. It's filling and will keep for a long time.",
+  "description" : "Runeva alta cuisine. The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
   "shortdescription" : "Altasoup",
   "effects" : [ [
     {
@@ -20,5 +20,13 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Altasoup ^#8020f0;^reset;",
+      "description" : "Runeva alta cuisine. This soup is exceptionally nourishing! Only the best alta restaurants are able to make them taste this good.",
+      "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+    }
   ]
 }

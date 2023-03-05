@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 4 },
+    { "item" : "biosample", "count" : 4 },
+    { "item" : "ct_ceternia_core", "count" : 2 }
+  ],
+  "output" : { 
+    "item" : "ct_cetersphere",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier4", "components", "all" ]
+}

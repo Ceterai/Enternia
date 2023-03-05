@@ -1,0 +1,129 @@
+{
+  "itemName" : "ct_haven_storm",
+  "shortdescription" : "Haven Storm",
+  "description" : "A powerfull launcher that forms haven toxins into a poisonous energy ball.",
+
+  "elementalType" : "poison",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "rocketLauncher",
+  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "haven", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_haven_storm.png",
+
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_haven_storm.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [150, 0, 0] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Toxin Core",
+
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.1,
+
+    "pressType" : "blast",
+    "pressParams" : {
+      "type" : "poisonplasmabullet",
+      "inaccuracy" : 0.11,
+      "params" : { "knockback" : 5, "timeToLive" : 5.0 }
+    },
+    "holdTimeMax" : 0,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 4,
+        "weaponRotation" : 4,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Ex-Pollinator",
+
+    "baseDps" : 8, "energyUsage" : 40, "fireTime" : 0.9,
+
+    "pressType" : "clouds",
+    "pressParams" : {
+      "type" : "smallpoisoncloud"
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "largepoisoncloud",
+      "inaccuracy" : 0.0,
+      "params" : { "knockback" : 5, "timeToLive" : 8.0, "speed" : 15.0 }
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_haven_storm_2.png",
+    "animationParts" : { "middle" : "ct_haven_storm_2.png" },
+    "shortdescription" : "Haven Chaos ^#8020f0;^reset;",
+    "price" : 800
+  }
+}

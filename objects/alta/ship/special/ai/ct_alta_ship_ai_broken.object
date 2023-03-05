@@ -1,0 +1,44 @@
+{
+  "objectName" : "ct_alta_ship_ai_broken",
+  "colonyTags" : [ "alta", "alta_ship", "alta_ai", "alta_citadel", "alta_ruin" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 1400,
+  "race" : "alta",
+  "printable" : false,
+
+  "interactAction" : "OpenAiInterface",
+
+  "lightColor" : [0, 80, 192],
+  "lightPosition" : [-1, 0],
+  
+  "flickerDistance" : 1.0,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 8,
+
+  "shortdescription" : "Alta Ship S.A.I.L",
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
+  "altaDescription" : "A broken piece of acquired tech. Lets you talk to an AI assistant.",
+
+  "apexDescription" : "When it's working, I can talk to SAIL through this console.",
+  "avianDescription" : "Rebooting this station should enable me to talk to SAIL.",
+  "floranDescription" : "Floran fix thisss panel to wake ship up!",
+  "glitchDescription" : "Distressed. I first need to reboot this station to communicate with SAIL.",
+  "humanDescription" : "If I can reboot this station SAIL should come back online!",
+  "hylotlDescription" : "This console will allow me to communicate with SAIL. I need to reboot it first.",
+  "novakidDescription" : "Time to reboot this station so I can talk to SAIL.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "broken.png:<color>.<frame>", "fullbright" : true }, { "image" : "broken_lit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 4,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "ct_alternia_shard", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 16 }
+  ],
+  "output" : {
+    "item" : "ct_cetereye",
+    "count" : 1
+  },
+  "groups" : [ "alta_tier7", "tier6_alternia", "all", "ceterai", "mod" ]
+}

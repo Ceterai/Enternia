@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_ship_table",
+  "colonyTags" : [ "alta", "alta_ship" ],
+  "category" : "furniture",
+  "rarity" : "Rare",
+  "price" : 280,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Table",
+  "description" : "A reinforced table with a heavy stand and safety handles on all sides. Airtight compartments included.",
+  "altaDescription" : "These tables are made to stick in place in case of emergencies, with safety handles and airtight compartments aswell.",
+
+  "apexDescription" : "This executive table is exceptionally sleek.",
+  "avianDescription" : "An immensely sturdy executive table.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A flawless executive table.",
+  "humanDescription" : "A cool executive table.",
+  "hylotlDescription" : "A table that outdoes even Hylotl craftsmanship.",
+  "novakidDescription" : "I could throw some mighty fancy parties with a table like this.",
+
+  "health" : 2.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

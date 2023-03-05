@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_eds_pod",
+  "colonyTags" : [ "alta", "eds", "storage", "mechanical", "wired" ],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Rare",
+  "price" : 480,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "EDS Pod",
+  "description" : "An armored pod with red markings all over it. Can be used as a storage unit.",
+  "altaDescription" : "This pod is covered in EDS markings. Perhaps there is some EDS tech inside.",
+
+  "apexDescription" : "A pod chest. What's inside?",
+  "avianDescription" : "These chests are built strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A pod chest is always a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+  "novakidDescription" : "A pod chest. Wonder what's inside...",
+
+  "health" : 2.5,
+
+  "lightColor" : [192, 0, 0],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_pod.png:<color>.<key>", "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 1], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32, "autoCloseCooldown" : 3600,
+
+  "outputNodes" : [ [0, 0] ]
+}

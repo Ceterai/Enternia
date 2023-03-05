@@ -1,25 +1,33 @@
 {
   "itemName" : "ct_gillikada",
-  "rarity" : "Common",
-  "price" : 280,
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_gillikada.png",
-  "description" : "Runeva alta cuisine. A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
   "shortdescription" : "Gillikada",
+  "description" : "Runeva alta cuisine. A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
+
+  "rarity" : "Common", "price" : 280, "foodValue" : 20,
+
+  "category" : "preparedFood", "tooltipKind" : "food", "maxStack" : 1,
+
+  "inventoryIcon" : "ct_gillikada.png",
+
   "effects" : [ [
     {
         "effect" : "runboostfood",
         "duration" : 60
     }
   ] ],
-  "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
+
   "itemAgingScripts" : ["/scripts/items/rotting.lua"],
   "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "ct_miko_tea", "ct_vermont_tea" ]
+  "blockingEffects" : [ "wellfed" ],
+
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "learnBlueprintsOnPickup" : [ "ct_miko_tea", "ct_vermont_tea" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Gillikada Split",
+      "description" : "Runeva alta cuisine. This perfectly crafted gillikada has a thin, satisfying crust covering its gentle mash. Very fulfilling.",
+      "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
+    }
+  ]
 }

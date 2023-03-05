@@ -15,5 +15,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_biomix_icecream" ]
+  "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_biomix_icecream" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Hot Yaarings",
+      "description" : "Yava alta cuisine. These yaarings are fresh from the oven! Quick, eat them while they're still soft on the inside!",
+      "rarity" : "Uncommon", "price" : 420, "foodValue" : 30
+    }
+  ]
 }

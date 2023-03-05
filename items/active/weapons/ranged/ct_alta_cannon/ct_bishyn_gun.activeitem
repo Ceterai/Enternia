@@ -1,0 +1,135 @@
+{
+  "itemName" : "ct_bishyn_gun",
+  "shortdescription" : "Bishyn Gun",
+  "description" : "A multishot crystal blaster filled with poisonous shards.",
+
+  "elementalType" : "physical",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "shotgun",
+  "itemTags" : [ "weapon", "ranged", "shotgun", "crystal", "bishyn", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_bishyn_gun.png",
+
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_bishyn_gun.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/burstshot1.ogg"]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [150, 0, 0] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Bishyn Barrage",
+
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "ct_bishyn_shard",
+      "inaccuracy" : 0.18,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 }
+    },
+    "holdType" : "nade",
+    "holdParams" : {
+      "type" : "poisonproximitymine",
+      "inaccuracy" : 0.01
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Bishyn Discharge",
+
+    "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "acidsweep",
+      "inaccuracy" : 0.11,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 },
+      "count" : 3
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "ct_isoslime_ball",
+      "inaccuracy" : 0.01
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_bishyn_gun_2.png",
+    "animationParts" : { "middle" : "ct_bishyn_gun_2.png" },
+    "shortdescription" : "Bishyn Cannon ^#8020f0;^reset;",
+    "price" : 800
+  }
+}

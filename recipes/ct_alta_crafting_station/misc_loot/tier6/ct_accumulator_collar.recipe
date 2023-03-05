@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 16 },
+    { "item" : "ct_bion", "count" : 6 }
+  ],
+  "output" : { 
+    "item" : "ct_accumulator_collar",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

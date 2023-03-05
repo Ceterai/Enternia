@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_maito_tea", "ct_ionice_cube" ]
+  "learnBlueprintsOnPickup" : [ "ct_maito_tea", "ct_ionice_cube" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Velcro Desert",
+      "description" : "Nia alta cuisine. This jello turned out so good you even put it in your pocket! Not sure why you would do that.",
+      "rarity" : "Uncommon", "price" : 400, "foodValue" : 20
+    }
+  ]
 }

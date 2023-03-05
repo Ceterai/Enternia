@@ -1,9 +1,9 @@
 {
   "objectName" : "ct_alta_energy_source",
   "colonyTags" : [ "alta" ],
-  "category" : "furniture",
-  "rarity" : "Rare",
-  "price" : 400,
+  "category" : "wire",
+  "rarity" : "Uncommon",
+  "price" : 320,
   "race" : "alta",
   "printable" : false,
 
@@ -26,5 +26,6 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+  "outputNodes" : [ [0, 0] ]
 }

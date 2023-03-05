@@ -13,5 +13,19 @@
         "duration" : 30
     }
   ] ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Tsay-Pop",
+      "description" : "A fresh spin on the Thsay-Cola that definitely has more pop to it!",
+      "rarity" : "Uncommon", "price" : 80,
+      "effects" : [ [
+        {
+            "effect" : "swimboostcola",
+            "duration" : 60
+        }
+      ] ]
+    }
+  ]
 }

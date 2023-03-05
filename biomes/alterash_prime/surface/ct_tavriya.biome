@@ -9,7 +9,6 @@
 
   "spawnProfile" : {
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
       { "select" : 1, "pool" : "generatedGroundAggroDay" }, 
       { "select" : 3, "pool" : "nightTerrors" },      
@@ -127,10 +126,6 @@
         "treasureBoxSets" : [ "weaponChest" ]
       },
       // Dungeons
-      {
-        "mode" : "floor", "priority" : 99.0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "microdungeon",
-        "microdungeons" : [ "underground3cmicrodungeons" ]
-      },
       // Growth
       // Other
       {

@@ -26,5 +26,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_warped_cocktail" ]
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_warped_cocktail" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Natal Punch Deluxe",
+      "description" : "Calin alta cuisine. A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
+      "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
+      "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ]
+    }
+  ]
 }

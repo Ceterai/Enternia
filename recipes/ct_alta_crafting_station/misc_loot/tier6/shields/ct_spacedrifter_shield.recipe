@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 8 }
+  ],
+  "output" : { "item" : "ct_spacedrifter_shield", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "shield", "all" ]
+}

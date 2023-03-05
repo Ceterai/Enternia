@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ctpie", "ct_gharus_spice", "ct_fivaldo_salad" ]
+  "learnBlueprintsOnPickup" : [ "ctpie", "ct_gharus_spice", "ct_fivaldo_salad" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Aya-Tsay Salad",
+      "description":"Runeva alta cuisine. This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
+      "rarity" : "Rare", "price" : 760, "foodValue" : 45
+    }
+  ]
 }

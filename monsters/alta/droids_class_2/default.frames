@@ -1,0 +1,40 @@
+{
+  "frameGrid" : {
+    "size" : [64, 64], "dimensions" : [8, 4],
+    "names" : [
+      [ "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "idle.6", "hurt.1", "altfire.1"],
+      [ "cast.1", "cast.2", "cast.3", "cast.4", "fire.1", "fire.2", "altcast.1", "altcast.2"],
+      [ "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8"],
+      [ "morph.1", "morph.2", "morph.3", "morph.4", "morphwalk.1", "morphwalk.2", "morphwalk.3", "morphwalk.4"]
+    ]
+  },
+  "aliases" : {
+    "deactivate.1" : "windup.1",		"activate.1" : "windup.4",
+    "deactivate.2" : "windup.2",		"activate.2" : "windup.3",
+    "deactivate.3" : "windup.3",		"activate.3" : "windup.2",
+    "deactivate.4" : "windup.4",		"activate.4" : "windup.1",
+    "windup.1" : "cast.1",			"winddown.1" : "cast.4",
+    "windup.2" : "cast.2",			"winddown.2" : "cast.3",
+    "windup.3" : "cast.3",			"winddown.3" : "cast.2",
+    "windup.4" : "cast.4",			"winddown.4" : "cast.1",
+    "firewindup.1" : "cast.1",		"firewinddown.1" : "fire.2",
+    "firewindup.2" : "cast.2",		"firewinddown.2" : "fire.1",
+    "firewindup.3" : "fire.1",		"firewinddown.3" : "cast.2",
+    "firewindup.4" : "fire.1",		"firewinddown.4" : "cast.1",
+    "altfirewindup.1" : "altcast.1",	"altfirewinddown.1" : "altfire.1",
+    "altfirewindup.2" : "altcast.2",	"altfirewinddown.2" : "altcast.2",
+    "altfirewindup.3" : "altcast.2",	"altfirewinddown.3" : "altcast.2",
+    "altfirewindup.4" : "altcast.2",	"altfirewinddown.4" : "altcast.1",
+    "chargewindup.1" : "morph.1",		"chargewinddown.1" : "morph.4",
+    "chargewindup.2" : "morph.2",		"chargewinddown.2" : "morph.3",
+    "chargewindup.3" : "morph.3",		"chargewinddown.3" : "morph.2",
+    "chargewindup.4" : "morph.4",		"chargewinddown.4" : "morph.1",
+    "charge.1" : "morphwalk.1",		"morphidle.1" : "morph.4",			"aggro.1" : "morphwalk.1",
+    "charge.2" : "morphwalk.2",		"morphidle.2" : "morphwalk.1",		"aggro.2" : "morphwalk.2",
+    "charge.3" : "morphwalk.3",		"morphidle.3" : "morphwalk.2",		"aggro.3" : "morphwalk.3",
+    "charge.4" : "morphwalk.4",		"morphidle.4" : "morphwalk.1",		"aggro.4" : "morphwalk.4",
+    "sleepidle.1" : "morphwalk.1",	"sleepidle.2" : "morphwalk.1",		"sleepidle.3" : "morphwalk.1",
+    "sleepidle.4" : "morphwalk.1",	"sleepidle.5" : "morphwalk.1",		"sleepidle.6" : "morphwalk.1",
+    "charged.1" : "cast.4",		"fireidle.1" : "fire.1",			"altfireidle.1" : "altfire.1"
+  }
+}

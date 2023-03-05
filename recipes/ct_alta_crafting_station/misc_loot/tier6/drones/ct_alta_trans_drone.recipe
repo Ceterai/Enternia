@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 8 }
+  ],
+  "output" : { "item" : "ct_alta_trans_drone", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "spawner", "drone", "all" ]
+}

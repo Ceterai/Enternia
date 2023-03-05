@@ -1,0 +1,56 @@
+{
+  "objectName" : "ct_alta_laptop",
+  "colonyTags" : [ "alta", "electronic", "wired" ],
+  "category" : "decorative",
+  "rarity" : "Uncommon",
+  "price" : 280,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Laptop",
+  "description" : "A small yet extremely powerful computing device, used mostly for playing videogames.",
+  "altaDescription" : "A basic laptop, probably with C.T.O.S. installed. I wonder if it has any games on it.",
+
+  "apexDescription" : "This is a really powerful computer. Apex civilians don't have access to computers.",
+  "avianDescription" : "This computer screen has so many colours.",
+  "floranDescription" : "Floran sssteal technology to sssurvive.",
+  "glitchDescription" : "Appreciative. What a stunning machine.",
+  "humanDescription" : "This looks a lot like the kind of computing power humanity used to possess.",
+  "hylotlDescription" : "A basic computer.",
+  "novakidDescription" : "It's a computer screen.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_laptop.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
+      "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
+    }
+  },
+  "animationParts" : { "switch" : "ct_alta_laptop.png" },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [ "wallbutton" ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ctaya", "count" : 1 },
+    { "item" : "ctgil", "count" : 1 },
+    { "item" : "cttsay", "count" : 1 },
+    { "item" : "silk", "count" : 8 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "ct_alta_toy_runeva_ball", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

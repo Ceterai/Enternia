@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ]
+  "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Tonnakada Split",
+      "description" : "Nia alta cuisine. A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
+      "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
+    }
+  ]
 }

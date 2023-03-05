@@ -4,7 +4,7 @@
   "price" : 1000,
   "category" : "drink",
   "inventoryIcon" : "ct_mohitava_cocktail.png",
-  "description" : "Yava alta cuisine. A mojito made with appropriate yava alternatives.",
+  "description" : "Yava alta cuisine. A mojito made with appropriate yava alternatives. Very refreshing!",
   "shortdescription" : "Mohitava",
   "effects" : [ [
     {
@@ -14,10 +14,6 @@
     {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 180
-    },
-    {
-        "effect" : "weakpoison",
-        "duration" : 5
     }
   ] ],
   "foodValue" : 25,
@@ -29,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Mohitava Deluxe ^#8020f0;^reset;",
+      "description" : "Yava alta cuisine. A prime mohitava with an extra refreshing aftertaste.",
+      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+    }
+  ]
 }

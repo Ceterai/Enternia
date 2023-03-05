@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_ship_shelf",
+  "colonyTags" : [ "alta", "alta_ship" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 80,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Shelf",
+  "description" : "A small reinforsed shelf piece that can be used as storade of walking bridge.",
+  "altaDescription" : "A piece of walkway. Or a shelf. There are many uses for this contraption.",
+
+  "apexDescription" : "It's a wall shelf.",
+  "avianDescription" : "A simple wall shelf.",
+  "floranDescription" : "Boring shelf.",
+  "glitchDescription" : "Bored. A wall shelf.",
+  "humanDescription" : "It's a wall shelf.",
+  "hylotlDescription" : "A blue wall shelf for displaying curios.",
+  "novakidDescription" : "A blue wall shelf.",
+
+  "health" : 2.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_ship_shelf.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

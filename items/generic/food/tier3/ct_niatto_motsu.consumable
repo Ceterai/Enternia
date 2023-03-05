@@ -26,5 +26,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_enternia_cocktail", "ct_ion_risotto" ]
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_nia_cocktail", "ct_ion_risotto" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Niatto Motsu",
+      "description" : "Nia alta cuisine. A perfectly crafted motsu based on nia ingredients.",
+      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+    }
+  ]
 }

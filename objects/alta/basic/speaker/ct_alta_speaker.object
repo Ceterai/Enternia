@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_alta_speaker",
+  "colonyTags" : [ "alta" ],
+  "category" : "decorative",
+  "rarity" : "Uncommon",
+  "price" : 240,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Speaker",
+  "description" : "A music source that can switch music tracks when off, and playing them when on.",
+  "altaDescription" : "A speaker! Hope I can make it loud enough for a party!",
+
+  "apexDescription" : "Back home these radios are used mostly for Miniknog announcements. For a while the resistance managed to run a pirate radio station.",
+  "avianDescription" : "It appears to be a radio. Avian radios make use of crystal resonance.",
+  "floranDescription" : "Long range sssspeaking device.",
+  "glitchDescription" : "Interested. A radio, currently receiving no signal.",
+  "humanDescription" : "The tuning knob is stuck in one spot.",
+  "hylotlDescription" : "Silence...",
+  "novakidDescription" : "It don't seem to be workin'.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_speaker.png:<color>",
+      "imagePosition" : [0, 0],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

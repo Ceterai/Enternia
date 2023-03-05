@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_hevika_turret", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_hevika_turret_gun", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

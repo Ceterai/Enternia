@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_alta_chair",
+  "colonyTags" : [ "alta", "misc" ],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 60,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Chair",
+  "description" : "A simple titanium chair with minimal details and a sturdy stand.",
+  "altaDescription" : "Not the most comfortable, but quite spacey and sturdy.",
+
+  "apexDescription" : "A pretty comfortable chair. I'm happy with it.",
+  "avianDescription" : "A highly decent place to sit.",
+  "floranDescription" : "Floran sssit on chair and think about hunting.",
+  "glitchDescription" : "Relaxed. This chair is exceptionally comfortable for the Glitch.",
+  "humanDescription" : "A pretty soft chair. Reminds me of being at home.",
+  "hylotlDescription" : "Almost the luxury Hylotl are used to. There's satisfaction to be gained here.",
+  "novakidDescription" : "This kinda chair makes me wanna put my feet up!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_chair.png",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+}

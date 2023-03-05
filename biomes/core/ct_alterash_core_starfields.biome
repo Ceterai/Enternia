@@ -11,7 +11,6 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_core_drone_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_enternia_stardust_spawn" ] ] },
       { "select" : 3, "pool" : [[1,"jellycritter"],[1,"bouncercritter"],[1,"prismelementalcritter"],[1,"prismscabcritter"],[1,"slugcritter"]] }
     ]

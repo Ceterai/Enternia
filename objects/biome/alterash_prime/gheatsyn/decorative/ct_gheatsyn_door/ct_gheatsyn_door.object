@@ -22,11 +22,11 @@
   "inventoryIcon" : "icon.png",
 
   "tooltipKind" : "door",
-  "largeImage" : "ct_gheatsyn_door.png:right",
+  "largeImage" : "ct_door.png:right",
    
   "orientations" : [
     {
-      "image" : "ct_gheatsyn_door.png:default",
+      "image" : "ct_door.png:default",
       "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
 
@@ -52,7 +52,7 @@
     }
   },
   "animationParts" : {
-    "door" : "ct_gheatsyn_door.png"
+    "door" : "ct_door.png"
   },
   "animationPosition" : [-16, 0],
 

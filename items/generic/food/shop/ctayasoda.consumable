@@ -13,5 +13,19 @@
         "duration" : 30
     }
   ] ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Ayoda Zero Sugar",
+      "description" : "A special Ayoda edition that contains zero sugar. Perfect for your workout!",
+      "rarity" : "Uncommon", "price" : 80,
+      "effects" : [ [
+        {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 60
+        }
+      ] ]
+    }
+  ]
 }

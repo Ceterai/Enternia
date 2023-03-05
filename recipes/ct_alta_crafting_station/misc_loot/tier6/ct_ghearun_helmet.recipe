@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "ct_bion", "count" : 8 },
+    { "item" : "ct_gheatsyn_crystal", "count" : 16 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_ghearun_helmet", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "all" ]
+}

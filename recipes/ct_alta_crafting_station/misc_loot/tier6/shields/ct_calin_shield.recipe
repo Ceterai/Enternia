@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "crystal", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_calin_shield", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "shield", "all" ]
+}

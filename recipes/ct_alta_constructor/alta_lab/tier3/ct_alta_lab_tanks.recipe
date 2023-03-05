@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 1 },
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_lab_tanks", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor3", "alta_lab", "objects", "lights", "all" ]
+}

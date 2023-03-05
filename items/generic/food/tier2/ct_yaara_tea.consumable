@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_yaarizza", "ct_gharus_spice", "ct_rimar_motsu" ]
+  "learnBlueprintsOnPickup" : [ "ct_yaarizza", "ct_gharus_spice", "ct_rimar_motsu" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Ceternia Tea",
+      "description" : "Yava alta cuisine. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "regeneration1", "duration" : 300 } ] ]
+    }
+  ]
 }

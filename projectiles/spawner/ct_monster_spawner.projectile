@@ -1,0 +1,25 @@
+{
+  "projectileName" : "ct_monster_spawner",
+  "image" : "/items/active/unsorted/ct_alta_spawner/ct_monster_spawner.png",
+  "scripts" : [ "ct_monster_spawner.lua" ],
+  "physics" : "grenade",
+  "frameNumber" : 1,
+  "animationCycle" : 0.25,
+  "pointLight" : false,
+  "orientationLocked" : true,
+  "emitters" : [ "capturepodred" ],
+  "bounces" : -1,
+  "speed" : 40,
+  "power" : 0.1,
+  "damageKind" : "default",
+  "piercing" : true,
+
+  "returnCollisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+  "collisionPoly" : [ [ -1, -1 ], [ 1, -1 ], [ 1, 1 ], [ -1, 1 ] ],
+
+  "monster" : {
+    "type" : "ct_alta_scout_drone",
+    "level" : 3,
+    "aggressive" : true
+  }
+}

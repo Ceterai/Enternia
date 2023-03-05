@@ -4,10 +4,11 @@
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
+    "shieldBase" : 60.0,
     "shieldFromHealthPercent" : 0.35,
     "visuals" : "border=2;b8182499;b81824ff"
   },
-  "defaultDuration" : 10,
+  "defaultDuration" : 20,
   "scriptDelta" : 10,
 
   "scripts" : [ "ct_energy_shield.lua" ],

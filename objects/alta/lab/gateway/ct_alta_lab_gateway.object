@@ -1,0 +1,53 @@
+{
+  "objectName" : "ct_alta_lab_gateway",
+  "colonyTags" : [ "alta", "alta_lab", "door" ],
+  "category" : "door",
+  "rarity" : "Uncommon",
+  "price" : 280,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Gateway",
+  "description" : "A protective bionid blast door.",
+  "altaDescription" : "Airtight blast door, used mainly in alta labs.",
+
+  "apexDescription" : "This door is entirely secure.",
+  "avianDescription" : "A totally sturdy door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A flawless door.",
+  "humanDescription" : "An impenetrable executive door.",
+  "hylotlDescription" : "A robust executive door.",
+  "novakidDescription" : "This door sure is swish.",
+
+  "health" : 3.0,
+
+  "inventoryIcon" : "icon.png",
+   
+  "orientations" : [
+    {
+      "dualImage" : "ct_door.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : { "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ], "rangeMultiplier" : 0.5 },
+      "close" : { "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ], "rangeMultiplier" : 0.5 }
+    }
+  },
+  "animationParts" : {
+    "door" : "ct_door.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

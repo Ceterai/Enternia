@@ -20,5 +20,13 @@
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Iced Tsay Desert",
+      "description" : "Runeva alta cuisine. This icy creamy desert is sparkling with sourness! Can you lick it without flinching?",
+      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+    }
   ]
 }

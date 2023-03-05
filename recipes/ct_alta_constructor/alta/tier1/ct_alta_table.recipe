@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_table",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor1", "alta", "objects", "decoration", "all" ]
+}

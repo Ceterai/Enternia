@@ -20,5 +20,13 @@
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Iced Aya Desert",
+      "description" : "Runeva alta cuisine. This is not any regular ice cream, this is a full desert with extra-sweetness!",
+      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+    }
   ]
 }

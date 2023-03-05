@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_alta_ship_sapling",
+  "colonyTags" : [ "alta", "alta_ship", "alta_garden" ],
+  "category" : "sapling",
+  "rarity" : "Legendary",
+  "price" : 160,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Ship Sapling",
+  "description" : "A tree sapling with an advanced isolated environment system and life support.",
+  "altaDescription" : "A ship eco chamber for growing plants or crystal plants with highly specific conditions.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false,
+      "requireSoilAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
+  "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [180, 210] },
+    { "duration" : [180, 210] },
+    { "tree" : true }
+  ],
+  "builder" : "/objects/alta/ship/sapling/builder.lua"
+}

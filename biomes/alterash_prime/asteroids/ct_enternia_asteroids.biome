@@ -29,11 +29,11 @@
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      // Other
       {
         "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
       },
-      // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
@@ -50,11 +50,11 @@
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      // Other
       {
         "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
       },
-      // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]

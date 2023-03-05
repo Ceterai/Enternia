@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ]
+  "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Thick Calio Tea",
+      "description" : "Calin alta cuisine. This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "poisonblock", "duration" : 300 } ] ]
+    }
+  ]
 }

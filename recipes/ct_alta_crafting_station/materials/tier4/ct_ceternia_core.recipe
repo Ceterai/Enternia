@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "livingroot", "count" : 1 },
+    { "item" : "phasematter", "count" : 1 },
+    { "item" : "liquidpoison", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ceternia_core", "count" : 1 },
+  "groups" : [ "alta_tier4", "materials", "all" ]
+}

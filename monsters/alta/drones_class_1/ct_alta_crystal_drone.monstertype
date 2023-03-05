@@ -1,0 +1,90 @@
+{
+  "type" : "ct_alta_crystal_drone",
+  "shortdescription" : "Crystallized Scout Drone ^#20f080;^reset;",
+  "description" : "Tier 1.5 Drone\nA damaged alta drone, overgrown with electric crystals.",
+
+  "categories" : [ "ct_alta_crystal_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
+  "dropPools" : [ { "default" : "ct_alta_tier1_crystal", "bow" : "ct_alta_tier1_class2" } ],
+
+  "baseParameters" : {
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "monsterClass" : "rare",
+    "behaviorConfig" : {
+      "damageOnTouch" : true, "targetQueryRange" : 20,
+      "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
+      "hostileActions" : [
+        {
+          "name" : "action-swoop", "cooldown" : [2,6], "parameters" : {
+            "minimumRange" : 3, "maximumRange" : 10, "onGround" : false,  // "action-windup" params
+            "windupTime" : 0.55, "requireLineOfSight": true,  // "action-windup" params
+            "gravityMultiplier" : -0.5
+          }
+        }
+      ],
+      "approachActions" : [ { "name" : "approach-fly" } ],
+      "followActions" : [ { "name" : "approach-teleport" }, { "name" : "approach-fly" } ],
+      "wanderActions" : [
+        { "name" : "wander-fly", "cooldown" : [4,16], "parameters" : { "wanderTime" : [12,40], "groundDistance" : 4 } },
+        { "name" : "land-fly", "parameters" : { "flySpeed" : 8, "landCheckDistance" : 40, "idleTime" : 40 } }
+      ],
+      "deathActions" : [
+        {
+          "name" : "action-fire", "parameters" : {
+            "projectileType" : "electricplasmaexplosion", "windupState" : "morph", "aimDirection" : [0, 0]
+          }
+        }
+      ]
+    },
+
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+      "flySpeed" : 16, "mass" : 0.75, "gravityEnabled" : false, "airFriction" : 0.25, "airForce" : 25.0
+    },
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ], "teamType" : "enemy",
+      "damage" : 16, "knockback" : 10, "damageSourceKind" : "ct_ionic", "statusEffects" : [ "ct_ionic_stun" ]
+    },
+
+    "statusEffects" : [ "ct_sensitive_electronics", "ct_defective", "ct_omniblue_light" ],
+    "statusSettings" : {
+      "statusProperties" : { "targetMaterialKind" : "robotic" },
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [ "/stats/monster_primary.lua" ], "primaryScriptDelta" : 5,
+      "stats" : {
+        "knockbackStunTime" : { "baseValue" : 0.25 },
+        "knockbackThreshold" : { "baseValue" : 9 },
+
+        "maxHealth" : { "baseValue" : 24 },
+        "protection" : { "baseValue" : 16.0 },
+        "healthRegen" : { "baseValue" : 0.0 },
+        "powerMultiplier" : { "baseValue" : 1.0 },
+        "physicalResistance" : { "baseValue" : 0.15 },
+
+        "fireResistance" : { "baseValue" : 0.1 },
+        "fireStatusImmunity" : { "baseValue" : 0.0 },
+
+        "iceResistance" : { "baseValue" : 0.0 },
+        "iceStatusImmunity" : { "baseValue" : 0.0 },
+
+        "electricResistance" : { "baseValue" : 0.0 },
+        "electricStatusImmunity" : { "baseValue" : 1.0 },
+
+        "poisonResistance" : { "baseValue" : 0.5 },
+        "poisonStatusImmunity" : { "baseValue" : 1.0 }
+      },
+      "resources" : {
+        "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
+        "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
+        "damageAbsorption" : { "initialValue" : 0.0 }
+      }
+    },
+    "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },
+    "mouthOffset" : [0, 0], "feetOffset" : [0, -8],
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5], "scale" : 1.0,
+    "capturable" : true, "captureHealthFraction" : 0.5
+  }
+}

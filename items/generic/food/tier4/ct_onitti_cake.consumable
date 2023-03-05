@@ -4,7 +4,7 @@
   "price" : 1080,
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_cake.png",
-  "description" : "Yava alta cuisine. A delicious layered cake with yaara flower topping.",
+  "description" : "Yava alta cuisine. A delicious layered cake with yaara flower topping. There's a rare chance you'll get ceternia core out of it.",
   "shortdescription" : "Onitti Cake",
   "effects" : [ [
     {
@@ -20,5 +20,13 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Elin's Love ^#8020f0;^reset;",
+      "description" : "Yava alta cuisine. Multiple layers of pure love and care for all altas in existance. It melts your heart with essence of love.",
+      "rarity" : "Legendary", "price" : 1480, "foodValue" : 90
+    }
   ]
 }

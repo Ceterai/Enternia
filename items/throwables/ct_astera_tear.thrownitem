@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_astera_tear",
+  "rarity" : "Rare",
+  "price" : 120,
+  "category" : "throwableItem",
+  "inventoryIcon" : "ct_astera_tear.png",
+  "image" : "images/ct_astera_tear.png",
+  "shortdescription" : "Astera's Tear",
+  "description" : "A launchable spear made out of stardust asteroids.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.20,
+
+  "projectileType" : "ct_astera_tear",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

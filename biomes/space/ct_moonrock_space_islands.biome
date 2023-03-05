@@ -1,24 +1,18 @@
 {
   "name" : "ct_moonrock_space_islands",
-  "friendlyName" : "Moonrock Space Islands",
+  "friendlyName" : "Astera",  // Moonrock Space Islands
 
   "mainBlock" : "moonrock",
   "subBlocks" : [ ],
   "ores" : "ct_alterash_core",
+  "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      {
-        "select" : 1,
-        "pool" : [
-          [ 1, "asteroidskimbus" ]
-        ]
-      }
+      { "select" : 1, "pool" : [ [ 1, "asteroidskimbus" ] ] }
     ]
   },
-
-  "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
 
   "parallax" : "/parallax/space/asteroids.parallax",
 

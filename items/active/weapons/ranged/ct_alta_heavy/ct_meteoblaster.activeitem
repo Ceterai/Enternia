@@ -1,0 +1,117 @@
+{
+  "itemName" : "ct_meteoblaster",
+  "price" : 720,
+  "inventoryIcon" : "ct_meteoblaster.png",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Its core was constructed from enternia-enhanced moonrock meteorites.",
+  "shortdescription" : "Meteoblaster",
+  "level" : 5,
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "enternia", "upgradeableWeapon" ],
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_meteoblaster.png", "middleunlit" : "", "barrel" : "", "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middleunlit" : {
+          "properties" : {
+            "centered" : true,
+            "image" : "<partImage><paletteSwaps>",
+            "offset" : [0.30, 0.385],
+            "transformationGroups" : ["weapon"],
+            "fullbright" : true,
+            "zLevel" : 1
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "muzzleFlash" : {
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/gun/omnicannon_shot1.ogg", "/sfx/gun/omnicannon_shot2.ogg", "/sfx/gun/omnicannon_shot3.ogg", "/sfx/gun/omnicannon_shot4.ogg" ]
+    }
+  },
+
+  "baseOffset" : [0.30, 0.385],
+  "muzzleOffset" : [3, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 9,
+    "energyUsage" : 32,
+    "inaccuracy" : 0.12,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "rocketshell",
+    "projectileParameters" : {
+      "knockback" : 40
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbilityType" : "exmachinarocket", // balllightning
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_meteoblaster_2.png",
+    "animationParts" : {
+      "butt" : "",
+      "middle" : "ct_meteoblaster_2.png",
+      "middleunlit" : "ct_meteoblaster_2_lit.png",
+      "barrel" : "",
+      "muzzleFlash" : ""
+    },
+    "shortdescription" : "Starblaster ^#8020f0;^reset;",
+    "price" : 800
+  }
+}

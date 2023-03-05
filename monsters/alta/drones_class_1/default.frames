@@ -1,0 +1,27 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32], "dimensions" : [5, 4],
+    "names" : [
+      [ "idle.1", "fly.1", "fly.2", "fly.3", "fly.4" ],
+      [ "hurt.1", "cast.1", "cast.2", "cast.3", "cast.4" ],
+      [ "morph.2", "morph.3", "fireidle.1", "fire.1", "fire.2" ],
+      [ "hybernate.1", "activate.1", "activate.2", "activate.3", "activate.4" ]
+    ]
+  },
+  "aliases" : {
+    "deactivate.1" : "activate.4",	"sleep.1" : "hybernate.1",
+    "deactivate.2" : "activate.3",	"sleep.2" : "activate.3",
+    "deactivate.3" : "activate.2",	"sleep.3" : "hybernate.1",
+    "deactivate.4" : "activate.1",	"sleep.4" : "activate.4",
+    "windup.1" : "cast.1",			"winddown.1" : "cast.3",
+    "windup.2" : "cast.2",			"winddown.2" : "cast.4",
+    "windup.3" : "cast.3",			"winddown.3" : "fly.3",
+    "charged.1" : "cast.1",		"fireidle.2" : "fire.1",
+    "firewindup.1" : "fireidle.1",	"firewinddown.1" : "fire.2",
+    "firewindup.2" : "fire.1",		"firewinddown.2" : "fire.1",
+    "firewindup.3" : "fire.2",		"firewinddown.3" : "fireidle.1",
+    "aggrofly.1" : "cast.1",		"aggrofly.2" : "cast.2",
+    "aggrofly.3" : "cast.3",		"aggrofly.4" : "cast.4",
+    "morph.1" : "hurt.1"
+  }
+}

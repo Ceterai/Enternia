@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_alliana_cake", "ct_haruplavu_venetto" ]
+  "learnBlueprintsOnPickup" : [ "ct_alliana_cake", "ct_haruplavu_venetto" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Bluesweet Punch",
+      "description" : "Runeva alta cuisine. An aya punch with extra ayas and extra sweetness. The name checks out.",
+      "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 } ] ]
+    }
+  ]
 }

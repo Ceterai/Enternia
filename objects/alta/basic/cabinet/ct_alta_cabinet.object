@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_cabinet",
+  "colonyTags" : [ "alta", "storage" ],
+  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "rarity" : "Common",
+  "price" : 60,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Cabinet",
+  "description" : "A simple titanium locker. Has mechanical connectors to stack these on top of each other.",
+  "altaDescription" : "A regular cabinet, not much space inside. Doesn't mean there's nothing special in there.",
+
+  "apexDescription" : "I wonder if there are any secrets inside...",
+  "avianDescription" : "Could there be anything of value within?",
+  "floranDescription" : "SSsssearch.",
+  "glitchDescription" : "Excited. Any items of interest inside?",
+  "humanDescription" : "A lab locker.",
+  "hylotlDescription" : "Perhaps something useful is inside.",
+  "novakidDescription" : "A locker. What does it contain?",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_cabinet.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5, "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,127 @@
+{
+  "itemName" : "ct_brontor",
+  "shortdescription" : "Brontor",
+  "description" : "This armored beast was named after centenarian creatures able to survide under the tavriya snowlands of alterash.",
+
+  "elementalType" : "ice",
+
+  "level" : 6, "price" : 720, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "shotgun",
+  "itemTags" : [ "weapon", "ranged", "shotgun", "alta", "impulse" ],
+
+  "inventoryIcon" : "ct_brontor.png",
+
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_brontor.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"],
+      "alt_press" : ["/sfx/gun/mech_energyrifle_fire1.ogg","/sfx/gun/mech_energyrifle_fire2.ogg"],
+      "alt_hold" : ["/sfx/gun/electricrailgun1.ogg"]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [32, 240, 128] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Icy Spikes",
+
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.65,
+
+    "pressType" : "semi",
+    "pressParams" : {
+      "type" : "iceplasma",
+      "inaccuracy" : 0.04,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 }
+    },
+    "holdType" : "nade",
+    "holdParams" : {
+      "type" : "iceburster"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Armored Crest",
+
+    "baseDps" : 10, "energyUsage" : 40, "fireTime" : 0.9,
+
+    "pressType" : "rocket",
+    "pressParams" : {
+      "type" : "ct_impulse_large"
+    },
+    "holdType" : "burst",
+    "holdParams" : {
+      "type" : "stickyplasma",
+      "inaccuracy" : 0.01,
+      "count" : 3
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

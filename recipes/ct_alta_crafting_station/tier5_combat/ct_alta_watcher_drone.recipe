@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_watcher_drone", "count" : 1 },
+  "groups" : [ "alta_tier4", "tier5_combat", "spawner", "drone", "all" ]
+}

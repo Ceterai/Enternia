@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_alta_flower_bed",
+  "colonyTags" : [ "alta", "alta_city", "alta_garden", "pretty" ],
+  "category" : "furniture",
+  "rarity" : "Common",
+  "price" : 120,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Flower Bed",
+  "description" : "A beautiful flower bed. Watch out for bees!",
+  "altaDescription" : "A well-maintained flower garden with titanium bedding.",
+
+  "apexDescription" : "A well-tended flowerbed. One of the few Apex pleasures.",
+  "avianDescription" : "A sickly-sweet smell wafts in the air.",
+  "floranDescription" : "Floran once hid in flowers, then jumped out to sssurprise poptop! Poptop not happy.",
+  "glitchDescription" : "Admiration. A remarkably well-cultivated flowerbed.",
+  "humanDescription" : "A flower bed. Best left to those with green fingers.",
+  "hylotlDescription" : "A rather childish attempt at a floral display.",
+  "novakidDescription" : "A flower bed. Maximum quaintness.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_alta_flower_bed.png",
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-15, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "ct_alta_flower_bed.png",
+      "direction" : "right",
+
+      "sitPosition" : [15, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/alta/city/flower_bed/ct_alta_flower_bed.png",
+  "sitFlipDirection" : false
+}

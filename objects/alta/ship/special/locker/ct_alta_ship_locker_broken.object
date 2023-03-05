@@ -1,0 +1,42 @@
+{
+  "objectName" : "ct_alta_ship_locker_broken",
+  "colonyTags" : [ "alta", "alta_ship", "alta_ruin", "storage" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 320,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Broken Alta Ship Locker",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "altaDescription" : "A broken storage system designed for a ship.",
+
+  "apexDescription" : "A broken storage system.",
+  "avianDescription" : "Broken storage locker.",
+  "floranDescription" : "Floran sstore many usseful thingss in here for exploring universse, when it isss fixed.",
+  "glitchDescription" : "Distressed. This ship's storage system is malfunctioning.",
+  "humanDescription" : "A storage locker. It doesn't seem to be working.",
+  "hylotlDescription" : "Storage. It's not currently powered.",
+  "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "broken.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

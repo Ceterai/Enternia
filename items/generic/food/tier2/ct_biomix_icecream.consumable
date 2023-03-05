@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ]
+  "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Biomix Desert",
+      "description" : "An alta cuisine. Un indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+    }
+  ]
 }

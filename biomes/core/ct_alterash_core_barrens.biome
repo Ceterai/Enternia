@@ -8,9 +8,9 @@
   "hueShiftOptions" : [105, 120],
 
   "spawnProfile" : {
-    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "monsterParameters" : { "colors" : "volcanic" },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_core_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_enternia_barrens_spawn" ] ] }
     ]
   },

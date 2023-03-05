@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_aya_punch", "ctgiltsaystew", "ct_alta_dinner" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_aya_punch", "ctgiltsaystew", "ct_alta_dinner" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Exotic Tea",
+      "description" : "Runeva alta cuisine. This definitely tastes weird. Good weird, I think you're onto something.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "biomecoldImmunity", "duration" : 300 } ] ]
+    }
+  ]
 }

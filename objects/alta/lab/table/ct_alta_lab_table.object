@@ -1,0 +1,33 @@
+{
+  "objectName" : "ct_alta_lab_table",
+  "colonyTags" : [ "alta", "alta_lab", "commerce" ],
+  "category" : "furniture",
+  "rarity" : "Uncommon",
+  "price" : 180,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Table",
+  "description" : "An easy-to-clean bion table with plenty of space both on and under it. Perfect for experiments!",
+  "altaDescription" : "A spacey bion table, can often be found in alta labs. It's pretty strong.",
+
+  "apexDescription" : "A one-legged table with hanging down crystals.",
+  "avianDescription" : "How is this table even standing?",
+  "floranDescription" : "Thisss table hass only one leg at its ssside. Floran confused.",
+  "glitchDescription" : "Pleased. I'm glad that I, unlike this table, don't have any missing legs.",
+  "humanDescription" : "Wouldn't it overturn onto me if I sit on the other side? No?",
+  "hylotlDescription" : "You might think that the crystals on the other side of the table serve as another pair of legs, but no, this table has only one leg.",
+  "novakidDescription" : "Look a that! Ain't it a pretty one-legged pal?",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_lab_table.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

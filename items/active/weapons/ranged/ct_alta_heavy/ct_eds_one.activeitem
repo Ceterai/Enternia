@@ -1,0 +1,50 @@
+{
+  "itemName" : "ct_eds_one",
+  "shortdescription" : "^#f02020;EDS^reset;-One ^#8020f0;^reset;",
+  "description" : "A reinforced ionic sniper rifle designed to eliminate large targets on relatively long distances. A proud achievement of EDS.",
+  "elementalType" : "electric",
+
+  "level" : 6, "price" : 800, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "sniperRifle",
+  "itemTags" : [ "weapon", "ranged", "sniperrifle", "alta", "eds", "impulse", "ionic" ],
+
+  "inventoryIcon" : "ct_eds_one.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
+  "animationParts" : { "middle" : "ct_eds_one.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/mech_shielddrone_recover1.ogg" ],
+    "primary_press" : [ "/sfx/gun/plasma_sniper2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
+  "primaryAbility" : {
+    "name" : "One-Blast Snipe",
+    "baseDps" : 10, "energyUsage" : 36, "fireTime" : 1.2,
+
+    "defaultFireType" : "single",
+    "fireTypes" : {
+      "single" : {
+        "pressType" : "snipe",
+        "pressParams" : { "type" : "ct_ionic_medium", "inaccuracy" : 0.00 },
+        "holdTimeMax" : 0
+      },
+      "semi" : {
+        "pressType" : "semi",
+        "pressParams" : { "type" : "ct_ionic_medium", "count" : 3, "interval" : 0.1, "inaccuracy" : 0.005 },
+        "holdTimeMax" : 0
+      }
+    }
+  },
+  "altAbility" : {
+    "name" : "Elerune Tactics",
+    "fireTypes" : [ "single", "semi" ],
+    "attachments" : [ "none", "laser", "stabilizer" ]
+  }
+}

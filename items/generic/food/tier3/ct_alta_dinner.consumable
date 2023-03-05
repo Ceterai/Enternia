@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_special_mimosa", "ct_palopias" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_special_mimosa", "ct_palopias" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Caretaker's Love",
+      "description" : "An alta cuisine. Just like you caretaker used to make!",
+      "rarity" : "Legendary", "price" : 1200, "foodValue" : 75
+    }
+  ]
 }

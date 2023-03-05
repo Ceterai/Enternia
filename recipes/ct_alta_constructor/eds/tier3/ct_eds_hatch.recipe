@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "ct_phosicore", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_hatch", "count" : 1 },
+  "groups" : [ "alta_constructor3", "eds", "objects", "doors", "all" ]
+}

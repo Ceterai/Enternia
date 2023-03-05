@@ -27,7 +27,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_calin_console.png:<color>.<frame>",
+      "dualImage" : "ct_terminal.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
 
       "spaceScan" : 0.1,
@@ -50,7 +50,7 @@
     }
   },
   "animationParts" : {
-    "switch" : "ct_calin_console.png"
+    "switch" : "ct_terminal.png"
   },
   "animationPosition" : [-8, 0],
 

@@ -22,5 +22,14 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_natal_punch", "ct_minto_spice", "ct_rimar_motsu" ]
+  "learnBlueprintsOnPickup" : [ "ct_natal_punch", "ct_minto_spice", "ct_rimar_motsu" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Gheamont",
+      "description" : "Calin alta cuisine. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
+      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ]
+    }
+  ]
 }

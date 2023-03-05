@@ -13,5 +13,19 @@
         "duration" : 30
     }
   ] ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Gheanade Max",
+      "description" : "This limited series of Gheanade is extra-full on energy!",
+      "rarity" : "Uncommon", "price" : 80,
+      "effects" : [ [
+        {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 60
+        }
+      ] ]
+    }
+  ]
 }

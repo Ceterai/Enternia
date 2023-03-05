@@ -1,0 +1,19 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [6, 4],
+
+    "names" : [
+      [ "idle.1", "idle.2", "idle.3", "idle.4", "hurt.1", "aggrohurt.1"],
+      [ "aggro.1", "aggro.2", "aggro.3", "aggro.4", "aggro.5", "aggro.6"],
+      [ "cast.1", "cast.2", "cast.3", "cast.4", "cast.5", "cast.6"],
+      [ "fire.1", "fire.2", "fire.3", "fire.4", "fire.5", "fire.6"]
+    ]
+  },
+  "aliases" : {
+    "aggroidle.1" : "aggro.6", "aggroidle.2" : "aggro.6", "aggroidle.3" : "aggro.6", "aggroidle.4" : "aggro.6",
+    "firewindup.1" : "fire.1", "firewindup.2" : "fire.2", "firewindup.3" : "fire.3",
+    "firewinddown.1" : "fire.4", "firewinddown.2" : "fire.5", "firewinddown.3" : "fire.6",
+    "fireidle.1" : "fire.3", "fireidle.2" : "fire.4"
+  }
+}

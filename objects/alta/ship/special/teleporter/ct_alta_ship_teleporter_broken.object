@@ -1,0 +1,53 @@
+{
+  "objectName" : "ct_alta_ship_teleporter_broken",
+  "colonyTags" : [ "alta", "alta_ship", "alta_ruin" ],
+  "category" : "decorative",
+  "rarity" : "Rare",
+  "price" : 1600,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Broken Alta Ship Teleporter",
+  "description" : "A massive teleportation portal, connects to bookmarked locations. Currently broken.",
+  "altaDescription" : "A broken piece of acquired tech. Lets you beam in and out pretty quickly.",
+
+  "apexDescription" : "The ship's teleporter. I need to power it up.",
+  "avianDescription" : "The teleporter! If only this one was powered up.",
+  "floranDescription" : "Ship teleporter. This one dead.",
+  "glitchDescription" : "Disappointed. A teleporter without power. I need to power it up.",
+  "humanDescription" : "The teleporter! Too bad it isn't powered up.",
+  "hylotlDescription" : "This teleporter is off.",
+  "novakidDescription" : "Ship's teleporter. I need to power her up!",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [ ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "broken.png",
+      "imagePosition" : [-32, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ],
+      "sitPosition" : [-8, 8]
+    }
+  ],
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ],
+
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRangeMultiplier" : 1.5
+}

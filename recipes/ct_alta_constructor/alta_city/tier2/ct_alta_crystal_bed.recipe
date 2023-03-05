@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "crystal", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ct_alta_crystal_bed",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor2", "alta_city", "objects", "decoration", "all" ]
+}

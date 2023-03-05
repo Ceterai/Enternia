@@ -1,0 +1,18 @@
+{
+  "frameGrid" : {
+    "size" : [32, 11],
+    "dimensions" : [5, 3],
+
+    "names" : [
+      [ "idle.1", "jump.1", "jump.2", "fall.1", "fall.2" ],
+      [ "walk.1", "walk.2", "walk.3", "walk.4", "walk.5" ],
+      [ "hybernate.1", "activate.1", "activate.2", "activate.3", "activate.4" ]
+    ]
+  },
+  "aliases" : {
+    "deactivate.1" : "activate.4",	"sleep.1" : "hybernate.1",
+    "deactivate.2" : "activate.3",	"sleep.2" : "activate.3",
+    "deactivate.3" : "activate.2",	"sleep.3" : "hybernate.1",
+    "deactivate.4" : "activate.1",	"sleep.4" : "activate.4"
+  }
+}

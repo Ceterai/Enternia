@@ -27,7 +27,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_bishyn_terminal.png:<color>.<frame>",
+      "dualImage" : "ct_terminal.png:<color>.<frame>",
       "imagePosition" : [-8, 0],
       "renderLayer" : "Object+1",
 
@@ -51,7 +51,7 @@
     }
   },
   "animationParts" : {
-    "switch" : "ct_bishyn_terminal.png"
+    "switch" : "ct_terminal.png"
   },
   "animationPosition" : [-8, 0],
 

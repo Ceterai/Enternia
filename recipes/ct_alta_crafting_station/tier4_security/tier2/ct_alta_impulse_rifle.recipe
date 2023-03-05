@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 6 }
+  ],
+  "output" : { "item" : "ct_alta_impulse_rifle", "count" : 1 },
+  "groups" : [ "alta_tier2", "tier4_security", "weapon", "all" ]
+}

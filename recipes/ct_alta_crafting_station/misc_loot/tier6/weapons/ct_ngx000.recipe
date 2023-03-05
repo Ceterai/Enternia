@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 8 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_ngx000", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

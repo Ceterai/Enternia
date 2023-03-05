@@ -24,7 +24,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_calin_gateway.png:default",
+      "image" : "ct_door.png:default",
       "imagePosition" : [-20, 0],
       "renderLayer" : "Object+5",
 
@@ -50,7 +50,7 @@
     }
   },
   "animationParts" : {
-    "door" : "ct_calin_gateway.png"
+    "door" : "ct_door.png"
   },
   "animationPosition" : [-20, 0],
 

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "ct_cetersphere", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_ship_captains_chair", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor6", "alta_ship", "objects", "special", "all" ]
+}

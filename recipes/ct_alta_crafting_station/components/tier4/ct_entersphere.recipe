@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 4 },
+    { "item" : "ct_enterite", "count" : 4 },
+    { "item" : "ctwoodsap", "count" : 8 }
+  ],
+  "output" : { 
+    "item" : "ct_entersphere",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier4", "components", "all" ]
+}

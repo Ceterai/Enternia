@@ -13,7 +13,7 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier1" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
       { "select" : 2, "pool" : "nightTerrors" },

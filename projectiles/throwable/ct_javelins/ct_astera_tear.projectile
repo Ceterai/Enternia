@@ -1,0 +1,28 @@
+{
+  "projectileName" : "ct_astera_tear",
+  "image" : "ct_astera_tear.png",
+
+  "physics" : "arrownosticky",
+  "timeToLive" : 30,
+  "speed" : 64,
+
+  "power" : 48,
+  "knockback" : 20,
+  "statusEffects" : [ "ct_ionic_shock" ],
+
+  "damageKind" : "bow",
+  "damageKindImage" : "/items/throwables/ct_astera_tear.png",
+  "damagePoly" : [ [-12, -1], [14, -1], [14, 3], [-12, 3] ],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+
+  "pointLight" : false,
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "emitters" : [ "daggerblue" ]
+}

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_minto_soup",
   "rarity" : "Legendary",
-  "price" : 690,
+  "price" : 960,
   "category" : "preparedFood",
   "inventoryIcon" : "ct_minto_soup.png",
-  "description" : "Calin alta cuisine. A spicy variation on the traditional alta soup.",
+  "description" : "Calin alta cuisine. A spicy variation on the traditional alta soup. Has a chance to turn out a bit too spicy.",
   "shortdescription" : "Minto Soup",
   "effects" : [ [
     {
@@ -20,5 +20,20 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "chance" : 0.4,
+      "shortdescription" : "Maitai Soup",
+      "description" : "Calin alta cuisine. A very spicy alta soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
+      "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 330 }, { "effect" : "burning", "duration" : 15 } ] ]
+    },
+    {
+      "chance" : 0.1,
+      "shortdescription" : "Perfect Minto Soup ^#8020f0;^reset;",
+      "description" : "Calin alta cuisine. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
+      "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+    }
   ]
 }

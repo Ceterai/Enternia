@@ -6,7 +6,6 @@
   "ores" : "ct_alterash_depth2",
 
   "hueShiftOptions" : [0],
-  "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
 
   "spawnProfile" : {
     "groups" : [
@@ -43,7 +42,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_cargoChest" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -69,18 +68,6 @@
         "treeStemHueShiftMax" : 0,
         "treeStemList" : [ "hive" ],
         "treeFoliageList" : [ "hive" ]
-      },
-      {
-        "mode" : "ceiling",
-        "priority" : 2.0,
-        "variants" : 1,
-        "distribution" : "/biomes/distributions.config:superCommon",
-
-        "type" : "tree",
-        "treeFoliageHueShiftMax" : 0,
-        "treeStemHueShiftMax" : 10,
-        "treeStemList" : [ "hivevine" ],
-        "treeFoliageList" : [ "" ]
       },
       {
         "mode" : "floor",

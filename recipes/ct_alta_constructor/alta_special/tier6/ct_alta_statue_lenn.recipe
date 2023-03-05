@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "ct_alternia_shard", "count" : 8 },
+    { "item" : "ct_altersphere", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_statue_lenn", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor6", "alta_special", "objects", "statue", "all" ]
+}

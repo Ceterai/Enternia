@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alta_ship_fuel_hatch_broken",
+  "colonyTags" : [ "alta", "alta_ship", "alta_ruin" ],
+  "category" : "other",
+  "rarity" : "Rare",
+  "price" : 1200,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Broken Alta Ship FTL Fuel Hatch",
+  "description" : "A broken FTL fuel hatch. This won't do!\n^red;Destroyed when broken.",
+  "altaDescription" : "A broken piece of acquired tech. Lets you power up the ship using erchius fuel.",
+
+  "apexDescription" : "Converts fuel into freedom.",
+  "avianDescription" : "Let's load it up and take to the stars!",
+  "floranDescription" : "Let'ss get going!",
+  "glitchDescription" : "Excited. Once filled, we may visit another planet.",
+  "humanDescription" : "A fuel hatch. I can fill this up and explore.",
+  "hylotlDescription" : "Fuel is the lifeblood of exploration.",
+  "novakidDescription" : "FTL fuel goes in here! When it's fixed...",
+
+  "lightColor" : [77, 46, 77],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "broken.png:<color>.<frame>", "fullbright" : true }, { "image" : "broken_lit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "soundEffect" : "/sfx/objects/tv_static.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "/objects/noisy/noisy.animation",
+
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

@@ -1,0 +1,53 @@
+{
+  "itemName" : "ct_sky_lance",
+  "shortdescription" : "Sky Lance",
+  "description" : "A tool of many arknights - the peacekeeping watchers of the stardust sky, eager to keep other altas safe from dangers and injustice.",
+  "elementalType" : "ice",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "sniperRifle",
+  "itemTags" : [ "weapon", "ranged", "sniperrifle", "alta", "ice", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_sky_lance.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
+  "animationParts" : { "middle" : "ct_sky_lance.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/reload/sniper_reload_clip2.ogg" ],
+    "primary_press" : [ "/sfx/gun/plasma_sniper1.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaRanged",
+    "name" : "Soneva Charge",
+    "baseDps" : 9, "energyUsage" : 32, "fireTime" : 1.6,
+    "pressType" : "snipe",
+    "pressParams" : { "type" : "iceplasma" },
+    "holdType" : "semi",
+    "holdParams" : { "type" : "iceplasma", "count" : 2 }
+  },
+  "altAbility" : {
+    "class" : "AltaSwitch",
+    "name" : "Sky Lancer",
+    "baseDps" : 9, "energyUsage" : 32, "fireTime" : 0.5,
+    "holdType" : "nade",
+    "holdParams" : { "type" : "icecloudgrenade" },
+    "pressAttachments" : true,
+    "attachments" : [ "none", "laser", "stabilizer" ]
+  },
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_sky_lance_2.png",
+    "animationParts" : { "middle" : "ct_sky_lance_2.png" },
+    "shortdescription" : "Eva Linn ^#8020f0;^reset;",
+    "altAbility" : { "name" : "Heaven's Gaze" },
+    "price" : 800
+  }
+}

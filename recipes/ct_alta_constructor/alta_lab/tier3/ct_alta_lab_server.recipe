@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_lab_server", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor3", "alta_lab", "objects", "wired", "all" ]
+}

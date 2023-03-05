@@ -15,6 +15,12 @@
     {
       "action" : "sound",
       "options" : [ "/sfx/projectiles/acid_hit.ogg" ]
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : null,
+      "newMod" : "slimegrass",
+      "radius" : 2
     }
   ],
 

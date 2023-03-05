@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "fabric", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ct_alta_bed",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor1", "alta", "objects", "beds", "all" ]
+}

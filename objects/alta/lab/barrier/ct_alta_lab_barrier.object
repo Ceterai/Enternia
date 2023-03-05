@@ -1,0 +1,51 @@
+{
+  "objectName" : "ct_alta_lab_barrier",
+  "colonyTags" : [ "alta", "alta_lab", "door", "electronic", "hazard", "trap", "wired" ],
+  "category" : "door",
+  "rarity" : "Uncommon",
+  "price" : 240,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Lab Barrier",
+  "description" : "It's some sort of electrical barrier. Looks dangerous...",
+  "altaDescription" : "Technically you could pass through this barrier... but I wouldn't recommend.",
+
+  "apexDescription" : "This current forms a shield to keep things from passing through.",
+  "avianDescription" : "A door fashioned from electricity? Remarkable.",
+  "floranDescription" : "Door sssizzless, Floran don't like electric doorss.",
+  "glitchDescription" : "Unconcerned. The current here is completely grounded, there is no danger.",
+  "humanDescription" : "It's a gate made from electricity. Who makes a door like this?",
+  "hylotlDescription" : "The Hylotl are very cautious with electrical currents.",
+  "novakidDescription" : "A big rowdy spark of electric energy.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_lab_barrier.png:default",
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  
+  "touchDamage" : {
+    "poly" : [ [-1.0, 0.0], [1.0, 0.0], [1.0, 4.0], [-1.0, 4.0] ],
+    "damage" : 24, "damageType" : "Environment", "damageSourceKind" : "ct_ionic", "statusEffects" : [ "ct_ionic_stun" ]
+  },
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+  "closedLight" : [21, 108, 237],
+  "animation" : "/objects/wired/door/fullbrightanimatedslidingdoor.animation",
+  "animationParts" : {
+    "bg" : "ct_alta_lab_barrier.png",
+    "fg" : "ct_alta_lab_barrier_lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

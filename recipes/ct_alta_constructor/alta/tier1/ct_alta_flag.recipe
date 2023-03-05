@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "ctwood", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "ct_alta_flag",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor1", "alta", "objects", "plain", "teleporter", "special", "all" ]
+}

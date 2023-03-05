@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_speaker",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor2", "alta", "objects", "wired", "all" ]
+}

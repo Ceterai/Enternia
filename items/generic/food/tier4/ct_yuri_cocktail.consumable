@@ -37,5 +37,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Yuri Deluxe ^#8020f0;^reset;",
+      "description" : "Yava alta cuisine. You can't describe the emotions that fill you whenever you drink this. What is this?",
+      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+    }
+  ]
 }

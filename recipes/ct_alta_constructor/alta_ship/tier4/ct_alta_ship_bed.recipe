@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_ship_bed", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor4", "alta_ship", "objects", "beds", "all" ]
+}

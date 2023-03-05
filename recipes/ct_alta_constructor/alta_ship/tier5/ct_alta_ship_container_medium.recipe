@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_ship_container_medium", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor5", "alta_ship", "objects", "storage", "all" ]
+}

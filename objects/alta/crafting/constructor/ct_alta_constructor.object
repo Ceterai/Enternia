@@ -47,12 +47,12 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Alta Research Station",
             "subtitle" : " ^#b9b5b2;Alta Tier 1 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon1.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon1.png" }
         } },
         "filter" : [ "alta_constructor1" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_edsarmor", "count" : 12 },
-          { "item" : "ct_edsdiode", "count" : 12 },
+          { "item" : "ct_docs_security-codex", "count" : 1 },
+          { "item" : "titaniumbar", "count" : 8 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
       },
@@ -75,11 +75,14 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Alta Research Station",
             "subtitle" : " ^#b9b5b2;Alta Tier 2 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon2.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon2.png" }
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_enterite", "count" : 24 },
+          { "item" : "ct_docs_arco-codex", "count" : 1 },
+          { "item" : "ct_docs_combat-codex", "count" : 1 },
+          { "item" : "ct_docs_eds-codex", "count" : 1 },
+          { "item" : "ct_phosicore", "count" : 8 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
       },
@@ -103,11 +106,16 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Alta Research Station",
             "subtitle" : " ^#b9b5b2;Alta Tier 3 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon3.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon3.png" }
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_enterite", "count" : 24 },
+          { "item" : "ct_docs_ceternia-codex", "count" : 1 },
+          { "item" : "ct_docs_alternia-codex", "count" : 1 },
+          { "item" : "ct_docs_enternia-codex", "count" : 1 },
+          { "item" : "ct_cetersphere", "count" : 1 },
+          { "item" : "ct_altersphere", "count" : 1 },
+          { "item" : "ct_entersphere", "count" : 1 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
       },
@@ -131,7 +139,7 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Alta Research Station",
             "subtitle" : " ^#b9b5b2;Alta Tier 4 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon4.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon4.png" }
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
@@ -159,14 +167,15 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Stardust Extractor",
             "subtitle" : " ^#b9b5b2;Alta Tier 5 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon5.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon5.png" }
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4", "alta_constructor5" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_starfire", "count" : 256 },
           { "item" : "ct_starsteel", "count" : 256 },
           { "item" : "ct_starmatter", "count" : 256 },
-          { "item" : "upgrademodule", "count" : 1 }
+          { "item" : "ct_cetereye", "count" : 1 },
+          { "item" : "upgrademodule", "count" : 4 }
         ]
       },
 
@@ -189,7 +198,7 @@
         "paneLayoutOverride" : { "windowtitle" : {
             "title" : " Ultimate Alta Station",
             "subtitle" : " ^#b9b5b2;Alta Tier 6 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/interface/icon5.png" }
+            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon5.png" }
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4", "alta_constructor5", "alta_constructor6" ], "initialRecipeUnlocks" : []
       },

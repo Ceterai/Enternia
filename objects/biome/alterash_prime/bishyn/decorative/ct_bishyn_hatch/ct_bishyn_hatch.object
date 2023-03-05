@@ -40,12 +40,12 @@
     }
   },
   "animationParts" : {
-    "door" : "ct_bishyn_hatch.png"
+    "door" : "ct_door.png"
   },
   
     "orientations" : [
     {
-      "image" : "ct_bishyn_hatch.png:default",
+      "image" : "ct_door.png:default",
       "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
       "animationPosition" : [-16, -8],
@@ -56,7 +56,7 @@
       "anchors" : [ "left", "right" ]
     },
     {
-      "image" : "ct_bishyn_hatch.png:default",
+      "image" : "ct_door.png:default",
       "imagePosition" : [-16, -8],
       "renderLayer" : "Object+5",
       "animationPosition" : [-16, -8],

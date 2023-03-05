@@ -1,0 +1,51 @@
+{
+  "objectName" : "ct_alta_light",
+  "colonyTags" : [ "alta", "light" ],
+  "category" : "light",
+  "rarity" : "Common",
+  "price" : 80,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Light",
+  "description" : "A titanium light fixture on simplistic holders. Has crystals instead of lightbulbs.",
+  "altaDescription" : "A basic ceiling light, you can find these in most alta buildings.",
+
+  "apexDescription" : "A light fixture made from metal.",
+  "avianDescription" : "It's a light, but not an attractive one.",
+  "floranDescription" : "Shiny lightsss.",
+  "glitchDescription" : "Impressed. This light functions superbly.",
+  "humanDescription" : "These lights are great, until they start flickering.",
+  "hylotlDescription" : "This light is harsh and unforgiving.",
+  "novakidDescription" : "A light that works, what more could you want?",
+
+  "lightColor" : [174, 211, 229],
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.3,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_light.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "animationParts" : {
+        "bg" : "ct_alta_light.png",
+        "fg" : "ct_alta_light_lit.png"
+      },
+      "animationPosition" : [-12, 0],
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, 1],
+      "beamAngle" : 270
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

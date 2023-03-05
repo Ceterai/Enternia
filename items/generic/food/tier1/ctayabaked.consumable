@@ -15,5 +15,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ctassorti" ]
+  "learnBlueprintsOnPickup" : [ "ctassorti" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Aya Mash",
+      "description" : "Runeva alta cuisine. This baked aya was mashed and mixed after cooking, making it into a proper garnish.",
+      "rarity" : "Uncommon", "price" : 360, "foodValue" : 30
+    }
+  ]
 }

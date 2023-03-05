@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_altersphere", "count" : 2 },
+    { "item" : "ct_entersphere", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_edsarmor", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_enalnia", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

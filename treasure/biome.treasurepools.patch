@@ -11,7 +11,7 @@
 
           {"item" : "ct_ceteraugment"},
           {"item" : "ct_ceternia_epp_augment"},
-          {"item" : "ct_mindcollar"},
+          {"item" : "ct_mindframe_collar"},
 
           {"item" : "ct_alta_scout_lightwear"},
           {"item" : "ct_alta_scout_mask"},
@@ -189,5 +189,11 @@
           {"item" : "ct_alta_enternia_legwear"},
           {"item" : "ct_alta_enternia_epp"},
           {"item" : "ct_docs_units_enternia-codex"}
+  ] } ] ] },
+  { "op": "add", "path": "/ct_ghearun_set", "value": [ [1, { "fill" : [
+          {"item" : "ct_ghearun_helmet"},
+          {"item" : "ct_ghearun_chest"},
+          {"item" : "ct_ghearun_legwear"},
+          {"item" : "ct_ghearun_back"}
   ] } ] ] }
 ]

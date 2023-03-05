@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "huntingspear", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 4 }
+  ],
+  "output" : { "item" : "throwingspear", "count" : 1 },
+  "groups" : [ "ct_alta_upg1", "other", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alterash_bench", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_alta_bench",
+    "count" : 1 
+  },
+  "groups" : [ "ct_deprecation_station", "restore" ]
+}

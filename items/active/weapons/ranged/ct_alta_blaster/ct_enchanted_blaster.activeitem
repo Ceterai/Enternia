@@ -1,0 +1,84 @@
+{
+  "itemName" : "ct_enchanted_blaster",
+  "shortdescription" : "Enchanted Blaster",
+  "description" : "This blaster can launch special charges of enchanted energy. Holding LMB will produce even weirder results.",
+  "elementalType" : "ice",
+
+  "level" : 4, "price" : 480, "rarity" : "Uncommon",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "pistol", "enchanted", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_enchanted_blaster.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : { "middle" : "ct_enchanted_blaster.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/plasma_small.png" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ "/sfx/gun/plasma_mp2.ogg" ],
+    "primary_hold" : [ "/sfx/gun/pulsecannon1.ogg" ],
+    "primary_loop" : [ "/sfx/melee/charge_up2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+  },
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Wobblenaut",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.20,
+
+    "pressType" : "semi",
+    "pressParams" : {
+      "type" : "blueplasmabullet",
+      "inaccuracy" : 0.04,
+      "params" : { "damageKind" : "iceplasma", "speed" : 60, "timeToLive" : 5.0 }
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "miniwobbleshot",
+      "inaccuracy" : 0.01
+    },
+    "holdTimeMax" : 0.55,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.1,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_enchanted_blaster_2.png",
+    "animationParts" : { "middle" : "ct_enchanted_blaster_2.png" },
+    "shortdescription" : "Enchanted Pulser ^#8020f0;^reset;",
+    "price" : 520
+  }
+}

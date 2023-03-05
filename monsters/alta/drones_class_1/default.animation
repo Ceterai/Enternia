@@ -1,0 +1,90 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : { "default" : "idle", "priority" : 0,
+        "states" : {
+          "idle" : { "frames" : 1 }, "fly" : { "frames" : 4, "cycle" : 0.4, "mode" : "loop" }, "alarm" : { "frames" : 4, "cycle" : 0.3 },
+          "cast" : { "frames" : 4, "cycle" : 0.3, "mode" : "loop" }, "fire" : { "frames" : 2, "cycle" : 0.1, "mode" : "loop" },
+          "swoop" : { "frames" : 4, "cycle" : 0.25, "mode" : "loop" }, "morph" : { "frames" : 3, "cycle" : 0.3 },
+          "activate" : { "frames" : 4, "cycle" : 0.25 }, "deactivate" : { "frames" : 4, "cycle" : 0.25 },
+          "castwindup" : { "frames" : 3, "cycle" : 0.25 }, "castwinddown" : { "frames" : 3, "cycle" : 0.25 },
+          "firewindup" : { "frames" : 3, "cycle" : 0.25 }, "firewinddown" : { "frames" : 3, "cycle" : 0.25 },
+          "swoopwindup" : { "frames" : 3, "cycle" : 0.25 }, "swoopwinddown" : { "frames" : 3, "cycle" : 0.25 },
+          "chargewindup" : { "frames" : 3, "cycle" : 0.25 }, "chargewinddown" : { "frames" : 3, "cycle" : 0.25 },
+          "windup" : { "frames" : 3, "cycle" : 0.25 }, "winddown" : { "frames" : 3, "cycle" : 0.25 },
+          "charged" : { "frames" : 1 }, "fireidle" : { "frames" : 2, "cycle" : 0.4, "mode" : "loop" },
+          "hybernate" : { "frames" : 1 }, "sleep" : { "frames" : 4, "cycle" : 0.6, "mode" : "loop" },
+          "aggro" : { "frames" : 3, "cycle" : 0.6 }
+      } }, "damage" : { "default" : "none", "priority" : 3,
+        "states" : {
+          "none" : { "frames" : 1 }, "stunned" : { "frames" : 1 }
+      } }, "releaseParticles" : { "default" : "off",
+        "states" : {
+          "off":{ "frames" : 1, "properties" : { "particleEmittersOff" : [ "releaseParticles" ] } },
+          "on":{"frames":1,"cycle":0.1,"mode":"transition","transition":"off","properties":{"particleEmittersOn":["releaseParticles"]}}
+      } }
+    },
+    "parts" : {
+      "body" : {
+        "properties" : { "zLevel" : 1, "centered" : true },
+        "partStates" : {
+          "body" : {
+            "idle" : { "properties" : { "image" : "<partImage>:idle.<frame>" } },
+            "fly" : { "properties" : { "image" : "<partImage>:<aggro>fly.<frame>" } },
+            "cast" : { "properties" : { "image" : "<partImage>:cast.<frame>" } },
+            "fire" : { "properties" : { "image" : "<partImage>:fire.<frame>" } },
+            "swoop" : { "properties" : { "image" : "<partImage>:<aggro>fly.<frame>" } },
+            "morph" : { "properties" : { "image" : "<partImage>:morph.<frame>" } },
+            "activate" : { "properties" : { "image" : "<partImage>:activate.<frame>" } },
+            "deactivate" : { "properties" : { "image" : "<partImage>:deactivate.<frame>" } },
+            "castwindup" : { "properties" : { "image" : "<partImage>:windup.<frame>" } },
+            "castwinddown" : { "properties" : { "image" : "<partImage>:winddown.<frame>" } },
+            "firewindup" : { "properties" : { "image" : "<partImage>:firewindup.<frame>" } },
+            "firewinddown" : { "properties" : { "image" : "<partImage>:firewinddown.<frame>" } },
+            "swoopwindup" : { "properties" : { "image" : "<partImage>:windup.<frame>" } },
+            "swoopwinddown" : { "properties" : { "image" : "<partImage>:winddown.<frame>" } },
+            "chargewindup" : { "properties" : { "image" : "<partImage>:windup.<frame>" } },
+            "chargewinddown" : { "properties" : { "image" : "<partImage>:winddown.<frame>" } },
+            "windup" : { "properties" : { "image" : "<partImage>:windup.<frame>" } },
+            "winddown" : { "properties" : { "image" : "<partImage>:winddown.<frame>" } },
+            "charged" : { "properties" : { "image" : "<partImage>:charged.<frame>" } },
+            "fireidle" : { "properties" : { "image" : "<partImage>:fireidle.<frame>" } },
+            "hybernate" : { "properties" : { "image" : "<partImage>:hybernate.<frame>" } },
+            "sleep" : { "properties" : { "image" : "<partImage>:sleep.<frame>" } },
+            "alarm" : { "properties" : { "image" : "<partImage>:cast.<frame>" } },
+            "aggro" : { "properties" : { "image" : "<partImage>:morph.<frame>" } }
+          }, "damage" : {
+            "stunned" : { "properties" : { "image" : "<partImage>:hurt.<frame>" } }
+          }
+        }
+    } }
+  },
+  "globalTagDefaults" : { "aggro" : "" },
+
+  "particleEmitters" : {
+    "deathPoof" : {
+      "particles" : [
+        { "particle" : "monstersplosion" },
+        { "particle" : "electricswoosh1" }, { "particle" : "electricswoosh2" },
+        { "particle" : "electricswoosh1" }, { "particle" : "electricswoosh2" },
+        { "particle" : "deathfizz1left" }, { "particle" : "deathfizz1right" },
+        { "particle" : "deathfizz2left" }, { "particle" : "deathfizz2right" },
+        { "particle" : "deathfizz3left" }, { "particle" : "deathfizz3right" },
+        { "particle" : "deathfizz4left" }, { "particle" : "deathfizz4right" }
+      ]
+    },
+    "captureParticles" : { "particles" : [ { "particle" : "monstercapture" } ] },
+    "releaseParticles" : { "particles" : [ { "particle" : "monsterrelease" } ] },
+    "teleportOut" : { "particles" : [ { "particle" : "monstercapture" } ] },
+    "teleportIn" : { "particles" : [ { "particle" : "monsterrelease" } ] },
+    "levelUp" : { "particles" : [ { "particle" : "monsterlevelup" } ] }
+  },
+  "sounds" : {
+    "aggroHop" : [ "/sfx/npc/boss/apeboss_missile.ogg" ],
+    "alarm" : [ "/sfx/tools/area_scan1.ogg.ogg", "/sfx/tools/area_scan2.ogg.ogg" ],
+    "deathPuff" : [ "/sfx/npc/monsters/pod_release1.ogg" ], "wallCrash" : [ "/sfx/npc/monsters/peblit_drop1.ogg" ],
+    "fire" : [ "/sfx/gun/plasma_ar1.ogg" ], "firePlasma" : [ "/sfx/gun/plasma_ar1.ogg" ],
+    "fireCloud" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ], "fireCharge" : [ "/sfx/melee/giantsword_charge_full.ogg" ]
+  },
+  "effects" : { "blink" : { "type" : "flash", "time" : 0.25, "directives" : "fade=ffffff;0.5" } }
+}

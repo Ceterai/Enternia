@@ -1,0 +1,131 @@
+{
+  "itemName" : "ct_ion_reaper",
+  "shortdescription" : "Ion Reaper ^#8020f0;^reset;",
+  "description" : "A true dreamer's weapon, a creation of chaos. A powerful electric blaster that launches double ricocheting ionic projectiles.",
+
+  "elementalType" : "electric",
+
+  "level" : 6, "price" : 800, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "shotgun",
+  "itemTags" : [ "weapon", "ranged", "shotgun", "alta", "ionic" ],
+
+  "inventoryIcon" : "ct_ion_reaper.png",
+
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_ion_reaper.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"],
+      "primary_hold" : ["/sfx/gun/dragonhead_charged_fire2.ogg"],
+      "primary_start" : [ ],
+      "primary_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+      "alt_press" : ["/sfx/gun/elemental_lance.ogg"],
+      "alt_hold" : ["/sfx/gun/grenade2.ogg"],
+      "alt_loop" : [ "/sfx/melee/charge_combo7.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [128, 32, 240] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Ionic Barrage",
+
+    "baseDps" : 9, "energyUsage" : 36, "fireTime" : 0.45,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "ct_ionic_medium",
+      "inaccuracy" : 0.6,
+      "params" : { "knockback" : 10, "timeToLive" : 5.0 },
+      "count" : 2
+    },
+    "holdType" : "rocket",
+    "holdParams" : {
+      "type" : "electricplasmarocket"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Ion Discharge",
+
+    "baseDps" : 9, "energyUsage" : 40, "fireTime" : 0.9,
+
+    "pressType" : "discharge",
+    "pressParams" : {
+      "type" : "ct_ionic_blast"
+    },
+    "holdType" : "nade",
+    "holdParams" : {
+      "type" : "ct_alta_ion_nade"
+    },
+    "holdTimeMax" : 0.55,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

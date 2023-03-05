@@ -1,0 +1,63 @@
+{
+  "itemName" : "ct_nia_cocktail",
+  "rarity" : "Legendary",
+  "price" : 1000,
+  "category" : "drink",
+  "inventoryIcon" : "ct_nia_cocktail.png",
+  "description" : "Nia alta cuisine. A mistery dish that can have different tastes after fully mixed. Find out what you got!",
+  "shortdescription" : "Nia Cocktail",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "chance" : 0.3,
+      "shortdescription" : "Ceternia Cocktail",
+      "description" : "Nia alta cuisine. A floaty drink that will make you feel alive. Nice addition to a full meal.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_ceternia_cocktail.png",
+      "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
+    },
+    {
+      "chance" : 0.3,
+      "shortdescription" : "Alternia Cocktail",
+      "description" : "Nia alta cuisine. A nice middleground. You could say the same about the taste, but a lot of altas like it this way.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_alternia_cocktail.png",
+      "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
+    },
+    {
+      "chance" : 0.3,
+      "shortdescription" : "Enternia Cocktail",
+      "description" : "Nia alta cuisine. A tingy cocktail full of enternia energy. Does not classify as an energy drink.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_enternia_cocktail.png",
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
+    },
+    {
+      "chance" : 0.1,
+      "shortdescription" : "Staris Cocktail ^#8020f0;^reset;",
+      "description" : "Runeva alta cuisine. This soup is exceptionally nourishing! Only the best alta restaurants are able to make them taste this good.",
+      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+    }
+  ]
+}

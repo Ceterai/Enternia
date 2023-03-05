@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_source", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 16 },
+    { "item" : "ct_gheatsyn_crystal", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_alta_upgrade_station", "count" : 1 },
+  "groups" : [ "alta_tier1", "objects", "all" ]
+}

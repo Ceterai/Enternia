@@ -11,7 +11,7 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_caves_drone_spawn" ] ] }
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] }
     ]
   },
 

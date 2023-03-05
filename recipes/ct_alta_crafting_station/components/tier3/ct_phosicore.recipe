@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_phospholion", "count" : 2 },
+    { "item" : "glowfibre", "count" : 4 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { 
+    "item" : "ct_phosicore",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier3", "components", "all" ]
+}

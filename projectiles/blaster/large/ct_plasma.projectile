@@ -1,0 +1,20 @@
+{
+  "projectileName" : "ct_plasma_large",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "damageKindImage" : "/damage/ct_plasma.png",
+  "image" : "ct_plasma.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 64,
+  "speed" : 64,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "lightColor" : [96, 192, 252],
+  "damageKind" : "ct_plasma"
+}

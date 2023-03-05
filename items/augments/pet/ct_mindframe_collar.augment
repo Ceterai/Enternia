@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_mindframe_collar",
+  "inventoryIcon" : "ct_mindframe_collar.png",
+
+  "shortdescription" : "Mindframe Collar",
+  "description" : "A collar that causes your pet to damage nearby enemies with electricity and protects it with a force shield when low on health.",
+
+  "rarity" : "Legendary",
+  "price" : 4000,
+
+  "tooltipKind" : "petcollar", "category" : "petCollar",
+
+  "collar" : {
+    "name" : "ct_mindframe_collar",
+    "displayName" : "Mindframe Collar",
+    "displayIcon" : "/items/augments/pet/ct_mindframe_collar.png",
+    "effects" : [ "ct_mind", "ct_autoshielder_force" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+  "scripts" : [ "/scripts/augments/collar.lua" ]
+}

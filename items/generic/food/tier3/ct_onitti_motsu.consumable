@@ -22,5 +22,13 @@
     "wellfed"
   ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail" ]
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Onitti Motsu",
+      "description" : "Yava alta cuisine. An exceptionally nutritious motsu from pristine yava ingredients.",
+      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+    }
+  ]
 }

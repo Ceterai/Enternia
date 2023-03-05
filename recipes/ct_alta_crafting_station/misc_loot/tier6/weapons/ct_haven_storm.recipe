@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_verriskoywa_grass4", "count" : 8 },
+    { "item" : "livingroot", "count" : 1 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_haven_storm", "count" : 1 },
+  "groups" : [ "alta_tier6", "misc_loot", "weapon", "all" ]
+}

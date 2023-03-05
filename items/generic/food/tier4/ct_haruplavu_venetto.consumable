@@ -20,5 +20,13 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Venetto Prime ^#8020f0;^reset;",
+      "description" : "Runeva alta cuisine. A well-made haruplavu that somehow tastes very different from the original. Still incredibly tasty.",
+      "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+    }
   ]
 }

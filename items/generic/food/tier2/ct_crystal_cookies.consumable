@@ -21,5 +21,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_alta_dinner", "ct_caliopa", "ct_crunchy_pie" ]
+  "learnBlueprintsOnPickup" : [ "ct_alta_dinner", "ct_caliopa", "ct_crunchy_pie" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Candy Cookies",
+      "description" : "Calin alta cuisine. A perfect amount of crystals creates a perfect candy-like substance! So are these cookies or candy?",
+      "rarity" : "Rare", "price" : 800, "foodValue" : 45
+    }
+  ]
 }

@@ -1,0 +1,53 @@
+{
+  "itemName" : "ct_bipolaris",
+  "shortdescription" : "Bipolaris ^#8020f0;^reset;",
+  "description" : "A tool of presicion that doesn't choose sides. Some call it a weapon, and some... a work of art.",
+  "elementalType" : "electric",
+
+  "level" : 6, "price" : 800, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "gun",
+  "twoHanded" : true, "category" : "assaultRifle",
+  "itemTags" : ["weapon", "ranged", "assaultrifle", "alta", "impulse"],
+
+  "inventoryIcon" : "ct_bipolaris.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
+  "animationParts" : { "middle" : "ct_bipolaris.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationCustom" : { "sounds" : {
+    "plasma" : ["/sfx/gun/plasma_ar4.ogg"],
+    "ionic" : [ "/sfx/gun/plasma_mp2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
+  "primaryAbility" : {
+    "name" : "Dual Blast",
+
+    "fireTime" : 0.1,
+    "baseDps" : 9,
+    "energyUsage" : 36,
+
+    "defaultFireType" : "plasma",
+    "fireTypes" : {
+      "plasma" : {
+        "pressType" : "blast",
+        "pressParams" : { "type" : "ct_plasma_medium", "sound" : "plasma" },
+        "holdTimeMax" : 0
+      },
+      "ionic" : {
+        "pressType" : "blast",
+        "pressParams" : { "type" : "ct_ionic_medium", "sound" : "ionic" },
+        "holdTimeMax" : 0
+      }
+    }
+  },
+  "altAbility" : {
+    "name" : "Intertwined",
+    "fireTypes" : [ "plasma", "ionic" ],
+    "attachments" : [ "none", "laser", "stabilizer" ]
+  }
+}

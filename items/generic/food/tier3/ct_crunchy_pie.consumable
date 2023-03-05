@@ -25,5 +25,13 @@
   "blockingEffects" : [
     "wellfed"
   ],
-  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_pavolda_cake" ]
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_pavolda_cake" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Crystal Pie",
+      "description" : "Calin alta cuisine. A crunchy pineapple pie with extra steps. Totally worth it.",
+      "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+    }
+  ]
 }

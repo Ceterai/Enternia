@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 2 },
+    { "item" : "ct_verriskoywa_grass4", "count" : 1 },
+    { "item" : "ctwoodsap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "silk",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_tier1", "materials", "all" ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_ionic_drone",
+  "itemTags" : [ "weapon", "ranged", "spawner" ],
+  "category" : "throwableItem", "tooltipKind" : "filledcapturepod",
+  "rarity" : "Rare",
+  "price" : 880,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_ionic_drone.monstertype",
+  "subtitle" : "Drone Spawner",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/active/unsorted/ct_alta_spawner/ct_monster_spawner_builder.lua"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_bionid", "count" : 2 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "silk", "count" : 1 }
+  ],
+  "output" : { 
+    "item" : "ct_bion",
+    "count" : 1 
+  },
+  "groups" : [ "alta_tier3", "components", "all" ]
+}

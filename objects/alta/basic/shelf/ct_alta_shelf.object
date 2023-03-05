@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_alta_shelf",
+  "colonyTags" : [ "alta" ],
+  "category" : "decorative",
+  "rarity" : "Common",
+  "price" : 60,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Shelf",
+  "description" : "A simplistic titanium shelf with small crystal markings.",
+  "altaDescription" : "A regular shelf you would often see in alta interiors.",
+
+  "apexDescription" : "It's a wall shelf.",
+  "avianDescription" : "A nice little shelf.",
+  "floranDescription" : "Cute shelf.",
+  "glitchDescription" : "Bored. A wall shelf.",
+  "humanDescription" : "A blue wall shelf.",
+  "hylotlDescription" : "I need to arrange my goods.",
+  "novakidDescription" : "An attractive shelf.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_shelf.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ], "collision" : "platform"
+    }
+  ]
+}

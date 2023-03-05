@@ -1,0 +1,63 @@
+{
+  "objectName" : "ct_alta_teleporter",
+  "colonyTags" : [ "alta", "alta_city", "misc" ],
+  "category" : "teleportMarker", "objectType" : "teleporter",
+  "rarity" : "Uncommon",
+  "price" : 320,
+  "race" : "alta",
+  "printable" : false,
+
+  "shortdescription" : "Alta Teleporter",
+  "description" : "A one-way titanium teleporter. Oddly enough, this doesn't feel like alta technology.\n^red;Destroyed when broken.",
+  "altaDescription" : "A city teleporter, this one is not alta tech, so I'm not sure of how it works.",
+
+  "apexDescription" : "This ancient teleporter no longer appears to function.",
+  "avianDescription" : "This dusty old teleporter doesn't appear to work.",
+  "floranDescription" : "Teleporter isss quiet.",
+  "glitchDescription" : "Intrigued. This broken teleporter looks ancient... How old could it possibly be?",
+  "humanDescription" : "This teleporter would take me to unknown lands, if it worked.",
+  "hylotlDescription" : "This teleporter appears to have been broken for some time.",
+  "novakidDescription" : "This ol' teleporter doesn't seem to be workin'.",
+
+  "health" : 8,
+  "smashDropPool" : "remoteteleporter",
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "metalshard" }, { "count" : 6, "particle" : "steelshard" } ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ct_alta_teleporter.png",
+      "spaceScan" : 0.1,
+      // "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,1], [0,1], [1,1] ],
+      "anchors" : [ "bottom" ],
+      "collision" : "solid"
+    }
+  ],
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "teleporterFootPosition" : [0, 1],
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+
+  "npcToy" : {
+    "influence" : [
+      "teleporter",
+      "teleporterComplete"
+    ],
+    "defaultReactions" : {
+      "teleporter" : [
+        [1.0, "beamaway"]
+      ],
+      "teleporterComplete" : [
+        [1.0, "vomit"],
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [0, 0.0],
+    "preciseStandPositionRight" : [0, 0.0],
+    "maxNpcs" : 1
+  }
+}

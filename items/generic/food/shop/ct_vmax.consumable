@@ -17,5 +17,23 @@
         "duration" : 60
     }
   ] ],
-  "emitters" : [ "drinking" ]
+  "emitters" : [ "drinking" ],
+
+  "variants" : [
+    {
+      "shortdescription" : "V-Max Plus",
+      "description" : "This edition of V-Max contains extra amount of vitamins!",
+      "rarity" : "Rare", "price" : 240,
+      "effects" : [ [
+        {
+            "effect" : "swimboostcola",
+            "duration" : 65
+        },
+        {
+            "effect" : "maxenergyscalingboostfood",
+            "duration" : 65
+        }
+      ] ]
+    }
+  ]
 }

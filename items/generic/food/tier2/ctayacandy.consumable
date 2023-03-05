@@ -1,7 +1,7 @@
 {
   "itemName" : "ctayacandy",
   "rarity" : "Uncommon",
-  "price" : 320,
+  "price" : 200,
   "category" : "preparedFood",
   "inventoryIcon" : "ctayacandy.png",
   "description" : "Made with aya jam, it's a sour and sweet lollipop!",
@@ -20,5 +20,13 @@
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Aya Pop",
+      "description" : "Runeva alta cuisine. This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
+      "rarity" : "Rare", "price" : 320, "foodValue" : 15
+    }
   ]
 }

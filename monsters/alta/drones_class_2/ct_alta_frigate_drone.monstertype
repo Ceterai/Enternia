@@ -1,0 +1,99 @@
+{
+  "type" : "ct_alta_frigate_drone",
+  "shortdescription" : "Frigate Drone ^#8020f0;^reset;",
+  "description" : "Tier 4 MegaDrone\nThis huge combat machine is able to construct new drones on the fly.",
+
+  "categories" : [ "ct_alta_frigate_drone" ], "parts" : [ "body" ], "animation" : "default.animation",
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "seeThroughLiquid" : false, "monsterClass" : "rare",
+    "minHealth" : 36,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+      "targetQueryRange" : 20,
+      "foundTargetActions" : [
+        { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } },
+        { "name" : "action-animate", "parameters" : { "state" : "aggro", "animationTime" : 0.6 } }
+      ],
+      "approachActions" : [ { "name" : "approach-fly" } ],
+      "followActions" : [ { "name" : "approach-teleport" }, { "name" : "approach-fly" } ],
+      "wanderActions" : [
+        { "name" : "wander-fly", "cooldown" : [4,16], "parameters" : { "wanderTime" : [12,40], "groundDistance" : 4 } },
+        { "name" : "land-fly", "parameters" : { "flySpeed" : 8, "landCheckDistance" : 40, "idleTime" : 40 } }
+      ],
+      "concurrentActions" : [ { "name" : "action-globaltag", "parameters" : { "tagName" : "aggro", "tag" : "" } } ],
+      "concurrentHostileActions" : [
+        { "name" : "action-globaltag", "parameters" : { "tagName" : "aggro", "tag" : "aggro" } },
+        { "name" : "action-spawncompanions", "parameters" : { "maxCount" : 3, "spawnCooldown" : 5, "monsterType" : "ct_alta_mini_drone" } }
+      ],
+      "deathActions" : [
+        {
+          "name" : "action-spawnmonster",
+          "parameters" : { "offset" : [0,0.5], "monsterType" : "ct_alta_frigate_drone_empty", "replacement" : true, "parameters" : { "health" : 40 } }
+        },
+        {
+          "name" : "action-spawnmonster",
+          "parameters" : { "offset" : [0,-0.5], "monsterType" : "ct_alta_defensive_drone", "replacement" : true }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [
+        [0.625, 0.9375], [1.125, 0.4375], [1.125, -0.4375], [0.625, -0.9375],
+        [-0.625, -0.9375], [-1.125, -0.4375], [-1.125, 0.4375], [-0.625, 0.9375]
+      ],
+      "damage" : 12, "teamType" : "enemy", "damageSourceKind" : "lash", "knockback" : 10, "statusEffects" : [ ]
+    },
+    "movementSettings" : {
+      "collisionPoly" : [
+        [0.625, 0.9375], [1.125, 0.4375], [1.125, -0.4375], [0.625, -0.9375],
+        [-0.625, -0.9375], [-1.125, -0.4375], [-1.125, 0.4375], [-0.625, 0.9375]
+      ],
+      "mass" : 2.5, "walkSpeed" : 4, "runSpeed" : 8, "gravityEnabled" : false,
+      "airFriction" : 4, "airForce" : 40, "flySpeed" : 8
+    },
+
+    "statusEffects" : [ "ct_sensitive_electronics", "ct_autoshielder_eds", "ct_eds_rocket_aimbot" ],
+    "statusSettings" : {
+      "statusProperties" : { "targetMaterialKind" : "robotic" },
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [ "/stats/monster_primary.lua" ], "primaryScriptDelta" : 5,
+      "stats" : {
+        "knockbackStunTime" : { "baseValue" : 0.2 },
+        "knockbackThreshold" : { "baseValue" : 9 },
+
+        "maxHealth" : { "baseValue" : 72 },
+        "protection" : { "baseValue" : 32.0 },
+        "healthRegen" : { "baseValue" : 0.0 },
+        "powerMultiplier" : { "baseValue" : 1.0 },
+        "physicalResistance" : { "baseValue" : 0.25 },
+
+        "fireResistance" : { "baseValue" : 0.0 },
+        "fireStatusImmunity" : { "baseValue" : 0.0 },
+
+        "iceResistance" : { "baseValue" : 0.0 },
+        "iceStatusImmunity" : { "baseValue" : 0.0 },
+
+        "electricResistance" : { "baseValue" : -0.25 },
+        "electricStatusImmunity" : { "baseValue" : 0.0 },
+
+        "poisonResistance" : { "baseValue" : 0.5 },
+        "poisonStatusImmunity" : { "baseValue" : 1.0 }
+      },
+      "resources" : {
+        "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
+        "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
+        "damageAbsorption" : { "initialValue" : 0.0 }
+      }
+    },
+    "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },
+    "mouthOffset" : [0, 0], "feetOffset" : [0, -8],
+    "metaBoundBox" : [-4, -4, 4, 4], "scale" : 1.2,
+    "capturable" : true, "captureHealthFraction" : 0.1
+  }
+}

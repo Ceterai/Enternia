@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_source", "count" : 1 },
+    { "item" : "ctwood", "count" : 24 },
+    { "item" : "titaniumbar", "count" : 24 },
+    { "item" : "crystal", "count" : 32 }
+  ],
+  "output" : {
+    "item" : "ct_alta_statue",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_constructor3", "alta_city", "objects", "all" ]
+}

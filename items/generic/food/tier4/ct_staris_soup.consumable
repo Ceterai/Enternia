@@ -1,15 +1,19 @@
 {
   "itemName" : "ct_staris_soup",
   "rarity" : "Legendary",
-  "price" : 690,
+  "price" : 960,
   "category" : "preparedFood",
   "inventoryIcon" : "ct_staris_soup.png",
-  "description" : "Calin alta cuisine. A borderline dangerous yet healthy soup carefully crafted to fill you up with energy.",
+  "description" : "Calin alta cuisine. A stardust-like taste experience! This dreamy aftertaste fills you with determination.",
   "shortdescription" : "Staris Soup",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 315
+    },
+    {
+        "effect" : "love",
+        "duration" : 5
     }
   ] ],
   "foodValue" : 50,
@@ -20,5 +24,13 @@
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Perfect Staris Soup ^#8020f0;^reset;",
+      "description" : "Calin alta cuisine. A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
+      "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+    }
   ]
 }

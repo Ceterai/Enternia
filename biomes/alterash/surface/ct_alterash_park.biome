@@ -12,8 +12,7 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_drone_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_big_drone_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
       { "select" : 2, "pool" : "nightTerrors" },
       { "select" : 2, "pool" : [[0.15,"crystalbirdcritter"], [0.6,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"], [0.1,"bluebutterflycritter"]] }
