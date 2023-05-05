@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global, undefined-global
 require "/items/active/shields/shield.lua"
 
 shield_init = init

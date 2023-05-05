@@ -14,6 +14,7 @@
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
   "animationParts" : { "middle" : "ct_entropy.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png" },
   "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ],
     "primary_press" : [ "/sfx/gun/plasma_shotgun4.ogg" ]
     },
     "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }

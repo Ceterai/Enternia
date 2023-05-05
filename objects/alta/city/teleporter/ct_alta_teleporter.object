@@ -30,7 +30,7 @@
     {
       "image" : "ct_alta_teleporter.png",
       "spaceScan" : 0.1,
-      // "spaces" : [ [-1,0], [0,0], [1,0], [-1,1], [0,1], [1,1], [-1,1], [0,1], [1,1] ],
+      // "spaces" : [ [3, 0], [2, 0], [1, 0], [0, 0] ],
       "anchors" : [ "bottom" ],
       "collision" : "solid"
     }

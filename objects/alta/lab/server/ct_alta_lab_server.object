@@ -42,7 +42,7 @@
   },
   "animationPosition" : [-8, 0],
 
-  "scripts" : [ "/objects/wired/light/light.lua", "/scripts/npcToyObject.lua" ],
+  "scripts" : [ "/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 60,
 
   "inputNodes" : [ [-1, 2] ],

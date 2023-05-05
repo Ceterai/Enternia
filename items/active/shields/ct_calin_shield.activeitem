@@ -35,7 +35,7 @@
   "perfectBlockTime" : 0.2,
 
   "knockback" : 10,
-  "statusEffects" : [ "ct_ionic_stun" ],
+  "hitStatusEffects" : [ "ct_ionic_stun" ],
   
   "stances" : {
     "idle" : {

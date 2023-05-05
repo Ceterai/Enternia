@@ -19,6 +19,7 @@
   },
   "animationCustom" : {
     "sounds" : {
+      "init" : [ "/sfx/gun/mech_plasmadrone1.ogg" ],
       "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"],
       "primary_hold" : ["/sfx/gun/dragonhead_charged_fire2.ogg"],
       "primary_start" : [ ],

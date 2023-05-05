@@ -2,10 +2,33 @@
 
 ## Update 1.7 - Imperial Arsenal
 
+### 1.7.1
+
+Massive technological structures were located by your geoscanners under the surface of some alterash prime planets. The massive giants are apparently guarding some treasure among the gheatorn caves.  
+The `Gheatsyn Droids` are waiting for "visitors".
+
+**Main:**
+
+- finished the gheatsyn droid (no longer WIP), as well as its spawner recipe. Now spawns in Gheatorn biomes on Alterash Prime planets.
+
+**Other:**
+
+- adjusted weapon sounds, animations and timings;
+- adjusted drone spawns;
+- fixed drone names;
+- fixed logic of some drones as well as Alta Mini Drone spawns;
+- fixed icons in the upgrader interface;
+- fixed teleporter collisions;
+- fixed triggers for some new objects;
+- fixed wrong status effects on some shields;
+- updated stim pack parameters;
+- updated most crafting table interfaces;
+- minor bug fixes.
+
 ### 1.7.0
 
 Your datacenters just finished decrypting large parts of alta technology blueprints! This update adds tons of new upgradeable weapons and drone spawner items (craftable and loot ones), as well as a new tier 6 armor set!  
-It also adds more throwable items and a full set of alta objects, traps, decorations and structures!  
+It also adds more throwable items and a full set of alta objects, traps, decorations and structures!
 
 **Main:**
 

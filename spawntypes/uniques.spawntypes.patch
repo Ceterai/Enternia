@@ -83,12 +83,16 @@
     "monsterType" : [ [0.9, "ct_alta_elite_drone"], [0.05, "ct_alta_defensive_drone"], [0.05, "ct_alta_lava_drone"], [0.05, "ct_alta_frigate_drone"] ]
   } },
   {"op": "add", "path": "/-", "value": { "name" : "ct_alta_droid_tier3", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.26,
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.12,
     "monsterType" : [ [0.9, "ct_alta_spider_droid"], [0.1, "ct_alta_eds_droid"] ]
   } },
   {"op": "add", "path": "/-", "value": { "name" : "ct_alta_droid_tier4", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.26,
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.12,
     "monsterType" : [ [0.9, "ct_alta_elite_droid"], [0.1, "ct_alta_stalker_droid"] ]
+  } },
+  {"op": "add", "path": "/-", "value": { "name" : "ct_alta_droid_gheatsyn", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.12,
+    "monsterType" : [ [1.0, "ct_alta_gheatsyn_droid"] ]
   } },
 
   {"op": "add", "path": "/-", "value": { "name" : "ct_alta_drone_eds", "monsterParameters" : {"aggressive" : true},
@@ -96,7 +100,7 @@
     "monsterType" : [ [0.80, "ct_alta_eds_drone"], [0.15, "ct_alta_defensive_drone"], [0.05, "ct_alta_frigate_drone"] ]
   } },
   {"op": "add", "path": "/-", "value": { "name" : "ct_alta_droid_eds", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.26,
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.12,
     "monsterType" : [ [0.95, "ct_alta_eds_droid"], [0.05, "ct_alta_defensive_droid"] ]
   } }
 ]

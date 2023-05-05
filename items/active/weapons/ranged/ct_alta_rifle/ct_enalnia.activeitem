@@ -14,6 +14,7 @@
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
   "animationParts" : { "middle" : "ct_alta_plasma_rifle_2.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/plasma.png" },
   "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/mech_shielddrone1.ogg" ],
     "primary_press" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_mp2.ogg" ]
     },

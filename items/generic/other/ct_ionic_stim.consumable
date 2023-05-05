@@ -1,15 +1,15 @@
 {
   "itemName" : "ct_ionic_stim",
-  "rarity" : "Common",
-  "price" : 100,
+  "rarity" : "Uncommon",
+  "price" : 120,
   "category" : "medicine",
   "inventoryIcon" : "ct_ionic_stim.png",
-  "description" : "A stimpack full of blue liquid, it gives your jump a boost!",
+  "description" : "Provides 30s of full immunity to ionic/electric effects and gives 20% resist to electric damage.",
   "shortdescription" : "Ionic Stim Pack",
   "effects" : [ [
       {
-        "effect" : "jumpboost",
-        "duration" : 60
+        "effect" : "ct_ionicblockade",
+        "duration" : 30
       }
     ] ],
   "emote" : "",

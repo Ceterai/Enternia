@@ -10,9 +10,8 @@
     "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "seeThroughLiquid" : false,
     "behaviorConfig" : {
       "damageOnTouch" : true, "targetQueryRange" : 20,
-      "foundTargetActions" : [ { "name" : "ct_action_alarm_backup", "parameters" : { "monsterType": "ct_alta_mini_drone" } } ],
+      "foundTargetActions" : [ ],
       "fleeActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
-      "damageTakenActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
       "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
       "hostileActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 8, "maxRange" : 20 } } ],
       "approachActions" : [ { "name" : "approach-fly" } ],
