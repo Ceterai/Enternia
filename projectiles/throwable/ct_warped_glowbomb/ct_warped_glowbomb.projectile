@@ -1,6 +1,7 @@
 {
   "projectileName" : "ct_warped_glowbomb",
   "image" : "ct_warped_glowbomb.png",
+  "damageKindImage" : "/items/throwables/ct_warped_glowbomb.png",
   "physics" : "grenadenobounce",
   "bounces" : 0,
   "timeToLive" : 10,

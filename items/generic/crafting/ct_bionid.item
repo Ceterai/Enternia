@@ -1,13 +1,14 @@
 {
   "itemName" : "ct_bionid",
-  "shortdescription" : "Bionid",
-  "description" : "These biocrystals are a complex combination of cells and crystal molecules. Can be refined into bion substance used for armor.",
+  "shortdescription" : "Bionid Ore",
+  "description" : "These biocrystals are a complex combination of cells and crystal molecules called ^#299fc5;bionid^reset;. Can be refined into different bion compounds.",
 
-  "price" : 80,
-  "rarity" : "Uncommon",
+  "level" : 4, "price" : 20, "rarity" : "Uncommon",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "armor", "bionid" ], "tooltipKind" : "ct_alta_item_long",
 
-  "inventoryIcon" : "ct_bionid.png"
+  "inventoryIcon" : "ct_bionid.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

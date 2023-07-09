@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Small Phospholion Deposit",
   "description" : "This moonrock formation seems suspicious.",
@@ -22,9 +22,16 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_phospholion_deposit1.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "body_top.png",
+      "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "dualImage" : "body_back.png",
+      "spaceScan" : 0.1, "anchors" : [ "background" ]
     }
   ],
 
@@ -38,5 +45,7 @@
     [ [ "moonrock", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

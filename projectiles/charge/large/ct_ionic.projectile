@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_ionic_large",
+  "shortdescription" : "Ion Rocket",
+  "image" : "ct_ionic.png",
+  "damageKindImage" : "/damage/ct_ionic.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "fallSpeed" : 0,
+  "lightColor" : [128, 32, 240],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/electricexplosionknockback.config"
+    }
+  ],
+  "statusEffects" : [ "ct_ionic_shock" ],
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
+  "flippable" : true,
+  "power" : 48,
+  "speed" : 1,
+  "acceleration" : 128,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "ct_ionic"
+}

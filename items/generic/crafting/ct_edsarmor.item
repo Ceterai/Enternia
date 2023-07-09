@@ -2,12 +2,14 @@
   "itemName" : "ct_edsarmor",
   "shortdescription" : "^#f02020;EDS^reset; Armor Unit",
   "description" : "Dark metal compound plate made out of multiple layers of deffirent materials. ^#f02020;EDS^reset;-approved.",
+  "race" : "alta",
 
-  "price" : 160,
-  "rarity" : "Rare",
+  "level" : 5, "price" : 40, "rarity" : "Rare",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "armor", "compound", "alta", "eds" ], "tooltipKind" : "ct_alta_item",
 
-  "inventoryIcon" : "ct_edsarmor.png"
+  "inventoryIcon" : "ct_edsarmor.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

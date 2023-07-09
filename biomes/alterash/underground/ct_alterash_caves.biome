@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_caves",
   "friendlyName" : "Alterash Caves",
+  "description" : "Lush shallow caves full of growth and prisms.\n\n*\"Did you go down a cave to mine some minerals? Huh, dig depper, in this cave you will find only... jungles.\"* - Lenn",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier1.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
@@ -38,7 +40,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -54,15 +56,24 @@
       },
       // Other
       {
-        "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
-        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
-      },
-      {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
         "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
       },
       {
-        "mode" : "ceiling", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
+        "treeFoliageHueShiftMax":45,"treeStemHueShiftMax":45,"treeFoliageHueShiftMin":45,"treeStemHueShiftMin":45,
+        "treeStemList":["vine","vine2","vine3","vine4"],"treeFoliageList":["flowery","starry","dreamy"]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 4, "period" : 5, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "grass",
+        "grasses" : [ "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
+      },
+      {
+        "mode" : "floor", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
+        "bushes" : [ { "name" : "ct_garden_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 2, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
         "treeFoliageHueShiftMax":45,"treeStemHueShiftMax":45,"treeFoliageHueShiftMin":45,"treeStemHueShiftMin":45,
         "treeStemList":["vine","vine2","vine3","vine4"],"treeFoliageList":["flowery","starry","dreamy"]
       },

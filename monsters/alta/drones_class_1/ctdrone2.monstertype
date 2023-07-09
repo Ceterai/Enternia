@@ -1,7 +1,8 @@
 {
   "type" : "ctdrone2",
-  "shortdescription" : "Ionic Drone",
-  "description" : "Tier 3.5 Drone\nAn advanced armored drone filled with enternia energy. Has ranged attacks and spreads ionized clouds.",
+  "shortdescription" : "^red;Outdated^reset; Battle Drone Prototype",
+  "description" : "Tier 3.5 Drone.  \nAn advanced armored drone filled with enternia energy. Has ranged attacks and spreads ionized clouds.",
+  "race" : "alta",
 
   "categories" : [ "ctdrone2" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier3_class1", "bow" : "ct_alta_tier3_class2" } ],

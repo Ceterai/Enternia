@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Flower Bed",
   "description" : "A beautiful flower bed. Watch out for bees!",
@@ -46,5 +46,7 @@
   
   "objectType" : "loungeable",
   "sitCoverImage" : "/objects/alta/city/flower_bed/ct_alta_flower_bed.png",
-  "sitFlipDirection" : false
+  "sitFlipDirection" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

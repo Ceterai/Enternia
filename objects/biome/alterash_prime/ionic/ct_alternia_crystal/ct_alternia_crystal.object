@@ -5,10 +5,11 @@
   "rarity" : "Common",
   "price" : 160,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "electric",
 
   "shortdescription" : "Alternia Crystal",
-  "description" : "Found in esetera depths and in hevika, this blueish crystal deposit is highly ionized. Alta-scan for more.",
+  "description" : "Found in esetera depths and in ^#0050c0;hevika^reset;, this blueish crystal deposit is highly ionized. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "A crystal full of alternia energy. So powerful! I can break it to get some fully-charged alternia shards.",
 
   "apexDescription" : "Crystals are quite beautiful.",
@@ -47,7 +48,7 @@
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
     "damage" : 10,
     "knockback" : 20,
-    "statusEffects" : [ "ct_ionic_stun", "ct_ionic_shock", "ct_hevikai_strike" ],
+    "statusEffects" : [ "ct_pulse_paralysis", "ct_ionic_shock", "ct_hevikai_strike" ],
 
     "damageType" : "Environment",
     "damageSourceKind" : "electricspear"
@@ -61,5 +62,7 @@
     [ [ "ct_alternia_shard", 1, { } ], [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ],
     [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ], [ "crystal", 1, { } ] ],
     [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ]
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

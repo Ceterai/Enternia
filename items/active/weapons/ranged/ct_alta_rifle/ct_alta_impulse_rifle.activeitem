@@ -1,18 +1,19 @@
 {
   "itemName" : "ct_alta_impulse_rifle",
   "shortdescription" : "Impulse Rifle NG4",
-  "description" : "A rifled ceternia impulse blaster, mostly used by alta security to suppress threats. Relatively harmless.",
+  "description" : "A rifled ceternia impulse blaster, mostly used by ^#b0e0fc;alta^reset; security to suppress threats. Relatively harmless.",
   "elementalType" : "electric",
+  "race" : "alta",
 
   "level" : 4, "price" : 720, "rarity" : "Uncommon",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "assaultRifle",
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "alta", "impulse", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_alta_impulse_rifle.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
-  "animationParts" : { "middle" : "ct_alta_impulse_rifle.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png" },
+  "animationParts" : { "middle" : "ct_alta_impulse_rifle.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/impulse.png" },
   "animationCustom" : { "sounds" : {
     "primary_press" : [ "/sfx/gun/plasma_sniper1.ogg" ],
     "primary_hold" : [ "/sfx/gun/mech_beamsniper_fire1.ogg" ],
@@ -23,31 +24,29 @@
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
   "primaryAbility" : {
     "name" : "Impulse Blast",
-    "baseDps" : 8, "fireTime" : 0.8, "energyUsage" : 32,
+    "description" : "A standard ^#20f080;impulse^reset; blast with high precision.\nFiremodes: charge, semiauto.",
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.8,
     "defaultFireType" : "charge",
     "fireTypes" : {
       "charge" : {
-        "pressType" : "blast",
-        "pressParams" : { "type" : "ct_impulse_medium", "sound" : "primary_press", "inaccuracy" : 0.005 },
-        "holdType" : "blast",
-        "holdParams" : { "type" : "ct_impulse_large", "sound" : "primary_hold", "inaccuracy" : 0.005 },
-        "holdStart" : "charge",
-        "holdLoop" : "charging"
+        "pressType" : "blast", "pressParams" : { "type" : "ct_impulse_medium", "sound" : "primary_press", "inaccuracy" : 0.005 },
+        "holdType" : "blast", "holdParams" : { "type" : "ct_impulse_large", "sound" : "primary_hold", "inaccuracy" : 0.005 },
+        "holdStart" : "charge", "holdLoop" : "charging"
       },
       "semi" : {
-        "pressType" : "semi",
-        "pressParams" : { "type" : "ct_impulse_medium", "count" : 2, "interval" : 0.1, "inaccuracy" : 0.005 },
+        "pressType" : "semi", "pressParams" : { "type" : "ct_impulse_medium", "count" : 2, "interval" : 0.1, "inaccuracy" : 0.005 },
         "holdTimeMax" : 0
       }
     }
   },
   "altAbility" : {
     "name" : "Security Switch",
+    "description" : "All a security unit needs with a rifle.\nPress - change attachments: none, flashlight;\nHold - change firemodes.",
     "fireTypes" : [ "charge", "semi" ],
     "attachments" : [ "none", "flashlight" ]
   },
@@ -56,6 +55,22 @@
     "inventoryIcon" : "ct_alta_impulse_rifle_2.png",
     "animationParts" : { "middle" : "ct_alta_impulse_rifle_2.png" },
     "shortdescription" : "Impulse Rifle NG4X ^#8020f0;^reset;",
-    "price" : 800
+    "description" : "An NG4 with added laser pointer and scope, as well as increased firerate and precision due to the use of ^#ffa8e8;stardust^reset; energy.",
+    "price" : 800, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } },
+    "primaryAbility" : {
+      "baseDps" : 6, "fireTime" : 0.7,
+      "fireTypes" : {
+        "charge" : {
+          "pressType" : "blast", "pressParams" : { "type" : "ct_impulse_medium", "sound" : "primary_press", "inaccuracy" : 0.001 },
+          "holdType" : "blast", "holdParams" : { "type" : "ct_impulse_large", "sound" : "primary_hold", "inaccuracy" : 0.001 },
+          "holdStart" : "charge", "holdLoop" : "charging"
+        },
+        "semi" : {
+          "pressType" : "semi", "pressParams" : { "type" : "ct_impulse_medium", "count" : 2, "interval" : 0.1, "inaccuracy" : 0.001 }, "holdTimeMax" : 0
+        }
+      }
+    },
+    "altAbility" : { "attachments" : [ "none", "laser", "flashlight" ] }
   }
 }

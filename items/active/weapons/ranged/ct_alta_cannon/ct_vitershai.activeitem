@@ -2,20 +2,21 @@
   "itemName" : "ct_vitershai",
   "shortdescription" : "Viter-Shai ^#8020f0;^reset;",
   "description" : "The promise of an unknown traveller that should be kept at all costs is ingraved forever into the side of this misterious cannon.",
+  "race" : "alta",
 
   "elementalType" : "fire",
 
   "level" : 6, "price" : 800, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "shotgun",
-  "itemTags" : [ "weapon", "ranged", "shotgun", "alta", "ionic" ],
+  "itemTags" : [ "weapon", "ranged", "shotgun", "cannon", "grenadelauncher", "alta", "fire" ],
 
   "inventoryIcon" : "ct_vitershai.png",
 
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
   "animationParts" : {
-    "butt" : "", "middle" : "ct_vitershai.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png"
+    "butt" : "", "middle" : "ct_vitershai.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/ionic.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -37,6 +38,7 @@
 
   "primaryAbility" : {
     "name" : "Promises Of Vitero",
+    "description" : "Launches Dragon Fire charges from energy particles.\nPress - bursts with small Dragon Fire charges;\nHold - launches a Dragon Fire rocket.",
 
     "baseDps" : 9, "energyUsage" : 36, "fireTime" : 0.9,
 
@@ -82,6 +84,7 @@
 
   "altAbility" : {
     "name" : "Aina Veritas",
+    "description" : "Launches a Fire Boomerang on press, and Remote Sticky Nades on hold.",
 
     "baseDps" : 9, "energyUsage" : 40, "fireTime" : 2.2,
 
@@ -127,5 +130,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

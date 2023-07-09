@@ -1,6 +1,7 @@
 {
   "name" : "ct_ionized_air",
   "label" : "Ionized Air",
+  "description" : "Slowly degrades your energy. Once out of energy, damages you repeatedly with ^#8020f0;enternia^reset; electricity.",
   "blockingStat" : "ionicStatusImmunity",
 
   "effectConfig" : {

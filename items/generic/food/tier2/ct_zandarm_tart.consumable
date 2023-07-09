@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_zandarm_tart",
-  "rarity" : "Uncommon",
-  "price" : 520,
+  "level" : 4, "rarity" : "Uncommon", "price" : 520,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_zandarm_tart.png",
-  "description" : "Nia alta cuisine. A dish form weird ingredients that somehow tastes good.",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A dish form weird ingredients that somehow tastes good.",
   "shortdescription" : "Zandarm Tart",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Zandarm Prime",
-      "description" : "Nia alta cuisine. This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
-      "rarity" : "Rare", "price" : 760, "foodValue" : 35
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
+      "level" : 5, "rarity" : "Rare", "price" : 760, "foodValue" : 35
     }
   ]
 }

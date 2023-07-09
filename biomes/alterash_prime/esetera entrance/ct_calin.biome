@@ -1,6 +1,8 @@
 {
   "name" : "ct_calin",
   "friendlyName" : "Calocaves",
+  "description" : "Calocaves, or ^#76c7e4;Calin^reset; for short, are caves with rich deposits of plain regular ^#76c7e4;crystals^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_calin_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moonrock" ],
   "ores" : "ct_alterash_depth1",
@@ -36,7 +38,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -67,6 +69,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_calinChest" ]
       },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",

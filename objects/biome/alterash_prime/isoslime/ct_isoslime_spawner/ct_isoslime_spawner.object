@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 180,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isospawner",
-  "description" : "A vile pile of slime. There's something moving inside.",
+  "description" : "A vile pile of ^#7ddcde;isoslime^reset;. There's something moving inside.",
   "altaDescription" : "That's an isoslime spawner! Better be careful.",
 
   "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
@@ -50,5 +50,7 @@
     "stock" : 3, //total number of spawns, -1 for infinite
     // "trigger" : "break",
     "outOfSight" : false
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

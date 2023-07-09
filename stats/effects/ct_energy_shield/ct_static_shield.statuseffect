@@ -1,10 +1,11 @@
 {
   "name" : "ct_static_shield",
   "label" : "Static Shield",
+  "description" : "An energy shield that will expire once broken or overtime.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
-    "shieldBase" : 20.0,
+    "shieldBase" : 60.0,
     "shieldFromHealthPercent" : 0.5,
     "visuals" : "border=3;00FFFF99;00000000"
   },

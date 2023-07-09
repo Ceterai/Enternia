@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "ct_phosicore", "count" : 2 },
-    { "item" : "ct_bion", "count" : 4 }
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_bion", "count" : 3 },
+    { "item" : "ct_edsarmor", "count" : 3 }
   ],
   "output" : { "item" : "ct_alta_plasma_rifle", "count" : 1 },
-  "groups" : [ "alta_tier3", "tier5_combat", "weapon", "all" ]
+  "groups" : [ "alta_t3", "tier5_combat", "weapon", "all" ]
 }

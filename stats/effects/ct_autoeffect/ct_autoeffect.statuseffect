@@ -1,6 +1,7 @@
 {
   "name" : "ct_autoeffect",
   "label" : "Autoeffect",
+  "description" : "A generic effect placeholder. It activates a certain other effect when a specified requirement is met.\nThis effect uses default parameters as example.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {

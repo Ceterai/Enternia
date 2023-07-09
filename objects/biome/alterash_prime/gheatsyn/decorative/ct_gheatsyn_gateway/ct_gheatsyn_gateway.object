@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Gateway",
-  "description" : "An exceedingly firm gheatsyn gateway.",
+  "description" : "An exceedingly firm ^#a7e001;gheatsyn^reset; gateway.",
   "altaDescription" : "This gateway has an emergency airtight mode, like most alta gateways do, except here it works by liquifying inner geatchyn panels",
 
   "apexDescription" : "This gateway is way too secure.",
@@ -56,5 +56,7 @@
   "animationPosition" : [-20, 0],
 
   "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

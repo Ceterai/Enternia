@@ -1,7 +1,9 @@
 {
   "name" : "ct_enternia_asteroids",
   "friendlyName" : "Enternia Asteroids",
+  "description" : "These massive rocks made mostly of ^#6f6c66;moonrock^reset; and ^#4f4c46;obsidian^reset; are floating peacefully amidst the spacelands of ^#6f6c66;Astera^reset;. Here you can find tier 5 ores like ^#20f080;aegisalt ore^reset;, ^#2080f0;ferozium ore^reset; and ^#8020f0;violium ore^reset;.\n\nHowever, something is odd about these \"rocks\"... Do you feel tired?",
 
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_astera_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "obsidian" ],
   "ores" : "ct_alterash_core",
@@ -29,7 +31,19 @@
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier4" ]
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
       {
         "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]
@@ -50,7 +64,19 @@
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier4" ]
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
       {
         "mode" : "floor", "priority" : 3, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_enhancedmoonrock" ] ], "parameters" : { } } ]

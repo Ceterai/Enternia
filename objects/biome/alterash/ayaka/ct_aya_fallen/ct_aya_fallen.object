@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 45,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Fallen Aya",
   "description" : "A fallen fruit, partly smashed from the impact. Could still be edible.",
@@ -32,5 +32,7 @@
   "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
   "smashDropPool" : "ct_smashable_aya",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -2,20 +2,24 @@
   "itemName" : "ct_kinetic_shield",
   "shortdescription" : "Kinetic Shield",
   "description" : "This directional energy shield multiplies the impact and returns it to your enemies, launching them into the air.",
+  "elementalType" : "electric",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "alta", "energy", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3", "itemTags" : [ "shield", "alta", "energy", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
 
-  "inventoryIcon" : "ct_kinetic_shield.png:nearidle",
+  "inventoryIcon" : "ct_kinetic_shield.png",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "ct_kinetic_shield.png"
+    "shield" : "images/ct_kinetic_shield.png"
   },
   "animationCustom" : {
     "sounds" : {
+      "init" : [ ],
+      "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+      "charge_end" : [ "/sfx/gun/shockblast.ogg" ],
       "raiseShield" : [ "/sfx/melee/charge_full_swing2.ogg" ],
       "perfectBlock" : [ "/sfx/melee/elemental_aura_activate.ogg" ],
       "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
@@ -23,7 +27,23 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
+
+  "primaryAbility" : {
+    "name" : "Whipshock",
+    "description" : "Hold to perform an Ionic Whip Hit.\nActivate block fast enough (parry time) to perform a perfect block."
+  },
+
+  "passiveAbility" : {
+    "name" : "Kinetic Force",
+    "description" : "This shield knocks enemies back with great power."
+  },
+
+  "chargeFire" : {
+    "type" : "whipshock",
+    "inaccuracy" : 0.0,
+    "params" : { "statusEffects" : [ "ct_ionic_shock" ] }
+  },
 
   "minActiveTime" : 0.2,
 
@@ -34,7 +54,7 @@
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.4,
 
-  "knockback" : 64, // whipshock on charge, "statusEffects" : [ "ct_ionic_stun" ],
+  "knockback" : 64,
   
   "stances" : {
     "idle" : {
@@ -51,11 +71,14 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandshield.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "ct_kinetic_shield.png:nearidle",
-    "animationParts" : { "shield" : "ct_kinetic_shield.png" },
-    "shortdescription" : "Energy Blockade ^#8020f0;^reset;"
+    "inventoryIcon" : "ct_kinetic_shield.png",
+    "animationParts" : { "shield" : "images/ct_kinetic_shield.png" },
+    "shortdescription" : "Energy Blockade ^#8020f0;^reset;",
+    "description" : "A shield made of pure energy has been enhanced with ^#ffa8e8;stardust^reset;. How much energy is too much energy?",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/magnorbs_fire7.ogg" ] } }
   }
 }

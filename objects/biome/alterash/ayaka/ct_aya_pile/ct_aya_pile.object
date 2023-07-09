@@ -3,7 +3,7 @@
   "colonyTags" : [ "alterash", "nature", "ayaka" ],
   "rarity" : "Common",
   "category" : "breakable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Aya Pile",
   "description" : "A pile of blue ayaka fruits. Probably not in the best condition.",
@@ -33,5 +33,7 @@
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
   "smashDropPool" : "ct_smashable_aya_pile",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

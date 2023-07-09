@@ -1,19 +1,20 @@
 {
   "itemName" : "ct_plasmora",
   "shortdescription" : "Plasmora",
-  "description" : "A small yet powerful plasma blaster made from bionix - an advanced bion compound.",
+  "description" : "A small yet powerful ^#2080f0;plasma^reset; blaster made from bionix - an advanced ^#299fc5;bion compound^reset;.",
   "elementalType" : "electric",
+  "race" : "alta",
 
   "level" : 6, "price" : 480, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
-  "twoHanded" : false, "category" : "uniqueWeapon",
-  "itemTags" : [ "weapon", "ranged", "pistol", "alta", "shock", "upgradeableWeapon" ],
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "machinePistol",
+  "itemTags" : [ "weapon", "ranged", "machinePistol", "blaster", "alta", "plasma", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_alta_scout_blaster_2.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
-  "animationParts" : { "middle" : "ct_alta_scout_blaster_2.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/plasma.png" },
-  "animationCustom" : { "sounds" : {
+  "animationParts" : { "middle" : "ct_alta_scout_blaster_2.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/plasma.png" },
+  "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip2.ogg" ],
     "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_shotgun3.ogg" ]
     },
@@ -30,6 +31,7 @@
 
   "primaryAbility" : {
     "name" : "Plasmic Barrage",
+    "description" : "Cover your target in plasma! Press the button for a 4-shot semiauto burst of plasma, hold to wind a Plasmar - a powerful plasma charge.",
 
     "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10,
 
@@ -74,5 +76,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

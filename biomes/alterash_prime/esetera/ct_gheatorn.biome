@@ -1,6 +1,8 @@
 {
   "name" : "ct_gheatorn",
   "friendlyName" : "Gheatorn",
+  "description" : "Caves full of special poisonous crystals called ^#a7e001;gheatsyn^reset;. They grow right from the ground, resulting in weird strain-like rock formations called **gheatorn monuments**. Certain ^#a7e001;ghearun^reset; labs can be found here, built by ^#b0e0fc;alta^reset; geo-researchers.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_gheatsyn_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock" ],
 
@@ -36,7 +38,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -64,6 +66,10 @@
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_gheatsynChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_gheatsynChest" ]
       }
     ]
   },
@@ -78,7 +84,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -106,6 +112,10 @@
       {
         "mode" : "background", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [1.0, "ct_gheatsyn_crystal" ] ], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_gheatsynChest" ]
       },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",

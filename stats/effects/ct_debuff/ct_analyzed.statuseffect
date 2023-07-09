@@ -1,6 +1,7 @@
 {
   "name" : "ct_analyzed",
   "label" : "Analyzed",
+  "description" : "Decreases your defense by 3.",
   "effectConfig" : {
     "statName" : "protection",
     "statAmount" : -3,

@@ -1,10 +1,10 @@
 {
   "itemName" : "ctpie",
-  "rarity" : "Rare",
-  "price" : 760,
+  "level" : 5, "rarity" : "Rare", "price" : 760,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctpie.png",
-  "description" : "Runeva alta cuisine. Nice addition to the gil-tsay stew.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. Nice addition to the gil-tsay stew.",
   "shortdescription" : "Aya-Gil Pie",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 40,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 3.0,
   "blockingEffects" : [
     "wellfed"
@@ -26,8 +26,8 @@
   "variants" : [
     {
       "shortdescription" : "Runeva Pie",
-      "description" : "Runeva alta cuisine. A carefully crafted pie from peak-ripe ayas and gils.",
-      "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A carefully crafted pie from peak-ripe ayas and gils.",
+      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50
     }
   ]
 }

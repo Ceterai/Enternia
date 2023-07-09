@@ -1,10 +1,10 @@
 {
   "itemName" : "ctayajam",
-  "rarity" : "Common",
-  "price" : 280,
+  "level" : 2, "rarity" : "Common", "price" : 280,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctayajam.png",
-  "description" : "Runeva alta cuisine. Pure jam from baked ayas. Good for pancakes.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. Pure jam from baked ayas. Good for pancakes.",
   "shortdescription" : "Aya Jam",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Runeva Jam",
-      "description" : "Runeva alta cuisine. The purest jam from best baked ayas. Excellent for pancakes!",
-      "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. The purest jam from best baked ayas. Excellent for pancakes!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
     }
   ]
 }

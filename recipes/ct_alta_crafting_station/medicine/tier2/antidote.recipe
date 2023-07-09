@@ -1,11 +1,12 @@
 {
   "input" : [
     { "item" : "venomsample", "count" : 1 },
-    { "item" : "bottle", "count" : 1 }
+    { "item" : "ct_yaara_root", "count" : 1 },
+    { "item" : "bottle", "count" : 2 }
   ],
   "output" : {
     "item" : "antidote",
-    "count" : 1
+    "count" : 2
   },
-  "groups" : [ "alta_tier2", "medicine", "all" ]
+  "groups" : [ "alta_t2+", "medicine", "all" ]
 }

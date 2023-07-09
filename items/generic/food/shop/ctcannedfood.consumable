@@ -1,26 +1,21 @@
 {
   "itemName" : "ctcannedfood",
-  "rarity" : "Uncommon",
-  "price" : 320,
-  "category" : "food",
-  "inventoryIcon" : "ctcannedfood.png",
-  "description" : "The best combination of boiled ayas, some fresh gils and cooked tsays.",
   "shortdescription" : "Canned Altasoup",
-  "foodValue" : 30,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "description" : "The best combination of boiled ayas, some fresh gils and cooked tsays.",
+  "level" : 3, "rarity" : "Uncommon", "price" : 320,
+  "race" : "alta",
+  "inventoryIcon" : "ctcannedfood.png",
+  "category" : "food", "tooltipKind" : "ct_alta_consumable", "foodValue" : 30, "maxStack" : 1,
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "blockingEffects" : [ "wellfed" ],
 
   "variants" : [
     {
       "shortdescription" : "Canned Altasoup Extra Size",
       "description" : "This extra size can contains 50% more tastiness!",
-      "rarity" : "Rare", "price" : 520, "foodValue" : 50
+      "level" : 4, "rarity" : "Uncommon", "price" : 520, "foodValue" : 50
     }
   ]
 }

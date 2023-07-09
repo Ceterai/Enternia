@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Door",
-  "description" : "A plain gheatsyn glass door.",
+  "description" : "A plain ^#a7e001;gheatsyn^reset; glass door.",
   "altaDescription" : "Liquifying and re-crystallizing gheatsyn allows to create sturdy, yet thin and still mostly transparent crystal panels. Neat.",
 
   "apexDescription" : "This is a glass door.",
@@ -21,7 +21,6 @@
 
   "inventoryIcon" : "icon.png",
 
-  "tooltipKind" : "door",
   "largeImage" : "ct_door.png:right",
    
   "orientations" : [
@@ -57,5 +56,7 @@
   "animationPosition" : [-16, 0],
 
   "inputNodes" : [ [0, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

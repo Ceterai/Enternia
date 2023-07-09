@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_iso_jam",
-  "rarity" : "Common",
-  "price" : 280,
+  "level" : 2, "rarity" : "Common", "price" : 280,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_iso_jam.png",
-  "description" : "Nia alta cuisine. A great way to prepare nia treats is with a good amount of cold izoslime jam.",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A great way to prepare nia treats is with a good amount of cold izoslime jam.",
   "shortdescription" : "Izo Jam",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Cryo Jam",
-      "description" : "Nia alta cuisine. This iso jam turned out colder and purer than usual. Some say it tastes much better this way.",
-      "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. This iso jam turned out colder and purer than usual. Some say it tastes much better this way.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
     }
   ]
 }

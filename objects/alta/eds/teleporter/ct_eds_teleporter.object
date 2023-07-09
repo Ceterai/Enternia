@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 3000,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Teleporter",
-  "description" : "A personal teleporter, connects to bookmarked locations.\n^red;Destroyed when broken.",
+  "shortdescription" : "^#f02020;EDS^reset; Teleporter",
+  "description" : "A personal ^#f02020;EDS^reset; teleporter, connects to bookmarked locations. This doesn't seem to be ^#b0e0fc;alta^reset; technology.",
   "altaDescription" : "A piece of acquired tech with EDS markings on it. Lets you beam in and out pretty quickly.",
 
   "apexDescription" : "A personal teleporter. A functional but fun piece of equipment.",
@@ -61,5 +61,7 @@
     "preciseStandPositionLeft" : [0, 0.0],
     "preciseStandPositionRight" : [0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

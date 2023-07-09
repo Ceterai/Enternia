@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "breakable",
   "price" : 60,
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "race" : "generic",
 
   "shortdescription" : "Hanging Ayaka Sap Blob",
@@ -33,5 +33,7 @@
   "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
   "smashDropPool" : "ct_smashable_sap_blob_small",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -5,11 +5,11 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   // "scannable" : false,
 
   "shortdescription" : "Gheatsyn Dripping Crystal",
-  "description" : "A crystal slowly dripping itself on the ground. Alta-scan for more.",
+  "description" : "A ^#a7e001;gheatsyn^reset; crystal slowly dripping itself on the ground.",
   "altaDescription" : "This is big enough to drop some neat gheatsyn shards.",
 
   "smashable" : true,
@@ -51,5 +51,7 @@
       "anchors" : [ "top" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

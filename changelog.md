@@ -1,5 +1,75 @@
 # Changelog
 
+## Update 2.0 - The Alta Race
+
+### 2.0.0
+
+The Altas are finally here! What secrets do whey hold? Will they share them... with you?  
+They absoultely will! Among tons of interesting information, you got new weapon blueprints, as well as more details about other already known equipment, even proper food recipes!  
+It seems you have also got a hold of some weird pods labeled "GSR". I wonder what's inside...
+
+**Main:**
+
+- created Mod Wiki. Find it here: https://github.com/Ceterai/Enternia/wiki;
+- the Wiki contains in-detail info about pretty much everything in the mod, from items/objects/monsters to effects, biomes, weather and even worldbuilding concepts/lore;
+- the Wiki also includes extensive info for modders wanting to create mods on top of this mod;
+
+- added full support for the [Improved Food Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=731354142) addon;
+- added full support for the [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) addon;
+- added full support for the [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) addon;
+
+- added much more detailed GUI tooltips to many types of items:
+  - weapon/shield tooltips now include more stats, element icons (shields too), full description, ability names and description, and whether it can be upgraded to anything;
+  - armor/clothing/backpack/epp tooltips now have more slots for abilities and display them properly, as well as show upgrades if any;
+  - drone spawners now include monster stats, resistances, ability names & descriptions and upgrades if any;
+  - object tooltips now include health, list of colony tags, light color (if any) and a separate warning if the object doesn't drop itself;
+  - all new tooltips include stuff like level and race;
+  - all descriptions are color-coded with highlights;
+  - new tooltips only apply to items added by this mod.
+- added 8 ranged wrist weapons and 8 unique ranged weapons (4 WIPs);
+- added 24 melee weapons (WIP): 8 light, 8 heavy and 8 spears;
+- added perfectly cooked versions to all food items added by the mod;
+
+**Alta:**
+
+- added **Altas** as a playable race! Right now with placeholder ship and mechs, as well as no npcs/tenants and no dungeons;
+
+- added **GSR pods** - loot crates that contain materials and rare weapons that you can't find anywhere else! (except for t6 crafting table);
+
+- revamped [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station) to encourage exploration and make progression smoother:
+  - now has 9 levels instead of 6: 2 T3 levels, 2 T4, 2 T5, 2 T6 and 1 final creative level with recipes for every item in the mod;
+  - only levels 3, 5 & 7 require codexes to upgrade. Levels 2, 4, 6 & 8 only require resources found on planets added by the mod;
+  - levels 2, 4, 6 & 8 are "sub-tiers" - they reveal improved stuff from the previous tier, as well as cosmetics, throwables, augments, etc.;
+  - levels 1 & 2 contain T3 stuff, levels 3 & 4 - T4 stuff, levels 5 & 6 - T5 stuff, levels 7 & 8 - T6 stuff.
+
+**Other:**
+
+- added upgrades to one of the armor sets;
+- added custom **item builder** and **object builder**! They support and provide proper tooltips for:
+  - item params:
+    - level, price (leveled), price (fixed), race, element;
+    - all damage params (leveled & fixed): damage/shot, energy/shot, firerate, dps, eps, damage/energy;
+    - all shield params (leveled & fixed): health, knockback, eps, parry time, min time, cooldown time;
+    - primary, secondary and passive abilities, as well as weapon upgrades (on any item, not just weapons);
+    - works for almost any item type, including weapons, throwables, generics, shield, custom active items, codexes, etc.;
+  - object params:
+    - all mentioned above (object builder expands item builder);
+    - all basic object params: health, slots, light color, colony tags, warning if the object doesn't drop itself;
+    - damage params for traps, including damage element;
+- added informative yet concise visuals to the mod's description;
+- added custom minibiome chests to almost every biome added by the mod (see [Loot Crates](https://github.com/Ceterai/Enternia/wiki/Loot-Items#Loot-Crate-Items));
+- biomes that remain without custom loot are: Poptop Valley, Snowy Ridges, Alterash Caves, Deep Alterash Caves, Electric Crystal Caves, Starforest, Antorash Plains, Obsidian Depths, Starfields, Alterash Core, Hidden Alta Labs, Alta Lab Debris, Alta Prime Labs;
+- the Hive minibiome can no longer spawn on Alterash planets;
+- improved other weapons and armor;
+- rebalanced pricing on a lot of items;
+- fixed alt abilities for some weapons;
+- fixed projectiles for some weapons;
+- fixed chars and pricing of some armors;
+- fixed some recipes, moved them to proper places;
+- moved some old weapons to deprecated and removed their recipes;
+- removed some of the oldest deprecated items;
+- minor bug fixes.
+
 ## Update 1.7 - Imperial Arsenal
 
 ### 1.7.1

@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 4 },
-    { "item" : "prisiliteore", "count" : 1 },
-    { "item" : "titaniumbar", "count" : 4 }
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_datamass", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_scout_velocity_eaters", "count" : 1 },
-  "groups" : [ "alta_tier1", "tier3_scout", "armor", "legs", "all" ]
+  "groups" : [ "alta_t1", "tier3_scout", "armor", "legs", "all" ]
 }

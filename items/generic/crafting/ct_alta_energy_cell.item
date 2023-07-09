@@ -1,13 +1,15 @@
 {
   "itemName" : "ct_alta_energy_cell",
   "shortdescription" : "Energy Cell",
-  "description" : "This medium-capacity energy cell was developed by Tserera scientists and is designed to power various alta devices.",
+  "description" : "This medium-capacity energy cell was developed by Tserera scientists and is designed to power various ^#b0e0fc;alta^reset; devices.",
+  "race" : "alta",
 
-  "price" : 120,
-  "rarity" : "Uncommon",
+  "level" : 4, "price" : 40, "rarity" : "Uncommon",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "energy_source", "alta", "alternia" ], "tooltipKind" : "ct_alta_item_long",
 
-  "inventoryIcon" : "ct_alta_energy_cell.png"
+  "inventoryIcon" : "ct_alta_energy_cell.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

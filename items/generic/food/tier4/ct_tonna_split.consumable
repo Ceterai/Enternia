@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_tonna_split",
-  "rarity" : "Legendary",
-  "price" : 1000,
+  "level" : 6, "rarity" : "Legendary", "price" : 1000,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_tonna_split.png",
-  "description" : "Nia alta cuisine. An exquisite arrangement that tickles your visual, smelling and tasting receptors!",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. An exquisite arrangement that tickles your visual, smelling and tasting receptors!",
   "shortdescription" : "Tonna Split",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 55,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,22 +30,22 @@
     {
       "chance" : 0.3,
       "shortdescription" : "Tonna Split Extra",
-      "description" : "Nia alta cuisine. A tonna split with extra toppings! Doudble the sweetness, double the effect.",
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A tonna split with extra toppings! Doudble the sweetness, double the effect.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_extra.png",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 428 }, { "effect" : "maxenergyscalingboostfood", "duration" : 428 } ] ]
     },
     {
       "chance" : 0.2,
       "shortdescription" : "Tonna Split Mega",
-      "description" : "Nia alta cuisine. Perhaps this is the most topping one can fit on a single dish. This tonna split will taste like no other.",
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Perhaps this is the most topping one can fit on a single dish. This tonna split will taste like no other.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_mega.png",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 546 }, { "effect" : "maxenergyscalingboostfood", "duration" : 546 } ] ]
     },
     {
       "chance" : 0.1,
       "shortdescription" : "Split Surprize ^#8020f0;^reset;",
-      "description" : "Nia alta cuisine. You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
-      "rarity" : "Legendary", "price" : 1300, "foodValue" : 70
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1300, "foodValue" : 70
     }
   ]
 }

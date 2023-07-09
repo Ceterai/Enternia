@@ -1,16 +1,14 @@
 {
   "name" : "ct_crystal_fall",
+  "description" : "Crystals are falling from the sky! Some say it's stardust crystals, transformed by the ^#8020f0;ionic^reset; atmosphere of the planet. These crystals deal damage and apply ^#20f080;Pulse Paralysis^reset;. Be careful!",
+  "threat" : 1.0,
 
   "projectiles" : [
     {
-      "projectile" : "ct_crystal_shard",
-      "parameters" : {
-        "power" : 6
-      },
-      "velocity" : [0, -30],
-      "ratePerX" : 0.1,
-      "spawnAboveRegion" : 30,
-      "spawnHorizontalPad" : 30,
+      "projectile" : "ct_calin_crystal",
+      "parameters" : { "power" : 6 },
+      "velocity" : [0, -30], "ratePerX" : 0.08,
+      "spawnAboveRegion" : 30, "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     }
   ],

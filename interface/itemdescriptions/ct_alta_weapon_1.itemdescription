@@ -1,0 +1,264 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [102, 30],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label", "position" : [115, 30],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [70, 30],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [90, 30],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+
+
+  "healthTitleLabel" : {
+    "type" : "label", "position" : [85, 150],
+    "hAnchor" : "left", "value" : ""
+  },
+  "healthLabel" : {
+    "type" : "label", "position" : [135, 150],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "cooldownTitleLabel" : {
+    "type" : "label", "position" : [85, 132],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "cooldownLabel" : {
+    "type" : "label", "position" : [135, 132],
+    "hAnchor" : "right",
+    "fontSize" : 7, "value" : ""
+  },
+
+  "knockbackTitleLabel" : {
+    "type" : "label", "position" : [85, 123],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "knockbackLabel" : {
+    "type" : "label", "position" : [135, 123],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "minTimeTitleLabel" : {
+    "type" : "label", "position" : [85, 114],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 7, "value" : ""
+  },
+  "minTimeLabel" : {
+    "type" : "label", "position" : [135, 114],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "perfectTimeTitleLabel" : {
+    "type" : "label", "position" : [85, 105],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "perfectTimeLabel" : {
+    "type" : "label", "position" : [135, 105],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+
+  "heavyTitleLabel" : {
+    "type" : "label", "position" : [85, 96],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 7, "value" : ""
+  },
+  "heavyLabel" : {
+    "type" : "label", "position" : [135, 96],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+
+
+
+  "dpsTitleLabel" : {
+    "type" : "label", "position" : [85, 150],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 8, "value" : ""
+  },
+  "dpsLabel" : {
+    "type" : "label", "position" : [135, 150],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+  "energyTitleLabel" : {
+    "type" : "label", "position" : [85, 141],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 8, "value" : ""
+  },
+  "energyLabel" : {
+    "type" : "label", "position" : [135, 141],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+  "fireRateTitleLabel" : {
+    "type" : "label", "position" : [85, 132],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 7, "value" : ""
+  },
+  "fireRateLabel" : {
+    "type" : "label", "position" : [135, 132],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+
+  "damagePerShotTitleLabel" : {
+    "type" : "label", "position" : [85, 123],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "damagePerShotLabel" : {
+    "type" : "label", "position" : [135, 123],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+  "energyPerShotTitleLabel" : {
+    "type" : "label", "position" : [85, 114],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "energyPerShotLabel" : {
+    "type" : "label", "position" : [135, 114],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+  "damagePerEnergyTitleLabel" : {
+    "type" : "label", "position" : [85, 105],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 7, "value" : ""
+  },
+  "damagePerEnergyLabel" : {
+    "type" : "label", "position" : [135, 105],
+    "hAnchor" : "right",
+    "fontSize" : 8,
+    "wrapWidth" : 126, "value" : ""
+  },
+
+  "handednessLabel" : {
+    "type" : "label", "position" : [14, 152],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 122, "fontSize" : 6
+  },
+
+
+
+  "descriptionLabel" : {
+    "type" : "label", "position" : [12, 83],
+    "hAnchor" : "left",
+    "vAnchor" : "mid",
+    "fontSize" : 6,
+    "wrapWidth" : 130
+  },
+
+  "primaryAbilityTitleLabel" : {
+    "type" : "label", "position" : [14, 61],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "primaryAbilityLabel" : {
+    "type" : "label", "position" : [136, 61],
+    "hAnchor" : "right",
+    "fontSize" : 7,
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+  "altAbilityTitleLabel" : {
+    "type" : "label", "position" : [14, 54],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "altAbilityLabel" : {
+    "type" : "label", "position" : [136, 54],
+    "hAnchor" : "right",
+    "fontSize" : 7,
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+  "upgradeTitleLabel" : {
+    "type" : "label", "position" : [14, 47],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "upgradeLabel" : {
+    "type" : "label", "position" : [136, 47],
+    "hAnchor" : "right",
+    "fontSize" : 7,
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+
+
+  "rarityLabel" : {
+    "type" : "label", "position" : [12, 30],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [75, 110],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [47, 130],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [60, 60],
+    "minSize" : [60, 60]
+  },
+  "title" : {
+    "type" : "label", "position" : [35, 179],
+    "hAnchor" : "left", "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label", "position" : [35, 169],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178], "value" : ""
+  },
+  "raceLabel" : {
+    "type" : "label", "position" : [135, 169],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 122
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  }
+
+}

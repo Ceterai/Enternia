@@ -1,6 +1,7 @@
 {
   "name" : "ct_autoshielder_force",
   "label" : "Force Field Autoshielder",
+  "description" : "Applies ^#2080f0;Force Shield^reset; to you when your health is lower than 20%.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {

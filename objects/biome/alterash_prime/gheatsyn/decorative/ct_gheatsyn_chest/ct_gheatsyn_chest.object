@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_gheatsyn_chest",
   "colonyTags" : [ "crystal", "gheatsyn", "storage" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Chest",
-  "description" : "A simple dark gheatsyn chest.",
+  "description" : "A simple dark ^#a7e001;gheatsyn^reset; chest.",
   "altaDescription" : "This blast resistant storage unit uses crystals as a lock mechanism. Electrifiyng gheatsyn forces it to liquify, unlocking it.",
 
   "apexDescription" : "A gheatsyn chest.",
@@ -38,5 +38,7 @@
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

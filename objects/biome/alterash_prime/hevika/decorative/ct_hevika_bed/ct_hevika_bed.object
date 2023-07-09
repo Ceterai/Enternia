@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Hevika Bed",
-  "description" : "A titanium bedding on a reinforced stand with alternia crystals under the top.",
+  "description" : "A titanium bedding on a reinforced stand with ^#0050c0;alternia crystals^reset; under the top.",
   "altaDescription" : "Beds like this one can often be found in labs and tech clinics. It has life support tech, hence the power source.",
 
   "apexDescription" : "A pretty crystal bed, solid and very comfy.",
@@ -52,5 +52,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

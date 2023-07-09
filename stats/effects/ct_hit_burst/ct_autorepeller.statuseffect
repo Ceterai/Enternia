@@ -1,6 +1,7 @@
 {
   "name" : "ct_autorepeller",
   "label" : "Autorepeller",
+  "description" : "Launches an ^#20f080;impulse^reset; wave around you whenever you're hit.",
   "icon" : "ct_autorepeller.png",
   "scripts" : [ "ct_hit_burst.lua" ],
   "blockingStat" : "emiJam",

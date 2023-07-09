@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Nivera-Overgrown Geyser",
   "description" : "A small geyser wrapped in growing nivera vines.",
@@ -27,5 +27,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

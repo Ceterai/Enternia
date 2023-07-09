@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatorn Horns",
-  "description" : "Found in esetera on some alterash prime planets, gheatsyn crystals are growing inside rocks. Alta-scan for more.",
+  "description" : "Found in esetera on some alterash prime planets, ^#a7e001;gheatsyn^reset; crystals are growing inside rocks. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "This rock can be destroyed to extract some gheatsyn, though the preferable way is to slowly catch the drops.",
 
   "apexDescription" : "A stone that chimes when I get close to it.",
@@ -41,5 +41,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

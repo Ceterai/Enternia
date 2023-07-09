@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "ct_stardust", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_enchanted_chest", "count" : 1 },
+  "groups" : [ "alta_constructor6", "enchanted", "vionostera", "vionos", "storage", "all" ]
+}

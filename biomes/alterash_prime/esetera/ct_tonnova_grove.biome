@@ -1,6 +1,8 @@
 {
   "name" : "ct_tonnova_grove",
   "friendlyName" : "Tonnova Grove",
+  "description" : "This land is lit by all the ^#c1ebf8;tonnova^reset; springs and trees. Watch out for falling ^#c1ebf8;tonnas^reset;!\n\nTonnova Groves are great mining sources of ^#299fc5;bionid^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "moonstone" ],
 
@@ -39,7 +41,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -70,6 +72,10 @@
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_bionidChest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bionidChest" ]
       }
     ]
   },
@@ -84,7 +90,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -102,6 +108,10 @@
         "treeStemList" : [ "ct_tonnova_stem", "ct_tonnova_spiral_stem", "ct_tonnova_wide_stem" ], "treeFoliageList" : [ "ct_tonnova_blob", "ct_tonnova_bulb" ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bionidChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_bionidChest" ]

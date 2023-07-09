@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 20,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Verriskoywa Faro Flower",
   "description" : "Tall, yellow reed flower.",
@@ -36,5 +36,7 @@
     [ ["ct_verriskoywa_faro", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

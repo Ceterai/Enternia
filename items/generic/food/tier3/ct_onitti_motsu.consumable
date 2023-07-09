@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_onitti_motsu",
-  "rarity" : "Rare",
-  "price" : 840,
+  "level" : 5, "rarity" : "Rare", "price" : 840,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_motsu.png",
-  "description" : "Yava alta cuisine. A very nutritious herb soup.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A very nutritious herb soup.",
   "shortdescription" : "Onitti Motsu Soup",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Onitti Motsu",
-      "description" : "Yava alta cuisine. An exceptionally nutritious motsu from pristine yava ingredients.",
-      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. An exceptionally nutritious motsu from pristine yava ingredients.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
   ]
 }

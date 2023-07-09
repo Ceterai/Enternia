@@ -1,0 +1,17 @@
+{
+  "projectileName" : "ct_calin_crystal",
+  "shortdescription" : "Calin Crystal Charge",
+  "image" : "ct_calin_crystal.png",
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [ { "action" : "config", "file" : "/projectiles/simple/ct_crystals/ct_crystal.config" } ],
+  "power" : 12.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  // "damagePoly" : [ [-15, -15], [15, -15], [15, 15], [-15, 15] ],
+
+  "flippable" : true,
+  "statusEffects" : [ "paralysis" ]
+}

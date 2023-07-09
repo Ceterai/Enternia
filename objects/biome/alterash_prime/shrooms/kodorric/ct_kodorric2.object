@@ -1,0 +1,57 @@
+{
+  "objectName" : "ct_kodorric2",
+  "colonyTags" : ["alterash_prime", "nature", "kodorric", "shroom"],
+  "rarity" : "Common",
+  "race" : "generic",
+
+  "shortdescription" : "Kodorric Shroom",
+  "description" : "A toxic glowing oshroom.",
+  "altaDescription" : "This kodorric is full of healthy biosamples.",
+
+  "apexDescription" : "This is a gently lit oshroom.",
+  "avianDescription" : "This little oshroom doubles up as a little light.",
+  "floranDescription" : "Light looksss like a ssstrange bubble.",
+  "glitchDescription" : "Curious. A type of glowing fungus.",
+  "humanDescription" : "This glowing plant is strangely pretty.",
+  "hylotlDescription" : "This oshroom casts a beautiful light like a gentle blanket around it.",
+  "novakidDescription" : "An glowin' plant. Its light is welcome.",
+
+  "category" : "light",
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+
+  "lightColor" : [32, 72, 40],
+
+  "inventoryIcon" : "ct_kodorric2.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "ct_kodorric2.png", "fullbright" : true }, { "image" : "ct_kodorric2lit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2.5]
+    },
+    {
+      "imageLayers" : [ { "image" : "ct_kodorric2.png", "fullbright" : true }, { "image" : "ct_kodorric2lit.png" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2.5]
+    }
+  ],
+
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 5, "particle" : "toxicoshroomshard" } ],
+  "smashDropOptions" : [
+    [ [ "toxicwaste", 1, { } ], [ "biosample", 1, { } ] ],
+    [ [ "toxicwaste", 1, { } ] ],
+    [ [ "toxicwaste", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+}

@@ -6,7 +6,7 @@
   "description" : "A natural source of salt, wow.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
   "shortdescription" : "^red;Outdated^reset; Gil Seeds",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 20,
 
   "apexDescription" : "Tastes like a tomato with spices.",
@@ -19,7 +19,6 @@
 
   "inventoryIcon" : "/objects/farmables/gil/icon.png",
 
-  "tooltipKind" : "seed",
   "largeImage" : "/objects/farmables/gil/body.png:default.3.0",
 
   "orientations" : [
@@ -56,5 +55,7 @@
     }
   ],
 
-  "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

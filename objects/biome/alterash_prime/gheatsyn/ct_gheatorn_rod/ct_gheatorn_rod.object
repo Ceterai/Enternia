@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatorn Rod",
-  "description" : "These formations rise right from the ground in a slow bursting manner. Alta-scan for more.",
+  "description" : "These ^#a7e001;gheatsyn^reset; formations rise right from the ground in a slow bursting manner. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "What's left from a gheatsyn crystal growing inside of moonrock. I can break it to harvest some gheatsyn.",
 
   "apexDescription" : "A stone that chimes when I get close to it.",
@@ -41,5 +41,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

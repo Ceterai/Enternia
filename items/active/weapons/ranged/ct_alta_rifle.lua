@@ -51,7 +51,7 @@ function AltaSwitchAttachments:toggle()
   if config.getParameter('attachment') == 'flashlight' then
     animator.setLightActive("flashlight", true)
     animator.setLightActive("flashlightSpread", true)
-    animator.setGlobalTag("flashlight", "/items/active/weapons/ranged/ct_alta_utils/flashlight.png")
+    animator.setGlobalTag("flashlight", "/items/active/weapons/ranged/ct_alta_abils/utils/flashlight.png")
   else
     animator.setLightActive("flashlight", false)
     animator.setLightActive("flashlightSpread", false)
@@ -60,7 +60,7 @@ function AltaSwitchAttachments:toggle()
 
   if config.getParameter('attachment') == 'laserpointer' or config.getParameter('attachment') == 'laser' then
     animator.setLightActive("laser", true)
-    animator.setGlobalTag("laser", "/items/active/weapons/ranged/ct_alta_utils/laser.png")
+    animator.setGlobalTag("laser", "/items/active/weapons/ranged/ct_alta_abils/utils/laser.png")
     activeItem.setScriptedAnimationParameter('beams', { self.lazerParams })
   else
     animator.setLightActive("laser", false)
@@ -70,14 +70,14 @@ function AltaSwitchAttachments:toggle()
 
   if config.getParameter('attachment') == 'stabilizer' then
     activeItem.setInstanceValue('stabilizerBonus', 1.25)
-    animator.setGlobalTag("stabilizer", "/items/active/weapons/ranged/ct_alta_utils/stabilizer.png")
+    animator.setGlobalTag("stabilizer", "/items/active/weapons/ranged/ct_alta_abils/utils/stabilizer.png")
   else
     activeItem.setInstanceValue('stabilizerBonus', 1.0)
     animator.setGlobalTag("stabilizer", "")
   end
 
   if config.getParameter('attachment') == 'legs' then
-    animator.setGlobalTag("legs", "/items/active/weapons/ranged/ct_alta_utils/legs.png")
+    animator.setGlobalTag("legs", "/items/active/weapons/ranged/ct_alta_abils/utils/legs.png")
   else
     animator.setGlobalTag("legs", "")
   end

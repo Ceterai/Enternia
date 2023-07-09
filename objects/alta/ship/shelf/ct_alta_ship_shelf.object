@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Shelf",
   "description" : "A small reinforsed shelf piece that can be used as storade of walking bridge.",
@@ -30,5 +30,7 @@
       "collision" : "platform"
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

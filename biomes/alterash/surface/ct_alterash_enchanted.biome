@@ -1,12 +1,13 @@
 {
   "name" : "ct_alterash_enchanted",
   "friendlyName" : "Enchanted Meadows",
+  "description" : "Vionostera, or enchanted land, is an almost magical place full of mystical things, hence the name.  \nBlue fields of dense grass with pink tops of [[ blossoming ayakas|Blossoming Ayaka ]], [[ enchanted orbs|Enchanted Chest ]] and rare ^#8080f0;beakseed^reset; bushes showing above the surface.  \nUnder the ground there are glowing [[ enchanted bushes|enchanted bush ]], lighting up the caves with pink bioluminescense.\n\nThis place looks almost magical, even though this kind of view is a somewhat common thing for the ionized temperate climate.  \nAt its core, this place is an anomaly, caused by high concentration of conflicting energies.\n\nA much rarer variation of this biome is called ^#f080f0;Invertia^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "cloudblock" ],
   "ores" : "prismore",
 
   "hueShiftOptions" : [0],
-  "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
   "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
 
   "spawnProfile" : {
@@ -17,42 +18,6 @@
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"prismelementalcritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
     ]
   },
-
-  "skyOptions" : [
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [242, 120, 0], [255, 230, 176] ],
-      "dayColors" : [ [115, 224, 255], [255, 255, 255] ],
-      "eveningColors" : [ [125, 17, 158], [210, 52, 50] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [160, 120, 180],
-      "nightLightColor" : [40, 20, 60]
-    },
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [0, 24, 55], [255, 140, 49] ],
-      "dayColors" : [ [176, 115, 255], [255, 255, 255] ],
-      "eveningColors" : [ [100, 86, 173], [0, 222, 73] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [160, 120, 180],
-      "nightLightColor" : [40, 20, 60]
-    },
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [197, 48, 174], [253, 161, 96] ],
-      "dayColors" : [ [255, 116, 122], [255, 255, 255] ],
-      "eveningColors" : [ [88, 42, 91], [175, 20, 50] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [180, 120, 120],
-      "nightLightColor" : [40, 20, 60]
-    }
-  ],
 
   "ambientNoises" : {
     "day" : { "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ] },
@@ -74,7 +39,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
@@ -95,8 +60,12 @@
         "grasses" : [ "grass", "testflower", "testflower2", "testflower3", "testflower4", "testflower5", "testflower6", "testflower7" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "bush",
         "bushes" : [ { "name" : "ct_valley_bush", "baseHueShiftMax" : 0, "modHueShiftMax" : 0, "baseHueShiftMin" : 0, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "bush",
+        "bushes" : [ { "name" : "ct_valley_bush", "baseHueShiftMax" : -105, "modHueShiftMax" : 0, "baseHueShiftMin" : -105, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "tree",
@@ -108,6 +77,10 @@
         "objectSets" : [ { "pool" : [ [1, "wildbeakseedseed" ] ], "parameters" : { "startingStage" : 2 } } ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_enchanted_chest" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_enchanted_chest" ]
@@ -130,7 +103,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -155,7 +128,23 @@
       },
       // Other
       {
-        "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "object",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 40, "modHueShiftMax" : 0, "baseHueShiftMin" : 40, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "bush",
+        "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 90, "modHueShiftMax" : 0, "baseHueShiftMin" : 90, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_enchanted_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_enchanted_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 3, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.35, "prismrock1" ], [0.35, "prismrock2" ], [0.35, "prismrock3" ] ], "parameters" : { } } ]
       }
     ]

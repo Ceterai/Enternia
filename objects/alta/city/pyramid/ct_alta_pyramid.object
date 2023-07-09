@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 600,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Pyramid",
   "description" : "A pyramid-like alterash structure.",
@@ -29,5 +29,7 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

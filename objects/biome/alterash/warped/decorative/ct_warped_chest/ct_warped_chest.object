@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_warped_chest",
   "colonyTags" : ["warped", "storage"],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 100,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Chest",
   "description" : "A chest-like growth with a natural compartment perfectly fit for some loot.",
@@ -36,5 +36,7 @@
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

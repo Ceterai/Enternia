@@ -6,7 +6,7 @@
   "level" : 4, "rarity" : "Rare",  "price" : 0,
   "itemTags" : ["weapon", "melee", "spear", "upgradeableWeapon"],
   "twoHanded" : true, "maxStack" : 1, "aimOffset" : -1.0,
-  "category" : "spear", "tooltipKind" : "sword", "elementalType" : "electric",
+  "category" : "spear", "tooltipKind" : "ct_alta_weapon_2", "elementalType" : "electric",
 
   "inventoryIcon" : "asirai.png",
   "animation" : "default.animation",
@@ -136,7 +136,7 @@
 
 
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters":{
     "rarity" : "Legendary",

@@ -2,13 +2,13 @@
   "objectName" : "ct_eds_lamppost",
   "colonyTags" : ["alta", "eds", "light"],
   "category" : "light",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "rarity" : "Uncommon",
   "price" : 160,
   "race" : "alta",
 
-  "shortdescription" : "EDS Lamppost",
-  "description" : "An advanced reinforced lamppost. Designed to be seen from long distances in dark and foggy environments.",
+  "shortdescription" : "^#f02020;EDS^reset; Lamppost",
+  "description" : "An advanced reinforced ^#f02020;EDS^reset; lamppost. Designed to be seen from long distances in dark and foggy environments.",
   "altaDescription" : "An EDS lamp. Bright yellow light on a tall post can be seen from afar. Helpful.",
 
   "apexDescription" : "Tall and thin, provides high area of visibility.",
@@ -68,5 +68,7 @@
 
   "inputNodes" : [ [0, 3] ],
 
-  "interactive" : false
+  "interactive" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

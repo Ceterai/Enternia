@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_elite_stunner",
+  "shortdescription" : "Elite Stunner ^#8020f0;^reset; ^red;WIP^reset;",
+  "description" : "An ^#20f080;impulse^reset; spear used by elite ^#b0e0fc;alta^reset; forces to deal with threats.",
+  "elementalType" : "physical",
+  "level" : 6, "price" : 800, "rarity" : "Legendary", "race" : "alta",
+  "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "spear", "alta", "plasma" ],
+
+  "inventoryIcon" : "ct_elite_stunner.png",
+  "animation" : "/items/active/weapons/melee/ct_alta_melee.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_elite_stunner.png" },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

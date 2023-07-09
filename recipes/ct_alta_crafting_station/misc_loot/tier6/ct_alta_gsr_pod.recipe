@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_stardust", "count" : 16 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_gsr_pod", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "set", "all" ]
+}

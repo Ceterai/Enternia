@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "ct_alta_energy_cell", "count" : 2 },
-    { "item" : "crystal", "count" : 2 },
-    { "item" : "titaniumbar", "count" : 10 }
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_docs_security-codex", "count" : 2 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_security_captain_helmet", "count" : 1 },
-  "groups" : [ "alta_tier3", "tier4_security", "armor", "head", "all" ]
+  "groups" : [ "alta_t2+", "tier4_security", "armor", "head", "all" ]
 }

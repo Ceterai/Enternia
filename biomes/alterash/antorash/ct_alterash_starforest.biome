@@ -1,7 +1,8 @@
 {
   "name" : "ct_alterash_starforest",
   "friendlyName" : "Starforest",
-  "statusEffects" : [ "ct_ionized_air" ],
+  "description" : "A colourful forest filled with ^#ffa8e8;stardust^reset; crystals. So much so even all the ayakas growing here are shining with different colors...",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier2.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -37,7 +38,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -64,6 +65,10 @@
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
         "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 120, "modHueShiftMax" : 0, "baseHueShiftMin" : 30, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_yaara", "baseHueShiftMax" : 100, "modHueShiftMax" : 0, "baseHueShiftMin" : 100, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
@@ -110,7 +115,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 2, "variants" : 4, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
@@ -129,6 +134,10 @@
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "bush",
         "bushes" : [ { "name" : "ct_crystal", "baseHueShiftMax" : 120, "modHueShiftMax" : 0, "baseHueShiftMin" : 30, "modHueShiftMin" : 0 } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "bush",
+        "bushes" : [ { "name" : "ct_yaara", "baseHueShiftMax" : 100, "modHueShiftMax" : 0, "baseHueShiftMin" : 100, "modHueShiftMin" : 0 } ]
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",

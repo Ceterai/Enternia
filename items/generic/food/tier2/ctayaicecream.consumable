@@ -1,10 +1,10 @@
 {
   "itemName" : "ctayaicecream",
-  "rarity" : "Uncommon",
-  "price" : 440,
+  "level" : 4, "rarity" : "Uncommon", "price" : 440,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctayaicecream.png",
-  "description" : "Runeva alta cuisine. One tasty snowcone, aya flavoured!",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. One tasty snowcone, aya flavoured!",
   "shortdescription" : "Aya Ice Cream",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Iced Aya Desert",
-      "description" : "Runeva alta cuisine. This is not any regular ice cream, this is a full desert with extra-sweetness!",
-      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This is not any regular ice cream, this is a full desert with extra-sweetness!",
+      "level" : 5, "rarity" : "Rare", "price" : 640, "foodValue" : 30
     }
   ]
 }

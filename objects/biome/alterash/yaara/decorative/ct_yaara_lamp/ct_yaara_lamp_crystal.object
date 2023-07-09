@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Crystal Flower",
   "description" : "A not-sunflower lamp covered in crystals. Looks like they grow right from the plant.",
@@ -66,5 +66,7 @@
 
   "inputNodes" : [ [0, 3] ],
 
-  "interactive" : false
+  "interactive" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

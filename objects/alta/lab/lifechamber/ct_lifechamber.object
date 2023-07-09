@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 640,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Life Chamber",
-  "description" : "A healing station made by altas. Provides additional positive effects.\n^red;Destroyed when broken.",
+  "description" : "A healing station made by ^#b0e0fc;altas^reset;. Provides additional positive effects.",
   "altaDescription" : "Ah, a checkpoint! I can rest here.",
 
   "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
@@ -56,5 +56,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ], "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

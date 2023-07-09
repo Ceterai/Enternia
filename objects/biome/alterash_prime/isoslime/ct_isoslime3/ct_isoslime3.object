@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoslime Deposit",
-  "description" : "A glob of slime.",
+  "description" : "A glob of ^#7ddcde;isoslime^reset;.",
   "altaDescription" : "A large isoslime deposit. Could contain a biosample or some fresh cryonic.",
 
   "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
@@ -34,5 +34,7 @@
   "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

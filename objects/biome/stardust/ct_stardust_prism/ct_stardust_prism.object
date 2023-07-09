@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 640,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Stardust Prism",
-  "description" : "This prism is packed with uncrystallized stardust. Can be destroyed to extract it.",
+  "description" : "This prism is packed with uncrystallized ^#ffa8e8;stardust^reset;. Can be destroyed to extract it.",
   "altaDescription" : "That large prism in the middle contains pure stardust. I can just break it to get it.",
 
   "apexDescription" : "Light is refracted as it passes through this prism.",
@@ -47,5 +47,7 @@
   "smashParticles" : [ { "count" : 10, "particle" : "mediumprismshard" }, { "count" : 20, "particle" : "mediumprismfineshard" } ],
   "smashDropOptions" : [
     [ [ "ct_stardust", 2, { } ], [ "prisiliteore", 3, { } ] ]
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

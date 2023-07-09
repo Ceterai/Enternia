@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Hevika Chair",
   "description" : "A mostly titanium chair with reinforced stand and a soft segmented back for comfort.",
@@ -31,5 +31,7 @@
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [2, 22]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

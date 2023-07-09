@@ -6,7 +6,8 @@
           "idle" : { "frames" : 1 }, "walk" : { "frames" : 5, "cycle" : 0.65, "mode" : "loop" },
           "jump" : { "frames" : 2, "cycle" : 1.6 }, "fall" : { "frames" : 2, "cycle" : 1.6 },
           "sleep" : { "frames" : 2, "cycle" : 1.6 }, "charged" : { "frames" : 4, "cycle" : 0.8 },
-          "run" : { "frames" : 5, "cycle" : 0.25, "mode" : "loop" }, "charge" : { "frames" : 5, "cycle" : 0.25, "mode" : "loop" }
+          "run" : { "frames" : 5, "cycle" : 0.25, "mode" : "loop" }, "charge" : { "frames" : 5, "cycle" : 0.25, "mode" : "loop" },
+          "fire" : { "frames" : 1 }, "firewindup" : { "frames" : 1 }, "firewinddown" : { "frames" : 1 }
         }
       },
       "damage" : { "priority" : 3, "default" : "none", "states" : { "none" : { "frames" : 1 }, "stunned" : { "frames" : 1 } }
@@ -31,7 +32,10 @@
             "sleep" : { "properties" : { "image" : "<partImage>:sleep.<frame>" } },
             "charged" : { "properties" : { "image" : "<partImage>:sleep.<frame>" } },
             "run" : { "properties" : { "image" : "<partImage>:walk.<frame>" } },
-            "charge" : { "properties" : { "image" : "<partImage>:walk.<frame>" } }
+            "charge" : { "properties" : { "image" : "<partImage>:walk.<frame>" } },
+            "fire" : { "properties" : { "image" : "<partImage>:idle.<frame>" } },
+            "firewindup" : { "properties" : { "image" : "<partImage>:idle.<frame>" } },
+            "firewinddown" : { "properties" : { "image" : "<partImage>:idle.<frame>" } }
           }
         }
       },
@@ -46,7 +50,10 @@
             "sleep" : { "properties" : { "image" : "<partImage>:idle.1" } },
             "charged" : { "properties" : { "image" : "<partImage>:idle.1" } },
             "run" : { "properties" : { "image" : "<partImage>:idle.1" } },
-            "charge" : { "properties" : { "image" : "<partImage>:idle.1" } }
+            "charge" : { "properties" : { "image" : "<partImage>:idle.1" } },
+            "fire" : { "properties" : { "image" : "<partImage>:idle.1" } },
+            "firewindup" : { "properties" : { "image" : "<partImage>:idle.1" } },
+            "firewinddown" : { "properties" : { "image" : "<partImage>:idle.1" } }
           },
           "damage" : {
             "stunned" : { "properties" : { "image" : "<partImage>:hurt.<frame>" } }
@@ -81,6 +88,21 @@
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/boss/apeboss_missile.ogg" ],
     "deathPuff" : [ "/sfx/npc/monsters/pod_release1.ogg" ],
-    "fire" : [ "/sfx/melee/giantsword_charge_full.ogg" ]
+    "fire" : [ "/sfx/melee/giantsword_charge_full.ogg" ],
+    "fireCharge" : [ "/sfx/tech/mech_activate2.ogg" ],
+    "altfire" : [ "/sfx/gun/plasma_ar1.ogg" ],
+    "altfireCharge" : [ "/sfx/melee/charge_up7.ogg" ],
+    "altfireCharged" : [ "/sfx/melee/elemental_spin_ice.ogg" ],
+
+    "cast" : [ "/sfx/gun/plasma_ar1.ogg" ],
+    "casting" : [ "/sfx/melee/charge_full_hold1.ogg" ],
+    "castCharge" : [ "/sfx/melee/charge_combo4.ogg" ],
+    "casted" : [ "/sfx/melee/giantsword_charge_full.ogg" ],
+
+    "charge" : [ "/sfx/melee/charge_combo1.ogg", "/sfx/melee/charge_combo1.ogg", "/sfx/melee/charge_combo1.ogg" ],
+    "charged" : [ "/sfx/melee/charge_full_hold1.ogg" ],
+    "chargeLoop" : [ "/sfx/melee/drillspear_windup1.ogg", "/sfx/melee/drillspear_windup2.ogg", "/sfx/melee/drillspear_windup3.ogg" ],
+
+    "flying" : [ "/sfx/tech/composite_platform_loop.ogg" ]
   }
 }

@@ -5,7 +5,8 @@
   "rarity" : "Uncommon",
   "price" : 400,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "electric",
 
   "shortdescription" : "Hevika Turret",
   "description" : "An automated security turret powered by hevika crystals.",
@@ -146,5 +147,7 @@
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
   }
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

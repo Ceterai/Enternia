@@ -1,0 +1,36 @@
+{
+  "projectileName" : "ct_isoslime_ball",
+  "shortdescription" : "Isoslime Ball",
+  "image" : "ct_isoslime_ball.png",
+
+  "physics" : "grenade",
+  "power" : 0,
+  "speed" : 40,
+
+  "statusEffects" : [ "slimeslow", "frostslow" ],
+
+  "damageKind" : "default",
+  "damageKindImage" : "icon.png",
+
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/acid_hit.ogg" ]
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : null,
+      "newMod" : "slimegrass",
+      "radius" : 1
+    },
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : null,
+      "newMod" : "ceilingslimegrass",
+      "radius" : 1
+    }
+  ],
+
+  "animationCycle" : 0.5,
+  "frameNumber" : 2
+}

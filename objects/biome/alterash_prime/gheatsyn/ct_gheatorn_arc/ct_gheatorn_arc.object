@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatorn Arc",
-  "description" : "A green glowing rock formation in a shape of an arc. It's a result of a slow gheatsyn crystal growth process. Alta-scan for more.",
+  "description" : "A green glowing rock formation in a shape of an arc. It's a result of a slow ^#a7e001;gheatsyn^reset; crystal growth process. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "When rocks form gheatsyn on the inside, it continues growing slowly forcing the rock to burst or expand, resulting in gheatorn.",
 
   "apexDescription" : "A stone that chimes when I get close to it.",
@@ -41,5 +41,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

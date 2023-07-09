@@ -1,7 +1,19 @@
 {
   "type" : "ct_alta_engineer_drone",
   "shortdescription" : "Engineer Drone ^#2080f0;^reset;",
-  "description" : "Tier 3 MegaDrone\nA massive technical drone able to repair anything, even itself. Slightly more fire-resistant.",
+  "description" : "Tier 3 MegaDrone.  \nA massive technical drone able to repair anything, even itself. Slightly more resistant to ^#f08020;fire^reset; and ^#80f0f0;ice^reset;.",
+  "race" : "alta",
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "name" : "Drone Spawner",
+    "description" : "Constantly spawns ^#2080f0;Minidrones^reset;. Will explode with ^#8020f0;electric^reset; particles on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Enviro Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#2080f0;Force Field Autoshielder^reset; and ^#f08020;Enviro Protection^reset;.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_engineer_drone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier3_class2", "bow" : "ct_alta_tier3_class2" } ],
@@ -63,7 +75,7 @@
         "knockbackStunTime" : { "baseValue" : 0.2 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 64 },
+        "maxHealth" : { "baseValue" : 128 },
         "protection" : { "baseValue" : 24.0 },
         "healthRegen" : { "baseValue" : 0.5 },
         "powerMultiplier" : { "baseValue" : 1.0 },
@@ -72,7 +84,7 @@
         "fireResistance" : { "baseValue" : 0.25 },
         "fireStatusImmunity" : { "baseValue" : 0.0 },
 
-        "iceResistance" : { "baseValue" : 0.0 },
+        "iceResistance" : { "baseValue" : 0.25 },
         "iceStatusImmunity" : { "baseValue" : 0.0 },
 
         "electricResistance" : { "baseValue" : -0.25 },

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_minto_soup",
-  "rarity" : "Legendary",
-  "price" : 960,
+  "level" : 6, "rarity" : "Legendary", "price" : 960,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_minto_soup.png",
-  "description" : "Calin alta cuisine. A spicy variation on the traditional alta soup. Has a chance to turn out a bit too spicy.",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A spicy variation on the traditional ^#b0e0fc;alta^reset; soup. Has a chance to turn out a bit too spicy.",
   "shortdescription" : "Minto Soup",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 50,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -26,14 +26,15 @@
     {
       "chance" : 0.4,
       "shortdescription" : "Maitai Soup",
-      "description" : "Calin alta cuisine. A very spicy alta soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
+      "inventoryIcon" : "/items/generic/food/other/images/ct_maitai_soup.png",
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A very spicy ^#b0e0fc;alta^reset; soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 330 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
     {
       "chance" : 0.1,
       "shortdescription" : "Perfect Minto Soup ^#8020f0;^reset;",
-      "description" : "Calin alta cuisine. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
-      "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
   ]
 }

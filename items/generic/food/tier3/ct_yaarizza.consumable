@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_yaarizza",
-  "rarity" : "Rare",
-  "price" : 800,
+  "level" : 5, "rarity" : "Rare", "price" : 800,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_yaarizza.png",
-  "description" : "Yava alta cuisine. Yaara roots make this pizza satisfyingly crunchy.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Yaara roots make this pizza satisfyingly crunchy.",
   "shortdescription" : "Yaarizza Slice",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Yaarizza Extra Toppings Slice",
-      "description" : "Yava alta cuisine. This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
-      "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
     }
   ]
 }

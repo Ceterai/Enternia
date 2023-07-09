@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_warped",
-  "friendlyName" : "Alterash Warped Forest",
+  "friendlyName" : "Warped Forest",
+  "description" : "This land is covered in ^#9b2d3f;warped^reset; growth. Numerous ^#9b2d3f;nivera^reset; plants can be found here, as well as luminous bushes full of **glow fibre**. Be careful though - this area is full of poison and wicked monsters!",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_warped_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "rock14", "obsidian" ],
   "ores" : "ct_alterash_depth2",
@@ -35,7 +37,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -79,6 +81,10 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_warpedChest" ]
       },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_warpedChest" ]
+      },
       // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
@@ -106,7 +112,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 2, "variants" : 5, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
@@ -143,8 +149,20 @@
         "objectSets" : [ { "pool" : [[1,"ct_nivera_thorns1"],[1,"ct_nivera_thorns2"],[1,"ct_nivera_thorns3"],[1,"ct_nivera_thorns4"]], "parameters" : { } } ]
       },
       {
+        "mode" : "ceiling", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_nivera_thorns1"],[1,"ct_nivera_thorns2"],[1,"ct_nivera_thorns3"],[1,"ct_nivera_thorns4"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "background", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_nivera_thorns1"],[1,"ct_nivera_thorns2"],[1,"ct_nivera_thorns3"],[1,"ct_nivera_thorns4"]], "parameters" : { } } ]
+      },
+      {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_nivera_geyser"],[1,"ct_warped_smoker"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_warpedChest" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",

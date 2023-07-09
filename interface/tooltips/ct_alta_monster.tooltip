@@ -1,0 +1,168 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/ct_alta_monster.png",
+    "fileFooter" : "/interface/tooltips/footer.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 23],
+    "file" : "/interface/money.png"
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [55, 23],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [75, 23],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "raceLabel" : {
+    "type" : "label", "position" : [134, 237],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+
+
+  "healthTitleLabel" : {
+    "type" : "label", "position" : [80, 224],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "healthLabel" : {
+    "type" : "label", "position" : [135, 224],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "armorTitleLabel" : {
+    "type" : "label", "position" : [80, 215],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "armorLabel" : {
+    "type" : "label", "position" : [135, 215],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+  "healthRegenTitleLabel" : {
+    "type" : "label", "position" : [80, 206],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 7, "value" : ""
+  },
+  "healthRegenLabel" : {
+    "type" : "label", "position" : [135, 206],
+    "hAnchor" : "right",
+    "wrapWidth" : 126, "value" : ""
+  },
+
+  "resTitleLabel" : {
+    "type" : "label", "position" : [80, 181],
+    "hAnchor" : "left",
+    "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "physicalResImage" : {
+    "type" : "image", "position" : [84, 176],
+    "centered" : true, "maxSize" : [8, 8], "minSize" : [8, 8], "file" : ""
+  },
+  "physicalResLabel" : {
+    "type" : "label", "position" : [84, 165],
+    "hAnchor" : "mid", "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "fireResImage" : {
+    "type" : "image", "position" : [95, 176],
+    "centered" : true, "maxSize" : [8, 8], "minSize" : [8, 8], "file" : ""
+  },
+  "fireResLabel" : {
+    "type" : "label", "position" : [95, 165],
+    "hAnchor" : "mid", "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "iceResImage" : {
+    "type" : "image", "position" : [106, 176],
+    "centered" : true, "maxSize" : [8, 8], "minSize" : [8, 8], "file" : ""
+  },
+  "iceResLabel" : {
+    "type" : "label", "position" : [106, 165],
+    "hAnchor" : "mid", "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "electricResImage" : {
+    "type" : "image", "position" : [117, 176],
+    "centered" : true, "maxSize" : [8, 8], "minSize" : [8, 8], "file" : ""
+  },
+  "electricResLabel" : {
+    "type" : "label", "position" : [117, 165],
+    "hAnchor" : "mid", "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+  "poisonResImage" : {
+    "type" : "image", "position" : [128, 176],
+    "centered" : true, "maxSize" : [8, 8], "minSize" : [8, 8], "file" : ""
+  },
+  "poisonResLabel" : {
+    "type" : "label", "position" : [128, 165],
+    "hAnchor" : "mid", "wrapWidth" : 126, "fontSize" : 6, "value" : ""
+  },
+
+
+
+  "fullDescriptionLabel" : {
+    "type" : "label",
+    "position" : [9, 162],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "lineSpacing" : 0.9,
+    "wrapWidth" : 130, "fontSize" : 6
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [40, 198],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [70, 54],
+    "minSize" : [70, 54]
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [70, 175],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+
+  "collarIconImage" : {
+    "type" : "image",
+    "position" : [6, 38],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "noCollarLabel" : {
+    "type" : "label",
+    "position" : [33, 42],
+    "color" : "gray",
+    "value" : "NO COLLAR WORN"
+  },
+  "collarNameLabel" : {
+    "type" : "label",
+    "position" : [33, 42],
+    "value" : ""
+  }
+}

@@ -1,7 +1,9 @@
 {
   "name" : "ct_barren_ion_core",
   "friendlyName" : "Barren Ion Core",
+  "description" : "Narrow caves close to the ^#8020f0;ion core^reset; of the planet, full of ^#4f4c46;obsidian^reset; and other hard materials and minerals. Here you can find tier 5 ores like ^#20f080;aegisalt ore^reset;, ^#2080f0;ferozium ore^reset; and ^#8020f0;violium ore^reset;.",
 
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_ion_core_loot.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core",
@@ -49,12 +51,8 @@
         "objectSets" : [ { "pool" : [[1, "ct_backdoor"]], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
-      },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier4" ]
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
@@ -65,6 +63,14 @@
         "treasureBoxSets" : [ "ct_big_cargoChest" ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ion_core_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ion_core_chest" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]

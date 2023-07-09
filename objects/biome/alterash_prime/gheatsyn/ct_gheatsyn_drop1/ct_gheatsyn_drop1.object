@@ -5,11 +5,11 @@
   "rarity" : "Common",
   "price" : 40,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   // "scannable" : false,
 
   "shortdescription" : "Gheatsyn Dripping Source",
-  "description" : "Slightly acidic substance is dripping from this place. A liquid crystal. Alta-scan for more.",
+  "description" : "Slightly acidic substance is dripping from this place. This is a liquid ^#a7e001;gheatsyn^reset; crystal.",
   "altaDescription" : "If properly treated, gheatsyn can be used in cooking and is most popular in the calin cuisine.",
 
   "smashable" : true,
@@ -51,5 +51,7 @@
       "anchors" : [ "top" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

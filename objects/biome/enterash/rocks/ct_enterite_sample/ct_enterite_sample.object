@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "price" : 960,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Enterite Sample",
   "description" : "This moonrock formation seems pretty. Pretty suspicious.",
@@ -26,5 +26,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

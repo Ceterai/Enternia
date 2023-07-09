@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Broken Alta Ship Locker",
   "description" : "A locker. Store some stuff, why don't you?",
@@ -38,5 +38,7 @@
   ],
   
   "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
-  
+  ,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

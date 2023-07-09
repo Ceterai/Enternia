@@ -3,11 +3,12 @@
   "shortdescription" : "^#20f080;Ceternia Core^reset;",
   "description" : "A powerful essence of living matter, full of ^#20f080;ceternia^reset;. ...Somehow it feels important.",
 
-  "price" : 120,
-  "rarity" : "Rare",
+  "level" : 5, "price" : 20, "rarity" : "Rare",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "energy_source", "essence", "core", "remnant", "living", "ceternia" ], "tooltipKind" : "ct_alta_item",
 
-  "inventoryIcon" : "ct_ceternia_core.png"
+  "inventoryIcon" : "ct_ceternia_core.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -1,13 +1,14 @@
 {
   "itemName" : "ct_phospholion",
-  "shortdescription" : "Phospholion",
-  "description" : "A sturdy metallic material that turns into a sufficient energy source in reation to radiation.",
+  "shortdescription" : "Phospholion Ore",
+  "description" : "^#ceffd7;Phospholion^reset; is a sturdy metallic material that turns into a sufficient energy source in reaction to radiation.",
 
-  "price" : 80,
-  "rarity" : "Uncommon",
+  "level" : 4, "price" : 20, "rarity" : "Uncommon",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "armor", "phospholion", "radiation" ], "tooltipKind" : "ct_alta_item_long",
 
-  "inventoryIcon" : "ct_phospholion.png"
+  "inventoryIcon" : "ct_phospholion.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

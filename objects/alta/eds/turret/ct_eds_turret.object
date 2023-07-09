@@ -5,10 +5,11 @@
   "rarity" : "Rare",
   "price" : 520,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "electric",
 
-  "shortdescription" : "EDS Turret",
-  "description" : "An armored automated security turret. Seems like anyone could become its target.",
+  "shortdescription" : "^#f02020;EDS^reset; Turret",
+  "description" : "An armored automated security turret. Seems like anyone could become its target. Mark on the back says '^#f02020;EDS^reset;'.",
   "altaDescription" : "An EDS turret. Has some blind spots, but pretty effective in general.",
   "subtitle" : "Automatic Base Defense",
 
@@ -146,5 +147,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

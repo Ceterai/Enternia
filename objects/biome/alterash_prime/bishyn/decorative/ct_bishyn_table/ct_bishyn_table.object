@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Table",
-  "description" : "A bishyn table.",
+  "description" : "A ^#378754;bishyn^reset; table.",
   "altaDescription" : "The crystals at the bottom are functionally useless, except maybe as a mini shelf.",
 
   "apexDescription" : "An elegant crystal table.",
@@ -27,5 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

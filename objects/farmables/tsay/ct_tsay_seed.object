@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 23,
 
   "shortdescription" : "Tsay Seed",
@@ -21,7 +21,6 @@
 
   "inventoryIcon" : "icon.png",
 
-  "tooltipKind" : "seed",
   "largeImage" : "body.png:default.3.0",
 
 
@@ -59,5 +58,7 @@
     }
   ],
 
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

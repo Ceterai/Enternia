@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_alta_soup",
-  "rarity" : "Legendary",
-  "price" : 960,
+  "level" : 6, "rarity" : "Legendary", "price" : 960,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alta_soup.png",
-  "description" : "Runeva alta cuisine. The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
   "shortdescription" : "Altasoup",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 50,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Altasoup ^#8020f0;^reset;",
-      "description" : "Runeva alta cuisine. This soup is exceptionally nourishing! Only the best alta restaurants are able to make them taste this good.",
-      "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
   ]
 }

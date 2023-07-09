@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 70,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Shelf",
-  "description" : "A blue shelf used for displaying items.",
+  "description" : "A ^#a7e001;gheatsyn^reset; shelf used for displaying items.",
   "altaDescription" : "A mini shelf, that can be used as a walking platform. Gheatsyn here is purely decorative.",
 
   "apexDescription" : "It's a wall shelf.",
@@ -28,5 +28,7 @@
       "collision" : "platform"
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

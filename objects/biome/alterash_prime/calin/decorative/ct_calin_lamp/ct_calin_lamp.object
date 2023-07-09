@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 85,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Lamp",
   "description" : "A glowing calin lamp. The mix of lights and shadows reminds of water light reflection.",
@@ -41,5 +41,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

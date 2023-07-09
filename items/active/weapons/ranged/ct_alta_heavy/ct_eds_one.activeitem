@@ -1,18 +1,19 @@
 {
   "itemName" : "ct_eds_one",
   "shortdescription" : "^#f02020;EDS^reset;-One ^#8020f0;^reset;",
-  "description" : "A reinforced ionic sniper rifle designed to eliminate large targets on relatively long distances. A proud achievement of EDS.",
+  "description" : "A reinforced ^#8020f0;ionic^reset; sniper rifle designed to eliminate large targets on relatively long distances. A proud achievement of ^#f02020;EDS^reset;.",
   "elementalType" : "electric",
+  "race" : "alta",
 
   "level" : 6, "price" : 800, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "sniperRifle",
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "alta", "eds", "impulse", "ionic" ],
 
   "inventoryIcon" : "ct_eds_one.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
-  "animationParts" : { "middle" : "ct_eds_one.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationParts" : { "middle" : "ct_eds_one.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/ionic.png" },
   "animationCustom" : { "sounds" : {
     "init" : [ "/sfx/gun/mech_shielddrone_recover1.ogg" ],
     "primary_press" : [ "/sfx/gun/plasma_sniper2.ogg" ]
@@ -21,11 +22,12 @@
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
   "primaryAbility" : {
     "name" : "One-Blast Snipe",
+    "description" : "Easy, frequent silenced shots are the main advantage.\nFiremodes: single, semiauto.",
     "baseDps" : 10, "energyUsage" : 36, "fireTime" : 1.2,
 
     "defaultFireType" : "single",
@@ -44,6 +46,7 @@
   },
   "altAbility" : {
     "name" : "Elerune Tactics",
+    "description" : "Tools tuned for tactical operations.\nPress - change attachments: none, laser, stabilizer (x1.25 dmg);\nHold - change firemodes.",
     "fireTypes" : [ "single", "semi" ],
     "attachments" : [ "none", "laser", "stabilizer" ]
   }

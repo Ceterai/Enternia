@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 30,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Verriskoywa Twin Alto Flower",
   "description" : "Tall, blue reed flowers.",
@@ -38,5 +38,7 @@
     [ ["ct_verriskoywa_alto_twin", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

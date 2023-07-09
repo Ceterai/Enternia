@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_core_haven",
   "friendlyName" : "Alterash Haven Depths",
+  "description" : "These caves are inhabited by various animals and plants, mostly peaceful. Although while they cause almost no harm on their own, this can't be said about the air around here, because it's highly toxic, which, by the way, is the reason for the enormous growth of these plants.\n\nThis biome is an underground counterpart to the surface ^#80f020;alterash haven^reset; biome.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_haven_loot.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14", "crystalblock" ],
   "ores" : "ct_alterash_core",
@@ -11,7 +13,8 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean" },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] }
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier3" ] ] }
     ]
   },
 
@@ -39,17 +42,25 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_big_cargoChest" ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_haven_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_haven_chest" ]
+      },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
         "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeStemList" : [ "ct_haven" ], "treeFoliageList" : [ "" ]

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 180,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Gateway",
   "description" : "This door is airtight and made with incredibly strong materials.",
@@ -65,5 +65,7 @@
   },
 
   "inputNodes" : [ [0, 2] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,0 +1,35 @@
+{
+  "projectileName" : "ct_plasmorb",
+  "shortdescription" : "Plasmic Orb",
+  "image" : "ct_plasmorb.png",
+  "damageKind" : "ct_plasma",
+  "damageKindImage" : "ct_plasmorb.png",
+  "pointLight" : true,
+  "lightColor" : [32, 128, 240],
+  "flippable" : true,
+  "orientationLocked" : true,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "damagePoly" : [[-3, 0], [0, 3], [3, 0], [0, -3]],
+  "power" : 5.0,
+  "knockback" : 5,
+  "speed" : 90,
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue" ],
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/plasmabullet_ricochet1.ogg",
+        "/sfx/projectiles/plasmabullet_ricochet2.ogg",
+        "/sfx/projectiles/plasmabullet_ricochet3.ogg"
+      ]
+    }
+  ],
+
+  "scripts" : [ "/scripts/projectiles/boomerangprojectile.lua" ]
+}

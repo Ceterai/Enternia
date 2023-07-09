@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Light",
   "description" : "A titanium light fixture on simplistic holders. Has crystals instead of lightbulbs.",
@@ -47,5 +47,7 @@
 
   "interactive" : false,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

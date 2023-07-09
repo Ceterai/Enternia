@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Hevika Light",
   "description" : "A decorative wall light made out of a crystal. Small sparks shine around it from time to time.",
@@ -51,5 +51,7 @@
   
   "interactive" : false,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_yaara_cabinet",
   "colonyTags" : ["yaara", "storage"],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 200,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Cabinet",
   "description" : "The cabinet made of plant fibre stretched between four large vines.",
@@ -36,5 +36,7 @@
   "slotCount" : 40,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

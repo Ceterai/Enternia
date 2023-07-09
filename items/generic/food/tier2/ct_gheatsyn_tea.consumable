@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_gheatsyn_tea",
-  "rarity" : "Uncommon",
-  "price" : 400,
+  "level" : 4, "rarity" : "Uncommon", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_gheatsyn_tea.png",
-  "description" : "Calin alta cuisine. A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
   "shortdescription" : "Gheatsyn Tea",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Gheamont",
-      "description" : "Calin alta cuisine. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ]
     }
   ]

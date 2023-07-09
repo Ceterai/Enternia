@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_biomix_icecream",
-  "rarity" : "Uncommon",
-  "price" : 440,
+  "level" : 4, "rarity" : "Uncommon", "price" : 440,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_biomix_icecream.png",
-  "description" : "An alta cuisine. This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
   "shortdescription" : "Biomix Ice Cream",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Biomix Desert",
-      "description" : "An alta cuisine. Un indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
-      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. Un indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "level" : 5, "rarity" : "Rare", "price" : 640, "foodValue" : 30
     }
   ]
 }

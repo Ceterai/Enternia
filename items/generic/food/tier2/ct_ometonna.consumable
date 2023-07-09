@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_ometonna",
-  "rarity" : "Uncommon",
-  "price" : 560,
+  "level" : 4, "rarity" : "Uncommon", "price" : 560,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_ometonna.png",
-  "description" : "Nia alta cuisine. A delicious tonna omelette! Avoid the bionid parts when cooking.",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A delicious ^#c1ebf8;tonna^reset; omelette! Avoid the bionid parts when cooking.",
   "shortdescription" : "Ometonna",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -26,8 +26,8 @@
   "variants" : [
     {
       "shortdescription" : "Caretaker's Ometonna",
-      "description" : "Nia alta cuisine. Usually only the most proficient caretakers at elin gardens and alta corfals can cook it this good.",
-      "rarity" : "Rare", "price" : 800, "foodValue" : 45
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Usually only the most proficient caretakers at elin gardens and ^#b0e0fc;alta^reset; corfals can cook it this good.",
+      "level" : 5, "rarity" : "Rare", "price" : 800, "foodValue" : 45
     }
   ]
 }

@@ -1,6 +1,7 @@
 {
   "name" : "ct_ionic_shock",
   "label" : "Ionic Shock",
+  "description" : "Repeatedly damages you with ^#8020f0;enternia^reset; electricity. Having electric status immunity minimazes the damage.",
   "blockingStat" : "ionicStatusImmunity",
 
   "effectConfig" : {

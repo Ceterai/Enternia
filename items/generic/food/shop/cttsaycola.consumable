@@ -1,29 +1,32 @@
 {
   "itemName" : "cttsaycola",
-  "rarity" : "Common",
-  "price" : 40,
-  "category" : "drink",
-  "inventoryIcon" : "cttsaycola.png",
-  "description" : "A lemon in a can? Isn't it just lemonade then?",
   "shortdescription" : "Tsay-Cola",
-  "maxStack" : 1,
+  "description" : "A lemon in a can? Isn't it just lemonade then?",
+  "inventoryIcon" : "cttsaycola.png",
+  "level" : 2, "rarity" : "Common", "price" : 40,
+  "race" : "alta",
+  "category" : "drink", "maxStack" : 1, "emitters" : [ "drinking" ],
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "rottingMultiplier" : 10,
+
   "effects" : [ [
     {
         "effect" : "swimboostcola",
-        "duration" : 30
+        "duration" : 60
     }
   ] ],
-  "emitters" : [ "drinking" ],
 
   "variants" : [
     {
       "shortdescription" : "Tsay-Pop",
       "description" : "A fresh spin on the Thsay-Cola that definitely has more pop to it!",
-      "rarity" : "Uncommon", "price" : 80,
+      "level" : 3, "rarity" : "Uncommon", "price" : 80,
       "effects" : [ [
         {
             "effect" : "swimboostcola",
-            "duration" : 60
+            "duration" : 120
         }
       ] ]
     }

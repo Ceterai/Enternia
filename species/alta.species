@@ -1,0 +1,104 @@
+{
+  "kind" : "alta",
+  "charCreationTooltip" : {
+    "title" : "Alta", "subTitle" : "H2",
+    "description" : "An artifical race of humanoids. The main focus of their decentralized society is research and exploration with purpose of technological advancement, as well as entertainment and quality of life improvement."
+  },
+  "charGenTextLabels" : [ "Body colour", "Hair style", "Top", "Bottom", "Accent colour", "Hair colour", "Top colour", "Bottom colour", "ALTA", "Personality" ],
+  "skull" : "/humanoid/ct_alta/dead.png", "effectDirectives" : "?replace=FEFFFFFF=b0e0fcFF?replace=9bd4ffFF=60c0fcFF?replace=31a6ffFF=2080f0FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+// Empty Hands
+      { "item" : "ct_alta_flag" },
+// Anvil
+      { "item" : "apextier1head" }, { "item" : "apextier1chest" }, { "item" : "apextier1pants" },
+      { "item" : "apextier2head" }, { "item" : "apextier2chest" }, { "item" : "apextier2pants" },
+      { "item" : "ironshortsword" }, { "item" : "ironbroadsword" }, { "item" : "tungstenaxe" }, { "item" : "tungstenhammer" },
+// Furniture Table 2
+      { "item" : "ct_alta_ship_storage" }, { "item" : "ct_alta_ship_gateway" }, { "item" : "ct_alta_ship_hatch" },
+// Spinning Wheel
+      { "item" : "ct_alta_artist_croptop" },	{ "item" : "ct_alta_artist_shorts" },	  { "item" : "ct_alta_artist_sweater" },
+      { "item" : "ct_alta_light_shirt" },	    { "item" : "ct_alta_light_skirt" },     { "item" : "ct_alta_light_sweater" },
+      { "item" : "ct_alta_official_skirt" },  { "item" : "ct_alta_official_tights" },  { "item" : "ct_alta_official_jacket" },
+      { "item" : "ct_alta_social_bottom" },  { "item" : "ct_alta_social_top" },
+      { "item" : "ct_alta_service_pants" },   { "item" : "ct_alta_service_jacket" },	{ "item" : "ct_alta_service_skirt" }
+    ]
+  },
+  // "bodyColorAsHairColor" : true,
+  "headOptionAsHairColor" : true,  "headOptionAsFacialhair" : true,
+  "altOptionAsHairColor" : true,   "altOptionAsUndyColor" : true,
+  // "headOptionAsBodyColor" : true, "altOptionAsFacialMask" : true, "bodyColorAsFacialMaskSubColor" : true, "altColorAsFacialMaskSubColor" : true,
+
+  "nameGen" : [ "/species/alta_namegen.config:names", "/species/alta_namegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/humanhurt_female2.ogg", "/sfx/humanoid/humanhurt_female2.ogg" ],
+  "genders" : [
+    {
+      "name" : "female", "image" : "/interface/title/ct_altaya.png", "characterImage" : "/interface/title/ct_alta_altaya.png",
+      "shirt" : [
+        "ct_alta_artist_croptop",   "ct_alta_artist_sweater",
+        "ct_alta_official_jacket",  "ct_alta_social_top",
+        "ct_alta_light_shirt",      "ct_alta_light_sweater",
+        "ct_alta_service_jacket",
+        "protectorateshirtchest",   "protectoratevestchest"
+      ],
+      "pants" : [
+        "ct_alta_artist_shorts", "ct_alta_light_skirt",
+        "ct_alta_official_skirt", "ct_alta_official_tights",
+        "ct_alta_service_pants",  "ct_alta_service_skirt",
+        "ct_alta_social_bottom", "protectoratepants"
+      ],
+      "hairGroup" : "hair",
+      "hair" : [ "l1", "l1c", "l2", "l2c", "l3", "l3c", "l4", "l4c", "m1", "m1c", "m2", "m2c", "m3", "m3c", "m4", "m4c", "s1", "s1c", "s2", "s2c", "s3", "s3c", "s4", "s4c" ],
+      "facialHairGroup" : "face", "facialHair" : [ "altaya" ], "facialMaskGroup" : "", "facialMask" : [ ]
+    },
+    {
+      "name" : "female", "image" : "/interface/title/ct_kaitera.png", "characterImage" : "/interface/title/ct_alta_kaitera.png",
+      "shirt" : [
+        "ct_alta_artist_croptop",   "ct_alta_artist_sweater",
+        "ct_alta_official_jacket",  "ct_alta_social_top",
+        "ct_alta_light_shirt",      "ct_alta_light_sweater",
+        "ct_alta_service_jacket",
+        "protectorateshirtchest",   "protectoratevestchest"
+      ],
+      "pants" : [
+        "ct_alta_artist_shorts", "ct_alta_light_skirt",
+        "ct_alta_official_skirt", "ct_alta_official_tights",
+        "ct_alta_service_pants",  "ct_alta_service_skirt",
+        "ct_alta_social_bottom", "protectoratepants"
+      ],
+      "bodyColor" : [
+        { "e0a484" : "59617c", "e8bc9c" : "45516d", "ffd8b4" : "2d3852", "fff0e0" : "1d283a" }  // LIGHT
+      ],
+      "hairGroup" : "hair",
+      "hair" : [ "l1", "l1c", "l2", "l2c", "l3", "l3c", "l4", "l4c", "m1", "m1c", "m2", "m2c", "m3", "m3c", "m4", "m4c", "s1", "s1c", "s2", "s2c", "s3", "s3c", "s4", "s4c" ],
+      "facialHairGroup" : "face", "facialHair" : [ "kaitera" ], "facialMaskGroup" : "", "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    { "e0a484" : "c2aca1", "e8bc9c" : "d0c0b4", "ffd8b4" : "e7d9cc", "fff0e0" : "f5f0ea" },
+    { "e0a484" : "ab9e9b", "e8bc9c" : "beb4af", "ffd8b4" : "dad0cb", "fff0e0" : "efebe9" },
+    { "e0a484" : "bab0ac", "e8bc9c" : "cac3be", "ffd8b4" : "e1dad5", "fff0e0" : "f2efed" },
+    { "e0a484" : "e0a484", "e8bc9c" : "e8bc9c", "ffd8b4" : "ffd8b4", "fff0e0" : "fff0e0" }
+    //{ "e0a484" : "e0a484", "e8bc9c" : "e8bc9c", "ffd8b4" : "ffd8b4", "fff0e0" : "fff0e0" }
+  ],
+  "undyColor" : [
+    { "0050c0" : "0050c0", "2080f0" : "2080f0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },  // OMNI BLUE
+    { "0050c0" : "0069c0", "2080f0" : "209bf0", "60c0fc" : "60d4fc", "b0e0fc" : "b0eafc" },  // OMNI TEAL
+    { "0050c0" : "0082c0", "2080f0" : "20b6f0", "60c0fc" : "60e8fc", "b0e0fc" : "b0f4fc" },  // OMNI CYAN
+    { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" },  // CRYSTAL BLUE
+    { "0050c0" : "364288", "2080f0" : "4e64b8", "60c0fc" : "769be4", "b0e0fc" : "c9dcf6" },  // CRYSTAL PURPLE
+    { "0050c0" : "563688", "2080f0" : "704eb8", "60c0fc" : "8b76e4", "b0e0fc" : "cec9f6" },  // CRYSTAL MAGENTA
+    { "0050c0" : "883662", "2080f0" : "b84e8f", "60c0fc" : "e476c7", "b0e0fc" : "f6c9ee" },  // CRYSTAL VIOLET
+    { "0050c0" : "1ea178", "2080f0" : "41cf9b", "60c0fc" : "78e3ac", "b0e0fc" : "bcf0d4" },  // EMERALD
+    { "0050c0" : "61a11e", "2080f0" : "91cf41", "60c0fc" : "c4e378", "b0e0fc" : "e2f0bc" },  // GHEATSYN
+    { "0050c0" : "1e58a1", "2080f0" : "4187cf", "60c0fc" : "78bde3", "b0e0fc" : "bcdef0" }   // HEVIKA MARINE
+  ],
+  "hairColor" : [
+    { "f7e7b2" : "59617c", "d9c189" : "45516d", "a38d59" : "2d3852", "735e3a" : "1d283a" },
+    { "f7e7b2" : "585b63", "d9c189" : "484c55", "a38d59" : "32353e", "735e3a" : "22252b" },
+    { "f7e7b2" : "b2c2f7", "d9c189" : "89a1d9", "a38d59" : "596fa3", "735e3a" : "3a4f73" },
+    { "f7e7b2" : "ffeff7", "d9c189" : "fcdff0", "a38d59" : "f2b4d8", "735e3a" : "e686c4" },
+    { "f7e7b2" : "eff4ff", "d9c189" : "dfeafc", "a38d59" : "b4cbf2", "735e3a" : "86b1e6" },
+    { "f7e7b2" : "f4f5fa", "d9c189" : "e8eaf3", "a38d59" : "c7cbde", "735e3a" : "a5adc8" }
+  ]
+}

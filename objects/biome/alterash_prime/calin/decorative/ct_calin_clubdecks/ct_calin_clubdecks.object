@@ -5,7 +5,7 @@
   "rarity" : "Uncommon",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Club Decks",
   "description" : "A clubdecks for a party.",
@@ -85,5 +85,7 @@
     "randomStandXRange" : [-8, 8]
   },
 
-  "soundEffect" : "/sfx/objects/clubdecks1.ogg"
+  "soundEffect" : "/sfx/objects/clubdecks1.ogg",
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

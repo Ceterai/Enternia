@@ -1,7 +1,7 @@
 {
   "itemName" : "ctayacandy",
-  "rarity" : "Uncommon",
-  "price" : 200,
+  "level" : 4, "rarity" : "Uncommon", "price" : 200,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctayacandy.png",
   "description" : "Made with aya jam, it's a sour and sweet lollipop!",
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Aya Pop",
-      "description" : "Runeva alta cuisine. This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
-      "rarity" : "Rare", "price" : 320, "foodValue" : 15
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
+      "level" : 5, "rarity" : "Rare", "price" : 320, "foodValue" : 15
     }
   ]
 }

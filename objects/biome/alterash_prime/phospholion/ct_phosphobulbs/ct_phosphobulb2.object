@@ -6,10 +6,11 @@
   "category" : "trap",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "fire",
 
   "shortdescription" : "Irradiated Small Phosphobulb",
-  "description" : "A bulb of irradiated phospholion.",
+  "description" : "A bulb of irradiated ^#ceffd7;phospholion^reset;.",
   "altaDescription" : "This phospholion deposit collected too much radiation. Better be careful.",
 
   "apexDescription" : "This seems lie it's about to burst, better be careful.",
@@ -21,13 +22,19 @@
   "novakidDescription" : "This thing could still blow!",
 
   "inventoryIcon" : "icon.png",
+  "objectImage" : "ct_phosphobulb2.png:default",
   "orientations" : [
     {
-      "dualImage" : "ct_phosphobulb2.png:<color>",
-      "imagePosition" : [-8, 0],
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "dualImage" : "ct_phosphobulb2_top.png:<frame>",
+      "imagePosition" : [-8, 0], "spaceScan" : 0.1, "anchors" : [ "top" ],
+      "animationPosition" : [-8, 0],
+      "animationParts" : { "pod" : "ct_phosphobulb2_top.png" }
+    },
+    {
+      "dualImage" : "ct_phosphobulb2.png:<frame>",
+      "imagePosition" : [-8, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ],
+      "animationPosition" : [-8, 0],
+      "animationParts" : { "pod" : "ct_phosphobulb2.png" }
     }
   ],
 
@@ -38,15 +45,13 @@
   "scriptDelta" : 5,
 
   "animation" : "default.animation",
-  "animationParts" : {
-    "pod" : "ct_phosphobulb2.png"
-  },
-  "animationPosition" : [-8, 0],
 
   "firstProjectile" : "smoke",
   "triggerDelay" : 0.5,
   "secondProjectile" : "burningexplosion",
-  "detectArea" : [[-1.0, 0], [1.0, 0.5]],
+  "detectArea" : [[-4.0, -1.5], [4.0, 1.5]],
+  "power" : 64,
+  "knockback" : 10,
 
   "health" : 4,
   "smashOnBreak" : true,
@@ -56,5 +61,7 @@
     "/sfx/objects/rock_crumble4.ogg", "/sfx/objects/rock_crumble5.ogg"
   ],
   "smashParticles" : [ { "count" : 6, "particle" : "rockshard" } ],
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

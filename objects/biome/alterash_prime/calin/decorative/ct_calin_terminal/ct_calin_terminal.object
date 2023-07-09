@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Terminal",
   "description" : "A pretty blue terminal. The calin is used both as a stand and autonomous energy source.",
@@ -65,5 +65,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

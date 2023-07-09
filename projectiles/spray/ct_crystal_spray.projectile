@@ -1,6 +1,7 @@
 {
   "projectileName" : "ct_crystal_spray",
   "image" : "ct_iorash_spray.png",
+  "damageKindImage" : "/projectiles/simple/ct_crystals/icon.png",
   "physics" : "statuspod",
   "bounces" : -1,
   "timeToLive" : 1.5,

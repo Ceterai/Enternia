@@ -1,6 +1,8 @@
 {
   "name" : "ct_crystalline_prime",
-  "friendlyName" : "Crystalline Prime",
+  "friendlyName" : "Crystalline Prime Cave",
+  "description" : "These ^#76c7e4;crystalline prime^reset; caves are dimly lit via soft green light emitted from the ^#76c7e4;crystals^reset; that grow here. Some of those crystals are edible, by the way.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_crystalline_prime_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "ice", "moonrock" ],
   "ores" : "ct_alterash_depth1",
@@ -48,6 +50,10 @@
       },
       // Growth
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_crystalline_primeChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_crystalline_primeChest" ]

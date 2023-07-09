@@ -1,24 +1,29 @@
 {
   "itemName" : "ct_spacedrifter_shield",
   "shortdescription" : "Spacedrifter Shield",
-  "description" : "A shield worn by spacedrifters that scavenge the space in search of adventures, eager to protect what's sacred.",
+  "description" : "A shield worn by spacedrifters that explore space in search of adventures, eager to protect what's sacred.",
+  "elementalType" : "ice",
 
   "level" : 6, "rarity" : "Legendary", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "alta", "spacedrifter" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "alta", "spacedrifter" ],
   "twoHanded" : false, "maxStack" : 1,
+  "race" : "alta",
 
-  "inventoryIcon" : "ct_spacedrifter_shield.png:nearidle",
+  "inventoryIcon" : "ct_spacedrifter_shield.png",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "ct_spacedrifter_shield.png"
+    "shield" : "images/ct_spacedrifter_shield.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
     }}}},
     "sounds" : {
+      "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ],
+      "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+      "charge_end" : [ "/sfx/gun/shockblast.ogg" ],
       "raiseShield" : [ "/sfx/gun/mech_plasmadrone1.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
@@ -26,7 +31,22 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
+
+  "primaryAbility" : {
+    "name" : "Ice Charge",
+    "description" : "Raise to launch an Ice Shockwave, hold to charge a Traveling Ice Wave.\nActivate block fast enough (parry time) to perform a perfect block."
+  },
+
+  "chargeFire" : {
+    "type" : "icetravelingswoosh",
+    "inaccuracy" : 0.0
+  },
+
+  "raisedFire" : {
+    "type" : "iceshockwave",
+    "inaccuracy" : 0.0
+  },
 
   "minActiveTime" : 0.2,
 
@@ -37,7 +57,7 @@
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
 
-  "knockback" : 10, // neochakram on press, energytravelingswoosh on charge
+  "knockback" : 10,
 
   "stances" : {
     "idle" : {
@@ -54,5 +74,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandshield.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

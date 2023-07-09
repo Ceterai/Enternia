@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Frozen Energy Ball",
-  "description" : "This ball of lightning got frozen. How is that even possible? (Alta-scan for more)",
+  "description" : "This ball of lightning got frozen. How is that even possible? (^#b0e0fc;Alta^reset;-scan for more)",
   "altaDescription" : "There are so many ionic discharges happening in the atmosphere that some of them freeze the moment they turn into plasma.",
 
   "apexDescription" : "Crystals are quite beautiful.",
@@ -31,5 +31,7 @@
     }
   ],
 
-  "health" : 4
+  "health" : 4,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

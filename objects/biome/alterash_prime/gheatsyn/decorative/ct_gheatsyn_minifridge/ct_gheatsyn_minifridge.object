@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_gheatsyn_minifridge",
   "colonyTags" : [ "crystal", "gheatsyn", "cooking", "storage" ],
-  "category" : "fridgeStorage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "fridgeStorage", "objectType" : "container",
   "rarity" : "Uncommon",
   "price" : 240,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "Gheatsyn Fridge",
-  "description" : "A minifridge that seems to be running on crystal energy.",
+  "shortdescription" : "Gheatsyn Minifridge",
+  "description" : "A minifridge that seems to be running on crystal energy from ^#a7e001;gheatsyn^reset;.",
   "altaDescription" : "This minifridge uses charged gheatchyn crystals as a subcoolant and discharged ones as a battery. Creative and useful.",
 
   "apexDescription" : "A compact fridge. It seems like it is fueled by crystals.",
@@ -66,5 +66,7 @@
   "itemAgeMultiplier" : 0.0,
 
   "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

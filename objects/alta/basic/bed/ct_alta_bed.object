@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Bed",
   "description" : "A simplistic titanium bed. Not too comfy.",
@@ -34,5 +34,7 @@
       "spaces" : [ [-3, 0], [-3, 1], [-2, 0], [-2, 1], [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1], [2, 0], [2, 1], [3, 0], [3, 1] ],
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

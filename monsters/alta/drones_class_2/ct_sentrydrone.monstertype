@@ -1,7 +1,8 @@
 {
   "type" : "ct_sentrydrone",
-  "shortdescription" : "Sentry Drone ^#20f080;^reset;",
-  "description" : "Tier 2 MegaDrone\nThis defensive drone actives its battle functions when under direct threat.",
+  "shortdescription" : "^red;Outdated^reset; Sentry Drone Beta-Class",
+  "description" : "Tier 2 MegaDrone.  \nThis defensive drone actives its battle functions when under direct threat.",
+  "race" : "alta",
 
   "categories" : [ "ct_sentrydrone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier2_class2", "bow" : "ct_alta_tier2_class2" } ],

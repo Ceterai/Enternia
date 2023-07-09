@@ -3,15 +3,16 @@
   "shortdescription" : "^#8020f0;Enterite^reset;",
   "description" : "A piece of contained ^#8020f0;enternia^reset; energy. You can almost... hear it? ...Somehow it feels important.",
 
-  "price" : 120,
-  "rarity" : "Rare",
+  "level" : 5, "price" : 20, "rarity" : "Rare",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "energy_source", "armor", "enternia" ], "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_enterite.png",
 
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottedItem" : "",
-  "rottingMultiplier" : 0.03
+  "rottingMultiplier" : 0.03,
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

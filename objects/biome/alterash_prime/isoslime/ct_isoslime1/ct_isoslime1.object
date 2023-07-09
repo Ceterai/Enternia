@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 20,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoslime Puddle",
-  "description" : "A glob of slime.",
+  "description" : "A glob of ^#7ddcde;isoslime^reset;.",
   "altaDescription" : "This tiny blob of isoslime hasn't fermented yet. I don't think it contains anything useful.",
 
   "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
@@ -36,5 +36,7 @@
     [ ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

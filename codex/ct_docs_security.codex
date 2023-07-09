@@ -2,7 +2,7 @@
   "id" : "ct_docs_security",
   "title" : "Security Protocol Datamass",
   "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
-  "icon" : "ct_datamass.png",
+  "icon" : "/items/generic/crafting/ct_datamass.png",
   "contentPages" : [
 
     "SECURITY PROTOCOL DOCUMENTATION
@@ -22,7 +22,8 @@ As well as by the majority of creators."
 
   ],
     "itemConfig" : {
-    "rarity" : "Uncommon",
-    "price" : 160
+    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+    "fixedPrice" : true, "level" : 4,
+    "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

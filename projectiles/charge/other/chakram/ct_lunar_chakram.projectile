@@ -1,0 +1,27 @@
+{
+  "projectileName" : "ct_lunar_chakram",
+  "shortdescription" : "Lunar Chakram",
+  "image" : "ct_lunar_chakram.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 8,
+  "lightColor" : [17, 160, 185],
+  "pointLight" : true,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "emitters" : [ "chakram" ],
+  "actionOnReap" : [ ],
+  "statusEffects" : [ "frostslow" ],
+  "damagePoly" : [[-6, 3], [-3, 6], [3, 6], [6, 3], [6, -3], [3, -6], [-3, -6], [-6, -3]],
+  "power" : 5.0,
+  "knockback" : 2,
+  "speed" : 70,
+  "damageKind" : "icedagger",
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "/projectiles/activeitems/chakram/hoverchakramprojectile.lua" ]
+}

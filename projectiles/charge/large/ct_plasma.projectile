@@ -1,0 +1,22 @@
+{
+  "projectileName" : "ct_plasma_large",
+  "shortdescription" : "Plasmar",
+  "image" : "ct_plasma.png",
+  "damageKindImage" : "/damage/ct_plasma.png",
+  "physics" : "rocket",
+  "bounces" : 0,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 64,
+  "speed" : 64,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "lightColor" : [96, 192, 252],
+  "damageKind" : "ct_plasma"
+}

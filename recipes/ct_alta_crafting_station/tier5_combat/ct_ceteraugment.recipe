@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 10 }
+  ],
+  "output" : { 
+    "item" : "ct_ceteraugment",
+    "count" : 1 
+  },
+  "groups" : [ "alta_t3+", "tier5_combat", "enhancement", "augment", "all" ]
+}

@@ -1,0 +1,110 @@
+{
+  "itemName" : "ct_alta_scout_lightwear",
+  "shortdescription" : "Scout's Lightwear",
+  "description" : "Regular protective wear of ^#b0e0fc;alta^reset; scouts on Alterash.",
+
+  "price" : 1600, "rarity" : "Uncommon",
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 3, "itemTags" : [ "tier3armour", "upgradeableWeapon" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : {
+    "body" : "chestm.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    "ct_velocity_swim"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "colorOptions" : [
+    // OMNIBLUE (DEFAULT)
+    { "0050c0" : "0050c0", "2080f0" : "2080f0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
+    // LIME (BLACK)
+    { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
+    // RED
+    { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
+    // ORANGE
+    { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
+    // YELLOW
+    { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
+    // GREEN
+    { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
+    // BLUE
+    { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
+    // PURPLE
+    { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
+    // PINK
+    { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon.png",
+    "maleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+    "femaleFrames" : { "body" : "chestf.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+    "shortdescription" : "Protea's Jacket ^#8020f0;^reset;",
+    "description" : "\nThis protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea <3\".",
+    "price" : 1700, "rarity" : "Legendary",
+    "statusEffects" : [ "ct_life_support_module", "ct_emergency_healer" ],
+    "leveledStatusEffects" : [
+      {
+        "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+        "stat" : "powerMultiplier",
+        "baseMultiplier" : 1.28
+      },
+      {
+        "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+        "stat" : "protection",
+        "amount" : 0.375
+      },
+      {
+        "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+        "stat" : "maxEnergy",
+        "amount" : 12
+      },
+      {
+        "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+        "stat" : "maxHealth",
+        "amount" : 2.5
+      }
+    ]
+  }
+}

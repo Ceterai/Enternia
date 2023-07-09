@@ -1,16 +1,16 @@
 {
   "itemName" : "ctayaboiled",
-  "rarity" : "Common",
-  "price" : 200,
+  "level" : 2, "rarity" : "Common", "price" : 200,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctayaboiled.png",
-  "description" : "Runeva alta cuisine. A bowl of boiled grinded ayas. Less sweet, but very nourishing.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A bowl of boiled grinded ayas. Less sweet, but very nourishing.",
   "shortdescription" : "Boiled Ayas",
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 5.0,
   "blockingEffects" : [
     "wellfed"
@@ -20,8 +20,8 @@
   "variants" : [
     {
       "shortdescription" : "Blue Boil",
-      "description" : "Runeva alta cuisine. A bowl of thick dense boiled ayas. Often prepared this way in alta hospitals for patients. Very yummy!",
-      "rarity" : "Uncommon", "price" : 400, "foodValue" : 30
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A bowl of thick dense boiled ayas. Often prepared this way in ^#b0e0fc;alta^reset; hospitals for patients. Very yummy!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 30
     }
   ]
 }

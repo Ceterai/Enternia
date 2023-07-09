@@ -1,7 +1,19 @@
 {
   "type" : "ct_alta_crystal_drone",
   "shortdescription" : "Crystallized Scout Drone ^#20f080;^reset;",
-  "description" : "Tier 1.5 Drone\nA damaged alta drone, overgrown with electric crystals.",
+  "description" : "Tier 1.5 Drone.  \nA damaged ^#b0e0fc;alta^reset; drone, overgrown with electric crystals.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Crystal-Covered",
+    "description" : "Will swoop at enemies when in range. Will explode with ^#8020f0;electric^reset; particles on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Defective Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Defective^reset;, ^#2080f0;Omniblue Light^reset;.\nDeals ^#20f080;impulse^reset; damage on touch, applying ^#20f080;Pulse Paralysis^reset;."
+  },
 
   "categories" : [ "ct_alta_crystal_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier1_crystal", "bow" : "ct_alta_tier1_class2" } ],
@@ -43,7 +55,7 @@
     },
     "touchDamage" : {
       "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ], "teamType" : "enemy",
-      "damage" : 16, "knockback" : 10, "damageSourceKind" : "ct_ionic", "statusEffects" : [ "ct_ionic_stun" ]
+      "damage" : 16, "knockback" : 10, "damageSourceKind" : "ct_impulse", "statusEffects" : [ "ct_pulse_paralysis" ]
     },
 
     "statusEffects" : [ "ct_sensitive_electronics", "ct_defective", "ct_omniblue_light" ],
@@ -58,7 +70,7 @@
         "knockbackStunTime" : { "baseValue" : 0.25 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 24 },
+        "maxHealth" : { "baseValue" : 48 },
         "protection" : { "baseValue" : 16.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

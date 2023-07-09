@@ -1,0 +1,71 @@
+{
+  "itemName" : "ct_soniathrower",
+  "shortdescription" : "Soniathrower",
+  "description" : "This cooling tool is usually used for firefighting and supercharging specific environments. It's able to withstand all the cold due to its ^#299fc5;bionid^reset; case.",
+  "elementalType" : "ice",
+  "race" : "alta",
+
+  "level" : 5, "price" : 480, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "wrist", "ice", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_soniathrower.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : { "middle" : "ct_soniathrower.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ ],
+    "primary_hold" : [ ],
+    "primary_start" : [ "/sfx/gun/flamethrower_start.ogg" ],
+    "primary_loop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+    "primary_end" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "baseOffset" : [0.0, 0.0], "muzzleOffset" : [1.0, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Superconductor",
+    "description" : "This cooling mechanism is able to generate a stream of cold gas mass.",
+
+    "baseDps" : 4.5, "energyUsage" : 16, "fireTime" : 0.065,
+
+    "holdType" : "thrower",
+    "holdParams" : { "type" : "icethrower", "params" : { "animationCycle" : 0.45, "timeToLive" : [0.40, 0.55] }, "interval" : 0.0 },
+    "holdTimeMin" : 0.0, "holdTimeMax" : 0.0, "holdCooldown" : 0.0, "loop" : true,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0, "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.05, "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_soniathrower_2.png",
+    "animationParts" : { "middle" : "ct_soniathrower_2.png" },
+    "shortdescription" : "Sonia's Breath ^#8020f0;^reset;",
+    "description" : "A recreation of a mysterious ^#ffa8e8;stardust^reset; device that could combine ^#8020f0;ionic^reset; energy and sona cold into a stream of superelectricity.",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/ar_reload_clip1.ogg" ] } },
+    "primaryAbility" : {
+      "name" : "Superconductor Prime",
+      "description" : "An advanced cooling mechanism that's able to generate a stream of cold gas mass with a 2x further reach.",
+      "baseDps" : 4, "holdParams" : { "type" : "icethrower", "params" : { "animationCycle" : 1, "timeToLive" : 0.98 }, "interval" : 0.0 }
+    }
+  }
+}

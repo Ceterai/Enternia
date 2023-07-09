@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 160,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Chair",
   "description" : "A comfortable reinforced chair that stands firmly on the ground.",
@@ -33,5 +33,7 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
-  "sitPosition" : [2, 22]
+  "sitPosition" : [2, 22],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

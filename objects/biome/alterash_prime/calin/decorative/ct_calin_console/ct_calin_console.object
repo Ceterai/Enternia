@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Console",
   "description" : "A console on a crystal rack.",
@@ -65,5 +65,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

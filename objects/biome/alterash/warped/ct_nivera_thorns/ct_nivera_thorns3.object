@@ -5,7 +5,8 @@
   "rarity" : "Rare",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "poison",
 
   "shortdescription" : "Nivera Coral Thorns",
   "description" : "A nivera bush that reminds of a coral with its shape and overall hardness.",
@@ -34,28 +35,46 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_nivera_thorns3.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "image" : "ct_nivera_thorns3.png:left",
+      "spaceScan" : 0.1, "anchors" : [ "left" ], "direction" : "right"
+    },
+    {
+      "image" : "ct_nivera_thorns3.png:right",
+      "spaceScan" : 0.1, "anchors" : [ "right" ], "direction" : "right"
+    },
+    {
+      "dualImage" : "ct_nivera_thorns3.png:bottom",
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "ct_nivera_thorns3.png:top",
+      "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "dualImage" : "ct_nivera_thorns3.png:back",
+      "spaceScan" : 0.1, "anchors" : [ "background" ]
     }
   ],
 
   "touchDamage" : {
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
-    "damage" : 15,
-    "knockback" : 20,
+    "damage" : 14,
+    "knockback" : 16,
     "statusEffects" : [ "weakpoison" ],
 
     "damageType" : "Environment",
     "damageSourceKind" : "poisonspear"
   },
 
-  "smashable" : true,
+  "health" : 3.0,
+  "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
   "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
   "smashDropOptions" : [
-    [ [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ] ]
+    [ [ "plantfibre", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

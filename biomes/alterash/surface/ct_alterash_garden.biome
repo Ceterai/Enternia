@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_garden",
   "friendlyName" : "Alterash Gardens",
+  "description" : "A peaceful prairie on the surface of Alterash planets, filled with grass, colorful flowers and iridescent ^#ffa8e8;prisms^reset; made of crystallized ^#ffa8e8;stardust^reset;. Rare ayaka trees are scattered around a surface, with ripe bright blue ayas hanging among their leaves.  \nThe underground here is filled with bushes and rare ayaka roots.\n\nYou can find these gardens on every ^#20f080;alterash^reset; planet and is likely the first thing you'll see - this mostly plain terrain with little danger around is a great place for landing.\n\nWhat awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! **Welcome to Alterash.**",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier1.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
@@ -18,7 +20,7 @@
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
       { "select" : 2, "pool" : "nightTerrors" },
       { "select" : 1, "pool" : "generatedFlying" },
-      { "select" : 2, "pool" : [[1,"birdcritter"],[1,"sporelingcritter"],[1,"bouncercritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
+      { "select" : 2, "pool" : [[1,"birdcritter"],[1,"bunnycritter"],[1,"cliffcritter"],[1,"bioluminfireflyspawner"]] }
     ]
   },
 
@@ -69,7 +71,7 @@
 
   "surfacePlaceables" : {
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
-    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [
       // Tech
       {
@@ -78,7 +80,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
@@ -125,8 +127,8 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
-    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
+    "grassMod" : [ "thickgrass" ], "grassModDensity" : 0.9,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [
       // Tech
       {
@@ -135,7 +137,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",

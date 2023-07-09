@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_warped_cocktail",
-  "rarity" : "Legendary",
-  "price" : 1000,
+  "level" : 6, "rarity" : "Legendary", "price" : 1000,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_warped_cocktail.png",
-  "description" : "Calin alta cuisine. Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
   "shortdescription" : "Warped Cocktail",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Glowarp ^#8020f0;^reset;",
-      "description" : "Calin alta cuisine. An extra-warpy drink that will warp your perception of drinks as a concept.",
-      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. An extra-warpy drink that will warp your perception of drinks as a concept.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
   ]
 }

@@ -5,7 +5,8 @@
   "rarity" : "Rare",
   "price" : 640,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "electric",
 
   "shortdescription" : "Yaara Heart",
   "description" : "A gigantic flower surrounded by ionized thorns. Looks like it's somehow important.",
@@ -23,16 +24,15 @@
   "orientations" : [
     {
       "dualImage" : "ct_yaara_heart.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
     }
   ],
 
   "touchDamage" : {
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
-    "damage" : 20,
+    "damage" : 24,
     "knockback" : 20,
-    "statusEffects" : [ "ct_ionic_stun", "ct_ionic_shock" ],
+    "statusEffects" : [ "ct_pulse_paralysis", "ct_ionic_shock" ],
 
     "damageType" : "Environment",
     "damageSourceKind" : "electricspear"
@@ -47,5 +47,7 @@
     [ [ "ct_ceternia_core", 4, { } ], [ "ct_yaara_root", 1, { } ], [ "crystal", 3, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

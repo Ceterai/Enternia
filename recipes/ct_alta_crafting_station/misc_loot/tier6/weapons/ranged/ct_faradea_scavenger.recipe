@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_faradea_scavenger", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

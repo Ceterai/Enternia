@@ -1,0 +1,57 @@
+{
+  "itemName" : "ct_tsentarish",
+  "shortdescription" : "Tsentarish ^#8020f0;^reset; ^red;WIP^reset;",
+  "description" : "A techno wand able to manipulate orbs of pure magma. Some think wands are obsolete, but this one is a good argument otherwise.",
+  "elementalType" : "fire",
+  "race" : "alta",
+
+  "level" : 6, "price" : 520, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "wand", "alta", "fire" ],
+
+  "inventoryIcon" : "ct_tsentarish.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_abils/orbs/orbs.animation",
+  "animationParts" : {
+    "glove" : "ct_tsentarish.png",
+    "orb1" : "/projectiles/charge/other/orb/full/ct_magmorb.png",
+    "orb2" : "/projectiles/charge/other/orb/full/ct_magmorb.png",
+    "orb3" : "/projectiles/charge/other/orb/full/ct_magmorb.png" },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "glove" : { "properties" : { "offset" : [0.1, 1.0] } },
+      "orb1" : { "properties" : { "offset" : [0.75, 0.0] } },
+      "orb2" : { "properties" : { "offset" : [0.75, 0.0] } },
+      "orb3" : { "properties" : { "offset" : [0.75, 0.0] } }
+    } },
+    "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip2.ogg" ] },
+    "lights" : {
+      "orb1" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] },
+      "orb2" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] },
+      "orb3" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] }
+    }
+  },
+  "scripts" : [ "/items/active/weapons/ranged/ct_alta_abils/orbs/orbs.lua" ],
+  "orbitRate" : 0.5, "muzzleOffset" : [0.1, 1.0],
+
+  "primaryAbility" : {
+    "name" : "Energy Controller",
+    "description" : "Intergrated tech that allows you to take control of 3 ^#f08020;Magmorbs^reset;.\nPress - launch a ^#f08020;Magmorb^reset;;\nHold - create a Magma Shield.",
+
+    "baseDps" : 5, "energyUsage" : 20, "fireTime" : 0.33,
+    "type" : "ct_magmorb",
+    "params" : {
+      "returnOnHit" : true, "ignoreTerrain" : false,
+      "controlForce" : 140, "pickupDistance" : 1.5, "snapDistance" : 4.0
+    },
+    "shieldKnockback" : 10
+  },
+
+  "stances" : {
+    "idle" : { "armRotation" : 10, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+    "shield" : { "armRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

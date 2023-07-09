@@ -1,7 +1,8 @@
 {
   "type" : "ct_engineerdrone",
-  "shortdescription" : "Frigate Drone ^#8020f0;^reset;",
-  "description" : "Tier 4 MegaDrone\nThis huge combat machine is able to construct new drones on the fly.",
+  "shortdescription" : "^red;Outdated^reset; Frigate Drone Prototype",
+  "description" : "Tier 4 MegaDrone.  \nThis huge combat machine is able to construct new drones on the fly.",
+  "race" : "alta",
 
   "categories" : [ "ct_engineerdrone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ ],

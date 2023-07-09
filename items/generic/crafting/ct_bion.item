@@ -1,13 +1,15 @@
 {
   "itemName" : "ct_bion",
   "shortdescription" : "Bion Compound",
-  "description" : "A bulletproof piece of composite cloth, mostly made from bion - purified bionid. Able to bend well and provide heat retention.",
+  "description" : "A bulletproof piece of composite cloth, mostly made from bion - purified ^#299fc5;bionid^reset;. Pure bion is able to bend well and provide heat retention, while alternatives like bionix are hard and can barely bend.",
+  "race" : "alta",
 
-  "price" : 160,
-  "rarity" : "Rare",
+  "level" : 5, "price" : 40, "rarity" : "Rare",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "cloth", "armor", "compound", "bionid", "bion", "alta" ], "tooltipKind" : "ct_alta_item_long",
 
-  "inventoryIcon" : "ct_bion.png"
+  "inventoryIcon" : "ct_bion.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

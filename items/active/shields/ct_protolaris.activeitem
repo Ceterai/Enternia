@@ -2,23 +2,28 @@
   "itemName" : "ct_protolaris",
   "shortdescription" : "Ikai Protolaris ^#8020f0;^reset;",
   "description" : "Some shields are at their core all sacred tools to fathom energy and space, and some are tools of pure protection. This one is both.",
+  "elementalType" : "electric",
 
   "level" : 6, "rarity" : "Legendary", "price" : 520,
 
-  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "alta", "crystal" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "alta", "crystal" ],
   "twoHanded" : false, "maxStack" : 1,
+  "race" : "alta",
 
-  "inventoryIcon" : "ct_protolaris.png:nearidle",
+  "inventoryIcon" : "ct_protolaris.png",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "ct_protolaris.png"
+    "shield" : "images/ct_protolaris.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
     }}}},
     "sounds" : {
+      "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ],
+      "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+      "charge_end" : [ "/sfx/gun/shockblast.ogg" ],
       "raiseShield" : [ "/sfx/gun/mech_shielddrone1.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
@@ -26,7 +31,21 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
+
+  "primaryAbility" : {
+    "name" : "Guardian's Dome",
+    "description" : "Hold to charge up an Ionic Damage Field.\nActivate block fast enough (parry time) to perform a perfect block."
+  },
+
+  "passiveAbility" : {
+    "name" : "Adaptive Shield",
+    "description" : "Applies ^#2080f0;Analyzed^reset; to enemies on hit, making them weaker."
+  },
+
+  "chargeFire" : {
+    "type" : "electricguardiandamagearea", "inaccuracy" : 0.0
+  },
 
   "minActiveTime" : 0.2,
 
@@ -37,7 +56,8 @@
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
   "perfectBlockTime" : 0.2,
 
-  "knockback" : 10, // electricguardiandamagearea on charge
+  "knockback" : 10,
+  "knockbackStatusEffects" : [ "ct_analyzed" ],
 
   "stances" : {
     "idle" : {
@@ -54,5 +74,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandshield.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

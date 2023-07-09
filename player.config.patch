@@ -1,4 +1,6 @@
 [
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ct_alta_crafting_station" }
-  }
+  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "ct_alta_crafting_station" } },
+  { "op" : "add", "path" : "/species/-", "value" : "alta" },
+  { "op" : "add", "path" : "/defaultCodexes/alta", "value" : [ "protectorate1", "protectorate2" ] },
+  { "op" : "add", "path" : "/deploymentConfig/speciesStarterMechBody/alta", "value" : "mechbodyapexproto" }
 ]

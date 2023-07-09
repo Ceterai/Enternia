@@ -1,16 +1,16 @@
 {
   "itemName" : "ctayabaked",
-  "rarity" : "Common",
-  "price" : 160,
+  "level" : 2, "rarity" : "Common", "price" : 160,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ctayabaked.png",
-  "description" : "Runeva alta cuisine. Crispy on the outside, filled with hot sweet, slightly sour jam.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. Crispy on the outside, filled with hot sweet, slightly sour jam.",
   "shortdescription" : "Baked Aya",
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 5.0,
   "blockingEffects" : [
     "wellfed"
@@ -20,8 +20,8 @@
   "variants" : [
     {
       "shortdescription" : "Aya Mash",
-      "description" : "Runeva alta cuisine. This baked aya was mashed and mixed after cooking, making it into a proper garnish.",
-      "rarity" : "Uncommon", "price" : 360, "foodValue" : 30
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This baked aya was mashed and mixed after cooking, making it into a proper garnish.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 360, "foodValue" : 30
     }
   ]
 }

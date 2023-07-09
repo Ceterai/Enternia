@@ -4,11 +4,11 @@
     { "item" : "petalyellow", "count" : 1 },
     { "item" : "larva", "count" : 2 },
     { "item" : "scorchedcore", "count" : 1 },
-    { "item" : "syringe", "count" : 1 }
+    { "item" : "syringe", "count" : 2 }
   ],
   "output" : {
     "item" : "orangestim",
-    "count" : 1
+    "count" : 2
   },
-  "groups" : [ "alta_tier4", "medicine", "all" ]
+  "groups" : [ "alta_t4+", "medicine", "all" ]
 }

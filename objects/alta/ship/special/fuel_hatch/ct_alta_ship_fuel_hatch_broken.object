@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 1200,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Broken Alta Ship FTL Fuel Hatch",
-  "description" : "A broken FTL fuel hatch. This won't do!\n^red;Destroyed when broken.",
+  "description" : "A broken FTL fuel hatch for some ^#b0e0fc;alta^reset; machinery. This won't do!",
   "altaDescription" : "A broken piece of acquired tech. Lets you power up the ship using erchius fuel.",
 
   "apexDescription" : "Converts fuel into freedom.",
@@ -45,5 +45,7 @@
   ],
   
   "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
-  
+  ,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

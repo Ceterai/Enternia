@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 5,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Verriskoywa Lush Grass",
   "description" : "A patch of tall grass. Be sure to check for critters!",
@@ -35,5 +35,7 @@
     [ ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

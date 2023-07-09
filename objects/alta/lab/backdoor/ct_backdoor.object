@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 560,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Unknown Device",
   "description" : "An unknown device. It feels like something is missing. Code on the back reads 'CT35'.",
@@ -32,5 +32,7 @@
       "spaceScan" : 0.1,
       "collision" : "solid", "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

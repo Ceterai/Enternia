@@ -1,0 +1,102 @@
+﻿{
+  "itemName" : "ctgun2",
+  "price" : 1200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A bodysuit attachment that can shoot electrified energy cells. Can be upgraded to a ^#2080f0;Double Point Hyperblaster^reset; ^#8020f0;^reset;",
+  "shortdescription" : "^red;Outdated^reset; ^#2080f0;Fixed Point Hyperblaster^reset;",
+  "tooltipKind" : "ct_alta_weapon_1",
+  "category" : "machinePistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol","upgradeableWeapon"],  // 3 CRAFT (arco, unique), 3 POD (shotgun, pistol, unique (firethrower)), 2 BIOME (pistol, smg)
+  "level" : 5,  // grapplinghook wormgun neochakram flamethrower   fireboomerang lunarang wormerang ropewhip   energywhip magnorbs
+
+  "inventoryIcon" : "/items/active/weapons/ranged/ct_alta_wrist/ct_pulsecutter.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "/items/active/weapons/ranged/ct_alta_wrist/ct_pulsecutter.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_mp1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [0.7, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"], "isWrist" : true,
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "bouncingshot",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "name" : "Energy Wrists",
+    "description" : "Launches Ionic Charges able to bounce off of surroundings.",
+
+    "fireTime" : 0.08,
+    "baseDps" : 11.0,
+    "energyUsage" : 28,
+    "inaccuracy" : 0.06,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "electricplasma",
+    "projectileParameters" : {
+      "knockback" : 1,
+      "statusEffects" : [ "electrified" ]
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.08,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "/items/active/weapons/ranged/ct_alta_wrist/ct_pulsecutter_2.png",
+    "animationParts" : {
+      "middle" : "/items/active/weapons/ranged/ct_alta_wrist/ct_pulsecutter_2.png"
+    },
+    "muzzleOffset" : [0.7, 0.0],
+    "primaryAbility" : {
+      "baseDps" : 12.0,
+      "energyUsage" : 32,
+      "projectileCount" : 2
+    },
+    "shortdescription" : "^#2080f0;Double Point Hyperblaster^reset; ^#8020f0;^reset;",
+    "description" : "Shoots two projectiles at the same time."
+  }
+}

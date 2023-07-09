@@ -1,0 +1,60 @@
+{
+  "itemName" : "ct_barracuda_fin",
+  "shortdescription" : "Barracuda's Fin ^red;WIP^reset;",
+  "description" : "All what's left from a mysterious beast. If it's this big, who knows what a giant this was...",
+  "elementalType" : "physical",
+
+  "level" : 3, "price" : 720, "rarity" : "Uncommon",
+  "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "sea", "fish", "fin", "undead", "predatory", "barracuda", "koywa", "flooded", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_barracuda_fin.png",
+
+  "animation" : "/items/active/weapons/melee/ct_alta_melee.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_barracuda_fin.png" },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "name" : "Test.",
+    "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash.",
+    "fireTime" : 0.9,
+    "baseDps" : 12,
+    "damageConfig" : {
+      "statusEffects" : [ "ct_crimsondrain_effect" ]
+    }
+  },
+
+  "altAbilityType" : "astraltear",
+  "altAbility" : {
+    "name" : "Test.",
+    "description" : "Test."
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "Barracuda's Cry ^#8020f0;^reset;",
+    "description" : "A refined, hardened Barracuda's Fin. With the power of ^#ffa8e8;stardust^reset; this thing can do absolute wonders.",
+    "inventoryIcon" : "ct_barracuda_fin_2.png", "animationParts" : { "blade" : "ct_barracuda_fin_2.png" },
+    "price" : 800, "rarity" : "Legendary",
+    "elementalType" : "electric",
+    "primaryAbility" : {
+      "fireTime" : 0.6,
+      "name" : "Test.",
+      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
+    },
+    "altAbility" : {
+      "name" : "Test.",
+      "description" : "Test."
+    }
+  }
+}

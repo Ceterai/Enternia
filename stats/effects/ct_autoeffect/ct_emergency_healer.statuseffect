@@ -1,6 +1,7 @@
 {
   "name" : "ct_emergency_healer",
   "label" : "Emergency Healer",
+  "description" : "Applies ^#2080f0;Emergency Heal^reset; to you when your health is lower than 20%.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {

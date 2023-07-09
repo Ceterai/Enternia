@@ -1,10 +1,10 @@
 {
   "input" : [
+    { "item" : "titaniumbar", "count" : 12 },
     { "item" : "ct_alta_energy_cell", "count" : 1 },
-    { "item" : "crystal", "count" : 2 },
-    { "item" : "titaniumbar", "count" : 16 }
+    { "item" : "silk", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_security_chest", "count" : 1 },
-  "groups" : [ "alta_tier2", "tier4_security", "armor", "body", "all" ]
+  "groups" : [ "alta_t2", "tier4_security", "armor", "body", "all" ]
 }

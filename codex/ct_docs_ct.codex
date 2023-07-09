@@ -33,7 +33,8 @@ CT63, Vortex Battery - a high-volume energy accumulator. Can be used to power en
 
   ],
     "itemConfig" : {
-    "rarity" : "Legendary",
-    "price" : 240
+    "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+    "fixedPrice" : true, "level" : 6,
+    "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_sinigai",
+  "shortdescription" : "Sinigai ^#8020f0;^reset; ^red;WIP^reset;",
+  "description" : "Molten sword with an energy razor. What ^#b0e0fc;alta^reset; made this?",
+  "elementalType" : "fire",
+
+  "level" : 6, "price" : 560, "rarity" : "Legendary",
+  "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "stardust", "staris" ],
+
+  "inventoryIcon" : "ct_sinigai.png",
+  "animation" : "/items/active/weapons/melee/ct_alta_melee.animation",
+  "animationParts" : { "handle": "", "blade" : "ct_sinigai.png" },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 8
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 1200,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Statue",
-  "description" : "A statue on a titanium platform. The label says the statue was build in the name of all altas.",
+  "description" : "A statue on a titanium platform. The label says the statue was build in the name of all ^#b0e0fc;altas^reset;.",
   "altaDescription" : "Looking at the monument to all of us and the progress we've made fills me with determination.",
 
   "apexDescription" : "A monitor. It shows only a couple of lines, nothing more.",
@@ -28,5 +28,7 @@
       "anchors" : [ "bottom" ]
     }
   ]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

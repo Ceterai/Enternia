@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_datacenter",
-  "colonyTags" : [ "alta", "crafting", "electronic" ],
+  "colonyTags" : [ "alta", "crafting", "hevika" ],
   "category" : "crafting",
   "rarity" : "Legendary",
   "price" : 1600,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
@@ -20,8 +20,8 @@
     "filter" : [ "alta_codex" ]
   },
 
-  "shortdescription" : "^orange;Alta Datacenter^white;",
-  "description" : "An ultimate alta database. Used for storing alta information, documents, codexes and datamass.",
+  "shortdescription" : "^orange;Alta Datacenter^reset;",
+  "description" : "An ultimate ^#b0e0fc;alta^reset; database. Used for storing ^#b0e0fc;alta^reset; information, documents, codexes and datamasses in ^#0050c0;hevika^reset; crystals.",
   "altaDescription" : "I can create equipment to use for wiring here.",
 
   "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
@@ -40,5 +40,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

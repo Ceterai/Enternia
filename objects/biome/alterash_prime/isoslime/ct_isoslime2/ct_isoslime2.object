@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoslime Pile",
-  "description" : "A glob of slime.",
+  "description" : "A glob of ^#7ddcde;isoslime^reset;.",
   "altaDescription" : "I could get a biosample from this! Or maybe even a cryonic extract, if I'm lucky.",
 
   "apexDescription" : "A slime deposit. It appears to be dripping.",
@@ -36,5 +36,7 @@
   "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,10 +1,11 @@
 {
   "name" : "ct_static_shield_eds",
-  "label" : "^#b81824;EDS^reset; Shield",
+  "label" : "^#b81824;EDS^reset; Energy Shield",
+  "description" : "An energy shield that will expire once broken or overtime.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
-    "shieldBase" : 60.0,
+    "shieldBase" : 100.0,
     "shieldFromHealthPercent" : 0.35,
     "visuals" : "border=2;b8182499;b81824ff"
   },

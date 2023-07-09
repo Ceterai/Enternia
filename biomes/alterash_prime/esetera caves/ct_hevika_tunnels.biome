@@ -1,6 +1,8 @@
 {
   "name" : "ct_hevika_tunnels",
   "friendlyName" : "Hevika Tunnels",
+  "description" : "These narrow caves are full of ^#0050c0;hevika^reset; crystals and highly ionized air. Staying in such environment for too long can lead to an ^#8020f0;Ionic Stroke^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_hevika_loot.png",
   "statusEffects" : [ "ct_ionized_air", "ct_ionic_stroke" ],
   "mainBlock" : "crystalblock",
   "subBlocks" : [ "ice", "moonrock" ],
@@ -37,7 +39,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -59,6 +61,10 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_alternia_crystal"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_hevikaChest" ]
       },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",

@@ -1,18 +1,19 @@
 {
   "itemName" : "ct_tsyntex",
   "shortdescription" : "Tsyntex",
-  "description" : "This gheablaster was named after a scpecial reaction that gheatsyn goes through to become a liquid.",
+  "description" : "This gheablaster was named after a scpecial reaction that ^#a7e001;gheatsyn^reset; goes through to become a liquid.",
   "elementalType" : "poison",
+  "race" : "alta",
 
   "level" : 5, "price" : 480, "rarity" : "Rare",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
-  "twoHanded" : false, "category" : "uniqueWeapon",
-  "itemTags" : [ "weapon", "ranged", "pistol", "alta", "shock", "upgradeableWeapon" ],
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "pistol", "blaster", "alta", "gheatsyn", "ghearun", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_tsyntex.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
-  "animationParts" : { "middle" : "ct_tsyntex.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/green_small.png" },
+  "animationParts" : { "middle" : "ct_tsyntex.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/green_small.png" },
   "animationCustom" : { "sounds" : {
     "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ]
     },
@@ -29,6 +30,7 @@
 
   "primaryAbility" : {
     "name" : "Gheablast",
+    "description" : "Tsyntex under phosic pressure allows to launch semiauto bursts of impulses on press, and create ^#a7e001;gheatsyn^reset; charges on hold.",
 
     "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10,
 
@@ -73,12 +75,23 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_tsyntex_2.png",
     "animationParts" : { "middle" : "ct_tsyntex_2.png" },
     "shortdescription" : "Tsyntex Prime ^#8020f0;^reset;",
-    "price" : 520
+    "description" : "A pristine model of original tsyntex blaster with its power enhanced by ^#ffa8e8;stardust^reset;.",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ] } },
+    "primaryAbility" : {
+      "name" : "Ultimate Gheablast",
+      "description" : "Tsyntex under phosic pressure allows to launch semiauto bursts of ^#20f080;impulses^reset; on press (+1 blast per burst), and create 2x ^#a7e001;gheatsyn^reset; charges on hold (40% faster charge).",
+      "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10, "holdTimeMax" : 0.45,
+      "pressType" : "semi",
+      "pressParams" : { "type" : "ct_impulse_small", "inaccuracy" : 0.04, "count" : 4 },
+      "holdType" : "semi",
+      "holdParams" : { "type" : "ct_gheatsyn_charge", "inaccuracy" : 0.01, "count" : 2 }
+    }
   }
 }

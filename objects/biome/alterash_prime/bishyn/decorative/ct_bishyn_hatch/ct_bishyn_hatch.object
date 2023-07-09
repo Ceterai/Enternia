@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 125,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Hatch",
-  "description" : "A smooth bishyn hatch.",
+  "description" : "A smooth ^#378754;bishyn^reset; hatch.",
   "altaDescription" : "Unlike a gateway, this hatch uses lots of small bishyn crystals to act as way blockers.",
 
   "apexDescription" : "Don't get distracted while coming through.",
@@ -68,5 +68,7 @@
   ],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

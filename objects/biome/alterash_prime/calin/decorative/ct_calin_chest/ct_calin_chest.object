@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_calin_chest",
   "colonyTags" : [ "crystal", "calin", "storage" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Chest",
   "description" : "A dark metal pod chest.",
@@ -37,5 +37,7 @@
   "slotCount" : 24,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

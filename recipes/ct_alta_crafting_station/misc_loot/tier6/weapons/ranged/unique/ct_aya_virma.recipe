@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ctaya", "count" : 4 },
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "ctwoodsap", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_aya_virma", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

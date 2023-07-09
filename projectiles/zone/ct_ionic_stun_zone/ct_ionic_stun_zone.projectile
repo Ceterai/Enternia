@@ -1,6 +1,7 @@
 {
   "projectileName" : "ct_ionic_stun_zone",
   "image" : "ct_ionic_stun_zone.png",
+  "damageKindImage" : "/damage/ct_ionic.png",
   "physics" : "laser",
   "timeToLive" : 5,
   "animationCycle" : 0.8,
@@ -22,7 +23,7 @@
   "speed" : 0,
   "power" : 0,
   "renderLayer" : "Player+1",
-  "statusEffects" : ["ct_ionic_stun"],
+  "statusEffects" : ["ct_ionic_shock"],
 
   "orientationLocked" : true,
   "fullbright" : true,

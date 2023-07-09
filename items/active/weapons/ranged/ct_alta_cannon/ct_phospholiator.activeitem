@@ -1,21 +1,21 @@
 {
   "itemName" : "ct_phospholiator",
   "shortdescription" : "Phospholiator",
-  "description" : "A powerfull launcher that forms haven toxins into a poisonous energy ball.",
+  "description" : "A ^#ceffd7;phospholion^reset; cannon that forms small radioactive projectiles that deal severe ^#f08020;fire^reset; damage upon contact.",
 
   "elementalType" : "fire",
 
   "level" : 5, "price" : 720, "rarity" : "Rare",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
-  "twoHanded" : true, "category" : "rocketLauncher",
-  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "phospholion", "radiation", "upgradeableWeapon" ],
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "grenadeLauncher",
+  "itemTags" : [ "weapon", "ranged", "grenadelauncher", "cannon", "minelauncher", "phospholion", "radiation", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_phospholiator.png",
 
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
   "animationParts" : {
-    "butt" : "", "middle" : "ct_phospholiator.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png"
+    "butt" : "", "middle" : "ct_phospholiator.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/impulse.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -37,6 +37,7 @@
 
   "primaryAbility" : {
     "name" : "Phosiblast",
+    "description" : "Creates bursts of Phosic Blasts.\nPress - burst with irradiated fireballs;\nHold - burst with Phosic Blasts.",
 
     "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.9,
 
@@ -85,6 +86,7 @@
 
   "altAbility" : {
     "name" : "Phosic Patronage",
+    "description" : "This weapon is packed with nades.\nPress - launch a Sticky Firenade;\nHold - burst with Fire Mines.",
 
     "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.9,
 
@@ -131,12 +133,14 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_phospholiator_2.png",
     "animationParts" : { "middle" : "ct_phospholiator_2.png" },
     "shortdescription" : "Phosic Cannon ^#8020f0;^reset;",
-    "price" : 800
+    "description" : "The ^#ceffd7;phosicores^reset; in this cannon have been enhanced with ^#ffa8e8;stardust^reset;. Its ^#f08020;fire^reset; now bursts with energy!",
+    "price" : 800, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } }
   }
 }

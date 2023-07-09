@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_maito_tea",
-  "rarity" : "Uncommon",
-  "price" : 400,
+  "level" : 4, "rarity" : "Uncommon", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_maito_tea.png",
-  "description" : "An alta cuisine. A very calming tea mixture used to relax and concentrate.",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. A very calming tea mixture used to relax and concentrate.",
   "shortdescription" : "Maito Tea",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -31,8 +31,8 @@
   "variants" : [
     {
       "shortdescription" : "Calming Tea",
-      "description" : "An alta cuisine. A mixed cuisine tea that will make all the toubles go away.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. A mixed cuisine tea that will make all the toubles go away.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ]
     }
   ]

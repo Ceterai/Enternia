@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_crunchy_pie",
-  "rarity" : "Rare",
-  "price" : 760,
+  "level" : 5, "rarity" : "Rare", "price" : 760,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_crunchy_pie.png",
-  "description" : "Calin alta cuisine. A regular pie with crunchy filling that tastes like pineapple.",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A regular pie with crunchy filling that tastes like pineapple.",
   "shortdescription" : "Crunchy Pie",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 40,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Crystal Pie",
-      "description" : "Calin alta cuisine. A crunchy pineapple pie with extra steps. Totally worth it.",
-      "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A crunchy pineapple pie with extra steps. Totally worth it.",
+      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50
     }
   ]
 }

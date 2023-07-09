@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Console",
-  "description" : "A console floating on a gheatsyn crystal.",
+  "description" : "A console floating on a ^#a7e001;gheatsyn^reset; crystal.",
   "altaDescription" : "A regular console that uses gheatsyn crystals as support. To be honest, I'm more of a terminal fan.",
 
   "apexDescription" : "Some useful floating console.",
@@ -64,5 +64,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

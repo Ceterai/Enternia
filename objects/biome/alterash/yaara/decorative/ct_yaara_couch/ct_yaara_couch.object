@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 140,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Couch",
   "description" : "A couch made of plant fibre hide and large vines. Would a floran hurt a plant?",
@@ -55,5 +55,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

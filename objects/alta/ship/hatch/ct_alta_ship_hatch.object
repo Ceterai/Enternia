@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 400,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Hatch",
   "description" : "A hatch suitable for a spaceship.",
@@ -58,5 +58,7 @@
   "animationPosition" : [-16, -20],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

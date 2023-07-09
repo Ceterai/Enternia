@@ -1,80 +1,54 @@
 {
   "itemName" : "ct_ion_launcher",
-  "price" : 720,
-  "inventoryIcon" : "ct_ion_launcher.png",
-  "maxStack" : 1,
-  "rarity" : "Legendary",
+  "shortdescription" : "Ion Launcher ^red;WIP^reset;",
   "description" : "This custom-made ion rocket launcher was used to suppress constant avalanches on Iceterion. No one knows how it got here.",
-  "shortdescription" : "Ion Launcher",
-  "level" : 6,
-  "tooltipKind" : "gun",
-  "category" : "rocketLauncher",
-  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "ionic" ],
-  "twoHanded" : true,
+  "elementalType" : "electric",
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "level" : 6, "price" : 720, "rarity" : "Legendary",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : true, "category" : "rocketLauncher",
+  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "ionic" ],
+
+  "inventoryIcon" : "ct_ion_launcher.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
   "animationParts" : {
     "butt" : "", "middle" : "ct_ion_launcher.png", "barrel" : "", "muzzleFlash" : ""
   },
   "animationCustom" : {
-    "particleEmitters" : {
-      "muzzleFlash" : {
-        "burstCount" : 3,
-        "particles" : [
-          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
-        ]
-      }
-    },
-    "lights" : {
-      "laser" : {
-        "transformationGroups" : ["weapon"],
-        "active" : true,
-        "position" : [1.1, 1.185],
-        "color" : [90, 0, 0]
-      }
-    },
+    "particleEmitters" : { "muzzleFlash" : { "burstCount" : 3, "particles" : [ { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] } ] } },
+    "lights" : { "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.1, 1.185], "color" : [90, 0, 0] } },
     "sounds" : {
-      "fire" : [ "/sfx/gun/plasma_sniper5.ogg" ]
+      "primary_press" : [ "/sfx/gun/plasma_sniper5.ogg" ]
     }
   },
 
-  "animationScripts" : [
-    "/items/active/effects/laserbeam.lua"
-  ],
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "scriptedAnimationParameters" : {
-    "beams" : [
-      {
-        "offset" : [0.975, 0.8],
-        "color" : [255, 0, 0, 128],
-        "length" : 60,
-        "segments" : 6,
-        "angle" : 0
-      }
-    ]
+    "beams" : [ { "offset" : [0.975, 0.8], "color" : [255, 0, 0, 128], "length" : 60, "segments" : 6, "angle" : 0 } ]
   },
+  "baseOffset" : [0.30, 0.385], "muzzleOffset" : [1.85, 0.35],
 
-  "baseOffset" : [0.30, 0.385],
-  "muzzleOffset" : [1.85, 0.35],
-
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
-
-  "elementalType" : "electric",
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "name" : "Inzhiva Suppressor",
+    "description" : "Launches stabilizing Ion Rockets that deal electric damage.",
 
-    "fireTime" : 1.2,
-    "baseDps" : 9,
-    "energyUsage" : 36,
-    "inaccuracy" : 0.0,
+    "baseDps" : 9, "energyUsage" : 36, "fireTime" : 1.2,
 
-    "projectileCount" : 1,
-    "fireType" : "auto",
-
-    "projectileType" : "electricplasmarocket",
-    "projectileParameters" : {
-      "knockback" : 40
+    "pressType" : "blast",
+    "pressParams" : {
+      "type" : "ct_ionic_large",
+      "inaccuracy" : 0.0,
+      "params" : { "timeToLive" : 5.0 }
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "ct_ionic_large",
+      "inaccuracy" : 0.02,
+      "params" : { "knockback" : 15, "timeToLive" : 5.0 },
+      "count" : 2,
+      "interval" : 0.1
     },
 
     "stances" : {
@@ -110,5 +84,5 @@
   "altAbilityType" : "exmachinarocket", // magnorb, electricproximitymine
   "altAbility" : { "elementalConfig" : { "electric" : { } } },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

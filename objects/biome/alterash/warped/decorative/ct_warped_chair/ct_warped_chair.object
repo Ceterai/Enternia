@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Chair",
   "description" : "A chair made from spiked nivera vines with a seat made from purple warped vein matter.",
@@ -43,5 +43,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

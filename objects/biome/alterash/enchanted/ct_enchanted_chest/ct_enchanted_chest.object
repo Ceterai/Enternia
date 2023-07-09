@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_enchanted_chest",
   "colonyTags" : ["alterash", "nature", "storage"],
-  "objectType" : "container", "tooltipKind" : "container", "category" : "storage",
+  "objectType" : "container", "category" : "storage",
   "rarity" : "Common",
   "price" : 180,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "health" : 1.5,
 
   "shortdescription" : "Enchanted Chest",
@@ -37,5 +37,7 @@
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

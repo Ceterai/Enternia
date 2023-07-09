@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_onitti_cake",
-  "rarity" : "Legendary",
-  "price" : 1080,
+  "level" : 6, "rarity" : "Legendary", "price" : 1080,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_cake.png",
-  "description" : "Yava alta cuisine. A delicious layered cake with yaara flower topping. There's a rare chance you'll get ceternia core out of it.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A delicious layered cake with yaara flower topping. There's a rare chance you'll get ceternia core out of it.",
   "shortdescription" : "Onitti Cake",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 70,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Elin's Love ^#8020f0;^reset;",
-      "description" : "Yava alta cuisine. Multiple layers of pure love and care for all altas in existance. It melts your heart with essence of love.",
-      "rarity" : "Legendary", "price" : 1480, "foodValue" : 90
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Multiple layers of pure love and care for all ^#b0e0fc;altas^reset; in existance. It melts your heart with essence of love.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1480, "foodValue" : 90
     }
   ]
 }

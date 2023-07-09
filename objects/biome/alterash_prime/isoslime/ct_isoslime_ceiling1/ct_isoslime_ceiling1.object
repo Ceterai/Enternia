@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoslime Driplet",
-  "description" : "A glob of dripping slime.",
+  "description" : "A glob of dripping ^#7ddcde;isoslime^reset;.",
   "altaDescription" : "An isoslime deposit. It's dripping a little bit.",
 
   "apexDescription" : "A slime deposit. It appears to be dripping.",
@@ -54,5 +54,7 @@
   "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

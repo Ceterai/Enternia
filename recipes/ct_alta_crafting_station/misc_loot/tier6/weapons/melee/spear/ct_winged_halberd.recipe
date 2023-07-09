@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "ct_stardust", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_winged_halberd", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

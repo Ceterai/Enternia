@@ -2,12 +2,14 @@
   "itemName" : "ct_cetersphere",
   "shortdescription" : "^#20f080;Ceter^reset;-Sphere",
   "description" : "Source of natural energy, safe to use for generating low levels of pure electricity.",
+  "race" : "alta",
 
-  "price" : 320,
-  "rarity" : "Legendary",
+  "level" : 6, "price" : 40, "rarity" : "Legendary",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "energy_source", "alta", "ceternia" ], "tooltipKind" : "ct_alta_item",
 
-  "inventoryIcon" : "ct_cetersphere.png"
+  "inventoryIcon" : "ct_cetersphere.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

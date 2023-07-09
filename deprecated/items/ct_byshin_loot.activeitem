@@ -5,10 +5,8 @@
 
   "price" : 20,
   "level" : 3,
-  "maxStack" : 1000,
   "rarity" : "Common",
-  "category" : "mysteriousReward",
-  "twoHanded" : true,
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier4.png",
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
@@ -21,5 +19,7 @@
   "treasure" : {
     "pool" : "ct_bishyn_loot",
     "level" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

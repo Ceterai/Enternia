@@ -4,12 +4,12 @@
   "inventoryIcon" : "ct_meteoblaster.png",
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Its core was constructed from enternia-enhanced moonrock meteorites.",
-  "shortdescription" : "Meteoblaster",
+  "description" : "Its core was constructed from enternia-enhanced moonrock meteorites of ^#6f6c66;Astera^reset;.",
+  "shortdescription" : "Meteoblaster ^red;WIP^reset;",
   "level" : 5,
-  "tooltipKind" : "gun",
-  "category" : "rocketLauncher",
-  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "enternia", "upgradeableWeapon" ],
+  "tooltipKind" : "ct_alta_weapon_2",
+  "category" : "grenadeLauncher",
+  "itemTags" : [ "weapon", "ranged", "grenadelauncher", "ionic", "astera", "upgradeableWeapon" ],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -54,6 +54,8 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
+    "name" : "Meteoblast",
+    "description" : "Launches powerful meteorite shards called ^#6f6c66;Astera^reset;'s Shards.",
 
     "fireTime" : 1.0,
     "baseDps" : 9,
@@ -99,8 +101,9 @@
   },
 
   "altAbilityType" : "exmachinarocket", // balllightning
+  "altAbility" : { "elementalConfig" : { "electric" : { } } },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_meteoblaster_2.png",
@@ -112,6 +115,7 @@
       "muzzleFlash" : ""
     },
     "shortdescription" : "Starblaster ^#8020f0;^reset;",
-    "price" : 800
+    "description" : "This meteoblaster was enhanced with ^#ffa8e8;stardust^reset;. It's now able to launch Starshards instead of meteorite shards.",
+    "price" : 800, "rarity" : "Legendary"
   }
 }

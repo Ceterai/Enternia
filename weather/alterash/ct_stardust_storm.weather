@@ -1,5 +1,7 @@
 {
   "name" : "ct_stardust_storm",
+  "description" : "^#ffa8e8;Stardust^reset; crystals are falling from the sky! These crystals are small, but are hard to avoid and deal damage on impact. Be careful!",
+  "threat" : 1.2,
 
   "particles" : [
     {
@@ -44,36 +46,24 @@
 
   "projectiles" : [
     {
-      "projectile" : "ct_stardust_crystal_shard1",
-      "parameters" : {
-        "power" : 4
-      },
-      "velocity" : [0, -30],
-      "ratePerX" : 0.05,
-      "spawnAboveRegion" : 30,
-      "spawnHorizontalPad" : 30,
+      "projectile" : "ct_stardust_crystal",
+      "parameters" : { "power" : 5 },
+      "velocity" : [0, -30], "ratePerX" : 0.04,
+      "spawnAboveRegion" : 30, "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     },
     {
-      "projectile" : "ct_stardust_crystal_shard2",
-      "parameters" : {
-        "power" : 6
-      },
-      "velocity" : [0, -30],
-      "ratePerX" : 0.05,
-      "spawnAboveRegion" : 30,
-      "spawnHorizontalPad" : 30,
+      "projectile" : "ct_starshard1",
+      "parameters" : { "power" : 2 },
+      "velocity" : [0, -30], "ratePerX" : 0.04,
+      "spawnAboveRegion" : 30, "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     },
     {
-      "projectile" : "ct_stardust_crystal_shard3",
-      "parameters" : {
-        "power" : 7
-      },
-      "velocity" : [0, -30],
-      "ratePerX" : 0.05,
-      "spawnAboveRegion" : 30,
-      "spawnHorizontalPad" : 30,
+      "projectile" : "ct_starshard2",
+      "parameters" : { "power" : 3 },
+      "velocity" : [0, -30], "ratePerX" : 0.04,
+      "spawnAboveRegion" : 30, "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     }
   ],

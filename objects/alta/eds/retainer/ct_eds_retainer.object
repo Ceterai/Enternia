@@ -2,7 +2,7 @@
   "objectName" : "ct_eds_retainer",
   "colonyTags" : [ "alta", "eds", "misc", "electronic" ],
   "category" : "other",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "rarity" : "Rare",
   "price" : 560,
   "race" : "alta",
@@ -34,5 +34,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

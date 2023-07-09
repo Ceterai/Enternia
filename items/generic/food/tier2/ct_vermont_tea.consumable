@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_vermont_tea",
-  "rarity" : "Uncommon",
-  "price" : 400,
+  "level" : 4, "rarity" : "Uncommon", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_vermont_tea.png",
-  "description" : "Runeva alta cuisine. A spicy tea mixture with sweetness of ayas. A good choice if you caught a cold or just feeling spicy.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A spicy tea mixture with sweetness of ayas. A good choice if you caught a cold or just feeling spicy.",
   "shortdescription" : "Vermont Tea",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Exotic Tea",
-      "description" : "Runeva alta cuisine. This definitely tastes weird. Good weird, I think you're onto something.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This definitely tastes weird. Good weird, I think you're onto something.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "biomecoldImmunity", "duration" : 300 } ] ]
     }
   ]

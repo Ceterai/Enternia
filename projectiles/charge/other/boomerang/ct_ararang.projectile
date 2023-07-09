@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_ararang",
+  "image" : "ct_ararang.png",
+  "animationCycle" : 0.6,
+  "frameNumber" : 8,
+  "damageKindImage" : "/items/active/weapons/ranged/ct_alta_unique/ct_ararang.png",
+  "pointLight" : false,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "statusEffects" : [ "poisoned" ],
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "power" : 2.0,
+  "speed" : 40,
+  "damageKind" : "poisonhammer",
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 8,
+  "emitters" : [ "spectralsparkle", "spectralsparkle", "spectralsparkle", "spectralsparkle", "spectralsparkle" ],
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "/scripts/projectiles/boomerangprojectile.lua", "/projectiles/activeitems/boomerang/lunarangprojectile.lua" ],
+
+  "shardType" : "ct_ararang_shard",
+  "shardCount" : 4
+}

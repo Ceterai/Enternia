@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Bed",
   "description" : "A plant bedroll covered with a blanket and some growth. The small light over the head shines dimly.",
@@ -55,5 +55,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

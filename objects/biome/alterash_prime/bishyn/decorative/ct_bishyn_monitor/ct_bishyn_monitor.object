@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Monitor",
-  "description" : "Broken bishyn display.",
+  "description" : "Broken ^#378754;bishyn^reset; display.",
   "altaDescription" : "In order to get a proper image, this monitor needs to be properly configured first. It's not.",
 
   "apexDescription" : "This screen is broken.",
@@ -57,5 +57,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

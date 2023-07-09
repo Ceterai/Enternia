@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 200,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Amplifier",
   "description" : "A complex device on a small stand. What is it for?",
@@ -30,5 +30,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

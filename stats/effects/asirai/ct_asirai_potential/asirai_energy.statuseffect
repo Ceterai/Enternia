@@ -1,6 +1,7 @@
 {
   "name" : "ct_asirai_energy",
-  "label" : "Asirai's Energy^gray; - damages nearby enemies^reset;",
+  "label" : "Asirai's Energy",
+  "description" : "Damages nearby enemies with electricity.",
   "icon" : "asirai_energy.png",
   "scripts" : [ "asirai_potential.lua" ],
   "animationConfig" : "asirai_potential.animation",

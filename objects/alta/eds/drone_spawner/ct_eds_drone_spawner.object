@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 600,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Drone Spawner",
-  "description" : "A reinforced device integrated into the walls, able to release drones.\n^red;Destroyed when broken.",
+  "shortdescription" : "^#f02020;EDS^reset; Drone Spawner",
+  "description" : "A reinforced device integrated into the walls, able to release ^#f02020;EDS Drones ^reset;.",
   "altaDescription" : "This is a reinforced EDS drone dispencer. Should be very careful around it.",
 
   "apexDescription" : "What's that moving inside...?",
@@ -45,5 +45,7 @@
     "outOfSight" : false
   },
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

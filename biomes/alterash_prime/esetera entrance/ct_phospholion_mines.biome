@@ -1,6 +1,8 @@
 {
   "name" : "ct_phospholion_mines",
   "friendlyName" : "Phospholion Mines",
+  "description" : "These are the caves where ^#b0e0fc;altas^reset; and kaiters mine ^#ceffd7;phospholion^reset;. Be extra careful, because there are explosive ^#ceffd7;irradiated phosphobulbs^reset;. Don't accidentally step on them.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_phospholion_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonstone", "moonrock" ],
   "ores" : "ct_alterash_depth1",
@@ -11,6 +13,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier3" ] ] },
       { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
     ]
   },
@@ -35,7 +38,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -56,10 +59,13 @@
         "treasureBoxSets" : [ "ct_phospholionChest" ]
       },
       {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_phospholionChest" ]
+      },
+      {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
         "objectSets" : [
           { "pool" : [[1,"bioshroom1"],[1,"bioshroom2"],[1,"bioshroom3"],[1,"bioshroom4"],[1,"bioshroom5"]], "parameters" : { } },
-          { "pool" : [[1,"ct_kodorric1"],[1,"ct_kodorric2"],[1,"ct_kodorric3"],[1,"ct_kodorric4"],[1,"ct_kodorric5"]], "parameters" : { } },
           { "pool" : [[1,"miningbelt"],[1,"miningcrusher"],[1.5,"miningfence"],[1,"miningskip"],[1,"floodlights"]], "parameters" : { } }
         ]
       },
@@ -68,16 +74,24 @@
         "objectSets" : [ { "pool" : [[1,"ct_phosphobulb1"],[1,"ct_phosphobulb2"],[1,"ct_phosphobulb3"]], "parameters" : { } } ]
       },
       {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_phosphobulb1"],[1,"ct_phosphobulb2"],[1,"ct_phosphobulb3"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_phosphobulb1"],[1,"ct_phosphobulb2"],[1,"ct_phosphobulb3"]], "parameters" : { } } ]
+      },
+      {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [[0.45,"ct_phospholion_deposit1"],[0.35,"ct_phospholion_deposit2"],[0.15,"ct_phospholion_deposit3"],[0.05,"ct_phospholion_formation"]], "parameters" : { } } ]
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
-        "objectSets" : [ { "pool" : [[0.65,"ct_phospholion_deposit_ceiling1"],[0.35,"ct_phospholion_deposit_ceiling2"]], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [[0.50,"ct_phospholion_deposit1"],[0.35,"ct_phospholion_deposit2"],[0.15,"ct_phospholion_deposit3"]], "parameters" : { } } ]
       },
       {
         "mode" : "background", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
-        "objectSets" : [ { "pool" : [[0.65,"ct_phospholion_deposit_wall1"],[0.35,"ct_phospholion_deposit_wall2"]], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [[0.50,"ct_phospholion_deposit1"],[0.35,"ct_phospholion_deposit2"],[0.15,"ct_phospholion_deposit3"]], "parameters" : { } } ]
       }
     ]
   }

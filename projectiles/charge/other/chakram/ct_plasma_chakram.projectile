@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_plasma_chakram",
+  "image" : "ct_plasma_chakram.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 8,
+  "damageKind" : "ct_plasma",
+  "damageKindImage" : "/items/active/weapons/ranged/ct_alta_unique/ct_plasma_chakram.png",
+  "lightColor" : [32, 128, 240],
+  "pointLight" : true,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue" ],
+  "actionOnReap" : [ ],
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "power" : 5.0,
+  "speed" : 70,
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "/projectiles/activeitems/chakram/hoverchakramprojectile.lua" ]
+}

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Crystal Bed",
   "description" : "A beautiful crystal bed. Like a flower bed, but spiky.",
@@ -69,5 +69,7 @@
   
   "objectType" : "loungeable",
   "sitCoverImage" : "/objects/alta/city/crystal_bed/body.png",
-  "sitFlipDirection" : false
+  "sitFlipDirection" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

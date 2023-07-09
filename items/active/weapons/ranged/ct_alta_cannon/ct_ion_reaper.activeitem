@@ -1,21 +1,22 @@
 {
   "itemName" : "ct_ion_reaper",
   "shortdescription" : "Ion Reaper ^#8020f0;^reset;",
-  "description" : "A true dreamer's weapon, a creation of chaos. A powerful electric blaster that launches double ricocheting ionic projectiles.",
+  "description" : "A true dreamer's weapon, a creation of chaos. A powerful electric blaster that launches double ricocheting ^#8020f0;ionic^reset; projectiles.",
+  "race" : "alta",
 
   "elementalType" : "electric",
 
   "level" : 6, "price" : 800, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "shotgun",
-  "itemTags" : [ "weapon", "ranged", "shotgun", "alta", "ionic" ],
+  "itemTags" : [ "weapon", "ranged", "shotgun", "cannon", "grenadelauncher", "alta", "dreamer", "ionic" ],
 
   "inventoryIcon" : "ct_ion_reaper.png",
 
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
   "animationParts" : {
-    "butt" : "", "middle" : "ct_ion_reaper.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png"
+    "butt" : "", "middle" : "ct_ion_reaper.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/ionic.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -38,6 +39,7 @@
 
   "primaryAbility" : {
     "name" : "Ionic Barrage",
+    "description" : "Covers the target in ^#8020f0;ionic^reset; strikes.\nPress - a shotgun burst of Paired ^#8020f0;Ionic Charges^reset;;\nHold - charges an electric Ion Rocket.",
 
     "baseDps" : 9, "energyUsage" : 36, "fireTime" : 0.45,
 
@@ -50,7 +52,7 @@
     },
     "holdType" : "rocket",
     "holdParams" : {
-      "type" : "electricplasmarocket"
+      "type" : "ct_ionic_large"
     },
 
     "stances" : {
@@ -85,6 +87,7 @@
 
   "altAbility" : {
     "name" : "Ion Discharge",
+    "description" : "Has an inbuilt ion discharger.\nPress - energy discarge in form of 3 ^#8020f0;Ion Blasts^reset;;\nHold - launch an ^#8020f0;Ion Nade^reset;.",
 
     "baseDps" : 9, "energyUsage" : 40, "fireTime" : 0.9,
 
@@ -128,5 +131,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

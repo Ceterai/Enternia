@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_alta_dinner",
-  "rarity" : "Rare",
-  "price" : 880,
+  "level" : 5, "rarity" : "Rare", "price" : 880,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alta_dinner.png",
-  "description" : "An alta cuisine. A prepared assortment of highly satisfying goodness that will get you full in no time.",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. A prepared assortment of highly satisfying goodness that will get you full in no time.",
   "shortdescription" : "Proper Alta Dinner",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Caretaker's Love",
-      "description" : "An alta cuisine. Just like you caretaker used to make!",
-      "rarity" : "Legendary", "price" : 1200, "foodValue" : 75
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. Just like your caretaker used to make!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 75
     }
   ]
 }

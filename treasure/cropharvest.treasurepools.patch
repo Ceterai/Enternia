@@ -1,70 +1,30 @@
 [
-  {
-    "op": "add",
-    "path": "/ctgilHarvest",
-    "value": [
-      [0, {
+  { "op": "add", "path": "/ctgilHarvest", "value": [ [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [
           {"weight" : 0.89, "item" : "ctgil"},
           {"weight" : 0.01, "item" : "ct_gil_seed"},
           {"weight" : 0.1, "item" : "ctwoodsap"}
-        ],
-        "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
-        ]
-      } ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/cttsayHarvest",
-    "value": [
-      [0, {
+  ] } ] ] },
+  { "op": "add", "path": "/cttsayHarvest", "value": [ [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [
           {"weight" : 0.89, "item" : "cttsay"},
           {"weight" : 0.01, "item" : "ct_tsay_seed"},
           {"weight" : 0.1, "item" : "ctwoodsap"}
-        ],
-        "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
-        ]
-      } ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/ct_warped_hive_harvest",
-    "value": [
-      [0, {
+  ] } ] ] },
+  { "op": "add", "path": "/ct_warped_hive_harvest", "value": [ [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
         "pool" : [
           {"weight" : 0.9, "item" : "ct_warped_hive"},
           {"weight" : 0.1, "item" : "ct_warped_hive_seed"}
-        ],
-        "poolRounds" : [
-          [0.9, 1],
-          [0.1, 2]
-        ]
-      } ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/ct_alta_aid",
-    "value": [
-      [0, {
+  ] } ] ] },
+  { "op": "add", "path": "/ct_alta_aid", "value": [ [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [
           {"weight" : 0.20, "item" : "nanowrap"},
           {"weight" : 0.50, "item" : "bluestim"},
           {"weight" : 0.10, "item" : "medkit"},
           {"weight" : 0.20, "item" : "ct_vmax"}
-        ],
-        "poolRounds" : [
-          [0.6, 1],
-          [0.4, 2]
-        ]
-      } ]
-    ]
-  }
+  ] } ] ] }
 ]

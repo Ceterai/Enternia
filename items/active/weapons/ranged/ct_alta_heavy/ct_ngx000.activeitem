@@ -1,18 +1,19 @@
 {
   "itemName" : "ct_ngx000",
   "shortdescription" : "NGX-000 ^#8020f0;^reset;",
-  "description" : "A secret prototype, found by a scouting group among ruins of an unknown alta labs. Some say this weapon was the cause of this ruin.",
+  "description" : "A secret prototype, found by a scouting group among ruins of an unknown ^#b0e0fc;alta^reset; lab. Some say this weapon was the cause of this ruin.",
   "elementalType" : "electric",
+  "race" : "alta",
 
   "level" : 6, "price" : 880, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "sniperRifle",
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "alta", "plasma", "ionic" ],
 
   "inventoryIcon" : "ct_ngx000.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
-  "animationParts" : { "middle" : "ct_ngx000.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationParts" : { "middle" : "ct_ngx000.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/ionic.png" },
   "animationCustom" : {
     "lights" : {
       "laser" : {
@@ -35,21 +36,23 @@
     "/items/active/effects/laserbeam.lua"
   ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
   "primaryAbility" : {
     "class" : "AltaRanged",
     "name" : "Nata's Impulse",
+    "description" : "Blasts accelerated ^#8020f0;ionic^reset; ^#20f080;impulses^reset; enhanced with plasma. Hold to charge up power, speed and knockback.",
     "baseDps" : 11, "energyUsage" : 40, "fireTime" : 2.0,
     "pressType" : "snipe",
-    "pressParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":20,"speed":160,"statusEffects":["ct_ionic_shock","ct_ionic_stun"]}},
+    "pressParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":20,"speed":160,"statusEffects":["ct_ionic_shock","ct_pulse_paralysis"]}},
     "holdType" : "snipe",
-    "holdParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":40,"speed":200,"statusEffects":["ct_ionic_shock","ct_ionic_stun"]}}
+    "holdParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":40,"speed":200,"statusEffects":["ct_ionic_shock","ct_pulse_paralysis"]}}
   },
   "altAbility" : {
     "class" : "AltaSwitch",
     "name" : "Nata's Havoc",
+    "description" : "Everything else you need in a blaster.\nPress - change attachments: none, laser, stabilizer (x1.25 dmg);\nHold - launch a Shockbomb.",
     "baseDps" : 11, "energyUsage" : 40, "fireTime" : 0.5,
     "holdType" : "nade",
     "holdParams" : { "type" : "shockbomb" },

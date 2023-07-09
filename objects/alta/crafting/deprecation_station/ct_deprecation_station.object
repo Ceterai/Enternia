@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "price" : 1250,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
@@ -22,7 +22,7 @@
     "filter" : [ "ct_deprecation_station" ]
   },
   "description" : "Get rewards for deprecated or lost items from Enternia mod.",
-  "shortdescription" : "^orange;Deprecation Station^white;",
+  "shortdescription" : "^orange;Deprecation Station^reset;",
 
   "apexDescription" : "I can create equipment to use for wiring here.",
   "avianDescription" : "It's a workstation for crafting equipment to use for wiring.",
@@ -40,5 +40,7 @@
       "anchors" : [ "bottom" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

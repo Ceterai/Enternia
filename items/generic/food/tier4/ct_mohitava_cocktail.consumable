@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_mohitava_cocktail",
-  "rarity" : "Legendary",
-  "price" : 1000,
+  "level" : 6, "rarity" : "Legendary", "price" : 1000,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_mohitava_cocktail.png",
-  "description" : "Yava alta cuisine. A mojito made with appropriate yava alternatives. Very refreshing!",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A mojito made with appropriate yava alternatives. Very refreshing!",
   "shortdescription" : "Mohitava",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -30,8 +30,8 @@
   "variants" : [
     {
       "shortdescription" : "Mohitava Deluxe ^#8020f0;^reset;",
-      "description" : "Yava alta cuisine. A prime mohitava with an extra refreshing aftertaste.",
-      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A prime mohitava with an extra refreshing aftertaste.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
   ]
 }

@@ -3,12 +3,9 @@
   "shortdescription" : "Sona Loot Crate",
   "description" : "Contains random loot from alterash snowy chests.",
 
-  "price" : 20,
-  "level" : 3,
-  "maxStack" : 1000,
-  "rarity" : "Common",
-  "category" : "mysteriousReward",
-  "twoHanded" : true,
+  "level" : 3, "price" : 80, "rarity" : "Uncommon",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "loot" ],
 
   "inventoryIcon" : "ct_sona_loot.png",
   "animationParts" : { "gun" : "ct_sona_loot.png" },
@@ -21,5 +18,7 @@
   "treasure" : {
     "pool" : "ct_sona_loot",
     "level" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

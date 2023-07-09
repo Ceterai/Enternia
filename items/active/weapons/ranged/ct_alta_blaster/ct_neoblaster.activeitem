@@ -6,14 +6,14 @@
 
   "level" : 6, "price" : 480, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
-  "twoHanded" : false, "category" : "uniqueWeapon",
-  "itemTags" : [ "weapon", "ranged", "pistol" ],
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "pistol", "blaster", "neo", "peacekeepers" ],
 
   "inventoryIcon" : "ct_neoblaster.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
-  "animationParts" : { "middle" : "ct_neoblaster.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/plasma_small.png" },
-  "animationCustom" : { "sounds" : {
+  "animationParts" : { "middle" : "ct_neoblaster.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/plasma_small.png" },
+  "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/pistol_reload_clip3.ogg" ],
     "primary_press" : [ "/sfx/gun/mech_wobbleshot_fire2.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
     "primary_loop" : [ "/sfx/melee/charge_up15.ogg" ]
@@ -31,6 +31,7 @@
 
   "primaryAbility" : {
     "name" : "Neoload",
+    "description" : "A standard neo arsenal feature - press the button for short semiauto bursts of plasma, hold for a charged shotgun shot.",
 
     "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10,
 
@@ -76,5 +77,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

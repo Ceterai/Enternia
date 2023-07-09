@@ -1,0 +1,123 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/bodyaugment.png",
+    "fileFooter" : "/interface/tooltips/footer.png"
+  },
+  "rarityLabel" : {
+    "type" : "label", "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label", "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [55, 23],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [75, 23],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "raceLabel" : {
+    "type" : "label", "position" : [134, 197],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [30, 157],
+    "file" : "",
+    "centered" : true,
+    "scale" : 2,
+    "maxSize" : [ 46, 59 ],
+    "minSize" : [ 46, 59 ]
+  },
+  "descriptionLabel" : {
+    "type" : "label", "position" : [9, 115],
+    "wrapWidth" : 126, "fontSize" : 7,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+
+  "upgradeTitleLabel" : {
+    "type" : "label", "position" : [9, 64],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "upgradeLabel" : {
+    "type" : "label", "position" : [130, 64],
+    "hAnchor" : "right",
+    "fontSize" : 7,
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+  "statusList" : {
+    "scissoring" : false,
+    "type" : "list",
+    "fillDown" : true,
+    "position" : [0, 192],
+    "schema" : {
+      "spacing" : [0, 1],
+      "memberSize" : [999, 13],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [132, 6],
+          "wrapWidth" : 60,
+          "fontSize" : 6,
+          "hAnchor" : "right",
+          "vAnchor" : "mid"
+        },
+        "statusImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [59, -1],
+          "file" : "",
+          "zlevel" : 8,
+          "vAnchor" : "mid"
+        },
+        "backgroundImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [58, 0],
+          "file" : "/interface/tooltips/statlistback.png",
+          "vAnchor" : "mid"
+        }
+      }
+    }
+  },
+  "augmentIconImageBackground" : {
+    "type" : "image",
+    "position" : [11, 166],
+    "zlevel" : 2,
+    "file" : "/interface/tooltips/augment.png"
+  },
+  "augmentIconImage" : {
+    "type" : "image",
+    "position" : [6, 38],
+    "zlevel" : 3,
+    "file" : ""
+  },
+  "augmentNameLabel" : {
+    "type" : "label",
+    "position" : [30, 42],
+    "value" : ""
+  }
+}

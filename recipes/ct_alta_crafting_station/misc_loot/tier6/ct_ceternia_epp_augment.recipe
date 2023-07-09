@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 16 },
+    { "item" : "ct_cetersphere", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_ceternia_epp_augment", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "enhancement", "augment", "all" ]
+}

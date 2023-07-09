@@ -1,12 +1,12 @@
 {
   "input" : [
-    { "item" : "ct_yaara_root", "count" : 1 },
     { "item" : "phasematter", "count" : 1 },
-    { "item" : "syringe", "count" : 1 }
+    { "item" : "ct_yaara_root", "count" : 1 },
+    { "item" : "syringe", "count" : 2 }
   ],
   "output" : {
     "item" : "greenstim",
-    "count" : 1
+    "count" : 2
   },
-  "groups" : [ "alta_tier3", "medicine", "all" ]
+  "groups" : [ "alta_t3", "medicine", "all" ]
 }

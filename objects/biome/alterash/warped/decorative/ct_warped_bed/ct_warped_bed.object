@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Bed",
   "description" : "A plant bed with tentacle-like vines and different colorful glowing bulbs of random sizes.",
@@ -55,5 +55,7 @@
       "anchors" : [ "bottom" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

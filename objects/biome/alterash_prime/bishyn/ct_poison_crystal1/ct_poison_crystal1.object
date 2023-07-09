@@ -5,10 +5,11 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "poison",
 
   "shortdescription" : "Shiny Bishyn Crystal",
-  "description" : "A crystal deposit. Shiny.",
+  "description" : "A shiny crystal deposit. Seem like special ^#378754;bishyn^reset; crystals.",
   "altaDescription" : "Bishyn crystals are poisonous. Better be careful.",
 
   "apexDescription" : "Crystals are quite beautiful.",
@@ -47,5 +48,7 @@
   "smashParticles" : [ { "count" : 4, "particle" : "crystalshard" } ],
   "smashDropOptions" : [
     [ [ "crystal", 1, { } ], [ "crystal", 1, { } ] ]
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

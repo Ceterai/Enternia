@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_haruplavu_venetto",
-  "rarity" : "Legendary",
-  "price" : 1040,
+  "level" : 6, "rarity" : "Legendary", "price" : 1040,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_haruplavu_venetto.png",
-  "description" : "Runeva alta cuisine. An elegant turn on gillicada mashed with baked ayas.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. An elegant turn on gillicada mashed with baked ayas.",
   "shortdescription" : "Haruplavu Venetto",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Venetto Prime ^#8020f0;^reset;",
-      "description" : "Runeva alta cuisine. A well-made haruplavu that somehow tastes very different from the original. Still incredibly tasty.",
-      "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A well-made haruplavu that somehow tastes very different from the original. Still incredibly tasty.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
     }
   ]
 }

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Chair",
   "description" : "A simple titanium chair with minimal details and a sturdy stand.",
@@ -31,5 +31,7 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
-  "sitPosition" : [2, 22]
+  "sitPosition" : [2, 22],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

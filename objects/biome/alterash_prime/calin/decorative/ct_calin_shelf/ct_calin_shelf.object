@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 70,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Shelf",
   "description" : "A blue metal shelf with dim light strips powered by a calin crystal.",
@@ -27,5 +27,7 @@
       "anchors" : [ "background" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

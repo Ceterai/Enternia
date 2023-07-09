@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowfibre", "count" : 8 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "toxicwaste", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_ararang", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

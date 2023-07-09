@@ -8,7 +8,7 @@
 
   "power" : 64,
   "knockback" : 20,
-  "statusEffects" : [ "ct_ionic_shock", "ct_ionic_stun" ],
+  "statusEffects" : [ "ct_ionic_shock", "ct_pulse_paralysis" ],
 
   "damageKind" : "electricbow",
   "damageKindImage" : "/items/throwables/ct_alta_hevika_javelin.png",

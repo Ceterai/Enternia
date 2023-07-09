@@ -1,7 +1,8 @@
 {
   "type" : "ct_minidrone",
-  "shortdescription" : "Minidrone",
+  "shortdescription" : "^red;Outdated^reset; Minidrone Beta-Class",
   "description" : "Small armored drone operated by EDS. Usually nests inside larger drones.",
+  "race" : "alta",
 
   "categories" : [ "ct_minidrone" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "empty", "bow" : "ct_alta_tier3_class1" } ],

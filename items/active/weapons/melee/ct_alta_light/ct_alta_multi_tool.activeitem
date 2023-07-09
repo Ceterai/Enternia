@@ -1,0 +1,40 @@
+{
+  "itemName" : "ct_alta_multi_tool",
+  "shortdescription" : "Multi-Tool ^red;WIP^reset;",
+  "description" : "A sword made out of pure crystals. Seems like it's slowly gathering the energy around it...",
+  "elementalType" : "physical",
+
+  "level" : 3, "price" : 480, "rarity" : "Uncommon",
+  "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "crystal", "calin", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_alta_multi_tool.png",
+
+  "animation" : "/items/active/weapons/melee/ct_alta_melee.animation",
+  "animationParts" : { "handle": "", "blade" : "ct_alta_multi_tool.png" },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "name" : "Crystal Powers",
+    "description" : "A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#8020f0;electric^reset; damage.",
+    "fireTime" : 0.625,
+    "baseDps" : 6
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "Ultimate Tool ^#8020f0;^reset;",
+    "description" : "A ^#76c7e4;calin^reset; sword made out of refined crystals and ^#ffa8e8;stardust^reset;. Seems like it's quickly gathering the energy around it...",
+    "inventoryIcon" : "ct_alta_multi_tool.png", "animationParts" : { "blade" : "ct_alta_multi_tool_2.png" },
+    "price" : 520, "rarity" : "Legendary",
+    "elementalType" : "physical",
+    "primaryAbility" : {
+      "name" : "Test.",
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
+    }
+  }
+}

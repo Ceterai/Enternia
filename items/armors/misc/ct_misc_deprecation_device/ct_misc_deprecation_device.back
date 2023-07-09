@@ -4,7 +4,7 @@
   "description" : "Please accept this small gift for all that you've lost.",
 
   "price" : 4800, "rarity" : "Legendary",
-  "category" : "backwear",  "tooltipKind" : "back",  "maxStack" : 1,
+  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",
@@ -41,5 +41,5 @@
     { "ffca8a" : "ccae7c", "e0975c" : "a47844", "a85636" : "754c23", "6f2919" : "472b13" }
   ],
 
-  "learnBlueprintsOnPickup" : [ "xenonpack" ]
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

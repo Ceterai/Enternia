@@ -1,12 +1,12 @@
 {
   "input" : [
     { "item" : "petalred", "count" : 5 },
-    { "item" : "livingroot", "count" : 1 },
-    { "item" : "syringe", "count" : 1 }
+    { "item" : "ct_yaara_root", "count" : 1 },
+    { "item" : "syringe", "count" : 2 }
   ],
   "output" : {
     "item" : "redstim",
-    "count" : 1
+    "count" : 2
   },
-  "groups" : [ "alta_tier1", "medicine", "all" ]
+  "groups" : [ "alta_t1+", "medicine", "all" ]
 }

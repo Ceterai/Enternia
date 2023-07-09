@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_protospear", "count" : 1 },
+  "groups" : [ "alta_max", "tier3_scout", "weapon", "all" ]
+}

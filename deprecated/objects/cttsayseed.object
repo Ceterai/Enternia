@@ -6,7 +6,7 @@
   "description" : "Grows bitter-sour tsay fruits.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
   "shortdescription" : "^red;Outdated^reset; Tsay Seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 23,
 
   "apexDescription" : "If I cook this fruit, it'll taste like chicken.",
@@ -19,7 +19,6 @@
 
   "inventoryIcon" : "/objects/farmables/tsay/icon.png",
 
-  "tooltipKind" : "seed",
   "largeImage" : "/objects/farmables/tsay/body.png:default.3.0",
 
 
@@ -57,5 +56,7 @@
     }
   ],
 
-  "maxImmersion" : 0.25
+  "maxImmersion" : 0.25,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

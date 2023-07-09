@@ -1,0 +1,41 @@
+{
+  "frameGrid" : {
+    "size" : [32, 32],
+    "dimensions" : [9, 7],
+
+    "names" : [
+      [ null, "idle.1", "idle.2", "idle.3", "idle.4", null, "stand.1", "stand.2", "stand.3"],
+      [ null, "blink.1", null, "jump.1", "jump.2", "jump.3", null, "fall.1", "fall.2"],
+      [ null, "walk.1", "walk.2", "walk.3", "walk.4", "walk.5", "walk.6", "walk.7", "walk.8"],
+      [ null, "eat.1", "eat.2", "eat.3", null, "inspect.1", "inspect.2", "inspect.3", "inspect.4"],
+      [ null, "swim.1", "swim.2", "swim.3", "swim.4", null, null, null, "invisible.1" ],
+      [ null, "sound.1", "sound.2", "sound.3", "sound.4", null, "sleep.1", "sleep.2", "sleep.3" ],
+      [ null, "run.1", "run.2", "run.3", "run.4", "run.5", "run.6", "run.7", "run.8"]
+    ]
+  },
+  "aliases" : {
+    "eatloop.1" : "eat.2",
+    "eatloop.2" : "eat.3",
+    "sleep.4" : "sleep.2",
+    "sing.1" : "sound.1",
+    "sing.2" : "sound.2",
+    "sing.3" : "sound.3",
+    "sing.4" : "sound.2",
+    "sing.5" : "sound.3",
+    "sing.6" : "sound.2",
+    "sing.7" : "sound.3",
+    "sing.8" : "sound.2",
+    "sing.9" : "sound.3",
+    "sing.10" : "sound.2",
+    "sing.11" : "sound.3",
+    "sing.12" : "sound.2",
+    "sing.13" : "sound.3",
+    "sing.14" : "sound.2",
+    "sing.15" : "sound.3",
+    "sing.16" : "sound.2",
+    "sing.17" : "sound.3",
+    "sing.18" : "sound.2",
+    "sing.19" : "sound.3",
+    "sing.20" : "sound.4"
+  }
+}

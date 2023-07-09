@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 160,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "ED-STable",
   "description" : "Something went wrong with this table markings. It is, in fact, very stable though.",
@@ -27,5 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

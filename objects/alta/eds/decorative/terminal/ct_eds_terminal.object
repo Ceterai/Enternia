@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "EDS Terminal",
-  "description" : "A militaristic protected terminal. Seems like it'll keep working under any conditions.",
+  "description" : "A militaristic protected terminal owned by ^#f02020;EDS^reset;. Seems like it'll keep working under any conditions.",
   "altaDescription" : "A typical EDS terminal. Has a special set of encryptions.",
 
   "apexDescription" : "This console offers a large degree of control.",
@@ -66,5 +66,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

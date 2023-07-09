@@ -1,0 +1,19 @@
+{
+  "projectileName" : "ct_stardust_crystal",
+  "shortdescription" : "Stardust Crystal Charge",
+  "image" : "ct_stardust_crystal.png",
+  "damageKindImage" : "/items/generic/crafting/ct_stardust.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [ { "action" : "config", "file" : "/projectiles/simple/ct_crystals/ct_crystal.config" } ],
+  "power" : 2.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  // "damagePoly" : [ [-15, -15], [15, -15], [15, 15], [-15, 15] ],
+
+  "flippable" : true,
+  "statusEffects" : [
+    "electrified"
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name" : "ct_eds_protection_module",
   "label" : "^#b81824;EDS^reset; Protection Module",
+  "description" : "Adds 15% electric resistance and 2 defense.",
   "effectConfig" : {
     "electricResistance" : 0.15,
     "protection" : 2

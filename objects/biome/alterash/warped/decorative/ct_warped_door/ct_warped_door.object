@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Door",
   "description" : "A vine door that slightly glows in the dark. The bulb in the middle seems to be its own plant.",
@@ -53,5 +53,7 @@
   "animationPosition" : [-20, 0],
 
   "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

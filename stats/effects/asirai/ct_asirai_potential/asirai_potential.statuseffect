@@ -1,6 +1,7 @@
 {
   "name" : "ct_asirai_potential",
-  "label" : "Asirai's Potential^gray; - damages nearby enemies, gives 20% electric resistance^reset;",
+  "label" : "Asirai's Potential",
+  "description" : "Damages nearby enemies with electricity and gives you 20% electric resistance.",
   "icon" : "asirai_potential.png",
   "scripts" : [ "asirai_potential.lua" ],
   "animationConfig" : "asirai_potential.animation",

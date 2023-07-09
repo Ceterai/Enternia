@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "price" : 240,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Captain's Chair",
   "description" : "The Captain sits here to fly the ship.",
@@ -35,5 +35,7 @@
   "interactAction" : "ScriptPane",
   "interactData" : "/interface/cockpit/cockpit.config",
 
-  "sitFlipDirection" : false
+  "sitFlipDirection" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

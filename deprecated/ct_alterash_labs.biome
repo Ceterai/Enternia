@@ -1,6 +1,6 @@
 {
   "name" : "ct_alterash_labs",
-  "friendlyName" : "Alterash Hidden Labs",
+  "friendlyName" : "^red;Outdated^reset; Alterash Hidden Labs",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonstone", "moonrock" ],
@@ -76,11 +76,11 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
@@ -157,7 +157,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",

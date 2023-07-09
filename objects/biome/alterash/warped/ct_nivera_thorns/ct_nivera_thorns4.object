@@ -5,7 +5,8 @@
   "rarity" : "Rare",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "poison",
 
   "shortdescription" : "Nivera Twisted Thorns",
   "description" : "A giant twisted bush of hard thorny vines full of poison.",
@@ -34,15 +35,30 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_nivera_thorns4.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "image" : "ct_nivera_thorns4.png:left",
+      "spaceScan" : 0.1, "anchors" : [ "left" ], "direction" : "right"
+    },
+    {
+      "image" : "ct_nivera_thorns4.png:right",
+      "spaceScan" : 0.1, "anchors" : [ "right" ], "direction" : "right"
+    },
+    {
+      "dualImage" : "ct_nivera_thorns4.png:bottom",
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "ct_nivera_thorns4.png:top",
+      "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "dualImage" : "ct_nivera_thorns4.png:back",
+      "spaceScan" : 0.1, "anchors" : [ "background" ]
     }
   ],
 
   "touchDamage" : {
     "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
-    "damage" : 15,
+    "damage" : 16,
     "knockback" : 20,
     "statusEffects" : [ "weakpoison" ],
 
@@ -50,12 +66,15 @@
     "damageSourceKind" : "poisonspear"
   },
 
-  "smashable" : true,
+  "health" : 4.0,
+  "smashOnBreak" : true,
   "smashSounds" : [ "/sfx/objects/plant_break1.ogg", "/sfx/objects/plant_break2.ogg", "/sfx/objects/plant_break3.ogg", "/sfx/objects/plant_break4.ogg", "/sfx/objects/plant_break5.ogg", "/sfx/objects/plant_break6.ogg" ],
   "smashParticles" : [ { "count" : 5, "particle" : "plantshard" } ],
   "smashDropOptions" : [
-    [ [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ], [ "plantfibre", 1, { } ] ]
+    [ [ "plantfibre", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

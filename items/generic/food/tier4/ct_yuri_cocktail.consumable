@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_yuri_cocktail",
-  "rarity" : "Legendary",
-  "price" : 1200,
+  "level" : 6, "rarity" : "Legendary", "price" : 1200,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_yuri_cocktail.png",
-  "description" : "Yava alta cuisine. The drink of love.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. The drink of love.",
   "shortdescription" : "Yuri Cocktail",
   "effects" : [ [
     {
@@ -29,10 +29,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -42,8 +42,8 @@
   "variants" : [
     {
       "shortdescription" : "Yuri Deluxe ^#8020f0;^reset;",
-      "description" : "Yava alta cuisine. You can't describe the emotions that fill you whenever you drink this. What is this?",
-      "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. You can't describe the emotions that fill you whenever you drink this. What is this?",
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
   ]
 }

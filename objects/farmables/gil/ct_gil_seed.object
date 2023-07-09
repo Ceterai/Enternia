@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 20,
 
   "shortdescription" : "Gil Seeds",
@@ -21,7 +21,6 @@
 
   "inventoryIcon" : "icon.png",
 
-  "tooltipKind" : "seed",
   "largeImage" : "body.png:default.3.0",
 
   "orientations" : [
@@ -58,5 +57,7 @@
     }
   ],
 
-  "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

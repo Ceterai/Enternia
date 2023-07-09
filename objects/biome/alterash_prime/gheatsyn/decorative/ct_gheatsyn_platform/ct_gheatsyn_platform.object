@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 70,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Platform",
-  "description" : "A floating gheatsyn platform.",
+  "description" : "A floating ^#a7e001;gheatsyn^reset; platform.",
   "altaDescription" : "I'll be honest with you, I have no idea how they made it float. Perhaps there's some special component inside.",
 
   "apexDescription" : "A platform on the gheatsyn pillar.",
@@ -27,5 +27,7 @@
       "anchors" : [ "background" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

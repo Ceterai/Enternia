@@ -5,7 +5,7 @@
   "rarity" : "Uncommon",
   "price" : 240,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Tanks",
   "description" : "Empty interconnected tanks. The glass seems to be made out of crystals.",
@@ -30,5 +30,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ], "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

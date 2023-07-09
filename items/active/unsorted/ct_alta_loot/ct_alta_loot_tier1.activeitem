@@ -1,14 +1,12 @@
 {
   "itemName" : "ct_alta_loot_tier1",
   "shortdescription" : "Alta Tier 1 Loot Crate",
-  "description" : "Basic alta items often found in pods. Includes produce, meds, as well as basic alta decor, clothes and tier 3 resources and equipment.",
+  "description" : "Basic alta items often found in pods. Includes produce, meds, as well as basic ^#b0e0fc;alta^reset; decor, clothes and tier 3 resources and equipment.",
 
-  "price" : 160,
-  "level" : 3,
-  "maxStack" : 1000,
-  "rarity" : "Uncommon",
-  "category" : "mysteriousReward",
-  "twoHanded" : true,
+  "price" : 120, "level" : 3, "rarity" : "Uncommon",
+  "race" : "alta",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "loot" ],
 
   "inventoryIcon" : "ct_alta_loot_tier1.png",
   "animationParts" : { "gun" : "ct_alta_loot_tier1.png" },
@@ -21,5 +19,7 @@
   "treasure" : {
     "pool" : "ct_alta_pod_loot_tier1",
     "level" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

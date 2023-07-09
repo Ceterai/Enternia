@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "ct_alta_energy_cell", "count" : 1 },
-    { "item" : "crystal", "count" : 2 },
-    { "item" : "ct_bion", "count" : 10 }
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_bion", "count" : 6 },
+    { "item" : "ct_phosicore", "count" : 2 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_combat_chest", "count" : 1 },
-  "groups" : [ "alta_tier3", "tier5_combat", "armor", "body", "all" ]
+  "groups" : [ "alta_t3", "tier5_combat", "armor", "body", "all" ]
 }

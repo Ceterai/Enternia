@@ -1,24 +1,24 @@
 {
   "itemName" : "ctbody",
   "price" : 6400,
-  "inventoryIcon" : "/items/armors/alta/ct_alta_alternia_chest/icon.png",
+  "inventoryIcon" : "/items/armors/alta/tier6/alternia_chest/icon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "chestarmour",
-  "description" : "\nEnhanced energy flow in exchange for protection.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "description" : "Enhanced energy flow in exchange for protection.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
   "shortdescription" : "^red;Outdated^reset; ^#2080f0;C.T. Suit^reset;",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "ct_alta_effects",
 
   "maleFrames" : {
-    "body" : "/items/armors/alta/ct_alta_alternia_chest/chest.png",
-    "backSleeve" : "/items/armors/alta/ct_alta_alternia_chest/bsleeve.png",
-    "frontSleeve" : "/items/armors/alta/ct_alta_alternia_chest/fsleeve.png"
+    "body" : "/items/armors/alta/tier6/alternia_chest/chest.png",
+    "backSleeve" : "/items/armors/alta/tier6/alternia_chest/bsleeve.png",
+    "frontSleeve" : "/items/armors/alta/tier6/alternia_chest/fsleeve.png"
   },
 
   "femaleFrames" : {
-    "body" : "/items/armors/alta/ct_alta_alternia_chest/chest.png",
-    "backSleeve" : "/items/armors/alta/ct_alta_alternia_chest/bsleeve.png",
-    "frontSleeve" : "/items/armors/alta/ct_alta_alternia_chest/fsleeve.png"
+    "body" : "/items/armors/alta/tier6/alternia_chest/chest.png",
+    "backSleeve" : "/items/armors/alta/tier6/alternia_chest/bsleeve.png",
+    "frontSleeve" : "/items/armors/alta/tier6/alternia_chest/fsleeve.png"
   },
 
   "level" : 6,
@@ -72,5 +72,7 @@
     { "64beff" : "ff64f0", "1981cd" : "cd19bd", "134992" : "921373", "001152" : "52002d" },
     // BROWN
     { "64beff" : "dfa383", "1981cd" : "a8613d", "134992" : "78522d", "001152" : "413210" }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

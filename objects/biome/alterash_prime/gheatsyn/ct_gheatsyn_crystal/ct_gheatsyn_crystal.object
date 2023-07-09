@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Crystal",
-  "description" : "A smashable crystal. Can be used for cooking, crafting furniture and useful items. Alta-scan for more.",
+  "description" : "A smashable ^#a7e001;gheatsyn^reset; crystal. Can be used for cooking, crafting furniture and useful items. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "A refined gheatsyn crystal. They can be used in a variety of fields, from cooking to crafting, popular for its unique specs.",
 
   "apexDescription" : "I must smash this crystal!",
@@ -57,5 +57,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

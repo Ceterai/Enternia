@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 },
-    { "item" : "ct_phosicore", "count" : 4 },
-    { "item" : "ct_phospholion", "count" : 10 }
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 4 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_enviro_chest", "count" : 1 },
-  "groups" : [ "alta_tier3", "tier5_arco", "armor", "body", "all" ]
+  "groups" : [ "alta_t3", "tier5_arco", "armor", "body", "all" ]
 }

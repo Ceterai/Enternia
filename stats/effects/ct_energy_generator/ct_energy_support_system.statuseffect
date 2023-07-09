@@ -1,6 +1,8 @@
 {
   "name" : "ct_energy_support_system",
   "label" : "Energy Support System",
+  "description" : "Constantly heals you by 1% each second.",
+  "blockingStat" : "emiJam",
 
   "effectConfig" : {
     "healTime" : 0.5

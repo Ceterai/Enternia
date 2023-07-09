@@ -1,0 +1,21 @@
+{
+  "projectileName" : "ct_isoslime_squirt",
+  "shortdescription" : "Isosquirt",
+  "image" : "ct_isoslime_squirt.png",
+  "damageKindImage" : "/projectiles/charge/other/ct_isoslime_ball/icon.png",
+
+  "physics" : "bullet",
+  "power" : 0,
+  "speed" : 50,
+  "statusEffects" : [ "slimeslow" ],
+
+  "animationCycle" : 1,
+  "frameNumber" : 10,
+  "bounces" : 0,
+  "piercing" : false,
+  "damagePoly" : [ [-4, 0], [0, 4], [4, 0], [0, -4] ],
+  "damageKind" : "default",
+  "actionOnReap" : [ { "action" : "liquid", "liquid" : "slimeliquid", "quantity" : 0.05 } ],
+  "emitters" : [ "squirt" ],
+  "hydrophobic" : true
+}

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_tonnakada",
-  "rarity" : "Common",
-  "price" : 280,
+  "level" : 2, "rarity" : "Common", "price" : 280,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_tonnakada.png",
-  "description" : "Nia alta cuisine. A properly cooked tonna fresh from a fully grown tonnova!",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A properly cooked ^#c1ebf8;tonna^reset; fresh from a fully grown ^#c1ebf8;tonnova^reset;!",
   "shortdescription" : "Tonnakada",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -26,8 +26,8 @@
   "variants" : [
     {
       "shortdescription" : "Tonnakada Split",
-      "description" : "Nia alta cuisine. A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
-      "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
   "itemName" : "ct_yaarings",
-  "rarity" : "Common",
-  "price" : 220,
+  "level" : 2, "rarity" : "Common", "price" : 220,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_yaarings.png",
-  "description" : "Yava alta cuisine. Neat crunchy snacks made from throroughly baked yaara eyes.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Neat crunchy snacks made from throroughly baked yaara eyes.",
   "shortdescription" : "Yaarings",
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -20,8 +20,8 @@
   "variants" : [
     {
       "shortdescription" : "Hot Yaarings",
-      "description" : "Yava alta cuisine. These yaarings are fresh from the oven! Quick, eat them while they're still soft on the inside!",
-      "rarity" : "Uncommon", "price" : 420, "foodValue" : 30
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. These yaarings are fresh from the oven! Quick, eat them while they're still soft on the inside!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 420, "foodValue" : 30
     }
   ]
 }

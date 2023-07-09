@@ -1,6 +1,7 @@
 {
   "name" : "ct_enviro_protection",
   "label" : "Enviro Protection",
+  "description" : "Increases your ^#f08020;fire^reset; and ^#80f020;poison^reset; resistance by 15%.",
   "effectConfig" : {
     "statName" : "fireResistance",
     "statAmount" : 0.15,

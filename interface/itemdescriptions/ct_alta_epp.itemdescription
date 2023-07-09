@@ -1,0 +1,118 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [102, 30],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label", "position" : [115, 30],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "raceLabel" : {
+    "type" : "label", "position" : [135, 169],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 122
+  },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [70, 30],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [90, 30],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [38, 127],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [ 46, 59 ],
+    "minSize" : [ 46, 59 ]
+  },
+  "descriptionLabel" : {
+    "type" : "label", "position" : [16, 90],
+    "wrapWidth" : 122, "fontSize" : 7,
+    "hAnchor" : "left",
+    "vAnchor" : "top"
+  },
+
+  "upgradeTitleLabel" : {
+    "type" : "label", "position" : [14, 47],
+    "hAnchor" : "left",
+    "fontSize" : 7, "value" : ""
+  },
+  "upgradeLabel" : {
+    "type" : "label", "position" : [136, 47],
+    "hAnchor" : "right",
+    "fontSize" : 7,
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+
+  "title" : {
+    "type" : "label", "position" : [35, 179],
+    "hAnchor" : "left", "value" : ""
+  },
+  "rarityLabel" : {
+    "type" : "label", "position" : [12, 30],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  },
+  "armorLabelTitle" : {
+    "type" : "label", "position" : [35, 169],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178],
+    "value" : "Armour"
+  },
+  "statusList" : {
+    "scissoring" : false,
+    "type" : "list",
+    "fillDown" : true,
+    "position" : [6, 161],
+    "schema" : {
+      "spacing" : [0, 1],
+      "memberSize" : [999, 13],
+      "listTemplate" : {
+        "statusLabel" : {
+          "type" : "label",
+          "position" : [129, 6],
+          "wrapWidth" : 60,
+          "fontSize" : 6,
+          "hAnchor" : "right",
+          "vAnchor" : "mid"
+        },
+        "statusImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [59, -1],
+          "file" : "",
+          "zlevel" : 8,
+          "vAnchor" : "mid"
+        },
+        "backgroundImage" : {
+          "scissoring" : false,
+          "type" : "image",
+          "position" : [58, 0],
+          "file" : "/interface/tooltips/statlistback.png",
+          "vAnchor" : "mid"
+        }
+      }
+    }
+  }
+}

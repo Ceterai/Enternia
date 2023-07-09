@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 30,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Verriskoywa Twin Miko Flower",
   "description" : "Tall, pink reed flowers.",
@@ -37,5 +37,7 @@
     [ ["ct_verriskoywa_miko_twin", 1, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

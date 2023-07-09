@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 500,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "^red;Outdated^reset; Unknown Device",
   "description" : "An unknown device.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
@@ -38,5 +38,7 @@
   ],
 
   "health" : 10,
-  "rooting" : true
+  "rooting" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

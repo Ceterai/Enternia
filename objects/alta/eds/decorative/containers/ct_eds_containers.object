@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_eds_containers",
   "colonyTags" : [ "alta", "eds", "storage", "commerce" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Containers",
-  "description" : "A crate containing cargo. What cargo? Who knows.",
+  "shortdescription" : "^#f02020;EDS^reset; Containers",
+  "description" : "An ^#f02020;EDS^reset; crate containing cargo. What cargo? Who knows.",
   "altaDescription" : "Some EDS shipping containers. Probably armor and security tech.",
 
   "apexDescription" : "A mysterious cargo crate.",
@@ -48,5 +48,7 @@
   "slotCount" : 24,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

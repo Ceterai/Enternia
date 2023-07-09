@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_ship_pod",
   "colonyTags" : [ "alta", "alta_ship", "storage", "mechanical", "wired" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Legendary",
   "price" : 640,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Pod",
   "description" : "A reinforced advanced pod with isolated airtight space that can be used for storage.",
@@ -37,5 +37,7 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
 
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

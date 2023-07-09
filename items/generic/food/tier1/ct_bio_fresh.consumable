@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_bio_fresh",
-  "rarity" : "Common",
-  "price" : 200,
+  "level" : 2, "rarity" : "Common", "price" : 200,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_bio_fresh.png",
-  "description" : "Yava alta cuisine. A healthy fresh made out of pure biosamples rich on vitamins.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A healthy fresh made out of pure biosamples rich on vitamins.",
   "shortdescription" : "Bio Fresh",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 15,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -31,8 +31,8 @@
   "variants" : [
     {
       "shortdescription" : "Bio Essence",
-      "description" : "Yava alta cuisine. This vitamin-full juice, made from finest prime biosamples, is both very healthy and exceptionally refreshing.",
-      "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. This vitamin-full juice, made from finest prime biosamples, is both very healthy and exceptionally refreshing.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
       "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 } ] ]
     }
   ]

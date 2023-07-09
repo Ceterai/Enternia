@@ -1,6 +1,8 @@
 {
   "name" : "ct_alta_hidden_labs",
   "friendlyName" : "Hidden Alta Labs",
+  "description" : "Due to frequent kaiter raids on ^#2080f0;alterash prime^reset; planets, ^#b0e0fc;altas^reset; began hiding their labs and facilities here - in ^#2080f0;esetera^reset;. You can expect a high level of security and lots of ^#b0e0fc;watcher drones^reset; and ^#b0e0fc;spider droids^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier3.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "snow" ],
 
@@ -41,7 +43,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -85,7 +87,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",

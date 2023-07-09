@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Capsule With Mical",
   "description" : "A bionid capsule containing some luminescent material.",
@@ -32,5 +32,7 @@
 
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/capsule_break1.ogg", "/sfx/objects/capsule_break2.ogg", "/sfx/objects/capsule_break3.ogg" ],
-  "smashDropPool" : "ct_glow_smashables"
+  "smashDropPool" : "ct_glow_smashables",
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

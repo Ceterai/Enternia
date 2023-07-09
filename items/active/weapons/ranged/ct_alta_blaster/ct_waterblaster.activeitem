@@ -4,11 +4,11 @@
   "description" : "Shoots happy water sprinkles. Hold LMB to charge a water balloon!",
   "elementalType" : "water",
 
-  "level" : 6, "price" : 480, "rarity" : "Legendary",
+  "level" : 3, "price" : 480, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
-  "twoHanded" : false, "category" : "uniqueWeapon",
-  "itemTags" : [ "weapon", "ranged", "pistol" ],
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "toy",
+  "itemTags" : [ "toy" ],
 
   "inventoryIcon" : "ct_waterblaster.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
@@ -33,6 +33,7 @@
 
   "primaryAbility" : {
     "name" : "Waterblast",
+    "description" : "Press to squirt some water or hold to launch a water ball!",
 
     "baseDps" : 0, "energyUsage" : 16, "fireTime" : 0.10,
 
@@ -79,5 +80,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

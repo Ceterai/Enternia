@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_niatto_motsu",
-  "rarity" : "Rare",
-  "price" : 840,
+  "level" : 5, "rarity" : "Rare", "price" : 840,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_niatto_motsu.png",
-  "description" : "Nia alta cuisine. A regular herb-based alta soup but based on nia ingredients.",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A regular herb-based ^#b0e0fc;alta^reset; soup but based on nia ingredients.",
   "shortdescription" : "Niatto Motsu Soup",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 5.0,
   "blockingEffects" : [
     "wellfed"
@@ -31,8 +31,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Niatto Motsu",
-      "description" : "Nia alta cuisine. A perfectly crafted motsu based on nia ingredients.",
-      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A perfectly crafted motsu based on nia ingredients.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
   ]
 }

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Smoke Source",
   "description" : "Red smoke billows from this point.",
@@ -53,5 +53,7 @@
 
   "smashOnBreak" : true,
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

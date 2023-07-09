@@ -1,10 +1,10 @@
 {
   "itemName" : "ctayafresh",
-  "rarity" : "Common",
-  "price" : 200,
+  "level" : 2, "rarity" : "Common", "price" : 200,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ctayafresh.png",
-  "description" : "Runeva alta cuisine. Made with aya powder and some fresh ayas. Refreshing! Fresh is the word.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. Made with aya powder and some fresh ayas. Refreshing! Fresh is the word.",
   "shortdescription" : "Aya Fresh",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 15,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 2.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Aya Essence",
-      "description" : "Runeva alta cuisine. A well-made fresh that perfectly captures the aya essence.",
-      "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A well-made fresh that perfectly captures the aya essence.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
       "effects" : [ [ { "effect" : "lowgrav", "duration" : 60 } ] ]
     }
   ]

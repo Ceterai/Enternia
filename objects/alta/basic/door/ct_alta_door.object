@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_door",
   "colonyTags" : [ "alta", "door" ],
-  "category" : "door", "tooltipKind" : "door",
+  "category" : "door",
   "rarity" : "Common",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Door",
   "description" : "A simple titanium door with crystals instead of glass.",
@@ -44,5 +44,7 @@
   "animationParts" : { "door" : "ct_door.png" },
   "animationPosition" : [-16, 0],
 
-  "inputNodes" : [ [0, 4] ], "outputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 4] ], "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

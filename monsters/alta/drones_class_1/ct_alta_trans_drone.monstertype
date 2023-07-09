@@ -1,7 +1,18 @@
 {
   "type" : "ct_alta_trans_drone",
   "shortdescription" : "Orchid Drone ^#20f080;^reset;",
-  "description" : "This alta drone is very special! She's also extremely shy, so please handle her with care. Likes orchids!",
+  "description" : "This ^#b0e0fc;alta^reset; drone is very special! She's also extremely shy, so please handle her with care. Likes orchids!",
+  "race" : "alta",
+
+  "primaryAbility" : {
+    "name" : "Reincarnation",
+    "description" : "Will swoop at enemies when in range. Will turn into a ^#20f080;Crystal Drone ^reset; on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Scouting Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset; and a bit of love.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_trans_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier1_class1", "bow" : "ct_alta_tier1_class2" } ],
@@ -46,7 +57,7 @@
         "knockbackStunTime" : { "baseValue" : 0.25 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 24 },
+        "maxHealth" : { "baseValue" : 48 },
         "protection" : { "baseValue" : 16.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

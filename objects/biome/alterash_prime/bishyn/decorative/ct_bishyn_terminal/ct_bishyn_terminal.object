@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Terminal",
-  "description" : "A small bishyn terminal.",
+  "description" : "A small ^#378754;bishyn^reset; terminal.",
   "altaDescription" : "A regular terminal in bishyn style. Anything is better then a console.",
 
   "apexDescription" : "An easy-to-use control panel.",
@@ -66,5 +66,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

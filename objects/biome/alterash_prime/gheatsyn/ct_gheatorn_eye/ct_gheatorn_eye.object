@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatorn Eye",
-  "description" : "A natural circle-like rock formation with gheatsyn crystals growing on the inside. Alta-scan for more.",
+  "description" : "A natural circle-like rock formation with ^#a7e001;gheatsyn^reset; crystals growing on the inside. ^#b0e0fc;Alta^reset;-scan for more.",
   "altaDescription" : "Seems like this gheatorn growth is yet to fully burst. For now it almost looks like an eye.",
 
   "apexDescription" : "A stone that chimes when I get close to it.",
@@ -41,5 +41,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

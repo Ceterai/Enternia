@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_respiratory_mask",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "alta_t1+", "cosmetics", "all", "mod" ]
+}

@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 640,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Status Pod",
-  "description" : "An armored status pod with red paint and markings that read 'EDS'. Certainly not a usual status pod.",
+  "shortdescription" : "^#f02020;EDS^reset; Status Pod",
+  "description" : "An armored status pod with red paint and markings that read '^#f02020;EDS^reset;'. Certainly not a usual status pod.",
   "altaDescription" : "An EDS status pod. I'll take my chances.",
 
   "apexDescription" : "A status pod. Will I be lucky?",
@@ -111,5 +111,7 @@
       "projectileType" : "ct_phospholion_spray",
       "projectileParams" : { }
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

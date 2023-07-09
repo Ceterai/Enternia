@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_underworld",
-  "friendlyName" : "Alterash Underworld",
+  "friendlyName" : "Antorash Plains",
+  "description" : "A common place the Alterash Underworlds. The nature here highly reflects nature in ^#20f080;alterash gardens^reset;, although highly saturated with blueish due to lack of light.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier2.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "rock14", "obsidian" ],
@@ -36,7 +38,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
@@ -48,7 +50,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_lamppost" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
@@ -121,7 +123,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 2, "variants" : 5, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",

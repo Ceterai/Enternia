@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_alta_combat_droid_back",
   "shortdescription" : "^red;Outdated^reset; Alta Combat Droid Power Module",
-  "description" : "\nA standard protocol power module of a droid.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "description" : "A standard protocol power module of a droid.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
 
   "price" : 1800, "rarity" : "Uncommon",
-  "category" : "backwear",  "tooltipKind" : "back",  "maxStack" : 1,
+  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
 
   "inventoryIcon" : "/items/armors/alta/ct_alta_security_droid_back/icon.png",
   "maleFrames" : "/items/armors/alta/ct_alta_security_droid_back/back.png",
@@ -35,5 +35,7 @@
     { "2080f0" : "ccb0fc", "0050c0" : "c00082", "60c0fc" : "fc60e7", "b0e0fc" : "fcb0f4" },
     // BROWN - CYAN
     { "2080f0" : "20f0bd", "0050c0" : "00c097", "60c0fc" : "60fcbd", "b0e0fc" : "b0fcdb" }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -1,6 +1,7 @@
 {
   "name" : "ct_sensitive_electronics",
   "label" : "Sensitive Electronics",
+  "description" : "If your health is lower than 50%, repeatedly damages enemies around you with electricity. The lower your health is, the more frequent the strikes are.",
 
   "effectConfig" : {
     "boltInterval" : -1,

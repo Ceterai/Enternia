@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Monitor",
   "description" : "A wall mounted titanium monitor. Doesn't really show anything. May need configuring first.",
@@ -58,5 +58,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

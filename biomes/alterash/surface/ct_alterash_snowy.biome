@@ -1,12 +1,13 @@
 {
   "name" : "ct_alterash_snowy",
   "friendlyName" : "Snowy Alterash Ridges",
+  "description" : "Cool ridgy surfaces semi-covered with snow.\n\n*\"Have you ever wanted to conquer a mountain? Or maybe you wished to quit everything, bring your friends and settle a mountain camp? Come to our mountains, we provide the chilly fresh winter atmosphere, you provide the fun.\"* - Lenn",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier2.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "snow", "slush", "ice" ],
   "ores" : "ct_alterash_crystal",
 
   "hueShiftOptions" : [60],
-  "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
   "parallax" : "/parallax/surface/arctic.parallax",
 
   "spawnProfile" : {
@@ -106,7 +107,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
@@ -167,6 +168,14 @@
       },
       // Other
       {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_elin_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_elin_pod" ]
+      },
+      {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [[0.35,"crystalcavebush1"],[0.35,"crystalcavebush2"],[0.35,"crystalcavebush3"],[0.35,"crystalcavebush4"]], "parameters" : { } } ]
       }
@@ -177,6 +186,10 @@
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
+      },
       {
         "mode" : "floor", "priority" : 0.0, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundtechChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "techChest" ]
@@ -208,6 +221,14 @@
       {
         "mode" : "ceiling", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingMid", "type" : "object",
         "objectSets" : [ { "pool" : [ [0.20, "icestalactite1" ], [0.20, "icestalactite2" ], [0.20, "icestalactite3" ], [0.20, "icestalactite4" ] ] } ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_elin_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_elin_pod" ]
       }
     ]
   }

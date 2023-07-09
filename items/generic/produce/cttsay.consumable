@@ -1,20 +1,17 @@
 {
   "itemName" : "cttsay",
-  "rarity" : "Common",
-  "price" : 30,
-  "category" : "food",
-  "eventCategory" : "eventCrop",
-  "inventoryIcon" : "cttsay.png",
-  "description" : "A very sour, slightly bitter, sometimes sweet fruit. What a mix.",
   "shortdescription" : "Tsay",
-  "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
-  "rottingMultiplier" : 3.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "cttsaycooked" ]
+  "description" : "A very sour, slightly bitter, sometimes sweet fruit. What a mix.",
+  "longdescription" : "A well-balanced flavor great for soury products. For example, altas often substitute lemons with tsays in their lemonades and sodas as a more common and thus more affordable alterative.  \nAs a unique sideffect, when properly cooked, tsay can acquire a savory, almost meaty taste, making it a great multipurpose ingredient in cooking.",
+
+  "level" : 1, "price" : 30, "rarity" : "Common",
+
+  "maxStack" : 1, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 3.0,
+  "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
+
+  "inventoryIcon" : "cttsay.png",
+  "learnBlueprintsOnPickup" : [ "cttsaycooked" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
 }

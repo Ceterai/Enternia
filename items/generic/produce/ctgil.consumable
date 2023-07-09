@@ -1,20 +1,17 @@
 {
   "itemName" : "ctgil",
-  "rarity" : "Common",
-  "price" : 30,
-  "category" : "food",
-  "eventCategory" : "eventCrop",
-  "inventoryIcon" : "ctgil.png",
-  "description" : "Salty! At least on the outside.",
   "shortdescription" : "Gil",
-  "foodValue" : 7,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
-  "rottingMultiplier" : 3.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "learnBlueprintsOnPickup" : [ "ct_gillikada" ]
+  "description" : "Salty! At least on the outside.",
+  "longdescription" : "If you peel off it's tasty coat you'll reveal sweet insides filled with small nutty seeds that are thankfully fully okay to swallow.  \nTogether this fruit makes a pretty unique sweet and salty combination with a slight hint of a nut, making it hard to forget and pretty easy to distinquish.  \nThe easily separated flavors of this fruit make it very convenient for cooking.",
+
+  "level" : 1, "price" : 30, "rarity" : "Common",
+
+  "maxStack" : 1, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 3.0,
+  "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
+
+  "inventoryIcon" : "ctgil.png",
+  "learnBlueprintsOnPickup" : [ "ct_gillikada" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
 }

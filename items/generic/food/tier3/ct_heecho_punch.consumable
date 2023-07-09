@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_heecho_punch",
-  "rarity" : "Rare",
-  "price" : 720,
+  "level" : 5, "rarity" : "Rare", "price" : 720,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_heecho_punch.png",
-  "description" : "An alta cuisine. A mixture of only the sweetest of sweet fruit.",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. A mixture of only the sweetest of sweet fruit.",
   "shortdescription" : "Heecho Punch",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -31,8 +31,8 @@
   "variants" : [
     {
       "shortdescription" : "Extra Heecho Punch",
-      "description" : "An alta cuisine. A mistery mixture that takes a fresh turn on the heecho punch.",
-      "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. A mistery mixture that takes a fresh turn on the heecho punch.",
+      "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 300 }, { "effect" : "maxhealthboost20", "duration" : 300 } ] ]
     }
   ]

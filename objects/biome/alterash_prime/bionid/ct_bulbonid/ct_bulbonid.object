@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bulbonid",
-  "description" : "A tall biometal growth with brightly-lit bulbs on top.",
+  "description" : "A tall biocrystallic growth with brightly-lit ^#299fc5;bionid^reset; bulbs on top.",
   "altaDescription" : "This plant is growing bionid formations that glow with the energy it provides.",
 
   "apexDescription" : "It's some kind of a natural light.",
@@ -65,5 +65,7 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

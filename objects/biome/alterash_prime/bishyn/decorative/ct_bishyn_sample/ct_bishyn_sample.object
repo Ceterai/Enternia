@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Sample",
-  "description" : "A bishyn sample. The stand is powered by the crystal itself. An exhibit of prosperity.",
+  "description" : "A ^#378754;bishyn^reset; sample. The stand is powered by the crystal itself. An exhibit of prosperity.",
   "altaDescription" : "Like other cal samples, this one is able to power its own stand. Also, not a natural bishyn shape.",
 
   "apexDescription" : "Yes, it's a sample. Yes, it's poisonous. Yes, I won't touch it. No way I would.",
@@ -26,5 +26,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_eds_container",
   "colonyTags" : [ "alta", "eds", "storage", "commerce" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 240,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Container",
-  "description" : "A small cargo crate. No doubt it has cargo in it.",
+  "shortdescription" : "^#f02020;EDS^reset; Container",
+  "description" : "A small ^#f02020;EDS^reset; cargo crate. No doubt it has cargo in it.",
   "altaDescription" : "A shipping EDS container. Highly reinforced to withstand the harshest environments.",
 
   "apexDescription" : "A mysterious cargo crate.",
@@ -46,5 +46,7 @@
   "slotCount" : 16,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

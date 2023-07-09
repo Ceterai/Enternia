@@ -5,7 +5,7 @@
   "rarity" : "Uncommon",
   "price" : 320,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Watcher",
   "description" : "A seemingly sentient plant-based contraption that detects movement in big area and can be wired.",
@@ -67,5 +67,7 @@
     ],
     "defaultReactions" : {},
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

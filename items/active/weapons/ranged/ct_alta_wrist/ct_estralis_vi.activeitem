@@ -1,0 +1,71 @@
+{
+  "itemName" : "ct_estralis_vi",
+  "shortdescription" : "Estralis Vi",
+  "description" : "A unique wrist device lost in the midst of nowhere. How did it get here? Is it... looking at you?",
+  "elementalType" : "electric",
+
+  "level" : 5, "price" : 480, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "wrist", "plasma", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_estralis_vi.png",
+  "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
+  "animationParts" : { "middle" : "ct_estralis_vi.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : {
+    "fire" : [ "/sfx/gun/magnorbs_fire8.ogg", "/sfx/gun/magnorbs_fire9.ogg", "/sfx/gun/magnorbs_fire10.ogg" ],
+    "primary_press" : [ "/sfx/gun/magnorbs_fire8.ogg", "/sfx/gun/magnorbs_fire9.ogg", "/sfx/gun/magnorbs_fire10.ogg" ],
+    "primary_hold" : [ "/sfx/gun/magnorbs_fire8.ogg", "/sfx/gun/magnorbs_fire9.ogg", "/sfx/gun/magnorbs_fire10.ogg" ],
+    "primary_start" : [ ], "primary_loop" : [ ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+  },
+  "baseOffset" : [0.0, 0.0], "muzzleOffset" : [0.7, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"],
+
+  "primaryAbilityType" : "tentaclegun",
+  "primaryAbility" : {
+    "name" : "Plasmastrains",
+    "description" : "The core of this blaster is able to generate Plasmic Strains able to change their form.",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.2,
+    "inaccuracy" : 0.01,
+
+    "chain" : {
+      "taper" : 0.5,
+      "segmentImage" : "/items/active/weapons/ranged/ct_alta_abils/tentacles/ct_estralis_vi_s.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/ct_alta_abils/tentacles/ct_estralis_vi_e.png",
+      "segmentSize" : 1.0
+    },
+    "maxProjectiles" : 8, "maxLength" : 20, "guideProjectiles" : true,
+
+    "projectileType" : "ct_plasma_strain",
+    "projectileParameters" : {
+      "knockback" : 5,
+      "speed" : 40,
+      "timeToLive" : 10
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_estralis_vi_2.png",
+    "animationParts" : { "middle" : "ct_estralis_vi_2.png" },
+    "shortdescription" : "Estralis Vyurm ^#8020f0;^reset;",
+    "description" : "Seems like the mysterious plasmic claws have grown and come to life... Is this all the ^#ffa8e8;stardust^reset;?",
+    "price" : 520, "rarity" : "Legendary",
+    "primaryAbility" : {
+      "name" : "Starstrains",
+      "description" : "This device now generates Staris Strains instead of plasmic ones:\n\n- max amount: 10 (instead of 8)\n- max length: 24 (instead of 20)",
+      "chain" : {
+        "taper" : 0.5, "segmentSize" : 1.0,
+        "segmentImage" : "/items/active/weapons/ranged/ct_alta_abils/tentacles/ct_estralis_vi_2_s.png",
+        "endSegmentImage" : "/items/active/weapons/ranged/ct_alta_abils/tentacles/ct_estralis_vi_2_e.png"
+      },
+      "maxProjectiles" : 10, "maxLength" : 24
+    }
+  }
+}

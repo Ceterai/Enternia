@@ -4,10 +4,10 @@
   "category" : "decorative",
   "rarity" : "Common",
   "price" : 240,
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Phospholion Formation",
-  "description" : "This natural metallic formation can be used in crafting to get the metal it's made of!",
+  "description" : "This natural metallic formation can be used in crafting to get the ^#ceffd7;phospholion^reset; it's made of!",
   "altaDescription" : "I can use this phospholion formation at a crafting station to extract all of its phospholion.",
 
   "apexDescription" : "A deposit of some sort of metallic material.",
@@ -27,5 +27,7 @@
     }
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

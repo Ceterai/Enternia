@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 40,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Light",
   "description" : "An organic biolight, that softly flickers in the dark.",
@@ -39,5 +39,7 @@
       "image" : "body.png:background", "fullbright" : true,
       "spaceScan" : 0.1, "anchors" : [ "background" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,12 +1,11 @@
 {
   "itemName" : "ct_warpedaugment",
-  "price" : 25000,
-  "rarity" : "Legendary",
-  "tooltipKind" : "eppaugment",
-  "category" : "eppAugment",
-  "inventoryIcon" : "ct_warpedaugment.png",
-  "description" : "This mutated EPP module boosts your mobility when swimming, gives you poison protection and makes you burst with poison clouds.",
   "shortdescription" : "Warped Augment",
+  "description" : "This mutated EPP module boosts your mobility when swimming, gives you poison protection and makes you burst with poison clouds.",
+
+  "level" : 6, "price" : 2800, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_warpedaugment.png",
 
   "augment" : {
     "type" : "back",
@@ -17,6 +16,6 @@
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],
-
-  "scripts" : [ "/scripts/augments/augment.lua" ]
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_lab_pod",
   "colonyTags" : [ "alta", "alta_lab", "storage", "mechanical", "wired" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 480,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Pod",
   "description" : "A protected bionid pod with isolated airtight space that can be used for storage.",
@@ -37,5 +37,7 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
 
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

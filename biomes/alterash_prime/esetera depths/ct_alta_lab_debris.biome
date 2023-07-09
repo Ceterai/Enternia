@@ -1,6 +1,8 @@
 {
   "name" : "ct_alta_lab_debris",
   "friendlyName" : "Alta Lab Debris",
+  "description" : "This place is mostly ruins af various ^#b0e0fc;alta^reset; creations and structures. Maybe something precious can be dug up from the rubble.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier3.png",
   "statusEffects" : [ "ct_ionized_air", "ct_ionic_stroke" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "junk" ],
@@ -37,7 +39,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -62,7 +64,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",

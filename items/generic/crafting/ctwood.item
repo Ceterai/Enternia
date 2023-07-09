@@ -1,0 +1,17 @@
+{
+  "itemName" : "ctwood",
+  "shortdescription" : "Ayaka Wood",
+  "description" : "A piece of ayaka wood. Can be converted into regular wood or used as a crafting material due to good energy isolation.",
+  "glitchdescription" : "Confused. Don't really see a way this can be edible.",
+  "florandescription" : "Tassty tree givess tassty friutss and tasssty wood... Floran iss hungry!",
+  "novakiddescription" : "I heard one can eat them planks.",
+
+  "level" : 1, "price" : 5, "rarity" : "Common",
+
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent", "nature", "plant" ], "tooltipKind" : "ct_alta_item_long",
+
+  "inventoryIcon" : "ctwood.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

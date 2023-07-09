@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_rimar_motsu",
-  "rarity" : "Rare",
-  "price" : 840,
+  "level" : 5, "rarity" : "Rare", "price" : 840,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_rimar_motsu.png",
-  "description" : "An alta cuisine. A tasty mix of various ingredients turned into a favorite alta motsu!",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. A tasty mix of various ingredients turned into a favorite ^#b0e0fc;alta^reset; motsu!",
   "shortdescription" : "Rimar Motsu Soup",
   "effects" : [ [
     {
@@ -21,10 +21,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -35,8 +35,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Rimar Motsu",
-      "description" : "An alta cuisine. A perfect mix of various ingredients turned into an exquisite alta motsu!",
-      "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. A perfect mix of various ingredients turned into an exquisite ^#b0e0fc;alta^reset; motsu!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
   ]
 }

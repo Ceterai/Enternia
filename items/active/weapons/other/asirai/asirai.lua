@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/items/active/weapons/weapon.lua"

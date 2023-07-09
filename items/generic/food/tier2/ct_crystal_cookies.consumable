@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_crystal_cookies",
-  "rarity" : "Uncommon",
-  "price" : 560,
+  "level" : 4, "rarity" : "Uncommon", "price" : 560,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_crystal_cookies.png",
-  "description" : "Calin alta cuisine. Spiky cookies with crystal jam filling and crystal bits all around.",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Spiky cookies with crystal jam filling and crystal bits all around.",
   "shortdescription" : "Crystal Cookies",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -26,8 +26,8 @@
   "variants" : [
     {
       "shortdescription" : "Candy Cookies",
-      "description" : "Calin alta cuisine. A perfect amount of crystals creates a perfect candy-like substance! So are these cookies or candy?",
-      "rarity" : "Rare", "price" : 800, "foodValue" : 45
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A perfect amount of crystals creates a perfect candy-like substance! So are these cookies or candy?",
+      "level" : 5, "rarity" : "Rare", "price" : 800, "foodValue" : 45
     }
   ]
 }

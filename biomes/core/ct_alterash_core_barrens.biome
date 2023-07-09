@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_core_barrens",
   "friendlyName" : "Obsidian Depths",
+  "description" : "These wide dark crimson caves are made from ^#4f4c46;obsidian^reset;. Their crimson colour comes from remains of some ^#b0e0fc;alta^reset; stashes, while the rest of these caves remains in the dark. What lurks inside it are vicious obsidian scorpions, darker than the night itself.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier3.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core",
@@ -11,6 +13,7 @@
     "monsterParameters" : { "colors" : "volcanic" },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier3" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_enternia_barrens_spawn" ] ] }
     ]
   },
@@ -47,11 +50,11 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 5, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "treasureBox",

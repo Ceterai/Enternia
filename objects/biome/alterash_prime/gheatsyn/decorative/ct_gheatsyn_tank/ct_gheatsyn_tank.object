@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 125,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Tank",
-  "description" : "A gheatsyn tank.",
+  "description" : "A ^#a7e001;gheatsyn^reset; tank.",
   "altaDescription" : "Gheatsyn crystals can liquify or crystallize when charged depending on the charge polarity. The one in this tank does the former.",
 
   "apexDescription" : "A capsule filled with gheatsyn.",
@@ -61,5 +61,7 @@
   "scriptDelta" : 60,
 
   "inputNodes" : [ [0, 0] ]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

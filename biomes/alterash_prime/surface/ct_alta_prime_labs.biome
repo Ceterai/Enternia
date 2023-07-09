@@ -1,6 +1,8 @@
 {
   "name" : "ct_alta_prime_labs",
   "friendlyName" : "Alta Prime Labs",
+  "description" : "Rare ^#b0e0fc;alta^reset; laboratories and facilities that still remain above the surface of ^#2080f0;alterash prime^reset; planets.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier2.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonstone", "moonrock" ],
   "ores" : "ct_alterash_crystal",
@@ -28,7 +30,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -63,6 +65,14 @@
       },
       // Other
       {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_faradea_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_faradea_pod" ]
+      },
+      {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [[0.35,"crystalcavebush1"],[0.35,"crystalcavebush2"],[0.35,"crystalcavebush3"],[0.35,"crystalcavebush4"]], "parameters" : { } } ]
       }
@@ -80,7 +90,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -108,6 +118,14 @@
         "treeStemList" : [ "ct_ayaka_roots" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_faradea_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_faradea_pod" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"crystalcavebush1"],[1,"crystalcavebush2"],[1,"crystalcavebush3"],[1,"crystalcavebush4"]], "parameters" : { } } ]

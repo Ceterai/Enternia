@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 40,
 
   "shortdescription" : "Warped Hive Seed",
@@ -20,7 +20,6 @@
 
   "inventoryIcon" : "icon.png",
 
-  "tooltipKind" : "seed",
   "largeImage" : "ct_warped_hive_seed.png:default.3.0",
 
 
@@ -58,5 +57,7 @@
     }
   ],
 
-  "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

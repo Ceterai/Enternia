@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_crystal_icecream",
-  "rarity" : "Uncommon",
-  "price" : 440,
+  "level" : 4, "rarity" : "Uncommon", "price" : 440,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_crystal_icecream.png",
-  "description" : "Calin alta cuisine. Crystal plants are ideal for dusting them down and making an icecream!",
+  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Crystal plants are ideal for dusting them down and making an icecream!",
   "shortdescription" : "Crystal Ice Cream",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 20,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Iced Crystal Desert",
-      "description" : "Calin alta cuisine. It's like a pile of magical sparkles that melt in your mouth!",
-      "rarity" : "Rare", "price" : 640, "foodValue" : 30
+      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. It's like a pile of magical sparkles that melt in your mouth!",
+      "level" : 5, "rarity" : "Rare", "price" : 640, "foodValue" : 30
     }
   ]
 }

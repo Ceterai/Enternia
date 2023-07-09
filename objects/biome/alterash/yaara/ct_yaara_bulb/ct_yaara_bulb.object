@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 65,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Bulb",
   "description" : "A natural biolight source in form of a tiny bulb that looks like a flower.",
@@ -48,5 +48,7 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

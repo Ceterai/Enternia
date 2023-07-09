@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 180,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoblob",
-  "description" : "A vile bubble of slime. There's something stuck inside.",
+  "description" : "A vile bubble of ^#7ddcde;isoslime^reset;. There's something stuck inside.",
   "altaDescription" : "A giant isoslime blob. Things tend to get stuck in isoslime, resulting in pods like this one. I wonder what's inside.",
 
   "apexDescription" : "A putrid mound of slime. How am I meant to store this?",
@@ -37,5 +37,7 @@
   "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
   "smashDropPool" : "ct_smashable_isoslime_blob",
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

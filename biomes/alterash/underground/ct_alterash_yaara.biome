@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_yaara",
-  "friendlyName" : "Yaara Groves",
+  "friendlyName" : "Yaara Grove",
+  "description" : "A cavey land that has once been overgrown with ^#20f080;Yaara^reset;.  \nSomewhere in the depths of these jungles you'll be able to find majestic giant flowers - ^#20f080;Yaara Hearts^reset;. In fact, the entire grove is just a one big yaara plant that has been streching and growing, spreading its roots everywhere. Those giant flowers are the places of concentration of its energy - ^#20f080;Ceternia^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_yaara_loot.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "moonrock" ],
@@ -10,12 +12,12 @@
   "parallax" : "/parallax/underground/ct_alterash_underground.parallax",
 
   "spawnProfile" : {
-    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "monsterParameters" : { "colors" : "jungle", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "iguarmor" ] ] },
       { "select" : 2, "pool" : [ [ 1, "nutmidge" ], [ 1, "pteropod" ], [ 1, "toumingo" ], [ 1, "miasmop" ] ] },
       { "select" : 1, "pool" : [[1,"jellocritter"]] },
-      { "select" : 3, "pool" : [[1,"sackbagcritter"], [1,"leafscabcritter"], [1,"bouncebagcritter"], [1,"bouncercritter"], [1,"crystalbirdcritter"]] }
+      { "select" : 3, "pool" : [[1,"bowbirdcritter"], [1,"bouncercritter"], [1,"sackbagcritter"], [1,"toucritter"]] }
     ]
   },
 
@@ -39,7 +41,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -52,6 +54,10 @@
       // Other
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
+        "objectSets" : [ { "pool" : [[1,"ct_yaara_thorns1"],[1,"ct_yaara_thorns2"],[1,"ct_yaara_thorns3"],[1,"ct_yaara_thorns4"]], "parameters" : { } } ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [[1,"ct_yaara_thorns1"],[1,"ct_yaara_thorns2"],[1,"ct_yaara_thorns3"],[1,"ct_yaara_thorns4"]], "parameters" : { } } ]
       },
       {
@@ -105,6 +111,10 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_yaaraChest" ]
+      },
+      {
+        "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_yaaraChest" ]
       },
       {

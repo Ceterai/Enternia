@@ -1,6 +1,8 @@
 {
   "name" : "ct_alterash_flooded",
-  "friendlyName" : "Alterash Flooded Caves",
+  "friendlyName" : "Flooded Alterash Caves",
+  "description" : "A set of flooded caves with various seaweeds and fish. Contains various ^#497c64;koywa^reset; loot and lots of ^#6f6c66;moondust^reset;.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_koywa_loot.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moondust", "moondust" ],
@@ -38,7 +40,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -54,6 +56,14 @@
         "microdungeons" : [ "oceanmicrodungeons" ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_koywa_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_koywa_chest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "grass",
         "grasses" : [ "corals", "seaweed", "waterplant2", "waterplant3", "strange" ]

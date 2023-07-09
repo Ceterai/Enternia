@@ -5,9 +5,9 @@
   "rarity" : "Rare",
   "price" : 600,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "Alterash Pyramid",
+  "shortdescription" : "^red;Outdated^reset; Alterash Pyramid",
   "description" : "A pyramid-like alterash structure.",
   "altaDescription" : "A generator. It's usual to see these in parks, powering nearby lights and stuff.",
 
@@ -28,5 +28,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

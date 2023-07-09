@@ -1,21 +1,21 @@
 {
   "itemName" : "ct_warped_gun",
   "shortdescription" : "Warped Gun",
-  "description" : "A multishot crystal blaster filled with poisonous shards.",
+  "description" : "This cannon is overgrown with ^#9b2d3f;warped^reset; fibres. It has a special section filled with warped venom and luminous juices.",
 
   "elementalType" : "poison",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 4, "price" : 720, "rarity" : "Uncommon",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "shotgun",
-  "itemTags" : [ "weapon", "ranged", "shotgun", "warped", "upgradeableWeapon" ],
+  "itemTags" : [ "weapon", "ranged", "shotgun", "cannon", "warped", "poison", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_warped_gun.png",
 
   "animation" : "/items/active/weapons/ranged/ct_alta_ranged.animation",
   "animationParts" : {
-    "butt" : "", "middle" : "ct_warped_gun.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/impulse.png"
+    "butt" : "", "middle" : "ct_warped_gun.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/impulse.png"
   },
   "animationCustom" : {
     "sounds" : {
@@ -31,6 +31,7 @@
 
   "primaryAbility" : {
     "name" : "Poison Core",
+    "description" : "Can launch Poison Sweeps on press and Poison Rockets on hold.",
 
     "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.9,
 
@@ -78,7 +79,8 @@
   },
 
   "altAbility" : {
-    "name" : "Toxic Barrage",
+    "name" : "Venomous Barrage",
+    "description" : "Able to turn its venom into explosive charges.\nPress - launch an Acid Nade;\nHold - launch a Poison Cloud Nade.",
 
     "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.9,
 
@@ -122,12 +124,14 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_warped_gun_2.png",
     "animationParts" : { "middle" : "ct_warped_gun_2.png" },
     "shortdescription" : "Biowarper ^#8020f0;^reset;",
-    "price" : 800
+    "description" : "It looks like this ^#9b2d3f;warped^reset; cannon has become alive due to ^#ffa8e8;stardust^reset; energy - the warped roots have expanded and are now pulsating with life and poison.",
+    "price" : 800, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ] } }
   }
 }

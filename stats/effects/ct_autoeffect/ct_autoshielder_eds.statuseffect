@@ -1,6 +1,7 @@
 {
   "name" : "ct_autoshielder_eds",
   "label" : "^#b81824;EDS^reset; Autoshielder",
+  "description" : "Applies ^#b81824;EDS Shield^reset; to you when your health is lower than 20%.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {

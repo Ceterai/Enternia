@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_upgrade_station",
-  "colonyTags" : [ "alta", "crafting" ],
+  "colonyTags" : [ "alta", "crafting", "gheatsyn" ],
   "category" : "crafting",
   "rarity" : "Rare",
   "price" : 1200,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
@@ -15,7 +15,7 @@
   "placementImage" : "body1.png",
   "placementImagePosition" : [0, 0],
 
-  "shortdescription" : "^orange;Alta Upgrade Station^white;",
+  "shortdescription" : "^orange;Alta Upgrade Station^reset;",
   "description" : "Used for upgrading technology and resources.",
   "altaDescription" : "This station allows to upgrade equipment using gheatsyn shards.",
 
@@ -41,7 +41,7 @@
         "price" : 1200,
 
         "shortdescription" : "^orange;Alta Tier 1 Upgrade Station^white;",
-        "description" : "Used for crafting alta technology and resources."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
       },
       "interactData" : {
         "config" : "/objects/alta/crafting/upgrade_station/default.config",
@@ -68,7 +68,7 @@
         "price" : 1600,
 
         "shortdescription" : "^orange;Alta Tier 2 Upgrade Station^white;",
-        "description" : "Used for crafting all alta technology, resources and materials."
+        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
       },
 
       "interactData" : {
@@ -91,5 +91,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_pod",
   "colonyTags" : [ "alta", "storage", "mechanical", "wired" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 180,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Pod",
   "description" : "A simplistic pod that can be used as a chest.",
@@ -37,5 +37,7 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
 
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

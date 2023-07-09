@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Door",
-  "description" : "A solid bishyn door.",
+  "description" : "A solid ^#378754;bishyn^reset; door.",
   "altaDescription" : "A good use for the biggest bishyn formations. Sturdy and efficient, and no longer poisonous.",
 
   "apexDescription" : "A strange looking door.",
@@ -56,5 +56,7 @@
   "animationPosition" : [-16, 0],
 
   "inputNodes" : [ [0, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

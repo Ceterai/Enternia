@@ -1,11 +1,12 @@
 {
   "name" : "ct_alterash_forest",
   "friendlyName" : "Ayaka Forest",
+  "description" : "A piece of land overgrown with ^#20f080;ayaka^reset; trees. The ground is strewn with long ripe ^#2080f0;ayas^reset;, and the dense caves are drowning in roots with ^#8020f0;ayaka sap^reset; soaking from every corner.\n\nBecause of dense foliage blocking falling flakes of ^#ffa8e8;stardust^reset;, there's almost no ^#ffa8e8;prism crystals^reset; to be found anywhere in the forest.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_ayaka_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
 
   "hueShiftOptions" : [10, 20],
-  "weather" : [ [0, [ "/weather.config:ct_alterash_normal", "/weather.config:ct_alterash_crystal", "/weather.config:ct_alterash_stardust", "/weather.config:ct_alterash_hazardous" ] ] ],
   "parallax" : "/parallax/surface/ct_alterash_labs.parallax",
 
   "spawnProfile" : {
@@ -17,42 +18,6 @@
       { "select" : 2, "pool" : [[0.15,"crystalbirdcritter"], [0.6,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"], [0.1,"bluebutterflycritter"]] }
     ]
   },
-
-  "skyOptions" : [
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [242, 120, 0], [255, 230, 176] ],
-      "dayColors" : [ [115, 224, 255], [255, 255, 255] ],
-      "eveningColors" : [ [125, 17, 158], [210, 52, 50] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [160, 120, 180],
-      "nightLightColor" : [40, 20, 60]
-    },
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [0, 24, 55], [255, 140, 49] ],
-      "dayColors" : [ [176, 115, 255], [255, 255, 255] ],
-      "eveningColors" : [ [100, 86, 173], [0, 222, 73] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [160, 120, 180],
-      "nightLightColor" : [40, 20, 60]
-    },
-    {
-      "mainColor" : [255, 255, 255],
-      "morningColors" : [ [197, 48, 174], [253, 161, 96] ],
-      "dayColors" : [ [255, 116, 122], [255, 255, 255] ],
-      "eveningColors" : [ [88, 42, 91], [175, 20, 50] ],
-      "nightColors" : [ [24, 38, 53, 80], [58, 42, 70, 160] ],
-      "morningLightColor" : [140, 71, 0],
-      "dayLightColor" : [200, 200, 200],
-      "eveningLightColor" : [180, 120, 120],
-      "nightLightColor" : [40, 20, 60]
-    }
-  ],
 
   "ambientNoises" : {
     "day" : { "tracks" : [ "/sfx/environmental/forest_day.ogg", "/sfx/environmental/forest_day2.ogg" ] },
@@ -74,7 +39,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "object",
@@ -111,14 +76,22 @@
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "tree",
         "treeFoliageHueShiftMax" : 10, "treeFoliageHueShiftMin" : -30, "treeStemHueShiftMax" : 15,
         "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
-      }
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ayaka_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ayaka_chest" ]
+      }
     ]
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
-    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.9,
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.6,
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.6,
     "items" : [
       // Tech
       {
@@ -127,7 +100,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_podChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier1" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -171,8 +144,16 @@
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
         "treeStemList" : [ "ct_ayaka_roots", "ct_aya" ], "treeFoliageList" : [ "" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0
-      }
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ayaka_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_ayaka_chest" ]
+      }
     ]
   }
 }

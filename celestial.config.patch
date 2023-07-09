@@ -1,25 +1,39 @@
 [
-  { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_planet", "value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "maskRange" : [1, 25], "maskPerPlanetRange" : [3, 3] }
-  },
-  { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_planet", "value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ct_alterash_garden/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
-    "dynamicsRange" : [1, 30], "baseCount" : 5 }
-  },
-  { "op":"add", "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
-
-  { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_prime_planet", "value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_prime_<selector>.png",
-    "maskPerPlanetRange" : [0, 0] }
-  },
-  { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_prime_planet", "value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ct_alterash_prime_gardens/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-    "dynamicsRange" : [1, 50], "baseCount" : 5 }
-  },
-  { "op":"add", "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" },
-  { "op":"add", "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" }
+  [
+    { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_planet", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_<selector>.png",
+      "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+      "maskRange" : [1, 25], "maskPerPlanetRange" : [3, 3] }
+    },
+    { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_planet", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/ct_alterash_garden/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+      "dynamicsRange" : [1, 30], "baseCount" : 5 }
+    },
+    { "op":"add", "path":"/planetaryTypes/Tier3/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+  
+    { "op" : "add", "path" : "/terrestrialHorizonGraphics/ct_alterash_prime_planet", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/horizon/textures/ct_alterash_prime_<selector>.png",
+      "maskPerPlanetRange" : [0, 0] }
+    },
+    { "op" : "add", "path" : "/terrestrialGraphics/ct_alterash_prime_planet", "value" : {
+      "baseImages" : "/celestial/system/terrestrial/biomes/ct_alterash_prime_gardens/maskie<num>.png",
+      "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange" : [1, 50], "baseCount" : 5 }
+    },
+    { "op":"add", "path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" },
+    { "op":"add", "path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" }
+  ],
+  // Mod Support for True Space (see mod description)
+  [
+    { "op":"test", "path":"/planetaryTypes/MildPlanet" },
+    { "op":"add", "path":"/planetaryTypes/MildPlanet/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+    { "op":"add", "path":"/planetaryTypes/CoolPlanet/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+    { "op":"add", "path":"/planetaryTypes/CoolPlanet/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" },
+    { "op":"add", "path":"/planetaryTypes/ColdPlanet/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" },
+    { "op":"add", "path":"/satelliteTypes/MildNSat/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+    { "op":"add", "path":"/satelliteTypes/CoolNSat/baseParameters/terrestrialType/-", "value":"ct_alterash_planet" },
+    { "op":"add", "path":"/satelliteTypes/CoolNSat/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" },
+    { "op":"add", "path":"/satelliteTypes/ColdNSat/baseParameters/terrestrialType/-", "value":"ct_alterash_prime_planet" }
+  ]
 ]

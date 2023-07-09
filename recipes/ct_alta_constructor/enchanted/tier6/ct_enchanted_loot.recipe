@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "ct_stardust", "count" : 32 }
+  ],
+  "output" : { "item" : "ct_enchanted_loot", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_nature", "enchanted", "vionostera", "vionos", "loot", "all" ]
+}

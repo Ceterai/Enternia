@@ -2,7 +2,7 @@
   "itemName" : "ct_mindcollar",
   "price" : 4000,
   "rarity" : "Rare",
-  "tooltipKind" : "petcollar",
+  "tooltipKind" : "ct_alta_item",
   "category" : "petCollar",
   "inventoryIcon" : "/items/augments/pet/ct_mindframe_collar.png",
   "description" : "A collar that causes your pet to damage nearby enemies with electricity.",
@@ -17,5 +17,7 @@
 
   "radioMessagesOnPickup" : [ "pickupcollar" ],
 
-  "scripts" : [ "/scripts/augments/collar.lua" ]
+  "scripts" : [ "/scripts/augments/collar.lua" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

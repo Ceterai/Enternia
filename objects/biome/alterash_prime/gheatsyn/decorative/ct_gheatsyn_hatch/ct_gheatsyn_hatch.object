@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 125,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Hatch",
-  "description" : "A plain gheatsyn vertical doorway.",
+  "description" : "A plain ^#a7e001;gheatsyn^reset; vertical doorway.",
   "altaDescription" : "A very useful hatch that uses unique gheatsyn abilities as a locking mechanism.",
 
   "apexDescription" : "A green hatch.",
@@ -68,5 +68,7 @@
   ],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

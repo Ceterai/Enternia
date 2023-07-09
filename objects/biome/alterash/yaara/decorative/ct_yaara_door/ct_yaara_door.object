@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 80,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Door",
   "description" : "A door made from interlocking vines.",
@@ -53,5 +53,7 @@
   "animationPosition" : [-16, 0],
 
   "inputNodes" : [ [0, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

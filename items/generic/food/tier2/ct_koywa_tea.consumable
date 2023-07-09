@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_koywa_tea",
-  "rarity" : "Uncommon",
-  "price" : 400,
+  "level" : 4, "rarity" : "Uncommon", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_koywa_tea.png",
-  "description" : "Yava alta cuisine. A tea brewed from various koywa herbs. Very healthy.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A tea brewed from various koywa herbs. Very healthy.",
   "shortdescription" : "Koywa Tea",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Riverside Surprise",
-      "description" : "Yava alta cuisine. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 300 } ] ]
     }
   ]

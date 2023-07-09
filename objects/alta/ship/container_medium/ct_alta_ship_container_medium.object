@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_ship_container_medium",
   "colonyTags" : [ "alta", "alta_ship", "storage", "commerce" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Container G2",
   "description" : "A crate containing cargo. What cargo? Who knows.",
@@ -48,5 +48,7 @@
   "slotCount" : 24,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "staticcell", "count" : 1 },
+    { "item" : "ct_bion", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_estralis_vi", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

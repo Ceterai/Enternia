@@ -1,14 +1,26 @@
 {
   "type" : "ct_alta_frigate_drone",
   "shortdescription" : "Frigate Drone ^#8020f0;^reset;",
-  "description" : "Tier 4 MegaDrone\nThis huge combat machine is able to construct new drones on the fly.",
+  "description" : "Tier 4 MegaDrone.  \nThis huge combat machine is able to construct new drones on the fly.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Drone Spawner",
+    "description" : "Constantly spawns ^#2080f0;Minidrones^reset; when aggroed. Will turn into ^#f02020;Empty Frigate Drone ^reset; on low health by releasing a ^#f02020;Defensive Drone R300 ^reset;."
+  },
+
+  "passiveAbility" : {
+    "name" : "EDS Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#b81824;EDS Autoshielder^reset;, ^#f02020;EDS Rocket Aimbot^reset;.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_frigate_drone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ ],
 
   "baseParameters" : {
     "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "seeThroughLiquid" : false, "monsterClass" : "rare",
-    "minHealth" : 36,
+    "minHealth" : 72,
     "behaviorConfig" : {
       "damageOnTouch" : true,
       "targetQueryRange" : 20,
@@ -30,7 +42,7 @@
       "deathActions" : [
         {
           "name" : "action-spawnmonster",
-          "parameters" : { "offset" : [0,0.5], "monsterType" : "ct_alta_frigate_drone_empty", "replacement" : true, "parameters" : { "health" : 40 } }
+          "parameters" : { "offset" : [0,0.5], "monsterType" : "ct_alta_frigate_drone_empty", "replacement" : true, "parameters" : { "health" : 80 } }
         },
         {
           "name" : "action-spawnmonster",
@@ -67,7 +79,7 @@
         "knockbackStunTime" : { "baseValue" : 0.2 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 72 },
+        "maxHealth" : { "baseValue" : 144 },
         "protection" : { "baseValue" : 32.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

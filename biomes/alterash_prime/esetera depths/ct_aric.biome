@@ -1,6 +1,8 @@
 {
   "name" : "ct_aric",
   "friendlyName" : "Aric",
+  "description" : "A very toxic place full of glowing mushrooms. That is all. Watch out for spores.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_shroomic_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "waste", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -35,7 +37,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
@@ -46,6 +48,10 @@
         "microdungeons" : [ "aridplatforming" ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_shroomicChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_shroomicChest" ]
@@ -82,13 +88,17 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_shroomicChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_shroomicChest" ]

@@ -5,7 +5,7 @@
   "rarity" : "Uncommon",
   "price" : 240,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Drainer",
   "description" : "This mechanism made out of weird plants sucks in liquids around it. Looks like a hungry plant monster.",
@@ -42,5 +42,7 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "interval" : 5
+  "interval" : 5,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

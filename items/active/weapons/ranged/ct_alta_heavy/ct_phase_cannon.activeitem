@@ -4,12 +4,12 @@
   "inventoryIcon" : "ct_phase_cannon.png",
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "The eternal heat produced by this mysterious artefact can cause small phase states with charged stardust energy.",
+  "description" : "The eternal heat produced by this mysterious artefact can cause small phase states with charged ^#ffa8e8;stardust^reset; energy.",
   "shortdescription" : "Phase Cannon ^#8020f0;^reset;",
   "level" : 6,
-  "tooltipKind" : "gun",
-  "category" : "rocketLauncher",
-  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "staris" ],
+  "tooltipKind" : "ct_alta_weapon_1",
+  "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "beam", "staris" ],
   "twoHanded" : true,
 
   "animation" : "/items/active/weapons/ranged/unrand/neolaserlauncher/neolaserlauncher.animation",
@@ -20,6 +20,7 @@
   },
   "animationCustom" : {
     "sounds" : {
+      "init" : [ "/sfx/tech/mech_explosion_windup.ogg" ],
       "fire" : [ "/sfx/gun/plasma_sniper5.ogg" ],
       "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
       "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop.ogg" ],
@@ -39,6 +40,8 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/beamfire.lua", "/items/active/weapons/ranged/gunfire.lua"],
     "class" : "BeamFire",
+    "name" : "Phasebeam",
+    "description" : "A powerful beam of ^#ffa8e8;stardust^reset; energy, able to polarize everything in its path.",
 
     "fireTime" : 0.2,
     "baseDps" : 12,
@@ -102,5 +105,5 @@
   "altAbilityType" : "exmachinarocket", // chargeshotlarge
   "altAbility" : { "elementalConfig" : { "electric" : { } } },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

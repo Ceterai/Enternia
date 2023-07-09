@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_ionic_stim",
-  "rarity" : "Uncommon",
-  "price" : 120,
+  "level" : 4, "rarity" : "Uncommon", "price" : 120,
+  "race" : "alta",
   "category" : "medicine",
   "inventoryIcon" : "ct_ionic_stim.png",
   "description" : "Provides 30s of full immunity to ionic/electric effects and gives 20% resist to electric damage.",
@@ -12,6 +12,9 @@
         "duration" : 30
       }
     ] ],
+  "tooltipKind" : "ct_alta_consumable",
   "emote" : "",
-  "emitters" : [ "stimuse" ]
+  "emitters" : [ "stimuse" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
 }

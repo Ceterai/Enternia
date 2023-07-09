@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Table",
   "description" : "A table made from a giant flower. Or probably a giant flower that looks like a table.",
@@ -27,5 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

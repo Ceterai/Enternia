@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 140,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Bench",
-  "description" : "A bench found in alta cities, parks and labs.",
+  "description" : "A bench found in ^#b0e0fc;alta^reset; cities, parks and labs.",
   "altaDescription" : "I love these benches. They're always so clean and comfortable! And convenient, too.",
 
   "apexDescription" : "A nice, practical bench.",
@@ -60,5 +60,7 @@
       "spaceScan" : 0.1,
       "anchors" : ["bottom"]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

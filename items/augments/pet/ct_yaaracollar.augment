@@ -1,12 +1,11 @@
 {
   "itemName" : "ct_yaaracollar",
-  "price" : 3200,
-  "rarity" : "Rare",
-  "tooltipKind" : "petcollar",
-  "category" : "petCollar",
-  "inventoryIcon" : "ct_yaaracollar.png",
-  "description" : "A collar that makes your pet immune to Enternia effects.",
   "shortdescription" : "Conscious Collar",
+  "description" : "A collar that makes your pet immune to Enternia effects.",
+
+  "level" : 5, "price" : 1600, "rarity" : "Rare",
+  "category" : "petCollar", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_yaaracollar.png",
 
   "collar" : {
     "name" : "ct_yaaracollar",
@@ -16,6 +15,6 @@
   },
 
   "radioMessagesOnPickup" : [ "pickupcollar" ],
-
-  "scripts" : [ "/scripts/augments/collar.lua" ]
+  "scripts" : [ "/scripts/augments/collar.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

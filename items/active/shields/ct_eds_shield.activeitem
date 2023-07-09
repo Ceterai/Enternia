@@ -1,32 +1,44 @@
 {
   "itemName" : "ct_eds_shield",
   "shortdescription" : "^#f02020;EDS^reset; Shield",
-  "description" : "A hand-held bastion that will protect you against all unknown threats awaiting in the dark. Provides an EDS protection effect.",
+  "description" : "A hand-held bastion that will protect you against all unknown threats awaiting in the dark.",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "alta", "eds", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "alta", "eds", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
+  "race" : "alta",
 
-  "inventoryIcon" : "ct_eds_shield.png:nearidle",
+  "inventoryIcon" : "ct_eds_shield.png",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "ct_eds_shield.png"
+    "shield" : "images/ct_eds_shield.png"
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ]
     }}}},
     "sounds" : {
-      "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
+      "init" : [ ],
+      "raiseShield" : [ "/sfx/gun/magnorbs_shield.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
       "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
     }
   },
 
-  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
+
+  "primaryAbility" : {
+    "name" : "Armored Shield",
+    "description" : "Activate block fast enough (parry time) to perform a perfect block."
+  },
+
+  "passiveAbility" : {
+    "name" : "Protection Module",
+    "description" : "Provides an ^#f02020;EDS Protection Module^reset; status effect."
+  },
 
   "minActiveTime" : 0.2,
 
@@ -55,11 +67,14 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandshield.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "ct_eds_shield.png:nearidle",
-    "animationParts" : { "shield" : "ct_eds_shield.png" },
-    "shortdescription" : "^#f02020;EDS^reset; Protector ^#8020f0;^reset;"
+    "inventoryIcon" : "ct_eds_shield.png",
+    "animationParts" : { "shield" : "images/ct_eds_shield.png" },
+    "shortdescription" : "^#f02020;EDS^reset; Protector ^#8020f0;^reset;",
+    "description" : "Armor of this shield has beed encrusted with ^#ffa8e8;stardust^reset;. With more power come more powerful effects!",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } }
   }
 }

@@ -1,6 +1,8 @@
 {
   "name" : "ct_isoslime_plasts",
   "friendlyName" : "Isoslime Plasts",
+  "description" : "These ^#7ddcde;isoslime^reset; caves are drowning in slime. Slime is everythere here - slimy walls, slimy floor, slime drops from the ceiling, moves towards you and even tries to harm you.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_isoslime_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "slush", "moonrock" ],
   "ores" : "ct_alterash_depth1",
@@ -35,18 +37,18 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
-      {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundweaponChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "weaponChest" ]
-      },
       // Dungeons
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_isoslimeChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_isoslimeChest" ]

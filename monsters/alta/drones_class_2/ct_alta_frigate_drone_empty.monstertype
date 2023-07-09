@@ -1,7 +1,19 @@
 {
   "type" : "ct_alta_frigate_drone_empty",
-  "shortdescription" : "Frigate Drone ^#8020f0;^reset;",
-  "description" : "Tier 4 MegaDrone\nThis huge combat machine is able to construct new drones on the fly.",
+  "shortdescription" : "Empty Frigate Drone ^#8020f0;^reset;",
+  "description" : "Tier 4 MegaDrone.  \nThis huge combat machine is able to construct new drones on the fly.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Drone Spawner",
+    "description" : "Constantly spawns ^#2080f0;Minidrones^reset; when unaggroed. Can shoot Torpedos made from Red Plasma. Will explode with ^#8020f0;electric^reset; particles on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "EDS Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#b81824;EDS Autoshielder^reset;.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_frigate_drone_empty" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_eds_class2", "bow" : "ct_alta_eds_class2" } ],
@@ -90,7 +102,7 @@
         "knockbackStunTime" : { "baseValue" : 0.2 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 72 },
+        "maxHealth" : { "baseValue" : 144 },
         "protection" : { "baseValue" : 32.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

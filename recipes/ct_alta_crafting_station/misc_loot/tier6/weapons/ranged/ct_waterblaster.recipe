@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "liquidwater", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_waterblaster", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

@@ -13,7 +13,8 @@ Note, that starting with discovery of stardust energy capabilities and the Enter
 
   ],
     "itemConfig" : {
-    "rarity" : "Rare",
-    "price" : 200
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

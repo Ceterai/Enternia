@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 1400,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenAiInterface",
 
@@ -16,7 +16,7 @@
   "flickerStrength" : 0.05,
   "flickerTiming" : 8,
 
-  "shortdescription" : "Alta Ship S.A.I.L",
+  "shortdescription" : "Broken Alta Ship S.A.I.L",
   "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short.",
   "altaDescription" : "A broken piece of acquired tech. Lets you talk to an AI assistant.",
 
@@ -40,5 +40,7 @@
       "anchors" : [ "background" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

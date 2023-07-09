@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Chair",
-  "description" : "A simple chair with inlaid green crystal in its back.",
+  "description" : "A simple chair with inlaid ^#a7e001;gheatsyn^reset; crystal in its back.",
   "altaDescription" : "Similar to other calin chairs, this one is not that comfortable, even if made from gheatsyn.",
 
   "apexDescription" : "An ordinary gheatsyn chair.",
@@ -31,5 +31,7 @@
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
   "sitPosition" : [2, 22]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

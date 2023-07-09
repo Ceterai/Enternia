@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_hevika_loot", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "crystal", "hevika", "loot", "all" ]
+}

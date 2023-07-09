@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "Alterash Lamppost",
+  "shortdescription" : "^red;Outdated^reset; Alterash Lamppost",
   "description" : "A standard alterash civilian lamppost.",
   "altaDescription" : "Ah, this crystal-blue light makes me feel like home and fills with determination.",
 
@@ -66,5 +66,7 @@
 
   "inputNodes" : [ [0, 3] ],
 
-  "interactive" : false
+  "interactive" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

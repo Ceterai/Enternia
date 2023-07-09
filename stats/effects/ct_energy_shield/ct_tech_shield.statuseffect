@@ -1,10 +1,11 @@
 {
   "name" : "ct_tech_shield",
   "label" : "Tech Shield",
+  "description" : "An energy shield that will expire once broken or overtime.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
-    "shieldBase" : 20.0,
+    "shieldBase" : 60.0,
     "shieldFromHealthPercent" : 0.5,
     "hideBorder" : true
   },

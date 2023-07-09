@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Calin Chair",
   "description" : "A sleek chair that almost looks like it's levitating. The back and top part are flexible for comfort.",
@@ -30,5 +30,7 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
-  "sitPosition" : [2, 22]
+  "sitPosition" : [2, 22],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

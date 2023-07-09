@@ -1,6 +1,7 @@
 {
   "name" : "ct_crystal_poison",
   "label" : "Crystal-Poisoned",
+  "description" : "Decreases your electric and poison resistance by 15%.",
   "effectConfig" : {
     "statName" : "electricResistance",
     "statAmount" : -0.15,

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Table",
   "description" : "A simplistic table made out of titanium.",
@@ -26,5 +26,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ], "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

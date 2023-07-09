@@ -1,9 +1,11 @@
 {
   "projectileName" : "ct_phospholion",
+  "shortdescription" : "Phospholion Shard",
   "speed" : 20,
   "bounces" : 1,
   "physics" : "grenade",
   "image" : "/items/generic/crafting/ct_phospholion.png",
+  "damageKindImage" : "/items/generic/crafting/ct_phospholion.png",
   "animationCycle" : 0.5,
   "power" : 0,
   "frameNumber" : 1,

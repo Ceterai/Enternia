@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ct_alta_energy_cell", "count" : 1 },
-    { "item" : "prisiliteore", "count" : 4 },
-    { "item" : "titaniumbar", "count" : 8 }
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "ct_datamass", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_scout_drone", "count" : 1 },
-  "groups" : [ "alta_tier2", "tier3_scout", "spawner", "drone", "all" ]
+  "groups" : [ "alta_t1+", "tier3_scout", "spawner", "drone", "all" ]
 }

@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_ship_storage",
   "colonyTags" : [ "alta", "alta_ship", "storage" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 520,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Storage",
   "description" : "A nice, spacious, wall-mounted storage solution.",
@@ -37,5 +37,7 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "openFrameIndex" : 4,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

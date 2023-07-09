@@ -5,17 +5,18 @@
 
   "level" : 4, "rarity" : "Uncommon", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "Shield", "itemTags" : [ "shield", "crystal", "crystalline", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3", "itemTags" : [ "shield", "crystal", "crystalline", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
 
-  "inventoryIcon" : "ct_crystalline_shield.png:nearidle",
+  "inventoryIcon" : "ct_crystalline_shield.png",
 
   "animation" : "shield.animation",
   "animationParts" : {
-    "shield" : "ct_crystalline_shield.png"
+    "shield" : "images/ct_crystalline_shield.png"
   },
   "animationCustom" : {
     "sounds" : {
+      "init" : [ ],
       "raiseShield" : [ "/sfx/melee/charge_traildash1.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_ice_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
@@ -23,7 +24,17 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/ct_alta_shield.lua"],
+  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
+
+  "primaryAbility" : {
+    "name" : "Power Activation",
+    "description" : "Provides an ^#2080f0;Energy Generator^reset; status effect when raised.\nActivate block fast enough (parry time) to perform a perfect block."
+  },
+
+  "passiveAbility" : {
+    "name" : "Energy Source",
+    "description" : "Provides an ^#2080f0;Energizer^reset; status effect."
+  },
 
   "minActiveTime" : 0.2,
 
@@ -53,11 +64,14 @@
     }
   },
 
-  "builder" : "/items/buildscripts/buildunrandshield.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "ct_crystalline_shield.png:nearidle",
-    "animationParts" : { "shield" : "ct_crystalline_shield.png" },
-    "shortdescription" : "Cave Keeper ^#8020f0;^reset;"
+    "inventoryIcon" : "ct_crystalline_shield.png",
+    "animationParts" : { "shield" : "images/ct_crystalline_shield.png" },
+    "shortdescription" : "Cave Keeper ^#8020f0;^reset;",
+    "description" : "This shield shines deemly in the dark. You can barely make out a wisper - \"Stars care for you, little one...\"",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
   }
 }

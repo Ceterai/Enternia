@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 3000,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Teleporter",
-  "description" : "A massive teleportation portal, connects to bookmarked locations.\n^red;Destroyed when broken.",
+  "description" : "A massive teleportation portal, connects to bookmarked locations. Since when do ^#b0e0fc;altas^reset; have teleporters?",
   "altaDescription" : "A piece of acquired tech. Lets you beam in and out pretty quickly.",
 
   "apexDescription" : "The ship's teleporter. Teleporting feels like riding a rollercoaster at the speed of light.",
@@ -70,5 +70,7 @@
       "collision" : "solid",
       "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0], [-2, 9], [-1, 9], [0, 9], [1, 9] ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

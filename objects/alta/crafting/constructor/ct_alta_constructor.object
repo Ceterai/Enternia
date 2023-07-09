@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_constructor",
-  "colonyTags" : ["alta", "crafting"],
+  "colonyTags" : ["alta", "crafting", "bishyn"],
   "category" : "crafting",
   "rarity" : "Uncommon",
   "price" : 300,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
@@ -15,8 +15,8 @@
   "placementImage" : "body1.png:default",
   "placementImagePosition" : [0, 0],
 
-  "shortdescription" : "^orange;Alta Constructor^white;",
-  "description" : "For alta decorations, furniture, traps and natural objects. Alta-scan objects crafted here to know more about them!",
+  "shortdescription" : "^orange;Alta Constructor^reset;",
+  "description" : "For ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects. ^#b0e0fc;alta^reset;-scan objects crafted here to know more about them!",
 
   "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
   "avianDescription" : "A crafting bench made of titanium.",
@@ -40,7 +40,7 @@
         "price" : 300,
 
         "shortdescription" : "^orange;Alta Tier 1 Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier1.config",
@@ -67,7 +67,7 @@
         "price" : 500,
 
         "shortdescription" : "^orange;Alta Tier 2 Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
       "interactData" : {
@@ -98,7 +98,7 @@
         "price" : 750,
 
         "shortdescription" : "^orange;Alta Tier 3 Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
       "interactData" : {
@@ -131,7 +131,7 @@
         "price" : 1000,
 
         "shortdescription" : "^orange;Alta Tier 4 Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
       "interactData" : {
@@ -159,7 +159,7 @@
         "price" : 1250,
 
         "shortdescription" : "^orange;Alta Mega Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
       "interactData" : {
@@ -190,7 +190,7 @@
         "price" : 1600,
 
         "shortdescription" : "^orange;Ultimate Alta Constructor^white;",
-        "description" : "Used for crafting alta decorations, furniture, traps and natural objects."
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
       "interactData" : {
@@ -214,5 +214,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

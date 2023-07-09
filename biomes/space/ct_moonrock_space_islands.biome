@@ -1,11 +1,13 @@
 {
   "name" : "ct_moonrock_space_islands",
   "friendlyName" : "Astera",  // Moonrock Space Islands
-
+  "description" : "A cluster of various-sized asteroids. Some of them are so convenient, that ^#b0e0fc;altas^reset; have built their space stations on them, all around ^#ffa8e8;stardust^reset; planets.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_astera_loot.png",
+  "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ ],
   "ores" : "ct_alterash_core",
-  "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
+  "hueShiftOptions" : [0],
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
@@ -26,14 +28,24 @@
     "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
   },
 
-  "hueShiftOptions" : [0],
-
   "surfacePlaceables" : {
     "grassMod" : [ ], "grassModDensity" : 0.0,
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]
@@ -50,7 +62,19 @@
     "ceilingGrassMod" : [ ], "ceilingGrassModDensity" : 0.0,
     "items" : [
       // Tech
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
+      },
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_astera_pod" ]
+      },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:hazardUndergroundCore", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "groundspike1"], [1, "groundspike2"], [1, "groundspike3"], [1, "groundspike4"] ], "parameters" : { } } ]

@@ -1,12 +1,11 @@
 {
   "itemName" : "ct_edsaugment",
-  "price" : 6000,
-  "rarity" : "Rare",
-  "tooltipKind" : "eppaugment",
-  "category" : "eppAugment",
-  "inventoryIcon" : "ct_edsaugment.png",
-  "description" : "An EPP module that slightly boosts your power, movement speed and protection.",
   "shortdescription" : "^#f02020;EDS^reset; Augment",
+  "description" : "An EPP module that slightly boosts your power, movement speed and protection.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_edsaugment.png",
 
   "augment" : {
     "type" : "back",
@@ -17,6 +16,6 @@
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],
-
-  "scripts" : [ "/scripts/augments/augment.lua" ]
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

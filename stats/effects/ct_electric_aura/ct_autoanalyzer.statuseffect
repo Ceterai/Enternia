@@ -1,6 +1,7 @@
 {
   "name" : "ct_autoanalyzer",
   "label" : "Autoanalyzer",
+  "description" : "Analyzes enemies around you, applying ^#2080f0;Analyzed^reset; to them.",
 
   "effectConfig" : {
     "playSound" : false,

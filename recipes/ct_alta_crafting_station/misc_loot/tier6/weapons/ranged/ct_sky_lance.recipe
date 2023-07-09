@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_sky_lance", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

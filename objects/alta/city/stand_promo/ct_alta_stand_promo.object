@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 160,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Promo Stand",
   "description" : "A titanium platform with a holographic ad.",
@@ -49,5 +49,7 @@
   "scriptDelta" : 60,
 
   "inputNodes" : [ [0, 0] ]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

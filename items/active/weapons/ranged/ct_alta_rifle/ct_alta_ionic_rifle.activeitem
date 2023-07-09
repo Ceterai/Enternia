@@ -1,18 +1,19 @@
 {
   "itemName" : "ct_alta_ionic_rifle",
   "shortdescription" : "Ionic Rifle NG6",
-  "description" : "A rifled enternia impulse blaster, mostly used by alta dreamers and heavy units.",
+  "description" : "A rifled enternia ion blaster, mostly used by ^#b0e0fc;alta^reset; dreamers and heavy units.",
   "elementalType" : "electric",
+  "race" : "alta",
 
   "level" : 6, "price" : 720, "rarity" : "Legendary",
 
-  "maxStack" : 1, "tooltipKind" : "gun",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : true, "category" : "assaultRifle",
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "alta", "ionic" ],
 
   "inventoryIcon" : "ct_alta_ionic_rifle.png",
   "animation" : "/items/active/weapons/ranged/ct_alta_rifle.animation",
-  "animationParts" : { "middle" : "ct_alta_ionic_rifle.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_muzzle/ionic.png" },
+  "animationParts" : { "middle" : "ct_alta_ionic_rifle.png", "muzzleFlash" : "/items/active/weapons/ranged/ct_alta_abils/muzzle/ionic.png" },
   "animationCustom" : { "sounds" : {
     "primary_press" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_ar1.ogg" ],
@@ -23,12 +24,13 @@
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "scripts" : ["/items/active/weapons/ranged/ct_alta_rifle.lua"],
   "primaryAbility" : {
     "class" : "AltaRanged",
     "name" : "Ionic Blast",
+    "description" : "Fires multiple ^#8020f0;Ionic Charges^reset; on activation.\nFiremodes: burst, semiauto.",
     "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.65,
     "pressType" : "burst",
     "pressParams" : { "type" : "ct_ionic_medium", "count" : 5 },
@@ -38,7 +40,8 @@
   "altAbility" : {
     "class" : "AltaSwitch",
     "name" : "Tactical Ambush",
-    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.1,
+    "description" : "Full set of tools to be ready.\nPress - change attachments: none, laser, flashlight, stabilizer (x1.25 dmg);\nHold - launch an Electro-Cloud Nade.",
+    "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.1,
     "holdType" : "nade",
     "holdParams" : { "type" : "electriccloudgrenade" },
     "pressAttachments" : true,

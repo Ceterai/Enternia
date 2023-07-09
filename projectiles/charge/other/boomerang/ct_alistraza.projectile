@@ -1,0 +1,25 @@
+{
+  "projectileName" : "ct_alistraza",
+  "image" : "ct_alistraza.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 8,
+  "damageKindImage" : "/items/active/weapons/ranged/ct_alta_unique/ct_alistraza.png",
+  "lightColor" : [0, 192, 80],
+  "pointLight" : false,
+  "flippable" : false,
+  "orientationLocked" : true,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "ct_impulse",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+  "emitters" : [ "spectralsparkle", "spectralsparkle", "spectralsparkle", "spectralsparkle", "spectralsparkle" ],
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "/scripts/projectiles/boomerangprojectile.lua" ]
+}

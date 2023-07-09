@@ -3,9 +3,12 @@
     "stateTypes" : {
       "body" : { "default" : "idle", "priority" : 0,
         "states" : {
-          "idle" : { "frames" : 1 }, "fly" : { "frames" : 4, "cycle" : 0.4, "mode" : "loop" }, "alarm" : { "frames" : 4, "cycle" : 0.3 },
-          "cast" : { "frames" : 4, "cycle" : 0.3, "mode" : "loop" }, "fire" : { "frames" : 2, "cycle" : 0.1, "mode" : "loop" },
-          "swoop" : { "frames" : 4, "cycle" : 0.25, "mode" : "loop" }, "morph" : { "frames" : 3, "cycle" : 0.3 },
+          "idle" : { "frames" : 1 }, "fly" : { "frames" : 4, "cycle" : 0.4, "mode" : "loop", "properties" : {
+            "persistentSound" : "/sfx/npc/boss/apeboss_stage2_loop.ogg", "persistentSoundStopTime" : 0.3 } }, "alarm" : { "frames" : 4, "cycle" : 0.3 },
+          "cast" : { "frames" : 4, "cycle" : 0.3, "mode" : "loop", "properties" : {
+            "persistentSound" : "/sfx/npc/boss/crystalboss_hum.ogg", "persistentSoundStopTime" : 0.3 } }, "fire" : { "frames" : 2, "cycle" : 0.1, "mode" : "loop" },
+          "swoop" : { "frames" : 4, "cycle" : 0.25, "mode" : "loop", "properties" : {
+            "persistentSound" : "/sfx/npc/boss/crystalboss_hum.ogg", "persistentSoundStopTime" : 0.3 } }, "morph" : { "frames" : 3, "cycle" : 0.3 },
           "activate" : { "frames" : 4, "cycle" : 0.25 }, "deactivate" : { "frames" : 4, "cycle" : 0.25 },
           "castwindup" : { "frames" : 3, "cycle" : 0.25 }, "castwinddown" : { "frames" : 3, "cycle" : 0.25 },
           "firewindup" : { "frames" : 3, "cycle" : 0.25 }, "firewinddown" : { "frames" : 3, "cycle" : 0.25 },

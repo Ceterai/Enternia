@@ -1,0 +1,33 @@
+{
+  "projectileName" : "ct_ionic_small",
+  "shortdescription" : "Ion",
+  "image" : "ct_ionic.png",
+  "damageKindImage" : "/damage/ct_ionic.png",
+  "physics" : "laser",
+  "bounces" : 1,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 32,
+  "speed" : 128,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/bullet_ricochet1.ogg", "/sfx/projectiles/bullet_ricochet2.ogg", "/sfx/projectiles/bullet_ricochet3.ogg",
+        "/sfx/projectiles/bullet_ricochet4.ogg", "/sfx/projectiles/bullet_ricochet5.ogg", "/sfx/projectiles/bullet_ricochet6.ogg",
+        "/sfx/projectiles/bullet_ricochet7.ogg", "/sfx/projectiles/bullet_ricochet8.ogg", "/sfx/projectiles/bullet_ricochet9.ogg",
+        "/sfx/projectiles/bullet_ricochet10.ogg", "/sfx/projectiles/bullet_ricochet11.ogg", "/sfx/projectiles/bullet_ricochet12.ogg",
+        "/sfx/projectiles/bullet_ricochet13.ogg"
+      ]
+    }
+  ],
+  "lightColor" : [80, 0, 192],
+  "damageKind" : "ct_ionic"
+}

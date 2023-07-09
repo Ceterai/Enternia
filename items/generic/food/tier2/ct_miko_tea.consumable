@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_miko_tea",
-  "rarity" : "Legendary",
-  "price" : 400,
+  "level" : 6, "rarity" : "Legendary", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_miko_tea.png",
-  "description" : "Yava alta cuisine. A very carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
   "shortdescription" : "Miko Tea",
   "effects" : [ [
     {
@@ -17,10 +17,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -31,8 +31,8 @@
   "variants" : [
     {
       "shortdescription" : "Yae Tea",
-      "description" : "Yava alta cuisine. A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "love", "duration" : 300 }, { "effect" : "slowlove", "duration" : 300 } ] ]
     }
   ]

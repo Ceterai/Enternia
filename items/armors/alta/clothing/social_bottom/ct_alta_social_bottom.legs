@@ -1,0 +1,41 @@
+{
+  "itemName" : "ct_alta_social_bottom",
+  "shortdescription" : "Social Worker Bottom",
+  "description" : "Shorts yet sturdy for safety and ease of movement!",
+  "level" : 1, "price" : 35, "rarity" : "Common", "race" : "alta",
+
+  "category" : "legwear", "maxStack" : 1, "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  // ALTA LIGHT
+  "colorOptions" : [
+    // DEFAULT
+    { "f6f6f6" : "f6f6f6", "d8dcf0" : "d8dcf0", "b0b4c8" : "b0b4c8", "606478" : "606478" },
+    // BLACK
+    { "f6f6f6" : "838383", "d8dcf0" : "555555", "b0b4c8" : "383838", "606478" : "151515" },
+    // GREY
+    { "f6f6f6" : "b5b5b5", "d8dcf0" : "808080", "b0b4c8" : "555555", "606478" : "303030" },
+    // WHITE
+    { "f6f6f6" : "e6e6e6", "d8dcf0" : "b6b6b6", "b0b4c8" : "7b7b7b", "606478" : "373737" },
+    // RED
+    { "f6f6f6" : "f4988c", "d8dcf0" : "d93a3a", "b0b4c8" : "932625", "606478" : "601119" },
+    // ORANGE
+    { "f6f6f6" : "ffd495", "d8dcf0" : "ea9931", "b0b4c8" : "af4e00", "606478" : "6e2900" },
+    // YELLOW
+    { "f6f6f6" : "ffffa7", "d8dcf0" : "e2c344", "b0b4c8" : "a46e06", "606478" : "642f00" },
+    // GREEN
+    { "f6f6f6" : "b2e89d", "d8dcf0" : "51bd3b", "b0b4c8" : "247824", "606478" : "144216" },
+    // BLUE
+    { "f6f6f6" : "96cbe7", "d8dcf0" : "5588d4", "b0b4c8" : "344495", "606478" : "1a1c51" },
+    // PURPLE
+    { "f6f6f6" : "d29ce7", "d8dcf0" : "a451c4", "b0b4c8" : "6a2284", "606478" : "320c40" },
+    // PINK
+    { "f6f6f6" : "eab3db", "d8dcf0" : "d35eae", "b0b4c8" : "97276d", "606478" : "59163f" },
+    // BROWN
+    { "f6f6f6" : "ccae7c", "d8dcf0" : "a47844", "b0b4c8" : "754c23", "606478" : "472b13" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

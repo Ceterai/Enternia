@@ -1,6 +1,7 @@
 {
   "projectileName" : "ct_plasma_spray",
   "image" : "ct_iorash_spray.png",
+  "damageKindImage" : "/damage/ct_plasma.png",
   "physics" : "statuspod",
   "bounces" : -1,
   "timeToLive" : 0,

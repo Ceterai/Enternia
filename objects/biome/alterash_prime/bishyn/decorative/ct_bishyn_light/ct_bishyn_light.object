@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 40,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Wall Light",
-  "description" : "A bishyn light.",
+  "description" : "A ^#378754;bishyn^reset; light.",
   "altaDescription" : "An office wall light made out of bishyn crystals. Makes the light cold yet comfortably bright.",
 
   "apexDescription" : "A green crystal light for a wall.",
@@ -65,5 +65,7 @@
   
   "interactive" : false,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 800,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Life Chamber",
-  "description" : "A special EDS healing station. Provides healing and protective effects. \n^red;Destroyed when broken.",
+  "shortdescription" : "^#f02020;EDS^reset; Lifechamber",
+  "description" : "A special ^#f02020;EDS^reset; healing station. Provides healing and protective effects.",
   "altaDescription" : "An EDS version of Tserera healing stations, the ones used mainly in labs. This one's a real deal.",
 
   "apexDescription" : "Devices like these look out of place in the middle of nowhere.",
@@ -59,5 +59,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

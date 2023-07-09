@@ -1,6 +1,7 @@
 {
   "name" : "ct_velocity_jump",
   "label" : "Velocity Jump",
+  "description" : "Increases jump height and decreases fall damage by 50%.",
   "effectConfig" : {
     "fallDamageMultiplier" : 0.5,
     "addJump" : 0.5

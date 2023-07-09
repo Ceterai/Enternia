@@ -4,7 +4,7 @@
   "rarity" : "Common",
   "category" : "seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 40,
   "hasObjectItem" : false,
 
@@ -61,5 +61,7 @@
   ],
 
   "maxImmersion" : 0.125,
-  "consumeSoilMoisture" : false
+  "consumeSoilMoisture" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,7 +1,8 @@
 {
   "type" : "ct_shieldrone",
-  "shortdescription" : "Shieldrone ^#20f080;^reset;",
-  "description" : "Tier 1 MegaDrone\nThis drone model may not put up a fight, but it will definitely put up a shield.",
+  "shortdescription" : "^red;Outdated^reset; Shieldrone Beta-Class",
+  "description" : "Tier 1 MegaDrone.  \nThis drone model may not put up a fight, but it will definitely put up a shield.",
+  "race" : "alta",
 
   "categories" : [ "ct_shieldrone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier1_class2", "bow" : "ct_alta_tier1_class2" } ],

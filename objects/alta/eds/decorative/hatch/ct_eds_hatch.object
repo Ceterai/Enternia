@@ -5,10 +5,10 @@
   "rarity" : "Uncommon",
   "price" : 280,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Hatch",
-  "description" : "A reinforced blast hatch. Be careful when standing on top of it!",
+  "shortdescription" : "^#f02020;EDS^reset; Hatch",
+  "description" : "A reinforced ^#f02020;EDS^reset; blast hatch. Be careful when standing on top of it!",
   "altaDescription" : "This hatch must lead somewhere. Probably to and EDS base.",
 
   "apexDescription" : "Hatch designs like this are common on ships.",
@@ -58,5 +58,7 @@
   "animationPosition" : [-16, -20],
 
   "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ]
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

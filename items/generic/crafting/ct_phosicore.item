@@ -1,13 +1,15 @@
 {
   "itemName" : "ct_phosicore",
   "shortdescription" : "Phosicore",
-  "description" : "A small energy concentrator made from irradiated phospholion. Its phosic waves can produce energy blasts.",
+  "description" : "A small energy concentrator made from irradiated ^#ceffd7;phospholion^reset;. Its phosic waves can produce energy blasts.",
+  "race" : "alta",
 
-  "price" : 160,
-  "rarity" : "Rare",
+  "level" : 5, "price" : 40, "rarity" : "Rare",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
+  "itemTags" : [ "reagent", "energy_source", "phospholion", "alta", "core" ], "tooltipKind" : "ct_alta_item_long",
 
-  "inventoryIcon" : "ct_phosicore.png"
+  "inventoryIcon" : "ct_phosicore.png",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

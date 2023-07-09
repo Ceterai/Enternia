@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 170,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Terminal",
-  "description" : "A green gheatsyn console.",
+  "description" : "A green ^#a7e001;gheatsyn^reset; console.",
   "altaDescription" : "Ah, a terminal. Hopefully it has connection to some databases. ...Or not. Oh well.",
 
   "apexDescription" : "A great easy-to-use terminal.",
@@ -66,5 +66,7 @@
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

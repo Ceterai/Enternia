@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 120,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Sample",
-  "description" : "A gheatsyn crystal.",
+  "description" : "A ^#a7e001;gheatsyn^reset; crystal.",
   "altaDescription" : "A fine sample, useful for experiments and as an artsy display. The sample is charged so it doesn't turn into a liquid.",
 
   "apexDescription" : "A really massive gheatsyn crystal sample.",
@@ -29,5 +29,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

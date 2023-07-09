@@ -1,199 +1,489 @@
 [
-  {
-    "op": "add",
-    "path": "/ct_altaTier1SupplyTreasure",
-    "value": [
-      [1, {
-        "fill" : [
-          {"item" : "ct_alterash_bench"},
-          {"item" : "ct_alterash_lamppost"},
-          {"item" : "ct_alterash_pyramid"},
+  { "op": "add", "path": "/ct_yaara_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.25, "item" : "crystal"},
+          {"weight" : 0.25, "item" : "crystal"},
+          {"weight" : 0.25, "item" : "crystal"},
+          {"weight" : 0.05, "item" : "ct_yaara_root"},
+          {"weight" : 0.05, "item" : "ct_yaara_eye"},
 
-          {"item" : "ct_ceteraugment"},
-          {"item" : "ct_ceternia_epp_augment"},
-          {"item" : "ct_mindframe_collar"},
+          {"weight" : 0.04, "item" : "ct_yaara_bulb"},
+          {"weight" : 0.025, "item" : "ct_yaara_lamp"},
+          {"weight" : 0.025, "item" : "ct_yaara_lamp_crystal"},
+          {"weight" : 0.015, "item" : "ct_yaara_thorns1"},
+          {"weight" : 0.015, "item" : "ct_yaara_thorns2"},
+          {"weight" : 0.015, "item" : "ct_yaara_thorns3"},
+          {"weight" : 0.015, "item" : "ct_yaara_thorns4"},
 
-          {"item" : "ct_alta_scout_lightwear"},
-          {"item" : "ct_alta_scout_mask"},
-          {"item" : "ct_alta_scout_velocity_eaters"},
+          {"weight" : 0.025, "item" : "ct_yaara_bed"},
+          {"weight" : 0.025, "item" : "ct_yaara_cabinet"},
+          {"weight" : 0.025, "item" : "ct_yaara_couch"},
+          {"weight" : 0.025, "item" : "ct_yaara_door"},
+          {"weight" : 0.025, "item" : "ct_yaara_orb"},
+          {"weight" : 0.025, "item" : "ct_yaara_table"},
+          {"weight" : 0.025, "item" : "ct_yaara_watcher"},
 
-          {"item" : "ct_alta_combat_chest"},
-          {"item" : "ct_alta_combat_helmet"},
-          {"item" : "ct_alta_combat_legwear"},
+          {"weight" : 0.02, "item" : "ct_yaaracollar"},
+          {"weight" : 0.015, "item" : "crystalbackpackback"},
+          {"weight" : 0.02, "item" : "ct_yaara_wand"},
+          {"weight" : 0.15, "item" : "cttsay"},
+          {"weight" : 0.05, "item" : "ct_tsay_seed"},
+          {"weight" : 0.025, "item" : "ct_yaara_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_warped_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.35, "item" : "ct_warped_hive"},
+          {"weight" : 0.25, "item" : ["glowfibre", 3]},
+          {"weight" : 0.25, "item" : ["glowfibre", 4]},
+          {"weight" : 0.25, "item" : ["ct_warped_glowbomb", 3]},
+          {"weight" : 0.25, "item" : ["ct_warped_glowbomb", 4]},
+          {"weight" : 0.05, "item" : ["ct_warped_hive", 2]},
 
-          {"item" : "ct_alta_backpack"},
-          {"item" : "ct_alta_halogen_pack"},
-          {"item" : "ct_alta_hologlasses"},
-          {"item" : "ct_alta_protective_collar"},
-          {"item" : "ct_alta_researcher_coat"},
-          {"item" : "ct_alta_researcher_skirt"},
-          {"item" : "ct_alta_respiratory_mask"},
-          {"item" : "ct_alta_respiratory_mask_colorful"},
-          {"item" : "ct_alta_science_ocular"},
-          {"item" : "ct_alta_science_pack"},
-          {"item" : "ct_alta_state_beret"},
-          {"item" : "ct_alta_visor"}
-        ]
-      } ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/ct_altaTier2SupplyTreasure",
-    "value": [
-      [1, {
-        "fill" : [
-          {"item" : "ct_eds_lamppost"},
-          {"item" : "ct_eds_lifechamber"},
-          {"item" : "ct_eds_table"},
-          {"item" : "ct_capsule"},
-          {"item" : "ct_capsule_blue"},
-          {"item" : "ct_capsule_purple"},
-          {"item" : "ct_capsule_red"},
+          {"weight" : 0.025, "item" : "ct_warped_bed"},
+          {"weight" : 0.025, "item" : "ct_warped_chair"},
+          {"weight" : 0.025, "item" : "ct_warped_chest"},
+          {"weight" : 0.025, "item" : "ct_warped_door"},
+          {"weight" : 0.025, "item" : "ct_warped_drainer"},
+          {"weight" : 0.025, "item" : "ct_warped_lamp"},
+          {"weight" : 0.025, "item" : "ct_warped_light"},
+          {"weight" : 0.025, "item" : "ct_warped_table"},
 
-          {"item" : "ctsword"},
-          {"item" : "ctgun1"},
-          {"item" : "ct_edsaugment"},
+          {"weight" : 0.025, "item" : "ct_warpedaugment"},
+          {"weight" : 0.025, "item" : "ct_warpedcollar"},
+          {"weight" : 0.02, "item" : "ct_warped_gun"},
+          {"weight" : 0.02, "item" : "ct_niverisk"},
 
-          {"item" : "ct_alta_eds_chest"},
-          {"item" : "ct_alta_eds_helmet"},
-          {"item" : "ct_alta_eds_legwear"},
-          {"item" : "ct_alta_eds_beret"},
-          {"item" : "ct_alta_eds_visor"},
-          {"item" : "ct_alta_eds_droid_back"},
-          {"item" : "ct_alta_eds_droid_head"},
+          {"weight" : 0.05, "item" : "ct_warped_smoker"},
+          {"weight" : 0.05, "item" : "ct_nivera_geyser"},
+          {"weight" : 0.05, "item" : "ct_nivera_thorns1"},
+          {"weight" : 0.05, "item" : "ct_nivera_thorns2"},
+          {"weight" : 0.05, "item" : "ct_nivera_thorns3"},
+          {"weight" : 0.05, "item" : "ct_nivera_thorns4"},
+          {"weight" : 0.025, "item" : "ct_warped_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_isoslime_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 0.50, "item" : ["ct_isoslime_ball", 3]},
+          {"weight" : 0.35, "item" : ["ct_isoslime_ball", 2]},
+          {"weight" : 0.15, "item" : "ct_isoslime_ball"},
+          {"weight" : 0.15, "item" : "biosample"},
+          {"weight" : 0.05, "item" : "cryonicextract"},
+          {"weight" : 0.025, "item" : "ct_isoslime1"},
+          {"weight" : 0.025, "item" : "ct_isoslime_blob"},
+          {"weight" : 0.02, "item" : "ct_isoblaster"},
+          {"weight" : 0.025, "item" : "ct_isoslime_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_phospholion_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 0.85, "item" : "ct_phospholion"},
+          {"weight" : 0.15, "item" : "toxicwaste"},
+          {"weight" : 0.01, "item" : "platinumdrill"},
+          {"weight" : 0.05, "item" : "ct_phospholion_deposit1"},
+          {"weight" : 0.01, "item" : "ct_phospholion_formation"},
+          {"weight" : 0.025, "item" : "ct_phospholion_loot"},
+          {"weight" : 0.05, "item" : ["ct_phosphonade", 2]},
 
-          {"item" : "ct_alta_enviro_chest"},
-          {"item" : "ct_alta_enviro_helmet"},
-          {"item" : "ct_alta_enviro_legwear"},
-          {"item" : "ct_alta_enviro_protector"},
+          {"weight" : 0.01, "item" : "industrialbed"},
+          {"weight" : 0.02, "item" : "industrialcanister"},
+          {"weight" : 0.02, "item" : "industrialchair"},
+          {"weight" : 0.01, "item" : "industrialcomputer"},
+          {"weight" : 0.01, "item" : "industrialcrate"},
+          {"weight" : 0.01, "item" : "industrialdoor"},
+          {"weight" : 0.02, "item" : "industriallight"},
+          {"weight" : 0.02, "item" : "industrialdisplay"},
+          {"weight" : 0.005, "item" : "industrialstoragelocker"},
+          {"weight" : 0.015, "item" : "industrialtable"},
 
-          {"item" : "ct_alta_industrial_collar"},
-          {"item" : "ct_alta_industrial_helmet"}
-        ]
-      } ]
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/ct_altaTier3SupplyTreasure",
-    "value": [
-      [1, {
-        "fill" : [
-          {"item" : "ctgun2"},
-          {"item" : "ct_enteraugment"},
+          {"weight" : 0.02, "item" : "ct_phospholiator"},
+          {"weight" : 0.08, "item" : "ct_docs_mining_desc-codex"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_crystalline_prime_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "pool" : "crystalChestTreasure"},
+          {"weight" : 0.85, "item" : "geode"},
+          {"weight" : 0.35, "item" : "crystal"},
+          {"weight" : 0.15, "item" : "crystalplant"},
+          {"weight" : 0.05, "item" : "crystalplantseed"},
+          {"weight" : 0.025, "item" : "ct_crystalline_prime_loot"},
+          {"weight" : 0.02, "item" : "ct_crystalline_sword"},
+          {"weight" : 0.02, "item" : "ct_crystalline_shield"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_calin_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.45, "item" : ["crystal", 2]},
+          {"weight" : 0.25, "item" : ["crystal", 3]},
+          {"weight" : 0.15, "item" : "crystal"},
 
-          {"item" : "ct_alta_alternia_chest"},
-          {"item" : "ct_alta_alternia_helmet"},
-          {"item" : "ct_alta_alternia_legwear"},
-          {"item" : "ct_alta_alternia_droid_head"},
-          {"item" : "ct_alta_alternia_mindframe"},
+          {"weight" : 0.025, "item" : "ct_calin_bed"},
+          {"weight" : 0.025, "item" : "ct_calin_chair"},
+          {"weight" : 0.025, "item" : "ct_calin_chest"},
+          {"weight" : 0.025, "item" : "ct_calin_console"},
+          {"weight" : 0.025, "item" : "ct_calin_clubdecks"},
+          {"weight" : 0.025, "item" : "ct_calin_gateway"},
+          {"weight" : 0.025, "item" : "ct_calin_hatch"},
+          {"weight" : 0.025, "item" : "ct_calin_lamp"},
+          {"weight" : 0.05, "item" : "ct_calin_sample"},
+          {"weight" : 0.025, "item" : "ct_calin_shelf"},
+          {"weight" : 0.025, "item" : "ct_calin_table"},
+          {"weight" : 0.025, "item" : "ct_calin_terminal"},
 
-          {"item" : "ct_alta_enternia_epp"}
-        ]
-      } ]
-    ]
-  },
-  { "op": "add", "path": "/ct_alta_scout_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_scout_mask"},
-          {"item" : "ct_alta_scout_lightwear"},
-          {"item" : "ct_alta_scout_velocity_eaters"},
-          {"item" : "ct_docs_units_scout-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_metrocop_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_visor"},
-          {"item" : "ct_alta_scout_lightwear"},
-          {"item" : "ct_alta_scout_velocity_eaters"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_security_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_security_helmet"},
-          {"item" : "ct_alta_security_chest"},
-          {"item" : "ct_alta_security_legwear"},
-          {"item" : "ct_alta_security_pack"},
-          {"item" : "ct_docs_units_security-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_security_mk2_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_security_helmet_mk2"},
-          {"item" : "ct_alta_security_chest"},
-          {"item" : "ct_alta_security_legwear"},
-          {"item" : "ct_alta_security_pack"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_security_captain_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_security_captain_helmet"},
-          {"item" : "ct_alta_security_chest"},
-          {"item" : "ct_alta_security_legwear"},
-          {"item" : "ct_alta_security_pack"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_security_droid_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_security_droid_head"},
-          {"item" : "ct_alta_security_chest"},
-          {"item" : "ct_alta_security_legwear"},
-          {"item" : "ct_alta_security_droid_back"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_enviro_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_enviro_helmet"},
-          {"item" : "ct_alta_enviro_chest"},
-          {"item" : "ct_alta_enviro_legwear"},
-          {"item" : "ct_docs_units_enviro-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_enviro_mk2_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_enviro_helmet_mk2"},
-          {"item" : "ct_alta_enviro_chest"},
-          {"item" : "ct_alta_enviro_legwear"},
-          {"item" : "ct_alta_enviro_protector"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_combat_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_combat_helmet"},
-          {"item" : "ct_alta_combat_chest"},
-          {"item" : "ct_alta_combat_legwear"},
-          {"item" : "ct_docs_units_combat-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_eds_officer_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_beret"},
-          {"item" : "ct_alta_eds_chest"},
-          {"item" : "ct_alta_eds_legwear"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_eds_op_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_beret"},
-          {"item" : "ct_alta_eds_chest"},
-          {"item" : "ct_alta_eds_legwear"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_eds_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_helmet"},
-          {"item" : "ct_alta_eds_chest"},
-          {"item" : "ct_alta_eds_legwear"},
-          {"item" : "ct_docs_units_eds-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_eds_droid_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_droid_head"},
-          {"item" : "ct_alta_eds_chest"},
-          {"item" : "ct_alta_eds_legwear"},
-          {"item" : "ct_alta_eds_droid_back"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_ceternia_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_ceternia_helmet"},
-          {"item" : "ct_alta_ceternia_chest"},
-          {"item" : "ct_alta_ceternia_legwear"},
-          {"item" : "ct_alta_ceternia_protector"},
-          {"item" : "ct_docs_units_ceternia-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_alternia_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_alternia_helmet"},
-          {"item" : "ct_alta_alternia_chest"},
-          {"item" : "ct_alta_alternia_legwear"},
-          {"item" : "ct_docs_units_alternia-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_alta_enternia_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_enternia_helmet"},
-          {"item" : "ct_alta_enternia_chest"},
-          {"item" : "ct_alta_enternia_legwear"},
-          {"item" : "ct_alta_enternia_epp"},
-          {"item" : "ct_docs_units_enternia-codex"}
-  ] } ] ] },
-  { "op": "add", "path": "/ct_ghearun_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_ghearun_helmet"},
-          {"item" : "ct_ghearun_chest"},
-          {"item" : "ct_ghearun_legwear"},
-          {"item" : "ct_ghearun_back"}
-  ] } ] ] }
+          {"weight" : 0.15, "item" : "crystalplant"},
+          {"weight" : 0.05, "item" : "crystalplantseed"},
+          {"weight" : 0.025, "item" : "ct_calin_loot"},
+          {"weight" : 0.02, "item" : "ct_calin_sword"},
+          {"weight" : 0.02, "item" : "ct_calin_shield"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_gheatsyn_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.65, "item" : ["ct_gheatsyn_shard", 2]},
+          {"weight" : 0.35, "item" : "ct_gheatsyn_crystal"},
+          {"weight" : 0.25, "item" : ["ct_gheatsyn_shard", 3]},
+          {"weight" : 0.10, "item" : "ct_gheatsyn_shard"},
+          {"weight" : 0.05, "item" : ["ct_gheatsyn_crystal", 2]},
+
+          {"weight" : 0.025, "item" : "ct_gheatsyn_bed"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_chair"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_chest"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_console"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_door"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_gateway"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_hatch"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_lamp"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_light"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_minifridge"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_platform"},
+          {"weight" : 0.05, "item" : "ct_gheatsyn_sample"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_shelf"},
+          {"weight" : 0.025, "item" : ["ct_gheatsyn_shelf", 4]},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_table"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_tank"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_terminal"},
+
+          {"weight" : 0.05, "item" : "crystalplant"},
+          {"weight" : 0.025, "item" : "crystalplantseed"},
+          {"weight" : 0.025, "item" : "ct_crystal_jam"},
+
+          {"weight" : 0.02, "item" : "ct_accumulator_collar"},
+          {"weight" : 0.02, "item" : "ct_tsyntex"},
+          {"weight" : 0.02, "item" : "ct_gheablade"},
+          {"weight" : 0.01, "item" : "ct_ghearun_back"},
+          {"weight" : 0.01, "item" : "ct_ghearun_chest"},
+          {"weight" : 0.01, "item" : "ct_ghearun_helmet"},
+          {"weight" : 0.01, "item" : "ct_ghearun_legwear"},
+          {"weight" : 0.0025, "item" : "ct_ghearun_set"},
+          {"weight" : 0.05, "item" : "ct_gheatsyn_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_bionid_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "pool" : "crystalChestTreasure"},
+          {"weight" : 0.55, "item" : "ct_tonna"},
+          {"weight" : 0.55, "item" : "ct_bionid"},
+          {"weight" : 0.35, "item" : ["ct_tonna", 2]},
+          {"weight" : 0.35, "item" : ["ct_bionid", 2]},
+
+          {"weight" : 0.02, "item" : "tier4switch"},
+          {"weight" : 0.025, "item" : "tier4chair"},
+          {"weight" : 0.025, "item" : "tier4bed"},
+          {"weight" : 0.02, "item" : "tier4door"},
+          {"weight" : 0.025, "item" : "tier4light"},
+          {"weight" : 0.025, "item" : "tier4table"},
+
+          {"weight" : 0.02, "item" : "ct_soniathrower"},
+          {"weight" : 0.025, "item" : "ct_bionid_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_bishyn_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.85, "item" : "liquidpoison"},
+          {"weight" : 0.35, "item" : "crystal"},
+
+          {"weight" : 0.025, "item" : "ct_bishyn_bed"},
+          {"weight" : 0.025, "item" : "ct_bishyn_chair"},
+          {"weight" : 0.025, "item" : "ct_bishyn_chest"},
+          {"weight" : 0.025, "item" : "ct_bishyn_door"},
+          {"weight" : 0.025, "item" : "ct_bishyn_hatch"},
+          {"weight" : 0.025, "item" : "ct_bishyn_lamp"},
+          {"weight" : 0.025, "item" : "ct_bishyn_light"},
+          {"weight" : 0.025, "item" : "ct_bishyn_locker"},
+          {"weight" : 0.025, "item" : "ct_bishyn_monitor"},
+          {"weight" : 0.05, "item" : "ct_bishyn_sample"},
+          {"weight" : 0.025, "item" : "ct_bishyn_table"},
+          {"weight" : 0.025, "item" : "ct_bishyn_terminal"},
+
+          {"weight" : 0.01, "item" : "thinkingcaphead"},
+          {"weight" : 0.15, "item" : "ct_poison_crystal4"},
+          {"weight" : 0.15, "item" : "crystalplant"},
+          {"weight" : 0.05, "item" : "crystalplantseed"},
+          {"weight" : 0.25, "item" : ["ct_alta_bishyn_nade", 4]},
+          {"weight" : 0.025, "item" : "ct_bishyn_loot"},
+          {"weight" : 0.02, "item" : "ct_bishyn_spear"},
+          {"weight" : 0.02, "item" : "ct_bishyn_gun"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_hevika_loot", "value": [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          {"weight" : 0.45, "item" : ["crystal", 2]},
+          {"weight" : 0.25, "item" : ["crystal", 3]},
+          {"weight" : 0.15, "item" : "crystal"},
+          {"weight" : 0.15, "item" : "ct_alternia_shard"},
+
+          {"weight" : 0.025, "item" : "ct_hevika_bed"},
+          {"weight" : 0.025, "item" : "ct_hevika_chair"},
+          {"weight" : 0.025, "item" : "ct_hevika_chest"},
+          {"weight" : 0.025, "item" : "ct_hevika_console"},
+          {"weight" : 0.025, "item" : "ct_hevika_hatch"},
+          {"weight" : 0.025, "item" : "ct_hevika_lamp"},
+          {"weight" : 0.025, "item" : "ct_hevika_light"},
+          {"weight" : 0.025, "item" : "ct_hevika_monitor"},
+          {"weight" : 0.05, "item" : "ct_hevika_sample"},
+          {"weight" : 0.025, "item" : "ct_hevika_table"},
+          {"weight" : 0.025, "item" : "ct_hevika_terminal"},
+          {"weight" : 0.025, "item" : "ct_hevika_turret"},
+
+          {"weight" : 0.35, "item" : ["ct_hevika_flare", 4]},
+          {"weight" : 0.25, "item" : ["ct_hevika_javelin", 4]},
+          {"weight" : 0.025, "item" : "ct_hevika_loot"},
+          {"weight" : 0.02, "item" : "ct_kinetic_shield"},
+          {"weight" : 0.001, "item" : "ct_hevika_turret_gun"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_shroomic_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "pool" : "luminousCaveChestTreasure"},
+          {"weight" : 0.35, "item" : "liquidpoison"},
+          {"weight" : 0.35, "item" : "biosample"},
+          {"weight" : 0.35, "item" : "toxicwaste"},
+
+          {"weight" : 0.02, "item" : "serenebed"},
+          {"weight" : 0.025, "item" : "serenechair"},
+          {"weight" : 0.02, "item" : "sereneswitch"},
+          {"weight" : 0.02, "item" : "serenedoor"},
+          {"weight" : 0.025, "item" : "serenelight"},
+          {"weight" : 0.02, "item" : "serenetable"},
+
+          {"weight" : 0.01, "item" : "faceleechhead"},
+          {"weight" : 0.01, "item" : "symbiotehead"},
+          {"weight" : 0.01, "item" : "hazmathead"},
+          {"weight" : 0.01, "item" : "hazmatchest"},
+          {"weight" : 0.01, "item" : "hazmatlegs"},
+          {"weight" : 0.01, "item" : "hazmatback"},
+          {"weight" : 0.02, "item" : "ct_ararang"},
+
+          {"weight" : 0.025, "item" : "ct_shroomic_loot"}
+  ] }] ] },
+
+  { "op": "add", "path": "/ct_ayaka_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 0.50, "item" : "ctaya"},
+          {"weight" : 0.50, "item" : "ctwoodsap"},
+          {"weight" : 0.50, "item" : ["ctwoodsap", 2]},
+
+          {"weight" : 0.02, "item" : "wavebed"},
+          {"weight" : 0.025, "item" : "wavechair"},
+          {"weight" : 0.02, "item" : "waveswitch"},
+          {"weight" : 0.02, "item" : "wavedoor"},
+          {"weight" : 0.025, "item" : "wavelight"},
+          {"weight" : 0.02, "item" : "wavetable"},
+          {"weight" : 0.01, "item" : "badgooplush"},
+          {"weight" : 0.02, "item" : "ct_aya_virma"},
+
+          {"weight" : 0.025, "item" : "ct_ayaka_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_eds_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "ct_edsarmor"},
+          {"weight" : 0.20, "item" : "ct_alta_eds_drone"},
+          {"weight" : 0.20, "item" : "ct_alta_eds_droid"},
+
+          {"weight" : 0.02, "item" : "ct_eds_container"},
+          {"weight" : 0.02, "item" : "ct_eds_containers"},
+          {"weight" : 0.02, "item" : "ct_eds_gateway"},
+          {"weight" : 0.02, "item" : "ct_eds_hatch"},
+          {"weight" : 0.02, "item" : "ct_eds_lamppost"},
+          {"weight" : 0.02, "item" : "ct_eds_haulter_marker"},
+          {"weight" : 0.02, "item" : "ct_eds_table"},
+          {"weight" : 0.02, "item" : "ct_eds_terminal"},
+
+          {"weight" : 0.01, "item" : "ct_alta_eds_beret"},
+          {"weight" : 0.01, "item" : "ct_alta_eds_visor"},
+
+          {"weight" : 0.01, "item" : "ct_eds_mng"},
+          {"weight" : 0.01, "item" : "ct_eds_shield"},
+          {"weight" : 0.01, "item" : "ct_eds_claymore"},
+          {"weight" : 0.002, "item" : "ct_eds_one"},
+
+          {"weight" : 0.01, "item" : "ct_edsaugment"},
+          {"weight" : 0.025, "item" : "ct_eds_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_elin_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 0.50, "item" : "titaniumbar"},
+          {"weight" : 0.50, "item" : "crystal"},
+          {"weight" : 0.50, "item" : "ct_yaara_root"},
+
+          {"weight" : 0.02, "item" : "geometricbed"},
+          {"weight" : 0.025, "item" : "geometricchair"},
+          {"weight" : 0.02, "item" : "geometricswitch"},
+          {"weight" : 0.02, "item" : "geometricdoor"},
+          {"weight" : 0.025, "item" : "geometriclight"},
+          {"weight" : 0.02, "item" : "geometrictable"},
+
+          {"weight" : 0.01, "item" : "mindwurmplush"},
+          {"weight" : 0.01, "item" : "plainorbplush"},
+
+          {"weight" : 0.025, "item" : "ct_elin_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_enchanted_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "prisiliteore"},
+
+          {"weight" : 0.02, "item" : "alienglowplant1"},
+          {"weight" : 0.025, "item" : "alienbed"},
+          {"weight" : 0.025, "item" : "alienchair"},
+          {"weight" : 0.02, "item" : "alienchest"},
+          {"weight" : 0.025, "item" : "aliendoor"},
+          {"weight" : 0.025, "item" : "alientable"},
+
+          {"weight" : 0.01, "item" : "badgooplush"},
+          {"weight" : 0.02, "item" : "ct_enchanted_blaster"},
+          {"weight" : 0.02, "item" : "ct_enchanted_twins"},
+          {"weight" : 0.025, "item" : "ct_enchanted_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_faradea_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "ct_edsarmor"},
+          {"weight" : 0.05, "item" : ["ct_vortex_nade", 2]},
+
+          {"weight" : 0.02, "item" : "outpoststandingdesk"},
+          {"weight" : 0.02, "item" : "outposttable"},
+          {"weight" : 0.02, "item" : "bluelight"},
+          {"weight" : 0.02, "item" : "blueflask"},
+          {"weight" : 0.01, "item" : "arcademachine"},
+          {"weight" : 0.01, "item" : "arcadeblue"},
+
+          {"weight" : 0.01, "item" : "ct_faradeus"},
+          {"weight" : 0.001, "item" : "ct_faradea_scavenger"},
+          {"weight" : 0.025, "item" : "ct_faradea_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_gyera_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "titaniumbar"},
+
+          {"weight" : 0.01, "item" : "largecooler1"},
+          {"weight" : 0.01, "item" : "poptopplush"},
+          {"weight" : 0.01, "item" : "bearplush"},
+
+          {"weight" : 0.02, "item" : "tier3bed"},
+          {"weight" : 0.025, "item" : "tier3chair"},
+          {"weight" : 0.02, "item" : "tier3switch"},
+          {"weight" : 0.02, "item" : "tier3door"},
+          {"weight" : 0.025, "item" : "tier3light"},
+          {"weight" : 0.02, "item" : "tier3table"},
+
+          {"weight" : 0.025, "item" : "ct_gyera_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_koywa_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "ct_verriskoywa_grass4"},
+
+          {"weight" : 0.01, "item" : "largecooler1"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_alto"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_alto_twin"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_faro"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_faro_twin"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_miko"},
+          {"weight" : 0.01, "item" : "ct_verriskoywa_miko_twin"},
+          {"weight" : 0.01, "item" : "turtleplush"},
+          {"weight" : 0.01, "item" : "numiplush"},
+
+          {"weight" : 0.01, "item" : "sensorysquidhathead"},
+          {"weight" : 0.02, "item" : "ct_waterblaster"},
+          {"weight" : 0.02, "item" : "ct_barracuda_fin"},
+          {"weight" : 0.025, "item" : "ct_koywa_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_eva_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : ["cloudblock", 4]},
+          {"weight" : 1.00, "item" : ["prisiliteore", 2]},
+
+          {"weight" : 0.02, "item" : "rainbowbed"},
+          {"weight" : 0.025, "item" : "rainbowchair"},
+          {"weight" : 0.02, "item" : "rainbowchest"},
+          {"weight" : 0.02, "item" : "rainbowdoor"},
+          {"weight" : 0.01, "item" : "rainbowunicornstatue"},
+          {"weight" : 0.02, "item" : "rainbowtable"},
+          {"weight" : 0.025, "item" : "prismlamp1"},
+          {"weight" : 0.025, "item" : "prismlamp2"},
+          {"weight" : 0.025, "item" : "prismlamp3"},
+          {"weight" : 0.01, "item" : "telescope"},
+          {"weight" : 0.01, "item" : "pastelbunnyplush"},
+          {"weight" : 0.01, "item" : "unicornplush"},
+
+          {"weight" : 0.35, "item" : ["ct_glowstick_ceterteal", 2]},
+          {"weight" : 0.35, "item" : ["ct_glowstick_omniblue", 2]},
+          {"weight" : 0.02, "item" : "ct_arknight_shield"},
+          {"weight" : 0.02, "item" : "ct_sky_lance"},
+          {"weight" : 0.025, "item" : "ct_eva_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_astera_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "durasteelore"},
+          {"weight" : 1.00, "item" : "ct_astera_tear"},
+          {"weight" : 0.35, "item" : ["ct_glowstick_ceterteal", 2]},
+          {"weight" : 0.35, "item" : ["ct_glowstick_ionic", 2]},
+
+          {"weight" : 0.01, "item" : "astrocabinet"},
+          {"weight" : 0.01, "item" : "astroceilingmonitor"},
+          {"weight" : 0.015, "item" : "astrochair"},
+          {"weight" : 0.01, "item" : "astroconsole"},
+          {"weight" : 0.01, "item" : "astrocrate"},
+          {"weight" : 0.01, "item" : "astrodoor"},
+          {"weight" : 0.015, "item" : "astrolight"},
+          {"weight" : 0.015, "item" : "astromonitor"},
+          {"weight" : 0.01, "item" : "astroserver"},
+          {"weight" : 0.005, "item" : "astrostoragelocker"},
+          {"weight" : 0.01, "item" : "astrotable"},
+          {"weight" : 0.01, "item" : "astrovent"},
+          {"weight" : 0.01, "item" : "astrowallpanel"},
+
+          {"weight" : 0.10, "item" : "ct_alta_gsr_pod"},
+          {"weight" : 0.01, "item" : "causticstaghead"},
+          {"weight" : 0.02, "item" : "ct_meteoblaster"},
+          {"weight" : 0.01, "item" : "ct_spacedrifter_shield"},
+          {"weight" : 0.025, "item" : "ct_astera_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_ion_core_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "obsidian"},
+          {"weight" : 0.35, "item" : ["ct_glowstick_omniblue", 2]},
+          {"weight" : 0.35, "item" : ["ct_glowstick_ionic", 2]},
+
+          {"weight" : 0.02, "item" : "opulentbed"},
+          {"weight" : 0.025, "item" : "opulentchair"},
+          {"weight" : 0.02, "item" : "opulentswitch"},
+          {"weight" : 0.02, "item" : "opulentdoor"},
+          {"weight" : 0.025, "item" : "opulentlight"},
+          {"weight" : 0.02, "item" : "opulenttable"},
+
+          {"weight" : 0.01, "item" : "geodebluesample"},
+
+          {"weight" : 0.10, "item" : "ct_alta_gsr_pod"},
+          {"weight" : 0.01, "item" : "scalpionhead"},
+          {"weight" : 0.01, "item" : "causticstaghead"},
+          {"weight" : 0.025, "item" : "ct_ioncore_shield"},
+          {"weight" : 0.02, "item" : "ct_plasma_chakram"},
+          {"weight" : 0.01, "item" : "ct_plasmora"},
+          {"weight" : 0.01, "item" : "ct_ion_launcher"},
+          {"weight" : 0.01, "item" : "ct_ion_collider"},
+          {"weight" : 0.025, "item" : "ct_ion_core_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_sona_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : "ice"},
+
+          {"weight" : 0.015, "item" : "icechest"},
+          {"weight" : 0.015, "item" : "icespherechest"},
+          {"weight" : 0.015, "item" : "icemachine"},
+          {"weight" : 0.02, "item" : "icebed"},
+          {"weight" : 0.025, "item" : "icechair"},
+          {"weight" : 0.02, "item" : "icedoor"},
+          {"weight" : 0.02, "item" : "icetable"},
+
+          {"weight" : 0.01, "item" : "alienskullhead"},
+          {"weight" : 0.02, "item" : "ct_alta_sona_rifle"},
+          {"weight" : 0.01, "item" : "ct_brontor"},
+          {"weight" : 0.025, "item" : "ct_sona_loot"}
+  ] }] ] },
+  { "op": "add", "path": "/ct_haven_loot", "value": [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          {"weight" : 1.00, "item" : ["cloudblock", 4]},
+
+          {"weight" : 0.01, "item" : "largecooler1"},
+          {"weight" : 0.02, "item" : "executivebed"},
+          {"weight" : 0.025, "item" : "executivechair"},
+          {"weight" : 0.02, "item" : "executiveswitch"},
+          {"weight" : 0.02, "item" : "executivedoor"},
+          {"weight" : 0.025, "item" : "executivelight"},
+          {"weight" : 0.02, "item" : "executivetable"},
+
+          {"weight" : 0.01, "item" : "pinkeyeparasitehead"},
+          {"weight" : 0.01, "item" : "corobocklehead"},
+          {"weight" : 0.02, "item" : "ct_haven_storm"},
+          {"weight" : 0.02, "item" : "ct_flowersword"},
+          {"weight" : 0.025, "item" : "ct_haven_loot"}
+  ] }] ] }
 ]

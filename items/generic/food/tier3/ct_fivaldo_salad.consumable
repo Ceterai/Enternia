@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_fivaldo_salad",
-  "rarity" : "Rare",
-  "price" : 880,
+  "level" : 5, "rarity" : "Rare", "price" : 880,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_fivaldo_salad.png",
-  "description" : "An alta cuisine. Various tasty stuff all conveniently mixed together.",
+  "description" : "An ^#b0e0fc;alta^reset; cuisine. Various tasty stuff all conveniently mixed together.",
   "shortdescription" : "Fival'do Salad",
   "effects" : [ [
     {
@@ -21,10 +21,10 @@
     }
   ] ],
   "foodValue" : 45,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -34,8 +34,8 @@
   "variants" : [
     {
       "shortdescription" : "Fival'do Banquet",
-      "description" : "An alta cuisine. Now we're talking! This salad goes far and beyond, what a masterpiece!",
-      "rarity" : "Legendary", "price" : 1100, "foodValue" : 55
+      "description" : "An ^#b0e0fc;alta^reset; cuisine. Now we're talking! This salad goes far and beyond, what a masterpiece!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1100, "foodValue" : 55
     }
   ]
 }

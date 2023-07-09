@@ -1,14 +1,12 @@
 {
   "itemName" : "ct_alta_loot_tier2",
   "shortdescription" : "Alta Tier 2 Loot Crate",
-  "description" : "Contains random loot from alta tier 2 pods.",
+  "description" : "Contains random loot from ^#b0e0fc;alta^reset; tier 2 pods.",
 
-  "price" : 280,
-  "level" : 4,
-  "maxStack" : 1000,
-  "rarity" : "Uncommon",
-  "category" : "mysteriousReward",
-  "twoHanded" : true,
+  "price" : 120, "level" : 4, "rarity" : "Uncommon",
+  "race" : "alta",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "loot" ],
 
   "inventoryIcon" : "ct_alta_loot_tier2.png",
   "animationParts" : { "gun" : "ct_alta_loot_tier2.png" },
@@ -21,5 +19,7 @@
   "treasure" : {
     "pool" : "ct_alta_pod_loot_tier2",
     "level" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

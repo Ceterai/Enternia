@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 40,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Light",
-  "description" : "A glowing gheatsyn light.",
+  "description" : "A glowing ^#a7e001;gheatsyn^reset; light.",
   "altaDescription" : "A basic ceiling light. The only difference is that it's fully incased because of liquid gheatsyn crystals.",
 
   "apexDescription" : "A very practical light source.",
@@ -50,5 +50,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

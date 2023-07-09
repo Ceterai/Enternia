@@ -1,7 +1,8 @@
 {
   "type" : "ctdrone3",
-  "shortdescription" : "Defensive Drone R300",
-  "description" : "Tier 4.5 Drone\nHightech reinforced protective drone. Has powerful ranged attacks and protective shields.",
+  "shortdescription" : "^red;Outdated^reset; Defensive Drone R100",
+  "description" : "Tier 4.5 Drone.  \nHightech reinforced protective drone. Has powerful ranged attacks and protective shields.",
+  "race" : "alta",
 
   "categories" : [ "ctdrone3" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_eds_class1", "bow" : "ct_alta_eds_class2" } ],
@@ -39,7 +40,7 @@
     },
     "touchDamage" : {
       "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ], "teamType" : "enemy",
-      "damage" : 12, "knockback" : 20, "damageSourceKind" : "ct_ionic", "statusEffects" : [ "ct_ionic_stun" ]
+      "damage" : 12, "knockback" : 20, "damageSourceKind" : "ct_impulse", "statusEffects" : [ "ct_pulse_paralysis" ]
     },
 
     "statusEffects" : [ "ct_sensitive_electronics", "ct_autoshielder_eds" ],

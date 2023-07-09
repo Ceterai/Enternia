@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 560,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Security Stand",
-  "description" : "This strange device dispences security drones.\n^red;Destroyed when broken.",
+  "description" : "This strange device dispences a ^#b0e0fc;Security Drone^reset; each 8-16 seconds.",
   "altaDescription" : "A mobile security station that dispenses security drones.",
 
   "apexDescription" : "What's that moving inside...?",
@@ -52,5 +52,7 @@
     "frequency" : [8, 16],
     "stock" : -1,
     "outOfSight" : false
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_special_mimosa",
-  "rarity" : "Legendary",
-  "price" : 1200,
+  "level" : 6, "rarity" : "Legendary", "price" : 1200,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_special_mimosa.png",
-  "description" : "Runeva alta cuisine. A special version of mimosa salad made of the finest alta fruits and spices.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A special version of mimosa salad made of the finest ^#b0e0fc;alta^reset; fruits and spices.",
   "shortdescription" : "Special Mimosa",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 75,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Lenn's Mimosa ^#8020f0;^reset;",
-      "description" : "Runeva alta cuisine. A very special mimosa that tastes exactly like that one time! That one time...",
-      "rarity" : "Legendary", "price" : 1600, "foodValue" : 95
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A very special mimosa that tastes exactly like that one time! That one time...",
+      "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 95
     }
   ]
 }

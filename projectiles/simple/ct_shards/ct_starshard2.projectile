@@ -1,0 +1,16 @@
+{
+  "projectileName" : "ct_starshard2",
+  "image" : "ct_starshard2.png",
+  "damageKindImage" : "icon.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "actionOnReap" : [ { "action" : "config", "file" : "/projectiles/simple/ct_shards/ct_crystal.config" } ],
+  "power" : 4.0,
+  "damageKind" : "default",
+  "damageType" : "ignoresdef",
+  // "damagePoly" : [ [-15, -15], [15, -15], [15, 15], [-15, 15] ],
+
+  "flippable" : true,
+  "statusEffects" : [ "electrified" ]
+}

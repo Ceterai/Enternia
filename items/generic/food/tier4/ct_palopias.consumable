@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_palopias",
-  "rarity" : "Legendary",
-  "price" : 1040,
+  "level" : 6, "rarity" : "Legendary", "price" : 1040,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_palopias.png",
-  "description" : "Yava alta cuisine. A flowery dish full of color and flavor. Often has a fortune hidden in one of the flowers!",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A flowery dish full of color and flavor. Often has a fortune hidden in one of the flowers!",
   "shortdescription" : "Palopias",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Blooming Palopias ^#8020f0;^reset;",
-      "description" : "Yava alta cuisine. A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
-      "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
     }
   ]
 }

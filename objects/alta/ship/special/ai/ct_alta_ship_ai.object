@@ -5,7 +5,7 @@
   "rarity" : "Legendary",
   "price" : 3000,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenAiInterface",
 
@@ -45,27 +45,29 @@
     "/objects/spawner/techstation.lua"
   ],
   "scriptDelta" : 20,
-  "shipPetType" : "petsnake",
+  "shipPetType" : "ct_alta_pet_drone",
   "spawnOffset" : [2, -1],
 
-  "chatPortrait" : "/ai/portraits/floranportrait.png:yell.1",
+  "chatPortrait" : "/ai/portraits/alta_portrait.png:yell.1",
   "dialog" : {
     "wakeUp" : [
-      [ "Rebooting...", "/ai/portraits/floranportrait.png:unique.1" ],
-      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.", "/ai/portraits/floranportrait.png:talk.0" ],
-      [ "I am also programmed to offer you information and advice.", "/ai/portraits/floranportrait.png:talk.1" ],
-      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/floranportrait.png:talk.0" ],
-      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/floranportrait.png:talk.1" ]
+      [ "Rebooting...", "/ai/portraits/alta_portrait.png:unique.1" ],
+      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.", "/ai/portraits/alta_portrait.png:talk.0" ],
+      [ "I am also programmed to offer you information and advice.", "/ai/portraits/alta_portrait.png:talk.1" ],
+      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/alta_portrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/alta_portrait.png:talk.1" ]
     ],
     "wakePlayer" : [
-      [ "System is down, please reboot.", "/ai/portraits/floranportrait.png:unique.1"],
-      [ "Please reboot the system.", "/ai/portraits/floranportrait.png:unique.1"],
-      [ "Reboot process remains uninitiated.", "/ai/portraits/floranportrait.png:unique.1"],
-      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/floranportrait.png:unique.1" ],
-      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/floranportrait.png:unique.1"],
-      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/floranportrait.png:unique.1" ]
+      [ "System is down, please reboot.", "/ai/portraits/alta_portrait.png:unique.1"],
+      [ "Please reboot the system.", "/ai/portraits/alta_portrait.png:unique.1"],
+      [ "Reboot process remains uninitiated.", "/ai/portraits/alta_portrait.png:unique.1"],
+      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/alta_portrait.png:unique.1" ],
+      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/alta_portrait.png:unique.1"],
+      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/alta_portrait.png:unique.1" ]
     ]
   },
 
-  "uniqueId" : "techstation"
+  "uniqueId" : "techstation",
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 85,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Warped Lamp",
   "description" : "Some red vines with glowing bits entangled into a lamp-like form. Are they alive?",
@@ -52,5 +52,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

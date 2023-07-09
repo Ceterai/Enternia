@@ -1,6 +1,7 @@
 {
   "name" : "ct_eds_protection",
   "label" : "^#b81824;EDS^reset; Protection Enhancement",
+  "description" : "Adds 20% electric resistance and 3 defense.",
   "effectConfig" : {
     "electricResistance" : 0.20,
     "protection" : 3

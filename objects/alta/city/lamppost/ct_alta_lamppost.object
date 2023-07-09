@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lamppost",
   "description" : "A standard alterash civilian lamppost.",
@@ -58,5 +58,7 @@
 
   "inputNodes" : [ [0, 3] ],
 
-  "interactive" : false
+  "interactive" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

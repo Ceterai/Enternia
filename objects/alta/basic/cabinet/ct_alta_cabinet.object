@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_cabinet",
   "colonyTags" : [ "alta", "storage" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 60,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Cabinet",
   "description" : "A simple titanium locker. Has mechanical connectors to stack these on top of each other.",
@@ -34,5 +34,7 @@
   "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
   "slotCount" : 9,
   "uiConfig" : "/interface/chests/chest<slots>.config",
-  "frameCooldown" : 5, "autoCloseCooldown" : 3600
+  "frameCooldown" : 5, "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

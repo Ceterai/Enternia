@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 100,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Enhanced Moonrock",
   "description" : "This moonrock formation seems suspicious.",
@@ -36,5 +36,7 @@
     [ [ "ct_enterite", 1, { } ], [ "moonrock", 2, { } ] ]
   ],
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

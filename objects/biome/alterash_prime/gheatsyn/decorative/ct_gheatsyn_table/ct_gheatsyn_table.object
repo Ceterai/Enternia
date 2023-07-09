@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Table",
-  "description" : "A gheatsyn crystal table.",
+  "description" : "A ^#a7e001;gheatsyn^reset; crystal table.",
   "altaDescription" : "A metal table with gheatsyn crystals as a stand.",
 
   "apexDescription" : "A table made from gheatsyn crystal.",
@@ -27,5 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_hive_curry",
-  "rarity" : "Rare",
-  "price" : 800,
+  "level" : 5, "rarity" : "Rare", "price" : 800,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_hive_curry.png",
-  "description" : "Yava alta cuisine. Healthy, spicy, squishy. Do you like bugs?",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Healthy, spicy, squishy. Do you like bugs?",
   "shortdescription" : "Hive Curry",
   "effects" : [ [
     {
@@ -21,10 +21,10 @@
     }
   ] ],
   "foodValue" : 40,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -34,8 +34,8 @@
   "variants" : [
     {
       "shortdescription" : "Spice-Hive Curry",
-      "description" : "Yava alta cuisine. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
-      "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
     }
   ]
 }

@@ -1,7 +1,19 @@
 {
   "type" : "ct_alta_elite_droid",
   "shortdescription" : "Elite Droid",
-  "description" : "Tier 4 Droid\nA mechanical minitank that can stick to surfaces.",
+  "description" : "Tier 4 Droid.  \nA mechanical minitank that can stick to surfaces.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Elite Arsenal",
+    "description" : "Can launch semi-auto bursts of 4 ^#20f080;Pulsings^reset; or charge up a powerful ^#20f080;Proto-Pulsar^reset;. Will charge at enemy and explode on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Elite Armor",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#20f080;Elite Autoshielder^reset;.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_elite_droid" ], "parts" : [ "body", "head" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier4_class1", "bow" : "ct_alta_tier4_class2" } ],
@@ -14,24 +26,17 @@
       "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } } ],
       "hostileActions" : [
         {
-          "name" : "action-fire",
-          "parameters" : {
-            "requireLineOfSight" : true,
-            "maximumRange" : 15,
-            "minimumRange" : 2,
-            "windupTime" : 2.0,
-            "windupStopForce" : 50,
-            "windupState" : "idle",
-
-            "projectileType" : "energycrystal",
-            "fireOffset" : [0.0, 0.75],
-            "fireSound" : "fire",
-            "fireState" : "",
-            "fireDelay" : 0.0,
-            "rotateAim" : true,
-
-            "winddownState" : "",
-            "winddownTime" : 0.0
+          "name" : "action-fire", "cooldown" : [4, 6], "parameters" : {
+            "requireLineOfSight" : true, "maximumRange" : 30, "windupStopForce" : 200, "windupTime" : 0.3,
+            "aimAtTarget" : true, "projectileCount" : 4, "projectileInterval" : 0.15, "projectileType" : "ct_impulse_small", "projectileParameters" : { "power" : 12 },
+            "onGround" : false, "fireOffset" : [0, -0.5], "fireSound" : "fire", "winddownTime" : 0.53
+          }
+        },
+        {
+          "name" : "action-fire", "cooldown" : [6, 10], "parameters" : {
+            "requireLineOfSight" : true, "maximumRange" : 30, "windupStopForce" : 200, "windupTime" : 0.3,
+            "aimAtTarget" : true, "projectileType" : "ct_impulse_large", "projectileParameters" : { "power" : 60 },
+            "onGround" : false, "fireOffset" : [0, -0.5], "fireSound" : "fireCharge", "winddownTime" : 0.53
           }
         }
       ],
@@ -56,7 +61,7 @@
       "airFriction" : 0, "airJumpProfile" : { "jumpSpeed" : 45.0, "jumpInitialPercentage" : 1.0, "jumpHoldTime" : 0.0 }
     },
 
-    "statusEffects" : [ "ct_sensitive_electronics" ],
+    "statusEffects" : [ "ct_sensitive_electronics", "ct_autoshielder_elite" ],
     "statusSettings" : {
       "statusProperties" : { "targetMaterialKind" : "robotic" },
       "appliesEnvironmentStatusEffects" : false,
@@ -68,7 +73,7 @@
         "knockbackStunTime" : { "baseValue" : 0.25 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 32 },
+        "maxHealth" : { "baseValue" : 64 },
         "protection" : { "baseValue" : 32.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

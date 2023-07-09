@@ -1,6 +1,8 @@
 {
   "name" : "ct_bishyn_halls",
   "friendlyName" : "Bishyn Halls",
+  "description" : "A place full of ^#378754;bishyn^reset; crystals and poison. Both are dangerous.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_bishyn_loot.png",
   "mainBlock" : "crystalblock",
   "subBlocks" : [ "moonstone", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -36,13 +38,17 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bishynChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_bishynChest" ]
@@ -69,13 +75,17 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier3" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       // Other
+      {
+        "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_bishynChest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
         "treasureBoxSets" : [ "ct_bishynChest" ]

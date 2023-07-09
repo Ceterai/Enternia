@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_verriskoywa_grass4", "count" : 8 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_koywa_loot", "count" : 1 },
+  "groups" : [ "alta_constructor6", "nature", "alterash_nature", "verriskoywa", "loot", "all" ]
+}

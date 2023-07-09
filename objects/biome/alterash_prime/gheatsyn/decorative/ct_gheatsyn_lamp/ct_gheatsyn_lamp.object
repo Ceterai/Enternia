@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 85,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Gheatsyn Lamp",
-  "description" : "A green glowing crystal lamp.",
+  "description" : "A green glowing ^#a7e001;gheatsyn^reset; lamp.",
   "altaDescription" : "A regular crystal-based lightsource. Gheatsyn here is fully incased, since it liqufies when discharged.",
 
   "apexDescription" : "A gheatsyn lamp.",
@@ -58,5 +58,7 @@
   "scriptDelta" : 60,
 
   "inputNodes" : [ [0, 0] ]
+,
 
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

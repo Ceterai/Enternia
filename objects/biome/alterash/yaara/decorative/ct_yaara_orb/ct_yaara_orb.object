@@ -1,13 +1,13 @@
 {
   "objectName" : "ct_yaara_orb",
   "colonyTags" : ["alterash", "nature", "yaara", "storage"],
-  "objectType" : "container", "tooltipKind" : "container", "category" : "storage",
+  "objectType" : "container", "category" : "storage",
   "rarity" : "Common",
   "price" : 180,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "Yaara Glowing Orb",
+  "shortdescription" : "Yaara Orb",
   "description" : "A glowing orb. It looks like there's room to store things inside.",
   "altaDescription" : "Yaara orbs are hollow on the inside, and if found in the wild you might just find something inside.",
 
@@ -24,17 +24,29 @@
   "lightColor" : [31, 139, 165],
 
   "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
   "orientations" : [
     {
-      "imageLayers" : [ { "image" : "ct_yaara_orb.png", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png" } ],
-      "imagePosition" : [-16, 0],
+      "imageLayers" : [ { "image" : "body_top.png", "fullbright" : true }, { "image" : "body_top_lit.png" } ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body_top.png", "fullbright" : true }, { "image" : "body_top_lit.png" } ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "direction" : "left",
+      "flippedImage" : "true"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "body_lit.png" } ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "right"
     },
     {
-      "imageLayers" : [ { "image" : "ct_yaara_orb.png", "fullbright" : true }, { "image" : "ct_yaara_orb_lit.png" } ],
-      "imagePosition" : [-16, 0],
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "body_lit.png" } ],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ],
       "direction" : "left",
@@ -49,5 +61,7 @@
   "frameCooldown" : 5,
   "autoCloseCooldown" : 3600,
 
-  "biomePlaced" : true
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

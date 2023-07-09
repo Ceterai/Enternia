@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "scorchedcore", "count" : 4 },
+    { "item" : "ct_entersphere", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tsentarish", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

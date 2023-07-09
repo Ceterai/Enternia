@@ -2,7 +2,7 @@
   "objectName" : "ct_eds_energy_condenser",
   "colonyTags" : ["alta", "eds", "misc", "electronic"],
   "category" : "other",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "rarity" : "Legendary",
   "price" : 1200,
   "race" : "alta",
@@ -54,5 +54,7 @@
       "projectileType" : "lavaprojectile",
       "projectileParams" : { }
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

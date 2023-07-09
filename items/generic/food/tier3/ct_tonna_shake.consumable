@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_tonna_shake",
-  "rarity" : "Rare",
-  "price" : 800,
+  "level" : 5, "rarity" : "Rare", "price" : 800,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_tonna_shake.png",
-  "description" : "Nia alta cuisine. Milky substance you get from baked tonnas turned into a milkshake!",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
   "shortdescription" : "Tonna Shake",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 30,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Tonna Shake",
-      "description" : "Nia alta cuisine. A tonna milkshake made with the best baked tonnas around!",
-      "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A tonna milkshake made with the best baked tonnas around!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
       "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ]
     }
   ]

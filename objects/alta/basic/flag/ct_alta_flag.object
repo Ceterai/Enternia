@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 70,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   
   "shortdescription" : "Alta Flag",
-  "description" : "An Alta flag. The symbol of Alliana. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "description" : "An ^#b0e0fc;alta^reset; flag. The symbol of Alliana. Use ^green;[E]^white; to bookmark a teleportation location.",
   "altaDescription" : "I can use this flag's locator module as a teleportation waypoint.",
 
   "apexDescription" : "An Alta flag. I can use this as a waypoint for teleportation.",
@@ -47,6 +47,8 @@
     }
   ],
 
-  "radioMessagesOnPickup" : [ "pickupflag" ]
+  "radioMessagesOnPickup" : [ "pickupflag" ],
   //"soundEffect" : "/sfx/objects/flag_flap_loop.ogg"
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

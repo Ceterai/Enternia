@@ -1,0 +1,69 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/header.png",
+    "fileBody" : "/interface/tooltips/bodyobject4.png",
+    "fileFooter" : "/interface/tooltips/footerobject4.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [97, 23],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [110, 23],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "fullDescriptionLabel" : {
+    "type" : "label",
+    "position" : [12, 91],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 118, "fontSize" : 7
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [7, 23],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [55, 23],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [75, 23],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "raceLabel" : {
+    "type" : "label", "position" : [134, 173],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [34, 131],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [35, 35],
+    "minSize" : [35, 35]
+  },
+  "treasureLabel" : {
+    "type": "label",
+    "position": [65, 160],
+    "fontSize": 6,
+    "lineSpacing": 1,
+    "hAnchor": "left",
+    "vAnchor": "top",
+    "wrapWidth": 90,
+    "value": ""
+  }
+}

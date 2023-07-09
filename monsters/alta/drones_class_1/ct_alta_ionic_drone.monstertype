@@ -1,7 +1,19 @@
 {
   "type" : "ct_alta_ionic_drone",
   "shortdescription" : "Ionic Drone ^#2080f0;^reset;",
-  "description" : "Tier 3.5 Drone\nAn advanced armored drone filled with enternia energy. Has ranged attacks and spreads ionized clouds.",
+  "description" : "Tier 3.5 Drone.  \nAn advanced armored drone filled with enternia energy. Has ranged attacks and spreads ionized clouds.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Ion Discharger",
+    "description" : "Can fire a rapid semi-auto ion burst of 6 ^#8020f0;Ions^reset;. Periodically disperses ^#8020f0;electric^reset; clouds around it. Will explode with ^#8020f0;electric^reset; particles on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Supercharged Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Mind Field^reset;, ^#8020f0;Ionic Clouds^reset;.\nDeals ^#8020f0;ionic^reset; damage on touch, applying ^#8020f0;Ionic Shock^reset;."
+  },
 
   "categories" : [ "ct_alta_ionic_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier3_class1", "bow" : "ct_alta_tier3_class2" } ],
@@ -17,7 +29,7 @@
           "name" : "action-fire", "cooldown" : [2, 4],
           "parameters" : {
             "requireLineOfSight" : true, "maximumRange" : 15, "windupStopForce" : 50, "windupTime" : 0.3,
-            "aimAtTarget" : true, "projectileCount" : 3, "projectileInterval" : 0.2, "projectileType" : "ct_ionic",
+            "aimAtTarget" : true, "projectileCount" : 6, "projectileInterval" : 0.1, "projectileType" : "ct_ionic_small",
             "onGround" : false, "fireOffset" : [0.25, 0.0], "winddownTime" : 0.53
           }
         }
@@ -66,7 +78,7 @@
         "knockbackStunTime" : { "baseValue" : 0.25 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 28 },
+        "maxHealth" : { "baseValue" : 56 },
         "protection" : { "baseValue" : 24.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },
@@ -96,4 +108,3 @@
     "capturable" : true, "captureHealthFraction" : 0.4
   }
 }
-

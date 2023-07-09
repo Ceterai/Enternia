@@ -1,7 +1,8 @@
 {
   "type" : "ctdrone",
-  "shortdescription" : "Scout Drone",
-  "description" : "Tier 1 Drone\nAn observer drone, used by alta scouts to scan the area.",
+  "shortdescription" : "^red;Outdated^reset; Scout Drone M1",
+  "description" : "Tier 1 Drone.  \nAn observer drone, used by ^#b0e0fc;alta^reset; scouts to scan the area.",
+  "race" : "alta",
 
   "categories" : [ "ctdrone" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
 

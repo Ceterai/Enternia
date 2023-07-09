@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "price" : 180,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Stardust Crystal",
-  "description" : "Pure crystallized stardust. Can be used as light/energy source or destroyed to extract the stardust.",
+  "description" : "Pure crystallized ^#ffa8e8;stardust^reset;. Can be used as light/energy source or destroyed to extract the stardust.",
   "altaDescription" : "If only I could find a way to extract stardust from this...",
 
   "apexDescription" : "A well-made light source.",
@@ -44,5 +44,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_aya_punch",
-  "rarity" : "Rare",
-  "price" : 720,
+  "level" : 5, "rarity" : "Rare", "price" : 720,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_aya_punch.png",
-  "description" : "Runeva alta cuisine. A sweet aya punch. Simple, but powerful.",
+  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A sweet aya punch. Simple, but powerful.",
   "shortdescription" : "Aya Punch",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ctrotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 2.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Bluesweet Punch",
-      "description" : "Runeva alta cuisine. An aya punch with extra ayas and extra sweetness. The name checks out.",
-      "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
+      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. An aya punch with extra ayas and extra sweetness. The name checks out.",
+      "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 } ] ]
     }
   ]

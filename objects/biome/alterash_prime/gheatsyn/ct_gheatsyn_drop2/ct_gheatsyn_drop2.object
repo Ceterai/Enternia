@@ -5,11 +5,11 @@
   "rarity" : "Common",
   "price" : 50,
   "race" : "generic",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   // "scannable" : false,
 
   "shortdescription" : "Gheatsyn Dripping Formation",
-  "description" : "Gheatsyn can turn liquid, making it slowly drip from this formation. Alta-scan for more.",
+  "description" : "^#a7e001;Gheatsyn^reset; can turn liquid, making it slowly drip from this formation.",
   "altaDescription" : "Those driplets are gheatsyn bits. Though acidic, it's not enough to cause actual harm.",
 
   "smashable" : true,
@@ -51,5 +51,7 @@
       "anchors" : [ "top" ]
 
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

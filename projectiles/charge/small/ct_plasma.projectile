@@ -1,0 +1,21 @@
+{
+  "projectileName" : "ct_plasma_small",
+  "shortdescription" : "Plasma Ball",
+  "image" : "ct_plasma.png",
+  "damageKindImage" : "/damage/ct_plasma.png",
+  "physics" : "bullet",
+  "bounces" : 0,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 50,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "lightColor" : [0, 80, 192],
+  "damageKind" : "ct_plasma"
+}

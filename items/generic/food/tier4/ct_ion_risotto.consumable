@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_ion_risotto",
-  "rarity" : "Legendary",
-  "price" : 1040,
+  "level" : 6, "rarity" : "Legendary", "price" : 1040,
+  "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_ion_risotto.png",
-  "description" : "Nia alta cuisine. A great combination of the most popular ingridients from the nia cuisine.",
+  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A great combination of the most popular ingridients from the nia cuisine.",
   "shortdescription" : "Ion Risotto",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -25,8 +25,8 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Ion Risotto ^#8020f0;^reset;",
-      "description" : "Nia alta cuisine. A wild combination of the most popular ingridients from the nia cuisine that tastes more exciting than ever.",
-      "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A wild combination of the most popular ingridients from the nia cuisine that tastes more exciting than ever.",
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
     }
   ]
 }

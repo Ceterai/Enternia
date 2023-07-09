@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_eds_pod",
   "colonyTags" : [ "alta", "eds", "storage", "mechanical", "wired" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Rare",
   "price" : 480,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Pod",
-  "description" : "An armored pod with red markings all over it. Can be used as a storage unit.",
+  "shortdescription" : "^#f02020;EDS^reset; Pod",
+  "description" : "An armored pod with red markings all over it. Can be used as a storage unit. Belongs to ^#f02020;EDS^reset;.",
   "altaDescription" : "This pod is covered in EDS markings. Perhaps there is some EDS tech inside.",
 
   "apexDescription" : "A pod chest. What's inside?",
@@ -37,5 +37,7 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
 
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

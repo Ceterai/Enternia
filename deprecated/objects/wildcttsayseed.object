@@ -6,7 +6,7 @@
   "description" : "Grows bitter-sour tsay fruits.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
   "shortdescription" : "^red;Outdated^reset; Tsay Seed",
   "objectType" : "farmable",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
   "price" : 23,
   "hasObjectItem" : false,
 
@@ -60,5 +60,7 @@
   ],
 
   "maxImmersion" : 0.25,
-  "consumeSoilMoisture" : false
+  "consumeSoilMoisture" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 60,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Shelf",
   "description" : "A simplistic titanium shelf with small crystal markings.",
@@ -26,5 +26,7 @@
       "spaceScan" : 0.1,
       "anchors" : [ "background" ], "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

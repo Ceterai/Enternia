@@ -1,14 +1,14 @@
 {
   "objectName" : "ct_hevika_chest",
   "colonyTags" : [ "crystal", "hevika", "storage" ],
-  "category" : "storage", "objectType" : "container", "tooltipKind" : "container",
+  "category" : "storage", "objectType" : "container",
   "rarity" : "Common",
   "price" : 100,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Hevika Chest",
-  "description" : "A seemingly upside-down container powered by the crystals attached to it.",
+  "description" : "A seemingly upside-down container powered by the ^#0050c0;alternia crystals^reset; attached to it.",
   "altaDescription" : "A reverse-pod powered by alternia crystals. Useful for loading hazardous objects.",
 
   "apexDescription" : "They really made a mistake when constructed this chest upside down...",
@@ -37,5 +37,7 @@
   "slotCount" : 24,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

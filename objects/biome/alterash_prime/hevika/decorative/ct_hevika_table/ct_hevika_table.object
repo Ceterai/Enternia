@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 145,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Hevika Table",
   "description" : "A titanium table with crystals and a reinforced stand. Spacey and functional.",
@@ -27,5 +27,7 @@
       "anchors" : [ "bottom" ],
       "collision" : "platform"
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

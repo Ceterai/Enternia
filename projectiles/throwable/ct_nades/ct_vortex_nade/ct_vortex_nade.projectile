@@ -1,6 +1,7 @@
 {
   "projectileName" : "ct_vortex_nade",
   "image" : "ct_vortex_nade.png",
+  "damageKindImage" : "/items/throwables/ct_vortex_nade.png",
   "physics" : "stickygrenade",
   "bounces" : 1,
   "timeToLive" : 3,

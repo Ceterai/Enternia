@@ -1,11 +1,11 @@
 {
   "objectName" : "ct_alta_security_aid",
   "colonyTags" : [ "alta", "alta_city" ],
-  "category" : "other", "objectType" : "farmable", "tooltipKind" : "seed",
+  "category" : "other", "objectType" : "farmable",
   "rarity" : "Uncommon",
   "price" : 320,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Security Aid",
   "description" : "An emergency aid station that dispences various madicine. Needs time to recharge.",
@@ -48,5 +48,7 @@
     }
   ],
 
-  "maxImmersion" : 0.125
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

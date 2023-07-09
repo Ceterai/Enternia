@@ -2,6 +2,17 @@
   "type" : "ct_alta_companion_drone",
   "shortdescription" : "Companion Drone ^#20f080;^reset;",
   "description" : "This drone is now your personal companion! Treat it with care and support.",
+  "race" : "alta",
+
+  "primaryAbility" : {
+    "name" : "Likes Cake (fool)",
+    "description" : "Will swoop at enemies when in range. Will explode with ^#8020f0;electric^reset; particles on destruction."
+  },
+
+  "passiveAbility" : {
+    "name" : "Scouting Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset;.\nDeals physical damage on touch."
+  },
 
   "categories" : [ "ct_alta_companion_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier2_class1", "bow" : "ct_alta_tier2_class2" } ],
@@ -56,7 +67,7 @@
         "knockbackStunTime" : { "baseValue" : 0.25 },
         "knockbackThreshold" : { "baseValue" : 9 },
 
-        "maxHealth" : { "baseValue" : 24 },
+        "maxHealth" : { "baseValue" : 48 },
         "protection" : { "baseValue" : 16.0 },
         "healthRegen" : { "baseValue" : 0.0 },
         "powerMultiplier" : { "baseValue" : 1.0 },

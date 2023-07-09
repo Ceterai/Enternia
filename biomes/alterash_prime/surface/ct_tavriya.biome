@@ -1,6 +1,8 @@
 {
   "name" : "ct_tavriya",
   "friendlyName" : "Tavriya",
+  "description" : "Plains and canyons full of ice and snow covering otherwise barren ^#6f6c66;moonrock^reset; base layer. Under the surface, you might find rare ^#7ddcde;isoslime^reset; plasts and ^#ceffd7;phospholion^reset; formations.",
+  "icon" : "/items/active/unsorted/ct_alta_loot/ct_sona_loot.png",
   "mainBlock" : "snow",
   "subBlocks" : [ "ice", "moonrock", "slush", "frozenwater" ],
 
@@ -35,7 +37,7 @@
       // Tech
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:overgroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -81,6 +83,14 @@
       },
       // Other
       {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_sona_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_sona_chest" ]
+      },
+      {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:potsRare", "type" : "object",
         "objectSets" : [
           { "pool" : [ [1.0, "frozenmistprimer" ] ], "parameters" : { } },
@@ -115,7 +125,7 @@
     "items" : [
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_small_cargoChest" ]
+        "treasureBoxSets" : [ "ct_alta_pod_tier2" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundChests", "type" : "object",
@@ -128,6 +138,14 @@
       // Dungeons
       // Growth
       // Other
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_sona_chest" ]
+      },
+      {
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
+        "treasureBoxSets" : [ "ct_sona_chest" ]
+      },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundOreRocks", "type" : "object",
         "objectSets" : [

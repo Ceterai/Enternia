@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "glowfibre", "count" : 16 },
+    { "item" : "liquidpoison", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_niverisk", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

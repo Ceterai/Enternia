@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "crystal", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_bishyn_spear", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

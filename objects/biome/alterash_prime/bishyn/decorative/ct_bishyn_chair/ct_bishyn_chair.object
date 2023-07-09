@@ -5,10 +5,10 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Bishyn Chair",
-  "description" : "A short bishyn chair. Alta-scan objects like these to get additional info.",
+  "description" : "A short ^#378754;bishyn^reset; chair. ^#b0e0fc;Alta^reset;-scan objects like these to get additional info.",
   "altaDescription" : "These sleek wide chairs are iconic to the space-hungry bishyn architecture style.",
 
   "apexDescription" : "A short chair inlaid with poisonous crystal. I won't sit here.",
@@ -45,5 +45,7 @@
       "anchors" : [ "bottom" ],
       "sitPosition" : [1, 22]
     }
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

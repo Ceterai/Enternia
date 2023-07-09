@@ -5,7 +5,7 @@
   "rarity" : "Rare",
   "price" : 400,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Door",
   "description" : "A door suitable for a spaceship.",
@@ -54,5 +54,7 @@
   "animationPosition" : [-20, 0],
 
   "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

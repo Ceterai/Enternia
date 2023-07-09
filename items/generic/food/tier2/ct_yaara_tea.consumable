@@ -1,10 +1,10 @@
 {
   "itemName" : "ct_yaara_tea",
-  "rarity" : "Uncommon",
-  "price" : 400,
+  "level" : 4, "rarity" : "Uncommon", "price" : 400,
+  "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_yaara_tea.png",
-  "description" : "Yava alta cuisine. This tea is blooming with life.",
+  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. This tea is blooming with life.",
   "shortdescription" : "Yaara Tea",
   "effects" : [ [
     {
@@ -13,10 +13,10 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
+  "tooltipKind" : "ct_alta_consumable",
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,
   "blockingEffects" : [
     "wellfed"
@@ -27,8 +27,8 @@
   "variants" : [
     {
       "shortdescription" : "Ceternia Tea",
-      "description" : "Yava alta cuisine. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
-      "rarity" : "Rare", "price" : 600, "foodValue" : 15,
+      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
+      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "regeneration1", "duration" : 300 } ] ]
     }
   ]

@@ -5,10 +5,10 @@
   "rarity" : "Legendary",
   "price" : 3000,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Teleporter",
-  "description" : "A personal teleporter, connects to bookmarked locations.\n^red;Destroyed when broken.",
+  "description" : "A personal teleporter, connects to bookmarked locations. Since when do ^#b0e0fc;altas^reset; have teleporters?",
   "altaDescription" : "A piece of acquired tech. Lets you beam in and out pretty quickly.",
 
   "apexDescription" : "A personal teleporter. A functional but fun piece of equipment.",
@@ -61,5 +61,7 @@
     "preciseStandPositionLeft" : [0, 0.0],
     "preciseStandPositionRight" : [0, 0.0],
     "maxNpcs" : 1
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

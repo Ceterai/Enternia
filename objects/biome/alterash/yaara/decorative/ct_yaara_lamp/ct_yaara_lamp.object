@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "price" : 105,
   "race" : "floran",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Yaara Flower",
   "description" : "A flower that functions as a lamp. Like a sunflower, but not.",
@@ -66,5 +66,7 @@
 
   "inputNodes" : [ [0, 3] ],
 
-  "interactive" : false
+  "interactive" : false,
+
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }
