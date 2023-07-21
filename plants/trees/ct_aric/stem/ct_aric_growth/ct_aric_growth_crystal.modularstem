@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_growth_crystal",
+  "shortdescription" : "Crystal Growaric Stipe",
+  "description" : "A variation of a ^#3baf2f;Overgrown Aric Stipe^reset; that has some sort of ^#3baf2f;aric^reset; variation of crystals growing from it.",
   "shape" : "mushroompatch",
   "health" : 35,
   "dropConfig" : {
@@ -78,6 +80,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "attachment" : {
         "bx" : -58,

@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_astralis",
   "shortdescription" : "Astralis ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "A mighty tool of creation, made out of unknown metals and powered by ^#ffa8e8;stardust^reset;.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA mighty tool of creation, made out of unknown metals and powered by ^#ffa8e8;stardust^reset;.",
   "elementalType" : "electric",
 
   "level" : 6, "price" : 880, "rarity" : "Legendary", "race" : "alta",
@@ -22,7 +22,7 @@
   "primaryAbilityType" : "hammersmash",
   "primaryAbility" : {
     "name" : "Astral Impact",
-    "description" : "A sequence of 5 heavy strikes. Hold to create an Astral Tear.",
+    "description" : "WIP. A sequence of 5 heavy strikes. Hold to create an Astral Tear.",
     "fireTime" : 1.2,
     "baseDps" : 14,
     "damageConfig" : {
@@ -33,7 +33,7 @@
   "altAbilityType" : "electricshockwave",
   "altAbility" : {
     "name" : "Astral Tear",
-    "description" : "Perform a..."
+    "description" : "WIP. Creates a spectral tear in the matter of reality."
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"

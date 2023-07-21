@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_frozen_energy_ball", "count" : 1 },
+    { "item" : "ct_isoslime_ball", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "staticcell",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "alta_t4", "materials", "all" ]
+}

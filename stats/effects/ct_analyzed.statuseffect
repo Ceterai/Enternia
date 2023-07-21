@@ -1,0 +1,14 @@
+{
+  "name" : "ct_analyzed",
+  "label" : "Analyzed",
+  "description" : "Decreases your defense by 3.",
+  "effectConfig" : {
+    "protection" : -3,
+    "animation" : { "states" : [ "shield" ] }
+  },
+  "defaultDuration" : 10,
+
+  "animationConfig" : "/stats/effects/ct_energy_shield/ct_force_shield.animation",
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_analyzed.png"
+}

@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_bulb_spots",
+  "shortdescription" : "Spotful Bulbaric Stipe",
+  "description" : "A variation of a ^#3baf2f;Bulbous Aric Stipe^reset; with tiny spots all around it. Still just as short, these stipes are some of the shortest ^#3baf2f;aric^reset; stipes ever.",
   "shape" : "mushroompatch",
   "health" : 20,
   "middleMinSize" : 1,
@@ -70,9 +72,9 @@
     "base1" : {
       "image" : "base2.png",
       "attachment" : {
-        "bx" : -3,
+        "bx" : -20,
         "by" : 0,
-        "x" : 0,
+        "x" : -2,
         "y" : 22
       }
     }
@@ -81,7 +83,28 @@
     "crown1" : {
       "image" : "crown2.png",
       "attachment" : {
-        "bx" : 0,
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown4" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -20,
         "by" : 0
       }
     }
@@ -92,7 +115,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     },
@@ -101,7 +124,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     },
@@ -110,7 +133,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     }

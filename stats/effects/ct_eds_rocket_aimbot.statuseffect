@@ -1,0 +1,19 @@
+{
+  "name" : "ct_eds_rocket_aimbot",
+  "label" : "^#f02020;EDS^reset; Rocket Aimbot",
+  "description" : "Attacks nearby enemies with self-correcting rockets every 4 seconds.",
+
+  "effectConfig" : {
+    "playSound" : false,
+    "boltInterval" : 4.0,
+    "jumpDistance" : 30,
+    "projectile" : "homingrocket",
+    "speed" : 40,
+    "damageBase" : 64
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "/stats/scripts/ct_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_eds_rocket_aimbot.png"
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "crystalplant", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_hevikai_antidote",
+    "count" : 1
+  },
+  "groups" : [ "alta_t3+", "medicine", "debug", "all" ]
+}

@@ -1,13 +1,16 @@
 {
   "name" : "ct_ayaka_prime_leaves",
+  "shortdescription" : "Ayaka Leaves",
+  "description" : "A bunch of ^#3587ff;ayaka^reset; foliage. Usually found on top of different ^#3587ff;ayaka trees^reset;.",
   "shape" : "ct_ayaka",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
       [ ],
-      [ { "item" : "ct_alta_sapling" } ],
-      [ { "item" : "ct_alta_sapling" } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
+      [ { "item" : "sapling" } ],
+      [ { "item" : "sapling" } ],
+      [ { "item" : "sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
     ],
     
     "particles" : {

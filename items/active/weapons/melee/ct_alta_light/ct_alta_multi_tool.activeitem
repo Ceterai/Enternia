@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_multi_tool",
   "shortdescription" : "Multi-Tool ^red;WIP^reset;",
-  "description" : "A sword made out of pure crystals. Seems like it's slowly gathering the energy around it...",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA fancy hatchet-like tool used by ^#b0e0fc;alta^reset; scouts for traversing certain types of terrain.",
   "elementalType" : "physical",
 
   "level" : 3, "price" : 480, "rarity" : "Uncommon",
@@ -18,8 +18,8 @@
 
   "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "name" : "Crystal Powers",
-    "description" : "A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#8020f0;electric^reset; damage.",
+    "name" : "Super Toolset",
+    "description" : "WIP. A sequence of 3 light strikes. Hold to enter a mining state.",
     "fireTime" : 0.625,
     "baseDps" : 6
   },
@@ -28,13 +28,13 @@
 
   "upgradeParameters" : {
     "shortdescription" : "Ultimate Tool ^#8020f0;^reset;",
-    "description" : "A ^#76c7e4;calin^reset; sword made out of refined crystals and ^#ffa8e8;stardust^reset;. Seems like it's quickly gathering the energy around it...",
-    "inventoryIcon" : "ct_alta_multi_tool.png", "animationParts" : { "blade" : "ct_alta_multi_tool_2.png" },
+    "description" : "A perfect multi-tool enhanced with ^#ffa8e8;stardust^reset;. Now we're talking!",
+    "inventoryIcon" : "ct_alta_multi_tool_2.png", "animationParts" : { "blade" : "ct_alta_multi_tool_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
-      "name" : "Test.",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
+      "name" : "Enhanced Toolset",
+      "description" : "A sequence of 4 (+1) light strikes. Hold to enter a faster mining state."
     }
   }
 }

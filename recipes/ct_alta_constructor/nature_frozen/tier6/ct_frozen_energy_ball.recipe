@@ -1,9 +1,8 @@
 {
   "input" : [
     { "item" : "frozenwater", "count" : 4 },
-    { "item" : "cryonicextract", "count" : 1 },
-    { "item" : "ct_alternia_shard", "count" : 1 }
+    { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "ct_frozen_energy_ball", "count" : 4 },
-  "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "energy", "alternia", "frozen_energy", "all" ]
+  "output" : { "item" : "ct_frozen_energy_ball", "count" : 1 },
+  "groups" : [ "alta_mt3", "materials", "alta_constructor6", "nature", "alterash_prime_nature", "energy", "alternia", "frozen_energy", "all" ]
 }

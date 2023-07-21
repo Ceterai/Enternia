@@ -3,7 +3,7 @@
   "friendlyName" : "Hevika Tunnels",
   "description" : "These narrow caves are full of ^#0050c0;hevika^reset; crystals and highly ionized air. Staying in such environment for too long can lead to an ^#8020f0;Ionic Stroke^reset;.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_hevika_loot.png",
-  "statusEffects" : [ "ct_ionized_air", "ct_ionic_stroke" ],
+  "statusEffects" : [ "ct_overcharged_air" ],
   "mainBlock" : "crystalblock",
   "subBlocks" : [ "ice", "moonrock" ],
   "ores" : "ct_alterash_depth2",

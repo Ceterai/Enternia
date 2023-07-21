@@ -1,0 +1,16 @@
+{
+  "name" : "ct_emergency_heal",
+  "label" : "Emergency Heal",
+  "description" : "Heals you up almost immediately.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healBase" : 0.025,
+    "healTime" : 0.05
+  },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "ct_healing.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_life_support.png"
+}

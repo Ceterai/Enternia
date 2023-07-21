@@ -5,6 +5,15 @@
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
+    "effectConfig" : {
+      "duration" : 12,
+      "type" : "electrified",
+      "animActivate" : "effectActivate",
+      "animActive" : "effectActive",
+      "animDeactivate" : "effectDeactivate"
+    },
+    "cooldown" : 30,
+    "energyUsage" : 0
   },
   "defaultDuration" : 10,
   "scriptDelta" : 10,

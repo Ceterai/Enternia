@@ -1,0 +1,26 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "aura" : {
+        "priority" : 2,
+        "default" : "off",
+        "states" : {
+          "off" : { },
+          "windup" : { },
+          "loop" : { },
+          "winddown" : { },
+          "on" : { }
+        }
+      }
+    }
+  },
+  "particleEmitters" : {
+    "sparks" : { "enabled" : true, "emissionRate" : 5.0, "particles" : [ { "particle" : "electricswoosh1" }, { "particle" : "electricswoosh2" } ] }
+  },
+  "lights" : {
+    "glow" : { "active" : true, "position" : [0, 0], "color" : [0, 50, 150] }
+  },
+  "sounds" : {
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+  }
+}

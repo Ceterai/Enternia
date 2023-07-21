@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_twisted_short",
+  "shortdescription" : "Short Twistaric Stipe",
+  "description" : "This ^#3baf2f;Twisted Aric Stipe^reset; is pretty short. Kind of expected for an ^#3baf2f;aric^reset; stipe like this one.",
   "shape" : "mushroompatch",
   "health" : 10,
   "middleMinSize" : 1,
@@ -88,6 +90,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

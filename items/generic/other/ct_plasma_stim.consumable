@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_plasma_stim",
+  "shortdescription" : "Plasma Stim Pack",
+  "description" : "Provides 60s of 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#2080f0;Plasma Status Immunity^reset;.",
+  "level" : 5, "rarity" : "Rare", "price" : 180, "race" : "alta",
+  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_plasma_stim.png",
+
+  "effects" : [ [
+      {
+        "effect" : "ct_plasma_block",
+        "duration" : 60
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+}

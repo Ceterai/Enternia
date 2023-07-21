@@ -1,8 +1,7 @@
 {
   "itemName" : "ct_alta_bishyn_nade",
-  "rarity" : "Uncommon",
-  "price" : 80,
-  "category" : "throwableItem",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alta_bishyn_nade.png",
   "image" : "ct_alta_bishyn_nade.png",
   "shortdescription" : "Bishyn Nade",
@@ -26,5 +25,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

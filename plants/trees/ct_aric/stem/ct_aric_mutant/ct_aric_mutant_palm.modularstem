@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_mutant_palm",
+  "shortdescription" : "Palm Mutaric Stipe",
+  "description" : "This ^#3baf2f;Mutant Aric Stipe^reset; has developed sloped ^#3baf2f;aric^reset; base that makes it look slightly like a palm.",
   "shape" : "mushroompatch",
   "health" : 15,
   "middleMinSize" : 3,
@@ -88,6 +90,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_growth_dense",
+  "shortdescription" : "Dense Growaric Stipe",
+  "description" : "This ^#3baf2f;Overgrown Aric Stipe^reset; is very dense. Whatever that means for ^#3baf2f;aric^reset; shrooms.",
   "shape" : "mushroompatch",
   "health" : 35,
   "middleMinSize" : 8,
@@ -79,6 +81,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

@@ -1,0 +1,21 @@
+{
+  "name" : "ct_hevikai",
+  "label" : "Hevikai",
+  "description" : "A decease-like immunity issue that can cause various creatures to start slowly produce plasma in their body. To most organisms this process could be lethal.  \nTo some this might lead to an increase in energy and power in exchange for sanity, however, the end is usually the same as always.  \nImportant notes:\n\n- to block this effect, try to not get a ^#0050c0;Hevikai Strike^reset; twice in a row.\n- If you got sick with Hevikai, use the ^#0050c0;Hevikai Antidote^reset; to cure it in time.\n- having ^#2080f0;Plasma Status Immunity^reset; increases the time you have by x2.\n- hevikai strips you of ^#7733aa;Electric Status Immunity^reset; (if you have it) and decreases your ^#7733aa;electric resistance^reset; by 20%.\n\nThis effect might come in use to be able to survive on ^#f02080;Enterash Prime^reset;.",
+  "blockingStat" : "hevikaiStatusImmunity",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "ember" ] },
+    "semiImmunity" : "plasmaStatusImmunity",
+
+    "radioMessage" : "ct_hevikai_msg",
+
+    "electricResistance" : -0.2,
+    "removeElectricStatusImmunity" : true
+  },
+  "defaultDuration" : 600,
+
+  "scripts" : [ "/stats/scripts/ct_decease.lua" ],
+  "animationConfig" : "ct_plasma.animation",
+  "icon" : "ct_hevikai.png"
+}

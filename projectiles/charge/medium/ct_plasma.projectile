@@ -17,6 +17,7 @@
       "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
     }
   ],
+  "statusEffects" : [ "ct_plasma_burn" ],
   "lightColor" : [32, 128, 240],
   "damageKind" : "ct_plasma"
 }

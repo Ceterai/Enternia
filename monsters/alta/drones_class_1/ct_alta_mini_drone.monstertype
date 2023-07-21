@@ -23,7 +23,7 @@
       "damageOnTouch" : true,  // "monster" params
       "targetQueryRange" : 20,  // "monster"-"monster-targeting" params
       "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } } ],
-      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
       "hostileActions" : [
         {
           "name" : "action-swoop", "cooldown" : [2,4], "parameters" : {
@@ -88,7 +88,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

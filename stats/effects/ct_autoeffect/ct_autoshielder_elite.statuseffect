@@ -8,8 +8,9 @@
     "effectConfig" : {
       "name" : "Static Shield",
       "type" : "ct_static_shield",
-      "duration" : 12
-    }
+      "duration" : 16
+    },
+    "energyUsage" : 20
   },
   "defaultDuration" : 10,
   "scriptDelta" : 10,

@@ -15,7 +15,7 @@ function build(directory, config, parameters, level, seed)
 
   -- Basic stats (Health, Tags, Slots, Drop Warning)
   if configParameter("smashOnBreak", false) or configParameter("smashable", false) then
-    config.tooltipFields.smashLabel = "^red;This object doesn't drop itself when broken/smashed!^reset;"
+    config.tooltipFields.smashLabel = "^red;Doesn't drop itself if broken/smashed!^reset;"
   end
   if configParameter("slotCount") ~= nil and configParameter("slotCount") > 0 then
     config.tooltipFields.slotCountLabel = "Holds " .. configParameter("slotCount") .. " Items"

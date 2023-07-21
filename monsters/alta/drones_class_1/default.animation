@@ -9,7 +9,7 @@
             "persistentSound" : "/sfx/npc/boss/crystalboss_hum.ogg", "persistentSoundStopTime" : 0.3 } }, "fire" : { "frames" : 2, "cycle" : 0.1, "mode" : "loop" },
           "swoop" : { "frames" : 4, "cycle" : 0.25, "mode" : "loop", "properties" : {
             "persistentSound" : "/sfx/npc/boss/crystalboss_hum.ogg", "persistentSoundStopTime" : 0.3 } }, "morph" : { "frames" : 3, "cycle" : 0.3 },
-          "activate" : { "frames" : 4, "cycle" : 0.25 }, "deactivate" : { "frames" : 4, "cycle" : 0.25 },
+          "activate" : { "frames" : 4, "cycle" : 0.75 }, "deactivate" : { "frames" : 4, "cycle" : 0.25 },
           "castwindup" : { "frames" : 3, "cycle" : 0.25 }, "castwinddown" : { "frames" : 3, "cycle" : 0.25 },
           "firewindup" : { "frames" : 3, "cycle" : 0.25 }, "firewinddown" : { "frames" : 3, "cycle" : 0.25 },
           "swoopwindup" : { "frames" : 3, "cycle" : 0.25 }, "swoopwinddown" : { "frames" : 3, "cycle" : 0.25 },
@@ -84,7 +84,7 @@
   },
   "sounds" : {
     "aggroHop" : [ "/sfx/npc/boss/apeboss_missile.ogg" ],
-    "alarm" : [ "/sfx/tools/area_scan1.ogg.ogg", "/sfx/tools/area_scan2.ogg.ogg" ],
+    "alarm" : [ "/sfx/tools/area_scan1.ogg", "/sfx/tools/area_scan2.ogg" ],
     "deathPuff" : [ "/sfx/npc/monsters/pod_release1.ogg" ], "wallCrash" : [ "/sfx/npc/monsters/peblit_drop1.ogg" ],
     "fire" : [ "/sfx/gun/plasma_ar1.ogg" ], "firePlasma" : [ "/sfx/gun/plasma_ar1.ogg" ],
     "fireCloud" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ], "fireCharge" : [ "/sfx/melee/giantsword_charge_full.ogg" ]

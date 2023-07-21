@@ -52,5 +52,9 @@
         }
       }
     }
+  },
+  "sounds" : {
+    "shieldOn" : [ "/sfx/melee/elemental_aura_activate.ogg" ],
+    "shieldOff" : [ "/sfx/melee/elemental_aura_deactivate1.ogg" ]
   }
 }

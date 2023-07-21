@@ -1,8 +1,7 @@
 {
   "itemName" : "ct_glowstick_ionic",
-  "rarity" : "Common",
-  "price" : 5,
-  "category" : "throwableItem",
+  "level" : 3, "rarity" : "Uncommon", "price" : 5, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_glowstick_ionic.png",
   "image" : "ct_glowstick_ionic.png",
   "shortdescription" : "Ionic Glowstick",
@@ -28,5 +27,7 @@
 
   "learnBlueprintsOnPickup" : [
     "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
-  ]
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

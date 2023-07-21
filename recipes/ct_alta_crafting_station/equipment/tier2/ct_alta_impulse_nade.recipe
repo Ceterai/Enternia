@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_impulse_nade", "count" : 1 },
+  "groups" : [ "alta_t2+", "tier4_security", "equipment", "all" ]
+}

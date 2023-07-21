@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_plasmasword",
   "shortdescription":"Plasmasword ^red;WIP^reset;",
-  "description":"A combat tool used by ^#b0e0fc;alta^reset; soldiers in melee fights. The energy powering this sword creates a thin ^#2080f0;plasma^reset; cover over its blade.",
+  "description":"^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA combat tool used by ^#b0e0fc;alta^reset; soldiers in melee fights. The energy powering this sword creates a thin ^#2080f0;plasma^reset; cover over its blade.",
   "elementalType" : "electric",
 
   "level" : 5, "price" : 720, "rarity" : "Rare",
@@ -21,7 +21,7 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "name" : "Plasmic Razor",
-    "description" : "The rim of this tool is made out of plasma. Can provide up to 3 combo hits.",
+    "description" : "WIP. The rim of this tool is made out of plasma. Can provide up to 3 combo hits.",
     "fireTime" : 1.1, "baseDps" : 12,
     "stepDamageConfig" : [
       { "baseDamageFactor" : 1.0, "knockback" : 10 },

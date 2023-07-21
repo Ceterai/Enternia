@@ -1,0 +1,16 @@
+{
+  "name" : "ct_poisoncloud",
+  "label" : "Poison Clouds",
+  "description" : "Periodically burst with poisonous clouds.",
+
+  "effectConfig" : {
+    "range" : 3,
+    "type" : "smallpoisoncloud",
+    "damageMultiplier" : 1,
+    "cooldown" : 3.0
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [ "/stats/scripts/ct_burst.lua" ],
+  "icon" : "ct_poisoncloud.png"
+}

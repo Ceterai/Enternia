@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_tonnova_wide_tree",
+  "colonyTags" : [ "alterash_prime", "nature", "bionid", "tonnova" ],
+  "category" : "sapling", "tooltipKind" : "ct_alta_object",
+  "level" : 5, "rarity" : "Rare", "price" : 40,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Wide Tonnova",
+  "description" : "A pretty wide ^#c1ebf8;tonnova tree^reset; variation found in ^#c1ebf8;tonnova groves^reset;.",
+  "altaDescription" : "This eco chamber contains a spring of a wide-type tonnova.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 2.5,
+
+  "inventoryIcon" : "/plants/trees/ct_tonnova/stem/ct_tonnova_wide_stem/icon.png",
+  "fixedStem" : "ct_tonnova_wide_stem", "fixedFoliage" : "ct_tonnova_blob", "iconSuffix" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/lab/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
+  "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] },
+    { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+}

@@ -1,8 +1,7 @@
 {
   "itemName" : "ct_alta_plasma_nade",
-  "rarity" : "Rare",
-  "price" : 100,
-  "category" : "throwableItem",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alta_plasma_nade.png",
   "image" : "ct_alta_plasma_nade.png",
   "shortdescription" : "Plasma Nade",
@@ -24,5 +23,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

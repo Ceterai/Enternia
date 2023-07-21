@@ -1,0 +1,23 @@
+{
+  "name" : "ct_ionic_shock",
+  "label" : "Ionic Shock",
+  "description" : "Repeatedly damages you with ^#8020f0;ionic^reset; electricity. Having ^#8020f0;Ionic Status Immunity^reset; blocks the effect, ^#7733aa;Electric Status Immunity^reset; minimizes the damage, ^#0050c0;Hevikai^reset; increases the damage.",
+  "blockingStat" : "ionicStatusImmunity",
+
+  "effectConfig" : {
+    "interval" : 1.4,
+    "jumpDistance" : 8,
+    "healthPercentage" : 0.04,
+    "damageClampRange" : [2, 8],
+    "damageKind" : "ct_ionic",
+    "animation" : { "directives" : "fade=5000c0=0.25", "particles" : [ "sparks_dense" ], "lights" : [ "dim" ] },
+
+    "semiImmunity" : "electricStatusImmunity",
+    "vulnerability" : "hevikai"
+  },
+  "defaultDuration" : 2.5,
+
+  "scripts" : [ "/stats/scripts/ct_shock.lua" ],
+  "animationConfig" : "ct_ionic.animation",
+  "icon" : "ct_ionic_shock.png"
+}

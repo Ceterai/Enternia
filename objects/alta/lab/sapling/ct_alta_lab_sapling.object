@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_lab_sapling",
   "colonyTags" : [ "alta", "alta_lab", "alta_garden" ],
   "category" : "sapling",
-  "rarity" : "Rare",
-  "price" : 80,
+  "level" : 5, "rarity" : "Rare", "price" : 20,
   "race" : "alta",
   "printable" : false,
 
@@ -37,5 +36,5 @@
     { "duration" : [180, 210] },
     { "tree" : true }
   ],
-  "builder" : "/objects/alta/lab/ct_alta_lab_sapling/builder.lua"
+  "builder" : "/objects/alta/lab/sapling/builder.lua"
 }

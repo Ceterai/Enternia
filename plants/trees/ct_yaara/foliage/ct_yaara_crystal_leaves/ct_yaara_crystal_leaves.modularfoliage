@@ -1,13 +1,16 @@
 {
   "name" : "ct_yaara_crystal_leaves",
+  "shortdescription" : "Crystal Yaara Leaves",
+  "description" : "These ^#20f080;yaara leaves^reset; grew sizeable ^#76c7e4;crystals^reset; all over them.  \nPhenomenons like these are common in ^#20f080;yaara^reset; growth in general, but ^#20f080;crystal yaara nodes^reset; are a great example.",
   "shape" : "savannah2",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_sapling" }, { "item" : "crystal", "count" : 4 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "crystal", "count" : 3 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "crystal", "count" : 2 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "crystal" } ]
+      [ { "item" : "sapling" }, { "item" : "crystal", "count" : 4 } ],
+      [ { "item" : "sapling" }, { "item" : "crystal", "count" : 3 } ],
+      [ { "item" : "sapling" }, { "item" : "crystal", "count" : 2 } ],
+      [ { "item" : "sapling" }, { "item" : "crystal" } ]
     ],
     
     "particles" : {

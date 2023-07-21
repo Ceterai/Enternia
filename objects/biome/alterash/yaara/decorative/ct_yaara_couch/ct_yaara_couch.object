@@ -2,8 +2,7 @@
   "objectName" : "ct_yaara_couch",
   "colonyTags" : ["yaara"],
   "category" : "furniture",
-  "rarity" : "Common",
-  "price" : 140,
+  "level" : 1, "rarity" : "Common", "price" : 140,
   "race" : "floran",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
@@ -42,7 +41,7 @@
     },
     {
       "image" : "ct_yaara_couch.png",
-      "sitCoverImage" : "/objects/biome/alterash/yaara/ct_yaara_couch/ct_yaara_couch_cover.png",
+      "sitCoverImage" : "/objects/biome/alterash/yaara/decorative/ct_yaara_couch/ct_yaara_couch_cover.png",
       "imagePosition" : [-24, 0],
       "direction" : "right",
 

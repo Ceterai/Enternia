@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_eds_claymore",
   "shortdescription":"^#f02020;EDS^reset; Claymore ^red;WIP^reset;",
-  "description":"A massive defensive tool created by ^#f02020;EDS^reset;. Perfect for close combat.",
+  "description":"^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA massive defensive tool created by ^#f02020;EDS^reset;. Perfect for close combat.",
   "elementalType" : "physical",
 
   "level" : 5, "price" : 720, "rarity" : "Rare",
@@ -20,8 +20,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "name" : "Plasmic Razor",
-    "description" : "The rim of this tool is made out of plasma. Can provide up to 3 combo hits.",
+    "name" : "Heavy Strike",
+    "description" : "WIP. Performs a series of 3 heavy strikes.",
     "fireTime" : 1.2, "baseDps" : 12,
     "stepDamageConfig" : [
       { "baseDamageFactor" : 1.0, "knockback" : 10 },
@@ -38,7 +38,7 @@
     "shortdescription" : "^#f02020;EDS^reset; Cannonsword ^#8020f0;^reset;",
     "description" : "This weapon is now a powerful device that can hold any threat back, no matter how far away it is.",
     "price" : 800, "rarity" : "Legendary",
-    "inventoryIcon" : "alternia_sword.png", "animationParts" : { "blade" : "alternia_sword.png" },
+    "inventoryIcon" : "ct_eds_claymore_2.png", "animationParts" : { "blade" : "ct_eds_claymore_2.png" },
     "primaryAbility" : { }  // shoot laser
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name" : "ct_energizer",
+  "label" : "Energizer",
+  "description" : "Constantly replenishes your energy by 0.5% each second.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healStat" : "energy",
+    "healTime" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_healing.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_energizer.png"
+}

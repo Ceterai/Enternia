@@ -1,0 +1,20 @@
+{
+  "name" : "ct_autoanalyzer",
+  "label" : "Autoanalyzer",
+  "description" : "Analyzes enemies around you, applying ^#2080f0;Analyzed^reset; to them.",
+
+  "effectConfig" : {
+    "playSound" : false,
+    "boltInterval" : 2.0,
+    "jumpDistance" : 10,
+    "projectile" : "invisibleprojectile",
+    "projectileParams" : { "damageKind" : "nodamage" },
+    "statusEffects" : [ "ct_analyzed" ],
+    "speed" : 150
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "/stats/scripts/ct_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_autoanalyzer.png"
+}

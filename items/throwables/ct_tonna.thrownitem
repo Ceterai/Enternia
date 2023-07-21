@@ -1,12 +1,12 @@
 {
   "itemName" : "ct_tonna",
-  "price" : 20,
-  "rarity" : "Common",
-  "category" : "throwableItem",
+  "rarity" : "Common", "price" : 20,
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_tonna.png",
   "image" : "ct_tonna.png",
   "shortdescription" : "Tonna",
   "description" : "A ^#c1ebf8;tonnova^reset; fruit. Feels lighter than a coconut. You can throw it at someone or cook it!",
+  "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
 
   "ammoUsage" : 1,
 
@@ -27,5 +27,7 @@
       }
     ]
   },
-  "learnBlueprintsOnPickup" : [ "ct_tonnakada" ]
+  "learnBlueprintsOnPickup" : [ "ct_tonnakada" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

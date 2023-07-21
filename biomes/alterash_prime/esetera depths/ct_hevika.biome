@@ -3,6 +3,7 @@
   "friendlyName" : "Hevikara",
   "description" : "A ^#76c7e4;crystal^reset; biome full of ^#0050c0;hevika^reset; crystals and, well, electricity they produce. Watch out.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_hevika_loot.png",
+  "statusEffects" : [ "ct_overcharged_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "crystalblock", "moonrock" ],
   "ores" : "ct_alterash_depth2",

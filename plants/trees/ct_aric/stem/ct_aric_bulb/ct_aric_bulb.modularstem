@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_bulb",
+  "shortdescription" : "Bulbous Aric Stipe",
+  "description" : "This ^#3baf2f;aric^reset; stipe is short and wide, compensating its hight with it's solid mass. Contains mostly toxins and biosamples.",
   "shape" : "mushroompatch",
   "health" : 20,
   "middleMinSize" : 1,
@@ -70,9 +72,9 @@
     "base1" : {
       "image" : "base1.png",
       "attachment" : {
-        "bx" : -3,
+        "bx" : -20,
         "by" : 0,
-        "x" : 0,
+        "x" : -2,
         "y" : 22
       }
     }
@@ -81,7 +83,28 @@
     "crown1" : {
       "image" : "crown1.png",
       "attachment" : {
-        "bx" : 0,
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -20,
+        "by" : 0
+      }
+    },
+    "crown4" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -20,
         "by" : 0
       }
     }
@@ -92,7 +115,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     },
@@ -101,7 +124,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     },
@@ -110,7 +133,7 @@
       "attachment" : {
         "bx" : 0,
         "by" : 0,
-        "x" : 0,
+        "x" : -25,
         "y" : 23
       }
     }

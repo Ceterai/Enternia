@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_glow_bursting",
+  "shortdescription" : "Bursting Glowaric Stipe",
+  "description" : "A variation of a ^#3baf2f;Glowing Aric Stipe^reset; that looks like it's about to burst athe seams. A rare non-toxic ^#3baf2f;aric^reset; stipe that kind of reminds of a stump.",
   "shape" : "mushroompatch",
   "health" : 25,
   "dropConfig" : {
@@ -79,6 +81,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "attachment" : {
         "bx" : -58,

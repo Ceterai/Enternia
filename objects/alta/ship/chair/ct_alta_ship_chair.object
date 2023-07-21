@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_ship_chair",
   "colonyTags" : [ "alta", "alta_ship", "misc" ],
   "category" : "furniture",
-  "rarity" : "Rare",
-  "price" : 160,
+  "level" : 1, "rarity" : "Rare", "price" : 160,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
@@ -25,6 +24,7 @@
   "orientations" : [
     {
       "dualImage" : "ct_alta_ship_chair.png",
+      "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
 

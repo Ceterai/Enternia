@@ -1,0 +1,15 @@
+{
+  "name" : "ct_ionicblockade",
+  "label" : "Ionoblockade",
+  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#8020f0;Ionic Status Immunity^reset;.",
+
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "ionicStatusImmunity" : true,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_ionicblockade.png"
+}

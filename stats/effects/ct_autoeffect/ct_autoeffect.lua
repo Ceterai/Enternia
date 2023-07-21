@@ -1,10 +1,18 @@
-function init()
-  self.energyUsage = config.getParameter("energyUsage", 0)
-  self.cooldownTime = config.getParameter("cooldown", 30)
+-- ### Autoeffect
+-- Attaches an ephemeral effect after a condition is met.
+function init() initAutoeffectParams() end
+function update(dt) autoeffectTick(dt) end
+function uninit() effectDeactivate() end
+
+-- The effect to be added is configured in the `effectConfig` param.
+function initAutoeffectParams()
+  self.energyUsage = 0
+  if status.isResource("energy") then self.energyUsage = config.getParameter("energyUsage", 0) end
+  self.cooldown = config.getParameter("cooldown", 30)
   self.cooldownTimer = 0
 
   local effectConfig = {}
-  effectConfig.duration = 12
+  effectConfig.duration = nil
   effectConfig.type = "electrified"
   effectConfig.animActivate = "effectActivate"
   effectConfig.animActive = "effectActive"
@@ -13,26 +21,26 @@ function init()
   self.minHealthCoef = config.getParameter("minHealthPercent", 0.2)
 end
 
-function update(dt)
+function autoeffectTick(dt)
   if self.cooldownTimer <= 0 then
-    if status.resourcePercentage("health") <= self.minHealthCoef then
+    if status.resourcePercentage("health") <= self.minHealthCoef and not self.active then
       effectActivate()
-      self.cooldownTimer = self.cooldownTime
+      self.cooldownTimer = self.cooldown
     end
-  else
-    self.cooldownTimer = self.cooldownTimer - dt
+  elseif not self.active then
+    self.cooldownTimer = math.max(0, self.cooldownTimer - dt)
   end
   effectLoop(dt)
 end
 
 function effectActivate()
-  status.addEphemeralEffect(self.effectConfig.type, self.effectConfig.duration)
-  animator.playSound(self.effectConfig.animActivate)
-  self.activeTimer = self.effectConfig.duration
   if not self.active then
+    status.addEphemeralEffect(self.effectConfig.type, self.effectConfig.duration)
+    animator.playSound(self.effectConfig.animActivate)
+    self.activeTimer = self.effectConfig.duration
     animator.playSound(self.effectConfig.animActive, -1)
+    self.active = true
   end
-  self.active = true
 end
 
 function effectLoop(dt)
@@ -51,8 +59,4 @@ function effectDeactivate()
     animator.playSound(self.effectConfig.animDeactivate)
   end
   self.active = false
-end
-
-function uninit()
-  effectDeactivate()
 end

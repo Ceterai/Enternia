@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_glow",
+  "shortdescription" : "Glowing Aric Stipe",
+  "description" : "These ^#3baf2f;aric^reset; stipes glow dimly in the dark with their cold non-toxic sap.",
   "shape" : "mushroompatch",
   "health" : 25,
   "dropConfig" : {
@@ -77,6 +79,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "attachment" : {
         "bx" : -58,

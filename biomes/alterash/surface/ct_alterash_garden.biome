@@ -18,8 +18,6 @@
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier1" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
-      { "select" : 2, "pool" : "nightTerrors" },
-      { "select" : 1, "pool" : "generatedFlying" },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"bunnycritter"],[1,"cliffcritter"],[1,"bioluminfireflyspawner"]] }
     ]
   },
@@ -110,12 +108,12 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
-        "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30, "treeStemHueShiftMax" : 15,
+        "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30,
         "treeStemList" : [ "ct_ayaka_garden_stem" ], "treeFoliageList" : [ "ct_ayaka_garden_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
-        "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30, "treeStemHueShiftMax" : 15,
+        "treeFoliageHueShiftMax" : 30, "treeFoliageHueShiftMin" : -30,
         "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       // Other

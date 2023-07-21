@@ -123,16 +123,18 @@
     "wrapWidth" : 123
   },
   "tagsLabel" : {
-    "type" : "label", "position" : [136, 47],
+    "type" : "label", "position" : [136, 50],
     "hAnchor" : "right",
+    "vAnchor" : "mid",
+    "lineSpacing" : 0.8,
     "fontSize" : 6,
-    "wrapWidth" : 123
+    "wrapWidth" : 110
   },
   "smashLabel" : {
     "type" : "label", "position" : [14, 54],
     "hAnchor" : "left",
     "fontSize" : 6,
-    "wrapWidth" : 123
+    "wrapWidth" : 128
   },
 
 

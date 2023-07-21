@@ -1,0 +1,44 @@
+{
+  "objectName" : "ct_ayaka_elin_tree",
+  "colonyTags" : [ "alterash", "nature", "ayaka", "elin" ],
+  "category" : "sapling", "tooltipKind" : "ct_alta_object",
+  "level" : 5, "rarity" : "Rare", "price" : 40,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Elin Ayaka",
+  "description" : "A special variation of ^#3587ff;ayaka trees^reset; that grows in ^#76c7e4;Elin's gardens^reset;. It's precious, tender ^#ffa8e8;stardust^reset; leaves are filled with the softest ^#ffe8e8;silk fibres^reset; out there.",
+  "altaDescription" : "This eco chamber contains a very rare ayaka from Elin's birth gardens. I better treat it with care",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "/objects/biome/stardust/ct_stardust_crystal/icon.png",
+  "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_blossom_leaves", "middleLayerSuffix" : "_icon.png", "iconSuffix" : "icon.png",
+  "fixedStemHues" : [ 105, 150 ], "fixedFoliageHues" : [ -150, -105 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/city/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
+  "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+}

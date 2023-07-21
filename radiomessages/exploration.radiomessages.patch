@@ -1,24 +1,38 @@
-[{"op":"add",
-"path":"/ctbiomeelectric",
-"value":{
-    "unique" : false,
-    "text" : "Be careful, the air appears to be ionized. Unless you don't have immunity to electricity, try to not drain your energy as it may damage you periodically.",
-    "textSpeed" : 70
-  }
-},
-{"op":"add",
-"path":"/ct_ionized_air",
-"value":{
-    "unique" : false,
-    "text" : "Be careful, the air appears to be ionized. Unless you don't have immunity to electricity, try to not drain your energy as it may damage you periodically.",
-    "textSpeed" : 70
-  }
-},
-{"op":"add",
-"path":"/ct_ionized_air_alta",
-"value":{
-    "unique" : false,
-    "text" : "The air appears to be ionized. Thankfully, your immunity to electricity should mitigate the majority of negative effects.",
-    "textSpeed" : 70
-  }
-}]
+[
+  { "op":"add", "path":"/ctbiomeelectric", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "Be careful, the air appears to be ionized. Unless you have immunity to electricity, try to not drain your energy as it may damage you periodically."
+  } },
+  { "op":"add", "path":"/ct_ionized_air", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
+  } },
+  { "op":"add", "path":"/ct_ionized_air_alta", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "The air appears to be ^#5000c0;ionized^reset;. ^#88ff88;Thankfully, your ^#7733aa;immunity to electricity^#88ff88; should mitigate the majority of negative effects.^reset;"
+  } },
+  { "op":"add", "path":"/ct_ionized_air_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
+  } },
+  { "op":"add", "path":"/ct_ionized_air_immune_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "The air appears to be ^#5000c0;ionized^reset;. ^#88ff88;Thankfully, your ^#7733aa;immunity to electricity^#88ff88; should mitigate the majority of negative effects.^reset;"
+  } },
+  { "op":"add", "path":"/ct_overcharged_air_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "The atmosphere around you is ^#0050c0;extremely overcharged^reset;. ^#ff8888;Please leave immediately for your own safety. This area requires proper ^#7733aa;electric immunity^#ff8888; to proceed.^reset;"
+  } },
+  { "op":"add", "path":"/ct_overcharged_air_immune_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "The atmosphere around you is ^#0050c0;extremely overcharged^reset;. ^#88ff88;Thankfully, your ^#7733aa;immunity to electricity^#88ff88; should minimize the negative effects.^reset;"
+  } },
+  { "op":"add", "path":"/ct_hevikai_strike_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "Seems like you're dangerously close to getting a ^#0050c0;Hevikai^reset; decease. Try to avoid getting any further complications."
+  } },
+  { "op":"add", "path":"/ct_hevikai_msg", "value":{
+    "unique" : false, "textSpeed" : 70,
+    "text" : "Highly charged plasmic signals were detected all over your body. This is ^#0050c0;Hevikai^reset;. All electric immunity has been significantly decreased. If you don't cure this in time, it might not end well."
+  } }
+]

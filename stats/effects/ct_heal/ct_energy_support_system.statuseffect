@@ -1,0 +1,16 @@
+{
+  "name" : "ct_energy_support_system",
+  "label" : "Energy Support System",
+  "description" : "Constantly replenishes your energy you by 1% each second.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healStat" : "energy",
+    "healTime" : 0.5
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_healing.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_energy_support_system.png"
+}

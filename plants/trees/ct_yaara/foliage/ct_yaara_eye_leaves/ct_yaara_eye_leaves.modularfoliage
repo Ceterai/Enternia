@@ -1,11 +1,14 @@
 {
   "name" : "ct_yaara_eye_leaves",
+  "shortdescription" : "Eyed Yaara Leaves",
+  "description" : "A variation of ^#20f080;yaara leaves^reset; that was able to produce some ^#20f080;yaara eyes^reset;.  \nMost commonly found on ^#20f080;eyed yaara nodes^reset;.",
   "shape" : "savannah2",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ct_yaara_eye", "count" : 2 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ct_yaara_eye" } ]
+      [ { "item" : "sapling" }, { "item" : "ct_yaara_eye", "count" : 2 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_yaara_eye" } ]
     ],
     
     "particles" : {

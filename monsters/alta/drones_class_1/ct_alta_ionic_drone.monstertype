@@ -7,7 +7,7 @@
 
   "primaryAbility" : {
     "name" : "Ion Discharger",
-    "description" : "Can fire a rapid semi-auto ion burst of 6 ^#8020f0;Ions^reset;. Periodically disperses ^#8020f0;electric^reset; clouds around it. Will explode with ^#8020f0;electric^reset; particles on destruction."
+    "description" : "Can fire a rapid semi-auto ion burst of 6 ^#8020f0;Ions^reset;. Periodically disperses ^#7733aa;electric^reset; clouds around it. Will explode with ^#7733aa;electric^reset; particles on destruction."
   },
 
   "passiveAbility" : {
@@ -23,7 +23,7 @@
     "behaviorConfig" : {
       "damageOnTouch" : true, "targetQueryRange" : 30,
       "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } } ],
-      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
       "hostileActions" : [
         {
           "name" : "action-fire", "cooldown" : [2, 4],
@@ -99,7 +99,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

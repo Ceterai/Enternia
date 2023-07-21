@@ -5,6 +5,7 @@
         "priority" : 0, "default" : "idle",
         "states" : {
           "idle" : { "frames" : 6, "cycle" : 0.8, "mode" : "loop" }, "walk" : { "frames" : 8, "cycle" : 1.6, "mode" : "loop" },
+          "fall" : { "frames" : 6, "cycle" : 0.8, "mode" : "loop" }, "jump" : { "frames" : 8, "cycle" : 1.6, "mode" : "loop" },
           "fire" : { "frames" : 2, "cycle" : 0.2, "mode" : "loop" }, "fireidle" : { "frames" : 1 },
           "firewindup" : { "frames" : 4, "cycle" : 0.6, "properties" : { "immediateSound" : "/sfx/npc/monsters/anglure_windup.ogg" } },
           "firewinddown" : { "frames" : 4, "cycle" : 0.3 },
@@ -39,6 +40,8 @@
           "body" : {
             "idle" : { "properties" : { "image" : "<partImage>:<alt>idle.<frame>" } },
             "walk" : { "properties" : { "image" : "<partImage>:walk.<frame>" } },
+            "fall" : { "properties" : { "image" : "<partImage>:<alt>idle.<frame>" } },
+            "jump" : { "properties" : { "image" : "<partImage>:walk.<frame>" } },
             "fire" : { "properties" : { "image" : "<partImage>:fire.<frame>" } },
             "fireidle" : { "properties" : { "image" : "<partImage>:fireidle.<frame>" } },
             "firewindup" : { "properties" : { "image" : "<partImage>:firewindup.<frame>" } },

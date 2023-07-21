@@ -1,0 +1,15 @@
+{
+  "name" : "ct_life_support_module",
+  "label" : "Life Support Module",
+  "description" : "Constantly heals you by 0.5% each second.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healTime" : 1
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_healing.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_life_support_module.png"
+}

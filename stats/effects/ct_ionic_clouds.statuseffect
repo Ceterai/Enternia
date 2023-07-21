@@ -1,0 +1,16 @@
+{
+  "name" : "ct_ionic_clouds",
+  "label" : "Ionic Clouds",
+  "description" : "Periodically burst with ^#7733aa;electric^reset; clouds.",
+
+  "effectConfig" : {
+    "range" : 3,
+    "type" : "smallelectriccloud",
+    "damageMultiplier" : 1,
+    "cooldown" : 4.0
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [ "/stats/scripts/ct_burst.lua" ],
+  "icon" : "ct_ionic_clouds.png"
+}

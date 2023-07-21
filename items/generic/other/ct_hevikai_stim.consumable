@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_hevikai_stim",
+  "shortdescription" : "Hevikai Stim ^#8020f0;^reset;",
+  "description" : "Develops ^#0050c0;Hevikai^reset; inside of you. Why would you do that? Who knows. Make sure to have a complimenting ^#0050c0;Hevikai Antidote^reset; with you.",
+  "level" : 6, "rarity" : "Legendary", "price" : 280, "race" : "alta",
+  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_hevikai_stim.png",
+
+  "effects" : [ [
+      {
+        "effect" : "ct_hevikai",
+        "duration" : 600
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+}

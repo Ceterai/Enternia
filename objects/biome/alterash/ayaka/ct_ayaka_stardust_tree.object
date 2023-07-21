@@ -1,0 +1,44 @@
+{
+  "objectName" : "ct_ayaka_stardust_tree",
+  "colonyTags" : [ "alterash", "nature", "ayaka", "stardust" ],
+  "category" : "sapling", "tooltipKind" : "ct_alta_object",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Stardust Ayaka",
+  "description" : "This ^#3587ff;crystal ayaka tree^reset; has overgrown with ^#76c7e4;crystals^reset; saturated with ^#ffa8e8;stardust^reset;.",
+  "altaDescription" : "This chamber contains a sapling of a staris ayaka. What color will it be?",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "/objects/biome/stardust/ct_stardust_crystal/icon.png",
+  "fixedStem" : "ct_ayaka_crystal_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "middleLayerSuffix" : "_icon.png", "iconSuffix" : "icon.png",
+  "fixedStemHues" : [ -32, 16, 100 ], "fixedFoliageHues" : [ 60, 80, 100, 120 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/city/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
+  "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+}

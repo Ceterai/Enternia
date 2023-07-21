@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_growth_giant",
+  "shortdescription" : "Giant Growaric Stipe",
+  "description" : "A gigantic ^#3baf2f;Overgrown Aric Stipe^reset; covered in all sorts of different growth. One of the taller ^#3baf2f;aric^reset; stipes.",
   "shape" : "mushroompatch",
   "health" : 85,
   "middleMinSize" : 16,
@@ -86,6 +88,20 @@
       }
     },
     "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "attachment" : {
         "bx" : -58,

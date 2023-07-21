@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_glow_eyes",
+  "shortdescription" : "Eyed Glowaric Stipe",
+  "description" : "A variation of a ^#3baf2f;Glowing Aric Stipe^reset; that looks like it has many scary ^#3baf2f;aric^reset; eyes. It might be staring at you.",
   "shape" : "mushroompatch",
   "health" : 35,
   "dropConfig" : {
@@ -86,6 +88,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

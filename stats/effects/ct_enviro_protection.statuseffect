@@ -1,0 +1,13 @@
+{
+  "name" : "ct_enviro_protection",
+  "label" : "Enviro Protection",
+  "description" : "Increases your ^#f08020;fire^reset; and ^#80f020;poison^reset; resistance by 15%.",
+  "effectConfig" : {
+    "fireResistance" : 0.15,
+    "poisonResistance" : 0.15
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_enviro_protection.png"
+}

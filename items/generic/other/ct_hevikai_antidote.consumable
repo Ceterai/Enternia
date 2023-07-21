@@ -1,18 +1,17 @@
 {
   "itemName" : "ct_hevikai_antidote",
-  "level" : 4, "rarity" : "Uncommon", "price" : 120,
-  "race" : "alta",
-  "category" : "medicine",
-  "inventoryIcon" : "ct_hevikai_antidote.png",
-  "description" : "A stimpack full of green liquid, gives your run a boost!",
   "shortdescription" : "Hevikai Antidote",
+  "description" : "Prevents or cures ^#0050c0;Hevikai^reset; by applying a short ^#0050c0;Hevikai Block^reset;.  \nTo prevent ever needing this, try acquiring some ^#2080f0;Plasma Status Immunity^reset;.",
+  "level" : 6, "rarity" : "Legendary", "price" : 240, "race" : "alta",
+  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_hevikai_antidote.png",
+
   "effects" : [ [
       {
-        "effect" : "runboost",
-        "duration" : 75
+        "effect" : "ct_hevikai_block",
+        "duration" : 5
       }
     ] ],
-  "tooltipKind" : "ct_alta_consumable",
   "emote" : "",
   "emitters" : [ "stimuse" ],
 

@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_shady_old",
+  "shortdescription" : "Old Shadaric Stipe",
+  "description" : "This ^#3baf2f;Shady Aric Stipe^reset; reeks with holes and age patterns. Some very old ^#3baf2f;aric^reset; growth.",
   "shape" : "mushroompatch",
   "health" : 25,
   "middleMinSize" : 2,
@@ -97,6 +99,20 @@
       }
     },
     "crown2" : {
+      "image" : "crown4.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown3.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown4.png",
       "attachment" : {
         "bx" : -58,

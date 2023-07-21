@@ -16,10 +16,6 @@
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] },
       {"select": 1, "pool": [[0.1429, "wisper"], [0.1429, "lilodon"], [0.1429, "capricoat"], [0.1429, "pulpin"], [0.1429, "monopus"]]},
       { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
-      { "select" : 1, "pool" : "generatedGroundAggroDay" }, 
-      { "select" : 3, "pool" : "nightTerrors" },      
-      { "select" : 2, "pool" : "generatedGround" },
-      { "select" : 2, "pool" : "generatedFlying" },
       { "select": 2, "pool": [ [ 1, "frozenowlcritter" ], [ 1, "sealcritter" ], [ 1, "icescabcritter" ], [ 1, "dancercritter" ], [ 1, "snowbcritter" ] ] }
     ]
   },
@@ -126,7 +122,7 @@
         "objectSets" : [ { "pool" : [ [1, "teslaspike" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
       },
       {

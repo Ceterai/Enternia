@@ -2,8 +2,7 @@
   "itemName" : "ct_monster_spawner",
   "itemTags" : [ "weapon", "ranged", "spawner" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
-  "rarity" : "Legendary",
-  "price" : 1200,
+  "rarity" : "Legendary", "price" : 120,
   "race" : "alta",
   "twoHanded" : false,
 
@@ -63,5 +62,7 @@
 
     "ct_alta_defensive_droid",
     "ct_alta_gheatsyn_droid"
-  ]
+  ],
+
+  "builder" : "/items/active/unsorted/ct_alta_spawner/ct_monster_spawner_builder.lua"
 }

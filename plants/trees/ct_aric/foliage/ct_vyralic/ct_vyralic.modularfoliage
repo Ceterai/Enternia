@@ -1,10 +1,12 @@
 {
   "name" : "ct_vyralic",
+  "shortdescription" : "Vyralic Cap",
+  "description" : "Crimson-colored, willow-like ^#3baf2f;aric^reset; caps, dangling to the ground. Each \"leaf\" is a separate segment holding the spores.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {
@@ -103,6 +105,22 @@
       }
     },
     "crown2" : {
+      "image" : "crown2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "backimage" : "",
       "attachment" : {

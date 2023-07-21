@@ -158,7 +158,7 @@ function build(directory, config, parameters, level, seed)
   -- Upgrade
   if config.upgradeParameters then
     local name = config.upgradeParameters.shortdescription
-    if name and name ~= configParameter("shortdescription", {}) then
+    if name and name ~= configParameter("shortdescription", "") then
       config.tooltipFields.upgradeLabel = name
       config.tooltipFields.upgradeTitleLabel = "^gray;Upgrade: ^reset;"
       name = "^gray;Upgraded to: ^reset;" .. name
@@ -174,6 +174,7 @@ function build(directory, config, parameters, level, seed)
   end
 
   config.tooltipFields.fullDescriptionLabel = full_desc
+  if configParameter("foundOn") then config.tooltipFields.foundOnLabel = "^gray;Found in:^reset; " .. table.concat(configParameter("foundOn"), "^gray;,^reset; ") end
 
   return config, parameters
 end

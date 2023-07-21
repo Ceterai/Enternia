@@ -54,7 +54,7 @@
         "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
       },
       {
@@ -98,7 +98,7 @@
         "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ], [1, "ct_eds_status_pod" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "ct_eds_lamppost" ] ], "parameters" : { } } ]
       },
       {

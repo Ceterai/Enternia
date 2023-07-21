@@ -1,10 +1,12 @@
 {
   "name" : "ct_coroplic",
+  "shortdescription" : "Coroplic Cap",
+  "description" : "These ^#3baf2f;aric^reset; caps store their spores in big appendages ringht under the cap curve to protect them until they're ready to spread.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {

@@ -7,7 +7,7 @@
 
   "primaryAbility" : {
     "name" : "Sentry",
-    "description" : "Will launch a big cloud of ^#80f0f0;ice^reset; gas at targets. Will explode with ^#8020f0;electric^reset; particles on destruction."
+    "description" : "Will launch a big cloud of ^#80f0f0;ice^reset; gas at targets. Will explode with ^#7733aa;electric^reset; particles on destruction."
   },
 
   "passiveAbility" : {
@@ -117,7 +117,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

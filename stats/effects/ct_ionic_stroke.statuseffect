@@ -1,0 +1,24 @@
+{
+  "name" : "ct_ionic_stroke",
+  "label" : "Ionic Stroke",
+  "description" : "Quickly degrades your energy. Once out of energy, damages you repeatedly with ^#8020f0;enternia^reset; electricity.",
+  "blockingStat" : "ionicStatusImmunity",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "sparks", "ember" ] },
+
+    "movementModifiers" : { "speedModifier" : 0.6, "airJumpModifier" : 0.6 },
+    "cooldown" : 2.0,
+    "energyCost" : 40,
+    "damage" : 80,
+    "semiImmunity" : "electricStatusImmunity",
+
+    "poisonResistance" : -0.1,
+    "electricResistance" : -0.2
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_planet_effect.lua" ],
+  "animationConfig" : "ct_ionic.animation",
+  "icon" : "ct_ionic_stroke.png"
+}

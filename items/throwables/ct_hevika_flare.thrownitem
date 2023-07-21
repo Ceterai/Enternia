@@ -1,8 +1,7 @@
 {
   "itemName" : "ct_hevika_flare",
-  "rarity" : "Uncommon",
-  "price" : 15,
-  "category" : "throwableItem",
+  "level" : 4, "rarity" : "Uncommon", "price" : 10, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_hevika_flare.png",
   "image" : "ct_hevika_flare.png",
   "shortdescription" : "Hevika Flare",
@@ -24,5 +23,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

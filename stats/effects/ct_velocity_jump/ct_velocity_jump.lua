@@ -1,22 +1,18 @@
+require "/stats/effects/ct_velocity_jump/ct_longfall.lua"
+ct_longfall_init = init
+require "/stats/effects/ct_velocity_jump/ct_velocity_boost.lua"
+ct_velocity_boost_init = init
+ct_velocity_boost_update = update
+
+
 function init()
-  local bounds = mcontroller.boundBox()
-  animator.setParticleEmitterOffsetRegion("jumpparticles", {bounds[1], bounds[2] + 0.2, bounds[3], bounds[2] + 0.3})
-  effect.addStatModifierGroup({
-    {stat = "jumpModifier", amount = config.getParameter("addJump", 0.5)}
-  })
-  if config.getParameter("feathers", true) then
-    animator.setParticleEmitterOffsetRegion("feathers", mcontroller.boundBox())
-    animator.setParticleEmitterActive("feathers", true)
-  end
+  ct_longfall_init()
+  ct_velocity_boost_init()
 end
 
 function update(dt)
-  animator.setParticleEmitterActive("jumpparticles", config.getParameter("particles", true) and mcontroller.jumping())
-  mcontroller.controlModifiers({
-      airJumpModifier = 1.0 + config.getParameter("addJump", 0.5)
-    })
+  ct_velocity_boost_update(dt)
 end
 
 function uninit()
-  
 end

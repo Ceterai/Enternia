@@ -1,10 +1,12 @@
 {
   "name" : "ct_hyolic",
+  "shortdescription" : "Hyolic Cap",
+  "description" : "Similar to ^#3baf2f;akollic caps^reset;, these ^#3baf2f;aric^reset; caps have bright colors on them, this time in a nice soft pink shade.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 4 },
+    { "item" : "ctwoodsap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "moondust",
+    "count" : 4
+  },
+  "duration" : 0.01,
+  "groups" : [ "alta_t2", "materials", "all" ]
+}

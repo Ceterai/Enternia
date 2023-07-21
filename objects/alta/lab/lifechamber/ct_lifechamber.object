@@ -2,12 +2,11 @@
   "objectName" : "ct_lifechamber",
   "colonyTags" : [ "alta", "alta_lab", "light" ],
   "category" : "furniture",
-  "rarity" : "Rare",
-  "price" : 640,
+  "level" : 1, "rarity" : "Rare", "price" : 640,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "Life Chamber",
+  "shortdescription" : "Alta Lifechamber",
   "description" : "A healing station made by ^#b0e0fc;altas^reset;. Provides additional positive effects.",
   "altaDescription" : "Ah, a checkpoint! I can rest here.",
 
@@ -28,7 +27,7 @@
   "lightColor" : [32, 128, 240],
 
   "objectType" : "loungeable",
-  "sitCoverImage" : "/objects/alta/lab/ct_alta_lab_lifechamber/cover.png",
+  "sitCoverImage" : "/objects/alta/lab/lifechamber/cover.png",
   "sitFlipDirection" : false,
   "sitOrientation" : "lay",
   "sitAngle" : 0,

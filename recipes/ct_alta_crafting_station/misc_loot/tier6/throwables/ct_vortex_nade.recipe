@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ct_bion", "count" : 2 },
-    { "item" : "ct_phosicore", "count" : 2 },
-    { "item" : "wire", "count" : 1 }
+    { "item" : "ct_bion", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 }
   ],
-  "output" : { "item" : "ct_vortex_nade", "count" : 4 },
-  "groups" : [ "alta_max", "misc_loot", "all" ]
+  "output" : { "item" : "ct_vortex_nade", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "equipment", "all" ]
 }

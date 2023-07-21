@@ -72,13 +72,13 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
-        "treeFoliageHueShiftMax" : 160, "treeFoliageHueShiftMin" : 140, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
+        "treeFoliageHueShiftMax" : 128, "treeFoliageHueShiftMin" : 80, "treeStemHueShiftMin" : -32, "treeStemHueShiftMax" : -32,
+        "treeStemList" : [ "ct_ayaka_crystal_stem", "ct_ayaka_crystal_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "tree",
-        "treeFoliageHueShiftMax" : 160, "treeFoliageHueShiftMin" : 140, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
+        "treeFoliageHueShiftMax" : 128, "treeFoliageHueShiftMin" : 80, "treeStemHueShiftMin" : 100, "treeStemHueShiftMax" : 100,
+        "treeStemList" : [ "ct_ayaka_crystal_stem", "ct_ayaka_crystal_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       // Other
       {
@@ -145,13 +145,13 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
-        "treeFoliageHueShiftMax" : 80, "treeFoliageHueShiftMin" : 60, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
+        "treeFoliageHueShiftMax" : 80, "treeFoliageHueShiftMin" : 60, "treeStemHueShiftMin" : 16, "treeStemHueShiftMax" : 16,
+        "treeStemList" : [ "ct_ayaka_stem", "ct_ayaka_crystal_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseLarge", "type" : "tree",
-        "treeFoliageHueShiftMax" : 80, "treeFoliageHueShiftMin" : 60, "treeStemHueShiftMax" : 15,
-        "treeStemList" : [ "ct_ayaka_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
+        "treeFoliageHueShiftMax" : 80, "treeFoliageHueShiftMin" : 60, "treeStemHueShiftMin" : 100, "treeStemHueShiftMax" : 100,
+        "treeStemList" : [ "ct_ayaka_stem", "ct_ayaka_crystal_stem" ], "treeFoliageList" : [ "ct_ayaka_prime_leaves" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "object",

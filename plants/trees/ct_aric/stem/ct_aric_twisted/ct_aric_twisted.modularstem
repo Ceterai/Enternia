@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_twisted",
+  "shortdescription" : "Twisted Aric Stipe",
+  "description" : "A thin, soft-ish ^#3baf2f;aric^reset; stipe that has twisted around itself many times at this point.",
   "shape" : "mushroompatch",
   "health" : 25,
   "dropConfig" : {
@@ -86,6 +88,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

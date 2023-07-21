@@ -1,6 +1,6 @@
-[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/alterash.png[/img]
 What awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! [b]Welcome to Alterash.[/b]
 
+[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/alterash.png[/img]
 I made this mod mainly for myself, but decided to share with everybody.
 This mod adds a [b]new playable race[/b], 2 [b]new planets[/b] with their own [b]biomes[/b], [b]monsters[/b], many [b]hazards[/b] and [b]treasure[/b]. The mod adds new [b]unique weapons[/b], [b]armor[/b], [b]cosmetics[/b], [b]augments/collars[/b], [b]spawners[/b], [b]codexes[/b], [b]throwables[/b] and [b]other equipment[/b].
 All new content [b]can only be found on those 2 planets[/b], is fairly balanced, and thus doesn't interfere with normal gameplay!
@@ -31,13 +31,14 @@ Other crafting tables include:[list]
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter]Alta Datacenter[/url] for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them if you don't have to visit the wiki);
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station]Alta Upgrade Station[/url] for upgrading some mod items in exchange for [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png [/img][url=https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard]Gheatsyn Shards[/url];
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/deprecation_station/icon.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Deprecation-Station]Deprecation Station[/url] is a tiny crafting table that allows you to convert deprecated items/objects to new ones, or exchange Perfectly Generic Items for different presents.[/list]
-This mod [b]doesn't[/b] require any other mods to work and should be FU-compatible. It also [b]shouldn't conflict with any other mods[/b] due to specific id patterns.
 Also, check out a [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/codex/books/ct_alta_book.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Guide-to-My-Enternia]Mod Guide[/url] codex that you can buy at Treasured Trophies!
+
+This mod [b]doesn't[/b] require any other mods to work and should be FU-compatible. It also [b]shouldn't conflict with any other mods[/b] due to specific id patterns.
 [h2]Supported Addons[/h2][list]
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=737353165]Tabula Rasa[/url] (some items are available at the table);
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=731354142]Improved Food Descriptions[/url] (proper support for all effects added by this mod);
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107]More Planet Info[/url] (proper support for all effects, weather and biomes of this mod);
-[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=730684624]True Space[/url] (planets added by this mod are able to spawn near True Space stars. [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png [/img] [url='https://github.com/Ceterai/Enternia/wiki/Alterash']Alterash[/url] can spawn as a mild/cool planet or satellite, [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png [/img] [url='https://github.com/Ceterai/Enternia/wiki/Alterash-Prime']Alterash Prime[/url] as a cool/cold planet or satellite).[/list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=730684624]True Space[/url] (planets added by this mod are able to spawn near True Space stars. [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alterash]Alterash[/url] can spawn as a mild/cool planet or satellite, [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alterash-Prime]Alterash Prime[/url] as a cool/cold planet or satellite).[/list]
 [h2]Mod Content Rundown[/h2]
 (Scroll down for information for modders)
 [img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tooltip1.png[/img]

@@ -1,7 +1,7 @@
 {
   "name" : "ct_autoshielder_force",
   "label" : "Force Field Autoshielder",
-  "description" : "Applies ^#2080f0;Force Shield^reset; to you when your health is lower than 20%.",
+  "description" : "Applies ^#2080f0;Force Shield^reset; to you when your health is lower than 25%.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
@@ -9,7 +9,9 @@
       "name" : "Force Shield",
       "type" : "ct_force_shield",
       "duration" : 12
-    }
+    },
+    "cooldown" : 40,
+    "energyUsage" : 20
   },
   "defaultDuration" : 10,
   "scriptDelta" : 10,

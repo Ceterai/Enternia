@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_twisted_undone",
+  "shortdescription" : "Undone Twistaric Stipe",
+  "description" : "This ^#3baf2f;Twisted Aric Stipe^reset; has... untwisted itself? Interesting! This type of ^#3baf2f;aric^reset; stipes is pretty rare to see this way.",
   "shape" : "mushroompatch",
   "health" : 25,
   "middleMinSize" : 5,
@@ -88,6 +90,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

@@ -19,6 +19,7 @@
       "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
     }
   ],
+  "statusEffects" : [ "ct_pulse_paralysis" ],
   "lightColor" : [32, 240, 128],
   "damageKind" : "ct_impulse"
 }

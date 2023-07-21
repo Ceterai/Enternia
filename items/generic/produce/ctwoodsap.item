@@ -1,13 +1,14 @@
 {
   "itemName" : "ctwoodsap",
   "shortdescription" : "Ionic Ferment",
-  "description" : "This ferment acts as ayaka wood sap and is what some fruits turn into when expire. Very sticky.",
+  "description" : "This ferment acts as ^#3587ff;ayaka^reset; wood sap and is what some fruits turn into when expire. Very sticky.",
+  "foundOn" : [ "^#20f080;Alterash^reset;", "^#2080f0;Alterash Prime^reset;" ],
   "inventoryIcon" : "ctwoodsap.png",
 
-  "price" : 5,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
+  "rarity" : "Common", "price" : 5,
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ]
+  "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -22,7 +22,7 @@
     "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "seeThroughLiquid" : false, "monsterClass" : "rare",
     "behaviorConfig" : {
       "damageOnTouch" : true, "targetQueryRange" : 40,
-      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
       "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } },
         { "name" : "action-animate", "parameters" : { "state" : "aggro", "animationTime" : 0.6 } } ],
       "damageTakenActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
@@ -102,7 +102,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

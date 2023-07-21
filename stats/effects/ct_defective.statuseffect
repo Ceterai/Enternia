@@ -1,0 +1,19 @@
+{
+  "name" : "ct_defective",
+  "label" : "Defective",
+  "description" : "Repeatedly damages enemies around you with electricity. Damage is dependant on your max health.",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "sparks" ] },
+    "boltInterval" : 1.0,
+    "jumpDistance" : 2,
+    "damageFromMaxHealth" : true,
+    "damageFromMaxHealthPercent" : 0.05,
+    "damageClamp" : true
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "/stats/scripts/ct_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_defective.png"
+}

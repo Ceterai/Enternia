@@ -17,6 +17,7 @@
     }
   ],
   "statusEffects" : [ "ct_plasma_burn" ],
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
   "lightColor" : [96, 192, 252],
   "damageKind" : "ct_plasma"
 }

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "larva", "count" : 1 },
+    { "item" : "liquidpoison", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "venomsample",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "alta_t4", "materials", "all" ]
+}

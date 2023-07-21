@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "crystal", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_plasma_stim",
+    "count" : 1
+  },
+  "groups" : [ "alta_t3", "medicine", "debug", "all" ]
+}

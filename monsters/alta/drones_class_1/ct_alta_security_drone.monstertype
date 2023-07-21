@@ -7,7 +7,7 @@
 
   "primaryAbility" : {
     "name" : "Unarmed",
-    "description" : "Will swoop at enemies when in range. Will explode with ^#8020f0;electric^reset; particles on destruction."
+    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction."
   },
 
   "passiveAbility" : {
@@ -24,8 +24,16 @@
       "damageOnTouch" : true, "targetQueryRange" : 20,
       "foundTargetActions" : [ ],
       "fleeActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
-      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
-      "hostileActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 8, "maxRange" : 20 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
+      "hostileActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 8, "maxRange" : 12 } },
+        {
+          "name" : "action-swoop", "cooldown" : [2,6], "parameters" : {
+            "minimumRange" : 3, "maximumRange" : 10, "onGround" : false,  // "action-windup" params
+            "windupTime" : 0.55, "requireLineOfSight": true,  // "action-windup" params
+            "gravityMultiplier" : -0.5
+          }
+        }
+      ],
       "approachActions" : [ { "name" : "approach-fly" } ],
       "followActions" : [ { "name" : "approach-teleport" }, { "name" : "approach-fly" } ],
       "wanderActions" : [
@@ -79,7 +87,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

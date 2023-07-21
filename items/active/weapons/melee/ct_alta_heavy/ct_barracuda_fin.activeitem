@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_barracuda_fin",
   "shortdescription" : "Barracuda's Fin ^red;WIP^reset;",
-  "description" : "All what's left from a mysterious beast. If it's this big, who knows what a giant this was...",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nAll what's left from a mysterious beast. If it's this big, who knows what a giant this was...",
   "elementalType" : "physical",
 
   "level" : 3, "price" : 720, "rarity" : "Uncommon",
@@ -24,8 +24,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "name" : "Test.",
-    "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash.",
+    "name" : "Jaw Strike",
+    "description" : "WIP. A sequence of 4 (+1) heavy strikes. Hold to perform a Fang Discharge.",
     "fireTime" : 0.9,
     "baseDps" : 12,
     "damageConfig" : {
@@ -35,8 +35,8 @@
 
   "altAbilityType" : "astraltear",
   "altAbility" : {
-    "name" : "Test.",
-    "description" : "Test."
+    "name" : "Finspin",
+    "description" : "WIP. Hold to perform a Spin Slash."
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -49,12 +49,12 @@
     "elementalType" : "electric",
     "primaryAbility" : {
       "fireTime" : 0.6,
-      "name" : "Test.",
-      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
+      "name" : "Perfect Strike",
+      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform an Energy Charge."
     },
     "altAbility" : {
-      "name" : "Test.",
-      "description" : "Test."
+      "name" : "Steelspin",
+      "description" : "Hold to perform a Super Spin Slash."
     }
   }
 }

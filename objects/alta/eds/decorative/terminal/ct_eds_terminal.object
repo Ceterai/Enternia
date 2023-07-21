@@ -2,12 +2,11 @@
   "objectName" : "ct_eds_terminal",
   "colonyTags" : [ "alta", "eds", "wired" ],
   "category" : "wire",
-  "rarity" : "Rare",
-  "price" : 320,
+  "level" : 1, "rarity" : "Rare", "price" : 320,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
-  "shortdescription" : "EDS Terminal",
+  "shortdescription" : "^#f02020;EDS^reset; Terminal",
   "description" : "A militaristic protected terminal owned by ^#f02020;EDS^reset;. Seems like it'll keep working under any conditions.",
   "altaDescription" : "A typical EDS terminal. Has a special set of encryptions.",
 

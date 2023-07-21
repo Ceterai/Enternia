@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_bishyn_spear",
   "shortdescription" : "Bishyn Spear ^red;WIP^reset;",
-  "description" : "Be careful - the blade of this spear is made out of poisonous crystals.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nBe careful - the blade of this spear is made out of poisonous crystals.",
   "elementalType" : "physical",
   "price" : 720, "level" : 5, "rarity" : "Rare",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
@@ -24,7 +24,7 @@
   "primaryAbility" : {
     "class" : "SpearStab",
     "name" : "Bishyn Blade",
-    "description" : "A sequence of 3 light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#80f020;poison^reset; damage.",
+    "description" : "WIP. A sequence of 3 light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#80f020;poison^reset; damage.",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,

@@ -1,10 +1,12 @@
 {
   "name" : "ct_perolic",
+  "shortdescription" : "Perolic Cap",
+  "description" : "These sharp-looking spikes on top of those ^#3baf2f;aric^reset; caps are actually pretty soft. They're still very dangerous, since the ends are covered in ^#80f020;poison^reset;.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {
@@ -104,6 +106,22 @@
       }
     },
     "crown2" : {
+      "image" : "crown2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "backimage" : "",
       "attachment" : {

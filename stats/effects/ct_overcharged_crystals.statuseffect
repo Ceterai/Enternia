@@ -1,0 +1,19 @@
+{
+  "name" : "ct_overcharged_crystals",
+  "label" : "Overcharged Crystals",
+  "description" : "Repeatedly damages enemies around you with rapid ^#20f080;Pulsings^reset;.",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "sparks" ] },
+    "boltInterval" : 1.0,
+    "jumpDistance" : 2,
+    "projectile" : "ct_impulse_small",
+    "damageBase" : 10,
+    "damageClamp" : true
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "/stats/scripts/ct_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_overcharged_crystals.png"
+}

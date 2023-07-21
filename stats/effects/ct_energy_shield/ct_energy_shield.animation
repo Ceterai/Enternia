@@ -12,5 +12,9 @@
         }
       }
     }
+  },
+  "sounds" : {
+    "shieldOn" : [ "/sfx/melee/giantsword_charge_electric.ogg" ],
+    "shieldOff" : [ "/sfx/melee/elemental_aura_deactivate1.ogg" ]
   }
 }

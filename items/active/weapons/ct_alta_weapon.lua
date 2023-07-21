@@ -118,14 +118,12 @@ end
 
 function AltaUtils:activate()
   self.active = true
-  sb.logInfo("\n\nfefefef")
   animator.playSound(self.abilitySlot .. "_start")
   animator.playSound(self.abilitySlot .. "_loop", -1)
 end
 
 function AltaUtils:deactivate()
   self.active = false
-  sb.logInfo("\n\n!!!!!!!!!!!!!")
   animator.stopAllSounds(self.abilitySlot .. "_start")
   animator.stopAllSounds(self.abilitySlot .. "_loop")
   animator.playSound(self.abilitySlot .. "_end")

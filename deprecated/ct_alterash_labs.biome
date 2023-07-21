@@ -107,16 +107,16 @@
         "objectSets" : [ { "pool" : [ [1, "teslaspike" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_alterash_lamppost" ] ], "parameters" : { } } ]
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_lamppost" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_alterash_pyramid" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_pyramid" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_alterash_lamppost" ], [1, "ct_alterash_bench" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_lamppost" ], [1, "ct_alta_bench" ] ], "parameters" : { } } ]
       },
       // Dungeons
       // Growth

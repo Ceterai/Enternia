@@ -14,7 +14,6 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       {"select": 1, "pool": [[0.5, "gleap"], [0.5, "ringram"]]},
-      { "select" : 1, "pool" : "generatedFlying" },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"sporelingcritter"],[1,"bouncercritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
     ]
   },
@@ -69,7 +68,7 @@
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
-        "treeStemList" : [ "ct_haven" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeFoliageList" : [ "" ]
+        "treeStemList" : [ "ct_haven_vine" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeFoliageList" : [ "" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "tree",
@@ -137,7 +136,7 @@
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
-        "treeStemList" : [ "ct_haven" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeFoliageList" : [ "" ]
+        "treeStemList" : [ "ct_haven_vine" ], "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeFoliageList" : [ "" ]
       },
       // Other
       {

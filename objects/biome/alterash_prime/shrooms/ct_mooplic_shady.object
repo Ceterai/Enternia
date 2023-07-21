@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_mooplic_shady",
+  "colonyTags" : [ "alterash_prime", "nature", "aric", "shroom" ],
+  "category" : "sapling", "tooltipKind" : "ct_alta_object",
+  "level" : 3, "rarity" : "Uncommon", "price" : 40,
+  "race" : "generic",
+  "printable" : false,
+
+  "shortdescription" : "Mooplic Shroom",
+  "description" : "A very suspicious-looking ^#3baf2f;aric^reset; shroom.",
+  "altaDescription" : "I can see a tiny mooplic in this eco chamber. Not for long!",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 2.5,
+
+  "inventoryIcon" : "/plants/trees/ct_aric/foliage/ct_mooplic/saplingicon.png",
+  "fixedStem" : "ct_aric_shady", "fixedFoliage" : "ct_mooplic",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/lab/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable",
+  "retainObjectParametersInItem" : true,
+  "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+}

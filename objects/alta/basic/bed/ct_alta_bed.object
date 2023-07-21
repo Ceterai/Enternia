@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_bed",
   "colonyTags" : [ "alta" ],
   "category" : "furniture",
-  "rarity" : "Common",
-  "price" : 100,
+  "level" : 2, "rarity" : "Common", "price" : 100,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
@@ -21,18 +20,30 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-12, 14.3], "sitOrientation" : "lay", "sitAngle" : 90,
+  "sitOrientation" : "lay", "sitAngle" : 90,
   "sitCoverImage" : "/objects/alta/basic/bed/cover.png",
   "sitEmote" : "sleep", "sitStatusEffects" : [ "bed3" ], "sitEffectEmitters" : [ "sleepbubbles" ],
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "body.png",
+      "image" : "body.png",
+      "flipImages" : true,
       "imagePosition" : [-24, 0],
+      "sitPosition" : [-4, 14.3],
       "spaceScan" : 0.1,
       "spaces" : [ [-3, 0], [-3, 1], [-2, 0], [-2, 1], [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1], [2, 0], [2, 1], [3, 0], [3, 1] ],
-      "anchors" : [ "bottom" ]
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "body.png",
+      "imagePosition" : [-24, 0],
+      "sitPosition" : [-12, 14.3],
+      "spaceScan" : 0.1,
+      "spaces" : [ [-3, 0], [-3, 1], [-2, 0], [-2, 1], [-1, 0], [-1, 1], [0, 0], [0, 1], [1, 0], [1, 1], [2, 0], [2, 1], [3, 0], [3, 1] ],
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
     }
   ],
 

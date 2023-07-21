@@ -1,18 +1,17 @@
 {
   "itemName" : "ct_ionic_stim",
-  "level" : 4, "rarity" : "Uncommon", "price" : 120,
-  "race" : "alta",
-  "category" : "medicine",
-  "inventoryIcon" : "ct_ionic_stim.png",
-  "description" : "Provides 30s of full immunity to ionic/electric effects and gives 20% resist to electric damage.",
   "shortdescription" : "Ionic Stim Pack",
+  "description" : "Provides 60s of 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#8020f0;Ionic Status Immunity^reset;.",
+  "level" : 5, "rarity" : "Rare", "price" : 180, "race" : "alta",
+  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_ionic_stim.png",
+
   "effects" : [ [
       {
         "effect" : "ct_ionicblockade",
-        "duration" : 30
+        "duration" : 60
       }
     ] ],
-  "tooltipKind" : "ct_alta_consumable",
   "emote" : "",
   "emitters" : [ "stimuse" ],
 

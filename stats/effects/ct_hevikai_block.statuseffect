@@ -1,0 +1,14 @@
+{
+  "name" : "ct_hevikai_block",
+  "label" : "Hevikai Block",
+  "description" : "Prevents or cures existing ^#0050c0;Hevikai^reset;.",
+
+  "effectConfig" : {
+    "hevikaiStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "animationConfig" : "ct_plasma.animation",
+  "icon" : "ct_hevikai_block.png"
+}

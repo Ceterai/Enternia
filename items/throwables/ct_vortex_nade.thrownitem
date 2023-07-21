@@ -1,11 +1,10 @@
 {
   "itemName" : "ct_vortex_nade",
-  "rarity" : "Rare",
-  "price" : 100,
-  "category" : "throwableItem",
+  "level" : 5, "rarity" : "Rare", "price" : 50, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_vortex_nade.png",
   "image" : "ct_vortex_nade.png",
-  "shortdescription" : "Vortex Nade",
+  "shortdescription" : "Vortex Nade ^#2080f0;^reset;",
   "description" : "A grenade that creates a localised vortex field that slows and damages enemies. Covered with signature ^#ffe364;Faradea^reset; stripes.",
 
   "ammoUsage" : 1,
@@ -26,5 +25,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

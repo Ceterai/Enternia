@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_shady_giant",
+  "shortdescription" : "Giant Shadaric Stipe",
+  "description" : "A ^#3baf2f;Shady Aric Stipe^reset; that has grown to incredible hights, impressive for ^#3baf2f;aric^reset; growth.",
   "shape" : "mushroompatch",
   "health" : 85,
   "middleMinSize" : 18,
@@ -97,6 +99,20 @@
       }
     },
     "crown2" : {
+      "image" : "crown4.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown4.png",
       "attachment" : {
         "bx" : -58,

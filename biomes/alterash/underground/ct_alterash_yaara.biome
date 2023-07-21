@@ -119,7 +119,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 3 } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 5, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",

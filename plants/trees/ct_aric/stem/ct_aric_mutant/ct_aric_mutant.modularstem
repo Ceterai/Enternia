@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_mutant",
+  "shortdescription" : "Mutant Aric Stipe",
+  "description" : "A highly mutated ^#3baf2f;aric^reset; stipe type. Due to it's cell structure, it's highly susceptible to different mutations.",
   "shape" : "mushroompatch",
   "health" : 25,
   "middleMinSize" : 5,
@@ -106,6 +108,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

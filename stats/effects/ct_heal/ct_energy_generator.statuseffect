@@ -1,0 +1,17 @@
+{
+  "name" : "ct_energy_generator",
+  "label" : "Energy Generator",
+  "description" : "Constantly replenishes your energy you by 2% each second.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "healStat" : "energy",
+    "healBase" : 0.005,
+    "healTime" : 0.25
+  },
+  "defaultDuration" : 1,
+
+  "scripts" : [ "ct_healing.lua" ],
+  "animationConfig" : "ct_life_support.animation",
+  "icon" : "ct_energy_generator.png"
+}

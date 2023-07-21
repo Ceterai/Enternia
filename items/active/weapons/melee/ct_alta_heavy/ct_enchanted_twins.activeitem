@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_enchanted_twins",
   "shortdescription" : "Vionos Twins ^red;WIP^reset;",
-  "description" : "Someone did the seemingly impossible - used anomaly energy to create a tool. You can sense slight magnetic pulls.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nSomeone did the seemingly impossible - used anomaly energy to create a tool. You can sense slight magnetic pulls.",
   "elementalType" : "physical",
 
   "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
@@ -17,14 +17,14 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "name" : "Resonation",
-    "description" : "A sequence of 3 heavy strikes. Hold to perform a Spin Slash.",
+    "description" : "WIP. A sequence of 3 heavy strikes. Hold to perform a Spin Slash.",
     "fireTime" : 0.83,
     "baseDps" : 12
   },
 
   "altAbilityType" : "superspinslash",
   "altAbility" : {
-    "description" : "Test."
+    "description" : "WIP. Hold to perform a Spin Slash."
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -36,12 +36,12 @@
     "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
-      "name" : "Test.", "fireTime" : 0.93,
+      "name" : "Dual Resonation", "fireTime" : 0.93,
       "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
     },
     "altAbility" : {
-      "name" : "Test.",
-      "description" : "Test."
+      "name" : "Super Spin Slash",
+      "description" : "Hold to perform a Super Spin Slash."
     }
   }
 }

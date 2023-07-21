@@ -1,0 +1,13 @@
+{
+  "name" : "ct_eds_protection_module",
+  "label" : "^#b81824;EDS^reset; Protection Module",
+  "description" : "Adds 10% electric resistance and 2 defense.",
+  "effectConfig" : {
+    "electricResistance" : 0.10,
+    "protection" : 2
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_eds_protection_module.png"
+}

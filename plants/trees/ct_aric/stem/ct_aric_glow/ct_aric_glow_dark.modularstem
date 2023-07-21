@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_glow_dark",
+  "shortdescription" : "Dark Glowaric Stipe",
+  "description" : "A variation of a ^#3baf2f;Glowing Aric Stipe^reset; that shows little to no ^#3baf2f;aric^reset; sap.",
   "shape" : "mushroompatch",
   "health" : 15,
   "middleMinSize" : 1,
@@ -79,6 +81,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

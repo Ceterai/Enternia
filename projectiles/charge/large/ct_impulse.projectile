@@ -17,6 +17,7 @@
       "file" : "/projectiles/explosions/pulsecannonexplosion/pulsecannonexplosion.config"
     }
   ],
+  "statusEffects" : [ "ct_pulse_paralysis" ],
   "lightColor" : [96, 252, 192],
   "damageKind" : "ct_impulse"
 }

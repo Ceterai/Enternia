@@ -1,13 +1,13 @@
 {
   "itemName" : "ct_datamass",
-  "shortdescription" : "Empty Datamass",
+  "shortdescription" : "Datamass",
   "description" : "A compact encrypted data storage that can be used for storing blueprints, codex info and other data. Right now it's empty.",
   "race" : "alta",
 
   "level" : 3, "price" : 40, "rarity" : "Uncommon",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "data_source", "data_storage", "alta", "datamass" ], "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "reagent", "data_source", "data_storage", "alta", "datamass" ], "tooltipKind" : "ct_alta_item_long",
 
   "inventoryIcon" : "ct_datamass.png",
 

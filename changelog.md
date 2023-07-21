@@ -2,6 +2,58 @@
 
 ## Update 2.0 - The Alta Race
 
+### 2.0.1
+
+The database with advanced blueprints you got from those altas is still transferring into your crafting stations and datacenters. The latest blueprint pack has just dropped, let's see what it is! ..Status improvers, protective stim packs, medicine, and... Are these... saplings?
+
+**Main:**
+
+- fixed lots of bugs and crashes. See **Other** for more;
+- updated the Wiki to reflect new changes and improved some of its pages too;
+
+**Alta:**
+
+- added Electric Stim Pack, Impulse Stim Pack, Plasma Stim Pack and Hevikai Stim Pack - both craftable at Alta Crafting Station;
+- added Catalyst - a **debug item** that removes all permanent and ephemeral effects - craftable at max Alta Crafting Station;
+- added 26 custom **debug saplings** that grow into certain tree types added by this mod to be able to test them easier;
+
+**Monsters:**
+
+- fixed drone-related behaviour - `ct_alarm_backup`;
+- fixed shields on drones;
+- made drone spawn animation more visible;
+- fixed different monster projectiles and monster attacks;
+
+**Wiki:**
+
+- properly updated manual pages: Weapons, Bionid, Ceternia, Alternia, Enternia;
+- added support for plants (trees, bushes and grasses);
+- improved support for biomes - they now show most attributes, as well as what can spawn in them;
+- improved support for everything else - if it spawns in a biome, it will now display on its page;
+- improved support for chests - they now show biome loot they can have (if associated with a treasure chest);
+
+**Other:**
+
+- added missing effects - Plasmoblockade, Pulsoblockade, Overcharged Air, Hevikai Strike, Hevikai Block and Hevikai;
+- added better descriptions to items showing where to find them;
+- moved Prismantler to deprecated;
+- fixed a crash when big drones try to jump;
+- fixed rarities/prices/levels for almost all objects;
+- fixed covers and sitting/laying offsets on all loungeable objects;
+- fixed velocity jump status effect;
+- reworked a lot of recipes:
+  - reworked equipment and medicine recipes and united into the same tab;
+  - split cosmetics into 2 tabs instead;
+  - reworked some nature recipes and prepared them for the upcoming mech table;
+  - reworked some crafting material recipes too;
+- reworked a lot of status effect scripts:
+  - moved most scripts and made them more customizeable;
+  - added more proper comments and descriptions to mod scripts;
+  - added proper radio messages for some effects so the player can understand what they do and how to block them - Overcharged Air, Hevikai Strike and Hevikai;
+  - added proper animation files and config;
+- updated mod support script stuff;
+- minor bug fixes.
+
 ### 2.0.0
 
 The Altas are finally here! What secrets do whey hold? Will they share them... with you?  

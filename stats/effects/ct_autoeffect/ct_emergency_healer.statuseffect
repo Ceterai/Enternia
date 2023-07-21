@@ -9,7 +9,9 @@
       "name" : "Emergency Heal",
       "type" : "ct_emergency_heal",
       "duration" : 2
-    }
+    },
+    "cooldown" : 60,
+    "energyUsage" : 40
   },
   "defaultDuration" : 10,
   "scriptDelta" : 10,

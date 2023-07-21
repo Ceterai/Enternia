@@ -1,0 +1,14 @@
+{
+  "name" : "ct_electroblockade",
+  "label" : "Electroblockade",
+  "description" : "Adds 15% ^#7733aa;electric resistance^reset; and ^#7733aa;Electric Status Immunity^reset;.",
+
+  "effectConfig" : {
+    "electricResistance" : 0.15,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_electroblockade.png"
+}

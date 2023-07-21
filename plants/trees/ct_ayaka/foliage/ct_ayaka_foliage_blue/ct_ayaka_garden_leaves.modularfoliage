@@ -1,14 +1,17 @@
 {
   "name" : "ct_ayaka_garden_leaves",
+  "shortdescription" : "Ripe Ayaka Leaves",
+  "description" : "A ripe stage of ^#3587ff;ayaka leaves^reset; full of ^#3587ff;ayas^reset;. Usually found on top of fruitful ^#3587ff;garden ayakas^reset;.",
   "shape" : "ct_ayaka",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_sapling" } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctaya", "count" : 1 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctaya", "count" : 1 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctaya", "count" : 1 }, { "item" : "ctwoodsap", "count" : 1 } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
+      [ { "item" : "sapling" } ],
+      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 }, { "item" : "ctwoodsap", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
     ],
     
     "particles" : {

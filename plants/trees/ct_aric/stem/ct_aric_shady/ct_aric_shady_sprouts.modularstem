@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_shady_sprouts",
+  "shortdescription" : "Sprouted Shadaric Stipe",
+  "description" : "This variation of a ^#3baf2f;Shady Aric Stipe^reset; has partially turned into sprouts. Possibly another ^#3baf2f;aric^reset; mutation.",
   "shape" : "mushroompatch",
   "health" : 30,
   "middleMinSize" : 0,
@@ -81,6 +83,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown2.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown2.png",
       "attachment" : {
         "bx" : -58,

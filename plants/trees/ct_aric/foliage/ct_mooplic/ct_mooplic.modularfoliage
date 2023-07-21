@@ -1,10 +1,12 @@
 {
   "name" : "ct_mooplic",
+  "shortdescription" : "Mooplic Cap",
+  "description" : "Those small white spots on these simple-looking ^#3baf2f;aric^reset; caps are poisonous regiments that cover the spores hidden underneath them.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {

@@ -1,8 +1,7 @@
 {
   "itemName" : "ct_phosphonade",
-  "rarity" : "Uncommon",
-  "price" : 80,
-  "category" : "throwableItem",
+  "level" : 3, "rarity" : "Uncommon", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_phosphonade.png",
   "image" : "ct_phosphonade.png",
   "shortdescription" : "Phosphonade",
@@ -24,5 +23,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

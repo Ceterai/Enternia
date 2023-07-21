@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_growth",
+  "shortdescription" : "Overgrown Aric Stipe",
+  "description" : "This ^#3baf2f;aric^reset; stipe looks like it's covered in fur. Or hair. Hopefully it's neither.",
   "shape" : "mushroompatch",
   "health" : 35,
   "dropConfig" : {
@@ -82,11 +84,41 @@
         "bx" : -58,
         "by" : 0
       }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
     }
   },
   "middle" : {
     "middle1" : {
       "image" : "middle1.png",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0,
+        "x" : 0,
+        "y" : 23
+      }
+    },
+    "middle2" : {
+      "image" : "middle2.png",
       "attachment" : {
         "bx" : 0,
         "by" : 0,
@@ -105,15 +137,6 @@
     },
     "middle4" : {
       "image" : "middle4.png",
-      "attachment" : {
-        "bx" : 0,
-        "by" : 0,
-        "x" : 0,
-        "y" : 23
-      }
-    },
-    "middle2" : {
-      "image" : "middle2.png",
       "attachment" : {
         "bx" : 0,
         "by" : 0,

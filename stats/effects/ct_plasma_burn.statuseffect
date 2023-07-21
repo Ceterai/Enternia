@@ -1,0 +1,22 @@
+{
+  "name" : "ct_plasma_burn",
+  "label" : "Plasma Burn",
+  "description" : "Repeatedly damages you with pure ^#2080f0;plasma^reset;. Having ^#2080f0;Plasma Status Immunity^reset; blocks the effect, ^#7733aa;Electric Status Immunity^reset; minimizes the damage, ^#f08020;Fire Status Immunity^reset; decreases the damage, ^#0050c0;Hevikai^reset; increases the damage.",
+  "blockingStat" : "plasmaStatusImmunity",
+
+  "effectConfig" : {
+    "interval" : 1.0,
+    "healthPercentage" : 0.03,
+    "damageKind" : "ct_plasma",
+    "animation" : { "color" : "fade=0050c0=0.25", "particles" : [ "sparks_dense" ], "lights" : [ "mid" ] },
+
+    "semiImmunity" : "electricStatusImmunity",
+    "miniImmunity" : "fireStatusImmunity",
+    "vulnerability" : "hevikai"
+  },
+  "defaultDuration" : 4,
+
+  "scripts" : [ "/stats/scripts/ct_burning.lua" ],
+  "animationConfig" : "ct_plasma.animation",
+  "icon" : "ct_plasma_burn.png"
+}

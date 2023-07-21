@@ -2,8 +2,7 @@
   "objectName" : "ct_hevika_chair",
   "colonyTags" : [ "crystal", "hevika" ],
   "category" : "furniture",
-  "rarity" : "Common",
-  "price" : 105,
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
@@ -23,6 +22,7 @@
   "orientations" : [
     {
       "dualImage" : "ct_hevika_chair.png",
+      "imagePosition" : [-8, 0],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -30,8 +30,7 @@
 
   "objectType" : "loungeable",
   "sitFlipDirection" : false,
-  "sitPosition" : [2, 22]
-,
+  "sitPosition" : [2, 22],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

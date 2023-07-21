@@ -24,8 +24,8 @@
       "damageOnTouch" : true, "targetQueryRange" : 20,
       "foundTargetActions" : [ { "name" : "ct_action_alarm_backup", "parameters" : { "monsterType": "ct_alta_mini_drone" } } ],
       "fleeActions" : [ ],
-      "damageTakenActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
-      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 0.78 } } ],
+      "damageTakenActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 16, "maxRange" : 20 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
       "hostileActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 8, "maxRange" : 20 } } ],
       "approachActions" : [ { "name" : "approach-fly" } ],
       "followActions" : [ { "name" : "approach-teleport" }, { "name" : "approach-fly" } ],
@@ -80,7 +80,7 @@
       "resources" : {
         "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
         "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
-        "damageAbsorption" : { "initialValue" : 0.0 }
+        "shieldHealth" : { "initialValue" : 0.0 }
       }
     },
     "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },

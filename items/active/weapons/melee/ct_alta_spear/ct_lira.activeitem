@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_lira",
   "shortdescription" : "Lira ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "Each attack of this spear replenishes your energy.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nEach attack of this spear replenishes your energy.",
   "elementalType" : "physical",
   "level" : 6, "price" : 880, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
@@ -23,8 +23,8 @@
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "class" : "SpearStab",
-    "name" : "",
-    "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "name" : "Octavia's Wrath",
+    "description" : "WIP. You can hear harmonical humming coming from this instrument.",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,

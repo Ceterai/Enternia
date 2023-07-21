@@ -1,10 +1,13 @@
 {
   "name" : "ct_yaara_leaves",
+  "shortdescription" : "Yaara Leaves",
+  "description" : "The leaf part of most ^#20f080;yaara nodes^reset;. You can see these a lot on any ^#20f080;yaara^reset; growth in general.",
   "shape" : "savannah2",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
     
     "particles" : {

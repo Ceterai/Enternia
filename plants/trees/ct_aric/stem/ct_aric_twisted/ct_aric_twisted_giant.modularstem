@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_twisted_giant",
+  "shortdescription" : "Giant Twistaric Stipe",
+  "description" : "Some might wonder how an ^#3baf2f;aric^reset; stipe like this can grow so tall without falling over. Maybe ^#3baf2f;Twisted Aric Stipes^reset; are actually quite sturdy.",
   "shape" : "mushroompatch",
   "health" : 50,
   "middleMinSize" : 10,
@@ -88,6 +90,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

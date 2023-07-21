@@ -110,7 +110,7 @@
         "objectSets" : [ { "pool" : [ [1.0, "ct_gheatsyn_crystal" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "background", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:undergroundCapsules", "type" : "object",
+        "mode" : "background", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
         "objectSets" : [ { "pool" : [ [1.0, "ct_gheatsyn_crystal" ] ], "parameters" : { } } ]
       },
       {

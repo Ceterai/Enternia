@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowfibre", "count" : 3 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "biosample", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_glowstick_ceterteal", "count" : 2 },
+  "groups" : [ "alta_t1+", "equipment", "all" ]
+}

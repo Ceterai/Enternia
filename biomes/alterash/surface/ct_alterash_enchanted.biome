@@ -14,7 +14,6 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
-      { "select" : 2, "pool" : "nightTerrors" },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"prismelementalcritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
     ]
   },

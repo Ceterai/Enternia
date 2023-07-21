@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_mutant_giant",
+  "shortdescription" : "Giant Mutaric Stipe",
+  "description" : "This ^#3baf2f;Mutant Aric Stipe^reset; can grow to become the tallest ^#3baf2f;aric^reset; type of stipes.",
   "shape" : "mushroompatch",
   "health" : 65,
   "middleMinSize" : 10,
@@ -91,6 +93,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

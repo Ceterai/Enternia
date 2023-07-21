@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_crystalline_sword",
   "shortdescription" : "Crystalline Sword ^red;WIP^reset;",
-  "description" : "The blade of this sword is made out of crystalline cave crystals. A bit rough around the edges, but still quite powerful.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nThe blade of this sword is made out of crystalline cave crystals. A bit rough around the edges, but still quite powerful.",
   "elementalType" : "physical",
 
   "level" : 5, "price" : 720, "rarity" : "Rare",
@@ -24,8 +24,8 @@
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "name" : "Bishyn Blade",
-    "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#8020f0;electric^reset; damage.",
+    "name" : "Crystalline Blade",
+    "description" : "WIP. A sequence of 4 (+1) light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#7733aa;electric^reset; damage.",
     "fireTime" : 0.9,
     "baseDps" : 12,
     "damageConfig" : {
@@ -39,17 +39,17 @@
 
   "upgradeParameters" : {
     "shortdescription" : "Crystal Razor ^#8020f0;^reset;",
-    "description" : "It's interesting what a ceter-eye can do to a sword.",
-    "inventoryIcon" : "ct_enchanted_twins_2.png", "animationParts" : { "blade" : "ct_enchanted_twins_2.png" },
+    "description" : "A combat tool created as an art piece by an unknown Faradea Legend.",
+    "inventoryIcon" : "ct_crystalline_sword_2.png", "animationParts" : { "blade" : "ct_crystalline_sword_2.png" },
     "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
-      "name" : "Test.",
+      "name" : "Razor Blade",
       "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
     },
     "altAbility" : {
-      "name" : "Test.",
-      "description" : "Test."
+      "name" : "Super Spin",
+      "description" : "Hold to perform a Super Spin."
     }
   }
 }

@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_constructor",
   "colonyTags" : ["alta", "crafting", "bishyn"],
   "category" : "crafting",
-  "rarity" : "Uncommon",
-  "price" : 300,
+  "level" : 1, "rarity" : "Uncommon", "price" : 300,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
@@ -16,7 +15,8 @@
   "placementImagePosition" : [0, 0],
 
   "shortdescription" : "^orange;Alta Constructor^reset;",
-  "description" : "For ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects. ^#b0e0fc;alta^reset;-scan objects crafted here to know more about them!",
+  "description" : "For ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects. ^#b0e0fc;Alta^reset;-scan objects crafted here to know more about them!",
+  "altaDescription" : "This crafting station contains blueprints for certain alta decorations and small structures.",
 
   "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
   "avianDescription" : "A crafting bench made of titanium.",
@@ -110,9 +110,9 @@
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_docs_ceternia-codex", "count" : 1 },
-          { "item" : "ct_docs_alternia-codex", "count" : 1 },
-          { "item" : "ct_docs_enternia-codex", "count" : 1 },
+          { "item" : "ct_docs_elite-codex", "count" : 1 },
+          { "item" : "ct_docs_ct-codex", "count" : 1 },
+          { "item" : "ct_docs_dreamer-codex", "count" : 1 },
           { "item" : "ct_cetersphere", "count" : 1 },
           { "item" : "ct_altersphere", "count" : 1 },
           { "item" : "ct_entersphere", "count" : 1 },

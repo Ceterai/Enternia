@@ -1,12 +1,12 @@
 {
   "itemName" : "ct_warped_hive",
-  "rarity" : "Uncommon",
-  "price" : 20,
-  "category" : "throwableItem",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_warped_hive.png",
   "image" : "ct_warped_hive.png",
   "shortdescription" : "Warped Hive",
   "description" : "A hive of warped flies. These tiny poisonous creatures can become quite a threat when a hive is disturbed.",
+  "foundOn" : [ "^#20f080;Alterash^reset; ^gray;deep caves^reset;" ],
 
   "ammoUsage" : 1,
 
@@ -26,5 +26,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -3,6 +3,7 @@
   "friendlyName" : "Bishyn Halls",
   "description" : "A place full of ^#378754;bishyn^reset; crystals and poison. Both are dangerous.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_bishyn_loot.png",
+  "statusEffects" : [ "ct_overcharged_air" ],
   "mainBlock" : "crystalblock",
   "subBlocks" : [ "moonstone", "moonrock" ],
   "ores" : "ct_alterash_depth2",

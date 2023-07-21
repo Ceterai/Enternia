@@ -1,15 +1,18 @@
 {
   "name" : "ct_ayaka_blossom_leaves",
+  "shortdescription" : "Blossoming Ayaka Leaves",
+  "description" : "These ^#3587ff;ayaka leaves^reset; are in their blossoming stage. They are filled with rich ^#ffe8e8;silk fibres^reset; and can be used to produce ^#ffe8e8;silk^reset;.",
   "shape" : "ct_ayaka",
+  "inventoryIcon" : "icon.png",
 
   "dropConfig" : {
     "drops" : [
       [ ],
-      [ { "item" : "ct_alta_sapling" } ],
-      [ { "item" : "ct_alta_sapling" } ],
-      [ { "item" : "ct_alta_sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
+      [ { "item" : "sapling" }, { "item" : "silkfibre", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "silkfibre", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
     ],
-    
+
     "particles" : {
       "breakTree" : {
         "density" : 3,

@@ -1,15 +1,18 @@
 {
   "name" : "ct_tonnova_bulb",
+  "shortdescription" : "Tonnova Bulb",
+  "description" : "A more structured variation of a ^#c1ebf8;tonnova blob^reset;. Can be found on ^#c1ebf8;wide tonnovas^reset;.",
   "shape" : "desert",
+  "inventoryIcon" : "icon.png",
 
   "lightColor" : [0, 90, 40],
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 3 } ],
-      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 2 }, { "item" : "ct_bionid", "count" : 1 } ],
-      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 1 }, { "item" : "ct_bionid", "count" : 2 } ],
-      [ { "item" : "ct_alta_lab_sapling" }, { "item" : "ct_tonna", "count" : 2 } ]
+      [ { "item" : "sapling" }, { "item" : "ct_tonna", "count" : 3 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_tonna", "count" : 2 }, { "item" : "ct_bionid", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_tonna", "count" : 1 }, { "item" : "ct_bionid", "count" : 2 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_tonna", "count" : 2 } ]
     ],
     "lights" : {
       "glow" : {
@@ -112,8 +115,8 @@
       "image" : "",
       "backimage" : "crown1.png",
       "attachment" : {
-        "bx" : -54,
-        "by" : -5
+        "bx" : -57,
+        "by" : 5
       }
     },
     "crown2" : {
@@ -121,8 +124,8 @@
       "image" : "",
       "backimage" : "crown2.png",
       "attachment" : {
-        "bx" : -53,
-        "by" : -8
+        "bx" : -60,
+        "by" : 2
 
       }
     },
@@ -131,8 +134,8 @@
       "image" : "",
       "backimage" : "crown3.png",
       "attachment" : {
-        "bx" : -54,
-        "by" : -5
+        "bx" : -64,
+        "by" : 3
       }
     }
   },

@@ -55,9 +55,10 @@ function build(directory, config, parameters, level, seed)
   end
   config.tooltipFields.fullDescriptionLabel = configParameter("description", "") .. full_desc
 
-  if config.tooltipFields.effectLabel == nil then
+  if config.tooltipFields.effectLabel == nil and config.tooltipFields.foodAmountLabel ~= "" then
     config.tooltipFields.effectLabel = "Food Value: " .. configParameter("foodValue", 0)
   end
+  if config.itemAgingScripts == nil then config.tooltipFields.rotTimeLabel = "" end
 
   return config, parameters
 end

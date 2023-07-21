@@ -8,7 +8,7 @@
           "ct_alterash_snowy","ct_alterash_enchanted","ct_alterash_valley","ct_alterash_haven"],
         "dungeonCountRange": [2, 3], "dungeons": [[4,"apextestfacility"], [4,"apexbase"], [1,"hylotlcity"]] },
       "subsurface": { "primaryRegion": ["ct_alterash_caves"] },
-      "underground1": { "primaryRegion": ["ct_alterash_deep"], "secondaryRegions": ["ct_alterash_deep_flooded", "ct_ionic_hive"] },
+      "underground1": { "primaryRegion": ["ct_alterash_deep"], "secondaryRegions": ["ct_alterash_deep_flooded", "ct_alterash_deep_yaara"] },
       "underground2": { "primaryRegion": ["ct_alterash_deeper_crystal"], "secondaryRegions": ["ct_alterash_deeper_yaara"] },
       "underground3": { "primaryRegion": ["ct_alterash_deepest"], "secondaryRegions": ["ct_alterash_deepest_warped", "ct_alterash_deepest_enternia"],
         "dungeonCountRange": [3, 4], "dungeons": [[3,"apextestfacility"], [4,"apexbase"], [5,"cultistlair"]] },
@@ -74,11 +74,11 @@
 
   { "op": "add", "path": "/regionTypes/ct_alterash_deep", "value": {
     "caveLiquid": ["water", "poison"],
-    "biome": [[0,[ "ct_alterash_caves_deep" ]]], "subRegion": ["ct_alterash_deep_flooded", "ct_ionic_hive"]
+    "biome": [[0,[ "ct_alterash_caves_deep" ]]], "subRegion": ["ct_alterash_deep_flooded", "ct_alterash_deep_yaara"]
   } },
   { "op": "add", "path": "/regionTypes/ct_alterash_deep_flooded", "value": {
     "caveLiquid": ["water"], "caveLiquidSeedDensityRange": [50, 50],
-    "biome": [[0,[ "ct_alterash_flooded" ]]], "subRegion": ["ct_alterash_deep_yaara", "ct_alterash_deep", "ct_ionic_hive"]
+    "biome": [[0,[ "ct_alterash_flooded" ]]], "subRegion": ["ct_alterash_deep_yaara", "ct_alterash_deep"]
   } },
   { "op": "add", "path": "/regionTypes/ct_alterash_deep_yaara", "value": {
     "caveLiquid": ["poison"],

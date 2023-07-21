@@ -1,0 +1,15 @@
+{
+  "name" : "ct_plasma_block",
+  "label" : "Plasmoblockade",
+  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#2080f0;Plasma Status Immunity^reset;.",
+
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "plasmaStatusImmunity" : true,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_plasma_block.png"
+}

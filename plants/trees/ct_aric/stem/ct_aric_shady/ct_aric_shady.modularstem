@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_shady",
+  "shortdescription" : "Shady Aric Stipe",
+  "description" : "This thick ^#3baf2f;aric^reset; stipe looks like it's been here for ages.",
   "shape" : "mushroompatch",
   "health" : 30,
   "dropConfig" : {
@@ -79,6 +81,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

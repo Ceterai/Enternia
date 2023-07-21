@@ -1,0 +1,23 @@
+{
+  "name" : "ct_mind",
+  "label" : "Mind Field",
+  "description" : "Repeatedly damages enemies around you with ^#8020f0;Ions^reset;, slowing them down. Damage is dependant on your max energy.",
+  "blockingStat" : "emiJam",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "sparks" ] },
+    "boltInterval" : 0.5,
+    "jumpDistance" : 8,
+    "projectile" : "ct_ionic_small",
+    "statusEffects" : [ "frostslow" ],
+    "damageFromMaxEnergy" : true,
+    "damageFromMaxEnergyPercent" : 0.05,
+    "damageClamp" : true,
+    "damageClampRange" : [1, 15]
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ "/stats/scripts/ct_aura.lua" ],
+  "animationConfig" : "ct_electric_aura.animation",
+  "icon" : "ct_mind.png"
+}

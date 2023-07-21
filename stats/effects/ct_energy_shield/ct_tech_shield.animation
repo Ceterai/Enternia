@@ -53,5 +53,9 @@
         { "particle" : "fastrisingelectric"}
       ]
     }
+  },
+  "sounds" : {
+    "shieldOn" : [ "/sfx/melee/mech_energysword_windup1.ogg" ],
+    "shieldOff" : [ "/sfx/melee/elemental_aura_deactivate1.ogg" ]
   }
 }

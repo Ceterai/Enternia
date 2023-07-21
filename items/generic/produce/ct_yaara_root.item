@@ -1,13 +1,14 @@
 {
   "itemName" : "ct_yaara_root",
   "shortdescription" : "^#20f080;Yaara Root^reset;",
-  "description" : "A living thriving piece of evolved plant matter charged with alternia crystals. Can be used for cooking and crafting.",
+  "description" : "A living thriving piece of evolved plant matter called ^#20f080;Yaara^reset;. Can be used for cooking and crafting.",
+  "foundOn" : [ "^#20f080;Alterash^reset; ^gray;mid caves^reset;" ],
   "inventoryIcon" : "ct_yaara_root.png",
 
-  "price" : 20,
-  "rarity" : "Uncommon",
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "ct_lifespring" ]
+  "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -1,12 +1,14 @@
 {
   "name" : "ct_akollic",
+  "shortdescription" : "Akollic Cap",
+  "description" : "Akollic caps are colorful bowl-shaped ^#3baf2f;aric^reset; tops covered in different flowing patterns.",
   "shape" : "mushroompatch",
 
   "dropConfig" : {
     "drops" : [
-      [ { "item" : "ct_alta_lab_sapling" } ]
+      [ { "item" : "sapling" } ]
     ],
-    
+
     "particles" : {
       "breakTree" : {
         "density" : 3,

@@ -1,0 +1,21 @@
+{
+  "particleEmitters" : {
+    "sparks_dense" : { "enabled" : false, "emissionRate" : 5.0, "particles" : [ { "particle" : "electricswoosh1" }, { "particle" : "electricswoosh2" } ] },
+    "sparks" : { "enabled" : false, "emissionRate" : 40, "offsetRegion" : [-0.75, -1.5, 0.75, 1.5], "particles" : [ { "particle" : "electricswoosh1"} ] },
+    "ember" : { "enabled" : false, "emissionRate" : 10.0, "particles" : [ { "particle" : {
+            "type" : "ember", "size" : 1.0, "color" : [0, 192, 80, 180], "fade" : 0.9, "destructionAction" : "shrink", "destructionTime" : 0.8, "timeToLive" : 0.8,
+            "position" : [0.0, 0.0], "offsetRegion" : [0, 0, 0, 0], "initialVelocity" : [0, 0.3], "finalVelocity" : [0, 0.5], "approach" : [0, 0.0]
+    } } ] }
+  },
+  "lights" : {
+    "min" : { "active" : false, "position" : [0, 0], "color" : [0, 96, 40] },
+    "dim" : { "active" : false, "position" : [0, 0], "color" : [0, 192, 80] },
+    "mid" : { "active" : false, "position" : [0, 0], "color" : [32, 240, 128] },
+    "bright" : { "active" : false, "position" : [0, 0], "color" : [96, 252, 192] },
+    "max" : { "active" : false, "position" : [0, 0], "color" : [176, 252, 224] }
+  },
+  "sounds" : {
+    "burn" : [ "/sfx/projectiles/flame_burning.ogg" ],
+    "bolt" : [ "/sfx/projectiles/electric_barrier_shock1.ogg" ]
+  }
+}

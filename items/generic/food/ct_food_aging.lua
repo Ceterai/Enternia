@@ -5,7 +5,7 @@ function ageItem(baseItem, aging)
   local rot_config = getParam(baseItem, itemConfig, "rotConfig", "/items/generic/food/ct_ionic_rotting.config")
   if baseItem.parameters.timeToRot then
     -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
-    if baseItem.parameters.timeToRot == getParam(baseItem, itemConfig, "timeToRotMax", 0) then
+    if itemConfig.config.variants ~= nil and baseItem.parameters.timeToRot == getParam(baseItem, itemConfig, "timeToRotMax", 0) then
       -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
       -- sb.logInfo("\n\nvariants: %s", itemConfig.config.variants)
       local variant = getVariant(itemConfig.config.variants)

@@ -1,5 +1,7 @@
 {
   "name" : "ct_aric_mutant_green",
+  "shortdescription" : "Green Mutaric Stipe",
+  "description" : "This ^#3baf2f;Mutant Aric Stipe^reset; has developed small green glowing ^#3baf2f;aric^reset; shrooms all over its body.",
   "shape" : "mushroompatch",
   "health" : 25,
   "dropConfig" : {
@@ -88,6 +90,27 @@
   },
   "crown" : {
     "crown1" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown1.png",
+      "attachment" : {
+        "bx" : -58,
+        "by" : 0
+      }
+    },
+    "crown4" : {
       "image" : "crown1.png",
       "attachment" : {
         "bx" : -58,

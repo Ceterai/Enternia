@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_niverisk",
   "shortdescription" : "Niverisk ^red;WIP^reset;",
-  "description" : "Be careful - the blade of this spear is made out of poisonous crystals.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nBe careful - the blade of this spear is made out of poisonous crystals.",
   "elementalType" : "poison",
   "price" : 720, "level" : 5, "rarity" : "Rare",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
@@ -23,8 +23,8 @@
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
     "class" : "SpearStab",
-    "name" : "",
-    "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "name" : "Estria's Wrath",
+    "description" : "WIP. A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,
@@ -47,7 +47,7 @@
     "inventoryIcon" : "ct_niverisk_2.png", "animationParts" : { "blade" : "ct_niverisk_2.png" },
     "price" : 800, "rarity" : "Legendary", "elementalType" : "poison",
     "primaryAbility" : {
-      "name" : "Test.",
+      "name" : "Estria's Love",
       "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
     }
   }

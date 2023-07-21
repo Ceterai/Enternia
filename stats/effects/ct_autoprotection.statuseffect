@@ -1,0 +1,12 @@
+{
+  "name" : "ct_autoprotection",
+  "label" : "Autoprotection",
+  "description" : "Temporary increases your defense by 4.",
+  "effectConfig" : {
+    "protection" : 4
+  },
+  "defaultDuration" : 30,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_autoprotection.png"
+}

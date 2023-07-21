@@ -1,13 +1,14 @@
 {
   "name" : "ct_autoprotector",
   "label" : "Autoprotector",
-  "description" : "Applies ^#2080f0;Autoprotection^reset; to you when your health is lower than 20%.",
+  "description" : "Applies ^#2080f0;Autoprotection^reset; to you when your health is lower than 30%.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
     "effectConfig" : {
       "name" : "Autoprotection",
       "type" : "ct_autoprotection",
+      "minHealthPercent" : 0.3,
       "duration" : 10
     }
   },

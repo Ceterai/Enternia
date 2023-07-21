@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "glowfibre", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_electric_stim",
+    "count" : 1
+  },
+  "groups" : [ "alta_t2", "medicine", "debug", "all" ]
+}

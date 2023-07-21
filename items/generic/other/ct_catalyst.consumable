@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_catalyst",
+  "shortdescription" : "Catalyst ^#8020f0;^reset;",
+  "description" : "Removes all effects from you. All of them.",
+  "level" : 6, "rarity" : "Legendary", "price" : 360, "race" : "alta",
+  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_catalyst.png",
+
+  "effects" : [ [
+      {
+        "effect" : "ct_catalized",
+        "duration" : 1
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+}

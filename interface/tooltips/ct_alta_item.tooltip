@@ -36,10 +36,18 @@
   },
   "fullDescriptionLabel" : {
     "type" : "label",
-    "position" : [9, 69],
+    "position" : [9, 71],
     "hAnchor" : "left",
     "vAnchor" : "top",
-    "wrapWidth" : 126
+    "wrapWidth" : 126, "lineSpacing" : 1.2
+  },
+  "foundOnLabel" : {
+    "type" : "label",
+    "position" : [7, 129],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 128, "fontSize" : 6,
+    "value" : ""
   },
   "rarityLabel" : {
     "type" : "label",

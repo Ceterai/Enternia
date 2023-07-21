@@ -1,0 +1,32 @@
+{
+  "name" : "ct_ionized_air",
+  "label" : "Ionized Air",
+  "description" : "Slowly degrades your energy. Once out of energy, damages you repeatedly with ^#8020f0;ionic^reset; strikes.  \nWhile in water, damages you regardless and twice as fast.",
+  "blockingStat" : "ionicStatusImmunity",
+
+  "effectConfig" : {
+    "animation" : { "particles" : [ "ember" ] },
+
+    "movementModifiers" : { "speedModifier" : 1.4, "airJumpModifier" : 1.4 },
+    "cooldown" : 2.0,
+    "energyCost" : 10,
+    "damage" : 20,
+    "fullImmunity" : "electricStatusImmunity",
+
+    "radioMessage" : "ct_ionized_air_msg",
+    "radioMessageImmune" : "ct_ionized_air_immune_msg",
+
+    "liquidID" : 1,
+    "liquidMovementModifiers" : { "speedModifier" : 1.4, "airJumpModifier" : 1.4 },
+    "liquidCooldown" : 1.0,
+    "liquidDamage" : 10,
+    "liquidDamageKind" : "ct_ionic",
+
+    "electricResistance" : -0.1
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_planet_effect.lua" ],
+  "animationConfig" : "ct_ionic.animation",
+  "icon" : "ct_ionized_air.png"
+}

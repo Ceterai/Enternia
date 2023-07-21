@@ -1,12 +1,11 @@
 {
   "itemName" : "ct_alta_testing_ball",
-  "rarity" : "Uncommon",
-  "price" : 560,
-  "category" : "throwableItem",
+  "level" : 4, "rarity" : "Uncommon", "price" : 220, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alta_testing_ball.png",
   "image" : "ct_alta_testing_ball.png",
-  "shortdescription" : "Testing Ball",
-  "description" : "A large heavy metal ball with crystal panels and energy lines. Can be used for testing.",
+  "shortdescription" : "Gyrocore",
+  "description" : "A large heavy metal ball with crystal panels and energy lines. Can be used for testing or as part of big mechanisms.",
 
   "ammoUsage" : 1,
 

@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_park",
   "friendlyName" : "Iora Gyera Park",
-  "description" : "Welcome to our little reserve! Here you can find some rare species of trees and plants, and I assure you that you will remember these magnificent landscapes for a long time.\n\nThese gardens are ^#b0e0fc;alta^reset; nature preservation parks, nice areas created for relaxation and to be a safe place for rare specimens of ^#20f080;alterash^reset; flora and fauna. For this reason, rare flowers called ^#20f080;versalias^reset; can be found much more frequently here than in any other place on alterash planets.  \nOther than that, this biome mostly consists of imported fruitless ayakas prime and rare benches and street lamps.  \nThe underground area is mostly filled with ayaka roots and stardust crystals.\n\nThese preservation parks vere created by the initiative of ^#b0e0fc;Iora Gyera Ordis^reset; to transfer prime nature specimens from ^#2080f0;alterash prime^reset; planets elsewhere with suitable yet safe conditions for their existance.",
+  "description" : "Welcome to our little reserve! Here you can find some rare species of trees and plants, and I assure you that you will remember these magnificent landscapes for a long time.\n\nThese gardens are ^#b0e0fc;alta^reset; nature preservation parks, nice areas created for relaxation and to be a safe place for rare specimens of ^#20f080;alterash^reset; flora and fauna. For this reason, rare flowers called ^#20f080;versalias^reset; can be found much more frequently here than in any other place on alterash planets.  \nOther than that, this biome mostly consists of imported fruitless ayakas prime and rare benches and street lamps.  \nThe underground area is mostly filled with ^#3587ff;ayaka roots^reset; and stardust crystals.\n\nThese preservation parks vere created by the initiative of ^#b0e0fc;Iora Gyera Ordis^reset; to transfer prime nature specimens from ^#2080f0;alterash prime^reset; planets elsewhere with suitable yet safe conditions for their existance.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_gyera_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonstone", "moonrock" ],
@@ -15,7 +15,6 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
-      { "select" : 2, "pool" : "nightTerrors" },
       { "select" : 2, "pool" : [[0.15,"crystalbirdcritter"], [0.6,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"], [0.1,"bluebutterflycritter"]] }
     ]
   },
@@ -59,16 +58,16 @@
         "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_alterash_lamppost" ] ], "parameters" : { } } ]
+        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "object",
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_lamppost" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_alterash_pyramid" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_alta_pyramid" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:rareClumpySmall", "type" : "object",
-        "objectSets" : [ { "pool" : [ [0.25, "ct_alterash_lamppost" ], [0.75, "ct_alterash_bench" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [0.25, "ct_alta_lamppost" ], [0.75, "ct_alta_bench" ] ], "parameters" : { } } ]
       },
       // Dungeons
       // Growth
@@ -92,7 +91,7 @@
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseSurfaceCrops", "type" : "object",
-        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 2 } } ]
+        "objectSets" : [ { "pool" : [ [1, "ct_wild_tsay_seed" ] ], "parameters" : { "startingStage" : 3 } } ]
       },
       // Other
       {

@@ -63,7 +63,7 @@
       },
       {
         "mode" : "ceiling", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "tree",
-        "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeStemList" : [ "ct_haven" ], "treeFoliageList" : [ "" ]
+        "treeFoliageHueShiftMax": 0, "treeStemHueShiftMax": 0, "treeStemList" : [ "ct_haven_vine" ], "treeFoliageList" : [ "" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 4, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "object",

@@ -1,0 +1,9 @@
+{
+  "name" : "ct_catalized",
+  "label" : "Catalized",
+  "description" : "Completely removes all effects from an entity. Useful for debugging.",
+  "effectConfig" : { },
+  "defaultDuration" : 1,
+  "scripts" : [ "/stats/scripts/ct_clear_effects.lua" ],
+  "icon" : "ct_pulse_paralysis.png"
+}

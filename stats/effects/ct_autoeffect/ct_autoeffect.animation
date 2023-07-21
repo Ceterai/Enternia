@@ -1,14 +1,10 @@
 {
   "animatedParts" : {
     "stateTypes" : {
-      "shield" : {
-        "priority" : 2,
-        "default" : "off",
+      "shield" : { "priority" : 2, "default" : "off",
         "states" : {
-          "off" : {
-          },
-          "on" : {
-          }
+          "off" : { },
+          "on" : { }
         }
       }
     }

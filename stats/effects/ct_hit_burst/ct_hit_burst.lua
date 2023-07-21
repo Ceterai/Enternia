@@ -1,3 +1,5 @@
+-- ### Hit Burst Effect
+-- Everytime you get hit you burst with particles. An analog of **Thorns**.
 function init()
   self.minRange = config.getParameter("minRange") or 0.5
 

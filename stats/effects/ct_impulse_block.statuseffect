@@ -1,0 +1,15 @@
+{
+  "name" : "ct_impulse_block",
+  "label" : "Pulsoblockade",
+  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#20f080;Impulse Status Immunity^reset;.",
+
+  "effectConfig" : {
+    "electricResistance" : 0.20,
+    "impulseStatusImmunity" : true,
+    "electricStatusImmunity" : true
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
+  "icon" : "ct_impulse_block.png"
+}

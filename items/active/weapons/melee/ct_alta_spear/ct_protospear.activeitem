@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_protospear",
   "shortdescription" : "Protospear ^red;WIP^reset;",
-  "description" : "A scouting tool used by ^#b0e0fc;altas^reset; for travel.",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA scouting tool used by ^#b0e0fc;altas^reset; for travel. It doesn't have a sharp side, because the purpose of this instrument is not combat-related.  \nProtospears are used to gather energy and covert it into kinetic force, allowing scouts to traverse the harshest terrain.",
   "elementalType" : "physical",
   "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
@@ -20,35 +20,124 @@
   "scripts" : ["/items/active/weapons/melee/ct_alta_melee.lua"],
 
   "aimOffset" : -1.0,
-  "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "class" : "SpearStab",
-    "name" : "",
-    "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "name" : "Protocharge",
+    "description" : "A sequence of 3 light strikes. Hold to launch yourself into the air.",
     "fireTime" : 0.6, "baseDps" : 12,
-    "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
-    "holdDamageMultiplier" : 0.1,
-    "holdDamageConfig" : { "timeoutGroup" : "hold", "timeout" : 0.5 },
+    "scripts" : ["/items/active/weapons/other/asirai/asirai.lua"], "class" : "AsiraiAttack",
+
+    "stepDamageConfig" : [
+      { "baseDamageFactor" : 1.35, "knockback" : 5, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.10, "knockback" : -5, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 1.55, "knockback" : 0, "statusEffects" : [ ] },
+      { "baseDamageFactor" : 2.20, "knockback" : 15, "statusEffects" : [ "ct_pulse_paralysis" ] }
+    ],
+    "swooshOffsetRegions" : [
+      [3.0, -0.5, 4.5, 5.0],
+      [1.5, -1.0, 5.5, 1.0],
+      [3.0, -0.5, 4.5, 5.0],
+      [0.75, 0.0, 6.25, 5.0]
+    ],
+
+    "projectileCount" : 0,
+
     "stances" : {
-      "idle" : { "armRotation" : -90, "weaponRotation" : 0, "twoHanded" : false, "weaponOffset" : [-0.3, 0.5], "allowRotate" : true, "allowFlip" : true },
-      "windup" : { "hold":true,"duration":0.35,"armRotation":-110,"weaponRotation":20,"twoHanded":true,"weaponOffset":[-0.3, 0.5],"allowRotate":true,"allowFlip":true },
-      "fire" : { "duration" : 0.2, "armRotation" : -20, "weaponRotation" : -70, "twoHanded" : true, "weaponOffset" : [0.3, 2.5], "allowRotate" : false, "allowFlip" : false },
-      "hold" : { "armRotation" : -30, "weaponRotation" : -60, "twoHanded" : true, "weaponOffset" : [-0.3, 2.0], "allowRotate" : false, "allowFlip" : true }
+      "idle" : {
+        "armRotation" : -90, "weaponRotation" : 0, "twoHanded" : false, "weaponOffset" : [0, 0.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "dash" : {
+        "armRotation" : -25, "weaponRotation" : -65, "twoHanded" : true, "weaponOffset" : [0.0, 2.0],
+        "allowRotate" : false, "allowFlip" : false
+      },
+      "windup1" : {
+        "duration" : 0.025, "armRotation" : -110, "weaponRotation" : 20, "twoHanded" : false, "weaponOffset" : [0, 0.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "fire1" : {
+        "duration" : 0.1, "armRotation" : -20, "weaponRotation" : -70, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "wait1" : {
+        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup2" : {
+        "duration" : 0.0, "armRotation" : -15, "weaponRotation" : -60, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "fire2" : {
+        "duration" : 0.05, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "wait2" : {
+        "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup3" : {
+        "duration" : 0.05, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "fire3" : {
+        "duration" : 0.1, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : false, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "wait3" : {
+        "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : true, "allowFlip" : true
+      },
+      "windup4" : {
+        "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "preslash4" : {
+        "duration" : 0.1, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : false
+      },
+      "fire4" : {
+        "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "weaponOffset" : [0, 2.5],
+        "allowRotate" : false, "allowFlip" : false
+      }
     }
   },
 
-  "altAbilityType" : "spearspin",
+  "altAbility" : {
+    "name" : "Energy Seeker", "power" : 4,
+    "description" : "Rotates the spear rapidly and launches it forward on release.",
+    "scripts" : ["/items/active/weapons/other/asirai/asirai.lua"], "class" : "AsiraiSpin",
+
+    "lightningChargeLevels" : [
+      [0.80, 0, 0.02, [32, 128, 240, 75]],
+      [0.90, 0, 0.04, [32, 128, 240, 100]],
+      [1.00, 0, 0.06, [32, 128, 240, 125]],
+      [1.10, 0, 0.08, [32, 128, 240, 150]],
+      [1.20, 0, 0.10, [80, 80, 240, 175]]
+    ],
+
+    "damageConfig" : { "statusEffects" : [ ] },
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.35, "armRotation" : -160, "weaponRotation" : -40, "twoHanded" : false, "weaponOffset" : [0, 0],
+        "allowRotate" : false, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.25, "armRotation" : -20, "weaponRotation" : -50, "twoHanded" : false, "weaponOffset" : [0, 1.5],
+        "allowRotate" : false, "allowFlip" : false
+      }
+    }
+  },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Protea's Spear ^#8020f0;^reset;",
-    "description" : "A ^#76c7e4;calin^reset; sword made out of refined crystals and ^#ffa8e8;stardust^reset;. Seems like it's quickly gathering the energy around it...",
+    "description" : "This ^#ffa8e8;stardust^reset; relic belongs to Protea. Seems like it's yours now. Enjoy!",
     "inventoryIcon" : "ct_protospear_2.png", "animationParts" : { "blade" : "ct_protospear_2.png" },
     "price" : 520, "rarity" : "Legendary", "elementalType" : "electric",
     "primaryAbility" : {
-      "name" : "Test.",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
+      "name" : "Protea's Gift",
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nHold to launch yourself into the air."
     }
   }
 }

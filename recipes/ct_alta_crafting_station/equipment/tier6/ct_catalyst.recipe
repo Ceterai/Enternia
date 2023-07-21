@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "biosample", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_catalyst",
+    "count" : 1
+  },
+  "groups" : [ "alta_max", "medicine", "debug", "all" ]
+}

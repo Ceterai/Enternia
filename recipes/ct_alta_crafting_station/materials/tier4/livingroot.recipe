@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_root", "count" : 2 },
+    { "item" : "biosample", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "livingroot",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "alta_t4", "materials", "all" ]
+}

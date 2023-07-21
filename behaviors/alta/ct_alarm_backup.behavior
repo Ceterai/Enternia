@@ -1,6 +1,6 @@
 {
   "name": "ct_action_alarm_backup",
-  "description": "",
+  "description": "Spawns allies an trigger.",
   "scripts": [
     "/scripts/actions/animator.lua",
     "/scripts/actions/movement.lua",
@@ -131,7 +131,7 @@
       },
       {
         "title": "action-spawncompanions",
-        "type": "action",
+        "type": "module",
         "name": "action-spawncompanions",
         "parameters": {}
       }
