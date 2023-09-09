@@ -1,0 +1,28 @@
+{
+  "projectileName" : "ct_ion_javelin",
+  "image" : "ct_ion_javelin.png",
+
+  "physics" : "arrownosticky",
+  "timeToLive" : 30,
+  "speed" : 55,
+
+  "power" : 64,
+  "knockback" : 20,
+  "statusEffects" : [ "ct_ionic_shock", "ct_pulse_paralysis" ],
+
+  "damageKind" : "electricbow",
+  "damageKindImage" : "/items/throwables/ct_ion_javelin.png",
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "lightColor" : [128, 32, 240],
+  "pointLight" : false,
+  "emitters" : [ "defaultmagenta" ]
+}

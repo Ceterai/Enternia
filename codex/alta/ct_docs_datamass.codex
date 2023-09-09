@@ -1,0 +1,18 @@
+{
+  "id" : "ct_docs_datamass",
+  "title" : "Tech Docs: Data & Datamasses",
+  "description" : "A piece of some technical documentation. Code on the back reads 'CEN-462'.",
+  "icon" : "paper/short.png",
+  "contentPages" : [
+
+    "Datamass is a data storage device, useful for saving and transferring useful or technical information like documents and databases.
+
+Datamasses often contain data understood by other alta technology, like blueprints and recipes that can be understood by a crafting station or a terminal."
+
+  ],
+  "itemConfig" : {
+    "itemTags" : [ "data_source", "alta", "docs" ],
+    "rarity" : "Common",
+    "price" : 120
+  }
+}

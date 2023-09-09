@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "ct_eds-codex", "count" : 4 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_eds_aimbot_augment", "count" : 1 },
+  "groups" : [ "alta_t3mm", "tier5_eds", "enhancement", "augment", "all" ]
+}

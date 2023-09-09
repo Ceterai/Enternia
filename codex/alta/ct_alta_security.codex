@@ -1,0 +1,36 @@
+{
+  "id" : "ct_alta_security",
+  "title" : "Security Protocol Datamass",
+  "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
+  "longdescription" : "**CEN-411** is a set of security-related regulations in ^#b0e0fc;alta cities^reset; and other semi-protected facilities, like ^#b0e0fc;alta^reset; parks and general ^#20f080;antorash^reset; spaces. Places like these are usually guarded by ^#b0e0fc;security guards^reset;.",
+  "icon" : "/items/generic/crafting/ct_datamass.png",
+  "contentPages" : [
+
+    "SECURITY PROTOCOL DOCUMENTATION
+
+The goal of this document is to describe present security protocols as well as lockdown and quarantine related scenarios.
+This should also be referenced as a security guard guide for general purposes.
+
+The data includes a full blueprint list for all necessary equipment.",
+"All mentioned guidelines were approved by all 4 alta mothers:
+
+Alderon Commander Mira;
+Alta-1 Empress Alliana;
+Staris Mother Celestia;
+Garden Mother Elin.
+
+As well as by the majority of creators."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+    "fixedPrice" : true, "level" : 4,
+    "itemTags" : [ "data_source", "alta", "datamass" ],
+    "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "CEN-411" : { }
+    }
+  }
+}

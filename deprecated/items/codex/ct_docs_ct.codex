@@ -1,0 +1,41 @@
+{
+  "id" : "ct_docs_ct",
+  "title" : "Ceterai Project Database",
+  "description" : "A list of unknown devices. It seems like it's missing some entries. Code on the back reads 'CEN-**0'.",
+  "icon" : "/codex/alta/datamass/plasma.png",
+  "contentPages" : [
+
+    "PROJECT 'CETERAI' TECHNOLOGY (CT) DEVELOPMENTS DOCUMENTATION
+
+The goal of this document is to maintain a full list of technology, relevant to and used in development of the project. All entries are assigned according ids, ordered by registration date and relevant connections to other entries.
+In accordance to the document, all ids must be issued in CTN format (thr. CEN-202).",
+" %1^ ^-----R%%5-1.1 ! %1^ ^------ ---
+
+#--R#ST-ad#------
+
+CT17, Static Field - ionized field able to convert energy acquired through CEN-6 or CEN-7 protocol into directional electrified pulses. Primary use estimated for CT22-45 and ET3-16 (thr. CEN-7).
+
+CT24 (ET0), Elerune Defensive System - Elerune-related project establishing planetary protection for the time of the project development, providing safe conditions for the development. All EDS-related developments are marked as Enter-technology (ET, thr. CEN-7).
+
+CT27, Ceter-Sphere - t...n!l%
+
+CT28, R%%5-2.1 ! %4^ ^------ ---
+
+--42 1CT32 %2
+
+CT35, Vortex Backdoor - high-range one-way teleportation device with fixed destination. Has a pyramid-like shape as a design feature. Requires CEN-24 blueprint to activate.",
+
+"CT44, Ceter-Set - Industrial Full-Package Bodysuit for Work in Unsafe Environments. Current model: IFBWUE-7Mi. Provides a basic level of protection and is designed to assist during exploration, research and operations in potentionally dangerous environments.
+
+CT45, Mind frame - t...n!l%.
+
+CT63, Vortex Battery - a high-volume energy accumulator. Can be used to power energy-expensive devices like CT35."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+    "fixedPrice" : true, "level" : 6,
+    "newItem" : "ct_ceterai-codex",
+    "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+  }
+}

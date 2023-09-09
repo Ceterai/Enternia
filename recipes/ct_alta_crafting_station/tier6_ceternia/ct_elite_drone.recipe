@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "refinedaegisalt", "count" : 4 },
+    { "item" : "ct_elite-codex", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_elite_drone", "count" : 1 },
+  "groups" : [ "alta_t4+", "tier6_ceternia", "spawner", "drone", "all" ]
+}

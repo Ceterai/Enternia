@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_aya_punch.png",
-  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A sweet aya punch. Simple, but powerful.",
+  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A sweet aya punch. Simple, but powerful.",
   "shortdescription" : "Aya Punch",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Bluesweet Punch",
-      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. An aya punch with extra ayas and extra sweetness. The name checks out.",
+      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. An aya punch with extra ayas and extra sweetness. The name checks out.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 } ] ]
     }

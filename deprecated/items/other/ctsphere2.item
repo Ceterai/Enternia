@@ -1,0 +1,12 @@
+{
+  "itemName" : "ctsphere2",
+  "price" : 3600,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "/items/generic/crafting/ct_entersphere.png",
+  "description" : "Oops! This material was deprecated.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "shortdescription" : "^red;Outdated^reset; ^blue;Enter-Sphere^reset;..?",
+  "itemTags" : [ "reagent" ],
+  "newItem" : "ct_entersphere",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

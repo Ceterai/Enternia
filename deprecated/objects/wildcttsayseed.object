@@ -62,5 +62,6 @@
   "maxImmersion" : 0.25,
   "consumeSoilMoisture" : false,
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "newItem" : "ct_tsay_seed",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

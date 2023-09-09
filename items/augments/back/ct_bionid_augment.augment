@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_bionid_augment",
+  "shortdescription" : "Bionid Augment",
+  "description" : "This luminous EPP module gives you electric protection and makes you highly illuminated.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_bionid_augment.png",
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_bionid_augment",
+    "displayName" : "Luminous Nature",
+    "displayIcon" : "/items/augments/back/ct_bionid_augment.png",
+    "effects" : [ "electricblockaugment", "lightaugment2" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_security_drone", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 2 },
+    { "item" : "upgrademodule", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_eds_drone", "count" : 1 },
+  "groups" : [ "alta_t3m", "tier5_eds", "spawner", "drone", "all" ]
+}

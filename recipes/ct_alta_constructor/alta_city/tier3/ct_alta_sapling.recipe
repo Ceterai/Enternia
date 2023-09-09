@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_root", "count" : 2 },
+    { "item" : "ctwoodsap", "count" : 4 },
+    { "item" : "ctwood", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_sapling", "count" : 1 },
+  "groups" : [ "alta_constructor3", "alta_city", "objects", "saplings", "all" ]
+}

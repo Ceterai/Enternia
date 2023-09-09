@@ -1,0 +1,15 @@
+{
+  "name" : "ct_electricdamageboostenter",
+  "blockingStat" : "enterniaStatusImmunity",
+
+  "effectConfig" : {
+    "damageModifier" : 2.0,
+    "consumeEnergy" : 2
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ ],
+
+  "label" : "Enter-Energy",
+  "icon" : "/stats/effects/ct_analyzed.png"
+}

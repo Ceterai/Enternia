@@ -1,0 +1,25 @@
+{
+  "id" : "ct_sona",
+  "title" : "Sona Soldier's Notes",
+  "description" : "A snow-white paper with notes made by an ^#b0e0fc;alta^reset; ^#e8e8ff;sona^reset; soldier about the icy climate of ^#e8e8ff;tavriya^reset;.",
+  "icon" : "paper/sona.png",
+  "contentPages" : [
+
+    "This chill breeze is quite bearable compared to the cosmic coldness of the dark side of ^#6f6c66;Astera^reset;.
+
+Yet the climate is still cold enough for the blue algae to show up, as well as small ^#c1ebf8;tonnova springs^reset; here and there.
+
+I've also seen peculiar round sculptures lying around - according to my coordinator, those are frozen ^#2080f0;plasma^reset; charges, fallen from the sky.  
+These ^#2080f0;Frozen Energy Balls^reset; can be found all over ^#e8e8ff;tavriya^reset;.  
+Fascinating.",
+
+"My squad is tasked with traversing a snow canyon to help build a bridge over it, let's see what we can find on it's bottom. I'm very exited!"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "docs" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

@@ -3,55 +3,33 @@
         "pool" : [
           {"weight" : 1.0, "item" : "glowfibre"}
         ],
-        "poolRounds" : [
-          [0.3, 0],
-          [0.3, 1],
-          [0.4, 2]
-        ]
+        "poolRounds" : [ [0.3, 0], [0.3, 1], [0.4, 2] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_aya", "value": [ [1, {
         "pool" : [
           {"weight" : 1.0, "item" : "ctaya"}
         ],
-        "poolRounds" : [
-          [0.8, 0],
-          [0.2, 1]
-        ]
+        "poolRounds" : [ [0.8, 0], [0.2, 1] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_aya_pile", "value": [ [1, {
         "pool" : [
           {"weight" : 0.75, "item" : "ctayapowder"},
           {"weight" : 0.25, "item" : "ctaya"}
         ],
-        "poolRounds" : [
-          [0.7, 1],
-          [0.3, 2]
-        ]
+        "poolRounds" : [ [0.7, 1], [0.3, 2] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob_small", "value": [ [1, {
         "pool" : [
           {"weight" : 1.00, "item" : "ctwoodsap"}
         ],
-        "poolRounds" : [
-          [0.5, 0],
-          [0.5, 1]
-        ]
+        "poolRounds" : [ [0.5, 0], [0.5, 1] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob", "value": [ [1, {
-        "pool" : [
-          {"weight" : 1.00, "item" : "ctwoodsap"}
-        ],
-        "poolRounds" : [
-          [0.2, 1],
-          [0.6, 2],
-          [0.2, 3]
-        ]
+        "pool" : [ {"weight" : 1.00, "item" : "ctwoodsap"} ],
+        "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob_big", "value": [ [1, {
-        "fill" : [
-          {"pool" : "ct_smashable_sap_blob"},
-          {"item" : "ctwood"}
-        ]
+        "fill" : [ {"pool" : "ct_smashable_sap_blob"}, {"item" : "ctwood"} ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_isoslime", "value": [ [1, {
         "pool" : [
@@ -59,23 +37,13 @@
           {"weight" : 0.15, "item" : "biosample"},
           {"weight" : 0.05, "item" : "cryonicextract"}
         ],
-        "poolRounds" : [
-          [0.3, 0],
-          [0.6, 1],
-          [0.1, 2]
-        ]
+        "poolRounds" : [ [0.3, 0], [0.6, 1], [0.1, 2] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_isoslime_blob", "value": [ [1, {
-        "fill" : [
-          {"item" : "cryonicextract"}
-        ],
+        "fill" : [ {"item" : "cryonicextract"} ],
         "pool" : [
           {"weight" : 1.00, "pool" : "ct_smashable_isoslime"}
         ],
-        "poolRounds" : [
-          [0.3, 3],
-          [0.6, 4],
-          [0.1, 5]
-        ]
+        "poolRounds" : [ [0.3, 3], [0.6, 4], [0.1, 5] ]
   }] ] }
 ]

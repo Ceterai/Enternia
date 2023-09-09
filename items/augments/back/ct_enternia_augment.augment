@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_enternia_augment",
+  "shortdescription" : "^#8020f0;Enternia^reset; Augment ^#8020f0;^reset;",
+  "description" : "^#8020f0;Enter-EPP^reset;, condenced into an augment.  \nAdds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#8020f0;Ionic Status Immunity^reset;.",
+
+  "level" : 6, "price" : 3200, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_enternia_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_enternia_augment",
+    "displayName" : "^#8020f0;Enternia^reset; Enhancement",
+    "displayIcon" : "/items/augments/back/ct_enternia_augment.png",
+    "effects" : [ "ct_ionicblockade" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

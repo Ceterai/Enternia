@@ -1,0 +1,30 @@
+{
+  "id" : "ct_arknight",
+  "title" : "Arknight's Handbook",
+  "description" : "An ebook containing brief notes about duty and responsibilities.",
+  "longdescription" : "This was written by a beginner arknight alta as part of her learning experience.",
+  "icon" : "ebook/stardust.png",
+  "contentPages" : [
+
+    "According to the ^#60c0fc;Arknight Protocol^reset;, my duties include patroling, general help and coordination, as well as emergencies and missions.
+
+As a proper ^#60c0fc;arknight^reset;, I should be able to quickly reconize threats and respond to other altas' calls for help.  
+On regular patrolling, I should be aware of my surroundings both in above and below, on the ground.  
+In case a threat occurs on the ground, I can use the deploy pod, a manual dispatch, or an evamech if I'm in a squad.",
+
+"In case of a threat from above, I can use an AAP (anti-airthreat protection) to neutralize the threat.
+
+On group missions, I should always coordinate with my squad to bring us success.
+
+I should also be aware of general information regarding the region I'm in so I can help lost altas find their home.
+
+Every ^#b0e0fc;alta^reset; matters."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

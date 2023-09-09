@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 2 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_alta_defensive_drone", "count" : 1 },
+  "groups" : [ "alta_max", "tier5_eds", "spawner", "drone", "all" ]
+}

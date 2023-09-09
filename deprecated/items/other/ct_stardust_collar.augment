@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_stardust_collar",
+  "price" : 6400,
+  "rarity" : "Legendary",
+  "tooltipKind" : "ct_alta_item",
+  "category" : "petCollar",
+  "inventoryIcon" : "/items/augments/pet/ct_mindframe_collar.png",
+  "description" : "A collar that makes your pet immune to Alternia, Enternia and Void effects.",
+  "shortdescription" : "Stardust Collar",
+
+  "collar" : {
+    "name" : "ct_stardust_collar",
+    "displayName" : "Conscious",
+    "displayIcon" : "/items/augments/pet/ct_mindframe_collar.png",
+
+    "effects" : [
+      "electricStatusImmunity",
+      "enterniaStatusImmunity",
+      "voidStatusImmunity"
+    ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+
+  "scripts" : [ "/scripts/augments/collar.lua" ],
+  "newItem" : "ct_mindframe_collar",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

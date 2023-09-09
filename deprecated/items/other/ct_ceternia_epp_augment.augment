@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_ceternia_epp_augment",
+  "shortdescription" : "^#20f080;Ceter^reset;-EPP Augment ^#8020f0;^reset;",
+  "description" : "^#20f080;Ceter^reset;-EPP, condenced into an augment.\nProvides protection against deadly planetary effects of enternia planets.",
+
+  "level" : 6, "price" : 3000, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "/items/augments/back/ct_ceternia_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_alta_ceternia_epp_augment",
+    "displayName" : "^#20f080;Ceter^reset;-EPP Augment",
+    "displayIcon" : "/items/augments/back/ct_ceternia_augment.png",
+    "effects" : [ "enterniaStatusImmunity", "voidStatusImmunity" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "newItem" : "ct_ceternia_augment",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

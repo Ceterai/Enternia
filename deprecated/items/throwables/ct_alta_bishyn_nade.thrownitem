@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_alta_bishyn_nade",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "/items/throwables/ct_bishyn_nade.png",
+  "image" : "/items/throwables/ct_bishyn_nade.png",
+  "shortdescription" : "Bishyn Nade",
+  "description" : "A poison crystal shrapnel blast device. 2 in 1.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_bishyn_nade",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "newItem" : "ct_bishyn_nade",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

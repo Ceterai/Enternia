@@ -44,5 +44,6 @@
 
   "consumeSoilMoisture" : false,
 
-  "builder" : "/objects/alta/city/sapling/builder.lua"
+  "newItem" : "ct_alta_sapling",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

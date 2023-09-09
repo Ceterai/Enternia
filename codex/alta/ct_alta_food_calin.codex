@@ -1,0 +1,36 @@
+{
+  "id" : "ct_alta_food_calin",
+  "title" : "Calin Cuisine Book",
+  "description" : "An ebook containing various crystal-based ^#b0e0fc;alta^reset; recipes and their history. (Unlocks some calin recipes)",
+  "longdescription" : "^#b0e0fc;Alta culture^reset; revolves heavily around crystals and their utilization. This ^#b0e0fc;ebook^reset; describes different calin recipes and the culture around them.",
+  "icon" : "ebook/security.png",
+  "contentPages" : [
+
+    "^#b0e0fc;Calin cuisine^reset;, as the name suggests, is based on edible ^#76c7e4;crystals^reset; and ^#76c7e4;crystallic^reset; ingredients.
+
+Most common produce like ^#c1dfae;carels^reset; figure in almost every calin dish out there.
+
+But due to the sheer variety of crystals in ^#ffa8e8;Io^reset;, some dishes can use very rare finds in their recipes.",
+
+"As an example, ^#b0e0fc;Jinighat^reset; is an advanced alta dish that uses very rare crystals in its recipe, called ^#76c7e4;cojils^reset;.
+
+^#76c7e4;Cojil^reset; is a soury-hot crystal that can be found in volcanic underwater environments."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "learnBlueprintsOnPickup" : [
+        "ct_crystal_jam", "ct_calio_tea", "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea",
+        "ct_caliopa", "ct_crunchy_pie", "ct_natal_punch", "ct_minto_soup", "ct_pavolda_cake", "ct_staris_soup", "ct_warped_cocktail"
+      ]
+  },
+  "wiki" : {
+    "aliases" : {
+      "Jinighat" : { },
+      "Cojil" : { "icon" : "https://starbounder.org/mediawiki/images/3/31/Crystal.png", "icon_sizes" : [12, 16] }
+    }
+  }
+}

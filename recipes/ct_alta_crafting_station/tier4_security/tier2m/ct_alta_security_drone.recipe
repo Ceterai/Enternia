@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_datamass", "count" : 2 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_alta_security_drone", "count" : 1 },
+  "groups" : [ "alta_t2+", "tier4_security", "spawner", "drone", "all" ]
+}

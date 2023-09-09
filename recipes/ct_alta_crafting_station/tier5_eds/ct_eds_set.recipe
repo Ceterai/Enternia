@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_alta_security_set", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 14 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_eds_set", "count" : 1 },
+  "groups" : [ "alta_t3", "set", "all" ]
+}

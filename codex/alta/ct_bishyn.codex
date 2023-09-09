@@ -1,0 +1,27 @@
+{
+  "id" : "ct_bishyn",
+  "title" : "Unika Offices Initiative",
+  "description" : "A promotional brochure promoting some sleek, stylish ^#b0e0fc;alta^reset; furniture made from ^#378754;bishyn^reset; crystals.",
+  "icon" : "paper/bishyn.png",
+  "contentPages" : [
+
+    "< UNIKA ORD. >
+Any busy office environment should stay clean, simple, effective and professional.
+All of those styling requirements can be achieved with Unika Office Furniture - made from robust, easy to maintain materials, including beautiful refined ^#378754;bishyn crystals^reset;!",
+
+"If you're worried about getting any amount of ^#378754;crystal poisoning^reset; - don't!
+The crystals are properly refined and desaturated, and contain safe levels of energy.
+All extracted poison particles are used as a polish material for the surface parts, giving them pretty gloss and making them nice to the touch!
+
+Current set is accomplished in a modern-esc maxi-mini style called ^#378754;Seturna^reset; and provides proper wholesome, finished look to a space of almost any size.",
+
+"If you're interested or have any questions - contact us at ---undecodable code string---"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "docs" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

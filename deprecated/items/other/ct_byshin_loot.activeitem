@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_byshin_loot",
+  "shortdescription" : "^red;Outdated^reset; Bishyn Loot Crate",
+  "description" : "Contains random loot from bishyn biome chests.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+
+  "price" : 20,
+  "level" : 3,
+  "rarity" : "Common",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier4.png",
+  "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
+  "animationParts" : { "gun" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier4.png" },
+  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_bishyn_loot",
+    "level" : 1
+  },
+
+  "newItem" : "ct_bishyn_loot",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

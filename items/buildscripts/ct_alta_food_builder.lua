@@ -64,10 +64,13 @@ function build(directory, config, parameters, level, seed)
 end
 
 function getRotTimeDescription(rotTime, rotConfig)
-  rotConfig = rotConfig or "/items/generic/food/ct_ionic_rotting.config"
-  local descList = root.assetJson(rotConfig .. ":rotTimeDescriptions")
-  for i, desc in ipairs(descList) do
-    if rotTime <= desc[1] then return desc[2] end
+  if rotTime then
+    rotConfig = rotConfig or "/items/generic/food/ct_ionic_rotting.config"
+    local descList = root.assetJson(rotConfig .. ":rotTimeDescriptions")
+    for i, desc in ipairs(descList) do
+      if rotTime <= desc[1] then return desc[2] end
+    end
+    return descList[#descList]
   end
-  return descList[#descList]
+  return ""
 end

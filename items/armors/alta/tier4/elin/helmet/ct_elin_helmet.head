@@ -1,0 +1,71 @@
+{
+  "itemName" : "ct_elin_helmet",
+  "shortdescription" : "Elin Guard Helmet ^#20f080;^reset;",
+  "description" : "A helmet overgrown with ^#20f080;yaara^reset;. Worn by some Elin Garden guards.",
+
+  "price" : 1060, "rarity" : "Uncommon",
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 4, "itemTags" : [ "tier4armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_mind"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "colorOptions" : [
+    // CRYSTAL (DEFAULT)
+    { "366388" : "366388", "4e8fb8" : "4e8fb8", "76c7e4" : "76c7e4", "c9eef6" : "c9eef6" },
+    // LIME (BLACK)
+    { "366388" : "8fc000", "4e8fb8" : "c5f020", "76c7e4" : "f3fc60", "c9eef6" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "366388" : "00c063", "4e8fb8" : "20f081", "76c7e4" : "60fc91", "c9eef6" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "366388" : "009cc0", "4e8fb8" : "20d3f0", "76c7e4" : "60fcf9", "c9eef6" : "b0fcf9" },
+    // RED
+    { "366388" : "c00003", "4e8fb8" : "f0202d", "76c7e4" : "fc6082", "c9eef6" : "fcb0c2" },
+    // ORANGE
+    { "366388" : "c07000", "4e8fb8" : "f08f20", "76c7e4" : "fc9c60", "c9eef6" : "fcccb0" },
+    // YELLOW
+    { "366388" : "c0af00", "4e8fb8" : "f0d420", "76c7e4" : "fcd060", "c9eef6" : "fce5b0" },
+    // GREEN
+    { "366388" : "03c000", "4e8fb8" : "2df020", "76c7e4" : "82fc60", "c9eef6" : "c2fcb0" },
+    // BLUE
+    { "366388" : "001cc0", "4e8fb8" : "2049f0", "76c7e4" : "6096fc", "c9eef6" : "b0ccfc" },
+    // PURPLE
+    { "366388" : "7c00c0", "4e8fb8" : "9d20f0", "76c7e4" : "a660fc", "c9eef6" : "d1b0fc" },
+    // PINK
+    { "366388" : "c00069", "4e8fb8" : "f0209b", "76c7e4" : "fc60d4", "c9eef6" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "366388" : "366388", "4e8fb8" : "4e8fb8", "76c7e4" : "76c7e4", "c9eef6" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

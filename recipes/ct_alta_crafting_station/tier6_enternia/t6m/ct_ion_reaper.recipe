@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_entersphere", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_edsarmor", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_ion_reaper", "count" : 1 },
+  "groups" : [ "alta_t4m", "tier6_enternia", "weapon", "all" ]
+}

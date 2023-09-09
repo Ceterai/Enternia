@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 3 },
+    { "item" : "crystal", "count" : 6 },
+    { "item" : "ct_bion", "count" : 20 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_combat_set", "count" : 1 },
+  "groups" : [ "alta_t3", "set", "all" ]
+}

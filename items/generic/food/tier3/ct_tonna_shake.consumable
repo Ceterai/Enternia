@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_tonna_shake.png",
-  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
+  "description" : "^#b0e0fc;Nia alta cuisine^reset;. Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
   "shortdescription" : "Tonna Shake",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Perfect Tonna Shake",
-      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. A tonna milkshake made with the best baked tonnas around!",
+      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A tonna milkshake made with the best baked tonnas around!",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
       "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ]
     }

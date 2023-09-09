@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_eds_augment",
+  "shortdescription" : "^#f02020;EDS^reset; Augment",
+  "description" : "An EPP module that slightly boosts your physical and electric protection.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_eds_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_eds_augment",
+    "displayName" : "^#f02020;EDS^reset; Enhancement",
+    "displayIcon" : "/items/augments/back/ct_eds_augment.png",
+    "effects" : [ "ct_eds_protection_module" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

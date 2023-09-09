@@ -20,7 +20,8 @@ function build(directory, config, parameters, level, seed)
   if not config.inventoryIcon then config.inventoryIcon = config.pet .. '.png' end
   if not config.animation then config.animation = 'default.animation' end
   if not config.animationParts then config.animationParts = {item = config.inventoryIcon} end
-  if not parameters.shortdescription then parameters.shortdescription = pet_params.shortdescription end
+  if pet_params.shortdescription then parameters.shortdescription = pet_params.shortdescription end
+  if pet_params.shortdescription then config.shortdescription = pet_params.shortdescription end
   if not parameters.description then parameters.description = pet_params.description end
   if not config.scripts then config.scripts = { "monster_spawn.lua" } end
   if not config.ammoUsage then config.ammoUsage = 1 end

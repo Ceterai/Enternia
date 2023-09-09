@@ -1,0 +1,31 @@
+{
+  "itemName" : "ct_thermomix_nade",
+  "level" : 3, "rarity" : "Uncommon", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_thermomix_nade.png",
+  "image" : "ct_thermomix_nade.png",
+  "shortdescription" : "Thermomix",
+  "description" : "A highly flammable substance made with volatile powder contained in a blast device.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.5,
+
+  "projectileType" : "molotov",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 12,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

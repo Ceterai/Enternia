@@ -1,0 +1,25 @@
+{
+  "id" : "ct_crystalline_prime",
+  "title" : "Crystalline Primification",
+  "description" : "A compact ^#b0e0fc;ebook^reset; that contains several pages describing ^#c1dfae;crystalline prime^reset; and the \"prime\" phenomenon as a whole.",
+  "icon" : "ebook/crystalline_prime.png",
+  "contentPages" : [
+
+    "Primification is the process of amplifying the energy or power within an entity by releasing its capabilities.
+    
+    Altas call certain things \"Prime\" whenever they enter their true or enhanced form.
+    
+    Thus, ^#c1dfae;Cristalline Prime^reset; is an energy-enhanced ^#c1dfae;Crystalline^reset; environment, full of charged crystalline bushes.",
+    
+    "This phenomenon can occur naturally on terraformed moonlike planets, or on similar Io structs like alterash prime planets.
+    
+    More information is available in the ^#b0e0fc;Altas & Crystals^reset; database, since crystalline is a ^#76c7e4;calin^reset; subtype."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

@@ -5,15 +5,12 @@
 I made this little mod mainly for myself, but decided to share with everybody.  
 This mod adds a new race, 2 new planets with their own biomes, monsters, many hazards and treasure. The mod adds new unique weapons, armor, cosmetics, augments/collars, spawners, codexes, throwables and other equipment.  
 All new content **can only be found on those 2 planets**, is fairly balanced, and thus doesn't interfere with normal gameplay!  
-Check out the end of the description for a **rundown of new content**. Or, even better, check out the **freshly new Wiki**!
-
-**THIS MOD NOW HAS A WIKI!** It's very extensive and contains full in-detail info on just about anything mod-related, including modding information.
+Check out the end of the description for a **rundown of new content**. Or, even better, check out the official **Wiki**!
 
 [>>> OFFICIAL WIKI <<<](https://github.com/Ceterai/Enternia/wiki)
 
-**Version 2.0: The Alta Race** is out! Check out the changelog for details.  
-The full list of changes can be found in the changelog file on the GitHub page or in the Steam changelog page.  
-Link to the [annoucement on Twitter](https://twitter.com/ceterai_/status/1678070146634530822?s=20).
+**Version 2.1: Alta Decryption** is out! Check out the changelog for details.  
+The full list of changes can be found in the changelog file on the GitHub page or in the Steam changelog page.
 
 ## Installation
 

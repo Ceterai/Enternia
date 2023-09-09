@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 8 },
+    { "item" : "refinedaegisalt", "count" : 6 },
+    { "item" : "ct_elite-codex", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_elite_generator", "count" : 1 },
+  "groups" : [ "alta_t4m", "tier6_ceternia", "armor", "back", "all" ]
+}

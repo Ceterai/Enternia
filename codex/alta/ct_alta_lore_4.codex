@@ -1,0 +1,28 @@
+{
+  "id" : "ct_alta_lore_4",
+  "title" : "Alta History - ^#fffffd;^reset;What We Are",
+  "description" : "An important part of alta history. For some reason, it reads like... a fairytale?",
+  "longdescription" : "Seems like this is Part 4.",
+  "icon" : "ebook/basic.png",
+  "contentPages" : [
+
+    "Alta research has come a long way. From stardust, to crystals, to nature, to culture, to oceans, to space.
+
+They have created cities, laboratories, mines, factions, companies, even their own subspecies, and even their own enemies.
+
+They've come a long way, so long that a lot of them forgot their original purpose.",
+
+"They've become their own thing, with each alta finding her purpose the same way as the ones that came before them.
+
+What does the future hold for them? Only the time will show.
+
+- Ceterai"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 6,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_ion_javelin",
+  "level" : 6, "rarity" : "Legendary", "price" : 50, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_ion_javelin.png",
+  "image" : "images/ct_ion_javelin.png",
+  "shortdescription" : "Ion Javelin ^#8020f0;^reset;",
+  "description" : "An improved and reinforced ^#0050c0;hevika^reset; javelin full of freed alternia and enternia energy. Commonly used by ^#b0e0fc;alta^reset; dreamers for hunting.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 2.0,
+  "projectileType" : "ct_ion_javelin",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

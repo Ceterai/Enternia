@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 16 },
+    { "item" : "biosample", "count" : 16 },
+    { "item" : "toxicwaste", "count" : 16 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "ct_aric_collar", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "enhancement", "collar", "all" ]
+}

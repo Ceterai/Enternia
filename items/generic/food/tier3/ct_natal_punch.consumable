@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_natal_punch.png",
-  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A punch high on calcium.",
+  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A punch high on calcium.",
   "shortdescription" : "Natal Punch",
   "effects" : [ [
     {
@@ -31,7 +31,7 @@
   "variants" : [
     {
       "shortdescription" : "Natal Punch Deluxe",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ]
     }

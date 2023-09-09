@@ -4,19 +4,15 @@ What awaits you in the distance? What lies beneath the surface? What hides up hi
 I made this mod mainly for myself, but decided to share with everybody.
 This mod adds a [b]new playable race[/b], 2 [b]new planets[/b] with their own [b]biomes[/b], [b]monsters[/b], many [b]hazards[/b] and [b]treasure[/b]. The mod adds new [b]unique weapons[/b], [b]armor[/b], [b]cosmetics[/b], [b]augments/collars[/b], [b]spawners[/b], [b]codexes[/b], [b]throwables[/b] and [b]other equipment[/b].
 All new content [b]can only be found on those 2 planets[/b], is fairly balanced, and thus doesn't interfere with normal gameplay!
-Check out the end of the description for a [b]rundown of new content[/b]. Or, even better, check out the [b]freshly new Wiki[/b]!
-
-[h3]THIS MOD NOW HAS A WIKI![/h3]
-It's very extensive and contains full in-detail info on just about anything mod-related, including modding information.
+Check out the end of the description for a [b]rundown of new content[/b]. Or, even better, check out the official [b]Wiki[/b]!
 
                                                     [url=https://github.com/Ceterai/Enternia/wiki]>>> OFFICIAL WIKI <<<[/url]
                                                       [url=https://github.com/Ceterai/Enternia]>>> GitHub page <<<[/url]
                                              [url=https://community.playstarbound.com/resources/my-enternia.6252/]>>> Starbound Forums page <<<[/url]
 
-[h3]My Enternia 2.0: The Alta Race[/h3]
+[h3]My Enternia 2.1: Alta Decryption[/h3]
 [b]A new version is out![/b] Check out the changelog for details.
 The full list of changes can be found in the changelog file on the GitHub page or in the Steam changelog page.
-Link to the [url=https://twitter.com/ceterai_/status/1678070146634530822?s=20]annoucement on Twitter[/url].
 [hr][/hr]
 [h2]Where to start[/h2]
 To explore the worlds added by this mod, try to find new planet types around tier 3+ stars!
@@ -51,10 +47,10 @@ More information on new weapon features like press&hold, firemodes, attachments 
 [*]If you want to make a mod on top of this and want to learn modding-related features of this mod, visit this page: [url=https://github.com/Ceterai/Enternia/wiki/Modding]My Enternia Wiki: Modding[/url];
 [*]Support for mods like IFD and MPI is done by generating patch files using python scripts. To learn more, visit [url=https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support]My Enternia Wiki: Modding - Mod Support[/url].[/list]
 [hr][/hr]
-If you find any issues or bugs or errors, you can report them on the GitHub Issues page, or in this discussion:
+If you find any issues or bugs or errors, you can report them on the [url=https://github.com/Ceterai/Enternia/issues]GitHub Issues[/url] page, or in this discussion:
 
 https://steamcommunity.com/workshop/filedetails/discussion/2006558650/3806153359215778178/
 
-Similarly, if you have any mod support suggestions, you're welcome to share them on GitHub Issues or here:
+Similarly, if you have any mod support suggestions, you're welcome to share them on [url=https://github.com/Ceterai/Enternia/issues]GitHub Issues[/url] or here:
 
 https://steamcommunity.com/workshop/filedetails/discussion/2006558650/3806153791393601134/

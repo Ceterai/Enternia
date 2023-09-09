@@ -2,9 +2,10 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 24 },
     { "item" : "ct_alta_energy_cell", "count" : 4 },
-    { "item" : "ct_docs_security-codex", "count" : 1 },
+    { "item" : "ct_alta_security-codex", "count" : 1 },
     { "item" : "silk", "count" : 4 }
   ],
+  "duration" : 4,
   "output" : { "item" : "ct_alta_security_set", "count" : 1 },
   "groups" : [ "alta_t2", "set", "all" ]
 }

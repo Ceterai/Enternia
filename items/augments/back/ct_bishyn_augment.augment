@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_bishyn_augment",
+  "shortdescription" : "Bishyn Augment ^#2080f0;^reset;",
+  "description" : "An EPP module infused with charged poisonous crystals. Increases swimming speed and adds ^#80f020;poison^reset; resistance.",
+
+  "level" : 5, "price" : 3000, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_bishyn_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_bishyn_augment",
+    "displayName" : "Crystal Venom Processing",
+    "displayIcon" : "/items/augments/back/ct_bishyn_augment.png",
+    "effects" : [ "swimboostcola", "poisonblockaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

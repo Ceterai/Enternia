@@ -1,0 +1,32 @@
+{
+  "id" : "ct_hevika",
+  "title" : "Hevika Ordis Welcome Message",
+  "description" : "An encrypted welcome guide to a workplace in a ^#0050c0;hevika^reset; laboratory.",
+  "icon" : "datamass/hevika.png",
+  "contentPages" : [
+
+    "< HEVIKA ORDIS, Confidential >
+
+Welcome to your new workplace, Saya! We're glad to have you as part of the team.
+
+^#0050c0;Hevika Ordis^reset; is a Technological Advances Company focused on ^#76c7e4;crystal^reset;-related research. Its primary goal is studying and utilizing ^#2080f0;alternia^reset;-charged and ^#0050c0;hevika^reset; crystals, plasmic overcharges, as well as the ^#0050c0;hevikai^reset; fenomen.", 
+
+"Currently, our products are the only ^#b0e0fc;alta^reset; technology able to safely extract and generate ^#8020f0;ionic^reset; energy using ^#2080f0;alternia crystals^reset; instead of natural ^#8020f0;enternia^reset; sources.
+
+Your current designation is Farros-III HO3a, Sight 1.  
+The reception, lobby and cafeteria are located at the first (top) floor. Your personal labcab is 117 (floor 2), main lab is 112 (same floor).",
+
+"Please receive your access datamass at the reception, then the rest of equipment at the ecab on the same floor as your labcab.
+
+I hope you'll enjoy your time with us.  
+Feel free to ask any questions!  
+- Unia, Hevika Ordis Coordinator at Farros-III HO3a-12"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

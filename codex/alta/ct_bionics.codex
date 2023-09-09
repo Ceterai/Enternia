@@ -1,0 +1,41 @@
+{
+  "id" : "ct_bionics",
+  "title" : "Bionics",
+  "description" : "A brief description of various sturdy ^#299fc5;bionid^reset; combinations that can be used as clothing or protective materials.",
+  "longdescription" : "This ebook explains what bionics are and provides examples of popular compounds.\n\nIt's worth noting, that altas themselves are classified as **bionical** creatures, or simply **bionicas**.",
+  "icon" : "ebook/bionid.png",
+  "contentPages" : [
+
+    "Bionics, or ^#299fc5;bion^reset;-based materials, including ^#299fc5;bion compounds^reset;, are a family of ^#299fc5;bionid^reset;-related variations used mainly by ^#b0e0fc;altas^reset; as armor plating and protective clothing.
+
+Bion is the primary material that makes up majority of any bion connections and variations, the most common of which is the naturally occuring ^#299fc5;bionid ore^reset;. Refining it into ^#299fc5;pure bion^reset; and further reinforcing it into a compound makes it a perfect armoring resource.",
+
+"Different bion compounds behave differently as well. Listed below are popular formulas and their distincting features.
+
+^#299fc5;Pure Bion^reset; - while not as luminescent as the bionid ore it comes from, it is very bendable and adaptable with no shape memory.
+Often used for protective clothing, like in the ^#10b4ef;Combat Set^reset; of alta equipment.
+Considered a light tier armor.",
+
+"^#299fc5;Bionium^reset; - similar to pure bion in its bending capabilities, it retains strong shape memory to an extent controlled by electricity.
+Often used for robotics armor plating, like on ^#10b4ef;Watcher Drones^reset; or ^#10b4ef;Spider Droids^reset;. Considered a medium tier armor.
+
+^#299fc5;Bionix^reset; - a sturdy, less bendable variant, that makes it up in hardness and slight shape memory capabilities.
+Often used for in-place objects, like alta lab decorations, and combat tools, for example ^#2080f0;Plasmora^reset;.
+Considered a heavy tier armor.",
+
+"^#299fc5;Dianid^reset; - a light-colored armor variant that utilizes diamonds as a secret ingridient. This is the hardest bendable compound yet, but is also quite expensive to make.
+Considered a medium tier armor.
+
+Other useful compounds include:
+^#299fc5;Bion-2A1^reset;, ^#299fc5;Bion-4^reset;, ^#299fc5;Calonid^reset;, ^#299fc5;Ionic Bion^reset;.
+
+^#299fc5;Biocaloid^reset;, though not a compound, is another bionic worth mentioning, since this is a type of bionic commonly found in alta bodies."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

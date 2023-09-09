@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 3 },
+    { "item" : "refinedferozium", "count" : 2 },
+    { "item" : "diamond", "count" : 2 },
+    { "item" : "ct_ceterai-codex", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alternia_augment", "count" : 1 },
+  "groups" : [ "alta_t4mm", "tier6_alternia", "enhancement", "augment", "all" ]
+}

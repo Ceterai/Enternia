@@ -1,0 +1,34 @@
+{
+  "itemName" : "ct_entermace",
+  "shortdescription" : "Entermace ^red;WIP^reset;",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA strange weapon covered in rough, dark ^#8020f0;enterash^reset; soil. Is this a golden shine or mystical glow of the void?..",
+  "elementalType" : "physical",
+
+  "level" : 6, "price" : 480, "rarity" : "Legendary",
+  "twoHanded" : false, "maxStack" : 1, "category" : "axe", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "mace", "enternia", "enterash" ],
+
+  "inventoryIcon" : "ct_entermace.png",
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "blade" : "ct_entermace.png", "handle" : "" },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 6,
+    "damageConfig" : {
+      "knockback" : 25
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

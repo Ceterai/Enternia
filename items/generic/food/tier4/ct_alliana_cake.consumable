@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alliana_cake.png",
-  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This delicious cake is named after the first and the biggest ^#b0e0fc;alta^reset; capital and its empress.",
+  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This delicious cake is named after the first and the biggest ^#b0e0fc;alta^reset; capital and its empress.",
   "shortdescription" : "Alliana Cake",
   "effects" : [ [
     {
@@ -34,14 +34,14 @@
     {
       "chance" : 0.3,
       "shortdescription" : "Orchid Cake",
-      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This cake smells like orchids! Did you add something to it? A secret ingredient perhaps?",
+      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This cake smells like orchids! Did you add something to it? A secret ingredient perhaps?",
       "inventoryIcon" : "/items/generic/food/other/images/ct_trans_cake.png",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 500 }, { "effect" : "ct_velocity_jump", "duration" : 500 } ] ]
     },
     {
       "chance" : 0.1,
       "shortdescription" : "Alliana's Love ^#8020f0;^reset;",
-      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. The empress loves and cares for you! Though this cake can't express it fully, this time it got very close.",
+      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. The empress loves and cares for you! Though this cake can't express it fully, this time it got very close.",
       "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 120
     }
   ]

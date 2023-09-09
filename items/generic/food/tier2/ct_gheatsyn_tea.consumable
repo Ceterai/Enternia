@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_gheatsyn_tea.png",
-  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
+  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
   "shortdescription" : "Gheatsyn Tea",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Gheamont",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ]
     }

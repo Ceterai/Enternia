@@ -1,0 +1,24 @@
+{
+  "id" : "ct_docs_units_alternia",
+  "title" : "Tech Docs: Alternia Set",
+  "description" : "A brief description of tier 6 ^#b0e0fc;alta^reset; equipment worn by project Ceterai researchers.",
+  "icon" : "paper/long.png",
+  "contentPages" : [
+
+    "Researchers of one of the most advanced alta projects use special equipment that allows them to enhance their energy usage and use highly electric environments to their advantage.",
+
+"^#2080f0;C.T. Alternia^reset; Visor - A C.T. series helmet. Has a built-in Omniblue Vision device. This is the first model in the helmet series.
+
+^#2080f0;C.T. Alternia^reset; Suit - A high-capacity energy suit with advanced Energy Support System integrated into its front side.
+
+^#2080f0;C.T. Alternia^reset; Walkers - Mechanical legwear with additional energy capasitors providing Max Energy Boost.",
+
+"> Note: be cautious, since effects like Omniblue Vision and Energy Support System can be blocked by EMI attacks."
+
+  ],
+  "itemConfig" : {
+    "itemTags" : [ "data_source", "alta", "docs" ],
+    "rarity" : "Common",
+    "price" : 120
+  }
+}

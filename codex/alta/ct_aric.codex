@@ -1,0 +1,27 @@
+{
+  "id" : "ct_aric",
+  "title" : "Aric Sporelings",
+  "description" : "An informative paper that can help you tell good shrooms from bad ones.",
+  "longdescription" : "Most aric shrooms are constantly exposed to extreme mutation, to the point where it's hard to find 2 exact same species. For this reason, ^#b0e0fc;altas^reset; recognize them by separate aspects of their appearance.",
+  "icon" : "paper/aric.png",
+  "contentPages" : [
+
+    "This doc describes ways to distinguish edible, safe, toxic and poisonous ^#3baf2f;arics^reset;.
+
+As aric shrooms don't have a standardized genome due to extensive rate and size of mutations, it can be hard to know whether or not a particular aric is safe to eat or even be around.",
+
+"Let's start with spores. If you're able to see them at all, this might not be a good sign to begin with.
+However, if you're able to determine that they're coming from capsule-like appendages or are too big to enter your system, they're not a threat and are likely edible.",
+
+"If an aric's presense looks very unappealing and defensive, chances are it's entirely edible. Dangerous types of aric generally have glowing parts and/or defensive patterns like spikes or false crystals.
+
+As an example, small ^#3baf2f;agaranics^reset; are mostly edible, while most ^#3baf2f;kodorrics^reset; are not."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

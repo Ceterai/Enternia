@@ -1,0 +1,14 @@
+{
+  "name" : "ct_electricdamageboost",
+
+  "effectConfig" : {
+    "damageModifier" : 1.2,
+    "consumeEnergy" : 0
+  },
+  "defaultDuration" : 0,
+
+  "scripts" : [ ],
+
+  "label" : "Electric Damage x1.2",
+  "icon" : "/stats/effects/ct_analyzed.png"
+}

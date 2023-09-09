@@ -1,12 +1,9 @@
 {
   "input" : [
-    { "item" : "crystal", "count" : 16 },
-    { "item" : "ct_glowstick_ceterteal", "count" : 8 },
+    { "item" : "ct_impulse_nade", "count" : 1 },
+    { "item" : "ct_impulse_stim", "count" : 2 },
     { "item" : "ct_ceternia_core", "count" : 4 }
   ],
-  "output" : { 
-    "item" : "ct_cetersphere",
-    "count" : 1 
-  },
+  "output" : { "item" : "ct_cetersphere", "count" : 1 },
   "groups" : [ "alta_t4", "components", "all" ]
 }

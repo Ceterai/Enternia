@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "refinedviolium", "count" : 10 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_dreamer_chest", "count" : 1 },
+  "groups" : [ "alta_t4", "tier6_enternia", "armor", "body", "all" ]
+}

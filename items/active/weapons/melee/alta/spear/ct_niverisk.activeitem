@@ -1,0 +1,63 @@
+{
+  "itemName" : "ct_niverisk",
+  "shortdescription" : "Niverisk ^red;WIP^reset;",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nBe careful - the blade of this spear is made out of poisonous crystals.",
+  "elementalType" : "poison",
+  "price" : 720, "level" : 5, "rarity" : "Rare",
+  "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "spear", "crystal", "bishyn", "poison" ],
+
+  "inventoryIcon" : "ct_niverisk.png",
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_niverisk.png" },
+  "animationCustom" : {
+    "animatedParts":{"parts":{"swoosh":{"partStates":{"swoosh":{"swoosh_spear1":{"properties":{"damageArea":[[-4.5, 0],[-2, 1],[1, 1],[4, 0],[1, -1],[-2, -1]]}}}}},
+    "blade" : {"properties":{"offset" : [0, 0]}}}},
+    "sounds" : {
+      "charge" : [ "/sfx/melee/nurusspear_charge.ogg" ],
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire4" : [ "/sfx/melee/travelingslash_electric5.ogg" ],
+      "electricSpin" : [ "/sfx/melee/elemental_spin_electric.ogg" ],
+      "electricSpinFire" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
+      "electricSpinLightning" : [ "/sfx/objects/teslaspike.ogg" ],
+      "electricSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/alta/melee.lua"],
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "class" : "SpearStab",
+    "name" : "Estria's Wrath",
+    "description" : "WIP. A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "fireTime" : 0.6, "baseDps" : 12,
+    "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
+    "holdDamageMultiplier" : 0.1,
+    "holdDamageConfig" : { "timeoutGroup" : "hold", "timeout" : 0.5 },
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : 0, "twoHanded" : false, "weaponOffset" : [-0.3, 0.5], "allowRotate" : true, "allowFlip" : true },
+      "windup" : { "hold":true,"duration":0.35,"armRotation":-110,"weaponRotation":20,"twoHanded":true,"weaponOffset":[-0.3, 0.5],"allowRotate":true,"allowFlip":true },
+      "fire" : { "duration" : 0.2, "armRotation" : -20, "weaponRotation" : -70, "twoHanded" : true, "weaponOffset" : [0.3, 2.5], "allowRotate" : false, "allowFlip" : false },
+      "hold" : { "armRotation" : -30, "weaponRotation" : -60, "twoHanded" : true, "weaponOffset" : [-0.3, 2.0], "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "Estria's Kiss ^#8020f0;^reset;",
+    "description" : "A ^#76c7e4;calin^reset; sword made out of refined crystals and ^#ffa8e8;stardust^reset;. Seems like it's quickly gathering the energy around it...",
+    "inventoryIcon" : "ct_niverisk_2.png", "animationParts" : { "blade" : "ct_niverisk_2.png" },
+    "price" : 800, "rarity" : "Legendary", "elementalType" : "poison",
+    "primaryAbility" : {
+      "name" : "Estria's Love",
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
+    }
+  }
+}

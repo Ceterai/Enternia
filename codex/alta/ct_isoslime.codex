@@ -1,0 +1,27 @@
+{
+  "id" : "ct_isoslime",
+  "title" : "Isoslime In Cooking",
+  "description" : "An ebook that explains proper ways of izopoi preparation and even provides some cooking recipes (and more).",
+  "longdescription" : "It includes simple recipes some of which require hard-to-find ingredients.",
+  "icon" : "ebook/isoslime.png",
+  "contentPages" : [
+
+    "^#7ddcde;Izopoi^reset;, or isoslime, is a generally inedible material that, with proper preparation, can become a great cooking ingredient.
+
+To be clear, even unprepared, izopoi is not inedible in its true sense; instead, it just passes the system with no damage to it whatsoever, but doesn't get properly digested either.
+
+For this reason, this book will explain ways to cook with izopoi to make it as edible and tasty as possible.",
+
+"The easiest way to cook izopoi is to turn it into ^#7ddcde;Izo Jam^reset;.
+To do this, you'll need to separate the izo (cryo) layer of the slime from its poi (slime) layer first. This way adding and mixing proper proportions will become much easier.
+
+Izo Jam is a popular cooking ingredient in itself, used in many different cold desserts, for example in ^#7ddcde;Biomix Ice Cream^reset;."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

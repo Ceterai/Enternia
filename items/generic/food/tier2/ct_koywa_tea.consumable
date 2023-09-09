@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_koywa_tea.png",
-  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A tea brewed from various koywa herbs. Very healthy.",
+  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A tea brewed from various koywa herbs. Very healthy.",
   "shortdescription" : "Koywa Tea",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Riverside Surprise",
-      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
+      "description" : "^#b0e0fc;Yava alta cuisine^reset;. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 300 } ] ]
     }

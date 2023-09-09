@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_ionic_fresh.png",
-  "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Charges you with fresh energy to get through the day! Literally.",
+  "description" : "^#b0e0fc;Nia alta cuisine^reset;. Charges you with fresh energy to get through the day! Literally.",
   "shortdescription" : "Ionic Fresh",
   "effects" : [ [
     {
@@ -31,7 +31,7 @@
   "variants" : [
     {
       "shortdescription" : "Ionic Essence",
-      "description" : "Nia ^#b0e0fc;alta^reset; cuisine. Very energy-full drink that turned out more fresh than ever. Feels like drinking pure energy!",
+      "description" : "^#b0e0fc;Nia alta cuisine^reset;. Very energy-full drink that turned out more fresh than ever. Feels like drinking pure energy!",
       "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
       "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 60 } ] ]
     }

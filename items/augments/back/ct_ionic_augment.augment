@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_ionic_augment",
+  "shortdescription" : "Ionic Augment ^#2080f0;^reset;",
+  "description" : "An EPP module that makes you periodically burst with ionic clouds.",
+
+  "level" : 5, "price" : 3000, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_ionic_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_ionic_augment",
+    "displayName" : "Ionic Enhancement",
+    "displayIcon" : "/items/augments/back/ct_ionic_augment.png",
+    "effects" : [ "ct_ionic_clouds" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

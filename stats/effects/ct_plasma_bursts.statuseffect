@@ -1,0 +1,16 @@
+{
+  "name" : "ct_plasma_bursts",
+  "label" : "Plasma Bursts",
+  "description" : "Periodically burst with ^#2080f0;pure plasma^reset;.",
+
+  "effectConfig" : {
+    "range" : 3,
+    "type" : "ct_plasma",
+    "damageMultiplier" : 1,
+    "cooldown" : 4.0
+  },
+  "defaultDuration" : 60,
+
+  "scripts" : [ "/stats/scripts/ct_burst.lua" ],
+  "icon" : "ct_plasma_bursts.png"
+}

@@ -59,5 +59,6 @@
     }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "newItem" : "ct_alta_bench",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

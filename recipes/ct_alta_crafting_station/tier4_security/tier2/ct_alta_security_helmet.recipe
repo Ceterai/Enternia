@@ -2,9 +2,9 @@
   "input" : [
     { "item" : "titaniumbar", "count" : 6 },
     { "item" : "ct_alta_energy_cell", "count" : 1 },
-    { "item" : "ct_docs_security-codex", "count" : 1 }
+    { "item" : "ct_alta_security-codex", "count" : 1 }
   ],
-  "duration" : 5,
+  "duration" : 4,
   "output" : { "item" : "ct_alta_security_helmet", "count" : 1 },
   "groups" : [ "alta_t2", "tier4_security", "armor", "head", "all" ]
 }

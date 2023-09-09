@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "ct_dreamer-codex", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_dreamer_android_head", "count" : 1 },
+  "groups" : [ "alta_max", "tier6_enternia", "armor", "head", "all" ]
+}

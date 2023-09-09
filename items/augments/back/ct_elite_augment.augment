@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_elite_augment",
+  "shortdescription" : "Elite Augment ^#8020f0;^reset;",
+  "description" : "An EPP module that adds ^#20f080;Autorepeller^reset; and ^#2080f0;Emergency Healer^reset;.",
+
+  "level" : 6, "price" : 3200, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_elite_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_elite_augment",
+    "displayName" : "Elite Enhancement",
+    "displayIcon" : "/items/augments/back/ct_elite_augment.png",
+    "effects" : [ "ct_autorepeller", "ct_emergency_healer" ]
+  },
+
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

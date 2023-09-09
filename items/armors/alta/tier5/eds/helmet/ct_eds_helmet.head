@@ -1,0 +1,71 @@
+{
+  "itemName" : "ct_eds_helmet",
+  "shortdescription" : "^#f02020;EDS^reset; Helmet",
+  "description" : "An advanced headwear upgrade for ^#f02020;EDS^reset; security units.",
+
+  "price" : 1000, "rarity" : "Rare",
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_autoshielder_eds"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "colorOptions" : [
+    // EDS RED (DEFAULT)
+    { "801c1c" : "801c1c", "b81824" : "b81824", "ff2c40" : "ff2c40", "ff6480" : "ff6480" },
+    // LIME (BLACK)
+    { "801c1c" : "8fc000", "b81824" : "c5f020", "ff2c40" : "f3fc60", "ff6480" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "801c1c" : "00c063", "b81824" : "20f081", "ff2c40" : "60fc91", "ff6480" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "801c1c" : "009cc0", "b81824" : "20d3f0", "ff2c40" : "60fcf9", "ff6480" : "b0fcf9" },
+    // RED
+    { "801c1c" : "c00003", "b81824" : "f0202d", "ff2c40" : "fc6082", "ff6480" : "fcb0c2" },
+    // ORANGE
+    { "801c1c" : "c07000", "b81824" : "f08f20", "ff2c40" : "fc9c60", "ff6480" : "fcccb0" },
+    // YELLOW
+    { "801c1c" : "c0af00", "b81824" : "f0d420", "ff2c40" : "fcd060", "ff6480" : "fce5b0" },
+    // GREEN
+    { "801c1c" : "03c000", "b81824" : "2df020", "ff2c40" : "82fc60", "ff6480" : "c2fcb0" },
+    // BLUE
+    { "801c1c" : "001cc0", "b81824" : "2049f0", "ff2c40" : "6096fc", "ff6480" : "b0ccfc" },
+    // PURPLE
+    { "801c1c" : "7c00c0", "b81824" : "9d20f0", "ff2c40" : "a660fc", "ff6480" : "d1b0fc" },
+    // PINK
+    { "801c1c" : "c00069", "b81824" : "f0209b", "ff2c40" : "fc60d4", "ff6480" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "801c1c" : "366388", "b81824" : "4e8fb8", "ff2c40" : "76c7e4", "ff6480" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

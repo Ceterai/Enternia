@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_combat_power_augment",
+  "shortdescription" : "Combat Power Augment ^#2080f0;^reset;",
+  "description" : "An EPP module that slightly boosts your power and overall mobility.",
+
+  "level" : 5, "price" : 3200, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_combat_power_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_combat_power_augment",
+    "displayName" : "Combat Power Enhancement",
+    "displayIcon" : "/items/augments/back/ct_combat_power_augment.png",
+    "effects" : [ "runboostaugment", "jumpboostaugment", "swimboostaugment", "rageaugment1" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_ceterai_chest",
+  "shortdescription" : "^#2080f0;C.T.^reset; Suit",
+  "description" : "Provides enhanced energy flow in exchange for protection.",
+
+  "price" : 1600, "rarity" : "Legendary",
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    "ct_energy_support_system"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "colorOptions" : [
+    // DARK OMNIBLUE
+    { "60c0fc" : "60c0fc", "2080f0" : "2080f0", "0050c0" : "0050c0", "081c6c" : "081c6c" },
+    // BLACK
+    { "60c0fc" : "4e4e4e", "2080f0" : "333333", "0050c0" : "242424", "081c6c" : "121212" },
+    // GREY
+    { "60c0fc" : "b1b1b1", "2080f0" : "727272", "0050c0" : "525252", "081c6c" : "282828" },
+    // WHITE
+    { "60c0fc" : "dfdfdf", "2080f0" : "c5c5c5", "0050c0" : "b8b8b8", "081c6c" : "a6a6a6" },
+    // RED
+    { "60c0fc" : "ff646b", "2080f0" : "cd1921", "0050c0" : "922113", "081c6c" : "520000" },
+    // ORANGE
+    { "60c0fc" : "ffa664", "2080f0" : "cd5919", "0050c0" : "924313", "081c6c" : "522e00" },
+    // YELLOW
+    { "60c0fc" : "ffe364", "2080f0" : "cdad19", "0050c0" : "928f13", "081c6c" : "515200" },
+    // GREEN
+    { "60c0fc" : "94ff64", "2080f0" : "51cd19", "0050c0" : "279213", "081c6c" : "005205" },
+    // BLUE
+    { "60c0fc" : "6485ff", "2080f0" : "1940cd", "0050c0" : "131b92", "081c6c" : "0c0052" },
+    // PURPLE
+    { "60c0fc" : "a064ff", "2080f0" : "5e19cd", "0050c0" : "571392", "081c6c" : "380052" },
+    // PINK
+    { "60c0fc" : "ff64f0", "2080f0" : "cd19bd", "0050c0" : "921373", "081c6c" : "52002d" },
+    // CRYSTAL (BROWN)
+    { "60c0fc" : "c9eef6", "2080f0" : "76c7e4", "0050c0" : "4e8fb8", "081c6c" : "366388" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

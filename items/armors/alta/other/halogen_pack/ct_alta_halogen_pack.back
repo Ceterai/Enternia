@@ -3,7 +3,7 @@
   "shortdescription" : "Altered Halogen Pack",
   "description" : "A backpack with an attached halogen light. It's very bright!",
 
-  "level" : 4, "price" : 600, "rarity" : "Uncommon",
+  "level" : 6, "price" : 600, "rarity" : "Legendary",
   "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
   "race" : "alta",
 
@@ -12,7 +12,8 @@
   "femaleFrames" : "back.png",
 
   "statusEffects" : [
-    "halogenglow"
+    "halogenglow",
+    "ct_autoshielder_force"
   ],
 
   "colorOptions" : [

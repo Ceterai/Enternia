@@ -1,0 +1,45 @@
+{
+  "id" : "ct_alta_food_2",
+  "title" : "Alta Chef's Guide",
+  "description" : "An extensive culinary ^#b0e0fc;ebook^reset; that goes in-depth into alta cooking culture and its meaning to altas in general, as well as provides advanced recipes as examples. (Unlocks tier 3 recipes)",
+  "longdescription" : "This ebook was written by a grand alta chef named Miara, a very caring alta looking forward to educate less experienced altas how to cook!",
+  "icon" : "ebook/lab.png",
+  "contentPages" : [
+
+    "Hi again, fellow ^#b0e0fc;alta^reset;! My name is Miara and I am a grand chef at one of ^#b0e0fc;Alta-1^reset; biggest restaurants.  
+In this ebook, I want to go in-depth on more advanced recipes that you can learn to become a great cook!
+
+^#b0e0fc;Food^reset; is an important part of ^#b0e0fc;alta culture^reset; and often represents similar concepts and reflects its peculiarities.
+
+Thus, the ingredients you can find in different cuisines, and even cuisines themself, might remind you of certain basic alta concepts.",
+
+"For example, the ^#b0e0fc;runeva cuisine^reset; represents the Runeva triangle concept, found in many corners of alta civilization as a whole, and things like the ^#b0e0fc;Gyera Ordis^reset; and ^#b0e0fc;Iora Gyera Parks^reset;, or the ^#ffa8e8;stardust^reset; energy components, the fundamental part of ^#ffa8e8;Io^reset; herself.
+
+Similarly, most ingredients of the ^#b0e0fc;calin cuisine^reset; are representative of another fundamental part of alta existance - ^#76c7e4;crystals^reset;.",
+
+"^#b0e0fc;Nia cuisine^reset; is representative of energy - an important component of Io and the life on stardust planets and other ^#ffa8e8;Io structs^reset;.
+
+Now, ^#b0e0fc;yava cuisine^reset; relates to the nature and the overwhelming ^#20f080;ceternia^reset; energy within it, the integral part of life as a whole.
+
+These four main cuisines represent the ^#b0e0fc;Alta Quaternion^reset; - a common occurence in alta civilization, that tends to group things in multitudes of 4 - quarter of 16, the hexadecimal system used by altas.",
+
+"Related resources:
+
+- ^#b0e0fc;Alta Culinary Guide^reset;
+- ^#b0e0fc;Calin Cuisine Book^reset;
+- ^#b0e0fc;Runeva Cuisine Book^reset;
+- ^#b0e0fc;Nia Cuisine Book^reset;
+- ^#b0e0fc;Yava Cuisine Book^reset;"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "learnBlueprintsOnPickup" : [
+        "ct_alta_dinner", "ct_aya_punch", "ct_caliopa", "ct_crunchy_pie", "ct_fivaldo_salad", "ct_heecho_punch", "ct_hive_curry", "ct_natal_punch",
+        "ct_niatto_motsu", "ct_onitti_motsu", "ct_rimar_motsu", "ct_tonna_meringue", "ct_tonna_shake", "ct_yaarizza", "ctgiltsaystew", "ctpie"
+      ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ctwood", "count" : 16 },
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "liquidpoison", "count" : 16 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "ct_bishyn_augment", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "enhancement", "collar", "all" ]
+}

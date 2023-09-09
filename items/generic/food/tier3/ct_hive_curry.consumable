@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_hive_curry.png",
-  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Healthy, spicy, squishy. Do you like bugs?",
+  "description" : "^#b0e0fc;Yava alta cuisine^reset;. Healthy, spicy, squishy. Do you like bugs?",
   "shortdescription" : "Hive Curry",
   "effects" : [ [
     {
@@ -34,7 +34,7 @@
   "variants" : [
     {
       "shortdescription" : "Spice-Hive Curry",
-      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
+      "description" : "^#b0e0fc;Yava alta cuisine^reset;. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
     }
   ]

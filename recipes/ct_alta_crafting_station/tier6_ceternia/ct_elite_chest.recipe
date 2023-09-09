@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "refinedaegisalt", "count" : 10 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_elite_chest", "count" : 1 },
+  "groups" : [ "alta_t4", "tier6_ceternia", "armor", "body", "all" ]
+}

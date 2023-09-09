@@ -1,0 +1,36 @@
+{
+  "id" : "ct_warped",
+  "title" : "Warped Containment",
+  "description" : "This ^#b0e0fc;datamass^reset; contains information and instructions on how to (somewhat) contain or limit ^#9b2d3f;warped^reset; growth. Judging by the look of the datamass, doesn't seem like it worked really well.",
+  "longdescription" : "The datamass is partially covered in warped growth. This indicates that it was left out near such for a bit too long. Thankfully, the data inside seems to be intact.",
+  "icon" : "datamass/warped.png",
+  "contentPages" : [
+
+    "^#9b2d3f;Warped^reset; growth is an uncontrollable, constantly mutating and slowly expanding plant matter.
+
+While mostly harmless by itself, the dangers of warped climate comes from both expansion and other warped-compatible life that appears in it.
+
+It's very hard to control the warped expansion, but it can be contained with certain precautions.",
+
+"Still, its containment is one of primary goals as of right now, since it endangers ^#20f080;yaara groves^reset; it expands on.
+
+The warped growth itself consists of ^#9b2d3f;glow fibres^reset; and ^#9b2d3f;yonnur^reset;.
+
+^#9b2d3f;Yonnur^reset; is a bioluminescent liquid that is often used by altas for illumination, in things like an ^#b0e0fc;Alta Lab Capsule With Yonnur^reset;.",
+
+"In order to properly contain the growth, all glow fibre veins and bulbs containing yonnur need to be properly frozen or curdled.
+
+This can be done via specialized alta devices, or with cryogenic materials like ^#b0e0fc;cryonic extracts^reset; and ^#7ddcde;isoslime^reset;.",
+
+"As for the warped-compatible life, it includes venomous plants like ^#9b2d3f;nivera^reset;, ^#9b2d3f;warped hives^reset;, ^#9b2d3f;warped hive trees^reset; and monsters like ^#9b2d3f;warped flies^reset;, ^#9b2d3f;bruteflies^reset;, ^#9b2d3f;warped sporgus^reset;, ^#9b2d3f;warped anglures^reset;, but it can also contain mostly harmless plants, like ^#9b2d3f;archulins^reset;.
+
+^#9b2d3f;Archulins^reset; are bitter berries that can be used as cooking ingridients for simple alta dishes like ^#9b2d3f;archilibites^reset;."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

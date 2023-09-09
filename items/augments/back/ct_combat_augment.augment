@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_combat_augment",
+  "shortdescription" : "Combat Augment",
+  "description" : "An EPP module that slightly boosts your power and movement speed.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_combat_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_combat_augment",
+    "displayName" : "Combat Enhancement",
+    "displayIcon" : "/items/augments/back/ct_combat_augment.png",
+    "effects" : [ "runboostaugment", "rageaugment1" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

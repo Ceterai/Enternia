@@ -1,0 +1,104 @@
+{
+  "type" : "ct_alta_eds_drone",
+  "shortdescription" : "^#f02020;EDS^reset; Drone ^#2080f0;^reset;",
+  "description" : "Tier 3.5 Drone.  \nAn advanced armored drone operated by ^#f02020;EDS^reset;. Has additional armor layers.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Transformer",
+    "description" : "Will fire semi-auto bursts of 3 ^#8020f0;Ionic Charges^reset; when in range. Will transform into an ^#f02020;EDS Droid^reset; on low health."
+  },
+
+  "passiveAbility" : {
+    "name" : "Basic Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch."
+  },
+
+  "categories" : [ "ct_eds_drone_parts" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ], "seeThroughLiquid" : false, "monsterClass" : "rare",
+    "minHealth" : 16,
+    "behaviorConfig" : {
+      "damageOnTouch" : true, "targetQueryRange" : 20,
+      "foundTargetActions" : [ { "name" : "action-aggrohop", "parameters" : { "onGround": false, "aggroHopSpeed": 1 } } ],
+      "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
+      "hostileActions" : [
+        {
+          "name" : "action-fire", "cooldown" : [2, 4],
+          "parameters" : {
+            "requireLineOfSight" : true, "maximumRange" : 15, "windupStopForce" : 50, "windupTime" : 0.3,
+            "aimAtTarget" : true, "projectileCount" : 3, "projectileInterval" : 0.2, "projectileType" : "ct_ionic_medium",  // "projectileParameters" : { "speed" : 35 },
+            "onGround" : false, "fireOffset" : [-0.25, 0.1], "winddownTime" : 0.53
+          }
+        }
+      ],
+      "approachActions" : [ { "name" : "approach-fly" } ],
+      "followActions" : [ { "name" : "approach-teleport" }, { "name" : "approach-fly" } ],
+      "wanderActions" : [
+        { "name" : "wander-fly", "cooldown" : [4,16], "parameters" : { "wanderTime" : [12,40], "groundDistance" : 4 } },
+        { "name" : "land-fly", "parameters" : { "flySpeed" : 8, "landCheckDistance" : 40, "idleTime" : 40 } }
+      ],
+      "deathActions" : [
+        { "name" : "action-animate", "parameters" : { "state" : "morph", "animationTime" : 0.78 } },
+        { "name" : "action-spawnmonster",
+          "parameters" : { "monsterType" : "ct_eds_droid", "replacement" : true, "parameters" : { "health" : 24 } }
+        }
+      ]
+    },
+
+    "movementSettings" : {
+      "collisionPoly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ],
+      "gravityEnabled" : false, "mass" : 0.75, "flySpeed" : 12, "airFriction" : 0.25, "airForce" : 25.0
+    },
+
+    "touchDamage" : {
+      "poly" : [ [-1.0, -1.0], [1.0, -1.0], [1.0, 1.0], [-1.0, 1.0] ], "teamType" : "enemy",
+      "damage" : 12, "knockback" : 10, "damageSourceKind" : "lash", "statusEffects" : [ ]
+    },
+
+    "statusEffects" : [ "ct_sensitive_electronics" ],
+    "statusSettings" : {
+      "statusProperties" : { "targetMaterialKind" : "robotic" },
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [ "/stats/monster_primary.lua" ], "primaryScriptDelta" : 5,
+      "stats" : {
+        "knockbackStunTime" : { "baseValue" : 0.25 },
+        "knockbackThreshold" : { "baseValue" : 9 },
+
+        "maxHealth" : { "baseValue" : 56 },
+        "protection" : { "baseValue" : 32.0 },
+        "healthRegen" : { "baseValue" : 0.0 },
+        "powerMultiplier" : { "baseValue" : 1.0 },
+        "physicalResistance" : { "baseValue" : 0.25 },
+
+        "fireResistance" : { "baseValue" : 0.0 },
+        "fireStatusImmunity" : { "baseValue" : 0.0 },
+
+        "iceResistance" : { "baseValue" : 0.0 },
+        "iceStatusImmunity" : { "baseValue" : 0.0 },
+
+        "electricResistance" : { "baseValue" : -0.25 },
+        "electricStatusImmunity" : { "baseValue" : 0.0 },
+
+        "poisonResistance" : { "baseValue" : 0.5 },
+        "poisonStatusImmunity" : { "baseValue" : 1.0 }
+      },
+      "resources" : {
+        "stunned" : { "deltaValue" : -1.0, "initialValue" : 0.0 },
+        "health" : { "maxStat" : "maxHealth", "deltaStat" : "healthRegen", "defaultPercentage" : 100 },
+        "shieldHealth" : { "initialValue" : 0.0 }
+      }
+    },
+    "knockoutTime" : 0.1, "knockoutEffect" : "blink", "knockoutAnimationStates" : { "damage" : "stunned" },
+    "mouthOffset" : [0, 0], "feetOffset" : [0, -8],
+    "metaBoundBox" : [-2.5, -2.5, 2.5, 2.5], "scale" : 1.0,
+    "capturable" : true, "captureHealthFraction" : 0.5
+  }
+}
+

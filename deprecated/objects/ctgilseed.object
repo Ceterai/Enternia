@@ -57,5 +57,6 @@
 
   "maxImmersion" : 0.125,
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "newItem" : "ct_gil_seed",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

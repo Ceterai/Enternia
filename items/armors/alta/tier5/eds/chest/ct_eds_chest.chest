@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_eds_chest",
+  "shortdescription" : "^#f02020;EDS^reset; Body Armor",
+  "description" : "An ^#f02020;EDS^reset; armor upgrade for ^#b0e0fc;alta^reset; security units. Now has Life Support module integrated, although half as powerful as the Security Pack.",
+
+  "price" : 1600, "rarity" : "Rare",
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "statusEffects" : [
+    "ct_life_support_module"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "colorOptions" : [
+    // EDS RED (DEFAULT)
+    { "551b1b" : "551b1b", "762222" : "762222", "a42b2b" : "a42b2b", "ca002b" : "ca002b" },
+    // LIME (BLACK)
+    { "551b1b" : "8fc000", "762222" : "c5f020", "a42b2b" : "f3fc60", "ca002b" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "551b1b" : "00c063", "762222" : "20f081", "a42b2b" : "60fc91", "ca002b" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "551b1b" : "009cc0", "762222" : "20d3f0", "a42b2b" : "60fcf9", "ca002b" : "b0fcf9" },
+    // RED
+    { "551b1b" : "c00003", "762222" : "f0202d", "a42b2b" : "fc6082", "ca002b" : "fcb0c2" },
+    // ORANGE
+    { "551b1b" : "c07000", "762222" : "f08f20", "a42b2b" : "fc9c60", "ca002b" : "fcccb0" },
+    // YELLOW
+    { "551b1b" : "c0af00", "762222" : "f0d420", "a42b2b" : "fcd060", "ca002b" : "fce5b0" },
+    // GREEN
+    { "551b1b" : "03c000", "762222" : "2df020", "a42b2b" : "82fc60", "ca002b" : "c2fcb0" },
+    // BLUE
+    { "551b1b" : "001cc0", "762222" : "2049f0", "a42b2b" : "6096fc", "ca002b" : "b0ccfc" },
+    // PURPLE
+    { "551b1b" : "7c00c0", "762222" : "9d20f0", "a42b2b" : "a660fc", "ca002b" : "d1b0fc" },
+    // PINK
+    { "551b1b" : "c00069", "762222" : "f0209b", "a42b2b" : "fc60d4", "ca002b" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "551b1b" : "366388", "762222" : "4e8fb8", "a42b2b" : "76c7e4", "ca002b" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

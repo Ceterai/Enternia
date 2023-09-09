@@ -1,0 +1,24 @@
+{
+  "id" : "ct_faradea",
+  "title" : "Brawl Of Legends Poster",
+  "description" : "A poster covered in yellow markings. It's about a fighting contest.\nThe bottom line says \"^#ffe364;Faradea^reset;\" in capital letters.",
+  "icon" : "paper/faradea.png",
+  "contentPages" : [
+
+    "Are you brave enough to face the best Faradea Legends around?
+Come to this season's Brawl of Legends - Intrepid Stars!
+
+In this season, ^#b0e0fc;alta^reset; mercs from all around can compete in a series of battles against each other to determine a new ^#ffe364;Faradea Legend^reset;.
+
+Engage in *regulated combat with other ^#b0e0fc;altas^reset; and opponents of crowd's choice and prove that you are the true Legend!",
+
+"This tournament's grand prize is a new, pristine ^#ffe364;F.D. Scavenger^reset;!"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "docs" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

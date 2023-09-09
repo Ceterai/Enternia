@@ -2,12 +2,7 @@
   "itemName" : "ct_stardust",
   "shortdescription" : "Stardust",
   "description" : "Put in a bowl and carefully mixed together.",
-
-  "price" : 0,
-  "rarity" : "Legendary",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent" ],
-
+  "level" : 8, "price" : 0, "rarity" : "Legendary",
+  "category" : "craftingMaterial", "itemTags" : [ "reagent", "stardust", "energy_source", "life_source" ],
   "inventoryIcon" : "ct_stardust.png"
 }

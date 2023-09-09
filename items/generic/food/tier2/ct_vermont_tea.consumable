@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_vermont_tea.png",
-  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A spicy tea mixture with sweetness of ayas. A good choice if you caught a cold or just feeling spicy.",
+  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A spicy tea mixture with sweetness of ayas. A good choice if you caught a cold or just feeling spicy.",
   "shortdescription" : "Vermont Tea",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Exotic Tea",
-      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. This definitely tastes weird. Good weird, I think you're onto something.",
+      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This definitely tastes weird. Good weird, I think you're onto something.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "biomecoldImmunity", "duration" : 300 } ] ]
     }

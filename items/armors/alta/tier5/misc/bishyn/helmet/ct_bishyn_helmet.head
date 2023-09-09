@@ -1,0 +1,71 @@
+{
+  "itemName" : "ct_bishyn_helmet",
+  "shortdescription" : "Bishyn Helmet ^#2080f0;^reset;",
+  "description" : "A helmet powered by poisonous ^#378754;bishyn^reset; crystals.",
+
+  "price" : 1060, "rarity" : "Rare",
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_omniblue_light"
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.18
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 4
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "colorOptions" : [
+    // BISHYN (DEFAULT)
+    { "378754" : "378754", "4fb66e" : "4fb66e", "77e28a" : "77e28a", "caf6ce" : "caf6ce" },
+    // LIME (BLACK)
+    { "378754" : "8fc000", "4fb66e" : "c5f020", "77e28a" : "f3fc60", "caf6ce" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "378754" : "00c063", "4fb66e" : "20f081", "77e28a" : "60fc91", "caf6ce" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "378754" : "009cc0", "4fb66e" : "20d3f0", "77e28a" : "60fcf9", "caf6ce" : "b0fcf9" },
+    // RED
+    { "378754" : "c00003", "4fb66e" : "f0202d", "77e28a" : "fc6082", "caf6ce" : "fcb0c2" },
+    // ORANGE
+    { "378754" : "c07000", "4fb66e" : "f08f20", "77e28a" : "fc9c60", "caf6ce" : "fcccb0" },
+    // YELLOW
+    { "378754" : "c0af00", "4fb66e" : "f0d420", "77e28a" : "fcd060", "caf6ce" : "fce5b0" },
+    // GREEN
+    { "378754" : "03c000", "4fb66e" : "2df020", "77e28a" : "82fc60", "caf6ce" : "c2fcb0" },
+    // BLUE
+    { "378754" : "001cc0", "4fb66e" : "2049f0", "77e28a" : "6096fc", "caf6ce" : "b0ccfc" },
+    // PURPLE
+    { "378754" : "7c00c0", "4fb66e" : "9d20f0", "77e28a" : "a660fc", "caf6ce" : "d1b0fc" },
+    // PINK
+    { "378754" : "c00069", "4fb66e" : "f0209b", "77e28a" : "fc60d4", "caf6ce" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "378754" : "366388", "4fb66e" : "4e8fb8", "77e28a" : "76c7e4", "caf6ce" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "ct_antorash",
+  "title" : "Antorash Tour Guide",
+  "description" : "A small tour ebook that guides you through the hollow areas deep underneath ^#20f080;alterash^reset; planets.",
+  "longdescription" : "There's an encrypted note at the end with exact coordinates that don't work, and a signature that says ^#2080f0;\"C.T.\"^reset;.",
+  "icon" : "ebook/security.png",
+  "contentPages" : [
+
+    "Welcome to ^#20f080;Antorash^reset;!
+Also called The Underworld, this is a surface-like place, located in the depths of ^#20f080;alterash^reset; planets, lighted up mostly by crystals and other natural underground light sources.
+
+Enjoy your time traversing ^#20f080;antorash plains^reset;, or relaxing among the crystals of ^#ffa8e8;starforests^reset;.
+
+If you stumble upon an ^#b0e0fc;alta city^reset;, be sure to check in with a ^#b0e0fc;security guard^reset; to register your visit.",
+
+"Also, stay away from ^#9b2d3f;warped forests^reset;. These places have been proven to be somewhat dangerous to ^#b0e0fc;altas^reset;."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_miko_tea.png",
-  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
+  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
   "shortdescription" : "Miko Tea",
   "effects" : [ [
     {
@@ -31,7 +31,7 @@
   "variants" : [
     {
       "shortdescription" : "Yae Tea",
-      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
+      "description" : "^#b0e0fc;Yava alta cuisine^reset;. A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "love", "duration" : 300 }, { "effect" : "slowlove", "duration" : 300 } ] ]
     }

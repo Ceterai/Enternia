@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 6 },
+    { "item" : "ct_ceterai-codex", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_ceterai_helmet", "count" : 1 },
+  "groups" : [ "alta_t4", "tier6_alternia", "armor", "head", "all" ]
+}

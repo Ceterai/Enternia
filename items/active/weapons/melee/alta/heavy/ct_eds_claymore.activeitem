@@ -1,0 +1,115 @@
+{
+  "itemName" : "ct_eds_claymore",
+  "shortdescription":"^#f02020;EDS^reset; Claymore ^red;WIP^reset;",
+  "description":"^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA massive defensive tool created by ^#f02020;EDS^reset;. Perfect for close combat.",
+  "longdescription":"This bastion of EDS defence is a basic combat tool usually carried by EDS mechs or by EDS ^#b0e0fc;arcanas^reset;.\n\n**Elerune CDR** is an integrated blast system, an inherent part of an EDS Claymore, and provides blaster-like abilities to the tool, making it addtionally effective in middle-range combat too.",
+  "elementalType" : "physical",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "twoHanded" : true, "category" : "broadsword",
+  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "alta", "eds", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_eds_claymore.png",
+
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_eds_claymore.png" },
+  "animationCustom" : {
+    "sounds" : {
+      "swoosh1" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh2" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ], "downstab" : [ "/sfx/melee/swing_spear.ogg" ]
+    },
+    "animatedParts" : { "stateTypes" : { "bladeCharge" : { "default" : "idle", "states" : {
+      "idle" : { },
+      "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
+      "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
+      } } },
+      "parts" : { "blade" : {"properties":{"offset" : [0, 2]}} }
+    },
+    "particleEmitters" : {
+      "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
+      }
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
+
+  "primaryAbility" : {
+    "name" : "Bastion Strike", "class" : "BladeCharge", "description" : "A sequence of 3 heavy strikes. Hold to perform a Fang Discharge. Hold in air to Downstab.",
+    "baseDps" : 12, "fireTime" : 1.2, "energyUsage" : 32,
+    "holdParams" : { "cooldownTime" : 0.8, "energyUsageFactor" : 1.0, "chargeTime" : 1.2, "chargeBorder" : "FFFF3388" }, "holdTimeMax" : 0.35,
+    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"broadsword","knockbackMode":"facing","timeoutGroup":"alt","timeout":0.5},
+    "flashTime" : 0.15, "flashDirectives" : "fade=FFFFFFFF=0.15", "comboSpeedFactor" : 0.9, "edgeTriggerGrace" : 0.25,
+    "stepConfig" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 0.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0] },
+      { "damageFactor" : 1.1, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "statusEffects" : [ ] }
+    ],
+    "downstabParams" : {
+      "cooldownTime" : 0.5, "energyFactor" : 0.2, "holdAirControl" : 60, "stabVelocity" : -5, "bounceYVelocity" : 35, "damageConfig" : {
+        "damageSourceKind" : "spear", "statusEffects" : [ ], "baseDamage" : 6, "knockback" : [0, -35], "timeout" : 0.2, "timeoutGroup" : "alt"
+      }
+    },
+    "stances" : {
+      "idle" : { "armRotation" : -75, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "windup" : { "armRotation" : 70, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "slash" : { "duration" : 0.4, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "hold" : { "duration" : 0.2, "armRotation" : -70, "weaponRotation" : -40, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "stab" : { "armRotation" : -50, "weaponRotation" : -75, "twoHanded" : true, "minStabTime" : 0.2, "allowRotate" : false, "allowFlip" : true },
+      "windup1" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "preslash1" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "fire1" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "wait1" : { "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup2" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
+      "wait2" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup3" : { "duration" : 0.25, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire3" : { "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+  "baseOffset" : [0.30, 0.385], "muzzleOffset" : [1.85, 0.35],
+
+  "altAbility" : {
+    "name" : "Elerune CDR Blast", "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"], "class" : "AltaRanged",
+    "description" : "Launches stabilizing Ion Rockets that deal electric damage.",
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 1.2,
+    "pressType" : "blast", "pressParams" : { "type" : "ct_ionic_large", "inaccuracy" : 0.0, "params" : { "timeToLive" : 5.0 } },
+    "holdType" : "blast",
+    "holdParams" : { "type" : "ct_ionic_large", "inaccuracy" : 0.02, "params" : { "knockback" : 15, "timeToLive" : 5.0 }, "count" : 2, "interval" : 0.1 },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 5, "weaponRotation" : 5, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "cooldown" : { "duration" : 0.25, "armRotation" : 5, "weaponRotation" : 5, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "^#f02020;EDS^reset; Cannonsword ^#8020f0;^reset;",
+    "description" : "This weapon is now a powerful device that can hold any threat back, no matter how far away it is.",
+    "longdescription" : "The enhanced CDR is now able to launch powerful ^#f02020;EDS rockets^reset; at the targets. Packed with the **Litera-7** homing system, it's able to find it target after a charge.\n\n**Centar Thruster** is what causing the weapon to propell forward, with the use of mentioned rockets as push charges.",
+    "price" : 800, "rarity" : "Legendary",
+    "inventoryIcon" : "ct_eds_claymore_2.png", "animationParts" : { "blade" : "ct_eds_claymore_2.png" },
+    "primaryAbility" : { "name" : "Bastion Stand", "description" : "A sequence of 3 heavy strikes. Hold to perform a Fang Discharge. Hold in air to Downstab." },
+    "altAbility" : {
+      "name" : "Elerune CDR Barrage", "description" : "Launches stabilizing Ion Rockets that deal electric damage.",
+      "baseDps" : 9, "energyUsage" : 36, "fireTime" : 1.2,
+      "pressType" : "blast",
+      "pressParams" : {
+        "type" : "ct_ionic_large",
+        "inaccuracy" : 0.0,
+        "params" : { "timeToLive" : 5.0 }
+      },
+      "holdType" : "blast",
+      "holdParams" : {
+        "type" : "ct_ionic_large",
+        "inaccuracy" : 0.02,
+        "params" : { "knockback" : 15, "timeToLive" : 5.0 },
+        "count" : 2,
+        "interval" : 0.1
+      }
+    }
+  }
+}

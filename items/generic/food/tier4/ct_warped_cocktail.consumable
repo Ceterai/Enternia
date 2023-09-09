@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_warped_cocktail.png",
-  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
+  "description" : "^#b0e0fc;Calin alta cuisine^reset;. Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
   "shortdescription" : "Warped Cocktail",
   "effects" : [ [
     {
@@ -30,7 +30,7 @@
   "variants" : [
     {
       "shortdescription" : "Glowarp ^#8020f0;^reset;",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. An extra-warpy drink that will warp your perception of drinks as a concept.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. An extra-warpy drink that will warp your perception of drinks as a concept.",
       "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
   ]

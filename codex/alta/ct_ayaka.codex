@@ -1,0 +1,40 @@
+{
+  "id" : "ct_ayaka",
+  "title" : "Ayaka Gardener's Notes",
+  "description" : "A set of notes about ^#3587ff;ayaka^reset; growth maintenance made by an ^#b0e0fc;alta^reset; gardener.",
+  "longdescription" : "It seems to be caovered in dried up blue stains. The notes were carefully written by a professional with a passion for gardening, a tiny signature at the back says \"Naya\".\n\n**Naya** is a beautiful plant that growth in wet conditions with slight ionization, with some altas ending up choosing it as their name. Though, **Naya The Gardener** usually says that in her case it's a pure coinsidence.",
+  "icon" : "paper/ayaka.png",
+  "contentPages" : [
+
+    "^#3587ff;Ayaka trees^reset; are generally relatively easy to grow and maintain. This is true for almost all ayaka tree types with small exceptions.  
+When it comes to the difference between cultivated and wild ayakas, it's significantly hard to cultivate rare ayaka species, as most of them require very spicific conditions to exist.  
+This is also true when it comes to fruitfulness. ^#3587ff;Ayas^reset;, the fruit of ayaka, are very hard to cultivate, thus ^#3587ff;Ayaka Forests^reset; and ^#20f080;Alterash Gardens^reset; remain the main sources.",
+
+"The most common species, or the common ayaka tree, however, is pretty cultivation-friendly and can grow almost anywhere.
+
+Besides, the all-new ^#b0e0fc;alta eco chambers^reset; are able to provide most requirements for even the most rare ayaka species, like ^#3587ff;stardust ayakas^reset;, ^#3587ff;Elin ayakas^reset; and even ^#3587ff;ayaka giants^reset;.",
+
+"When taking care of wild forest ayakas, make sure to be aware of and careful around ^#3587ff;aya virmas^reset; - live poisonous ivy that sometimes grows among ^#3587ff;ayaka bushes^reset;.
+While mostly docile, they can get pretty touchy, especially during their mating season.
+
+Their poison is not meant to hurt you as much as immobilize, so be wary to not step on one.",
+
+"Most common uses for ayakas, aside from ayas, come from the ^#3587ff;ayaka wood^reset;.
+
+It's mostly used as a building material for light objects, decorations and as casing for small devices and electronics, like an energy cell, due to good isolation. It's also a good impulse accelerator.
+
+^#3587ff;Ayaka wood^reset; can also be refined into paper, or, in very rare cases, used as a cooking ingredient, primarily due to its nutritious fibres and ayaka sap.",
+
+
+"^#3587ff;Ayaka sap^reset; is a tingie ionic ferment that has a vast variety of uses among altas. It is a common cooking ingredient, as well as a good connective material and ionic accelerator.  
+^#3587ff;Aya Powder^reset; is often used as printing material or a cooking ingredient, and as plasma accelerator.  
+Common cooking recipes from ayaka biproducts include: ^#3587ff;Aya Fresh^reset;, ^#3587ff;Bluesweet Punch^reset;, ^#3587ff;Aya Mash^reset;, ^#3587ff;Blue Boil^reset;, ^#3587ff;Aya Ice Cream^reset;, ^#3587ff;Runeva Jam^reset;, ^#3587ff;Baked Aya^reset;, ^#3587ff;Ionic Fresh^reset;, ^#3587ff;Aya Essence^reset;, ^#3587ff;Ionic Essence^reset;, etc."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 3,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

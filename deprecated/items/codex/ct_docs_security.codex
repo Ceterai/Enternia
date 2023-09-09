@@ -1,0 +1,30 @@
+{
+  "id" : "ct_docs_security",
+  "title" : "Security Protocol Datamass",
+  "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
+  "icon" : "/items/generic/crafting/ct_datamass.png",
+  "contentPages" : [
+
+    "SECURITY PROTOCOL DOCUMENTATION
+
+The goal of this document is to describe present security protocols as well as lockdown and quarantine related scenarios.
+This should also be referenced as a security guard guide for general purposes.
+
+The data includes a full blueprint list for all necessary equipment.",
+"All mentioned guidelines were approved by all 4 alta mothers:
+
+Alderon Commander Mira;
+Alta-1 Empress Alliana;
+Staris Mother Celestia;
+Garden Mother Elin.
+
+As well as by the majority of creators."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+    "fixedPrice" : true, "level" : 4,
+    "newItem" : "ct_alta_security-codex",
+    "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+  }
+}

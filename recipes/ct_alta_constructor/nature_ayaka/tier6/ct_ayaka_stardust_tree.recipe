@@ -1,9 +1,7 @@
 {
   "input" : [
-    { "item" : "ctaya", "count" : 1 },
-    { "item" : "ctwoodsap", "count" : 4 },
-    { "item" : "prisiliteore", "count" : 4 },
-    { "item" : "ctwood", "count" : 8 }
+    { "item" : "ct_alta_sapling", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 4 }
   ],
   "output" : { "item" : "ct_ayaka_stardust_tree", "count" : 1 },
   "groups" : [ "alta_constructor6", "nature", "alterash_nature", "ayaka", "stardust", "saplings", "all" ]

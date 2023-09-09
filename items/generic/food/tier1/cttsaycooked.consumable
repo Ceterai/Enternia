@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "cttsaycooked.png",
-  "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. Unlike its fresh version, cooked tsay tastes mostly like meat.",
+  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. Unlike its fresh version, cooked tsay tastes mostly like meat.",
   "shortdescription" : "Cooked Tsay",
   "foodValue" : 20,
   "tooltipKind" : "ct_alta_consumable",
@@ -20,7 +20,7 @@
   "variants" : [
     {
       "shortdescription" : "Perfectly Cooked Tsay",
-      "description" : "Runeva ^#b0e0fc;alta^reset; cuisine. A well-made meaty assortment. Impressive how this was made only using a few tsays.",
+      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A well-made meaty assortment. Impressive how this was made only using a few tsays.",
       "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 30
     }
   ]

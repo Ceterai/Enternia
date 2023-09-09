@@ -1,0 +1,26 @@
+{
+  "id" : "ct_koywa",
+  "title" : "River Camping Brochure",
+  "description" : "A presentable invitation to an ^#b0e0fc;alta^reset; party, styled after the ^#497c64;koywa^reset; plants.",
+  "longdescription" : "This invitation is to a riverside resort called **Auroza**. Seems like it's the grand opening and they're throwing a party! The paper is covered in heart and bikini stickers, with refreshing cocktails and other beach party attire drawn on the card.",
+  "icon" : "paper/koywa.png",
+  "contentPages" : [
+
+    "This season we're hosting a special event at our party camp!
+
+Here, in the middle of ^#497c64;alterash riversides^reset;, one biggest thing to have is... swimming attire! Especially now that an official beach resort \"Auroza\" is finally open!!!
+
+Come to the grand opening and recieve gifts for participating in the party events!",
+
+"Grab your ^#b0e0fc;waterblaster^reset;, your floatie and your ^#b0e0fc;snorkel^reset;, and don't forget your ^#b0e0fc;bikini top^reset;! ..And ^#b0e0fc;bikini bottom^reset; too, obviously. Your choice.
+
+The fun starts now!"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 3,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

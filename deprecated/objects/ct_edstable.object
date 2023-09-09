@@ -28,5 +28,6 @@
     }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "newItem" : "ct_eds_table",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

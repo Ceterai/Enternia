@@ -35,7 +35,7 @@
 
   "scripts" : ["/objects/spawner/monsterspawner.lua"],
   "spawner" : {
-    "monsterTypes" : [ "ct_alta_eds_drone" ],
+    "monsterTypes" : [ "ct_eds_drone" ],
     "monsterParams" : { "aggressive" : true },
     "position" : [0, 0],
     "positionVariance" : [0, 0],

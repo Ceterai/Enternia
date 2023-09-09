@@ -1,0 +1,110 @@
+{
+  "itemName" : "ct_plasmasword",
+  "shortdescription":"Plasmasword ^#2080f0;^reset;",
+  "description":"A combat tool used by ^#b0e0fc;alta^reset; soldiers in melee fights. The energy powering this sword creates a thin ^#2080f0;plasma^reset; cover over its blade.",
+  "longdescription":"**Alter-NV** is codename for all alta combat plasmaswords with differences in models, variations and customization. Usually, alta like to personalize their plasmaswords with different blade shapes, modifications and various cosmetics and trinkets. Some even use ^#ceffd7;phosicores^reset; or ^#9b2d3f;glow fibres^reset; to create differently-colored glow.\n\nThis **energy tool** is considered a visit card of **alta gladiators**, and is often used by many ^#ffe364;Faradea legends^reset;.\n\n**Arcanas**, or alta gladiators, are berserk-type combat units, enhanced with a powerful **arcana exoskeleton**, allowing them to move at great speeds and jump much higher that usual, as well as put significatnly more power into each hit of their weapon.",
+  "elementalType" : "electric",
+
+  "level" : 5, "price" : 800, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "broadsword",
+  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "alta", "plasma", "combat", "ceterai", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_plasmasword.png",
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_plasmasword.png" },
+  "animationCustom" : {
+    "sounds" : {
+      "swoosh1" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "swoosh2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "swoosh3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ],
+      "downstab" : [ "/sfx/melee/swing_spear.ogg" ]
+    },
+    "animatedParts" : { "stateTypes" : { "bladeCharge" : { "default" : "idle", "states" : {
+      "idle" : { },
+      "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
+      "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
+      } } },
+      "parts" : { "blade" : {"properties":{"offset" : [0, 2]}} }
+    },
+    "particleEmitters" : {
+      "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+        "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
+      }
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
+
+  "primaryAbility" : {
+    "name" : "Plasmic Razor", "class" : "BladeCharge",
+    "description" : "The rim of this tool is made out of plasma. Can provide up to 4 combo hits, with the last 2 applying ^#2080f0;Plasma Burn^reset;. Hold in air to Downstab.",
+    "baseDps" : 13, "fireTime" : 1.1, "energyUsage" : 36,
+    "holdParams" : { "cooldownTime" : 0.8, "energyFactor" : 1.0, "chargeTime" : 1.2, "chargeBorder" : "FFFF3388" }, "holdTimeMax" : 0.35,
+    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"electricbroadsword","knockbackMode":"facing","timeoutGroup":"alt","timeout":0.5},
+    "flashTime" : 0.15, "flashDirectives" : "fade=FFFFFFFF=0.15", "comboSpeedFactor" : 0.9, "edgeTriggerGrace" : 0.25,
+    "stepConfig" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.50, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 0.4, "energyFactor" : 0.20, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0] },
+      { "damageFactor" : 1.1, "energyFactor" : 0.55, "knockback" : 20.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "statusEffects" : [ "ct_plasma_burn" ] },
+      { "damageFactor" : 1.3, "energyFactor" : 0.65, "knockback" : 25.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0], "statusEffects" : [ "ct_plasma_burn" ] }
+    ],
+    "downstabParams" : {
+      "cooldownTime" : 0.5, "energyFactor" : 0.2, "holdAirControl" : 60, "stabVelocity" : -5, "bounceYVelocity" : 35, "damageConfig" : {
+        "damageSourceKind" : "spear", "statusEffects" : [ ], "baseDamage" : 6, "knockback" : [0, -35], "timeout" : 0.2, "timeoutGroup" : "alt"
+      }
+    },
+    "stances" : {
+      "idle" : { "armRotation" : -75, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "windup" : { "armRotation" : 70, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "slash" : { "duration" : 0.4, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "hold" : { "duration" : 0.2, "armRotation" : -110, "weaponRotation" : 110, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "stab" : { "armRotation" : -50, "weaponRotation" : -75, "twoHanded" : true, "minStabTime" : 0.2, "allowRotate" : false, "allowFlip" : true },
+      "windup1" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "preslash1" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "fire1" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "wait1" : { "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup2" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
+      "wait2" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup3" : { "duration" : 0.25, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire3" : { "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "wait3" : { "duration" : 0.2, "armRotation" : -15, "weaponRotation" : -85, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup4" : { "duration" : 0.15, "armRotation" : -45, "weaponRotation" : -60, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "preslash4" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -25, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "fire4" : { "duration" : 0.35, "armRotation" : 75, "weaponRotation" : 45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+    }
+  },
+
+  "altAbilityType" : "elementalaura",
+  "altAbility" : { "name" : "Energy Aura", "description" : "Hold to create an Energy Aura." },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "^#2080f0;C.T.^reset; Alter-Sword ^#8020f0;^reset;",
+    "description" : "The blade of this sword is pure plasma, entirely made out of concentrated ^#2080f0;alternia^reset; and enhanced with ^#ffa8e8;stardust^reset;.",
+    "longdescription" : "This modification significantly increases the amount of plasma impact on evergy hit and allows this energy tool to gather alternia from all around it to increase its power.\n\nThese rare devices were secretly developed specifically as part of the ^#2080f0;project Ceterai^reset; as means of withstanding the consequences of the ^#0050c0;hevikai incident^reset;.",
+    "price" : 880, "rarity" : "Legendary", "tooltipKind" : "ct_alta_weapon_2",
+    "inventoryIcon" : "ct_plasmasword_2.png", "animationParts" : { "blade" : "ct_plasmasword_2.png" },
+    "primaryAbility" : {
+      "name" : "Plasmic Overlock", "class" : "BladeCharge",
+      "description" : "Can provide up to 5 (+1) combo hits, with 3rd & 4th applying ^#2080f0;Plasma Burn^reset;, and the last one - ^#2080f0;Overcharged Air^reset;. Hold in air to Downstab.",
+      "fireTime" : 0.9,
+      "stepConfig" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.50, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0] },
+        { "damageFactor" : 0.4, "energyFactor" : 0.20, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0] },
+        { "damageFactor" : 1.1, "energyFactor" : 0.55, "knockback" : 20.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "statusEffects" : [ "ct_plasma_burn" ] },
+        { "damageFactor" : 1.3, "energyFactor" : 0.65, "knockback" : 25.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0], "statusEffects" : [ "ct_plasma_burn" ] },
+        { "damageFactor" : 1.3, "energyFactor" : 0.35, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0], "statusEffects" : [ "ct_overcharged_air" ] }
+      ],
+      "stances" : {
+        "wait4" : { "duration" : 0.2, "armRotation" : 15, "weaponRotation" : -15, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+        "windup5" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+        "fire5" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false }
+      }
+    },  // shoot laser
+    "altAbility" : { "name" : "Enhanced Energy Aura", "description" : "Hold to create an Enhanced Energy Aura." }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_impulse_nade",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_impulse_nade.png",
+  "image" : "ct_impulse_nade.png",
+  "shortdescription" : "Impulse Nade",
+  "description" : "A condensed electric ^#20f080;impulse^reset; blast that will be released on impact or after 4 seconds of flight.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_impulse_nade",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

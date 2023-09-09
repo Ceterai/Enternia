@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 require "/scripts/util.lua"
 
 singState = {}

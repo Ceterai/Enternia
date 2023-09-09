@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_astera_augment",
+  "shortdescription" : "Astera Augment",
+  "description" : "An ^#6f6c66;Astera^reset; EPP module that gives you additional protection.",
+
+  "level" : 6, "price" : 2800, "rarity" : "Legendary",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_astera_augment.png",
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_astera_augment",
+    "displayName" : "Astera's Protection",
+    "displayIcon" : "/items/augments/back/ct_astera_augment.png",
+    "effects" : [ "poisonblockaugment", "ct_poisoncloud" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

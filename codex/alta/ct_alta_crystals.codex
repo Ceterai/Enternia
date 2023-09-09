@@ -1,0 +1,47 @@
+{
+  "id" : "ct_alta_crystals",
+  "title" : "Altas & Crystals",
+  "description" : "An small ebook containing some ^#76c7e4;crystal^reset;-related information and classification. Seems to do with how ^#b0e0fc;altas^reset; utilize various crystals in their culture.",
+  "longdescription" : "This classification also explains the terms and alternative names of certain crystal types, giving additional clarity. The ebook itself is a good navigation point for learning about alta crystals.",
+  "icon" : "ebook/lab.png",
+  "contentPages" : [
+
+    "^#ffa8e8;Stardust^reset; ^#ffffff;planets^reset; and cosmic bodies, or ^#ffa8e8;Io Structs^reset;, thrive with a variety of crystals and semi-crystal matters. Even the integral part of ^#ffa8e8;Io^reset; - stardust itself - can be found here in form of ^#ffa8e8;stardust crystals^reset;.
+
+This ^#76c7e4;Crystal Rapture^reset; can be explained by the ^#7733aa;electric^reset; nature of Io Structs, since these ^#76c7e4;crystallic environments^reset; tend to interact with electricity in different ways.  
+Currently, alta researchers have discovered a pretty long list of species and subspecies of crystals.",
+
+"The list below contains the main superspecies discovered so far:
+
+- ^#76c7e4;Cal^reset; (Crystals, Common)
+- ^#76c7e4;Calin^reset; (Crystal Caves or ^#76c7e4;Calocaves^reset;)
+- ^#76c7e4;Calline Prime^reset; (Crystalline, Prime)
+- ^#76c7e4;Gheatsyn^reset; (Liquid Crystals)
+- ^#76c7e4;Calotorn^reset; (General ^#76c7e4;Geodes^reset;)
+- ^#76c7e4;Soneva^reset; (^#76c7e4;Ice Crystals^reset;)
+- ^#76c7e4;Statsyn^reset; (^#76c7e4;Stardust Crystals^reset;)
+- ^#76c7e4;Bishyn^reset; (Poison Crystals)
+- ^#76c7e4;Hevika^reset; (Overcharged Crystals)
+- ^#76c7e4;Mical^reset; (Pink Crystals)
+- ^#76c7e4;Carel^reset; (^#76c7e4;Crystal Plants^reset;)",
+
+"Altas use these in a variety of ways - from energy managing and building to decorating and even cooking.
+Even regular cal is used as glass, energy containers, light sources and more.
+
+Read more on individual crystal species to learn more about them and how they are used by altas."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "crystal-related research" : { },
+      "Soneva" : { "icon" : "https://starbounder.org/mediawiki/images/c/ca/Ice_Crystal.png", "icon_sizes" : [10, 16] },
+      "Carel" : { "icon" : "https://starbounder.org/mediawiki/images/f/f2/Crystal_Plant.png", "icon_sizes" : [13, 12] }
+    }
+  }
+}

@@ -1,5 +1,53 @@
 # Changelog
 
+## Update 2.1 - Alta Decryption
+
+### 2.1.0
+
+Provided database has been successfully analyzed by your datacenter, unlocking access to a number of informational entry and codexes for your archive.
+It seems like melee blueprints are still decrypting, so you can take your time reading through all of those waiting for it to finish.
+
+Meanwhile, meet some experienced altas to get you accustomed to their culture and try out new equipment available at the crafting station! Trust me, you'll need it quite soon.
+
+**Main:**
+
+- still working on WIP weapons;
+- added 34 codexes, including 6 culinary codexes and a 4-part alta history codex series;
+- added more armor, augments and fixed armor coloring;
+- added extended descriptions for wiki and other future uses;
+
+**Alta:**
+
+- added 5 t5 helmets, 3 t6 helmets, 4 t6 epps, 6 t5 augments, 6 t6 augments, 6 misc augments, 2 misc collars, 4 misc helmets;
+- added 4 cosmetics;
+- deprecated some old augments and collars;
+- reworked visuals of all light alta objects;
+- rebalanced all armor;
+- made it so certain custom saplings can spawn in chests;
+- custom alta saplings now contain pools of possible trees, including rare trees that cannot normally be found anywhere else;
+- fixed coloring of armor items;
+- increased the amount of levels in the Alta Crafting Station;
+
+**Wiki:**
+
+- properly updated manual pages: Alta, EDS, Ayaka, Alterash, Alterash Prime, Ceternia, Alternia, Enternia (added references to stim packs, as well as for Hevikai);
+- fixed headings in many manual pages and updated their contents;
+- added expanded descriptions with lore to a lot of items. These descriptions can only be seen on respective wiki pages (and in game files, obviously);
+- added proper item tags to a lot of items;
+
+**Other:**
+
+- added rare tree variations - Warped Yaara Node, Starfield Yaara Node, Golden Yaara Node (also Elin Ayaka, which technically was added in 2.0.1);
+- added missing Elite Droid and Stalker Droid recipes;
+- fixed grammatical errors for some effects;
+- fixed drone sorting in the crafting station;
+- things like Ceter-Sphere now require an according nade and 2 according stims to craft, which require according glowsticks to craft;
+- redistributed weapons and items more gradually over the planets;
+- enhanced and balanced all chest loot tables;
+- made names of certain items shorter to fit into tooltips;
+- removed deprecated loot tables, effects, plant sprites and radio messages;
+- minor bug fixes.
+
 ## Update 2.0 - The Alta Race
 
 ### 2.0.1

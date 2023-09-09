@@ -1,0 +1,42 @@
+{
+  "id" : "ct_gheatsyn",
+  "title" : "Ghearun Excavation Protocol",
+  "description" : "A ^#b0e0fc;datamass^reset; containing encrypted data. It describes a geological protocol.",
+  "icon" : "datamass/gheatsyn.png",
+  "contentPages" : [
+
+    "The following protocol is designed to help with and regulate any excavation processes in ^#a7e001;gheatorn^reset; areas, but is also applicable to some extent for areas with similar ground density and ^#76c7e4;crystallic^reset; climate, like ^#a7e001;gheaprism^reset; surfaces and certain ^#f02080;mical^reset; areas.
+
+For the sake of navigation, the protocol is divided into cautional, informational and directive articles.
+Please refer to an according coordinator in case of any questions.",
+
+"CAUTIONAL SECTION  
+Be aware that the ^#a7e001;gheatsyn^reset; environment you're exposed to is highly unstable.
+This includes potential dangers relating to ground movement and natural gheatsyn behavior - ^#a7e001;tsyntex process^reset;,  
+Due to a constant, although arguably unlikely threat of avalanches, collapses, or coming in contact with liquid gheatsyn, be sure to always wear designated protective equipment, even when operating inside a mech.",
+
+"Please refer to your coordinator to receive your equipment - the ^#a7e001;Ghearun M1 Set^reset;.",
+
+"INFORMATIONAL SECTION  
+All equipment is made with power-materials designed to withstand the environment and excessive pressure.
+It is also important to note that most ^#a7e001;ghearun^reset; equipment operates on extracted gheatsyn energy, decreasing overall fingerprint of the ordis and helping the cause.  
+This can be seen in combat tool advances in the general tech sphere - examples being the ^#a7e001;Tsyntex^reset; blaster and the ^#a7e001;Gheablade^reset;.",
+
+"This concept also makes it easier to perform excavations in environments with matching energy types.",
+
+"DIRECTIVE SECTION
+
+Be sure to follow all on-site guidelines and act on a coordinator's demand. Do not use work-related equipment without or against designation.
+
+For purposes of any large excavation, use a ^#a7e001;Gheatsyn Droid^reset;, provided by the site or according lab.
+
+All excavations should only be permitted after appropriate planning and geo-scanning."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

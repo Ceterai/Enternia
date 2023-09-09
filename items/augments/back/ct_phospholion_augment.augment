@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_phospholion_augment",
+  "shortdescription" : "Phospholion Augment",
+  "description" : "This mildly irradiated EPP module gives fire protection and makes you glow.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_phospholion_augment.png",
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_phospholion_augment",
+    "displayName" : "Irradiated Nature",
+    "displayIcon" : "/items/augments/back/ct_phospholion_augment.png",
+    "effects" : [ "fireblockaugment", "lightaugment1" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

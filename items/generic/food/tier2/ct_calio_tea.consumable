@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_calio_tea.png",
-  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A sweet and sour slightly dense tea, brewed using various alterash prime crystals.",
+  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A sweet and sour slightly dense tea, brewed using various alterash prime crystals.",
   "shortdescription" : "Calio Tea",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Thick Calio Tea",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "poisonblock", "duration" : 300 } ] ]
     }

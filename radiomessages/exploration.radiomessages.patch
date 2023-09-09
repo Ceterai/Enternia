@@ -1,16 +1,4 @@
 [
-  { "op":"add", "path":"/ctbiomeelectric", "value":{
-    "unique" : false, "textSpeed" : 70,
-    "text" : "Be careful, the air appears to be ionized. Unless you have immunity to electricity, try to not drain your energy as it may damage you periodically."
-  } },
-  { "op":"add", "path":"/ct_ionized_air", "value":{
-    "unique" : false, "textSpeed" : 70,
-    "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
-  } },
-  { "op":"add", "path":"/ct_ionized_air_alta", "value":{
-    "unique" : false, "textSpeed" : 70,
-    "text" : "The air appears to be ^#5000c0;ionized^reset;. ^#88ff88;Thankfully, your ^#7733aa;immunity to electricity^#88ff88; should mitigate the majority of negative effects.^reset;"
-  } },
   { "op":"add", "path":"/ct_ionized_air_msg", "value":{
     "unique" : false, "textSpeed" : 70,
     "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
@@ -29,7 +17,7 @@
   } },
   { "op":"add", "path":"/ct_hevikai_strike_msg", "value":{
     "unique" : false, "textSpeed" : 70,
-    "text" : "Seems like you're dangerously close to getting a ^#0050c0;Hevikai^reset; decease. Try to avoid getting any further complications."
+    "text" : "Seems like you're dangerously close to getting a ^#0050c0;Hevikai^reset; disease. Try to avoid getting any further complications."
   } },
   { "op":"add", "path":"/ct_hevikai_msg", "value":{
     "unique" : false, "textSpeed" : 70,

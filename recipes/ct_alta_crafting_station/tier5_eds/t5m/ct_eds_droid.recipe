@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_edsarmor", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 2 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_eds_droid", "count" : 1 },
+  "groups" : [ "alta_t3m", "tier5_eds", "spawner", "droid", "all" ]
+}

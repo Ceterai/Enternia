@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_alta_tier3_supply",
+  "price" : 20,
+  "level" : 1,
+  "rarity" : "Common",
+  "maxStack" : 1000,
+  "category" : "mysteriousReward",
+  "description" : "Contains all alta tier 3 items.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "shortdescription" : "^red;Outdated^reset; Alta Tier 3 Supply",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier3.png",
+  "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
+  "animationParts" : { "gun" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot_tier3.png" },
+  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_altaTier3SupplyTreasure",
+    "level" : 1
+  },
+  "newItem" : "ct_alta_loot_tier3",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

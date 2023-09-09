@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_yaara_tea.png",
-  "description" : "Yava ^#b0e0fc;alta^reset; cuisine. This tea is blooming with life.",
+  "description" : "^#b0e0fc;Yava alta cuisine^reset;. This tea is blooming with life.",
   "shortdescription" : "Yaara Tea",
   "effects" : [ [
     {
@@ -27,7 +27,7 @@
   "variants" : [
     {
       "shortdescription" : "Ceternia Tea",
-      "description" : "Yava ^#b0e0fc;alta^reset; cuisine. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
+      "description" : "^#b0e0fc;Yava alta cuisine^reset;. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
       "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
       "effects" : [ [ { "effect" : "regeneration1", "duration" : 300 } ] ]
     }

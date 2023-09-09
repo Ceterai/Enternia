@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_bishyn_helmet", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "armor", "head", "all" ]
+}

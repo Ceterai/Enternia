@@ -18,7 +18,7 @@
   "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
   "novakidDescription" : "It'll grow into a big tree if I plant it.",
 
-  "inventoryIcon" : "icon.png",
+  "inventoryIcon" : "icon.png", "fixedIcon" : true,
   "orientations" : [
     {
       "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>",
@@ -32,9 +32,29 @@
   "retainObjectParametersInItem" : true,
   "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [180, 210] },
-    { "duration" : [180, 210] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
     { "tree" : true }
   ],
-  "builder" : "/objects/alta/ship/sapling/builder.lua"
+  "treePool" : [
+    { "fixedStem" : "ct_tonnova_spiral_stem", "fixedFoliage" : "ct_tonnova_bulb" },
+    { "fixedStem" : "ct_tonnova_stem", "fixedFoliage" : "ct_tonnova_blob" },
+    { "fixedStem" : "ct_tonnova_wide_stem", "fixedFoliage" : "ct_tonnova_blob" },
+
+    { "fixedStem" : "ct_aric_bulb_spots", "fixedFoliage" : "ct_akollic" },
+    { "fixedStem" : "ct_aric_bulb", "fixedFoliage" : "ct_akollic" },
+    { "fixedStem" : "ct_aric_mutant_giant", "fixedFoliage" : "ct_coroplic" },
+    { "fixedStem" : "ct_aric_mutant", "fixedFoliage" : "ct_coroplic" },
+    { "fixedStem" : "ct_aric_growth_crystal", "fixedFoliage" : "ct_hyolic" },
+    { "fixedStem" : "ct_aric_growth", "fixedFoliage" : "ct_hyolic" },
+
+    { "fixedStem" : "ct_aric_shady_old", "fixedFoliage" : "ct_mooplic" },
+    { "fixedStem" : "ct_aric_shady", "fixedFoliage" : "ct_mooplic" },
+    { "fixedStem" : "ct_aric_glow_eyes", "fixedFoliage" : "ct_perolic" },
+    { "fixedStem" : "ct_aric_glow_bursting", "fixedFoliage" : "ct_perolic" },
+    { "fixedStem" : "ct_aric_twisted_undone", "fixedFoliage" : "ct_vyralic" },
+    { "fixedStem" : "ct_aric_twisted", "fixedFoliage" : "ct_vyralic" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
 }

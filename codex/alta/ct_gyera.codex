@@ -1,0 +1,22 @@
+{
+  "id" : "ct_gyera",
+  "title" : "Gyera Park Guide",
+  "description" : "A small ebook going over sights and contents of a park.",
+  "icon" : "ebook/gyera.png",
+  "contentPages" : [
+
+    "Welcome to an Iora Gyera nature preservation site!
+
+Here you'll be able to spend some time on fresh air, relax and see rare specimens of iora, nature from different stardust planets.
+
+Places like this are one of biggest sources of ingridients for a lot of runeva  dishes, commonly found in the ^#b0e0fc;Runeva Cuisine Cookbook^reset;.  
+Here, you can also find rare flowers called ^#b0e0fc;Versalia^reset;, as well as other rare species of beautiful flowers."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 3,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

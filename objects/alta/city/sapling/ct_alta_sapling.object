@@ -6,8 +6,8 @@
   "race" : "alta",
   "printable" : false,
 
-  "shortdescription" : "Alta Tree Sapling",
-  "description" : "A tree sapling. From simple roots a tree will grow. Can be placed on moonstone.",
+  "shortdescription" : "Alta Sapling",
+  "description" : "A tree sapling inside of some sort of eco chamber. It's not clear what tree is growing inside.  \nCan be placed on moonstone.",
   "altaDescription" : "Eco chambers like this one are used to safely grow trees on alterash planets, mainly ayakas.",
 
   "apexDescription" : "I can plant this to grow a tree.",
@@ -20,7 +20,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "icon.png",
+  "inventoryIcon" : "icon.png", "fixedIcon" : true,
   "orientations" : [
     {
       "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>",
@@ -37,10 +37,34 @@
   "retainObjectParametersInItem" : true,
   "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [150, 180] },
-    { "duration" : [150, 180] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
     { "tree" : true }
   ],
+  "treePool" : [
+    { "fixedStem" : "ct_ayaka_blossom_stem", "fixedFoliage" : "ct_ayaka_blossom_leaves" },
+    { "fixedStem" : "ct_ayaka_crystal_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ 30, 15, 0 ] },
+    { "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_blossom_leaves", "fixedStemHues" : [ 105, 150 ], "fixedFoliageHues" : [ -150, -105 ] },
+    { "fixedStem" : "ct_ayaka_garden_stem", "fixedFoliage" : "ct_ayaka_garden_leaves", "fixedFoliageHues" : [ 0, -15, -30 ] },
+    { "fixedStem" : "ct_ayaka_giant_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ 30, 15, 0 ] },
+    { "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ 45, 30, 15 ] },
+    { "fixedStem" : "ct_ayaka_crystal_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedStemHues" : [ -32, 16, 100 ], "fixedFoliageHues" : [ 60, 80, 100, 120 ] },
+    { "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves" },
+    { "fixedStem" : "ct_ayaka_garden_stem", "fixedFoliage" : "ct_ayaka_garden_leaves", "fixedFoliageHues" : [ 0, -15, -30 ] },
+    { "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ 45, 30, 15 ] },
+    { "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves" },
 
-  "builder" : "/objects/alta/city/sapling/builder.lua"
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_leaves" },
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_leaves" },
+    { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180 ] },
+    { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180, 120 ] },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ 180 ] },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ -135 ] }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
 }

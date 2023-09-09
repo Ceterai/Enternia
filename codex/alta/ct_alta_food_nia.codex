@@ -1,0 +1,35 @@
+{
+  "id" : "ct_alta_food_nia",
+  "title" : "Nia Cuisine Book",
+  "description" : "An ebook containing various energy-based ^#b0e0fc;alta^reset; recipes and their history. (Unlocks some nia recipes)",
+  "longdescription" : "This ^#b0e0fc;ebook^reset; describes different nia recipes and the culture around them.",
+  "icon" : "ebook/security.png",
+  "contentPages" : [
+
+    "^#b0e0fc;Nia cuisine^reset;, or energy cuisine, is popular among sporty altas and makes up a big part of the ^#b0e0fc;Enia Diet^reset;.
+
+Some nia dishes, like ^#b0e0fc;ometonnas^reset;, ^#b0e0fc;zandarm tarts^reset; and ^#b0e0fc;tonna shakes^reset;, don't fall under that category.",
+
+"A great example of that would be ^#b0e0fc;shokkas^reset;. ^#b0e0fc;Shokka^reset; is a sweet meaty satisfying nia stew that is similar in texture to the ^#b0e0fc;blue boil^reset;.
+It takes time to process, mostly leaving poor altas full to the brim, only willing to lie on the bed until the effect wears off.
+
+^#b0e0fc;Corfal caretakers^reset; use this as a pacifier method for very energetic unbehaving altas."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "learnBlueprintsOnPickup" : [
+        "ct_ionic_fresh", "ct_iso_jam", "ct_tonnakada", "ct_ometonna", "ct_zandarm_tart",
+        "ct_niatto_motsu", "ct_tonna_meringue", "ct_tonna_shake", "ct_ion_cake", "ct_ion_risotto", "ct_nia_cocktail", "ct_tonna_split"
+      ]
+  },
+  "wiki" : {
+    "aliases" : {
+      "Enia Diet" : { "anchor" : "", "icon" : "none" },
+      "Shokka" : { }
+    }
+  }
+}

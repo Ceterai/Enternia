@@ -1,0 +1,32 @@
+{
+  "id" : "ct_esetera",
+  "title" : "What Is Esetera",
+  "description" : "A small ebook that explains the gigantic empty space inside of ^#2080f0;alterash prime^reset; planets.",
+  "longdescription" : "This space spans across multiple geological layers of the planet, and thus should be traversed with extreme caution.",
+  "icon" : "ebook/lab.png",
+  "contentPages" : [
+
+    "^#2080f0;Esetera^reset;, or The Empty Place, is an underground abyss on ^#2080f0;alterash prime^reset; planets. A gargantuan space, formed by the unstable ionized nature of ^#ffa8e8;Io Structs^reset;.
+
+^#b0e0fc;Altas^reset; generally use this space to hide their laboratories and facilities from kaiter scouting groups and military squads.",
+
+"Most of these structures can be found nearly halfway down to the bottom, almost engraved into the massive natural pillars that literally \"hold\" the surface of the planet.
+
+This is due to the fact that Esetera Depths posseses even more danger due to its instability and numerous hazards.",
+
+"The bottom of Esetera, or its actual \"surface\", is called ^#2080f0;Esetera Depths^reset;. Apart from ubiquitous dangers, the surface is strewn with ^#2080f0;alternia crystals^reset;, as well as numerous deep caves that sometimes can lead right to the core of the planet.  
+These caves, also known as Esetera Caves, act as a natural shield, protecting the core of the planet from high ionization.",
+
+"^#2080f0;Esetera Caves^reset; are regular deep caves with mostly hard-to-break materials. Contains the largest amount of ionic crystals.
+
+The air in Esetera Depths and Esetera Caves is overcharged, meaning that without special protection, the player will constantly experience negative effects.  
+This effect is absent near the ^#202080;Ion Core^reset; of the planet."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

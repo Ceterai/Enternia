@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_staris_sword",
+  "shortdescription" : "Staris Sword ^#8020f0;^reset; ^red;WIP^reset;",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nSome say there's nothing more pure than stardust itself... But this tool comes close.",
+  "elementalType" : "physical",
+
+  "level" : 6, "price" : 520, "rarity" : "Legendary",
+  "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "stardust", "staris" ],
+
+  "inventoryIcon" : "ct_staris_sword.png",
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "handle": "", "blade" : "ct_staris_sword.png" },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -1,0 +1,24 @@
+{
+  "id" : "ct_logs_eds_chatter",
+  "title" : "EDS Command Communication Log",
+  "description" : "This ^#b0e0fc;datamass^reset; contains a message history. Or at least something resembling it.",
+  "icon" : "datamass/eds.png",
+  "contentPages" : [
+
+    "Strangely enough, this message history doesn't contain any plain written messages at all.
+
+Instead, this just looks like a complete back-and-forth of different technical commands that you would usually see in a programming code.
+
+Why would command centers with real people communicate with each other this way?",
+
+    "...Is there no one there? Just... machines talking to each other?..
+
+What happened?.."
+
+  ],
+  "itemConfig" : {
+    "itemTags" : [ "data_source", "alta", "datamass" ],
+    "rarity" : "Uncommon",
+    "price" : 120
+  }
+}

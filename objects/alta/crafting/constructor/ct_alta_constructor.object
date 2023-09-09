@@ -51,7 +51,7 @@
         } },
         "filter" : [ "alta_constructor1" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_docs_security-codex", "count" : 1 },
+          { "item" : "ct_alta_security-codex", "count" : 1 },
           { "item" : "titaniumbar", "count" : 8 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
@@ -79,9 +79,9 @@
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_docs_arco-codex", "count" : 1 },
-          { "item" : "ct_docs_combat-codex", "count" : 1 },
-          { "item" : "ct_docs_eds-codex", "count" : 1 },
+          { "item" : "ct_arco-codex", "count" : 1 },
+          { "item" : "ct_combat-codex", "count" : 1 },
+          { "item" : "ct_eds-codex", "count" : 1 },
           { "item" : "ct_phosicore", "count" : 8 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
@@ -110,9 +110,9 @@
         } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_docs_elite-codex", "count" : 1 },
-          { "item" : "ct_docs_ct-codex", "count" : 1 },
-          { "item" : "ct_docs_dreamer-codex", "count" : 1 },
+          { "item" : "ct_elite-codex", "count" : 1 },
+          { "item" : "ct_ceterai-codex", "count" : 1 },
+          { "item" : "ct_dreamer-codex", "count" : 1 },
           { "item" : "ct_cetersphere", "count" : 1 },
           { "item" : "ct_altersphere", "count" : 1 },
           { "item" : "ct_entersphere", "count" : 1 },

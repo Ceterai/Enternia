@@ -1,0 +1,75 @@
+{
+  "itemName" : "ct_dreamer_helmet",
+  "shortdescription" : "Dreamer's Mask",
+  "description" : "Mask worn by the one who's able to withstand the consuming power of enternia. Has built-in breath protection.",
+
+  "price" : 1000, "rarity" : "Legendary",
+  "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "race" : "alta",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "statusEffects" : [
+    "ct_omniblue_vision",
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    }
+  ],
+
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "colorOptions" : [
+    // OMNIPURPLE (DEFAULT)
+    { "5000c0" : "5000c0", "8020f0" : "8020f0", "c060fc" : "c060fc", "e0b0fc" : "e0b0fc" },
+    // LIME (BLACK)
+    { "5000c0" : "8fc000", "8020f0" : "c5f020", "c060fc" : "f3fc60", "e0b0fc" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "5000c0" : "00c063", "8020f0" : "20f081", "c060fc" : "60fc91", "e0b0fc" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "5000c0" : "009cc0", "8020f0" : "20d3f0", "c060fc" : "60fcf9", "e0b0fc" : "b0fcf9" },
+    // RED
+    { "5000c0" : "c00003", "8020f0" : "f0202d", "c060fc" : "fc6082", "e0b0fc" : "fcb0c2" },
+    // ORANGE
+    { "5000c0" : "c07000", "8020f0" : "f08f20", "c060fc" : "fc9c60", "e0b0fc" : "fcccb0" },
+    // YELLOW
+    { "5000c0" : "c0af00", "8020f0" : "f0d420", "c060fc" : "fcd060", "e0b0fc" : "fce5b0" },
+    // GREEN
+    { "5000c0" : "03c000", "8020f0" : "2df020", "c060fc" : "82fc60", "e0b0fc" : "c2fcb0" },
+    // BLUE
+    { "5000c0" : "001cc0", "8020f0" : "2049f0", "c060fc" : "6096fc", "e0b0fc" : "b0ccfc" },
+    // PURPLE
+    { "5000c0" : "7c00c0", "8020f0" : "9d20f0", "c060fc" : "a660fc", "e0b0fc" : "d1b0fc" },
+    // PINK
+    { "5000c0" : "c00069", "8020f0" : "f0209b", "c060fc" : "fc60d4", "e0b0fc" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

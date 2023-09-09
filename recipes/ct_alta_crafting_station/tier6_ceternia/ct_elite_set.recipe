@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 5 },
+    { "item" : "ct_phosicore", "count" : 20 },
+    { "item" : "refinedaegisalt", "count" : 26 },
+    { "item" : "ct_elite-codex", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_elite_set", "count" : 1 },
+  "groups" : [ "alta_t4", "set", "all" ]
+}

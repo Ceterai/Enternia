@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_cetersphere", "count" : 2 },
+    { "item" : "ct_bion", "count" : 8 },
+    { "item" : "ct_phosicore", "count" : 4 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_alta_engineer_drone", "count" : 1 },
+  "groups" : [ "alta_max", "tier5_arco", "spawner", "drone", "all" ]
+}

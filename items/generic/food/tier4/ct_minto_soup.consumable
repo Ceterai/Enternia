@@ -4,7 +4,7 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_minto_soup.png",
-  "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A spicy variation on the traditional ^#b0e0fc;alta^reset; soup. Has a chance to turn out a bit too spicy.",
+  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A spicy variation on the traditional ^#b0e0fc;alta^reset; soup. Has a chance to turn out a bit too spicy.",
   "shortdescription" : "Minto Soup",
   "effects" : [ [
     {
@@ -27,13 +27,13 @@
       "chance" : 0.4,
       "shortdescription" : "Maitai Soup",
       "inventoryIcon" : "/items/generic/food/other/images/ct_maitai_soup.png",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. A very spicy ^#b0e0fc;alta^reset; soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A very spicy ^#b0e0fc;alta^reset; soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 330 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
     {
       "chance" : 0.1,
       "shortdescription" : "Perfect Minto Soup ^#8020f0;^reset;",
-      "description" : "Calin ^#b0e0fc;alta^reset; cuisine. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
+      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
       "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
   ]

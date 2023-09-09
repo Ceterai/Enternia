@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_hevika_augment",
+  "shortdescription" : "Hevika Augment ^#2080f0;^reset;",
+  "description" : "An EPP module that gives ^#0050c0;Hevikai Status Immunity^reset; and adds ^#0050c0;Overcharged Crystals^reset;.",
+
+  "level" : 5, "price" : 3000, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_hevika_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_hevika_augment",
+    "displayName" : "Hevika Adaptivity",
+    "displayIcon" : "/items/augments/back/ct_hevika_augment.png",
+    "effects" : [ "ct_hevikai_block", "ct_overcharged_crystals" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

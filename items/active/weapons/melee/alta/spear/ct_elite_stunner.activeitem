@@ -1,0 +1,42 @@
+{
+  "itemName" : "ct_elite_stunner",
+  "shortdescription" : "Elite Stunner ^#8020f0;^reset; ^red;WIP^reset;",
+  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nAn ^#20f080;impulse^reset; spear used by elite ^#b0e0fc;alta^reset; forces to deal with threats.",
+  "elementalType" : "physical",
+  "level" : 6, "price" : 800, "rarity" : "Legendary", "race" : "alta",
+  "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
+  "itemTags" : [ "weapon", "melee", "spear", "alta", "plasma" ],
+
+  "inventoryIcon" : "ct_elite_stunner.png",
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animationParts" : { "handle" : "", "blade" : "ct_elite_stunner.png" },
+  "animationCustom" : {
+    "animatedParts":{"parts":{"swoosh":{"partStates":{"swoosh":{"swoosh_spear1":{"properties":{"damageArea":[[-4.5, 0],[-2, 1],[1, 1],[4, 0],[1, -1],[-2, -1]]}}}}},
+    "blade" : {"properties":{"offset" : [0, 0]}}}},
+    "sounds" : {
+      "charge" : [ "/sfx/melee/nurusspear_charge.ogg" ],
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ],
+      "fire2" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+      "fire4" : [ "/sfx/melee/travelingslash_electric5.ogg" ],
+      "electricSpin" : [ "/sfx/melee/elemental_spin_electric.ogg" ],
+      "electricSpinFire" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
+      "electricSpinLightning" : [ "/sfx/objects/teslaspike.ogg" ],
+      "electricSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "fireTime" : 0.95,
+    "baseDps" : 10.5
+  },
+
+  "altAbilityType" : "spearspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

@@ -1,18 +1,24 @@
 {
   "itemName" : "ct_warpedaugment",
-  "shortdescription" : "Warped Augment",
-  "description" : "This mutated EPP module boosts your mobility when swimming, gives you poison protection and makes you burst with poison clouds.",
+  "shortdescription" : "Warped Augment ^#20f080;^reset;",
+  "description" : "This mutated EPP module gives you ^#80f020;poison^reset; protection and makes you burst with ^#9b2d3f;warped^reset; ^#80f020;Poison Clouds^reset;.",
 
-  "level" : 6, "price" : 2800, "rarity" : "Legendary",
+  "level" : 4, "price" : 3000, "rarity" : "Uncommon",
   "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_warpedaugment.png",
+  // moondust (5++) enteva (5++) obsidian (6) chorus (6+)
+  // mical (6+) prime (6++) void (6+++) staris (6+++)
+  // citadel augment (6+++) elin (4+)
 
+  // koywa (3) ayaka (3) haven (4) eva (5) faradea (5) aric (5+)
+
+  // enteva (5++) sorrow (6) magma (6) mical (6+) protea (6+) dreamer (6+++)
   "augment" : {
     "type" : "back",
     "name" : "ct_warped",
     "displayName" : "Poisonous Nature",
     "displayIcon" : "/items/augments/back/ct_warpedaugment.png",
-    "effects" : [ "swimboost", "poisonblockaugment", "ct_poisoncloud" ]
+    "effects" : [ "poisonblockaugment", "ct_poisoncloud" ]
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],

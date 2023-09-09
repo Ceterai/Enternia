@@ -1,0 +1,60 @@
+{
+  "id" : "ct_alta_food_runeva",
+  "title" : "Runeva Cuisine Book",
+  "description" : "An ebook containing various fruit-based ^#b0e0fc;alta^reset; recipes and their history. (Unlocks some runeva recipes)",
+  "longdescription" : "This ^#b0e0fc;ebook^reset; describes different runeva recipes and the ^#b0e0fc;alta culture^reset; around them. Good to have one if you're stuck on an ^#20f080;alterash^reset; planet.\n\nThough some of the mentioned dishes are not included in this issue, it provides a brief description on each of them.",
+  "icon" : "ebook/security.png",
+  "contentPages" : [
+
+    "^#b0e0fc;Runeva cuisine^reset; is based on the triad of commonly found alta fruits - ^#3587ff;aya^reset;, ^#ff3f5a;gil^reset; and ^#80f020;tsay^reset;. Together, these three ingredients are able to produce a vast variety of tastes and textures.
+
+Something as simple as a ^#b0e0fc;runeva assorti^reset; can have different feelings to it depending on ratios and preparation methods.",
+
+"This book is meant to describe and help with the most popular runeva dishes to date.
+
+More complicated examples, like ^#b0e0fc;Gil Tarts^reset;, ^#b0e0fc;Soyi^reset;, ^#b0e0fc;Aya Prime^reset;, ^#b0e0fc;Green Bites^reset;, ^#b0e0fc;Gil Seed Cookies^reset;, ^#b0e0fc;Powder Chip Cookies^reset;, ^#b0e0fc;Tsay-Gil Jam^reset;, ^#b0e0fc;Alterash Breeze^reset; and ^#b0e0fc;Allibanas^reset; will be looked into in the next issue of the book.",
+
+"^#b0e0fc;Runeva Assorti^reset; is similar to the aya-tsay ^#b0e0fc;assorti^reset;, except it includes slightly fermented gil covers and aya-boiled dried tsays to add to their sweetness. Usually all of this gets in slices and layed out in triplets.",
+
+"^#b0e0fc;Gil Tarts^reset; are sweet gil desserts, that involve the gil pulp with no seeds. Instead, the seeds are sprinkled on top and mashed to add to the bottom cover. Tarts as a type of desserts were initially brought in by outsiders, but have slowly found their popularity among some altas.",
+
+"^#b0e0fc;Soyi^reset; is a popular alta dessert that consists of ^#b0e0fc;baked aya^reset; & gil powder covered in gil oil and some ^#8020f0;ionic ferment^reset;.
+
+^#b0e0fc;Aya Prime^reset; is a semi-baked boiled aya, mashed and put back into its cover, creating an illusion of a regular alta. This is often used as a surprise dish or as a party trick.",
+
+"^#b0e0fc;Green Bites^reset; are cut dried tsays presented as chips. The complexity of the recipe varies from place to place, but home-made bites can be pretty easy to make.
+
+^#b0e0fc;Gil Seed Cookies^reset; and ^#b0e0fc;Powder Chip Cookies^reset; are pretty self-explanatory in their meaning, but can get a bit tedious to bake alone.
+
+^#b0e0fc;Tsay-Gil Jam^reset; is a pretty bitter yet soft jam that sticks well to many dishes and gives them a nice aftertaste.",
+
+"^#b0e0fc;Alterash Breeze^reset; is a refreshing drink that smells similar to ^#20f080;blossoming ayaka valleys^reset; found on ^#20f080;alterash^reset; planets.
+
+^#b0e0fc;Allibanas^reset; are small dishes named after ^#b0e0fc;Alliana^reset;. They're served warm and are meant to be eaten right away."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "learnBlueprintsOnPickup" : [
+        "ct_vermont_tea", "ctassorti", "ctayacandy", "ctayaicecream", "cttsayicecream",
+        "ct_aya_punch", "ctgiltsaystew", "ctpie", "ct_special_mimosa", "ct_haruplavu_venetto", "ct_alta_soup", "ct_alliana_cake"
+      ]
+  },
+  "wiki" : {
+    "aliases" : {
+      "Runeva Assorti" : { },
+      "Gil Tart" : { },
+      "Soyi" : { },
+      "Aya Prime" : { },
+      "Green Bites" : { },
+      "Gil Seed Cookies" : { },
+      "Powder Chip Cookies" : { },
+      "Tsay-Gil Jam" : { },
+      "Alterash Breeze" : { },
+      "Allibanas" : { }
+    }
+  }
+}

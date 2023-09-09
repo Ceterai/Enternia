@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_arco_augment",
+  "shortdescription" : "Enviro Augment",
+  "description" : "An EPP module that slightly boosts your ^#f08020;fire^reset; and ^#80f020;poison^reset; resistance by 15%.",
+
+  "level" : 5, "price" : 2800, "rarity" : "Rare",
+  "category" : "eppAugment", "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "inventoryIcon" : "ct_arco_augment.png",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "ct_arco_augment",
+    "displayName" : "Enviro Enhancement",
+    "displayIcon" : "/items/augments/back/ct_arco_augment.png",
+    "effects" : [ "ct_enviro_protection" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+  "scripts" : [ "/scripts/augments/augment.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

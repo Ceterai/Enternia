@@ -1,0 +1,28 @@
+{
+  "id" : "ct_arco",
+  "title" : "A.R.C.O. Research",
+  "description" : "A description of some kind of tech company. Seems like most of the data is encrypted.",
+  "longdescription" : "This ^#b0e0fc;datamass^reset; contains an ^#f08f20;Arco^reset; promo message with attached encrypted research and documentation. It looks like this is an official authorship request, backed up by studies and fully explained. Unfortunatelly, only specific software designed for this can decrypt it.",
+  "icon" : "datamass/arco.png",
+  "contentPages" : [
+
+    "A.R.C.O. RESEARCH COMPILATION
+
+Welcome to A.R.C.O. - one of the biggest and efficient alta research and exploration compounds!
+
+Found in Alliana, A.R.C.O. laboratories have expanded throughout many ionic systems since then and are now covering a great number of ^#2080f0;alterash prime^reset; planets.",
+
+"The latest goals of the company were exploring and researching the nature of different ^#76c7e4;crystallic^reset; systems found in alterash prime undergrounds.
+Since most types of ^#76c7e4;crystals^reset; in ^#2080f0;esetera^reset; and below exist in hazardous environments, A.R.C.O. presents a new protective gear set - the A.R.C.O. ^#f08f20;Envirosuit^reset;!
+Please see appropriate research, descriptions and instructions below.
+
+- the rest of the data is encrypted -"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

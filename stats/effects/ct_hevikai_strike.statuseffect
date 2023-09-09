@@ -1,7 +1,7 @@
 {
   "name" : "ct_hevikai_strike",
   "label" : "Hevikai Strike",
-  "description" : "Decreases your ^#7733aa;electric resistance^reset; and ^#7733aa;poison resistance^reset; by 20%.  \nIf you stay in it for too long, you will get a so-called ^#0050c0;Hevikai^reset; decease.",
+  "description" : "Decreases your ^#7733aa;electric resistance^reset; and ^#7733aa;poison resistance^reset; by 20%.  \nIf you stay in it for too long, you will get a so-called ^#0050c0;Hevikai^reset; disease.",
   "blockingStat" : "plasmaStatusImmunity",
 
   "effectConfig" : {
@@ -16,7 +16,7 @@
   },
   "defaultDuration" : 15,
 
-  "scripts" : [ "/stats/scripts/ct_decease_light.lua" ],
+  "scripts" : [ "/stats/scripts/ct_disease_light.lua" ],
   "animationConfig" : "ct_plasma.animation",
   "icon" : "ct_hevikai_strike.png"
 }

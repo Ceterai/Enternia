@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_edsarmor", "count" : 4 },
+    { "item" : "ct_eds-codex", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_eds_android_head", "count" : 1 },
+  "groups" : [ "alta_max", "tier5_eds", "armor", "head", "all" ]
+}

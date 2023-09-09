@@ -7,15 +7,15 @@
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
-
-  "animation" : "default.animation",
-  "animationPosition" : [12, 12],
+  "breakDropOptions" : [], "learnBlueprintsOnPickup" : [], "startingUpgradeStage" : 1, "maxUpgradeStage" : 15,
+  "soundEffect" : "/sfx/objects/scififurnace.ogg", "soundEffectRangeMultiplier" : 1.0, "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+  "animation" : "default.animation", "animationPosition" : [12, 12],
+  "placementImage" : "body1.png:default", "placementImagePosition" : [0, 0],
+  "orientations" : [ { "dualImage" : "body1.png:<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
   "inventoryIcon" : "icon1.png",
-  "placementImage" : "body1.png:default",
-  "placementImagePosition" : [0, 0],
 
   "shortdescription" : "^orange;Alta Crafting Station^reset;",
-  "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources.",
+  "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources.  \nUpgrades: T3, T3+, T4, T4+, T5, T5+, T6, T6+, Ultimate.",
   "altaDescription" : "This station allows to craft useful equipment using encoded blueprints from various datamasses.",
 
   "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
@@ -26,26 +26,12 @@
   "hylotlDescription" : "The simplicity of its design compliments the simplicity of its functionality.",
   "novakidDescription" : "Basic lookin' bench.",
 
-  "breakDropOptions" : [], "learnBlueprintsOnPickup" : [], "startingUpgradeStage" : 1, "maxUpgradeStage" : 9,
-
-  "soundEffect" : "/sfx/objects/scififurnace.ogg",
-  "soundEffectRangeMultiplier" : 1.0,
-  "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
   "upgradeStages" : [
     {
-      "animationState" : "tier1",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon1.png", "placementImage" : "body1.png:default",
-        "level" : 1, "rarity" : "Common", "price" : 160,
-        "shortdescription" : "Alta Tier 1 Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier1.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 1 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon1.png" }
-        } },
+      "itemSpawnParameters" : { "inventoryIcon" : "icon1.png", "placementImage" : "body1.png:default", "level" : 1, "rarity" : "Common", "price" : 160,
+        "shortdescription" : "Alta Tier 1 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier1.config",
+        "paneLayoutOverride" : { "windowtitle" : { "title" : "Alta Crafting Station ^#404040;1/2^reset;", "subtitle" : "^#b9b5b2;Tier 3 Recipes" } },
         "filter" : [ "alta_t1" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
@@ -53,204 +39,232 @@
           { "item" : "ctwoodsap", "count" : 16 },
           { "item" : "moondust", "count" : 16 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier1", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
     },
     {
-      "animationState" : "tier1",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon1.png", "placementImage" : "body1.png:default",
-        "level" : 2, "rarity" : "Common", "price" : 160,
-        "shortdescription" : "Alta Tier 1+ Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier1.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 1+ Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon1.png" }
-        } },
+      "itemSpawnParameters" : { "inventoryIcon" : "icon1.png", "placementImage" : "body1.png:default", "level" : 2, "rarity" : "Common", "price" : 160,
+        "shortdescription" : "Alta Tier 1+ Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier1.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;2/2^reset;", "subtitle" : "^#b9b5b2;Tier 3 Recipes ^#404040;Plus^reset;" },
+          "lblTab10" : { "file" : "/items/throwables/ct_glowstick_omniblue.png" },
+          "lblTab12" : { "file" : "/items/armors/alta/other/respiratory_mask_colorful/icon.png" },
+          "lblTab14" : { "file" : "/objects/alta/crafting/constructor/icon1.png" }
+        },
         "filter" : [ "alta_t1", "alta_t1+" ], "initialRecipeUnlocks" : [],
-        "upgradeMaterials" : [
-          { "item" : "upgrademodule", "count" : 1 },
-          { "item" : "ct_docs_security-codex", "count" : 1 }
-        ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+        "upgradeMaterials" : [ { "item" : "upgrademodule", "count" : 2 }, { "item" : "ct_alta_security-codex", "count" : 1 } ]
+      }, "animationState" : "tier1", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
     },
 
+
+
     {
-      "animationState" : "tier2",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon2.png", "placementImage" : "body2.png:default",
-        "level" : 3, "rarity" : "Uncommon", "price" : 160,
-        "shortdescription" : "Alta Tier 2 Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier2.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 2 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon2.png" }
-        } },
+      "itemSpawnParameters" : { "inventoryIcon" : "icon2.png", "placementImage" : "body2.png:default", "level" : 3, "rarity" : "Uncommon", "price" : 160,
+        "shortdescription" : "Alta Tier 2 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier2.config",
+        "paneLayoutOverride" : { "windowtitle" : { "title" : "Alta Crafting Station ^#404040;1/3^reset;", "subtitle" : "^#b9b5b2;Tier 4 Recipes" } },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
           { "item" : "ct_alta_energy_cell", "count" : 4 },
           { "item" : "ct_yaara_root", "count" : 16 },
-          { "item" : "ct_warped_hive", "count" : 16 }
+          { "item" : "moonstone", "count" : 16 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier2", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
     },
     {
-      "animationState" : "tier2",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon2.png", "placementImage" : "body2.png:default",
-        "level" : 4, "rarity" : "Uncommon", "price" : 160,
-        "shortdescription" : "Alta Tier 2+ Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier2.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 2+ Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon2.png" }
-        } },
+      "itemSpawnParameters" : { "inventoryIcon" : "icon2.png", "placementImage" : "body2.png:default", "level" : 4, "rarity" : "Uncommon", "price" : 160,
+        "shortdescription" : "Alta Tier 2+ Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;2/3^reset;", "subtitle" : "^#b9b5b2;Tier 4 Recipes ^#404040;Plus^reset;" },
+          "lblTab2" : { "file" : "/items/armors/alta/tier4/security/droid_head/icon.png" },
+          "lblTab10" : { "file" : "/items/generic/other/ct_impulse_stim.png" }
+        },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
-          { "item" : "ct_docs_arco-codex", "count" : 1 },
-          { "item" : "ct_docs_combat-codex", "count" : 1 },
-          { "item" : "ct_docs_eds-codex", "count" : 1 }
+          { "item" : "ct_alta_energy_cell", "count" : 4 },
+          { "item" : "ct_warped_hive", "count" : 16 },
+          { "item" : "moonrock", "count" : 16 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier2", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+    {
+      "itemSpawnParameters" : { "inventoryIcon" : "icon2.png", "placementImage" : "body2.png:default", "level" : 4, "rarity" : "Uncommon", "price" : 160,
+        "shortdescription" : "Alta Tier 2 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier2.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;3/3^reset;", "subtitle" : "^#b9b5b2;Tier 4 Recipes" },
+          "lblTab2" : { "file" : "/items/armors/alta/tier4/security/helmet_mk2/icon.png" },
+          "lblTab10" : { "file" : "/items/throwables/ct_impulse_nade.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "upgrademodule", "count" : 2 },
+          { "item" : "ct_arco-codex", "count" : 1 },
+          { "item" : "ct_combat-codex", "count" : 1 },
+          { "item" : "ct_eds-codex", "count" : 1 }
+        ]
+      }, "animationState" : "tier2", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
     },
 
+
+
     {
-      "animationState" : "tier3",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default",
-        "level" : 5, "rarity" : "Rare", "price" : 160,
-        "shortdescription" : "Alta Tier 3 Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier3.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 3 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon3.png" }
-        } },
-        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t3" ], "initialRecipeUnlocks" : [],
+      "itemSpawnParameters" : { "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default", "level" : 5, "rarity" : "Rare", "price" : 160,
+        "shortdescription" : "Alta Tier 3 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier3.config",
+        "paneLayoutOverride" : { "windowtitle" : { "title" : "Alta Crafting Station ^#404040;1/4^reset;", "subtitle" : "^#b9b5b2;Tier 5 Recipes" } },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
           { "item" : "ct_phosicore", "count" : 4 },
-          { "item" : "ct_gheatsyn_crystal", "count" : 16 },
+          { "item" : "ct_frozen_energy_ball", "count" : 8 },
           { "item" : "ct_isoslime_ball", "count" : 16 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier3", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
     },
     {
-      "animationState" : "tier3",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default",
-        "level" : 6, "rarity" : "Rare", "price" : 160,
-        "shortdescription" : "Alta Tier 3+ Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier3.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 3+ Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon3.png" }
-        } },
-        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t3", "alta_t3+" ], "initialRecipeUnlocks" : [],
+      "itemSpawnParameters" : { "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default", "level" : 6, "rarity" : "Rare", "price" : 160,
+        "shortdescription" : "Alta Tier 3+ Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier3.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;2/4^reset;", "subtitle" : "^#b9b5b2;Tier 5 Recipes ^#404040;Plus^reset;" },
+          "lblTab3" : { "file" : "/items/armors/alta/tier5/arco/android_head/icon.png" },
+          "lblTab4" : { "file" : "/items/armors/alta/tier5/combat/android_head/icon.png" },
+          "lblTab5" : { "file" : "/items/armors/alta/tier5/eds/android_head/icon.png" },
+          "lblTab10" : { "file" : "/items/throwables/ct_plasma_nade.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
-          { "item" : "ct_docs_elite-codex", "count" : 1 },
-          { "item" : "ct_docs_ct-codex", "count" : 1 },
-          { "item" : "ct_docs_dreamer-codex", "count" : 1 }
+          { "item" : "ct_edsarmor", "count" : 4 },
+          { "item" : "ct_gheatsyn_crystal", "count" : 8 },
+          { "item" : "ct_tonna", "count" : 16 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier3", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+    {
+      "itemSpawnParameters" : { "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default", "level" : 6, "rarity" : "Rare", "price" : 160,
+        "shortdescription" : "Alta Tier 3 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier3.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;3/4^reset;", "subtitle" : "^#b9b5b2;Tier 5 Recipes" },
+          "lblTab3" : { "file" : "/items/armors/alta/tier5/arco/rebreather/icon.png" },
+          "lblTab4" : { "file" : "/items/armors/alta/tier5/combat/helmet/icon.png" },
+          "lblTab5" : { "file" : "/items/armors/alta/tier5/eds/proto_helmet/icon.png" },
+          "lblTab10" : { "file" : "/items/throwables/energyjavelinicon.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "upgrademodule", "count" : 1 },
+          { "item" : "ct_bion", "count" : 4 },
+          { "item" : "ct_alternia_shard", "count" : 4 },
+          { "item" : "crystalblock", "count" : 16 }
+        ]
+      }, "animationState" : "tier3", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+    {
+      "itemSpawnParameters" : { "inventoryIcon" : "icon3.png", "placementImage" : "body3.png:default", "level" : 6, "rarity" : "Rare", "price" : 160,
+        "shortdescription" : "Alta Tier 3 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier3.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;4/4^reset;", "subtitle" : "^#b9b5b2;Tier 5 Recipes" },
+          "lblTab3" : { "file" : "/items/armors/alta/tier5/arco/helmet_mk2/icon.png" },
+          "lblTab4" : { "file" : "/items/armors/alta/tier5/combat/mask_mk2/icon.png" },
+          "lblTab5" : { "file" : "/items/armors/alta/tier5/eds/helmet_mk2/icon.png" },
+          "lblTab10" : { "file" : "/items/generic/other/ct_hevikai_antidote.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "upgrademodule", "count" : 2 },
+          { "item" : "ct_elite-codex", "count" : 1 },
+          { "item" : "ct_ceterai-codex", "count" : 1 },
+          { "item" : "ct_dreamer-codex", "count" : 1 }
+        ]
+      }, "animationState" : "tier3", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
     },
 
+
+
     {
-      "animationState" : "tier4",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon4.png", "placementImage" : "body4.png:default",
-        "level" : 7, "rarity" : "Legendary", "price" : 160,
-        "shortdescription" : "Alta Tier 4 Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier4.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 4 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon4.png" }
-        } },
-        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t3", "alta_t3+", "alta_t4" ], "initialRecipeUnlocks" : [],
+      "itemSpawnParameters" : { "inventoryIcon" : "icon4.png", "placementImage" : "body4.png:default", "level" : 7, "rarity" : "Legendary", "price" : 160,
+        "shortdescription" : "Alta Tier 4 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier4.config",
+        "paneLayoutOverride" : { "windowtitle" : { "title" : "Alta Crafting Station ^#404040;1/4^reset;", "subtitle" : "^#b9b5b2;Tier 6 Recipes" } },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm", "alta_t4" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
           { "item" : "ct_cetersphere", "count" : 4 },
           { "item" : "ct_altersphere", "count" : 4 },
           { "item" : "ct_entersphere", "count" : 4 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier4", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
     },
     {
-      "animationState" : "tier5",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon5.png", "placementImage" : "body5.png:default",
-        "level" : 8, "rarity" : "Legendary", "price" : 160,
-        "shortdescription" : "Alta Tier 4+ Crafting Station",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier5.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station", "subtitle" : " ^#b9b5b2;Alta Tier 4+ Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon5.png" }
-        } },
-        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t3", "alta_t3+", "alta_t4", "alta_t4+" ], "initialRecipeUnlocks" : [],
+      "itemSpawnParameters" : { "inventoryIcon" : "icon4.png", "placementImage" : "body4.png:default", "level" : 8, "rarity" : "Legendary", "price" : 160,
+        "shortdescription" : "Alta Tier 4+ Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier4.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;2/4^reset;", "subtitle" : "^#b9b5b2;Tier 6 Recipes ^#404040;Plus^reset;" },
+          "lblTab10" : { "file" : "/items/generic/other/ct_hevikai_stim.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm", "alta_t4", "alta_t4+" ],
+        "initialRecipeUnlocks" : [], "upgradeMaterials" : [
+          { "item" : "upgrademodule", "count" : 1 },
+          { "item" : "ct_cetersphere", "count" : 4 },
+          { "item" : "ct_altersphere", "count" : 4 },
+          { "item" : "ct_entersphere", "count" : 4 }
+        ]
+      }, "animationState" : "tier4", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+    {
+      "itemSpawnParameters" : { "inventoryIcon" : "icon4.png", "placementImage" : "body4.png:default", "level" : 8, "rarity" : "Legendary", "price" : 160,
+        "shortdescription" : "Alta Tier 4 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier4.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;3/4^reset;", "subtitle" : "^#b9b5b2;Tier 6 Recipes" },
+          "lblTab7" : { "file" : "/items/armors/alta/tier6/ceterai/mindframe/icon.png" },
+          "lblTab10" : { "file" : "/items/throwables/ct_ion_javelin.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm",
+        "alta_t4", "alta_t4+", "alta_t4m" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "upgrademodule", "count" : 1 },
+          { "item" : "diamond", "count" : 16 }
+        ]
+      }, "animationState" : "tier4", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+    {
+      "itemSpawnParameters" : { "inventoryIcon" : "icon4.png", "placementImage" : "body4.png:default", "level" : 8, "rarity" : "Legendary", "price" : 160,
+        "shortdescription" : "Alta Tier 4 Crafting Station", "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier4.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "Alta Crafting Station ^#404040;4/4^reset;", "subtitle" : "^#b9b5b2;Tier 6 Recipes" },
+          "lblTab10" : { "file" : "/items/generic/other/nanowrap.png" }
+        },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm",
+        "alta_t4", "alta_t4+", "alta_t4m", "alta_t4mm", "alta_t4mmm" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 4 },
           { "item" : "ct_starfire", "count" : 256 },
           { "item" : "ct_starsteel", "count" : 256 },
           { "item" : "ct_starmatter", "count" : 256 }
         ]
-      },
-      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
+      }, "animationState" : "tier5", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare2", "upgradeParticleEffect" : "dust"
     },
 
-    {
-      "animationState" : "tier6",
-      "itemSpawnParameters" : {
-        "inventoryIcon" : "icon5.png", "placementImage" : "body5.png:default",
-        "level" : 9, "rarity" : "Legendary", "price" : 160,
-        "shortdescription" : "^orange;Ultimate Alta Station^white;",
-        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
-      },
-      "interactData" : {
-        "config" : "/objects/alta/crafting/crafting_station/tier6.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Ultimate Alta Station", "subtitle" : " ^#b9b5b2;Alta Tier 6 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/crafting_station/ui/icon5.png" }
-        } },
-        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t3", "alta_t3+", "alta_t4", "alta_t4+", "alta_max" ], "initialRecipeUnlocks" : []
-      },
-      "learnBlueprintsOnPickup" : []
-    }
-  ],
 
-  "orientations" : [
+
     {
-      "dualImage" : "body1.png:<color>",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "itemSpawnParameters" : { "inventoryIcon" : "icon5.png", "placementImage" : "body5.png:default", "level" : 9, "rarity" : "Legendary", "price" : 160,
+        "shortdescription" : "^orange;Ultimate Alta Station^white;", "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials." },
+      "interactData" : { "config" : "/objects/alta/crafting/crafting_station/tier5.config",
+        "paneLayoutOverride" : { "windowtitle" : { "title" : "Ultimate Alta Station", "subtitle" : "^#b9b5b2;All Alta Recipes" } },
+        "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm",
+        "alta_t4", "alta_t4+", "alta_t4m", "alta_t4mm", "alta_t4mmm", "alta_max" ], "initialRecipeUnlocks" : []
+      }, "animationState" : "tier6", "learnBlueprintsOnPickup" : []
     }
   ],
 

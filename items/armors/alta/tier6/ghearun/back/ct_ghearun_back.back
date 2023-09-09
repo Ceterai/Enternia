@@ -1,0 +1,51 @@
+{
+  "itemName" : "ct_ghearun_back",
+  "shortdescription" : "Ghearun M1 Forcefield",
+  "description" : "Automatically applies a rechargable shield. Provides enviro protection. Has an augment slot. Runs on ^#a7e001;gheatsyn^reset;.",
+
+  "level" : 6, "price" : 640, "rarity" : "Legendary",
+  "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",  "maxStack" : 1,
+  "race" : "alta",
+
+  "pickupQuestTemplates" : [ ],
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "statusEffects" : [
+    "ct_autoshielder_elite",
+    "ct_life_support_system"
+  ],
+
+  "colorOptions" : [
+    // GHEATSYN (DEFAULT)
+    { "6c9000" : "6c9000", "8dbd01" : "8dbd01", "a7e001" : "a7e001", "b7f601" : "b7f601", "d4ff5a" : "d4ff5a" },
+    // LIME (BLACK)
+    { "6c9000" : "8fc000", "8dbd01" : "c5f020", "a7e001" : "f3fc60", "b7f601" : "f3fc60", "d4ff5a" : "f9fcb0" },
+    // TEAL (GRAY)
+    { "6c9000" : "00c063", "8dbd01" : "20f081", "a7e001" : "60fc91", "b7f601" : "60fc91", "d4ff5a" : "b0fcc7" },
+    // CYAN (WHITE)
+    { "6c9000" : "009cc0", "8dbd01" : "20d3f0", "a7e001" : "60fcf9", "b7f601" : "60fcf9", "d4ff5a" : "b0fcf9" },
+    // RED
+    { "6c9000" : "c00003", "8dbd01" : "f0202d", "a7e001" : "fc6082", "b7f601" : "fc6082", "d4ff5a" : "fcb0c2" },
+    // ORANGE
+    { "6c9000" : "c07000", "8dbd01" : "f08f20", "a7e001" : "fc9c60", "b7f601" : "fc9c60", "d4ff5a" : "fcccb0" },
+    // YELLOW
+    { "6c9000" : "c0af00", "8dbd01" : "f0d420", "a7e001" : "fcd060", "b7f601" : "fcd060", "d4ff5a" : "fce5b0" },
+    // GREEN
+    { "6c9000" : "03c000", "8dbd01" : "2df020", "a7e001" : "82fc60", "b7f601" : "82fc60", "d4ff5a" : "c2fcb0" },
+    // BLUE
+    { "6c9000" : "001cc0", "8dbd01" : "2049f0", "a7e001" : "6096fc", "b7f601" : "6096fc", "d4ff5a" : "b0ccfc" },
+    // PURPLE
+    { "6c9000" : "7c00c0", "8dbd01" : "9d20f0", "a7e001" : "a660fc", "b7f601" : "a660fc", "d4ff5a" : "d1b0fc" },
+    // PINK
+    { "6c9000" : "c00069", "8dbd01" : "f0209b", "a7e001" : "fc60d4", "b7f601" : "fc60d4", "d4ff5a" : "fcb0ea" },
+    // CRYSTAL (BROWN)
+    { "6c9000" : "366388", "8dbd01" : "4e8fb8", "a7e001" : "76c7e4", "b7f601" : "76c7e4", "d4ff5a" : "c9eef6" }
+  ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

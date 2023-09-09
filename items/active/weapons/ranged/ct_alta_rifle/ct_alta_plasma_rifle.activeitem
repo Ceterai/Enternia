@@ -58,7 +58,7 @@
     "description" : "A combat-specific set of functions.\nPress - launch a ^#2080f0;Plasma Nade^reset;;\nHold - change firemodes.",
     "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.8,
     "pressType" : "nade",
-    "pressParams" : { "type" : "ct_alta_plasma_nade" },
+    "pressParams" : { "type" : "ct_plasma_nade" },
     "holdFiremodes" : true,
     "fireTypes" : [ "auto", "semi", "single" ]
   },

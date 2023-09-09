@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_alta_ion_nade",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "/items/throwables/ct_ionic_nade.png",
+  "image" : "/items/throwables/ct_ionic_nade.png",
+  "shortdescription" : "Ion Nade",
+  "description" : "A grenade that creates a localised static field that stuns and damages enemies.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "ct_ion_nade",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "newItem" : "ct_ionic_nade",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

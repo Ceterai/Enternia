@@ -1,0 +1,62 @@
+{
+  "id" : "ct_alta_food",
+  "title" : "Alta Culinary Guide",
+  "description" : "This guide describes main ^#b0e0fc;alta cuisines^reset; and is designed to help inexperienced altas learn how to cook! (Unlocks tier 2 recipes)",
+  "longdescription" : "This ebook was written by a grand alta chef named Miara, a very caring alta looking forward to educate less experienced altas how to cook!",
+  "icon" : "ebook/security.png",
+  "contentPages" : [
+
+    "Hi there, fellow ^#b0e0fc;alta^reset;! I, Miara, am a grand chef at one of ^#b0e0fc;Alta-1^reset; biggest restaurants and I'm here to get you accustomed with the basics of ^#b0e0fc;alta kitchen^reset; and culture around it!
+
+Desserts make up a large part of alta recipes and most of them are pretty easy to make, making them a great way to start! Iced desserts, tarts, candies and cookies are all good choices for a beginner.
+
+This book provides some of the simpler recipes for you to try out!",
+
+"Common alta recipes are relatively simple, yet just as everything here, a lot of them are reflections of altas and their culture.
+
+The recipes that this ebook showcases are semi-common alta desserts, like ice creams, and tea - a popular type of drinks among altas.
+
+Alta tea has a multitude of recipes, variations and mixes, so this book will only include the most popular ones instead.",
+
+"Here's a short Tier 2 alta recipes listing:
+
+- ^#b0e0fc;Assorti^reset; (Aya-Tsay Salad) 
+- ^#b0e0fc;Aya Candy^reset; (Aya Pop) 
+- ^#b0e0fc;Aya Ice Cream^reset; (Iced Aya Desert) 
+- ^#b0e0fc;Tsay Ice Cream^reset; (Iced Tsay Desert) 
+- ^#b0e0fc;Biomix Ice Cream^reset; (Biomix Desert) 
+- ^#b0e0fc;Crystal Cookies^reset; (Candy Cookies) 
+- ^#b0e0fc;Crystal Ice Cream^reset; (Iced Crystal Desert) 
+- ^#b0e0fc;Ometonna^reset; (Caretaker's Ometonna) 
+- ^#b0e0fc;Zandarm Tart^reset; (Zandarm Prime)",
+
+"Popular alta tea recipes:
+
+- ^#b0e0fc;Calio Tea^reset; (Thick Calio Tea) 
+- ^#b0e0fc;Gheatsyn Tea^reset; (Gheamont) 
+- ^#b0e0fc;Koywa Tea^reset; (Riverside Surprise) 
+- ^#b0e0fc;Maito Tea^reset; (Calming Tea) 
+- ^#b0e0fc;Miko Tea^reset; (Yae Tea) 
+- ^#b0e0fc;Vermont Tea^reset; (Exotic Tea) 
+- ^#b0e0fc;Yaara Tea^reset; (Ceternia Tea)",
+
+"Related resources:
+
+- ^#b0e0fc;Alta Chef's Guide^reset;
+- ^#b0e0fc;Calin Cuisine Book^reset;
+- ^#b0e0fc;Runeva Cuisine Book^reset;
+- ^#b0e0fc;Nia Cuisine Book^reset;
+- ^#b0e0fc;Yava Cuisine Book^reset;"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "learnBlueprintsOnPickup" : [
+        "ct_biomix_icecream", "ct_calio_tea", "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_koywa_tea", "ct_maito_tea", "ct_miko_tea",
+        "ct_ometonna", "ct_vermont_tea", "ct_yaara_tea", "ct_zandarm_tart", "ctassorti", "ctayacandy", "ctayaicecream", "cttsayicecream"
+      ]
+  }
+}

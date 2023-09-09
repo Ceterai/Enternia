@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_eva_collar",
+  "shortdescription" : "Evarus Collar",
+  "description" : "A collar that makes your pet immune to ^#8020f0;Enternia^reset; effects.",
+
+  "level" : 5, "price" : 1600, "rarity" : "Rare",
+  "category" : "petCollar", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "ct_eva_collar.png",
+
+  "collar" : {
+    "name" : "ct_eva_collar",
+    "displayName" : "Protected by Eva & Astera",
+    "displayIcon" : "/items/augments/pet/ct_eva_collar.png",
+    "effects" : [ "ct_ionicblockade" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+  "scripts" : [ "/scripts/augments/collar.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

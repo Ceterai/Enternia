@@ -1,0 +1,37 @@
+{
+  "id" : "ct_alta_lore_1",
+  "title" : "Alta History - ^#fffffa;^reset;From A Speck",
+  "description" : "An important part of alta history. For some reason, it reads like... a fairytale?",
+  "longdescription" : "Seems like this is Part 1.",
+  "icon" : "ebook/ship.png",
+  "contentPages" : [
+
+    "It starts and ends with stardust. Tiny, sometimes almost invisible specks, each consisting of three even tinier crystallic molecules, filled with pure energy. That energy is different for each of these \"microcrystals\", synergyzing and attracting them to each other.
+
+One is filled with ceternia - a very weak, in the moment energy that creates constant tiny impulses, only able to exist for mere milliseconds.",
+
+"The other one - with alternia, persistent, heavy, much more permanent and still than the last one.
+
+The third one is filled with enternia - ethereal and dreamy, the one you can smell but never touch.
+
+All three combined in a speck, no matter how small, together they manifest a tiny, practically microscopic... life.  
+Something so miniscule, yet so significant, thousands, millions of it scatter through space once a star comes to explode.",
+
+"This monumental event of indescribable scale creates a massive discharge of energy, resulting, among other things, in these poor things, floating through the cosmos, drifting among stars and sometimes finding their way to an asteroid, or even a planet, where they lay down, or crystallize, and then just continue to just... exist. Forever.",
+
+"But Io watches. Each speck, each life matters to Io, so Io asks for help. To give meaning to their existance, let them truly feel, think, and dream; to live, not just exist.
+
+These cries for help are heard. Celestia, the mother of stars, helps the specks get together and form a bigger, concious being. She nurtures it, cares for it until this little precious star is able to wake up and see the world itself in all of its beauty.",
+
+"That little star then goes off on its own big adventure, with all of its surprises and uncertainties. And through every step, Celestia, and even Io itself, are looking over with love, and with care.
+
+And sometimes, little fallen stars find each other, somewhere on the path of their infinite adventure, and band together for a fun and safer travel."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 6,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

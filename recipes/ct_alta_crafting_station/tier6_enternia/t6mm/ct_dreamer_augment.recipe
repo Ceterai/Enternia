@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_entersphere", "count" : 2 },
+    { "item" : "refinedviolium", "count" : 2 },
+    { "item" : "diamond", "count" : 2 },
+    { "item" : "ct_dreamer-codex", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_dreamer_augment", "count" : 1 },
+  "groups" : [ "alta_t4mm", "tier6_enternia", "enhancement", "augment", "all" ]
+}

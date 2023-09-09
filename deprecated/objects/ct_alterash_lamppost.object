@@ -67,5 +67,6 @@
 
   "interactive" : false,
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "newItem" : "ct_alta_lamppost",
+  "builder" : "/items/buildscripts/ct_alta_obj_deprecation_builder.lua"
 }

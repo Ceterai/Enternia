@@ -1,0 +1,22 @@
+{
+  "id" : "ct_enchanted",
+  "title" : "Enchanted Datamass",
+  "description" : "This encrypted data has partially corrupted due to outside factors.",
+  "longdescription" : "Thankfully, the data inside wasn't particularly affected, but it seems like this ^#b0e0fc;datamass^reset; has spent quite a long time in an anomalous zone.",
+  "icon" : "datamass/enchanted.png",
+  "contentPages" : [
+
+    "Viona energy flowing through this land can chage this it's surrounding. This is why it is not recommended to visist Vionostera without special equipment.
+
+The viona phenomenon happens when two or more types of energy with high levels of presence are persistent throughout the are, causing them to mix, resulting in sometimes unpredictable reactions and behaviours.",
+
+"If you see anything strange in a viona territory, that is likely an enchanted anomaly caused by the viona-saturated energy, or simply vionia energy."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

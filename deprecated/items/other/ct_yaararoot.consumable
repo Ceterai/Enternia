@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_yaararoot",
+  "price" : 80,
+  "level" : 2, "rarity" : "Common",
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "/items/generic/produce/ct_yaara_root.png",
+  "description" : "A piece of plant matter charged with crystals.\nSeems like you should exchange this at a ^orange;Deprectation Station^reset;.",
+  "shortdescription" : "^red;Outdated^reset; ^#20f080;Living Yaara Root^reset;",
+  "tooltipKind" : "ct_alta_consumable",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "rottingMultiplier" : 0.003,
+  "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
+  "newItem" : "ct_yaara_root",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}
