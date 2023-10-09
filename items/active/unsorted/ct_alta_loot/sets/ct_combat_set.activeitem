@@ -2,6 +2,8 @@
   "itemName" : "ct_combat_set",
   "shortdescription" : "Combat Set",
   "description" : "Contains full equipment set of an ^#b0e0fc;alta^reset; army soldier, including a lore codex of this set.\nIs cheaper to craft this way than separately.",
+  "longdescription" : "This standard combat equipment is designed with a balance between protection and mobility. Additionaly, special life support systems are in place to increase the surviveability as well.",
+  "altaDescription" : "I think I'd be proud to wear this. Although it does feel a little scary. War is bad and can never be justified.",
 
   "inventoryIcon" : "ct_combat_set.png",
   "treasure" : { "pool" : "ct_combat_set", "level" : 1 },
@@ -10,7 +12,7 @@
   "level" : 5, "price" : 3200, "rarity" : "Rare",
   "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
-  "itemTags" : [ "set" ],
+  "itemTags" : [ "set", "alta_combat" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
   "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
@@ -18,5 +20,6 @@
   "fireTime" : 1.0,
   "fireOffset" : [0.5, 0.0],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Combat" : { }, "Alta Soldier" : { }, "Glasta" : { } } }, "alkey" : "Glasta Veus"
 }

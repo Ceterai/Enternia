@@ -1,0 +1,57 @@
+{
+  "itemName" : "ct_sky_lance",
+  "shortdescription" : "Sky Lance",
+  "description" : "A tool of many ^#60c0fc;arknights^reset; - the peacekeeping watchers of the ^#ffa8e8;stardust^reset; sky, eager to keep other ^#b0e0fc;altas^reset; safe from dangers and injustice.",
+  "elementalType" : "ice",
+  "race" : "alta",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "sniperRifle",
+  "itemTags" : [ "weapon", "ranged", "sniperrifle", "arknights", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_sky_lance.png",
+  "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
+  "animationParts" : { "middle" : "ct_sky_lance.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/ionic.png" },
+  "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/reload/sniper_reload_clip2.ogg" ],
+    "primary_press" : [ "/sfx/gun/plasma_sniper1.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/alta/rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaRanged",
+    "name" : "Soneva Charge",
+    "description" : "Ice-cold blasts swipe through the air.\nFiremodes: single, semiauto.",
+    "baseDps" : 9, "energyUsage" : 32, "fireTime" : 1.6,
+    "pressType" : "snipe",
+    "pressParams" : { "type" : "iceplasma" },
+    "holdType" : "semi",
+    "holdParams" : { "type" : "iceplasma", "count" : 2 }
+  },
+  "altAbility" : {
+    "class" : "AltaSwitch",
+    "name" : "Sky Lancer",
+    "description" : "^#60c0fc;Arknight^reset;'s arsenal.\nPress - change attachments: none, laser, stabilizer (x1.25 dmg);\nHold - launch an Icy Cloud Nade.",
+    "baseDps" : 9, "energyUsage" : 32, "fireTime" : 0.5,
+    "holdType" : "nade",
+    "holdParams" : { "type" : "icecloudgrenade" },
+    "pressAttachments" : true,
+    "attachments" : [ "none", "laser", "stabilizer" ]
+  },
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_sky_lance_2.png",
+    "animationParts" : { "middle" : "ct_sky_lance_2.png" },
+    "shortdescription" : "Eva Linn ^#8020f0;^reset;",
+    "description" : "An advanced ^#60c0fc;arknight^reset; tool designed to withstand the cold and pressure in the skyes of Eva & ^#6f6c66;Astera^reset;.",
+    "altAbility" : { "name" : "Heaven's Gaze" },
+    "price" : 800, "rarity" : "Legendary"
+  }
+}

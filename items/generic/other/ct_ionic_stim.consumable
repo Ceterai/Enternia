@@ -2,18 +2,15 @@
   "itemName" : "ct_ionic_stim",
   "shortdescription" : "Ionic Stim Pack",
   "description" : "Provides 60s of 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#8020f0;Ionic Status Immunity^reset;.",
+  "longdescription" : "This enhancer gives you a tingling rush throughout your body, carefully ionizing it to safe levels. Those dangerous ionic hazards will choose a path with much less resistance than your body.",
+  "altaDescription" : "Some ennia in a glass. Better be careful with it.",
   "level" : 5, "rarity" : "Rare", "price" : 160, "race" : "alta",
-  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "itemTags" : [ "enhancer", "ionic" ], "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
   "inventoryIcon" : "ct_ionic_stim.png",
 
-  "effects" : [ [
-      {
-        "effect" : "ct_ionicblockade",
-        "duration" : 60
-      }
-    ] ],
+  "effects" : [ [ { "effect" : "ct_ionicblockade", "duration" : 60 } ] ],
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Ennia Helis"
 }

@@ -2,11 +2,13 @@
   "itemName" : "ct_ioncore_shield",
   "shortdescription" : "Ion Fortress",
   "description" : "An impenetrable stand made out of the hardest minerals and stones that can be found in ion planet cores.",
+  "longdescription" : "This shield is considered an artifact, but its origins are not entirely known. Although the front decoration gives some clues.",
+  "altaDescription" : "I heard these shields actually belong to the fallen, but I'm not sure how they end up so deep below surface level. Did they have cities underground?",
   "elementalType" : "electric",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "ionic", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "ion_core", "ionic", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
 
   "inventoryIcon" : "ct_ioncore_shield.png",
@@ -76,7 +78,8 @@
     "animationParts" : { "shield" : "images/ct_ioncore_shield.png" },
     "shortdescription" : "Ioncore Tower ^#8020f0;^reset;",
     "description" : "Hidden ^#8020f0;ionic^reset; energy of this shield has been released with the use of ^#ffa8e8;stardust^reset;. How can it be of help to you?",
+    "longdescription" : "This powerful tool of the fallen, adapted by altas, is almost an indirect Io's gift, that was made by her children and handed to you with time.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } }
-  }
+  }, "alkey" : "Enigir Taum"
 }

@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_elite_stunner",
-  "shortdescription" : "Elite Stunner ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nAn ^#20f080;impulse^reset; spear used by elite ^#b0e0fc;alta^reset; forces to deal with threats.",
-  "elementalType" : "physical",
+  "shortdescription" : "Elite Stunner ^#8020f0;^reset;",
+  "description" : "^red;WIP^reset;. An ^#20f080;impulse^reset; spear used by elite ^#b0e0fc;alta^reset; forces to deal with threats.",
+  "longdescription" : "This is an advanced form of a standard alta ^#b0e0fc;haulter stick^reset;, with enhanced energy capabilities and additional range in exchange for the original special abilities.",
+  "altaDescription" : "Exceptionally good for keeping poi and silly dreys at bay! And also for looking cool while holding it.",
+  "elementalType" : "electric",
   "level" : 6, "price" : 800, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "spear", "alta", "plasma" ],
+  "itemTags" : [ "weapon", "melee", "spear", "plasma" ],
 
   "inventoryIcon" : "ct_elite_stunner.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
@@ -32,11 +34,20 @@
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
+    "name" : "Elite Formation",
+    "description" : "^red;WIP^reset;. Hold to hold out the stunner.",
+    "longdescription" : "All elite guards operating a stunner are trained in a way to get the most of this tool capabilities.",
     "fireTime" : 0.95,
     "baseDps" : 10.5
   },
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "barrier",
+  "altAbility" : {
+    "name" : "Stunnerhault",
+    "description" : "Creates an electric barrier in front of you.",
+    "longdescription" : "A function designed to set up a line of defense and protection whenever needed."
+  },
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Elite Spear" : { } } }, "alkey" : "Prime Nodus"
 }

@@ -6,7 +6,7 @@
   "icon" : "datamass/enchanted.png",
   "contentPages" : [
 
-    "Viona energy flowing through this land can chage this it's surrounding. This is why it is not recommended to visist Vionostera without special equipment.
+    "Viona energy flowing through this land can chage this it's surrounding. This is why it is not recommended to visit ^#8080f0;vionostera^reset; without special equipment.
 
 The viona phenomenon happens when two or more types of energy with high levels of presence are persistent throughout the are, causing them to mix, resulting in sometimes unpredictable reactions and behaviours.",
 
@@ -16,7 +16,13 @@ The viona phenomenon happens when two or more types of energy with high levels o
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "viona" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "viona" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" },
+      "vionia" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" }
+    }
   }
 }

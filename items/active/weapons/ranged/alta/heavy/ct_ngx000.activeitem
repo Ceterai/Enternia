@@ -1,0 +1,63 @@
+{
+  "itemName" : "ct_ngx000",
+  "shortdescription" : "NGX-000 ^#8020f0;^reset;",
+  "description" : "A secret prototype, found by a scouting group among ruins of an unknown ^#b0e0fc;alta^reset; lab. Some say this weapon was the cause of this ruin.",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 6, "price" : 880, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "sniperRifle",
+  "itemTags" : [ "weapon", "ranged", "sniperrifle", "plasma", "ionic" ],
+
+  "inventoryIcon" : "ct_ngx000.png",
+  "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
+  "animationParts" : { "middle" : "ct_ngx000.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/ionic.png" },
+  "animationCustom" : {
+    "lights" : {
+      "laser" : {
+        "transformationGroups" : ["weapon"],
+        "active" : true,
+        "position" : [3.3, 0.385],
+        "color" : [90, 0, 0]
+      },
+      "muzzleFlash" : { "color" : [80, 0, 192] }
+    },
+    "sounds" : {
+      "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ],
+      "primary_press" : [ "/sfx/gun/mech_beamsniper_fire1.ogg" ],
+      "primary_hold" : [ "/sfx/gun/pulsecannon_blast1.ogg" ],
+      "primary_end" : [ "/sfx/gun/pulsecannon_blast1.ogg" ]
+    }
+  },
+
+  "animationScripts" : [
+    "/items/active/effects/laserbeam.lua"
+  ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/alta/rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaRanged",
+    "name" : "Nata's Impulse",
+    "description" : "Blasts accelerated ^#8020f0;ionic^reset; ^#20f080;impulses^reset; enhanced with plasma. Hold to charge up power, speed and knockback.",
+    "baseDps" : 11, "energyUsage" : 40, "fireTime" : 2.0,
+    "pressType" : "snipe",
+    "pressParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":20,"speed":160,"statusEffects":["ct_ionic_shock","ct_pulse_paralysis"]}},
+    "holdType" : "snipe",
+    "holdParams" : {"type":"railgunlightning","params":{"timeToLive":5,"knockback":40,"speed":200,"statusEffects":["ct_ionic_shock","ct_pulse_paralysis"]}}
+  },
+  "altAbility" : {
+    "class" : "AltaSwitch",
+    "name" : "Nata's Havoc",
+    "description" : "Everything else you need in a blaster.\nPress - change attachments: none, laser, stabilizer (x1.25 dmg);\nHold - launch a Shockbomb.",
+    "baseDps" : 11, "energyUsage" : 40, "fireTime" : 0.5,
+    "holdType" : "nade",
+    "holdParams" : { "type" : "shockbomb" },
+    "pressAttachments" : true,
+    "lazerParams" : { "offset" : [3.375, 0], "color" : [255, 0, 0, 128], "length" : 64, "segments" : 8, "angle" : 0 },
+    "attachments" : [ "none", "laser", "stabilizer" ]
+  }
+}

@@ -34,14 +34,14 @@ Read more on individual crystal species to learn more about them and how they ar
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "itemTags" : [ "data_source", "ebook" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   },
   "wiki" : {
     "aliases" : {
       "crystal-related research" : { },
-      "Soneva" : { "icon" : "https://starbounder.org/mediawiki/images/c/ca/Ice_Crystal.png", "icon_sizes" : [10, 16] },
-      "Carel" : { "icon" : "https://starbounder.org/mediawiki/images/f/f2/Crystal_Plant.png", "icon_sizes" : [13, 12] }
+      "Soneva" : { "icon" : "https://starbounder.org/mediawiki/images/c/ca/Ice_Crystal.png", "icon_size" : [10, 16] },
+      "Carel" : { "icon" : "https://starbounder.org/mediawiki/images/f/f2/Crystal_Plant.png", "icon_size" : [13, 12] }
     }
   }
 }

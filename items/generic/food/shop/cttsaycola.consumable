@@ -2,6 +2,8 @@
   "itemName" : "cttsaycola",
   "shortdescription" : "Tsay-Cola",
   "description" : "A lemon in a can? Isn't it just lemonade then?",
+  "longdescription" : "Apart from the similarities, the preparation methods used for tsay-cola allow for great variance, resulting in interesting results like **Bluemix**, **Tsay-Carel Duo** and others.",
+  "altaDescription" : "I really like the bluemix ones, although they're not as easy to find in ^#b0e0fc;alta cities^reset;. If this is really how lemons can taste like, then I guess they're pretty neat.",
   "inventoryIcon" : "cttsaycola.png",
   "level" : 2, "rarity" : "Common", "price" : 40,
   "race" : "alta",
@@ -21,7 +23,8 @@
   "variants" : [
     {
       "shortdescription" : "Tsay-Pop",
-      "description" : "A fresh spin on the Thsay-Cola that definitely has more pop to it!",
+      "description" : "A fresh spin on the Tsay-Cola that definitely has more pop to it!",
+      "longdescription" : "Another pleasant variation that, while not having a great taste difference from the original, provides a new interesting texture and aftertaste.",
       "level" : 3, "rarity" : "Uncommon", "price" : 80,
       "effects" : [ [
         {
@@ -30,5 +33,6 @@
         }
       ] ]
     }
-  ]
+  ],
+  "wiki" : { "aliases" : { "Bluemix" : { }, "Tsay-Carel Duo" : { } } }, "alkey" : "Tsay-Fizh"
 }

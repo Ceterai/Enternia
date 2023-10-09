@@ -1,24 +1,46 @@
 {
   "itemName" : "ct_flowersword",
-  "shortdescription" : "Flowersword ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA nice colorful weapon of mass destruction!",
+  "shortdescription" : "Flowersword",
+  "description" : "^red;WIP^reset;. A nice colorful weapon of mass destruction!",
+  "longdescription" : "The origins of this are as unclear as what it actually is. Is it a plant? An alta-made tool? An amalgamation of both?",
+  "altaDescription" : "Wow, this is weird. Is it okay for me to hold it?",
+  "elementalType" : "physical",
+
   "level" : 4, "price" : 480, "rarity" : "Uncommon",
   "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "shortsword", "haven", "flower", "toxic", "nature" ],
 
   "inventoryIcon" : "ct_flowersword.png",
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_flowersword.png" },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "primary_press2" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "elementalType" : "physical",
-
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
+    "name" : "Havencolor",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#7733aa;electric^reset; damage.",
+    "longdescription" : "This sword's fibres are thriving with oxigen and ceternia energy, producing waves of toxic impulses that provide additional power to each hit.",
     "fireTime" : 0.625,
-    "baseDps" : 6
+    "baseDps" : 6,
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" }
+    ],
+    "damageConfig" : { "damageSourceKind" : "shortsword", "timeout" : 0.5 },
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true }
+    }
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -26,12 +48,31 @@
   "upgradeParameters" : {
     "shortdescription" : "Haven Clover ^#8020f0;^reset;",
     "description" : "Toxic fever in the field of ^#ffa8e8;stardust^reset; flowers. There's nothing else.",
+    "longdescription" : "Except for a very prominent unfamiliar smell coming from small, barely visible colored fibres on the \"blade\" part.",
     "inventoryIcon" : "ct_flowersword_2.png", "animationParts" : { "blade" : "ct_flowersword_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
       "name" : "Colorstrike",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage."
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+      "longdescription" : "The clover concentrates its power on the ends of the petals, making them more yellow than ever.",
+      "steps" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+        { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+        { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" },
+        { "damageFactor" : 1.3, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-0.5, -0.75, 2.0, 1.5], "swooshSound" : "primary_press" }
+      ],
+      "stances" : {
+        "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+        "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+        "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+        "windup3" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "fire3" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true }
+      }
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Haven Sword" : { } } }, "alkey" : "Lovinist"
 }

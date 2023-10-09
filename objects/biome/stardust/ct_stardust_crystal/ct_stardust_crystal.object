@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_stardust_crystal",
-  "colonyTags" : [ "stardust", "light" ],
+  "colonyTags" : [ "staris", "stardust", "light" ],
   "category" : "light",
   "level" : 1, "rarity" : "Rare", "price" : 180,
   "race" : "generic",
@@ -45,5 +45,6 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "wiki" : { "aliases" : { "Statsyn" : { } } }
 }

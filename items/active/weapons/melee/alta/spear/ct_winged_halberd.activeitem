@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_winged_halberd",
-  "shortdescription" : "Winged Halberd ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nAn instrument used by legendary eva ^#b0e0fc;altas^reset;.",
+  "shortdescription" : "Winged Halberd ^#8020f0;^reset;",
+  "description" : "^red;WIP^reset;. An instrument used by legendary eva ^#b0e0fc;altas^reset;.",
+  "longdescription" : "Its \"wing\" is an aerodynamic blade made of stardust and a hardened ^#299fc5;dianid^reset; compound.",
+  "altaDescription" : "It's so easy to hold and swing with! Better not hurt anyone on accident.",
   "elementalType" : "physical",
   "level" : 6, "price" : 800, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "spear", "dream", "dreamer", "enternia" ],
+  "itemTags" : [ "weapon", "melee", "spear", "halberd", "eva", "staris", "stardust" ],
 
   "inventoryIcon" : "ct_winged_halberd.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
@@ -26,14 +28,13 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/alta/melee.lua"],
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "aimOffset" : -1.0,
-  "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "class" : "SpearStab",
     "name" : "Ark Flight",
-    "description" : "WIP. A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "description" : "^red;WIP^reset;. A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash. Each hit is more powerful with ^#ffa8e8;stardust^reset; in your inventory (+0.5%/speck, 120 (+60%) max).  \nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",
+    "longdescription" : "This smooth flow of circular swings helps you stay in balance regardless of you position. The halberd also has an in-built impulse compensator to account for the electric busrts.",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,
@@ -44,7 +45,14 @@
       "fire" : { "duration" : 0.2, "armRotation" : -20, "weaponRotation" : -70, "twoHanded" : true, "weaponOffset" : [0.3, 2.5], "allowRotate" : false, "allowFlip" : false },
       "hold" : { "armRotation" : -30, "weaponRotation" : -60, "twoHanded" : true, "weaponOffset" : [-0.3, 2.0], "allowRotate" : false, "allowFlip" : true }
     }
+  },  // shoot projectiles
+  "altAbilityType" : "flurry",
+  "altAbility" : {
+    "name" : "Aeroflux",
+    "description" : "Performs a spear flurry.",
+    "longdescription" : "A quick elemental superhit performed with an electric halberd."
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Stardust Halberd" : { } } }, "alkey" : "Levihracs"
 }

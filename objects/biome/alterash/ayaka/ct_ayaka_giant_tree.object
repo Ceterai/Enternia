@@ -40,5 +40,11 @@
     { "tree" : true }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "wiki" : {
+    "aliases" : { "Great Ayaka Prime" : { "icon" : "/items/generic/crafting/ctwood.png", "anchor" : "great-ayaka-prime" } },
+    "md" : {
+      "#### Great Ayaka Prime" : "An old gigantic ayaka tree, able to compete in its size with most ^#20f080;yaara groves^reset;. Its roots spread vast in all directions, forming it's own overgrown microclimate."
+    }
+  }, "alkey" : "Ayashi'Vestia"
 }

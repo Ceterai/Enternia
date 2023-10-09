@@ -3,27 +3,17 @@
 
   "shortdescription" : "Tonnova Spring",
   "description" : "A strange dimly glowing plant.",
+  "longdescription" : "This is what naturally-grown tonnovas look like during early stages of their life. While beautiful, altas prefer to grow them via ^#b0e0fc;eco chambers^reset; instead.",
   "altaDescription" : "A spring of tonnova - a biocrystallic plant. What a rare sight, huh.",
 
   "floranDescription" : "Thissss plant lookss special. It iss tough like a crysstal! And glows... Floran likesss this plant.",
   "glitchDescription" : "Statement. A glowing plant.",
   "inventoryIcon" : "4.png",
   "shapes" : [
-    {
-      "base" : "1.png"
-    },
-    {
-      "base" : "2.png"
-    },
-    {
-      "base" : "3.png"
-    },
-    {
-      "base" : "4.png"
-    },
-    {
-      "base" : "5.png"
-    }
-
+    { "base" : "1.png" },
+    { "base" : "2.png" },
+    { "base" : "3.png" },
+    { "base" : "4.png" },
+    { "base" : "5.png" }
   ]
 }

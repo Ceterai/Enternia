@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_calin_sword",
-  "shortdescription" : "Calin Sword ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA sword made out of pure crystals. Seems like it's slowly gathering the energy around it...",
+  "shortdescription" : "Calin Sword",
+  "description" : "^red;WIP^reset;. A sword made out of pure crystals. Seems like it's slowly gathering the energy around it...",
+  "longdescription" : "This sword was hand-made by an alta enthusiast who found a way to harden calin crystals in a way that would allow them to stay sharp and in one piece, while keeping their energy conduction capability.",
+  "altaDescription" : "A simple yet sturdy alta creation. I like how it shines with the enrgy bursts from the inside. Maybe this is the so-called **cal-core** mastered to perfection?",
   "elementalType" : "physical",
 
   "level" : 4, "price" : 480, "rarity" : "Uncommon",
@@ -9,19 +11,35 @@
   "itemTags" : [ "weapon", "melee", "shortsword", "sword", "crystal", "calin", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_calin_sword.png",
-
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_calin_sword.png" },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "primary_press2" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "name" : "Crystal Powers",
-    "description" : "WIP. A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#7733aa;electric^reset; damage.",
-    "fireTime" : 0.625,
-    "baseDps" : 6
+    "name" : "Crystal Powers", "class" : "TrailDash",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a ^#b0e0fc;Trail Dash^reset;. Hold in air to ^#b0e0fc;Downstab^reset;.  \nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#7733aa;electric^reset; damage.",
+    "longdescription" : "The indent patterns on the blade help directing the impulses in the right direction during the swing.",
+    "baseDps" : 6, "fireTime" : 0.625,
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" }
+    ],
+    "damageConfig" : { "damageSourceKind" : "shortsword", "timeout" : 0.5 },
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true }
+    }
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -29,12 +47,31 @@
   "upgradeParameters" : {
     "shortdescription" : "Crystal Blade ^#8020f0;^reset;",
     "description" : "A ^#76c7e4;calin^reset; sword made out of refined crystals and ^#ffa8e8;stardust^reset;. Seems like it's quickly gathering the energy around it...",
+    "longdescription" : "The now one-sided blade is structured to put all the force on the impacting side, including alternative indent patterns.",
     "inventoryIcon" : "ct_calin_sword_2.png", "animationParts" : { "blade" : "ct_calin_sword_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
       "name" : "Crystal Might",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#7733aa;electric^reset; damage."
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a ^#b0e0fc;Trail Dash^reset;. Hold in air to ^#b0e0fc;Downstab^reset;.  \nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#7733aa;electric^reset; damage.",
+      "longdescription" : "The new energy flow is able to concentrate faster, building up at the impact rim.",
+      "steps" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+        { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+        { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" },
+        { "damageFactor" : 1.3, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-0.5, -0.75, 2.0, 1.5], "swooshSound" : "primary_press" }
+      ],
+      "stances" : {
+        "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+        "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+        "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+        "windup3" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "fire3" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true }
+      }
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Calin Ist" : { } } }, "alkey" : "Calist"
 }

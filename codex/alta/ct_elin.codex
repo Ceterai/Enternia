@@ -18,7 +18,7 @@ With love, ^#76c7e4;Elin^reset;. «"
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "itemTags" : [ "data_source", "datamass", "elin" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

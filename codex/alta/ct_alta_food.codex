@@ -20,24 +20,24 @@ Alta tea has a multitude of recipes, variations and mixes, so this book will onl
 
 "Here's a short Tier 2 alta recipes listing:
 
-- ^#b0e0fc;Assorti^reset; (Aya-Tsay Salad) 
-- ^#b0e0fc;Aya Candy^reset; (Aya Pop) 
-- ^#b0e0fc;Aya Ice Cream^reset; (Iced Aya Desert) 
-- ^#b0e0fc;Tsay Ice Cream^reset; (Iced Tsay Desert) 
-- ^#b0e0fc;Biomix Ice Cream^reset; (Biomix Desert) 
-- ^#b0e0fc;Crystal Cookies^reset; (Candy Cookies) 
-- ^#b0e0fc;Crystal Ice Cream^reset; (Iced Crystal Desert) 
-- ^#b0e0fc;Ometonna^reset; (Caretaker's Ometonna) 
+- ^#b0e0fc;Assorti^reset; (Aya-Tsay Salad)
+- ^#b0e0fc;Aya Candy^reset; (Aya Pop)
+- ^#b0e0fc;Aya Ice Cream^reset; (Iced Aya Desert)
+- ^#b0e0fc;Tsay Ice Cream^reset; (Iced Tsay Desert)
+- ^#b0e0fc;Biomix Ice Cream^reset; (Biomix Desert)
+- ^#b0e0fc;Crystal Cookies^reset; (Candy Cookies)
+- ^#b0e0fc;Crystal Ice Cream^reset; (Iced Crystal Desert)
+- ^#b0e0fc;Ometonna^reset; (Caretaker's Ometonna)
 - ^#b0e0fc;Zandarm Tart^reset; (Zandarm Prime)",
 
 "Popular alta tea recipes:
 
-- ^#b0e0fc;Calio Tea^reset; (Thick Calio Tea) 
-- ^#b0e0fc;Gheatsyn Tea^reset; (Gheamont) 
-- ^#b0e0fc;Koywa Tea^reset; (Riverside Surprise) 
-- ^#b0e0fc;Maito Tea^reset; (Calming Tea) 
-- ^#b0e0fc;Miko Tea^reset; (Yae Tea) 
-- ^#b0e0fc;Vermont Tea^reset; (Exotic Tea) 
+- ^#b0e0fc;Calio Tea^reset; (Thick Calio Tea)
+- ^#b0e0fc;Gheatsyn Tea^reset; (Gheamont)
+- ^#b0e0fc;Koywa Tea^reset; (Riverside Surprise)
+- ^#b0e0fc;Maito Tea^reset; (Calming Tea)
+- ^#b0e0fc;Miko Tea^reset; (Yae Tea)
+- ^#b0e0fc;Vermont Tea^reset; (Exotic Tea)
 - ^#b0e0fc;Yaara Tea^reset; (Ceternia Tea)",
 
 "Related resources:
@@ -52,7 +52,7 @@ Alta tea has a multitude of recipes, variations and mixes, so this book will onl
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "itemTags" : [ "data_source", "ebook" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
       "learnBlueprintsOnPickup" : [
         "ct_biomix_icecream", "ct_calio_tea", "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_koywa_tea", "ct_maito_tea", "ct_miko_tea",

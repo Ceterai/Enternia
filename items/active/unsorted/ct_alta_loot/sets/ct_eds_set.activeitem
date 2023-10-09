@@ -2,6 +2,8 @@
   "itemName" : "ct_eds_set",
   "shortdescription" : "^#f02020;EDS^reset; Set",
   "description" : "Contains full equipment set of an ^#b0e0fc;alta^reset; ^#f02020;EDS^reset; soldier, including a lore codex of this set.\nIs cheaper to craft this way than separately.",
+  "longdescription" : "EDS guards and soldiers are a building brick of EDS itself. Altough, recently, due to unforseen circumstances, the focus has shifted towards droids and out-of-control automated systems...",
+  "altaDescription" : "A full-on EDS soldier look and feel... Extra protection from every little creature in existance. Why not?",
 
   "inventoryIcon" : "ct_eds_set.png",
   "treasure" : { "pool" : "ct_eds_set", "level" : 1 },
@@ -10,7 +12,7 @@
   "level" : 5, "price" : 3200, "rarity" : "Rare",
   "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
-  "itemTags" : [ "set" ],
+  "itemTags" : [ "set", "eds" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
   "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
@@ -18,5 +20,6 @@
   "fireTime" : 1.0,
   "fireOffset" : [0.5, 0.0],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "EDS Guard" : { }, "EDS-Varda" : { } } }, "alkey" : "EDS Veus"
 }

@@ -1,0 +1,59 @@
+{
+  "itemName" : "ct_tsyntex",
+  "shortdescription" : "Tsyntex",
+  "description" : "This gheablaster was named after a scpecial reaction that ^#a7e001;gheatsyn^reset; goes through to become a liquid.",
+  "longdescription" : "It's not exactly known whether this was a ^#a7e001;Ghearun^reset; development or a hand-made wonder of ^#ffe364;Faradea^reset; mercs, or perhaps a rare find from an unknown adventurer, but there are no explicit markings on it except for the name on the bottom of the handle.",
+  "altaDescription" : "Let me liquify some annoying drois with this. Or is it liquidate? Liquinade? Yeah, that's it.",
+  "elementalType" : "poison",
+  "race" : "alta",
+
+  "level" : 5, "price" : 480, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "pistol", "blaster", "gheatsyn", "ghearun", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_tsyntex.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_tsyntex.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/green_small.png" },
+  "animationCustom" : { "sounds" : { "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ] }, "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } } },
+  "baseOffset" : [0.75, 0.375], "muzzleOffset" : [1.5, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Gheablast",
+    "description" : "Tsyntex under phosic pressure allows to launch semiauto bursts of impulses on press, and create ^#a7e001;gheatsyn charges^reset; on hold.",
+    "longdescription" : "This was proven less effective against rogue or annoying drones, but more so towards unsuspecting poi, who didn't deserve this. Should never be used against altas too.",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10,  // stronger with gheatsyn shards (+0.5% for every shard, max 120 shards)
+    "pressType" : "semi", "pressParams" : { "type" : "ct_impulse_small", "inaccuracy" : 0.04 },
+    "holdType" : "blast", "holdParams" : { "type" : "ct_gheatsyn_charge", "inaccuracy" : 0.01 },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+      "winddown" : { "duration" : 0.11, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_tsyntex_2.png",
+    "animationParts" : { "middle" : "ct_tsyntex_2.png" },
+    "shortdescription" : "Tsyntex Prime ^#8020f0;^reset;",
+    "description" : "A pristine model of original tsyntex blaster with its power enhanced by ^#ffa8e8;stardust^reset;.",
+    "longdescription" : "It feels a little heavier than usual, but part of that can be attributed to a different material used for casing and some of the blaster's insides.",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip1.ogg" ] } },
+    "primaryAbility" : {
+      "name" : "Ultimate Gheablast",
+      "description" : "Semiauto ^#20f080;impulse^reset; bursts on press (+1 blast per burst), or 2x ^#a7e001;gheatsyn charges^reset; on hold (40% faster charge). The hold damage increases by 0.2% for every ^#a7e001;gheatsyn shard^reset; in inventory (max 300 or 60%).",
+      "longdescription" : "Now packing a special accelerator module ran on stardust, it speeds up tsyntex significantly, improving overall performace of this tool.",
+      "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10, "holdTimeMax" : 0.45, "holdType" : "semi",
+      "pressParams" : { "type" : "ct_impulse_small", "inaccuracy" : 0.04, "count" : 4 },
+      "holdParams" : { "type" : "ct_gheatsyn_charge", "inaccuracy" : 0.01, "count" : 2, "itemBonus" : { "type" : "ct_gheatsyn_shard", "damageFactor" : 0.002, "max" : 300 } }
+    }
+  },
+  "wiki" : { "aliases" : { "Gheatsyn Blaster" : { }, "Gheablaster" : { }, "Gheagast" : { } } }, "alkey" : "Tsyntex"
+}

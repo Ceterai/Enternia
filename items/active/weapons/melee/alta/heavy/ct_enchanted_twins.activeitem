@@ -1,12 +1,14 @@
 {
   "itemName" : "ct_enchanted_twins",
-  "shortdescription" : "Vionos Twins ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nSomeone did the seemingly impossible - used anomaly energy to create a tool. You can sense slight magnetic pulls.",
-  "elementalType" : "physical",
+  "shortdescription" : "Vionos Twins",
+  "description" : "Someone did the seemingly impossible - used anomaly energy to create a tool. You can sense slight magnetic pulls coming from it.",
+  "longdescription" : "This dangerous yet powerful combo doesn't seem to go well with usual alta safety protocols. Still, it might be pretty enticing to some.",
+  "altaDescription" : "This seems a bit hazardous. I should probably consult with a coordinator first, just in case. Viona anomalies can be pretty dangerous.",
+  "elementalType" : "ice",
 
   "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "twinblade", "alta", "enchanted", "vionos", "upgradeableWeapon" ],
+  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "twinblade", "enchanted", "vionos", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_enchanted_twins.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
@@ -14,45 +16,47 @@
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_broadsword.ogg" ], "fire2" : [ "/sfx/melee/swing_broadsword.ogg" ], "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
-      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ], "downstab" : [ "/sfx/melee/swing_spear.ogg" ]
+      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ], "downstab" : [ "/sfx/melee/swing_spear.ogg" ], "ice" : [ "/sfx/melee/travelingslash_ice4.ogg" ]
     },
-    "animatedParts" : { "stateTypes" : { "bladeCharge" : { "default" : "idle", "states" : {
-      "idle" : { },
-      "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
-      "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
+    "animatedParts" : {
+      "stateTypes" : {
+        "bladeCharge" : { "default" : "idle", "states" : { "idle" : { },
+          "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
+          "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
       } } },
       "parts" : { "blade" : {"properties":{"offset" : [0, 2]}} }
     },
     "particleEmitters" : {
       "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
-        "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
+      "particles" : [
+        {"particle":{"type":"ember","size":1.5,"color":[200,240,255,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
+        "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
+        {"particle":{"type":"ember","size":1.5,"color":[255,200,255,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
+        "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
+        {"particle":{"type":"ember","size":1.5,"color":[240,200,255,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
+        "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}}
+      ]
       }
     }
   },
   "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "primaryAbility" : {
-    "name" : "Resonation", "class" : "BladeCharge", "description" : "A sequence of 3 heavy strikes. Hold to perform a Spin Slash. Hold in air to Downstab.",
+    "name" : "Viona Resonation", "class" : "BladeCharge", "description" : "A sequence of 3 heavy strikes. Hold to perform a ^#b0e0fc;Blade Charge^reset;. Hold in air to ^#b0e0fc;Downstab^reset;.",
+    "longdescription" : "The special resonation creates slight energy vibrations between the twins, providing additional power to each hit.",
     "baseDps" : 12, "fireTime" : 0.83, "energyUsage" : 32,
-    "holdParams" : { "cooldownTime" : 0.8, "energyUsageFactor" : 1.0, "chargeTime" : 1.2, "chargeBorder" : "FFFF3388" }, "holdTimeMax" : 0.35,
-    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"broadsword","knockbackMode":"facing","timeoutGroup":"alt","timeout":0.5},
-    "flashTime" : 0.15, "flashDirectives" : "fade=FFFFFFFF=0.15", "comboSpeedFactor" : 0.9, "edgeTriggerGrace" : 0.25,
-    "stepConfig" : [
-      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0] },
-      { "damageFactor" : 0.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0] },
-      { "damageFactor" : 1.1, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "statusEffects" : [ ] }
+    "holdParams" : { "chargeBorder" : "FF33FF88", "damageConfig" : {
+      "damageSourceKind" : "icebroadsword", "statusEffects" : [ "frostslow" ],
+      "ranged" : { "type" : "smallicecloud", "count" : 3, "params" : { "speed" : 10 }, "inaccuracy" : 1.57, "offset" : [5.0, -0.85], "sound" : "ice" }
+    } },
+    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"broadsword","knockbackMode":"facing","timeout":0.5},
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0], "element" : "physical" },
+      { "damageFactor" : 0.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0], "element" : "physical" },
+      { "damageFactor" : 1.1, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "damageSourceKind":"icebroadsword", "statusEffects" : [ "frostslow" ] }
     ],
-    "downstabParams" : {
-      "cooldownTime" : 0.5, "energyFactor" : 0.2, "holdAirControl" : 60, "stabVelocity" : -5, "bounceYVelocity" : 35, "damageConfig" : {
-        "damageSourceKind" : "spear", "statusEffects" : [ ], "baseDamage" : 6, "knockback" : [0, -35], "timeout" : 0.2, "timeoutGroup" : "alt"
-      }
-    },
     "stances" : {
       "idle" : { "armRotation" : -75, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
-      "windup" : { "armRotation" : 70, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
-      "slash" : { "duration" : 0.4, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
-      "hold" : { "duration" : 0.2, "armRotation" : -70, "weaponRotation" : -40, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
-      "stab" : { "armRotation" : -50, "weaponRotation" : -75, "twoHanded" : true, "minStabTime" : 0.2, "allowRotate" : false, "allowFlip" : true },
       "windup1" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
       "preslash1" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
       "fire1" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
@@ -65,9 +69,11 @@
     }
   },
 
-  "altAbilityType" : "superspinslash",
+  "altAbilityType" : "elementalpillar",
   "altAbility" : {
-    "description" : "WIP. Hold to perform a Spin Slash."
+    "name" : "Resonation",
+    "description" : "Raises an ice pillar in front of you.",
+    "longdescription" : "The impact from this special attack quickly dissipates, as not all viona combinations are able to exist for extended periods of time."
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -75,16 +81,45 @@
   "upgradeParameters" : {
     "shortdescription" : "Bi-Blade ^#8020f0;^reset;",
     "description" : "A weapon that combines different energies into one, long, powerful paired blade.",
+    "longdescription" : "You can feel slight pressure if you put your hand between the blades. If you move it slowly, you will feel how gravity is wavering from side to side, sliding from end to end, as if some kind of uneven surface.",
     "inventoryIcon" : "ct_enchanted_twins_2.png", "animationParts" : { "blade" : "ct_enchanted_twins_2.png" },
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/tools/energypickaxe_stop1.ogg" ] } },
     "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
       "name" : "Dual Resonation", "fireTime" : 0.93,
-      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
+      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a ^#b0e0fc;Blade Charge^reset;. Hold in air to ^#b0e0fc;Downstab^reset;",
+      "longdescription" : "Full resonation engaged! A perfect viona anomaly to rule them all.",
+      "holdParams" : { "damageConfig" : { "damageSourceKind" : "icebroadsword", "statusEffects" : [ "frostslow" ],
+        "ranged" : { "type" : "smallicecloud", "count" : 5, "params" : { "speed" : 15 }, "inaccuracy" : 1.57, "offset" : [5.0, -0.85], "sound" : "ice" }
+      } },
+      "steps" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0], "element" : "physical" },
+        { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 15.0, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0], "element" : "physical" },
+        {
+          "damageFactor" : 1.2, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0],
+          "damageSourceKind":"icebroadsword", "statusEffects" : [ "frostslow" ]
+        },
+        {
+          "damageFactor" : 1.6, "energyFactor" : 0.0, "knockback" : 35.0, "swoosh" : "swoosh1", "swooshOffset" : [3.0, -0.5, 6.50, 2.0],
+          "damageSourceKind" : "icebroadsword", "statusEffects" : [ "frostslow" ], "swooshSound" : "primary_hold",
+          "ranged" : { "type" : "smallicecloud", "count" : 3, "params" : { "speed" : 5 }, "inaccuracy" : 1.57, "offset" : [5.0, -0.85], "sound" : "ice" }
+        }
+      ],
+      "stances" : {
+        "wait3" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+        "windup4" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+        "preslash4" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+        "fire4" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+      }
     },
     "altAbility" : {
-      "name" : "Super Spin Slash",
-      "description" : "Hold to perform a Super Spin Slash."
+      "name" : "Enchanted Resonation",
+      "description" : "Raises an electric pillar in front of you.",
+      "longdescription" : "With increased power comes increased gravity of the situation you're in, and increased risk of sudden mini-anomalies, or **miazmas**."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Vionos Ist" : { }, "Miazma" : { "anchor" : "miazma" } },
+    "md" : { "#### Miazma" : "A small viona anomaly of certain types, that can often be recognized by crimson-colored wavy optical distortions in the air. These areas can change in sizes, and can be dangerous without proper protection."
+  } }, "alkey" : "Vionos Kolto"
 }

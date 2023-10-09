@@ -1,7 +1,7 @@
 {
   "projectileName" : "ct_warped_swarm",
   "image" : "ct_warped_swarm.png",
-  "shortdescription" : "Warped Flies",
+  "shortdescription" : "Warped Swarm",
   "description" : "A swarm of warped flies, also known as a Warped Swarm, is a horde of small poisonous ^#9b2d3f;warped^reset; insects often found in and around ^#9b2d3f;warped hives^reset;.",
   "physics" : "flame",
   "animationCycle" : 1,
@@ -15,6 +15,9 @@
   "piercing" : true,
   "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
   "damageTeam" : { "type" : "indiscriminate" },
-  "damageKind" : "poison"
+  "damageKind" : "poison",
+  "wiki" : {
+    "aliases" : { "Warped Flies" : { } }
+  }
 }
 

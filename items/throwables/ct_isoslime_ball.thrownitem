@@ -1,12 +1,13 @@
 {
   "itemName" : "ct_isoslime_ball",
   "rarity" : "Common",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "reagent", "nature", "isoslime", "izopoi", "slime" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_isoslime_ball.png",
   "image" : "ct_isoslime_ball.png",
-  "shortdescription" : "Ball of Isoslime",
+  "shortdescription" : "Isoslime",
   "description" : "A chunk of ^#7ddcde;isoslime^reset; (a.k.a. izoslime) that you can maliciously throw at someone to cover them in cryonic goo. Or make jam out of it.",
-  "longdescription" : "The cooking capabilities are described in ^#b0e0fc;Isoslime in Cooking^reset; and the ^#b0e0fc;nia cuisine book^reset;.\n\n**Izon**, the cryogen that makes the cryolayer of izopoi, is also often used as a cooling material in things like refrigerators, as well as a method for ^#b0e0fc;warped containment^reset;.",
+  "longdescription" : "**Isoslime**, or **Izoslime**, or **Izopoi** - is a cryogenic slimy substance that tends to form in the subsurface (and rarely surface) layer of ^#2080f0;alterash prime^reset; planets. This substance is highly viscous and consists of two layers.  \nThe **outer** layer, or the **cryo layer**, is heat-isolation slime that protects the inner layer from low temperatures. This is a precious material that is often used by ^#b0e0fc;altas^reset; in construction.  \nThe **inner** layer, or the **poi layer**, consits of pure slime and is the main part of isoslime.\n\nIsoslime is a subtype of regular ^#7ddcde;slime^reset;.",
+  "altaDescription" : "Some gooey izopoi I can throw at my friends. Perfect.",
   "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;subsurface^reset;" ],
 
   "ammoUsage" : 1,
@@ -15,7 +16,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "ct_isoslime_ball",
+  "projectileType" : "ct_isoslime_charge",
   "projectileConfig" : {
     "periodicActions" : [
       {
@@ -27,5 +28,24 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Izon" : { "anchor" : "izon" }, "Isoslime Ball" : { }, "Izoslime" : { }, "Ball Of Isoslime" : { } },
+    "md" : {
+      "#### Cooking" : "The cooking capabilities are described in ^#b0e0fc;Isoslime in Cooking^reset; and the ^#b0e0fc;nia cuisine book^reset;.",
+      "#### Izon" : "**Izon**, the cryogen that makes the cryolayer of izopoi, is also often used as a cooling material in things like refrigerators, as well as a method for ^#b0e0fc;warped containment^reset;."
+    },
+    "related" : {
+      "### [[ Biomes ]]" : [ "Izoplast" ],
+      "### [[ Monsters ]]" : [ "Sona Slime", ["Ionic Slime"], "Isopod" ],
+      "### [[ Objects ]]" : {
+        "#### Natural" : [ "Isoslime Puddle", "Isoslime Pile", "Isoslime Deposit", "Isoslime Driplet", "Isoslime Ceilglob", "Isospawner", "Isoblob" ]
+      },
+      "### [[ Items ]]" : {
+        "#### [[ Weapons ]]" : [ "Isoblaster", ["Isoblaster Prime ★"] ],
+        "#### [[ Throwable Items ]]" : [ "Ball Of Isoslime", "Izo Ball" ],
+        "#### [[ Codexes ]]" : [ "Isoslime in Cooking" ],
+        "#### [[ Loot Items ]]" : [ "Isoslime Loot Crate" ]
+      }
+    }
+  }, "alkey" : "Izopoi"
 }

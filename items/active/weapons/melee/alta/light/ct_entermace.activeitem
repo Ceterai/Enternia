@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_entermace",
-  "shortdescription" : "Entermace ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA strange weapon covered in rough, dark ^#8020f0;enterash^reset; soil. Is this a golden shine or mystical glow of the void?..",
+  "shortdescription" : "Entermace",
+  "description" : "^red;WIP^reset;. A strange weapon covered in rough, dark ^#8020f0;enterash^reset; soil. Is this a golden shine or mystical glow of the void?..",
+  "longdescription" : "Forged from ^#f02080;enterash prime^reset; materials, it might be rare find outside of enterash planets. Still, some alta adventurers in proper gear might find a proper use for this enternia-saturated tool of combat.",
+  "altaDescription" : "I've never seen an enternia ^#b0e0fc;niaton^reset; before, but I guess this is it. Seems to be much heavier than usual, but I guess this is because of materials.",
   "elementalType" : "physical",
 
   "level" : 6, "price" : 480, "rarity" : "Legendary",
@@ -9,7 +11,7 @@
   "itemTags" : [ "weapon", "melee", "mace", "enternia", "enterash" ],
 
   "inventoryIcon" : "ct_entermace.png",
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "blade" : "ct_entermace.png", "handle" : "" },
   "animationCustom" : {
     "sounds" : {
@@ -23,6 +25,9 @@
 
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
+    "name" : "Jinix-AU",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#7733aa;electric^reset; damage.",
+    "longdescription" : "Mysterious markings on the handle reference a unique combat system, or rather a less-known variation of it.",
     "fireTime" : 0.9,
     "baseDps" : 6,
     "damageConfig" : {
@@ -30,5 +35,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Enteron"
 }

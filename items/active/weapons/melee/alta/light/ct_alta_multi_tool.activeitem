@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_alta_multi_tool",
-  "shortdescription" : "Multi-Tool ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA fancy hatchet-like tool used by ^#b0e0fc;alta^reset; scouts for traversing certain types of terrain.",
+  "shortdescription" : "Multi-Tool",
+  "description" : "^red;WIP^reset;. A fancy hatchet-like tool used by ^#b0e0fc;alta^reset; scouts for traversing certain types of terrain.",
+  "longdescription" : "Because it packs so many useful funtions, its considered an essential survival tool and is usually given out to almost any alta preparing for travel or outgoing task.",
+  "altaDescription" : "I feel like every alta I know that goes outside the city has this. I mean, wouldn't mind having one myself, so yeah.",
   "elementalType" : "physical",
 
   "level" : 3, "price" : 480, "rarity" : "Uncommon",
@@ -9,19 +11,40 @@
   "itemTags" : [ "weapon", "melee", "shortsword", "sword", "crystal", "calin", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_alta_multi_tool.png",
-
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_alta_multi_tool.png" },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "blade" : {"properties":{"offset" : [-0.2, -1.25]}},
+        "handle" : { "properties" : {"offset" : [-0.2, -1.25]}},
+        "rope" : { "properties" : { "centered" : false, "image" : "", "offset" : [-0.6, -0.5] } }
+      }
+    },
+    "sounds" : { "fire" : ["/sfx/gun/grapplegun.ogg"], "firePick" : [ "/sfx/tools/energypickaxe_hit2.ogg", "/sfx/tools/energypickaxe_hit3.ogg", "/sfx/tools/energypickaxe_hit4.ogg", "/sfx/tools/energypickaxe_hit5.ogg", "/sfx/tools/energypickaxe_hit6.ogg", "/sfx/tools/energypickaxe_hit7.ogg", "/sfx/tools/energypickaxe_hit8.ogg" ],
+    "blockSound" : [ ] }
+  },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/weapons/melee/alta/multi.lua"],
+  "ropeWidth" : 1.0, "ropeColor" : [120, 80, 30, 255],
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
-
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
     "name" : "Super Toolset",
-    "description" : "WIP. A sequence of 3 light strikes. Hold to enter a mining state.",
+    "description" : "^red;WIP^reset;. Launch a grapple blade (broken). Hold to enter a mining state.",
+    "longdescription" : "In full, the toolset includes a pick end, a chop end, a retractable switch end, incarvings for attachments, a keyring, a retractable long handle and an inner slot for small parts or other things. It also has proper isolation, fully protecting the wielder from possible contact hazards.",
     "fireTime" : 0.625,
-    "baseDps" : 6
+    "baseDps" : 6,
+    "toolRange" : 3.5,
+    "blockRadius" : 2,
+    "tileDamage" : 1.8,
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true }
+    }
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
@@ -29,12 +52,15 @@
   "upgradeParameters" : {
     "shortdescription" : "Ultimate Tool ^#8020f0;^reset;",
     "description" : "A perfect multi-tool enhanced with ^#ffa8e8;stardust^reset;. Now we're talking!",
+    "longdescription" : "This seemingly already useful thing just got more useful somehow. And still, only a few of altas could find or create such a thing due to it not being able to be manufactured.",
     "inventoryIcon" : "ct_alta_multi_tool_2.png", "animationParts" : { "blade" : "ct_alta_multi_tool_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
       "name" : "Enhanced Toolset",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to enter a faster mining state."
+      "description" : "Launch for a further grapple blade (broken). Hold to enter a faster mining state.",
+      "longdescription" : "This one got enhanced with extra switches and was re-weighted to make each swing much easier to perform, resulting in faster mining times."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Multi Stick" : { } } }, "alkey" : "Birkun"
 }

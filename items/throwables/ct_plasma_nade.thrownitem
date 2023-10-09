@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_plasma_nade",
-  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta", "elementalType" : "electric",
+  "itemTags" : [ "reagent", "plasma", "nade" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_plasma_nade.png",
   "image" : "ct_plasma_nade.png",
   "shortdescription" : "Plasma Nade",
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 1.5,
 
-  "projectileType" : "ct_plasma_nade",
+  "projectileType" : "ct_plasma_nade_charge",
   "projectileConfig" : {
     "periodicActions" : [
       {

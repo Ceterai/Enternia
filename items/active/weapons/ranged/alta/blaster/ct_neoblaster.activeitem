@@ -1,0 +1,54 @@
+{
+  "itemName" : "ct_neoblaster",
+  "shortdescription" : "Neo Blaster",
+  "description" : "A plasma blaster that can produce physical bullets from its own energy. Hold LMB for a charged shot.",
+  "longdescription" : "While the origins of the tool are outside of alta production, a small alta energy tool production decided to give their spin on the style, in form of a handy blaster.",
+  "altaDescription" : "This is interesting. Although I'm not sure if I would want to lauch something that painful at someone.",
+  "elementalType" : "physical",
+
+  "level" : 6, "price" : 480, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "pistol", "blaster", "neo", "peacekeepers" ],
+
+  "inventoryIcon" : "ct_neoblaster.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_neoblaster.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/plasma_small.png" },
+  "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/pistol_reload_clip3.ogg" ],
+    "primary_press" : [ "/sfx/gun/mech_wobbleshot_fire2.ogg" ],
+    "primary_hold" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
+    "primary_loop" : [ "/sfx/melee/charge_up15.ogg" ]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [26, 221, 227]
+      }
+    }
+  },
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Neoload", "description" : "A standard neo arsenal feature - press the button for short semiauto bursts of plasma, hold for a charged shotgun shot.",
+    "longdescription" : "The imported mechanisms used in this blaster are able to concentrate energy and then separate it into physical pellets.",
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.10,
+    "pressType" : "semi", "pressParams" : { "type" : "neotommygunbullet", "inaccuracy" : 0.02 },
+    "holdType" : "burst", "holdParams" : { "type" : "neotommygunbullet", "inaccuracy" : 0.4 }, "holdTimeMax" : 0.55,
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true },
+      "winddown" : { "duration" : 0.11, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : {
+    "aliases" : { "Neogast" : { } },
+    "md" : {
+      "#### Neo Tools" : "This blaster is presumably a part of a neo-series called [Neo Laser Weapons](https://starbounder.org/Unique_Weapon#Neo_Laser_Black_Market_Arms)."
+    }
+  }, "alkey" : "Neo Gast"
+}

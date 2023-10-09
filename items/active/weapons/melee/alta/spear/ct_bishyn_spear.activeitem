@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_bishyn_spear",
-  "shortdescription" : "Bishyn Spear ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nBe careful - the blade of this spear is made out of poisonous crystals.",
-  "elementalType" : "physical",
+  "shortdescription" : "Bishyn Spear",
+  "description" : "^red;WIP^reset;. Be careful - the blade of this spear is made out of poisonous crystals.",
+  "longdescription" : "In the hands of a professional, it can become both very useful and quite versatile. Made by ^#378754;bishyn^reset; enthusiasts, it has a couple of unfinished features that could unravel its true potential.",
+  "altaDescription" : "The handle is so smooth, yet it grips quite nicely too, that's very cool! Not a lot of uses to it though. I know that these are sometimes used to manually carve different weaker crystals, like gheatsyn, but I don't think I plan on doing anything like that.",
+  "elementalType" : "poison",
   "price" : 720, "level" : 5, "rarity" : "Rare",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "spear", "crystal", "bishyn", "poison" ],
+  "itemTags" : [ "weapon", "melee", "spear", "crystal", "bishyn" ],
 
   "inventoryIcon" : "ct_bishyn_spear.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
@@ -28,14 +30,13 @@
     }
   },
 
-  "scripts" : ["/items/active/weapons/melee/alta/melee.lua"],
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "aimOffset" : -1.0,
-  "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "class" : "SpearStab",
     "name" : "Bishyn Blade",
-    "description" : "WIP. A sequence of 3 light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#80f020;poison^reset; damage.",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#80f020;poison^reset; damage.",
+    "longdescription" : "The crystallic mix used as rim cover is harder then a lot of crystals. The only things able to significantly overshadow it are ^#76c7e4;diamonds^reset; and ^#0050c0;hevika^reset; crystals.",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "<elementalType>spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,
@@ -55,18 +56,25 @@
     }
   },
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "rocketspear",
+  "altAbility" : {
+    "name" : "Spearing",
+    "description" : "Hold to perform a rocket spear ability.",
+    "longdescription" : "This technology is part of the design, however not without flaws. It requires an energy source to function, but has poor compatability with usual alta tech."
+  },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Razhus Az'Ar ^#8020f0;^reset;",
     "description" : "A combat ^#ffa8e8;stardust^reset; relic that has now been restored. Let's see what does its full potential hold...",
+    "longdescription" : "Hopefully, with enough energy this thing can finally meet its creators' expectations, or perhaps even exceed them. The power of stardust can sometimes know no boundaries...",
     "inventoryIcon" : "ct_bishyn_spear_2.png", "animationParts" : { "blade" : "ct_bishyn_spear_2.png" },
     "price" : 800, "rarity" : "Legendary", "elementalType" : "poison",
     "primaryAbility" : {
       "name" : "Refined Bishyn Blade",
       "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Hold Super-Strike.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#80f020;poison^reset; damage."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Crystal Cutter" : { } } }, "alkey" : "Bishyn Scis"
 }

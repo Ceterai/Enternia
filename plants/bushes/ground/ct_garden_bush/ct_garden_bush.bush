@@ -2,33 +2,21 @@
   "name" : "ct_garden_bush",
 
   "shortdescription" : "Alterash Garden Bush",
-  "description" : "A small bush, which appears to be a spring of an ^#3587ff;ayaka^reset; tree.",
+  "description" : "A small bush, which appears to be a spring of an ^#3587ff;ayaka tree^reset;.",
+  "longdescription" : "While not proven to neseccarily be a direct spring, it does look similar to the growth surrounding it, although some variants tend to look nothing alike.",
   "altaDescription" : "Some research shows common ancestory between these alterash garden bushes and ayakas.",
 
   "floranDescription" : "Ssshrub.",
   "glitchDescription" : "Statement. A shrub.",
   "inventoryIcon" : "5.png",
   "shapes" : [
-    {
-      "base" : "1.png"
-    },
-    {
-      "base" : "2.png"
-    },
-    {
-      "base" : "3.png"
-    },
-    {
-      "base" : "4.png"
-    },
-    {
-      "base" : "5.png"
-    },
-    {
-      "base" : "6.png"
-    },
-    {
-      "base" : "7.png"
-    }
-  ]
+    { "base" : "1.png" },
+    { "base" : "2.png" },
+    { "base" : "3.png" },
+    { "base" : "4.png" },
+    { "base" : "5.png" },
+    { "base" : "6.png" },
+    { "base" : "7.png" }
+  ],
+  "wiki" : { "aliases" : { "Ayaka Bush" : { } } }
 }

@@ -1,24 +1,51 @@
 {
   "itemName" : "ct_staris_sword",
-  "shortdescription" : "Staris Sword ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nSome say there's nothing more pure than stardust itself... But this tool comes close.",
+  "shortdescription" : "Staris Sword ^#8020f0;^reset;",
+  "description" : "^red;WIP^reset;. Some say there's nothing more pure than stardust itself... But this tool comes close.",
+  "longdescription" : "Since it's made almost entirely out of stardust, it needs to be used with care to avoid unstable states and environments.",
+  "altaDescription" : "It's so precious! And most likely just as powerful!",
   "elementalType" : "physical",
 
   "level" : 6, "price" : 520, "rarity" : "Legendary",
   "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "stardust", "staris" ],
+  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "staris", "stardust" ],
 
   "inventoryIcon" : "ct_staris_sword.png",
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_staris_sword.png" },
-  "animationCustom" : { },
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "primary_press2" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "fireTime" : 0.625,
-    "baseDps" : 7
+    "name" : "Uvi-Staa",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Heavy Slash. Each hit is more powerful with ^#ffa8e8;stardust^reset; in your inventory (+0.5%/speck, 120 (+60%) max).",
+    "longdescription" : "The blade shines different from the rest of the sword. Perhaps it's due to different concentrations of specks and energy in them.",
+    "fireTime" : 0.625,  // stronger with stardust (+0.5% for every speck, max 120 specks)
+    "baseDps" : 7,
+    "damageConfig" : { "damageSourceKind" : "shortsword", "timeout" : 0.5 },
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 1.3, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-0.5, -0.75, 2.0, 1.5], "swooshSound" : "primary_press" }
+    ],
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup3" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire3" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true }
+    }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Stardust Sword" : { } } }, "alkey" : "Staris Ist"
 }

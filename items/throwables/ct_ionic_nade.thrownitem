@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_ionic_nade",
-  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta", "elementalType" : "electric",
+  "itemTags" : [ "reagent", "ionic", "nade" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_ionic_nade.png",
   "image" : "ct_ionic_nade.png",
   "shortdescription" : "Ion Nade",
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "ct_ionic_nade",
+  "projectileType" : "ct_ionic_nade_charge",
   "projectileConfig" : {
     "speed" : 40,
     "power" : 0,

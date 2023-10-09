@@ -1,0 +1,49 @@
+{
+  "itemName" : "ct_enalnia",
+  "shortdescription" : "Enal'Nia ^#8020f0;^reset;",
+  "description" : "Made from an advanced ^#299fc5;bion compound^reset; - bionix - this tool combines both alternia and enternia into a deadly flow of energy.",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 6, "price" : 880, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "assaultRifle",
+  "itemTags" : [ "weapon", "ranged", "assaultrifle", "plasma", "ionic" ],
+
+  "inventoryIcon" : "ct_alta_plasma_rifle_2.png",
+  "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
+  "animationParts" : { "middle" : "ct_alta_plasma_rifle_2.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/plasma.png" },
+  "animationCustom" : { "sounds" : {
+    "init" : [ "/sfx/gun/mech_shielddrone1.ogg" ],
+    "primary_press" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
+    "primary_hold" : [ "/sfx/gun/plasma_mp2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "scripts" : ["/items/active/weapons/ranged/alta/rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaRanged",
+    "name" : "Nia Blast",
+    "description" : "Generates powerful blasts of plasma with accelerated ions.\nFiremodes: burst, semiauto.",
+    "baseDps" : 10, "energyUsage" : 40, "fireTime" : 0.8,
+    "pressType" : "burst",
+    "pressParams" : { "type" : "ct_plasma_medium", "count" : 5 },
+    "holdType" : "semi",
+    "holdParams" : { "type" : "ct_ionic_medium", "count" : 5 }
+  },
+  "altAbility" : {
+    "class" : "AltaSwitch",
+    "name" : "Nia Erea Desit",
+    "description" : "Enhance the spread of energy flowing through this blaster.\nPress - change attachments: none, laser, flashlight;\nHold - launch Electro-Cloud Nade.",
+    "baseDps" : 10, "energyUsage" : 44, "fireTime" : 0.1,
+    "holdType" : "nade",
+    "holdParams" : { "type" : "electriccloudgrenade" },
+    "pressAttachments" : true,
+    "attachments" : [ "none", "laser", "flashlight" ]
+  }
+}

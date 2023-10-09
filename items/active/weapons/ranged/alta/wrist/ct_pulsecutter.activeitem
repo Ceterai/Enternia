@@ -1,0 +1,72 @@
+{
+  "itemName" : "ct_pulsecutter",
+  "shortdescription" : "Pulsecutter",
+  "description" : "This environmental tool is usually used to cut hard materials with rapid and long targeted ^#20f080;impulses^reset;.",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 5, "price" : 480, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "wrist", "pistol", "impulse", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_pulsecutter.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_pulsecutter.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/impulse.png" },
+  "animationCustom" : {
+    "sounds" : { "primary_press" : [ "/sfx/gun/plasma_mp1.ogg" ], "primary_hold" : [ "/sfx/gun/plasma_ar1.ogg" ], "primary_start" : [ ] },
+    "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [0, 64, 12] } }
+  },
+  "baseOffset" : [0.0, 0.0], "muzzleOffset" : [0.7, 0.1],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [0, 0, 0, 0], "length" : 32, "segments" : 6, "angle" : 0 } ] },
+
+  "primaryAbility" : {
+    "name" : "Minicharges",
+    "description" : "Launches a series of small cutting ^#20f080;Pulsings^reset; on press and charges a proper long ^#20f080;Impulse Charge^reset; on hold.",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.20,
+
+    "pressType" : "semi", "pressParams" : { "type" : "ct_impulse_small", "inaccuracy" : 0.01 },
+    "holdType" : "blast", "holdParams" : { "type" : "ct_impulse_medium", "inaccuracy" : 0.01 },
+    "holdTimeMax" : 0.75,
+    "stances": {
+      "idle" : {
+        "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0, "armRotation" : 3, "weaponRotation" : 3,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "winddown" : {
+        "duration" : 0.06, "armRotation" : 3, "weaponRotation" : 3,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_pulsecutter_2.png",
+    "animationParts" : { "middle" : "ct_pulsecutter_2.png" },
+    "shortdescription" : "Hyperblaster ^#8020f0;^reset;",
+    "description" : "This cutting tool has been upgraded to a full-on automatic blaster that uses ^#ffa8e8;stardust^reset; energy for its pulses.\nNow with a laser pointer.",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/ar_reload_clip1.ogg" ] },
+      "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] },
+        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 64, 12] }
+      }
+    },
+    "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [32, 240, 128, 128], "length" : 32, "segments" : 6, "angle" : 0 } ] },
+    "primaryAbility" : {
+      "name" : "Rapid Minicharges",
+      "description" : "Enhanced pulses with higher damage output."
+    }
+  }
+}

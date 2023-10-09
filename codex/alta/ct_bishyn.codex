@@ -21,7 +21,7 @@ Current set is accomplished in a modern-esc maxi-mini style called ^#378754;Setu
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "docs" ],
+      "itemTags" : [ "data_source", "docs", "bishyn" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

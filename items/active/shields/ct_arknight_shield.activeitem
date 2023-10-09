@@ -2,10 +2,12 @@
   "itemName" : "ct_arknight_shield",
   "shortdescription" : "Arknight's Shield",
   "description" : "A shield wielded by many protectors of the sky realm.",
+  "longdescription" : "Its compact yet tall structure makes it very convenient during air combat, and its energy receptors allow it to slowly recharge its duration.",
+  "altaDescription" : "I can use this as huge snowboard! Or, well, as a shield. But a lot of my arknight friends use it as snowboards too, sooo...",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "alta", "arknight", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "arknight", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
   "race" : "alta",
 
@@ -67,8 +69,10 @@
     "inventoryIcon" : "ct_arknight_shield.png",
     "animationParts" : { "shield" : "images/ct_arknight_shield.png" },
     "shortdescription" : "Eva Protos ^#8020f0;^reset;",
-    "description" : "A ^#ffa8e8;stardust^reset; relic used by arknight heros. A message is engraved on the back of the shield. It reads \"Stars look over you\".",
+    "description" : "A ^#ffa8e8;stardust^reset; relic used by ^#60c0fc;arknight^reset; heros. A message is engraved on the back of the shield. It reads \"Stars look over you\".",
+    "longdescription" : "Its mysterious cosmic shine distinquishes it from the rest of arknight shields. The energy within is slowly pulsating, waiting to release in a surge.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip1.ogg" ], "raiseShield" : [ "/sfx/gun/mech_multidrone1.ogg" ] } }
-  }
+  },
+  "wiki" : { "aliases" : { "Eva Shield" : { } } }, "alkey" : "Arknite Taum"
 }

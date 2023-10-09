@@ -1,0 +1,99 @@
+{
+  "itemName" : "ct_enchanted_blaster",
+  "shortdescription" : "Enchanted Blaster",
+  "description" : "This blaster can launch special charges of enchanted energy. Holding LMB will produce even weirder results.",
+  "longdescription" : "Judging by its casing and colors, this might have actually been just a regular toy before its \"enchantment\". Now instead of soft pellets it blasts out energy charges.",
+  "altaDescription" : "Seems like this blaster spent a bit too much time in ^#8080f0;vionia^reset;. Oh well. Wobblies!!",
+  "elementalType" : "ice",
+
+  "level" : 4, "price" : 480, "rarity" : "Uncommon",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "twoHanded" : false, "category" : "pistol",
+  "itemTags" : [ "weapon", "ranged", "pistol", "blaster", "enchanted", "vionos", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_enchanted_blaster.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_enchanted_blaster.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/plasma_small.png" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ "/sfx/gun/plasma_mp2.ogg" ],
+    "primary_hold" : [ "/sfx/gun/pulsecannon1.ogg" ],
+    "primary_loop" : [ "/sfx/melee/charge_up2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [0, 12, 64] } }
+  },
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [0, 0, 0, 0], "length" : 32, "segments" : 6, "angle" : 0 } ] },
+
+  "primaryAbility" : {
+    "name" : "Wobblenaut",
+    "description" : "Weird enchanted innards make this weapon shoot bursts or ^#80f0f0;ice^reset; plasma on the button press, and launch weird wobbly ^#80f0f0;ice^reset; spheres on hold.",
+    "longdescription" : "These spheres seem to contain a weird magnetic anomaly, very similar in its behaviour to common ^#8080f0;miazmas^reset;.",
+
+    "baseDps" : 4, "energyUsage" : 14, "fireTime" : 0.20,
+
+    "pressType" : "semi",
+    "pressParams" : {
+      "type" : "blueplasmabullet",
+      "inaccuracy" : 0.045,
+      "params" : { "damageKind" : "iceplasma", "speed" : 60 }
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "miniwobbleshot",
+      "params" : { "damageKind" : "iceplasma" },
+      "inaccuracy" : 0.01
+    },
+    "holdTimeMax" : 0.55,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0, "armRotation" : 3, "weaponRotation" : 3,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "winddown" : {
+        "duration" : 0.1, "armRotation" : 3, "weaponRotation" : 3,
+        "twoHanded" : false, "allowRotate" : false, "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_enchanted_blaster_2.png",
+    "animationParts" : { "middle" : "ct_enchanted_blaster_2.png" },
+    "shortdescription" : "Enchanted Pulser ^#8020f0;^reset;",
+    "description" : "An improved pulse blaster enchanted with pure ^#ffa8e8;stardust^reset; energy.\nNow has an attached laserpointer.",
+    "longdescription" : "From a toy to an energy tool to a stardust relic. In the right hands, anything can reach its prime state.",
+    "price" : 520, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/tech/tech_blink_cooldown1.ogg" ] },
+      "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] },
+        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 12, 64] }
+      }
+    },
+    "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [26, 221, 227, 128], "length" : 32, "segments" : 6, "angle" : 0 } ] },
+    "primaryAbility" : {
+      "name" : "Super Wobblenaut",
+      "description" : "The power has unleashed!\nPress - now 50% more accurate, 4 blasts instead of 3.\nHold - the size of the Wobbleshot has increased.",
+      "longdescription" : "It's important to not overhold to not create an out-of-control ^#8080f0;miazma^reset;. Thankfully, there seems to be a limiter preventing exactly that.",
+      "baseDps" : 3, "energyUsage" : 14, "fireTime" : 0.20,
+      "pressParams" : {
+        "type" : "blueplasmabullet", "inaccuracy" : 0.0225, "params" : { "damageKind" : "iceplasma", "speed" : 60, "timeToLive" : 5.0 }, "count" : 4
+      },
+      "holdParams" : {
+        "type" : "wobbleshot", "params" : { "damageKind" : "iceplasma", "timeToLive" : 5.0 }, "inaccuracy" : 0.01
+      }
+    }
+  },
+  "wiki" : { "aliases" : { "Vionosgast" : { } } }, "alkey" : "Viona Gast"
+}

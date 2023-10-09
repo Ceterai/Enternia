@@ -3,14 +3,16 @@
   "shortdescription" : "^#20f080;Ceter^reset;-Sphere",
   "description" : "Source of natural energy, safe to use for generating low levels of pure electricity.",
   "longdescription" : "Spheres of any type are one of the most powerful energy sources invented by ^#b0e0fc;altas^reset;. They're able to provide a steady stream of energy, and even have special flow settings. Although, unlike ^#ceffd7;phosicores^reset;, spheres are unable to convert energy types.",
+  "altaDescription" : "A precious ceterfaa, I better be careful not to drop it. Wonderful how something so smal can actually generate ^#20f080;ceternia^reset;.",
   "race" : "alta",
 
   "level" : 6, "price" : 40, "rarity" : "Legendary",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "alta", "ceternia" ], "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "reagent", "energy_source", "impulse", "ceternia" ], "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_cetersphere.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Ceniafaa" : { } } }, "alkey" : "Ceter-Faa"
 }

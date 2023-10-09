@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_scout_lightwear",
   "shortdescription" : "Scout's Lightwear",
-  "description" : "Regular protective wear of ^#b0e0fc;alta^reset; scouts on Alterash.",
+  "description" : "Regular protective wear of ^#b0e0fc;alta^reset; scouts on ^#20f080;alterash^reset; planets.",
+  "longdescription" : "The wrist mechanisms are meant to be connected to any equiped proto-gear, like ^#b0e0fc;protospears^reset;, ^#b0e0fc;protomasks^reset; or even ^#b0e0fc;velocity eaters^reset;.",
+  "altaDescription" : "A scava's body armor, very light and bendable. I like the feel of it in my hands.",
 
   "price" : 1600, "rarity" : "Uncommon",
   "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 3, "itemTags" : [ "tier3armour", "upgradeableWeapon" ],
+  "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -81,7 +83,8 @@
     "maleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
     "femaleFrames" : { "body" : "chestf.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
     "shortdescription" : "Protea's Jacket ^#8020f0;^reset;",
-    "description" : "\nThis protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea <3\".",
+    "description" : "\nThis protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea «\".",
+    "longdescription" : "This gift is part of Protea's relics, that she worn or used as a scout.",
     "price" : 1700, "rarity" : "Legendary",
     "statusEffects" : [ "ct_life_support_module", "ct_emergency_healer" ],
     "leveledStatusEffects" : [
@@ -106,5 +109,6 @@
         "amount" : 2.5
       }
     ]
-  }
+  },
+  "wiki" : { "aliases" : { "Protowear" : { } } }, "alkey" : "Protofazh"
 }

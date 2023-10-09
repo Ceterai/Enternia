@@ -2,14 +2,16 @@
   "itemName" : "ct_alta_energy_cell",
   "shortdescription" : "Energy Cell",
   "description" : "This medium-capacity energy cell was developed by ^#b0e0fc;Tserera^reset; scientists and is designed to power various ^#b0e0fc;alta^reset; devices.",
-  "longdescription" : "It's the main source of energy for most casual small to medium sized technology, like ^#b0e0fc;alta laptops^reset;, ^#b0e0fc;alta visors^reset; and even different ^#b0e0fc;alta robotics^reset;.  \nFor more powerful, energy-expensive or otherwise big tech, altas use more advanced energy sources, like ^#ceffd7;phosicores^reset;, energy spheres or even ^#b0e0fc;alta pyramids^reset;.",
+  "longdescription" : "Also known as G2 (size-2) **Nia Yon**, or **Nion** for short, these handy creations are the main source of energy for most casual small to medium sized technology, like ^#b0e0fc;alta laptops^reset;, ^#b0e0fc;omniblue visors^reset; and even different ^#b0e0fc;alta robotics^reset;.  \nFor more powerful, energy-expensive or otherwise big tech, altas use more advanced energy sources, like ^#ceffd7;phosicores^reset;, energy spheres or even ^#b0e0fc;alta pyramids^reset;.",
+  "altaDescription" : "I could keep my ^#b0e0fc;ship drone^reset; charged for days with this. If it's not empty, of course.",
   "race" : "alta",
   "level" : 4, "price" : 40, "rarity" : "Uncommon",
 
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "alta", "alternia" ], "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "reagent", "energy_source", "plasma" ], "tooltipKind" : "ct_alta_item_long",
 
   "inventoryIcon" : "ct_alta_energy_cell.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Alta Energy Cell" : { }, "Nia Yon" : { }, "Nion" : { }, "Alta Nion" : { }, "G2 Alta Nion" : { } } }, "alkey" : "G2 Nion"
 }

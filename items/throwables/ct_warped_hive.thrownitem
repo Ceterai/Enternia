@@ -1,12 +1,13 @@
 {
   "itemName" : "ct_warped_hive",
-  "level" : 3, "rarity" : "Uncommon", "price" : 10,
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10, "elementalType" : "poison",
+  "itemTags" : [ "reagent", "nature", "warped" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_warped_hive.png",
   "image" : "ct_warped_hive.png",
   "shortdescription" : "Warped Hive",
   "description" : "A hive of ^#9b2d3f;warped flies^reset;. These tiny poisonous creatures can become quite a threat when a hive is disturbed.",
-  "longdescription" : "These hives can be grown like plants. Sometimes they can grow to enormous sizes, forming ^#9b2d3f;warped hive trees^reset;. These kinds of mutations are a natural process for all ^#9b2d3f;warped^reset; forms of life.",
+  "longdescription" : "These hives can be grown like plants. Sometimes they can grow to enormous sizes, forming ^#9b2d3f;warped hive trees^reset;. These kinds of mutations are a natural process for all ^#9b2d3f;warped^reset; forms of life.\n\nThe hive seems is filled with delicious **warped honey**, often used by ^#b0e0fc;altas^reset; for cooking.",
+  "altaDescription" : "It's full of poisonous insects. If'll throw it, I better make sure it lands somewhere far away from me.",
   "foundOn" : [ "^#20f080;Alterash^reset; ^gray;deep caves^reset;" ],
 
   "ammoUsage" : 1,
@@ -15,7 +16,7 @@
   "windupTime" : 0.0,
   "cooldown" : 1.5,
 
-  "projectileType" : "ct_warped_hive",
+  "projectileType" : "ct_warped_bomb",
   "projectileConfig" : {
     "speed" : 40,
     "power" : 1.5,
@@ -29,5 +30,9 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Warped Honey" : { "anchor" : "cooking" } },
+  "md" : {
+    "#### Cooking" : "**Warped Honey**, that is often extracted from the hive, is a very thick, honey-like substance, that can vary in taste from blend to sweet to slightly sour. Altas usually pick the sweetest and thickest types for cooking and leave the rest for other purposes."
+  } }
 }

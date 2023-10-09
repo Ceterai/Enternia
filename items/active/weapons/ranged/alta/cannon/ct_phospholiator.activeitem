@@ -1,0 +1,146 @@
+{
+  "itemName" : "ct_phospholiator",
+  "shortdescription" : "Phospholiator",
+  "description" : "A ^#ceffd7;phospholion^reset; cannon that forms small radioactive projectiles that deal severe ^#f08020;fire^reset; damage upon contact.",
+
+  "elementalType" : "fire",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "grenadeLauncher",
+  "itemTags" : [ "weapon", "ranged", "grenadelauncher", "cannon", "minelauncher", "phospholion", "radiation", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_phospholiator.png",
+
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_phospholiator.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/impulse.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : { "color" : [116, 141, 126] },
+      "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [72, 88, 80] },
+      "flashlight" : { "active" : true, "position" : [-1.25, -0.5],
+        "transformationGroups" : ["muzzle"], "color" : [181, 215, 191], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5
+      }
+    }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Phosiblast",
+    "description" : "Creates bursts of Phosic Blasts.\nPress - burst with irradiated fireballs;\nHold - burst with Phosic Blasts.",
+
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "fireplasma",
+      "inaccuracy" : 0.11,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 }
+    },
+    "holdType" : "burst",
+    "holdParams" : {
+      "type" : "firestickygrenade", // fireplasma
+      "inaccuracy" : 0.21,
+      "count" : 3
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Phosic Patronage",
+    "description" : "This weapon is packed with nades.\nPress - launch a Sticky Firenade;\nHold - burst with Fire Mines.",
+
+    "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "firestickygrenade",
+      "inaccuracy" : 0.08,
+      "count" : 1
+    },
+    "holdType" : "burst",
+    "holdParams" : {
+      "type" : "fireproximitymine",
+      "inaccuracy" : 0.21,
+      "count" : 3
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_phospholiator_2.png",
+    "animationParts" : { "middle" : "ct_phospholiator_2.png" },
+    "shortdescription" : "Phosic Cannon ^#8020f0;^reset;",
+    "description" : "The ^#ceffd7;phosicores^reset; in this cannon have been enhanced with ^#ffa8e8;stardust^reset;. Its ^#f08020;fire^reset; now bursts with energy!",
+    "price" : 800, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } }
+  }
+}

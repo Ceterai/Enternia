@@ -3,18 +3,14 @@
   "shortdescription" : "Hevikai Antidote ^#2080f0;^reset;",
   "description" : "Prevents or cures ^#0050c0;Hevikai^reset; by applying a short ^#0050c0;Hevikai Block^reset;.  \nTo prevent ever needing this, try acquiring some ^#2080f0;Plasma Status Immunity^reset;.",
   "longdescription" : "One of the proudest achievements of ^#0050c0;Hevika Ordis^reset;. The work on a cure started shortly after discovering ^#0050c0;hevika^reset;-related overcharges and the disease.  \nAfter developing it, ^#b0e0fc;alta^reset; researchers realized that these levels of overcharges can be useful in certain environments, which led to the development of a ^#0050c0;Hevikai Stim Pack^reset;.",
+  "altaDescription" : "A cure from a very horrifying disease. I can't believe some dreamers and adventurers are actually seeking it. Is there a risk too high for those altas?",
   "level" : 5, "rarity" : "Rare", "price" : 190, "race" : "alta",
-  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "itemTags" : [ "enhancer", "hevikai", "antidote" ], "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
   "inventoryIcon" : "ct_hevikai_antidote.png",
 
-  "effects" : [ [
-      {
-        "effect" : "ct_hevikai_block",
-        "duration" : 5
-      }
-    ] ],
+  "effects" : [ [ { "effect" : "ct_hevikai_block", "duration" : 5 } ] ],
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Hevikai Netrima"
 }

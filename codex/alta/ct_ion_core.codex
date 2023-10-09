@@ -28,7 +28,10 @@ Last time an enchanted item was found, along with a small-size anomaly, which co
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "docs" ],
+      "itemTags" : [ "data_source", "datamass", "ion_core" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : { "RS-17 Vera" : { } }
   }
 }

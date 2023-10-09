@@ -3,6 +3,7 @@
   "shortdescription" : "Barracuda's Fin",
   "description" : "All what's left from a mysterious beast. If it's this big, who knows what a giant this was...",
   "longdescription" : "**Staris Ghura**, or the **Barracuda**, is a smaller subspecies of a powerful moster species of **Megasharks**, known by altas as **Kaghurao**. Cudas can get small enough to be able to live in ^#497c64;alterash riversides^reset; and ^#497c64;flooded alterash caves^reset;, but such a sight is still pretty rare, therefore finding a trophy like this is quite an accomplisment.\n\nBarracudas' fins are pretty powerful and surprisingly easy to swing, and the sturdy bone spikes are hard enough to dent some metals.",
+  "altaDescription" : "I can use this as a sword. Or a surfing board! But I guess I should take care of the smell first...",
   "elementalType" : "physical",
 
   "level" : 3, "price" : 720, "rarity" : "Uncommon",
@@ -10,47 +11,27 @@
   "itemTags" : [ "weapon", "melee", "broadsword", "sword", "sea","fish","fin","undead","predatory","barracuda","staris ghura","koywa","flooded","upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_barracuda_fin.png",
-
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
   "animationParts" : { "handle" : "", "blade" : "ct_barracuda_fin.png" },
-  "animationCustom" : {
-    "sounds" : {
-      "swoosh1" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh2" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh3" : [ "/sfx/melee/swing_broadsword.ogg" ],
-      "chargedSwing" : [ "/sfx/melee/charge_full_swing3.ogg" ], "downstab" : [ "/sfx/melee/swing_spear.ogg" ]
-    },
-    "animatedParts" : { "stateTypes" : { "bladeCharge" : { "default" : "idle", "states" : {
-      "idle" : { },
-      "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
-      "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
-      } } }
-    },
-    "particleEmitters" : {
-      "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
-        "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
-      }
-    }
-  },
+  "animation" : "/items/active/weapons/melee/alta/default.animation",
   "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "primaryAbility" : {
-    "name" : "Jaw Strike", "class" : "BladeCharge", "description" : "A sequence of 3 heavy strikes. Hold to perform a Fang Discharge. Hold in air to Downstab.",
+    "name" : "Jaw Strike", "class" : "KunaiBlast", "description" : "A sequence of 3 heavy strikes. Hold to perform a ^gray;Fang Discharge^reset;.",
+    "longdescription" : "The fin is pretty heavy, so any of this might take some additional effort.",
     "baseDps" : 12, "fireTime" : 0.9, "energyUsage" : 32,
-    "holdParams" : { "cooldownTime" : 0.8, "energyUsageFactor" : 1.0, "chargeTime" : 1.2, "chargeBorder" : "FFFF3388" }, "holdTimeMax" : 0.35,
-    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"broadsword","knockbackMode":"facing","timeoutGroup":"alt","timeout":0.5},
-    "flashTime" : 0.15, "flashDirectives" : "fade=FFFFFFFF=0.15", "comboSpeedFactor" : 0.9, "edgeTriggerGrace" : 0.25,
-    "stepConfig" : [
-      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffsetRegion" : [0.75, 0.0, 4.25, 5.0] },
-      { "damageFactor" : 0.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffsetRegion" : [3.0, -0.5, 6.50, 2.0] },
-      { "damageFactor" : 1.1, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffsetRegion" : [1.5, -1.0, 5.50, 1.0], "statusEffects" : [ ] }
+    "holdParams" : { "cooldownTime" : 0.8, "energyFactor" : 1.0 }, "holdTimeMax" : 0.35,
+    "damageConfig" : { "statusEffects" : [ ], "baseDamage" : 22.5, "knockback" : 40, "damageSourceKind":"broadsword","knockbackMode":"facing","timeout":0.5},
+    "pressParams" : { "flash" : { "time" : 0.15, "directives" : "fade=FFFFFFFF=0.15" }, "comboSpeedFactor" : 0.7, "edgeTriggerGrace" : 0.25 },
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 0.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 1.1, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0], "swooshSound" : "primary_press" }
     ],
-    "downstabParams" : {
-      "cooldownTime" : 0.5, "energyFactor" : 0.2, "holdAirControl" : 60, "stabVelocity" : -5, "bounceYVelocity" : 35, "damageConfig" : {
-        "damageSourceKind" : "spear", "statusEffects" : [ ], "baseDamage" : 6, "knockback" : [0, -35], "timeout" : 0.2, "timeoutGroup" : "alt"
-      }
-    },
+    "downstabParams" : { "cooldownTime" : 0.5, "energyFactor" : 0.2, "holdAirControl" : 60, "stabVelocity" : -5, "bounceYVelocity" : 35, "damageConfig" : {
+      "damageFactor" : 0.5, "damageSourceKind" : "spear", "statusEffects" : [ ], "knockback" : [0, -35], "timeout" : 0.2, "timeoutGroup" : "primary" } },
     "stances" : {
       "idle" : { "armRotation" : -75, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
-      "windup" : { "armRotation" : 70, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "windup" : { "duration" : 0.2, "armRotation" : 70, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
       "slash" : { "duration" : 0.4, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
       "hold" : { "duration" : 0.2, "armRotation" : -70, "weaponRotation" : -40, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
       "stab" : { "armRotation" : -50, "weaponRotation" : -75, "twoHanded" : true, "minStabTime" : 0.2, "allowRotate" : false, "allowFlip" : true },
@@ -67,7 +48,8 @@
   },
 
   "altAbilityType" : "spinslash",
-  "altAbility" : { "name" : "Finspin", "description" : "Hold to perform a Spin Slash." },
+  "altAbility" : { "name" : "Finspin", "description" : "Hold to perform a Spin Slash.",
+  "longdescription" : "The inertia makes it much easier to execute then regular attacks." },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
@@ -76,17 +58,32 @@
     "description" : "A refined, hardened Barracuda's Fin. With the power of ^#ffa8e8;stardust^reset; this thing can do absolute wonders.",
     "longdescription" : "The only things left are the most necessary ones - the hard, refined **pillar bone** and barely visible refined **cuda spikes**. With this size they're now able to resonate, attracting and spreading charged kinetic energy.",
     "inventoryIcon" : "ct_barracuda_fin_2.png", "animationParts" : { "blade" : "ct_barracuda_fin_2.png" },
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } },
     "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
-      "fireTime" : 0.6,
-      "name" : "Perfect Strike",
-      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform an Energy Charge."
+      "fireTime" : 0.7,
+      "name" : "Perfect Strike", "description" : "A sequence of 4 ^gray;(+1)^reset; heavy strikes. Hold to perform an ^gray;Fang Discharge^reset;.",
+      "steps" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0] },
+        { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 15.0, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0] },
+        { "damageFactor" : 1.2, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0] },
+        { "damageFactor" : 1.6, "energyFactor" : 0.0, "knockback" : 35.0, "swoosh" : "swoosh1", "swooshOffset" : [3.0, -0.5, 6.50, 2.0], "swooshSound" : "primary_hold" }
+      ],
+      "stances" : {
+        "wait3" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+        "windup4" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+        "preslash4" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+        "fire4" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+      }
     },
     "altAbilityType" : "superspinslash",
-    "altAbility" : {
-      "name" : "Steelspin",
-      "description" : "Hold to perform an electric Super Spin Slash."
+    "altAbility" : { "name" : "Steelspin", "description" : "Hold to perform an electric Super Spin Slash." }
+  },
+  "wiki" : {
+    "aliases" : {
+      "Staris Ghura" : { "icon" : "none" }, "Barracuda" : { "icon" : "none" }, "Megashark" : { "icon" : "none" },
+      "Kaghurao" : { "icon" : "none" }, "Cuda Pillarbone" : { "icon" : "none" }, "Cuda Spike" : { "icon" : "none" }
     }
-  }
+  }, "alkey" : "Cudagrif"
 }

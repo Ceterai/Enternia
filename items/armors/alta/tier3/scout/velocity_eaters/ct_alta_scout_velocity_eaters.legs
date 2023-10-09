@@ -2,10 +2,12 @@
   "itemName" : "ct_alta_scout_velocity_eaters",
   "shortdescription" : "Velocity Eaters",
   "description" : "These trousers boost your jump and disperse your velocity when landing, reducing fall damage. Perfect for scouting missions.",
+  "longdescription" : "They are powered by the special protosystem that replaces usual energy cells with an energy circulation mechanic that flows troughout the whole costume.",
+  "altaDescription" : "I can jump so much higher in these! Like a real scava!",
 
   "price" : 700, "rarity" : "Uncommon",
   "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 3, "itemTags" : [ "tier3armour", "upgradeableWeapon" ],
+  "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -72,6 +74,7 @@
     "inventoryIcon" : "icon.png", "maleFrames" : "pants.png", "femaleFrames" : "pants.png",
     "shortdescription" : "Protea's Vectors ^#8020f0;^reset;",
     "description" : "\nThese protective leggings with ^#ffa8e8;stardust^reset; crystals once belonged to Protea. They're yours now. Enjoy!",
+    "longdescription" : "They're part of the Protea's gift to inexperienced alta scouts as means of care and support!",
     "price" : 750, "rarity" : "Legendary",
     "statusEffects" : [ "ct_velocity_jump", "ct_velocity_swim" ],
     "leveledStatusEffects" : [
@@ -96,5 +99,6 @@
         "amount" : 1
       }
     ]
-  }
+  },
+  "wiki" : { "aliases" : { "Protopads" : { } } }, "alkey" : "Protolinko"
 }

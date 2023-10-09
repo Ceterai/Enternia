@@ -25,7 +25,7 @@ To start progressing in the mod content, craft an [IMG]https://raw.githubusercon
 [IMG]https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png[/IMG] [URL='https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station']Alta Upgrade Station[/URL] for upgrading some mod items in exchange for [IMG]https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png[/IMG][URL='https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard']Gheatsyn Shards[/URL];
 [IMG]https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/deprecation_station/icon.png[/IMG] [URL='https://github.com/Ceterai/Enternia/wiki/Deprecation-Station']Deprecation Station[/URL] is a tiny crafting table that allows you to convert deprecated items/objects to new ones, or exchange Perfectly Generic Items for different presents.
 
-Also, check out a [IMG]https://raw.githubusercontent.com/Ceterai/Enternia/main/codex/books/ct_alta_book.png[/IMG] [URL='https://github.com/Ceterai/Enternia/wiki/Guide-to-My-Enternia']Mod Guide[/URL] codex that you can buy at Treasured Trophies!
+Also, check out a [IMG]https://raw.githubusercontent.com/Ceterai/Enternia/main/codex/alta/ebook/basic.png[/IMG] [URL='https://github.com/Ceterai/Enternia/wiki/Guide-to-My-Enternia']Mod Guide[/URL] codex that you can buy at Treasured Trophies!
 
 [SIZE=6]Supported Addons[/SIZE]
 [LIST]

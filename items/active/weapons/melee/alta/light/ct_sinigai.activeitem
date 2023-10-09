@@ -1,24 +1,57 @@
 {
   "itemName" : "ct_sinigai",
-  "shortdescription" : "Sinigai ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nMolten sword with an energy razor. What ^#b0e0fc;alta^reset; made this?",
+  "shortdescription" : "Sinigai ^#8020f0;^reset;",
+  "description" : "^red;WIP^reset;. Molten sword with an energy razor. What ^#b0e0fc;alta^reset; made this?",
+  "longdescription" : "On the surface, it looks very differently from what altas usually consider a sword, but it provides just as much power and functionality to count it as one.",
+  "altaDescription" : "What a weird name for a sword. Couldn't name it Sinegat or something? Strange, but anyway.",
   "elementalType" : "fire",
 
   "level" : 6, "price" : 560, "rarity" : "Legendary",
   "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "stardust", "staris" ],
+  "itemTags" : [ "weapon", "melee", "shortsword", "sword", "staris", "stardust" ],
 
   "inventoryIcon" : "ct_sinigai.png",
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_sinigai.png" },
-  "animationCustom" : { },
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : [ "/sfx/melee/swing_shortsword.ogg" ],
+      "primary_press2" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
+    "name" : "Astro-Blink",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Heavy Slash. Each hit is more powerful with ^#ffa8e8;stardust^reset; in your inventory (+0.5%/speck, 120 (+60%) max).",
+    "longdescription" : "The blinking state briefly puts you into a wormhole, allowing you to shift to a close location almost immediately. A very dangerous piece of stardust-based tech.",
     "fireTime" : 0.625,
-    "baseDps" : 8
+    "baseDps" : 8,
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small1", "swooshOffset" : [-1.0, -0.25, 2.5, 2.0], "swooshSound" : "primary_press" },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.5, 2.5, 1.0], "swooshSound" : "primary_press2" },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh_small2", "swooshOffset" : [0, -0.25, 2.5, 1.0], "swooshSound" : "primary_press" }
+    ],
+    "damageConfig" : { "damageSourceKind" : "shortsword", "timeout" : 0.5 },
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup1" : { "duration" : 0.05, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "fire1" : { "duration" : 0.2, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+      "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "wait2" : { "duration" : 0.3, "armRotation" : -125, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup3" : { "duration" : 0.1, "armRotation" : -125, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire3" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -80, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "wait3" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup4" : { "duration" : 0.1, "armRotation" : -115, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire4" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -70, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "wait4" : { "duration" : 0.3, "armRotation" : -125, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+      "windup5" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "fire5" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true }
+    }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Stardust Katana" : { } } }, "alkey" : "Sinigai"
 }

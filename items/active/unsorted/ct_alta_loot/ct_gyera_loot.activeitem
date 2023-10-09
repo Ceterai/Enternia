@@ -2,11 +2,13 @@
   "itemName" : "ct_gyera_loot",
   "shortdescription" : "Gyera Loot Crate",
   "description" : "Contains random loot from ^#b0e0fc;alta^reset; park pods.",
+  "longdescription" : "Park management equipment, gardener tech, seeds and samples are the most common things to appear in this.",
+  "altaDescription" : "It smells of flowers and colorful crystals. Yes, some of them do smell, and it's beautiful.",
 
   "level" : 1, "price" : 80, "rarity" : "Common",
   "race" : "alta",
   "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
-  "itemTags" : [ "loot" ],
+  "itemTags" : [ "loot", "alta_garden", "gyera" ],
 
   "inventoryIcon" : "ct_gyera_loot.png",
   "animationParts" : { "gun" : "ct_gyera_loot.png" },
@@ -21,5 +23,6 @@
     "level" : 1
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Gyera Crate" : { } } }, "alkey" : "Gyera Pad"
 }

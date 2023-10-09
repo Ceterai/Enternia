@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "ctwood", "count" : 4 },
-    { "item" : "ct_stardust", "count" : 8 },
-    { "item" : "titaniumbar", "count" : 8 }
+    { "item" : "ct_alta_scout_drone", "count" : 1 },
+    { "item" : "ct_stardust", "count" : 4 }
   ],
-  "duration" : 0.5,
+  "duration" : 1.175,
   "output" : { "item" : "ct_alta_trans_drone", "count" : 1 },
   "groups" : [ "alta_max", "misc_loot", "spawner", "drone", "all" ]
 }

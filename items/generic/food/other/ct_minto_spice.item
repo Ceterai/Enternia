@@ -1,11 +1,15 @@
 {
   "itemName" : "ct_minto_spice",
   "shortdescription" : "Minto Spice",
-  "description" : "A mix of spices commonly used in calin cuisine, like the famous ^#b0e0fc;alta^reset; minto soup.",
+  "description" : "A mix of spices commonly used in calin cuisine, like the famous ^#b0e0fc;alta^reset; ^#b0e0fc;minto soup^reset;.",
+  "longdescription" : "This spice adds a refreshing aftertaste to the food, and tends to react slightly differently to different ingredients, giving variative results from dish to dish.",
+  "altaDescription" : "It doesn't smell like much, but you do feel it once it gets there, sometimes it might not even be that obvious. I know that there are special \"taste-clearing\" variations of this, called maito spice, or **maitorish**.",
   "inventoryIcon" : "ct_minto_spice.png",
 
-  "level" : 1, "rarity" : "Uncommon", "price" : 80,
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
-  "maxStack" : 1000
+  "level" : 3, "rarity" : "Uncommon", "price" : 20,
+  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "learnBlueprintsOnPickup" : [ "ct_minto_spice" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Minty Spice" : { }, "Maito Spice" : { }, "Maitorish" : { } } }, "alkey" : "Mintorish"
 }

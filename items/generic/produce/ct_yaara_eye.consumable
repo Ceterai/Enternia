@@ -3,6 +3,7 @@
   "shortdescription" : "^#20f080;Yaara Eye^reset;",
   "description" : "This juicy fruit-like sphere is actually part of a flower. Can be used for cooking, but is fermenting very quickly.",
   "longdescription" : "The texture is a bit similar to the pulp of a [lychee](https://en.wikipedia.org/wiki/Lychee) fruit.",
+  "altaDescription" : "These are delicious! Especially as yaarings, very good and exciting!",
 
   "level" : 1, "price" : 30, "rarity" : "Common",
 
@@ -11,7 +12,8 @@
   "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
 
   "inventoryIcon" : "ct_yaara_eye.png",
-  "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
+  "learnBlueprintsOnPickup" : [ "ct_yaarings" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "wiki" : { "aliases" : { "Yaara Lychee" : { } } }, "alkey" : "Yaavi"
 }

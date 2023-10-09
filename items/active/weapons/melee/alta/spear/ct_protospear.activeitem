@@ -1,12 +1,13 @@
 {
   "itemName" : "ct_protospear",
-  "shortdescription" : "Protospear ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA scouting tool used by ^#b0e0fc;altas^reset; for travel. It doesn't have a sharp side, because the purpose of this instrument is not combat-related.",
+  "shortdescription" : "Protospear",
+  "description" : "^red;WIP^reset;. A scouting tool used by ^#b0e0fc;altas^reset; for travel. It doesn't have a sharp side, because the purpose of this instrument is not combat-related.",
   "longdescription" : "Protospears are used to gather energy and covert it into kinetic force, allowing scouts to traverse the harshest terrain.",
-  "elementalType" : "physical",
+  "altaDescription" : "Oh wow, I love these! You can almost fly with them, with just a proper swing of an arm! ..Better be mindful of landing though. Preferably in advance.",
+  "elementalType" : "electric",
   "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "spear", "alta", "plasma" ],
+  "itemTags" : [ "weapon", "melee", "spear", "protogear", "plasma" ],
 
   "inventoryIcon" : "ct_protospear.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
@@ -88,7 +89,8 @@
   "aimOffset" : -1.0,
   "primaryAbility" : {
     "name" : "Protocharge",
-    "description" : "A sequence of 3 light strikes. Hold to launch yourself into the air.",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to launch yourself into the air.",
+    "longdescription" : "This set of strikes was taught to most altas by Protea herself. It combines speed and proper attacking directions, compensating for a lack of sharpness.",
     "fireTime" : 0.6, "baseDps" : 12,
     "scripts" : ["/items/active/weapons/other/asirai/asirai.lua"], "class" : "AsiraiAttack",
 
@@ -170,6 +172,7 @@
   "altAbility" : {
     "name" : "Energy Seeker", "power" : 4,
     "description" : "Rotates the spear rapidly and launches it forward on release.",
+    "longdescription" : "Unlike most special abilities, this technique doesn't just simply consume energy - it transforms it into the very charges used to launch it forward.",
     "scripts" : ["/items/active/weapons/other/asirai/asirai.lua"], "class" : "AsiraiSpin",
 
     "lightningChargeLevels" : [
@@ -199,11 +202,19 @@
   "upgradeParameters" : {
     "shortdescription" : "Protea's Spear ^#8020f0;^reset;",
     "description" : "This ^#ffa8e8;stardust^reset; relic belongs to Protea. Seems like it's yours now. Enjoy!",
+    "longdescription" : "And don't forget to say thank you, because this tool was very important to her.",
     "inventoryIcon" : "ct_protospear_2.png", "animationParts" : { "blade" : "ct_protospear_2.png" },
     "price" : 520, "rarity" : "Legendary", "elementalType" : "electric",
     "primaryAbility" : {
       "name" : "Protea's Gift",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nHold to launch yourself into the air."
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nHold to launch yourself into the air.",
+      "longdescription" : "With enhanced capabilities, the tool is able to concentrate enough energy to produce additional output, mainly in form of small, ionized clouds."
+    },
+    "altAbility" : {
+      "name" : "Stardust Seeker",
+      "description" : "Rotates the spear rapidly and launches it forward on release. Now 30% faster charge and flying speed.",
+      "longdescription" : "This is due to the enhancement allowing more stardust to go through and fill up with energy much quicker, but it also means higher energy costs in return for speed and power."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Scout's Spear" : { } } }, "alkey" : "Protoscis"
 }

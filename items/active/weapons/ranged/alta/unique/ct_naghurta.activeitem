@@ -1,0 +1,45 @@
+{
+  "itemName" : "ct_naghurta",
+  "shortdescription" : "Naghurta",
+  "description" : "A mysterious ionthrower, in the middle of nowhere, on ^#8020f0;enterash^reset;... Doesn't feel like we'll find its previous owner.",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 6, "price" : 480, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged" ],
+
+  "inventoryIcon" : "ct_naghurta.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "ct_naghurta.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/flamethrower_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    }
+  },
+  "baseOffset" : [0.75, 0],
+  "muzzleOffset" : [2.5, 0.4],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAbilityType" : "flamethrower",
+  "primaryAbility" : {
+    "baseDps" : 10,
+    "energyUsage" : 30
+  },
+
+  "altAbilityType" : "fuelairtrail",
+  "altAbility" : {},
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

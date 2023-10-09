@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_crystalline_sword",
-  "shortdescription" : "Crystalline Sword ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nThe blade of this sword is made out of crystalline cave crystals. A bit rough around the edges, but still quite powerful.",
+  "shortdescription" : "Crystalline Sword",
+  "description" : "The blade of this sword is made out of crystalline cave crystals. A bit rough around the edges, but still quite powerful.",
+  "longdescription" : "With no alta markings on it's ^#299fc5;bionix^reset; handle, its electro-crystallic conduction capabilities are very much Io-like.",
+  "altaDescription" : "Doesn't seem to be a registered alta product. Maybe it's a semi-fresh prototype of sorts. Judging by its looks, that seems highly probable.",
   "elementalType" : "physical",
 
   "level" : 5, "price" : 720, "rarity" : "Rare",
@@ -13,41 +15,80 @@
   "animation" : "/items/active/weapons/melee/alta/default.animation",
   "animationParts" : { "handle" : "", "blade" : "ct_crystalline_sword.png" },
   "animationCustom" : {
-    "sounds" : {
-      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
-      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
-      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
-    }
+    "animatedParts" : {
+      "stateTypes":{"parryShield":{"default":"inactive","states":{"inactive":{},"active":{},"block":{"frames":1,"cycle":0.2,"mode":"transition","transition":"active"}}}},
+      "parts" : {
+        "parryShield" : {
+          "properties" : { "zLevel" : -1, "centered" : true, "offset" : [-0.75, 1.75],
+            "transformationGroups" : ["weapon"], "rotationCenter" : [0, 0], "shieldPoly" : [ [-0.25, -2.5], [-0.25, 2.0], [1.0, 2.75], [1.0, -1.0] ]
+          },
+          "partStates" : {
+            "parryShield" : {
+              "inactive" : { "properties" : { "image" : "" } },
+              "active" : { "properties" : { "image" : "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:active" } },
+              "block" : { "properties" : { "image" : "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:block" } }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : { "guard" : [ "/sfx/melee/sword_guard.ogg" ], "parry" : [ "/sfx/melee/sword_parry.ogg" ] }
   },
 
   "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
   "primaryAbility" : {
-    "name" : "Crystalline Blade", "class" : "BladeCharge",
+    "name" : "Calline Blade", "class" : "Parry",
     "description" : "WIP. A sequence of 4 (+1) light strikes. Hold to perform a Hold Strike.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus ^#7733aa;electric^reset; damage.",
-    "fireTime" : 0.9,
-    "baseDps" : 12,
-    "damageConfig" : {
-      "statusEffects" : [ "ct_pulse_paralysis" ]
-    }
+    "longdescription" : "Each swing contributes to the charge, with the handle being isolated enough to not let it harm the wielder. Unfortunately, this blocks any protosystem-like infusions.",
+    "baseDps" : 12, "fireTime" : 0.9, "energyUsage" : 32,
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0] },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0] }
+    ],
+    "damageConfig" : { "statusEffects" : [ "ct_pulse_paralysis" ] }
   },
 
-  "altAbilityType" : "astraltear",
+  "altAbilityType" : "blinkslash",
+  "altAbility" : {
+    "name" : "Sinara's Leap",
+    "description" : "Hold to perform a Blink Slash.",
+    "longdescription" : "Not entirely know how exactly this is possible. Perhaps this is just momentary movement illusion."
+  },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Crystal Razor ^#8020f0;^reset;",
     "description" : "A combat tool created as an art piece by an unknown Faradea Legend.",
+    "longdescription" : "Perhaps this is what led to the creation of all of the prototypes. Seems like calline crystals might have some hidden extraordinary features...",
     "inventoryIcon" : "ct_crystalline_sword_2.png", "animationParts" : { "blade" : "ct_crystalline_sword_2.png" },
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/tools/energypickaxe_stop1.ogg" ] } },
     "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
-      "name" : "Razor Blade",
-      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash."
+      "name" : "Sinara's Blade",
+      "description" : "A sequence of 4 (+1) heavy strikes. Hold to perform a Super Spin Slash.",
+      "longdescription" : "This refined, almost razor-sharp blade spins in your hand, creating a light show with its reflective surface, signing off in a dance of destruction.",
+      "steps" : [
+        { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 20.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0], "swooshSound" : "lazer" },
+        { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 15.0, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0], "swooshSound" : "lazer" },
+        { "damageFactor" : 1.2, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0], "swooshSound" : "lazer" },
+        { "damageFactor" : 1.6, "energyFactor" : 0.0, "knockback" : 35.0, "swoosh" : "swoosh1", "swooshOffset" : [3.0, -0.5, 6.50, 2.0], "swooshSound" : "primary_hold" }
+      ],
+      "stances" : {
+        "wait3" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+        "windup4" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+        "preslash4" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+        "fire4" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+      }
     },
+    "altAbilityType" : "blinkexplosion",
     "altAbility" : {
-      "name" : "Super Spin",
-      "description" : "Hold to perform a Super Spin."
+      "name" : "Sinara's Blast",
+      "description" : "Hold to perform a Blink Explosion.",
+      "longdescription" : "This abrupt release of energy leads to an even more effective result."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Calline Chin" : { } } }, "alkey" : "Callinist"
 }

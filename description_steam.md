@@ -27,7 +27,7 @@ Other crafting tables include:[list]
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter]Alta Datacenter[/url] for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them if you don't have to visit the wiki);
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station]Alta Upgrade Station[/url] for upgrading some mod items in exchange for [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png [/img][url=https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard]Gheatsyn Shards[/url];
 [*][img] https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/deprecation_station/icon.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Deprecation-Station]Deprecation Station[/url] is a tiny crafting table that allows you to convert deprecated items/objects to new ones, or exchange Perfectly Generic Items for different presents.[/list]
-Also, check out a [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/codex/books/ct_alta_book.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Guide-to-My-Enternia]Mod Guide[/url] codex that you can buy at Treasured Trophies!
+Also, check out a [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/codex/alta/ebook/basic.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Guide-to-My-Enternia]Mod Guide[/url] codex that you can buy at Treasured Trophies!
 
 This mod [b]doesn't[/b] require any other mods to work and should be FU-compatible. It also [b]shouldn't conflict with any other mods[/b] due to specific id patterns.
 [h2]Supported Addons[/h2][list]
@@ -37,10 +37,10 @@ This mod [b]doesn't[/b] require any other mods to work and should be FU-compatib
 [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=730684624]True Space[/url] (planets added by this mod are able to spawn near True Space stars. [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alterash]Alterash[/url] can spawn as a mild/cool planet or satellite, [img] https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png [/img] [url=https://github.com/Ceterai/Enternia/wiki/Alterash-Prime]Alterash Prime[/url] as a cool/cold planet or satellite).[/list]
 [h2]Mod Content Rundown[/h2]
 (Scroll down for information for modders)
-[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tooltip1.png[/img]
-[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tooltip2.png[/img]
-[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tooltip3.png[/img]
-[img]https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tooltip4.png[/img]
+[img]https://raw.githubusercontent.com/Ceterai/Enternia/main/images/tooltip1.png[/img]
+[img]https://raw.githubusercontent.com/Ceterai/Enternia/main/images/tooltip2.png[/img]
+[img]https://raw.githubusercontent.com/Ceterai/Enternia/main/images/tooltip3.png[/img]
+[img]https://raw.githubusercontent.com/Ceterai/Enternia/main/images/tooltip4.png[/img]
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [url=https://github.com/Ceterai/Enternia/wiki/Weapons]My Enternia Wiki: Weapons[/url]
 [h2]Information for modders[/h2][list]
 [*]As said before, the mod shouldn't conflict with anything because all ids in it start with a 'ct_' prefix;

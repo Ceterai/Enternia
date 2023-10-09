@@ -1,10 +1,15 @@
 {
   "itemName" : "ct_gharus_spice",
-  "level" : 1, "rarity" : "Uncommon", "price" : 80,
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
-  "inventoryIcon" : "ct_gharus_spice.png",
-  "description" : "A pristine mix of various herbs and spices from different ^#b0e0fc;alta^reset; cuisines.",
   "shortdescription" : "Gharus Spice",
-  "maxStack" : 1000
+  "description" : "A pristine mix of various herbs and spices from different ^#b0e0fc;alta cuisines^reset;.",
+  "longdescription" : "It adds a herb-like touch to the dish, with a light spice to add slight accent to it as well. These factors work together to really enhance the original flavor, but not overshadow it.",
+  "altaDescription" : "This smell is amazing! I want to try this with every dish I can find. It's too bad it doesn't taste the well on its own, but then again - that's cooking for you, I guess.",
+  "inventoryIcon" : "ct_gharus_spice.png",
+
+  "level" : 3, "rarity" : "Uncommon", "price" : 20,
+  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Herb Spice" : { } } }, "alkey" : "Gharush"
 }

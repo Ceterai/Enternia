@@ -1,31 +1,21 @@
 {
   "name" : "ct_crystal",
 
-  "shortdescription" : "Small Alternia Crystal",
+  "shortdescription" : "Stray Crystal",
   "description" : "A small deposit of saturated crystals.",
-  "altaDescription" : "These tiny crystals were saturated with alternia.",
+  "longdescription" : "Due to its size and unstable structure, it has little use besides decor. This can occur due to an overly fast growth in natural crystallic environments without proper control.",
+  "altaDescription" : "These tiny crystals were saturated with the energy around them.",
 
   "floranDescription" : "Ssshiny crystals.",
   "glitchDescription" : "Statement. Crystals.",
   "inventoryIcon" : "3.png",
   "shapes" : [
-    {
-      "base" : "1.png"
-    },
-    {
-      "base" : "2.png"
-    },
-    {
-      "base" : "3.png"
-    },
-    {
-      "base" : "4.png"
-    },
-    {
-      "base" : "5.png"
-    },
-    {
-      "base" : "6.png"
-    }
-  ]
+    { "base" : "1.png" },
+    { "base" : "2.png" },
+    { "base" : "3.png" },
+    { "base" : "4.png" },
+    { "base" : "5.png" },
+    { "base" : "6.png" }
+  ],
+  "wiki" : { "aliases" : { "Small Alternia Crystal" : { }, "Small Saturated Crystal" : { } } }
 }

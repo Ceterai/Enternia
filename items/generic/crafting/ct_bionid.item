@@ -1,8 +1,9 @@
 {
   "itemName" : "ct_bionid",
-  "shortdescription" : "Bionid Ore",
+  "shortdescription" : "Bionid",
   "description" : "These biocrystals are a complex combination of cells and crystal molecules called ^#299fc5;bionid^reset;. Can be refined into different ^#299fc5;bion compounds^reset;.",
-  "longdescription" : "This organic material is a natural ^#299fc5;bionic^reset;, and its bioluminescent glow comes from its ability to effectively turn energy into light-producing chemical reactions.  \nEven if not really crystallic, alta commonly call its more structured variations an organic crystal, or **biotsyn**. These variations are often found in ^#c1ebf8;tonnovas^reset;, as opposed to a more \"pure\" variant that can be found in ^#299fc5;bulbonid^reset; stems.",
+  "longdescription" : "This organic material is often obtained from biocrystal growth, like tonnovas, bulbonid stems, and rarely in form of simple deposits. It's natural luminescent abilities make it easy to detect, but it's complex bion connectios require special tools break apart. For this reason, materials made from bion compounds are very sturdy and agile, making it perfect for producing things like bulletproof cloth.\n\nBionid is a natural ^#299fc5;bionic^reset;, and its bioluminescent glow comes from its ability to effectively turn energy into light-producing chemical reactions.  \nEven if not really crystallic, alta commonly call its more structured variations an organic crystal, or **biotsyn**. These variations are often found in ^#c1ebf8;tonnovas^reset;, as opposed to a more \"pure\" variant that can be found in ^#299fc5;bulbonid^reset; stems.\n\nMost natural bionid objects, like tonnova trees or bulbonid, drop bionid when destroyed.",
+  "altaDescription" : "It's so pretty!! That hypnotizing glow, those soft colors are amazing! I can't stop looking at it... although nothing can compare to the magical glow of staris «",
   "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
 
   "level" : 4, "price" : 20, "rarity" : "Uncommon",
@@ -12,5 +13,25 @@
 
   "inventoryIcon" : "ct_bionid.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Bionid",
+  "wiki" : {
+    "aliases" : { "Biotsyn" : { }, "Calonid" : { } },
+    "md" : {
+      "#### Bionics" : "Bion is the primary material that makes up majority of any bion connections and variations, the most common of which is the naturally occuring bionid. Refining it into pure bion and further reinforcing it into a compound makes it a perfect armoring material. Pure bion is not as luminescent, but is very bendable and adaptable.  \nPopular bion compounds and variations include materials like **bionium**, **dianid** or **bionix**.  \nRead more about bionics here: ^#299fc5;Bionics^reset;",
+      "#### Bulbonid" : "^#299fc5;Bulbonid^reset; is a very tall bionid growth covered in luminescent bulbs. occures naturally in undergrounds with ionized atmosphere and rich crystal deposits."
+    },
+    "related" : {
+      "### [[ Biomes ]]" : [ "Tonnova Grove" ],
+      "### [[ Monsters ]]" : [ "Bionfly", "Bionid Pteropod" ],
+      "### [[ Objects ]]" : {
+        "#### Natural" : [ "Bulbonid" ]
+      },
+      "### [[ Items ]]" : {
+        "#### [[ Weapons ]]" : [ "Soniathrower", ["Sonia's Breath ★"] ],
+        "#### [[ Materials|Generic Items#crafting-materials ]]" : [ "Bionid", "Bion Compound" ],
+        "#### [[ Codexes ]]" : [ "Bionics" ],
+        "#### [[ Loot Items ]]" : [ "Bionid Loot Crate" ]
+      }
+    }
+  }
 }

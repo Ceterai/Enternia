@@ -1,12 +1,15 @@
 {
   "itemName" : "ctayapowder",
   "shortdescription" : "Aya Powder",
-  "description" : "Some finely grinded dehydrated ayas.",
+  "description" : "Some finely grinded dehydrated ^#3587ff;ayas^reset;.",
+  "longdescription" : "Often used either in cooking, or in energy filters, depending on the type of grind and different mixes or aya variations, it also makes for a good edible dye. Read more about this: ^#3587ff;Ayaka Gardener's Notes^reset;",
+  "altaDescription" : "Eating raw aya powder isn't very healthy, because it doesn't have any moisture in it. So, to counter that, you can roll it up in some ^#b0e0fc;izo jam^reset; into a small tasty ball of goodness. My friend calls them **maris**. And yeah, you can thank me later.",
   "inventoryIcon" : "ctayapowder.png",
 
-  "price" : 10,
-  "rarity" : "Common",
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
-  "maxStack" : 1000
+  "level" : 2, "rarity" : "Common", "price" : 10,
+  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "learnBlueprintsOnPickup" : [ "ctayapowder", "ctayaboiled" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Mari" : { } } }, "alkey" : "Ayaris"
 }

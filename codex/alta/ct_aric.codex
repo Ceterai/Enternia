@@ -21,7 +21,7 @@ As an example, small ^#3baf2f;agaranics^reset; are mostly edible, while most ^#3
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "aric" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

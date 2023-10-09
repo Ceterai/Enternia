@@ -2,11 +2,13 @@
   "itemName" : "ct_kinetic_shield",
   "shortdescription" : "Kinetic Shield",
   "description" : "This directional energy shield multiplies the impact and returns it to your enemies, launching them into the air.",
+  "longdescription" : "It's powered by and projected from a special tiny wrist device that connects to your armor.",
+  "altaDescription" : "I like this spin on energy fields. Useful and effective, but I wonder if I can make it change colors...",
   "elementalType" : "electric",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3", "itemTags" : [ "shield", "alta", "energy", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3", "itemTags" : [ "shield", "energy", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
 
   "inventoryIcon" : "ct_kinetic_shield.png",
@@ -78,7 +80,8 @@
     "animationParts" : { "shield" : "images/ct_kinetic_shield.png" },
     "shortdescription" : "Energy Blockade ^#8020f0;^reset;",
     "description" : "A shield made of pure energy has been enhanced with ^#ffa8e8;stardust^reset;. How much energy is too much energy?",
+    "longdescription" : "Its projecting device is now a sunject to overcharges, but thankfully, due to the proper use of ^#b0e0fc;overlocks^reset;, this energy gets dispersed and adds onto the shield's power level.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/magnorbs_fire7.ogg" ] } }
-  }
+  }, "alkey" : "Vinea Taum"
 }

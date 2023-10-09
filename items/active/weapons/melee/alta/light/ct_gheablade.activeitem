@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_gheablade",
-  "shortdescription" : "Gheablade ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nThe blade of this axe is made from layered ^#a7e001;gheatsyn^reset;. There are electronic compensators on the handle by the same crystals.",
+  "shortdescription" : "Gheablade",
+  "description" : "^red;WIP^reset;. The blade of this axe is made from layered ^#a7e001;gheatsyn^reset;. There are electronic compensators on the handle made from the same crystals.",
+  "longdescription" : "These compensators, or gheafluxers, are meant to engage the energy from cimilar crystals nearby, creating a barely visible resonation, that ultimately accelerates ^#a7e001;tsyntex^reset;.",
+  "altaDescription" : "Seems very handy. Not sure what exact geological purposes this was made for, but is pretty powerful anyway, so I'm not complaining.",
   "elementalType" : "physical",
 
   "level" : 5, "price" : 480, "rarity" : "Rare",
@@ -9,7 +11,7 @@
   "itemTags" : [ "weapon", "melee", "axe", "gheatsyn", "ghearun" ],
 
   "inventoryIcon" : "ct_gheablade.png",
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "blade" : "ct_gheablade.png", "handle" : "" },
   "animationCustom" : {
     "sounds" : {
@@ -23,12 +25,14 @@
 
   "primaryAbilityType" : "axecleave",
   "primaryAbility" : {
-    "fireTime" : 0.9,
+    "name" : "Gheaflux",
+    "description" : "^red;WIP^reset;. A sequence of 3 light strikes. Hold to perform a Heavy Slash.\nEnters a charged state every 10 seconds, making next 4 hits deal bonus ^#7733aa;electric^reset; damage.",
+    "longdescription" : "Each piece of gheatsyn in proximity starts to slowly resonate with the blade of the tool...",
+    "fireTime" : 0.9,  // stronger with gheatsyn shards (+0.5% for every shard, max 120 shards)
     "baseDps" : 6,
-    "damageConfig" : {
-      "knockback" : 25
-    }
+    "damageConfig" : { "knockback" : 25, "itemBonus" : { "type" : "ct_gheatsyn_shard", "damageFactor" : 0.005, "max" : 120 } }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Gheaxe" : { } } }, "alkey" : "Gheafals"
 }

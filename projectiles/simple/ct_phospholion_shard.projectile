@@ -1,0 +1,23 @@
+{
+  "projectileName" : "ct_phospholion_shard",
+  "shortdescription" : "Phospholion Shard",
+  "description" : "A small piece of ^#ceffd7;phospholion ore^reset; flying through the air. Where will it land?..",
+  "speed" : 20,
+  "bounces" : 1,
+  "physics" : "grenade",
+  "image" : "/items/generic/crafting/ct_phospholion.png",
+  "damageKindImage" : "/items/generic/crafting/ct_phospholion.png",
+  "animationCycle" : 0.5,
+  "power" : 0,
+  "frameNumber" : 1,
+  "damageKind" : "hidden",
+  "actionOnReap" : [
+    {
+      "action" : "item",
+      "name" : "ct_phospholion"
+    }
+  ],
+
+  "emitters" : [ "lighttrailfast" ]
+
+}

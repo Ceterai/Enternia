@@ -21,7 +21,7 @@ def get_paths_flat(roots: list[str] = ['']) -> list[str]:
 def get_obj(file_path) -> dict[str, str]:
     with open(file_path, encoding="utf-8") as fp:
         lines = ''.join(fp.readlines())
-        lines = str(re.sub(r'(\/\/.*)\n', r'\n', lines))
+        lines = str(re.sub(r'((?<!:)\/\/.*)\n', r'\n', lines))
         lines = lines.replace('\n', ' ')
         return pyjson5.loads(lines)
 

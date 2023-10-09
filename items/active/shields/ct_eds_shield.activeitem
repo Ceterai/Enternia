@@ -2,10 +2,12 @@
   "itemName" : "ct_eds_shield",
   "shortdescription" : "^#f02020;EDS^reset; Shield",
   "description" : "A hand-held bastion that will protect you against all unknown threats awaiting in the dark.",
+  "longdescription" : "It's sliding plates allow it to stay relatively combat when unused, while expanding in area when necessary.",
+  "altaDescription" : "A very sturdy shield, it's a shame it only protects your front. Although, I guess you could put another one on your back...",
 
   "level" : 5, "rarity" : "Rare", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "alta", "eds", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "eds", "upgradeableWeapon" ],
   "twoHanded" : false, "maxStack" : 1,
   "race" : "alta",
 
@@ -74,7 +76,8 @@
     "animationParts" : { "shield" : "images/ct_eds_shield.png" },
     "shortdescription" : "^#f02020;EDS^reset; Protector ^#8020f0;^reset;",
     "description" : "Armor of this shield has beed encrusted with ^#ffa8e8;stardust^reset;. With more power come more powerful effects!",
+    "longdescription" : "The basic energy has been increased, which also allowed for new, heavier systems to be installed. This is common practice with stardust-enhanced and enternia-enhanced EDS tech.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } }
-  }
+  }, "alkey" : "EDS Taum"
 }

@@ -1,0 +1,85 @@
+{
+  "itemName" : "ct_waterblaster",
+  "shortdescription" : "Waterblaster",
+  "description" : "Shoots happy water sprinkles. Hold LMB to charge a water balloon!",
+  "elementalType" : "water",
+
+  "level" : 3, "price" : 480, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "toy",
+  "itemTags" : [ "toy" ],
+
+  "inventoryIcon" : "ct_waterblaster.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_waterblaster.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ "/sfx/gun/pumpgun_blast1.ogg" ],
+    "primary_hold" : [ "/sfx/gun/pumpgun_fullblast1.ogg" ],
+    "primary_start" : [ "/sfx/gun/pumpgun_draw2.ogg" ],
+    "primary_loop" : [ ],
+    "primary_end" : [ ]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [26, 221, 227]
+      }
+    }
+  },
+  "baseOffset" : [0.75, 0.375],
+  "muzzleOffset" : [1.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Waterblast",
+    "description" : "Press to squirt some water or hold to launch a water ball!",
+
+    "baseDps" : 0, "energyUsage" : 16, "fireTime" : 0.10,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "squirt",
+      "inaccuracy" : 0.04,
+      "count" : 3
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "waterballoon",
+      "inaccuracy" : 0.01
+    },
+    "holdTimeMax" : 0.55,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "winddown" : {
+        "duration" : 0.11,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Voda Gast" : { } } }, "alkey" : "Voda Gast"
+}

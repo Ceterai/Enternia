@@ -3,6 +3,9 @@
     { "item" : "geode", "count" : 12 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "crystallinebush2", "count" : 4 },
+  "output" : { "item" : "crystallinebush2", "count" : 4, "parameters" : {
+    "shortdescription" : "Crystalline Deposit",
+    "inventoryIcon" : "/objects/biome/crystalline/crystallinebush2/crystallinebush2.png"
+  } },
   "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "crystal", "crystalline", "all" ]
 }

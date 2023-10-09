@@ -11,12 +11,12 @@
   "itemTags" : ["weapon","ranged","machinepistol","upgradeableWeapon"],
   "level" : 5,
 
-  "inventoryIcon" : "/items/active/weapons/ranged/ct_alta_wrist/ct_eds_mng.png",
+  "inventoryIcon" : "/items/active/weapons/ranged/alta/wrist/ct_eds_mng.png",
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "/items/active/weapons/ranged/ct_alta_wrist/ct_eds_mng.png",
+    "middle" : "/items/active/weapons/ranged/alta/wrist/ct_eds_mng.png",
     "barrel" : "",
     "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
   },
@@ -29,7 +29,7 @@
   "baseOffset" : [0.0, 0.0],
   "muzzleOffset" : [0.7, 0.1],
 
-  "scripts" : ["/items/active/weapons/ranged/ct_alta_ranged.lua"], "isWrist" : true,
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"], "isWrist" : true,
 
   "elementalType" : "physical",
 
@@ -70,7 +70,7 @@
         "allowRotate" : true,
         "allowFlip" : true
       },
-      "cooldown" : {
+      "winddown" : {
         "duration" : 0.06,
         "armRotation" : 3,
         "weaponRotation" : 3,
@@ -85,9 +85,9 @@
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "/items/active/weapons/ranged/ct_alta_wrist/ct_eds_mng_2.png",
+    "inventoryIcon" : "/items/active/weapons/ranged/alta/wrist/ct_eds_mng_2.png",
     "animationParts" : {
-      "middle" : "/items/active/weapons/ranged/ct_alta_wrist/ct_eds_mng_2.png"
+      "middle" : "/items/active/weapons/ranged/alta/wrist/ct_eds_mng_2.png"
     },
     "muzzleOffset" : [0.7, 0.0],
     "primaryAbility" : {

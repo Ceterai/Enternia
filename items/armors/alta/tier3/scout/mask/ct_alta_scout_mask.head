@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_scout_mask",
   "shortdescription" : "Protomask",
-  "description" : "Regular protective wear of ^#b0e0fc;alta^reset; scouts on Alterash.",
+  "description" : "Regular protective wear of ^#b0e0fc;alta^reset; scouts on ^#20f080;alterash^reset; planets.",
+  "longdescription" : "This mask enhances the wearer's energy by connecting to the body suit's protogear system. The recepticles on the back are meant to gather that energy from the ionized air around.",
+  "altaDescription" : "Very stylish. But also, those pretty tails are quite important to the whole proto system.",
 
   "price" : 1000, "rarity" : "Uncommon",
   "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 3, "itemTags" : [ "tier3armour", "upgradeableWeapon" ],
+  "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -73,6 +75,7 @@
     "inventoryIcon" : "icon.png", "maleFrames" : "head.png", "femaleFrames" : "head.png", "mask" : "mask.png",
     "shortdescription" : "Protea's Mask ^#8020f0;^reset;",
     "description" : "\nA mask worn by Protea - a staris ^#b0e0fc;alta^reset; scout known for her vigilance and agility. Hairs on the back are made of ^#ffa8e8;stardust^reset;.",
+    "longdescription" : "This brings the gathered energy levels to a maximum, powering the whole protosystem almost instantly.",
     "price" : 1060, "rarity" : "Legendary",
     "statusEffects" : [ "ct_omniblue_vision", "ct_autoanalyzer" ],
     "leveledStatusEffects" : [
@@ -97,5 +100,6 @@
         "amount" : 1.5
       }
     ]
-  }
+  },
+  "wiki" : { "aliases" : { } }, "alkey" : "Protonit"
 }

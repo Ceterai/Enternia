@@ -1,6 +1,6 @@
 {
   "name" : "ct_isoslime_plasts",
-  "friendlyName" : "Isoslime Plasts",
+  "friendlyName" : "Isoplast",
   "description" : "These ^#7ddcde;isoslime^reset; caves are drowning in slime. Slime is everythere here - slimy walls, slimy floor, slime drops from the ceiling, moves towards you and even tries to harm you.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_isoslime_loot.png",
   "mainBlock" : "moonrock",
@@ -62,5 +62,6 @@
         "objectSets" : [ { "pool" : [ [0.45, "ct_isoslime1" ], [0.30, "ct_isoslime2" ], [0.225, "ct_isoslime3" ], [0.025, "ct_isoslime_blob" ] ], "parameters" : { } } ]
       }
     ]
-  }
+  },
+  "wiki" : { "aliases" : { "Isoslime Plasts" : { } } }, "alkey" : "Izopolin"
 }

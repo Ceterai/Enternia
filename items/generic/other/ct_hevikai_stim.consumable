@@ -3,18 +3,14 @@
   "shortdescription" : "Hevikai Stim Pack",
   "description" : "Develops ^#0050c0;Hevikai^reset; inside of you. Why would you do that? Who knows. Make sure to have a complimenting ^#0050c0;Hevikai Antidote^reset; with you.",
   "longdescription" : "Because of the energy-draining void atmosphere on ^#f02080;enterash prime^reset; planets, these enhancers have found a good use protecting ^#b0e0fc;altas^reset; while there.",
+  "altaDescription" : "I can't believe someone would take this on purpose. But, thanks to it, we're able to travel to enterash prime... I guess it's true that there's medicine in every poison.",
   "level" : 6, "rarity" : "Legendary", "price" : 200, "race" : "alta",
-  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "itemTags" : [ "enhancer", "hevikai" ], "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
   "inventoryIcon" : "ct_hevikai_stim.png",
 
-  "effects" : [ [
-      {
-        "effect" : "ct_hevikai",
-        "duration" : 600
-      }
-    ] ],
+  "effects" : [ [ { "effect" : "ct_hevikai", "duration" : 600 } ] ],
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Hevikai Helis"
 }

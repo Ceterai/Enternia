@@ -1,10 +1,15 @@
 {
   "itemName" : "ct_ionice_cube",
-  "level" : 1, "rarity" : "Common", "price" : 10,
-  "category" : "cookingIngredient",
-  "eventCategory" : "eventCrop",
-  "inventoryIcon" : "ct_ionice_cube.png",
-  "description" : "A cube of ionized water found on alterash planets.",
   "shortdescription" : "Ionice Cube",
-  "maxStack" : 1000
+  "description" : "A cube of ionized water found on ^#20f080;alterash^reset; planets.",
+  "longdescription" : "Saturated with energy, this water feels a bit fizzy, giving it a slight, pleasantly-bitter taste.",
+  "altaDescription" : "They can add fizzy freshness to almost any drink. And even some dishes. Come to think of it, the only think I'm missing is an ionfire cube, to counter that.",
+  "inventoryIcon" : "ct_ionice_cube.png",
+
+  "level" : 2, "rarity" : "Common", "price" : 10,
+  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "learnBlueprintsOnPickup" : [ "ct_ionice_cube" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Ionice" : { }, "Enlid Yon" : { } } }, "alkey" : "Enlid'on"
 }

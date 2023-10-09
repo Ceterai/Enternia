@@ -6,8 +6,9 @@
   "race" : "generic",
   "printable" : false,
 
-  "shortdescription" : "Ayaka Tree",
-  "description" : "A regular ^#3587ff;ayaka^reset; tree, as you will find it in most alterash gardens and forests. It's stem cosists of soft yet very useful ^#3587ff;ayaka wood^reset;.",
+  "shortdescription" : "Ayaka",
+  "description" : "A regular ^gray;ayaka tree^reset;, as you will find it in most alterash gardens and forests. It's stem cosists of soft yet very useful ^#3587ff;ayaka wood^reset;.",
+  "longdescription" : "In general, ayaka is a family of growth, commonly found in form of ^#ffffff;trees^reset;.\n\nMore information on ayakas, their nature and how they're maintained, can be found here: ^#3587ff;Ayaka Gardener's Notes^reset;",
   "altaDescription" : "This chamber contains a sapling of ayaka.",
 
   "apexDescription" : "I can plant this to grow a tree.",
@@ -20,7 +21,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/icon.png",
+  "inventoryIcon" : "/objects/biome/alterash/ayaka/ct_aya_pile/icon.png",
   "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves",
   "orientations" : [
     {
@@ -39,5 +40,25 @@
     { "tree" : true }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "wiki" : {
+    "aliases" : { "Ayaka Tree" : { "icon" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/icon.png" } },
+    "related" : {
+      "### [[ Biomes ]]" : {
+        "#### Main Biome" : [ "Ayaka Forest" ],
+        "#### Additional Biomes" : [ "Alterash Gardens", "Alterash Prime Gardens", "Starforest", "Antorash Plains", "Enchanted Meadows", "Iora Gyera Park", "Poptop Valley" ]
+      },
+      "### [[ Objects ]]" : {
+        "#### Natural" : [ "Fallen Aya", "Aya Pile", "Ayaka Sap Blob", "Ayaka Sap Pile", "Overgrown Ayaka Sap Blob", "Dripping Ayaka Sap Blob", "Hanging Ayaka Sap Blob" ]
+      },
+      "### [[ Items ]]" : [ "Aya", "Aya Powder", "Ayaka Wood", "Ayaka Sap", "Aya Virma", "Ayaka Loot Crate", "Ayaka Gardener's Notes" ],
+      "### [[ Plants ]]" : {
+        "#### [[ Trees|Plants#trees ]]" : [ "Ayaka Tree", "Garden Ayaka", "Blossoming Ayaka", "Crystal Ayaka", "Ayaka Prime", "Ayaka Giant", "Elin Ayaka", "Stardust Ayaka", "Great Ayaka Prime" ],
+        "#### [[ Bushes|Plants#bushes ]]" : [ "Alterash Garden Bush", "Valley Bush" ],
+        "#### [[ Roots|Plants#stems ]]" : [ "Aya Sprouts", "Ayaka Roots" ],
+        "#### [[ Foliages|Plants#foliages ]]" : [ "Ripe Ayaka Leaves", "Ayaka Leaves", "Blossoming Ayaka Leaves" ],
+        "#### [[ Stems|Plants#stems ]]" : [ "Short Ayaka Stem", "Crystal Ayaka Stem", "Garden Ayaka Stem", "Ayaka Prime Stem", "Ayaka Giant Stem", "Ayaka Stem" ]
+      }
+    }
+  }, "alkey" : "Ayaka"
 }

@@ -1,7 +1,9 @@
 {
-  "projectileName" : "ct_warped_hive",
+  "projectileName" : "ct_warped_bomb",
   "image" : "ct_warped_hive.png",
   "damageKindImage" : "/items/throwables/ct_warped_hive.png",
+  "shortdescription" : "Warped Bomb",
+  "description" : "A flying ^#9b2d3f;warped hive^reset; that's about to erupt and start gradually releasing its population onto unlucky passerby.",
   "physics" : "grenade",
   "animationCycle" : 0.35,
   "frameNumber" : 4,

@@ -1,12 +1,14 @@
 {
   "itemName" : "ct_bishyn_loot",
   "shortdescription" : "Bishyn Loot Crate",
-  "description" : "Contains random loot from ^#378754;bishyn^reset; biome chests.",
+  "description" : "Contains random loot from ^#378754;bishyn chests^reset;.",
+  "longdescription" : "Lots of shiny green crystals are waiting on the inside, crammed together. Be careful not to cut yourself!",
+  "altaDescription" : "I'm relieved knowing that only refined crystals find their way in these. Or at least that should be the case, not sure if that's actually 100% true, so better be careful.",
 
   "level" : 4, "price" : 80, "rarity" : "Uncommon",
   "race" : "alta",
   "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
-  "itemTags" : [ "loot" ],
+  "itemTags" : [ "loot", "crystal", "bishyn" ],
 
   "inventoryIcon" : "ct_bishyn_loot.png",
   "animationParts" : { "gun" : "ct_bishyn_loot.png" },
@@ -21,5 +23,6 @@
     "level" : 1
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Bishyn Crate" : { } } }, "alkey" : "Bishyn Pad"
 }

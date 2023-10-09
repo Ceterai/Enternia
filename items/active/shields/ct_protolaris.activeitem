@@ -2,11 +2,13 @@
   "itemName" : "ct_protolaris",
   "shortdescription" : "Ikai Protolaris ^#8020f0;^reset;",
   "description" : "Some shields are at their core all sacred tools to fathom energy and space, and some are tools of pure protection. This one is both.",
+  "longdescription" : "It runs on the power of rare crystals that can only usually be found floating through space among stardust, and that contain a lot of concentrated ceternia-void energy.",
+  "altaDescription" : "The inner workings of this tool are beyond my understanding, but it can definitely be used as a shield.",
   "elementalType" : "electric",
 
   "level" : 6, "rarity" : "Legendary", "price" : 520,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "alta", "crystal" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "crystal", "staris", "stardust" ],
   "twoHanded" : false, "maxStack" : 1,
   "race" : "alta",
 
@@ -74,5 +76,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Ikai Protolaris"
 }

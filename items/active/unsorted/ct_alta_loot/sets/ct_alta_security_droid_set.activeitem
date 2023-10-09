@@ -10,7 +10,7 @@
   "level" : 4, "price" : 3400, "rarity" : "Uncommon",
   "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
-  "itemTags" : [ "set" ],
+  "itemTags" : [ "set", "alta_city", "alta_security", "alta_robotics", "android" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
   "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],

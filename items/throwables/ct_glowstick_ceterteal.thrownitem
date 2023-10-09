@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_glowstick_ceterteal",
   "level" : 3, "rarity" : "Uncommon", "price" : 5, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "reagent", "light", "impulse" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_glowstick_ceterteal.png",
   "image" : "ct_glowstick_ceterteal.png",
   "shortdescription" : "Ceterteal Glowstick",
   "description" : "Creates a ceterteal bioluminescent glow when thrown. Is made from rare crystallic materials.",
+  "longdescription" : "While not quite an advanced piece of technology, altas have a variety of uses for it outside of temporary illumination.",
+  "altaDescription" : "These are perfect for parties! I keep a couple of different colors just in case my friends invite me somewhere.",
 
   "ammoUsage" : 1,
 
@@ -13,7 +15,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "ct_glowstick_ceterteal",
+  "projectileType" : "ct_glowstick_ceterteal_blast",
   "projectileConfig" : {
     "periodicActions" : [
       {
@@ -29,5 +31,6 @@
     "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Ceterteal" : { }, "Ceko" : { } } }, "alkey" : "Ceko Vial"
 }

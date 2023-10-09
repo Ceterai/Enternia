@@ -1,0 +1,56 @@
+{
+  "itemName" : "ct_oni_nerus",
+  "shortdescription" : "Oni-Nerus ^#8020f0;^reset;",
+  "description" : "Legacy of the night under ^#6f6c66;Astera^reset;, this wrist-blaster is loaded with a special Lunar Chakram, quietly crackling with destructive energy.",
+  "elementalType" : "ice",
+  "race" : "alta",
+  "level" : 6, "price" : 520, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
+  "twoHanded" : false, "category" : "chakram",
+  "itemTags" : [ "weapon", "ranged", "wrist", "chakram", "astera" ],
+
+  "inventoryIcon" : "ct_oni_nerus.png",
+  "scripts" : [ "/items/active/weapons/ranged/alta/abils/chakram/chakram.lua" ],
+  "animation" : "/items/active/weapons/ranged/alta/abils/chakram/chakram.animation",
+  "animationParts" : { "glove" : "ct_oni_nerus.png", "chakram" : "/projectiles/charge/other/chakram/ct_lunar_chakram.png:0" },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "chakram" : { "properties" : { "offset" : [1.375, 0.0] }}}},
+    "sounds" : { "throw" : [ "/sfx/melee/swing_dagger.ogg" ] }
+  },
+  "fireOffset" : [1.25, 0.5],
+
+  "primaryAbility" : {
+    "name" : "Lunar Guardian",
+    "description" : "An ability that launches a controllable chakram using integrated mechanisms.",
+
+    "baseDps" : 5, "energyUsage" : 20, "fireTime" : 0.6,
+    "type" : "ct_lunar_chakram",
+    "params" : { "damageRepeatTimeout" : 0.2, "returnOnHit" : false, "pickupDistance" : 1.0, "hoverMaxDistance" : 15, "hoverTime" : 0.8 }
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "animationState" : { "weapon" : "visible" },
+      "allowRotate" : true, "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1, "transition" : "throw", "transitionFunction" : "fire", "armRotation" : 5,
+      "animationState" : { "weapon" : "visible" },
+      "allowRotate" : false, "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : { "weapon" : "hidden" },
+      "allowRotate" : true, "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2, "transition" : "idle", "armRotation" : 10,
+      "animationState" : { "weapon" : "visible" },
+      "allowRotate" : false, "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

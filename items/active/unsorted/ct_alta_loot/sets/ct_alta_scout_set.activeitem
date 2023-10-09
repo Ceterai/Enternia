@@ -2,6 +2,8 @@
   "itemName" : "ct_alta_scout_set",
   "shortdescription" : "Scout Set",
   "description" : "Contains full equipment set of an ^#b0e0fc;alta^reset; scout, including a lore codex of this set.\nIs cheaper to craft this way than separately.",
+  "longdescription" : "Proper enhancement set to greatly improve one's mobility, while providing some protection and boosting energy to account for different scouting actions, like moving, scanning and using proto-tech.",
+  "altaDescription" : "Scava's clothes! I can wear them, to feel like I'm a real scava!! With a protospear!!!",
 
   "inventoryIcon" : "ct_alta_scout_set.png",
   "treasure" : { "pool" : "ct_alta_scout_set", "level" : 1 },
@@ -10,7 +12,7 @@
   "level" : 3, "price" : 3200, "rarity" : "Uncommon",
   "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
-  "itemTags" : [ "set" ],
+  "itemTags" : [ "set", "alta_scout" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
   "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
@@ -18,5 +20,6 @@
   "fireTime" : 1.0,
   "fireOffset" : [0.5, 0.0],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Alta Scout" : { }, "Scout" : { }, "Scava" : { } } }, "alkey" : "Scava Veus"
 }

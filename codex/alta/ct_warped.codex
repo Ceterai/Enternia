@@ -30,7 +30,7 @@ This can be done via specialized alta devices, or with cryogenic materials like 
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "itemTags" : [ "data_source", "datamass", "warped" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

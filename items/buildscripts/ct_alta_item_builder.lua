@@ -27,8 +27,12 @@ function build(directory, config, parameters, level, seed)
   for i, abil_type in ipairs({"primary", "alt"}) do
     setupAbility(config, parameters, abil_type)
     local a = abil_type .. "Ability"
-    if config[a] and config[a].elementalConfig then util.mergeTable(config[a], config[a].elementalConfig[elementalType]) end
+    if config[a] and config[a].elementalConfig then util.mergeTable(config[a] or {}, config[a].elementalConfig[elementalType] or {}) end
   end
+  config.itemTags = config.itemTags or {}
+  if configParameter("race") then table.insert(config.itemTags, configParameter("race")) end
+  table.insert(config.itemTags, configParameter("rarity"))
+  if elementalType then table.insert(config.itemTags, elementalType) end
 
 
   -- GRAPHICS --

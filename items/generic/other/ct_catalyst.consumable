@@ -3,18 +3,14 @@
   "shortdescription" : "Catalyst ^#8020f0;^reset;",
   "description" : "Removes all effects from you. All of them.",
   "longdescription" : "A very powerful enhancer developed in an unknown ^#b0e0fc;alta^reset; lab. It can basically \"reset\" the ^#299fc5;bionic^reset; body of any alta, clearing many processes and stopping non-essential chemical reactions.",
+  "altaDescription" : "An incredibly powerful enhancer called situria, or \"the catalyst\". It can completely wipe through your body, as if resetting it to factory settings. I've heard others say you feel almost completely numb for a couple of seconds after taking it... Sounds scary.",
   "level" : 6, "rarity" : "Legendary", "price" : 360, "race" : "alta",
-  "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
+  "itemTags" : [ "enhancer", "debug" ], "category" : "medicine", "tooltipKind" : "ct_alta_consumable",
   "inventoryIcon" : "ct_catalyst.png",
 
-  "effects" : [ [
-      {
-        "effect" : "ct_catalized",
-        "duration" : 1
-      }
-    ] ],
+  "effects" : [ [ { "effect" : "ct_catalized", "duration" : 1 } ] ],
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "wiki" : { "aliases" : { "Situria" : { } } }, "alkey" : "Alta-Situria ^#8020f0;^reset;"
 }

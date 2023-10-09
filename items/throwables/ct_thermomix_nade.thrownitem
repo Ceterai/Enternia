@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_thermomix_nade",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 3, "rarity" : "Uncommon", "price" : 40, "race" : "alta", "elementalType" : "fire",
+  "itemTags" : [ "reagent", "nade" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_thermomix_nade.png",
   "image" : "ct_thermomix_nade.png",
   "shortdescription" : "Thermomix",
   "description" : "A highly flammable substance made with volatile powder contained in a blast device.",
+  "longdescription" : "This nade is classified as harmful by the blast equipment alta CEN, and yet it's made specifically to not be immediately lethal to altas. There are limits to everything, obviously.",
+  "altaDescription" : "A gaush frag that can light things it touches up. Fire is dangerous, so this shouldn't be used unless necessary and authorized for a certain process.",
 
   "ammoUsage" : 1,
 
@@ -27,5 +29,5 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Gaush Frag"
 }

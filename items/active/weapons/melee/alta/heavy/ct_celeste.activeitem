@@ -1,38 +1,73 @@
 {
   "itemName" : "ct_celeste",
-  "shortdescription" : "Celeste ^#8020f0;^reset; ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nThe blade of this sword is made out of ^#ffa8e8;stardust^reset; essence. It is surprisingly easy to handle.",
+  "shortdescription" : "Celeste ^#8020f0;^reset;",
+  "description" : "The blade of this sword is made out of ^#ffa8e8;stardust^reset; essence. It is surprisingly easy to handle.",
+  "longdescription" : "Seemingly forged by the stars, it makes you feel like you have a purpose, like you are needed. Its overwhelming power fills you with determination.",
+  "altaDescription" : "Just holding it makes me want to protect others. As a child of stars, I accept this Io gift. I hope I can make it worth.",
   "elementalType" : "electric",
 
   "level" : 6, "price" : 960, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "alta", "staris", "stardust" ],
+  "itemTags" : [ "weapon", "melee", "broadsword", "sword", "staris", "stardust", "celestia" ],
 
   "inventoryIcon" : "ct_celeste.png",
-
   "animation" : "/items/active/weapons/melee/alta/default.animation",
   "animationParts" : { "handle" : "", "blade" : "ct_celeste.png" },
   "animationCustom" : {
     "sounds" : {
       "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
       "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
-      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "init" : [ "/sfx/gun/aegisaltpistol_start.ogg" ]
     }
   },
-
   "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "primaryAbility" : {
     "name" : "Celestial Strike", "class" : "BladeCharge",
-    "description" : "WIP. A sequence of 5 heavy strikes. Hold to create an Astral Tear.",
-    "fireTime" : 0.7,
-    "baseDps" : 16
+    "description" : "^red;WIP^reset;. A combo of 6 strikes. Hold in air to ^#b0e0fc;Downstab^reset;. Each hit is more powerful with ^#ffa8e8;stardust^reset; in your inventory (+0.5%/speck, 120 (+60%) max).",
+    "longdescription" : "It feels its connection to the sword, as it feels its connection to Io herself. This is a celestial level of power.",
+    "baseDps" : 16, "fireTime" : 0.7,
+    "damageConfig" : { "itemBonus" : { "type" : "ct_stardust", "damageFactor" : 0.005, "max" : 120 } },
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.50, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 0.4, "energyFactor" : 0.20, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0] },
+      { "damageFactor" : 1.1, "energyFactor" : 0.55, "knockback" : 20.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0] },
+      { "damageFactor" : 1.3, "energyFactor" : 0.65, "knockback" : 25.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 1.3, "energyFactor" : 0.35, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0],
+        "ranged" : { "type" : "ct_impulse_blast", "offset" : [5.0, -0.85], "sound" : "electricimpact" } },
+      { "damageFactor" : 1.3, "energyFactor" : 0.35, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0],
+        "ranged" : { "type" : "ct_impulse_blast", "offset" : [5.0, -0.85], "sound" : "electricimpact" } }
+    ],
+    "stances" : {
+      "idle" : { "armRotation" : -75, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "windup1" : { "duration" : 0.25, "armRotation" : 90, "weaponRotation" : -10, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "preslash1" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "fire1" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "wait1" : { "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup2" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
+      "wait2" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup3" : { "duration" : 0.25, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire3" : { "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "wait3" : { "duration" : 0.2, "armRotation" : -15, "weaponRotation" : -85, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup4" : { "duration" : 0.15, "armRotation" : -45, "weaponRotation" : -60, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "preslash4" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -25, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "fire4" : { "duration" : 0.35, "armRotation" : 75, "weaponRotation" : 45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "wait4" : { "duration" : 0.2, "armRotation" : 15, "weaponRotation" : -15, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup5" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+      "fire5" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
+      "wait5" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup6" : { "duration" : 0.25, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire6" : { "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true }
+    }
   },
-  "altAbilityType" : "astraltear",
+  "altAbilityType" : "blinkexplosion",
   "altAbility" : {
-    "name" : "Celestia's Nova",
-    "description" : "WIP. Creates a charged nova sphere that strikes nearby enemies."
+    "name" : "Celestia's Nova", "description" : "Creates a charged nova sphere that strikes nearby enemies.",
+    "longdescription" : "Is this how new stardust is born?"
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Staris Chin" : { } } }, "alkey" : "Celeste"
 }

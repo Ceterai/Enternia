@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_dream_eater",
-  "shortdescription" : "Dream Eater ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nEach strike of this tool replenishes your energy. Use it to quickly recharge its special ability!",
+  "shortdescription" : "Dream Eater",
+  "description" : "^red;WIP^reset;. Each strike of this tool replenishes your energy. Use it to quickly recharge its special ability!",
+  "longdescription" : "No one really knows the origins of this energy-harvesting tool, except maybe for the ^#8020f0;dreamers^reset;. But they won't tell you, or anyone, so the mystery stays a mystery.",
+  "altaDescription" : "This calming, yet nightmarish glow... This tool belongs to a dreamer, doesn't it?..",
   "elementalType" : "electric",
   "level" : 6, "price" : 720, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
@@ -26,16 +28,20 @@
     }
   },
 
-  "altAbilityType" : "spearspin",
+  "altAbilityType" : "charge",
+  "altAbility" : {
+    "name" : "Nightcharge",
+    "description" : "Hold to perform a spear charge.",
+    "longdescription" : "This can only be done with enough energy harvested... Or if you have enough by yourself already. Except... no amount of energy is really enough, right, dreamer?.."
+  },
 
-  "scripts" : ["/items/active/weapons/melee/alta/melee.lua"],
+  "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
 
   "aimOffset" : -1.0,
-  "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "class" : "SpearStab",
     "name" : "Dream Siphon",
-    "description" : "WIP. A sequence of 4 light physical strikes. Hold to perform a Super Heavy Slash.  \nEvery strike recharges energy slightly.",
+    "description" : "^red;WIP^reset;. A sequence of 4 light physical strikes. Hold to perform a Super Heavy Slash.  \nEvery strike recharges energy slightly.",
+    "longdescription" : "What tech drives this tool? Is this even technology to begin with? Are dreamers able to comprehend the inner workings of their own tools?..",
     "fireTime" : 0.6, "baseDps" : 12,
     "damageConfig" : { "damageSourceKind" : "spear", "statusEffects" : [ ], "knockbackMode" : "aim", "knockback" : 10, "timeoutGroup" : "primary" },
     "holdDamageMultiplier" : 0.1,
@@ -48,5 +54,6 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Enternia Spear" : { } } }, "alkey" : "Aenlink"
 }

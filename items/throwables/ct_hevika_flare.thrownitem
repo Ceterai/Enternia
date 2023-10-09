@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_hevika_flare",
-  "level" : 4, "rarity" : "Uncommon", "price" : 10, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 4, "rarity" : "Uncommon", "price" : 20, "race" : "alta",
+  "itemTags" : [ "reagent", "energy_source", "light", "hevika" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_hevika_flare.png",
   "image" : "ct_hevika_flare.png",
   "shortdescription" : "Hevika Flare",
   "description" : "Good for lighting up a dark cave before you dive into it. Lasts 60 seconds.",
+  "longdescription" : "This simple flare fires up this sparks of ^#8020f0;ionic^reset; energy from activating the ion-influenced ^#2080f0;alternia shard^reset; attached to a basic alta igniter. While shards themselves are pretty rare, this flare frovides impressive light time in response and can be used as ^#0050c0;hevika^reset;-type energy sources instead for example in ^#0050c0;Hevika Ordis^reset; furniture.",
+  "altaDescription" : "A hevia yon that's usually used to power hevika-based tech. With a bit of modification it can also be used as an actuator in some blasters!",
 
   "ammoUsage" : 1,
 
@@ -13,7 +15,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "ct_hevika_flare",
+  "projectileType" : "ct_hevika_flare_blast",
   "projectileConfig" : {
     "periodicActions" : [
       {
@@ -25,5 +27,6 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Hevika Energy Cell" : { }, "Hevika Actuator" : { } } }, "alkey" : "G2 Hevion"
 }

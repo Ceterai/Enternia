@@ -3,6 +3,9 @@
     { "item" : "crystal", "count" : 12 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "crystalcavebush1", "count" : 4 },
+  "output" : { "item" : "crystalcavebush1", "count" : 4, "parameters" : {
+    "shortdescription" : "Calin Deposit",
+    "inventoryIcon" : "/objects/biome/crystalcave/crystalcavebush1/crystalcavebush1.png"
+  } },
   "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "crystal", "calin", "all" ]
 }

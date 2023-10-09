@@ -25,12 +25,8 @@ As well as by the majority of creators."
     "itemConfig" : {
     "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
     "fixedPrice" : true, "level" : 4,
-    "itemTags" : [ "data_source", "alta", "datamass" ],
+    "itemTags" : [ "data_source", "datamass", "alta_security" ],
     "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   },
-  "wiki" : {
-    "aliases" : {
-      "CEN-411" : { }
-    }
-  }
+  "wiki" : { "aliases" : { "CEN-411" : { }, "Alta Security Protocol" : { }, "Security Protocol" : { } } }
 }

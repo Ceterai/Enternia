@@ -1,0 +1,51 @@
+{
+  "itemName" : "ct_plasmorbs",
+  "shortdescription" : "Plasmorbs",
+  "description" : "This wrist blaster can manipulate orbs of plasma.",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 6, "price" : 480, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
+  "twoHanded" : false, "category" : "uniqueWeapon",
+  "itemTags" : [ "weapon", "ranged", "wrist", "plasma" ],
+
+  "inventoryIcon" : "ct_plasmorbs.png",
+  "animation" : "/items/active/weapons/ranged/alta/abils/orbs/orbs.animation",
+  "animationParts" : {
+    "glove" : "ct_plasmorbs.png",
+    "orb1" : "/projectiles/charge/other/orb/full/ct_plasmorb.png",
+    "orb2" : "/projectiles/charge/other/orb/full/ct_plasmorb.png",
+    "orb3" : "/projectiles/charge/other/orb/full/ct_plasmorb.png" },
+  "animationCustom" : {
+    "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip2.ogg" ] },
+    "lights" : {
+      "orb1" : { "active" : true, "offset" : [1.5, 0], "orbPosition" : [0, 0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [0, 80, 192] },
+      "orb2" : { "active" : true, "offset" : [1.5, 0], "orbPosition" : [0, 0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [0, 80, 192] },
+      "orb3" : { "active" : true, "offset" : [1.5, 0], "orbPosition" : [0, 0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [0, 80, 192] }
+    }
+  },
+  "scripts" : [ "/items/active/weapons/ranged/alta/abils/orbs/orbs.lua" ],
+  "orbitRate" : 1.5, "muzzleOffset" : [0.0, 0.0],
+
+  "primaryAbility" : {
+    "name" : "Energy Controller",
+    "description" : "Intergrated tech that allows you to take control of 3 ^#2080f0;Plasmic Orbs^reset;.\nPress - launch a ^#2080f0;Plasmic Orb^reset;;\nHold - create a Plasma Shield.",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.33,
+    "type" : "ct_plasmorb",
+    "params" : {
+      "returnOnHit" : true, "ignoreTerrain" : false,
+      "controlForce" : 140, "pickupDistance" : 1.5, "snapDistance" : 4.0
+    },
+    "shieldKnockback" : 10
+  },
+
+  "stances" : {
+    "idle" : { "armRotation" : 10, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+    "shield" : { "armRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

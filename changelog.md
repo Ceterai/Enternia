@@ -2,6 +2,52 @@
 
 ## Update 2.1 - Alta Decryption
 
+### 2.1.1
+
+Now that datacenter is full of useful and intersting information, might as well use the most of it to prepare for upcoming threats!  
+Also, it seems like some melee blueprints have finished downloading... Might wanna try them out.
+
+**Main:**
+
+- most melee weapons are now finally usable! They's still WIP, but to a much lesser extent;
+- big wiki improvements and preparations for the next version;
+
+**Alta:**
+
+- adjusted a lot of alta recipes;
+- fixed grammatical errors in some android head items;
+
+**Wiki:**
+
+- updated many manual pages;
+- made some manual pages non-manual: Bionid, Isoslime, Crystalline Prime, Ayaka, Phospholion;
+- added aliases for proper links and references;
+- added more extended descriptions;
+- added more species descriptions;
+- added banner support;
+- added category override support;
+- added parent pages support;
+- added related resources support;
+- added collapse blocks for big lists in loot and crafting sections;
+- added manual pages: Factions, Koywa, Elin Gardens;
+- added custom content support;
+- added the "alkey" key to item aliases;
+- added radiomessage support;
+- certain color codes now translate to bold instead of links;
+- enhanced tags;
+- fixed codex text display;
+- fixed many icons and references on manual pages;
+- fixed level and other params for codexes;
+- fixed whitespaces in file links;
+
+**Other:**
+
+- adjusted timings on a lot of recipes;
+- fixed and enhanced item & colony tags on most items;
+- enhanced the item builder scripts to now add race, rarity and element as tags;
+- enhanced some recipes with custom params (mainly crystalline deposits);
+- minor bug fixes.
+
 ### 2.1.0
 
 Provided database has been successfully analyzed by your datacenter, unlocking access to a number of informational entry and codexes for your archive.

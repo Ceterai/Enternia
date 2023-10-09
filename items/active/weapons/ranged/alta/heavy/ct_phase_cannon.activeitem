@@ -1,0 +1,68 @@
+{
+  "itemName" : "ct_phase_cannon",
+  "shortdescription" : "Phase Cannon ^#8020f0;^reset;",
+  "description" : "The eternal heat produced by this mysterious artefact can cause small phase states with charged ^#ffa8e8;stardust^reset; energy.",
+  "longdescription" : "The counterpart to that is the size and overall mass of this tool - it might be a bit too hard to hold it up without an exoskeleton...",
+  "altaDescription" : "Okay, NOW we're talking.",
+  "elementalType" : "electric",
+  "level" : 6, "price" : 960, "rarity" : "Legendary", "race" : "alta",
+  "twoHanded" : true, "maxStack" : 1, "category" : "uniqueWeapon", "tooltipKind" : "ct_alta_weapon_1",
+  "itemTags" : [ "weapon", "ranged", "beam", "staris", "stardust" ],
+
+  "inventoryIcon" : "ct_phase_cannon.png",
+  "animation" : "/items/active/weapons/ranged/unrand/neolaserlauncher/neolaserlauncher.animation",
+  "animationParts" : { "middle" : "ct_phase_cannon.png", "middleFullbright" : "", "muzzleFlash" : "" },
+  "animationCustom" : {
+    "sounds" : {
+      "init" : [ "/sfx/tech/mech_explosion_windup.ogg" ], "fire" : [ "/sfx/gun/plasma_sniper5.ogg" ], "beamImpact" : [],
+      "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ], "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop.ogg" ], "fireEnd" : []
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "baseOffset" : [0.0, 0.5], "muzzleOffset" : [2.775, 0.025],
+
+  "primaryAbility" : {
+    "class" : "BeamFire", "scripts" : ["/items/active/weapons/ranged/beamfire.lua", "/items/active/weapons/ranged/gunfire.lua"],
+    "name" : "Phasebeam", "description" : "A powerful beam of ^#ffa8e8;stardust^reset; energy, able to polarize everything in its path.",
+    "longdescription" : "A powerful generator is able to produce a continous stream while using a relatively small amount of energy.",
+    "baseDps" : 12, "fireTime" : 0.2, "energyUsage" : 44,
+    "damageConfig" : { "statusEffects" : [ ], "damageSourceKind" : "plasma", "knockback" : 2 },
+    "beamLength" : 50,
+    "chain" : {
+      "startOffset" : [0, 0],
+      "segmentImage" : "/items/active/weapons/ranged/unrand/neolaserlauncher/beam.png",
+      "endSegmentImage" : "/items/active/weapons/ranged/unrand/neolaserlauncher/beam.png",
+      "segmentSize" : 1.0, "overdrawLength" : 0.0, "taper" : 0.0, "jitter" : 0.125,
+      "waveform" : { "frequency" : 1.0, "amplitude" : 0.25, "movement" : 0.0 },
+      "fullbright" : true, "light" : [249, 21, 207]
+    },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "winddown" : { "duration" : 0.1, "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true }
+    }
+  },
+
+  "altAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"], "class" : "AltaRanged",
+    "name" : "Phase Charge", "description" : "Charges up a sphere and launches it forward at a low speed.",
+    "longdescription" : "This sphere is a point of concentrated energy, able to exist for a prolonged periods of time.",
+    "baseDps" : 12, "fireTime" : 0.9, "energyUsage" : 48,
+    "pressType" : "blast", "pressParams" : { "type" : "chargeshot", "inaccuracy" : 0.0, "params" : { "speed" : 20, "knockback" : 0, "timeToLive" : 5.0 } },
+    "holdType" : "clouds", "holdParams" : { "type" : "chargeshotlarge", "inaccuracy" : 0.0, "count" : 1, "params" : { "speed" : 10, "knockback" : 0, "timeToLive" : 5.0 } },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 8, "weaponRotation" : 8, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
+      "winddown" : { "duration" : 0.2, "armRotation" : 8, "weaponRotation" : 8, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : {
+    "aliases" : { "Phase Corruption" : { "anchor" : "zeta-charges", "icon" : "none" }, "Zeta Charges" : { "anchor" : "zeta-charges", "icon" : "none" } },
+    "md" : {
+      "#### Zeta Charges" : "Phase charges, or zeta charges, are a special type of radiation causing certain targets to enter a **phase corruption**. This corruption is a form of a space-time distortion around and inside the target. These distortions might be extremely harmful to most things with a structured consistence. It's not as effective against less structured matter, like ^#7ddcde;isoslime^reset;."
+    }
+  }, "alkey" : "Zeta-Gravis"
+}

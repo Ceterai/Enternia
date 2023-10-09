@@ -9,7 +9,7 @@
     
     Altas call certain things \"Prime\" whenever they enter their true or enhanced form.
     
-    Thus, ^#c1dfae;Cristalline Prime^reset; is an energy-enhanced ^#c1dfae;Crystalline^reset; environment, full of charged crystalline bushes.",
+    Thus, ^#c1dfae;Crystalline Prime^reset; is an energy-enhanced ^#c1dfae;Crystalline^reset; environment, full of charged crystalline bushes.",
     
     "This phenomenon can occur naturally on terraformed moonlike planets, or on similar Io structs like alterash prime planets.
     
@@ -19,7 +19,10 @@
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "crystalline_prime" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : { "Primification" : { }, "Prime" : { } }
   }
 }

@@ -1,28 +1,25 @@
 {
   "name" : "ct_moonrock_space_islands",
   "friendlyName" : "Astera",  // Moonrock Space Islands
-  "description" : "A cluster of various-sized asteroids. Some of them are so convenient, that ^#b0e0fc;altas^reset; have built their space stations on them, all around ^#ffa8e8;stardust^reset; planets.",
+  "description" : "A cluster of various-sized asteroids. Some of them are so convenient, that ^#b0e0fc;altas^reset; have built their space stations on them, as well as numerous ^#6f6c66;Astera Industries^reset;, scattered amond the floating rocks, all around ^#ffa8e8;stardust^reset; planets.",
+  "longdescription" : "These places often feel like small cosmic cities, when inhabitated by altas. When they're not, a no-less magical landscape occurs, full of beautifully shining specs of stardust all around reflecting the sunlight, creating a spectacular light show, also known as **astera's glow**.",
   "icon" : "/items/active/unsorted/ct_alta_loot/ct_astera_loot.png",
   "statusEffects" : [ "biomeairless", "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ ],
   "ores" : "ct_alterash_core",
   "hueShiftOptions" : [0],
+  "parallax" : "/parallax/space/asteroids.parallax",
 
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
-    "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "asteroidskimbus" ] ] }
-    ]
+    "groups" : [ { "select" : 1, "pool" : [ [ 1, "asteroidskimbus" ] ] } ]
   },
-
-  "parallax" : "/parallax/space/asteroids.parallax",
 
   "ambientNoises" : {
     "day" : { "tracks" : [ "/sfx/environmental/space_loop1.ogg" ] },
     "night" : { "tracks" : [ "/sfx/environmental/space_loop1.ogg" ] }
   },
-
   "musicTrack" : {
     "day" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] },
     "night" : { "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ] }
@@ -84,5 +81,6 @@
         "objectSets" : [ { "pool" : [ [1, "ceilingspike1"], [1, "ceilingspike2"], [1, "ceilingspike3"], [1, "ceilingspike4"] ] } ]
       }
     ]
-  }
+  },
+  "wiki" : { "aliases" : { "Moonrock Space Islands" : { }, "Astera's Glow" : { } } }
 }

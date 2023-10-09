@@ -2,6 +2,8 @@
   "itemName" : "ct_calin_shield",
   "shortdescription" : "Calin Shield",
   "description" : "A shield made of charged crystals with a sharpened surface. Pulsating energy stuggers any attackers on impact.",
+  "longdescription" : "It overwhelmes the shield's body, smoothing its texture yet gripping it to your hand, making the grab sturdier and more certain.",
+  "altaDescription" : "Its made entirely out of crystals! Like... a crystal? I bet I could make some cute bracelets out of it.",
 
   "level" : 4, "rarity" : "Uncommon", "price" : 480,
 
@@ -65,7 +67,8 @@
     "animationParts" : { "shield" : "images/ct_calin_shield.png" },
     "shortdescription" : "Crystal Heart ^#8020f0;^reset;",
     "description" : "A crystal shield enhanced with ^#ffa8e8;stardust^reset;. Now you can feel it pulsate with new energy, see the sparks come off of it into nowhere.",
+    "longdescription" : "It's barely visible cosmic shimmer is almost hypnotizing.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
-  }
+  }, "alkey" : "Calin Taum"
 }

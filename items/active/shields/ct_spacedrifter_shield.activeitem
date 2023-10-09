@@ -2,11 +2,13 @@
   "itemName" : "ct_spacedrifter_shield",
   "shortdescription" : "Spacedrifter Shield",
   "description" : "A shield worn by spacedrifters that explore space in search of adventures, eager to protect what's sacred.",
+  "longdescription" : "This sizeable unit of defense can withstand and contain quite a number of threats, but it also requires some power to use its potential to the fullest.",
+  "altaDescription" : "A very-very-very heavy evia-tier tech shield worn by spacedrifters. I think the either use exoskeletons, or attach these to their mechs.",
   "elementalType" : "ice",
 
   "level" : 6, "rarity" : "Legendary", "price" : 480,
 
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "alta", "spacedrifter" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "spacedrifter" ],
   "twoHanded" : false, "maxStack" : 1,
   "race" : "alta",
 
@@ -74,5 +76,6 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Spacedrifter" : { "icon" : "none" } } }, "alkey" : "Aseadiya Taum"
 }

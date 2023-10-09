@@ -2,10 +2,12 @@
   "itemName" : "ct_crystalline_prime_loot",
   "shortdescription" : "Crystalline Prime Loot Crate",
   "description" : "Contains random loot from ^#c1dfae;crystalline prime^reset; biome chests.",
+  "longdescription" : "These are mostly crystals, as well as simple cal furniture and cosmetics.",
+  "altaDescription" : "I don't know much about this one. I think it's mostly filled with crystals?",
 
   "level" : 3, "price" : 80, "rarity" : "Uncommon",
   "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
-  "itemTags" : [ "loot" ],
+  "itemTags" : [ "loot", "crystal", "crystalline" ],
 
   "inventoryIcon" : "ct_crystalline_prime_loot.png",
   "animationParts" : { "gun" : "ct_crystalline_prime_loot.png" },
@@ -20,5 +22,6 @@
     "level" : 1
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Calline Crate" : { } } }, "alkey" : "Calline Pad"
 }

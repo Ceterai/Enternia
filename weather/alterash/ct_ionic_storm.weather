@@ -1,7 +1,9 @@
 {
   "name" : "ct_ionic_storm",
   "description" : "Electrified water is pouring from the sky! Applies ^#8020f0;Ionic Shock^reset; while quickly raising the water levels. Has a chance of lightning.",
-  "threat" : 1.0,
+  "longdescription" : "While not that common of a wheater condition, it represents a slight threat even to electricity-protected creatures, let alone everyone else.",
+  "altaDescription" : "It's better to grab an umbrella. Oh, and also hide all drois inside, just in case.",
+  "threat" : 1.1,
 
   "particles" : [
     {

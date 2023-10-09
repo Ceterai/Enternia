@@ -1,12 +1,13 @@
 {
   "itemName" : "ct_astera_tear",
   "level" : 6, "rarity" : "Legendary", "price" : 40, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "hunting", "astera" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_astera_tear.png",
   "image" : "images/ct_astera_tear.png",
   "shortdescription" : "Astera's Tear",
   "description" : "A launchable spear made out of ^#ffa8e8;stardust^reset; asteroids. ^#6f6c66;Astera^reset;'s gift.",
   "longdescription" : "Originally a navigation & fixation device developed by Astera researchers to be able to grab objects and hold certain constructions pressed against asteroids, with the removal of a **connector** between the ^#6f6c66;astera spear^reset; and the launcher, astera's tear became an efficient combat tool used by **astera scouts**.\n\n**Spear Launchers** that go along with the spears are charge devices that create a kinetic ^#20f080;impulse^reset;, blasting the ^#6f6c66;astera spear^reset; forwards.",
+  "altaDescription" : "This is a stardust-charged astera fixator. Wondering how else I can put it to use. Some say that ^#6f6c66;spacedrifters^reset; often use them in combat...",
 
   "ammoUsage" : 1,
 
@@ -14,7 +15,7 @@
   "windupTime" : 0.0,
   "cooldown" : 1.20,
 
-  "projectileType" : "ct_astera_tear",
+  "projectileType" : "ct_astera_spear",
   "projectileConfig" : {
     "periodicActions" : [
       {
@@ -26,5 +27,6 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Astera Scout" : { "icon" : "none" }, "Spear Launcher" : { "icon" : "none" }, "Astera Scava" : { "icon" : "none" } } }, "alkey" : "Asteri Viya"
 }

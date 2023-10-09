@@ -1,0 +1,74 @@
+{
+  "itemName" : "ct_faradeus",
+  "shortdescription" : "Faradeus",
+  "description" : "A part of a usually dual combo - these machine blasters are often used by ^#ffe364;Faradea^reset; crews.",
+  "longdescription" : "Compact yet effective - they are able to rapidly generate small plasmic charges without big reload times.",
+  "altaDescription" : "I can cover my enemies with plasmic fire! How would you like that, night shifts and cold tea?!",
+  "elementalType" : "electric",
+  "race" : "alta",
+
+  "level" : 5, "price" : 480, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "twoHanded" : false, "category" : "machinePistol",
+  "itemTags" : [ "weapon", "ranged", "machinePistol", "blaster", "faradea", "plasma", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_faradeus.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_faradeus.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/plasma_small.png" },
+  "animationCustom" : { "sounds" : { "primary_press" : [ "/sfx/gun/mp3.ogg" ], "primary_start" : [ ], "primary_loop" : [ ], "primary_end" : [ ] },
+    "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 12, 64] }
+    }
+  },
+  "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+  "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [0, 80, 192, 128], "length" : 32, "segments" : 6, "angle" : 0 } ] },
+  "baseOffset" : [0.35, 0.375], "muzzleOffset" : [1.2, 0.35],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Mission Clear",
+    "description" : "Instructions are simple - just hold the trigger until mission is clear! For an experienced ^#ffe364;Faradea^reset; merc this is the only outcome.",
+    "baseDps" : 4, "energyUsage" : 12, "fireTime" : 0.11,
+    "pressType" : "blast", "pressParams" : { "type" : "ct_plasma_small" },
+    "holdTimeMin" : 0.90, "holdTimeMax" : 0.00,
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true },
+      "winddown" : { "duration" : 0.05, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_faradeus_2.png",
+    "animationParts" : { "middle" : "ct_faradeus_2.png" },
+    "shortdescription" : "Faradeus Prime ^#8020f0;^reset;",
+    "description" : "These ^#ffe364;Faradea^reset; weapons were enhanced with ^#ffa8e8;stardust^reset; energy, increasing their potential to the maximum.",
+    "longdescription" : "A find like this is pretty rare even among the mercs, but can sometimes be seen being wielded by some ^#ffe364;faradea legends^reset;.",
+    "price" : 520, "rarity" : "Legendary",
+    "muzzleOffset" : [1.25, 0.35],
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/pistol_reload_clip3.ogg" ] } },
+    "primaryAbility" : {
+      "name" : "Mission Impossible",
+      "description" : "Instructions are simple - just hold the trigger until mission is clear! Your ^#2080f0;plasma^reset; blasts can now bounce from surfaces, too.",
+      "baseDps" : 3.5,
+      "pressParams" : { "type" : "ct_plasma_small", "params" : {
+        "bounces" : 1, "actionOnCollide" : [
+          {
+            "action" : "sound",
+            "options" : [
+              "/sfx/projectiles/bullet_ricochet1.ogg", "/sfx/projectiles/bullet_ricochet2.ogg", "/sfx/projectiles/bullet_ricochet3.ogg",
+              "/sfx/projectiles/bullet_ricochet4.ogg", "/sfx/projectiles/bullet_ricochet5.ogg", "/sfx/projectiles/bullet_ricochet6.ogg",
+              "/sfx/projectiles/bullet_ricochet7.ogg", "/sfx/projectiles/bullet_ricochet8.ogg", "/sfx/projectiles/bullet_ricochet9.ogg",
+              "/sfx/projectiles/bullet_ricochet10.ogg", "/sfx/projectiles/bullet_ricochet11.ogg", "/sfx/projectiles/bullet_ricochet12.ogg",
+              "/sfx/projectiles/bullet_ricochet13.ogg"
+            ]
+          }
+      ] } }
+    }
+  },
+  "wiki" : { "aliases" : { "Faradea Gast" : { } } }, "alkey" : "Faradeus"
+}

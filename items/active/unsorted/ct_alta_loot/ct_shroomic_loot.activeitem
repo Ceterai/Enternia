@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_shroomic_loot",
   "shortdescription" : "Shroomic Loot Crate",
-  "description" : "Contains random loot from shroomic depths biome chests.",
+  "description" : "Contains random loot from ^#3baf2f;aric^reset; depth biome chests.",
+  "longdescription" : "High levels of toxicity are a common case with this category of crates, thus the High Toxicity markings all over the casing.",
+  "altaDescription" : "I better watch out spores. I'm sure these pads are designed by professional altas, but additional safety is always advised by them too.",
 
   "level" : 4, "price" : 80, "rarity" : "Uncommon",
   "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
-  "itemTags" : [ "loot" ],
+  "itemTags" : [ "loot", "aric" ],
 
   "inventoryIcon" : "ct_shroomic_loot.png",
   "animationParts" : { "gun" : "ct_shroomic_loot.png" },
@@ -20,5 +22,6 @@
     "level" : 1
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Shroomic Crate" : { }, "Aric Crate" : { } } }, "alkey" : "Aric Pad"
 }

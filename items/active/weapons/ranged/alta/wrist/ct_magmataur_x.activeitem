@@ -1,0 +1,57 @@
+{
+  "itemName" : "ct_magmataur_x",
+  "shortdescription" : "Magmataur X",
+  "description" : "This tiny wrist rocket launcher holds the power equal to that of a whole magmataur, hence the name. These impenetrable lava giants can rarely be found on enterash prime.",
+  "elementalType" : "fire",
+  "race" : "alta",
+
+  "level" : 6, "price" : 480, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
+  "twoHanded" : false, "category" : "rocketLauncher",
+  "itemTags" : [ "weapon", "ranged", "wrist", "rocketlauncher" ],
+
+  "inventoryIcon" : "ct_magmataur_x.png",
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : { "middle" : "ct_magmataur_x.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/red.png" },
+  "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip3.ogg" ],
+    "primary_press" : [ "/sfx/gun/rocket3.ogg" ],
+    "primary_hold" : [ "/sfx/gun/dragonhead_charged_fire1.ogg", "/sfx/gun/dragonhead_charged_fire2.ogg", "/sfx/gun/dragonhead_charged_fire3.ogg", "/sfx/gun/dragonhead_charged_fire4.ogg" ],
+    "primary_start" : [ ],
+    "primary_loop" : [ "/sfx/gun/dragonhead_charge2.ogg" ],
+    "primary_end" : [ ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+  },
+  "baseOffset" : [0.0, 0.0], "muzzleOffset" : [0.7, 0.0],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Magmablast",
+    "description" : "Instead of storing rockets, this tool generates and launches actual fireballs instead.",
+
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.8,
+
+    "pressType" : "rocket", "pressParams" : { "type" : "fireguidedrocket" },
+    "holdType" : "rocket", "holdParams" : { "type" : "fireplasmarocket" },
+    "holdTimeMax" : 0.90,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0, "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      },
+      "winddown" : {
+        "duration" : 0.05, "armRotation" : 0, "weaponRotation" : 0,
+        "twoHanded" : false, "allowRotate" : true, "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

@@ -2,6 +2,8 @@
   "itemName" : "ct_crystalline_shield",
   "shortdescription" : "Crystalline Shield",
   "description" : "A hardened crystal shield. Wearing it makes your energy flow faster, increasing your energy regen slightly.",
+  "longdescription" : "It's not entirely known whether these crystal shields are forming naturally, but so far there has been no evidence of alta assistance in the process.",
+  "altaDescription" : "This pretty shield is flashing different colors under different angles! It also kinda looks like crystal candy.",
 
   "level" : 4, "rarity" : "Uncommon", "price" : 480,
 
@@ -71,7 +73,8 @@
     "animationParts" : { "shield" : "images/ct_crystalline_shield.png" },
     "shortdescription" : "Cave Keeper ^#8020f0;^reset;",
     "description" : "This shield shines deemly in the dark. You can barely make out a wisper - \"Stars care for you, little one...\"",
+    "longdescription" : "Each time you put your grip on the shield, just for a second, you feel someone's presence right behind you. Not in a scary way - you feel pleasant, safe warmth around your shoulders and neck.",
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
-  }
+  }, "alkey" : "Calline Taum"
 }

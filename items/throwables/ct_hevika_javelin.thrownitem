@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_hevika_javelin",
-  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "level" : 5, "rarity" : "Rare", "price" : 40, "race" : "alta", "elementalType" : "electric",
+  "itemTags" : [ "hunting", "ionic", "hevika" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_hevika_javelin.png",
   "image" : "images/ct_hevika_javelin.png",
   "shortdescription" : "Hevika Javelin",
@@ -14,7 +14,7 @@
   "windupTime" : 0.0,
   "cooldown" : 1.25,
 
-  "projectileType" : "ct_hevika_javelin",
+  "projectileType" : "ct_hevika_javelin_blast",
   "projectileConfig" : {
     "periodicActions" : [
       {
@@ -26,5 +26,6 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Energy Conderblock" : { "icon" : "none" }, "Hevika Charger" : { "icon" : "none" }, "NS-Hev" : { } } }
 }

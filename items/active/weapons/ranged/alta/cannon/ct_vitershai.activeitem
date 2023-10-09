@@ -1,0 +1,134 @@
+{
+  "itemName" : "ct_vitershai",
+  "shortdescription" : "Viter-Shai ^#8020f0;^reset;",
+  "description" : "The promise of an unknown traveller that should be kept at all costs is ingraved forever into the side of this misterious cannon.",
+  "race" : "alta",
+
+  "elementalType" : "fire",
+
+  "level" : 6, "price" : 800, "rarity" : "Legendary",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "shotgun",
+  "itemTags" : [ "weapon", "ranged", "shotgun", "cannon", "grenadelauncher" ],
+
+  "inventoryIcon" : "ct_vitershai.png",
+
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_vitershai.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/ionic.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "init" : [ "/sfx/gun/dragonhead_charge2.ogg" ],
+      "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"],
+      "primary_hold" : ["/sfx/gun/dragonhead_charged_fire2.ogg"],
+      "primary_start" : [ ],
+      "primary_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
+      "alt_press" : ["/sfx/gun/elemental_lance.ogg"],
+      "alt_hold" : ["/sfx/gun/grenade2.ogg"]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [128, 32, 240] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Promises Of Vitero",
+    "description" : "Launches Dragon Fire charges from energy particles.\nPress - bursts with small Dragon Fire charges;\nHold - launches a Dragon Fire rocket.",
+
+    "baseDps" : 9, "energyUsage" : 36, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "dragonfiresmall",
+      "inaccuracy" : 0.11
+    },
+    "holdType" : "rocket",
+    "holdParams" : {
+      "type" : "dragonfirelarge"
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Aina Veritas",
+    "description" : "Launches a Fire Boomerang on press, and Remote Sticky Nades on hold.",
+
+    "baseDps" : 9, "energyUsage" : 40, "fireTime" : 2.2,
+
+    "pressType" : "nade",
+    "pressParams" : {
+      "type" : "fireboomerang_l6"
+    },
+    "holdType" : "burst",
+    "holdParams" : {
+      "type" : "remotestickygrenade",
+      "inaccuracy" : 0.26,
+      "count" : 3
+    },
+    "holdTimeMax" : 0.55,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+}

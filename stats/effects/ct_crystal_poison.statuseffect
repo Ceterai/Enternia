@@ -9,5 +9,6 @@
   "defaultDuration" : 30,
 
   "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
-  "icon" : "ct_crystal_poison.png"
+  "icon" : "ct_crystal_poison.png",
+  "wiki" : { "aliases" : { "Crystal Poison" : { }, "Crystal Poisoning" : { } } }
 }

@@ -36,7 +36,7 @@ All excavations should only be permitted after appropriate planning and geo-scan
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "itemTags" : [ "data_source", "datamass", "gheatsyn" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

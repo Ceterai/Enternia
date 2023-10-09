@@ -38,5 +38,9 @@
 
   "biomePlaced" : true,
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "wiki" : { "aliases" : {
+    "agaranic" : { "icon" : "/objects/biome/alterash_prime/shrooms/agaranic/ct_agaranic5.png" },
+    "agaranic shroom" : { "icon" : "/objects/biome/alterash_prime/shrooms/agaranic/ct_agaranic1.png" }
+  } }
 }

@@ -1,36 +1,46 @@
 {
   "itemName" : "ct_spectre",
-  "shortdescription" : "Spectre ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA powerful battle axe. Its razor is made out of ^#ffa8e8;stardust^reset; energy and can change its polarity on a whim.",
-  "elementalType" : "physical",
+  "shortdescription" : "Spectre",
+  "description" : "A powerful battle axe. Its razor is made out of ^#ffa8e8;stardust^reset; energy and can change its polarity on a whim.",
+  "longdescription" : "These energy swaps, while spectacular, are quite unstable. Therefore, the Spectre tends to suffer from elemental offsets, where some of its abilities might get the element change with a certain delay.",
+  "altaDescription" : "A tool that uses spectral projection and stardust to manifest energy in form of spectral elemental analogs. No idea what I've just said.",
+  "elementalType" : "poison",
 
   "level" : 6, "price" : 720, "rarity" : "Legendary", "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "hammer", "tooltipKind" : "ct_alta_weapon_2",
-  "itemTags" : [ "weapon", "melee", "axe", "battleaxe", "alta", "staris", "stardust" ],
+  "itemTags" : [ "weapon", "melee", "axe", "battleaxe", "staris", "stardust" ],
 
   "inventoryIcon" : "ct_spectre.png",
   "animation" : "/items/active/weapons/melee/alta/default.animation",
   "animationParts" : { "handle" : "", "blade" : "ct_spectre.png" },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
-    }
-  },
+  "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/mech_beamsniper_winddown1.ogg" ] } },
   "scripts" : ["/items/active/weapons/melee/alta/special.lua"],
   // "palette" : "/items/active/weapons/colors/tier1melee.weaponcolors",
 
   "primaryAbility" : {
-    "name" : "Spectral Tear", "class" : "BladeCharge",
-    "description" : "WIP. A sequence of 5 heavy strikes. Hold to create an Astral Tear.",
-    "fireTime" : 1.2,
-    "baseDps" : 14
+    "name" : "Spectral Tear", "class" : "TravelingSlash",
+    "description" : "A sequence of 3 heavy strikes. Each strike changes the element. Hold to create a ^#b0e0fc;Traveling Slash^reset;. Hold in air to ^#b0e0fc;Downstab^reset;. Each hit is more powerful with ^#ffa8e8;stardust^reset; in your inventory (+0.5%/speck, 120 (+60%) max).",
+    "longdescription" : "The element changes are affecting the ^gray;Spectral Tear^reset; immediately, but might take time to spread onto ^#b0e0fc;Spectral Wave^reset; as well.",
+    "baseDps" : 12, "fireTime" : 1.2, "energyUsage" : 32,
+    "damageConfig" : { "itemBonus" : { "type" : "ct_stardust", "damageFactor" : 0.005, "max" : 120 } },
+    "switchElementConfig":[
+      {"element":"fire","sprite":"/items/active/weapons/melee/alta/heavy/ct_spectre_2.png"},
+      {"element":"electric","sprite":"/items/active/weapons/melee/alta/heavy/ct_spectre_3.png"},
+      {"element":"poison","sprite":"/items/active/weapons/melee/alta/heavy/ct_spectre.png"}
+    ],
+    "steps" : [
+      { "damageFactor" : 1.0, "energyFactor" : 0.0, "knockback" : 10.0, "swoosh" : "swoosh1", "swooshOffset" : [0.75, 0.0, 4.25, 5.0] },
+      { "damageFactor" : 1.4, "energyFactor" : 0.0, "knockback" : 5.00, "swoosh" : "swoosh2", "swooshOffset" : [3.0, -0.5, 6.50, 2.0] },
+      { "damageFactor" : 0.6, "energyFactor" : 0.0, "knockback" : 25.0, "swoosh" : "swoosh3", "swooshOffset" : [1.5, -1.0, 5.50, 1.0] }
+    ]
   },
 
-  "altAbilityType" : "electricshockwave",
+  "altAbilityType" : "shockwave",
   "altAbility" : {
-    "name" : "Spectral Polarity",
-    "description" : "WIP. Change The Polarity of the Spectre. Hold to launch an elemental Shockwave."
+    "name" : "Spectral Wave", "description" : "Launches an elemental shockwave. The element is affected by the main ability, but needs a reset to go in action.",
+    "longdescription" : "This ability creates a vertical spectral projection that imitates a pillar of elemental matter. It requires a significant amount of energy to do so."
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Spectre Fals" : { } } }, "alkey" : "Spectre"
 }

@@ -12,6 +12,10 @@ function build(directory, config, parameters, level, seed)
 
   -- Item stats
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
+  config.colonyTags = config.colonyTags or {}
+  if configParameter("race") then table.insert(config.colonyTags, configParameter("race")) end
+  table.insert(config.colonyTags, configParameter("rarity"))
+  if configParameter("elementalType") then table.insert(config.colonyTags, configParameter("elementalType")) end
 
   -- Basic stats (Health, Tags, Slots, Drop Warning)
   if configParameter("smashOnBreak", false) or configParameter("smashable", false) then

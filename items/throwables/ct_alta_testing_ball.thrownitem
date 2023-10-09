@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_testing_ball",
   "level" : 4, "rarity" : "Uncommon", "price" : 220, "race" : "alta",
-  "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "reagent", "energy_source", "plasma" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alta_testing_ball.png",
   "image" : "ct_alta_testing_ball.png",
   "shortdescription" : "Gyrocore",
@@ -13,7 +13,7 @@
   "windupTime" : 0.0,
   "cooldown" : 0.4,
 
-  "projectileType" : "ct_alta_testing_ball",
+  "projectileType" : "ct_alta_testing_ball_blast",
   "projectileConfig" : {
     "periodicActions" : [
       {

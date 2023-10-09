@@ -1,7 +1,9 @@
 {
   "itemName" : "ct_alta_stun_stick",
-  "shortdescription" : "Stun Stick ^red;WIP^reset;",
-  "description" : "^red;This weapon is WIP and hasn't been implemented properly yet.^reset;  \nA hand-held haulter used by ^#b0e0fc;alta^reset; security to prevent unauthorized activity.",
+  "shortdescription" : "Stun Stick",
+  "description" : "^red;WIP^reset;. A hand-held haulter used by ^#b0e0fc;alta^reset; security to prevent unauthorized activity.",
+  "longdescription" : "Just like a lot of alta tools, including combat tools, this one is considered to be non-lethal by ^#b0e0fc;alta security protocols^reset;, since it doesn't provide an amount energy to be able to really harm an alta, as well as the vast majority of Io creatures. It's only meant to scare away the target, or stugger it. In worst case scenarios, it will paralize the target, but not kill it.  \nThe exception to this rule are drones, that can take damage from the plasmic charges from the hits.",
+  "altaDescription" : "I feel quite secure with this. Begone, you evil... pois?.. companion drones? ... Do I really need this thing?",
   "elementalType" : "electric",
 
   "level" : 4, "price" : 480, "rarity" : "Uncommon",
@@ -9,32 +11,113 @@
   "itemTags" : [ "weapon", "melee", "shortsword", "sword", "crystal", "calin", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_alta_stun_stick.png",
-
-  "animation" : "/items/active/weapons/melee/alta/default.animation",
+  "animation" : "/items/active/weapons/melee/alta/light.animation",
   "animationParts" : { "handle": "", "blade" : "ct_alta_stun_stick.png" },
-  "animationCustom" : { },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "attack" : { "default" : "idle",
+          "states" : { "idle" : {}, "windup" : { "frames" : 3, "cycle" : 0.25, "mode" : "end" }, "extend" : { "frames" : 1, "cycle" : 0.01, "mode" : "end" }, "fire" : {} }
+        }
+      },
+      "parts" : {
+        "handle" : { "properties" : {"offset" : [-0.2, -1.25]}},
+        "blade" : { "properties" : { "offset" : [-0.2, -1.25] },
+          "partStates" : {
+            "attack" : {
+              "idle" : { "properties" : { "image" : "<partImage>" } },
+              "windup" : { "properties" : { "image" : "<partImage>" } },
+              "extend" : { "properties" : { "image" : "<partImage>" } },
+              "fire" : { "properties" : { "image" : "<partImage>" } }
+            }
+          }
+        }
+      }
+    },
+    "transformationGroups" : { "endpoint" : {} },
+    "particleEmitters" : { "crack" : { "transformationGroups" : ["endpoint"], "particles" : [] } },
+    "sounds" : {
+      "swing" : [ "/sfx/melee/energywhip_swing1.ogg", "/sfx/melee/energywhip_swing2.ogg", "/sfx/melee/energywhip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/energywhip_impact1.ogg", "/sfx/melee/energywhip_impact2.ogg", "/sfx/melee/energywhip_impact3.ogg" ]
+    }
+  },
+  "animationScripts" : [ "/items/active/effects/chain.lua" ],
+  "scripts" : ["/items/active/weapons/melee/alta/multi.lua"],
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "chain" : {
+    "startOffset" : [2.25, 0],
+    "length" : [3, 12],
+    "segmentImage" : "/items/active/weapons/whip/energybeam.png",
+    "endSegmentImage" : "/items/active/weapons/whip/energybeamend.png",
+    "segmentSize" : 0.375,
+    "fullbright" : true
+  },
 
-  "primaryAbilityType" : "shortswordcombo",
   "primaryAbility" : {
-    "name" : "Plasmic Haulter",
-    "description" : "WIP. A sequence of 3 light stun strikes. Hold to perform a Haulter Strike.",
+    "name" : "Plasmic Haulter", "class" : "WhipCrack",
+    "description" : "^red;WIP^reset;. A sequence of 3 light stun strikes. Hold to perform a Haulter Strike.",
+    "longdescription" : "The retractable **springrope** holding the head of the stunstick ",
     "fireTime" : 0.625,
-    "baseDps" : 6
+    "baseDps" : 6,
+
+    "chainDps" : 1.0,
+    "crackDps" : 7.2,
+
+    "damageConfig" : {
+      "statusEffects" : [ ],
+      "damageSourceKind" : "electric",
+      "timeoutGroup" : "primary",
+      "timeout" : 0.3
+    },
+
+    "projectileType" : "whipcrackelectric",
+    "projectileConfig" : {},
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+      "windup" : {
+        "duration" : 0.25,
+        "armRotation" : 100,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 2.25],
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "extend" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0, 2.25],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.1,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "weaponOffset" : [0, 2.25],
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Haulter Compact ^#8020f0;^reset;",
-    "description" : "An ^#b0e0fc;alta^reset; haulter powered by ^#ffa8e8;stardust^reset;. Its energy capabilities have been increased significantly.",
+    "description" : "An ^#b0e0fc;alta^reset; haulter powered by ^#ffa8e8;stardust^reset;. Its energy capabilities and range have been increased significantly.",
+    "longdescription" : "Just like many stardust-enhanced tools, this one is a hand-made and can't really be produced on a factory scale. Very rarely, you can find these being used by some of the ^#b0e0fc;elite forces^reset; protecting ^#b0e0fc;Alliana^reset;.",
     "inventoryIcon" : "ct_alta_stun_stick_2.png", "animationParts" : { "blade" : "ct_alta_stun_stick_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
       "name" : "Stardust Haulter",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Charged Haulter Strike."
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Charged Haulter Strike.",
+      "longdescription" : "Although a lot of improvements are purely technical and don't rely on stardust directly, all energy-related enhancements, including stun power, do highly depend on it."
     }
-  }
+  },
+  "wiki" : { "aliases" : { "Haulter Stick" : { } } }, "alkey" : "Niaton"
 }

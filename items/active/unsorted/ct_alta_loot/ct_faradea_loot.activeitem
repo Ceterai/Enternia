@@ -2,11 +2,13 @@
   "itemName" : "ct_faradea_loot",
   "shortdescription" : "Faradea Loot Crate",
   "description" : "Contains random loot from ^#ffe364;Faradea^reset; pods.",
+  "longdescription" : "Bits of mercenary life in a tiny box. It's full of freedom, anarchy, adventures and determination. A wonderful gift to a rebellious friend.",
+  "altaDescription" : "I'm going on a true merc adventure with this! Anywhere, anytime! \"To Our Own Path\"!",
 
   "level" : 4, "price" : 80, "rarity" : "Uncommon",
   "race" : "alta",
   "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
-  "itemTags" : [ "loot" ],
+  "itemTags" : [ "loot", "faradea" ],
 
   "inventoryIcon" : "ct_faradea_loot.png",
   "animationParts" : { "gun" : "ct_faradea_loot.png" },
@@ -21,5 +23,6 @@
     "level" : 1
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Faradea Crate" : { } } }, "alkey" : "Faradea Pad"
 }

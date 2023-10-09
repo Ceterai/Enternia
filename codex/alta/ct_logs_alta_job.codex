@@ -19,7 +19,7 @@ Let's show poor lost altas care, love and support together!
     "itemConfig" : {
       "rarity" : "Common", "price" : 60, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 2,
-      "itemTags" : [ "data_source", "alta", "datamass" ],
+      "itemTags" : [ "data_source", "datamass", "alta_city" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   }
 }

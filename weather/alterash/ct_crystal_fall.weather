@@ -1,7 +1,9 @@
 {
   "name" : "ct_crystal_fall",
-  "description" : "Crystals are falling from the sky! Some say it's stardust crystals, transformed by the ^#8020f0;ionic^reset; atmosphere of the planet. These crystals deal damage and apply ^#20f080;Pulse Paralysis^reset;. Be careful!",
-  "threat" : 1.0,
+  "description" : "Crystals are falling from the sky! Some say it's stardust crystals, transformed by the ^#8020f0;ionic^reset; atmosphere of the planet.",
+  "longdescription" : "These crystals deal damage and apply ^#20f080;Pulse Paralysis^reset;. Be careful!",
+  "altaDescription" : "Can get pretty dangerous in certain places. I'll need to bring my armored umbrella with me.",
+  "threat" : 1.4,
 
   "projectiles" : [
     {

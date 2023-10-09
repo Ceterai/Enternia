@@ -19,7 +19,11 @@
           "swoosh_dagger1" : { "frames" : 3, "cycle" : 0.08, "mode" : "transition", "transition" : "idle" },
           "swoosh_spear1" : { "frames" : 3, "cycle" : 0.08, "mode" : "transition", "transition" : "idle" }
         }
-      }
+      },
+      "bladeCharge" : { "default" : "idle", "states" : { "idle" : { },
+        "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
+        "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
+      } }
     },
 
     "parts" : {
@@ -114,29 +118,28 @@
           }
         }
       ]
+    },
+    "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
+      "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
     }
   },
 
   "sounds" : {
-    "fire" : [ ],
-    "fire2" : [ ],
-    "fire3" : [ ],
-    "fire4" : [ ],
-    "fire5" : [ ],
-    "swoosh1" : [ ],
-    "swoosh2" : [ ],
-    "swoosh3" : [ ],
     "init" : [ ],
-    "primary_press" : [ ],
-    "primary_hold" : [ ],
-    "primary_start" : [ ],
-    "primary_loop" : [ ],
-    "primary_end" : [ ],
-    "alt_press" : [ ],
-    "alt_hold" : [ ],
-    "alt_start" : [ ],
-    "alt_loop" : [ ],
-    "alt_end" : [ ],
+    "fire" : [ "/sfx/melee/swing_broadsword.ogg" ], "fire2" : [ "/sfx/melee/swing_broadsword.ogg" ], "fire3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+    "fire4" : [ "/sfx/melee/swing_broadsword.ogg" ], "fire5" : [ "/sfx/melee/swing_broadsword.ogg" ],
+    "swoosh1" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh2" : [ "/sfx/melee/swing_broadsword.ogg" ], "swoosh3" : [ "/sfx/melee/swing_broadsword.ogg" ],
+
+    "primary_press" : [ "/sfx/melee/swing_broadsword.ogg" ],
+    "primary_hold" : [ "/sfx/melee/charge_full_swing3.ogg" ],
+    "primary_start" : [ ], "primary_loop" : [ ], "primary_end" : [ ],
+    "lazer" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+
+    "alt_press" : [ "/sfx/melee/charge_full_swing3.ogg" ],
+    "alt_hold" : [ "/sfx/melee/charge_full_swing3.ogg" ],
+    "alt_start" : [ ], "alt_loop" : [ ], "alt_end" : [ ],
+
+    "downstab" : [ "/sfx/melee/swing_spear.ogg" ],
     "groundImpact" : [ "/sfx/melee/hammer_hit_ground3.ogg", "/sfx/melee/hammer_hit_ground4.ogg" ]
   }
 }

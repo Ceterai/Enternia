@@ -1,0 +1,141 @@
+{
+  "itemName" : "ct_bishyn_gun",
+  "shortdescription" : "Bishyn Gun",
+  "description" : "A multishot crystal blaster filled with poisonous shards.",
+  "race" : "alta",
+
+  "elementalType" : "physical",
+
+  "level" : 5, "price" : 720, "rarity" : "Rare",
+
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
+  "twoHanded" : true, "category" : "shotgun",
+  "itemTags" : [ "weapon", "ranged", "shotgun", "cannon", "minelauncher", "crystal", "bishyn", "upgradeableWeapon" ],
+
+  "inventoryIcon" : "ct_bishyn_gun.png",
+
+  "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
+  "animationParts" : {
+    "butt" : "", "middle" : "ct_bishyn_gun.png", "barrel" : "", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/impulse.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "primary_press" : ["/sfx/gun/burstshot1.ogg"]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [150, 0, 0] } }
+  },
+
+  "baseOffset" : [0.125, 0.625],
+  "muzzleOffset" : [1.75, 0],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+
+  "primaryAbility" : {
+    "name" : "Bishyn Barrage",
+    "description" : "^#378754;Bishyn^reset; crystals are poisonous - they deal physical damage while applying special effects. Press to burst with shards, hold for a shard discharge.",
+
+    "baseDps" : 8, "energyUsage" : 32, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "ct_bishyn_shard",
+      "inaccuracy" : 0.18,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 }
+    },
+    "holdType" : "clouds",
+    "holdParams" : {
+      "type" : "ct_bishyn_shard",
+      "inaccuracy" : 1.81,
+      "count" : 12
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Bishyn Discharge",
+    "description" : "A powerful poisonous discharge - press for a shotgun-like burst of poison, hold to launch a proximity mine.",
+
+    "baseDps" : 8, "energyUsage" : 36, "fireTime" : 0.9,
+
+    "pressType" : "burst",
+    "pressParams" : {
+      "type" : "acidsweep",
+      "inaccuracy" : 0.11,
+      "params" : { "knockback" : 20, "timeToLive" : 5.0 },
+      "count" : 3
+    },
+    "holdType" : "blast",
+    "holdParams" : {
+      "type" : "poisonproximitymine",
+      "inaccuracy" : 0.01
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "winddown" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_bishyn_gun_2.png",
+    "animationParts" : { "middle" : "ct_bishyn_gun_2.png" },
+    "shortdescription" : "Bishyn Cannon ^#8020f0;^reset;",
+    "description" : "This massive blaster now shoots ^#378754;bishyn^reset; crystals encrusted with ^#ffa8e8;stardust^reset;.",
+    "price" : 800, "rarity" : "Legendary",
+    "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ] } }
+  }
+}
