@@ -1,0 +1,41 @@
+{
+  "id" : "ct_bion",
+  "title" : "Complicated Nature of Bion",
+  "description" : "A datamass containing explanations of complex concepts behind alta biology.",
+  "longdescription" : "This datamass is covered in ongrown bionid clumps - ^gray;nidias^reset;. It might not fit well into some sockets.",
+  "altaDescription" : "The information inside is pretty insightful. Although we are usually created with that knowledge, or at list its general outlines, this can be exceptionally useful to someone else, or maybe as a part of a more global study, like the \"Environmental Causes Of Crystallic Formations In Organic Creatures\" one, or ^gray;\"ECOC-FIOC\"^reset;. Quite popular.",
+  "icon" : "datamass/combat.png",
+  "contentPages" : [
+
+    "It is still unclear how to properly categorize bion as a material because of its origins and a complicated nature.
+
+On one hand, it shows strong metal qualities, while having a crystallic molecular structure, and reacts to electricity in a similar way to a lot of specific crystal families.
+
+On the other hand, bion molecules often form in otherwise organic lifeforms, the best example being natural biocrystals - ^#c1ebf8;tonnova^reset; plants.",
+
+"Tonnovas themselves are quite interesting in their biology too, as biocrystals and biocrystallic connections are incredibly rare in nature and are mostly found in cold highly-ionized environments, like on ^#2080f0;alterash prime^reset; planets.
+
+So far most prominent known biocrystal species of plants and creatures are tonnovas, ^#0050c0;hevaltors^reset;, ^#10b4ef;bionflies^reset;, ^gray;excriduras^reset; and rare organic crystal deposits.",
+
+"The most prominent example of this will always be us - altas, us our bionic nature mostly consists of biocrystallic and biometallic nature.
+
+The concept of bionic creatures, or bionicas, is one of the most common ones in researched subjects, and is the best source of data for said research."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : { "aliases" : {
+    "nidia" : { "icon" : "none" },
+    "excridura" : { "icon" : "none" },
+    "organic crystal" : { "icon" : "none" },
+    "ECOC-FIOC" : { },
+    "CNOB" : { }
+  },
+  "related" : {
+    "### [[ Codexes ]]" : [ "Bionics", "Bionid Extraction Note", "The Neon Forest" ]
+  } }
+}

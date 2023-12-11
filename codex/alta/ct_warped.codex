@@ -3,6 +3,7 @@
   "title" : "Warped Containment",
   "description" : "This ^#b0e0fc;datamass^reset; contains information and instructions on how to (somewhat) contain or limit ^#9b2d3f;warped^reset; growth. Judging by the look of the datamass, doesn't seem like it worked really well.",
   "longdescription" : "The datamass is partially covered in warped growth. This indicates that it was left out near such for a bit too long. Thankfully, the data inside seems to be intact.",
+  "altaDescription" : "The spread of warped growth is a prominent topic, especially since it tends to contaminate yaara groves and many underground facilities.",
   "icon" : "datamass/warped.png",
   "contentPages" : [
 
@@ -32,5 +33,10 @@ This can be done via specialized alta devices, or with cryogenic materials like 
       "fixedPrice" : true, "level" : 4,
       "itemTags" : [ "data_source", "datamass", "warped" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "related" : {
+      "### [[ Codexes ]]" : [ "A Sentia's Crown", "Glowing Kingdom", "Nivera Cultivation" ]
+    }
   }
 }

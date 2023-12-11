@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_hive_curry.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. Healthy, spicy, squishy. Do you like bugs?",
   "shortdescription" : "Hive Curry",
+  "description" : "Healthy, spicy, squishy. Do you like bugs?",
+  "longdescription" : "The larva themself are considered a very rarily used ingredient, since altas are vegetarian by nature, but this dish utilizes them in moderate amounts.",
+  "altaDescription" : "I think these cryobugs are called izolings? Might be wrong, but the are the things that compile those huge scary caves in undergrounds.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -21,7 +23,7 @@
     }
   ] ],
   "foodValue" : 40,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "curry", "hive" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -31,11 +33,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_palopias", "ct_onitti_cake" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Spice-Hive Curry",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
+  "variants" : [ "spice" ],
+  "presets" : {
+    "spice" : {
+      "shortdescription" : "Spice-Hive Curry", "variant" : true,
+      "description" : "Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
+      "longdescription" : "This recipe is ablsolutely overloaded on spices, which might scare some altas off, but will atract other ones looking for something exotic.",
+      "altaDescription" : "Spicy! Overwhelmingly curry, to the point where you might not even realise that it's all izoling-based.",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
     }
-  ]
+  }
 }

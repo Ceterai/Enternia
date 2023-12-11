@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_heecho_punch.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. A mixture of only the sweetest of sweet fruit.",
   "shortdescription" : "Heecho Punch",
+  "description" : "A mixture of only the sweetest of sweet fruit.",
+  "longdescription" : "The origins of the recipe are pretty obvious - this is a classic multifruit drink discovered by mixing different fruits together and seeing what happens, and the name of the drink reflects exactly that.",
+  "altaDescription" : "One of the exotic or multifruit punches, of which there are quite a lot. Although I do quite like them, they are a bit more interesting since they don't just taste like single fruit, like with aya punch.",
   "effects" : [ [
     {
         "effect" : "ct_overcharged_crystals",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "punch", "fruit" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -28,12 +30,15 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_mohitava_cocktail", "ct_minto_soup", "ct_warped_cocktail" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Extra Heecho Punch",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. A mistery mixture that takes a fresh turn on the heecho punch.",
+  "variants" : [ "extra" ],
+  "presets" : {
+    "extra" : {
+      "shortdescription" : "Extra Heecho Punch", "variant" : true,
+      "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
+      "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
+      "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 300 }, { "effect" : "maxhealthboost20", "duration" : 300 } ] ]
     }
-  ]
+  }
 }

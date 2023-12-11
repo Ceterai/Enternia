@@ -13,6 +13,7 @@
 
   "inventoryIcon" : "ct_cetersphere.png",
 
+  "radioMessagesOnPickup" : [ "ct_sphere_msg" ],
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
   "wiki" : { "aliases" : { "Ceniafaa" : { } } }, "alkey" : "Ceter-Faa"
 }

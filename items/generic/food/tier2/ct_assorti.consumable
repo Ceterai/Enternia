@@ -1,0 +1,35 @@
+{
+  "itemName" : "ct_assorti",
+  "shortdescription" : "Assorti",
+  "description" : "A healthy mix of ayas and tsays.",
+  "longdescription" : "These slightly-dryed, spiced fruits are served as-is, and can be eaten with hands in no time.",
+  "altaDescription" : "I won't get tired of the same taste thanks to spice, but I would recomment switching the bite from one to another for maximum enjoyment.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 520, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "ayaka", "tsay" ],
+  "inventoryIcon" : "ct_assorti.png",
+  "effects" : [ [
+    {
+        "effect" : "runboostfood",
+        "duration" : 135
+    }
+  ] ],
+  "foodValue" : 25,
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "learnBlueprintsOnPickup" : [ "ctpie", "ct_gharus_spice", "ct_fivaldo_salad" ],
+
+  "variants" : [ "salad" ],
+  "presets" : {
+    "salad" : {
+      "shortdescription" : "Aya-Tsay Salad ^#20f080;^reset;", "variant" : true,
+      "description" : "This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
+      "longdescription" : "With additional length of preparation this gives a much more fulfilling result, while also turning into a functional dish.",
+      "altaDescription" : "This would go perfect with a condiment, like a sweet cream or a frinsh.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 580, "foodValue" : 29, "alkey" : "Aya-Tsay Yaki",
+      "paletteSwap" : {"#3587ff":"#5f35ff","#0066ff":"#3700ff","#0042a6":"#2400a6","#002a69":"#170069",
+        "#b2ff2d":"#2ddfff","#80ca00":"#00abca","#538300":"#006f83","#3c5e00":"#00505e",
+        "#5c919b":"#9b5c77","#327480":"#803254","#164f59":"#591633"
+      }
+    }
+  }, "alkey" : "Yakuro"
+}

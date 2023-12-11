@@ -12,5 +12,18 @@
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
+  "presets" : {
+    "repell" : {
+      "shortdescription" : "Repelling Stim Pack ^#2080f0;^reset;", "itemTags" : [ "enhancer", "light" ],
+      "price" : 175, "level" : 5, "rarity" : "Rare",
+      "description" : "This enhancer makes you very defensive. Passively. For 2 minutes.",
+      "longdescription" : "It causes you to \"auto-repell\", or to discharge an impulse every time your nerv system negatively reacts to an outside factor.",
+      "altaDescription" : "Very useful if I need some time alone.", "alkey" : "Tsor Helis",
+      "effects" : [ [ { "effect" : "ct_autorepeller", "duration" : 120 } ] ],
+      "paletteSwap" : {"#fcb0b7":"#b0fcee","#fc606d":"#60fce1","#f02f20":"#50c8d4","#fce6b0":"#7aedcf","#fcd060":"#50d4b2","#b0c6fc":"#b0fcd3","#608cfc":"#60fca9",
+        "#ac271c":"#1ca1ac","#89221a":"#1a8189","#6c1b15":"#15666c"}
+    }
+  },
+
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "wiki" : { "aliases" : { "Situria" : { } } }, "alkey" : "Alta-Situria ^#8020f0;^reset;"
 }

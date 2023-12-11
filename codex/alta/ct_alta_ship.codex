@@ -1,0 +1,41 @@
+{
+  "id" : "ct_alta_ship",
+  "title" : "Alta Ships",
+  "description" : "A piece of information about alta spaceports and space travel industry.",
+  "longdescription" : "This document explains the common design choices and safety protocols behind most things you can find on an alta ship.",
+  "altaDescription" : "Safety is important, so I'm glad that desicions around modular ship parts are being given this much thought.",
+  "icon" : "ebook/ship.png",
+  "contentPages" : [
+
+    "Altas are proud of their space construction industry. Spaceships of all sizes and purposes, divided by categories, models and types.
+
+Prowling the expanses of space over long distances, for short flights, for trade, for recreation.
+
+Space stations, starships, cruisers and even the ^#b0e0fc;Al'deron^reset; mothership are the pride of many ^#b0e0fc;alta architects^reset; and ^#b0e0fc;alta scientists^reset;.",
+
+"All ships, as is customary among altas, are subject to their own general standards and protocols.
+
+Both in the form of communication rules and designations, and in the form of requirements for equipment and technologies.
+
+So, in the case of any space mechanisms, the main conditions are always air-tightness, certain levels of reliability and stability, convenience and modularity.",
+
+"Many parts of a typical alta spaceship can exist on their own, rather than as an integral part of the ship itself.
+
+Good examples of such part technologies would be ^#b0e0fc;alta ship shelves^reset;, ^#b0e0fc;alta ship tables^reset;, and even ^#b0e0fc;alta ship beds^reset; with protective screens.",
+
+"If air-tight, many ship devices can continue to operate in any conditions - both underwater and in the vacuum of space. This includes both ^#b0e0fc;alta ship terminals^reset; and the simplest ^#b0e0fc;alta ship lamps^reset;.
+
+But the main example of tightness and reliability are ^#b0e0fc;alta ship gateways^reset; - massive blast-proof structures that can keep most problems on the other side.",
+
+"In the case of cargo ships, the main objects on board will be the ^#b0e0fc;alta ship containers^reset; - sealed pods with many fastenings and protective mechanisms.
+
+Although regular ^#b0e0fc;alta ship pods^reset; are also suitable for carrying cargo, containers provide additional protection and greater capacity due to the ease of manual handling - containers are designed specifically for operating cargo-carrying mechanisms, while pods are designed for direct use by altas."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 6,
+      "itemTags" : [ "data_source", "ebook", "alta_ship" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

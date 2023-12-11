@@ -1,33 +1,33 @@
 {
   "itemName" : "ct_ometonna",
-  "level" : 4, "rarity" : "Uncommon", "price" : 560,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_ometonna.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A delicious ^#c1ebf8;tonna^reset; omelette! Avoid the bionid parts when cooking.",
   "shortdescription" : "Ometonna",
+  "description" : "A delicious ^#c1ebf8;tonna^reset; omelette! Avoid the bionid parts when cooking.",
+  "longdescription" : "While cooking, the ^#c1ebf8;tonna fruit^reset; and ^#c1ebf8;tonna milk^reset; boils up into an omelette-like substance, perfect for a morning charge-up.",
+  "altaDescription" : "Those dark spots are clumps of the fruit part sticking together. It's pretty hard to do everything evenly, so you can see this quite often in ometonnas.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 560, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "tonna" ],
+  "inventoryIcon" : "ct_ometonna.png",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
         "duration" : 90  
     }
   ] ],
-  "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "foodValue" : 30,
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_tonna_meringue", "ct_tonna_shake", "ct_rimar_motsu" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Caretaker's Ometonna",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. Usually only the most proficient caretakers at elin gardens and ^#b0e0fc;alta^reset; corfals can cook it this good.",
-      "level" : 5, "rarity" : "Rare", "price" : 800, "foodValue" : 45
+  "variants" : [ "caretaker" ],
+  "presets" : {
+    "caretaker" : {
+      "shortdescription" : "Caretaker's Ometonna ^#20f080;^reset;",
+      "description" : "Usually only the most proficient caretakers at elin gardens and ^#b0e0fc;alta^reset; corfals can cook it this good.",
+      "longdescription" : "With the addition of spices, perfect cooking timing and evenly spread tonna fruit part, this ometonna looks better than ever.",
+      "altaDescription" : "I'm convinced most caretakers are proffesional chefs. Or at least are re-ealy good at cooking. Such delicious memories!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 620, "foodValue" : 34, "variant" : true, "alkey" : "Amin Chi",
+      "paletteSwap" : {"#f4fafd":"#fafdf4","#acdcec":"#dcecac","#10b4ef":"#b4ef10","#106686":"#668610",
+      "#fff075":"#ffcb75","#ffd375":"#ffae75","#d7af58":"#d78d58","#86651d":"#86491d"}
     }
-  ]
+  }, "alkey" : "Amin Chi"
 }

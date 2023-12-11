@@ -12,8 +12,11 @@
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ],
   "statusEffects" : [
-    "maxenergyboostaugment3"
+    "maxenergyboostaugment3",
+    { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 0.85 },
+    { "stat" : "knockbackThreshold", "amount" : 3.0 }
   ],
 
   "leveledStatusEffects" : [

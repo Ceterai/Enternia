@@ -1,0 +1,47 @@
+{
+  "itemName" : "ctayafresh",
+  "shortdescription" : "Aya Fresh",
+  "description" : "Made with aya powder and some fresh ayas. Refreshing! Fresh is the word.",
+  "longdescription" : "Throughrough mixing and squeezing create a layer of thich foam at the top that adds to the overall experience. The candy stick is then added for flavor.",
+  "altaDescription" : "A basic fresh of decent quality with a nice touch in form of a candy stick.",
+  "level" : 2, "rarity" : "Common", "price" : 120, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "fresh", "ayaka" ],
+  "inventoryIcon" : "ctayafresh.png",
+  "effects" : [ [ { "effect" : "lowgrav", "duration" : 45 } ] ],
+  "foodValue" : 12,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_vermont_tea" ],
+  "variants" : [ "essence" ],
+  "presets" : {
+    "essence" : {
+      "shortdescription" : "Aya Essence",
+      "description" : "A well-made fresh that perfectly captures the aya essence. Its incredibly soft fruity mixture bursts with flavor and goes down increadibly easy.",
+      "longdescription" : "Some skilled altas often make stands specifically to sell simillar essences, and are quite popular with runners and love groups.",
+      "altaDescription" : "It might not look that different, but the texture is pretty telling that this is no regular fresh.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 220, "foodValue" : 15, "variant" : true, "alkey" : "Aya Erin",
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 60 } ] ],
+      "paletteSwap" : {"#a0d1ff":"#e5a0ff","#0088ff":"#7300ff","#0066ff":"#0066ff","#0040aa":"#0040aa","#ff6bcb":"#6babff","#ef359e":"#3576ef","#ca1679":"#1652ca"}
+    },
+    "markvin" : {
+      "shortdescription" : "Markvin Fresh",
+      "description" : "This special fresh mix has a little fizz to it. A riverside multifruit mix with a mango-ish aftertaste.",
+      "longdescription" : "This drink is a pretty common option at many alta cafes and is very popular with altas who are looking for something kicky.",
+      "altaDescription" : "I feel like I'm partying at the beach when drinking this. Very energetic, but also so chilling!",
+      "level" : 3, "rarity" : "Uncommon", "price" : 220, "foodValue" : 15, "variant" : true, "alkey" : "Markvin",
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 60 } ] ],
+      "paletteSwap" : {"#a0d1ff":"#ffcea0","#0088ff":"#ff7700","#0066ff":"#ff2100","#0040aa":"#aa1b00","#ff6bcb":"#f6ff6b","#ef359e":"#d5ef35","#ca1679":"#aeca16"}
+    },
+    "viona" : {
+      "shortdescription" : "Viona Fresh",
+      "description" : "A drink of science, that first was discovered in an actual lab, where the enchanted energy was being researched. Not it's a hit with partygoers!",
+      "longdescription" : "Generally viona anomalies are things to be cautious of, but even an energy miazma can become a source of a good drink sometimes.",
+      "altaDescription" : "A fun fact - the fruits used for this usually change their color after being \"vionified\" and can go from yellow or red to pink or blue.",
+      "price" : 160, "foodValue" : 14, "variant" : true, "alkey" : "Vionur",
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 60 } ] ],
+      "paletteSwap" : {"#a0d1ff":"#ffa0c7","#0088ff":"#ff00ad","#0066ff":"#7700ff","#0040aa":"#5300aa","#ff6bcb":"#f6f6f6","#ef359e":"#d8dcf0","#ca1679":"#b0b4c8"}
+    }
+  },
+  "wiki" : { "aliases" : { "Cooked Tonna" : { } } }, "alkey" : "Ayanur",
+  "newItem" : "ct_aya_fresh",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

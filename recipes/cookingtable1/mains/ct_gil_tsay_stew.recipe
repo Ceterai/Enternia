@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_tsay_cooked", "count" : 2 },
+    { "item" : "ct_gillikada", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_gil_tsay_stew", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

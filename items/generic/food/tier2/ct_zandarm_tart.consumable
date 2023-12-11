@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_zandarm_tart",
-  "level" : 4, "rarity" : "Uncommon", "price" : 520,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_zandarm_tart.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A dish form weird ingredients that somehow tastes good.",
   "shortdescription" : "Zandarm Tart",
+  "description" : "A dish form weird ingredients that somehow tastes good.",
+  "longdescription" : "A special baking recipe that results in a sweet, chewy desset full of melty condiment.",
+  "altaDescription" : "Not a big fan of tarts, but this one is pretty interesting, even if in concept.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 520, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "dessert" ],
+  "inventoryIcon" : "ct_zandarm_tart.png",
   "effects" : [ [
     {
         "effect" : "energyregen",
@@ -17,21 +18,19 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_niatto_motsu" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Zandarm Prime",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
-      "level" : 5, "rarity" : "Rare", "price" : 760, "foodValue" : 35
+  "variants" : [ "prime" ],
+  "presets" : {
+    "prime" : {
+      "shortdescription" : "Zandarm Prime ^#20f080;^reset;",
+      "description" : "This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
+      "longdescription" : "The right amount of exposure, the temperature and the distribution of ingredients played a huge role in the result.",
+      "altaDescription" : "Not too soft, not too crunchy, letting you fully focus on the taste. Very nice!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 580, "foodValue" : 29, "variant" : true, "alkey" : "Zandarm Prime",
+      "paletteSwap" : {"#a3d744":"#44c7d7","#8dbd35":"#35afbd","#729f1e":"#1e929f","#557d0b":"#0b717d","#36699c":"#75369c"}
     }
-  ]
+  }, "alkey" : "Zandarm"
 }

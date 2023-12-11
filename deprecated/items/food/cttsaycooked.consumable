@@ -1,0 +1,55 @@
+{
+  "itemName" : "cttsaycooked",
+  "shortdescription" : "Cooked Tsay",
+  "description" : "Unlike its fresh version, cooked tsay tastes mostly like meat. ...Unless you add some spices! Tasty!",
+  "longdescription" : "Adding spices and marinades to cooked tsays is a common practice among altas, who are not very fond of the taste of meat in general.",
+  "altaDescription" : "Goes very well as a side-dish to something bitter or spicy, gives it a sort of balance in flavor.",
+  "level" : 2, "rarity" : "Common", "price" : 200, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "tsay" ],
+  "inventoryIcon" : "cttsaycooked.png",
+  "foodValue" : 15,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "learnBlueprintsOnPickup" : [ "ct_vermont_tea", "cttsayicecream", "ctassorti" ],
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfectly Cooked Tsay",
+      "description" : "A well-made meaty assortment. Impressive how this was made only using a few tsays.",
+      "longdescription" : "The main sercret to this result is a kada-like preparation, where the skin gets marinaded in the fruit's frying juice as it gets cooked.",
+      "altaDescription" : "It hits differently without the spices, but I like it this way here. Very surprising.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 300, "foodValue" : 18, "variant" : true, "alkey" : "Tsay Kesa Prime",
+      "paletteSwap" : {"#dd4c56":"#dda24c","#b73d45":"#b7863d","#8b2c32":"#8b652c",
+      "#80ca00":"#a8ca00","#538300":"#538300","#3c5e00":"#3c5e00","#9bca00":"#cac400","#648300":"#837f00"}
+    },
+    "koywa" : {
+      "shortdescription" : "Violas",
+      "description" : "Hot motiko-like pouches with a tasty sauce mix straight from the riverbeds of alterash. Can be used as a substitute for cooked tsays.",
+      "longdescription" : "The peel is very soft, but quite tingy and requires quite a bite to handle.",
+      "altaDescription" : "Violas are best with a cold fresh or a minty cocktail.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 300, "foodValue" : 18, "variant" : true, "alkey" : "Violi", "itemTags" : [ "alta_cuisine", "sea" ],
+      "paletteSwap" : {"#dd4c56":"#724cdd","#b73d45":"#3da1b7","#8b2c32":"#462c8b",
+      "#80ca00":"#ca003d","#538300":"#830027","#3c5e00":"#5e001d","#9bca00":"#ca0065","#648300":"#830040"}
+    },
+    "alien" : {
+      "shortdescription" : "Alien Coralbakes",
+      "description" : "A cold-served baked alien coral with edible insides and recepticles, but unedible blue shell that also serves as a container for the dish. Useful.",
+      "longdescription" : "Corals are quite uncommon to come by on alterash planets, so this dish is often considered a delicacy.",
+      "altaDescription" : "Hard to put it on the scale, I'm not very used to seafood in general.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 380, "foodValue" : 24, "variant" : true, "alkey" : "Xanoriff Koyu", "itemTags" : [ "alta_cuisine", "sea", "alien" ],
+      "paletteSwap" : {"#dd4c56":"#4ccedd","#b73d45":"#3daab7","#8b2c32":"#2c818b",
+      "#80ca00":"#6b00ca","#538300":"#460083","#3c5e00":"#32005e","#9bca00":"#4200ca","#648300":"#2c0083"}
+    },
+    "haven" : {
+      "shortdescription" : "Haven Pouches",
+      "description" : "Roasted and de-toxicated flower bits of different ^#80f020;haven^reset; flowers. Sometimes can be used as a substitute for cooked tsays.",
+      "longdescription" : "In actuality the process of de-toxication happens while and because of proper roasting, which leads to a proper crisp and pleasant taste.",
+      "altaDescription" : "This is pretty exotic by nature, but is quite common at the same time since some gardeners have a well-contained haven flowery on hand.",
+      "variant" : true, "alkey" : "Malina Piodi", "itemTags" : [ "yava_cuisine", "haven" ],
+      "paletteSwap" : {"#dd4c56":"#abdd4c","#b73d45":"#8cb73d","#8b2c32":"#698b2c",
+      "#80ca00":"#00ca9d","#538300":"#008366","#3c5e00":"#005e49","#9bca00":"#00ca82","#648300":"#008355"}
+    }
+  },
+  "alkey" : "Tsay Kesa",
+  "newItem" : "ct_tsay_cooked",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

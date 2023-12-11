@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alta_soup.png",
-  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
   "shortdescription" : "Altasoup",
+  "description" : "The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
+  "longdescription" : "Another stable in alta kitchen, named accordingly for its prominence. There are even canned versions sold to non-alta buyers as an insight into what the culinary world of altas can provide.",
+  "altaDescription" : "A classic soup with according taste, texture and smell. Unlike motsus, these are served hot.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 50,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,14 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Altasoup ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Altasoup ^#8020f0;^reset;", "variant" : true,
+      "description" : "This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
+      "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
+      "altaDescription" : "You have to be an exceptional alta chef to consitenly be able to make these.",
       "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
-  ]
+  }
 }

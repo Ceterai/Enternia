@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_thermomix_nade",
   "level" : 3, "rarity" : "Uncommon", "price" : 40, "race" : "alta", "elementalType" : "fire",
-  "itemTags" : [ "reagent", "nade" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "nade" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_thermomix_nade.png",
   "image" : "ct_thermomix_nade.png",
   "shortdescription" : "Thermomix",
@@ -27,6 +27,25 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
+  },
+
+  "presets" : {
+    "diy" : {
+      "shortdescription" : "Handmade Thermomix", "level" : 2, "rarity" : "Common",
+      "description" : "A piece of craftsmanship made by an aspiring ^#ffe364;Faradea^reset; merc. Not as efficient as a manufactured version, but still quite good.",
+      "longdescription" : "No markings, a handmade casing and an amature mix of volatile ingredients that somehow resulted in something useful.",
+      "altaDescription" : "Oh wow, some one hand-making devices! Is there a master class I could watch in my spare time?", "alkey" : "Vuri Gaush Frag",
+      "projectileConfig" : { "speed":36,"power":8,"periodicActions":[{"time":0,"repeat":false,"action":"sound","options":["/sfx/projectiles/throw_item_small.ogg"]}] },
+      "paletteSwap" : {"#f6f6f6":"#d4b2a6","#d8dcf0":"#be9182","##b0b4c8":"#a27566","#606478":"#6b372b","#24283c":"#3c2c24",
+        "#f9fcb0":"#fcdb60","#f3fc60":"#b29528","##ffaa49":"#ff7949","#c07000":"#c03d00"}
+    },
+    "koywa" : {
+      "shortdescription" : "Thermofrag Nade", "level" : 4,
+      "description" : "A highly combustable substance made from modified ^#b0e0fc;thermomix^reset; nades. Sometimes used by riverside scouts.",
+      "longdescription" : "The technology behind it is meant to create a fast line of fire in a contained or outlined are to prevent it from spreading.",
+      "altaDescription" : "Highly dangerous thermomix mod. I should be very careful with it.", "alkey" : "GX Frag",
+      "paletteSwap" : {"#f6f6f6":"#9abdb9","#d8dcf0":"#5d8c86","##b0b4c8":"#39524f","#606478":"#262539","#383c50":"#0d0d1a"}
+    }
   },
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Gaush Frag"

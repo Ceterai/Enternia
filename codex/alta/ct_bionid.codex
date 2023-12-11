@@ -1,0 +1,32 @@
+{
+  "id" : "ct_bionid",
+  "title" : "Bionid Extraction Note",
+  "description" : "An alta document notifying about specifics of extraction of a material from plants in a local area.",
+  "longdescription" : "The material in question - bionid - has differing methods of extractiong depending on the source, local climate and the variation of bionid itself. In the note, these specifics seem detrimental to proper extraction.",
+  "altaDescription" : "Some of the aspects described in the document are very similar to ^gray;Bionid-C2-Prias-7^reset;, which I think was the most common variety in my area. Both of these are classified as corrosive, so lots of similarities. I think these are all called ^gray;\"Nerigid\"^reset; for short?",
+  "icon" : "paper/bionid.png",
+  "contentPages" : [
+
+    "Local bionid subtype is increasingly reactive to sunlight and general radiation. Given the environment, some of the area is already exposed to rich phospholion deposits in the upper layers of esetera.
+
+There is noticable visual difference between safe state bioned and unstable one, exposed to the deposits.",
+
+"This implies that this specific bionid variation could be used to determine radioactive presence in the are, but it also means that the extraction should be done in radio-low areas, with further refinement process.
+
+This bionid variation cannot be used as a direct building material due to its unstable abilities."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : { "aliases" : {
+    "Nerigid" : { "icon" : "none" },
+    "Bionid-C2-Prias-7" : { "icon" : "none" }
+  },
+  "related" : {
+    "### [[ Codexes ]]" : [ "Bionics", "Complicated Nature of Bion", "The Neon Forest" ]
+  } }
+}

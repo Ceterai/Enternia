@@ -17,6 +17,12 @@
     "shield" : "images/ct_crystalline_shield.png"
   },
   "animationCustom" : {
+    "globalTagDefaults" : { "paletteSwaps" : "" },
+    "animatedParts" : { "parts" : { "shield" : { "partStates" : { "shield" : {
+      "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
+      "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
+      "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
+    } } } } },
     "sounds" : {
       "init" : [ ],
       "raiseShield" : [ "/sfx/melee/charge_traildash1.ogg" ],
@@ -41,7 +47,7 @@
   "minActiveTime" : 0.2,
 
   "forceWalk" : true,
-  "baseShieldHealth" : 48,
+  "baseShieldHealth" : 56,
   "cooldownTime" : 0.65,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
@@ -68,13 +74,46 @@
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
+  "presets" : {
+    "bishyn" : {
+      "shortdescription" : "Bishyn Shield ^#2080f0;^reset;", "itemTags" : [ "shield", "crystal", "bishyn", "upgradeableWeapon" ],
+      "price" : 520, "level" : 5, "rarity" : "Rare",
+      "description" : "This simple shield is hiding some secret poison-related powers that you might want to explore.",
+      "longdescription" : "It has a special device attached to the handle that is meant to adapt your body to the nature of bishyn crystal poison.",
+      "altaDescription" : "I've never felt so safe near a poison crystal before.", "alkey" : "Bishyn Taum",
+      "paletteSwap" : {"#ecf9dc":"#caf6ce","#c1dfae":"#77e28a","#87b684":"#4fb66e","#4a784e":"#378754"},
+      "baseShieldHealth" : 58, "knockbackStatusEffects" : [ "ct_crystal_poison" ],
+      "raisedStatusEffects" : [ "ct_enviro_protection" ],
+
+      "primaryAbility" : {
+        "name" : "Redistribution",
+        "description" : "Provides an ^#f08020;Enviro Protection^reset; status effect when raised.  \nInflicts ^#378754;Crystal-Poisoned^reset; on hit.  \nActivate block fast enough (parry time) to perform a perfect block."
+      },
+
+      "upgradeParameters" : {
+        "shortdescription" : "Centavra ^#8020f0;^reset;",
+        "description" : "Named after an otherwordly being, this artifact has capabilities almost otherwordly in their nature. All with the power of ^#ffa8e8;stardust^reset;.",
+        "longdescription" : "A beautiful amalgamation of Io's nature, alta technology and a little miracle.",
+        "price" : 560, "rarity" : "Legendary", "alkey" : "Centavra",
+        "baseShieldHealth" : 60,
+        "paletteSwap" : {"#ecf9dc":"#f6caf2","#c1dfae":"#e277cf","#87b684":"#b64f97","#4a784e":"#87376a"},
+        "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
+      }
+    },
+    "carel" : {
+      "shortdescription" : "Crystal Plant Shield", "itemTags" : [ "shield", "crystal", "upgradeableWeapon" ],
+      "description" : "Contrary to popular opinion, you cannot eat this shield. You can try, but I wouldn't recommend.",
+      "altaDescription" : "I know I shouldn't try to bite it, but it's very tempting.", "alkey" : "Carel Taum",
+      "paletteSwap" : {"#ecf9dc":"#e8fec9","#c1dfae":"#cfff8a","#87b684":"#9dd62c","#4a784e":"#587c10"}
+    }
+  },
+
   "upgradeParameters" : {
-    "inventoryIcon" : "ct_crystalline_shield.png",
-    "animationParts" : { "shield" : "images/ct_crystalline_shield.png" },
     "shortdescription" : "Cave Keeper ^#8020f0;^reset;",
     "description" : "This shield shines deemly in the dark. You can barely make out a wisper - \"Stars care for you, little one...\"",
     "longdescription" : "Each time you put your grip on the shield, just for a second, you feel someone's presence right behind you. Not in a scary way - you feel pleasant, safe warmth around your shoulders and neck.",
-    "price" : 520, "rarity" : "Legendary",
+    "price" : 520, "rarity" : "Legendary", "alkey" : "Tin Vard",
+    "paletteSwap" : {"#ecf9dc":"#dcf9ea","#c1dfae":"#aedfce","#87b684":"#84b6b5","#4a784e":"#4a7278"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
   }, "alkey" : "Calline Taum"
 }

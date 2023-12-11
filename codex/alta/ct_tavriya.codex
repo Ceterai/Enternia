@@ -1,0 +1,38 @@
+{
+  "id" : "ct_tavriya",
+  "title" : "On Tavriya Climate",
+  "description" : "This datamass describes a report on a rare phenomenon that occurs in ^#e8e8ff;tavriya^reset; areas on ^#2080f0;alterash prime^reset; planets.",
+  "longdescription" : "The growth mentioned in the report is cryonic algae that forms deep underneath the surface, usually from remains of isoslime residue.",
+  "altaDescription" : "I never actually new this side of tavriya nature, if you could call it that. While tavriya does often have different plant-looking growth, most of is usually revealed to be of a different origin.",
+  "icon" : "datamass/sona.png",
+  "contentPages" : [
+
+    "This report provides further insight into specifics of certain types and variations of tavriya climate, as well as the discovery of Izo-Algae, as part of the Cryocoral Project.
+
+We're continuing to look into ways of possible ways of accquiring cryonic extract from the discovered specimens, and ways to cultivate them to make the process more efficient and scalable.",
+
+"Pure cryonic exctract has proven to be more efficient at certain tasks than another, much more available cryonic - izon.
+While doesn't seem to be universally better than izon, the tests and experiments have shown better performance when it comes to creating coolants and ice-polarized energy tools.
+However, izon continues to be better at warped containment, general cooling and organic usages, such as in cooking. Unlike pure cryonic extract, izon is alta-safe, which would be a priority in most cases.",
+
+"Currently, the most prominent location of natural habitat for Izo-Algae seems to be in warmer areas of tavriya, where temperature tends to raise just below the melting point of snow during seasonal temperature peaks.
+
+This might deem \"warm tavriya\" zones as uniquely valuable because of this currently precious resource."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "docs", "sona" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "Izo-Algae" : { "icon" : "none" },
+      "Cryocoral Project" : { }
+    },
+    "related" : {
+      "### [[ Codexes ]]" : [ "Sona Soldier's Notes" ]
+    }
+  }
+}

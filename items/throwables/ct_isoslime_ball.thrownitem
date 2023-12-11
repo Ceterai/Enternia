@@ -1,14 +1,14 @@
 {
   "itemName" : "ct_isoslime_ball",
   "rarity" : "Common",
-  "itemTags" : [ "reagent", "nature", "isoslime", "izopoi", "slime" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "nature", "isoslime", "izopoi", "slime" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_isoslime_ball.png",
   "image" : "ct_isoslime_ball.png",
   "shortdescription" : "Isoslime",
   "description" : "A chunk of ^#7ddcde;isoslime^reset; (a.k.a. izoslime) that you can maliciously throw at someone to cover them in cryonic goo. Or make jam out of it.",
   "longdescription" : "**Isoslime**, or **Izoslime**, or **Izopoi** - is a cryogenic slimy substance that tends to form in the subsurface (and rarely surface) layer of ^#2080f0;alterash prime^reset; planets. This substance is highly viscous and consists of two layers.  \nThe **outer** layer, or the **cryo layer**, is heat-isolation slime that protects the inner layer from low temperatures. This is a precious material that is often used by ^#b0e0fc;altas^reset; in construction.  \nThe **inner** layer, or the **poi layer**, consits of pure slime and is the main part of isoslime.\n\nIsoslime is a subtype of regular ^#7ddcde;slime^reset;.",
   "altaDescription" : "Some gooey izopoi I can throw at my friends. Perfect.",
-  "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;subsurface^reset;" ],
+  "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;subsurface^reset;" ],
 
   "ammoUsage" : 1,
 

@@ -1,0 +1,31 @@
+{
+  "itemName" : "ctayacandy",
+  "shortdescription" : "Aya Candy",
+  "description" : "Made with aya jam, it's a sour and sweet lollipop!",
+  "longdescription" : "Usually prepared and sold in packs, these are great to share with friends and are perfect if you really need to not think of anything.",
+  "altaDescription" : "Tzheshe awe wevy gweaf! ...Whaf?",
+  "level" : 4, "rarity" : "Uncommon", "price" : 300, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "dessert", "ayaka" ],
+  "inventoryIcon" : "ctayacandy.png",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 125
+    }
+  ] ],
+  "foodValue" : 10,
+  "newItem" : "ct_aya_candy",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+
+  "variants" : [ "pop" ],
+  "presets" : {
+    "pop" : {
+      "shortdescription" : "Aya Pop ^#20f080;^reset;", "variant" : true,
+      "description" : "A lolipop with a lil' pop to it. Sour candy is always better than just a candy, right? No? Okay.",
+      "longdescription" : "This dish went beyond a simple assorti and became a full-fledged salad with proper slicing, mixing & dressing.",
+      "altaDescription" : "Sometimes I go for these if I get tired of regular ones. Which is rare, but these are pretty good too.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 360, "foodValue" : 12
+    }
+  }
+}

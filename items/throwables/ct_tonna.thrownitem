@@ -1,14 +1,14 @@
 {
   "itemName" : "ct_tonna",
   "rarity" : "Common", "price" : 20,
-  "itemTags" : [ "reagent", "nature", "tonnova" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "nature", "tonnova" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_tonna.png",
   "image" : "ct_tonna.png",
   "shortdescription" : "Tonna",
   "description" : "A ^#c1ebf8;tonnova^reset; fruit. Feels lighter than a coconut. You can throw it at someone or cook it!",
   "longdescription" : "Botanically speaking, this fruit is a nut. It has an outer semi-hard shell and a detached, soft white inside pulp, full of tonnova milk and nutrients.  \nThe pulp has a soft, slightly sweet taste that turns into a porrige-like taste during cooking. This is why **tonna porriges** are a thing and are quite popular in the ^#b0e0fc;nia cuisine^reset;.",
   "altaDescription" : "Tonna freshes are quite refreshing. Also, they go well with ^#b0e0fc;ometonnas^reset; and tarts, especially ^#b0e0fc;zandarm tart^reset; ones.",
-  "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
+  "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
 
   "ammoUsage" : 1,
 

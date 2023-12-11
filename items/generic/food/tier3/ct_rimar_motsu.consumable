@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_rimar_motsu.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. A tasty mix of various ingredients turned into a favorite ^#b0e0fc;alta^reset; motsu!",
   "shortdescription" : "Rimar Motsu Soup",
+  "description" : "A tasty mix of various ingredients turned into a favorite ^#b0e0fc;alta^reset; motsu!",
+  "longdescription" : "This recipe is slightly more fruit-heavy than usual, with the pallete being pretty diverse depending on its variations.",
+  "altaDescription" : "Motsus in general are a good meal to start your day off, but this one feels like you would get it any time of day.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -21,7 +23,7 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "motsu", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -32,11 +34,14 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_staris_soup", "ct_alta_soup" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Rimar Motsu",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. A perfect mix of various ingredients turned into an exquisite ^#b0e0fc;alta^reset; motsu!",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Rimar Motsu", "variant" : true,
+      "description" : "A perfect mix of various ingredients turned into an exquisite ^#b0e0fc;alta^reset; motsu!",
+      "longdescription" : "Though this motsu turned out better than usual, it's important to understand that there is no recipe for excellence.",
+      "altaDescription" : "Yum!",
       "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
-  ]
+  }
 }

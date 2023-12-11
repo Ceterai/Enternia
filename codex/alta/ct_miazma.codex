@@ -1,0 +1,47 @@
+{
+  "id" : "ct_miazma",
+  "title" : "Viona Miazma Monitoring",
+  "description" : "A ^#b0e0fc;datamass^reset; containing a report on the recent energy-related measurements in an anomalous area.",
+  "longdescription" : "The data shows numerous energy anomalies, or ^#f080f0;miazmas^reset;, in different so-called ^#8080f0;viona^reset; areas, or ^#8080f0;\"enchanted\" areas^reset; of the planet.",
+  "altaDescription" : "An ^#f08f20;Arco^reset; report about miazmas - very dangerous clashes of different types of energies. I heard they can result in explosions, and sometimes even climate micro disasters.",
+  "icon" : "datamass/enchanted.png",
+  "contentPages" : [
+
+    "Regional sensors have detected an increase in incidents, with most miazmas growing up to the G2 standard size, which is an acceptable size for single miazmas.
+
+However, the readings show that with the amount and frequency of appearance, some of the anomalies are starting to appear in dangerously close provimity of each other.
+
+In better cases, some anomalies ended up merging into a bigger size class miazma.",
+
+"In worse cases, explosions and frostblasts have been reported in the area by the monitoring team.
+
+Monitoring equipment:
+
+- ^#b0e0fc;Alta Lab Amplifier^reset; ID: AIN-ndr29fd6
+- ^#b0e0fc;Alta Lab Terminal^reset; ID: AIC-cr6bnb30
+
+Responsible team: A.R.C.O. RS-68 \"Santia\"",
+
+"Further report:  
+A ^#b0e0fc;Neiteru^reset; research group got involved, and proceeded to collect samples for their recent ^#8080f0;\"Neviona\"^reset; project.
+
+They have also provided help in finding proper samples for uor cause, including capturing a live anomaly using their experimental equipment.
+
+The sample should be held under the High Containment Protocol, according to their documentation. This should significantly boost our research.",
+
+"As far as we're aware, Neiteru were already able to successfully use a live miazma before, in a project called ^#f080f0;\"Vionos Twins\"^reset;, so let's keep our hopes up."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "viona" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : { "RS-17 Santia" : { } },
+    "related" : {
+      "### [[ Codexes ]]" : [ "Colorful Poster", "Enchanted Datamass", "The Miracles of Vionia" ]
+    }
+  }
+}

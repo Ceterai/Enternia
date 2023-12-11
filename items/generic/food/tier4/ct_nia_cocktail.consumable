@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_nia_cocktail.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A mistery dish that can have multiple tastes. Find out what you got!",
   "shortdescription" : "Nia Cocktail",
+  "description" : "A mistery dish that can have multiple tastes. Find out what you got!",
+  "longdescription" : "Although not achieved naturally, it is a known gimmick of this recipe to be altered in a way to become \"polarized\" into one of energy types.",
+  "altaDescription" : "Wow, a plain, non-polarized nia cocktail? This is pretty rare.",
   "effects" : [ [
     {
         "effect" : "lowgrav",
@@ -21,7 +23,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "cocktail" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -31,33 +33,42 @@
   ],
   "emitters" : [ "drinking" ],
 
-  "variants" : [
-    {
+  "variants" : [ "ceternia", "alternia", "enternia", "stardust" ],
+  "presets" : {
+    "ceternia" : {
       "chance" : 0.3,
-      "shortdescription" : "Ceternia Cocktail",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A floaty drink that will make you feel alive. Nice addition to a full meal.",
+      "shortdescription" : "Ceternia Cocktail", "itemTags" : [ "nia_cuisine", "cocktail", "ceternia" ], "variant" : true,
+      "description" : "A floaty drink that will make you feel alive. Nice addition to a full meal.",
+      "longdescription" : "Some say the taste and coloration are achieved through the addition of tsay bits and sweetened tsay juice.",
+      "altaDescription" : "Yup, pretty energetic. Probably all of the tsay stuff, although this is exactly what I would expect from a nia drink, so maybe not.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_ceternia_cocktail.png",
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
-    {
+    "alternia" : {
       "chance" : 0.3,
-      "shortdescription" : "Alternia Cocktail",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A nice middleground. You could say the same about the taste, but a lot of ^#b0e0fc;altas^reset; like it this way.",
+      "shortdescription" : "Alternia Cocktail", "itemTags" : [ "nia_cuisine", "cocktail", "alternia" ], "variant" : true,
+      "description" : "A nice middleground. You could say the same about the taste, but a lot of ^#b0e0fc;altas^reset; like it this way.",
+      "longdescription" : "This drink feels surprisingly thick and fulfilling, making sure to spread accross your tongue to engage as much taste buds as possible.",
+      "altaDescription" : "If you get this option, be sure not to drink it all at once, because what's the point then.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_alternia_cocktail.png",
       "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
-    {
+    "enternia" : {
       "chance" : 0.3,
-      "shortdescription" : "Enternia Cocktail",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A tingy cocktail full of enternia energy. Does not classify as an energy drink.",
+      "shortdescription" : "Enternia Cocktail", "itemTags" : [ "nia_cuisine", "cocktail", "enternia" ], "variant" : true,
+      "description" : "A tingy cocktail full of enternia energy. Does not classify as an energy drink.",
+      "longdescription" : "Maximum tingyness to still be able to call this a cocktail, its ingredients will make you fill slightly pleasantly numb if you chug it down at once!",
+      "altaDescription" : "A cocktail not made for chugging, but made for chugging. Challenge you party friends.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_enternia_cocktail.png",
       "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
-    {
+    "stardust" : {
       "chance" : 0.1,
-      "shortdescription" : "Staris Cocktail ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
+      "shortdescription" : "Staris Cocktail ^#8020f0;^reset;", "itemTags" : [ "nia_cuisine", "cocktail", "staris" ], "variant" : true,
+      "description" : "An ultimate nia cocktail that perfactly encompasses the vibe and original taste.",
+      "longdescription" : "Representing stardust energy and stardust, this drink feels almost like a powder, or a powdery drink, with the food coloring mixixng as you drink, making it seem like the drink is changing colors, or \"reacting\" to you drinking it.",
+      "altaDescription" : "The most lucky you can get with a nia cocktail, I believe.",
       "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
-  ]
+  }
 }

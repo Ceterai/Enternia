@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_koywa_tea",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_koywa_tea.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A tea brewed from various koywa herbs. Very healthy.",
   "shortdescription" : "Koywa Tea",
+  "description" : "A tea brewed from various koywa herbs. Very healthy.",
+  "longdescription" : "Its recipe includes petals and spices from different koywa flowers, as well as giana leaves, dryed up and mixed together. One of a few recipes to use giana leaves as an ingredient.",
+  "altaDescription" : "Appreciate a good herb mix with a roast dish, or just as it is. After properly drying and adding boiling water, even haven flowers can become a nice safe to drink tea.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "tea", "koywa" ],
+  "inventoryIcon" : "ct_koywa_tea.png",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -13,23 +14,31 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_onitti_motsu", "ct_gharus_spice", "ct_fivaldo_salad" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Riverside Surprise",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. A regular herb tea with a special touch. You feel recognizably better after drinking it.",
-      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 300 } ] ]
+  "variants" : [ "koywa" ],
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Riverside Surprise ^#20f080;^reset;",
+      "description" : "A regular herb tea with a special touch. You feel recognizably better after drinking it.",
+      "longdescription" : "Aside from additional ingredients, the secret of the recipe tends to include a bit of fresh-boiled koywa grass in small amounts, which adds a slight touch of sweet bitterness to the drink.",
+      "altaDescription" : "This one is more interesting to drink than anything. You wouldn't exactly call this comfort food, but would still make some on occasion.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 300 } ] ], "variant" : true, "alkey" : "Vorie Ekzua",
+      "paletteSwap" : {"#3aa73f":"#3aa763","#497c56":"#497c67","#2d564a":"#2d5456",
+      "#59987d":"#59987d","#68dcff":"#68ffe5","#3cb3d8":"#3cd8be","#2c839d":"#2c9d8a","#252c33":"#253233"}
+    },
+    "dreamer" : {
+      "shortdescription" : "Dreamer's Tea",
+      "description" : "A regular herb tea with a special touch. You feel recognizably better after drinking it.",
+      "longdescription" : "Aside from additional ingredients, the secret of the recipe tends to include a bit of fresh-boiled koywa grass in small amounts, which adds a slight touch of sweet bitterness to the drink.",
+      "altaDescription" : "This one is more interesting to drink than anything. You wouldn't exactly call this comfort food, but would still make some on occasion.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Aena Chi",
+      "paletteSwap" : {"#3aa73f":"#3a8ca7","#497c56":"#49657c","#2d564a":"#2d3156",
+      "#59987d":"#596798","#68dcff":"#a968ff","#3cb3d8":"#803cd8","#2c839d":"#5d2c9d","#252c33":"#2f2533"}
     }
-  ]
+  }, "alkey" : "Koywa Chi"
 }

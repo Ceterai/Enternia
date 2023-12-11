@@ -1,39 +1,37 @@
 {
   "itemName" : "ct_ionic_fresh",
-  "level" : 2, "rarity" : "Common", "price" : 200,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_ionic_fresh.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. Charges you with fresh energy to get through the day! Literally.",
   "shortdescription" : "Ionic Fresh",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyboostaugment1",
-        "duration" : 60
-    },
-    {
-        "effect" : "ct_ionic_shock",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 15,
-  "tooltipKind" : "ct_alta_consumable",
+  "description" : "Charges you with fresh energy to get through the day! Literally.",
+  "longdescription" : "It's base is made from ionic ferment with lots of usual alta sweeteners. This one of rare freshes not made directly from a fruit.",
+  "altaDescription" : "I love drinking fermented foaming ennia goo! It's sarcasm by the way. The drink is still good tho.",
+  "level" : 2, "rarity" : "Common", "price" : 120, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "fresh" ],
+  "inventoryIcon" : "ct_ionic_fresh.png",
+  "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 60 }, { "effect" : "ct_ionic_shock", "duration" : 5 } ] ],  // ct_alta_food_energy
+  "foodValue" : 12,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_maito_tea", "ct_zandarm_tart" ],
-
-  "variants" : [
-    {
+  "variants" : [ "essence" ],
+  "presets" : {
+    "essence" : {
       "shortdescription" : "Ionic Essence",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. Very energy-full drink that turned out more fresh than ever. Feels like drinking pure energy!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 400, "foodValue" : 20,
-      "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 60 } ] ]
+      "description" : "Very energy-full drink that turned out more fresh than ever. Feels like drinking pure energy!",
+      "longdescription" : "Maybe because it is partially filled with pure energy. This is what a right-polarity chrage will do to a regular ionic fresh.",
+      "altaDescription" : "I wonder if the bubbles in it are electric too.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 220, "foodValue" : 15, "alkey" : "Ennia Erin",
+      "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 75 } ] ], "variant" : true,
+      "paletteSwap" : {"#e13fbc":"#e0b0fc","#9f33cc":"#c060fc","#5441ae":"#8020f0","#6bc4ff":"#ff6bd7","#1670ca":"#ca1688","#493ad9":"#d8dcf0","#252a93":"#b0b4c8"}
+    },
+    "party" : {
+      "shortdescription" : "Party Fresh",
+      "description" : "A multifruit mix of energetic goodness that will keep a party going! Please don't spill it out on your friends, that's not how it works.",
+      "longdescription" : "Another, more formal name of this drink is \"Multifruit Fresh Mix\", but it's not as popular given where you can find it the most frequently.",
+      "altaDescription" : "Let's throw a party! I know what drink to bring!!",
+      "price" : 160, "alkey" : "Maivanur",
+      "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 75 } ] ], "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "alta_cuisine", "fresh" ],
+      "paletteSwap" : {"#e13fbc":"#e1613f","#9f33cc":"#cc3363","#5441ae":"#ae41ad","#6bc4ff":"#d2ff6b","#1670ca":"#cac216","#493ad9":"#d93a8f","#252a93":"#93256f"}
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Ionic Juice" : { } } }, "alkey" : "Ennianur"
 }

@@ -5,15 +5,18 @@
 
   "price" : 700, "rarity" : "Legendary",
   "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "level" : 6, "itemTags" : [ "tier6armour", "dreamer" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ],
   "statusEffects" : [
-    "ct_longfall"
+    "ct_longfall",
+    { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 0.85 },
+    { "stat" : "knockbackThreshold", "amount" : 3.0 }
   ],
 
   "leveledStatusEffects" : [

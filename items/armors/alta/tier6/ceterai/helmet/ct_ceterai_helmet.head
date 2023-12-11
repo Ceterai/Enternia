@@ -1,25 +1,21 @@
 {
   "itemName" : "ct_ceterai_helmet",
   "shortdescription" : "^#2080f0;C.T.^reset; Visor",
-  "description" : "A C.T. series helmet. Has a built-in 'Omniblue' lightsource. The label on the side reads 'Mark I'. Has built-in breath protection.",
+  "description" : "A C.T. series helmet. Has a built-in 'Omniblue' lightsource. The label on the side reads 'Mark I'. Has built-in ^#b0e0fc;breath protection^reset;.",
+  "longdescription" : "This analytical alternia-powered protected headwear is a dream of many ^#b0e0fc;alta researchers^reset;, as there are quite a few comparable alternatives.",
+  "altaDescription" : "Many Project Ceterai associates used to wear this on-field. Now I could be the one utilizing it to the fullest.",
 
-  "price" : 1000, "rarity" : "Legendary",
+  "level" : 6, "price" : 1000, "rarity" : "Legendary", "race" : "alta",
   "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
-  "race" : "alta",
+  "itemTags" : [ "tier6armour", "ceterai" ],
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "statusEffects" : [
-    "ct_omniblue_vision",
-    {
-      "stat" : "breathProtection",
-      "amount" : 1.0
-    }
-  ],
+  "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
+  "statusEffects" : [ "ct_omniblue_vision", { "stat" : "breathProtection", "amount" : 1.0 } ],
 
   "leveledStatusEffects" : [
     {
@@ -70,6 +66,17 @@
     // CRYSTAL (BROWN)
     { "60c0fc" : "c9eef6", "2080f0" : "76c7e4", "0050c0" : "4e8fb8", "081c6c" : "366388" }
   ],
+
+  "presets" : {
+    "astera" : {
+      "shortdescription" : "Space Helmet", "itemTags" : [ "tier6armour", "astera" ], "colorIndex" : 5,
+      "description" : "A piece of equipment worn by alta researchers and workers in ^#6f6c66;Astera Ordis^reset;. Can sometimes be found on a spacedrifter as well.",
+      "longdescription" : "Its special built-in visor protects your eyes from direct light from nearby stars and disperces it, allowing you to see better in the dark spots.",
+      "altaDescription" : "Looks exactly how it tastes. Why would you taste a helmet? No idea.", "alkey" : "Astera Grom",
+      "paletteSwap" : {"#444444":"#f6f6f6","#393939":"#d8dcf0","#343434":"#f6f6f6","#181818":"#b0b4c8","#020202":"#606478","#404050":"#fefeed"}
+    }
+  },
+  "alkey" : "C.T. Vir",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

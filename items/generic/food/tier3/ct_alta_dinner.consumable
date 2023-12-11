@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alta_dinner.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. A prepared assortment of highly satisfying goodness that will get you full in no time.",
   "shortdescription" : "Proper Alta Dinner",
+  "description" : "A prepared assortment of highly satisfying goodness that will get you full in no time.",
+  "longdescription" : "This meal is a staple in alta culinary culture. Each component is prepared separately, assorted, spiced up and presented at a high temperature.",
+  "altaDescription" : "This is the home meal out there, something I would go for if I was really hungry.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "meal" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -27,11 +29,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_special_mimosa", "ct_palopias" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Caretaker's Love",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. Just like your caretaker used to make!",
+  "variants" : [ "caretaker" ],
+  "presets" : {
+    "caretaker" : {
+      "shortdescription" : "Caretaker's Love", "variant" : true,
+      "description" : "Just like your caretaker used to make!",
+      "longdescription" : "A great example of \"made with love\" that will leave no alta indifferent.",
+      "altaDescription" : "Words can't describe my feelings about this, but the name reflects them perfectly.",
       "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 75
     }
-  ]
+  }
 }

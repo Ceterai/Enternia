@@ -1,0 +1,48 @@
+{
+  "itemName" : "ct_aya_baked",
+  "shortdescription" : "Baked Aya",
+  "description" : "Crispy on the outside, filled with hot sweet, slightly sour jam. A rare recipe where the same ingredient is used both as dough and as filling.",
+  "longdescription" : "Due to relative easiness of preparation, this aya-dough bakery can be often found in local alta bakeries, and often with different filling options.",
+  "altaDescription" : "You can eat this with your hands! At least that's how I do it. Maybe through a napkin, if I want to keep my hands clean.",
+  "level" : 2, "rarity" : "Common", "price" : 160, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "bakery", "ayaka" ],
+  "inventoryIcon" : "ct_aya_baked.png",
+  "foodValue" : 20,
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "learnBlueprintsOnPickup" : [ "ctassorti" ],
+  "variants" : [ "mash" ],
+  "presets" : {
+    "mash" : {
+      "shortdescription" : "Aya Mash", "variant" : true, "itemTags" : [ "runeva_cuisine", "mash", "ayaka" ],
+      "description" : "This baked aya was mashed and mixed after cooking, making it into a proper garnish. Good with runeva fruits like gils and cooked tsays.",
+      "longdescription" : "A common ingredient in full-course meals, like ^#b0e0fc;alta dinners^reset;, combos and mixes. Also, commonly prepared by caretaker for sick and unwell altas.",
+      "altaDescription" : "My caretaker makes the best mash I've ever tried! With calin sticks, or yaarings, or just about anything else.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 260, "foodValue" : 24, "alkey" : "Ayagava",
+      "paletteSwap" : {"#ee7e7f":"#ee7e7f","#c16a7f":"#c16a7f","#aa546a":"#cb186b","#90394e":"#c6005b","#587fff":"#ffa1be","#0066ff":"#ff70b2"}
+    },
+    "xenopod" : {
+      "shortdescription" : "Baked Xenopod", "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "alta_cuisine", "bakery", "alien" ],
+      "description" : "An alien fruit baked into a crispy jam-filled alta dish. Be careful not to burn yourself on the jam part - it takes quite a lot of heat to glow like that.",
+      "longdescription" : "Since xenopods are not usually grown by altas and are a common find only on some enterash planets, this dish is common to the nearby districts only.",
+      "altaDescription" : "This baked aya was mashed and mixed after cooking, making it into a proper garnish.", "alkey" : "Xanokoyu",
+      "paletteSwap" : {"#ee7e7f":"#be7eee","#c16a7f":"#886ac1","#aa546a":"#7054aa","#90394e":"#573990","#587fff":"#58ff92","#0066ff":"#00ff2f"}
+    },
+    "yaara" : {
+      "shortdescription" : "Yaara Mash", "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "yava_cuisine", "mash", "yaara" ],
+      "description" : "A mashed baked ^#20f080;yaara eye^reset; covered in roasted roots and different spices. Makes for a good addition to a cut kada of choice, or a salad.",
+      "longdescription" : "While the texture might not be that of a usual, familiar mash, the taste compensates enough to make it a part of many alta restaurant menu items.",
+      "altaDescription" : "Tastes like a yaara eye dough flavoring, but is much easier to eat than plain dough, so it's actually quite nice.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 260, "foodValue" : 24, "alkey" : "Yaagava",
+      "paletteSwap" : {"#ee7e7f":"#7eeeed","#c16a7f":"#6ac1ac","#aa546a":"#54aa94","#90394e":"#39907b","#587fff":"#ffd758","#0066ff":"#ff9800"}
+    },
+    "alta_pear" : {
+      "shortdescription" : "Baked Alta Pear", "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "runeva_cuisine", "bakery", "alta_pear" ],
+      "description" : "Baked insides of a fermented ^#3587ff;alta pear^reset;, slightly cut into slices for presentation.",
+      "longdescription" : "A great way to make a common fruit look exotic is to partially cut inside it, ferment it in sweeteners and cover with a bit of spice.",
+      "altaDescription" : "Doesn't look like an alta pear at all at first. I can only wonder how some chef can do this magic.", "alkey" : "Alta Per Koyu",
+      "paletteSwap" : {"#ee7e7f":"#7eabee","#c16a7f":"#cbae00","#aa546a":"#e1e922","#90394e":"#397190","#587fff":"#b7be00","#0066ff":"#917b00"}
+    }
+  },
+  "alkey" : "Ayakoyu"
+}

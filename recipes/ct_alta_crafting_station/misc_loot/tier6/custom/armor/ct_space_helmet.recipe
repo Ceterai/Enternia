@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_ceterai_helmet", "count" : 1, "parameters" : { "preset" : "astera" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "armor", "head", "all" ]
+}

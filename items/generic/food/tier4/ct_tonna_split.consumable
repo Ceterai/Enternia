@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_tonna_split.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. An exquisite arrangement that tickles your visual, smelling and tasting receptors!",
   "shortdescription" : "Tonna Split",
+  "description" : "An exquisite arrangement that tickles your visual, smelling and tasting receptors!",
+  "longdescription" : "This popular dessert is good for a group of people, or maybe for exceptional dessert lovers.",
+  "altaDescription" : "A fun sizeable dessert with interesting presentation.",
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 55,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "dessert" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -26,26 +28,33 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
+  "variants" : [ "extra", "mega", "surprize" ],
+  "presets" : {
+    "extra" : {
       "chance" : 0.3,
-      "shortdescription" : "Tonna Split Extra",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A tonna split with extra toppings! Doudble the sweetness, double the effect.",
+      "shortdescription" : "Tonna Split Extra", "variant" : true,
+      "description" : "A tonna split with extra toppings! Doudble the sweetness, double the effect.",
+      "longdescription" : "These extra toppings add sweetness to the recipe, so make shure to take it into account if you're sharing it with your friends.",
+      "altaDescription" : "It's always nice to get a nice pleasant surprise, especially if it's a clear one-up.",
       "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_extra.png",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 428 }, { "effect" : "maxenergyscalingboostfood", "duration" : 428 } ] ]
     },
-    {
+    "mega" : {
       "chance" : 0.2,
-      "shortdescription" : "Tonna Split Mega",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. Perhaps this is the most topping one can fit on a single dish. This tonna split will taste like no other.",
+      "shortdescription" : "Tonna Split Mega", "variant" : true,
+      "description" : "Perhaps this is the most topping one can fit on a single dish. This tonna split will taste like no other.",
+      "longdescription" : "A big increase also means that you'll have to make sure it doesn't spill over, which is already quite a task with just extra topping.",
+      "altaDescription" : "This is dangerously sweet. Make sure to share it with your friends!",
       "inventoryIcon" : "/items/generic/food/other/images/ct_tonna_split_mega.png",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 546 }, { "effect" : "maxenergyscalingboostfood", "duration" : 546 } ] ]
     },
-    {
+    "surprize" : {
       "chance" : 0.1,
-      "shortdescription" : "Split Surprize ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
+      "shortdescription" : "Split Surprize ^#8020f0;^reset;", "variant" : true,
+      "description" : "You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
+      "longdescription" : "The flavor mix is very airy and milky, making it pleasantly sweet, but not over the top.",
+      "altaDescription" : "Love the flavor! And there's quite a lot, which makes things even better.",
       "level" : 6, "rarity" : "Legendary", "price" : 1300, "foodValue" : 70
     }
-  ]
+  }
 }

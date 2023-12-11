@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_elite_helmet",
   "shortdescription" : "Elite Ceter-Helm",
-  "description" : "A helmet worn by elite ^#b0e0fc;alta^reset; forces. Has built-in breath protection.",
+  "description" : "A helmet worn by elite ^#b0e0fc;alta^reset; forces. Has built-in ^#b0e0fc;breath protection^reset;.",
+  "longdescription" : "The visor in this helmet has an extended field of view to provide better clearance.",
+  "altaDescription" : "A prime forces helmet. Looks similar to varda captain's helmet, but with even more protection.",
 
   "price" : 1000, "rarity" : "Legendary",
   "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "level" : 6, "itemTags" : [ "tier6armour", "elite" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -13,6 +15,7 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
   "statusEffects" : [
     "ct_autoprotector",
     {
@@ -70,6 +73,16 @@
     // CRYSTAL (BROWN)
     { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
   ],
+
+  "presets" : {
+    "capital" : {
+      "shortdescription" : "Imperial Guard Armor", "itemTags" : [ "tier6armour", "elite", "alta_capital" ], "alkey" : "Avari Grom", "colorIndex" : 11,
+      "description" : "Worn by ^#b0e0fc;elite guards^reset; protecting different ^#b0e0fc;alta capitals^reset; around Io.",
+      "longdescription" : "While similar in characteristics to the original model, this one has alternative markings to signify its belonging.",
+      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to evry varda out there."
+    }
+  },
+  "alkey" : "Prime Grom",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -77,7 +77,10 @@
     "description" : "\nA mask worn by Protea - a staris ^#b0e0fc;alta^reset; scout known for her vigilance and agility. Hairs on the back are made of ^#ffa8e8;stardust^reset;.",
     "longdescription" : "This brings the gathered energy levels to a maximum, powering the whole protosystem almost instantly.",
     "price" : 1060, "rarity" : "Legendary",
-    "statusEffects" : [ "ct_omniblue_vision", "ct_autoanalyzer" ],
+    "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
+    "statusEffects" : [ "ct_omniblue_vision", "ct_autoanalyzer", { "stat" : "breathProtection", "amount" : 1.0 } ],
+    "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
+      "#383c50":"#c060fc","#24283c":"#8020f0","#101428":"#5000c0"},
     "leveledStatusEffects" : [
       {
         "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",

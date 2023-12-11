@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_gheatsyn_tea",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_gheatsyn_tea.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
   "shortdescription" : "Gheatsyn Tea",
+  "description" : "A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
+  "longdescription" : "This tea is also the main ingredient in multiple popular alta cocktails, sodas and lemonades due to its disctint taste and ease of preparation.",
+  "altaDescription" : "This is very nice to mix with a couple of spices and enjoy with some freshly baked cookies.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "tea", "gheatsyn" ],
+  "inventoryIcon" : "ct_gheatsyn_tea.png",
   "effects" : [ [
     {
         "effect" : "lightaugment2",
@@ -13,23 +14,31 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_natal_punch", "ct_minto_spice", "ct_rimar_motsu" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Gheamont",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
-      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ]
+  "variants" : [ "gheamont" ],
+  "presets" : {
+    "gheamont" : {
+      "shortdescription" : "Gheamont ^#20f080;^reset;",
+      "description" : "Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
+      "longdescription" : "The mix is much more complicated than with a regular gheatsyn tea, and requires a set of roasted spices to prepare.",
+      "altaDescription" : "Perfect. Now to get myself some cookies, a cozy blanket and some ionic rain outside.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ], "variant" : true, "alkey" : "Gheamont",
+      "paletteSwap" : {"#d4ff5a":"#b3ff5a","#b7f601":"#85f601","#8dbd01":"#67bd01",
+      "#c2dc48":"#dc7f48","#8ab120":"#a6b120","#598629":"#6b8629","#2b5414":"#14544a"}
+    },
+    "alien" : {
+      "shortdescription" : "Ciranga Tea",
+      "description" : "Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
+      "longdescription" : "The mix is much more complicated than with a regular gheatsyn tea, and requires a set of roasted spices to prepare.",
+      "altaDescription" : "Perfect. Now to get myself some cookies, a cozy blanket and some ionic rain outside.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Ciranga Chi",
+      "paletteSwap" : {"#d4ff5a":"#ffdf5a","#b7f601":"#f6c701","#8dbd01":"#bd9801",
+      "#c2dc48":"#489fdc","#8ab120":"#2068b1","#598629":"#294386","#2b5414":"#141c54"}
     }
-  ]
+  }, "alkey" : "Gheatsyn Chi"
 }

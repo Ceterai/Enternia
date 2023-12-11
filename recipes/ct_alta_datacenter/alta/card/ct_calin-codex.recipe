@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "ct_cards_welcome-codex", "count" : 1 }
+    { "item" : "ct_cards_welcome-codex", "count" : 1 },
+    { "item" : "ct_elin-codex", "count" : 1 }
   ],
   "output" : { "item" : "ct_calin-codex", "count" : 1 },
   "groups" : [ "alta_codex", "codex", "card", "all" ]

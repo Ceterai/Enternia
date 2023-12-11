@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_yaarizza.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. Yaara roots make this pizza satisfyingly crunchy.",
   "shortdescription" : "Yaarizza Slice",
+  "description" : "Yaara roots make this pizza satisfyingly crunchy.",
+  "longdescription" : "The overall recipe follows classic alta pizza preparation, including runeva cheese and some herbs and spices.",
+  "altaDescription" : "Just because something was made out of yaara, doesn't mean that it's alive.",
   "effects" : [ [
     {
         "effect" : "regeneration2",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "pizza", "yaara" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -27,11 +29,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail", "ct_palopias" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Yaarizza Extra Toppings Slice",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
+  "variants" : [ "extra" ],
+  "presets" : {
+    "extra" : {
+      "shortdescription" : "Yaarizza Extra Toppings Slice", "variant" : true,
+      "description" : "This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
+      "longdescription" : "The recipe itself is not much different from the original, with the only signeficant change being extra generosity.",
+      "altaDescription" : "The flavor and texture are oozing from the sides! Be careful not to get it on your clothes!",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
     }
-  ]
+  }
 }

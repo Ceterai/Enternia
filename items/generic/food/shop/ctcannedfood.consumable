@@ -13,12 +13,13 @@
   "rottingMultiplier" : 10,
   "blockingEffects" : [ "wellfed" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Canned Altasoup Extra Size",
+  "variants" : [ "extra" ],
+  "presets" : {
+    "extra" : {
+      "shortdescription" : "Canned Altasoup Extra Size", "variant" : true,
       "description" : "This extra size can contains 50% more tastiness!",
       "longdescription" : "Hopefully the core balance is there as well.",
       "level" : 4, "rarity" : "Uncommon", "price" : 520, "foodValue" : 50
     }
-  ], "alkey" : "Jett Altamisu"
+  }, "alkey" : "Jett Altamisu"
 }

@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_alliana_cake.png",
-  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This delicious cake is named after the first and the biggest ^#b0e0fc;alta^reset; capital and its empress.",
   "shortdescription" : "Alliana Cake",
+  "description" : "This delicious cake is named after the first and the biggest ^#b0e0fc;alta^reset; capital and its empress.",
+  "longdescription" : "The layers are mostly souffle-based with soft, wet sweet aya dough as foundation.",
+  "altaDescription" : "A deliciousness you would by for something like a love party!",
   "effects" : [ [
     {
         "effect" : "ct_velocity_jump",
@@ -21,7 +23,7 @@
     }
   ] ],
   "foodValue" : 100,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "cake", "dessert" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -30,19 +32,26 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
+  "variants" : [ "orchid", "love" ],
+  "presets" : {
+    "orchid" : {
       "chance" : 0.3,
       "shortdescription" : "Orchid Cake",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This cake smells like orchids! Did you add something to it? A secret ingredient perhaps?",
+      "description" : "This cake smells like orchids! Did you add something to it? A secret ingredient perhaps?",
+      "longdescription" : "The \"secret\", contrary to popular belief - are not actual orchids, since they aren't very coomon on alterash planet. Here, a big role is played by ayaka sap-based topping, as well as miko koywa extract.",
+      "altaDescription" : "A cake you would usually gift to a person very special to you, in case they have a party, like for a birthday!",
       "inventoryIcon" : "/items/generic/food/other/images/ct_trans_cake.png",
+      "variant" : true, "alkey" : "Orhidea Ovak",
       "effects" : [ [ { "effect" : "runboostfood", "duration" : 500 }, { "effect" : "ct_velocity_jump", "duration" : 500 } ] ]
     },
-    {
+    "love" : {
       "chance" : 0.1,
       "shortdescription" : "Alliana's Love ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. The empress loves and cares for you! Though this cake can't express it fully, this time it got very close.",
+      "description" : "The empress loves and cares for you! Though this cake can't express it fully, this time it got very close.",
+      "longdescription" : "This recipe is incredibly hard to replicate, with only few being able to create it perfectly. After all, feelings are a presonal thing, that you can't just take and copy.",
+      "altaDescription" : "A piece of culinary poetry, that's very hard to decypher.",
+      "variant" : true, "alkey" : "Alliana Muai",
       "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 120
     }
-  ]
+  }, "alkey" : "Alliana Ovak"
 }

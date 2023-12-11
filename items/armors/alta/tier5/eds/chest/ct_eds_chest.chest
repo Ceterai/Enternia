@@ -2,10 +2,12 @@
   "itemName" : "ct_eds_chest",
   "shortdescription" : "^#f02020;EDS^reset; Body Armor",
   "description" : "An ^#f02020;EDS^reset; armor upgrade for ^#b0e0fc;alta^reset; security units. Now has Life Support module integrated, although half as powerful as the Security Pack.",
+  "longdescription" : "It compensates lesser effect with mobility and protection, as well as a freen back slot.",
+  "altaDescription" : "You do feel quite safe in stuff like this, especially with all the life support systems.",
 
   "price" : 1600, "rarity" : "Rare",
   "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour", "eds" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -73,6 +75,39 @@
     // CRYSTAL (BROWN)
     { "551b1b" : "366388", "762222" : "4e8fb8", "a42b2b" : "76c7e4", "ca002b" : "c9eef6" }
   ],
+
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Thermoarmor ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1680,
+      "description" : "A power ranger body protection often used by riverside alta scouts.",
+      "longdescription" : "A fireblast material is covering most of this chestpiece's surface to protect from dangerous environment.",
+      "altaDescription" : "You can look like a camouflaging EDS soldier with this helmet.", "alkey" : "Gaush Gard",
+      "paletteSwap" : {"#707088":"#9abdb9","#606074":"#83a8a4","#404050":"#5d8c86","#2c2c34":"#39524f","#202028":"#262539","#101014":"#262539",
+        "#551b1b":"#606074", "#a42b2b" : "#707088"},
+      "statusEffects" : [ "ct_enviro_protection" ],
+      "leveledStatusEffects" : [
+        { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.275 },
+        { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.5 },
+        { "levelFunction" : "standardArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 4 },
+        { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 6.5 }
+      ],
+      "colorOptions" : [
+        { "551b1b" : "c05c00", "762222" : "f08e20", "a42b2b" : "fcca60", "ca002b" : "fce5b0" },
+        { "551b1b" : "8fc000", "762222" : "c5f020", "a42b2b" : "f3fc60", "ca002b" : "f9fcb0" },
+        { "551b1b" : "00c063", "762222" : "20f081", "a42b2b" : "60fc91", "ca002b" : "b0fcc7" },
+        { "551b1b" : "009cc0", "762222" : "20d3f0", "a42b2b" : "60fcf9", "ca002b" : "b0fcf9" },
+        { "551b1b" : "c00003", "762222" : "f0202d", "a42b2b" : "fc6082", "ca002b" : "fcb0c2" },
+        { "551b1b" : "c07000", "762222" : "f08f20", "a42b2b" : "fc9c60", "ca002b" : "fcccb0" },
+        { "551b1b" : "c0af00", "762222" : "f0d420", "a42b2b" : "fcd060", "ca002b" : "fce5b0" },
+        { "551b1b" : "03c000", "762222" : "2df020", "a42b2b" : "82fc60", "ca002b" : "c2fcb0" },
+        { "551b1b" : "001cc0", "762222" : "2049f0", "a42b2b" : "6096fc", "ca002b" : "b0ccfc" },
+        { "551b1b" : "7c00c0", "762222" : "9d20f0", "a42b2b" : "a660fc", "ca002b" : "d1b0fc" },
+        { "551b1b" : "c00069", "762222" : "f0209b", "a42b2b" : "fc60d4", "ca002b" : "fcb0ea" },
+        { "551b1b" : "366388", "762222" : "4e8fb8", "a42b2b" : "76c7e4", "ca002b" : "c9eef6" }
+      ]
+    }
+  },
+  "alkey" : "EDS Gard",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

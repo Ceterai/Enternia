@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_palopias.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A flowery dish full of color and flavor. Often has a fortune hidden in one of the flowers!",
   "shortdescription" : "Palopias",
+  "description" : "A flowery dish full of color and flavor. Often has a fortune hidden in one of the flowers!",
+  "longdescription" : "This fine meal has every flower prepared separately, and decorated for proper presentation. A home-cooked version often comes in a salad-like form instead.",
+  "altaDescription" : "It's hard to choose where to start.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "meal" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,14 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Blooming Palopias ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
+  "variants" : [ "blooming" ],
+  "presets" : {
+    "blooming" : {
+      "shortdescription" : "Blooming Palopias ^#8020f0;^reset;", "variant" : true,
+      "description" : "A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
+      "longdescription" : "This recipe is quite special in that it requires certain ingredients to be in a very specific stage of their lifecycle, which isn't always easy to achieve.",
+      "altaDescription" : "A delicacy full of tasty yaara flowers. Exquisite!",
       "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
     }
-  ]
+  }
 }

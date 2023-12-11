@@ -1,0 +1,83 @@
+{
+  "id" : "ct_love",
+  "title" : "Little Star and Her Ray Of Light",
+  "description" : "An ebook containing a story about love between two unexpected beings and a hopeful happy ending.",
+  "longdescription" : "This story shows the destructive power of radiation and its effects on stardust, which are the reason for the existance of manu phospholion-related regulations.",
+  "altaDescription" : "I've heard this story is about a real asta, who once met an actual time drifter, thinking it's a ray of light. Very lovely.",
+  "icon" : "ebook/stardust.png",
+  "contentPages" : [
+
+    "One day, while plowing through the endless expanses of Io, a little star saw a mysterious ray of light in the distance.
+
+He didn't come from anywhere and didn't go anywhere. He just hovered in place and seemed to watch the flow of stars.
+
+Little Star had never seen rays standing still, not rushing somewhere far away until they were reflected a whole bunch of times and dissolved in the darkness.",
+
+"Surprised to the core, she could not help but take a look.
+
+Having flown closer to the ray, she began asking him - who is he? Where is he from? Why isn't he flying anywhere?
+
+But the ray did not seem to notice her. Or he simply wasn't paying attention. Or maybe he deliberately ignored her altogether?",
+
+"The little star felt sad, and she got a little angry with him. \"Fine then! I'll go on traveling. And you sit here, I don't care!\" - she said angrily and flew away.
+
+But the little ray did not ignore her. And he noticed her a long time ago, and immediately paid attention.",
+
+"But the ray itself was not like everyone else, unlike ordinary rays. He came from very, very distant lands, and had never seen such a beautiful and interesting star, and therefore simply did not know how to react.
+
+You can't just go and... talk to her! What if she doesn't understand? Or even worse - what if she won't like the ray?",
+
+"And even when the star hovered around him, bombarding him with questions, he could not bring himself to answer her somehow.
+The reason for this was not only shyness, but also the very nature of the little ray: he was used to simply observing things from afar and not interfering in their lives, and it was very difficult for him to do otherwise, even when the star itself flew up and greeted him.",
+
+"It's just a pity that the star didn't understand this. She flew away, afraid to look back and see that the ray was still standing still.
+
+But the little ray understood her. And with every second of distance he became sadder and sadder. What if... that's it?
+
+What if this was the last time that little star spoke to him? What if he never sees her again?..",
+
+"The little ray thought about that for a long time, until every thought about her made him feel sad.
+
+And so, at some point the ray could no longer stand it. He turned in the direction in which the star had flown, and, although he could no longer see her in the cosmic canvas, he rushed forward with incredible, unprecedented speed. At the speed of... a ray of light.",
+
+"And he had to fly a lot. Fly, search, find, because a star is not a ray of light, she did not like to sit still, or just fly in a straight line. She jumped from planet to planet, from asteroid to asteroid, ran across vast fields, hid in caves, swam in rivers, rushed through the forests.
+Her way of life was very different from the ray's, and that was why it was so difficult for him to find her. But the little ray did not give up.",
+
+"And suddenly the ray saw a familiar flicker.
+
+Even though he was very tired after a long flight, he seemed to get his second wind and sharply rushed towards the star. It was her, it really was her!
+
+But it looked like she needed help.",
+
+"The star was dying. That careless silly girl flew through radioactive phosphoion arrays and fell onto the nearest planet, slowly losing its stardust, crumbling and scattering in the wind.",
+
+"\"How... dark...\" she said in response to the little ray's joyful greeting, and he immediately realized that she felt bad.
+
+\"I'll help,\" he said, although he had never really helped anyone that much before.
+
+And even though he didn't know exactly how to help the little star, he decided that he would give her a piece of himself.",
+
+"\"Only darkness... And nothing... else...\" the star quietly suffered.
+
+\"Then... I will be your light.\" - whispered the little ray and... kissed her. The star quieted down a little, and the ray became worried.
+
+He began to rush around her and collect stardust that had already scattered. He brought it to the star and noticed that no more dust flew off her.",
+
+"Filled with hope, he gave the remaining dust to the star and hugged her tightly.
+
+\"Thank you...\" the powerless star said quietly, and also hugged him back. \"Stay with me,\" she asked, \"please. At least for a little while.\"
+
+The little ray, glowing with excitement, agreed. \"I will stay, but I will have to go.",
+
+"I'm sorry that I won't be able to travel with you, but I promise to forever light your path, so that you...
+
+...won't have to ever be afraid.\""
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 240, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 7,
+      "itemTags" : [ "data_source", "ebook", "love", "tiana", "lenn" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

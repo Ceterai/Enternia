@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_biomix_icecream", "count" : 1, "parameters" : { "preset" : "virma" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "food", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_elite_chest", "count" : 1, "parameters" : { "preset" : "capital" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "armor", "body", "all" ]
+}

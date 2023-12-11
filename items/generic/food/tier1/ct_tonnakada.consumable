@@ -1,33 +1,35 @@
 {
   "itemName" : "ct_tonnakada",
-  "level" : 2, "rarity" : "Common", "price" : 280,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_tonnakada.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A properly cooked ^#c1ebf8;tonna^reset; fresh from a fully grown ^#c1ebf8;tonnova^reset;!",
   "shortdescription" : "Tonnakada",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 60
-    }
-  ] ],
+  "description" : "A properly cooked ^#c1ebf8;tonna^reset; fresh from a fully grown ^#c1ebf8;tonnova^reset;!",
+  "longdescription" : "Like many kadas, this one takes advantage of each part of a tonna separately to make a dish that tastes completely different.",
+  "altaDescription" : "Nice and self-contained. I can hold it with my bare hands, which is very convenient.",
+  "level" : 2, "rarity" : "Common", "price" : 280, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "kada", "tonna" ],
+  "inventoryIcon" : "ct_tonnakada.png",
+  "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 60 } ] ],
   "foodValue" : 20,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ],
-
-  "variants" : [
-    {
+  "variants" : [ "split" ],
+  "presets" : {
+    "split" : {
       "shortdescription" : "Tonnakada Split",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
+      "description" : "A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
+      "longdescription" : "Interesting how extra effort can result in a different taste and an even more enticing presentation.",
+      "altaDescription" : "I think I will need a napkin for this one.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 380, "foodValue" : 24, "variant" : true, "alkey" : "Tonnakadia",
+      "paletteSwap" : {"#f4fafd":"#f4f5fd","#acdcec":"#acbaec","#10b4ef":"#6378c0","#106686":"#108586","#103f50":"#105050","#102b35":"#919fd5"}
+    },
+    "virma" : {
+      "shortdescription" : "Virmakada",
+      "description" : "A kada made out of the ^#3587ff;aya virma^reset; ivy. Tastes nice until you realise that it fooled you. Again.",
+      "longdescription" : "Soury virma cream and succulent juices make this an especially interesting dish to taste, including the tentacle parts.",
+      "altaDescription" : "But why though? I mean, it's tasty and everything, but, like, what if it comes alive?",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Virmakada",
+      "paletteSwap" : {"#f4fafd":"#d8477a","#acdcec":"#a92b58","#10b4ef":"#11af9c","#106686":"#10865d","#103f50":"#105048","#102b35":"#103531"}
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Cooked Tonna" : { } } }, "alkey" : "Tonnakada"
 }

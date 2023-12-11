@@ -1,15 +1,17 @@
 {
   "itemName" : "ct_elite_generator",
-  "shortdescription" : "Elite Imperial Generator ^#8020f0;^reset;",
+  "shortdescription" : "Elite Generator ^#8020f0;^reset;",
   "description" : "Generates ^#b0e0fc;alta^reset; Imperial Aura, providing the wearer with its benefits. Provides a life support system. Has an augment slot.",
+  "longdescription" : "To provide enough energy to power the entire range with its aura, the generator uses multiple energy cores in its blueprint.",
+  "altaDescription" : "I can feel safer under the frotective aura of this thing.",
 
   "level" : 6, "price" : 680, "rarity" : "Legendary",
   "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",  "maxStack" : 1,
-  "race" : "alta",
+  "race" : "alta", "itemTags" : [ "tier6armour", "elite", "patriotic" ],
 
   "pickupQuestTemplates" : [ ],
   "acceptsAugmentType" : "back",
-  "radioMessagesOnPickup" : [ "pickupepp" ],
+  "radioMessagesOnPickup" : [ "ct_alta_back_armor_msg" ],
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",
@@ -46,6 +48,17 @@
     // CRYSTAL (BROWN)
     { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
   ],
+
+  "presets" : {
+    "capital" : {
+      "shortdescription" : "Imperial Generator ^#8020f0;^reset;", "itemTags" : [ "tier6armour", "elite", "alta_capital", "patriotic" ],
+      "alkey" : "Avari Niacor", "colorIndex" : 10,
+      "description" : "Worn by ^#b0e0fc;elite guards^reset; protecting different ^#b0e0fc;alta capitals^reset; around Io.",
+      "longdescription" : "While similar in characteristics to the original model, this one has alternative markings to signify its belonging.",
+      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to evry varda out there."
+    }
+  },
+  "alkey" : "Prime Niacor",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

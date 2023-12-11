@@ -1,0 +1,50 @@
+{
+  "id" : "ct_alta_capital",
+  "title" : "Alta Capitals",
+  "description" : "An ebook giving an insight into the infrastructure of the biggest of alta cities.",
+  "longdescription" : "While alta capitals are considered to be categorically different from regular alta cities, they are a direct upgrade to the latter.",
+  "altaDescription" : "Reading this gives you a pretty good understanding of just how protected capitals are.",
+  "icon" : "ebook/stardust.png",
+  "contentPages" : [
+
+    "The capital ^#b0e0fc;alta cities^reset; are massive metropolises, where the a tall ^#b0e0fc;alta citadel^reset; serves as the administrative center.
+
+The structure of such cities most often resembles fortresses, with several layers of defense, most often in the form of defensive walls, dividing the cities into \"rings\", generally octagonal in shape.",
+
+"Thus, the borders of the capitals are also surrounded by a wall, also called the \"first line of defense\". All subsequent lines are named in a similar way.
+
+Each defense line is equipped with a higher level of protection and is most often guarded by special ^#b0e0fc;elite guards^reset;. In addition, so-called ^#b0e0fc;\"imperial generators\"^reset; are evenly distributed along the lines of the walls, propagating special energy waves over a long distance.",
+
+"These waves increase the effectiveness of alta equipment and thereby strengthen all the guards on the line.
+
+A similar effect is achieved through the use of portable ^#b0e0fc;elite generators^reset;.
+
+In addition to elite guards, capital cities are guarded by ^#b0e0fc;elite drones^reset; and various ^#b0e0fc;elite droids^reset;, including ^#b0e0fc;elite androids^reset; capable of autonomously enhancing themselves and surrounding defenders.",
+
+"^#b0e0fc;Metrocops^reset; and ^#b0e0fc;medics^reset; are equipped with auxiliary equipment that allows them to easily move from rooftop to rooftop and quickly arrive to hard-to-reach places.
+
+All protective forces and law enforcement officers work harmoniously together to ensure the safety and comfortable life of all capital citizens.",
+
+"The capital itself is filled with life. Similar in infrastructure and atmosphere to other alta cities, it is replete with starry colors instead of the usual crystalline hue.
+
+This is because the crystal gardens in alta capitals are usually filled with ^#ffa8e8;stardust crystals^reset; instead of regular ones.
+The situation is similar with vegetation - very often along the capital streets and among the capital parks you can find ^#ffa8e8;blossoming ayakas^reset; and even ^#ffa8e8;stardust ayakas^reset;.",
+
+"It is in the capitals that new trends are most often formed and the most popular modeling and entertainment companies are based.
+
+And although fashion is considered a rather small industry in ^#b0e0fc;alta culture^reset;, the same cannot be said about entertainment and leisure.
+
+Endless clubs, entertainment centers and friend circles, as well as constant events and gatherings fill the city with joy and fun.",
+
+"In addition to social life in alta capitals, just as in other alta cities, there is a high level of social responsibility.
+
+Volunteer altas engaged in regular cleaning, general errands and simply helping other altas, are the pride of the community and very often form social associations, promoting cleanliness, order and understanding, and with the support of administrative forces help build a bright future for each alta."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 6,
+      "itemTags" : [ "data_source", "ebook", "alta_capital" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

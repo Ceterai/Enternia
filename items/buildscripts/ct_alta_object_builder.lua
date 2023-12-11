@@ -12,10 +12,8 @@ function build(directory, config, parameters, level, seed)
 
   -- Item stats
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
-  config.colonyTags = config.colonyTags or {}
-  if configParameter("race") then table.insert(config.colonyTags, configParameter("race")) end
-  table.insert(config.colonyTags, configParameter("rarity"))
-  if configParameter("elementalType") then table.insert(config.colonyTags, configParameter("elementalType")) end
+  config.colonyTags = getTags(configParameter("colonyTags", {}), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
+  config.radioMessagesOnPickup = getPickupMsgs(configParameter("radioMessagesOnPickup", {}), config.colonyTags)
 
   -- Basic stats (Health, Tags, Slots, Drop Warning)
   if configParameter("smashOnBreak", false) or configParameter("smashable", false) then
@@ -31,7 +29,7 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.lightLabel = "^#" .. table.concat(light) .. ";^reset;"
   end
   config.tooltipFields.tagsTitleLabel = "Tags:"
-  config.tooltipFields.tagsLabel = "^gray;" .. table.concat(configParameter("colonyTags", {}), ", ") .. "^reset;"
+  config.tooltipFields.tagsLabel = "^gray;" .. table.concat(config.colonyTags, ", ") .. "^reset;"
   config.tooltipFields.healthTitleLabel = "Health:"
   config.tooltipFields.healthLabel = configParameter("health", 1) * 10
 

@@ -1,0 +1,36 @@
+{
+  "id" : "ct_nivera",
+  "title" : "Nivera Cultivation",
+  "description" : "A poster promoting cultivation of ^#9b2d3f;nivera^reset; plants to ^#b0e0fc;alta gardeners^reset;. It describes the process and profits of it.",
+  "longdescription" : "It was made as part of an initiative of getting altas familiar with warped nature and popularizing the topic of ^#9b2d3f;warped containment^reset;.",
+  "altaDescription" : "While I'm a bit cautious, nivera plants can be quite useful in medicine I think, so these kinds of things are definitely worth the effort.",
+  "icon" : "paper/warped.png",
+  "contentPages" : [
+
+    "\"Why would you cultivate a nivera plant?\" you might ask, dear sister.
+
+The answer to thatis relatively simple - to expand our knowledge of the warped phenomenon, but most importantly - to improve our medicine in the process!
+
+Nivera plants are a valuable resource as they are already, with their venom in tiny doses being used in many technical products.",
+
+"It also shows huge potential for usage in various medicine, an as such, nivera cultivation should lead to new discoverings and research, as well as developing safe variations of nivera, full on medical ingredients!
+
+If you wish to be a part of this new initiative, sign up for free nivera samples and join our nivera cultivation master class!",
+
+"And if you want to proceed on your own, please find appropriate instructions and protocol references on the back of the poster.
+
+For Alliana!"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "datamass", "warped" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "related" : {
+      "### [[ Codexes ]]" : [ "A Sentia's Crown", "Glowing Kingdom", "Warped Containment" ]
+    }
+  }
+}

@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_cake.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A delicious layered cake with yaara flower topping. There's a rare chance you'll get ceternia core out of it.",
   "shortdescription" : "Onitti Cake",
+  "description" : "A delicious layered cake with yaara flower topping. Legends says there's a rare chance you'll get ceternia core out of it.",
+  "longdescription" : "The process of preparation includes quite a lot of yaara fibres and petals, which sometimes might result in some ceternia essence transfering to the cake.",
+  "altaDescription" : "A nicely-sized portioned caked that you can by either for yourself, or for a group of friends!",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 70,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cake", "dessert" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,15 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
+  "variants" : [ "love" ],
+  "presets" : {
+    "love" : {
       "shortdescription" : "Elin's Love ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. Multiple layers of pure love and care for all ^#b0e0fc;altas^reset; in existance. It melts your heart with essence of love.",
+      "description" : "Multiple layers of pure love and care for all ^#b0e0fc;altas^reset; in existance. It melts your heart with essence of love.",
+      "longdescription" : "This advanced recipe makes sure you put a lot of effort in it to achieve perfection.",
+      "altaDescription" : "I've heard that this is momma Elin's own recipe. Very exciting!",
+      "variant" : true, "alkey" : "Elin Muai",
       "level" : 6, "rarity" : "Legendary", "price" : 1480, "foodValue" : 90
     }
-  ]
+  }, "alkey" : "Onitti Ovak"
 }

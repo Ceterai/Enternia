@@ -3,16 +3,14 @@
   "title" : "Guide to My Enternia",
   "description" : "Contains a small list of things you can get/do to consider the 'My Enternia' mod played through.",
   "icon" : "ebook/basic.png",
-  "contentPages" : [
+  "contentPages" : [  // https://github.com/Ceterai/Enternia/wiki/Factions
 
-    "             MY ENTERNIA
-
-             A MOD GUIDE
+    "                       MY ENTERNIA
+                       A MOD GUIDE
 
 Here's a list of stuff you could try to achieve!
 
 - [ ] Craft the ^orange;Alta Crafting Station^reset;! Need to start with something, and this neat little table will give you a way around it! ^gray;Can be found in tier 1 Inventor's Table.^reset;
-
 - [ ] ^gray;Max it out!^reset; Welp, not so easy now, huh. Might want to explore? ^gray;Datamasses can be found in random chests or in Alta Datacenter.^reset;",
 
 "EXPLORE: ALTERASH (T3-4)
@@ -35,10 +33,48 @@ Here's a list of stuff you could try to achieve!
 
 - [ ] Those Alternia Set parts require some potent ^#2080f0;Alternia Shards^reset;! ^gray;Can be found in Hevika Caves on alterash prime planets.^reset;
 
-- [ ] Let all that ^#8020f0;Enterite^reset; send you to sleep, Dreamer! ^gray;Can be found on asteroids of alterash prime planets.^reset;"
+- [ ] Let all that ^#8020f0;Enterite^reset; send you to sleep, Dreamer! ^gray;Can be found on asteroids of alterash prime planets.^reset;",
+
+"MOD CONCEPTS AND FACTIONS
+
+^#b0e0fc;Alta^reset;
+Altas are an artificial humanoid species that can commonly be found around ^#20f080;alterash^reset; planets. These bionic creatures are primarily focused on crystal-related research.
+
+^#ffa8e8;Io^reset;
+Io is a type of celestial environments high on electric charges and ^#ffa8e8;stardust^reset;. This is where planets like ^#20f080;alterash^reset; are usually forming. Altas consider Io to be a its own being, rather than a vague area in space.",
+
+"^#20f080;Yaara^reset;
+Yaara Groves are huge underground megaplants, that spread into large disctances and form their own microclimate with different plants and creatures inside.
+
+^#9b2d3f;Warped^reset;
+A constantly spreading plant-like matter, that \"warps\" the surroundings it contaminates. Can often be quite poisonous, and, in some cases, bioluminescent.",
+
+"^#8080f0;Enchanted^reset;
+Also known as Viona, enchanted areas are anomalous places where different types of energy merge and combine, creating a highly unstable environment.
+
+^#f02020;EDS^reset;
+A militaristic alta faction centered around protecting altas against various threats. Lately, something went wrong with their command centers, leading to defensive technology going rogue.",
+
+"^#ffe364;Faradea^reset;
+A freedom-loving faction of mercenaries, rarely found in the wild. Unlike most altas, faradea mercs' lifestyle revolves around roaming the plannet, scavenging for treasure.
+
+^#6f6c66;Astera^reset;
+The rare asteroids beyond the stardust eva sky, that hide rare, yet powerful treasure.",
+
+"Since altas are a very research-centered species, you will find many scientific alta factions along the way. For example:
+
+- ^#f08f20;A.R.C.O.^reset;
+- ^#a7e001;Ghearun^reset;
+- ^#0050c0;Hevika Ordis^reset;
+- ^#b0e0fc;Tserera^reset;
+- ^#8020f0;Neiteru-1^reset;
+- ^#20f080;Yava Gyera Ordis^reset;
+- ^#2080f0;Project C.T.^reset;
+"
 
   ],
   "itemConfig" : {
+    "radioMessagesOnPickup" : [ "ct_my_enternia_msg" ],
     "itemTags" : [ "data_source", "ebook" ],
     "rarity" : "Rare",
     "price" : 40

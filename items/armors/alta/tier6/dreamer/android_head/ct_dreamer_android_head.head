@@ -5,7 +5,7 @@
 
   "price" : 1060, "rarity" : "Legendary",
   "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "level" : 6, "itemTags" : [ "tier6armour", "dreamer" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -13,8 +13,9 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
   "statusEffects" : [
-    "ct_autoanalyzer"
+    "ct_autoanalyzer", { "stat" : "breathProtection", "amount" : 1.0 }
   ],
 
   "leveledStatusEffects" : [

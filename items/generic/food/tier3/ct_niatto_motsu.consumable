@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_niatto_motsu.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A regular herb-based ^#b0e0fc;alta^reset; soup but based on nia ingredients.",
   "shortdescription" : "Niatto Motsu Soup",
+  "description" : "A regular herb-based ^#b0e0fc;alta^reset; soup but based on nia ingredients.",
+  "longdescription" : "Prepared with a cross-cuisine twist in mind, this motsu still falls under the milk-herb soup and does follow the taste range well too.",
+  "altaDescription" : "A classic nia motsu. I know that there are tons of variations of it, generally called nitsus for short.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "motsu", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -28,11 +30,14 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_nia_cocktail", "ct_ion_risotto" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Niatto Motsu",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A perfectly crafted motsu based on nia ingredients.",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Niatto Motsu", "variant" : true,
+      "description" : "A perfectly crafted motsu based on nia ingredients.",
+      "longdescription" : "This recipe is not very different from the original, however, it does happen to feature a great ingredient balance, making perfectly following the recipe very worth it.",
+      "altaDescription" : "You might not notice the difference at first, because it's pretty subtle. And pretty satisfying.",
       "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
-  ]
+  }
 }

@@ -18,6 +18,12 @@
     "shield" : "images/ct_kinetic_shield.png"
   },
   "animationCustom" : {
+    "globalTagDefaults" : { "paletteSwaps" : "" },
+    "animatedParts" : { "parts" : { "shield" : { "partStates" : { "shield" : {
+      "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
+      "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
+      "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
+    } } } } },
     "sounds" : {
       "init" : [ ],
       "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
@@ -50,7 +56,7 @@
   "minActiveTime" : 0.2,
 
   "forceWalk" : true,
-  "baseShieldHealth" : 24,
+  "baseShieldHealth" : 28,
   "cooldownTime" : 0.45,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
@@ -75,6 +81,21 @@
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
+  "presets" : {
+    "red" : {
+      "shortdescription" : "Red Kinetic Shield",
+      "paletteSwap" : {"#0050c0BF":"#c00010BF","#2080f0BF":"#f0203bBF","#60c0fcBF":"#fc608cBF","#b0e0fcBF":"#fcb0c7BF"}
+    },
+    "orange" : {
+      "shortdescription" : "Orange Kinetic Shield",
+      "paletteSwap" : {"#0050c0BF":"#c07f00BF","#2080f0BF":"#f0a020BF","#60c0fcBF":"#fca960BF","#b0e0fcBF":"#fcd2b0BF"}
+    },
+    "strong" : {
+      "shortdescription" : "Strong Kinetic Shield ^#2080f0;^reset;", "price" : 520, "baseShieldHealth" : 32,
+      "paletteSwap" : {"#0050c0BF":"#00a6c0BF","#2080f0BF":"#20dff0BF","#60c0fcBF":"#60fcf2BF","#b0e0fcBF":"#b0fcf5BF"}
+    }
+  },
+
   "upgradeParameters" : {
     "inventoryIcon" : "ct_kinetic_shield.png",
     "animationParts" : { "shield" : "images/ct_kinetic_shield.png" },
@@ -82,6 +103,7 @@
     "description" : "A shield made of pure energy has been enhanced with ^#ffa8e8;stardust^reset;. How much energy is too much energy?",
     "longdescription" : "Its projecting device is now a sunject to overcharges, but thankfully, due to the proper use of ^#b0e0fc;overlocks^reset;, this energy gets dispersed and adds onto the shield's power level.",
     "price" : 520, "rarity" : "Legendary",
+    "paletteSwap" : {"#0050c0BF":"#0f00c0BF","#2080f0BF":"#2620f0BF","#60c0fcBF":"#6072fcBF","#b0e0fcBF":"#b0bafcBF"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/magnorbs_fire7.ogg" ] } }
-  }, "alkey" : "Vinea Taum"
+  }, "alkey" : "Rinea Taum"
 }

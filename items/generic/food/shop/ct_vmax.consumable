@@ -18,9 +18,10 @@
     { "effect" : "maxenergyscalingboostfood", "duration" : 60 }
   ] ],
 
-  "variants" : [
-    {
-      "shortdescription" : "V-Max Plus",
+  "variants" : [ "plus" ],
+  "presets" : {
+    "plus" : {
+      "shortdescription" : "V-Max Plus", "variant" : true,
       "description" : "This edition of V-Max contains extra amount of vitamins!",
       "longdescription" : "Full focus on health, this drink was meant with sprot-related activities in mind. But, since alta organisms behave differently when it comes to sports, the reaction to non-bionicas might be a bit surprizing.",
       "level" : 5, "rarity" : "Rare", "price" : 240,
@@ -29,5 +30,5 @@
         { "effect" : "maxenergyscalingboostfood", "duration" : 65 }
       ] ]
     }
-  ], "alkey" : "Vita-M"
+  }, "alkey" : "Vita-M"
 }

@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_staris_soup.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A ^#ffa8e8;stardust^reset;-like taste experience! This dreamy aftertaste fills you with determination.",
   "shortdescription" : "Staris Soup",
+  "description" : "A ^#ffa8e8;stardust^reset;-like taste experience! This dreamy aftertaste fills you with determination.",
+  "longdescription" : "This recipe includes many cooked crystal plants, which gives a somewhat unusual taste for an alta soup.",
+  "altaDescription" : "A nice calin soup that might just suit your taste.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 50,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -26,11 +28,14 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Staris Soup ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "Perfect Staris Soup ^#8020f0;^reset;" : {
+      "shortdescription" : "Perfect Staris Soup ^#8020f0;^reset;", "variant" : true,
+      "description" : "A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
+      "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
+      "altaDescription" : "Something you would expect from a perfectly cooked dish.",
       "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
-  ]
+  }
 }

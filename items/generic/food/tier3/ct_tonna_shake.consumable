@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_tonna_shake.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
   "shortdescription" : "Tonna Shake",
+  "description" : "Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
+  "longdescription" : "A multistep process to achieve a milkshakey goodness in this case differs from a lot of classic alta shakes, as this one includes and additional step of baking the tonna to get proper milk consistency.",
+  "altaDescription" : "If you're into nia cuisine and are at a party, this choice is definitely for you. Don't forget to cover it in some jam! Gheatsyn one will work quite well.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 30,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "shake", "tonna" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -24,12 +26,15 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_nia_cocktail", "ct_tonna_split" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Tonna Shake",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A tonna milkshake made with the best baked tonnas around!",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Tonna Shake", "variant" : true,
+      "description" : "A tonna milkshake made with the best baked tonnas around!",
+      "longdescription" : "This shake has turned out really well. Experimenting does pay back pretty nicely sometimes.",
+      "altaDescription" : "It's extra-good! Yum...",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
       "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ]
     }
-  ]
+  }
 }

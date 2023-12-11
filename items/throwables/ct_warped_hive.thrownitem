@@ -1,14 +1,14 @@
 {
   "itemName" : "ct_warped_hive",
   "level" : 3, "rarity" : "Uncommon", "price" : 10, "elementalType" : "poison",
-  "itemTags" : [ "reagent", "nature", "warped" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "nature", "warped" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_warped_hive.png",
   "image" : "ct_warped_hive.png",
   "shortdescription" : "Warped Hive",
   "description" : "A hive of ^#9b2d3f;warped flies^reset;. These tiny poisonous creatures can become quite a threat when a hive is disturbed.",
   "longdescription" : "These hives can be grown like plants. Sometimes they can grow to enormous sizes, forming ^#9b2d3f;warped hive trees^reset;. These kinds of mutations are a natural process for all ^#9b2d3f;warped^reset; forms of life.\n\nThe hive seems is filled with delicious **warped honey**, often used by ^#b0e0fc;altas^reset; for cooking.",
   "altaDescription" : "It's full of poisonous insects. If'll throw it, I better make sure it lands somewhere far away from me.",
-  "foundOn" : [ "^#20f080;Alterash^reset; ^gray;deep caves^reset;" ],
+  "foundIn" : [ "^#20f080;Alterash^reset; ^gray;deep caves^reset;" ],
 
   "ammoUsage" : 1,
 

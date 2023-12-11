@@ -2,18 +2,23 @@
   "itemName" : "ct_elite_legwear",
   "shortdescription" : "Elite Energy Greaves",
   "description" : "This ceternia-enhanced legwear reduses any falldamage by 75%.",
+  "longdescription" : "Made with defence in mind, these greaves are designed to do everything possible to protect the wearer's legs and ensure their survival.",
+  "altaDescription" : "Wearing these feels like you're operating a mini-mech of sorts.",
 
   "price" : 700, "rarity" : "Legendary",
   "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "level" : 6, "itemTags" : [ "tier6armour", "elite" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ],
   "statusEffects" : [
-    "ct_longfall"
+    "ct_longfall",
+    { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 0.85 },
+    { "stat" : "knockbackThreshold", "amount" : 3.0 }
   ],
 
   "leveledStatusEffects" : [
@@ -65,6 +70,16 @@
     // CRYSTAL (BROWN)
     { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
   ],
+
+  "presets" : {
+    "capital" : {
+      "shortdescription" : "Imperial Greaves", "itemTags" : [ "tier6armour", "elite", "alta_capital" ], "alkey" : "Avari Ling", "colorIndex" : 10,
+      "description" : "Worn by ^#b0e0fc;elite guards^reset; protecting different ^#b0e0fc;alta capitals^reset; around Io.",
+      "longdescription" : "While similar in characteristics to the original model, this one has alternative markings to signify its belonging.",
+      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to evry varda out there."
+    }
+  },
+  "alkey" : "Prime Nia Ling",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

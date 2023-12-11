@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_gheatsyn_shard",
   "rarity" : "Common", "price" : 10, "elementalType" : "poison",
-  "itemTags" : [ "reagent", "gheatsyn" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "gheatsyn" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_gheatsyn_shard.png",
   "image" : "ct_gheatsyn_shard.png",
 
@@ -9,7 +9,7 @@
   "description" : "A liquid ^#a7e001;gheatsyn^reset; crystal shard that can be used as a throwable poisonous charge or as a crafting material.",
   "longdescription" : "It can also be used in cooking after proper preparation, according to the ^#b0e0fc;calin cuisine book^reset;.",
   "altaDescription" : "This tiny shard is full of mysteries! It can be a liquid, or a crystal, or a crystal liquid, or a jam. I think I'm hungry.",
-  "foundOn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
+  "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
 
   "ammoUsage" : 1,
 

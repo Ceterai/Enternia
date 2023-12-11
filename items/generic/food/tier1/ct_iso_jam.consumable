@@ -1,34 +1,45 @@
 {
   "itemName" : "ct_iso_jam",
-  "level" : 2, "rarity" : "Common", "price" : 280,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_iso_jam.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A great way to prepare nia treats is with a good amount of cold izoslime jam.",
   "shortdescription" : "Izo Jam",
-  "effects" : [ [
-    {
-        "effect" : "energyregen",
-        "duration" : 45
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "description" : "A great way to prepare nia treats is with a good amount of cold isoslime jam. It's also really useful for making ice cream!",
+  "longdescription" : "It's cooling capabilities make it a great ingredient in almost any cold dish, really.",
+  "altaDescription" : "Slimey, but so sweet and nice, and overall pretty chill.",
+  "level" : 2, "rarity" : "Common", "price" : 260, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "jam", "isoslime" ],
+  "inventoryIcon" : "ct_iso_jam.png",
+  "effects" : [ [ { "effect" : "energyregen", "duration" : 45 } ] ],
+  "foodValue" : 20,
+  "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_zandarm_tart", "ct_ionice_cube", "ct_biomix_icecream" ],
-
-  "variants" : [
-    {
+  "variants" : [ "cryo" ],
+  "presets" : {
+    "cryo" : {
       "shortdescription" : "Cryo Jam",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. This iso jam turned out colder and purer than usual. Some say it tastes much better this way.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+      "description" : "This izo jam turned out colder and purer than usual. Some say it tastes much better this way. Can be used as a substitute for izo jam.",
+      "longdescription" : "Can also be used as a substitute for actual ^#7ddcde;izon^reset;, you're smart enough. Or brave enough.",
+      "altaDescription" : "Better to not freeze myself by eating a cryo jam candy.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 360, "foodValue" : 24, "alkey" : "Izo V'ei",
+      "effects" : [ [ { "effect" : "energyregen", "duration" : 55 } ] ], "variant" : true,
+      "paletteSwap" : {
+        "#a0f2ff":"#a0f2ff","#7ddcde":"#7ddcde","#65c1d5":"#65c1d5","#2d6aa6":"#2d6aa6",
+        "#a8e537":"#a0f2ff","#91ca29":"#7ddcde","#76ab12":"#65c1d5","#598801":"#2d6aa6",
+        "#a2e537":"#377fe5","#8bca29":"#296aca","#70ab12":"#1251ab","#548801":"#013988"
+      }
+    },
+    "honey" : {
+      "shortdescription" : "Izopoi Honey",
+      "description" : "A surpridingly sticky isoslime ferment, often used a sweet honey mix in desserts. Can be used as a substitute for izo jam.",
+      "longdescription" : "While its freezing capabilities are not as well defined as in other isoslime condiments, it definitely is easy to melt or dissolve.",
+      "altaDescription" : "Sweet and sticky, just like any honey. Right, honey?",
+      "price" : 280, "foodValue" : 22, "alkey" : "Izopoi Noi", "itemTags" : [ "nia_cuisine", "honey", "isoslime" ],
+      "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 65 } ] ], "wiki" : { "skip" : true }, "variant" : true,
+      "paletteSwap" : {
+        "#a0f2ff":"#a0acff","#7ddcde":"#7d95de","#65c1d5":"#656fd5","#2d6aa6":"#482da6",
+        "#a8e537":"#5e37e5","#91ca29":"#4f29ca","#76ab12":"#3512ab","#598801":"#210188",
+        "#a2e537":"#6e37e5","#8bca29":"#5e29ca","#70ab12":"#4312ab","#548801":"#2c0188"
+      }
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Ionic Juice" : { } } }, "alkey" : "Izopoi V'ei"
 }

@@ -1,0 +1,55 @@
+{
+  "itemName" : "ct_aya_candy",
+  "shortdescription" : "Aya Candy",
+  "description" : "Made with aya jam, it's a sour and sweet lollipop!",
+  "longdescription" : "Usually prepared and sold in packs, these are great to share with friends and are perfect if you really need to not think of anything.",
+  "altaDescription" : "Tzheshe awe wevy gweaf! ...Whaf?",
+  "level" : 4, "rarity" : "Uncommon", "price" : 300, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "dessert", "ayaka" ],
+  "inventoryIcon" : "ct_aya_candy.png",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 125
+    }
+  ] ],
+  "foodValue" : 10,
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+
+  "variants" : [ "pop" ],
+  "presets" : {
+    "pop" : {
+      "shortdescription" : "Aya Pop ^#20f080;^reset;", "variant" : true,
+      "description" : "A lolipop with a lil' pop to it. Sour candy is always better than just a candy, right? No? Okay.",
+      "longdescription" : "The jam filling in these is still pretty sweet, in contrast to the soury outside.",
+      "altaDescription" : "Sometimes I go for these if I get tired of regular ones. Which is rare, but these are pretty good too.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 360, "foodValue" : 12, "alkey" : "Aya Pop",
+      "paletteSwap" : {"#aecfff":"#b8aeff","#3587ff":"#4e35ff","#0066ff":"#2200ff","#0042a6":"#009aa6","#002a69":"#006269"}
+    },
+    "miko" : {
+      "shortdescription" : "Miko Candy", "variant" : true,
+      "description" : "A lolipop with a lil' pop to it. Sour candy is always better than just a candy, right? No? Okay.",
+      "longdescription" : "The jam filling in these is still pretty sweet, in contrast to the soury outside.",
+      "altaDescription" : "Sometimes I go for these if I get tired of regular ones. Which is rare, but these are pretty good too.",
+      "wiki" : { "skip" : true }, "alkey" : "Miko Puvi",
+      "paletteSwap" : {"#aecfff":"#ffaedf","#3587ff":"#ff35af","#0066ff":"#ff0098","#0042a6":"#a60063","#002a69":"#69003f"}
+    },
+    "gheatsyn" : {
+      "shortdescription" : "Ghea Candy", "variant" : true,
+      "description" : "A lolipop with a lil' pop to it. Sour candy is always better than just a candy, right? No? Okay.",
+      "longdescription" : "The jam filling in these is still pretty sweet, in contrast to the soury outside.",
+      "altaDescription" : "Sometimes I go for these if I get tired of regular ones. Which is rare, but these are pretty good too.",
+      "wiki" : { "skip" : true }, "alkey" : "Ghea Puvi",
+      "paletteSwap" : {"#aecfff":"#efffae","#3587ff":"#d7ff35","#0066ff":"#caff00","#0042a6":"#84a600","#002a69":"#546900"}
+    },
+    "yaara" : {
+      "shortdescription" : "Yaa Candy", "variant" : true,
+      "description" : "A lolipop with a lil' pop to it. Sour candy is always better than just a candy, right? No? Okay.",
+      "longdescription" : "The jam filling in these is still pretty sweet, in contrast to the soury outside.",
+      "altaDescription" : "Sometimes I go for these if I get tired of regular ones. Which is rare, but these are pretty good too.",
+      "wiki" : { "skip" : true }, "alkey" : "Yaa Puvi",
+      "paletteSwap" : {"#aecfff":"#aeffde","#3587ff":"#35ffad","#0066ff":"#00ff9a","#0042a6":"#00a664","#002a69":"#00693f"}
+    }
+  }, "alkey" : "Aya Puvi"
+}

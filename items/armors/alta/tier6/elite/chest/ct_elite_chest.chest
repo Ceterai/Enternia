@@ -2,10 +2,12 @@
   "itemName" : "ct_elite_chest",
   "shortdescription" : "Elite Guard Armor",
   "description" : "Worn by imperial guards of Alliana, the Citadel protectors and the elite fighters on the Al'deron mothership.",
+  "longdescription" : "The life-saving techonlogy is powered by two main energy sources, one in the front, and one in the back, just in case.",
+  "altaDescription" : "An armor piece this heavy requires a proper exoskeleton to wear.",
 
   "price" : 1600, "rarity" : "Legendary",
   "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour" ],
+  "level" : 6, "itemTags" : [ "tier6armour", "elite" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -73,6 +75,37 @@
     // CRYSTAL (BROWN)
     { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
   ],
+
+  "presets" : {
+    "capital" : {
+      "shortdescription" : "Imperial Guard Armor", "itemTags" : [ "tier6armour", "elite", "alta_capital" ], "alkey" : "Avari Gard", "colorIndex" : 10,
+      "description" : "Worn by ^#b0e0fc;elite guards^reset; protecting different ^#b0e0fc;alta capitals^reset; around Io.",
+      "longdescription" : "While similar in characteristics to the original model, this one has alternative markings to signify its belonging.",
+      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to evry varda out there."
+    },
+    "lab" : {
+      "shortdescription" : "Alta Lab Guard Armor", "itemTags" : [ "tier5armour", "alta_lab" ], "level" : 5, "rarity" : "Rare",
+      "description" : "A piece of equipment worn by ^#b0e0fc;alta lab guards^reset; in most ^#b0e0fc;alta laboratories^reset;.",
+      "longdescription" : "Mostly consisting of ^#299fc5;bionix^reset; and suspending materials, it provides a decent amount of protection for a guard.",
+      "altaDescription" : "First line of protection of all the precious research we've made and knowledgge we've gained.", "alkey" : "Tek Varda Gard",
+      "paletteSwap" : {"#f6f6f6":"#4c5064","#d8dcf0":"#383c50","#b0b4c8":"#24283c","#606478":"#101428"},
+      "colorOptions" : [
+        { "00c050" : "c07000", "20f080" : "f08f20", "60fcc0" : "ffaa49", "b0fce0" : "ffc888" },
+        { "00c050" : "8fc000", "20f080" : "c5f020", "60fcc0" : "f3fc60", "b0fce0" : "f9fcb0" },
+        { "00c050" : "00c063", "20f080" : "20f081", "60fcc0" : "60fc91", "b0fce0" : "b0fcc7" },
+        { "00c050" : "009cc0", "20f080" : "20d3f0", "60fcc0" : "60fcf9", "b0fce0" : "b0fcf9" },
+        { "00c050" : "c00003", "20f080" : "f0202d", "60fcc0" : "fc6082", "b0fce0" : "fcb0c2" },
+        { "00c050" : "c07000", "20f080" : "f08f20", "60fcc0" : "fc9c60", "b0fce0" : "fcccb0" },
+        { "00c050" : "c0af00", "20f080" : "f0d420", "60fcc0" : "fcd060", "b0fce0" : "fce5b0" },
+        { "00c050" : "03c000", "20f080" : "2df020", "60fcc0" : "82fc60", "b0fce0" : "c2fcb0" },
+        { "00c050" : "001cc0", "20f080" : "2049f0", "60fcc0" : "6096fc", "b0fce0" : "b0ccfc" },
+        { "00c050" : "7c00c0", "20f080" : "9d20f0", "60fcc0" : "a660fc", "b0fce0" : "d1b0fc" },
+        { "00c050" : "c00069", "20f080" : "f0209b", "60fcc0" : "fc60d4", "b0fce0" : "fcb0ea" },
+        { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
+      ]
+    }
+  },
+  "alkey" : "Prime Gard",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

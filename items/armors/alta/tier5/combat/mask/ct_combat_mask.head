@@ -2,10 +2,12 @@
   "itemName" : "ct_combat_mask",
   "shortdescription" : "Combat Mask",
   "description" : "An ^#b0e0fc;alta^reset; army helmet-like mask, covering face and profile completely.",
+  "longdescription" : "Designed to provide additional visual context and protect vital parts of the head when facing an enemy.",
+  "altaDescription" : "Very comfortable to wear actually, even if you're not in combat.",
 
   "price" : 1000, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour", "alta_combat" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -66,6 +68,38 @@
     // CRYSTAL (BROWN)
     { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
   ],
+
+  "presets" : {
+    "medic" : {
+      "shortdescription" : "Albino Mask", "itemTags" : [ "tier3armour" ], "level" : 3, "rarity" : "Uncommon",
+      "description" : "A mask typically worn by ^#b0e0fc;alta medics^reset;. It provides medical insights and first aid instructions to the wearer.",
+      "longdescription" : "The in-built emergency healing system is meant to protect the medic in case of unforseen circumstances.",
+      "altaDescription" : "A friendly medical glow of this mask gives me reassurance.", "alkey" : "Amava Nit",
+      "paletteSwap" : {"#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#101014":"#606478"},
+      "colorOptions" : [
+        { "106890" : "90103d", "1090c0" : "c01055", "10b4ef" : "ef106a", "71d4f8" : "f871a7" },
+        { "106890" : "8fc000", "1090c0" : "c5f020", "10b4ef" : "f3fc60", "71d4f8" : "f9fcb0" },
+        { "106890" : "00c063", "1090c0" : "20f081", "10b4ef" : "60fc91", "71d4f8" : "b0fcc7" },
+        { "106890" : "009cc0", "1090c0" : "20d3f0", "10b4ef" : "60fcf9", "71d4f8" : "b0fcf9" },
+        { "106890" : "c00003", "1090c0" : "f0202d", "10b4ef" : "fc6082", "71d4f8" : "fcb0c2" },
+        { "106890" : "c07000", "1090c0" : "f08f20", "10b4ef" : "fc9c60", "71d4f8" : "fcccb0" },
+        { "106890" : "c0af00", "1090c0" : "f0d420", "10b4ef" : "fcd060", "71d4f8" : "fce5b0" },
+        { "106890" : "03c000", "1090c0" : "2df020", "10b4ef" : "82fc60", "71d4f8" : "c2fcb0" },
+        { "106890" : "001cc0", "1090c0" : "2049f0", "10b4ef" : "6096fc", "71d4f8" : "b0ccfc" },
+        { "106890" : "7c00c0", "1090c0" : "9d20f0", "10b4ef" : "a660fc", "71d4f8" : "d1b0fc" },
+        { "106890" : "c00069", "1090c0" : "f0209b", "10b4ef" : "fc60d4", "71d4f8" : "fcb0ea" },
+        { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
+      ],
+      "statusEffects" : [ "ct_emergency_healer" ],
+      "leveledStatusEffects" : [
+        { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.125 },
+        { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },
+        { "levelFunction" : "standardArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 3.5 },
+        { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 3.5 }
+      ]
+    }
+  },
+  "alkey" : "Glasta Nit",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "ct_altersphere", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_active_mimic", "count" : 1, "parameters" : { "preset" : "alter_whip" } },
+  "groups" : [ "alta_t4mmm", "tier6_alternia", "weapon", "all" ]
+}

@@ -1,33 +1,28 @@
 {
   "itemName" : "ct_lifespring",
-  "level" : 2, "rarity" : "Common", "price" : 240,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_lifespring.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A fresh alto koywa stuffed into a yaara spring. Looks like a heart!",
   "shortdescription" : "Lifespring",
-  "effects" : [ [
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-    }
-  ] ],
+  "description" : "A fresh alto koywa stuffed into a yaara spring. Looks like a heart!",
+  "longdescription" : "It symbolizes life and goes well with different kinds of dressings, which are thigns you wouldn't expect to hear in the same sentence.",
+  "altaDescription" : "Very crunchy and minty! Very good with tead, or with a cool fruit fresh.",
+  "level" : 2, "rarity" : "Common", "price" : 240, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "yaara" ],
+  "inventoryIcon" : "ct_lifespring.png",
+  "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 60 } ] ],
   "foodValue" : 15,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_koywa_tea", "ct_biomix_icecream" ],
-
-  "variants" : [
-    {
+  "variants" : [ "lifesapling" ],
+  "presets" : {
+    "lifesapling" : {
       "shortdescription" : "Lifesapling",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. The alto koywa merged perfectly with yaara roots, making it even more fulfilling.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 440, "foodValue" : 25
+      "description" : "The alto koywa merged perfectly with yaara roots, making it even more fulfilling.",
+      "longdescription" : "Popular in elin gardens, this dish is used as a general snack newly-born altas can munch on while waiting in their flower beds for a caretaker.",
+      "altaDescription" : "It has a slight tingyness to it that is hard to forget and make it pretty easy to distinquish from other lifespring variations.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 320, "foodValue" : 18, "variant" : true, "alkey" : "Amavlara",
+      "paletteSwap" : {"#ae75f0":"#75f0df","#713bb0":"#3bb0a0","#461e74":"#1e7468",
+      "#68dcff":"#ff6881","#3cb3d8":"#d83c56","#2c839d":"#9d2c3f","#1e5465":"#651e29","#252c33":"#332625"}
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Yaara Spring" : { } } }, "alkey" : "Amavali"
 }

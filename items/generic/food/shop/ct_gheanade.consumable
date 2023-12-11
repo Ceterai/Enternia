@@ -20,9 +20,10 @@
     }
   ] ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Gheanade Max",
+  "variants" : [ "max" ],
+  "presets" : {
+    "max" : {
+      "shortdescription" : "Gheanade Max", "variant" : true,
       "description" : "This limited series of Gheanade is extra-full on energy!",
       "longdescription" : "With higher concentration of ^#c1dfae;carels^reset; extract, special **Gheryuza** formula and overall vitamin count, this drink is presented as an improved 1-up version of the original.",
       "level" : 3, "rarity" : "Uncommon", "price" : 80,
@@ -33,6 +34,6 @@
         }
       ] ]
     }
-  ],
+  },
   "wiki" : { "aliases" : { "Gheryuza" : { "anchor" : "item-upgrades" } } }, "alkey" : "Geahfizh"
 }

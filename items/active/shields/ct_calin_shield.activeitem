@@ -17,6 +17,12 @@
     "shield" : "images/ct_calin_shield.png"
   },
   "animationCustom" : {
+    "globalTagDefaults" : { "paletteSwaps" : "" },
+    "animatedParts" : { "parts" : { "shield" : { "partStates" : { "shield" : {
+      "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
+      "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
+      "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
+    } } } } },
     "sounds" : {
       "init" : [ ],
       "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
@@ -36,7 +42,7 @@
   "minActiveTime" : 0.2,
 
   "forceWalk" : true,
-  "baseShieldHealth" : 40,
+  "baseShieldHealth" : 48,
   "cooldownTime" : 0.45,
 
   "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
@@ -62,12 +68,39 @@
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
+  "presets" : {
+    "amethyst" : {
+      "shortdescription" : "Crystallite", "itemTags" : [ "shield", "crystal", "upgradeableWeapon" ],
+      "price" : 480, "level" : 3, "rarity" : "Uncommon",
+      "description" : "A rare amethyst crystal formation with good protective capabilities. Quite pretty as well.",
+      "longdescription" : "This variation of a regular gemstone is much more resistant than usual, however, not nearly as resistant as some other crystals.",
+      "altaDescription" : "I've heard that these grow naturally in special geodes, and then researchers cut them out in proper shapes.", "alkey" : "Callite",
+      "paletteSwap" : {"#c9eef6":"#cfc9f6","#76c7e4":"#8d76e4","#4e8fb8":"#724eb8","#366388":"#573688"},
+      "raisedStatusEffects" : [ "ct_energy_generator" ], "knockbackStatusEffects" : [ ],
+
+      "primaryAbility" : {
+        "name" : "Power Activation",
+        "description" : "Provides an ^#2080f0;Energy Generator^reset; status effect when raised.\nActivate block fast enough (parry time) to perform a perfect block."
+      },
+
+      "upgradeParameters" : {
+        "shortdescription" : "Crystallite Prime ^#8020f0;^reset;",
+        "description" : "More refined than ever, this pretty Crystallite is now infused with ^#ffa8e8;stardust^reset;.",
+        "longdescription" : "While maintaining its purple tint, you can see the effects of stardust slowly changing the reflections.",
+        "paletteSwap" : {"#c9eef6":"#d5c9f6","#76c7e4":"#9b76e4","#4e8fb8":"#724eb8","#366388":"#573688"},
+        "price" : 520, "rarity" : "Legendary", "alkey" : "Callite Prime",
+        "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
+      }
+    }
+  },
+
   "upgradeParameters" : {
     "inventoryIcon" : "ct_calin_shield.png",
     "animationParts" : { "shield" : "images/ct_calin_shield.png" },
     "shortdescription" : "Crystal Heart ^#8020f0;^reset;",
     "description" : "A crystal shield enhanced with ^#ffa8e8;stardust^reset;. Now you can feel it pulsate with new energy, see the sparks come off of it into nowhere.",
     "longdescription" : "It's barely visible cosmic shimmer is almost hypnotizing.",
+    "paletteSwap" : {"#c9eef6":"#c9dcf6","#76c7e4":"#769be4","#4e8fb8":"#4e64b8","#366388":"#364288"},
     "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
   }, "alkey" : "Calin Taum"

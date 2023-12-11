@@ -1,37 +1,63 @@
 {
   "itemName" : "ct_biomix_icecream",
-  "level" : 4, "rarity" : "Uncommon", "price" : 440,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_biomix_icecream.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
   "shortdescription" : "Biomix Ice Cream",
-  "effects" : [ [
-    {
-        "effect" : "thorns",
-        "duration" : 75
-    },
-    {
-        "effect" : "maxhealthboost20",
-        "duration" : 75
-    }
-  ] ],
+  "description" : "This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
+  "longdescription" : "The recipe includes separate mixes from different cuisines, that are then piled on top of each other, resulting in a layered ice cream.",
+  "altaDescription" : "Like it when I can get a little bite of everything, or do it separately to compare the flavors!",
+  "level" : 4, "rarity" : "Uncommon", "price" : 440, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "dessert", "ice" ],
+  "inventoryIcon" : "ct_biomix_icecream.png",
+  "effects" : [ [ { "effect" : "thorns", "duration" : 75 }, { "effect" : "maxhealthboost20", "duration" : 75 } ] ],
   "foodValue" : 20,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ],
-
-  "variants" : [
-    {
-      "shortdescription" : "Biomix Desert",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. Un indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
-      "level" : 5, "rarity" : "Rare", "price" : 640, "foodValue" : 30
+  "variants" : [ "dessert" ],
+  "presets" : {
+    "dessert" : {
+      "shortdescription" : "Biomix Dessert ^#20f080;^reset;",
+      "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
+      "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24, "variant" : true, "alkey" : "Biomix Feeri",
+      "paletteSwap" : {"#c9eef6":"#d2c9f6","#76c7e4":"#9776e4","#4e8fb8":"#7b4eb8","#366388":"#5e3688",
+        "#d4ff5a":"#5aff8a","#b7f601":"#01f649","#8dbd01":"#01bd37","#6c9000":"#009029",
+        "#9cf600":"#00f6d4","#60d600":"#00cad6","#00b21a":"#0091b2"
+      }
+    },
+    "ayaka" : {
+      "shortdescription" : "Ayamix Ice Cream",
+      "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
+      "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Ayamix Izohivi",
+      "paletteSwap" : {"#c9eef6":"#f6c9eb","#76c7e4":"#e476bf","#4e8fb8":"#b84e88","#366388":"#88365d",
+        "#d4ff5a":"#5ac9ff","#b7f601":"#01a6f6","#8dbd01":"#0180bd","#6c9000":"#006290",
+        "#9cf600":"#008bf6","#60d600":"#0051d6","#00b21a":"#2600b2"
+      }
+    },
+    "virma" : {
+      "shortdescription" : "Virmix Dessert ^#20f080;^reset;",
+      "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
+      "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24, "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Virmix Feeri",
+      "paletteSwap" : {"#c9eef6":"#e8f6c9","#76c7e4":"#b8e476","#4e8fb8":"#81b84e","#366388":"#588836",
+        "#d4ff5a":"#ff5abe","#b7f601":"#f60195","#8dbd01":"#bd0174","#6c9000":"#900058",
+        "#9cf600":"#f60041","#60d600":"#d60800","#00b21a":"#b23100"
+      }
+    },
+    "red" : {
+      "shortdescription" : "Keromix Ice Cream",
+      "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
+      "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
+      "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Keromix Feeri",
+      "paletteSwap" : {"#c9eef6":"#caf6c9","#76c7e4":"#76e47d","#4e8fb8":"#4eb862","#366388":"#36884a",
+        "#d4ff5a":"#ff645a","#b7f601":"#f60f01","#8dbd01":"#bd0b01","#6c9000":"#900700",
+        "#9cf600":"#f62800","#60d600":"#d64b00","#00b21a":"#b20e00"
+      }
     }
-  ]
+  },
+  "alkey" : "Biomix Izohivi"
 }

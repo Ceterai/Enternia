@@ -36,5 +36,10 @@ Common cooking recipes from ayaka biproducts include: ^#3587ff;Aya Fresh^reset;,
       "fixedPrice" : true, "level" : 3,
       "itemTags" : [ "data_source", "ebook", "ayaka" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "related" : {
+      "### [[ Codexes ]]" : [ "A Virma's Friend" ]
+    }
   }
 }

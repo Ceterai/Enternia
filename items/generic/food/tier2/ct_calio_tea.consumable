@@ -1,35 +1,48 @@
 {
   "itemName" : "ct_calio_tea",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_calio_tea.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A sweet and sour slightly dense tea, brewed using various alterash prime crystals.",
   "shortdescription" : "Calio Tea",
-  "effects" : [ [
-    {
-        "effect" : "poisonblock",
-        "duration" : 240
-    }
-  ] ],
+  "description" : "A sweet and sour slightly dense tea, brewed using various alterash prime crystals. Edible ones, of course.",
+  "longdescription" : "Their extracts are pretty hard to get, but are very easily brewable into a typical tea.",
+  "altaDescription" : "One might be wondering - how in Io do you make tea out of crystals? The answer is simple - you... Oh, I forgot. Unfortunate.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "tea", "crystal" ],
+  "inventoryIcon" : "ct_calio_tea.png",
+  "effects" : [ [ { "effect" : "poisonblock", "duration" : 240 } ] ],
   "foodValue" : 10,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ],
-
-  "variants" : [
-    {
-      "shortdescription" : "Thick Calio Tea",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
-      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "poisonblock", "duration" : 300 } ] ]
+  "variants" : [ "thick" ],
+  "presets" : {
+    "thick" : {
+      "shortdescription" : "Thick Calio Tea ^#20f080;^reset;",
+      "description" : "This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
+      "longdescription" : "Jam is a prevalent ingredient in thick types of tea, often replaced with honey, extract, sap, and other sweet jam-like substances.",
+      "altaDescription" : "You can feel the saturation on your tongue!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 12,
+      "effects" : [ [ { "effect" : "poisonblock", "duration" : 300 } ] ], "variant" : true, "alkey" : "Dicalio Chi",
+      "paletteSwap" : {"#c9f6ca":"#a7e7d1","#76e481":"#4be8be","#4eb866":"#28c0a9",
+      "#ffc744":"#ffc744","#fc7800":"#fc7800"}
+    },
+    "ayaka" : {
+      "shortdescription" : "Ayabaycalin Tea",
+      "description" : "This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
+      "longdescription" : "Jam is a prevalent ingredient in thick types of tea, often replaced with honey, extract, sap, and other sweet jam-like substances.",
+      "altaDescription" : "You can feel the saturation on your tongue!",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Ayakoycalin Chi",
+      "paletteSwap" : {"#c9f6ca":"#f6c9f5","#76e481":"#e476d8","#4eb866":"#b84ea0",
+      "#ffc744":"#447cff","#fc7800":"#0084fc"}
+    },
+    "carel" : {
+      "shortdescription" : "Carel Tea",
+      "description" : "This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
+      "longdescription" : "Jam is a prevalent ingredient in thick types of tea, often replaced with honey, extract, sap, and other sweet jam-like substances.",
+      "altaDescription" : "You can feel the saturation on your tongue!",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Carel Chi",
+      "paletteSwap" : {"#c9f6ca":"#f6efc9","#76e481":"#e4de76","#4eb866":"#b1b84e",
+      "#ffc744":"#ff449a","#fc7800":"#fc00ad"}
     }
-  ]
+  },
+  "alkey" : "Calio Chi"
 }

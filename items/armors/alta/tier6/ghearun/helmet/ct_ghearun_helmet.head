@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_ghearun_helmet",
   "shortdescription" : "Ghearun M1 Helm",
-  "description" : "A full helmet with additional visors. ^#a7e001;Ghearun^reset; suits are often worn by certain ^#b0e0fc;alta^reset; research groups. Runs on ^#a7e001;gheatsyn^reset;.",
+  "description" : "A full helmet with additional visors. ^#a7e001;Ghearun^reset; suits are often worn by certain ^#b0e0fc;alta^reset; research groups. Runs on ^#a7e001;gheatsyn^reset;. Has built-in ^#b0e0fc;breath protection^reset;.",
   "longdescription" : "The helmet itself provides enhanced vision in dimly lit and highly toxic and foggy environments, and has an in-built emergency protection system in case of depressurization.",
   "altaDescription" : "Those three glowing circles are the multi-state visor of the helmet. I heard it can change polarities and types of vision and even blends them together. Neat.",
 
@@ -15,8 +15,9 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
   "statusEffects" : [
-    "ct_autoprotector"
+    "ct_autoprotector", { "stat" : "breathProtection", "amount" : 1.0 }
   ],
 
   "leveledStatusEffects" : [

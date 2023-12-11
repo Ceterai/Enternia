@@ -1,34 +1,26 @@
 {
   "itemName" : "ct_gillikada",
   "shortdescription" : "Gillikada",
-  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
-
-  "level" : 2, "rarity" : "Common", "price" : 280,
-  "race" : "alta", "foodValue" : 20,
-
-  "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "maxStack" : 1,
-
+  "description" : "A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
+  "longdescription" : "A pretty rare 1-ingredient dish that utilizes every distinct part of a fruit to achieve a pretty tasty result.",
+  "altaDescription" : "If I stare at it long enough, it'll cool down, so probably shouldn't do that.",
+  "level" : 2, "rarity" : "Common", "price" : 280, "race" : "alta", "foodValue" : 20,
+  "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "maxStack" : 1, "itemTags" : [ "runeva_cuisine", "kada", "gil" ],
   "inventoryIcon" : "ct_gillikada.png",
-
-  "effects" : [ [
-    {
-        "effect" : "runboostfood",
-        "duration" : 60
-    }
-  ] ],
-
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [ "wellfed" ],
-
+  "effects" : [ [ { "effect" : "runboostfood", "duration" : 60 } ] ],  // ct_alta_food_fruit
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "learnBlueprintsOnPickup" : [ "ct_miko_tea", "ct_vermont_tea" ],
-
-  "variants" : [
-    {
+  "variants" : [ "split" ],
+  "presets" : {
+    "split" : {
       "shortdescription" : "Gillikada Split",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. This perfectly crafted gillikada has a thin, satisfying crust covering its gentle mash. Very fulfilling.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 30
+      "description" : "This perfectly crafted gillikada has a thin, satisfying crust covering its gentle mash. Very fulfilling.",
+      "longdescription" : "The crust can be achieved in many ways, but is often made by covering the outside in an even layer of mashed gil seeds and some cooking oil.",
+      "altaDescription" : "Not sure if I prefer this or the regular version. Both are pretty neat.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 380, "foodValue" : 24, "variant" : true, "alkey" : "Gillikadia",
+      "paletteSwap" : {"#ff95a4":"#ffc595","#ff3f5a":"#ff973f","#dd0120":"#dd0169","#8c0014":"#8c0042","#5a000d":"#5a002b"}
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Cooked Gil" : { } } }, "alkey" : "Gillikada"
 }

@@ -1,42 +1,49 @@
 {
   "id" : "ct_gheatsyn",
-  "title" : "Ghearun Excavation Protocol",
-  "description" : "A ^#b0e0fc;datamass^reset; containing encrypted data. It describes a geological protocol.",
-  "icon" : "datamass/gheatsyn.png",
+  "title" : "Gheatsyn Nature",
+  "description" : "This ebook contains a description of crystallic environments full of \"liquid crystals\".",
+  "longdescription" : "These crystals - gheatsyn - seem to be able to liquify and crystallize under electric current.",
+  "altaDescription" : "Gheatsyn became an important part of alta tech due to its amazing abilities, so its nature and origins are definitely worth studying.",
+  "icon" : "ebook/gheatsyn.png",
   "contentPages" : [
 
-    "The following protocol is designed to help with and regulate any excavation processes in ^#a7e001;gheatorn^reset; areas, but is also applicable to some extent for areas with similar ground density and ^#76c7e4;crystallic^reset; climate, like ^#a7e001;gheaprism^reset; surfaces and certain ^#f02080;mical^reset; areas.
+    "Beautiful green crystals hang from the ceiling, slowly dripping onto the ground, creating new formations with each crystal drip.
 
-For the sake of navigation, the protocol is divided into cautional, informational and directive articles.
-Please refer to an according coordinator in case of any questions.",
+Much like stalactites and stalagmites, gheatsyn crystals grow and shrink, slowly accumulating and spreading in an endless cycle of transformation.",
 
-"CAUTIONAL SECTION  
-Be aware that the ^#a7e001;gheatsyn^reset; environment you're exposed to is highly unstable.
-This includes potential dangers relating to ground movement and natural gheatsyn behavior - ^#a7e001;tsyntex process^reset;,  
-Due to a constant, although arguably unlikely threat of avalanches, collapses, or coming in contact with liquid gheatsyn, be sure to always wear designated protective equipment, even when operating inside a mech.",
+"Unlike most ordinary crystals, gheatsyn almost doesn't shine and doesn't shimmer with beautiful reflections, and it is as if some kind of dark mass has accumulated inside it.
 
-"Please refer to your coordinator to receive your equipment - the ^#a7e001;Ghearun M1 Set^reset;.",
+This mass - liquid gheatsyn - will instantly harden as soon as it comes into contact with electricity, and the crystal will sparkle with bright colors again.
 
-"INFORMATIONAL SECTION  
-All equipment is made with power-materials designed to withstand the environment and excessive pressure.
-It is also important to note that most ^#a7e001;ghearun^reset; equipment operates on extracted gheatsyn energy, decreasing overall fingerprint of the ordis and helping the cause.  
-This can be seen in combat tool advances in the general tech sphere - examples being the ^#a7e001;Tsyntex^reset; blaster and the ^#a7e001;Gheablade^reset;.",
+At such moments, you can safely break it without getting burned by its liquid form.",
 
-"This concept also makes it easier to perform excavations in environments with matching energy types.",
+"This is one of the reasons why most alta drilling and mining tools apply a stable voltage level with each strike - harmless to an alta, but enough to affect the entire crystal, or at least a sufficient part of it.
 
-"DIRECTIVE SECTION
+Sometimes such tools have settings that allow you to increase the current, but these should be used with extreme caution.",
 
-Be sure to follow all on-site guidelines and act on a coordinator's demand. Do not use work-related equipment without or against designation.
+"Gheatsyn grows differently in different conditions. For example, in ^#a7e001;gheatorn^reset;, it is mixed with cave rocks, sometimes becoming noticeably more difficult to extract.
 
-For purposes of any large excavation, use a ^#a7e001;Gheatsyn Droid^reset;, provided by the site or according lab.
+At the same time, gheatsyn growing in ^#a7e001;gheaprisms^reset; is quite fragile, but is very difficult to handle with electricity, since it grows in a rather specific atmosphere, which creates a fairly high resistance to any current.",
 
-All excavations should only be permitted after appropriate planning and geo-scanning."
+"In any conditions, this extraction is worth it - gheatsyn is an incredibly convenient and flexible material that has a whole variety of uses.
+
+The only pity is that it cannot be used for decoration in its pure form.
+
+It would be unpleasant if your beautiful necklace spilled on you and burned you, simply because electricity got into it."
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "gheatsyn" ],
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "gheatsyn" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "gheatsyn environment" : { }
+    },
+    "related" : {
+      "### [[ Codexes ]]" : [ "Gheatsyn Nature" ]
+    }
   }
 }

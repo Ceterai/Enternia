@@ -13,8 +13,9 @@
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
+  "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
   "statusEffects" : [
-    "ct_autoanalyzer"
+    "ct_autoanalyzer", { "stat" : "breathProtection", "amount" : 1.0 }
   ],
 
   "leveledStatusEffects" : [

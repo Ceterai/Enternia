@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_fivaldo_salad.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. Various tasty stuff all conveniently mixed together.",
   "shortdescription" : "Fival'do Salad",
+  "description" : "Various tasty stuff all conveniently mixed together.",
+  "longdescription" : "The roughly cut fruit pieces are mixed with herbs and edible crystals, with added dressing and spice create a unique experince with intertwined taste scope of different cuisines.",
+  "altaDescription" : "Something you would see in a fancy restaurant. Or prepared by your friend for a party, really goes both ways here.",
   "effects" : [ [
     {
         "effect" : "runboostfood",
@@ -21,7 +23,7 @@
     }
   ] ],
   "foodValue" : 45,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "salad" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -31,11 +33,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Fival'do Banquet",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. Now we're talking! This salad goes far and beyond, what a masterpiece!",
+  "variants" : [ "banquet" ],
+  "presets" : {
+    "banquet" : {
+      "shortdescription" : "Fival'do Banquet", "variant" : true,
+      "description" : "Now we're talking! This salad goes far and beyond, what a masterpiece!",
+      "longdescription" : "While this particular variation doesn't require as much cutting and mixing as the original salad, the presentation and distribution play a big role in the overall experience.",
+      "altaDescription" : "A whole banquet is very much a party thing. Fast to prepare, and the big portion size is great for a lot of friends. Or even just for you.",
       "level" : 6, "rarity" : "Legendary", "price" : 1100, "foodValue" : 55
     }
-  ]
+  }
 }

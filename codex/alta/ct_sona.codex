@@ -1,7 +1,9 @@
 {
   "id" : "ct_sona",
   "title" : "Sona Soldier's Notes",
-  "description" : "A snow-white paper with notes made by an ^#b0e0fc;alta^reset; ^#e8e8ff;sona^reset; soldier about the icy climate of ^#e8e8ff;tavriya^reset;.",
+  "description" : "A snow-white paper with notes made by an ^#b0e0fc;alta^reset; ^#b0e0fc;sona soldier^reset; about the icy climate of ^#e8e8ff;tavriya^reset;.",
+  "longdescription" : "The paper also depicts further plans for an exploration task for building a bridge over a canyon - a common occurance for places like tavriya.",
+  "altaDescription" : "Life of an explorer is always exciting, even as a soldier with orders. I hope this alta had a pleasant travel!",
   "icon" : "paper/sona.png",
   "contentPages" : [
 
@@ -13,7 +15,15 @@ I've also seen peculiar round sculptures lying around - according to my coordina
 These ^#2080f0;Frozen Energy Balls^reset; can be found all over ^#e8e8ff;tavriya^reset;.  
 Fascinating.",
 
-"My squad is tasked with traversing a snow canyon to help build a bridge over it, let's see what we can find on it's bottom. I'm very exited!"
+"My squad is tasked with traversing a snow canyon to help build a bridge over it, so we're going to have to explore the bottom of it, mostly to take measurements, and ensure the area is safe.
+
+I've heard there are numerous caves down there, full of either ^#ceffd7;phospholion^reset; or ^#7ddcde;isoslime^reset;.
+
+And, in case an avalanche happens while we down there, we've got these cool new ^#b0e0fc;sona helmets^reset; with us, and they can help seeing in pitch dark, and also navigate through the avalanche!",
+
+"Regardless, my hopes are up, and so is my mood.
+
+Let's see what we can find. I'm very exited!"
 
   ],
     "itemConfig" : {
@@ -21,5 +31,10 @@ Fascinating.",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "docs", "sona" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "related" : {
+      "### [[ Codexes ]]" : [ "On Tavriya Climate" ]
+    }
   }
 }

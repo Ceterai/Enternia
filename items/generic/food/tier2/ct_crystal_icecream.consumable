@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_crystal_icecream",
-  "level" : 4, "rarity" : "Uncommon", "price" : 440,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_crystal_icecream.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. Crystal plants are ideal for dusting them down and making an icecream!",
   "shortdescription" : "Crystal Ice Cream",
+  "description" : "Crystal plants are ideal for dusting them down and making an icecream!",
+  "longdescription" : "Just like with most alta ice creams, isoslime plays a big role as a coolant, and koywa dough or aya dough is often used for the waffle casing.",
+  "altaDescription" : "You can feel the carel taste with each lick, especially when you get halfway through.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 440, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "dessert", "ice" ],
+  "inventoryIcon" : "ct_crystal_icecream.png",
   "effects" : [ [
     {
         "effect" : "lightaugment1",
@@ -13,20 +14,57 @@
     }
   ] ],
   "foodValue" : 20,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-
-  "variants" : [
-    {
-      "shortdescription" : "Iced Crystal Desert",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. It's like a pile of magical sparkles that melt in your mouth!",
-      "level" : 5, "rarity" : "Rare", "price" : 640, "foodValue" : 30
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "variants" : [ "dessert" ],
+  "presets" : {
+    "dessert" : {
+      "shortdescription" : "Iced Crystal Dessert ^#20f080;^reset;",
+      "description" : "It's like a pile of magical sparkles that melt in your mouth!",
+      "longdescription" : "A dessert by nature, an ice cream in presentation, this dish can really impress and surpise with its contents.",
+      "altaDescription" : "This iced dessert has incredible presentation to it, you can really how much effort went into small details inside and outside.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24,
+      "effects" : [ [ { "effect" : "lightaugment1", "duration" : 160 } ] ], "variant" : true, "alkey" : "Cal Feeri",
+      "paletteSwap" : {"#f5ff5a":"#b3ff5a","#e7f601":"#84f601","#b2bd01":"#66bd01","#889000":"#4e9000",
+      "#77e28a":"#77e2b4","#4fb66e":"#4fb697","#378754":"#378774"}
+    },
+    "gum" : {
+      "shortdescription" : "Bubble Gum Ice Cream",
+      "description" : "It's like a pile of magical sparkles that melt in your mouth!",
+      "longdescription" : "A dessert by nature, an ice cream in presentation, this dish can really impress and surpise with its contents.",
+      "altaDescription" : "This iced dessert has incredible presentation to it, you can really how much effort went into small details inside and outside.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Poya Izohivi",
+      "paletteSwap" : {"#f5ff5a":"#5ad9ff","#e7f601":"#01bbf6","#b2bd01":"#0191bd","#889000":"#006e90",
+      "#77e28a":"#9b77e2","#4fb66e":"#7f4fb6","#378754":"#613787"}
+    },
+    "ayaka" : {
+      "shortdescription" : "Candy-Aya Chip Ice Cream ^#20f080;^reset;",
+      "description" : "It's like a pile of magical sparkles that melt in your mouth!",
+      "longdescription" : "A dessert by nature, an ice cream in presentation, this dish can really impress and surpise with its contents.",
+      "altaDescription" : "This iced dessert has incredible presentation to it, you can really how much effort went into small details inside and outside.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24,
+      "effects" : [ [ { "effect" : "lightaugment1", "duration" : 160 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Aya-Pop Izohivi",
+      "paletteSwap" : {"#f5ff5a":"#5a87ff","#e7f601":"#0143f6","#b2bd01":"#0134bd","#889000":"#002890",
+      "#77e28a":"#d177e2","#4fb66e":"#b24fb6","#378754":"#873784"}
+    },
+    "waffle" : {
+      "shortdescription" : "Waffle Chip Ice Cream",
+      "description" : "It's like a pile of magical sparkles that melt in your mouth!",
+      "longdescription" : "A dessert by nature, an ice cream in presentation, this dish can really impress and surpise with its contents.",
+      "altaDescription" : "This iced dessert has incredible presentation to it, you can really how much effort went into small details inside and outside.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Bafch Izohivi",
+      "paletteSwap" : {"#f5ff5a":"#ff5ab3","#e7f601":"#f60184","#b2bd01":"#bd0166","#889000":"#90004e",
+      "#77e28a":"#e2b477","#4fb66e":"#b6974f","#378754":"#877437"}
+    },
+    "carel" : {
+      "shortdescription" : "Carel Ice Cream",
+      "description" : "It's like a pile of magical sparkles that melt in your mouth!",
+      "longdescription" : "A dessert by nature, an ice cream in presentation, this dish can really impress and surpise with its contents.",
+      "altaDescription" : "This iced dessert has incredible presentation to it, you can really how much effort went into small details inside and outside.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Carel Izohivi",
+      "paletteSwap" : {"#f5ff5a":"#ff8f5a","#e7f601":"#f65101","#b2bd01":"#bd3e01","#889000":"#902e00",
+      "#77e28a":"#b2e277","#4fb66e":"#7bb64f","#378754":"#558737"}
     }
-  ]
+  },
+  "alkey" : "Cal Izohivi"
 }

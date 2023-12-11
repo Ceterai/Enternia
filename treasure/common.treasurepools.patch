@@ -42,8 +42,11 @@
         "poolRounds" : [ [0.1, 1], [0.4, 2], [0.4, 3], [0.1, 4] ],
         "pool" : [  //          total: 1.00
           // Medicine,          total: 0.28
-          {"weight" : 0.24, "item" : "bluestim"},
-          {"weight" : 0.04, "item" : "nanowrap"},
+          {"weight" : 0.04, "item" : "bluestim"},
+          {"weight" : 0.02, "item" : "nanowrap"},
+          {"weight" : 0.12, "item" : [ "ct_alta_med_mimic", 1, { "preset" : "bandade" } ] },
+          {"weight" : 0.06, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
+          {"weight" : 0.04, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
           // Shop Food,         total: 0.54
           {"weight" : 0.12, "item" : "cttsaycola"},
           {"weight" : 0.12, "item" : "ctayasoda"},
@@ -54,8 +57,8 @@
           {"weight" : 0.10, "pool" : "ct_alta_other_loot"},
           {"weight" : 0.04, "pool" : "ct_alta_codexes"},
           // Treasure,          total: 0.04
-          {"weight" : 0.01, "item" : "ct_alta_toy_pet_ball"},
-          {"weight" : 0.01, "item" : "ct_alta_testing_ball"},
+          {"weight" : 0.015, "item" : "ct_alta_toy_pet_ball"},
+          {"weight" : 0.015, "item" : "ct_alta_testing_ball"},
           {"weight" : 0.005, "item" : "spaceorgan"},
           {"weight" : 0.005, "item" : "squarewave"}
         ]
@@ -131,15 +134,17 @@
           // Treasure,          total: 0.04
           {"weight" : 0.01, "item" : "ct_alta_security_captain_helmet"},
           {"weight" : 0.01, "item" : "ct_alta_security_helmet_mk2"},
-          {"weight" : 0.02, "item" : "ct_alta_impulse_rifle_mk2"},
+          {"weight" : 0.01, "item" : "ct_alta_impulse_rifle_mk2"},
+          {"weight" : 0.01, "item" : [ "ct_eds_shield", 1, { "preset" : "security" } ] },
           // Miscelanious,      total: 0.14
           {"weight" : 0.05, "item" : "ct_alta_security-codex"},
           {"weight" : 0.01, "item" : "ct_arco-codex"},
           {"weight" : 0.01, "item" : "ct_combat-codex"},
           {"weight" : 0.01, "item" : "ct_eds-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_food-codex"},
-          {"weight" : 0.02, "item" : "ct_antorash-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_lore_3-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_food-codex"},
+          {"weight" : 0.015, "item" : "ct_antorash-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_lore_3-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_city-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_alta_loot_tier2"}
         ]
@@ -193,9 +198,10 @@
           {"weight" : 0.005, "item" : "ct_elite-codex"},
           {"weight" : 0.005, "item" : "ct_ceterai-codex"},
           {"weight" : 0.005, "item" : "ct_dreamer-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_food_2-codex"},
-          {"weight" : 0.02, "item" : "ct_esetera-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_lore_2-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_food_2-codex"},
+          {"weight" : 0.015, "item" : "ct_esetera-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_lore_2-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_lab-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_alta_loot_tier3"}
         ]
@@ -242,9 +248,10 @@
           {"weight" : 0.03, "item" : "ct_ceterai-codex"},
           {"weight" : 0.03, "item" : "ct_dreamer-codex"},
           {"weight" : 0.02, "item" : "ct_gsr_pod"},
-          {"weight" : 0.02, "item" : "ct_alta_crystals-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_food_2-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_lore_1-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_crystals-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_food_2-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_lore_1-codex"},
+          {"weight" : 0.015, "item" : "ct_alta_ship-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_alta_loot_tier4"}
         ]
@@ -281,7 +288,9 @@
           {"weight" : 0.02, "item" : "ct_eds_one"},
           {"weight" : 0.02, "item" : "ct_faradea_scavenger"},
           // Miscelanious,      total: 0.14
-          {"weight" : 0.14, "item" : "ct_gsr_pod"},
+          {"weight" : 0.10, "item" : "ct_gsr_pod"},
+          {"weight" : 0.02, "item" : "ct_alta_capital-codex"},
+          {"weight" : 0.02, "item" : "ct_alta_citadel-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_alta_loot_tier5"}
         ]
@@ -290,7 +299,7 @@
 
 
 
-  { "op": "add", "path": "/ct_gsr_pod", "value": [ [0, { "poolRounds" : [ [1.0, 10] ], "pool" : [
+  { "op": "add", "path": "/ct_gsr_pod", "value": [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
           {"weight" : 0.725, "pool" : "ct_gsr_m1"},
           {"weight" : 0.250, "pool" : "ct_gsr_m2"},
           {"weight" : 0.025, "pool" : "ct_gsr_m3"}

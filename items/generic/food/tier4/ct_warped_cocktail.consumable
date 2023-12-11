@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_warped_cocktail.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
   "shortdescription" : "Warped Cocktail",
+  "description" : "Despite its name and looks, this drink isn't actually made out of poisonous warped roots. Duh.",
+  "longdescription" : "It's a calin dish, where different crystal extracts were mixed together to create a crimson luminescent cocktail.",
+  "altaDescription" : "A sweet party drink with an interesting recipe!",
   "effects" : [ [
     {
         "effect" : "ct_poisoncloud",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "cocktail" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -27,11 +29,14 @@
   ],
   "emitters" : [ "drinking" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Glowarp ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. An extra-warpy drink that will warp your perception of drinks as a concept.",
+  "variants" : [ "glowarp" ],
+  "presets" : {
+    "glowarp" : {
+      "shortdescription" : "Glowarp ^#8020f0;^reset;", "variant" : true,
+      "description" : "An extra-warpy drink that will warp your perception of drinks as a concept.",
+      "longdescription" : "This recipe actually uses some warped ingredients in its recipe, like archulins and a little bit of warped honey.",
+      "altaDescription" : "A pretty interesting mix of calin and yava ingredients.",
       "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
     }
-  ]
+  }
 }

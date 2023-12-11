@@ -1,0 +1,174 @@
+{
+  "objectName" : "ct_alta_object_mimic",
+  "shortdescription" : "ZZZZ Object Mimic! (Evil, booo!) >>;3",
+  "tooltipKind" : "ct_alta_object",
+  "inventoryIcon" : "/objects/alta/eds/decorative/table/icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/eds/decorative/table/body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "wiki" : { "skip" : true },
+  "presets" : {
+    "alternia_sample" : {
+      "baseAsset" : "/objects/biome/geologicalsample/geodebluesample/geodebluesample.object",
+      "shortdescription" : "Alternia Geode Sample",
+      "description" : "A pretty, blue geode. The crystals contained in this specimen are saturated with alternia.",
+      "longdescription" : "Alternia crystals don't form in geodes, so this is mostly an artistic installation.",
+      "altaDescription" : "Oa, shiny!",
+      "foundIn" : [ "^#76c7e4;Crystal Merchant^reset;" ], "level" : 5, "rarity" : "Rare", "colonyTags" : [ "pretty", "geode", "alternia" ]
+    },
+    "enternia_sample" : {
+      "baseAsset" : "/objects/biome/geologicalsample/geodepurplesample/geodepurplesample.object",
+      "shortdescription" : "Enternia Geode Sample",
+      "description" : "A pretty, purple geode. The crystals contained in this specimen are saturated with enternia.",
+      "longdescription" : "These rarely form in general, when an outstanding amount of enternia is filling up moonrock, resulting in slowly forming crystals that cannot be found anywhere else.",
+      "altaDescription" : "Very pretty, but also veeery heavy. Not sure where I can put this.",
+      "foundIn" : [ "^#76c7e4;Crystal Merchant^reset;" ], "level" : 5, "rarity" : "Rare", "colonyTags" : [ "pretty", "geode", "enternia" ]
+    },
+    "mical_sample" : {
+      "baseAsset" : "/objects/biome/geologicalsample/geoderedsample/geoderedsample.object",
+      "shortdescription" : "Mical Geode Sample",
+      "description" : "A pretty, red geode. The crystals contained in this specimen are a natural mical formation.",
+      "longdescription" : "While mical crystals don't usually grow inside rocks, mical geodes can rarely be found as a result of magma creating big bubbles of air when cooling.",
+      "altaDescription" : "Crimson reflections of this pretty stone make the room feel warmer.",
+      "foundIn" : [ "^#76c7e4;Crystal Merchant^reset;" ], "level" : 6, "rarity" : "Legendary", "colonyTags" : [ "pretty", "geode", "mical" ]
+    },
+    "spectral_pod" : {
+      "baseAsset" : "/objects/biome/crystalline/crystalchest/crystalchest.object", "race" : "alta", "price" : 160,
+      "shortdescription" : "Spectral Pod ^#8020f0;^reset;",
+      "description" : "This resilient chest is made out of strforged materials.",
+      "longdescription" : "It shines with slight stardust tint.",
+      "altaDescription" : "A pod made out of spectral cal and starsteel! Is there staris inside?!",
+      "level" : 6, "rarity" : "Legendary", "colonyTags" : [ "staris", "stardust", "light", "unique" ], "health" : 6.0,
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ], "slotCount" : 24, "lightColor" : [150, 0, 122]
+    },
+    "duck" : {
+      "baseAsset" : "/objects/avian/goldenducky/goldenducky.object",
+      "shortdescription" : "Little Quackie",
+      "description" : "A pretty rubber toy in form of a bird unknown to altas. Yet its cuteness makes them cherish it with all their hearts.",
+      "longdescription" : "No one knows how it got here. Perhaps it's all those ^#8080f0;magician girls^reset; and their enchanted spells.",
+      "altaDescription" : "I love it so much! I want this as a stress reliever.",
+      "level" : 3, "rarity" : "Uncommon", "race" : "alta", "colonyTags" : [ "pretty", "enchanted", "toy" ],
+      "foundIn" : [ "^#8080f0;Viona Merchant^reset;" ]
+    },
+    "collect_trophy3" : {
+      "baseAsset" : "/objects/generic/trophysilver/trophysilver.object", "race" : "alta", "price" : 890,
+      "shortdescription" : "Collectioner's Trophy ^#8020f0;^reset;", "level" : 6, "rarity" : "Legendary", "colonyTags" : [ "pretty", "valuable", "unique", "prize" ],
+      "description" : "You did it! This trophy goes out to the most proficient collectioners out there! The only thing left is to write your name on it.",
+      "longdescription" : "This shining titanium trophy cup with yellow rims will fit nicely with the rest of your rewards.",
+      "altaDescription" : "Wooow! So cool! This does really reflect a lot of time of hard work spent on collecting rare items.",
+      "foundIn" : [ "^#b0e0fc;Alta Collectioner^reset;" ]
+    },
+    "collect_trophy2" : {
+      "baseAsset" : "/objects/hoard/grail/grail.object", "race" : "alta", "price" : 880,
+      "shortdescription" : "Collectioner's Reward ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "colonyTags" : [ "pretty", "valuable", "unique", "prize" ],
+      "description" : "Congradulations! This reward goes out to the most dedicated collectioners out there! The only thing left is to write your name on it.",
+      "longdescription" : "A solid titanium cup with decorative rims and a nameplate that mentiones a very efficient collectioner. You.",
+      "altaDescription" : "This collectioner's reward looks amazing! Too bad it's so tall, I don't think I'll be able to brew myself some tea in it...",
+      "foundIn" : [ "^#b0e0fc;Alta Collectioner^reset;" ]
+    },
+    "collect_trophy1" : {
+      "baseAsset" : "/objects/glitch/royalchalice/royalchalice.object", "race" : "alta", "price" : 860,
+      "shortdescription" : "Collectioner's Prize ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "colonyTags" : [ "pretty", "valuable", "unique", "prize" ],
+      "description" : "Nice job! This prize goes out to the most awesome collectioners out there! The only thing left is to write your name on it.",
+      "longdescription" : "A shiny little cup prize made out of a rare material not known to many altas, which makes this prize all the more precious.",
+      "altaDescription" : "I think this cup is made out of... golden? Gold? It's very shiny, and also very bendy like ^#299fc5;bionium^reset;.",
+      "foundIn" : [ "^#b0e0fc;Alta Collectioner^reset;" ]
+    },
+
+
+
+    "altolight" : {
+      "baseAsset" : "/objects/generic/bluelight/bluelight.object", "race" : "alta", "price" : 60,
+      "shortdescription" : "Alta Altolight", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "party", "neon", "light", "unique" ], "health" : 1.5,
+      "description" : "A neon blue light used by altas everywhere, especially in clubhouses.", "altaDescription" : "I want to grab a cocktail and dance under a bunch of these!",
+      "longdescription" : "It illuminates the space with highly-saturated dim glow, perfect for a relaxed atmosphere. The colors mix together beautifully when near each other.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "mikolight" : {
+      "baseAsset" : "/objects/neon/neonlight/neonlight.object", "race" : "alta", "price" : 60,
+      "shortdescription" : "Alta Mikolight", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "party", "neon", "light", "unique" ], "health" : 1.5,
+      "description" : "A neon pink light used by altas everywhere, especially in clubhouses.", "altaDescription" : "I want to grab a cocktail and dance under a bunch of these!",
+      "longdescription" : "It illuminates the space with highly-saturated dim glow, perfect for a relaxed atmosphere. The colors mix together beautifully when near each other.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+
+    "scout_bed" : {
+      "baseAsset" : "/objects/tiered/tier3bed/tier3bed.object", "race" : "alta", "price" : 100,
+      "shortdescription" : "Alta Scout Bed", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_scout", "tier3", "misc", "unique" ], "health" : 3.0,
+      "description" : "Proper wide bed with a special ^#b0e0fc;protocharger^reset;.", "altaDescription" : "Is this where ^#b0e0fc;scavas^reset; have... erm... sleep?.. Can I?..",
+      "longdescription" : "This cozy platform of sleep usually hosts two alta scouts instead of just one. The charger is used to replenish energy in their protosystems.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "scout_console" : {
+      "baseAsset" : "/objects/tiered/tier3switch/tier3switch.object", "race" : "alta", "price" : 100,
+      "shortdescription" : "Alta Scout Console", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_scout", "tier3", "electronic", "wired", "unique" ], "health" : 3.0,
+      "description" : "Simple in-built console. A rare find in alta culture.", "altaDescription" : "These are so outdated! Why would a ^#b0e0fc;scava^reset; use one?",
+      "longdescription" : "The main reason some scout facilities still use consoles is because some of them, like this one, aren't modular - they're in-built into the system.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "scout_chair" : {
+      "baseAsset" : "/objects/tiered/tier3chair/tier3chair.object", "race" : "alta", "price" : 60,
+      "shortdescription" : "Alta Scout Chair", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_scout", "tier3", "misc", "unique" ], "health" : 3.0,
+      "description" : "A deep-seat chair with titanium railing and silk cover.", "altaDescription" : "I feel like I'm relaxing at the beach when sitting in this.",
+      "longdescription" : "These extremely relaxing chairs were designed to give exhausted alta scouts proper ergonomic rest.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "scout_table" : {
+      "baseAsset" : "/objects/tiered/tier3table/tier3table.object", "race" : "alta", "price" : 80,
+      "shortdescription" : "Alta Scout Table", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_scout", "tier3", "commerce", "unique" ], "health" : 3.0,
+      "description" : "A hefty ^#b0e0fc;titanium^reset; table with maintenance panel on the side.", "altaDescription" : "Is this where ^#b0e0fc;scavas^reset; make their maps?",
+      "longdescription" : "Alta scouts often use these tables for route planning, map construction and energy tool maintenance. It's broad and edgeless to provide more space.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+
+    "lab_monitor" : {
+      "baseAsset" : "/objects/apex/apexcoolcomputer/apexcoolcomputer.object", "race" : "alta", "price" : 120,
+      "shortdescription" : "Alta Lab Monitor", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_lab", "science", "electronic", "unique" ], "health" : 2.0,
+      "description" : "A simple compact monitor made out of ^#b0e0fc;titanium^reset; and ^#3587ff;ayakut^reset;.", "altaDescription" : "Perfect for documentaries.",
+      "longdescription" : "These are usually connected directly to a network of alta lab servers and alta lab datablocks, and not to a computer, where a laptop would be used.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "lab_datablock" : {
+      "baseAsset" : "/objects/apex/apexcoolserver/apexcoolserver.object", "race" : "alta", "price" : 140,
+      "shortdescription" : "Alta Lab Datablock", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_lab", "electronic", "unique" ], "health" : 2.0,
+      "description" : "A serverless matrix for storing large amounts of data.", "altaDescription" : "This data unit is an informational goldmine. I wonder what's inside.",
+      "longdescription" : "These datablocks usually contain compacted and structured archives of information, including code, models, logs, etc.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "lab_desk" : {
+      "baseAsset" : "/objects/apex/apexcooldesk/apexcooldesk.object", "race" : "alta", "price" : 80,
+      "shortdescription" : "Alta Lab Desk", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_lab", "knowledge", "unique" ], "health" : 2.0,
+      "description" : "This full-pack desk compensates its weight with usefulness.", "altaDescription" : "A proper desk, with drawers and stuff. Not my style to be honest.",
+      "longdescription" : "Even so, desk are not the most common piece of furniture among altas because they aren't particularly modular, light-weight or simplistic.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "lab_bookcase" : {
+      "baseAsset" : "/objects/apex/apexcoolbookcase/apexcoolbookcase.object", "race" : "alta", "price" : 100,
+      "shortdescription" : "Alta Lab Bookcase", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_lab", "knowledge", "unique" ], "health" : 2.0,
+      "description" : "A simple ^#b0e0fc;titanium^reset; closet with scientific works about alta research.", "altaDescription" : "Stylish! Also very practical and easy to clean.",
+      "longdescription" : "All contained materials are well-organized and sorted by categories and relevancy, behind the glass casing made out of refined crystals.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+
+    "lab_microscope" : {
+      "baseAsset" : "/objects/apex/microscope/microscope.object", "race" : "alta", "price" : 120,
+      "shortdescription" : "Alta Lab Microscope", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_lab", "science", "alien", "unique" ], "health" : 1.5,
+      "description" : "This microscope can micro-scope! And with it, so can you!", "altaDescription" : "A simple microscope. Probably with some crystal specks under them.",
+      "longdescription" : "These devices are pretty common in different alta labs, from biolabs, to crystal research labs, to medical centers and alien study complexes.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    },
+    "tea_cafe_sign" : {
+      "baseAsset" : "/objects/hylotl/softdrinksign/softdrinksign.object", "race" : "alta", "price" : 100,
+      "shortdescription" : "Tea Cafe Sign", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_city", "neon", "electronic", "commerce", "unique" ], "health" : 1.5,
+      "description" : "A sign indicating a nearby herb cafe.", "altaDescription" : "A cafe sign. Wouldn't mind going for a cup of tea.",
+      "longdescription" : "Tea cafes are quite common among altas, as well as the tea itself, with hundreds of recipes being shared in different alta cooking books.",
+      "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]
+    }
+  }
+}

@@ -1,38 +1,34 @@
 {
   "itemName" : "ct_crystal_jam",
-  "level" : 2, "rarity" : "Common", "price" : 280,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_crystal_jam.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. Slightly fluorescent soury jam made from ^#a7e001;gheatsyn^reset;.",
   "shortdescription" : "Crystal Jam",
-  "effects" : [ [
-    {
-        "effect" : "lightaugment1",
-        "duration" : 60
-    },
-    {
-        "effect" : "ct_crystal_poison",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "description" : "Slightly fluorescent soury jam made from ^#a7e001;gheatsyn^reset;. Very tingy and very energy-reactive.",
+  "longdescription" : "One of the easiest calin jams to make, as it only involves triggering ^#a7e001;tsyntex^reset;, followed by mixing, and a simple purification sequence, meant to make the jam edible.",
+  "altaDescription" : "Nice one for putting in cookies. Or pies. Love the ^#a7e001;crunchy pies^reset; some altas can cook up.",
+  "level" : 2, "rarity" : "Common", "price" : 260, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "jam", "calin" ],
+  "inventoryIcon" : "ct_crystal_jam.png",
+  "foodValue" : 20, "effects" : [ [ { "effect" : "lightaugment1", "duration" : 60 }, { "effect" : "ct_crystal_poison", "duration" : 5 } ] ],  // ct_alta_food_crystal
+  "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_calio_tea" ],
-
-  "variants" : [
-    {
-      "shortdescription" : "Crystalline Jam",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This pristine condiment with great sour-sweet balance and perfectly melted gheatsyn is glowing in the dark.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 480, "foodValue" : 35
+  "variants" : [ "calline" ],
+  "presets" : {
+    "calline" : {
+      "shortdescription" : "Crystalline Jam", "itemTags" : [ "calin_cuisine", "jam", "crystalline" ],
+      "description" : "This pristine condiment with great sour-sweet balance and perfectly melted ^#c1dfae;calline^reset; is glowing in the dark.",
+      "longdescription" : "While fluorescence is not a common calline ability, this jam uses other small ingredients that make it achieve that goal.",
+      "altaDescription" : "Tastes very similar to gheatsyn jam, just glows much brighter. Which is still pretty nice.", "alkey" : "Calline V'ei",
+      "level" : 3, "rarity" : "Uncommon", "price" : 360, "foodValue" : 24, "variant" : true, "effects" : [ [ { "effect" : "lightaugment1", "duration" : 60 } ] ],
+      "paletteSwap" : {"#ffc744":"#ff6344","#fc7800":"#fc000f","#b64e00":"#b60013","#d4ff5a":"#ecf9dc","#b7f601":"#c1dfae","#8dbd01":"#87b684","#fefeed":"#fefeed"}
+    },
+    "bishyn" : {
+      "shortdescription" : "Bishyn Jam",
+      "description" : "Since ^#378754;bishyn^reset; crystals are not very edible, this isn't actually bishyn. It is, however, quite bitter and tingy, exactly what you would expect from it.",
+      "longdescription" : "Due to it being a crystal-based jam, it can easily be used as a substitute for other calin jams in almost any dish.", "alkey" : "Bishyn V'ei",
+      "altaDescription" : "This jam is actually very good in ^#76c7e4;crystal cookies^reset;. Whenever someone makes ^#378754;bishyn chip cookies^reset;, you know you'll be first to try them.",
+      "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "calin_cuisine", "jam", "bishyn" ],
+      "paletteSwap" : {"#ffc744":"#ab52f0","#fc7800":"#5b13e8","#b64e00":"#3b0ea8","#d4ff5a":"#77e28a","#b7f601":"#4fb66e","#8dbd01":"#378754","#fefeed":"#caf6ce"}
     }
-  ]
+  },
+  "wiki" : { "aliases" : { "Gheatsyn Jam" : { }, "Calin Jam" : { } } }, "alkey" : "Cal V'ei"
 }

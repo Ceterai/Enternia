@@ -20,9 +20,10 @@
     }
   ] ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Tsay-Pop",
+  "variants" : [ "pop" ],
+  "presets" : {
+    "pop" : {
+      "shortdescription" : "Tsay-Pop", "variant" : true,
       "description" : "A fresh spin on the Tsay-Cola that definitely has more pop to it!",
       "longdescription" : "Another pleasant variation that, while not having a great taste difference from the original, provides a new interesting texture and aftertaste.",
       "level" : 3, "rarity" : "Uncommon", "price" : 80,
@@ -33,6 +34,6 @@
         }
       ] ]
     }
-  ],
+  },
   "wiki" : { "aliases" : { "Bluemix" : { }, "Tsay-Carel Duo" : { } } }, "alkey" : "Tsay-Fizh"
 }

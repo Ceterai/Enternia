@@ -12,5 +12,17 @@
   "emote" : "",
   "emitters" : [ "stimuse" ],
 
+  "presets" : {
+    "light" : {
+      "shortdescription" : "Light Stim Pack", "itemTags" : [ "enhancer", "light" ],
+      "price" : 80, "level" : 3, "rarity" : "Uncommon",
+      "description" : "Adds a little bioluminescence in safe level to your body for 2 mins. Taking more than one won't make you shine brighter, but will cause an overdose.",
+      "longdescription" : "The mixture in this enhancer is safe for most organic and semi-organic creatures and provides a dim glow after reacting with the body.",
+      "altaDescription" : "If there's no kight source, I can be the light source.", "alkey" : "Oa Helis",
+      "effects" : [ [ { "effect" : "lightaugment1", "duration" : 120 } ] ],
+      "paletteSwap" : {"#60c0fc":"#fdfa9b","#2080f0":"#f06020","#0050c0":"#c00025","#8020f0":"#dff020","#5000c0":"#b9c000"}
+    }
+  },
+
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Hevikai Helis"
 }

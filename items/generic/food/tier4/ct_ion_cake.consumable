@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_ion_cake.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A bright colored cake most appropriate for parties and special occasions.",
   "shortdescription" : "Ion Cake",
+  "description" : "A bright colored cake most appropriate for parties and special occasions.",
+  "longdescription" : "A milk-creamy mixture with a unique taste makes this cake an entirely new thing.",
+  "altaDescription" : "Very good party cake, although no place to write something like \"congradulations\" on it.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 90,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "cake", "dessert" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,15 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
+  "variants" : [ "love" ],
+  "presets" : {
+    "love" : {
       "shortdescription" : "Mira's Love ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. This well-made ion caked is beyond all praises! Surely it deserves the Al'deron's commander name next to it.",
+      "description" : "This well-made ion cake is beyond all praises! Surely it deserves the Al'deron's commander name next to it.",
+      "longdescription" : "Every bit is calculated and planned, all measurements are exact, including your reaction and what side of the cake you'll start with.",
+      "altaDescription" : "This cake is screaming \"Mira\" with its sheer existance. Love her, and this cake accordingly.",
+      "variant" : true, "alkey" : "Mira Muai",
       "level" : 6, "rarity" : "Legendary", "price" : 1560, "foodValue" : 110
     }
-  ]
+  }, "alkey" : "Ennia Ovak"
 }

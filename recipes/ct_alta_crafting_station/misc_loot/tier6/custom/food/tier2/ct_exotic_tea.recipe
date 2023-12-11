@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_vermont_tea", "count" : 1, "parameters" : { "preset" : "exotic" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "food", "all" ]
+}

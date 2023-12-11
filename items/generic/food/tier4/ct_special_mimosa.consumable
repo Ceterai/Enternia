@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_special_mimosa.png",
-  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A special version of mimosa salad made of the finest ^#b0e0fc;alta^reset; fruits and spices.",
   "shortdescription" : "Special Mimosa",
+  "description" : "A special version of mimosa salad made of the finest ^#b0e0fc;alta^reset; fruits and spices.",
+  "longdescription" : "The recipe follows an original concept of a layered sauce-like salad.",
+  "altaDescription" : "This will brobably more then enough for a whole party.",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 75,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "salad" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,14 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Lenn's Mimosa ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A very special mimosa that tastes exactly like that one time! That one time...",
+  "variants" : [ "lenn" ],
+  "presets" : {
+    "lenn" : {
+      "shortdescription" : "Lenn's Mimosa ^#8020f0;^reset;", "variant" : true,
+      "description" : "A very special mimosa that tastes exactly like that one time! That one time...",
+      "longdescription" : "This very special recipe variation was created for a very special person.",
+      "altaDescription" : "As far as I know, dishes like mohitavas and mimosas were brought to us by time drifters. I guess that's why it's named like that...",
       "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 95
     }
-  ]
+  }
 }

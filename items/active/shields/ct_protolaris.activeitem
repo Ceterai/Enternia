@@ -19,9 +19,15 @@
     "shield" : "images/ct_protolaris.png"
   },
   "animationCustom" : {
+    "globalTagDefaults" : { "paletteSwaps" : "" },
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
-    }}}},
+    }, "partStates" : { "shield" : {
+        "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
+        "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
+        "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
+    } }
+    }}},
     "sounds" : {
       "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ],
       "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],

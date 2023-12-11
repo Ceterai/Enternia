@@ -2,10 +2,12 @@
   "itemName" : "ct_arco_legwear",
   "shortdescription" : "Enviroleggings",
   "description" : "A great balance between armor and hazard protection.",
+  "longdescription" : "These leggings include multiple layers of high quality materials to ensure heat retention, electric isolation and poison blocks.",
+  "altaDescription" : "You could walk through fire in these easily.",
 
   "price" : 700, "rarity" : "Rare",
   "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour", "arco" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -65,6 +67,31 @@
     // CRYSTAL (BROWN)
     { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
   ],
+
+  "presets" : {
+    "lab" : {
+      "shortdescription" : "Alta Lab Guard Pads", "itemTags" : [ "tier5armour", "alta_lab" ],
+      "description" : "A piece of equipment worn by ^#b0e0fc;alta lab guards^reset; in most ^#b0e0fc;alta laboratories^reset;.",
+      "longdescription" : "Mostly consisting of ^#299fc5;bionix^reset; and suspending materials, it provides a decent amount of protection for a guard.",
+      "altaDescription" : "First line of protection of all the precious research we've made and knowledgge we've gained.", "alkey" : "Tek Varda Ling",
+      "paletteSwap" : {"#f6f6f6":"#4c5064","#d8dcf0":"#383c50","#b0b4c8":"#24283c","#606478":"#101428"},
+      "colorOptions" : [
+        { "0050c0" : "106890", "2080f0" : "1090c0", "60c0fc" : "10b4ef", "b0e0fc" : "71d4f8" },
+        { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
+        { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
+        { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
+        { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
+        { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
+        { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
+        { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
+        { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
+        { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
+        { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
+        { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
+      ]
+    }
+  },
+  "alkey" : "Arco Ling",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

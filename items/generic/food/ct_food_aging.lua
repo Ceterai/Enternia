@@ -5,11 +5,17 @@ function ageItem(baseItem, aging)
   local rot_config = getParam(baseItem, itemConfig, "rotConfig", "/items/generic/food/ct_ionic_rotting.config")
   if baseItem.parameters.timeToRot then
     -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
-    if itemConfig.config.variants ~= nil and baseItem.parameters.timeToRot == getParam(baseItem, itemConfig, "timeToRotMax", 0) then
+    if baseItem.parameters.timeToRot == getParam(baseItem, itemConfig, "timeToRotMax", 0) then
       -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
       -- sb.logInfo("\n\nvariants: %s", itemConfig.config.variants)
-      local variant = getVariant(itemConfig.config.variants)
-      baseItem.parameters = sb.jsonMerge(baseItem.parameters, variant)
+      if itemConfig.config.variants and not baseItem.parameters.variant then
+        local variant = getVariant(itemConfig.config.variants, itemConfig.config.presets)
+        if #variant > 0 then
+          baseItem.parameters = sb.jsonMerge(baseItem.parameters, variant)
+          baseItem.parameters.variant = true
+          -- baseItem.parameters.description = "^cyan;Perfect cooking!^reset; "..(baseItem.parameters.description or "")
+        end
+      end
     end
     baseItem.parameters.timeToRot = baseItem.parameters.timeToRot - aging
 
@@ -33,14 +39,14 @@ function getParam(baseItem, itemConfig, keyName, defaultValue)
   else return defaultValue end
 end
 
-function getVariant(variants)
+function getVariant(variants, presets)
   local total = 0.0
   local roll = util.randomInRange({total, 1.0})
   -- sb.logInfo("\n- roll: %s", roll)
   for i, variant in ipairs(variants) do
-    total = total + (variant.chance or 0.1)
+    total = total + (presets[variant].chance or 0.1)
     -- sb.logInfo("\n- total: %s", total)
-    if roll <= total then return variant end
+    if roll <= total then return presets[variant] end
   end
   return { }
 end

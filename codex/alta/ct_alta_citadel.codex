@@ -1,0 +1,32 @@
+{
+  "id" : "ct_alta_citadel",
+  "title" : "Alta Citadels ^#8020f0;^reset;",
+  "description" : "A post-design document on typical alta capital centers.",
+  "longdescription" : "Its purpose is to provide general insight to newcoming citadel workers and defenders.",
+  "altaDescription" : "Ah, a citadel brochure... The information inside of it is taken directly from the General Alta Knowledge Datacenter, like with most post-design brochures about infrastructure.",
+  "icon" : "ebook/ship.png",
+  "contentPages" : [
+
+    "At the center of every ^#b0e0fc;alta capital^reset; stands a massive citadel. It houses security complexes, main offices of the city administration, the control and order support department, warehouses for city equipment and emergency supplies and generators in case of crisis situations.
+The citadel itself is equipped with autonomous power supplies and control systems, as well as several energy shield generators. Beneath the citadel is most often the main civilian refuge.",
+
+"In addition to energy shields and security systems, the citadel is protected by advanced ^#b0e0fc;alta robotics^reset;, such as ^#b0e0fc;defensive drones^reset;, ^#b0e0fc;stalker droids^reset;, and even ^#b0e0fc;frigate drones^reset;.
+
+The walls of the citadel consist of several layers of composite armor, consisting mostly of ^#299fc5;bionix^reset; and ^#f02020;EDS armor^reset;, with some levels being partially air-tight.",
+
+"While the upper levels of the citadel are dedicated to technical control and communications center, the main entrance levels are the administrative palace, often housing the main staff of the administration, including the city's top commander.
+
+Receptions and city events take place here, and organizational issues are resolved. ^#b0e0fc;Alta palaces^reset; look like large high-tech mansions, either extending into the citadel or being a part of it.",
+
+"Sometimes such palaces are located at the very top of the citadel in form of penthouses overlooking the city. Citadels with palaces of this type can reach particularly big heights, and also allow for greater attention to be paid to defense on the lower floors.
+
+Such citadels are usually located in capitals on planets and continents of high danger, for example on ^#2080f0;alterash prime^reset; planets."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Legendary", "price" : 220, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 6,
+      "itemTags" : [ "data_source", "ebook", "alta_citadel" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

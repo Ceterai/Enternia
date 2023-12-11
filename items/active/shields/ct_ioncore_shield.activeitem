@@ -18,9 +18,15 @@
     "shield" : "images/ct_ioncore_shield.png"
   },
   "animationCustom" : {
+    "globalTagDefaults" : { "paletteSwaps" : "" },
     "animatedParts" : { "parts" : { "shield" : { "properties" : {
         "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
-    }}}},
+    }, "partStates" : { "shield" : {
+        "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
+        "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
+        "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
+    } }
+    }}},
     "sounds" : {
       "init" : [ ],
       "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
@@ -73,6 +79,34 @@
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Thermoprotector ^#20f080;^reset;", "itemTags" : [ "shield", "upgradeableWeapon" ],
+      "price" : 520, "level" : 4, "rarity" : "Uncommon", "race" : "alta",
+      "description" : "An armored heat dispencer with a built-in energy generator. Better be careful around plants.",
+      "longdescription" : "Often used by riverside scouts, it can often be used to heat up the environment.",
+      "altaDescription" : "A hand-held directional microwave. Very creative.", "alkey" : "Gaush Taum",
+      "paletteSwap" : {"#0050c0":"#c05c00","#2080f0":"#f08e20","#60c0fc":"#fcca60","#b0e0fc":"#fce5b0","#5000c0":"#c02800","#8020f0":"#f05620",
+        "#6d6765":"#83a8a4","#464241":"#5d8c86","#222222":"#39524f","#0a0a0a":"#262539"},
+      "baseShieldHealth" : 58, "knockbackStatusEffects" : [ "burning" ],
+
+      "primaryAbility" : {
+        "name" : "Redistribution",
+        "description" : "Provides an ^#f08020;Burning^reset; on knockback.  \nActivate block fast enough (parry time) to perform a perfect block."
+      },
+
+      "upgradeParameters" : {
+        "shortdescription" : "Plasmic Heater ^#8020f0;^reset;",
+        "description" : "A plasma-powered stardust enhancement for a thermoprotector.",
+        "longdescription" : "It's not known who is the original owner of this artifact, since riverside scouts usualy reserve to a less powerful factory analog.",
+        "price" : 560, "rarity" : "Legendary", "alkey" : "Alnigaulis",
+        "paletteSwap" : {"#0050c0":"#c00064","#2080f0":"#f02081","#60c0fc":"#fc6092","#b0e0fc":"#fcb0c7","#5000c0":"#c00097","#8020f0":"#f020ba",
+          "#6d6765":"#83a8a4","#464241":"#5d8c86","#222222":"#39524f","#0a0a0a":"#262539"},
+        "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
+      }
+    }
+  },
+
   "upgradeParameters" : {
     "inventoryIcon" : "ct_ioncore_shield.png",
     "animationParts" : { "shield" : "images/ct_ioncore_shield.png" },
@@ -80,6 +114,8 @@
     "description" : "Hidden ^#8020f0;ionic^reset; energy of this shield has been released with the use of ^#ffa8e8;stardust^reset;. How can it be of help to you?",
     "longdescription" : "This powerful tool of the fallen, adapted by altas, is almost an indirect Io's gift, that was made by her children and handed to you with time.",
     "price" : 520, "rarity" : "Legendary",
+    "paletteSwap" : {"#0050c0":"#20f0bd","#2080f0":"#f02080","#60c0fc":"#fc60c0","#b0e0fc":"#fcb0e0","#5000c0":"#00c097","#8020f0":"#60fcbd",
+      "#6d6765":"#656170","#464241":"#403e48","#222222":"#222222","#0a0a0a":"#0a0a0a"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } }
   }, "alkey" : "Enigir Taum"
 }

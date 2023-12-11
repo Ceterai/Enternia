@@ -2,6 +2,31 @@
 
 ## Update 2.1 - Alta Decryption
 
+### 2.1.2
+
+You're discovering more knowledge about alta culture and are uncovering new databases along the way, with a few things to enhance equipment you already have.
+
+**Main:**
+
+- added 24 codexes;
+- added 25 radiomessages, that now display once you pick up specific items;
+- added a bit of recipes for custom items (most are only available at the ultimate crafting station);
+- new cosmetic items can be found as loot in biome chests;
+
+**Wiki:**
+
+- updated certain manual pages;
+- added pickup radio message support;
+
+**Other:**
+
+- added extended descriptions to most food and codex items;
+- revorked perfect cooking system slightly;
+- enhanced some codexes and fixed grammar & phrazing in several places;
+- upgraded shields and perfect foods now have custom colors;
+- all t6+ armor items now have according consistent invisible bonuses, mentioned in their descriptions;
+- minor bug fixes.
+
 ### 2.1.1
 
 Now that datacenter is full of useful and intersting information, might as well use the most of it to prepare for upcoming threats!  

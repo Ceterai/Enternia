@@ -1,7 +1,8 @@
 require "/scripts/util.lua"
+require "/items/buildscripts/ct_alta_item_builder.lua"
+local ct_alta_item_builder = build
 require "/items/buildscripts/buildfood.lua"
-
-food_build = build
+local food_build = build
 
 function build(directory, config, parameters, level, seed)
   local configParameter = function(keyName, defaultValue)
@@ -10,16 +11,14 @@ function build(directory, config, parameters, level, seed)
     else return defaultValue end
   end
 
+  config.fixedPrice = true
+  config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
+
   local rot_config = configParameter("rotConfig", "/items/generic/food/ct_ionic_rotting.config")
   local timeToRotMax = configParameter("timeToRotMax", config.timeToRot)
   local timeToRot = parameters.timeToRot
-  if not timeToRotMax then
-    local rottingMultiplier = configParameter("rottingMultiplier", 1.0)
-    timeToRotMax = root.assetJson(rot_config .. ":baseTimeToRot") * rottingMultiplier
-  end
-  if not timeToRot then
-    timeToRot = timeToRotMax  -- important to do here so it skips similar logic in food_build()
-  end
+  if not timeToRotMax then timeToRotMax = root.assetJson(rot_config..":baseTimeToRot") * configParameter("rottingMultiplier", 1.0) end
+  if not timeToRot then timeToRot = timeToRotMax end  -- important to do here so it skips similar logic in food_build()
 
   config.pFoodValue = config.foodValue
   config.foodValue = parameters.foodValue or config.pFoodValue
@@ -40,20 +39,24 @@ function build(directory, config, parameters, level, seed)
   if configParameter("foodValue") == nil then config.tooltipFields.foodAmountLabel = "" end
 
   -- Variants
-  local full_desc = ""
-  if config.variants then
-    full_desc = full_desc .. "\n^gray;Variants:^reset; "
-    for i, variant in ipairs(config.variants) do
-      local name = variant.shortdescription
-      if name and name ~= configParameter("shortdescription", {}) then
-        if i == 1 then full_desc = full_desc .. name else full_desc = full_desc .. ", " .. name end
-      end
+  if config.variants and config.presets and not configParameter("variant", false) then
+    local names = {}
+    for _, variant in ipairs(config.variants) do
+      local name = config.presets[variant].shortdescription
+      if name and name ~= configParameter("shortdescription", "") then table.insert(names, name) end
     end
-    for i, variant in ipairs(config.variants) do
-      if variant.shortdescription == configParameter("shortdescription", {}) then full_desc = "" end
-    end
+    if #names > 0 then config.tooltipFields.fullDescriptionLabel = config.tooltipFields.fullDescriptionLabel.."\n^gray;Variants:^reset; "..table.concat(names, ", ") end
   end
-  config.tooltipFields.fullDescriptionLabel = configParameter("description", "") .. full_desc
+  local cuisines = {
+    alta_cuisine = "An ^#b0e0fc;alta^reset; cuisine. ",
+    calin_cuisine = "^#b0e0fc;Calin alta cuisine^reset;. ",
+    nia_cuisine = "^#b0e0fc;Nia alta cuisine^reset;. ",
+    runeva_cuisine = "^#b0e0fc;Runeva alta cuisine^reset;. ",
+    yava_cuisine = "^#b0e0fc;Yava alta cuisine^reset;. ",
+  }
+  for _, tag in ipairs(configParameter("itemTags", {})) do
+    if cuisines[tag] then config.tooltipFields.fullDescriptionLabel = cuisines[tag]..config.tooltipFields.fullDescriptionLabel end
+  end
 
   if config.tooltipFields.effectLabel == nil and config.tooltipFields.foodAmountLabel ~= "" then
     config.tooltipFields.effectLabel = "Food Value: " .. configParameter("foodValue", 0)

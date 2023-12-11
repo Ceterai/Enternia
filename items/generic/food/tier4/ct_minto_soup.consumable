@@ -4,7 +4,9 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_minto_soup.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A spicy variation on the traditional ^#b0e0fc;alta^reset; soup. Has a chance to turn out a bit too spicy.",
+  "description" : "A spicy variation on the traditional ^#b0e0fc;alta^reset; soup. Has a chance to turn out a bit too spicy.",
+  "longdescription" : "The recipe has lots of variations, including maitai - a very spicy alta soup enjoyed by many altas.",
+  "altaDescription" : "I like the classic variation quite a lot. Very nice balance of taste.",
   "shortdescription" : "Minto Soup",
   "effects" : [ [
     {
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 50,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,19 +24,24 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
+  "variants" : [ "maitai", "perfect" ],
+  "presets" : {
+    "maitai" : {
       "chance" : 0.4,
-      "shortdescription" : "Maitai Soup",
+      "shortdescription" : "Maitai Soup", "variant" : true,
       "inventoryIcon" : "/items/generic/food/other/images/ct_maitai_soup.png",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A very spicy ^#b0e0fc;alta^reset; soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
+      "description" : "A very spicy ^#b0e0fc;alta^reset; soup that is also very nourishing and tasty. Maybe some ionice cubes can help with spice.",
+      "longdescription" : "This variation also has a slightly different texture, as some of the spices are prepared in clumps and thus add to the overall thickness.",
+      "altaDescription" : "A spicy meal for spicy meal lovers.",
       "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 330 }, { "effect" : "burning", "duration" : 15 } ] ]
     },
-    {
+    "perfect" : {
       "chance" : 0.1,
-      "shortdescription" : "Perfect Minto Soup ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
+      "shortdescription" : "Perfect Minto Soup ^#8020f0;^reset;", "variant" : true,
+      "description" : "This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
+      "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
+      "altaDescription" : "A very good outcome, what an enjoyable piece of culinary art!",
       "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
     }
-  ]
+  }
 }

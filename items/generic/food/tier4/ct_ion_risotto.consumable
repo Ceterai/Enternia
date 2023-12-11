@@ -4,7 +4,9 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_ion_risotto.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A great combination of the most popular ingridients from the nia cuisine.",
+  "description" : "A great combination of the most popular ingridients from the nia cuisine.",
+  "longdescription" : "Though the preparation process might take some time, it is totally worth it in the end.",
+  "altaDescription" : "A very decent, fulfilling risotto.",
   "shortdescription" : "Ion Risotto",
   "effects" : [ [
     {
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 60,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "meal" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -22,11 +24,14 @@
     "wellfed"
   ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Ion Risotto ^#8020f0;^reset;",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. A wild combination of the most popular ingridients from the nia cuisine that tastes more exciting than ever.",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Ion Risotto ^#8020f0;^reset;", "variant" : true,
+      "description" : "A wild combination of the most popular ingridients from the nia cuisine that tastes more exciting than ever.",
+      "longdescription" : "This recipe, unlike the original, features an almost completely different style and order of preparation, making this risotto somehow different, yet very-very similar.",
+      "altaDescription" : "Amazing quality and taste, something you would expect from a proffesional restaurant.",
       "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
     }
-  ]
+  }
 }

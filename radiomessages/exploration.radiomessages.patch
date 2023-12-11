@@ -22,5 +22,94 @@
   { "op":"add", "path":"/ct_hevikai_msg", "value":{
     "unique" : false, "textSpeed" : 70,
     "text" : "Highly charged plasmic signals were detected all over your body. This is ^#0050c0;Hevikai^reset;. All electric immunity has been significantly decreased. If you don't cure this in time, it might not end well."
+  } },
+
+  { "op":"add", "path":"/ct_robot_spawner_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Seems like you've accquired an ^#b0e0fc;Alta Robotic^reset;, or simply a Drone Spawner. You can activate it to deploy a friendly drone (or droid). Unfortunately, you won't be able to further control it or deactivate it back."
+  } },
+  { "op":"add", "path":"/ct_energy_shielder_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've got a hold of a one-off alta energy shield. You can activate it to receive additional short-term protection from outside threats. These usually last around 5 minutes. It's worth noting that these can also be found on certain alta equipment pieces."
+  } },
+  { "op":"add", "path":"/ct_alta_weapon_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've just picked up an alta weapon, or an \"energy tool\", as they call it. According to my database, these usually have an extended set of features. I suggest reading its description."
+  } },
+  { "op":"add", "path":"/ct_alta_shield_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You're holding an alta shield. My database shows an enhanced set of features, loading a proper description for you. Protection is known to be a prominent topic in alta culture and a big research field as well, so this might be worth checking out."
+  } },
+  { "op":"add", "path":"/ct_monster_egg_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "I detected an Io monster egg in your inventory. This one can be used to deploy a hostile monster that is sitting inside. I wouldn't recommend doing so, and selling it instead."
+  } },
+
+  { "op":"add", "path":"/ct_eds_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "The item you've just picked up seems to have visual EDS markings on it. ^#f02020;EDS^reset; is an alta formation focused on protecting altas from all possible threats, and thus all related items and objects often reflect that goal in their characteristics.  \nUnfortunately, it seems like EDS's automated defence system went out of control recently, so I'd suggest avoiding contact with still active facilities."
+  } },
+  { "op":"add", "path":"/ct_warped_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Beware of the warped items you just accquired. ^#9b2d3f;Warped^reset; is a form of wild growth found mainly on ^#20f080;alterash^reset; planets, that tends to spread uncontrollably and contaminate everything in its path.  \nWarped things can be bioluminescent, but they also tend to be quite venomous too. I wouldn't recommend testing your luck."
+  } },
+  { "op":"add", "path":"/ct_haven_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "The item you just got seems to have come for alterash ^#80f020;haven^reset; - flowery areas on ^#20f080;alterash^reset; planets that tend to have higher levels of toxicity than surrounding nature. Although it equals to toxicity levels on most green planets, it's not a usual sight here, so I would reccomend being careful."
+  } },
+  { "op":"add", "path":"/ct_faradea_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Seems like the item you just picked up belongs to ^#ffe364;Faradea^reset; - an independant alta mercenary faction. Let's hope you don't find the previous owner of this item."
+  } },
+
+  { "op":"add", "path":"/ct_alterash_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You have just landed on an ^#20f080;alterash^reset; planet. It's a ^#ffa8e8;stardust^reset;-type planet of ^#7733aa;electric^reset; nature, so you should expect threats of that element.  \nAlterash planets are usually populated by ^#b0e0fc;altas^reset;, so you might come around a lot of ^#b0e0fc;alta technology^reset; while here."
+  } },
+  { "op":"add", "path":"/ct_alta_crafting_station_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Seems like you have built an ^#b0e0fc;alta crafting station^reset;. It contains various alta technology, including armor, weapons and other equipment. If you want to upgrade it (by expanding its database), I'd suggest searching for desired datamasses around ^#20f080;alterash^reset; planets."
+  } },
+  { "op":"add", "path":"/ct_my_enternia_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Welcome to the \"My Enternia\" mod! This book will help you explore and will navigate you through main content via tasks and challenges!  \nLast pages briefly describe common things and concepts found in the mod, so feel free to check it out anytime! And if you're lost, you can always check in with mod's wiki."
+  } },
+  { "op":"add", "path":"/ct_alta_scanner_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've accquired an ^#b0e0fc;alta scanner^reset;! This will expand my database greatly. Feel free to scan items, objects and even monsters. It should provide an extended info and lore, unavailable through regular scanning and tooltips."
+  } },
+
+  { "op":"add", "path":"/ct_alta_head_armor_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta head armor piece. Among usual protection and a special effect, these usually have an in-built ^#b0e0fc;breath protection^reset;, meaning you no longer have to use a ^#b0e0fc;Breathing EPP^reset; in places where you couldn't breath."
+  } },
+  { "op":"add", "path":"/ct_alta_back_armor_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta back armor piece. Aside from providing special effects, these usually have an augment slot, allowing you to enhance them with an augment of your choice."
+  } },
+  { "op":"add", "path":"/ct_alta_legs_armor_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta legs armor piece. Among usual protection and a special effect, these usually have in-built proto-enhancers, increasing knockback threshold by 3 and decreasing falldamage by 15%."
+  } },
+
+  { "op":"add", "path":"/ct_datamass_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've found an ^#b0e0fc;alta datamass^reset;. These tiny portable databases tend to contain important encrypted info used by ^#b0e0fc;alta crafting stations^reset; to unlock various blueprints.  \nThese can either be crafted or found in random ^#b0e0fc;alta pods^reset; on ^#20f080;alterash^reset; planets."
+  } },
+  { "op":"add", "path":"/ct_sphere_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "What you just accquired is an alta energy sphere, a powerful energy generator that produces energy of one of three types - ceternia, alternia and enternia. These spheres are powered by crystals and pure energy essence that you can find scattered accross ^#ffa8e8;stardust^reset;-type planets like ^#20f080;alterash^reset;.  \nUse them sparingly as they're generally hard to come by."
+  } },
+  { "op":"add", "path":"/ct_loot_crate_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "I detected an alta loot crate in your inventory. These mini-pods contain random loot, found in a corresponding chest or pod. Altas use these for quick and compact transportation, and thus everything inside is packed tighly. You won't be able to put things back after you open one."
+  } },
+  { "op":"add", "path":"/ct_set_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "Looks like you have acquired a set of alta equipment. These usually contain a full set of armor with corresponding documentation. Due to being created in bulk, sets are often much cheaper to craft than it is to craft their components separately."
+  } },
+  { "op":"add", "path":"/ct_gsr_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "I'm detecting a ^#b0e0fc;GSR Pod^reset; in your inventory. These mysterious alta containers usually contain a random weapon or a piece of equipment. The level range is ^#20f080;3^reset; to ^#8020f0;6^reset;, so you might get something good from it. Might."
   } }
 ]

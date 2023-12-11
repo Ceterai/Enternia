@@ -3,6 +3,7 @@
   "title" : "Arknight's Handbook",
   "description" : "An ebook containing brief notes about duty and responsibilities.",
   "longdescription" : "This was written by a beginner arknight alta as part of her learning experience.",
+  "altaDescription" : "If I were to learn from this, could I possibly become an arknight myself one day?",
   "icon" : "ebook/stardust.png",
   "contentPages" : [
 
@@ -26,5 +27,10 @@ Every ^#b0e0fc;alta^reset; matters."
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "ebook", "arknight" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "related" : {
+      "### [[ Codexes ]]" : [ "Eva Nature", "The Sky Above Us" ]
+    }
   }
 }

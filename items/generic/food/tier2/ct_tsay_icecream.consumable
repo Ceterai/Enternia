@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_tsay_icecream",
+  "shortdescription" : "Tsay Ice Cream",
+  "description" : "A sour icecream, how?",
+  "longdescription" : "The answer is simple lots of powdered tsays and ionice. Rare alta powder balls act as rare sweeteners, almost like raisins in a piece of bread.",
+  "altaDescription" : "I like to single out the aya bits and see how much I can eat without them!",
+  "level" : 4, "rarity" : "Uncommon", "price" : 440, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "dessert", "ice", "tsay" ],
+  "inventoryIcon" : "ct_tsay_icecream.png",
+  "effects" : [ [
+    {
+        "effect" : "swimboostcola",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 20,
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+
+  "variants" : [ "dessert" ],
+  "presets" : {
+    "dessert" : {
+      "shortdescription" : "Iced Tsay Dessert ^#20f080;^reset;", "variant" : true,
+      "description" : "This icy creamy dessert is sparkling with sourness! Can you lick it without flinching?",
+      "longdescription" : "Almost like a lemon ice cream, this dessert can be decieving in its presentation.",
+      "altaDescription" : "Very much worth it, especially if you can ask for a sweeter option. Or if you want to make a funny face.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 30, "alkey" : "Tsay Feeri",
+      "paletteSwap" : {"#b2ff2d":"#2ddfff","#80ca00":"#00abca","#538300":"#006f83","#3c5e00":"#00505e","#0050c0":"#c07f00"}
+    },
+    "warped" : {
+      "shortdescription" : "Archi Ice Cream", "variant" : true,
+      "description" : "This icy creamy dessert is sparkling with sourness! Can you lick it without flinching?",
+      "longdescription" : "Almost like a lemon ice cream, this dessert can be decieving in its presentation.",
+      "altaDescription" : "Very much worth it, especially if you can ask for a sweeter option. Or if you want to make a funny face.",
+      "wiki" : { "skip" : true }, "alkey" : "Archi Izohivi",
+      "paletteSwap" : {"#b2ff2d":"#ffe62d","#80ca00":"#cab200","#538300":"#837300","#3c5e00":"#5e5200","#0050c0":"#c02200"}
+    },
+    "alien" : {
+      "shortdescription" : "Strish Ice Cream", "variant" : true,
+      "description" : "This icy creamy dessert is sparkling with sourness! Can you lick it without flinching?",
+      "longdescription" : "Almost like a lemon ice cream, this dessert can be decieving in its presentation.",
+      "altaDescription" : "Very much worth it, especially if you can ask for a sweeter option. Or if you want to make a funny face.",
+      "wiki" : { "skip" : true }, "alkey" : "Strish Izohivi",
+      "paletteSwap" : {"#b2ff2d":"#ff2d8b","#80ca00":"#ca005b","#538300":"#83003b","#3c5e00":"#5e002b","#0050c0":"#a100c0"}
+    }
+  }, "alkey" : "Tsay Izohivi"
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_aya_baked", "count" : 1, "parameters" : { "preset" : "alta_pear" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "food", "all" ]
+}

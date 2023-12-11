@@ -4,7 +4,9 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_aya_punch.png",
-  "description" : "^#b0e0fc;Runeva alta cuisine^reset;. A sweet aya punch. Simple, but powerful.",
+  "description" : " A sweet aya punch. Simple, but powerful.",
+  "longdescription" : "While the preparation process takes time, ayas sweeten out quite fast and thus are very good for a fast-marinaded punch, while most other alta punches use the fast-boiled kompot-like methods.",
+  "altaDescription" : "Ayas are pretty sweet as it is, so having a less-sweet drink with a similar taste is pretty neat.",
   "shortdescription" : "Aya Punch",
   "effects" : [ [
     {
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "punch", "ayaka" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -24,12 +26,15 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_alliana_cake", "ct_haruplavu_venetto" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Bluesweet Punch",
-      "description" : "^#b0e0fc;Runeva alta cuisine^reset;. An aya punch with extra ayas and extra sweetness. The name checks out.",
+  "variants" : [ "bluesweet" ],
+  "presets" : {
+    "bluesweet" : {
+      "shortdescription" : "Bluesweet Punch", "variant" : true,
+      "description" : "An aya punch with extra ayas and extra sweetness. The name checks out.",
+      "longdescription" : "For this recipe, ayas are intentionally kept as sweet as possible. This results in a flavor shower that keeps on giving.",
+      "altaDescription" : "A punch with an actual flavor punch to it, huh. Wouldn't expect it from something just plain sweet.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 } ] ]
     }
-  ]
+  }
 }

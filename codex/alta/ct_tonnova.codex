@@ -1,0 +1,31 @@
+{
+  "id" : "ct_tonnova",
+  "title" : "The Neon Forest",
+  "description" : "A small storybook depicting a glowing forest in the middle of coldness and darkness.",
+  "longdescription" : "Its storyline is purely descriptive, talking about tonnas and tonnova-related events, like sprouting and spiraling, trying to explain them in a playful manner.",
+  "altaDescription" : "A pretty magical read, and strongly reminds me of the \"Glowing Kingdom\", written about yonnur-filled warped forests. I guess similar concepts draw to each other, huh.",
+  "icon" : "ebook/bionid.png",
+  "contentPages" : [
+
+    "A bright neon-like cold glow lightens up some parts of esetera. Its massive columns are sometimes covered in a carpet of gigantic spirals with pretty bright bulbs, making it look like the columns are covered in glowing dots.
+
+Although they look very soft and dense from a distance, as you get closer you realise that this is not the case. These huge, biocrystallic tonnovas are stemming from the hard moonrock covering the space.",
+
+"Its rare spring will guide you along the way to the sacred ^#299fc5;bionid^reset; treasure, hidden among the luminous ^#c1ebf8;tonnova groves^reset;.
+
+Be careful while raveling among all the tonnova springs and trees, and watch out for falling ^#c1ebf8;tonnas^reset;!"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : { "aliases" : {
+    "Neon Forest" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png" }
+  },
+  "related" : {
+    "### [[ Codexes ]]" : [ "Bionics", "Bionid Extraction Note", "Complicated Nature of Bion" ]
+  } }
+}

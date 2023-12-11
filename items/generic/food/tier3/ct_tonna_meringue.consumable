@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_tonna_meringue.png",
-  "description" : "^#b0e0fc;Nia alta cuisine^reset;. A wery soft ^#c1ebf8;tonna^reset; pie with meringue topping.",
   "shortdescription" : "Tonna Meringue",
+  "description" : "A very soft ^#c1ebf8;tonna^reset; pie with meringue topping.",
+  "longdescription" : "The way tonnas are utilized to create a topping and the filling at the same time requires some culinary skill.",
+  "altaDescription" : "A very sweet dessert that's presented to look like a slice of pie. Presumably because that's part of how these are made.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 45,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "dessert", "tonna" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -23,11 +25,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_ion_risotto", "ct_tonna_split" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Tonnakada Meringue",
-      "description" : "^#b0e0fc;Nia alta cuisine^reset;. The softness of this pie makes it feel like it's melting in your mouth.",
+  "variants" : [ "kada" ],
+  "presets" : {
+    "kada" : {
+      "shortdescription" : "Tonnakada Meringue", "variant" : true,
+      "description" : "The softness of this pie makes it feel like it's melting in your mouth.",
+      "longdescription" : "This recipe uses a freshly-made tonnakada as base for its recipe. Therefore, the baked tonna shell is used as pie casing too.",
+      "altaDescription" : "A very cool turn on a regular tonna meringue, that just sounds like a fun idea.",
       "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 55
     }
-  ]
+  }
 }

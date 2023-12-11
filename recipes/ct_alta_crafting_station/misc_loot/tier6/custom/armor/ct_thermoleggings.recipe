@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_legwear", "count" : 1, "parameters" : { "preset" : "koywa" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "armor", "head", "all" ]
+}

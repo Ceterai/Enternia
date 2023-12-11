@@ -1,0 +1,31 @@
+{
+  "itemName" : "ctayaicecream",
+  "shortdescription" : "Aya Ice Cream",
+  "description" : "One tasty snowcone, aya flavoured!",
+  "longdescription" : "It seems that aya powder was perfectly made for ice creams. It mixes with isoslime incredibly well, resulting in a great dessert.",
+  "altaDescription" : "The most basic ice cream flavor you can pick. It's also usually the most cheap one.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 440, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "dessert", "ice", "ayaka" ],
+  "inventoryIcon" : "ctayaicecream.png",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 20,
+  "newItem" : "ct_aya_icecream",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+
+  "variants" : [ "dessert" ],
+  "presets" : {
+    "dessert" : {
+      "shortdescription" : "Iced Aya Dessert ^#20f080;^reset;", "variant" : true,
+      "description" : "This is not any regular ice cream, this is a full dessert with extra-sweetness!",
+      "longdescription" : "The process of preparation is slightly more complicated, but the presentation does the most difference.",
+      "altaDescription" : "While not very different from aya ice cream in flavor, the texture is incredibly pleasant, and you can even bite into it without much problem!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24
+    }
+  }
+}

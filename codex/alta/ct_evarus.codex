@@ -1,0 +1,38 @@
+{
+  "id" : "ct_evarus",
+  "title" : "The Sky Above Us",
+  "description" : "An ebook poetically describing the skies of alterash planets.",
+  "longdescription" : "It shows a common among altas cultural perception of the planetary layers above the planet and how they are inhabitated.",
+  "altaDescription" : "This story reminds you that it's ok to dream and wonder, and that it's a nice way of relaxation too!",
+  "icon" : "ebook/stardust.png",
+  "contentPages" : [
+
+    "The sky above ^#20f080;alterash^reset; always sparkled with a mysterious starry glow.
+
+No matter when you raise your head, it always seems as if above you, high in the sky, there is an endless, crystal-clear ocean, full of coral caramel reefs, beautiful clots of sugar foam and magical, distant dreams and wishes.",
+
+"Many altas are familiar with the desire to get out into the quiet ^#20f080;alterash gardens^reset;, lie down in the grass covered with ^#ffa8e8;stardust^reset;, and, carefreely looking at the sky, dream about anything at all.",
+
+"After all, somewhere up there, in the distance, brave heavenly guardians fly behind the clouds and protect sisters in trouble!
+
+And even further, on asteroids, great alta scientists are developing advanced technologies and moving forward the progress of the entire civilization!
+
+And behind the asteroids, even further, fearless and free ^#b0e0fc;spacedrifters^reset; plow through space itself!",
+
+"And somewhere out there, among the stars, ^#ffa8e8;Celestia^reset; wanders, lovingly caring for each alta.
+And farthest from all, in every star, around it and everywhere, there is ^#ffa8e8;Io^reset; herself, quietly observing the world and the passage of time.
+
+\"Who but her could make my wish come true? Please, help me, dear Io!\" - silly alta thinks, closing her eyes, and, filled with determination and good mood, goes on about her day."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "eva" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+  "related" : {
+    "### [[ Codexes ]]" : [ "Arknight's Handbook", "Eva Nature" ]
+  } }
+}

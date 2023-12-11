@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_natal_punch.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A punch high on calcium.",
   "shortdescription" : "Natal Punch",
+  "description" : "A punch high on calcium.",
+  "longdescription" : "Its ingredients are mainly crystals and minty herbs, and the puch itself in general is not just refreshing, but also quite high on vitamins.",
+  "altaDescription" : "Very nice and, most importantly, healthy too! I've heard they boil it with herbs after the whole sugaring process.",
   "effects" : [ [
     {
         "effect" : "biomeradiationImmunity",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "punch", "fruit" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -28,12 +30,15 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_warped_cocktail" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Natal Punch Deluxe",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
+  "variants" : [ "deluxe" ],
+  "presets" : {
+    "deluxe" : {
+      "shortdescription" : "Natal Punch Deluxe", "variant" : true,
+      "description" : "A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
+      "longdescription" : "This \"premium\" version of the recipe contains a much higher concentration of crystals and thus might not be for everyone.",
+      "altaDescription" : "Nice touch if you have something chewy to go along with it, or something like a pizza.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
       "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ]
     }
-  ]
+  }
 }

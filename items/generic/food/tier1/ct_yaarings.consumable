@@ -1,27 +1,42 @@
 {
   "itemName" : "ct_yaarings",
-  "level" : 2, "rarity" : "Common", "price" : 220,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_yaarings.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. Neat crunchy snacks made from throroughly baked yaara eyes.",
   "shortdescription" : "Yaarings",
+  "description" : "Neat crunchy snacks made from throroughly baked yaara eyes.",
+  "longdescription" : "The plant part of the fruit gets completely removed, and its peel is separated to cook the inside only to be wrapped back up in the now fried peel.",
+  "altaDescription" : "A nice thing to buy in a pack to share with your friends!",
+  "level" : 2, "rarity" : "Common", "price" : 220, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "snack", "yaara" ],
+  "inventoryIcon" : "ct_yaarings.png",
   "foodValue" : 20,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_biomix_icecream" ],
-
-  "variants" : [
-    {
+  "variants" : [ "hot" ],
+  "presets" : {
+    "hot" : {
       "shortdescription" : "Hot Yaarings",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. These yaarings are fresh from the oven! Quick, eat them while they're still soft on the inside!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 420, "foodValue" : 30
+      "description" : "These yaarings are fresh from the oven! Quick, eat them while they're still soft on the inside!",
+      "longdescription" : "These can often be found in on-demand alta bakeries, and are made in groups of twelve to twenty at once if ordered for a group of people.",
+      "altaDescription" : "It's hard to describe these without drooling all over the place, so I'll just keep on eating.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 320, "foodValue" : 24, "variant" : true, "alkey" : "Ovna Yaarafici",
+      "paletteSwap" : {"#fbe7d4":"#fbd4d5","#e2944b":"#e24b52","#89592c":"#892c30","#d43e3e":"#d4803e","#9c2323":"#9c5823"}
+    },
+    "poivani" : {
+      "shortdescription" : "Poivani",
+      "description" : "A delicious slime dessert in form of small smooth blobs. Not as slimy as, you know... Regular slime.",
+      "longdescription" : "Very nicely prepared and roasted, and then almost polished from all sides to give it a smooth look.",
+      "altaDescription" : "The izo jam gives these a very nice poi flavor... Even though I prefer hugging them instead of eating.",
+      "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "nia_cuisine", "snack", "isoslime" ], "alkey" : "Poivani",
+      "paletteSwap" : {"#fbe7d4":"#d4edfb","#e2944b":"#4bade2","#89592c":"#2c6889","#d43e3e":"#3ed4bf","#9c2323":"#239c8b"}
+    },
+    "alien_pearls" : {
+      "shortdescription" : "Alien Pearls",
+      "description" : "Crunchy, unlike real pearls, candy-like desserts, meant to go along with tea. No wrap because that's not very environmentally friendly.",
+      "longdescription" : "No one knows what they're made from exactly except for the chef. \"Alien fruits\" is the usual answer you'll get, but, like, which ones then?",
+      "altaDescription" : "Never tried to eat \"Domestic\" Pearls, or whatever the opposite is supposed to be, but these are quite nice.",
+      "level" : 3, "rarity" : "Uncommon", "price" : 320, "foodValue" : 24, "wiki" : { "skip" : true }, "variant" : true, "itemTags" : [ "alta_cuisine", "snack", "alien" ], "alkey" : "Ovrizhia",
+      "paletteSwap" : {"#fbe7d4":"#f1d4fb","#e2944b":"#b94be2","#89592c":"#702c89","#d43e3e":"#633ed4","#9c2323":"#41239c"}
     }
-  ]
+  },
+  "alkey" : "Yaarafici"
 }

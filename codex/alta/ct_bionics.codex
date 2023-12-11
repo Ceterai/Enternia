@@ -3,6 +3,7 @@
   "title" : "Bionics",
   "description" : "A brief description of various sturdy ^#299fc5;bionid^reset; combinations that can be used as clothing or protective materials.",
   "longdescription" : "This ebook explains what bionics are and provides examples of popular compounds.\n\nIt's worth noting, that altas themselves are classified as **bionical** creatures, or simply **bionicas**.",
+  "altaDescription" : "I've seen some of the compounds discussed in this having a closer look taken at then in some popular alta studies, like ^#b0e0fc;CNOB^reset; and ^#b0e0fc;ECOC-FIOC^reset;.",
   "icon" : "ebook/bionid.png",
   "contentPages" : [
 
@@ -46,5 +47,8 @@ Other useful compounds include:
     "biocaloid" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png" },
     "pure bion" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png" },
     "bion" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png" }
+  },
+  "related" : {
+    "### [[ Codexes ]]" : [ "Bionid Extraction Note", "Complicated Nature of Bion", "The Neon Forest" ]
   } }
 }

@@ -3,9 +3,10 @@
     { "item" : "crystal", "count" : 12 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "crystalcavebush2", "count" : 4, "parameters" : {
-    "shortdescription" : "Calin Deposit",
-    "inventoryIcon" : "/objects/biome/crystalcave/crystalcavebush2/crystalcavebush2.png"
+  "output" : { "item" : "ct_alta_object_mimic", "count" : 4, "parameters" : {
+    "baseAsset" : "/objects/biome/crystalcave/crystalcavebush2/crystalcavebush2.object", "inventoryIcon" : "crystalcavebush2.png",
+    "shortdescription" : "Calin Deposit", "colonyTags" : [ "crystal", "calin" ], "race" : "generic", "foundIn" : [ "^#b0e0fc;Alta Constructor^reset;" ],
+    "description" : "A medium-sized deposit of regular calin crystals. A very common find on alterash planets."
   } },
   "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "crystal", "calin", "all" ]
 }

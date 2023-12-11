@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_yaara_tea",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_yaara_tea.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. This tea is blooming with life.",
   "shortdescription" : "Yaara Tea",
+  "description" : "This tea is blooming with life.",
+  "longdescription" : "A mix of general ^#20f080;yaara roots^reset; with added spices and yaara petal matter. These petals and fibres, if roughly cut, result in a pretty thick tea coloring.",
+  "altaDescription" : "Nice saturation, almost as if you're drinking some sort of hot yaara juice.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "tea", "yaara" ],
+  "inventoryIcon" : "ct_yaara_tea.png",
   "effects" : [ [
     {
         "effect" : "regeneration1",
@@ -13,23 +14,31 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_yaarizza", "ct_gharus_spice", "ct_rimar_motsu" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Ceternia Tea",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. Perhapts a tad too much life in this one. You can feel its stare and menacing presence.",
-      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "regeneration1", "duration" : 300 } ] ]
+  "variants" : [ "ceternia" ],
+  "presets" : {
+    "ceternia" : {
+      "shortdescription" : "Ceternia Tea ^#20f080;^reset;",
+      "description" : "Perhaps a tad too much life in this one. You can feel its stare and menacing presence.",
+      "longdescription" : "Freshly made from various roots and flowers commonly found in ^#20f080;yaara groves^reset;, like ^#20f080;ialistas^reset;, ^#20f080;bayuns^reset; and ^#20f080;caloyas^reset;.",
+      "altaDescription" : "A pleasant texture and a promising variety in the recipe, which sounds exciting.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "regeneration1", "duration" : 300 } ] ], "variant" : true, "alkey" : "Cenia Chi",
+      "paletteSwap" : {"#47b6ab":"#366388","#177a71":"#17627a","#074c44":"#073d4c","#ae75f0":"#9575f0","#713bb0":"#5a3bb0","#461e74":"#351e74",
+      "#c9eef6":"#c9dcf6","#76c7e4":"#769be4","#4e8fb8":"#4e64b8","#366388":"#364288"}
+    },
+    "viona" : {
+      "shortdescription" : "Viona Tea",
+      "description" : "Perhaps a tad too much life in this one. You can feel its stare and menacing presence.",
+      "longdescription" : "Freshly made from various roots and flowers commonly found in ^#20f080;yaara groves^reset;, like ^#20f080;ialistas^reset;, ^#20f080;bayuns^reset; and ^#20f080;caloyas^reset;.",
+      "altaDescription" : "A pleasant texture and a promising variety in the recipe, which sounds exciting.",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Viona Chi",
+      "paletteSwap" : {"#47b6ab":"#7747b6","#177a71":"#43177a","#074c44":"#24074c","#ae75f0":"#f075b7","#713bb0":"#b03b79","#461e74":"#741e4c",
+      "#c9eef6":"#ecc9f6","#76c7e4":"#d576e4","#4e8fb8":"#b74eb8","#366388":"#883683"}
     }
-  ]
+  }, "alkey" : "Yaara Chi"
 }

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_calio_tea", "count" : 1, "parameters" : { "preset" : "ayaka" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "food", "all" ]
+}

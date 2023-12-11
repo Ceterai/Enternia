@@ -2,10 +2,12 @@
   "itemName" : "ct_eds_helmet",
   "shortdescription" : "^#f02020;EDS^reset; Helmet",
   "description" : "An advanced headwear upgrade for ^#f02020;EDS^reset; security units.",
+  "longdescription" : "This cap-like metal headwear is supplied with a standardized ^#f02020;EDS visor^reset; module in place.",
+  "altaDescription" : "This helmet kinda looks like it has a cap.",
 
   "price" : 1000, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour", "eds" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -66,6 +68,39 @@
     // CRYSTAL (BROWN)
     { "801c1c" : "366388", "b81824" : "4e8fb8", "ff2c40" : "76c7e4", "ff6480" : "c9eef6" }
   ],
+
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Thermo Helmet ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1060,
+      "description" : "A power ranger helmet often used by riverside alta scouts.",
+      "longdescription" : "Similar to the ^#83a8a4;thermoscreen^reset;, this helmet is equipped with thermodetective technology.",
+      "altaDescription" : "You can look like a camouflaging EDS soldier with this helmet.", "alkey" : "Gaush Grom",
+      "paletteSwap" : {"#707088":"#9abdb9","#606074":"#83a8a4","#404050":"#5d8c86","#2c2c34":"#39524f","#202028":"#262539","#101014":"#262539",
+        "#762222":"#f08e20","#551b1b":"#c05c00"},
+      "statusEffects" : [ "ct_autoshielder_eds" ],
+      "leveledStatusEffects" : [
+        { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.175 },
+        { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },
+        { "levelFunction" : "standardArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 2 },
+        { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 4 }
+      ],
+      "colorOptions" : [
+        { "801c1c" : "c05c00", "b81824" : "f08e20", "ff2c40" : "fcca60", "ff6480" : "fce5b0" },
+        { "801c1c" : "8fc000", "b81824" : "c5f020", "ff2c40" : "f3fc60", "ff6480" : "f9fcb0" },
+        { "801c1c" : "00c063", "b81824" : "20f081", "ff2c40" : "60fc91", "ff6480" : "b0fcc7" },
+        { "801c1c" : "009cc0", "b81824" : "20d3f0", "ff2c40" : "60fcf9", "ff6480" : "b0fcf9" },
+        { "801c1c" : "c00003", "b81824" : "f0202d", "ff2c40" : "fc6082", "ff6480" : "fcb0c2" },
+        { "801c1c" : "c07000", "b81824" : "f08f20", "ff2c40" : "fc9c60", "ff6480" : "fcccb0" },
+        { "801c1c" : "c0af00", "b81824" : "f0d420", "ff2c40" : "fcd060", "ff6480" : "fce5b0" },
+        { "801c1c" : "03c000", "b81824" : "2df020", "ff2c40" : "82fc60", "ff6480" : "c2fcb0" },
+        { "801c1c" : "001cc0", "b81824" : "2049f0", "ff2c40" : "6096fc", "ff6480" : "b0ccfc" },
+        { "801c1c" : "7c00c0", "b81824" : "9d20f0", "ff2c40" : "a660fc", "ff6480" : "d1b0fc" },
+        { "801c1c" : "c00069", "b81824" : "f0209b", "ff2c40" : "fc60d4", "ff6480" : "fcb0ea" },
+        { "801c1c" : "366388", "b81824" : "4e8fb8", "ff2c40" : "76c7e4", "ff6480" : "c9eef6" }
+      ]
+    }
+  },
+  "alkey" : "EDS Grom",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

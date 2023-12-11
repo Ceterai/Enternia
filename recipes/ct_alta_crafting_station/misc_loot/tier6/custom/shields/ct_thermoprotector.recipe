@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_ioncore_shield", "count" : 1, "parameters" : { "preset" : "koywa" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "shield", "all" ]
+}

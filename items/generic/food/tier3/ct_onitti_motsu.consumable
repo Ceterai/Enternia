@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_motsu.png",
-  "description" : "^#b0e0fc;Yava alta cuisine^reset;. A very nutritious herb soup.",
   "shortdescription" : "Onitti Motsu Soup",
+  "description" : "A very nutritious herb soup.",
+  "longdescription" : "One of the classic motsu recipes that captures the essence of the concept quite well. The simplicity of the recipe is a big advantage too.",
+  "altaDescription" : "A good option when you feel like going for a classic motsu!",
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
@@ -13,7 +15,7 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "motsu", "soup" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -24,11 +26,14 @@
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Perfect Onitti Motsu",
-      "description" : "^#b0e0fc;Yava alta cuisine^reset;. An exceptionally nutritious motsu from pristine yava ingredients.",
+  "variants" : [ "perfect" ],
+  "presets" : {
+    "perfect" : {
+      "shortdescription" : "Perfect Onitti Motsu", "variant" : true,
+      "description" : "An exceptionally nutritious motsu from pristine yava ingredients.",
+      "longdescription" : "A classic recipe with a small set of adjustments that can make it just-right for some altas.",
+      "altaDescription" : "Seems like this motsu has turned out better than ever! What a treat!",
       "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
     }
-  ]
+  }
 }

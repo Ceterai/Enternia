@@ -10,6 +10,7 @@ shield_update = update
 
 function init()
   shield_init()
+  animator.setGlobalTag("paletteSwaps", config.getParameter("paletteSwaps", ""))
   animator.playSound("init")
   self.effects = config.getParameter("statusEffects")
   self.raisedEffects = config.getParameter("raisedStatusEffects")

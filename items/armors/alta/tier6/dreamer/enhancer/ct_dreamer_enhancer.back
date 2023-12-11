@@ -5,19 +5,17 @@
 
   "level" : 6, "price" : 640, "rarity" : "Legendary",
   "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",  "maxStack" : 1,
-  "race" : "alta",
+  "race" : "alta", "itemTags" : [ "tier6armour", "dreamer" ],
 
   "pickupQuestTemplates" : [ ],
   "acceptsAugmentType" : "back",
-  "radioMessagesOnPickup" : [ "pickupepp" ],
+  "radioMessagesOnPickup" : [ "ct_alta_back_armor_msg" ],
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 
-  "statusEffects" : [
-    "ct_ionic_clouds"
-  ],
+  "statusEffects" : [ "ct_ionic_clouds" ],
 
   "colorOptions" : [
     // OMNIPURPLE (DEFAULT)
@@ -45,6 +43,32 @@
     // CRYSTAL (BROWN)
     { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }
   ],
+
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Thermo Thrusters ^#20f080;^reset;", "itemTags" : [ "tier4armour" ],
+      "level" : 4, "elementalType" : "fire", "price" : 680, "rarity" : "Uncommon", "statusEffects" : [ "ct_ionic_clouds" ],
+      "description" : "These camo-painted backthrusters blend in perfectly with koywa fields! Almost perfectly. Often used by riverside scouts.",
+      "longdescription" : "The design is meant to protect the wearer with heat bursts and bost their movement at the same time.",
+      "altaDescription" : "Some powerful thrusters to let you go far.", "alkey" : "Gaush Virexi",
+      "paletteSwap" : {"#606074":"#9abdb9","#404050":"#5d8c86","#2c2c34":"#39524f","#202028":"#262539","#101014":"#0d0d1a"},
+      "colorOptions" : [
+        { "5000c0" : "c05c00", "8020f0" : "f08e20", "c060fc" : "fcca60", "e0b0fc" : "fce5b0" },
+        { "5000c0" : "8fc000", "8020f0" : "c5f020", "c060fc" : "f3fc60", "e0b0fc" : "f9fcb0" },
+        { "5000c0" : "00c063", "8020f0" : "20f081", "c060fc" : "60fc91", "e0b0fc" : "b0fcc7" },
+        { "5000c0" : "009cc0", "8020f0" : "20d3f0", "c060fc" : "60fcf9", "e0b0fc" : "b0fcf9" },
+        { "5000c0" : "c00003", "8020f0" : "f0202d", "c060fc" : "fc6082", "e0b0fc" : "fcb0c2" },
+        { "5000c0" : "c07000", "8020f0" : "f08f20", "c060fc" : "fc9c60", "e0b0fc" : "fcccb0" },
+        { "5000c0" : "c0af00", "8020f0" : "f0d420", "c060fc" : "fcd060", "e0b0fc" : "fce5b0" },
+        { "5000c0" : "03c000", "8020f0" : "2df020", "c060fc" : "82fc60", "e0b0fc" : "c2fcb0" },
+        { "5000c0" : "001cc0", "8020f0" : "2049f0", "c060fc" : "6096fc", "e0b0fc" : "b0ccfc" },
+        { "5000c0" : "7c00c0", "8020f0" : "9d20f0", "c060fc" : "a660fc", "e0b0fc" : "d1b0fc" },
+        { "5000c0" : "c00069", "8020f0" : "f0209b", "c060fc" : "fc60d4", "e0b0fc" : "fcb0ea" },
+        { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }
+      ]
+    }
+  },
+  "alkey" : "Aena Helis",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

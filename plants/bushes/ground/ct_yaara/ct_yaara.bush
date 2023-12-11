@@ -2,7 +2,8 @@
   "name" : "ct_yaara",
 
   "shortdescription" : "Yaara Bush",
-  "description" : "A flowery bush.",
+  "description" : "A spreading bush with cold-green and cyan-colored fibres.",
+  "longdescription" : "^#20f080;Yaara^reset; growth like this can be found of different types and sizes, the most prominent variations have names given to then either by altas or ^#20f080;yaara keepers^reset;.",
   "altaDescription" : "A yaara flower! So beautiful! Too bad you can't just take them home.",
 
   "floranDescription" : "Very blue and cryssstaly.",
@@ -24,5 +25,13 @@
     { "base" : "13.png" },
     { "base" : "14.png" },
     { "base" : "15.png" }
-  ]
+  ],
+  "wiki" : {
+    "aliases" : { "Ialista" : { "anchor" : "Ialista", "icon" : "none" }, "Bayun" : { "anchor" : "Bayun", "icon" : "none" }, "Bayo" : { "anchor" : "Bayo", "icon" : "none" }, "Caloya" : { "anchor" : "Caloya", "icon" : "none" }, "Irriya" : { "anchor" : "Irriya", "icon" : "none" } },
+    "md" : {
+      "#### Ialista" : "Beautiful thin thorny flowers often with red petals. Sometimes, you might find a crystal growing near its roots.",
+      "#### Bayun" : "These wide-growing ferns have wide flower endings with tiny recepticles growing out of them. These recepticles, also called ^gray;bayos^reset; react to electricity, and are often used in different alta recipes.",
+      "#### Caloya" : "Jungle-like big bushes with very thick stems and crystals growing at their end. Often instead of crystals they will have various yaara fruits growing there too, with ^gray;irriya^reset; being the most prominent example."
+    }
+  }
 }

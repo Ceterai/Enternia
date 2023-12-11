@@ -1,11 +1,12 @@
 {
   "itemName" : "ct_maito_tea",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400,
-  "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_maito_tea.png",
-  "description" : "An ^#b0e0fc;alta^reset; cuisine. A very calming tea mixture used to relax and concentrate.",
   "shortdescription" : "Maito Tea",
+  "description" : "A very calming tea mixture used to relax and concentrate.",
+  "longdescription" : "This tea doesn't contain many spices, but is high on tonna milk and ayaka extract, making it perfect for all those tiresome and lazy days.",
+  "altaDescription" : "This is often called a comfort food by many altas, because of how just plain nice and mello it is.",
+  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "tea" ],
+  "inventoryIcon" : "ct_maito_tea.png",
   "effects" : [ [
     {
         "effect" : "regeneration1",
@@ -17,23 +18,32 @@
     }
   ] ],
   "foodValue" : 10,
-  "tooltipKind" : "ct_alta_consumable",
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_hive_curry", "ct_niatto_motsu", "ct_heecho_punch" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Calming Tea",
-      "description" : "An ^#b0e0fc;alta^reset; cuisine. A mixed cuisine tea that will make all the toubles go away.",
-      "level" : 5, "rarity" : "Rare", "price" : 600, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ]
+  "variants" : [ "calm" ],
+  "presets" : {
+    "calm" : {
+      "shortdescription" : "Calming Tea ^#20f080;^reset;",
+      "description" : "A mixed cuisine tea that will make all the toubles go away.",
+      "longdescription" : "Using specific concentration of tonna fruit and extract with fired ayaka sap and specific calin spices creates a natural sedative, considered very efficient by altas.",
+      "altaDescription" : "Borderline medicine, but in a good way. Nothing better to drink if you're nervous or afraid. The slight taste of boiled tonna milk is a perfect finisher.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ], "variant" : true, "alkey" : "Ovai Chi",
+      "paletteSwap" : {"#63a8fa":"#63c6fa","#238ce3":"#23b1e3","#1975ba":"#1994ba",
+      "#59987d":"#865998","#699718":"#97188c","#255700":"#57003d"}
+    },
+    "crimson" : {
+      "shortdescription" : "Crimson Plant Tea ^#20f080;^reset;",
+      "description" : "A mixed cuisine tea that will make all the toubles go away.",
+      "longdescription" : "Using specific concentration of tonna fruit and extract with fired ayaka sap and specific calin spices creates a natural sedative, considered very efficient by altas.",
+      "altaDescription" : "Borderline medicine, but in a good way. Nothing better to drink if you're nervous or afraid. The slight taste of boiled tonna milk is a perfect finisher.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Makava Chi",
+      "paletteSwap" : {"#63a8fa":"#ce63fa","#238ce3":"#9a23e3","#1975ba":"#7919ba",
+      "#59987d":"#98598e","#699718":"#971854","#255700":"#570016"}
     }
-  ]
+  }, "alkey" : "Maito Chi"
 }

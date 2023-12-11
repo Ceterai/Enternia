@@ -1,0 +1,43 @@
+{
+  "itemName" : "ct_gil_tsay_stew",
+  "level" : 5, "rarity" : "Rare", "price" : 840,
+  "race" : "alta",
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_gil_tsay_stew.png",
+  "shortdescription" : "Gil-Tsay Stew",
+  "description" : "Your usual meal from unusual ingredients.",
+  "longdescription" : "This delicious stew is especially good in cold weather, its fulfilling and satisfying capabilities are through the roof!",
+  "altaDescription" : "Home meal to comfort yourself during bad weather outside.",
+  "effects" : [ [
+    {
+        "effect" : "ct_velocity_boost",
+        "duration" : 180
+    },
+    {
+        "effect" : "ct_velocity_swim",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "stew", "gil", "tsay" ],
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "rottingMultiplier" : 5.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+
+  "variants" : [ "gharus" ],
+  "presets" : {
+    "gharus" : {
+      "shortdescription" : "Gharus Stew", "variant" : true,
+      "description" : "This spice-rich stew is exceptionally fulfilling!",
+      "longdescription" : "What you could literally call a spicy turn on the original recipe, it shifts the main focus of the dish, creating its own distinct taste.",
+      "altaDescription" : "M-m-m, the spice is, just, oa-oa!",
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 50
+    }
+  }
+}

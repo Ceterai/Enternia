@@ -1,0 +1,43 @@
+{
+  "id" : "ct_viona",
+  "title" : "Colorful Poster",
+  "description" : "A poster written in pink and purple colors, with lots of drawings on each page. Signed by a \"Magician Girl\".",
+  "longdescription" : "The poster mentions an ^gray;Alta Viona Corfal^reset; - a correctional facility, or a daycare hospital, for altas severely affected by viona anomalies. Here, they get treatment, care, entertainment and support, to help them deal with the disease.",
+  "altaDescription" : "This girl got changed by viona... It's sad, but I'm glad that she's happy, and that she likes her new tail! I hope I could visit this party and hang out with them.",
+  "icon" : "paper/enchanted.png",
+  "contentPages" : [
+
+    "Hi, sis!! Wanna throw a party together?!
+
+My name is Cristia, and I'm the partyleader of a viona alta corfal for viona-affected altas!  
+Our caretaker, Kona, decided to help us organize a party, so I decided to invite everyone to it via these invitations, so we can all hand out together!
+
+Kona is a little worried, but she also says that viona doesn't spread from alta to alta, so I think it should be alright!",
+
+"Hope you will come!!
+
+Can't wait to see you,  
+Cristia the Magician Girl «
+
+- - -
+
+P.S. If you do come, I'll let you pet my fluffy tail, hehe ^^ (I got it because of viona, and it's really cool!) «"
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "viona" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "Viona Corfal" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" },
+      "Alta Viona Corfal" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" },
+      "Magician Girl" : { "icon" : "none" }
+    },
+    "related" : {
+      "### [[ Codexes ]]" : [ "Enchanted Datamass", "The Miracles of Vionia", "Viona Miazma Monitoring" ]
+    }
+  }
+}

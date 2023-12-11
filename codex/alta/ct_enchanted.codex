@@ -3,6 +3,7 @@
   "title" : "Enchanted Datamass",
   "description" : "This encrypted data has partially corrupted due to outside factors.",
   "longdescription" : "Thankfully, the data inside wasn't particularly affected, but it seems like this ^#b0e0fc;datamass^reset; has spent quite a long time in an anomalous zone.",
+  "altaDescription" : "You chould always be careful with these things. Viona, Warped, Void, Hevika, and many other unstable environments, changing the way you understand energy, but in ways less than safe to your health.",
   "icon" : "datamass/enchanted.png",
   "contentPages" : [
 
@@ -10,7 +11,13 @@
 
 The viona phenomenon happens when two or more types of energy with high levels of presence are persistent throughout the are, causing them to mix, resulting in sometimes unpredictable reactions and behaviours.",
 
-"If you see anything strange in a viona territory, that is likely an enchanted anomaly caused by the viona-saturated energy, or simply vionia energy."
+"If you see anything strange in a viona territory, that is likely an enchanted anomaly caused by the viona-saturated energy, or simply vionia.
+
+Vionia has a potential to be an efficient power source, and thus is a frequent subject of interest for research for groups like ^#b0e0fc;Neiteru-1^reset;.
+
+Many scientific groups are also interested in developing means to either resist, or even \"de-enchant\" viona, although so far few attempts have been completely succesful.",
+
+"This is why, in its current state, ^#202080;ion cores^reset; of ^#20f080;alterash^reset; plantes still require constant monitoring - rare explosions of vionia activity put the core's stability in danger, and fully getting rid of such cases is a priority for many safety and research teams."
 
   ],
     "itemConfig" : {
@@ -23,6 +30,9 @@ The viona phenomenon happens when two or more types of energy with high levels o
     "aliases" : {
       "viona" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" },
       "vionia" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_enchanted_loot.png" }
+    },
+    "related" : {
+      "### [[ Codexes ]]" : [ "Colorful Poster", "The Miracles of Vionia", "Viona Miazma Monitoring" ]
     }
   }
 }

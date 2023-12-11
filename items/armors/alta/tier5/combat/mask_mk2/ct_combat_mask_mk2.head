@@ -2,10 +2,12 @@
   "itemName" : "ct_combat_mask_mk2",
   "shortdescription" : "Combat MKII Mask ^#2080f0;^reset;",
   "description" : "An improved version of the ^#10b4ef;Combat Mask^reset; with added armor & energy capabilities.",
+  "longdescription" : "It provides a better visor with a broader scope and field of view. Similar models are used in many alta defence-related projects.",
+  "altaDescription" : "It's like a huge visor, that takes up all of your face!",
 
   "price" : 1120, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
+  "level" : 5, "itemTags" : [ "tier5armour", "alta_combat" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -66,6 +68,53 @@
     // CRYSTAL (BROWN)
     { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
   ],
+
+  "presets" : {
+    "koywa" : {
+      "shortdescription" : "Thermoscreen ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1060,
+      "description" : "An advanced armored mask with a thermoscanner. What does it do? Nobody knows.",
+      "longdescription" : "These masks are often worn by riverside scouts and are used to detect any small fire spreads in sight.",
+      "altaDescription" : "Looks very battle-esque, with the camo paint and everything, although altas don't really use these palettes.", "alkey" : "Gaushviz",
+      "paletteSwap" : {"#606074":"#9abdb9","#404050":"#5d8c86","#2c2c34":"#39524f","#101014":"#262539"},
+      "statusEffects" : [ "ct_emergency_healer" ],
+      "leveledStatusEffects" : [
+        { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.175 },
+        { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },
+        { "levelFunction" : "standardArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 2.5 },
+        { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 3.5 }
+      ],
+      "colorOptions" : [
+        { "106890" : "c05c00", "1090c0" : "f08e20", "10b4ef" : "fcca60", "71d4f8" : "fce5b0" },
+        { "106890" : "8fc000", "1090c0" : "c5f020", "10b4ef" : "f3fc60", "71d4f8" : "f9fcb0" },
+        { "106890" : "00c063", "1090c0" : "20f081", "10b4ef" : "60fc91", "71d4f8" : "b0fcc7" },
+        { "106890" : "009cc0", "1090c0" : "20d3f0", "10b4ef" : "60fcf9", "71d4f8" : "b0fcf9" },
+        { "106890" : "c00003", "1090c0" : "f0202d", "10b4ef" : "fc6082", "71d4f8" : "fcb0c2" },
+        { "106890" : "c07000", "1090c0" : "f08f20", "10b4ef" : "fc9c60", "71d4f8" : "fcccb0" },
+        { "106890" : "c0af00", "1090c0" : "f0d420", "10b4ef" : "fcd060", "71d4f8" : "fce5b0" },
+        { "106890" : "03c000", "1090c0" : "2df020", "10b4ef" : "82fc60", "71d4f8" : "c2fcb0" },
+        { "106890" : "001cc0", "1090c0" : "2049f0", "10b4ef" : "6096fc", "71d4f8" : "b0ccfc" },
+        { "106890" : "7c00c0", "1090c0" : "9d20f0", "10b4ef" : "a660fc", "71d4f8" : "d1b0fc" },
+        { "106890" : "c00069", "1090c0" : "f0209b", "10b4ef" : "fc60d4", "71d4f8" : "fcb0ea" },
+        { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
+      ]
+    },
+    "stardust" : {
+      "shortdescription" : "Faceless Mask ^#8020f0;^reset;", "itemTags" : [ "tier6armour" ], "level" : 6, "rarity" : "Legendary", "colorIndex" : 9,
+      "description" : "A mask of an unknown alta, presumably a spacedrifter, one of many who used stardust to fuel their artifacts such as this one.",
+      "longdescription" : "This unique model of a combat mask is made from a different composite of materials, and has a tiny visor opening for better defence.",
+      "altaDescription" : "That small, tiny point of a vir, can see and capture your every move...", "alkey" : "Neva Nit", "price" : 1060,
+      "paletteSwap" : {"#606074":"#4c5064","#404050":"#383c50","#2c2c34":"#24283c","#101014":"#101428",
+      "#106890":"#24283c","#1090c0":"#383c50","#10b4ef":"#4c5064"},
+      "statusEffects" : [ "ct_emergency_healer" ],
+      "leveledStatusEffects" : [
+        { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.175 },
+        { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },
+        { "levelFunction" : "standardArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 2.5 },
+        { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 4.5 }
+      ]
+    }
+  },
+  "alkey" : "Glasta N2",
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
 }

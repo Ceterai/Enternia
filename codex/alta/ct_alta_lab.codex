@@ -1,0 +1,38 @@
+{
+  "id" : "ct_alta_lab",
+  "title" : "Alta Labs",
+  "description" : "An ebook describing alta laboratorial safety guidelines.",
+  "longdescription" : "It goes over most common safety mechanisms and mechanics used in most alta labs, and also mentions some more specific examples.",
+  "altaDescription" : "This document gives you a good perspective into the safety approach around research bases, and how each safety protocol set is tailored specifically for its lab.",
+  "icon" : "ebook/lab.png",
+  "contentPages" : [
+
+    "Access codes to most of alta laboratories operate according to standardized protocols and principles.
+
+Most often they depend on the direction of the laboratory and the research group using it.
+
+Laboratories focused on the study and production of energy very often have many ^#b0e0fc;energy locks^reset; in addition to the usual protocols, especially if they are locally produced.",
+
+"Such labs, in addition to the usual equipment such as ^#b0e0fc;alta lab capsules^reset;, ^#b0e0fc;alta lab terminals^reset; and ^#b0e0fc;alta lab servers^reset;, are usually filled with special energy equipment such as ^#b0e0fc;alta lab amplifiers^reset;, most often used in the development of terraformers, or ^#b0e0fc;alta lab capsules^reset;, the main purpose of which is most often either to simply contain energy fuel or synthesis of energy in vacuum space.",
+
+"Medical laboratories, on the other hand, most often have a large number of advanced models of ^#b0e0fc;alta lifechambers^reset; and ^#b0e0fc;alta lab beds^reset;, allowing not only to perform dangerous operations, but also to send altas into medical stasis, keeping them alive.
+Similar equipment, but for plants, can be found in botanical research gardens - ^#b0e0fc;alta lab eco chambers^reset; designed to support life for specimens that require non-standard conditions.",
+
+"Thus, complexes with similar equipment can be easily found in places where the research industry is concentrated - on the islands of ^#2080f0;esetera^reset;, among ^#6f6c66;astera^reset; asteroids and occasionally near the moderate ^#202080;ion cores^reset; of planets.
+
+Occasionally, general laboratories and research centers can be found on the surface, but such complexes more often than not use other types of equipment.",
+
+"Some scientific companies and organizations use their own developed equipment, such as ^#0050c0;Hevika Ordis^reset; and ^#a7e001;Ghearun^reset;.
+
+In such cases, access and security technologies are based on the company's own protocols, in addition to the mandatory ones.
+
+The calling card of alta labs is considered to be the ^#b0e0fc;alta lab pod^reset; - a standard model used almost everywhere due to its properties."
+
+  ],
+    "itemConfig" : {
+      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
+      "fixedPrice" : true, "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "alta_lab" ],
+      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  }
+}

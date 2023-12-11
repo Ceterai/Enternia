@@ -3,9 +3,11 @@
     { "item" : "geode", "count" : 12 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "crystallinebush3", "count" : 4, "parameters" : {
+  "output" : { "item" : "ct_alta_object_mimic", "count" : 4, "parameters" : {
+    "baseAsset" : "/objects/biome/crystalline/crystallinebush3/crystallinebush3.object", "inventoryIcon" : "crystallinebush3.png",
     "shortdescription" : "Crystalline Deposit",
-    "inventoryIcon" : "/objects/biome/crystalline/crystallinebush3/crystallinebush3.png"
+    "colonyTags" : [ "crystal", "crystalline" ], "race" : "generic", "foundIn" : [ "^#b0e0fc;Alta Constructor^reset;" ],
+    "description" : "A medium-sized deposit of regular crystalline crystals. Occurs in crystallic environments."
   } },
   "groups" : [ "alta_constructor6", "nature", "alterash_prime_nature", "crystal", "crystalline", "all" ]
 }

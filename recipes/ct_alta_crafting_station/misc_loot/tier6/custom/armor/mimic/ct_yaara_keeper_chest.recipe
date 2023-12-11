@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_chest_mimic", "count" : 1, "parameters" : { "preset" : "yaara_keeper" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "cosmetics", "all" ]
+}

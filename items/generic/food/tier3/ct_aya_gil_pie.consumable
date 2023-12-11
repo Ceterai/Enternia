@@ -1,0 +1,38 @@
+{
+  "itemName" : "ct_aya_gil_pie",
+  "level" : 5, "rarity" : "Rare", "price" : 760,
+  "race" : "alta",
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_aya_gil_pie.png",
+  "shortdescription" : "Aya-Gil Pie",
+  "description" : "Nice addition to the gil-tsay stew.",
+  "longdescription" : "This pie utilizes sweet aya dough as its base, adding to the overall sweetness.",
+  "altaDescription" : "Goes perfectly with a non-sweet tea, or something like gheamont!",
+  "effects" : [ [
+    {
+        "effect" : "ct_longfall",
+        "duration" : 255
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "pie", "ayaka", "gil" ],
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "rottingMultiplier" : 3.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alliana_cake", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+
+  "variants" : [ "runeva" ],
+  "presets" : {
+    "runeva" : {
+      "shortdescription" : "Runeva Pie", "variant" : true,
+      "description" : "A carefully crafted pie from peak-ripe ayas and gils.",
+      "longdescription" : "A variety in original recipe that creates a proper runeva fruit mix filling for this amazing pie.",
+      "altaDescription" : "Smells like autumn and a nice walk in a fruitful garden...",
+      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+    }
+  }
+}

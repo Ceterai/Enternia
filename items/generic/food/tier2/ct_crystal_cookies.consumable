@@ -1,33 +1,43 @@
 {
   "itemName" : "ct_crystal_cookies",
-  "level" : 4, "rarity" : "Uncommon", "price" : 560,
-  "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_crystal_cookies.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. Spiky cookies with crystal jam filling and crystal bits all around.",
   "shortdescription" : "Crystal Cookies",
+  "description" : "Spiky cookies with crystal jam filling and crystal bits all around.",
+  "longdescription" : "The koywa dough that was used for these cookies had to be dehydrated and powdered first to make the result crunchy, yet still reasonably soft.",
+  "altaDescription" : "Ai-ai, cookies with jam!! My favourite!!! I've heard that if you eat one whole without biting, it could change its flavor right in your mouth!",
+  "level" : 4, "rarity" : "Uncommon", "price" : 560, "race" : "alta",
+  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "dessert", "cookies" ],
+  "inventoryIcon" : "ct_crystal_cookies.png",
   "effects" : [ [
     {
         "effect" : "nova",
         "duration" : 75
     }
   ] ],
-  "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "foodValue" : 30,
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_alta_dinner", "ct_caliopa", "ct_crunchy_pie" ],
-
-  "variants" : [
-    {
-      "shortdescription" : "Candy Cookies",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. A perfect amount of crystals creates a perfect candy-like substance! So are these cookies or candy?",
-      "level" : 5, "rarity" : "Rare", "price" : 800, "foodValue" : 45
+  "variants" : [ "candy" ],
+  "presets" : {
+    "candy" : {
+      "shortdescription" : "Candy Cookies ^#20f080;^reset;",
+      "description" : "A perfect amount of crystals creates a perfect candy-like substance! So are these cookies or candy?",
+      "longdescription" : "Technically speaking, these are candies, since the koywa dough is no longer used in the recipe, but the texture tends to say otherwise, prompting the confusion.",
+      "altaDescription" : "I personally believe that these are nuts. They have a shell in form of candy and a seed in for of jam. No, I don't take critisisms of my theory.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 620, "foodValue" : 34,
+      "effects" : [ [ { "effect" : "nova", "duration" : 90 } ] ], "variant" : true, "alkey" : "Pop-Choni",
+      "paletteSwap" : {"#ad7e45":"#f64901","#986931":"#e04101","#7e5321":"#bd3701","#472b13":"#902800","#d4ff5a":"#ff8a5a","#b7f601":"#f64901","#8dbd01":"#bd3701",
+      "#cfff8a":"#fff48a","#9dd62c":"#d6b92c","#587c10":"#7c6a10"}
+    },
+    "calin" : {
+      "shortdescription" : "Calin Chip Cookies",
+      "description" : "Classic alta cookies with edible colored carel chip. Pretty creative, and also tasty.",
+      "longdescription" : "Carel plants get saturated with edible dye and baked together with the dough, resulting in an interesting palette.",
+      "altaDescription" : "Munch! Oaa, ia riso~",
+      "effects" : [ [ { "effect" : "poisonblock", "duration" : 75 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Calin Tso Choni",
+      "paletteSwap" : {"#ad7e45":"#c99557","#986931":"#b87f3a","#7e5321":"#a06725","#472b13":"#5a3415","#d4ff5a":"#b97f3a","#b7f601":"#a16725","#8dbd01":"#b97f3a",
+      "#cfff8a":"#c9eef6","#9dd62c":"#76c7e4","#587c10":"#4e8fb8"}
     }
-  ]
+  },
+  "alkey" : "Cal Choni"
 }

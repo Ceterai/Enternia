@@ -17,7 +17,7 @@
   "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
   "animationParts" : { "middle" : "ct_tsyntex.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/green_small.png" },
   "animationCustom" : { "sounds" : { "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ] }, "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } } },
-  "baseOffset" : [0.75, 0.375], "muzzleOffset" : [1.5, 0.25],
+  "baseOffset" : [0.15, 0.375], "muzzleOffset" : [1.5, 0.25],
 
   "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
 

@@ -4,8 +4,10 @@
   "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_caliopa.png",
-  "description" : "^#b0e0fc;Calin alta cuisine^reset;. A pizza with crystal toppings that taste similar to pineapple. That's right, you can run but you can't hide.",
   "shortdescription" : "Caliopa Slice",
+  "description" : "A pizza with crystal toppings that taste similar to pineapple. That's right, you can run but you can't hide.",
+  "longdescription" : "Full on refreshinly slightly sweet carels, this pizza will surprize you with that flavor bit and how well it balances with the rest of the palette.",
+  "altaDescription" : "Very interesting turn on a pizza. Really depends on what you want in the moment with stuff like this, I don't think that I would go for it if I just wanted plain pizza.",
   "effects" : [ [
     {
         "effect" : "lightaugment1",
@@ -17,7 +19,7 @@
     }
   ] ],
   "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable",
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "pizza", "carel" ],
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
@@ -27,11 +29,14 @@
   ],
   "learnBlueprintsOnPickup" : [ "ct_staris_soup", "ct_warped_cocktail" ],
 
-  "variants" : [
-    {
-      "shortdescription" : "Caliopa Stuffed Crust Slice",
-      "description" : "^#b0e0fc;Calin alta cuisine^reset;. This caliopa has a stuffed crust! Delicious!",
+  "variants" : [ "stuffed" ],
+  "presets" : {
+    "stuffed" : {
+      "shortdescription" : "Caliopa Stuffed Crust Slice", "itemTags" : [ "calin_cuisine", "pizza", "carel", "gheatsyn" ], "variant" : true,
+      "description" : "This caliopa has a stuffed crust! Delicious!",
+      "longdescription" : "To compliment the carels, the stuffing is made from baked-in gheatsyn jam, as opposed to a nia-tonna pizza cream used in most stuffed crusts.",
+      "altaDescription" : "Can I call this a pie because of the crust? I think I can. This pie is delicious!",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
     }
-  ]
+  }
 }
