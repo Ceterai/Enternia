@@ -24,7 +24,7 @@ So be careful, silly altas, and don't go alone to a warped forest, its inhabitor
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "warped" ],
+      "itemTags" : [ "data_source", "ebook", "warped" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   },
   "wiki" : {

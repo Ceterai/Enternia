@@ -2,6 +2,32 @@
 
 ## Update 2.1 - Alta Decryption
 
+### 2.1.3
+
+Finally learning more about general alta traits and special abilities, you discover learn about their strongest side... but also about their weaknesses.
+
+**Main:**
+
+- added full support for the [Race Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2622273194) addon;
+- added partial support for [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) - no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458);
+- added 1 radiomessage;
+
+**Wiki:**
+
+- updated certain manual pages;
+- fixed related resources mix-up for Ghearun & Gheatsyn codexes;
+- fixed pickup radio message support;
+- added "Alta Datamass" and "Empty Datamass" aliases to the Datamass;
+
+**Other:**
+
+- added a radio message for ebooks;
+- added proper tags for augments and collars;
+- minor grammar fixes and wiki enhancemens;
+- fixed unlocked food recipes of food and produce;
+- fixed tags on all datamasses, docs and ebooks that have wrong tags;
+- minor bug fixes.
+
 ### 2.1.2
 
 You're discovering more knowledge about alta culture and are uncovering new databases along the way, with a few things to enhance equipment you already have.

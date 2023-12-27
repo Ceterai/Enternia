@@ -10,7 +10,7 @@
   "foodValue" : 15,
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "learnBlueprintsOnPickup" : [ "ct_vermont_tea", "cttsayicecream", "ctassorti" ],
+  "learnBlueprintsOnPickup" : [ "ct_vermont_tea", "ct_tsay_icecream", "ct_assorti" ],
   "variants" : [ "perfect" ],
   "presets" : {
     "perfect" : {

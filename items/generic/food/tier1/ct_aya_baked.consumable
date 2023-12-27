@@ -10,7 +10,7 @@
   "foodValue" : 20,
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "learnBlueprintsOnPickup" : [ "ctassorti" ],
+  "learnBlueprintsOnPickup" : [ "ct_assorti" ],
   "variants" : [ "mash" ],
   "presets" : {
     "mash" : {

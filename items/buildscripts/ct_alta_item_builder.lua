@@ -32,6 +32,7 @@ function getPickupMsgs(msgList, tagList)
     if v == 'set' then table.insert(msgList, 'ct_set_msg') end
     if v == 'loot' then table.insert(msgList, 'ct_loot_crate_msg') end
     if v == 'datamass' then table.insert(msgList, 'ct_datamass_msg') end
+    if v == 'ebook' then table.insert(msgList, 'ct_ebook_msg') end
     if v == 'faradea' then table.insert(msgList, 'ct_faradea_msg') end
     if v == 'haven' then table.insert(msgList, 'ct_haven_msg') end
     if v == 'warped' then table.insert(msgList, 'ct_warped_msg') end

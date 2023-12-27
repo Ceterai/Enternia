@@ -25,7 +25,7 @@ The concept of bionic creatures, or bionicas, is one of the most common ones in 
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
+      "itemTags" : [ "data_source", "datamass", "bionid", "bion" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   },
   "wiki" : { "aliases" : {

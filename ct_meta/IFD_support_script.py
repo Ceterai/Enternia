@@ -10,7 +10,7 @@ import pyjson5
 import re
 
 
-ROOT = os.path.dirname(__file__)
+ROOT = os.path.dirname(os.path.dirname(__file__))
 
 def get_paths_flat(roots: list[str] = ['']) -> list[str]:
     paths = []
@@ -46,5 +46,5 @@ json_patches = [{'op': 'add', 'path': f'/effectNames/{patch[0]}', 'value': {'cus
 json_patch_lines = '[\n  ' + ',\n  '.join([pyjson5.dumps(json_patch) for json_patch in json_patches]) + '\n]\n'
 json_patch_lines = '// Mod Support for Improved Food Descriptions (see mod description)\n' + json_patch_lines
 print(json_patch_lines)
-with open('IFD_statuseffects.config.patch', 'w') as patch_file:
+with open(os.path.join(ROOT, 'IFD_statuseffects.config.patch'), 'w') as patch_file:
     patch_file.writelines(json_patch_lines)

@@ -1,0 +1,31 @@
+// Mod Support for Racial Traits (see mod description)
+[
+  {
+    "op": "add", "path": "/effectConfig/0/alta",
+    "value": {
+      "stats": [
+        {"stat":"maxHealth","effectiveMultiplier":0.8},
+        {"stat":"maxEnergy","effectiveMultiplier":1.1},
+        {"stat":"energyRegenPercentageRate","effectiveMultiplier":1.05},
+        {"stat":"powerMultiplier","effectiveMultiplier":1.0},
+        {"stat":"protection","effectiveMultiplier":1.0},
+        {"stat":"fireResistance","amount":-0.1},
+        {"stat":"fireStatusImmunity","amount":0.0},
+        {"stat":"electricResistance","amount":0.2},
+        {"stat":"electricStatusImmunity","amount":1.0},
+        {"stat":"poisonResistance","amount":0.05},
+        {"stat":"poisonStatusImmunity","amount":0.0},
+        {"stat":"iceResistance","amount":0.05},
+        {"stat":"iceStatusImmunity","amount":0.0},
+        {"stat":"physicalResistance","amount":0.0},
+        {"stat":"foodDelta","baseMultiplier":0.9}
+      ],
+      "benefits": [
+
+      ],
+      "controlModifiers": {
+        "airJumpModifier":1.05
+      }
+    }
+  }
+]

@@ -12,7 +12,7 @@
   "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
 
   "inventoryIcon" : "cttsay.png",
-  "learnBlueprintsOnPickup" : [ "cttsaycooked" ],
+  "learnBlueprintsOnPickup" : [ "ct_tsay_cooked" ],
 
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Tsay"
 }

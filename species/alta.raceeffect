@@ -1,0 +1,29 @@
+// Mod Support for Frakin Universe/Frakin Races (see mod description)
+{
+	"stats": [
+    {"stat":"maxHealth","effectiveMultiplier":0.8},
+    {"stat":"maxEnergy","effectiveMultiplier":1.1},
+    {"stat":"energyRegenPercentageRate","effectiveMultiplier":1.05},
+    {"stat":"powerMultiplier","effectiveMultiplier":1.0},
+    {"stat":"protection","effectiveMultiplier":1.0},
+    {"stat":"fireResistance","amount":-0.1},
+    {"stat":"fireStatusImmunity","amount":0.0},
+    {"stat":"electricResistance","amount":0.2},
+    {"stat":"electricStatusImmunity","amount":1.0},
+    {"stat":"poisonResistance","amount":0.05},
+    {"stat":"poisonStatusImmunity","amount":0.0},
+    {"stat":"iceResistance","amount":0.05},
+    {"stat":"iceStatusImmunity","amount":0.0},
+    {"stat":"physicalResistance","amount":0.0},
+    {"stat":"mentalProtection","amount":0.15},
+    {"stat":"cosmicResistance","amount":0.1},
+    {"stat":"radioactiveResistance","amount":-0.25},
+    {"stat":"shadowResistance","amount":-0.15},
+    {"stat":"maxFood","baseMultiplier":1.1},
+    {"stat":"fuCharisma","baseMultiplier":1.15}
+	],
+	"diet" : "herbivore",
+  "controlModifiers": {
+    "airJumpModifier":1.05
+  }
+}

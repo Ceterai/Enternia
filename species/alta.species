@@ -2,7 +2,33 @@
   "kind" : "alta",
   "charCreationTooltip" : {
     "title" : "Alta", "subTitle" : "H2",
-    "description" : "An artifical race of humanoids. The main focus of their decentralized society is research and exploration with purpose of technological advancement, as well as entertainment and quality of life improvement."
+    "description" : "An artifical race of humanoids. The main focus of their decentralized society is research and exploration with purpose of technological advancement, as well as entertainment and quality of life improvement.
+
+If you have ^orange;Frakin' Universe^reset;/^orange;Frakin' Races^reset;/^orange;Race Traits^reset; installed:
+    ^yellow;Attributes^reset;
+^cyan;Max Health^reset;: ^red;-20%^reset;
+^cyan;Max Energy^reset;: ^green;+10%^reset;
+^cyan;Energy Regen^reset;: ^green;+5%^reset;
+    ^yellow;Resistances^reset;
+^cyan;Fire Resistance^reset;: ^red;-10%^reset;
+^cyan;Electric Resistance^reset;: ^green;+20%^reset;
+^cyan;Poison Resistance^reset;: ^green;+5%^reset;
+^cyan;Ice Resistance^reset;: ^green;+5%^reset;
+^cyan;Cosmic Resistance^reset;: ^green;+10%^reset; ^gray;(FU/FR only)^reset;
+^cyan;Radioactive Resistance^reset;: ^red;-25%^reset; ^gray;(FU/FR only)^reset;
+^cyan;Shadow Resistance^reset;: ^red;-15%^reset; ^gray;(FU/FR only)^reset;
+    ^yellow;Immunities^reset;
+^green;Electrified^reset;
+    ^yellow;Extra Stats^reset;
+^cyan;Hunger Slowness ^gray;(Race Traits)^reset;/^cyan;Max Food ^gray;(FU/FR)^reset;: ^green;+10%^reset;
+^cyan;Jump Height^reset;: ^green;+5%^reset;
+^cyan;Charisma^reset;: ^green;+15%^reset; ^gray;(FU/FR only)^reset;
+^cyan;Mental Protection^reset;: ^green;+15%^reset; ^gray;(FU/FR only)^reset;
+
+^orange;Diet^reset;: ^cyan;Herbivore^reset; ^gray;(FU/FR only)^reset;
+^orange;Environment^reset;: None ^gray;(FU/FR only)^reset;
+^orange;Weapons^reset;: None ^gray;(FU/FR only)^reset;
+"
   },
   "charGenTextLabels" : [ "Body colour", "Hair style", "Top", "Bottom", "Accent colour", "Hair colour", "Top colour", "Bottom colour", "ALTA", "Personality" ],
   "skull" : "/humanoid/ct_alta/dead.png", "effectDirectives" : "?replace=FEFFFFFF=b0e0fcFF?replace=9bd4ffFF=60c0fcFF?replace=31a6ffFF=2080f0FF",

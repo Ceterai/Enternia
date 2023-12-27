@@ -12,7 +12,7 @@
   "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
 
   "inventoryIcon" : "ctaya.png",
-  "learnBlueprintsOnPickup" : [ "ctayajam", "ctayafresh", "ctayabaked", "ctayapowder", "ctayaboiled" ],
+  "learnBlueprintsOnPickup" : [ "ct_aya_jam", "ct_aya_fresh", "ct_aya_baked", "ctayapowder", "ct_aya_boiled" ],
 
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "wiki" : { "aliases" : { "Alta Peach" : { } } }, "alkey" : "Aya"

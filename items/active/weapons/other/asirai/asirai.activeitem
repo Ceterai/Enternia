@@ -1,12 +1,14 @@
 {
   "itemName" : "ct_asirai",
-  "shortdescription" : "Asirai",
+  "shortdescription" : "Asirai ^#2080f0;^reset;",
   "description" : "This belongs to Ceterai. How did you get it?",
+  "longdescription" : "This mysterious weapon-looking item is actually an energy tool, similar to alta protospears. Ceterai uses it to manipulate energy and help herself travel on long distances.",
+  "altaDescription" : "...Ce.. Ceterai?..",
 
-  "level" : 4, "rarity" : "Rare",  "price" : 0,
+  "level" : 5, "rarity" : "Rare", "price" : 880,
   "itemTags" : ["weapon", "melee", "spear", "upgradeableWeapon"],
   "twoHanded" : true, "maxStack" : 1, "aimOffset" : -1.0,
-  "category" : "spear", "tooltipKind" : "ct_alta_weapon_2", "elementalType" : "electric",
+  "category" : "spear", "tooltipKind" : "ct_alta_weapon_3", "elementalType" : "electric",
 
   "inventoryIcon" : "asirai.png",
   "animation" : "default.animation",
@@ -18,6 +20,8 @@
 
   "altAbility" : {
     "name" : "Alternia Discharge", "power" : 4,
+    "description" : "Asirai slowly gathers energy around it, damaging nearby targets, and then releases it back.",
+    "longdescription" : "This process creates special energy circulation dynamic that fills the air around you with static.",
 
     "lightningChargeLevels" : [
       [0.80, 0, 0.02, [32, 128, 240, 75]],
@@ -57,7 +61,9 @@
 
 
   "primaryAbility" : {
-    "name" : "Asirai's Legacy", "power" : 4,
+    "name" : "Asirai's Legacy", "power" : 4, "baseDps" : 4, "fireTime" : 1.0, "energyUsage" : 30,
+    "description" : "This tool feels your intent, your tension, and it simply goes along with it. Hold to launch yourself forward.",
+    "longdescription" : "Each combo hit of this tool collect energy and releases it in form of electric bursts on the forth combo hit.",
 
     "holdEnergyUsage" : 30,
     "stepDamageConfig" : [
@@ -139,18 +145,24 @@
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters":{
-    "rarity" : "Legendary",
+    "rarity" : "Legendary", "price" : 960,
     "itemTags" : ["weapon", "melee", "axe"],
     "category" : "axe",
     "inventoryIcon" : "ammerax.png",
     "animation" : "default.animation",
     "animationParts" : { "blade" : "ammerax.png" },
     "altAbility" : {
+      "name" : "Enternia Discharge",
+      "description" : "A powerful charge of ionic energy is gathering around the handle, and gets discharged from the blade on impact.",
+      "longdescription" : "This process creates special energy circulation dynamic that fills the air around you with static.",
       "projectileParameters" : { "knockback" : 25, "timeToLive": 2.5, "statusEffects" : [ "ct_overtension" ] }
     },
     "primaryAbility" : {
+      "name" : "Ammerax's Legacy",
+      "description" : "This tool feels your intent, your tension, and it simply goes along with it. Hold to launch yourself forward.",
+      "longdescription" : "Each combo hit of this tool collect energy and releases it in form of electric bursts on the forth combo hit.",
       "power" : 16,
-      "energyUsage" : 50,
+      "energyUsage" : 50, "baseDps" : 6, "fireTime" : 2.5,
       "dashMaxSpeed" : 120, "maxDashTime" : 0.25,
       "comboCooldown" : 1.0, "holdCooldown" : 1.6,
       "damageConfig" : { "damageSourceKind" : "axe" },
@@ -169,6 +181,40 @@
         }
       }
     },
-    "shortdescription":"Ammerax ^yellow;^reset;"
+    "shortdescription":"Ammerax ^#8020f0;^reset;",
+    "description" : "A heavy, huge instrument, filled with ^#8020f0;enternia^reset; energy.",
+    "longdescription" : "One side is blunt, one is sharp. All sides are charged with dangerous amounts of electricity.",
+    "wiki" : {
+      "md" : {
+        "You can read more about this weapon here: **[Ceterai's Set - Ammerax](https://www.hiveworkshop.com/threads/ceterais-set.351976/)**" : "<table><thead><tr><td width=96>\n\n![ ](https://www.hiveworkshop.com/data/ratory-images/272/272286-ac775bb38a77ac20171b0714d5b3f21f.png)\n</td><td>\n\n**Ammerax**<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_altersphere.png) <span style=\"color:#2C82C9\"><span style=\"font-weight:bold\">Memories:</span> Heavy and powerful, this hammer-side halberd generates electricity with each hit of the sharp side, and releases with each hit of the blunt side.</span><br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_entersphere.png) <span style=\"color:#9365B8\"><span style=\"font-weight:bold\">Dreams:</span> It should be too heavy to carry, let alone swing to hit. How are you holding it? Is it all the stardust?..</span></td></tr></thead></table>"
+      }
+    }
+  },
+  "wiki" : {
+    "banner" : "images/banners/asirai.png",
+    "md" : {
+      "You can read more about this mysterious spear here: **[Ceterai's Set - Asirai](https://www.hiveworkshop.com/threads/ceterais-set.351976/)**" : "<table><thead><tr><td width=96>\n\n![ ](https://www.hiveworkshop.com/data/ratory-images/272/272280-f1c6ea1c7e5aac25781dab8c5798361e.png)\n</td><td>\n\n**Asirai**<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_altersphere.png) <span style=\"color:#2C82C9\"><span style=\"font-weight:bold\">Memories:</span> This sharp double-ended spear fills its targets with electric tension.</span><br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_entersphere.png) <span style=\"color:#9365B8\"><span style=\"font-weight:bold\">Dreams:</span> It feels like its missing something. Stardust, perhaps?</span></td></tr></thead></table>"
+    },
+    "widgets" : {
+      "wc3" : [
+        {
+          "title" : "Ceterai's Set",
+          "link" : "https://www.hiveworkshop.com/threads/ceterais-set.351976/",
+          "name" : "Asirai",
+          "desc" : [
+            "![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_altersphere.png) Memories: This sharp double-ended spear fills its targets with electric tension.",
+            "![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_entersphere.png) Dreams: It feels like its missing something. Stardust, perhaps?"
+          ],
+          "icons" : [
+            "https://www.hiveworkshop.com/data/ratory-images/272/272280-f1c6ea1c7e5aac25781dab8c5798361e.png"
+          ]
+        }
+      ]
+    },
+    "trivia" : [
+      "This spear is an alternate version of ^#2080f0;Alternia Spear^reset;",
+      "Both items mentioned are unobtainable through normal gameplay",
+      "This is the earliest melee weapon of the mod, and funtions via its own dedicated scripts as opposed to the ones used by the rest"
+    ]
   }
 }

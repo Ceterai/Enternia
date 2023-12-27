@@ -98,13 +98,13 @@
         "baseShieldHealth" : 60,
         "paletteSwap" : {"#ecf9dc":"#f6caf2","#c1dfae":"#e277cf","#87b684":"#b64f97","#4a784e":"#87376a"},
         "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
-      }
+      }, "wiki" : { "skip" : true }
     },
     "carel" : {
       "shortdescription" : "Crystal Plant Shield", "itemTags" : [ "shield", "crystal", "upgradeableWeapon" ],
       "description" : "Contrary to popular opinion, you cannot eat this shield. You can try, but I wouldn't recommend.",
       "altaDescription" : "I know I shouldn't try to bite it, but it's very tempting.", "alkey" : "Carel Taum",
-      "paletteSwap" : {"#ecf9dc":"#e8fec9","#c1dfae":"#cfff8a","#87b684":"#9dd62c","#4a784e":"#587c10"}
+      "paletteSwap" : {"#ecf9dc":"#e8fec9","#c1dfae":"#cfff8a","#87b684":"#9dd62c","#4a784e":"#587c10"}, "wiki" : { "skip" : true }
     }
   },
 

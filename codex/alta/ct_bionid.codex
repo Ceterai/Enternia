@@ -19,7 +19,7 @@ This bionid variation cannot be used as a direct building material due to its un
     "itemConfig" : {
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
+      "itemTags" : [ "data_source", "docs", "bionid", "bion" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
   },
   "wiki" : { "aliases" : {

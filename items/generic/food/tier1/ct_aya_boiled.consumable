@@ -10,7 +10,7 @@
   "foodValue" : 20,
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "learnBlueprintsOnPickup" : [ "ctayajam" ],
+  "learnBlueprintsOnPickup" : [ "ct_aya_jam" ],
   "variants" : [ "blue_boil" ],
   "presets" : {
     "blue_boil" : {

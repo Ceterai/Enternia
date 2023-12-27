@@ -96,14 +96,14 @@
         "paletteSwap" : {"#707088":"#f6f6f6","#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#202028":"#606478",
           "#a42b2b":"#fcb0e0","#762222":"#20f0bd","#551b1b":"#00c097"},
         "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
-      }
+      }, "wiki" : { "skip" : true }
     },
     "faradea" : {
       "shortdescription" : "Faradea Shield", "itemTags" : [ "shield", "faradea", "upgradeableWeapon" ],
-      "description" : "",
-      "longdescription" : "",
-      "altaDescription" : "", "alkey" : "Carel Taum",
-      "paletteSwap" : {"#a42b2b":"#10b4ef","#762222":"#a4a42b","#551b1b":"#767622"}
+      "description" : "An EDS shield repurposed by Faradea mercs.",
+      "longdescription" : "Gorgeous blue and yellow are symbolizing freedom, the goal and desire of every Faradea merc.",
+      "altaDescription" : "Those blue and yellow look beautiful on this this shield!", "alkey" : "Carel Taum",
+      "paletteSwap" : {"#a42b2b":"#10b4ef","#762222":"#a4a42b","#551b1b":"#767622"}, "wiki" : { "skip" : true }
     }
   },
 

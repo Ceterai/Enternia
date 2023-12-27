@@ -26,6 +26,8 @@ Supported Addons:
 - Tabula Rasa (some items are available at the table);
 - Improved Food Descriptions (proper support for all effects added by this mod);
 - More Planet Info (proper support for all effects, weather and biomes of this mod);
-- True Space (planets added by this mod are able to spawn near True Space stars. Alterash can spawn as a mild/cool planet or satellite, Alterash Prime as a cool/cold planet or satellite).
+- True Space (planets added by this mod are able to spawn near True Space stars. Alterash can spawn as a mild/cool planet or satellite, Alterash Prime as a cool/cold planet or satellite);
+- Race Traits (check mod screenshots for stats);
+- Frackin' Races/Frackin' Universe (PARTIAL: no FU BYOS support. If you need it, you can get it here with Alta FU Patch+).
 
 If you find any issues or bugs or errors, you can report them on the GitHub Issues page, or in the related discussion on Steam Workshop, on the Starbound Forum page.

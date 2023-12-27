@@ -96,6 +96,10 @@
     "unique" : true, "textSpeed" : 70,
     "text" : "You've found an ^#b0e0fc;alta datamass^reset;. These tiny portable databases tend to contain important encrypted info used by ^#b0e0fc;alta crafting stations^reset; to unlock various blueprints.  \nThese can either be crafted or found in random ^#b0e0fc;alta pods^reset; on ^#20f080;alterash^reset; planets."
   } },
+  { "op":"add", "path":"/ct_ebook_msg", "value":{
+    "unique" : true, "textSpeed" : 70,
+    "text" : "You've found an alta ebook - a collimator electronic reader usually used for as a reusable substitude for books. Often crafted in ^#b0e0fc;alta datacenters^reset;."
+  } },
   { "op":"add", "path":"/ct_sphere_msg", "value":{
     "unique" : true, "textSpeed" : 70,
     "text" : "What you just accquired is an alta energy sphere, a powerful energy generator that produces energy of one of three types - ceternia, alternia and enternia. These spheres are powered by crystals and pure energy essence that you can find scattered accross ^#ffa8e8;stardust^reset;-type planets like ^#20f080;alterash^reset;.  \nUse them sparingly as they're generally hard to come by."

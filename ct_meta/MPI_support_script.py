@@ -7,7 +7,7 @@ import pyjson5
 import re
 
 
-ROOT = os.path.dirname(__file__)
+ROOT = os.path.dirname(os.path.dirname(__file__))
 
 def get_paths_flat(roots: list[str] = ['']) -> list[str]:
     paths = []
@@ -76,5 +76,5 @@ lines = [('\n  [\n    ' + ',\n    '.join([pyjson5.dumps(json_patch) for json_pat
 
 json_patch_lines = '[' + ''.join(lines) + '\n]\n'
 print(json_patch_lines)
-with open('interface/cockpit/cockpit.config.patch', 'w') as patch_file:
+with open(os.path.join(ROOT, 'interface/cockpit/cockpit.config.patch'), 'w') as patch_file:
     patch_file.writelines(json_patch_lines)

@@ -17,7 +17,7 @@
   "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_aya_punch", "ctgiltsaystew", "ct_alta_dinner" ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_aya_punch", "ct_gil_tsay_stew", "ct_alta_dinner" ],
 
   "variants" : [ "exotic" ],
   "presets" : {

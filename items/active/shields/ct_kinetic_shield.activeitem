@@ -84,15 +84,15 @@
   "presets" : {
     "red" : {
       "shortdescription" : "Red Kinetic Shield",
-      "paletteSwap" : {"#0050c0BF":"#c00010BF","#2080f0BF":"#f0203bBF","#60c0fcBF":"#fc608cBF","#b0e0fcBF":"#fcb0c7BF"}
+      "paletteSwap" : {"#0050c0BF":"#c00010BF","#2080f0BF":"#f0203bBF","#60c0fcBF":"#fc608cBF","#b0e0fcBF":"#fcb0c7BF"}, "wiki" : { "skip" : true }
     },
     "orange" : {
       "shortdescription" : "Orange Kinetic Shield",
-      "paletteSwap" : {"#0050c0BF":"#c07f00BF","#2080f0BF":"#f0a020BF","#60c0fcBF":"#fca960BF","#b0e0fcBF":"#fcd2b0BF"}
+      "paletteSwap" : {"#0050c0BF":"#c07f00BF","#2080f0BF":"#f0a020BF","#60c0fcBF":"#fca960BF","#b0e0fcBF":"#fcd2b0BF"}, "wiki" : { "skip" : true }
     },
     "strong" : {
       "shortdescription" : "Strong Kinetic Shield ^#2080f0;^reset;", "price" : 520, "baseShieldHealth" : 32,
-      "paletteSwap" : {"#0050c0BF":"#00a6c0BF","#2080f0BF":"#20dff0BF","#60c0fcBF":"#60fcf2BF","#b0e0fcBF":"#b0fcf5BF"}
+      "paletteSwap" : {"#0050c0BF":"#00a6c0BF","#2080f0BF":"#20dff0BF","#60c0fcBF":"#60fcf2BF","#b0e0fcBF":"#b0fcf5BF"}, "wiki" : { "skip" : true }
     }
   },
 

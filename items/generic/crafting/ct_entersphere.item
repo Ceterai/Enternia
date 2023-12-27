@@ -15,5 +15,10 @@
 
   "radioMessagesOnPickup" : [ "ct_sphere_msg" ],
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
-  "wiki" : { "aliases" : { "Proto-Overload" : { "icon" : "none" }, "Overlock" : { } } }, "alkey" : "Enter-Faa"
+  "wiki" : {
+    "aliases" : { "Proto-Overload" : { "icon" : "none" }, "Overlock" : { } },
+    "md" : {
+      "You can read more about this catalyst here: **[Ceterai's Set - Enter-Sphere](https://www.hiveworkshop.com/threads/ceterais-set.351976/)**" : "<table><thead><tr><td width=96>\n\n![ ](https://www.hiveworkshop.com/data/ratory-images/272/272292-377efc0ed3ae8dcf1658d34f32d3dc33.png)\n</td><td>\n\n**Enter-Sphere**<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_altersphere.png) <span style=\"color:#2C82C9\"><span style=\"font-weight:bold\">Memories:</span> An electric anomaly, waiting for something to happen.</span><br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_entersphere.png) <span style=\"color:#9365B8\"><span style=\"font-weight:bold\">Dreams:</span> Vague memories of things that happened someplace else. Strange, yet familiar. What are you?</span></td></tr></thead></table>"
+    }
+  }, "alkey" : "Enter-Faa"
 }

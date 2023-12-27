@@ -12,5 +12,6 @@
 
   "inventoryIcon" : "ct_datamass.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Arkves"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Alta Datamass" : { }, "Empty Datamass" : { } } }, "alkey" : "Arkves"
 }

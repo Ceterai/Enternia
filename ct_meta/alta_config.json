@@ -1,0 +1,39 @@
+{
+	"diet" : "herbivore",
+  "stats" : [
+    { "stat" : "maxHealth",                 "effectiveMultiplier" : 0.80 },
+    { "stat" : "maxEnergy",                 "effectiveMultiplier" : 1.10 },
+    { "stat" : "energyRegenPercentageRate", "effectiveMultiplier" : 1.05 },
+    { "stat" : "powerMultiplier",           "effectiveMultiplier" : 1.00 },
+    { "stat" : "protection",                "effectiveMultiplier" : 1.00 },
+    { "stat" : "fireResistance",          "amount" :-0.10 },
+    { "stat" : "fireStatusImmunity",      "amount" : 0.00 },
+    { "stat" : "electricResistance",      "amount" : 0.20 },
+    { "stat" : "electricStatusImmunity",  "amount" : 1.00 },
+    { "stat" : "poisonResistance",        "amount" : 0.05 },
+    { "stat" : "poisonStatusImmunity",    "amount" : 0.00 },
+    { "stat" : "iceResistance",           "amount" : 0.05 },
+    { "stat" : "iceStatusImmunity",       "amount" : 0.00 },
+    { "stat" : "physicalResistance",      "amount" : 0.00 },
+    // FU
+		{ "stat" : "mentalProtection",        "amount" : 0.15 },
+		{ "stat" : "cosmicResistance",        "amount" : 0.10 },
+		{ "stat" : "radioactiveResistance",   "amount" :-0.25 },
+		{ "stat" : "shadowResistance",        "amount" :-0.15 },
+		{ "stat" : "maxFood",                 "baseMultiplier" : 1.10 },
+		{ "stat" : "fuCharisma",              "baseMultiplier" : 1.15 },
+    // RT
+    { "stat" : "foodDelta",               "baseMultiplier" : 0.90 }
+    // Other
+    // { "stat" : "knockbackThreshold", "amount" : 9.00}
+    // { "stat" : "maxBreath", "amount" : 100.0 },
+    // { "stat" : "breathDepletionRate", "amount" : 4.0 },
+    // { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 1.0 }
+  ],
+  "benefits" : [
+  ],
+  "controlModifiers" : {
+    // "speedModifier" : 1.0,
+    "airJumpModifier" : 1.05
+  }
+}
