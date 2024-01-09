@@ -4,6 +4,7 @@ require "/items/buildscripts/ct_alta_item_builder.lua"
 local ct_alta_item_builder = build
 
 function build(directory, config, parameters, level, seed)
+  local tips = getTextConfig()
   config.pet = config.itemName
   if config.pets then config.pet = config.pets[math.random(#config.pets)] end
   local pet_params = root.assetJson(config.asset)
@@ -11,7 +12,7 @@ function build(directory, config, parameters, level, seed)
   if img then
     for i, v in ipairs(img) do
       parameters.tooltipFields = {
-        subtitle = config.subtitle or 'Monster Egg',
+        subtitle = config.subtitle or tips.egg,
         objectImage = v.image
       }
     end
@@ -35,29 +36,29 @@ function build(directory, config, parameters, level, seed)
   -- sb.logInfo("\n\nstats: %s", stats)
   stats.maxHealth.baseValue = stats.maxHealth.baseValue * root.evalFunction("monsterLevelHealthMultiplier", (parameters.level or config.level or 1))
   if stats then
-    config.tooltipFields.healthTitleLabel = "^green;HP^reset;:"
+    config.tooltipFields.healthTitleLabel = tips.HP
     config.tooltipFields.healthLabel = util.round(stats.maxHealth.baseValue, 0)
-    config.tooltipFields.armorTitleLabel = "^yellow;Armor^reset;:"
+    config.tooltipFields.armorTitleLabel = tips.AP
     config.tooltipFields.armorLabel = util.round(stats.protection.baseValue, 1)
-    config.tooltipFields.healthRegenTitleLabel = "^green;HP^reset; Regen:"
+    config.tooltipFields.healthRegenTitleLabel = tips.HPR
     config.tooltipFields.healthRegenLabel = util.round(stats.healthRegen.baseValue, 2)
 
     function getBlock(value)
       if value > 0 then return "block" else return "" end end
-    config.tooltipFields.resTitleLabel = "Resistances, %:"
-    config.tooltipFields.physicalResTitleLabel = "Phys. Res.:"
+    config.tooltipFields.resTitleLabel = tips.resist.title
+    config.tooltipFields.physicalResTitleLabel = tips.resist.physical
     config.tooltipFields.physicalResLabel = util.round(stats.physicalResistance.baseValue * 100, 0)
     config.tooltipFields.physicalResImage = "/interface/tooltips/armor.png"
-    config.tooltipFields.fireResTitleLabel = "^red;Fire^reset; Res.:"
+    config.tooltipFields.fireResTitleLabel = tips.resist.fire
     config.tooltipFields.fireResLabel = util.round(stats.fireResistance.baseValue * 100, 0)
     config.tooltipFields.fireResImage = "/interface/statuses/fire" .. getBlock(stats.fireStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.iceResTitleLabel = "^cyan;Ice^reset; Res.:"
+    config.tooltipFields.iceResTitleLabel = tips.resist.ice
     config.tooltipFields.iceResLabel = util.round(stats.iceResistance.baseValue * 100, 0)
     config.tooltipFields.iceResImage = "/interface/statuses/ice" .. getBlock(stats.iceStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.electricResTitleLabel = "^purple;Electric^reset; Res.:"
+    config.tooltipFields.electricResTitleLabel = tips.resist.electric
     config.tooltipFields.electricResLabel = util.round(stats.electricResistance.baseValue * 100, 0)
     config.tooltipFields.electricResImage = "/interface/statuses/electric" .. getBlock(stats.electricStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.poisonResTitleLabel = "^green;Poison^reset; Res.:"
+    config.tooltipFields.poisonResTitleLabel = tips.resist.poison
     config.tooltipFields.poisonResLabel = util.round(stats.poisonResistance.baseValue * 100, 0)
     config.tooltipFields.poisonResImage = "/interface/statuses/poison" .. getBlock(stats.poisonStatusImmunity.baseValue) .. ".png"
   end

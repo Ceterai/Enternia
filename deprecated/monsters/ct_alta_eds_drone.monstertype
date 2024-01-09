@@ -42,7 +42,7 @@
         { "name" : "land-fly", "parameters" : { "flySpeed" : 8, "landCheckDistance" : 40, "idleTime" : 40 } }
       ],
       "deathActions" : [
-        { "name" : "action-animate", "parameters" : { "state" : "morph", "animationTime" : 0.78 } },
+        // { "name" : "action-animate", "parameters" : { "state" : "morph", "animationTime" : 0.78 } },
         { "name" : "action-spawnmonster",
           "parameters" : { "monsterType" : "ct_eds_droid", "replacement" : true, "parameters" : { "health" : 24 } }
         }

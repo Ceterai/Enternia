@@ -90,7 +90,8 @@
       "upgradeParameters" : {
         "shortdescription" : "Elite Shield ^#8020f0;^reset;",
         "description" : "A powerful fortress in the hands of an ^#b0e0fc;elite guard^reset; that can bring anything to a hault.",
-        "longdescription" : "",
+        "longdescription" : "Its multilayered armor plates follow latest alta safety protocols for composite armor.",
+        "altaDescription" : "I can be suuuper safe with this!",
         "price" : 560, "rarity" : "Legendary", "alkey" : "Prime Taum",
         "baseShieldHealth" : 64,
         "paletteSwap" : {"#707088":"#f6f6f6","#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#202028":"#606478",
@@ -102,7 +103,7 @@
       "shortdescription" : "Faradea Shield", "itemTags" : [ "shield", "faradea", "upgradeableWeapon" ],
       "description" : "An EDS shield repurposed by Faradea mercs.",
       "longdescription" : "Gorgeous blue and yellow are symbolizing freedom, the goal and desire of every Faradea merc.",
-      "altaDescription" : "Those blue and yellow look beautiful on this this shield!", "alkey" : "Carel Taum",
+      "altaDescription" : "Those blue and yellow look beautiful on this shield!", "alkey" : "Carel Taum",
       "paletteSwap" : {"#a42b2b":"#10b4ef","#762222":"#a4a42b","#551b1b":"#767622"}, "wiki" : { "skip" : true }
     }
   },

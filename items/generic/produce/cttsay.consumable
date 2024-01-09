@@ -7,7 +7,7 @@
 
   "level" : 1, "price" : 30, "rarity" : "Common",
 
-  "maxStack" : 1, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
+  "maxStack" : 1, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "tsay" ],
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 3.0,
   "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
 

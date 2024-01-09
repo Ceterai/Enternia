@@ -7,7 +7,7 @@
   "shortdescription" : "Staris Soup",
   "description" : "A ^#ffa8e8;stardust^reset;-like taste experience! This dreamy aftertaste fills you with determination.",
   "longdescription" : "This recipe includes many cooked crystal plants, which gives a somewhat unusual taste for an alta soup.",
-  "altaDescription" : "A nice calin soup that might just suit your taste.",
+  "altaDescription" : "Some nice calin soup that might just suit your taste.",
   "effects" : [ [
     {
         "effect" : "maxenergyscalingboostfood",
@@ -30,7 +30,7 @@
 
   "variants" : [ "perfect" ],
   "presets" : {
-    "Perfect Staris Soup ^#8020f0;^reset;" : {
+    "perfect" : {
       "shortdescription" : "Perfect Staris Soup ^#8020f0;^reset;", "variant" : true,
       "description" : "A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",

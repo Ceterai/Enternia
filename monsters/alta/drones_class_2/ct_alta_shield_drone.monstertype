@@ -1,18 +1,22 @@
 {
   "type" : "ct_alta_shield_drone","seeThroughLiquid" : false,
   "shortdescription" : "Shieldrone ^#20f080;^reset;",
-  "description" : "Tier 1 MegaDrone.  \nThis drone model may not put up a fight, but it will definitely put up a shield.",
+  "description" : "This drone model may not put up a fight, but it will definitely put up a shield.",
+  "longdescription" : "Being one of the first drone models with an integrated energy shield, this drone is considered a staple of alta technology.",
+  "altaDescription" : "It's very stylish. You know, in addition to also being pretty safe to interact with.",
   "race" : "alta",
   "elementalType" : "ice",
 
   "primaryAbility" : {
-    "name" : "Sentry",
-    "description" : "Will launch a big cloud of ^#80f0f0;ice^reset; gas at targets. Will explode with ^#7733aa;electric^reset; particles on destruction."
+    "name" : "Chill",
+    "description" : "Will launch a big cloud of ^#80f0f0;ice^reset; gas at targets. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Its freezing capabilities don't make it enough to act as a fridge, but definitely enough to give your targets some freezing cool."
   },
 
   "passiveAbility" : {
     "name" : "Shielded Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Force Field Autoshielder^reset;.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Force Field Autoshielder^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "While energy shields are common among alta technology, these ones in particular are extra good."
   },
 
   "categories" : [ "ct_alta_shield_drone" ], "parts" : [ "body" ], "animation" : "default.animation",

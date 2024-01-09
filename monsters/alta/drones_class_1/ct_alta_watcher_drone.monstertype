@@ -1,17 +1,21 @@
 {
   "type" : "ct_alta_watcher_drone",
   "shortdescription" : "Watcher Drone",
-  "description" : "Tier 3 Drone.  \nAn armored drone with an alarm system that attracts protective units.",
-  "race" : "alta",
+  "description" : "An armored drone with an alarm system that attracts protective units.",
+  "longdescription" : "Its main purpose is observation duty, for which it has an enhanced visor that acts as a projector.",
+  "altaDescription" : "It surveys you, closely... Only to turn on its visor light and blind you for, like, 5 seconds. Annoying dreis.",
+  "race" : "alta", "alkey" : "Vika Drei",
 
   "primaryAbility" : {
     "name" : "Careful",
-    "description" : "Will avoid the battle if confronted. Will charge at enemy and explode on destruction."
+    "description" : "Will avoid the battle if confronted. Will charge at enemy and explode on destruction.",
+    "longdescription" : "It's not cowardous to be able to properly assess the situation."
   },
 
   "passiveAbility" : {
     "name" : "Alert Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, Bright Visor.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, Bright Visor.\nDeals physical damage on touch.",
+    "longdescription" : "Will call in reinforcements on alert."
   },
 
   "categories" : [ "ct_alta_watcher_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,

@@ -1,13 +1,16 @@
 {
   "type" : "ct_gheatsyn_droid",
   "shortdescription" : "Gheatsyn Droid ^#8020f0;^reset;",
-  "description" : "Tier 4 Droid.  \nA robotic giant that could take on an army. Runs on liquid crystal energy from ^#a7e001;gheatsyn^reset;.",
+  "description" : "A robotic giant that could take on an army. Runs on liquid crystal energy from ^#a7e001;gheatsyn^reset;.",
+  "longdescription" : "Any and all tech and mechanisms equipped on this droid are initially meant for geological purposes, but leave room for creative use.",
+  "altaDescription" : "They're gigantic! And very, very sleepy. Very relatable.",
   "race" : "alta",
   "elementalType" : "poison",
 
   "primaryAbility" : {
     "name" : "EDS Protector",
-    "description" : "Has an arsenal of weaponry on itself. Will explode with ^#7733aa;electric^reset; particles on destruction."
+    "description" : "Has an arsenal of weaponry on itself. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Anything to protect an alta."
   },
 
   "passiveAbility" : {

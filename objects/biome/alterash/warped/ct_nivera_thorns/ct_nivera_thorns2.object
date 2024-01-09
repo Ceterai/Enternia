@@ -2,13 +2,14 @@
   "objectName" : "ct_nivera_thorns2",
   "colonyTags" : ["alterash", "nature", "warped", "nivera"],
   "category" : "trap",
-  "level" : 1, "rarity" : "Rare", "price" : 105,
+  "level" : 3, "rarity" : "Uncommon", "price" : 40,
   "race" : "generic",
   "printable" : false, "tooltipKind" : "ct_alta_object",
   "elementalType" : "poison",
 
   "shortdescription" : "Nivera Rose Thorns",
   "description" : "Rose-colored vines with sharp poisonous thorns. This bush looks pretty stylish while being quite venomous.",
+  "longdescription" : "These ^#9b2d3f;warped^reset;, thorny ^#9b2d3f;nivera^reset; sprouts are not very picky when it comes to existence.",
   "altaDescription" : "A premature nivera bush. You can tell that by the color of the vines. Still very dangerous.",
 
   "apexDescription" : "Sharp. I'd better avoid them.",
@@ -56,7 +57,24 @@
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [  // excluding inner polys
+      // 0
+      [0.0, 0.0],
+      // 1
+      [1.0, 0.0], [0.0, 1.0], // [1.0, 1.0],
+      // 2
+      [2.0, 0.0], [0.0, 2.0], // [2.0, 2.0],
+      // [2.0, 1.0], [1.0, 2.0],
+      // 3
+      [3.0, 0.0], [0.0, 3.0], [3.0, 3.0],
+      [1.0, 3.0],
+      [2.0, 3.0],
+      // 4
+      [4.0, 0.0], // [0.0, 4.0], [4.0, 4.0],
+      [4.0, 1.0], // [1.0, 4.0],
+      [4.0, 2.0], // [2.0, 4.0],
+      [4.0, 3.0] // [3.0, 4.0]
+    ],
     "damage" : 12,
     "knockback" : 14,
     "statusEffects" : [ "weakpoison" ],

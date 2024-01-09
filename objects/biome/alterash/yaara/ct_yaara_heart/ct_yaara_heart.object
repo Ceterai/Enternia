@@ -2,14 +2,15 @@
   "objectName" : "ct_yaara_heart",
   "colonyTags" : [ "alterash", "nature", "yaara" ],
   "category" : "trap",
-  "level" : 1, "rarity" : "Rare", "price" : 640,
+  "level" : 5, "rarity" : "Rare", "price" : 200,
   "race" : "generic",
   "printable" : false, "tooltipKind" : "ct_alta_object",
   "elementalType" : "electric",
 
   "shortdescription" : "Yaara Heart",
   "description" : "A gigantic flower surrounded by ionized thorns. Looks like it's somehow important.",
-  "altaDescription" : "This is one of the hearts of the surrounding yaara. I can gather living yaara root from it.",
+  "longdescription" : "These mysterious yet beautiful flower crowns hold a lot of concentrated ceternia energy. Although due to surrounding spikes gathering it might be a tricky process...",
+  "altaDescription" : "This is one of the hearts of the surrounding yaara. I can gather ^#20f080;yaara roots^reset; and ^#20f080;ceternia cores^reset; from it.",
 
   "apexDescription" : "A big flower with sharp vines around it. Better not tuch them.",
   "avianDescription" : "This flower is so magnificent!! Better be careful though, those spikes are sharp.",
@@ -27,8 +28,62 @@
     }
   ],
 
+  "particleEmitter" : {
+    "emissionRate" : 1.5, "emissionVariance" : 0.05, "pixelOrigin" : [0, 0], "placeInSpaces" : true,
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [32, 240, 128, 255],
+      "fade" : 0.9,
+      "position" : [0, 0],
+      "initialVelocity" : [-1, -1.5],
+      "finalVelocity" : [-1, -1.5],
+      "approach" : [0, 20],
+      "light" : [0, 84, 16],
+      "timeToLive" : 0.8,
+      "layer" : "middle",
+      "variance" : {
+        "initialVelocity" : [1, 1.5],
+        "size" : 0.5
+      }
+    },
+    "particleVariance" : { "position" : [0.5, 0.5], "initialVelocity" : [2, 0], "finalVelocity" : [1, 0] }
+  },
+
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [  // excluding inner polys
+      // 0
+      [0.0, 0.0],
+      // 1
+      [1.0, 0.0], [0.0, 1.0], // [1.0, 1.0],
+      // 2
+      [2.0, 0.0], [0.0, 2.0], // [2.0, 2.0],
+      // [2.0, 1.0], [1.0, 2.0],
+      // 3
+      [3.0, 0.0], [0.0, 3.0], // [3.0, 3.0],
+      // [3.0, 1.0], [1.0, 3.0],
+      // [3.0, 2.0], [2.0, 3.0],
+      // 4
+      [4.0, 0.0], [0.0, 4.0], [4.0, 4.0],
+      [4.0, 1.0], [1.0, 4.0],
+      [4.0, 2.0], [2.0, 4.0],
+      [4.0, 3.0], [3.0, 4.0],
+      // 5.5
+      [5.0, 0.0],
+      [5.0, 4.0],
+      // 6.5
+      [6.0, 0.0],
+      [6.0, 4.0],
+      // 7.5
+      [7.0, 0.0],
+      [7.0, 4.0],
+      // 8.5
+      [8.0, 0.0],
+      [8.0, 1.0],
+      [8.0, 2.0],
+      [8.0, 3.0],
+      [8.0, 4.0]
+    ],
     "damage" : 24,
     "knockback" : 20,
     "statusEffects" : [ "ct_pulse_paralysis", "ct_ionic_shock" ],

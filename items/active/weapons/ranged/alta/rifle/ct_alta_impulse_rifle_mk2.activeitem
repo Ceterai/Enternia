@@ -2,6 +2,8 @@
   "itemName" : "ct_alta_impulse_rifle_mk2",
   "shortdescription" : "Impulse Rifle NG4-2",
   "description" : "An upgraded model of the NG4 rifle, with a new set of fire modes and a stabilizer as a mod option.",
+  "longdescription" : "This model introduces rail technology with an accelerator is meant to increase the speed and power of every charge.",
+  "altaDescription" : "An early railgun prototype. I heard these were once pretty common.",
   "elementalType" : "electric",
   "race" : "alta",
 
@@ -64,6 +66,8 @@
     "animationParts" : { "middle" : "ct_alta_impulse_rifle_mk2_2.png" },
     "shortdescription" : "Pulse Railgun ^#8020f0;^reset;",
     "description" : "An already improved ^#20f080;impulse^reset; rifle with additional ^#ffa8e8;stardust^reset; enhancements.",
+    "longdescription" : "Powerful rail technology turns piece of work into a tool of electric destruction.",
+    "altaDescription" : "A real railgun! Neat!",
     "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ] } }
   }

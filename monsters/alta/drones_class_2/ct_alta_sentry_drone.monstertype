@@ -1,18 +1,22 @@
 {
   "type" : "ct_alta_sentry_drone",
   "shortdescription" : "Sentry Drone ^#20f080;^reset;",
-  "description" : "Tier 2 MegaDrone.  \nThis defensive drone activates its battle functions when under direct threat.",
+  "description" : "This defensive drone activates its battle functions when under direct threat.",
+  "longdescription" : "Its rapid plasmic generator starts to rotate, accelerating, spewing small plasma balls at its target from a relatively long distance.",
+  "altaDescription" : "A security drone taken to the max. Anyone would feel safe protected by such a thing.",
   "race" : "alta",
   "elementalType" : "electric",
 
   "primaryAbility" : {
     "name" : "Sentry",
-    "description" : "Will perform a long semi-auto attack consisting of 30 accelerated ^#2080f0;Plasma Balls^reset;. Will explode with ^#7733aa;electric^reset; particles on destruction."
+    "description" : "Will perform a long semi-auto attack consisting of 30 accelerated ^#2080f0;Plasma Balls^reset;. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Extreme vigilance is primary to this mechanism's objectives."
   },
 
   "passiveAbility" : {
     "name" : "Shielded Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Force Field Autoshielder^reset;.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Force Field Autoshielder^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "While energy shields are common among alta technology, these ones in particular are extra good."
   },
 
   "categories" : [ "ct_alta_sentry_drone" ], "parts" : [ "body" ], "animation" : "default.animation",

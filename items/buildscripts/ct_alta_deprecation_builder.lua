@@ -18,9 +18,7 @@ function build(directory, config, parameters, level, seed)
     config = itemConfig.config or config
     parameters = itemConfig.parameters or parameters
   else
-    parameters.newItemChange = configParameter("newItem", "ct_combat_mask_mk2")
-    config.itemName = parameters.newItemChange
-    parameters.itemName = parameters.newItemChange
+    config.itemName = configParameter("newItem", "ct_combat_mask_mk2")
   end
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
   return config, parameters

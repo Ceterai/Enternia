@@ -2,6 +2,8 @@
   "itemName" : "ct_alta_impulse_rifle",
   "shortdescription" : "Impulse Rifle NG4",
   "description" : "A rifled ceternia impulse blaster, mostly used by ^#b0e0fc;alta^reset; security to suppress threats. Relatively harmless.",
+  "longdescription" : "This long-range high-precision energy instrument can generate long-lasting impulses, able to travel without losing height.",
+  "altaDescription" : "What a classic. You can see a lot of these held by vardas guarding ^#b0e0fc;alta cities^reset;.",
   "elementalType" : "electric",
   "race" : "alta",
 
@@ -56,6 +58,8 @@
     "animationParts" : { "middle" : "ct_alta_impulse_rifle_2.png" },
     "shortdescription" : "Impulse Rifle NG4X ^#8020f0;^reset;",
     "description" : "An NG4 with added laser pointer and scope, as well as increased firerate and precision due to the use of ^#ffa8e8;stardust^reset; energy.",
+    "longdescription" : "This long-range high-precision energy instrument can generate long-lasting impulses, able to travel without losing height.",
+    "altaDescription" : "I don't think I've ever seen this model before. I assume it's custom made.",
     "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } },
     "primaryAbility" : {

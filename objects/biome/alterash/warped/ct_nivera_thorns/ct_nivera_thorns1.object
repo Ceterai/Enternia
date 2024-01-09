@@ -2,13 +2,14 @@
   "objectName" : "ct_nivera_thorns1",
   "colonyTags" : ["alterash", "nature", "warped", "nivera"],
   "category" : "trap",
-  "level" : 1, "rarity" : "Rare", "price" : 105,
+  "level" : 3, "rarity" : "Uncommon", "price" : 30,
   "race" : "generic",
   "printable" : false, "tooltipKind" : "ct_alta_object",
   "elementalType" : "poison",
 
   "shortdescription" : "Nivera Young Thorns",
   "description" : "Small bunch of poisonous thorns.",
+  "longdescription" : "These ^#9b2d3f;warped^reset;, thorny ^#9b2d3f;nivera^reset; sprouts are not very picky when it comes to existence.",
   "altaDescription" : "A young nivera plant. Still growing, yet already pretty deadly.",
 
   "apexDescription" : "Sharp. I'd better avoid them.",
@@ -56,7 +57,15 @@
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [  // excluding inner polys
+      // 0
+      [0.0, 0.0],
+      // 1
+      [1.0, 0.0], [0.0, 1.0], // [1.0, 1.0],
+      // 2
+      [2.0, 0.0], [0.0, 2.0], [2.0, 2.0],
+      [2.0, 1.0], [1.0, 2.0]
+    ],
     "damage" : 8,
     "knockback" : 10,
     "statusEffects" : [ "weakpoison" ],

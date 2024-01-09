@@ -1,17 +1,21 @@
 {
   "type" : "ct_alta_scout_drone",
   "shortdescription" : "Scout Drone",
-  "description" : "Tier 1 Drone.  \nAn observer drone, used by ^#b0e0fc;alta^reset; scouts to scan the area.",
-  "race" : "alta",
+  "description" : "An observer drone, used by ^#b0e0fc;alta^reset; scouts to scan the area.",
+  "longdescription" : "While it doesn't possess any actual combative power, it's still very useful and will do anything to defend its ally.",
+  "altaDescription" : "Probably the most common drei model out there. Even some ^#b0e0fc;personal drone^reset; models are based off of it.",
+  "race" : "alta", "alkey" : "Scava Drei",
 
   "primaryAbility" : {
     "name" : "Unarmed",
-    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction."
+    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Having no energy accelerators allows this machine to be much lighter in weight."
   },
 
   "passiveAbility" : {
     "name" : "Scouting Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset;.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "This set of functions is often attributed to scouting drones, as well as personal drones, although not as often."
   },
 
   "categories" : [ "ct_alta_scout_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,

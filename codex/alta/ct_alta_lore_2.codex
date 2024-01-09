@@ -39,5 +39,10 @@ And thus, with the help of Io, altas were born.",
       "fixedPrice" : true, "level" : 6,
       "itemTags" : [ "data_source", "ebook" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "Alta History II" : { }
+    }
   }
 }

@@ -5,9 +5,11 @@
   "level" : 4, "rarity" : "Uncommon", "price" : 120,
   "race" : "alta",
   "printable" : false, "tooltipKind" : "ct_alta_object",
+  "elementalType" : "electric",
 
   "shortdescription" : "Alta Lab Barrier",
   "description" : "It's some sort of electrical barrier. Looks dangerous...",
+  "longdescription" : "This simple, yet effective alta version of a tesla gate can consume quite a lot of energy when active, so should only be used when necessary.",
   "altaDescription" : "Technically you could pass through this barrier... but I wouldn't recommend.",
 
   "apexDescription" : "This current forms a shield to keep things from passing through.",
@@ -30,15 +32,16 @@
     }
   ],
   
-  "touchDamage" : {
-    "poly" : [ [-1.0, 0.0], [1.0, 0.0], [1.0, 4.0], [-1.0, 4.0] ],
-    "damage" : 24, "damageType" : "Environment", "damageSourceKind" : "ct_ionic", "statusEffects" : [ "ct_pulse_paralysis" ]
+  "barrierDamage" : {
+    "poly" : [ [-0.5, 0.0], [1.5, 0.0], [-0.5, 1.0], [1.5, 1.0], [-0.5, 2.0], [1.5, 2.0], [-0.5, 3.0], [1.5, 3.0], [-0.5, 4.0], [1.5, 4.0], [-0.5, 5.0], [1.5, 5.0] ],
+    "damage" : 14, "damageType" : "Environment", "damageSourceKind" : "ct_plasma", "statusEffects" : [ ],
+    "damageTeam" : { "type" : "indiscriminate" }, "teamType" : "indiscriminate", "knockback" : 20
   },
 
-  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scripts" : [ "barrier.lua" ],
   "scriptDelta" : 5,
   "closedLight" : [21, 108, 237],
-  "animation" : "/objects/wired/door/fullbrightanimatedslidingdoor.animation",
+  "animation" : "barrier.animation",
   "animationParts" : {
     "bg" : "ct_alta_lab_barrier.png",
     "fg" : "ct_alta_lab_barrier_lit.png"

@@ -7,7 +7,8 @@
   "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "^#f02020;EDS^reset; Drone Spawner",
-  "description" : "A reinforced device integrated into the walls, able to release ^#f02020;EDS Drones ^reset;.",
+  "description" : "A reinforced device integrated into the walls, able to dispence ^#f02020;EDS drones^reset;.",
+  "longdescription" : "This special drone dispatcher is merely a surface interface, connected to a drone traveling system, which is how they reach the exit.",
   "altaDescription" : "This is a reinforced EDS drone dispencer. Should be very careful around it.",
 
   "apexDescription" : "What's that moving inside...?",
@@ -40,6 +41,7 @@
     "position" : [0, 0],
     "positionVariance" : [0, 0],
     "stock" : -1,
+    "frequency" : [8, 16],
     "trigger" : "wire",
     "outOfSight" : false
   },

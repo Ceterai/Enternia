@@ -8,7 +8,8 @@
   "elementalType" : "electric",
 
   "shortdescription" : "^#f02020;EDS^reset; Haulterfence",
-  "description" : "A defensive ^#f02020;EDS^reset; structure called 'Size-3 Grounded Haulter', or a G3 Haulter, for short. Works as a fence. Electrified.",
+  "description" : "A defensive ^#f02020;EDS^reset; structure called 'Size-3 Grounded Haulter', or a G3 Haulter, for short. Works as a fence. ^#7733aa;Electrified^reset;.",
+  "longdescription" : "These were created to trap small creatures inplace, as well as rogue or hostile machinery.",
   "altaDescription" : "A part of a haulterfence. It's electrified, better to not touch it.",
 
   "apexDescription" : "An alta defensive structure used to trap vehicles and creatures.",
@@ -21,7 +22,22 @@
 
   "health" : 16,
   "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
   "smashParticles" : [ { "count" : 4, "particle" : "metalshard" } ],
+
+  "particleEmitter" : {
+    "emissionRate" : 0.55, "emissionVariance" : 0.15, "pixelOrigin" : [0, 0], "placeInSpaces" : true,
+    "particle" : {
+      "type" : "animated",
+      "looping" : true, "animation" : "/animations/teslabolt/teslabolt.animation", "position" : [0, 0],
+      "finalVelocity" : [0, 0], "approach" : [50, 50],
+      "destructionAction" : "shrink", "destructionTime" : 0.425,
+      "fade" : 1, "fullbright" : true, "light" : [0, 80, 192],
+      "size" : 0.5, "layer" : "middle", "timeToLive" : 0.425,
+      "variance" : { "finalVelocity" : [1.5, 1.5], "rotation" : 180 }
+    },
+    "particleVariance" : { "position" : [0.5, 0.5], "initialVelocity" : [2, 0], "finalVelocity" : [1, 0] }
+  },
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -45,7 +61,7 @@
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [ [0.0, 0.0], [1.0, 0.0], [2.0, 0.0], [-1.0, 0.0], [-2.0, 0.0], [0.0, 1.0], [1.0, 1.0], [2.0, 0.1], [-1.0, 1.0], [-2.0, 1.0] ],
     "damage" : 15,
     "knockback" : 20,
     "statusEffects" : [ "ct_pulse_paralysis", "ct_ionic_shock" ],

@@ -1,18 +1,22 @@
 {
   "type" : "ct_alta_defensive_droid",
   "shortdescription" : "Defensive Droid ^#2080f0;^reset;",
-  "description" : "Tier 3 Droid.  \nA protective machine that could take on a tank.",
+  "description" : "A protective machine that could take on a tank.",
+  "longdescription" : "Packed with an arsenal of different energy generators and missile launchers, it's unable to fly and thus has to walk on the ground.",
+  "altaDescription" : "These usually guard EDS stations and camps. Mostly just stand around and play lazers with other dreis and drons.",
   "race" : "alta",
   "elementalType" : "electric",
 
   "primaryAbility" : {
     "name" : "EDS Protector",
-    "description" : "Has an arsenal of weaponry on itself. Will explode with ^#7733aa;electric^reset; particles on destruction."
+    "description" : "Has an arsenal of weaponry on itself. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Anything to protect an alta."
   },
 
   "passiveAbility" : {
     "name" : "EDS Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#b81824;EDS Autoshielder^reset;.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#b81824;EDS Autoshielder^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Its heavy armored structure was designed and manufactured by EDS."
   },
 
   "categories" : [ "ct_alta_defensive_droid" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,

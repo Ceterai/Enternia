@@ -16,6 +16,18 @@
     "hAnchor" : "left",
     "value" : "0"
   },
+  "levelTitleLabel" : {
+    "type" : "label", "position" : [55, 23],
+    "hAnchor" : "left",
+    "wrapWidth" : 126,
+    "value" : "Lvl."
+  },
+  "levelLabel" : {
+    "type" : "label", "position" : [75, 23],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
   "raceLabel" : {
     "type" : "label", "position" : [134, 177],
     "hAnchor" : "right",
@@ -95,7 +107,7 @@
 
 
 
-  "fullDescriptionLabel" : {
+  "loreLabel" : {
     "type" : "label",
     "position" : [9, 104],
     "hAnchor" : "left",

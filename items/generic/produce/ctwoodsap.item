@@ -8,7 +8,7 @@
   "inventoryIcon" : "ctwoodsap.png",
 
   "rarity" : "Common", "price" : 5,
-  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item", "itemTags" : [ "ayaka", "ionic" ],
   "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "ctwoodsap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ],
 

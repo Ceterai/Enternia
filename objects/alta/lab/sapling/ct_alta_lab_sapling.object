@@ -4,7 +4,7 @@
   "category" : "sapling",
   "level" : 5, "rarity" : "Rare", "price" : 20,
   "race" : "alta",
-  "printable" : false,
+  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Sapling",
   "description" : "A tree sapling. Securely contained within a monitored environment.",
@@ -56,5 +56,8 @@
     { "fixedStem" : "ct_aric_twisted", "fixedFoliage" : "ct_vyralic" }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "wiki" : {
+    "aliases" : { "Lab Sapling" : { }, "Alta Lab Eco-Chamber" : { }, "Lab Eco-Chamber" : { } }
+  }
 }

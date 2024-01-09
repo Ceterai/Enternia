@@ -2,13 +2,14 @@
   "objectName" : "ct_nivera_thorns4",
   "colonyTags" : ["alterash", "nature", "warped", "nivera"],
   "category" : "trap",
-  "level" : 1, "rarity" : "Rare", "price" : 105,
+  "level" : 3, "rarity" : "Uncommon", "price" : 60,
   "race" : "generic",
   "printable" : false, "tooltipKind" : "ct_alta_object",
   "elementalType" : "poison",
 
   "shortdescription" : "Nivera Twisted Thorns",
   "description" : "A giant twisted bush of hard thorny vines full of poison.",
+  "longdescription" : "These ^#9b2d3f;warped^reset;, thorny ^#9b2d3f;nivera^reset; sprouts are not very picky when it comes to existence.",
   "altaDescription" : "A particularly big nivera bush. As poisonous as you would think.",
 
   "apexDescription" : "Sharp. I'd better avoid them.",
@@ -56,7 +57,16 @@
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [  // excluding inner polys
+      // left
+      [1.0, 0.0], [1.0, 1.0], [1.0, 2.0], [1.0, 3.0], [1.0, 4.0],
+      // top
+      [2.0, 4.0], [3.0, 4.0],
+      // right
+      [4.0, 4.0], [4.0, 3.0], [4.0, 2.0], [4.0, 1.0], [4.0, 0.0],
+      // bottom
+      [2.0, 0.0], [3.0, 0.0]
+    ],
     "damage" : 16,
     "knockback" : 20,
     "statusEffects" : [ "weakpoison" ],

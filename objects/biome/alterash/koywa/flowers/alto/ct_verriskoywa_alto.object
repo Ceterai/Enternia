@@ -8,7 +8,7 @@
 
   "shortdescription" : "Verriskoywa Alto Flower",
   "description" : "Tall, blue reed flower.",
-  "longdescription" : "\n#### Veraltai\n\nVeraltai is a spice extracted from the petals of this flower. It is often used in various ^#b0e0fc;alta foods^reset;.",
+  "longdescription" : "It stands out among seemingly endless vasts of koywa reeds.",
   "altaDescription" : "Blue 'skoywa flowers can be used as spices in some alta dishes. Nifty!",
 
   "apexDescription" : "Reeds.",
@@ -40,5 +40,8 @@
   "biomePlaced" : true,
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
-  "wiki" : { "aliases" : { "Koywa Alto" : { }, "Koywa Alto Flower" : { }, "Veraltai" : { "anchor" : "veraltai" } } }
+  "wiki" : {
+    "aliases" : { "Koywa Alto" : { }, "Koywa Alto Flower" : { }, "Veraltai" : { "anchor" : "veraltai" } },
+    "md" : { "#### Veraltai" : "Veraltai is a spice extracted from the petals of this flower. It is often used in various ^#b0e0fc;alta foods^reset;." }
+  }
 }

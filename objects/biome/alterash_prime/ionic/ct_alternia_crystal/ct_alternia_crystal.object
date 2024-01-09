@@ -2,13 +2,14 @@
   "objectName" : "ct_alternia_crystal",
   "colonyTags" : [ "alterash_prime", "crystal", "alternia" ],
   "category" : "breakable",
-  "level" : 5, "price" : 40, "rarity" : "Rare",
+  "level" : 5, "rarity" : "Rare", "price" : 60,
   "race" : "generic",
   "printable" : false, "tooltipKind" : "ct_alta_object",
   "elementalType" : "electric",
 
   "shortdescription" : "Alternia Crystal",
   "description" : "Found in ^#2080f0;esetera^reset; depths and in ^#0050c0;hevika^reset;, this blueish crystal deposit is highly ionized. ^#b0e0fc;Alta^reset;-scan for more.",
+  "longdescription" : "At its core, this crystal is filled with plasma, while usually safe to outside touch, the ionization brings the energy outside, making any contact potentially dangerous.",
   "altaDescription" : "A crystal full of alternia energy. So powerful! I can break it to get some fully-charged alternia shards.",
 
   "apexDescription" : "Crystals are quite beautiful.",
@@ -23,13 +24,15 @@
   "lightColor" : [0, 80, 192],
 
   "particleEmitter" : {
-    "emissionRate" : 0.5, "emissionVariance" : 0.25, "pixelOrigin" : [0, 0], "placeInSpaces" : true,
+    "emissionRate" : 1.65, "emissionVariance" : 0.15, "pixelOrigin" : [0, 0], "placeInSpaces" : true,
     "particle" : {
-      "type" : "textured", "image" : "/particles/hazard/hazardstat.png",
-      "size" : 0.5, "color" : [231, 223, 189, 175], "fade" : 0,
-      "destructionAction" : "fade", "destructionTime" : 0.5,
-      "initialVelocity" : [0, 2], "finalVelocity" : [0, 1], "approach" : [4, 1],
-      "timeToLive" : 0.5, "layer" : "middle", "collidesForeground" : false
+      "type" : "animated",
+      "looping" : true, "animation" : "/animations/teslaboltpurple/teslaboltpurple.animation", "position" : [0, 0],
+      "finalVelocity" : [0, 0], "approach" : [50, 50],
+      "destructionAction" : "shrink", "destructionTime" : 0.425,
+      "fade" : 1, "fullbright" : true, "light" : [80, 0, 192],
+      "size" : 0.5, "layer" : "middle", "timeToLive" : 0.425,
+      "variance" : { "finalVelocity" : [1.5, 1.5], "rotation" : 180 }
     },
     "particleVariance" : { "position" : [0.5, 0.5], "initialVelocity" : [2, 0], "finalVelocity" : [1, 0] }
   },
@@ -44,7 +47,24 @@
   ],
 
   "touchDamage" : {
-    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "poly" : [  // excluding inner polys
+      // 0
+      [0.0, 0.0],
+      // 1
+      [1.0, 0.0], [0.0, 1.0], // [1.0, 1.0],
+      // 2
+      [2.0, 0.0], [0.0, 2.0], // [2.0, 2.0],
+      // [2.0, 1.0], [1.0, 2.0],
+      // 3
+      [3.0, 0.0], [0.0, 3.0], // [3.0, 3.0],
+      // [3.0, 1.0], [1.0, 3.0],
+      // [3.0, 2.0], [2.0, 3.0],
+      // 4
+      [4.0, 0.0], [0.0, 4.0], [4.0, 4.0],
+      [4.0, 1.0], [1.0, 4.0],
+      [4.0, 2.0], [2.0, 4.0],
+      [4.0, 3.0], [3.0, 4.0]
+    ],
     "damage" : 10,
     "knockback" : 20,
     "statusEffects" : [ "ct_pulse_paralysis", "ct_ionic_shock", "ct_hevikai_strike" ],
@@ -63,5 +83,10 @@
     [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ]
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "wiki" : {
+    "md" : {
+      "#### Energy Source" : "These crystals are often used as powerful energy sources by altas, specifically in things like ^#b0e0fc;alta energy sources^reset;."
+    }
+  }
 }

@@ -68,8 +68,12 @@
         "wait1" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
         "windup2" : { "duration" : 0.1, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
         "fire2" : { "duration" : 0.3, "armRotation" : 0, "weaponRotation" : -90, "weaponOffset" : [0, 2.25], "twoHanded" : false, "allowFlip" : true, "allowRotate" : true },
+        "wait2" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
         "windup3" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
-        "fire3" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true }
+        "fire3" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "wait3" : { "duration" : 0.3, "armRotation" : -135, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowRotate" : true, "allowFlip" : true, "twoHanded" : false },
+        "windup4" : { "duration" : 0.1, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true },
+        "fire4" : { "duration" : 0.15, "armRotation" : -105, "weaponRotation" : 40, "weaponOffset" : [0, 2.25], "allowFlip" : true, "allowRotate" : true }
       }
     }
   },

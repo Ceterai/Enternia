@@ -33,5 +33,10 @@ And sometimes, little fallen stars find each other, somewhere on the path of the
       "fixedPrice" : true, "level" : 6,
       "itemTags" : [ "data_source", "ebook" ],
       "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  },
+  "wiki" : {
+    "aliases" : {
+      "Alta History I" : { }
+    }
   }
 }

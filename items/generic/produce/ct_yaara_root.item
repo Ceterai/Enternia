@@ -8,7 +8,7 @@
   "inventoryIcon" : "ct_yaara_root.png",
 
   "level" : 3, "rarity" : "Uncommon", "price" : 10,
-  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item", "itemTags" : [ "yaara" ],
   "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
 

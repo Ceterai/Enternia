@@ -2,16 +2,20 @@
   "type" : "ct_alta_mini_drone",
   "shortdescription" : "Minidrone",
   "description" : "Small armored ^#b0e0fc;alta^reset; drone. Usually nests inside larger drones.",
-  "race" : "alta",
+  "longdescription" : "These compact flying robots are not that much smaller than a rebular alta drone, but enough to be able to fit in much smaller spaces.",
+  "altaDescription" : "So small, so cute~ «",
+  "race" : "alta", "alkey" : "Nidrei",
 
   "primaryAbility" : {
     "name" : "Mini Swoops",
-    "description" : "Can try to swoop at its targets. Will try to charge at the target on destruction."
+    "description" : "Can try to swoop at its targets. Will try to charge at the target on destruction.",
+    "longdescription" : "Having no energy accelerators or discharges allows this machine to be much smaller and lighter compared to other models."
   },
 
   "passiveAbility" : {
     "name" : "Basic Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch."
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Basic drones and droids usually don't have any kind of energy shields or armor regeneration, and cannot see targets through liquids."
   },
 
   "categories" : [ "ct_alta_mini_drone" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,

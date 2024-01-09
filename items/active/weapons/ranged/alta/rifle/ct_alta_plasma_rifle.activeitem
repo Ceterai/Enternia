@@ -2,6 +2,8 @@
   "itemName" : "ct_alta_plasma_rifle",
   "shortdescription" : "Plasma Rifle NG5",
   "description" : "A rifled alternia ^#2080f0;plasma^reset; blaster, mostly used by combat and elite ^#b0e0fc;alta^reset; forces.",
+  "longdescription" : "Its heavy casing contains a lot of isolation and enough space for a proper ^gray;rapid plasma generator^reset;.",
+  "altaDescription" : "Remember when main NG models went plasmic? I remember. I think.",
   "elementalType" : "electric",
   "race" : "alta",
 
@@ -68,6 +70,8 @@
     "animationParts" : { "middle" : "ct_alta_plasma_rifle_2.png" },
     "shortdescription" : "Plasma Rifle NG5X ^#8020f0;^reset;",
     "description" : "This improved NG5 model has enhanced energy capacity due to the use of ^#ffa8e8;stardust^reset;.",
+    "longdescription" : "The integrated crystal acts as an energy booster, and the updated rapid generator allows for longer high loads.",
+    "altaDescription" : "These are sometimes attached to heavy machinery as an in-place defence mechanism.",
     "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/npc/boss/cultistboss_beamwindup.ogg" ] } }
   }

@@ -1,4 +1,4 @@
-![ ](images/alterash.png)
+![ ](.meta/images/alterash.png)
 
 # My Enternia
 
@@ -66,10 +66,10 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 (Scroll down for information for modders)
 
-![ ](images/tooltip1.png)
-![ ](images/tooltip2.png)
-![ ](images/tooltip3.png)
-![ ](images/tooltip4.png)
+![ ](.meta/images/tooltip1.png)
+![ ](.meta/images/tooltip2.png)
+![ ](.meta/images/tooltip3.png)
+![ ](.meta/images/tooltip4.png)
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
@@ -87,11 +87,15 @@ More information on new weapon features like press&hold, firemodes, attachments 
 
 As mentioned in the content rundown, many different items in this mod have improved, informative tooltips. Below are some examples of that:
 
-![ ](images/scrn_tooltips1.png)
-![ ](images/scrn_tooltips2.png)
+![ ](.meta/images/scrn_tooltips1.png)
+![ ](.meta/images/scrn_tooltips2.png)
+
+### Changes
+
+For any recent and all progress, checkout: <i class="fa-solid fa-clock-rotate-left"></i> **[Changelog](changelog.md)**
 
 ---
 
 <p align="center">
-  <img src="images/alta_sign4.png" />
+  <img src=".meta/images/alta_sign4.png" />
 </p>

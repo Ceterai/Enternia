@@ -2,9 +2,71 @@
 
 ## Update 2.1 - Alta Decryption
 
+### 2.1.4
+
+At last, a data patch that fixes drone malfunctions! You can now make sure that your drone spawners are safe to use...
+> Note that next version (2.2) will remove a lot of long-deprecated items and objects. Load you world and check inventories with those to update them to avoid them turning into Perfectly Generic Items. Deprecation Station will also get deprecated. It's no longer of much use, and the Perfectly Generic Item section will be moved to the Upgrade Station.
+
+**Main:**
+
+- many big bugfixes, lore additions and wiki improvements;
+- properly functional hazard objects and decorations;
+- pretty big mod cleanup;
+
+**Alta:**
+
+- fixed scout/EDS drone spawners:
+  - increased amount of drones in the Alta Drone Station from 3 to 10;
+  - fixed spam in EDS Spawner;
+  - fixed EDS Drones exploding on spawn in low threat environments;
+- fixed defeat logic on some drones (like Frigate Drone);
+- seemingly fixed errors with "liquidLineCollision" on all droids & drones (?);
+- fixed Alta Lab Barrier - now it:
+  - only damages when closed;
+  - has according particles and looping electric sound when closed;
+  - shows up in the Hazards tab in Alta Constructor;
+- fixed break sounds on EDS Haulters;
+- fixed Staris Soup food item;
+- fixed items no longer being upgradable at the Weapon Upgrade Anvil when having certain items in your inventory;
+- fixed some items not being upgradable at the Weapon Upgrade Anvil due to incorrect tags (forgot the `upgradeableWeapon` tag): Bishyn Spear, Niverisk, Protospear;
+- fixed tooltips on Alta City Sapling, Alta Lab Sapling and Alta Ship Sapling;
+
+**Wiki:**
+
+- added trivia sections;
+- added extended descriptions to rifles, drones, droids, hazard objects, plants and some other things;
+- added screenshots for Defensive Drone R300, Ionic Drone and Lava Drone;
+- added species support;
+- made Alta page semi-automated, added in-game info;
+- fixed extended descriptions on monster spawner items;
+- minor adjustments and formatting update;
+
+**Dev:**
+
+- added comments to some lua scripts;
+- moved dev landscape screenshots and previews and their psd files for versioning and to keep them in one place;
+- moved all dev/meta stuff like mod support scripts, palettes, mod descriptions and images to a `/.meta` folder to keep it clean;
+- the `/.meta` folder is excluded from actual releases and will only be present in the GitHub repo, as well as `.gitignore`, `changelog.md` and `README.md`;
+- reworked mod support scripts and added comments to make them cleaner and easier to understand;
+- optimized build scripts and made them cleaner;
+- made deprecation builders slightly more seamless;
+
+**Other:**
+
+- added particles to objects: Poison Crystals, Yaara Heart;
+- fixed upgraded item icons;
+- fixed upgraded calin sword;
+- fixed collision on hazard objects: Alternia Crystal, Poison Crystals, Yaara Heart, Yaara Roots, Warped Roots, Alta Lab Barrier, EDS Haulters;
+- fixed particles on hazard objects: Alternia Crystal, Yaara Heart, Yaara Roots, Alta Lab Barrier, EDS Haulters;
+- fixed levels on hazard objects: Alternia Crystal, Yaara Heart, Yaara Roots, Warped Roots;
+- fixed level inventory tooltips on objects;
+- moved text lines from item builder scripts into a `/items/buildscripts/ct_texts.config` file to make them easier to translate/change;
+- tried to fix emote issues for kaiteras (second alta gender), but wasn't successful;
+- minor bug fixes.
+
 ### 2.1.3
 
-Finally learning more about general alta traits and special abilities, you discover learn about their strongest side... but also about their weaknesses.
+Finally learning more about general alta traits and special abilities, you discover and learn about their strongest sides... but also about their weaknesses.
 
 **Main:**
 
@@ -207,7 +269,7 @@ It seems you have also got a hold of some weird pods labeled "GSR". I wonder wha
 
 **Main:**
 
-- created Mod Wiki. Find it here: https://github.com/Ceterai/Enternia/wiki;
+- created Mod Wiki. Find it here: [My Enternia: Wiki](https://github.com/Ceterai/Enternia/wiki);
 - the Wiki contains in-detail info about pretty much everything in the mod, from items/objects/monsters to effects, biomes, weather and even worldbuilding concepts/lore;
 - the Wiki also includes extensive info for modders wanting to create mods on top of this mod;
 

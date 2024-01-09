@@ -4,21 +4,13 @@ require "/items/buildscripts/ct_alta_object_builder.lua"
 local ct_alta_object_builder = build
 
 function build(directory, config, parameters, level, seed)
-  local configParameter = function(keyName, defaultValue)
-    if parameters[keyName] ~= nil then return parameters[keyName]
-    elseif config[keyName] ~= nil then return config[keyName]
-    else return defaultValue end
-  end
+  local configParameter = function(key, default) return getValue(key, default, config, parameters) end
 
   -- Object stats
   config, parameters = ct_alta_object_builder(directory, config, parameters, level, seed)
 
   -- Fixed params
-  if config.treePool then
-    setTreeParams(sb.jsonMerge(config, util.randomChoice(config.treePool)), parameters)
-  else
-    setTreeParams(config, parameters)
-  end
+  parameters = setTreeParams(inif(config.treePool, sb.jsonMerge(config, rand(config.treePool)), config), parameters)
   if not configParameter("stemName") then
     parameters.stemName = "ct_ayaka_garden_stem"
     parameters.foliageName = parameters.foliageName or "ct_ayaka_garden_leaves"
@@ -49,15 +41,7 @@ end
 function setTreeParams(config, parameters)
   if config.fixedStem then parameters.stemName = config.fixedStem end
   if config.fixedFoliage then parameters.foliageName = config.fixedFoliage end
-  if config.fixedStemHues then
-    if type(config.fixedStemHues) == "table"
-    then parameters.stemHueShift = util.randomChoice(config.fixedStemHues)
-    else parameters.stemHueShift = config.fixedStemHues end
-  end
-  if config.fixedFoliageHues then
-    if type(config.fixedFoliageHues) == "table"
-    then parameters.foliageHueShift = util.randomChoice(config.fixedFoliageHues)
-    else parameters.foliageHueShift = config.fixedFoliageHues end
-  end
+  if config.fixedStemHues then parameters.stemHueShift = rand(config.fixedStemHues) end
+  if config.fixedFoliageHues then parameters.foliageHueShift = rand(config.fixedFoliageHues) end
   return parameters
 end
