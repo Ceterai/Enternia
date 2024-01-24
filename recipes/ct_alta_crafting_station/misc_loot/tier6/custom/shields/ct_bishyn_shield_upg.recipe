@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_crystalline_shield", "count" : 1, "parameters" : { "preset" : "bishyn", "upgraded" : true } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "shield", "all" ]
+}

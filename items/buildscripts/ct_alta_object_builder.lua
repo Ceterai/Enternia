@@ -3,11 +3,26 @@ require "/items/buildscripts/ct_alta_item_builder.lua"
 
 local ct_alta_item_builder = build
 
+
+-- # My Enternia Object Builder
+-- This enhanced object builder is based on the enhanced item builder, and is able to provide an extended amount of functions.
+-- This includes extended tenant tags, as well as even more tooltips. Find out more: https://github.com/Ceterai/Enternia/wiki/Modding-Items#objects
+-- ## Tooltips
+-- A big variety of supported tooltip fields, including:
+-- - everything from the item builder
+-- - damage info (for hazardous objects and traps)
+-- - health info
+-- - light color/intensity info
+-- - slot count info (for storage items)
+-- - drop info (whether the object drops itself when broken)
+-- > Note that all tooltip text is located in a separate config file.
 function build(directory, config, parameters, level, seed)
   local configParameter = function(key, default) return getValue(key, default, config, parameters) end
 
   -- Item stats
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
+  if parameters.cfg and config.itemName == 'ct_obj_mimic' then parameters = sb.jsonMerge(parameters, parameters.cfg) end
+  if parameters.deprecated then parameters.colonyTags = nil end
   config.colonyTags = getTags(configParameter("colonyTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
   if parameters.colonyTags and parameters.colonyTags ~= config.colonyTags then parameters.colonyTags = config.colonyTags end
   config.radioMessagesOnPickup = getPickupMsgs(configParameter("radioMessagesOnPickup", {}), config.colonyTags)
@@ -27,7 +42,7 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.lightLabel = "^#"..table.concat(light)..";^reset;"
   end
   config.tooltipFields.tagsTitleLabel = tips.tags
-  config.tooltipFields.tagsLabel = getColored(table.concat(config.colonyTags, ", "))
+  config.tooltipFields.tagsLabel = getColored(table.concat(configParameter("colonyTags"), ", "))
   config.tooltipFields.healthTitleLabel = tips.health
   config.tooltipFields.healthLabel = configParameter("health", 1) * 10
 
@@ -63,5 +78,7 @@ function build(directory, config, parameters, level, seed)
       config.tooltipFields.knockbackLabel = kb
     end
   end
+  if not parameters.colonyTags and not parameters.deprecated then parameters.colonyTags = config.colonyTags end
+  if parameters.deprecated then parameters.deprecated = nil end
   return config, parameters
 end

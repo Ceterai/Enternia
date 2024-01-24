@@ -4,7 +4,7 @@
   "description" : "Small armored drone operated by EDS. Usually nests inside larger drones.",
   "race" : "alta",
 
-  "categories" : [ "ct_alta_mini_drone" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
+  "categories" : [ "ct_alta_mini_drone_parts" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "empty", "bow" : "ct_alta_tier3_class1" } ],
 
   "baseParameters" : {

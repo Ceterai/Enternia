@@ -4,6 +4,24 @@ local ct_alta_item_builder = build
 require "/items/buildscripts/buildfood.lua"
 local food_build = build
 
+
+-- # My Enternia Food Builder
+-- This enhanced food builder is based on the enhanced item builder, and is able to provide an extended amount of functions. This includes cuisine prefixes,
+-- the **Perfect Cooking** mechanic, and even more tooltips. More info: https://github.com/Ceterai/Enternia/wiki/Modding-Items#consumable-items
+-- ## Cuisine
+-- Can add a prefix to the description denoting what cuisine the item belongs to (https://github.com/Ceterai/Enternia/wiki/Alta#food):
+-- - `itemTags` (`list`) - if this list contains any tags listed in the `cuisines` dict in the config file, an according prefix will be added to description.
+-- ## Perfect Cooking
+-- Supports a chance to turn into a specific preset after cooking. Find out more: https://github.com/Ceterai/Enternia/wiki/Modding-Items#variants
+-- - `variants` (`list`) - if set, will go over corresponding presets in the `presets` field after item creation;
+-- - `presets` (`dict`) - the dict containing item configurations, check out the **Presets** section in the item builder description.
+-- ## Tooltips
+-- A big variety of supported tooltip fields, including:
+-- - everything from the item builder
+-- - food value info (if set - usually not displayed for medicine an other non-food consumables)
+-- - effect info (if **Improved Food Descriptions** is installed, else will be replaced with food value)
+-- - expiration info
+-- > Note that all tooltip text is located in a separate config file.
 function build(directory, config, parameters, level, seed)
   local configParameter = function(key, default) return getValue(key, default, config, parameters) end
 

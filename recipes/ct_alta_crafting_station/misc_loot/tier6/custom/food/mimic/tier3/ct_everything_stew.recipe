@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_food_mimic", "count" : 1, "parameters" : { "preset" : "everything_stew" } },
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "everything_stew" } },
   "duration" : 0.25,
   "groups" : [ "alta_max", "food", "all" ]
 }

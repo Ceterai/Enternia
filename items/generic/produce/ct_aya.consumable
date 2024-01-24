@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_aya",
+  "shortdescription" : "Aya",
+  "description" : "A very juicy, sweet fruit, that can be boiled, baked, squished, powdered and even canned.",
+  "longdescription" : "Widely used by ^#b0e0fc;altas^reset; for all sorts of recipes.  \nWhen turned into powder, can be used to filter energy from certain crystals.\n\nAyas grow on trees called ^#3587ff;ayaka^reset;, and thus don't have seeds as a separate item.\n\nKnown by non-alta species as an **Alta Peach** due to its taste and resemblance. Unlike [peaches](https://en.wikipedia.org/wiki/Peach), ayas have no seed, since ayakas have a different method of reproduction.",
+  "altaDescription" : "Makes you feel like home as soon as you feel the taste.",
+
+  "level" : 1, "price" : 30, "rarity" : "Common",
+
+  "maxStack" : 1, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "ayaka" ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 3.0,
+  "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
+
+  "inventoryIcon" : "ct_aya.png",
+  "learnBlueprintsOnPickup" : [ "ct_aya_jam", "ct_aya_fresh", "ct_aya_baked", "ct_aya_powder", "ct_aya_boiled" ],
+
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "wiki" : { "aliases" : { "Alta Peach" : { } } }, "alkey" : "Aya"
+}

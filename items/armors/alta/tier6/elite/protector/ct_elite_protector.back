@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_elite_protector",
-  "shortdescription" : "Elite Alta Protector",
+  "shortdescription" : "Elite Protector",
   "description" : "Automatically applies a static shield whenever HP is down to 20%. Provides a life support system. Has an augment slot.",
 
   "level" : 6, "price" : 640, "rarity" : "Legendary",
@@ -47,5 +47,6 @@
     { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Elite Alta Protector" : { } } }
 }

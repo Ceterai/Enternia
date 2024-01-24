@@ -2,12 +2,12 @@
   "input" : [
     { "item" : "ct_alta_energy_cell", "count" : 1 },
     { "item" : "crystal", "count" : 8 },
-    { "item" : "ct_edsarmor", "count" : 1 }
+    { "item" : "ct_eds_armor", "count" : 1 }
   ],
   "output" : {
-    "item" : "ct_alta_eds_visor",
+    "item" : "ct_eds_visor",
     "count" : 1
   },
   "duration" : 0.65,
-  "groups" : [ "alta_t3m", "cosmetics", "all" ]
+  "groups" : [ "alta_t3m", "eds", "cosmetics", "head", "all" ]
 }

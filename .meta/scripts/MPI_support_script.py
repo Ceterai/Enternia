@@ -7,7 +7,7 @@ import pyjson5
 import base
 
 
-PATH_INPUT = '/interface/cockpit/cockpit.config.patch.init.json'
+PATH_INPUT = '/.meta/cockpit.config.patch'
 PATH = '/interface/cockpit/cockpit.config.patch'
 AFFECTED_FILES = [PATH, PATH_INPUT]
 MOD = 'More Planet Info'
@@ -25,7 +25,7 @@ def is_biome(name: str) -> bool:
 def run():
     # Initial fill
     json_patches: list[list[dict]] = [
-        pyjson5.load(open(base.ROOT + '/interface/cockpit/cockpit.config.patch.init.json')),
+        pyjson5.load(open(base.ROOT + PATH_INPUT)),
         '\n  ' + HINT,
         [ { "op": "test", "path": "/displayEnvironmentStatusEffects" }, ]
     ]
@@ -55,5 +55,5 @@ def run():
 
     json_patch_lines = '[' + ''.join(lines) + '\n]\n'
     # print(json_patch_lines)
-    with open(base.ROOT + '/interface/cockpit/cockpit.config.patch', 'w') as patch_file:
+    with open(base.ROOT + PATH, 'w') as patch_file:
         patch_file.writelines(json_patch_lines)

@@ -82,7 +82,8 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "newItem" : "ct_pulsecutter",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "/items/active/weapons/ranged/alta/wrist/ct_eds_mng_2.png",

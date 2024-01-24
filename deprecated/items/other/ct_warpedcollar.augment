@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_warpedcollar",
+  "shortdescription" : "Poison Cloud Collar",
+  "description" : "A collar that causes your pet to periodically spray poison clouds around it.",
+
+  "level" : 5, "price" : 1600, "rarity" : "Rare",
+  "category" : "petCollar", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "/items/augments/pet/ct_warped_collar.png",
+  "itemTags" : [ "enhancement", "collar", "warped" ],
+
+  "collar" : {
+    "name" : "ct_warpedcollar",
+    "displayName" : "Poison Cloud",
+    "displayIcon" : "/items/augments/pet/ct_warped_collar.png",
+    "effects" : [ "ct_poisoncloud" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupcollar" ],
+  "scripts" : [ "/scripts/augments/collar.lua" ],
+  "newItem" : "ct_warped_collar",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"
+}

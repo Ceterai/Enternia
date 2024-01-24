@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_verriskoywa_miko", "count" : 1 },
+    { "item" : "ct_verriskoywa_faro", "count" : 1 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "browndye",
+    "count" : 1
+  },
+  "groups" : [ "alta_t2", "dyes", "all" ]
+}

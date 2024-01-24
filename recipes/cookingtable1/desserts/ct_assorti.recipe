@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "cttsay", "count" : 1 },
-    { "item" : "ctaya", "count" : 2 }
+    { "item" : "ct_tsay", "count" : 1 },
+    { "item" : "ct_aya", "count" : 2 }
   ],
   "output" : { "item" : "ct_assorti", "count" : 1 },
   "groups" : [ "craftingfood", "desserts" ]

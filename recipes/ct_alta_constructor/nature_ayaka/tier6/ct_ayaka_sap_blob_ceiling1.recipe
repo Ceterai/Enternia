@@ -1,7 +1,7 @@
 {
   "input" : [
-    { "item" : "ctwood", "count" : 1 },
-    { "item" : "ctwoodsap", "count" : 2 }
+    { "item" : "ct_ayaka_wood", "count" : 1 },
+    { "item" : "ct_ionic_sap", "count" : 2 }
   ],
   "output" : { "item" : "ct_ayaka_sap_blob_ceiling1", "count" : 1 },
   "groups" : [ "alta_constructor6", "nature", "alterash_nature", "ayaka", "all" ]

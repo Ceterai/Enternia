@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_yaara_root", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_flowersword", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

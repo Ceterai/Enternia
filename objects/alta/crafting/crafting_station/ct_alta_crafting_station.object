@@ -37,7 +37,7 @@
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
           { "item" : "ct_datamass", "count" : 4 },
-          { "item" : "ctwoodsap", "count" : 16 },
+          { "item" : "ct_ionic_sap", "count" : 16 },
           { "item" : "moondust", "count" : 16 }
         ]
       }, "animationState" : "tier1", "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
@@ -140,7 +140,7 @@
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "upgrademodule", "count" : 1 },
-          { "item" : "ct_edsarmor", "count" : 4 },
+          { "item" : "ct_eds_armor", "count" : 4 },
           { "item" : "ct_gheatsyn_crystal", "count" : 8 },
           { "item" : "ct_tonna", "count" : 16 }
         ]

@@ -44,7 +44,7 @@
           // Medicine,          total: 0.28
           {"weight" : 0.04, "item" : "bluestim"},
           {"weight" : 0.02, "item" : "nanowrap"},
-          {"weight" : 0.12, "item" : [ "ct_alta_med_mimic", 1, { "preset" : "bandade" } ] },
+          {"weight" : 0.12, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
           {"weight" : 0.06, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
           {"weight" : 0.04, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
           // Shop Food,         total: 0.54
@@ -156,7 +156,7 @@
         "poolRounds" : [ [0.1, 3], [0.3, 4], [0.4, 5], [0.2, 6] ],
         "pool" : [  //          total: 1.00
           // Resources,         total: 0.455
-          {"weight" : 0.15, "item" : "ct_edsarmor"},
+          {"weight" : 0.15, "item" : "ct_eds_armor"},
           {"weight" : 0.15, "item" : "ct_phosicore"},
           {"weight" : 0.15, "item" : "ct_bion"},
           {"weight" : 0.05, "item" : "ct_alta_watcher_drone"},
@@ -326,14 +326,14 @@
           {"weight" : 0.01, "item" : "ct_calin_shield"},
           {"weight" : 0.01, "item" : "ct_crystalline_shield"},
 
-          {"weight" : 0.01, "item" : "ct_warpedaugment"},
-          {"weight" : 0.01, "item" : "ct_warpedcollar"},
-          {"weight" : 0.01, "item" : "ct_yaaracollar"}
+          {"weight" : 0.01, "item" : "ct_warped_augment"},
+          {"weight" : 0.01, "item" : "ct_warped_collar"},
+          {"weight" : 0.01, "item" : "ct_yaara_collar"}
         ]
   }] ] },
   { "op": "add", "path": "/ct_gsr_m2", "value": [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
           {"weight" : 0.02, "item" : ["ct_bion", 2]},
-          {"weight" : 0.02, "item" : ["ct_edsarmor", 2]},
+          {"weight" : 0.02, "item" : ["ct_eds_armor", 2]},
           {"weight" : 0.02, "item" : ["ct_phosicore", 2]},
           {"weight" : 0.01, "item" : "ct_eds_mng"},
           {"weight" : 0.01, "item" : "ct_estralis_vi"},
@@ -376,7 +376,7 @@
 
           {"weight" : 0.01, "item" : "ct_bishyn_augment"},
           {"weight" : 0.01, "item" : "ct_hevika_augment"},
-          {"weight" : 0.01, "item" : "ct_warpedaugment"}
+          {"weight" : 0.01, "item" : "ct_warped_augment"}
         ]
   }] ] },
   { "op": "add", "path": "/ct_gsr_m3", "value": [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
@@ -499,12 +499,12 @@
           {"item" : "ct_docs_units_combat-codex"}
   ] } ] ] },
   { "op": "add", "path": "/ct_eds_officer_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_beret"},
+          {"item" : "ct_eds_beret"},
           {"item" : "ct_eds_chest"},
           {"item" : "ct_eds_legwear"}
   ] } ] ] },
   { "op": "add", "path": "/ct_eds_op_set", "value": [ [1, { "fill" : [
-          {"item" : "ct_alta_eds_visor"},
+          {"item" : "ct_eds_visor"},
           {"item" : "ct_eds_chest"},
           {"item" : "ct_eds_legwear"}
   ] } ] ] },

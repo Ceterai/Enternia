@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_frozen_energy_ball", "count" : 2 },
+    { "item" : "ct_alternia_shard", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 8 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_arknight_shield", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "arknight", "misc_loot", "shield", "all" ]
+}

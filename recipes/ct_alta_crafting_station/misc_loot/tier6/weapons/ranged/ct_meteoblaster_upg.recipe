@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_enterite", "count" : 2 },
+    { "item" : "moonrock", "count" : 4 },
+    { "item" : "ct_bion", "count" : 4 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_meteoblaster", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "spacedrifter", "misc_loot", "weapon", "all" ]
+}

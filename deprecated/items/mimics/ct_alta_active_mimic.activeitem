@@ -1,0 +1,298 @@
+{
+  "itemName" : "ct_alta_active_mimic",
+  "shortdescription" : "ZZZZ Object Mimic! (Evil, booo!) >>;3",
+  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
+  "newItem" : "ct_tool_mimic",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua",
+  "wiki" : { "skip" : true },
+  "presets" : {
+    "alter_whip" : { "baseAsset" : "/items/active/weapons/whip/energywhip.activeitem",  // https://starbounder.org/Molten_Boomerang https://starbounder.org/Throwing_Boulder
+      "shortdescription" : "^#2080f0;Alter^reset;-Lighting ^#8020f0;^reset;", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "weapon", "whip", "alternia" ],
+      "race" : "alta", "price" : 960, "elementalType" : "electric", "alkey" : "Alnia-Zon", "foundIn" : [ "^#b0e0fc;Alta Party Girl^reset;" ],
+      "description" : "Simple, but powerful energy tool with limited set of functions compensating the sheer power of each crack.",
+      "longdescription" : "All pure energy equipment has to have a trade-off to be able to maintain levels of energy this high, devoting a lot of design to proper energy containers and sources.",
+      "altaDescription" : "Well, this is quite a lot. Let's see if it's any more useful than other plasmic energy tools.",
+      "paletteSwap" : {"#ffffff":"#b0e0fc","#60b8ea":"#60c0fc","#008cd9":"#2080f0","#ffffffa1":"#b0e0fca1","#60b8eaa1":"#60c0fca1","#008cd9a1":"#2080f0a1",
+        "#b0b0b0":"#b0e0fc","#666666":"#4c5064","#545454":"#383c50","#373737":"#24283c","#141414":"#101428"},
+      "animationCustom" : {
+        "globalTagDefaults" : { "paletteSwaps" : "" }, "animatedParts" : { "parts" : {
+            "weapon" : { "partStates" : { "attack" : {
+              "windup":{"properties":{"image":"<partImage>:windup.<frame><paletteSwaps>"}},"idle":{"properties":{"image":"<partImage>:idle<paletteSwaps>"}},
+              "extend":{"properties":{"image":"<partImage>:extend.<frame><paletteSwaps>"}},"fire":{"properties":{"image":"<partImage>:fire<paletteSwaps>"}}
+            } } },
+            "weaponFullbright" : { "partStates" : { "attack" : {
+              "windup":{"properties":{"image":"<partImage>:windup.<frame><paletteSwaps>"}},"idle":{"properties":{"image":"<partImage>:idle<paletteSwaps>"}},
+              "extend":{"properties":{"image":"<partImage>:extend.<frame><paletteSwaps>"}},"fire":{"properties":{"image":"<partImage>:fire<paletteSwaps>"}}
+            } } }
+        } },
+        "transformationGroups" : { "weapon" : {}, "muzzle" : {} },
+        "sounds" : { "init" : [ "/sfx/gun/magnorbs_fire7.ogg" ] }
+      },
+      "scripts" : ["/items/active/weapons/ranged/alta/ranged.lua"],
+      "primaryAbility" : {
+        "description" : "An energy crack that deals electric damage at the point of culmination, but also deals half-damage on general collision.",
+        "longdescription" : "This is only possible with the use of advanced power redirectors and multiple alter-spheres.",
+        "fireTime" : 0.9, "baseDps" : 16, "crackDps" : 16, "chainDps" : 8, "energyUsage" : 44
+      },
+      "altAbility" : {
+        "description" : "Quicly launch an energy charge forward. Can bounce off of surfaces.",
+        "longdescription" : "It requires a significant amount of power to generate, thus leaving no place for smaller adjacent features.",
+        "fireTime" : 1.2, "baseDps" : 16, "energyUsage" : 48
+      }
+    },
+    "boomerang" : {  // https://starbounder.org/Vine_Whip https://starbounder.org/Poison_Bow
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "Boomerang",
+      "description" : "A simple alta toy with powerful thrusters. You won't use it for hurting anyone, right?",
+      "longdescription" : "Its simple shape and common alta colors make it a staple in alta culture and a common item at ^#497c64;alterash riverside^reset; resorts.",
+      "altaDescription" : "What a classic. I should play with the girls sometimes if I happen to have this with me.",
+      "tooltipKind" : "ct_alta_weapon_1",
+      "level" : 2, "rarity" : "Common", "price" : 480, "race" : "alta", "itemTags" : [ "weapon", "ranged", "boomerang", "toy", "upgradeableWeapon" ],
+      "foundIn" : [ "^#b0e0fc;Alta Party Girl^reset;" ],
+      "upgradeParameters" : { "rarity" : "Legendary", "shortdescription" : "Powerang ^#8020f0;^reset;" }
+    },
+    "exmachina" : {
+      "baseAsset" : "/items/active/weapons/other/exmachina/exmachina.activeitem",
+      "shortdescription" : "R-Power Prototype ^#2080f0;^reset;",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.",
+      "longdescription" : "This heavy energy tool has outside origins and was simply altered in a Neiteru alta lab.",
+      "altaDescription" : "This is quite bulky, not sure if I'll be able to lift it up...",
+      "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 880,
+      "itemTags" : [ "weapon", "ranged", "rocketlauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison", "tooltipKind" : "ct_alta_weapon_1",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : {
+        "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma",
+        "description" : "Launches a special mix of toxins and enhanced slime as a rocket."
+      },
+      "foundIn" : [ "^#b0e0fc;Alta Cargo Manager^reset; (5+ tier)" ],
+      "upgradeParameters" : {
+        "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960
+      }
+    },
+    "violiumshortsword" : {  // loot https://starbounder.org/Violium_Shortsword
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "Mirazh ^#8020f0;^reset;", "level" : 6, "race" : "alta", "rarity" : "Legendary", "price" : 800,
+      "itemTags" : [ "weapon", "ranged", "shortsword", "ionic", "dreamer" ], "elementalType" : "electric",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1", "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+    },
+    "neochakram" : {  // shop https://starbounder.org/Neo_Chakram
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "Energo-Orbit ^#20f080;^reset;", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 800,
+      "itemTags" : [ "weapon", "ranged", "chakram", "plasma", "upgradeableWeapon" ], "elementalType" : "electric",
+      "description" : "Crackling with destructive energy.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960 }
+    },
+    "neouzi" : {  // shop https://starbounder.org/Neo_Uzi
+      "baseAsset" : "/items/active/weapons/ranged/unrand/neouzi/neouzi.activeitem",
+      "shortdescription" : "Neo-MP ^#8020f0;^reset;", "level" : 6, "race" : "alta", "rarity" : "Legendary", "price" : 800,
+      "itemTags" : [ "weapon", "ranged", "machinepistol", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960 }
+    },
+    "soluskatana" : {  // loot, gsr https://starbounder.org/Solus_Katana
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "Ennia-Prime ^#8020f0;^reset;", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 880,
+      "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960 }
+    },
+    "wormgun" : {  // loot https://starbounder.org/Alien_Worm_Gun
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "Venomous Warper", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 720,
+      "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960 }
+    },
+    "astrosabredeluxe" : {  // shop https://starbounder.org/Asuterosaberu_DX
+      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+      "shortdescription" : "???", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 880,
+      "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
+      "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.  \n^gray;Where to find:^reset; ^#b0e0fc;alta cargo manager^reset; (5+ tier)",
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [2.875, 0], "color" : [0, 255, 100, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "primaryAbility" : { "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma", "description" : "Launches a special mix of toxins and enhanced slime as a rocket." },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960 }
+    },
+    "eds_heavy" : {
+      "baseAsset" : "/items/active/weapons/ranged/unrand/doomcannon/doomcannon.activeitem",
+      "shortdescription" : "^#f02020;EDS^reset; Heavy Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 880,
+      "description" : "This armored cannon containing a powerful phosic energen can generate multiple accelerated blasts at once.",
+      "longdescription" : "All the armor hide a complex cooling system needed to contain and redirect all the energy from the phosicores inside.",
+      "altaDescription" : "One of the heavier EDS defense developments, literally. Not very high on amount of functions, but pretty high on blastpower instead.",
+      "itemTags" : [ "weapon", "ranged", "shotgun", "eds", "upgradeableWeapon" ], "elementalType" : "fire",
+      "animationCustom" : {
+        "lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[1.8,1.385],"color":[120,0,0]}}
+      },
+      "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.375, 0.95], "color" : [120, 0, 0, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "paletteSwap" : {"#9e9e9e":"#707088","#616161":"#606074","#383838":"#404050","#1a1a1a":"#2c2c34","#ff1a1d":"#ff6480","#a80003":"#b81824","#6d0103":"#762222","#510102":"#551b1b"},
+      "primaryAbility" : { "projectileType" : "fireplasma", "name" : "Vermilliada",
+        "baseDps" : 10, "energyUsage" : 40,
+        "description" : "Generates periodic bursts of condenced burning energy using the enhanced energen, model \"VerMi-6\"."
+      },
+      "altAbility" : { "projectileType" : "grenade", "name" : "Physnade", "description" : "Launches a simple physical nade." },
+      "tooltipKind" : "ct_alta_weapon_2",
+      "upgradeParameters" : {
+        "shortdescription" : "Vermillion ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 960,
+        "description" : "An impressive, massive energy tool, able to produce enhaced energy pellets. This great power often comes a lot of weight, so make sure to bring an exo-skeleton.",
+        "longdescription" : "Named after a major EDS center that emraced enternia technology, this tool reflects that energy by isolating that anargy from all the ^#ffa8e8;stardust^reset;.",
+        "primaryAbility" : { "name" : "Vermilliada-X",
+          "description" : "Provides an improved burst power thanks to all of the enhancements and an updated \"VerMi-6a\" model."
+        },
+        "paletteSwap" : {"#9e9e9e":"#707088","#616161":"#606074","#383838":"#404050","#1a1a1a":"#2c2c34","#ff1a1d":"#e0b0fc","#a80003":"#c060fc","#6d0103":"#8020f0","#510102":"#5000c0"}
+      }
+    },
+    "railgun" : {  // https://starbounder.org/Tesla%27s_Wrath
+      "baseAsset" : "/items/active/weapons/other/electricrailgun/electricrailgun.activeitem",
+      "shortdescription" : "^#8020f0;Enter^reset;-Railgun ^#8020f0;^reset;", "level" : 6, "race" : "alta", "rarity" : "Legendary", "price" : 880,
+      "itemTags" : [ "weapon", "ranged", "sniperrifle", "ionic" ], "elementalType" : "electric",
+      "description" : "Dreamers hunting on ethereal nightmares of enterash often use means of appropriate size, no matter the limits...",
+      "longdescription" : "The markings on the side mention Avida - possibly a dreamer, or and alta recearcher who created this tool.",
+      "altaDescription" : "It's interesting how someone can makeshift a tool so powerful, it ends up among craftable blueprints in a crafting station. This honestly looks like some kind of a ^#b0e0fc;neiteru-1^reset; development.",
+      "paletteSwap" : {
+        "#9da8af":"#707088","#676f83":"#606074","#3d3d51":"#404050","#24232f":"#2c2c34",
+        "#96cbe7":"#707088","#5588d4":"#606074","#344495":"#404050","#1a1c51":"#2c2c34",
+        "#ffffff":"#e0b0fc","#dfb7ef":"#c060fc","#d29ce7":"#8020f0","#9245af":"#5000c0","#6a2284":"#1c086c"
+      },
+      "primaryAbility" : {
+        "name" : "Avida-Rail",
+        "baseDps" : 10, "energyUsage" : 40,
+        "description" : "Creates powerful ionic charges able to quicly travel on significant distances thanks to advanced rail technology."
+      },
+      "altAbility" : {
+        "name" : "Avida's Mark",
+        "description" : "Markes the taget to assist in aiming. Pretty useful with such a heavy thing."
+      },
+      "tooltipKind" : "ct_alta_weapon_3",
+      "upgradeParameters" : { "shortdescription" : "" }
+    },
+    "baton" : {  // craft, combat https://starbounder.org/Electro_Baton
+      "baseAsset" : "/items/active/weapons/other/electrobaton/electrobaton.activeitem",
+      "shortdescription" : "Impulsolver ^#2080f0;^reset;", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 800,
+      "itemTags" : [ "weapon", "shortsword", "impulse", "upgradeableWeapon" ], "elementalType" : "electric",
+      "description" : "This literal energy tool is meant to be used for diffusing enchanted traps and reacting to miazmas.",
+      "longdescription" : "Generally used by scientific alta groups, its design is secondary to its function.",
+      "altaDescription" : "A bit of an outdated tool, by I can see many uses for it even now, like scaring away annoing poi.",
+      "paletteSwap" : {"#838383":"#f6f6f6","#555555":"#d8dcf0","#383838":"#b0b4c8","#151515":"#606478","#ffffff":"#b0fce0","#a1acf7":"#60fcc0","#8890e3":"#20f080","#6060d6":"#00c050"},
+      "animationCustom" : {
+        "animatedParts" : {
+          "stateTypes" : {
+            "blade" : { "states" : {
+              "extend" : { "frames" : 1, "cycle" : 0.1, "properties" : { "immediateSound" : "/sfx/tools/energypickaxe_start.ogg" } },
+              "active" : { "frames" : 6, "cycle" : 0.3, "properties" : { "persistentSound" : "/sfx/melee/electrobaton_idle1.ogg" } },
+              "retract" : { "frames" : 1, "cycle" : 0.1, "properties" : { "immediateSound" : "/sfx/tools/energypickaxe_stop2.ogg" } }
+            }},
+            "swoosh" : { "states" : { "fire2" : { "cycle" : 0.15 }}}
+          },
+          "parts" : {
+            "blade" : {
+              "properties" : { "zLevel" : 2 },
+              "partStates" : {
+                "blade" : {
+                  "extend" : { "properties" : { "image" : "<partImage>:extend.<frame><paletteSwaps>?<directives>?<bladeDirectives>" } },
+                  "active" : { "properties" : { "image" : "<partImage>:active.<frame><paletteSwaps>?<directives>?<bladeDirectives>" } },
+                  "retract" : { "properties" : { "image" : "<partImage>:retract.<frame><paletteSwaps>?<directives>?<bladeDirectives>" } }
+                }
+              }
+            },
+            "swoosh" : { "partStates" : { "swoosh" : {
+              "fire" : { "properties" : { "image" : "/items/active/weapons/melee/shortsword/swoosh/electricswoosh.png:<frame><paletteSwaps>" }},
+              "fire2" : { "properties" : {
+                "image" : "/items/active/weapons/melee/broadsword/swoosh/electricswoosh.png:<frame><paletteSwaps>",
+                "offset" : [-3.625, 2.25], "damageArea" : [[1, 3], [4, 1.75], [5, -0.25], [5, -2.25], [4, -3.25], [0, -2.5]]
+              }}
+            }}}
+          }
+        },
+        "particleEmitters" : {
+          "electricswoosh" : {
+            "active" : false,
+            "transformationGroups" : ["swoosh"],
+            "burstCount" : 4,
+            "particles" : [ { "particle" : "electricswoosh1"}, { "particle" : "electricswoosh2"}, { "particle" : "electricswoosh2"} ]
+          },
+          "blade" : {
+            "active" : false,
+            "transformationGroups" : ["weapon"],
+            "offsetRegion" : [-0.5, -0.75, 0.5, 1.5],
+            "emissionRate" : 5,
+            "particles" : [ { "particle" : "electricswoosh1"}, { "particle" : "electricswoosh2"}, { "particle" : "electricswoosh2"} ]
+          }
+        },
+        "sounds" : {
+          "fire" : ["/sfx/melee/swing_shortsword_electric1.ogg", "/sfx/melee/swing_shortsword_electric2.ogg", "/sfx/melee/swing_shortsword_electric3.ogg"],
+          "fire2" : ["/sfx/melee/swing_shortsword_electric1.ogg", "/sfx/melee/swing_shortsword_electric2.ogg", "/sfx/melee/swing_shortsword_electric3.ogg"]
+        }
+      },
+      "primaryAbility" : {
+        "name" : "Clear Crackling Cut",
+        "description" : "The energy-generated \"blade\" of this tool deals electric damage on impact. Be careful!"
+      },
+      "tooltipKind" : "ct_alta_weapon_1",
+      "upgradeParameters" : { "shortdescription" : "Pulse Rejector ^#8020f0;^reset;", "rarity" : "Legendary", "price" : 880 }
+    },
+    "horn" : {  // https://starbounder.org/Ixodoom_Claw
+      "baseAsset" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.activeitem",
+      "shortdescription" : "Barrakuda's Horn", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 720,
+      "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
+      "description" : "A horn from an especially massive cuda lurking in the flooded alterash caves.",
+      "longdescription" : "It looks polished due to special cover that can be found on some appendages of rare cudas.",
+      "altaDescription" : "I can only imagine how big the owner was... Scary.",
+      "paletteSwap" : {"#e7e0c2":"#4e5671","#b5ad90":"#343f57","#847a6b":"#242f3f","#5d564b":"#0e1319"},
+      "animationCustom" : {"particleEmitters":{"poisonswoosh":{"active":false,"transformationGroups":["swoosh"],"emissionRate":50,"offsetRegion":[-2.0,0.0,1.5,5.0],"particles":[]}}},
+      "primaryAbility" : {
+        "name" : "Cavegrace",
+        "description" : "The aerodynamic shape of the horn allows to make smooth, yet slow hits on the target."
+      },
+      "altAbility" : { "description" : "Launches a poison wave, dealing damage to all targets in its path." },
+      "tooltipKind" : "ct_alta_weapon_2",
+      "upgradeParameters" : {
+        "shortdescription" : "Barrakuda's Wing ^#8020f0;^reset;",
+        "paletteSwap" : {"#9da8af":"#c9ccdb","#676f83":"#8e95a8","#3d3d51":"#5e6675","#24232f":"#363b45","#aab893":"#ecf9dc","#7c916f":"#c1dfae","#546951":"#87b684","#30362f":"#4a784e"},
+        "rarity" : "Legendary", "price" : 800
+      }
+    },
+    "cryo" : {  // https://starbounder.org/Neo_Shotgun
+      "baseAsset" : "/items/active/weapons/ranged/unrand/neoshotgun/neoshotgun.activeitem",
+      "shortdescription" : "Cryonic Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 800,
+      "itemTags" : [ "weapon", "ranged", "shotgun", "sona", "upgradeableWeapon" ], "elementalType" : "ice",
+      "description" : "A compact non-standard energy tool for producing cryonic energy bursts. Very easy to pack in an alta pad.",
+      "longdescription" : "Popular among sona soldiers and aspiring faradea legends, as well as kaiter raiders.",
+      "altaDescription" : "It's bigger than a blaster, but smaller than a rifle... And much smaller than a cannon. What is this?",
+      "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
+      "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[1.9,0.635],"color":[3, 67, 101]}}},
+      "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.475, 0.25], "color" : [93, 157, 191, 128], "length" : 60, "segments" : 6, "angle" : 0 } ] },
+      "paletteSwap" : {"#657988":"#f6f6f6","#434d5e":"#d8dcf0","#313247":"#b0b4c8","#555555":"#4c5064","#383838":"#383c50","#151515":"#24283c","#1adde3":"#9bdcff","#249fb8":"#7abfe4","#38667c":"#5d9dbf"},
+      "primaryAbility" : { "projectileType" : "iceplasma", "name" : "Cryo-Blitz", "description" : "Swiftly projects a burst of icy plasma charges onto the targets." },
+      "altAbility" : { "description" : "Launches a shrapnel blast pack." },
+      "tooltipKind" : "ct_alta_weapon_2",
+      "upgradeParameters" : {
+        "shortdescription" : "S'urysk ^#8020f0;^reset;",
+        "paletteSwap" : {"#657988":"#707088","#434d5e":"#606074","#313247":"#404050","#555555":"#4c5064","#383838":"#383c50","#151515":"#24283c","#1adde3":"#9bdcff","#249fb8":"#7abfe4","#38667c":"#5d9dbf"},
+        "rarity" : "Legendary", "price" : 880
+      }
+    }
+  }
+}

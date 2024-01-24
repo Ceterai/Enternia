@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "cryonicextract", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_sona_rifle", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "arknight", "misc_loot", "weapon", "all" ]
+}

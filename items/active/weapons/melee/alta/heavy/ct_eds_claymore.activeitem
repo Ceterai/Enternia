@@ -2,10 +2,10 @@
   "itemName" : "ct_eds_claymore",
   "shortdescription":"^#f02020;EDS^reset; Claymore",
   "description":"^red;WIP^reset; A massive defensive tool created by ^#f02020;EDS^reset;. Perfect for close combat.",
-  "longdescription":"This bastion of EDS defence is a basic combat tool usually carried by EDS mechs or by EDS ^#b0e0fc;arcanas^reset;.\n\n^gray;Elerune CDR^reset; is an integrated blast system, an inherent part of an EDS Claymore, and provides blaster-like abilities to the tool, making it addtionally effective in middle-range combat too.",
+  "longdescription":"This bastion of EDS defence is a basic combat tool usually carried by EDS mechs or by EDS ^#b0e0fc;arkanas^reset;.\n\n^gray;Elerune CDR^reset; is an integrated blast system, an inherent part of an EDS Claymore, and provides blaster-like abilities to the tool, making it addtionally effective in middle-range combat too.",
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5, "price" : 720, "rarity" : "Rare", "race" : "alta",
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : true, "category" : "broadsword",

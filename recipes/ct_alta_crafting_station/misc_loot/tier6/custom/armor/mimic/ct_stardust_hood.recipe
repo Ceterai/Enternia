@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_head_mimic", "count" : 1, "parameters" : { "preset" : "hood_stardust" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "alta", "clothing", "head", "all" ]
+}

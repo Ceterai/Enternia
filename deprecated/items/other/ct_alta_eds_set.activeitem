@@ -7,16 +7,12 @@
   "treasure" : { "pool" : "ct_eds_set", "level" : 1 },
   "animationParts" : { "gun" : "/items/active/unsorted/ct_alta_loot/sets/ct_eds_set.png" },
 
-  "level" : 5, "price" : 3200, "rarity" : "Rare",
-  "race" : "alta",
+  "level" : 5, "price" : 3200, "rarity" : "Rare", "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
   "itemTags" : [ "set" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
-  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
+  "scripts" : [ "/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua" ],
 
   "newItem" : "ct_eds_set",
   "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua"

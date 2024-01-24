@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_aya", "count" : 4 },
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "ct_ionic_sap", "count" : 16 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_aya_virma", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

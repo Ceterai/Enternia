@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_arco-codex", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_tool_mimic", "count" : 1, "parameters" : { "preset" : "baton", "upgraded" : true } },
+  "groups" : [ "alta_max", "tier5_arco", "weapon", "all" ]
+}

@@ -4,9 +4,9 @@
     { "item" : "ct_altersphere", "count" : 2 },
     { "item" : "ct_entersphere", "count" : 2 },
     { "item" : "ct_bion", "count" : 2 },
-    { "item" : "ct_edsarmor", "count" : 2 }
+    { "item" : "ct_eds_armor", "count" : 2 }
   ],
   "duration" : 4,
   "output" : { "item" : "ct_enalnia", "count" : 1 },
-  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+  "groups" : [ "alta_max", "spacedrifter", "misc_loot", "weapon", "all" ]
 }

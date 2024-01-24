@@ -1,0 +1,11 @@
+{
+  "input" : [   
+    { "item" : "ct_warped_hive", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "glowfibre",
+    "count" : 2
+  },
+  "duration" : 0.25,
+  "groups" : [ "ct_alta_upg1", "convert", "all" ]
+}

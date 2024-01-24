@@ -3,7 +3,7 @@
     { "item" : "geode", "count" : 12 },
     { "item" : "cryonicextract", "count" : 1 }
   ],
-  "output" : { "item" : "ct_alta_object_mimic", "count" : 4, "parameters" : {
+  "output" : { "item" : "ct_obj_mimic", "count" : 4, "parameters" : {
     "baseAsset" : "/objects/biome/crystalline/crystallinebush2/crystallinebush2.object", "inventoryIcon" : "crystallinebush2.png",
     "shortdescription" : "Crystalline Deposit",
     "colonyTags" : [ "crystal", "crystalline" ], "race" : "generic", "foundIn" : [ "^#b0e0fc;Alta Constructor^reset;" ],

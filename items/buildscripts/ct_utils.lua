@@ -5,7 +5,7 @@ require '/scripts/util.lua'
 function replaceRegexInData(data, replacevalue)
   if type(data) == 'table' then
     for k, v in pairs(data) do
-      if (type(v) == 'string' and v:len() > 4 and (v:find('.png') or v:find('.animation')) and v:sub(1, 1) ~= '/') then
+      if (type(v) == 'string' and v:len() > 4 and (v:find('%.png') or v:find('%.animation') or (k ~= 'builder' and v:find('%.lua'))) and v:sub(1, 1) ~= '/') then
         data[k] = replacevalue..v  -- sb.logInfo("\nReplacing value %s of key %s with value %s\n", v, k, data[k])
       else replaceRegexInData(v, replacevalue) end
     end

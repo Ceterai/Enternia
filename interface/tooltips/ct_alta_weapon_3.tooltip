@@ -31,7 +31,7 @@
     "type" : "label", "position" : [55, 23],
     "hAnchor" : "left",
     "wrapWidth" : 126,
-    "value" : "Lvl."
+    "value" : ""
   },
   "levelLabel" : {
     "type" : "label", "position" : [75, 23],
@@ -168,8 +168,16 @@
     "wrapWidth" : 126, "value" : ""
   },
 
+  "foundOnLabel" : {
+    "type" : "label",
+    "position" : [4, 212],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 128, "fontSize" : 5,
+    "value" : ""
+  },
   "handednessLabel" : {
-    "type" : "label", "position" : [9, 204],
+    "type" : "label", "position" : [9, 160],
     "hAnchor" : "left",
     "centered" : true,
     "wrapWidth" : 126, "fontSize" : 6
@@ -190,8 +198,8 @@
     "position" : [42, 187],
     "file" : "",
     "centered" : true,
-    "maxSize" : [60, 60],
-    "minSize" : [60, 60]
+    "maxSize" : [60, 40],
+    "minSize" : [60, 40]
   },
   "loreLabel" : {
     "type" : "label", "position" : [4, 156],

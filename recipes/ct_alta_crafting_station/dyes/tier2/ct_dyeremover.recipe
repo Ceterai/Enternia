@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_stardust", "count" : 1 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "dyeremover",
+    "count" : 1
+  },
+  "groups" : [ "alta_t2", "dyes", "all" ]
+}

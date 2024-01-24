@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 5 },
+    { "item" : "ct_ionic_sap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "moondust",
+    "count" : 5
+  },
+  "duration" : 0.25,
+  "groups" : [ "ct_alta_upg1", "convert", "all" ]
+}

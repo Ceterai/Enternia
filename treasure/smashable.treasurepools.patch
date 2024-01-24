@@ -7,29 +7,29 @@
   }] ] },
   { "op": "add", "path": "/ct_smashable_aya", "value": [ [1, {
         "pool" : [
-          {"weight" : 1.0, "item" : "ctaya"}
+          {"weight" : 1.0, "item" : "ct_aya"}
         ],
         "poolRounds" : [ [0.8, 0], [0.2, 1] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_aya_pile", "value": [ [1, {
         "pool" : [
-          {"weight" : 0.75, "item" : "ctayapowder"},
-          {"weight" : 0.25, "item" : "ctaya"}
+          {"weight" : 0.75, "item" : "ct_aya_powder"},
+          {"weight" : 0.25, "item" : "ct_aya"}
         ],
         "poolRounds" : [ [0.7, 1], [0.3, 2] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob_small", "value": [ [1, {
         "pool" : [
-          {"weight" : 1.00, "item" : "ctwoodsap"}
+          {"weight" : 1.00, "item" : "ct_ionic_sap"}
         ],
         "poolRounds" : [ [0.5, 0], [0.5, 1] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob", "value": [ [1, {
-        "pool" : [ {"weight" : 1.00, "item" : "ctwoodsap"} ],
+        "pool" : [ {"weight" : 1.00, "item" : "ct_ionic_sap"} ],
         "poolRounds" : [ [0.2, 1], [0.6, 2], [0.2, 3] ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_sap_blob_big", "value": [ [1, {
-        "fill" : [ {"pool" : "ct_smashable_sap_blob"}, {"item" : "ctwood"} ]
+        "fill" : [ {"pool" : "ct_smashable_sap_blob"}, {"item" : "ct_ayaka_wood"} ]
   }] ] },
   { "op": "add", "path": "/ct_smashable_isoslime", "value": [ [1, {
         "pool" : [

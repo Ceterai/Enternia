@@ -21,9 +21,9 @@ function initAutoeffectParams()
   self.minHealthCoef = config.getParameter("minHealthPercent", 0.2)
 end
 
-function autoeffectTick(dt)
+function autoeffectTick(dt)  -- Checks to apply the effect. Doesn't apply in case where a non-player entity has <= 5 health.
   if self.cooldownTimer <= 0 then
-    if status.resourcePercentage("health") <= self.minHealthCoef and not self.active then
+    if (entity.entityType()=='player' or status.resource("health")>5) and status.resourcePercentage("health") <= self.minHealthCoef and not self.active then
       effectActivate()
       self.cooldownTimer = self.cooldown
     end

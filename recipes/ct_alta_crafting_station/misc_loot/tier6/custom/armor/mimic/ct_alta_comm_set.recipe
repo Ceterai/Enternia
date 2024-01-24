@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_head_mimic", "count" : 1, "parameters" : { "preset" : "comm_set" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "alta", "armor", "head", "all" ]
+}

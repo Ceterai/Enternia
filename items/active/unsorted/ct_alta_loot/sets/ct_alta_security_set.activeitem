@@ -9,16 +9,12 @@
   "treasure" : { "pool" : "ct_alta_security_set", "level" : 1 },
   "animationParts" : { "gun" : "ct_alta_security_set.png" },
 
-  "level" : 4, "price" : 3200, "rarity" : "Uncommon",
-  "race" : "alta",
+  "level" : 4, "price" : 3200, "rarity" : "Uncommon", "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
   "itemTags" : [ "set", "alta_city", "alta_security" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
-  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
+  "scripts" : [ "/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua" ],
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
   "wiki" : { "aliases" : { "Security Guard" : { }, "Varda" : { } } }, "alkey" : "Varda Veus"

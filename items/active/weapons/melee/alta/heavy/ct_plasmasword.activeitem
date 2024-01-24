@@ -2,11 +2,11 @@
   "itemName" : "ct_plasmasword",
   "shortdescription":"Plasmasword ^#2080f0;^reset;",
   "description":"A combat tool used by ^#b0e0fc;alta^reset; soldiers in melee fights. The energy powering this sword creates a thin ^#2080f0;plasma^reset; cover over its blade.",
-  "longdescription":"^gray;Alter-NV^reset; is codename for all alta combat plasmaswords with differences in models, variations and customization. Usually, alta like to personalize their plasmaswords with different blade shapes, modifications and various cosmetics and trinkets. Some even use ^#ceffd7;phosicores^reset; or ^#9b2d3f;glow fibres^reset; to create differently-colored glow.\n\nThis **energy tool** is considered a visit card of **alta gladiators**, and is often used by many ^#ffe364;Faradea legends^reset;.\n\n**Arcanas**, or alta gladiators, are berserk-type combat units, enhanced with a powerful **arcana exoskeleton**, allowing them to move at great speeds and jump much higher that usual, as well as put significatnly more power into each hit of their weapon.",
+  "longdescription":"^gray;Alter-NV^reset; is codename for all alta combat plasmaswords with differences in models, variations and customization. Usually, alta like to personalize their plasmaswords with different blade shapes, modifications and various cosmetics and trinkets. Some even use ^#ceffd7;phosicores^reset; or ^#9b2d3f;glow fibres^reset; to create differently-colored glow.\n\nThis **energy tool** is considered a visit card of **alta gladiators**, and is often used by many ^#ffe364;Faradea legends^reset;.\n\n**Arkanas**, or alta gladiators, are berserk-type combat units, enhanced with a powerful **arkana exoskeleton**, allowing them to move at great speeds and jump much higher that usual, as well as put significatnly more power into each hit of their weapon.",
   "altaDescription":"Now this is an energy tool to all energy tools! It cuts through ^#b0e0fc;titanium^reset; and weaker metals easily, and I'm not even talking about light stuff like ^#3587ff;ayakut^reset;!",
   "elementalType" : "electric",
 
-  "level" : 5, "price" : 800, "rarity" : "Rare",
+  "level" : 5, "price" : 800, "rarity" : "Rare", "race" : "alta",
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "broadsword",
@@ -104,5 +104,5 @@
     },
     "altAbility" : { "name" : "Enhanced Energy Aura", "description" : "Hold to create an Enhanced Energy Aura." }
   },
-  "wiki" : { "aliases" : { "Alta Gladiator" : { "icon" : "none" }, "Arcana" : { "icon" : "none" }, "Arcana Exoskeleton" : { "icon" : "none" } } }, "alkey" : "Alter-NV"
+  "wiki" : { "aliases" : { "Alta Gladiator" : { "icon" : "none" }, "Arkana" : { "icon" : "none" }, "Arkana Exoskeleton" : { "icon" : "none" } } }, "alkey" : "Alter-NV"
 }

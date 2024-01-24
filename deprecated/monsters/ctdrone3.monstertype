@@ -4,7 +4,7 @@
   "description" : "Tier 4.5 Drone.  \nHightech reinforced protective drone. Has powerful ranged attacks and protective shields.",
   "race" : "alta",
 
-  "categories" : [ "ct_alta_defensive_drone" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
+  "categories" : [ "ct_alta_defensive_drone_parts" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_eds_class1", "bow" : "ct_alta_eds_class2" } ],
 
   "baseParameters" : {

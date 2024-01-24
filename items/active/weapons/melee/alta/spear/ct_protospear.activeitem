@@ -69,6 +69,10 @@
       "physicalSpin" : { "active" : false, "emissionRate" : 12, "offsetRegion" : [-3.5, -3.5, 3.5, 3.5], "particles" : [
           { "particle" : "electricswoosh1"}, { "particle" : "electricswoosh2"}, { "particle" : "electricswoosh2"}
         ]
+      },
+      "electricSpin" : { "active" : false, "emissionRate" : 12, "offsetRegion" : [-3.5, -3.5, 3.5, 3.5], "particles" : [
+          { "particle" : "electricswoosh1"}, { "particle" : "electricswoosh2"}, { "particle" : "electricswoosh2"}
+        ]
       }
     },
     "sounds" : {
@@ -80,7 +84,11 @@
       "physicalSpin" : [ "/sfx/melee/elemental_spin_electric.ogg" ],
       "physicalSpinFire" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
       "physicalSpinLightning" : [ "/sfx/objects/teslaspike.ogg" ],
-      "physicalSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ]
+      "physicalSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ],
+      "electricSpin" : [ "/sfx/melee/elemental_spin_electric.ogg" ],
+      "electricSpinFire" : [ "/sfx/melee/travelingslash_electric7.ogg" ],
+      "electricSpinLightning" : [ "/sfx/objects/teslaspike.ogg" ],
+      "electricSpinLevel" : [ "/sfx/projectiles/swing_electric2.ogg" ]
     }
   },
 

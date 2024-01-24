@@ -99,7 +99,6 @@ function update(dt)
   end
   if self.delay > 0 then
     if self.exists > self.delay then
-      sb.logInfo('\nwehere!\n')
       animator.playSound("loop", -1)
       self.delay = 0
     else

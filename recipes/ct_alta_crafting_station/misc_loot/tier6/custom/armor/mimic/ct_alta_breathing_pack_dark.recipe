@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_back_mimic", "count" : 1, "parameters" : { "preset" : "breathing_pack", "colorIndex" : 1 } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "ceterai", "cosmetics", "back", "all" ]
+}

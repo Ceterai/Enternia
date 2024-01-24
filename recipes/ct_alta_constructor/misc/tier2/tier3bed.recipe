@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "titaniumbar", "count" : 1 },
-    { "item" : "ctwood", "count" : 10 }
+    { "item" : "ct_ayaka_wood", "count" : 10 }
   ],
   "output" : { "item" : "tier3bed", "count" : 1 },
   "groups" : [ "alta_constructor2", "misc", "objects", "beds", "all" ]

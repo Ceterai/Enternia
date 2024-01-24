@@ -1,0 +1,345 @@
+{
+  "itemName" : "ct_food_mimic",
+  "shortdescription" : "ZZZZ Food Mimic! (Evil, booo!) >>;3", "race" : "alta", "tooltipKind" : "ct_alta_consumable",
+  "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "wiki" : { "skip" : true },
+  "learnBlueprintsOnPickup" : [ ],
+  "presets" : {
+    // T1
+    "cooked_arics" : { "baseAsset" : "/items/generic/food/tier1/roastedmushrooms.consumable",
+      "shortdescription" : "Cooked Arics", "level" : 2, "rarity" : "Common", "itemTags" : [ "yava_cuisine", "aric" ], "race" : "alta", "price" : 200,
+      "description" : "Simple cooked edible arics. While they are quite easy to cook, it takes some proficiency to prepare them because aof possible microtoxins.",
+      "longdescription" : "These are usualy made in large portions, roasted in a high-temperature grill, spiced, and often sliced down before serving.",
+      "altaDescription" : "These go very well with salads and porridges. Or maybe even as a snack.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {"#ffca8a":"#8affe1","#e0975c":"#5ce0b1","#a85636":"#36a84e","#6f2919":"#196f23"},
+      "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Roasted_Mushrooms
+    "cooked_yaara_eye" : { "baseAsset" : "/items/generic/food/tier1/cookedtomato.consumable",
+      "shortdescription" : "Cooked Yaara Eye", "level" : 2, "rarity" : "Common", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 200,
+      "description" : "An evenly cooked ^#20f080;yaara eye^reset; soaking with boiling juice. Now, how do you eat it without burning yourself?",
+      "longdescription" : "An experienced chef can cut a cooked yaara eye in half without spilling out most of the juice, and serve it with herbs and spices as a side dish.",
+      "altaDescription" : "If you have a baker nearby, throwing in a bunch of yaavis is just the best thing!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {"#ffca8a":"#e2944b","#fd8f4d":"#a5601f","#da5302":"#774413","#c24900":"#177a71","#782a00":"#074c44"},
+      "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Cooked_Tomato
+    "yaara_melon_slice" : { "baseAsset" : "/items/generic/food/tier6/hotbone.consumable",
+      "shortdescription" : "Yaara Melon Slice", "level" : 2, "rarity" : "Common", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 300,
+      "description" : "A well-prepared slice of a ^#20f080;yaara watcher^reset;'s eye, which is usually like five times as big as a regular ^#20f080;yaara eye^reset;.",
+      "longdescription" : "It gets baked, sliced, spiced, and then baked again. After hardening a little while cooling, it gets heated up again and served with a fresh.",
+      "altaDescription" : "I bet I could eat the whole ^#20f080;yaara melon^reset;. Even if I couldn't, I'd enjoy every piece!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {"#db5a25":"#dbc625","#ca2424":"#ca8724","#a70a0a":"#a7680a","#5ea207":"#079ba2","#4b8106":"#067c81",
+      "#840748":"#843607","#6c053b":"#6c2b05","#57042f":"#572304"}, "learnBlueprintsOnPickup" : [ ],
+      "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Hot_Bone
+    "boiled_tonna" : { "baseAsset" : "/items/generic/food/tier5/eyebowls.consumable",
+      "shortdescription" : "Boiled Tonna", "level" : 2, "rarity" : "Common", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 300,
+      "description" : "Those soft, boiled ^#c1ebf8;tonna^reset; pieces bathing in hot tonna milk, with small steamed eni-leaves adding to the flavor... Better eat it quick!",
+      "longdescription" : "This dish is meant to be eaten right away, because after cooling down it looses some of the bubbly texture, as well as some flavor.",
+      "altaDescription" : "Nom! Help! Hot-hot-hot! ... Nom! Haah!.. ... Nom!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#766a3b":"#f6f6f6","#524a29":"#d8dcf0","#463818":"#b0b4c8","#291f09":"#383c50","#3c2f13":"#606478","#b19d30":"#4c5064",
+        "#bde1eb":"#106686","#7cc5da":"#103f50","#496496":"#10b4ef","#213760":"#102b35","#17191a":"#103f50","#6ecd44":"#f4fafd","#257410":"#acdcec","#0d3f00":"#10b4ef"
+      },
+      "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Eyebowls
+
+
+
+    // T1.5
+
+    "tonna_bowl" : { "baseAsset" : "/items/generic/food/tier3/coconutrice.consumable",
+      "shortdescription" : "Tonna Bowl", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 360,
+      "description" : "This fulfilling dish is relatively easy to make, but requires quite a lot of tonnas and ^gray;blue buds^reset;. Usualy served with a big spoon.",
+      "longdescription" : "While it looks like a lot, most of it is basically whipped ^#c1ebf8;tonna fruit^reset; with blue buds and some spices for texture and flavor.",
+      "altaDescription" : "This cream is so soft, that it basically melts in your mouth. Yum!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#a96c34":"#10b4ef","#884d20":"#106686","#723c15":"#103f50","#482208":"#102b35",
+        "#fffff7":"#acdcec","#edecdc":"#f4fafd","#d0cfb9":"#f4fafd","#bfbea7":"#10b4ef"
+      },
+      "foodValue" : 24, "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 75 } ] ]
+    },  // https://starbounder.org/Coconut_Rice
+    "stuffed_aya" : { "baseAsset" : "/items/generic/food/tier2/stuffedtomato.consumable",
+      "shortdescription" : "Stuffed Aya", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "runeva_cuisine", "ayaka" ], "race" : "alta", "price" : 340,
+      "description" : "A properly ^#3587ff;baked aya^reset; stuffed with different runeva goodness. What will you get this time?",
+      "longdescription" : "Its variations usualy include either ^#ff3f5a;gil^reset; filling or a ^#8020f0;nia jam^reset; of your choice.",
+      "altaDescription" : "I wonder what filling this one has. Probably something incredibly tasty.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#ffa9a9":"#0066ff","#e33535":"#0042a6","#ad1b08":"#002a69","#299e28":"#e5004b",
+        "#dff548":"#ee7e7f","#c6b44e":"#c16a7f","#ab9245":"#aa546a","#257410":"#6b0023"
+      },
+      "foodValue" : 24, "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 75 } ] ]
+    },  // https://starbounder.org/Stuffed_Tomato
+    "yaavikada" : { "baseAsset" : "/items/generic/food/tier4/stuffeddirturchin.consumable",
+      "shortdescription" : "Yaavikada", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 400,
+      "description" : "Even though is looks like any other ^gray;alta kada^reset;, this is actualy a full-on baked assorti in a ^#20f080;yaara melon^reset; skin.",
+      "longdescription" : "As something in between a kada and an assorti, this is similarly difficult to prepare and would require a chef's hand to make it work.",
+      "altaDescription" : "The tastiest kada of them all.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#fcf26e":"#fc706e","#e6da35":"#e63835","#b3aa28":"#b32a28","#605b16":"#601716",
+        "#fd6842":"#fde742","#e00c0c":"#e09c0c","#8f0d01":"#8f6e01","#3d9305":"#059382","#296204":"#046257","#183a03":"#033a34"
+      },
+      "foodValue" : 24, "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 90 } ] ]
+    },  // https://starbounder.org/Stuffed_Dirturchin
+    "boiled_lookers" : { "baseAsset" : "/items/generic/food/tier4/reefpodsurprise.consumable",
+      "shortdescription" : "Boiled Lookers", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 280,
+      "description" : "Yaara eyes don't do good by themselves when boiled, but an experienced chef can easily fix that with a proper mix of spices and other ingredients.",
+      "longdescription" : "This is why alta chefs often add multiple herbs and bio extracts to even out the texture of the boiled juice, and make sure the eye doesn't drown.",
+      "altaDescription" : "It's staring at me... Help.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#766a3b":"#f6f6f6","#524a29":"#d8dcf0","#463818":"#b0b4c8","#291f09":"#383c50","#3c2f13":"#606478","#b19d30":"#4c5064",
+        "#fff4e9":"#fbe7d4","#ffffff":"#e2944b","#565cac":"#fbe7d4","#171d64":"#e2944b","#1e1f35":"#89592c",
+        "#7863da":"#da63a7","#5441ae":"#ae4180","#9feaff":"#cc9fff","#58b9dc":"#9c58dc"
+      },
+      "foodValue" : 20 },  // https://starbounder.org/Reefpod_Surprise
+
+
+
+    // T2
+
+    "nia_assorti" : { "baseAsset" : "/items/generic/food/tier5/eggshootsalad.consumable",
+      "shortdescription" : "Nia Assorti", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine" ], "race" : "alta", "price" : 520,
+      "description" : "A finely-cut and arranged assorti of nia fruit slices, alta pear rings and izo-balls, all covered a slight layer of ^#8020f0;ion jam^reset;.",
+      "longdescription" : "Every chef has a preference in arranging, as well as favourite cutting granularity, resulting in differing assortis from chef to chef.",
+      "altaDescription" : "If I don't die from sweetness of this, it was worth it.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#ffffff":"#f6f6f6","#d2d2d2":"#d8dcf0","#c0c0c0":"#b0b4c8","#3f433f":"#606478","#e85b1f":"#1fdee8","#802c08":"#087980",
+        "#56b97e":"#b956aa","#67b964":"#a064b9","#8dc75a":"#795ac7","#267f23":"#65237f","#0a5128":"#510a45",
+        "#f6edd7":"#d7e8f6","#eee0bf":"#c9eef6","#bbad89":"#76c7e4","#b5b1a8":"#4e8fb8","#9a8553":"#366388"
+      },
+      "foodValue" : 25 },  // https://starbounder.org/Eggshoot_Salad
+    "tonna_ice_cream" : { "baseAsset" : "/items/generic/food/tier3/bananaicecream.consumable",
+      "shortdescription" : "Tonna Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 480,
+      "description" : "A well-made tonna ice cream with a soft tonna flavor and a special ^#7ddcde;cryo jam^reset; in the middle. This is refreshing and recharging.",
+      "longdescription" : "If you reach the bottom, you can find a hardened tonna casing underneath the cone. This is frozen ^#c1ebf8;tonna milk^reset; thickened with powder.",
+      "altaDescription" : "Seems so simple, but I can only imagine how hard this was to create.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#ffffe4":"#e4faff","#fafab1":"#b1ebfa","#ebe685":"#85dbeb","#caca6d":"#6db7ca"
+      },
+      "foodValue" : 24 },  // https://starbounder.org/Banana_Ice_Cream
+    "yaavi_ice_cream" : { "baseAsset" : "/items/generic/food/tier5/eggshooticecream.consumable",
+      "shortdescription" : "Yaavi Ice Cream", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 440,
+      "description" : "A simple ice cream in ^#20f080;yaara eye^reset; colors. In reality only the yellow layer uses a yaara eye powder as an ingredient.",
+      "longdescription" : "One of many special custom recipes shared by many alta chefs. Meant to taste like a caramelled fruit part of the yaara eye.",
+      "altaDescription" : "If I lick only the \"eye\" part, could I call this a yaakut ice cream insted?", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#fff9e7":"#7eeeed","#f5e9ca":"#6ac1ac","#e2ca9a":"#54aa94","#bb9d6f":"#39907b","#ffe978":"#fbe7d4","#fccd23":"#e2944b","#eea81d":"#89592c"
+      },
+      "foodValue" : 20 },  // https://starbounder.org/Eggshoot_Ice_Cream
+    "gillimon_ice_cream" : { "baseAsset" : "/items/generic/food/tier3/cactiicecream.consumable",
+      "shortdescription" : "Gillimon Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine", "gil", "slime" ], "race" : "alta", "price" : 480,
+      "description" : "An ice cream flavor made from a distinct gil-poi mix called ^gray;gillimon^reset;. The nia candy sticks in it are a nice addition.",
+      "longdescription" : "The flavor could be described as a barely-sour milk chocolate, with more milk than chocolate.",
+      "altaDescription" : "I like to push the sticks deep inside, and than munch on them as I get to them.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#d7e871":"#ff3f5a","#b6d361":"#dd0120","#91b54b":"#8c0014","#688b31":"#5a000d","#72a612":"#9feaff","#557f08":"#58b9dc"
+      },
+      "foodValue" : 24 },  // https://starbounder.org/Cacti_Ice_Cream
+
+
+
+    // T3
+
+    "pizzionna_slice" : { "baseAsset" : "/items/generic/food/tier5/piodia.consumable",
+      "shortdescription" : "Pizzonna Slice", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 800,
+      "description" : "This nia pizza slice will fill you with special pizzonnic energy. Remember that with great power comes great responsibility.",
+      "longdescription" : "The pizza uses a tonna paste as a base layer, with a couple of nia fruits as main filling, with slight amounts of ^#8020f0;nia jam^reset; as filling.",
+      "altaDescription" : "One of the easy-to-get-it-all-over-yourself kind of pizzas.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 30 },  // https://starbounder.org/Piodia_Slice
+    "alta_charlotte" : { "baseAsset" : "/items/generic/food/tier4/oculemonmeringue.consumable",
+      "shortdescription" : "Alta Charlotte", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine", "koywa" ], "race" : "alta", "price" : 760,
+      "description" : "This charlotte is baked using ^#497c64;faro koywa^reset; dough, with sweet fruits like ^#3587ff;ayas^reset;, ^#3587ff;alta pears^reset; and ^#20f080;yaara eyes^reset;, or even ^#ff3f5a;alunikas^reset;.",
+      "longdescription" : "At its base, this charlotte can become a regular pie is you use jam instead of solid fruits, so make sure not to squish them too much.",
+      "altaDescription" : "I hope I can get a mistery charlotte one day, and then try and guess the flavor!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 40 },  // https://starbounder.org/Oculemon_Meringue
+    "aric_stew" : { "baseAsset" : "/items/generic/food/tier6/wartweedstew.consumable",
+      "shortdescription" : "Aric Stew", "level" : 5, "rarity" : "Rare", "itemTags" : [ "yava_cuisine", "stew", "aric" ], "race" : "alta", "price" : 840,
+      "description" : "A mushroom stew that requires very high temperatures for cooking, which is why it's served in a ^#299fc5;bionium^reset; bowl. Don't get burned!",
+      "longdescription" : "If properly prepared, will result in a proper meaty-mushroomy stew. If not, then, well, the bowl will probably explode.",
+      "altaDescription" : "I heard that all of the heat that goes into this is meant to destroy any toxic microorganisms in arics.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 40 },  // https://starbounder.org/Wartweed_Stew
+    "motsu_original" : { "baseAsset" : "/items/generic/food/tier2/gardensalad.consumable",
+      "shortdescription" : "Motsu Original", "level" : 5, "rarity" : "Rare", "itemTags" : [ "calin_cuisine", "motsu", "carel" ], "race" : "alta", "price" : 840,
+      "description" : "A chef's personal recipe! It's crystal-based secrets are hidden in the mind of its creator, and it's up to you to trust that and take the challenge.",
+      "longdescription" : "While it includes a lot of common crystal ingredients, the main taste can vary depending on the choice of whoever is making it.",
+      "altaDescription" : "My caretaker used to make this for me! Hopefully it'll taste the same too.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 35 },  // https://starbounder.org/Garden_Salad
+    "viona_motsu" : { "baseAsset" : "/items/generic/food/tier4/oculemonstew.consumable",
+      "shortdescription" : "Viona Motsu ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "yava_cuisine", "motsu", "viona" ], "race" : "alta", "price" : 880,
+      "description" : "A motsu like you've never tasted before! With roasted ^#9b2d3f;warped honey^reset;, ^#3587ff;baked ayas^reset;, ^#b0e0fc;minto spice^reset; and some special ^#8080f0;viona^reset; ^#497c64;koywa^reset; herbs!",
+      "longdescription" : "While altas are generally wary of enchanted anomalies and energy, the enchanted herbs used in the recipe are checked throughroughly before serving.",
+      "altaDescription" : "Let's see how good the chef is at not making me grow a tail...", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 38 },  // https://starbounder.org/Oculemon_Stew
+    "blue_blend_motsu" : { "baseAsset" : "/items/generic/food/tier4/pussplumpudding.consumable",
+      "shortdescription" : "Blue-Blend Motsu ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "runeva_cuisine", "motsu", "ayaka" ], "race" : "alta", "price" : 880,
+      "description" : "This motsu is usually made for altas in corfals, ^#76c7e4;elin gardens^reset; and hospitals. It's a sweet motsu soup made from ^#3587ff;boiled ayas^reset; and ^#3587ff;alta pears^reset;.",
+      "longdescription" : "Usually motsus are not supposed to be sweet, but this dish is an exclusion. Anything for well-behaving altas.",
+      "altaDescription" : "Aww, just like in the early days of my existance!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 38 },  // https://starbounder.org/Pussplum_Pudding
+    "everything_stew" : { "baseAsset" : "/items/generic/food/tier2/bonbonbonbons.consumable",
+      "shortdescription" : "Everything Stew ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine", "stew" ], "race" : "alta", "price" : 920,
+      "description" : "There're so many things in this stew it looks like it'll start overflowing any second now, so better eat it fast! Yummi veggie goodness awaits!",
+      "longdescription" : "Including ^#3587ff;alta pears^reset; boiled in ^#ff3f5a;gil^reset; juice, finely cut ^#20f080;tsays^reset;, ^#20f080;yaara eyes^reset; and ^#9b2d3f;archulin^reset; spice.",
+      "altaDescription" : "Today I feel like biting a little bit of everything. At the same time.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 48 },  // https://starbounder.org/Bon_Bon_Bon_Bons
+    "sentia_crown_pie" : { "baseAsset" : "/items/generic/food/tier3/spookypie.consumable",
+      "shortdescription" : "\"Sentia's Crown\" Pie ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "yava_cuisine", "pie", "warped", "koywa" ], "race" : "alta", "price" : 800,
+      "description" : "Full of sweet-sweet hardened ^#9b2d3f;warped honey^reset;, enchanting ^#497c64;miko koywa^reset; extracts and ^#9b2d3f;archulin jam^reset;-based topping, this pie is basically filled with love! And... something else?...",
+      "longdescription" : "It's known that ^#9b2d3f;nivera sentias^reset; are often seen baking this interesting dish, and feeding it to unsuspecting altas. Sounds scary...",
+      "altaDescription" : "I'm not sure if it's right to eat a sentia's cooking. Only if none of them are nearby, I suppose.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 40 },  // https://starbounder.org/Spooky_Pie
+    "juni_porridge_w_galo" : { "baseAsset" : "/items/generic/food/tier2/specialrice.consumable",
+      "shortdescription" : "Juni Porridge w/ Galo ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "calin_cuisine", "carel" ], "race" : "alta", "price" : 920,
+      "description" : "A salty porridge made from heated grinded junis - biocrystals called ^gray;junilin^reset;, and a ^#c1dfae;chinid^reset; (a crystal plant) leaf on top.",
+      "longdescription" : "Its ingredients also include different runeva spices and some small ^gray;koichi peas^reset; mixed in with the juni porridge.",
+      "altaDescription" : "Seems so simple, but I can only imagine how hard this was to create.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 60 },  // https://starbounder.org/Special_Fried_Rice
+    "ruvikva_pizza_slice" : { "baseAsset" : "/items/generic/food/tier3/pineapplepizzaslice.consumable",
+      "shortdescription" : "\"Ruvikva\" Pizza Slice ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "runeva_cuisine", "ayaka" ], "race" : "alta", "price" : 880,
+      "description" : "A chunky pizza for big-bite lovers. ^#3587ff;Roasted aya^reset; slices can be easily cut through, so sharing is not a problem!",
+      "longdescription" : "The unique coloring of this pizza is achived through the harmonical combination of its topping, slowly melted together during cooking.",
+      "altaDescription" : "This is pizza. Enough said. Let's eat. And then kiss the chef as a sign of appreciation.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 43 },  // https://starbounder.org/Pineapple_Pizza_Slice
+
+
+
+    // T4
+
+    "birthday_cake" : { "baseAsset" : "/items/generic/food/tier2/cake.consumable",
+      "shortdescription" : "Birthday Cake", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "runeva_cuisine", "cake", "ayaka", "koywa" ], "race" : "alta", "price" : 1160,
+      "description" : "It's your birthday!!! Or... is it? Doesn't hurt to try this cake anyway.",
+      "longdescription" : "Its proper pillar cake structure and dense ^#3587ff;aya jam^reset; filling will satisfy pretty much anyone. The ^#497c64;koywa bread^reset; base will also ensure its fulfillingness.",
+      "altaDescription" : "When was my birthday again?... Doesn't matter, I'll take three please!!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 80 },  // https://starbounder.org/Cake
+    "estria_love" : { "baseAsset" : "/items/generic/food/tier2/coffeecake.consumable",
+      "shortdescription" : "Estria's Love ^#8020f0;^reset;", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "nia_cuisine", "cake" ], "race" : "alta", "price" : 1120,
+      "description" : "This cake was prepared following ^#f02080;Estria^reset;'s personal recipe. It's fuming with \"love\". Make sure not to eat too much, for your own sake.",
+      "longdescription" : "A perfect gift to a love partner. Make sure to eat a ^#9b2d3f;\"sentia's crown\" pie^reset; afterwards and wash it down with some ^#ffa8e8;miko tea^reset;.",
+      "altaDescription" : "Oh nice, a cake of lust. You won't fool me, evil ^#9b2d3f;sentia^reset;!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 75 },  // https://starbounder.org/Coffee_Cake
+    "calin_jam_dumplings" : { "baseAsset" : "/items/generic/food/tier5/eggshootsalad.consumable",
+      "shortdescription" : "Calin Jam Dumplings", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "calin_cuisine", "carel", "koywa" ], "race" : "alta", "price" : 1040,
+      "description" : "Very tasty ^#497c64;koywa^reset; dumplings with ^#c1dfae;calin jam^reset; filling. While sweet, they're also very fulfilling and high on minerals and vitamins.",
+      "longdescription" : "Prepared together with ^#c1dfae;chinid^reset; leaves and covered in spices, a simple serving of dumplings turns into a delicacy.",
+      "altaDescription" : "Sometimes, if you get extra juicy ones - be careful when popping them, especially if they're still hot.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#ffffff":"#f6f6f6","#d2d2d2":"#d8dcf0","#c0c0c0":"#b0b4c8","#3f433f":"#606478","#e85b1f":"#1fdee8","#802c08":"#087980",
+        "#56b97e":"#b956aa","#67b964":"#a064b9","#8dc75a":"#795ac7","#267f23":"#65237f","#0a5128":"#510a45",
+        "#f6edd7":"#d7e8f6","#eee0bf":"#c9eef6","#bbad89":"#76c7e4","#b5b1a8":"#4e8fb8","#9a8553":"#366388"
+      },
+      "foodValue" : 60 },  // https://starbounder.org/Eggshoot_Salad
+    "graa_venetto" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+      "shortdescription" : "Graa Venetto", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "yava_cuisine", "koywa", "warped" ], "race" : "alta", "price" : 1040,
+      "description" : "A pleasant dish with a layered cake-like mixture with ^#497c64;yukva^reset; cream and ^#497c64;koywa bread^reset;, with roasted ^#9b2d3f;archulin^reset; paste base.",
+      "longdescription" : "This complicated dish smells similar to roasted vegetables. The cake part is meant to be eaten together with paste, dipped in it slightly.",
+      "altaDescription" : "Never knew how some chefs are able to make something like this. Truly incredible.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "foodValue" : 60 },  // https://starbounder.org/Ocean_Risotto
+
+
+
+    // PRODUCE
+
+    "red_archulins" : { "baseAsset" : "/items/generic/produce/grapes.consumable", "learnBlueprintsOnPickup" : [ ],
+      "shortdescription" : "Red Archulins", "level" : 1, "rarity" : "Common", "itemTags" : [ "nature", "warped", "fruit" ], "price" : 30,
+      "description" : "A rare sort of ^#9b2d3f;archulins^reset; that is much smaller than usual, and is perfectly safe to eat as it is. Enjoy!",
+      "longdescription" : "These often grow in bigger groups than basic archulins, but are pretty difficult to find due to strict reuirements to the environment.",
+      "altaDescription" : "Are these... safe? No bitterness, just sweet and sour? Nice!", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
+      "paletteSwap" : {
+        "#d78aff":"#ff8a93","#8f2cd6":"#d62c44","#541d82":"#821d30","#478a32":"#69328a","#2f4c1e":"#341e4c"
+      },
+      "foodValue" : 5, "effects" : [ ] },  // https://starbounder.org/Grapes
+    "yaara_melon" : { "baseAsset" : "/items/generic/produce/wartweed.consumable", "learnBlueprintsOnPickup" : [ ],
+      "shortdescription" : "Yaara Melon", "level" : 1, "rarity" : "Common", "itemTags" : [ "nature", "yaara", "fruit" ], "price" : 30,
+      "description" : "At their core, yaara melons are just an oversized sort of regular ^#20f080;yaara eyes^reset;, with a different texture and a slightly differing taste.",
+      "longdescription" : "Size-wise they usually grow up similar to a pretty small watermelon, or a big pineapple (without the leaves).",
+      "altaDescription" : "I don't think I can eat this whole. But I can try!", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
+      "paletteSwap" : {
+        "#f03838":"#47b6ab","#d32121":"#177a71","#a70a0a":"#074c44","#ffc6a6":"#a5601f","#caa188":"#e2944b","#715f58":"#fbe7d4"
+      },
+      "foodValue" : 10, "effects" : [ ] },  // https://starbounder.org/Wartweed
+    "alunika" : { "baseAsset" : "/items/generic/produce/neonmelon.consumable", "learnBlueprintsOnPickup" : [ ],
+      "shortdescription" : "Alunika", "level" : 1, "rarity" : "Common", "itemTags" : [ "nature", "crystal", "crystal_plant", "fruit" ], "price" : 30,
+      "description" : "This crimson calin fruit is a true giant among alta fruits. While not as juicy, it's very sweet and soft.",
+      "longdescription" : "Alunika is considered a biocrystal by altas. This means, that, despite organic materials, its cells have crystallic structure.",
+      "altaDescription" : "Maybe I should grab a couple of slices... You know, for research.", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
+      "paletteSwap" : {
+        "#f3f2cd":"#f3cddd","#e5e15b":"#e55b8b","#cec93d":"#ce3d5d","#627cb2":"#b26275","#3f5278":"#783f4c"
+      },
+      "foodValue" : 7.5, "effects" : [ ] },  // https://starbounder.org/Neonmelon
+    "alta_pear" : { "baseAsset" : "/items/generic/produce/alienfruit.consumable", "learnBlueprintsOnPickup" : [ ],
+      "shortdescription" : "Alta Pear", "level" : 1, "rarity" : "Common", "itemTags" : [ "narute", "alterash", "fruit" ], "price" : 30,
+      "description" : "These tasty small fruits were named after their shape. These are bush fruits that are very hard to find in the wild, but are often grown by gardeners.",
+      "longdescription" : "Some speculate that deep origins of these fruits relate them to ayas, impacted by a differing environment.",
+      "altaDescription" : "A pretty alta pear. Not sure why we call them that, they don't look like me at all!", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
+      "paletteSwap" : {
+        "#ffa9ff":"#a9dcff","#892ae8":"#2a79e8","#541abc":"#1a4ebc","#b3ffaf":"#16429f","#6bc4ff":"#ff6bb8","#3595ef":"#ef3586","#1670ca":"#0c4871","#2c0a95":"#0a6795"
+      },
+      "foodValue" : 5, "effects" : [ ] },  // https://starbounder.org/Alien_Fruit
+
+
+
+    // DRINKS
+
+    "cuvia_punch" : { "baseAsset" : "/items/generic/food/tier4/alienfruitjuice.consumable",
+      "shortdescription" : "Cuvia Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Some straight punch with a sweet taste to it. It says it was made from... cuvia? What is cuva?",
+      "longdescription" : "Not to be mixed with kuva - some grineer might get angry at you if you make a kuva punch...",  // https://warframe.fandom.com/wiki/Kuva_(Resource)
+      "altaDescription" : "I think I've never tried this. Is this something from crimsash? Looks like it.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Alien_Fruit_Juice
+    "alta_pear_tea" : { "baseAsset" : "/items/generic/food/tier2/carrotjuice.consumable",
+      "shortdescription" : "Alta Pear Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "A good old alta pear tea. Not too sweet, not too sour, just about right everywhere. But, using it in cooking will make it similar to carrot juice.",
+      "longdescription" : "The sudden change in taste comes from the meat part of the fruit, making the thickness spread and add more flavor to the mix.",
+      "altaDescription" : "A nice, comforting tea mix. I feel like it can be enjoyable any time of year.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Carrot_Juice
+    "ciranga_punch" : { "baseAsset" : "/items/generic/food/tier2/cactusjuice.consumable",
+      "shortdescription" : "Ciranga Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Health is important, and so is taste. This punch has both!",
+      "longdescription" : "Some multifruit punches have very distinct taste patterns, and this one gives strong ciranga vibes.",
+      "altaDescription" : "I've heard this can be used as a substitute for cactus juice. The only problem is... What's a cactus?!", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Cactus_Juice
+    "fresh_cocktail" : { "baseAsset" : "/items/generic/food/tier4/bloodypuss.consumable",
+      "shortdescription" : "Fresh Cocktail", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Strainght and simple - this is a \"fresh\" cocktail, as in a cocktail made from a fresh! Very neat, so much foam too.",
+      "longdescription" : "While there are no strict rules on what fresh to use, some might perform better than others.",
+      "altaDescription" : "Foamyy, yayy~~", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Bloody_Puss
+    "poi_tea" : { "baseAsset" : "/items/generic/food/tier2/tomatojuice.consumable",
+      "shortdescription" : "Poi Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Very thick and fulfilling tea, almost like a well-made kissel.",  // https://en.wikipedia.org/wiki/Kissel
+      "longdescription" : "No slimes were hurt in the process of making this tea, I swear.",
+      "altaDescription" : "A poi... tea? Forget eating poi, now I can drink it too, nice.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Tomato_Juice
+    "multi_punch" : { "baseAsset" : "/items/generic/food/tier3/sweetpunch.consumable",
+      "shortdescription" : "Multifruit Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Some freshly made fruit multipunch. Wait, no.",
+      "longdescription" : "Just pick your favourite fruits and throw them into a mixer! Oh, apparently you also need to be pretty skilled at it.",
+      "altaDescription" : "Why eat fruits one-by-one, if I can eat them all at once?", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Sweet_Punch
+
+
+
+    // JAM
+
+    "alta_pear_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+      "shortdescription" : "Alta Pear Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "Moderately sweet jam with borderline liquid viscousity and small pieces of ^#3587ff;alta pear^reset; blending in with everything else.",
+      "longdescription" : "Although alta pears are not particularly rare, they usually grow in very specific regions, making such jams pseudo-common in general.",
+      "altaDescription" : "A decent jam flavor. Never really learned how to make it, I prefer ^#3587ff;aya jam^reset; instead.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Kiwi_Jam
+    "alunika_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+      "shortdescription" : "Alunika Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "This plain ^#ff3f5a;alunika^reset; jam is a favourite for many altas, but requires special tech to make. Too bad you don't know any recipes that use it...",
+      "longdescription" : "While making some alunika powder doesn't seem like a problem, an important part of this jam - alunika extract, is pretty hard to... well, extract.",
+      "altaDescription" : "Those darker spots are clumps of powder. Alunika jam is pretty hard to make evenly.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Pussplum_Jam
+    "gillimon_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+      "shortdescription" : "Gillimon Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "description" : "A gil-poi mix called ^gray;gillimon^reset; turned into jam. Perfect for sweet bakery and desserts. Too bad you don't know any recipes that use it...",
+      "longdescription" : "While not known for its sweetness, it's often used in desserts to provide a unique, interesting flavor.",
+      "altaDescription" : "Honestly, I didn't even know they make it. Such a good ice cream flavor!", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 25 },  // https://starbounder.org/Toxictop_Jam
+    "miko_honey" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+      "shortdescription" : "Miko Honey", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 380,
+      "description" : "An incredibly sweet honey made from a ^#497c64;miko koywa^reset; extract. It's bright pink and it was made with love! Too bad you don't know any recipes that use it...",
+      "longdescription" : "This herb-based honey can sweeten-up any dish, even if not intended, so be careful.",
+      "altaDescription" : "The taste, and even the smell itself is very alluring.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "foodValue" : 28 }  // https://starbounder.org/Toxictop_Jam
+  }
+}

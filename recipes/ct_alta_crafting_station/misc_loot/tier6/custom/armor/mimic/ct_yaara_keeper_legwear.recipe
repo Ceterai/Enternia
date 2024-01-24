@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_legs_mimic", "count" : 1, "parameters" : { "preset" : "yaara_keeper" } },
+  "output" : { "item" : "ct_legs_mimic", "count" : 1, "parameters" : { "preset" : "yaara_keeper" } },
   "duration" : 0.25,
-  "groups" : [ "alta_max", "cosmetics", "all" ]
+  "groups" : [ "alta_max", "cosmetics", "legs", "all" ]
 }

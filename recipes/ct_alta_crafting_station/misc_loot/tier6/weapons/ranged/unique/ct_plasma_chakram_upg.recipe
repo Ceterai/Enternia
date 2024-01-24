@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 2 },
+    { "item" : "ct_altersphere", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_plasma_chakram", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "combat", "misc_loot", "weapon", "all" ]
+}

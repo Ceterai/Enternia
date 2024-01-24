@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_back_mimic", "count" : 1, "parameters" : { "preset" : "cape" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "alta", "clothing", "back", "all" ]
+}

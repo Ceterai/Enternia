@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_gheatsyn_shard", "count" : 4 },
+    { "item" : "ct_eds_armor", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_tsyntex", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "gheatsyn", "misc_loot", "weapon", "all" ]
+}

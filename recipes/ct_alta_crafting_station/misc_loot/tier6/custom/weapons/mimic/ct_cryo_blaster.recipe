@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_active_mimic", "count" : 1, "parameters" : { "preset" : "cryo" } },
+  "output" : { "item" : "ct_tool_mimic", "count" : 1, "parameters" : { "preset" : "cryo" } },
   "duration" : 0.25,
-  "groups" : [ "alta_max", "weapon", "all" ]
+  "groups" : [ "alta_max", "arknight", "weapon", "all" ]
 }

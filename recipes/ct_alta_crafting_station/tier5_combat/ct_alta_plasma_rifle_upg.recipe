@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_bion", "count" : 3 },
+    { "item" : "ct_eds_armor", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_plasma_rifle", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "tier5_combat", "weapon", "all" ]
+}

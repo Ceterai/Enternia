@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_eds_armor", "count" : 8 },
+    { "item" : "ct_phosicore", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_eds_claymore", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "tier5_eds", "weapon", "all" ]
+}

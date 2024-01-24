@@ -9,16 +9,12 @@
   "treasure" : { "pool" : "ct_ghearun_set", "level" : 1 },
   "animationParts" : { "gun" : "ct_ghearun_set.png" },
 
-  "level" : 6, "price" : 3200, "rarity" : "Legendary",
-  "race" : "alta",
+  "level" : 6, "price" : 3200, "rarity" : "Legendary", "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
   "itemTags" : [ "set", "ghearun" ],
 
   "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
-  "scripts" : ["/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
+  "scripts" : [ "/items/active/unsorted/ct_alta_loot/ct_alta_loot.lua" ],
 
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
   "wiki" : { "aliases" : { "Ghearun Researcher" : { }, "Ghearun Arcia" : { } } }, "alkey" : "Ghearun Veus"

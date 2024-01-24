@@ -3,6 +3,20 @@ require "/items/buildscripts/ct_alta_item_builder.lua"
 
 local ct_alta_item_builder = build
 
+
+-- # My Enternia Monster Spawner Builder
+-- This enhanced monster spawner builder is based on the enhanced item builder, and is able to provide an extended amount of functions.
+-- Its main usage is for monster spawner items, items that spawn a monster when used/consumed.
+-- More info: https://github.com/Ceterai/Enternia/wiki/Modding-Items#monster-spawners
+-- ## Monster Config
+-- Can load and merge with a monster config, if a path to it is provided:
+-- - `asset` (`str`) - the path to `.monstertype` file with the monster's parameters.
+-- ## Tooltips
+-- A big variety of supported tooltip fields, including:
+-- - everything from the item builder
+-- - health info
+-- - resistance info
+-- > Note that all tooltip text is located in a separate config file.
 function build(directory, config, parameters, level, seed)
   local tips = getTextConfig()
   config.pet = config.itemName
@@ -29,11 +43,8 @@ function build(directory, config, parameters, level, seed)
 
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
   local params = sb.jsonMerge(config.baseParameters or {}, parameters.baseParameters or {})
-  -- sb.logInfo("\n\nprs: %s", params)
   local settings = params.statusSettings or {}
-  -- sb.logInfo("\n\nsettings: %s", settings)
   local stats = settings.stats or {}
-  -- sb.logInfo("\n\nstats: %s", stats)
   stats.maxHealth.baseValue = stats.maxHealth.baseValue * root.evalFunction("monsterLevelHealthMultiplier", (parameters.level or config.level or 1))
   if stats then
     config.tooltipFields.healthTitleLabel = tips.HP

@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "ct_alta_energy_cell", "count" : 6 },
-    { "item" : "ctwood", "count" : 4 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
     { "item" : "crystal", "count" : 8 },
     { "item" : "titaniumbar", "count" : 8 }
   ],
@@ -10,5 +10,5 @@
     "count" : 1
   },
   "duration" : 0.45,
-  "groups" : [ "alta_t2m", "cosmetics", "all" ]
+  "groups" : [ "alta_t2m", "alta", "cosmetics", "head", "all" ]
 }

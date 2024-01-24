@@ -35,14 +35,14 @@
   } ] ] },
 
   { "op": "add", "path": "/ct_alta_eds", "value": [ [1, { "poolRounds" : [ [0.75, 0], [0.25, 1] ],
-    "pool" : [ {"weight" : 1.00, "item" : "ct_edsarmor"} ]
+    "pool" : [ {"weight" : 1.00, "item" : "ct_eds_armor"} ]
   } ] ] },
   { "op": "add", "path": "/ct_alta_eds_class1", "value": [ [1, { "poolRounds" : [ [0.1, 0], [0.9, 1] ],
     "pool" : [ {"weight" : 0.995, "pool" : "ct_alta_eds"}, {"weight" : 0.005, "item" : "ct_eds_android_head"} ]
   } ] ] },
   { "op": "add", "path": "/ct_alta_eds_class2", "value": [ [1, { "poolRounds" : [ [0.1, 0], [0.9, 1] ],
     "fill" : [ {"pool" : "ct_alta_eds"}, {"pool" : "ct_alta_eds"} ],
-    "pool" : [ {"weight" : 0.995, "item" : "ct_edsarmor"}, {"weight" : 0.005, "item" : "ct_eds_android_back"} ]
+    "pool" : [ {"weight" : 0.995, "item" : "ct_eds_armor"}, {"weight" : 0.005, "item" : "ct_eds_android_back"} ]
   } ] ] },
 
   { "op": "add", "path": "/ct_alta_tier4", "value": [ [1, { "poolRounds" : [ [1.0, 1] ],
@@ -53,6 +53,6 @@
   } ] ] },
   { "op": "add", "path": "/ct_alta_tier4_class2", "value": [ [1, { "poolRounds" : [ [0.1, 0], [0.9, 1] ],
     "fill" : [ {"pool" : "ct_alta_eds"}, {"pool" : "ct_alta_tier4"} ],
-    "pool" : [ {"weight" : 0.95, "item" : "ct_edsarmor"}, {"weight" : 0.05, "item" : "ct_altersphere"} ]
+    "pool" : [ {"weight" : 0.95, "item" : "ct_eds_armor"}, {"weight" : 0.05, "item" : "ct_altersphere"} ]
   } ] ] }
 ]

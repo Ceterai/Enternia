@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_eds_armor", "count" : 6 },
+    { "item" : "glowfibre", "count" : 24 },
+    { "item" : "liquidpoison", "count" : 12 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_niverisk", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

@@ -13,7 +13,7 @@
     "type" : "label", "position" : [70, 30],
     "hAnchor" : "left",
     "wrapWidth" : 126,
-    "value" : "Lvl."
+    "value" : ""
   },
   "levelLabel" : {
     "type" : "label", "position" : [90, 30],
@@ -233,8 +233,8 @@
     "position" : [47, 130],
     "file" : "",
     "centered" : true,
-    "maxSize" : [60, 60],
-    "minSize" : [60, 60]
+    "maxSize" : [60, 40],
+    "minSize" : [60, 40]
   },
   "title" : {
     "type" : "label", "position" : [35, 179],

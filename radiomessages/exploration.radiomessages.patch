@@ -1,4 +1,4 @@
-[
+[  // Radiomessages explaining lore and concepts in the mod. Use /clearradiomessages to clear the history of recieved messages, /radiomessage <msg> to play one.
   { "op":"add", "path":"/ct_ionized_air_msg", "value":{
     "unique" : false, "textSpeed" : 70,
     "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
@@ -106,7 +106,7 @@
   } },
   { "op":"add", "path":"/ct_loot_crate_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "I detected an alta loot crate in your inventory. These mini-pods contain random loot, found in a corresponding chest or pod. Altas use these for quick and compact transportation, and thus everything inside is packed tighly. You won't be able to put things back after you open one."
+    "text" : "I detected an alta loot crate in your inventory. These minipods contain random loot from related chests and pods. Altas use them for fast compact transfer, thus everything inside is packed tighly. ^#ff8888;You won't be able to put things back if you open it.^reset;"
   } },
   { "op":"add", "path":"/ct_set_msg", "value":{
     "unique" : true, "textSpeed" : 70,

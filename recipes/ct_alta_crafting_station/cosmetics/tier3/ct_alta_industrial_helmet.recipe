@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "ct_eds_armor", "count" : 6 },
     { "item" : "ct_alta_energy_cell", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_alta_industrial_helmet", "count" : 1 },
-  "groups" : [ "alta_t3+", "cosmetics", "all" ]
+  "groups" : [ "alta_t3+", "alta", "cosmetics", "head", "all" ]
 }

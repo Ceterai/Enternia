@@ -4,7 +4,7 @@
   "description" : "Tier 1 Drone.  \nAn observer drone, used by ^#b0e0fc;alta^reset; scouts to scan the area.",
   "race" : "alta",
 
-  "categories" : [ "ct_alta_scout_drone" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
+  "categories" : [ "ct_alta_scout_drone_parts" ], "parts" : [ "body" ], "animation" : "/monsters/alta/drones_class_1/default.animation", "reversed" : true,
 
   "dropPools" : [ { "default" : "ct_alta_tier1_class1", "bow" : "ct_alta_tier1_class2" } ],
 

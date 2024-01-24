@@ -1,0 +1,27 @@
+{  // A mimic item relies on presets to create custom items based on Starbound's default items. Check out `ct_alta_item_builder.lua` for more info.
+  "itemName" : "ct_aid_mimic",                                                     // A mimic - used only with presets. This one mimics default medicine items.
+  "shortdescription" : "ZZZZ Consumable Mimic! (Evil, booo!) >>;3",                // Dev name, shouldn't show up ingame.
+  "race" : "alta", "tooltipKind" : "ct_alta_consumable", "category" : "medicine",  // Defaults, applied to all presets.
+  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",                      // Uses an expanded item builder to create a custom item from presets.
+  "wiki" : { "skip" : true },                                                      // Doesn't show up on the Wiki - skipped by generating scripts.
+  "presets" : {                                                                    // Preset options that define mimic's final form.
+    "bandade" : { "baseAsset" : "/items/generic/other/bandage.consumable",
+      "shortdescription" : "Ayaka Band-Aid", "itemTags" : [ "aid", "ayaka" ], "price" : 30, "level" : 2, "rarity" : "Common",
+      "description" : "A small tidy bandade pack made by a common alta pharmacy. Follows all sanitary protocols and does its job quite well.",
+      "longdescription" : "Made from processed ^#3587ff;ayaka wood^reset; and ^#ffe8e8;silk^reset;, it acts as both disinfectant and an absorber.",
+      "altaDescription" : "If I ever get hurt, which I should never ever do, but if I would, I could ask another alta to help me... Maybe she will hug me too!",
+      "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Ayaka Amik",
+      "blockingEffects" : [ "salveheal", "bandageheal", "medkitheal", "nanowrapheal" ],
+      "paletteSwap" : {"#d0c0a8":"#f6f6f6","#a58862":"#d8dcf0","#87623c":"#b0b4c8","#553115":"#606478"}
+    },
+    "bandade_pretty" : { "baseAsset" : "/items/generic/other/bandage.consumable",
+      "shortdescription" : "Pretty Band-Aid", "itemTags" : [ "aid", "stardust" ], "price" : 55, "level" : 3, "rarity" : "Uncommon",
+      "description" : "A set of colorful little bandades often carried by caretakers. It radiates love and happiness and turns your body into a colorful canvas!",
+      "longdescription" : "Made from processed ^#3587ff;ayaka wood^reset; and ^#ffe8e8;silk^reset;, it acts as both disinfectant and an absorber.",
+      "altaDescription" : "My caretakes back at gardens used to have these! Ahh, nostalgia!~",
+      "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Mika Amik",
+      "blockingEffects" : [ "salveheal", "bandageheal", "medkitheal", "nanowrapheal" ],
+      "paletteSwap" : {"#d0c0a8":"#fcb0e0","#a58862":"#fc60c0","#87623c":"#f02080","#553115":"#c00050"}
+    }
+  }
+}

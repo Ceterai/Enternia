@@ -1,8 +1,8 @@
 {
   "input" : [
     { "item" : "prisiliteore", "count" : 2 },
-    { "item" : "ctwoodsap", "count" : 2 },
-    { "item" : "ctwood", "count" : 1 }
+    { "item" : "ct_ionic_sap", "count" : 2 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
   ],
   "output" : { "item" : "ct_datamass", "count" : 1 },
   "groups" : [ "alta_t1", "components", "codex", "all" ]

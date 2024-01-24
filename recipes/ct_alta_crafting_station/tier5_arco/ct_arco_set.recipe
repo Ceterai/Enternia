@@ -2,10 +2,10 @@
   "input" : [
     { "item" : "ct_bion", "count" : 8 },
     { "item" : "ct_phosicore", "count" : 6 },
-    { "item" : "ct_edsarmor", "count" : 6 },
+    { "item" : "ct_eds_armor", "count" : 6 },
     { "item" : "ct_arco-codex", "count" : 2 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_arco_set", "count" : 1 },
-  "groups" : [ "alta_t3", "set", "all" ]
+  "groups" : [ "alta_t3", "arco", "set", "all" ]
 }

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "lightcollar", "count" : 1 },
+    { "item" : "ct_stardust", "count" : 8 },
+    { "item" : "glowfibre", "count" : 16 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "ct_warped_augment", "count" : 1 },
+  "groups" : [ "alta_max", "misc_loot", "enhancement", "augment", "all" ]
+}

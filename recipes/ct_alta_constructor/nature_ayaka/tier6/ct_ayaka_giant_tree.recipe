@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "ct_alta_sapling", "count" : 1 },
-    { "item" : "ctwood", "count" : 8 }
+    { "item" : "ct_ayaka_wood", "count" : 8 }
   ],
   "output" : { "item" : "ct_ayaka_giant_tree", "count" : 1 },
   "groups" : [ "alta_constructor6", "nature", "alterash_nature", "ayaka", "saplings", "all" ]

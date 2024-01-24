@@ -4,7 +4,7 @@ function init()
   self.recoil = 0
   self.recoilRate = 0
 
-  self.fireOffset = config.getParameter("fireOffset")
+  self.fireOffset = config.getParameter("fireOffset", {0.5, 0.0})
   updateAim()
 
   self.active = false

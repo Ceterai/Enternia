@@ -15,7 +15,8 @@
   "animationParts" : { "handle" : "", "blade" : "/items/active/weapons/melee/ct_alta_heavy/ct_plasmasword.png" },
   "animationCustom" : { "sounds" : { "fire" : [ "/sfx/melee/swing_broadsword.ogg" ] } },
   "scripts":[ "/items/active/weapons/melee/meleeweapon.lua" ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "newItem" : "ct_plasmasword",
+  "builder" : "/items/buildscripts/ct_alta_deprecation_builder.lua",
 
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {

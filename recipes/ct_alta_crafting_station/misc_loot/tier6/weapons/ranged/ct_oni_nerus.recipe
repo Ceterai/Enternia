@@ -2,10 +2,10 @@
   "input" : [
     { "item" : "ct_phosicore", "count" : 4 },
     { "item" : "cryonicextract", "count" : 1 },
-    { "item" : "ct_edsarmor", "count" : 1 },
+    { "item" : "ct_eds_armor", "count" : 1 },
     { "item" : "ct_cetersphere", "count" : 1 }
   ],
   "duration" : 4,
   "output" : { "item" : "ct_oni_nerus", "count" : 1 },
-  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+  "groups" : [ "alta_max", "arknight", "misc_loot", "weapon", "all" ]
 }

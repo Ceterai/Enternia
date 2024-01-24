@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "electrobaton", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 940 }
+  ],
+  "output" : { "item" : "ct_tool_mimic", "count" : 1, "parameters" : { "preset" : "baton" } },
+  "groups" : [ "ct_alta_upg1", "weapons", "all" ]
+}

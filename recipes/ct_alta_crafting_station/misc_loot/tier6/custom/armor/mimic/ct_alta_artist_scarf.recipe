@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_head_mimic", "count" : 1, "parameters" : { "preset" : "alta_artist_scarf" } },
+  "output" : { "item" : "ct_head_mimic", "count" : 1, "parameters" : { "preset" : "scarf" } },
   "duration" : 0.25,
-  "groups" : [ "alta_max", "clothing", "all" ]
+  "groups" : [ "alta_max", "alta", "clothing", "head", "all" ]
 }

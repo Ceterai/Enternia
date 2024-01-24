@@ -1,0 +1,123 @@
+{
+  "itemName" : "ct_body_mimic",
+  "shortdescription" : "ZZZZ Dev name, if you see this - run.",
+  "tooltipKind" : "ct_alta_effects",
+  "inventoryIcon" : "/items/armors/alta/tier6/ceterai/legwear/icon.png",
+  "maleFrames" : {
+    "body" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
+    "backSleeve" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
+    "frontSleeve" : "/items/armors/alta/tier6/ceterai/legwear/pants.png"
+  },
+  "femaleFrames" : {
+    "body" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
+    "backSleeve" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
+    "frontSleeve" : "/items/armors/alta/tier6/ceterai/legwear/pants.png"
+  },
+  "colorOptions" : [ { "64beff" : "64beff", "1981cd" : "1981cd", "134992" : "134992", "001152" : "001152" } ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "skip" : true },
+  "presets" : {
+    "yaara" : {
+      "baseAsset" : "/items/armors/decorative/costumes/rainbowood/rainbowwood.chest",
+      "price" : 600,
+      "shortdescription" : "Yaara Shirt", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nature", "yaara" ],
+      "description" : "This ^#20f080;yaara^reset; chest makes me feel like a plant.",
+      "longdescription" : "Worth noting that the wooden texture of this peace of costume doesn't reflect it's protective capabilities.",
+      "altaDescription" : "Very... planty?",
+      "floranDescription" : "Floran dissquissse ass plant. Ambush prey. Win fightss.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "colorOptions" : [
+        {"ffca8a":"47b6ab","e0975c":"177a71","a85636":"086458","6f2919":"074c44"},
+        {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515"},
+        {"ffca8a":"b5b5b5","e0975c":"808080","a85636":"555555","6f2919":"303030"},
+        {"ffca8a":"e6e6e6","e0975c":"b6b6b6","a85636":"7b7b7b","6f2919":"373737"},
+        {"ffca8a":"f4988c","e0975c":"d93a3a","a85636":"932625","6f2919":"601119"},
+        {"ffca8a":"ffd495","e0975c":"ea9931","a85636":"af4e00","6f2919":"6e2900"},
+        {"ffca8a":"ffffa7","e0975c":"e2c344","a85636":"a46e06","6f2919":"642f00"},
+        {"ffca8a":"b2e89d","e0975c":"51bd3b","a85636":"247824","6f2919":"144216"},
+        {"ffca8a":"96cbe7","e0975c":"5588d4","a85636":"344495","6f2919":"1a1c51"},
+        {"ffca8a":"d29ce7","e0975c":"a451c4","a85636":"6a2284","6f2919":"320c40"},
+        {"ffca8a":"eab3db","e0975c":"d35eae","a85636":"97276d","6f2919":"59163f"},
+        {"ffca8a":"ccae7c","e0975c":"a47844","a85636":"754c23","6f2919":"472b13"}
+      ]
+    },
+    "yaara_keeper" : {
+      "baseAsset" : "/items/armors/floran/floran-tier5manipulator/florantier5manipulator.chest",
+      "price" : 1660,
+      "shortdescription" : "Yaara Keeper's Guard ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
+      "description" : "A plant-based piece of armor fused with very sturdy materials, decorated with ^#20f080;yaara^reset; leaves, petals and crystals.",
+      "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disquise.",
+      "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
+      "floranDescription" : "Full protection for Floran, sso Floran can protect Floran's home.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "colorOptions" : [
+        {"ffca8a":"ae75f0","e0975c":"713bb0","a85636":"461e74","6f2919":"341458","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"b5b5b5","e0975c":"808080","a85636":"555555","6f2919":"303030","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"e6e6e6","e0975c":"b6b6b6","a85636":"7b7b7b","6f2919":"373737","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"f4988c","e0975c":"d93a3a","a85636":"932625","6f2919":"601119","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"ffd495","e0975c":"ea9931","a85636":"af4e00","6f2919":"6e2900","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"ffffa7","e0975c":"e2c344","a85636":"a46e06","6f2919":"642f00","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"b2e89d","e0975c":"51bd3b","a85636":"247824","6f2919":"144216","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"96cbe7","e0975c":"5588d4","a85636":"344495","6f2919":"1a1c51","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"d29ce7","e0975c":"a451c4","a85636":"6a2284","6f2919":"320c40","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"eab3db","e0975c":"d35eae","a85636":"97276d","6f2919":"59163f","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
+        {"ffca8a":"ccae7c","e0975c":"a47844","a85636":"754c23","6f2919":"472b13","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"}
+      ]
+    },
+    "yaara_body_vine" : {
+      "baseAsset" : "/items/armors/decorative/costumes/cupids/cupids.chest", "price" : 640,
+      "shortdescription" : "Yaara Body Vine ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nature", "yaara" ],
+      "description" : "A simple body belt made out of naturally grown ^#20f080;yaara^reset; vines.",
+      "longdescription" : "While not very protective, it's quite sturdy and can hold quite a lot of things.",
+      "altaDescription" : "This is not a very decent thing to wear on its own. Perhaps I should put something under it.",
+      "floranDescription" : "Plain and ssssimple. Floran likesss pretty vine.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "femaleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+      "colorOptions" : [
+        {"ffca8a":"47b6ab","e0975c":"177a71","a85636":"086458","6f2919":"074c44"},
+        {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515"},
+        {"ffca8a":"b5b5b5","e0975c":"808080","a85636":"555555","6f2919":"303030"},
+        {"ffca8a":"e6e6e6","e0975c":"b6b6b6","a85636":"7b7b7b","6f2919":"373737"},
+        {"ffca8a":"f4988c","e0975c":"d93a3a","a85636":"932625","6f2919":"601119"},
+        {"ffca8a":"ffd495","e0975c":"ea9931","a85636":"af4e00","6f2919":"6e2900"},
+        {"ffca8a":"ffffa7","e0975c":"e2c344","a85636":"a46e06","6f2919":"642f00"},
+        {"ffca8a":"b2e89d","e0975c":"51bd3b","a85636":"247824","6f2919":"144216"},
+        {"ffca8a":"96cbe7","e0975c":"5588d4","a85636":"344495","6f2919":"1a1c51"},
+        {"ffca8a":"d29ce7","e0975c":"a451c4","a85636":"6a2284","6f2919":"320c40"},
+        {"ffca8a":"eab3db","e0975c":"d35eae","a85636":"97276d","6f2919":"59163f"},
+        {"ffca8a":"ccae7c","e0975c":"a47844","a85636":"754c23","6f2919":"472b13"}
+      ]
+    },
+    "calin_dress" : {
+      "baseAsset" : "/items/armors/decorative/costumes/hotholiday/hotholiday.chest", "price" : 600,
+      "shortdescription" : "Calin Dress Top", "level" : 5, "rarity" : "Rare", "itemTags" : [ "pretty", "valuable", "calin" ],
+      "description" : "A night dress often worn to ^#b0e0fc;alta clubhouses^reset;. Designed by ^#b0e0fc;Perizhad^reset;.",
+      "longdescription" : "Made from a high-quality material, this dress will make you the center of attention.",
+      "altaDescription" : "Pretty and effective. I like the calin-like shiny rims on this dress.", "foundIn" : [ "^#b0e0fc;Alta Designer^reset;" ],
+      "colorOptions" : [
+        {"ffca8a":"707088","e0975c":"606074","a85636":"404050","6f2919":"2c2c34","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"b5b5b5","e0975c":"808080","a85636":"555555","6f2919":"303030","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"e6e6e6","e0975c":"b6b6b6","a85636":"7b7b7b","6f2919":"373737","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"f4988c","e0975c":"d93a3a","a85636":"932625","6f2919":"601119","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"ffd495","e0975c":"ea9931","a85636":"af4e00","6f2919":"6e2900","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"ffffa7","e0975c":"e2c344","a85636":"a46e06","6f2919":"642f00","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"b2e89d","e0975c":"51bd3b","a85636":"247824","6f2919":"144216","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"96cbe7","e0975c":"5588d4","a85636":"344495","6f2919":"1a1c51","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"d29ce7","e0975c":"a451c4","a85636":"6a2284","6f2919":"320c40","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"eab3db","e0975c":"d35eae","a85636":"97276d","6f2919":"59163f","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
+        {"ffca8a":"ccae7c","e0975c":"a47844","a85636":"754c23","6f2919":"472b13","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
+          "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"}
+      ]
+    }
+  }
+}

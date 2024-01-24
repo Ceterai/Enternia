@@ -15,6 +15,8 @@ function initHealStats()
   self.healingRate = self.healingBase / self.healingTime
 end
 
-function healTick(dt)
-  status.modifyResourcePercentage(self.healingStat, self.healingRate * dt)
+function healTick(dt)  -- Replenishes `healStat`. Doesn't apply in case where a non-player entity has <= 5 health, if `healStat` set to health.
+  if not (self.healingStat == "health" and entity.entityType() ~= 'player' and status.resource(self.healingStat) <= 5) then
+    status.modifyResourcePercentage(self.healingStat, self.healingRate * dt)
+  end
 end

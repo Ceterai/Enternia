@@ -2,16 +2,16 @@
   { "op": "add", "path": "/ctgilHarvest", "value": [ [0, {
         "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [
-          {"weight" : 0.89, "item" : "ctgil"},
+          {"weight" : 0.89, "item" : "ct_gil"},
           {"weight" : 0.01, "item" : "ct_gil_seed"},
-          {"weight" : 0.1, "item" : "ctwoodsap"}
+          {"weight" : 0.1, "item" : "ct_ionic_sap"}
   ] } ] ] },
   { "op": "add", "path": "/cttsayHarvest", "value": [ [0, {
         "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [
-          {"weight" : 0.89, "item" : "cttsay"},
+          {"weight" : 0.89, "item" : "ct_tsay"},
           {"weight" : 0.01, "item" : "ct_tsay_seed"},
-          {"weight" : 0.1, "item" : "ctwoodsap"}
+          {"weight" : 0.1, "item" : "ct_ionic_sap"}
   ] } ] ] },
   { "op": "add", "path": "/ct_warped_hive_harvest", "value": [ [0, {
         "poolRounds" : [ [0.9, 1], [0.1, 2] ],

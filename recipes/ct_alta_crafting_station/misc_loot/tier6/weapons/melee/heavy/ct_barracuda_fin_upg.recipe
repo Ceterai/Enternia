@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "hardenedcarapace", "count" : 4 },
+    { "item" : "durasteelbar", "count" : 4 },
+    { "item" : "sharpenedclaw", "count" : 4 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_barracuda_fin", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

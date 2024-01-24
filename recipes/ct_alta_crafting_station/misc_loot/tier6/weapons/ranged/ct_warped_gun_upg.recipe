@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "glowfibre", "count" : 2 },
+    { "item" : "ct_warped_hive", "count" : 1 },
+    { "item" : "ct_warped_glowbomb", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_warped_gun", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "misc_loot", "weapon", "all" ]
+}

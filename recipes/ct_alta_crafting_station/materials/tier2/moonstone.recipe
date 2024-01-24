@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "dirtmaterial", "count" : 4 },
+    { "item" : "ct_ionic_sap", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "moonstone",
+    "count" : 4
+  },
+  "duration" : 0.01,
+  "groups" : [ "alta_t2+", "materials", "all" ]
+}

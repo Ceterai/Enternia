@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_legs_mimic", "count" : 1, "parameters" : { "preset" : "koywa_skirt" } },
+  "output" : { "item" : "ct_legs_mimic", "count" : 1, "parameters" : { "preset" : "koywa_skirt" } },
   "duration" : 0.25,
-  "groups" : [ "alta_max", "clothing", "all" ]
+  "groups" : [ "alta_max", "alta", "clothing", "legs", "all" ]
 }

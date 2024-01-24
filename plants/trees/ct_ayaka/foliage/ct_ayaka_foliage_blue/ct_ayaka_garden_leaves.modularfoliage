@@ -8,10 +8,10 @@
   "dropConfig" : {
     "drops" : [
       [ { "item" : "sapling" } ],
-      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 } ],
-      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 } ],
-      [ { "item" : "sapling" }, { "item" : "ctaya", "count" : 1 }, { "item" : "ctwoodsap", "count" : 1 } ],
-      [ { "item" : "sapling" }, { "item" : "ctwoodsap", "count" : 1 } ]
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 }, { "item" : "ct_ionic_sap", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_ionic_sap", "count" : 1 } ]
     ],
     
     "particles" : {

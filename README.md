@@ -1,16 +1,34 @@
 ![ ](.meta/images/alterash.png)
 
-# My Enternia
+<h1 align="center">My Enternia</h1>
 
 I made this little mod mainly for myself, but decided to share with everybody.  
 This mod adds a new race, 2 new planets with their own biomes, monsters, many hazards and treasure. The mod adds new unique weapons, armor, cosmetics, augments/collars, spawners, codexes, throwables and other equipment.  
 All new content **can only be found on those 2 planets**, is fairly balanced, and thus doesn't interfere with normal gameplay!  
 Check out the end of the description for a **rundown of new content**. Or, even better, check out the official **Wiki**!
 
+<h4 align="center">
+
 [>>> OFFICIAL WIKI <<<](https://github.com/Ceterai/Enternia/wiki)
 
-**Version 2.1: Alta Decryption** is out! Check out the changelog for details.  
-The full list of changes can be found in the changelog file on the GitHub page or in the Steam changelog page.
+</h4>
+
+**Version 2.1: Alta Decryption** is out! Check out the [changelog](.meta/changelog.md) for details.
+
+- [Installation](#installation)
+  - [Steam](#steam)
+  - [GitHub](#github)
+  - [Starbound Forums](#starbound-forums)
+- [Where to start](#where-to-start)
+- [Contents](#contents)
+  - [Supported Addons](#supported-addons)
+  - [Screenshots](#screenshots)
+  - [Mod Content Rundown](#mod-content-rundown)
+  - [Compatability](#compatability)
+    - [Information For Modders](#information-for-modders)
+    - [Information For Translators](#information-for-translators)
+  - [Enhanced Tooltips](#enhanced-tooltips)
+- [Changes](#changes)
 
 ## Installation
 
@@ -23,7 +41,7 @@ Subscribe to this mod on Steam! [Link](https://steamcommunity.com/sharedfiles/fi
 1. Download the latest release or clone the repo;
 1. Put the dowloaded/cloned folder into the `mods` folder in your Starbound directory.
 
-### Starbound Forum
+### Starbound Forums
 
 Get this mod on the official Chucklefish Forums: [Link](https://community.playstarbound.com/resources/my-enternia.6252/)
 
@@ -73,15 +91,38 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
-### Compatability & Information For Modders
+### Compatability
 
 1. Doesn't require any other mods to work;
-1. Should be FU-compatible;
+1. Should be FU-compatible.
+
+#### Information For Modders
+
 1. The mod uses regular Starbound folder structure so should be easy to navigate and integrate with;
 1. All IDs added by the mod have a `ct_` prefix to make it impossible to conflict with IDs from other mods;
 1. The mod tries to explore somewhat unusual concepts with unique names so there should be little to no idea overlap;
 1. If you want to make a mod on top of this and want to learn modding-related features of this mod, visit this page: [My Enternia Wiki: Modding](https://github.com/Ceterai/Enternia/wiki/Modding);
 1. Support for mods like IFD and MPI is done by generating patch files using python scripts. To learn more, visit [My Enternia Wiki: Modding - Mod Support](https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support).
+
+#### Information For Translators
+
+If you're looking to translate this mod to another language, here's the list of files & folders you should be on the lookout for:
+
+- [`/codex` (link)](codex)
+- [`/items` (link)](items)
+- [`/monsters` (link)](monsters)
+- [`/objects` (link)](objects)
+- [`/stats/effects` (link)](stats/effects) - mostly just effect names
+- [`/interface/cockpit/cockpit.config.patch` (link)](interface/cockpit/cockpit.config.patch) - Weather, Planet, Biome and Effect info (for the Cockpit interface* and More Planets Info mod)
+- [`/radiomessages/exploration.radiomessages.patch` (link)](radiomessages/exploration.radiomessages.patch) - radio messages
+- [`/species/alta.species` (link)](species/alta.species) - species name, description, slider tooltips
+- [`/species/alta_namegen.config` (link)](species/alta_namegen.config) - possible species names list
+- [`/IFD_statuseffects.config.patch` (link)](IFD_statuseffects.config.patch) - effect info for Improved Food Descriptions mod
+- [`/items/buildscripts/ct_texts.config` (link)](items/buildscripts/ct_texts.config) - tooltip text lines used in item tooltips
+
+> Note that items, monsters, objects, etc. can contain a `wiki` field. This field contains info only displayed in mod Wiki, so can be ignored.
+
+Starting with version [2.1.4a](github.com/Ceterai/Enternia/releases/tag/2.1.4a), each new version's changelog now contains a **Translation** section that goes over changes made in that version that might require attention from translators.
 
 ### Enhanced Tooltips
 
@@ -90,9 +131,10 @@ As mentioned in the content rundown, many different items in this mod have impro
 ![ ](.meta/images/scrn_tooltips1.png)
 ![ ](.meta/images/scrn_tooltips2.png)
 
-### Changes
+## Changes
 
-For any recent and all progress, checkout: <i class="fa-solid fa-clock-rotate-left"></i> **[Changelog](changelog.md)**
+For any recent and all progress, checkout: **[Changelog](.meta/changelog.md)**  
+You can also find the full list of changes on the [Steam changelog page](https://steamcommunity.com/sharedfiles/filedetails/changelog/2006558650).
 
 ---
 

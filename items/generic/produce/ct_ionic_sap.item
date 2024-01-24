@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_ionic_sap",
+  "shortdescription" : "Ionic Ferment",
+  "description" : "This ferment acts as ^#3587ff;ayaka^reset; wood sap and is what some fruits turn into when expire. Very sticky.",
+  "longdescription" : "^#b0e0fc;Altas^reset; use the ferment in many different ways, from a connective component when mixing materials or for outright glue mixtures, to a cooking ingredient, in cosmetics, gardening, medicine and energy filters.  \nRead more about this: ^#3587ff;Ayaka Gardener's Notes^reset;",
+  "altaDescription" : "Useful in basically enerything. Also, things like boiled ayas stuffed with eniar jam are the reason why I enjoy runeva stuff so much.",
+  "foundIn" : [ "^#20f080;Alterash^reset;", "^#2080f0;Alterash Prime^reset;" ],
+  "inventoryIcon" : "ct_ionic_sap.png",
+
+  "rarity" : "Common", "price" : 5,
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item", "itemTags" : [ "ayaka", "ionic" ],
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ],
+
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : { "aliases" : { "Ayaka Sap" : { }, "Ionic Sap" : { } } }, "alkey" : "Eniar"
+}

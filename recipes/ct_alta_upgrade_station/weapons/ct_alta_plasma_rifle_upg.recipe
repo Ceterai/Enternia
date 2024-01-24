@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "spaceplasmarifle", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 1780 }
+  ],
+  "output" : { "item" : "ct_alta_plasma_rifle", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "ct_alta_upg2", "weapons", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_eds_visor", "count" : 1, "parameters" : { "preset" : "light" } },
+  "duration" : 0.25,
+  "groups" : [ "alta_max", "arknight", "cosmetics", "head", "all" ]
+}

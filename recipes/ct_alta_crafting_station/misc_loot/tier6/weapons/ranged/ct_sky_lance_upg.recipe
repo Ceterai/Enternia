@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_phosicore", "count" : 6 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_sky_lance", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "alta_max", "arknight", "misc_loot", "weapon", "all" ]
+}
