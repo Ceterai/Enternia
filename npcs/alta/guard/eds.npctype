@@ -1,0 +1,79 @@
+{
+  "type" : "ct_eds_guard",
+  "baseType" : "ct_alta_guard",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "humantier1chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "humantier1pants", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ "ct_eds_visor" ],
+            "chest" : [ "ct_alta_service_jacket" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ "ct_alta_industrial_collar" ],
+            "chest" : [ "ct_alta_service_jacket" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "ct_protospear" ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ "ct_eds_visor" ],
+            "chest" : [ "ct_eds_chest" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "ct_alta_impulse_rifle" ],
+            "sheathedprimary" : [ "ct_alta_stun_stick" ]
+          }
+        ] ],
+      [5, [
+          {
+            "head" : [ "ct_eds_visor", "ct_eds_helmet", "ct_eds_helmet_mk2" ],
+            "chest" : [ "ct_eds_chest" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "ct_eds_mng" ],
+            "sheathedprimary" : [ "npcshortsword" ],
+            "alt" : [ "ct_eds_shield" ]
+          }
+        ] ],
+      [6, [
+          {
+            "head" : [ "ct_eds_proto_helmet" ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_ghearun_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 4 } } ],
+            "primary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy" } } ],
+            "sheathedprimary" : [ "ct_eds_claymore" ]
+          },
+          {
+            "head" : [ { "name" : "ct_combat_mask_mk2", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "ct_ghearun_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_ceterai_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ "ct_eds_claymore" ],
+            "sheathedprimary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy" } } ]
+          }
+        ] ],
+      [7, [  // Alternia armor
+          {
+            "head" : [ { "name" : "ct_combat_helmet", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "ct_combat_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_combat_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}

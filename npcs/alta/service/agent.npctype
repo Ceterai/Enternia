@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_agent",
+  "baseType" : "ct_alta_servicer",
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : 3 } }
+            ],
+            "chest" : [
+              { "name" : "ct_combat_chest" }
+            ],
+            "legs" : [
+              { "name" : "ct_combat_legwear" }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 12, "categories" : { "default" : [ "thrown", "robotics", "augments", "collars", "sets", "shields", "tools", "armor" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:servicer" } }
+  }
+}

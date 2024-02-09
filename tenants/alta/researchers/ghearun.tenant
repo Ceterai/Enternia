@@ -1,0 +1,41 @@
+{
+  "name" : "ct_ghearun_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "gheatsyn" : 18
+  },
+
+  "tenants" : [
+    // {
+    //   "spawn" : "npc",
+    //   "species" : "alta",
+    //   "type" : "ct_ghearun_field_researcher",
+    //   "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    // },
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_researcher",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "ct_ghearun_helmet"} ],
+                "chest" : [ { "name" : "ct_ghearun_chest" } ],
+                "legs" : [ { "name" : "ct_ghearun_legwear" } ],
+                "back" : [ "", { "name" : "ct_ghearun_back" } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_gheatsyn_gift" }  // gheatsyn shards, crystals, etc.
+}

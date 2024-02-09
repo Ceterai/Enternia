@@ -1,0 +1,33 @@
+{
+  "name" : "ct_spacedrifter_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_ship" : 8,
+    "combat" : 14,
+    "space" : 14
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_spacedrifter",
+      "overrides" : {
+        "scriptConfig" : {
+          "behavior" : "villageguard",
+          "questGenerator" : {
+            "enableParticipation" : true, "chance" : 0.02,
+            "pools" : ["common", "tenant", "guard"],
+            "graduation" : { "nextNpcType" : [ [1, "crewmember"] ] }
+          },
+          "reactions" : { "spontaneous" : [ [5.0, "sleep", { "timeRange" : [0.7, 0.9] }], [1.0, "patrol"] ] }
+        },
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

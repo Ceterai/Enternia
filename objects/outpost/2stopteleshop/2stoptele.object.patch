@@ -1,0 +1,7 @@
+[
+  // { "op" : "add", "path" : "/spawnInterval", "value" : [10, 10] },  // useful for testing purposes
+  { "op" : "add", "path" : "/npctypes/-", "value" : { "type" : "ct_alta_outpost", "species" : [ "alta" ] } },
+  { "op" : "add", "path" : "/npctypes/-", "value" : { "type" : "ct_alta_outpost", "species" : [ "alta" ] } },
+  { "op" : "add", "path" : "/npctypes/-", "value" : { "type" : "ct_alta_outpost", "species" : [ "alta" ] } },
+  { "op" : "add", "path" : "/npctypes/-", "value" : { "type" : "ct_alta_outpost", "species" : [ "alta" ] } }
+]

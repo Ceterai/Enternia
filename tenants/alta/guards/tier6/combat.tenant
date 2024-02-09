@@ -1,0 +1,24 @@
+{
+  "name" : "ct_combat_captain_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "combat" : 8,
+    "tier4" : 8,
+    "rare" : 6,
+    "alta" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_combat_captain",
+      "level" : 6,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

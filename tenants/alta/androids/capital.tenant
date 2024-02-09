@@ -1,0 +1,35 @@
+{
+  "name" : "ct_alta_capital_android_tenant",
+  "priority" : 15,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_robotics" : 8,
+    "alta_capital" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_elite_android",
+      "overrides" : {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [ { "name" : "ct_elite_android_head", "parameters" : { "colorIndex" : 11 } } ],
+                  "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 10 } } ],
+                  "legs" : [ { "name" : "ct_elite_legwear", "parameters" : { "colorIndex" : 10 } } ],
+                  "back" : [ { "name" : "ct_elite_generator", "parameters" : { "colorIndex" : 10 } } ],
+                  "primary" : [ "npcassaultrifle" ]
+                }
+              ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

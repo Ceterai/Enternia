@@ -1,0 +1,16 @@
+{
+  "type" : "ct_dreamer_android",
+  "baseType" : "ct_elite_android",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_dreamer_android_head" } ],
+            "chest" : [ { "name" : "ct_ceterai_chest", "parameters" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "ct_ceterai_legs", "parameters" : { "colorIndex" : 9 }} ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

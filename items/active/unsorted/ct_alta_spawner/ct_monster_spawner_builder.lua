@@ -23,10 +23,12 @@ function build(directory, config, parameters, level, seed)
   if config.pets then config.pet = config.pets[math.random(#config.pets)] end
   local pet_params = root.assetJson(config.asset)
   local img = root.monsterPortrait(config.pet)
+  local tooltip = config.subtitle or tips.egg
+  if config.titleTooltip then tooltip = tips[config.titleTooltip] end
   if img then
     for i, v in ipairs(img) do
       parameters.tooltipFields = {
-        subtitle = config.subtitle or tips.egg,
+        subtitle = tooltip,
         objectImage = v.image
       }
     end

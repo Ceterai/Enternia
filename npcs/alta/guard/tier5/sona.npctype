@@ -1,0 +1,21 @@
+{
+  "type" : "ct_sona_soldier",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_sona_helmet", "parameters" : { "colorIndex" : 11 } } ],
+            "chest" : [ { "name" : "ct_combat_chest", "parameters" : { "preset" : "light", "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "ct_combat_legwear", "parameters" : { "preset" : "light", "colorIndex" : 11 } } ],
+            "back" : [
+              { "name" : "ct_alta_halogen_pack", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "ct_alta_security_pack", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "primary" : [ "ct_alta_sona_rifle" ],
+            "sheathedprimary" : [ "ct_protospear" ]
+          }
+        ] ]
+    ]
+  }
+}

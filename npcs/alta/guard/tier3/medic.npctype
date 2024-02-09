@@ -1,0 +1,23 @@
+{
+  "type" : "ct_alta_medic",
+  "baseType" : "ct_alta_scout",
+  "levelVariance" : [3, 3],
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "graduation" : { "nextNpcType" : [ [1, "crewmember"], [0.5, "crewmemberengineer"], [0.5, "crewmembermechanic"] ] }
+    },
+    "dialog" : { "hail" : "/dialog/alta.config:hail" }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_combat_mask", "parameters" : { "preset" : "medic" } } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear", "parameters" : { "colorIndex" : 10 } } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters", "parameters" : { "colorIndex" : 10 } } ]
+          }
+        ] ]
+    ]
+  }
+}

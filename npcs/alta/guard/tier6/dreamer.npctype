@@ -1,0 +1,17 @@
+{
+  "type" : "ct_dreamer",
+  "baseType" : "ct_elite_guard",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_dreamer_helmet" ],
+            "chest" : [ "ct_dreamer_chest" ],
+            "legs" : [ "ct_dreamer_legwear" ],
+            "back" : [ "ct_dreamer_enhancer" ],
+            "primary" : [ "ct_alta_ionic_rifle", "ct_ion_ripper", { "name" : "ct_tool_mimic", "parameters" : { "preset" : "railgun" } } ]
+          }
+        ] ]
+    ]
+  }
+}

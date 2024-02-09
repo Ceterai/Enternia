@@ -1,0 +1,24 @@
+{
+  "type" : "ct_alta_servicer",
+  "baseType" : "ct_alta_artist",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 7, 8, 9, 10 ] } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 7, 8, 9, 10 ] } },
+              { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 7, 8, 9, 10 ] } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 10, "buyFactorRange" : [ 2.0, 2.6 ], "poolsFile" : "/npcs/alta/service/shop.config", "categories" : { "default" : [ "aid", "shop", "codex" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:servicer" } }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "ct_alta_lab_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_lab" : 18
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta",  // cyan and yellow one _researcher
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : 6 } } ],
+                "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "colorIndex" : 11 } } ],
+                "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "colorIndex" : 11 } } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

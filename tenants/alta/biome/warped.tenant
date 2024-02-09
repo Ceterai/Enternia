@@ -1,0 +1,21 @@
+{
+  "name" : "ct_warped_merchant_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "commerce" : 6,
+    "warped" : 14
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_warped_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // animal cosmetics, weird/odd furniture
+}

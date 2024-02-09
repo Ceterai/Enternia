@@ -1,4 +1,4 @@
-{  // This is a loot crate item. Check out the `ct_robot_spawner_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
+{  // This is a monster egg item. Check out the `ct_robot_spawner_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
   "itemName" : "ct_alta_companion_drone",
   "shortdescription" : "Companion Drone",
   "itemTags" : [ "throwable", "spawner", "portal", "alta_robotics", "drone" ],
@@ -8,7 +8,8 @@
   "twoHanded" : false,
 
   "asset" : "/monsters/alta/drones_class_1/ct_alta_companion_drone.monstertype",
-  "subtitle" : "Drone Spawner",
+  "subtitle" : "Drone Spawner",  // DEPRECATED - to be removed. All tooltip texts are moved to the /items/buildscripts/ct_texts.config file.
+  "titleTooltip" : "drone",
 
   "stances" : {
     "idle" : {

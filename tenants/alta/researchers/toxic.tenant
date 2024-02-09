@@ -1,0 +1,41 @@
+{
+  "name" : "ct_toxic_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "toxic" : 18
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_researcher",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "ct_alta_security_helmet_mk2", "parameters" : { "colorIndex" : 1 } } ],
+                "chest" : [ { "name" : "ct_alta_security_chest", "parameters" : { "colorIndex" : 1 } } ],
+                "legs" : [ { "name" : "ct_arco_legwear", "parameters" : { "colorIndex" : 1 } } ],
+                "back" : [ { "name" : "ct_ceternia_epp", "parameters" : { "colorIndex" : 1 } } ]
+              },
+              {
+                "head" : [ { "name" : "ct_arco_helmet_mk2", "parameters" : { "colorIndex" : 1 } } ],
+                "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 1 } } ],
+                "legs" : [ { "name" : "ct_alta_security_legwear", "parameters" : { "colorIndex" : 1 } } ],
+                "back" : [ { "name" : "ct_alta_halogen_pack", "parameters" : { "colorIndex" : 1 } } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

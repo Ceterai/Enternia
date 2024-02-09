@@ -1,0 +1,22 @@
+{
+  "name" : "ct_viona_creature_tenant",
+  "priority" : 4,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "odd" : 8,
+    "viona" : 8
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "shadow",
+      "type" : "ct_viona_creature",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_security_captain",
+  "baseType" : "ct_alta_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_alta_security_captain_helmet" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+            "primary" : [ "ct_alta_security_drone" ],
+            "sheathedprimary" : [ "ct_alta_impulse_rifle_mk2" ]
+          }
+        ] ]
+    ]
+  }
+}

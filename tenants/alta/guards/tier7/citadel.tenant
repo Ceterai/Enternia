@@ -1,0 +1,22 @@
+{
+  "name" : "ct_citadel_guard_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_citadel" : 12,
+    "combat" : 12
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_stardust_scout",
+      "level" : 7,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

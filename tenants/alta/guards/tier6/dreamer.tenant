@@ -1,0 +1,22 @@
+{
+  "name" : "ct_dreamer_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "combat" : 12,
+    "opulent" : 12  // alien for viona
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_dreamer",
+      "overrides" : { }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

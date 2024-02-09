@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_lab_android",
+  "baseType" : "ct_alta_android",
+  "levelVariance" : [5, 5],
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_combat_android_head", "parameters" : { "colorIndex" : 5 } } ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 11 } } ],
+            "legs" : [ { "name" : "ct_eds_legs", "parameters" : { "colorIndex" : 5 } } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

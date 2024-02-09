@@ -1,0 +1,21 @@
+{
+  "type" : "ct_eds_officer",
+  "baseType" : "ct_alta_official",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "", "ct_eds_beret", "ct_eds_beret", "ct_eds_visor" ],
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : 4 } },
+              { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "sheathedprimary" : [ "mpcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

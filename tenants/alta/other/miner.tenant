@@ -1,0 +1,36 @@
+{
+  "name" : "ct_alta_miner_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    // "lunarbase" : 18,
+    "mining" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_office",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "minerhead", "parameters" : { "colorIndex" : 8 } } ],
+                "chest" : [ { "name" : "minerchest", "parameters" : { "colorIndex" : 8 } } ],
+                "legs" : [ { "name" : "humantier2pants" } ],
+                "primary" : [ "" ],
+                "sheathedprimary" : [ "npcpistol" ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

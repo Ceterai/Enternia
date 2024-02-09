@@ -1,0 +1,21 @@
+{
+  "type" : "ct_stardust_merchant",
+  "baseType" : "ct_calline_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_head_mimic", "parameters" : { "preset" : "hood_stardust" } } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear", "parameters" : { "upgraded" : true } } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters", "parameters" : { "upgraded" : true } } ],
+            "back" : [ { "name" : "ct_back_mimic", "parameters" : { "preset" : "cape_stardust" } } ],
+            "sheathedprimary" : [ "ct_astralis", "ct_celeste" ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 8, "buyFactorRange" : [ 5.0, 5.0 ], "categories" : { "default" : [ "stardust" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:stardust" } }
+  }
+}

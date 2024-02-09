@@ -9,11 +9,15 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 
 <h4 align="center">
 
-[>>> OFFICIAL WIKI <<<](https://github.com/Ceterai/Enternia/wiki)
+[>>> OFFICIAL WIKI <<<](https://github.com/Ceterai/Enternia/wiki)</h4><h4 align="center">
 
-</h4>
+[>>> SUPPORT THE MOD <<<](https://www.buymeacoffee.com/ceterai)</h4><h4 align="center">
 
-**Version 2.1: Alta Decryption** is out! Check out the [changelog](.meta/changelog.md) for details.
+[>>> DISCORD SERVER <<<](https://discord.gg/qBZDKESdtp)</h4><p align="center">(dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^)</p>
+
+**Version 2.2: Alta Colonies** is out! Check out the [changelog](.meta/changelog.md) for details.
+
+Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/wiki/Tenants)
 
 - [Installation](#installation)
   - [Steam](#steam)
@@ -108,17 +112,17 @@ More information on new weapon features like press&hold, firemodes, attachments 
 
 If you're looking to translate this mod to another language, here's the list of files & folders you should be on the lookout for:
 
-- [`/codex` (link)](codex)
-- [`/items` (link)](items)
-- [`/monsters` (link)](monsters)
-- [`/objects` (link)](objects)
-- [`/stats/effects` (link)](stats/effects) - mostly just effect names
-- [`/interface/cockpit/cockpit.config.patch` (link)](interface/cockpit/cockpit.config.patch) - Weather, Planet, Biome and Effect info (for the Cockpit interface* and More Planets Info mod)
-- [`/radiomessages/exploration.radiomessages.patch` (link)](radiomessages/exploration.radiomessages.patch) - radio messages
-- [`/species/alta.species` (link)](species/alta.species) - species name, description, slider tooltips
-- [`/species/alta_namegen.config` (link)](species/alta_namegen.config) - possible species names list
-- [`/IFD_statuseffects.config.patch` (link)](IFD_statuseffects.config.patch) - effect info for Improved Food Descriptions mod
-- [`/items/buildscripts/ct_texts.config` (link)](items/buildscripts/ct_texts.config) - tooltip text lines used in item tooltips
+- [`/codex`](codex)
+- [`/items`](items)
+- [`/monsters`](monsters)
+- [`/objects`](objects)
+- [`/stats/effects`](stats/effects) - mostly just effect names
+- [`/interface/cockpit/cockpit.config.patch`](interface/cockpit/cockpit.config.patch) - Weather, Planet, Biome and Effect info (for the Cockpit interface* and More Planets Info mod)
+- [`/radiomessages/exploration.radiomessages.patch`](radiomessages/exploration.radiomessages.patch) - radio messages
+- [`/species/alta.species`](species/alta.species) - species name, description, slider tooltips
+- [`/species/alta_namegen.config`](species/alta_namegen.config) - possible species names list
+- [`/IFD_statuseffects.config.patch`](IFD_statuseffects.config.patch) - effect info for Improved Food Descriptions mod
+- [`/items/buildscripts/ct_texts.config`](items/buildscripts/ct_texts.config) - tooltip text lines used in item tooltips
 
 > Note that items, monsters, objects, etc. can contain a `wiki` field. This field contains info only displayed in mod Wiki, so can be ignored.
 

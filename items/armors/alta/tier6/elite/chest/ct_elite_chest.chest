@@ -81,7 +81,19 @@
       "shortdescription" : "Imperial Guard Armor", "itemTags" : [ "tier6armour", "elite", "alta_capital" ], "alkey" : "Avari Gard", "colorIndex" : 10,
       "description" : "Worn by ^#b0e0fc;elite guards^reset; protecting different ^#b0e0fc;alta capitals^reset; around Io.",
       "longdescription" : "While similar in characteristics to the original model, this one has alternative markings to signify its belonging.",
-      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to evry varda out there.", "wiki" : { "skip" : true }
+      "altaDescription" : "Full protection to every alta. I hope someday we're able to give this equipment to every varda out there.", "wiki" : { "skip" : true }
+    },
+    "elin" : {
+      "shortdescription" : "Elin Guard Body Armor ^#20f080;^reset;", "level" : 4, "itemTags" : [ "tier4armour", "elin" ], "alkey" : "Elin Gard",
+      "description" : "Worn by ^#b0e0fc;elin guards^reset; protecting different ^#b0e0fc;elin gardens^reset; around Io.", "colorIndex" : 11, "rarity" : "Uncommon",
+      "longdescription" : "While inferior in characteristics to the original model, this one is much lighter in size and allows better mobility.",
+      "altaDescription" : "Looks pretty bulky, but is actually quite comfy.", "wiki" : { "skip" : true },
+      "leveledStatusEffects" : [
+        { "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.25 },
+        { "levelFunction" : "acceleratorArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.55 },
+        { "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier", "stat" : "maxEnergy", "amount" : 5 },
+        { "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 6 }
+      ]
     },
     "lab" : {
       "shortdescription" : "Alta Lab Guard Armor", "itemTags" : [ "tier5armour", "alta_lab" ], "level" : 5, "rarity" : "Rare",

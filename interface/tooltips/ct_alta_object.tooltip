@@ -134,6 +134,14 @@
     "fontSize" : 6, "wrapWidth" : 128
   },
 
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [70, 115],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
   "rarityLabel" : {
     "type" : "label",
     "position" : [7, 23],

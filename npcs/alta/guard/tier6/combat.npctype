@@ -1,0 +1,18 @@
+{
+  "type" : "ct_combat_captain",
+  "baseType" : "ct_elite_guard",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_combat_helmet" ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "ct_ghearun_legwear", "parameters" : { "colorIndex" : 2 } } ],
+            "back" : [ { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 5 } } ],
+            "primary" : [ "ct_alta_plasma_rifle" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}

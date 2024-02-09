@@ -1,0 +1,44 @@
+{
+  "type" : "ct_spacedrifter",
+  "baseType" : "ct_elite_guard",
+  "levelVariance" : [7, 10],
+  "disableWornArmor" : true,
+  "movementParameters" : { "mass" : 1.2, "runSpeed" : 16.0 },
+  "scriptConfig" : {
+    "behaviorConfig" : { "leapWindup" : 0.45, "rangedAimTime" : 0.5, "stayTime" : [60, 180] },
+    "dialog" : {
+      "converse" : "/dialog/spacehero.config:converse",
+      "attack" : "/dialog/spacehero.config:attack",
+      "reattack" : "/dialog/spacehero.config:reattack",
+      "killedTarget" : "/dialog/spacehero.config:killedTarget"
+    },
+    "behavior" : "outpostvisitor",
+    "questGenerator" : { "pools" : [ ], "enableParticipation" : false, "chance" : 0.0, "graduation" : { "nextNpcType" : [ ] } },
+    "reactions" : { "spontaneous" : [ [1.0, "sit", { "timeRange" : [0.6,0.2]}], [1.0, "wander"] ] }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "spacebirdhead", "parameters" : { "colorIndex" : 1 } }, { "name" : "valoroushead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "valorouschest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "valorouspants", "parameters" : { "colorIndex" : 1 } } ],
+            "back" : [ { "name" : "predatoryback", "parameters" : { "colorIndex" : 1 } } ],
+            "primary" : [ "npcassaultrifle" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : { "baseValue" : 280.0 },
+      "maxEnergy" : { "baseValue" : 160.0 },
+      "powerMultiplier" : { "baseValue" : 1.2 },
+      "protection" : { "baseValue" : 1.0 },
+      "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 },
+      "energyRegenPercentageRate" : { "baseValue" : 1.5 },
+      "electricStatusImmunity" : { "baseValue" : 1.0 },
+      "electricResistance" : { "baseValue" : 0.20 }
+    }
+  }
+}

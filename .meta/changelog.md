@@ -5,6 +5,8 @@ If you want to see more detailed changes, you can always navigate to the [commit
 <details><summary>Table of Contents (Expand)</summary>
 
 - [Changelog](#changelog)
+  - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
+    - [2.2.0](#220)
   - [Update 2.1 - Alta Decryption](#update-21---alta-decryption)
     - [2.1.4a](#214a)
     - [2.1.4](#214)
@@ -41,6 +43,51 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 </details>
 
+## Update 2.2 - Alta Colonies
+
+### 2.2.0
+
+You've finally received the first signal from nearby alta travelers! Seems like they're looking for a place to settle. If you'll make them feel at home, they will reward you with neat shinies, protect you, or even open up for trading!
+
+> Keep in mind that a lot of deprecated items got removed in this version.
+
+**Main:**
+
+- added 92 tenants and 2 outpost visitors;
+- added the [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) - a lore tool that will let you know extensive information about items added by this mod (and more!);
+- removed a number of deprecated items and status effects;
+
+**Alta:**
+
+- added recipes for additional armor and weapon variations to the Ultimate Crafting Station;
+- added the Alta Scanner:
+  - displays extended descriptions and certain species descriptions if the item has them;
+  - displays item/colony tags of all items and objects;
+  - displays additional info like breakability, species and where to find the item;
+  - translation to alkey;
+
+**Wiki:**
+
+- added a [Tenants](https://github.com/Ceterai/Enternia/wiki/Tenants) page that lists all possible tenants added by this mod and how to spawn them;
+- made crafting notes more granular, in that they now show general tier of the crafting table needed to craft them;
+
+**Dev:**
+
+- removed oldest deprecated items and status effects that should no longer appear in the game;
+
+**Translation:**
+
+- added a `/dialog/alta.config` file with all npcs lines and phrases;
+- expanded the `/species/alta_namegen.config` file with new alta names;
+- expanded the `/.meta/world.json` file with a couple of words in the `alkey` library;
+- expanded the `/items/buildscripts/ct_texts.config` file with a couple of tooltip texts;
+
+**Other:**
+
+- fixed outdated IDs in the Ayaka Loot Table loot pool;
+- minor grammar fixes;
+- minor bug fixes.
+
 ## Update 2.1 - Alta Decryption
 
 ### 2.1.4a
@@ -48,6 +95,8 @@ If you want to see more detailed changes, you can always navigate to the [commit
 A small bugfix update in preparation for 2.2, that fixes technical issues left from 2.1.4 and other older bugs.
 
 This might be the most stable & bugless update so far, which is nice.
+
+> Detailed changes for this version: [Update 2.1.4](https://github.com/Ceterai/Enternia/commit/c54e8bb7b6a16e6877b0ec202c659c1977f5aafe)
 
 **Main:**
 

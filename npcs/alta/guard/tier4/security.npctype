@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_security",
+  "baseType" : "ct_alta_guard",
+  "levelVariance" : [4, 4],
+  "scriptConfig" : { "behaviorConfig" : { "leapWindup" : 0.65, "rangedAimTime" : 0.85 } },
+  "movementParameters" : { "mass" : 1.0, "runSpeed" : 12.0 },
+  // "aggressive" : true, "damageTeam" : 2,
+  // "touchDamage" : {
+  //   "damage" : 0, "teamType" : "enemy", "knockback" : 20, "statusEffects" : [ ],
+  //   "damageType" : "knockback", "damageSourceKind" : "nodamage", "damageRepeatGroup" : "npcTouchKnockback", "damageRepeatTimeout" : 0.5
+  // },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_alta_security_helmet" }, { "name" : "ct_alta_security_helmet_mk2" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+            "back" : [ { "name" : "ct_alta_security_pack" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ],
+            "sheathedprimary" : [ "ct_alta_stun_stick" ]
+          }
+        ] ]
+    ]
+  }
+}

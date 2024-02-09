@@ -1,0 +1,22 @@
+{
+  "name" : "ct_thermo_tenant",
+  "priority" : 4,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "koywa" : 12,
+    "combat" : 16
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_thermo_soldier",
+      "level" : 4,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

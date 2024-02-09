@@ -30,12 +30,12 @@ function appendList(l1, l2) for _,v in ipairs(l2 or {}) do l1[#l1+1] = v end; re
 function getSortedUnique(list)
   local hash = {}
   local res = {}
-  for _,v in ipairs(list or {}) do if (not hash[v]) and v then res[#res+1] = v; hash[v] = true end end
+  for _,v in ipairs(list or {}) do if (not hash[v]) and v and v ~= '' then res[#res+1] = v; hash[v] = true end end
   table.sort(res)
   return res
 end
 
-function getTags(tagList, race, rarity, element) return getSortedUnique(appendList(tagList or jarray(), {race, rarity:lower(), element})) end
+function getTags(tagList, race, rarity, element) return getSortedUnique(appendList(tagList or jarray(), {race or '', rarity:lower(), element or ''})) end
 
 function getPickupMsgs(msgList, tagList)
   for _,v in ipairs(tagList) do

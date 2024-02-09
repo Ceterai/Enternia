@@ -1,0 +1,21 @@
+{
+  "name" : "ct_alta_security_android_tenant",
+  "priority" : 5,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_robotics" : 8,
+    "alta_security" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_security_android",
+      "overrides" : { }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

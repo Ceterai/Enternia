@@ -1,0 +1,34 @@
+{
+  "type" : "ct_eds_heavy",
+  "baseType" : "ct_elite_guard",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_eds_proto_helmet" ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_ghearun_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 4 } } ],
+            "primary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy", "upgraded" : true } }, "ct_eds_one" ],
+            "sheathedprimary" : [ { "name" : "ct_eds_claymore", "parameters" : { "upgraded" : true } } ]
+          },
+          {
+            "head" : [ "ct_eds_proto_helmet" ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_ghearun_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "back" : [ { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 4 } } ],
+            "primary" : [ { "name" : "ct_eds_claymore", "parameters" : { "upgraded" : true } } ],
+            "sheathedprimary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy", "upgraded" : true } }, "ct_eds_one" ]
+          },
+          {
+            "head" : [ { "name" : "ct_combat_mask_mk2", "parameters" : { "colorIndex" : 4 } } ],
+            "chest" : [ { "name" : "ct_ghearun_chest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "ct_ceterai_legwear", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ { "name" : "ct_eds_mng", "parameters" : { "upgraded" : true } } ],
+            "sheathedprimary" : [ "npcshortsword" ],
+            "alt" : [ { "name" : "ct_eds_shield", "parameters" : { "upgraded" : true } } ]
+          }
+        ] ]
+    ]
+  }
+}

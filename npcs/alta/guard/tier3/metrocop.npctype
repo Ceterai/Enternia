@@ -1,0 +1,18 @@
+{
+  "type" : "ct_alta_metrocop",
+  "baseType" : "ct_alta_guard",
+  "levelVariance" : [3, 3],
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_alta_visor" } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear" } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters" } ],
+            "primary" : [ "ct_alta_scout_blaster" ],
+            "sheathedprimary" : [ "ct_alta_stun_stick" ]
+          }
+        ] ]
+    ]
+  }
+}

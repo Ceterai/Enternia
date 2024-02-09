@@ -1,0 +1,28 @@
+{
+  "type" : "ct_warped_merchant",
+  "baseType" : "ct_calline_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "gagnosehead" }
+            ],
+            "chest" : [
+              { "name" : "geodechest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "geodelegs", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "back" : [
+              { "name" : "ct_back_mimic", "parameters" : { "preset" : "warped_glowtail" } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "warped" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:warped" } }
+  }
+}

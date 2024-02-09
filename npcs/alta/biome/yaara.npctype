@@ -1,0 +1,28 @@
+{
+  "type" : "ct_yaara_merchant",
+  "baseType" : "ct_calline_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_mask", "colorIndex" : 8 } }
+            ],
+            "chest" : [
+              { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara_keeper", "colorIndex" : 8 } }
+            ],
+            "legs" : [
+              { "name" : "ct_legs_mimic", "parameters" : { "preset" : "yaara_keeper", "colorIndex" : 8 } }
+            ],
+            "back" : [
+              { "name" : "crystalbackpackback" }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "yaara" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:yaara" } }
+  }
+}

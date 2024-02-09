@@ -1,0 +1,34 @@
+{
+  "name" : "ct_alta_neon_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "neon" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_dancer",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "matchColorIndices" : false,
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : 10 } } ],
+                "chest" : [ { "name" : "ct_dreamer_chest", "parameters" : { "colorIndex" : 10 } } ],
+                "legs" : [ { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 1 } } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // crystals instead of pixels, prism shards
+}

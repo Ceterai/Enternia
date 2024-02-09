@@ -1,0 +1,19 @@
+{
+  "type" : "ct_alta_dancer",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "strapchest", "parameters" : { "colorIndex" : [ 0, 1, 0, 1, 8, 10 ] } } ],
+            "legs" : [ { "name" : "straplegs", "parameters" : { "colorIndex" : [ 0, 1, 0, 1, 8, 10 ] } } ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:dancer" }
+  }
+}

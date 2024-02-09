@@ -1,0 +1,28 @@
+{
+  "type" : "ct_alta_official",
+  "baseType" : "ct_alta_dancer",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "" ],
+            "chest" : [
+              { "name" : "ct_alta_official_jacket", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_official_jacket", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_official_skirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_official_tights", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_official_skirt", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } },
+              { "name" : "ct_alta_official_tights", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } }
+            ],
+            "back" : [ "" ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialog" : { "converse" : "/dialog/alta.config:official" }
+  }
+}

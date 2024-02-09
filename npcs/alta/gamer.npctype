@@ -1,0 +1,30 @@
+{
+  "type" : "ct_alta_gamer",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "teddyhead", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 11 ] } },
+              { "name" : "bunnyhead", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 11 ] } },
+              { "name" : "ct_alta_vr_headset", "parameters" : { "colorIndex" : 3 } },
+              { "name" : "ct_alta_vr_headset", "parameters" : { "colorIndex" : 3 } }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "back" : [ "" ]
+          }
+        ] ]
+    ]
+  }
+}

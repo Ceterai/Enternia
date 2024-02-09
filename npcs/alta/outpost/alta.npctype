@@ -1,0 +1,11 @@
+{
+  "type" : "ct_alta_outpost_visitor",
+  "baseType" : "ct_alta",
+  "scriptConfig" : {
+    "behavior" : "outpostvisitor",
+    "behaviorConfig" : { "stayTime" : [60, 180] },
+    "questGenerator" : { "pools" : [ ], "enableParticipation" : false, "chance" : 0.0, "graduation" : { "nextNpcType" : [ ] } },
+    "reactions" : { "spontaneous" : [ [1.0, "sit", { "timeRange" : [0.6,0.2]}], [1.0, "wander"] ] }
+  },
+  "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } }
+}

@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_security_android",
+  "baseType" : "ct_alta_android",
+  "levelVariance" : [4, 4],
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_alta_security_android_head" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legs" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

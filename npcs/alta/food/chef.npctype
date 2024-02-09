@@ -1,0 +1,20 @@
+{
+  "type" : "ct_alta_chef",
+  "baseType" : "ct_alta_artist",
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "", { "name" : "ct_head_mimic", "parameters" : { "preset" : "bandana", "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "ct_alta_social_top", "parameters" : { "colorIndex" : [ 3, 4 ] } } ],
+          "legs" : [ { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : [ 3, 4 ] } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 20, "poolsFile" : "/npcs/alta/food/shop.config", "categories" : { "default" : [ "chef", "ingredients" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:chef" } }
+  }
+}

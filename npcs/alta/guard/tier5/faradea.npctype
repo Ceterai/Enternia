@@ -1,0 +1,20 @@
+{
+  "type" : "ct_faradea_merc",
+  "baseType" : "ct_alta_lab_security",
+  "scriptConfig" : { "questGenerator" : { "pools" : ["common", "tenant", "shady"] } },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "bandithat1" ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "ct_ghearun_legwear", "parameters" : { "colorIndex" : 6 } } ],
+            "primary" : [ "ct_faradeus" ],
+            "sheathedprimary" : [ "npcshortsword" ],
+            "alt" : [ "ct_faradeus" ],
+            "sheathedalt" : [ { "name" : "ct_eds_shield", "parameters" : { "preset" : "faradea" } } ]
+          }
+        ] ]
+    ]
+  }
+}

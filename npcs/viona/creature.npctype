@@ -1,0 +1,148 @@
+{
+  "type" : "ct_viona_creature",
+  "baseType" : "ct_alta",
+  "identity" : { "name" : "" },
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : [ ], "graduation" : { "nextNpcType" : [ ] },
+      "timeLimit" : 0, "nearbyQuestLimit" : 0, "nearbyQuestRange" : 50, "questCountRange" : [0, 0], "chance" : 0.0
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          // Creepling
+          {
+            "head" : [ { "name" : "beachcreeperhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "chest" : [ { "name" : "beachcreeperchest", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "legs" : [ { "name" : "beachcreeperlegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ]
+          },
+          // Eyeball
+          {
+            "head" : [ { "name" : "eyeballhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "chest" : [ { "name" : "eyeballchest", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "legs" : [ { "name" : "eyeballlegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "back" : [ { "name" : "eyeballback", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ]
+          },
+          // Fish Creature
+          {
+            "head" : [ { "name" : "lagoonhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "chest" : [ { "name" : "lagoonchest", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ],
+            "legs" : [ { "name" : "lagoonpants", "parameters" : { "colorIndex" : [ 0, 1, 4, 7, 8, 9, 10 ] } } ]
+          },
+          // Skin Creature
+          {
+            "head" : [ { "name" : "anatomyhylotlhead", "parameters" : { "colorIndex" : [ 1, 7, 8, 9 ] } } ],
+            "chest" : [ { "name" : "anatomychest", "parameters" : { "colorIndex" : [ 1, 7, 8, 9 ] } } ],
+            "legs" : [ { "name" : "anatomylegs", "parameters" : { "colorIndex" : [ 1, 7, 8, 9 ] } } ]
+          },
+          // Cultist
+          {
+            "head" : [
+              { "name" : "cultisthead", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+              { "name" : "armoredcultisthead", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+              { "name" : "stargazer", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+              { "name" : "sensorysquidhathead", "parameters" : { "colorIndex" : [ 9, 1 ] } }
+            ],
+            "chest" : [
+              { "name" : "cultistchest", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+              { "name" : "armoredcultistchest", "parameters" : { "colorIndex" : [ 0, 1 ] } }
+            ],
+            "legs" : [
+              { "name" : "cultistlegs", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+              { "name" : "armoredcultistlegs", "parameters" : { "colorIndex" : [ 0, 1 ] } }
+            ],
+            "back" : [ "", "", { "name" : "armoredcultistback", "parameters" : { "colorIndex" : [ 0, 1 ] } } ]
+          },
+          // Hivebug
+          {
+            "head" : [ { "name" : "larvahead", "parameters" : { "colorIndex" : [ 0, 1, 9, 10 ] } } ],
+            "chest" : [ { "name" : "larvachest", "parameters" : { "colorIndex" : [ 0, 1, 9, 10 ] } } ],
+            "legs" : [ { "name" : "larvalegs", "parameters" : { "colorIndex" : [ 0, 1, 9, 10 ] } } ]
+          },
+          // Pengiant
+          {
+            "head" : [ { "name" : "penguinhead", "parameters" : { "colorIndex" : [ 1, 4, 9, 10 ] } } ],
+            "chest" : [ { "name" : "penguinchest", "parameters" : { "colorIndex" : [ 1, 4, 9, 10 ] } } ],
+            "legs" : [ { "name" : "penguinlegs", "parameters" : { "colorIndex" : [ 1, 4, 9, 10 ] } } ]
+          },
+          // Doctor
+          {
+            "head" : [ { "name" : "plaguemasterhead", "parameters" : { "colorIndex" : 1 } } ],
+            "chest" : [ { "name" : "merchantchest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "wizardlegs", "parameters" : { "colorIndex" : 1 } } ]
+          },
+          // Slime
+          {
+            "head" : [
+              { "name" : "bioluminhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "slimehead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } }
+            ],
+            "chest" : [ { "name" : "bioluminchest", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } } ],
+            "legs" : [ { "name" : "bioluminlegs", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } } ]
+          },
+          // Unknown Slender
+          {
+            "head" : [
+              { "name" : "eyehead2", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "alienskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "eyehead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "floranskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "goathead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "tarblob", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "doghathead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "dreadfulskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "causticstaghead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "cyclopsyetihead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } }
+            ],
+            "chest" : [ { "name" : "beachcreeperchest", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } } ],
+            "legs" : [ { "name" : "beachcreeperlegs", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } } ],
+            "back" : [
+              "", "", "", "", "", "",
+              { "name" : "jeffback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "turtleshellback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "woollyback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "eyeballback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } }
+            ]
+          },
+          // Unknown Bloater
+          {
+            "head" : [
+              { "name" : "eyehead2", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "alienskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "eyehead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "floranskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "goathead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "tarblob", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "doghathead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "dreadfulskullhead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "causticstaghead", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } }
+            ],
+            "chest" : [ { "name" : "buzzychest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "buzzylegs", "parameters" : { "colorIndex" : 1 } } ],
+            "back" : [
+              "", "", "", "", "", "",
+              { "name" : "jeffback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "turtleshellback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } },
+              { "name" : "woollyback", "parameters" : { "colorIndex" : [ 1, 4, 7, 8, 9, 10 ] } }
+            ]
+          },
+          // Unknown Slime 
+          {
+            "head" : [
+              { "name" : "slimehead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "bioluminhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "luchadorhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "icecubehead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "sensorysquidhathead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "tarhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } },
+              { "name" : "rockhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } }
+            ],
+            "chest" : [ { "name" : "slimechest", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } } ],
+            "legs" : [ { "name" : "slimelegs", "parameters" : { "colorIndex" : [ 1, 4, 5, 7, 8, 9, 10, 11 ] } } ]
+          }
+        ] ]
+    ]
+  }
+}

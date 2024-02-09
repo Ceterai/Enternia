@@ -81,7 +81,7 @@ function build(directory, config, parameters, level, seed)
     local a = abil_type .. "Ability"
     if config[a] and config[a].elementalConfig then util.mergeTable(config[a] or {}, config[a].elementalConfig[elementalType] or {}) end
   end
-  config.itemTags = getTags(configParameter("itemTags"), configParameter("race"), configParameter("rarity", "common"), elementalType)
+  config.itemTags = getTags(configParameter("itemTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
   config.radioMessagesOnPickup = getPickupMsgs(configParameter("radioMessagesOnPickup", {}), config.itemTags)
 
 

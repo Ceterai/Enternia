@@ -1,0 +1,50 @@
+{
+  "name" : "ct_alta_pirate_tenant",
+  "priority" : 15,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "avianairship" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_metrocop",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [
+                  "eyepatchhead", "buccaneerhead",
+                  { "name" : "bandithat1", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "eyepatchhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "tricornhat", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "buccaneerhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+                ],
+                "chest" : [
+                  "novakidsuspenders", "piratechest", "buccaneerchest",
+                  { "name" : "novakidsuspenders", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "piratechest", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "buccaneerchest", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+                ],
+                "legs" : [
+                  { "name" : "piratelegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "piratelegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+                  { "name" : "buccaneerlegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+                ],
+                "back" : [ "", "", "", "pirateback", "spearback" ],
+                "sheathedprimary" : [ "npcpistol", "npcshortsword" ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // crystals instead of pixels, prism shards
+}

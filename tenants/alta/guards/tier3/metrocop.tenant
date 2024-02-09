@@ -1,0 +1,22 @@
+{
+  "name" : "ct_alta_metrocop_tenant",
+  "priority" : 4,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "combat" : 4,
+    "alta_city" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_metrocop",
+      "level" : 3,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

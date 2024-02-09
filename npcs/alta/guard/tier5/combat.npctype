@@ -1,0 +1,17 @@
+{
+  "type" : "ct_combat_soldier",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_combat_mask", "ct_combat_mask_mk2" ],
+            "chest" : [ "ct_combat_chest" ],
+            "legs" : [ "ct_combat_legwear" ],
+            "primary" : [ "ct_alta_plasma_rifle" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}

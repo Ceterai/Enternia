@@ -1,0 +1,35 @@
+{
+  "name" : "ct_aqua_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "wave" : 18  // ocean, and sea for a swimmer, and island for a hula dancer
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_researcher",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [ { "name" : "ct_arco_rebreather", "parameters" : { "colorIndex" : 8 } } ],
+                "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 8 } } ],
+                "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+                "back" : [ { "name" : "ct_back_mimic", "parameters" : { "preset" : "breathing_pack" } } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

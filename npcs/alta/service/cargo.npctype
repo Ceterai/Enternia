@@ -1,0 +1,25 @@
+{
+  "type" : "ct_alta_cargo",
+  "baseType" : "ct_alta_servicer",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              "", { "name" : "ct_head_mimic", "parameters" : { "preset" : "comm_set", "colorIndex" : 3 } }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 3 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_artist_shorts" }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 12, "categories" : { "default" : [ "rare", "decor", "traps", "astromerchant" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:servicer" } }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type" : "ct_combat_android",
+  "baseType" : "ct_alta_lab_android",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_combat_android_head" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legs" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

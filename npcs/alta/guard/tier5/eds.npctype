@@ -1,0 +1,32 @@
+{
+  "type" : "ct_eds_security",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_eds_visor", "ct_eds_helmet", "ct_eds_helmet_mk2" ],
+            "chest" : [ "ct_eds_chest" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "ct_eds_mng" ],
+            "sheathedprimary" : [ "npcshortsword" ],
+            "alt" : [ "ct_eds_shield" ]
+          },
+          {
+            "head" : [ "ct_eds_visor", "ct_eds_helmet", "ct_eds_helmet_mk2" ],
+            "chest" : [ "ct_eds_chest" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy" } } ],
+            "sheathedprimary" : [ "ct_eds_claymore" ]
+          },
+          {
+            "head" : [ "ct_eds_visor", "ct_eds_helmet", "ct_eds_helmet_mk2" ],
+            "chest" : [ "ct_eds_chest" ],
+            "legs" : [ "ct_eds_legwear" ],
+            "primary" : [ "ct_eds_claymore" ],
+            "sheathedprimary" : [ { "name" : "ct_tool_mimic", "parameters" : { "preset" : "eds_heavy" } } ]
+          }
+        ] ]
+    ]
+  }
+}

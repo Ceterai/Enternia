@@ -1,0 +1,32 @@
+{
+  "type" : "ct_stardust_scout",
+  "baseType" : "ct_elite_guard",
+  "levelVariance" : [7, 10],
+  "disableWornArmor" : true,
+  "scriptConfig" : { "behaviorConfig" : { "leapWindup" : 0.45, "rangedAimTime" : 0.5 } },
+  "movementParameters" : { "mass" : 1.2, "runSpeed" : 16.0 },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_alta_scout_mask", "parameters" : { "upgraded" : true } } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear", "parameters" : { "upgraded" : true } } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters", "parameters" : { "upgraded" : true } } ],
+            "primary" : [ { "name" : "ct_protospear", "parameters" : { "upgraded" : true } } ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : { "baseValue" : 280.0 },
+      "maxEnergy" : { "baseValue" : 160.0 },
+      "powerMultiplier" : { "baseValue" : 1.2 },
+      "protection" : { "baseValue" : 1.0 },
+      "healthRegen" : { "baseValue" : 0.05 },
+      "energyRegenPercentageRate" : { "baseValue" : 1.5 },
+      "electricStatusImmunity" : { "baseValue" : 1.0 },
+      "electricResistance" : { "baseValue" : 0.20 }
+    }
+  }
+}

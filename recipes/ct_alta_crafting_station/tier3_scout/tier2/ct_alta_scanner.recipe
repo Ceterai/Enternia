@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_scanner", "count" : 1 },
+  "groups" : [ "alta_t1+", "tier3_scout", "tool", "all" ]
+}

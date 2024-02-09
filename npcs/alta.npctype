@@ -1,0 +1,194 @@
+{
+  "type" : "ct_alta",
+  "baseType" : "base",
+
+  "persistent" : true,
+  "disableWornArmor" : false,
+  "damageTeamType" : "friendly",
+
+  "identity" : { "gender" : "female" },
+
+  "scriptConfig" : {
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : "/dialog/alta.config:tagCriteria",
+          "enclosedArea" : "/dialog/alta.config:enclosedArea",
+          "otherDeed" : "/dialog/alta.config:otherDeed",
+          "severe" : "/dialog/alta.config:severe",
+          "final" : "/dialog/alta.config:final"
+        },
+        "arrivedHome" : {
+          "beacon" : "/dialog/alta.config:beacon",
+          "rent" : "/dialog/alta.config:rent"
+        }
+      },
+      "crewmember" : {
+        "offer" : "/dialog/alta.config:offer",
+        "roleDescription" : "/dialog/alta.config:role",
+        "respawned" : "/dialog/alta.config:respawned",
+        "unfollow" : "/dialog/alta.config:unfollow",
+        "follow" : "/dialog/alta.config:onfollow",
+        "cantreach" : "/dialog/alta.config:cantreach"
+      },
+      "merchant" : {
+        "start" : "/dialog/alta.config:start",
+        "end" : "/dialog/alta.config:end",
+        "follow" : "/dialog/alta.config:follow",
+        "welcome" : "/dialog/alta.config:welcome",
+        "tout" : "/dialog/alta.config:tout"
+      },
+      "flee" : {
+        "helpme" : "/dialog/alta.config:helpme",
+        "helpthem" : "/dialog/alta.config:helpthem",
+        "encourage" : "/dialog/alta.config:encourage",
+        "safe" : "/dialog/alta.config:safe"
+      },
+      "greeting" : "/dialog/alta.config:greeting",
+      "accuse" : "/dialog/alta.config:accuse",
+      "alert" : "/dialog/alta.config:alert",
+      "converse" : "/dialog/alta.config:converse",
+      "hail" : "/dialog/alta.config:hail",
+
+      "attack" : "/dialog/alta.config:attack",
+      "reattack" : "/dialog/alta.config:reattack",
+      "killedTarget" : "/dialog/alta.config:killedTarget",
+      "lostTarget" : "/dialog/alta.config:lostTarget",
+      "outOfSight" : "/dialog/alta.config:outOfSight",
+      "cheerOn" : "/dialog/alta.config:cheerOn",
+      "cantReach" : "/dialog/alta.config:cantReach"
+    },
+
+    "behavior" : "villager",
+    "behaviorConfig" : {
+      "leapWindup" : 0.75,
+      "questFollowerRunSpeed" : 14,
+      "greetingChance" : 0.3,
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "chatSounds" : {
+      "alta" : { "female" : [ "/sfx/humanoid/human_chatter_female1.ogg", "/sfx/humanoid/human_chatter_female2.ogg", "/sfx/humanoid/human_chatter_female3.ogg" ], "male" : [ ] },
+      "default" : { "female" : [ "/sfx/npc/boss/swansong_rocket_target.ogg" ], "male" : [ ] }
+    },
+    "combat" : {
+      "meleeWeaponWindups" : {
+        "default" : 0.45,
+        "broadsword" : 0.45,
+        "dagger" : 0.3,
+        "axe" : 0.45,
+        "hammer" : 0.6,
+        "shortsword" : 0.35,
+        "spear" : 0.55
+      },
+      "meleeWeaponCooldowns" : {
+        "default" : 1.0,
+        "broadsword" : 1.7,
+        "dagger" : 0.7,
+        "axe" : 1.4,
+        "hammer" : 2.0,
+        "shortsword" : 1.0,
+        "spear" : 1.4
+      }
+    },
+
+    "tenant" : {
+      "emoteCooldownTimeRange" : [1.0, 2.0],
+      "complaintCooldownTimeRange" : [5.0, 10.0],
+      "severeComplaintTime" : 25.0,
+      "finalComplaintTime" : 55.0
+    },
+    "questGenerator" : {
+      "pools" : [ "common", "tenant", "hats" ],
+      "enableParticipation" : true,
+      // Every 30 seconds, decide whether to generate a quest and if so, spend the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+      // Don't gen new quests if there are already more than <nearbyQuestLimit> questmanager stagehands nearby within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      "chance" : 0.02,
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmember"],
+          [0.25, "crewmemberchemistblue"],
+          [0.25, "crewmemberchemistgreen"],
+          [0.25, "crewmemberchemistyellow"],
+          [0.25, "crewmemberchemistorange"],
+          [1, "crewmemberengineer"],
+          [1, "crewmembermechanic"],
+          [1, "crewmembermedic"],
+          [1, "crewmemberjanitor"],
+          [1, "crewmembertailor"]
+        ]
+      }
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6, 0.2]}],
+        [1.0, "wander"]  // [1.0, "wander", { "timeRange" : [0.2, 0.6] }]
+      ]
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      // 0,     1,      2,      3,      4,      5,      6,      7,      8,      9,      10,    11
+      // BLUE,  BLACK,  GREY,   WHITE,  RED,    ORANGE, YELLOW, GREEN,  BLUE,   PURPLE, PINK,  BROWN
+      // DEF,   LIME,   TEAL,   CYAN,   RED,    ORANGE, YELLOW, GREEN,  BLUE,   PURPLE, PINK,  CRYSTAL
+      [0, [
+        {
+          "head" : [
+            "", "", "", "", "", "", "", "",
+            { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } },
+            { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : [ 3, 8, 11 ] } },
+            { "name" : "ct_alta_respiratory_mask", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_respiratory_mask", "parameters" : { "colorIndex" : [ 0, 1 ] } },
+            { "name" : "ct_alta_respiratory_mask_colorful", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } },
+            { "name" : "glasses1head", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] } },
+            { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower", "colorIndex" : [ 0, 8, 9, 10 ] } },
+            { "name" : "ct_head_mimic", "parameters" : { "preset" : "felistraza", "colorIndex" : 0 } },
+            { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower_crown", "colorIndex" : 0 } }
+          ],
+          "chest" : [
+            { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : [ 0, 8, 10 ] } },
+            { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : [ 0, 8 ] } }
+          ],
+          "legs" : [
+            { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+            { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 8 ] } },
+            { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : 0 } }
+          ],
+          "back" : [
+            "", "", "", "", "", "", { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+          ]
+        }
+      ] ]
+    ]
+  },
+
+  "dropPools" : [],
+
+  "statusControllerSettings" : {
+    "appliesWeatherStatusEffects" : false,
+    "minimumLiquidStatusEffectPercentage" : 0.25,
+    "stats" : {
+      "maxHealth" : { "baseValue" : 80.0 },
+      "maxEnergy" : { "baseValue" : 60.0 },
+      "powerMultiplier" : { "baseValue" : 1.0 },
+      "protection" : { "baseValue" : 0.0 },
+      "healthRegen" : { "baseValue" : 0.05 },
+      "energyRegenPercentageRate" : { "baseValue" : 1.5 },
+      "electricStatusImmunity" : { "baseValue" : 1.0 },
+      "electricResistance" : { "baseValue" : 0.20 }
+    }
+  }
+}

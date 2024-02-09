@@ -100,12 +100,13 @@
     },
     "stardust" : {
       "shortdescription" : "Faceless Mask ^#8020f0;^reset;", "itemTags" : [ "tier6armour" ], "level" : 6, "rarity" : "Legendary", "colorIndex" : 9,
-      "description" : "A mask of an unknown alta, presumably a spacedrifter, one of many who used stardust to fuel their artifacts such as this one.",
+      "description" : "A mask of an unknown alta, presumably a spacedrifter, one of many who used stardust to fuel their artifacts, like this one. Has built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "This unique model of a combat mask is made from a different composite of materials, and has a tiny visor opening for better defence.",
       "altaDescription" : "That small, tiny point of a vir, can see and capture your every move...", "alkey" : "Neva Nit", "price" : 1060,
+      "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
       "paletteSwap" : {"#606074":"#4c5064","#404050":"#383c50","#2c2c34":"#24283c","#101014":"#101428",
       "#106890":"#24283c","#1090c0":"#383c50","#10b4ef":"#4c5064"},
-      "statusEffects" : [ "ct_emergency_healer" ],
+      "statusEffects" : [ "ct_emergency_healer", { "stat" : "breathProtection", "amount" : 1.0 } ],
       "leveledStatusEffects" : [
         { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.175 },
         { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },

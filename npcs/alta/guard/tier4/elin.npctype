@@ -1,0 +1,17 @@
+{
+  "type" : "ct_elin_guard",
+  "baseType" : "ct_alta_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_elin_helmet" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+            "primary" : [ "ct_elin_drone" ],
+            "sheathedprimary" : [ "ct_alta_impulse_rifle_mk2" ]
+          }
+        ] ]
+    ]
+  }
+}

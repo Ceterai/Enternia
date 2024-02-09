@@ -1,0 +1,53 @@
+{
+  "name" : "ct_alta_capital_tenant",
+  "priority" : 4,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta_capital" : 8  // pastel, prism, colourful
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "head" : [
+                  "", "", "", "", "", "", "", "",
+                  { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : [ 3, 10, 11 ] } },
+                  { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : [ 3, 10, 11 ] } },
+                  { "name" : "ct_alta_respiratory_mask", "parameters" : { "colorIndex" : [ 0, 10 ] } },
+                  { "name" : "ct_alta_respiratory_mask_colorful", "parameters" : { "colorIndex" : [ 3, 11 ] } },
+                  { "name" : "glasses1head", "parameters" : { "colorIndex" : [ 0, 8, 10 ] } },
+                  { "name" : "ct_head_mimic", "parameters" : { "prefix" : "flower", "colorIndex" : [ 0, 8, 10 ] } }
+                ],
+                "chest" : [
+                  { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+                  { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : [ 0, 8, 10 ] } },
+                  { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 0 } },
+                  { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : [ 3, 8, 10 ] } }
+                ],
+                "legs" : [
+                  { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+                  { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+                  { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : [ 3, 8, 10 ] } },
+                  { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : [ 3, 8, 10 ] } }
+                ],
+                "back" : [
+                  "", "", "", "", { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : 0 } }
+                ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

@@ -1,0 +1,16 @@
+{
+  "type" : "ct_arco_android",
+  "baseType" : "ct_alta_lab_android",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_arco_android_head" } ],
+            "chest" : [ { "name" : "ct_arco_chest" } ],
+            "legs" : [ { "name" : "ct_arco_legs" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

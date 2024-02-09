@@ -1,0 +1,47 @@
+{
+  "name" : "ct_alta_outpost_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "outpost" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_outpost_visitor",
+      "overrides" : {
+        "questGenerator" : { 
+          "pools" : [ "common", "tenant", "hats" ],
+          "enableParticipation" : true,
+          "chance" : 0.02,
+          "graduation" : {
+            "nextNpcType" : [
+              [1, "crewmember"],
+              [0.25, "crewmemberchemistblue"],
+              [0.25, "crewmemberchemistgreen"],
+              [0.25, "crewmemberchemistyellow"],
+              [0.25, "crewmemberchemistorange"],
+              [1, "crewmemberengineer"],
+              [1, "crewmembermechanic"],
+              [1, "crewmembermedic"],
+              [1, "crewmemberjanitor"],
+              [1, "crewmembertailor"]
+            ]
+          }
+        },
+        "reactions" : {
+          "spontaneous" : [
+            [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+            [1.0, "sit", { "timeRange" : [0.6, 0.2]}],
+            [1.0, "wander"]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

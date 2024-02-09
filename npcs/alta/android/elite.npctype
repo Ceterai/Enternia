@@ -1,0 +1,17 @@
+{
+  "type" : "ct_elite_android",
+  "baseType" : "ct_alta_lab_android",
+  "levelVariance" : [6, 6],
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_elite_android_head" } ],
+            "chest" : [ { "name" : "ct_elite_chest" } ],
+            "legs" : [ { "name" : "ct_elite_legs" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}

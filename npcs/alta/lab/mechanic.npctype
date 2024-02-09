@@ -1,0 +1,30 @@
+{
+  "type" : "ct_alta_mechanic",
+  "baseType" : "ct_alta_engineer",
+  "scriptConfig" : {
+    "questGenerator" : { "graduation" : { "nextNpcType" : [ [1, "crewmembermechanic"] ] } },
+    "merchant" : { "categories" : { "default" : [ "mech" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:mechanic" } }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_eds_visor", "parameters" : { "colorIndex" : 3 } },
+              { "name" : "ct_alta_industrial_helmet", "parameters" : { "colorIndex" : 3 } },
+              { "name" : "ct_alta_industrial_collar", "parameters" : { "colorIndex" : 3 } },
+              { "name" : "ct_alta_respiratory_mask", "parameters" : { "colorIndex" : 3 } },
+              { "name" : "ct_alta_respiratory_mask_colorful", "parameters" : { "colorIndex" : 3 } }
+            ],
+            "chest" : [
+              { "name" : "ct_combat_chest", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "ct_eds_legwear", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

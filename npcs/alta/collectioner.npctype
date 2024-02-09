@@ -1,0 +1,25 @@
+{
+  "type" : "ct_alta_collectioner",
+  "baseType" : "ct_alta_artist",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "berethead", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "smartchest", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "legs" : [
+              { "name" : "smartpants", "parameters" : { "colorIndex" : 2 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 8, "buyFactorRange" : [ 3.0, 5.0 ], "categories" : { "default" : [ "collect" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:collectioner" } }
+  }
+}

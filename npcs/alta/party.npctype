@@ -1,0 +1,41 @@
+{
+  "type" : "ct_alta_party",
+  "baseType" : "ct_alta_artist",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "coolshadeshead" }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : 0 } }
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "coolshadeshead" }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : 7 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "toys", "plushies", "party", "music" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:party" } }
+  }
+}

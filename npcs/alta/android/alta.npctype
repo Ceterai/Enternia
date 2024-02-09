@@ -1,0 +1,30 @@
+{
+  "type" : "ct_alta_android",
+  "baseType" : "ct_alta",
+  "levelVariance" : [3, 3],
+  "identity" : { "name" : "" },
+  "scriptConfig" : {
+    "behavior" : "guard",
+    "behaviorConfig" : { "greetingChance" : 0.0, "patrolTime" : 3 },
+    "questGenerator" : {
+      "pools" : [ ], "graduation" : { "nextNpcType" : [ ] },
+      "timeLimit" : 0, "nearbyQuestLimit" : 0, "nearbyQuestRange" : 50, "questCountRange" : [0, 0], "chance" : 0.0
+    },
+    "personalities" : [ [1.0, { "personality" : "normal", "reactions" : {} }] ],
+    "reactions" : { "spontaneous" : [ [1.0, "patrol"] ] }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_protohelmet" } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear" } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters" } ],
+            "primary" : [ "ct_protospear" ]
+          }
+        ] ]
+    ]
+  },
+  "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } }
+}

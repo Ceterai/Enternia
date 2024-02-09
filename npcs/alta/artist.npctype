@@ -1,0 +1,37 @@
+{
+  "type" : "ct_alta_artist",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              "", "",
+              { "name" : "ct_head_mimic", "parameters" : { "preset" : "scarf", "colorIndex" : 0 } }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_artist_croptop", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_artist_croptop", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_artist_sweater", "parameters" : { "colorIndex" : 0 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : 0 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behavior" : "merchant",
+    "behaviorConfig" : { "noticePlayersRadius" : 20 },
+    "questGenerator" : { "pools" : ["common", "tenant", "merchant"], "graduation" : { "nextNpcType" : [ [1, "crewmembertailor"] ] } },
+    "merchant" : {
+      "waitTime" : 40, "storeRadius" : 16, "poolsFile" : "/npcs/alta/shop.config", "buyFactorRange" : [ 1.8, 2.4 ], "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 16, "categories" : { "default" : [ "art", "plushies", "designer", "music" ] }
+    },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:artist" } }
+  }
+}

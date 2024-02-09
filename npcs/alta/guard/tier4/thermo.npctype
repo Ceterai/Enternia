@@ -1,0 +1,27 @@
+{
+  "type" : "ct_thermo_soldier",
+  "baseType" : "ct_alta_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_eds_helmet", "parameters":{"preset":"koywa"} }, { "name" : "ct_combat_mask_mk2", "parameters":{"preset":"koywa"} } ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters":{"preset":"koywa"} } ],
+            "legs" : [ { "name" : "ct_eds_legwear", "parameters":{"preset":"koywa"} } ],
+            "back" : [ { "name" : "ct_dreamer_enhancer", "parameters":{"preset":"koywa"} } ],
+            "primary" : [ "ct_eds_mng" ],
+            "sheathedprimary" : [ "npcshortsword" ],
+            "alt" : [ { "name" : "ct_ioncore_shield", "parameters":{"preset":"koywa"} } ]
+          },
+          {
+            "head" : [ { "name" : "ct_eds_helmet", "parameters":{"preset":"koywa"} }, { "name" : "ct_combat_mask_mk2", "parameters":{"preset":"koywa"} } ],
+            "chest" : [ { "name" : "ct_eds_chest", "parameters":{"preset":"koywa"} } ],
+            "legs" : [ { "name" : "ct_eds_legwear", "parameters":{"preset":"koywa"} } ],
+            "back" : [ { "name" : "ct_dreamer_enhancer", "parameters":{"preset":"koywa"} } ],
+            "primary" : [ "flamethrower" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ]
+    ]
+  }
+}

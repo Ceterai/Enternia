@@ -1,0 +1,28 @@
+{
+  "type" : "ct_alta_researcher",
+  "baseType" : "ct_alta_official",
+  "scriptConfig" : {
+    "questGenerator" : {
+      "graduation" : {
+        "nextNpcType" : [
+          [0.25, "crewmemberchemistblue"],
+          [0.25, "crewmemberchemistgreen"],
+          [0.25, "crewmemberchemistyellow"],
+          [0.25, "crewmemberchemistorange"]
+        ]
+      }
+    },
+    "dialog" : { "converse" : "/dialog/alta.config:science" }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "", { "name" : "ct_alta_visor" } ],  // ct_alta_science_ocular ct_alta_science_pack ct_arco_protector
+            "chest" : [ { "name" : "ct_alta_researcher_coat" } ],
+            "legs" : [ { "name" : "ct_alta_researcher_skirt" } ]
+          }
+        ] ]
+    ]
+  }
+}

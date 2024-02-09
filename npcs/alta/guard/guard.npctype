@@ -1,0 +1,141 @@
+{
+  "type" : "ct_alta_guard",
+  "baseType" : "ct_alta",
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+    "behaviorConfig" : { "greetingChance" : 0.0, "patrolTime" : 3 },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "idleTimeRange" : [1, 2],
+    "questGenerator" : {
+      "pools" : ["common", "tenant", "guard"],
+      "graduation" : { "nextNpcType" : [ [1, "crewmember"] ] }
+    },
+    "personalities" : [ [1.0, { "personality" : "normal", "reactions" : {} }] ],
+    "reactions" : { "spontaneous" : [ [5.0, "sleep", { "timeRange" : [0.7, 0.9] }], [1.0, "patrol"] ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:official" }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "humantier1head", "parameters" : { "colorIndex" : 0 } } ],
+            "chest" : [ { "name" : "humantier1chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "humantier1pants", "parameters" : { "colorIndex" : [ 0, 1 ] } } ],
+            "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "ct_alta_visor" } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear" } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters" } ],
+            "primary" : [ "ct_alta_scout_blaster" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "ct_alta_scout_mask" } ],
+            "chest" : [ { "name" : "ct_alta_scout_lightwear" } ],
+            "legs" : [ { "name" : "ct_alta_scout_velocity_eaters" } ],
+            "primary" : [ "ct_protospear" ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "ct_alta_security_helmet" }, { "name" : "ct_alta_security_helmet_mk2" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+            "back" : [ { "name" : "ct_alta_security_pack" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ],
+            "sheathedprimary" : [ "ct_alta_stun_stick" ]
+          },
+          {
+            "head" : [ { "name" : "ct_alta_security_captain_helmet" } ],
+            "chest" : [ { "name" : "ct_alta_security_chest" } ],
+            "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+            "primary" : [ "ct_alta_security_drone" ],
+            "sheathedprimary" : [ "ct_alta_impulse_rifle_mk2" ]
+          }
+        ] ],
+      [5, [  // Orange-blue colors (5 and 8), combat armor and eds armor separately
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          },
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ],
+      [6, [  // Elite armor
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ],
+      [7, [  // Alternia armor
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          },
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ],
+      [8, [  // Ghearun armor in star colors (mostly)
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          },
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ],
+      [9, [  // Spacedrifters
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ],
+      [10, [  // ???
+          {
+            "head" : [ { "name" : "ct_combat_helmet" } ],
+            "chest" : [ { "name" : "ct_combat_chest" } ],
+            "legs" : [ { "name" : "ct_combat_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle_mk2" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}

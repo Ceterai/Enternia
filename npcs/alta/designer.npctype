@@ -1,0 +1,28 @@
+{
+  "type" : "ct_alta_designer",
+  "baseType" : "ct_alta_artist",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "sunglasses1head", "parameters" : { "colorIndex" : 0 } },
+              { "name" : "winterscarfhead", "parameters" : { "colorIndex" : [ 1, 9 ] } },
+              { "name" : "berethead", "parameters" : { "colorIndex" : [ 1, 9 ] } }
+            ],
+            "chest" : [
+              { "name" : "coolchest", "parameters" : { "colorIndex" : [ 0, 1, 2 ] } }
+            ],
+            "legs" : [
+              { "name" : "coollegs", "parameters" : { "colorIndex" : [ 0, 1, 2 ] } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "questGenerator" : { "graduation" : { "nextNpcType" : [ [1, "crewmembertailor"] ] } },
+    "merchant" : { "numItems" : 20, "categories" : { "default" : [ "designer", "clothes", "humanclothes" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:designer" } }
+  }
+}

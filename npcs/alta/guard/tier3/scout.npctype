@@ -1,0 +1,54 @@
+{
+  "type" : "ct_alta_scout",
+  "baseType" : "ct_alta",
+  "levelVariance" : [3, 3],
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+    "behaviorConfig" : { "greetingChance" : 0.67, "patrolTime" : 3 },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+    "idleTimeRange" : [1, 2],
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "graduation" : { "nextNpcType" : [ [1, "crewmember"], [0.5, "crewmemberengineer"], [0.5, "crewmembermechanic"] ] }
+    },
+    "personalities1" : [
+      [1.0, { "personality" : "cheerful", "reactions" : {} }],
+      [1.0, { "personality" : "jerk", "reactions" : {} }],
+      [1.0, { "personality" : "flirty", "reactions" : {} }],
+      [1.0, { "personality" : "anxious", "reactions" : {} }],
+      [1.0, { "personality" : "easilyspooked", "reactions" : {} }],
+      [1.0, { "personality" : "clumsy", "reactions" : {} }],
+      [1.0, { "personality" : "excited", "reactions" : {} }],
+      [1.0, { "personality" : "intrusive", "reactions" : {} }],
+      [1.0, { "personality" : "dumb", "reactions" : {} }],
+      [1.0, { "personality" : "emo", "reactions" : {} }],
+      [1.0, { "personality" : "fast", "reactions" : {} }],
+      [1.0, { "personality" : "nocturnal", "reactions" : {} }],
+      [1.0, { "personality" : "socialite", "reactions" : {} }],
+      [1.0, { "personality" : "ambitious", "reactions" : {} }],
+      [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6, 0.2]}],
+        [1.0, "wander"],
+        [2.0, "patrol"]
+      ]
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_alta_scout_mask", "ct_alta_scout_mask", "ct_alta_scout_mask", "" ],
+            "chest" : [ "ct_alta_scout_lightwear" ],
+            "legs" : [ "ct_alta_scout_velocity_eaters" ],
+            "primary" : [ "ct_protospear" ]
+          }
+        ] ]
+    ]
+  }
+}

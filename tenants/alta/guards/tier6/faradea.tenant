@@ -1,0 +1,23 @@
+{
+  "name" : "ct_faradea_scavenger_tenant",
+  "priority" : 8,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "combat" : 12,
+    "legendary" : 6,
+    "faradea" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_faradea_scavenger",
+      "level" : 6,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

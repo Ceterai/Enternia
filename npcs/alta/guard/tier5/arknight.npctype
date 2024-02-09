@@ -1,0 +1,18 @@
+{
+  "type" : "ct_arknight",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_alta_protective_collar", "ct_alta_visor" ],
+            "chest" : [ { "name" : "ct_combat_chest", "parameters" : { "preset" : "light" } } ],
+            "legs" : [ { "name" : "ct_combat_legwear", "parameters" : { "preset" : "light" } } ],
+            "back" : [ { "name" : "simplecapeback", "parameters" : { "colorIndex" : 3 } } ],
+            "primary" : [ "ct_sky_lance" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ]
+    ]
+  }
+}

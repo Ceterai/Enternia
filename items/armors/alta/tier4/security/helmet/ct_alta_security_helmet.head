@@ -70,9 +70,10 @@
   "presets" : {
     "stardust" : {
       "shortdescription" : "GR \"Animus\" ^#8020f0;^reset;", "itemTags" : [ "tier6armour" ], "price" : 1060, "level" : 6, "rarity" : "Legendary",
-      "description" : "A high-tech enternia artifact that hides unknown power. And your face with it.",
+      "description" : "A high-tech enternia artifact that hides unknown power. And your face with it.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with enternia, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus",
+      "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
       "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
         "#383c50":"#c060fc","#24283c":"#8020f0","#101428":"#5000c0"},
       "colorOptions" : [
@@ -89,7 +90,7 @@
         { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
         { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
       ],
-      "statusEffects" : [ "ct_energy_generator" ],
+      "statusEffects" : [ "ct_energy_generator", { "stat" : "breathProtection", "amount" : 1.0 } ],
       "leveledStatusEffects" : [
         { "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier", "stat" : "powerMultiplier", "baseMultiplier" : 1.18 },
         { "levelFunction" : "standardArmorLevelProtectionMultiplier", "stat" : "protection", "amount" : 0.3 },

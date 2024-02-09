@@ -1,0 +1,21 @@
+{
+  "type" : "ct_elite_guard",
+  "baseType" : "ct_alta_guard",
+  "levelVariance" : [6, 6],
+  "scriptConfig" : { "behaviorConfig" : { "leapWindup" : 0.5, "rangedAimTime" : 0.6 } },
+  "movementParameters" : { "mass" : 1.2, "runSpeed" : 16.0 },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "ct_elite_helmet" ],
+            "chest" : [ "ct_elite_chest" ],
+            "legs" : [ "ct_elite_legwear" ],
+            "back" : [ "ct_elite_protector" ],
+            "primary" : [ "ct_alta_plasma_rifle", "ct_alta_impulse_rifle_mk2", "ct_pulsar" ],
+            "sheathedprimary" : [ "ct_elite_stunner" ]
+          }
+        ] ]
+    ]
+  }
+}

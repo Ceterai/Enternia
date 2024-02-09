@@ -1,0 +1,28 @@
+{
+  "type" : "ct_calline_merchant",
+  "baseType" : "ct_alta_artist",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "thinkingcaphead", "parameters" : { "colorIndex" : [ 4, 5, 6, 7, 8, 9, 10 ] } }
+            ],
+            "chest" : [
+              { "name" : "geodechest", "parameters" : { "colorIndex" : [ 4, 5, 6, 7, 8, 9, 10 ] } }
+            ],
+            "legs" : [
+              { "name" : "geodelegs", "parameters" : { "colorIndex" : [ 4, 5, 6, 7, 8, 9, 10 ] } }
+            ],
+            "back" : [
+              { "name" : "crystalbackpackback", "parameters" : { "colorIndex" : [ 4, 5, 6, 7, 8, 9, 10 ] } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 16, "poolsFile" : "/npcs/alta/biome/shop.config", "categories" : { "default" : [ "crystals" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:crystal" } }
+  }
+}

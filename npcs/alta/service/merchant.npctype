@@ -1,0 +1,31 @@
+{
+  "type" : "ct_alta_merchant",
+  "baseType" : "ct_alta_agent",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_alta_respiratory_mask_colorful", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "back" : [
+              { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 11 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 16, "categories" : { "default" : [
+      "aid", "shop", "thrown", "robotics", "augments", "collars", "sets", "shields", "tools", "armor", "decor", "randomguns", "randomswords", "codex", "rare"
+    ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:tout" } }
+  }
+}

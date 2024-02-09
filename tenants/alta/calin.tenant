@@ -1,0 +1,32 @@
+{
+  "name" : "ct_alta_calin_tenant",
+  "priority" : 3,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "calin" : 8
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta",
+      "overrides" : {
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
+        "items" : {
+          "override" : [
+            [0, [
+              {
+                "chest" : [ { "name" : "ct_body_mimic", "parameters" : { "preset" : "calin_dress" } } ],
+                "legs" : [ { "name" : "ct_legs_mimic", "parameters" : { "preset" : "calin_dress" } } ]
+              }
+            ] ]
+          ]
+        }
+      }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+}

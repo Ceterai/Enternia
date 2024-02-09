@@ -1,0 +1,19 @@
+{
+  "type" : "ct_faradea_legend",
+  "baseType" : "ct_stardust_scout",
+  "scriptConfig" : { "questGenerator" : { "pools" : ["common", "tenant", "shady"] } },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "bandithat1", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "ct_ceterai_chest", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "ct_ceterai_legwear", "parameters" : { "colorIndex" : 6 } } ],
+            "back" : [ { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 6 } } ],
+            "primary" : [ "ct_faradea_scavenger" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}

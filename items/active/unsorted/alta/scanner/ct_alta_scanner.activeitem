@@ -1,0 +1,25 @@
+{
+  "itemName" : "ct_alta_scanner",
+  "shortdescription" : "Alta Scanner",
+  "description" : "A compact scanner made by altas, that's able to provide extensive information about various items.",
+  "longdescription" : "Supported by a powerful database, you're basically holding an encyclopedia of the world in your hands.",
+  "altaDescription" : "Look, sis! I've scanned a scanner with another scanner and that scanner got scanned by the scanner I used to scan this scanner! What would I do without it?",
+
+  "level" : 3, "price" : 480, "rarity" : "Uncommon",
+  "tooltipKind" : "ct_alta_item_long", "race" : "alta",
+  "category" : "tool", "maxStack" : 1,
+  "inventoryIcon" : "icon.png",
+  "itemTags" : [ "scanner" ],
+
+  "scripts" : [ "logic.lua" ],
+  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "wiki" : {
+    "aliases" : { "Scanner" : { } },
+    "images" : [
+      "images/items/scanner1.png", "images/items/scanner2.png",
+      "images/ui/scanner1.png", "images/ui/scanner2.png", "images/ui/scanner3.png", "images/ui/scanner4.png", "images/ui/scanner5.png",
+      "images/ui/scanner6.png", "images/ui/scanner7.png", "images/ui/scanner8.png", "images/ui/scanner9.png"
+    ]
+  },
+  "alkey" : "Picoi"
+}

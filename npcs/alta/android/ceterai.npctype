@@ -1,0 +1,16 @@
+{
+  "type" : "ct_ceterai_android",
+  "baseType" : "ct_elite_android",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_ceterai_android_head" } ],
+            "chest" : [ { "name" : "ct_ceterai_chest" } ],
+            "legs" : [ { "name" : "ct_ceterai_legs" } ],
+            "primary" : [ "ct_alta_impulse_rifle" ]
+          }
+        ] ]
+    ]
+  }
+}
