@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_laptop",
-  "colonyTags" : [ "alta", "knowledge", "electronic", "wired" ],
+  "colonyTags" : [ "knowledge", "electronic", "wired" ],
   "category" : "decorative",
   "level" : 3, "rarity" : "Uncommon", "price" : 140,
   "race" : "alta",
@@ -18,35 +18,33 @@
   "hylotlDescription" : "A basic computer.",
   "novakidDescription" : "It's a computer screen.",
 
+  "lightColor" : [0, 80, 192],
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "beamAmbience" : 0.4,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_alta_laptop.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
-      "spaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1] ],
-      "anchors" : [ "bottom" ]
-    }
+    { "image" : "ct_alta_laptop.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "lightPosition" : [1, 0], "direction" : "left", "flipImages" : true, "beamAngle" : 150 },
+    { "image" : "ct_alta_laptop.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right", "beamAngle" : 30 }
   ],
 
-  "scripts" : [ "/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua", "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 5,
+  "outputNodes" : [ [0, 0] ],
 
-  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animation" : "/objects/alta/switch.animation",
   "animationCustom" : {
     "sounds" : {
       "on" : [ "/sfx/objects/console_generic_switchon.ogg" ],
       "off" : [ "/sfx/objects/console_generic_switchoff.ogg" ]
     }
   },
-  "animationParts" : { "switch" : "ct_alta_laptop.png" },
-  "animationPosition" : [-8, 0],
-
-  "outputNodes" : [ [0, 0] ],
+  "animationParts" : { "body" : "ct_alta_laptop.png:" },
 
   "npcToy": {
     "ownerOnly" : true,
-    "influence" : [ "wallbutton" ],
+    "influence" : [ "wallswitch" ],
     "defaultReactions" : {},
     "preciseStandPositionLeft" : [-1.0, 0.0],
     "preciseStandPositionRight" : [1.0, 0.0],

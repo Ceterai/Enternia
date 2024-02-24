@@ -16,18 +16,13 @@
     {"op":"add","path":"/displayWeathers/ct_stardust_fall","value":{"displayName":"Stardust Fall","icon":"/interface/cockpit/weather/ct_stardust_fall.png"}},
     {"op":"add","path":"/displayWeathers/ct_stardust_storm","value":{"displayName":"Stardust Storm","icon":"/interface/cockpit/weather/ct_stardust_storm.png"}},
     {"op":"add","path":"/displayWeathers/ct_orbital_strike","value":{"displayName":"Orbital Strike","icon":"/interface/cockpit/weather/ct_orbital_strike.png"}},
-    // Deprecated values (up for removal - no need to translate/modify)
     {"op":"add","path":"/planetTypeNames/ctforest","value":"Old Enternia"},
     {"op":"add","path":"/planetTypeColors/ctforest","value":[110,32,240]},
     {"op":"add","path":"/visitableTypeDescription/ctforest","value":["This planet was once overrun with ^#0087ff;Enternia^reset;. Perhaps you should find a new one."]}
   ],
-  // Mod Support for More Planet Info (see mod description)
+  // Mod Support for More Planet Info (see mod description) - generated usings these scripts: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts
   [
     {"op":"test","path":"/displayEnvironmentStatusEffects"},
-    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_electricdamageboost","value":{"displayName":"Electric Damage x1.2","icon":"/stats/effects/ct_analyzed.png"}},
-    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_electricdamageboostaugment","value":{"displayName":"Electric Damage x1.5","icon":"/stats/effects/ct_analyzed.png"}},
-    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_electricdamageboostenter","value":{"displayName":"Enter-Energy","icon":"/stats/effects/ct_analyzed.png"}},
-    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_electricdamageboostenteraugment","value":{"displayName":"Enter-Energy 2.5x","icon":"/stats/effects/ct_analyzed.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_analyzed","value":{"displayName":"Analyzed","icon":"/stats/effects/ct_analyzed.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_autoanalyzer","value":{"displayName":"Autoanalyzer","icon":"/stats/effects/ct_autoanalyzer.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_autoprotection","value":{"displayName":"Autoprotection","icon":"/stats/effects/ct_autoprotection.png"}},

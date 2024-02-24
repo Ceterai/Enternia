@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_elite_drone",
+  "shortdescription" : "Elite Drone",
+  "itemTags" : [ "throwable", "spawner", "elite", "alta_ship", "alta_capital", "alta_robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Legendary", "price" : 240, "level" : 6,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_elite_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

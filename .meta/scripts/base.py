@@ -4,7 +4,7 @@ import re
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-HINT = '// Mod Support for {mod} (see mod description)'
+HINT = '// Mod Support for {mod} (see mod description) - generated usings these scripts: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts'
 
 def get_paths_flat(roots: list[str] = ['']) -> list[str]:
     paths = []

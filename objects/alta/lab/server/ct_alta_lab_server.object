@@ -23,35 +23,27 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_alta_lab_server.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
-      "frames" : 3, "animationCycle" : 0.5,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
+      "dualImage" : "ct_alta_lab_server.png:<frame>.<color>", "frames" : 3, "animationCycle" : 0.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ]
     }
   ],
 
   "lightColor" : [0, 12, 64],
 
-  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
-  "animationCustom" : { "animatedParts" : { "stateTypes" : { "switchState" : { "states" : { "on" : { "frames" : 3, "cycle" : 0.3, "mode" : "loop" } } } } } },
+  "animation" : "/objects/alta/switch_bg_animated.animation",
+  "animationCustom" : { "animatedParts" : { "stateTypes" : { "body" : { "states" : { "on" : { "frames" : 3 } } } } } },
   "animationParts" : {
-    "bg" : "ct_alta_lab_server.png",
-    "fg" : "ct_alta_lab_server_lit.png"
+    "bg" : "ct_alta_lab_server.png:",
+    "fg" : "ct_alta_lab_server_lit.png:"
   },
-  "animationPosition" : [-8, 0],
 
-  "scripts" : [ "/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua", "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 60,
-
   "inputNodes" : [ [-1, 2] ],
   "outputNodes" : [ [0, 0] ],
 
   "npcToy" : {
     "ownerOnly" : true,
-    "influence" : [
-      "console"
-    ],
+    "influence" : [ "console" ],
     "defaultReactions" : {},
     "preciseStandPositionLeft" : [-0.5, 0.0],
     "preciseStandPositionRight" : [2.0, 0.0],

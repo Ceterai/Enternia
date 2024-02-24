@@ -1,5 +1,7 @@
 """
 This script automatically creates support for the Frakin' Universe mod.
+Read more about automated support for this mod here:
+https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#frackin-races
 """
 
 import RT_support_script

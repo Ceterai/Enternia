@@ -1,6 +1,9 @@
 """
 Run this script to update the cockpit patch file to include
-biome and planet info for the More Planet Info addon."""
+biome and planet info for the More Planet Info addon.
+Read more about automated support for this mod here:
+https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#more-planet-info
+"""
 
 import os
 import pyjson5

@@ -1,0 +1,12 @@
+[
+    { "op":"add", "path":"/filterButtons/-", "value": {
+        "baseImage" : "/objects/wired/tabularasa/my_enternia.png",
+        "baseImageChecked" : "/objects/wired/tabularasa/my_enternia_selected.png",
+        "filter" : "my_enternia"
+    } },
+    { "op":"add", "path":"/filterButtons/-", "value": {
+        "baseImage" : "/objects/wired/tabularasa/alta.png",
+        "baseImageChecked" : "/objects/wired/tabularasa/alta_selected.png",
+        "filter" : "alta"
+    } }
+]

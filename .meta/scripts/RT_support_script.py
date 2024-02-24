@@ -1,5 +1,7 @@
 """
 This script automatically creates support for the Race Traits mod.
+Read more about automated support for this mod here:
+https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#race-traits
 """
 
 import os

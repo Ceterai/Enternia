@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_sentry_drone",
+  "shortdescription" : "Sentry Drone",
+  "itemTags" : [ "throwable", "spawner", "alta_city", "alta_security", "alta_capital", "alta_robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Uncommon", "price" : 440, "level" : 4,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_2/ct_alta_sentry_drone.monstertype",
+  "titleTooltip" : "drone",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

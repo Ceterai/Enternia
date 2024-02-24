@@ -1,0 +1,56 @@
+{
+  "itemName" : "ct_alta_mini_drone",
+  "shortdescription" : "Mini Drone",
+  "itemTags" : [ "throwable", "spawner", "eds", "alta_robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Common", "price" : 240, "level" : 0,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_mini_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "presets" : {
+    "kinetic" : {
+      "shortdescription" : "Kinetic Drone",
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/mini.png" },
+      "paletteSwap" : { "#ff6480" : "#c0fcfc", "#ff2c40" : "#60fce4", "#b81824" : "#00b4c0", "#801c1c" : "#008c98",
+        "#707088" : "#f6f6f6", "#606074" : "#d8dcf0", "#404050" : "#b0b4c8", "#2c2c34" : "#606478", "#101014" : "#209cf0" }
+    },
+    "gheatsyn" : {
+      "shortdescription" : "Ghearun Drone", "level" : 3, "rarity" : "Uncommon",
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/mini_dark.png" },
+      "paletteSwap" : { "#ff6480" : "#eefdcf", "#ff2c40" : "#a4dc40", "#b81824" : "#589008", "#801c1c" : "#40600c" }
+    },
+    "elite" : {
+      "shortdescription" : "Elite Mini Drone", "level" : 3, "rarity" : "Uncommon",
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/mini_elite.png" },
+      "paletteSwap" : { "#ff6480" : "#b0fce0", "#ff2c40" : "#60fcc0", "#b81824" : "#20f080", "#801c1c" : "#00c050",
+        "#707088" : "#f6f6f6", "#606074" : "#d8dcf0", "#404050" : "#b0b4c8", "#2c2c34" : "#606478", "#101014" : "#404050" }
+    },
+    "staris" : {
+      "shortdescription" : "Stardust Drone", "level" : 3, "rarity" : "Uncommon",
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/mini_staris.png" },
+      "paletteSwap" : { "#ff6480" : "#fad4fd", "#ff2c40" : "#e593fd", "#b81824" : "#d251d4", "#801c1c" : "#b951b7",
+        "#707088" : "#f6f6f6", "#606074" : "#d8dcf0", "#404050" : "#b0b4c8", "#2c2c34" : "#606478", "#101014" : "#8120f0" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

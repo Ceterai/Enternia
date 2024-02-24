@@ -23,6 +23,7 @@ function init()  -- Engine callback - called on initialization of entity.
   self.behaviorTickRate = config.getParameter("behaviorUpdateDelta", 2)
   self.behaviorTick = math.random(1, self.behaviorTickRate)
   animator.setGlobalTag("flipX", "")
+  if config.getParameter("customBody") then animator.setPartTag("body", "partImage", config.getParameter("customBody")) end
 
   capturable.init()
   self.debug = true

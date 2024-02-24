@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "ct_datamass", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "ct_alta_scout_drone", "count" : 1, "parameters" : { "preset" : "smart" } },
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_basic", "spawner", "drone", "consumables", "all", "mod" ]
+}

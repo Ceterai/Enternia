@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_lab_pod",
-  "colonyTags" : [ "alta", "alta_lab", "storage", "mechanical", "wired" ],
+  "colonyTags" : [ "alta", "alta_lab", "storage", "mechanical" ],
   "category" : "storage", "objectType" : "container",
   "level" : 5, "rarity" : "Rare", "price" : 100,
   "race" : "alta",
@@ -35,8 +35,6 @@
   "slotCount" : 24,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
-
-  "outputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

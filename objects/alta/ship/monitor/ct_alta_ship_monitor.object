@@ -27,37 +27,22 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "image" : "body.png:<color>.on",
-      "imagePosition" : [-8, -8],
-      "flipImages" : true,
-      "direction" : "left",
-      "anchors" : [ "background" ]
-    },
-    {
-      "image" : "body.png:<color>.on",
-      "imagePosition" : [-8, -8],
-      "direction" : "right",
-      "anchors" : [ "background" ]
-    }
+    { "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "background" ], "frames" : 4, "animationCycle" : 0.3 }
   ],
 
   "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
   "soundEffectRadius" : 15,
 
-  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
-  "animationCustom" : { "animatedParts" : {"stateTypes":{"switchState":{"states":{"on":{"frames":4,"cycle":0.3,"mode":"loop"} } } } } },
+  "animation" : "/objects/alta/switch_bg_animated.animation",
   "animationParts" : {
-    "bg" : "body.png",
-    "fg" : "lit.png"
+    "bg" : "body.png:",
+    "fg" : "lit.png:"
   },
-  "animationPosition" : [-8, -8],
 
-  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
-
-  "inputNodes" : [ [0, 0] ]
-,
+  "blockInteractIfConnected" : true,
+  "inputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

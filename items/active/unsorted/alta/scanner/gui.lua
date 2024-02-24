@@ -20,13 +20,17 @@ function swapItem(widgetName)
     dir = item.directory
     config = item.config
     parameters = item.parameters
+    local tips = getTextConfig()
+    local itemInfo = getTextConfig('/items/active/unsorted/alta/scanner/items.config:database')
+    parameters = sb.jsonMerge(parameters, itemInfo[config.itemName or config.objectName] or {})
     local configParameter = function(key, default) return getValue(key, default, config, parameters) end
     widget.setText("rarityLabel", configParameter('rarity'))
     widget.setVisible("emptyLabel", false)
 
-    local tips = getTextConfig()
     local elementalType = configParameter("elementalType", "physical")
-    widget.setText("levelLabel", configParameter("level", 1)..configParameter("shortdescription", ""):gsub('[^]', ''))
+    local stars = {}
+    for n in string.gmatch(configParameter("shortdescription", ""), '%') do table.insert(stars, n) end
+    widget.setText("levelLabel", configParameter("level", 1)..table.concat(stars, ''))
     widget.setText("levelTitleLabel", tips.level)
     widget.setText("speciesLabel", getTitle(configParameter('race', '^gray;-^reset;')))
     widget.setText("speciesTitleLabel", tips.scan.species)

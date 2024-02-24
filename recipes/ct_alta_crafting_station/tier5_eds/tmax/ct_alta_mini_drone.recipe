@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "ct_alta_mini_drone", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_eds", "spawner", "drone", "consumables", "all", "mod" ]
+}

@@ -36,7 +36,5 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 32, "autoCloseCooldown" : 3600,
 
-  "outputNodes" : [ [0, 0] ],
-
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

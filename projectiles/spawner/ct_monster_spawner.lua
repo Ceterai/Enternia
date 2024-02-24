@@ -57,12 +57,12 @@ function release()
   self.contained = false
   projectile.die()
   local damageTeam = entity.damageTeam()
-  local entityId = world.spawnMonster(self.monster.type, mcontroller.position(), {
+  local entityId = world.spawnMonster(self.monster.type, mcontroller.position(), sb.jsonMerge(self.monster.params, {
     level = self.monster.level,
     damageTeam = damageTeam.team,
     damageTeamType = damageTeam.type,
     aggressive = self.monster.aggressive
-  })
+  }))
   if entityId then
     local position = world.callScriptedEntity(entityId, "findGroundPosition", world.entityPosition(entityId), -10, 10, false)
     if position then world.callScriptedEntity(entityId, "mcontroller.setPosition", position) end

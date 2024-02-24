@@ -90,7 +90,7 @@ function build(directory, config, parameters, level, seed)
   -- Palette Swaps
   if type(parameters.colorIndex) == "table" then parameters.colorIndex = util.randomChoice(parameters.colorIndex) end
   config.dirs = getDirectivesTable(directory, config.palette, configParameter("colorIndex"), configParameter("paletteSwap"), {})
-  config.paletteSwaps = getColorDirectives(config.dirs, "")
+  config.paletteSwaps = configParameter("paletteSwaps") or getColorDirectives(config.dirs, "")
   config.inventoryIcon = getColorsIcon(configParameter("inventoryIcon"), config.paletteSwaps, parameters.lastDirs or {})
   config.colorOptions = getColorsArmor(configParameter("colorOptions"), configParameter("paletteSwap"))
   if #config.dirs > 0 then parameters.lastDirs = config.dirs end
@@ -113,7 +113,7 @@ function build(directory, config, parameters, level, seed)
   config.tooltipFields.armorTitleLabel = tips.armor
   config.tooltipFields.toolLabel = tips.tool
   config.tooltipFields.raceLabel = getColored(getTitle(configParameter('race', '')))
-  if elementalType ~= "physical" then config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png" end
+  if elementalType ~= "physical" and elementalType ~= "" then config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png" end
 
   local abil1 = sb.jsonMerge(config.primaryAbility or config.projectileParameters or {}, parameters.primaryAbility or parameters.projectileParameters or {})
   local dmg = abil1.power or 0

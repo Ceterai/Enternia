@@ -68,8 +68,7 @@
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,
 
-  "inputNodes" : [ [0, 0] ]
-,
+  "inputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

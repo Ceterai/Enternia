@@ -1,9 +1,5 @@
-// Mod Support for Improved Food Descriptions (see mod description)
+// Mod Support for Improved Food Descriptions (see mod description) - generated usings these scripts: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts
 [
-  {"op":"add","path":"/effectNames/ct_electricdamageboost","value":{"customLabels":["^green;+ Electric Damage x1.2^reset;"],"path":"/deprecated/other/ct_electricdamageboost.statuseffect"}},
-  {"op":"add","path":"/effectNames/ct_electricdamageboostaugment","value":{"customLabels":["^green;+ Electric Damage x1.5^reset;"],"path":"/deprecated/other/ct_electricdamageboostaugment.statuseffect"}},
-  {"op":"add","path":"/effectNames/ct_electricdamageboostenter","value":{"customLabels":["^green;+ Enter-Energy^reset;"],"path":"/deprecated/other/ct_electricdamageboostenter.statuseffect"}},
-  {"op":"add","path":"/effectNames/ct_electricdamageboostenteraugment","value":{"customLabels":["^green;+ Enter-Energy 2.5x^reset;"],"path":"/deprecated/other/ct_electricdamageboostenteraugment.statuseffect"}},
   {"op":"add","path":"/effectNames/ct_analyzed","value":{"customLabels":["^green;+ Analyzed^reset;"],"path":"/stats/effects/ct_analyzed.statuseffect"}},
   {"op":"add","path":"/effectNames/ct_autoanalyzer","value":{"customLabels":["^green;+ Autoanalyzer^reset;"],"path":"/stats/effects/ct_autoanalyzer.statuseffect"}},
   {"op":"add","path":"/effectNames/ct_autoprotection","value":{"customLabels":["^green;+ Autoprotection^reset;"],"path":"/stats/effects/ct_autoprotection.statuseffect"}},

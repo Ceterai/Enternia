@@ -73,7 +73,11 @@ There's a [GitHub Wiki](https://github.com/Ceterai/Enternia/wiki) with full list
 
 ### Supported Addons
 
-- [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) (some items are available at the table);
+More about supported addons here: [Mod Support](https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support)
+
+- [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) (most items and objects are available at the table);
+- [Spawnable Item Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=733665104) (all objects and a lot of items are available here, though less than at Tabula Rasa. I would recommend using max tier Alta Crafting Station, Alta Constructor and Alta Datacenter for all recipes);
+- [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104) (all plant-based and non-organic materials can be studied at the Farm Table and the Mine Table respectfully. Nothing fot the Hunt Table);
 - [Improved Food Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=731354142) (proper support for all effects added by this mod);
 - [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) (proper support for all effects, weather and biomes of this mod);
 - [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);

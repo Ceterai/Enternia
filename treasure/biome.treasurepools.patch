@@ -653,20 +653,21 @@
           {"weight" : 0.02, "item" : "serenedoor"},
           {"weight" : 0.025, "item" : "serenelight"},
           {"weight" : 0.02, "item" : "serenetable"},
-          // Cosmetics,         total: 0.04
+          // Cosmetics,         total: 0.07
           {"weight" : 0.005, "item" : "faceleechhead"},
           {"weight" : 0.005, "item" : "symbiotehead"},
           {"weight" : 0.005, "item" : "hazmathead"},
           {"weight" : 0.005, "item" : "hazmatchest"},
           {"weight" : 0.005, "item" : "hazmatlegs"},
           {"weight" : 0.005, "item" : "hazmatback"},
-          {"weight" : 0.01, "item" : [ "ct_head_mimic", 1, { "preset" : "aric_headcap" } ] },
+          {"weight" : 0.02, "item" : [ "ct_head_mimic", 1, { "preset" : "aric_headcap" } ] },
+          {"weight" : 0.02, "item" : [ "ct_head_mimic", 1, { "preset" : "aric_toxicap" } ] },
           // Treasure,          total: 0.04
           {"weight" : 0.02, "item" : "ct_ararang"},
           {"weight" : 0.02, "item" : "ct_aric_collar"},
-          // Miscelanious,      total: 0.14
+          // Miscelanious,      total: 0.11
           {"weight" : 0.04, "item" : "ct_bio_fresh"},
-          {"weight" : 0.06, "pool" : "luminousCaveTreasure"},
+          {"weight" : 0.03, "pool" : "luminousCaveTreasure"},
           {"weight" : 0.04, "item" : "ct_aric-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_shroomic_loot"}

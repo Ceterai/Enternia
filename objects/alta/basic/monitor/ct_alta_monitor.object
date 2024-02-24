@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_monitor",
-  "colonyTags" : [ "alta", "knowledge", "electronic" ],
+  "colonyTags" : [ "knowledge", "electronic" ],
   "category" : "decorative",
   "level" : 2, "rarity" : "Common", "price" : 80,
   "race" : "alta",
@@ -25,38 +25,20 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "image" : "ct_alta_monitor.png:<color>.on",
-      "imagePosition" : [-16, -8],
-      "flipImages" : true,
-      "direction" : "left",
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-    },
-    {
-      "image" : "ct_alta_monitor.png:<color>.on",
-      "imagePosition" : [-16, -8],
-      "direction" : "right",
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-    }
+    { "dualImage" : "ct_alta_monitor.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "background" ], "frames" : 4, "animationCycle" : 0.3 }
   ],
 
-  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",  // {"frames":4,"cycle":0.3,"mode":"loop"}
 
-  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
-  "animationCustom" : { "animatedParts" : {"stateTypes":{"switchState":{"states":{"on":{"frames":4,"cycle":0.3,"mode":"loop"} } } } } },
+  "animation" : "/objects/alta/switch_bg_animated.animation",
   "animationParts" : {
-    "bg" : "ct_alta_monitor.png",
-    "fg" : "ct_alta_monitor_lit.png"
+    "bg" : "ct_alta_monitor.png:",
+    "fg" : "ct_alta_monitor_lit.png:"
   },
-  "animationPosition" : [-16, -8],
 
-  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
-
+  "blockInteractIfConnected" : true,
   "inputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"

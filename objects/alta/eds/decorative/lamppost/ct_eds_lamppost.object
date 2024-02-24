@@ -32,7 +32,6 @@
   "orientations" : [
     {
       "image" : "ct_eds_lamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
       "direction" : "left",
       "flipImages" : true,
 
@@ -44,7 +43,6 @@
     },
     {
       "image" : "ct_eds_lamppost.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
       "direction" : "right",
 
       "lightPosition" : [0, 18],
@@ -60,7 +58,7 @@
     "bg" : "ct_eds_lamppost.png",
     "fg" : "ct_eds_lamppostlit.png"
   },
-  "animationPosition" : [-4, 0],
+  "animationPosition" : [0, 0],
 
   "scripts" : [ "/objects/wired/light/light.lua" ],
   "scriptDelta" : 60,

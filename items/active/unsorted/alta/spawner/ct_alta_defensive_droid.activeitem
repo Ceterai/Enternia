@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_defensive_droid",
+  "shortdescription" : "Defensive Droid",
+  "itemTags" : [ "throwable", "spawner", "eds", "alta_citadel", "alta_robotics", "droid" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Rare", "price" : 480, "level" : 5,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/droids_class_2/ct_alta_defensive_droid.monstertype",
+  "titleTooltip" : "droid",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

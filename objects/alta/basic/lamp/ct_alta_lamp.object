@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_lamp",
-  "colonyTags" : [ "alta", "light" ],
+  "colonyTags" : [ "light" ],
   "category" : "light",
   "level" : 2, "rarity" : "Common", "price" : 40,
   "race" : "alta",
@@ -18,31 +18,54 @@
   "hylotlDescription" : "This light gives me a feeling of peace.",
   "novakidDescription" : "I'm gonna add this to my collection. Always wanted a crystal lamp.",
 
-  "lightColor" : [174, 211, 229],
+  "lightColor" : [176, 224, 252],
   "flickerDistance" : 0.5,
   "flickerStrength" : 0.01,
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.3,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-
     {
-      "dualImage" : "ct_alta_lamp.png:<color>.<frame>",
-      "imagePosition" : [0, 0],
-      "spaces" : [ [0, 0], [0, 1] ],
-      "anchors" : [ "bottom" ]
+      "image" : "ct_alta_lamp.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left", "flipImages" : true,
+      "animationParts" : { "body" : "ct_alta_lamp.png:" }, "lightPosition" : [0.5, 1], "beamAngle" : 315
+    },
+    {
+      "image" : "ct_alta_lamp.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right",
+      "animationParts" : { "body" : "ct_alta_lamp.png:" }, "lightPosition" : [0, 1], "beamAngle" : 225
+    },
+    {
+      "image" : "ct_alta_lamp.png:top.<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ], "direction" : "left", "flipImages" : true,
+      "animationParts" : { "body" : "ct_alta_lamp.png:top." }, "animationPosition" : [0, 1], "lightPosition" : [0.5, 0], "beamAngle" : 45
+    },
+    {
+      "image" : "ct_alta_lamp.png:top.<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ], "direction" : "right",
+      "animationParts" : { "body" : "ct_alta_lamp.png:top." }, "animationPosition" : [0, 1], "lightPosition" : [0, 0], "beamAngle" : 135
     }
   ],
 
-  "animation" : "/objects/wired/light/lighttoggle.animation",
-  "animationParts" : {
-    "light" : "ct_alta_lamp.png"
+  "animation" : "/objects/alta/switch.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
   },
-  "animationPosition" : [0, 0],
 
-  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua", "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 60,
-
+  "blockInteractIfConnected" : true,
   "inputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [ "wallswitch" ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

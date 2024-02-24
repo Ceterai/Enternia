@@ -3,7 +3,10 @@ It's a bit stupid that you have to specify effect's path AND name
 for the Improved Food Descriptions mod, since the path is used to
 literally load the effect which already has the name in it, so I
 did this to create patches automatically for this mod (since it
-has a lot of effects)."""
+has a lot of effects).
+Read more about automated support for this mod here:
+https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#improved-food-descriptions
+"""
 
 import pyjson5
 import base

@@ -38,7 +38,7 @@
       "gun" : {
         "properties" : {
           "centered" : true,
-          "image" : "<partImage>",
+          "image" : "<partImage>?replace=000000=ffffff00",
           "offset" : [0.0, 0.0]
         }
       }

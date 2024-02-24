@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_light",
-  "colonyTags" : [ "alta", "light" ],
+  "colonyTags" : [ "light" ],
   "category" : "light",
   "level" : 2, "rarity" : "Common", "price" : 40,
   "race" : "alta",
@@ -18,34 +18,27 @@
   "hylotlDescription" : "This light is harsh and unforgiving.",
   "novakidDescription" : "A light that works, what more could you want?",
 
-  "lightColor" : [174, 211, 229],
+  "lightColor" : [176, 224, 252],
   "pointLight" : true,
-  "pointBeam" : 2,
+  "pointBeam" : 1,
   "beamAmbience" : 0.3,
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_alta_light.png:<color>.<frame>",
-      "imagePosition" : [-12, 0],
-      "animationParts" : {
-        "bg" : "ct_alta_light.png",
-        "fg" : "ct_alta_light_lit.png"
-      },
-      "animationPosition" : [-12, 0],
-      "anchors" : [ "top" ],
-      "lightPosition" : [0, 1],
-      "beamAngle" : 270
+      "dualImage" : "ct_alta_light.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ],
+      "imagePosition" : [0, -8],
+      "animationParts" : { "bg" : "ct_alta_light.png:", "fg" : "ct_alta_light.png:lit." },
+      "animationPosition" : [0, -8],
+      "lightPosition" : [1.95, -1], "beamAngle" : 270
     }
   ],
 
-  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
-
-  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "animation" : "/objects/alta/switch_bg.animation",
+  "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
-
   "interactive" : false,
-
+  "defaultState" : true,
   "inputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"

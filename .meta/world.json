@@ -170,6 +170,7 @@
         "virma" : [ "virma" ],  // proper name, poisonous plant living in ayaka forests: /codex/alta/ct_virma.codex
         "tonna" : [ "tonna" ],  // proper name.
         "tonnova" : [ "tonna tree" ],
+        "aric" : [ "mushroomy", "fungi" ],  // generally used for anything mushroom-related.
         "io" : [ "Io", "alta space/world" ],  // proper name, often reffered to as a being: /codex/alta/ct_my_enternia_guide.codex
         "iorash" : [ "Io land", "Io structs" ],  // planets, asteroids, etc found in Io.
         "ceterai" : [ "all that exists", "everything in existence", "universe", "Ceterai" ],  // used as a general name, but also as proper name/last name
@@ -228,7 +229,6 @@
         "perizhad" : [ "perizhad" ],  // proper name.
         // Proffesions, Hobbies, Lifestyle
         "arco" : [ "science in action", "technology" ],  // A.R.C.O. is a tech company, its name is an abbreviation that also ends up forming a word "arco".
-        "aric" : [ "mushroomy", "fungi" ],  // generally used for anything mushroom-related.
         "diva" : [ "alta metrocop" ],  // this is not a direct translation, but the closest description of what an alta diva is.
         "scava" : [ "scout" ],
         "varda" : [ "security", "guardian" ],
@@ -248,6 +248,8 @@
         "droi" : [ "robot", "robotic" ],
         "drei" : [ "drone" ],
         "dron" : [ "droid" ],
+        "niaton" : [ "energy halter", "energy stunner" ],  // in full it is "nia tonn", something that uses energy to stop things. (ct_alta_stun_stick, ct_entermace)
+        "isk" : [ "spear-like", "pointy stick", "spike", "pike" ],  // used to describe spear-like weapons and spikes. Doesn't have to be sharp.
         // Food stuff
         "minto" : [ "minto" ],  // proper name.
         "motsu" : [ "motsu" ],  // proper name, a type of plant-only soup.
@@ -300,7 +302,7 @@
         // Given names & more proper names
         "names" : [  // Note that this might overlap with some entries in the alkey section.
             // People (plus everything from /species/alta_namegen.config)
-            "Protea",
+            "Protea",  // Stardust scout - once a regular scout, she has done great things and became a hero and an icon among altas, saving numerous alta lives.
             "Alliana",  // proper name of the main alta capital, but also of its empress, Alliana.
             "Celestia",
             "Mira",

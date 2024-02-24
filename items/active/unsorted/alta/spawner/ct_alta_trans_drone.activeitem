@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_trans_drone",
+  "shortdescription" : "Orchid Drone",
+  "itemTags" : [ "throwable", "spawner", "orchid", "alta_scout", "alta_robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Uncommon", "price" : 280, "level" : 3,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_trans_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

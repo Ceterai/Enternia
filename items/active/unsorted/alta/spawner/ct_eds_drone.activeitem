@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_eds_drone",
+  "shortdescription" : "^#f02020;EDS^reset; Drone",
+  "itemTags" : [ "throwable", "spawner", "eds", "alta_robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Rare", "price" : 260, "level" : 5,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_eds_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

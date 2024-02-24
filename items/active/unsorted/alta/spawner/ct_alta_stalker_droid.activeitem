@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_stalker_droid",
+  "shortdescription" : "Stalker Droid",
+  "itemTags" : [ "throwable", "spawner", "specops", "alta_citadel", "alta_robotics", "droid" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "rarity" : "Legendary", "price" : 260, "level" : 6,
+  "race" : "alta",
+  "twoHanded" : false,
+
+  "asset" : "/monsters/alta/droids_class_1/ct_alta_stalker_droid.monstertype",
+  "titleTooltip" : "droid",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+}

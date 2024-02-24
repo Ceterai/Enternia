@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
+    - [2.2.1](#221)
     - [2.2.0](#220)
   - [Update 2.1 - Alta Decryption](#update-21---alta-decryption)
     - [2.1.4a](#214a)
@@ -45,11 +46,64 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.2 - Alta Colonies
 
+### 2.2.1
+
+This time alta researchers have done a great job working on improving basic alta furniture, as well as providing support to alien (human) technology!
+
+They have also come up with customized drone models that look just like ship drone variations! You can craft some of them, find them as loot or buy them from alta merchants.
+
+**Main:**
+
+- added 15 ship pet drone spawners;
+- added **partial** support for the [Spawnable Item Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=733665104) mod - it now contains recipes **for a lot of** items and objects of this mod. If you want to see **more** recipes, use:
+  - **All recipes**: Max Tier **Alta Crafting Station**, **Alta Constructor**, **Cooking Table** and **Alta Datacenter**;
+  - **Most Recipes**: **Tabula Rasa**;
+  - **Majority of Recipes**: **Spawnable Item Pack**.
+    - Due to how SIP works, I wasn't able to make a lot of the recipes available there as they require parameters.
+- added support for [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104);
+
+**Alta:**
+
+- added extended descriptions to some vanilla items for the **Alta Scanner**;
+- improved graphics for held loot crates, sets, robot spawners and the **Alta Scanner**;
+- fixed **Alta Energy Source**, **Alta Lamp**, **Alta Laptop**, **Alta Light**, **Alta Monitor**, **Alta Pods**, **Alta Lamppost**, **Alta Lab Server**, **Alta Ship Monitor** - I would recommend re-placing them for changes to take place;
+- fixed **Alta Mechanic** and **Alta Engineer** npcs - they no longer crash on interaction;
+
+**Dev:**
+
+- added a common switch/light script - `/objects/alta/switch.lua`. Will move most wired objects to used it instead of original ones;
+
+**Translation:**
+
+- added a file with extended item descriptions - `/items/active/unsorted/alta/scanner/items.config`;
+- minor grammar fixes that **shouldn't affect translation**;
+- moved spawner items from `/items/active/unsorted/ct_alta_spawner/` to `/items/active/unsorted/alta/spawner/` - **shouldn't affect translation** as these files don't need to be translated in the first place;
+- planning to move loot items from `/items/active/unsorted/ct_alta_loot/` to `/items/active/unsorted/alta/loot/` in the next update;
+
+**Tabula Rasa:**
+
+- added all recipes to the [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) crafting table - `/spawnitem tabularasa`;
+- added `mod` category to most recipes in the mod to make them appear in **Tabula Rasa**, and added categories used by it for compatability - `materials`,`armors`, `weapons`, `consumables`, `tools`, `objects`, `other`;
+- added "mod category" buttons - **My Enternia** and **Alta Species**:
+  - **My Enternia** button filters by all recipes from this mod;
+  - **Alta Species** button filters by all recipes from this mod that belong to altas or are considered alta technology.
+
+**Other:**
+
+- made simple produce items like **Ayas** stackable (up to 1000 in a stack) to make them less inconvenient;
+- made it so the game knows for sure what mods to load before this one;
+- possibly fixed a server-related game crash when using **Alta Scanner**;
+- removed some deprecated status effects;
+- minor grammar fixes;
+- minor bug fixes.
+
 ### 2.2.0
 
 You've finally received the first signal from nearby alta travelers! Seems like they're looking for a place to settle. If you'll make them feel at home, they will reward you with neat shinies, protect you, or even open up for trading!
 
 > Keep in mind that a lot of deprecated items got removed in this version.
+
+> Detailed changes for this version: [Update 2.2.0](https://github.com/Ceterai/Enternia/commit/2bcdc6852322c1194d21d915de53f2d56140de84)
 
 **Main:**
 
@@ -199,7 +253,7 @@ At last, a data patch that fixes drone malfunctions! You can now make sure that 
   - only damages when closed;
   - has according particles and looping electric sound when closed;
   - shows up in the Hazards tab in Alta Constructor;
-- fixed break sounds on EDS Haulters;
+- fixed break sounds on EDS Halters;
 - fixed Staris Soup food item;
 - fixed items no longer being upgradable at the Weapon Upgrade Anvil when having certain items in your inventory;
 - fixed some items not being upgradable at the Weapon Upgrade Anvil due to incorrect tags (forgot the `upgradeableWeapon` tag): Bishyn Spear, Niverisk, Protospear;
@@ -230,8 +284,8 @@ At last, a data patch that fixes drone malfunctions! You can now make sure that 
 - added particles to objects: Poison Crystals, Yaara Heart;
 - fixed upgraded item icons;
 - fixed upgraded calin sword;
-- fixed collision on hazard objects: Alternia Crystal, Poison Crystals, Yaara Heart, Yaara Roots, Warped Roots, Alta Lab Barrier, EDS Haulters;
-- fixed particles on hazard objects: Alternia Crystal, Yaara Heart, Yaara Roots, Alta Lab Barrier, EDS Haulters;
+- fixed collision on hazard objects: Alternia Crystal, Poison Crystals, Yaara Heart, Yaara Roots, Warped Roots, Alta Lab Barrier, EDS Halters;
+- fixed particles on hazard objects: Alternia Crystal, Yaara Heart, Yaara Roots, Alta Lab Barrier, EDS Halters;
 - fixed levels on hazard objects: Alternia Crystal, Yaara Heart, Yaara Roots, Warped Roots;
 - fixed level inventory tooltips on objects;
 - moved text lines from item builder scripts into a `/items/buildscripts/ct_texts.config` file to make them easier to translate/change;
@@ -813,7 +867,7 @@ The update also adds tier 5 and 6 armor sets, as well as loot items and set item
 
 **Alta:**
 
-- added [EDS Haulter](https://github.com/Ceterai/Enternia/wiki/EDS-Haulter)s - 5 different types of alta tank traps;
+- added [EDS Halter](https://github.com/Ceterai/Enternia/wiki/EDS-Halter)s - 5 different types of alta tank traps;
 - added [EDS Status & Defensive Pod](https://github.com/Ceterai/Enternia/wiki/EDS-Status-Pod)s (WIP), [EDS Turret](https://github.com/Ceterai/Enternia/wiki/EDS-Turret)s (WIP), [EDS Retainer](https://github.com/Ceterai/Enternia/wiki/EDS-Retainer)s (WIP);
 - added 2 other alta misc objects - [Alta Energy Source](https://github.com/Ceterai/Enternia/wiki/Alta-Energy-Source) and [Alta Drone Spawner](https://github.com/Ceterai/Enternia/wiki/Alta-Drone-Spawner) (WIP);
 - added alta soda recipes to more original vending machines;

@@ -63,7 +63,7 @@ end
 
 function getDirectivesTable(dir, palette, option, swaps, dirs)
   swaps = copy(swaps or {})
-  if palette then for k, v in pairs(root.assetJson(util.absolutePath(dir, palette)).swaps[option or 1]) do swaps[k] = v end end
+  if palette then for k, v in pairs(root.assetJson(util.absolutePath(dir, palette))[(option or 0) + 1]) do swaps[k] = v end end
   for k, v in pairs(swaps) do table.insert(dirs, string.format("?replace=%s=%s", k:gsub('#', ''), v:gsub('#', ''))) end
   return dirs
 end

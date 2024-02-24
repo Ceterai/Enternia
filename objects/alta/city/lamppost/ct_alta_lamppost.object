@@ -20,7 +20,7 @@
 
   "health" : 1.5,
 
-  "lightColor" : [143, 160, 179],
+  "lightColor" : [176, 224, 252],
   "pointLight" : true,
   "pointBeam" : 16,
   "beamAmbience" : 0.45,
@@ -28,8 +28,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "body.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
+      "image" : "body.png:<frame>.<color>",
       "spaceScan" : 0.1,
       "direction" : "left", "flipImages" : true,
       "lightPosition" : [-1, 18],
@@ -37,29 +36,27 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "body.png:<color>.<frame>",
-      "imagePosition" : [-4, 0],
+      "image" : "body.png:<frame>.<color>",
       "spaceScan" : 0.1,
       "direction" : "right",
-      "lightPosition" : [0, 18],
+      "lightPosition" : [1, 18],
       "beamAngle" : 300,
       "anchors" : [ "bottom" ]
     }
   ],
 
-  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animation" : "/objects/alta/switch_bg.animation",
   "animationParts" : {
-    "bg" : "body.png",
-    "fg" : "lit.png"
+    "bg" : "body.png:",
+    "fg" : "lit.png:"
   },
-  "animationPosition" : [-4, 0],
+  "animationPosition" : [0, 0],
 
-  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
-
-  "inputNodes" : [ [0, 3] ],
-
   "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 6] ],
 
   "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
 }

@@ -1,7 +1,7 @@
 {
   "itemName" : "ct_alta_stun_stick",
   "shortdescription" : "Stun Stick",
-  "description" : "^red;WIP^reset;. A hand-held haulter used by ^#b0e0fc;alta^reset; security to prevent unauthorized activity.",
+  "description" : "^red;WIP^reset;. A hand-held halter used by ^#b0e0fc;alta^reset; security to prevent unauthorized activity.",
   "longdescription" : "Just like a lot of alta tools, including combat tools, this one is considered to be non-lethal by ^#b0e0fc;alta security protocols^reset;, since it doesn't provide an amount energy to be able to really harm an alta, as well as the vast majority of Io creatures. It's only meant to scare away the target, or stugger it. In worst case scenarios, it will paralize the target, but not kill it.  \nThe exception to this rule are drones, that can take damage from the plasmic charges from the hits.",
   "altaDescription" : "I feel quite secure with this. Begone, you evil... pois?.. companion drones? ... Do I really need this thing?",
   "elementalType" : "electric",
@@ -54,8 +54,8 @@
   },
 
   "primaryAbility" : {
-    "name" : "Plasmic Haulter", "class" : "WhipCrack",
-    "description" : "^red;WIP^reset;. A sequence of 3 light stun strikes. Hold to perform a Haulter Strike.",
+    "name" : "Plasmic Halter", "class" : "WhipCrack",
+    "description" : "^red;WIP^reset;. A sequence of 3 light stun strikes. Hold to perform a Halter Strike.",
     "longdescription" : "The retractable **springrope** holding the head of the stunstick ",
     "fireTime" : 0.625,
     "baseDps" : 6,
@@ -107,17 +107,17 @@
   "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
 
   "upgradeParameters" : {
-    "shortdescription" : "Haulter Compact ^#8020f0;^reset;",
-    "description" : "An ^#b0e0fc;alta^reset; haulter powered by ^#ffa8e8;stardust^reset;. Its energy capabilities and range have been increased significantly.",
+    "shortdescription" : "Halter Compact ^#8020f0;^reset;",
+    "description" : "An ^#b0e0fc;alta^reset; halter powered by ^#ffa8e8;stardust^reset;. Its energy capabilities and range have been increased significantly.",
     "longdescription" : "Just like many stardust-enhanced tools, this one is a hand-made and can't really be produced on a factory scale. Very rarely, you can find these being used by some of the ^#b0e0fc;elite forces^reset; protecting ^#b0e0fc;Alliana^reset;.",
     "inventoryIcon" : "ct_alta_stun_stick_2.png", "animationParts" : { "blade" : "ct_alta_stun_stick_2.png" },
     "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
-      "name" : "Stardust Haulter",
-      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Charged Haulter Strike.",
+      "name" : "Stardust Halter",
+      "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Charged Halter Strike.",
       "longdescription" : "Although a lot of improvements are purely technical and don't rely on stardust directly, all energy-related enhancements, including stun power, do highly depend on it."
     }
   },
-  "wiki" : { "aliases" : { "Haulter Stick" : { } } }, "alkey" : "Niaton"
+  "wiki" : { "aliases" : { "Halter Stick" : { } } }, "alkey" : "Niaton"
 }
