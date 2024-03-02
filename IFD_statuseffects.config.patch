@@ -1,4 +1,4 @@
-// Mod Support for Improved Food Descriptions (see mod description) - generated usings these scripts: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts
+// Mod Support for Improved Food Descriptions, generated with this script: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts/IFD_support_script.py
 [
   {"op":"add","path":"/effectNames/ct_analyzed","value":{"customLabels":["^green;+ Analyzed^reset;"],"path":"/stats/effects/ct_analyzed.statuseffect"}},
   {"op":"add","path":"/effectNames/ct_autoanalyzer","value":{"customLabels":["^green;+ Autoanalyzer^reset;"],"path":"/stats/effects/ct_autoanalyzer.statuseffect"}},

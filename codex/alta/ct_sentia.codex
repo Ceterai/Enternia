@@ -49,7 +49,7 @@ Some say she wears the crown to this day, and has made many actual alta friends 
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 4,
       "itemTags" : [ "data_source", "ebook", "warped" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "related" : {

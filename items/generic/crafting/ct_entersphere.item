@@ -14,7 +14,7 @@
   "inventoryIcon" : "ct_entersphere.png",
 
   "radioMessagesOnPickup" : [ "ct_sphere_msg" ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : {
     "aliases" : { "Proto-Overload" : { "icon" : "none" }, "Overlock" : { } },
     "md" : {

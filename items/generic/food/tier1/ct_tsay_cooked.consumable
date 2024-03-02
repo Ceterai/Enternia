@@ -8,7 +8,7 @@
   "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "tsay" ],
   "inventoryIcon" : "ct_tsay_cooked.png",
   "foodValue" : 15,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_vermont_tea", "ct_tsay_icecream", "ct_assorti" ],
   "variants" : [ "perfect" ],

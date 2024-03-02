@@ -26,7 +26,7 @@ For Alliana!"
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 4,
       "itemTags" : [ "data_source", "docs", "warped" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "related" : {

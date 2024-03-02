@@ -17,6 +17,6 @@ Here, you can also find rare flowers called ^#b0e0fc;Versalia^reset;, as well as
       "rarity" : "Uncommon", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 3,
       "itemTags" : [ "data_source", "ebook", "gyera" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

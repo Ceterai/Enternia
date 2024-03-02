@@ -14,7 +14,7 @@
     }
   ] ],
   "foodValue" : 30,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_alta_dinner", "ct_caliopa", "ct_crunchy_pie" ],
   "variants" : [ "candy" ],

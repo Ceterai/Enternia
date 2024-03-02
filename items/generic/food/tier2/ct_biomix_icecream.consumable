@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_biomix_icecream.png",
   "effects" : [ [ { "effect" : "thorns", "duration" : 75 }, { "effect" : "maxhealthboost20", "duration" : 75 } ] ],
   "foodValue" : 20,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ],
   "variants" : [ "dessert" ],

@@ -6,7 +6,7 @@
   "maleFrames" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
   "femaleFrames" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
   "colorOptions" : [ { "64beff" : "64beff", "1981cd" : "1981cd", "134992" : "134992", "001152" : "001152" } ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "skip" : true },
   "presets" : {
     "warped_glowtail" : {

@@ -14,5 +14,5 @@
   "inventoryIcon" : "ct_tsay.png",
   "learnBlueprintsOnPickup" : [ "ct_tsay_cooked" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Tsay"
+  "builder" : "/items/buildscripts/alta/consumable.lua", "alkey" : "Tsay"
 }

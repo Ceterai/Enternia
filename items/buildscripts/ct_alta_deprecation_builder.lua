@@ -2,7 +2,7 @@ require "/scripts/util.lua"
 require "/scripts/vec2.lua"
 require "/scripts/versioningutils.lua"
 require "/items/buildscripts/abilities.lua"
-require "/items/buildscripts/ct_alta_item_builder.lua"
+require "/items/buildscripts/alta/item.lua"
 
 local ct_alta_item_builder = build
 

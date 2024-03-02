@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_calio_tea.png",
   "effects" : [ [ { "effect" : "poisonblock", "duration" : 240 } ] ],
   "foodValue" : 10,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ],

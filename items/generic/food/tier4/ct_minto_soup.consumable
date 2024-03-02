@@ -16,7 +16,7 @@
   ] ],
   "foodValue" : 50,
   "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "soup" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 1.0,

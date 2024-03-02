@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_eds_loot",
+  "shortdescription" : "^#f02020;EDS^reset; Loot Crate",
+  "description" : "Contains random loot from ^#f02020;EDS pods^reset;.",
+  "longdescription" : "This standardized emergency equipment package was designed to be shipped to or taken to combat points by ^#f02020;EDS guards^reset; for in-time resupply and additional support. This ensures quick point capture and initial defense, as opposed to EDS pods, that are delivered later and can provide long-term support instead.",
+  "altaDescription" : "A pad full of EDS goodies. I'm not even sure if I should open it, who knows what dangerous things lie inside. Better as someone else to open it for me.",
+
+  "level" : 4, "price" : 80, "rarity" : "Uncommon",
+  "race" : "alta",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "loot", "eds" ],
+
+  "inventoryIcon" : "ct_eds_loot.png",
+  "animationParts" : { "gun" : "ct_eds_loot.png" },
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_eds_loot",
+    "level" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "wiki" : { "aliases" : { "EDS Crate" : { } } }, "alkey" : "EDS Pad"
+}

@@ -19,6 +19,6 @@ Engage in *regulated combat with other ^#b0e0fc;altas^reset; and opponents of cr
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "docs", "faradea" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

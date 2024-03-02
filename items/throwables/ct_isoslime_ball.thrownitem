@@ -28,7 +28,7 @@
     ]
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Izon" : { "anchor" : "izon" }, "Isoslime Ball" : { }, "Izoslime" : { }, "Ball Of Isoslime" : { } },
     "md" : {
       "#### Cooking" : "The cooking capabilities are described in ^#b0e0fc;Isoslime in Cooking^reset; and the ^#b0e0fc;nia cuisine book^reset;.",

@@ -29,20 +29,20 @@
   "presets" : {
     "pastel" : {
       "shortdescription" : "Pastel Drone ^#20f080;^reset;", "price" : 280,
-      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/scout_pastel.png" },
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/scout_pastel.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#c00050", "#2080f0" : "#f02080", "#60c0fc" : "#fc60c0", "#b0e0fc" : "#fcb0e0" }
     },
     "smart" : {
       "shortdescription" : "Smart Drone", "rarity" : "Rare", "level" : 5,
-      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart.png" },
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#9bf020", "#2080f0" : "#9bf020", "#60c0fc" : "#d4fc60", "#b0e0fc" : "#eafcb0" }
     },
     "arco" : {
       "shortdescription" : "Enviro Drone", "rarity" : "Rare", "level" : 5,
-      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart_arco.png" },
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart_arco.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#c07000", "#2080f0" : "#f08f20", "#60c0fc" : "#ffaa49", "#b0e0fc" : "#ffc888" }
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+  "builder" : "/items/buildscripts/alta/spawner.lua"
 }

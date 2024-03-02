@@ -14,7 +14,7 @@ PATH_INPUT = '/.meta/cockpit.config.patch'
 PATH = '/interface/cockpit/cockpit.config.patch'
 AFFECTED_FILES = [PATH, PATH_INPUT]
 MOD = 'More Planet Info'
-HINT = base.HINT.format(mod=MOD)
+HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 
 def is_effect(name: str) -> bool:
     return (name[-13:] == '.statuseffect')

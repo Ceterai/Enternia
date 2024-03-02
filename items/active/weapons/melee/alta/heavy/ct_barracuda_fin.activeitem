@@ -51,7 +51,7 @@
   "altAbility" : { "name" : "Finspin", "description" : "Hold to perform a Spin Slash.",
   "longdescription" : "The inertia makes it much easier to execute then regular attacks." },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Barracuda's Cry ^#8020f0;^reset;",

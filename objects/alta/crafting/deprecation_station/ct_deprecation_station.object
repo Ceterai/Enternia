@@ -1,4 +1,4 @@
-{
+{  // DEPRECATED (ironically)
   "objectName" : "ct_deprecation_station",
   "colonyTags" : [ "crafting", "electronic" ],
   "category" : "crafting",
@@ -41,5 +41,5 @@
     }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/alta/object.lua"
 }

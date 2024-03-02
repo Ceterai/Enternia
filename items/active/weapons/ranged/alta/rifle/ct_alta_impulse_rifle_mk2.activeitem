@@ -26,7 +26,7 @@
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "scripts" : ["/items/active/weapons/ranged/alta/rifle.lua"],
   "primaryAbility" : {

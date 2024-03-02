@@ -122,13 +122,5 @@
   {
     "op": "add", "path": "/ct_alta_pod_tier5",
     "value": [ { "containers" : [ "ct_alta_ship_container" ], "treasurePool" : "ct_alta_pod_loot_tier5", "minimumLevel" : 0 } ]
-  },
-
-
-
-  { "op": "add", "path": "/ct_podChest", "value": [ { "containers" : [ "techchest" ], "treasurePool" : "ct_alta_pod_loot_tier1", "minimumLevel" : 0 } ] },
-  { "op": "add", "path": "/ct_small_cargoChest", "value": [ { "containers" : [ "techchest" ], "treasurePool" : "ct_alta_pod_loot_tier2", "minimumLevel" : 0 } ] },
-  { "op": "add", "path": "/ct_cargoChest", "value": [ { "containers" : [ "techchest" ], "treasurePool" : "ct_alta_pod_loot_tier3", "minimumLevel" : 0 } ] },
-  { "op": "add", "path": "/ct_big_cargoChest", "value": [ { "containers" : [ "outpostshippingcontainer" ], "treasurePool" : "ct_alterashEndTreasure", "minimumLevel" : 0 } ] },
-  { "op": "add", "path": "/ct_byshinChest", "value": [ { "containers" : [ "crystalchest" ], "treasurePool" : "ct_bishyn_loot", "minimumLevel" : 0 } ] }
+  }
 ]

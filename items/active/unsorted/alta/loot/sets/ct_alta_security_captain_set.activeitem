@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_security_captain_set",
+  "shortdescription" : "Security Captain Set ^#20f080;^reset;",
+  "description" : "Contains full equipment set of an ^#b0e0fc;alta^reset; security captain, including a lore codex of this set.\nIs cheaper to craft this way than separately.",
+
+  "inventoryIcon" : "ct_alta_security_captain_set.png",
+  "treasure" : { "pool" : "ct_alta_security_captain_set", "level" : 1 },
+  "animationParts" : { "gun" : "ct_alta_security_captain_set.png" },
+
+  "level" : 4, "price" : 3400, "rarity" : "Uncommon", "race" : "alta",
+  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "set", "alta_city", "alta_security" ],
+
+  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
+  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "wiki" : { "aliases" : { "Alta Security Captain" : { }, "Security Captain" : { } } }
+}

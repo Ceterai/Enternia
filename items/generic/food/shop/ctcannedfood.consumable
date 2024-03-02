@@ -8,7 +8,7 @@
   "race" : "alta",
   "inventoryIcon" : "ctcannedfood.png",
   "category" : "food", "tooltipKind" : "ct_alta_consumable", "foodValue" : 30, "maxStack" : 1,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10,
   "blockingEffects" : [ "wellfed" ],

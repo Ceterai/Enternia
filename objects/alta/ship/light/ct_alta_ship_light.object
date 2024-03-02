@@ -20,7 +20,7 @@
 
   "health" : 2.5,
 
-  "lightColor" : [130, 170, 140],
+  "lightColor" : [130, 140, 170],
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -48,5 +48,5 @@
 
   "inputNodes" : [ [0, 0] ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/alta/object.lua"
 }

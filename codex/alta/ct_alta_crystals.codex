@@ -35,7 +35,7 @@ Read more on individual crystal species to learn more about them and how they ar
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "aliases" : {

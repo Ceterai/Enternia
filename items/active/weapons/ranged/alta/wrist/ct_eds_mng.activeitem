@@ -50,7 +50,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_eds_mng_2.png",

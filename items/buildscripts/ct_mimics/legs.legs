@@ -6,7 +6,7 @@
   "maleFrames" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
   "femaleFrames" : "/items/armors/alta/tier6/ceterai/legwear/pants.png",
   "colorOptions" : [ { "64beff" : "64beff", "1981cd" : "1981cd", "134992" : "134992", "001152" : "001152" } ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "skip" : true },
   "presets" : {
     "yaara" : {
@@ -37,7 +37,7 @@
       "price" : 760,
       "shortdescription" : "Yaara Keeper's Legwards ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
       "description" : "A plant-based piece of armor fused with very sturdy materials, decorated with ^#20f080;yaara^reset; leaves, petals and crystals.",
-      "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disquise.",
+      "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disguise.",
       "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
       "floranDescription" : "Full protection for Floran, sso Floran can protect Floran's home.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
       "colorOptions" : [

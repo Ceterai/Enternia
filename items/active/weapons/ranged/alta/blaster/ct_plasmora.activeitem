@@ -37,6 +37,6 @@
       "winddown" : { "duration" : 0.11, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true }
     }
   },
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ania Gast" : { } } }, "alkey" : "Anora"
 }

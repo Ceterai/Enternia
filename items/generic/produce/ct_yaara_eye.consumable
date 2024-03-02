@@ -14,6 +14,6 @@
   "inventoryIcon" : "ct_yaara_eye.png",
   "learnBlueprintsOnPickup" : [ "ct_yaarings" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "wiki" : { "aliases" : { "Yaara Lychee" : { } } }, "alkey" : "Yaavi"
 }

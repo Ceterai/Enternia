@@ -11,7 +11,7 @@
       "collision" : "platform"
     }
   ],
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "builder" : "/items/buildscripts/alta/object.lua",
   "wiki" : { "skip" : true },
   "presets" : {
     "alternia_sample" : {

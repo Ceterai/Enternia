@@ -10,11 +10,11 @@
   "category" : "tool", "maxStack" : 1,
   "inventoryIcon" : "icon.png",
   "animationParts" : { "gun" : "icon.png" },
-  "animation" : "/items/active/unsorted/ct_alta_loot/ct_alta_loot.animation",
+  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
   "itemTags" : [ "scanner" ],
 
   "scripts" : [ "logic.lua" ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : {
     "aliases" : { "Scanner" : { } },
     "images" : [

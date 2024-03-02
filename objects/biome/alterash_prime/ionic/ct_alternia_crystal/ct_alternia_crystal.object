@@ -83,7 +83,7 @@
     [ [ "ct_alternia_shard", 1, { } ], [ "crystal", 1, { } ] ]
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua",
+  "builder" : "/items/buildscripts/alta/object.lua",
   "wiki" : {
     "md" : {
       "#### Energy Source" : "These crystals are often used as powerful energy sources by altas, specifically in things like ^#b0e0fc;alta energy sources^reset;."

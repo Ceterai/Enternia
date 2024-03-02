@@ -28,12 +28,12 @@
     {
       "dualImage" : "ct_alta_light.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ],
       "imagePosition" : [0, -8],
-      "animationParts" : { "bg" : "ct_alta_light.png:", "fg" : "ct_alta_light.png:lit." },
-      "animationPosition" : [0, -8],
       "lightPosition" : [1.95, -1], "beamAngle" : 270
     }
   ],
 
+  "animationParts" : { "bg" : "ct_alta_light.png:", "fg" : "ct_alta_light.png:lit." },  // Better to not store this in "orientations" as it
+  "animationPosition" : [0, -8],                                                        // won't update in already placed decor after changes.
   "animation" : "/objects/alta/switch_bg.animation",
   "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
@@ -41,5 +41,5 @@
   "defaultState" : true,
   "inputNodes" : [ [0, 0] ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/alta/object.lua"
 }

@@ -14,7 +14,7 @@
     }
   ] ],
   "foodValue" : 25,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_aya_gil_pie", "ct_gharus_spice", "ct_fivaldo_salad" ],
 

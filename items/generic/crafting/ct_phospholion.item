@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "ct_phospholion.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Phospholion",
+  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Phospholion",
   "wiki" : {
     "aliases" : { "Phospholion Ore" : { } },
     "md" : {

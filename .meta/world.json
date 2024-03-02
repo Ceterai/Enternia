@@ -127,7 +127,7 @@
         "yonnur" :          [ "#9044a8", "#6a2284", "#ffd495", "#ffd495", "#ea9931", "#ae6f1d" ],
         "aric" :            [ "#8affb0", "#36a83e", "#36a83e", "#1c6f19", "#d4ff8d", "#b1eb54", "#72a131", "#465b12" ]
     },
-    // Translation table (includes around 220 words/names)
+    // Translation table (includes around 230 words/names)
     "alkey" : {  // You can find definitions for most of these on Wiki, or in the `Guide to My Enternia` codex (/codex/alta/ct_my_enternia_guide.codex)
         "alkey" : [ "language", "communication", "conversing" ],
         "alta" : [ "blue-ish being", "alternative", "created one" ],
@@ -199,6 +199,8 @@
         "archulin" : [ "archulin" ],  // proper name of warped nivera berries
         "staris" : [ "stardust" ],
         "munris" : [ "moondust" ],
+        "eni-leaves" : [ "ion-leaves", "ion-charged leaves" ],  // leaves from specific ionic plants. Found here: /items/buildscripts/ct_mimics/food.consumable
+        "yaavi" : [ "yaara eye" ],  // Found here: /items/generic/produce/ct_yaara_eye.consumable
         // Crystals
         "bishyn" : [ "poisonous crystal", "crystal poison" ],  // proper name, but can be translated to these.
         "cal" : [ "crystal" ],
@@ -250,6 +252,9 @@
         "dron" : [ "droid" ],
         "niaton" : [ "energy halter", "energy stunner" ],  // in full it is "nia tonn", something that uses energy to stop things. (ct_alta_stun_stick, ct_entermace)
         "isk" : [ "spear-like", "pointy stick", "spike", "pike" ],  // used to describe spear-like weapons and spikes. Doesn't have to be sharp.
+        "vir" : [ "visor", "ocular" ],  // most integrated and standalone alta visors are called virs.
+        "proto" : [ "energy-protective", "connected/protected/united" ],  // unlike prime, proto often refers to the alta way of calling protection/defense - prot/protei.
+        // Protosystems are defensive energy systems, protohelmets are special "energy protection" helmets, Protolaris is a name of a high-tier shield, etc
         // Food stuff
         "minto" : [ "minto" ],  // proper name.
         "motsu" : [ "motsu" ],  // proper name, a type of plant-only soup.

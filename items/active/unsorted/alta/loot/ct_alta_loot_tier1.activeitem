@@ -1,0 +1,34 @@
+{  // This is a loot crate item. Check out the `ct_loot_crate_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
+  "itemName" : "ct_alta_loot_tier1",
+  "shortdescription" : "Alta Tier 1 Loot Crate",
+  "description" : "Basic alta items often found in pods. Includes produce, meds, as well as basic ^#b0e0fc;alta^reset; decor, clothes and level 3 resources and equipment.",
+  "longdescription" : "These standardized crates a packed with goodies, seemingly with general decor and scout equipment. They are much more compact than ^#b0e0fc;alta pods^reset;, but the items inside are heavily packed and compressed to be able to fit in. This, opening this crate is often a one-way ticket.",
+  "altaDescription" : "Once I open this T1 pad, I won't be able to put the stuff inside back in, so better be resourceful. You know, usually there's a content label on these to tell you what's inside, but I can't seem to find one.",
+
+  "price" : 120, "level" : 3, "rarity" : "Uncommon", "race" : "alta",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item_long",
+  "itemTags" : [ "loot", "alta_scout" ],
+
+  "inventoryIcon" : "ct_alta_loot_tier1.png",
+  "animationParts" : { "gun" : "ct_alta_loot_tier1.png" },
+  "treasure" : { "pool" : "ct_alta_pod_loot_tier1", "level" : 1 },
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : [ "ct_alta_loot.lua" ],
+  "fireTime" : 1.0, "fireOffset" : [0.5, 0.0],  // Defaults
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "wiki" : { "aliases" : { "T1 Crate" : { }, "T1 Pad" : { }, "Scout Crate" : { }, "Scout Pad" : { } } }, "alkey" : "Scava Pad"  // Scout Crate
+}
+// Translation notes:
+// - Pad: This is how altas call chests, pods and crates of smaller sizes, for example EDS Pad refers to EDS Crate.
+//        In this case, pads are compact hand-held containers, that are usually densely packed with various equipment, medicine
+//        or food, and are used by altas in long travels, resque missions, and can sometimes be found in regular alta pods as well.
+//        For more info, check out the `ct_loot_crate_msg` message in the `/radiomessages/exploration.radiomessages.patch` file.
+// - Scava: A scout in alta language.
+// - Refer to `/.meta/world.json` for more translations.
+// Since "altaDescription" contains an additional description of the item from the perspective of a random alta, some english words
+// might be substituted with alta words instead.
+// Note the "alkey" field in the end of the file. It refers to how altas would call this item in their language.
+// Also note the "aliases" field in the "wiki" field. These aliases are other possible valid ways to refer to this item.
+// In this case:
+// - T1 in "aliases" refers to this being an Alta Tier 1 item (made from titanium, uses regular levels of Alta Security Protocols);
+// - Scout in "aliases" refers to this being a Scout-related item, as tier 1 crates are often used by alta scouts and metrocops;

@@ -20,10 +20,10 @@ Be careful while raveling among all the tonnova springs and trees, and watch out
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : { "aliases" : {
-    "Neon Forest" : { "icon" : "/items/active/unsorted/ct_alta_loot/ct_bionid_loot.png" }
+    "Neon Forest" : { "icon" : "/items/active/unsorted/alta/loot/ct_bionid_loot.png" }
   },
   "related" : {
     "### [[ Codexes ]]" : [ "Bionics", "Bionid Extraction Note", "Complicated Nature of Bion" ]

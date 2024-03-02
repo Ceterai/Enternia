@@ -29,16 +29,16 @@
   "presets" : {
     "gheatsyn" : {
       "shortdescription" : "Gheatsyn Drone",
-      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/scout_gheatsyn.png" },
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/scout_gheatsyn.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#f6e8c8" : "#f4ffc8", "#f0d820" : "#d0ff0a", "#a09900" : "#88cf00", "#787400" : "#5a9200" }
     },
     "tech" : {
       "shortdescription" : "Tech Drone",
-      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart_tech.png" },
+      "baseParameters" : { "customBody" : "/monsters/pets/ct_alta_pet_drone/parts/smart_tech.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#f6e8c8" : "#fcfab0", "#f0d820" : "#d8e85c", "#a09900" : "#c0dc1c", "#787400" : "#9bc000",
       "#707088" : "#f6f6f6", "#606074" : "#d8dcf0", "#404050" : "#b0b4c8", "#2c2c34" : "#606478" }
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_spawner_builder.lua"
+  "builder" : "/items/buildscripts/alta/spawner.lua"
 }

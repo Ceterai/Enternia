@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_tonnakada.png",
   "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 60 } ] ],
   "foodValue" : 20,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ],
   "variants" : [ "split" ],

@@ -8,7 +8,7 @@
   "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "snack", "yaara" ],
   "inventoryIcon" : "ct_yaarings.png",
   "foodValue" : 20,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_biomix_icecream" ],
   "variants" : [ "hot" ],

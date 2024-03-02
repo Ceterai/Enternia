@@ -10,7 +10,7 @@
   "effects" : [ [ { "effect" : "energyregen", "duration" : 45 } ] ],
   "foodValue" : 20,
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "learnBlueprintsOnPickup" : [ "ct_zandarm_tart", "ct_ionice_cube", "ct_biomix_icecream" ],
   "variants" : [ "cryo" ],
   "presets" : {

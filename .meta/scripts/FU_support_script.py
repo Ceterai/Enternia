@@ -12,7 +12,7 @@ PATH_WINDOW = '/interface/scripted/statWindow/statWindow.config.patch'
 PATH_SPECIES = f'/species/{RT_support_script.RACE}.species'
 AFFECTED_FILES = [PATH, PATH_WINDOW, PATH_SPECIES]
 MOD = 'Frakin Universe/Frakin Races'
-HINT = RT_support_script.base.HINT.format(mod=MOD)
+HINT = RT_support_script.base.HINT.format(mod=MOD, name=RT_support_script.base.get_file(__file__))
 EXCLUDED = [
     'foodDelta',
 ]
@@ -67,7 +67,7 @@ If you have ^orange;Frakin' Universe^reset;/^orange;Frakin' Races^reset;/^orange
 ^orange;Environment^reset;: None ^gray;(FU/FR only)^reset;
 ^orange;Weapons^reset;: None ^gray;(FU/FR only)^reset;'''
 	desc = str(''.join(RT_support_script.CONFIG.get('lore')) + TEXT).replace('\n\n', '\\n\\n').replace('\n', '  \\n')
-	hint = '    ' + RT_support_script.base.HINT.format(mod='species traits mods') + '\n'
+	hint = '    ' + RT_support_script.base.HINT.format(mod='species traits mods', name=RT_support_script.base.get_file(__file__)) + '\n'
 	has_hint = False
 	has_desc = False
 	lore_line = 0

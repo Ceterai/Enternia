@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/items/ct_alta_scanner",
+        "value": {
+            "label": "Alta Scanner",
+            "icon": "/items/active/unsorted/alta/scanner/icon.png",
+            "weight": 48,
+            "action": [ "pane", "/items/active/unsorted/alta/scanner/gui.config" ]
+        }
+    }
+]

@@ -31,7 +31,7 @@
   },
   "learnBlueprintsOnPickup" : [ "ct_tonnakada" ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Tonna Porrige" : { "anchor" : "cooking" }, "Tonna Milk" : { "anchor" : "cooking" }, "Tonna Juice" : { "anchor" : "cooking" }, "Tonna Fresh" : { "anchor" : "cooking" } },
   "md" : {
     "#### Cooking" : "**Tonna Milk**, just like the nut itself, is slightly sweet and very high on nutrients. However, it might require some preparation and filtering to make sure none of the pulp bits get in.\n\n**Tonna Juice** is what you get if you grind down the pulp, separated from the milk. It contains more saturated sweetness, as well as slight bitterness, and a less tingy texture, as opposed to tonna milk.\n\n**Tonna Fresh** can be prepared by cutting and grinding some parts of the pulp, and mixing them together with milk until a thick layer of foam appears at the surface.\n\n**Tonna Porrige** is a very wide-spread category of tonna-based porriges, all with different mixes and additions. Its more sweet variants are often used in or as desserts. Good examples of that would be ^#b0e0fc;tonnakadas^reset; and ^#b0e0fc;tonna meringues^reset;."

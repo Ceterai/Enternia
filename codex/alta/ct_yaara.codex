@@ -22,6 +22,6 @@ This is why one of the main points of negotiation between altas and yaara keeper
     "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
     "fixedPrice" : true, "level" : 4,
     "itemTags" : [ "data_source", "datamass", "yaara" ],
-    "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+    "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

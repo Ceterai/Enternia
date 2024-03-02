@@ -65,23 +65,5 @@
   {"op": "add", "path": "/-", "value": { "name" : "ct_alta_droid_eds", "monsterParameters" : {"aggressive" : true},
     "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
     "monsterType" : [ [0.95, "ct_eds_droid"], [0.05, "ct_alta_defensive_droid"] ]
-  } },
-
-
-
-  {"op": "add", "path": "/-", "value": { "name" : "ct_drone_spawn", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.02,
-    "monsterType" : [ [0.9, "ctdrone"], [0.1, "ctdrone2"] ]
-  }},
-  {"op": "add", "path": "/-", "value": { "name" : "ct_big_drone_spawn", "monsterType" : [ [0.8, "ct_shieldrone"], [0.2, "ct_sentrydrone"] ], "spawnChance" : 0.04,
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "monsterParameters" : {"aggressive" : false}
-  }},
-  {"op": "add", "path": "/-", "value": { "name" : "ct_caves_drone_spawn", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.03,
-    "monsterType" : [ [0.65, "ctdrone2"], [0.20, "ctdrone3"], [0.15, "ct_engineerdrone"] ]
-  }},
-  {"op": "add", "path": "/-", "value": { "name" : "ct_core_drone_spawn", "monsterParameters" : {"aggressive" : true},
-    "spawnParameters" : {"area" : "air","region" : "all","time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.04,
-    "monsterType" : [ [0.9, "ctdrone3"], [0.1, "ct_engineerdrone"] ]
-  }}
+  } }
 ]

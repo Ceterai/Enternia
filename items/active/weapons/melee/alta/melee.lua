@@ -11,7 +11,7 @@ function init()
   animator.playSound("init")
 
   self.weapon = Weapon:new()
-  self.weapon.builder = "/items/buildscripts/ct_alta_item_builder.lua"
+  self.weapon.builder = "/items/buildscripts/alta/item.lua"
   self.weapon.isWrist = config.getParameter("isWrist", false)
   self.weapon:addAbility(getAbil(getDefaultPrimary(), "primary"))
   if config.getParameter("altAbility") then

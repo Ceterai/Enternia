@@ -2,7 +2,7 @@
   "itemName" : "ct_tool_mimic",
   "shortdescription" : "ZZZZ Active Item Mimic! This is a bug!",
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "skip" : true },
   "presets" : {  // Note to translators: some items below lack `longdescription` and `altaDescription`, which will be added in later versions.
     // TBD: https://starbounder.org/Vine_Whip https://starbounder.org/Poison_Bow
@@ -193,7 +193,7 @@
     },
     "horn" : {  // https://starbounder.org/Ixodoom_Claw
       "baseAsset" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.activeitem",
-      "shortdescription" : "Barrakuda's Horn", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 720,
+      "shortdescription" : "Barracuda's Horn", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 720,
       "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "A horn from an especially massive cuda lurking in the flooded alterash caves.",
       "longdescription" : "It looks polished due to special cover that can be found on some appendages of rare cudas.",
@@ -207,7 +207,7 @@
       "altAbility" : { "description" : "Launches a poison wave, dealing damage to all targets in its path." },
       "tooltipKind" : "ct_alta_weapon_2",
       "upgradeParameters" : {
-        "shortdescription" : "Barrakuda's Wing ^#8020f0;^reset;",
+        "shortdescription" : "Barracuda's Wing ^#8020f0;^reset;",
         "paletteSwap" : {"#9da8af":"#c9ccdb","#676f83":"#8e95a8","#3d3d51":"#5e6675","#24232f":"#363b45","#aab893":"#ecf9dc","#7c916f":"#c1dfae","#546951":"#87b684","#30362f":"#4a784e"},
         "rarity" : "Legendary", "price" : 800
       }
@@ -243,7 +243,7 @@
       "itemTags" : [ "weapon", "ranged", "shortsword", "ionic", "dreamer" ], "elementalType" : "electric",
       "description" : "An energy sword wrapped in sturdy heat-reducing astera materials. A favorite of any spacedrifter.",
       "primaryAbility" : { "name" : "Plasmablade", "description" : "Simple plasmic attacks that might take additional energy to generate." },
-      "tooltipKind" : "ct_alta_weapon_1", "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "tooltipKind" : "ct_alta_weapon_1"
     },
     "neo_orbit" : {  // shop https://starbounder.org/Neo_Chakram
       "baseAsset" : "/items/active/weapons/chakram/neochakram.activeitem",

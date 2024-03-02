@@ -10,7 +10,7 @@
   "foodValue" : 12, "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 }, { "effect" : "weakpoison", "duration" : 5 } ] ],  // ct_alta_food_plant
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "variants" : [ "essence" ],
   "presets" : {
     "essence" : {

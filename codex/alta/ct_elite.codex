@@ -18,6 +18,6 @@ Source: Alliana Citadel
       "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 6,
       "itemTags" : [ "data_source", "datamass", "elite" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

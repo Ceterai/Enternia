@@ -40,7 +40,7 @@
     { "tree" : true }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "builder" : "/items/buildscripts/alta/sapling.lua",
   "wiki" : {
     "aliases" : { "Ayaka Tree" : { "icon" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/icon.png" } },
     "related" : {

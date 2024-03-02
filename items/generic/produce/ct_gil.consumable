@@ -14,5 +14,5 @@
   "inventoryIcon" : "ct_gil.png",
   "learnBlueprintsOnPickup" : [ "ct_gillikada" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua", "alkey" : "Gil"
+  "builder" : "/items/buildscripts/alta/consumable.lua", "alkey" : "Gil"
 }

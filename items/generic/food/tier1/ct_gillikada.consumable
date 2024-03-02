@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_gillikada.png",
   "effects" : [ [ { "effect" : "runboostfood", "duration" : 60 } ] ],  // ct_alta_food_fruit
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "learnBlueprintsOnPickup" : [ "ct_miko_tea", "ct_vermont_tea" ],
   "variants" : [ "split" ],
   "presets" : {

@@ -103,7 +103,7 @@
   "altAbilityType" : "exmachinarocket", // balllightning
   "altAbility" : { "elementalConfig" : { "electric" : { } } },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_meteoblaster_2.png",

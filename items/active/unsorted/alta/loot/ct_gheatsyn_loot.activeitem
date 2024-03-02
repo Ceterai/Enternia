@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_gheatsyn_loot",
+  "shortdescription" : "Gheatsyn Loot Crate",
+  "description" : "Contains random loot from ^#a7e001;gheatsyn^reset; biome chests.",
+  "longdescription" : "This supply crate is utilized by the ^#a7e001;ghearun researchers^reset; as a spare part delivery method for ^#a7e001;gheatsyn guardians^reset;. Can contain other loot as well.",
+  "altaDescription" : "A small pad packed with useful technology and some small pleasant bonuses. Maybe there's some shiny gheacal in there as well.",
+
+  "level" : 4, "price" : 80, "rarity" : "Uncommon",
+  "race" : "alta",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "loot", "gheatsyn" ],
+
+  "inventoryIcon" : "ct_gheatsyn_loot.png",
+  "animationParts" : { "gun" : "ct_gheatsyn_loot.png" },
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_gheatsyn_loot",
+    "level" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "wiki" : { "aliases" : { "Gheatsyn Crate" : { } } }, "alkey" : "Gheatsyn Pad"
+}

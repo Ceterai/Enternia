@@ -15,7 +15,7 @@ import base
 PATH = '/IFD_statuseffects.config.patch'
 AFFECTED_FILES = [PATH]
 MOD = 'Improved Food Descriptions'
-HINT = base.HINT.format(mod=MOD)
+HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 
 def is_obj_file(name: str) -> bool:
     return (name[-13:] == '.statuseffect')

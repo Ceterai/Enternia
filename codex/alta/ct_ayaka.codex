@@ -35,7 +35,7 @@ Common cooking recipes from ayaka biproducts include: ^#3587ff;Aya Fresh^reset;,
       "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 3,
       "itemTags" : [ "data_source", "docs", "ayaka" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "related" : {

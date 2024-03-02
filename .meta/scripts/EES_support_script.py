@@ -12,7 +12,7 @@ import base
 PATH = '/EES_transmutationstudylist.config.patch'
 AFFECTED_FILES = [PATH]
 MOD = 'Equivalent Exchange'
-HINT = base.HINT.format(mod=MOD)
+HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 IDS = {
     'farm': [
         'ct_aya',
@@ -22,6 +22,7 @@ IDS = {
         'ct_yaara_eye',
         'ct_yaara_root',
         'ct_ayaka_wood',
+        'ct_aya_powder',
     ],
     'mine': [
         'ct_bionid',

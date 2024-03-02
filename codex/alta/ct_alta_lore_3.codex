@@ -23,7 +23,7 @@ And then that thought dissipated in ceternia, as she went on, smiling towards th
       "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 6,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "aliases" : {

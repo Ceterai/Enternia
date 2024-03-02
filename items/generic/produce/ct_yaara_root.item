@@ -12,5 +12,5 @@
   "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Yaarut"
+  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Yaarut"
 }

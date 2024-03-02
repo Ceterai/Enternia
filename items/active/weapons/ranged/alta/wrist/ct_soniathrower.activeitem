@@ -53,7 +53,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_soniathrower_2.png",

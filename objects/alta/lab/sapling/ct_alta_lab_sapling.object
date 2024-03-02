@@ -56,7 +56,7 @@
     { "fixedStem" : "ct_aric_twisted", "fixedFoliage" : "ct_vyralic" }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "builder" : "/items/buildscripts/alta/sapling.lua",
   "wiki" : {
     "aliases" : { "Lab Sapling" : { }, "Alta Lab Eco-Chamber" : { }, "Lab Eco-Chamber" : { } }
   }

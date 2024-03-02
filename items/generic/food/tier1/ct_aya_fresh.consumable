@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_aya_fresh.png",
   "effects" : [ [ { "effect" : "lowgrav", "duration" : 45 } ] ],
   "foodValue" : 12,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_vermont_tea" ],
   "variants" : [ "essence" ],

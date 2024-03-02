@@ -15,7 +15,7 @@ As the name suggests, this is a herb-based cuisine filled with various vitamins 
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 4,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+      "builder" : "/items/buildscripts/alta/item.lua",
       "learnBlueprintsOnPickup" : [
         "ct_bio_fresh", "ct_lifespring", "ct_yaarings", "ct_koywa_tea", "ct_yaara_tea",
         "ct_hive_curry", "ct_onitti_motsu", "ct_yaarizza", "ct_mohitava_cocktail", "ct_onitti_cake", "ct_palopias", "ct_yuri_cocktail"

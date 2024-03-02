@@ -14,6 +14,6 @@
   "inventoryIcon" : "ct_aya.png",
   "learnBlueprintsOnPickup" : [ "ct_aya_jam", "ct_aya_fresh", "ct_aya_baked", "ct_aya_powder", "ct_aya_boiled" ],
 
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "wiki" : { "aliases" : { "Alta Peach" : { } } }, "alkey" : "Aya"
 }

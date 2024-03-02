@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_lifespring.png",
   "effects" : [ [ { "effect" : "maxhealthscalingboostfood", "duration" : 60 } ] ],
   "foodValue" : 15,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_yaara_tea", "ct_koywa_tea", "ct_biomix_icecream" ],
   "variants" : [ "lifesapling" ],

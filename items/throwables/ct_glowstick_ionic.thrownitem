@@ -31,6 +31,6 @@
     "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ionica" : { }, "Enko" : { } } }, "alkey" : "Enko Vial"
 }

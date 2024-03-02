@@ -2,7 +2,7 @@
   "itemName" : "ct_food_mimic",
   "shortdescription" : "ZZZZ Food Mimic! (Evil, booo!) >>;3", "race" : "alta", "tooltipKind" : "ct_alta_consumable",
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "wiki" : { "skip" : true },
   "learnBlueprintsOnPickup" : [ ],
   "presets" : {

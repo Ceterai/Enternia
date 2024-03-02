@@ -3,8 +3,13 @@ import pyjson5
 import re
 
 
+def get_file(name: str):
+    return os.path.split(name)[-1]
+
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-HINT = '// Mod Support for {mod} (see mod description) - generated usings these scripts: https://github.com/Ceterai/Enternia/tree/main/.meta/scripts'
+REPO_PATH = 'https://github.com/Ceterai/Enternia/tree/main'
+HINT_PATH = __file__.replace(ROOT, '').replace('\\', '/').replace(get_file(__file__), '')
+HINT = '// Mod Support for {mod}, generated with this script: ' + REPO_PATH + HINT_PATH + '{name}'
 
 def get_paths_flat(roots: list[str] = ['']) -> list[str]:
     paths = []

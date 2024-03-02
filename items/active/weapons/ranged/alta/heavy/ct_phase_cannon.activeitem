@@ -58,7 +58,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : {
     "aliases" : { "Phase Corruption" : { "anchor" : "zeta-charges", "icon" : "none" }, "Zeta Charges" : { "anchor" : "zeta-charges", "icon" : "none" } },
     "md" : {

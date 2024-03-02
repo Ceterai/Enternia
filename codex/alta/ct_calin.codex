@@ -28,7 +28,7 @@ Please note that the availability of the Dancefloor can change in case of music 
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "docs", "calin" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : {
     "aliases" : { "Ix-Contrix" : { }, "Alta Clubhouse" : { } }

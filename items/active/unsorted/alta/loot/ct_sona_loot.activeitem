@@ -1,0 +1,27 @@
+{
+  "itemName" : "ct_sona_loot",
+  "shortdescription" : "Sona Loot Crate",
+  "description" : "Contains random loot from alterash snowy chests.",
+  "longdescription" : "An alta pad with heat-preserving casing for usage in below-zero environments. Usually contains warm materials and thermo-clothing.",
+  "altaDescription" : "These pads preserve heat and contain warm clothes inside. I think they're usually used by ^#b0e0fc;sona soldiers^reset; in ^#b0e0fc;tavriya^reset;.",
+
+  "level" : 3, "price" : 80, "rarity" : "Uncommon",
+  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "loot", "sona", "tavriya" ],
+
+  "inventoryIcon" : "ct_sona_loot.png",
+  "animationParts" : { "gun" : "ct_sona_loot.png" },
+  "animation" : "ct_alta_loot.animation",
+  "scripts" : ["ct_alta_loot.lua"],
+
+  "fireTime" : 1.0,
+  "fireOffset" : [0.5, 0.0],
+
+  "treasure" : {
+    "pool" : "ct_sona_loot",
+    "level" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "wiki" : { "aliases" : { "Sona Crate" : { } } }, "alkey" : "Sona Pad"
+}

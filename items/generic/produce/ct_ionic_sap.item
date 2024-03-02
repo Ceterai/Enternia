@@ -12,6 +12,6 @@
   "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ayaka Sap" : { }, "Ionic Sap" : { } } }, "alkey" : "Eniar"
 }

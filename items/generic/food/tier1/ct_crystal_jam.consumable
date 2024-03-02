@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_crystal_jam.png",
   "foodValue" : 20, "effects" : [ [ { "effect" : "lightaugment1", "duration" : 60 }, { "effect" : "ct_crystal_poison", "duration" : 5 } ] ],  // ct_alta_food_crystal
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "learnBlueprintsOnPickup" : [ "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_calio_tea" ],
   "variants" : [ "calline" ],
   "presets" : {

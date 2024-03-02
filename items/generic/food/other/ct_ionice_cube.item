@@ -10,6 +10,6 @@
   "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
   "learnBlueprintsOnPickup" : [ "ct_ionice_cube" ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ionice" : { }, "Enlid Yon" : { } } }, "alkey" : "Enlid'on"
 }

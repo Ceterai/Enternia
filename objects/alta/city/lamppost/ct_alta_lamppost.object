@@ -46,11 +46,7 @@
   ],
 
   "animation" : "/objects/alta/switch_bg.animation",
-  "animationParts" : {
-    "bg" : "body.png:",
-    "fg" : "lit.png:"
-  },
-  "animationPosition" : [0, 0],
+  "animationParts" : { "bg" : "body.png:", "fg" : "lit.png:" },
 
   "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,
@@ -58,5 +54,5 @@
   "defaultState" : true,
   "inputNodes" : [ [0, 6] ],
 
-  "builder" : "/items/buildscripts/ct_alta_object_builder.lua"
+  "builder" : "/items/buildscripts/alta/object.lua"
 }

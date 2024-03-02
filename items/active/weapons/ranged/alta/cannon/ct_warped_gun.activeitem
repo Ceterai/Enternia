@@ -124,7 +124,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_warped_gun_2.png",

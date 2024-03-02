@@ -45,6 +45,6 @@ Volunteer altas engaged in regular cleaning, general errands and simply helping 
       "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 6,
       "itemTags" : [ "data_source", "ebook", "alta_capital" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

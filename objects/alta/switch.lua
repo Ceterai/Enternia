@@ -1,7 +1,6 @@
--- Hooks
-
 -- # Switch
--- General switch/light script.
+-- General switch/light script. Read more here: [My Enternia Wiki: Modding - Objects:
+-- Switch Logic](https://github.com/Ceterai/Enternia/wiki/Modding-Items#switch-logic)
 -- ## Parameters
 -- All parameters are oprional (unless needed for compatability, like `stateType`).
 -- - `alwaysLit`, `bool` (default: `false`)
@@ -15,7 +14,12 @@
 -- - `lightColorOff`, `list` (default: `[0, 0, 0]`)
 -- - `oneWay`, `bool` (default: `false`)
 -- - `persistent`, `bool` (default: `false`)
--- - `stateType`, `bool` (default: `false`)
+-- - `stateType`, `str` (default: `body`) - optional parameter that tells the script which animation state to update.
+-- ## Notes
+-- Don't put `animationParts` and `animationPosition` in `orientations` if possible
+-- as they won't update in already placed objects if you change them.
+-- ## Debug
+-- To debug this script, you can use pre-made debug methods defined in the end of the file.
 function init()
     processWireInput(storage.state or getDefaultState(), true)
     if storage.triggered == nil and config.getParameter("oneWay", false) then
@@ -56,7 +60,7 @@ function switch(state, forceSwitch)
         local stateName = "off"
         if state then stateName = "on" end
         local stateType = config.getParameter("stateType", "body")  -- switchState, light
-        if stateType ~= "none" then animator.setAnimationState(stateType, stateName) end
+        if stateType ~= "none" and pcall(animator.setAnimationState, stateType, stateName) then animator.setAnimationState(stateType, stateName) end
         if not isAlwaysLit() then object.setLightColor(getLightColor(state)) end
         object.setSoundEffectEnabled(state)
         if animator.hasSound(stateName) then animator.playSound(stateName) end

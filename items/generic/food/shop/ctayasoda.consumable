@@ -9,7 +9,7 @@
   "race" : "alta",
   "category" : "drink", "maxStack" : 1, "emitters" : [ "drinking" ],
   "tooltipKind" : "ct_alta_consumable",
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "rottingMultiplier" : 10,
 

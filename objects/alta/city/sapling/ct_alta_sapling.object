@@ -67,6 +67,6 @@
     { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ -135 ] }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "builder" : "/items/buildscripts/alta/sapling.lua",
   "wiki" : { "aliases" : { "Alta Eco Chamber" : { }, "Eco Chamber" : { } } }, "alkey" : "Yava Crom"
 }

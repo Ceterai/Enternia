@@ -23,6 +23,6 @@ Please see appropriate research, descriptions and instructions below.
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "datamass", "arco" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

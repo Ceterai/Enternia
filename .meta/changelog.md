@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
+    - [2.2.1a](#221a)
     - [2.2.1](#221)
     - [2.2.0](#220)
   - [Update 2.1 - Alta Decryption](#update-21---alta-decryption)
@@ -46,11 +47,68 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.2 - Alta Colonies
 
+### 2.2.1a
+
+This small bugfix patch is a refinement & compatibility fix for the previous version, as well as a small clean-up of outdated and deprecated files and objects.
+
+If you want to keep deprecated items, objects, planets, etc. - subscribe to the freshly released **My Enternia - Removed Content** mod!
+
+![ ](/.meta/images/panels/steam_removed_content.png)
+
+This update is also to celebrate the mod finally reaching **five stars** in Steam Workshop! **★★★★★**
+
+![ ](/.meta/images/panels/steam_stars.png)
+
+**Main:**
+
+- posted a separate mod that retains any old deprecated content as a backwards-compatability feature: **My Enternia - Removed Content**:
+  - [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3169344640)
+  - [Starbound Forums Link](https://community.playstarbound.com/resources/my-enternia-removed-content.6282/)
+  
+  You can use it if you want to keep years old planets or other things that were deprecated a long time ago. More details in the mod description;
+- added the **Alta Scanner** to the quickbar;
+
+**Alta:**
+
+- made the mod compatible with **Alta Lights** placed before 2.2.1;
+- the **Alta Scanner** can now be found in the quickbar around the bottom of the list *(note that just like most quickbar tools, it's meant to be used in the **admin mode** or for **creative purposes**, not an actual survival/rp, as it's still an item you'd have to craft first if you care about the progress)*:  
+  ![ ](/.meta/images/panels/quickbar_scanner.png)
+
+**Wiki:**
+
+- added an **Alta Robotics** page with information split from the main Alta page to make it load faster and more reliably;
+- moved more pages to a semi-manual state - **EDS**, **Faradea**, all modding-related pages;
+- added a "cheat/creative crafting tables" section to show if an item can be accquired in admin/creative places like **Tabula Rasa**, **Spawnable Item Pack**, **Ultimate Alta Station** or **Ultimate Alta Constructor**.
+
+**Dev:**
+
+- added `README.md` files to some alta folders to help explain things, useful if you're using the modding wiki pages or are trying to understand where things re located in the mod;
+- updated most mod support files with proper links;
+- updated the main `README.md` with relevant information and some neat features;
+- moved the buildscripts slightly;
+
+**Translation:**
+
+- moved loot items from `/items/active/unsorted/ct_alta_loot/` to `/items/active/unsorted/alta/loot/`;
+
+**Other:**
+
+- minor grammar fixes;
+- minor bug fixes.
+
 ### 2.2.1
 
 This time alta researchers have done a great job working on improving basic alta furniture, as well as providing support to alien (human) technology!
 
 They have also come up with customized drone models that look just like ship drone variations! You can craft some of them, find them as loot or buy them from alta merchants.
+
+This update is also to celebrate the **4th anniversary** of the mod, since it was first posted in Steam Workshop!
+
+![ ](/.meta/images/panels/steam_anniversary.png)
+
+![ ](/.meta/images/panels/steam_221a.png)
+
+> Detailed changes for this version: [Update 2.2.1](https://github.com/Ceterai/Enternia/commit/2650b2a2ba59a67de76c6876f29821a9581d20ab)
 
 **Main:**
 
@@ -83,7 +141,7 @@ They have also come up with customized drone models that look just like ship dro
 **Tabula Rasa:**
 
 - added all recipes to the [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) crafting table - `/spawnitem tabularasa`;
-- added `mod` category to most recipes in the mod to make them appear in **Tabula Rasa**, and added categories used by it for compatability - `materials`,`armors`, `weapons`, `consumables`, `tools`, `objects`, `other`;
+- added `mod` category to most recipes in the mod to make them appear in **Tabula Rasa**, and added categories used by it for compatability - `materials`, `armors`, `weapons`, `consumables`, `tools`, `objects` and `other`;
 - added "mod category" buttons - **My Enternia** and **Alta Species**:
   - **My Enternia** button filters by all recipes from this mod;
   - **Alta Species** button filters by all recipes from this mod that belong to altas or are considered alta technology.
@@ -183,7 +241,7 @@ This might be the most stable & bugless update so far, which is nice.
 - added **Translation** sections to this changelog to denote any changes that might be important for translators;
 - added links to detailed commit/version changes to all version descriptions in changelog up until 2.0 (inclusive);
 - added tables of content both to the changelog file and the `README.md`;
-- added comments to some lua scripts and json files, including `/items/buildscripts/ct_mimics/aid.consumable` & `/items/buildscripts/ct_alta_item_builder.lua`;
+- added comments to some lua scripts and json files, including `/items/buildscripts/ct_mimics/aid.consumable` & `/items/buildscripts/alta/item.lua`;
 - added handling for outdated presets in item builders;
 - added handling upgrade parameters as presets in item builders;
 - moved more dev files to `.meta` (`changelog.mg` and `cockpit.config.patch.init.json`);

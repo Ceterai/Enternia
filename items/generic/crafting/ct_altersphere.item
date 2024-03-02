@@ -14,6 +14,6 @@
   "inventoryIcon" : "ct_altersphere.png",
 
   "radioMessagesOnPickup" : [ "ct_sphere_msg" ],
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Energy Lock" : { "icon" : "none" }, "Alniafaa" : { } } }, "alkey" : "Alter-Faa"
 }

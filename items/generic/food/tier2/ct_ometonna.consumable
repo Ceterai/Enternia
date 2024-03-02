@@ -14,7 +14,7 @@
     }
   ] ],
   "foodValue" : 30,
-  "builder" : "/items/buildscripts/ct_alta_food_builder.lua",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
   "learnBlueprintsOnPickup" : [ "ct_tonna_meringue", "ct_tonna_shake", "ct_rimar_motsu" ],
 

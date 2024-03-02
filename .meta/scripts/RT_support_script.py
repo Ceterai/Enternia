@@ -14,7 +14,7 @@ PATH = '/stats/effects/om_customstats/om_racetraits/om_racetraits.statuseffect.p
 AFFECTED_FILES = [PATH]
 RACE = 'alta'
 MOD = 'Racial Traits'
-HINT = base.HINT.format(mod=MOD)
+HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 EXCLUDED = [
 	'maxFood',
 	'fuCharisma',

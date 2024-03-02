@@ -10,6 +10,6 @@
   "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice" ],
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua",
+  "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Herb Spice" : { } } }, "alkey" : "Gharush"
 }

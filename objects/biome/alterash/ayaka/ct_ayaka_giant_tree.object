@@ -40,7 +40,7 @@
     { "tree" : true }
   ],
 
-  "builder" : "/items/buildscripts/ct_alta_sapling_builder.lua",
+  "builder" : "/items/buildscripts/alta/sapling.lua",
   "wiki" : {
     "aliases" : { "Great Ayaka Prime" : { "icon" : "/items/generic/crafting/ctwood.png", "anchor" : "great-ayaka-prime" } },
     "md" : {

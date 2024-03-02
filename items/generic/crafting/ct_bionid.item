@@ -13,7 +13,7 @@
 
   "inventoryIcon" : "ct_bionid.png",
 
-  "builder" : "/items/buildscripts/ct_alta_item_builder.lua", "alkey" : "Bionid",
+  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Bionid",
   "wiki" : {
     "aliases" : { "Biotsyn" : { }, "Calonid" : { } },
     "md" : {

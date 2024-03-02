@@ -16,7 +16,7 @@ Note, that starting with discovery of stardust energy capabilities and the Enter
       "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
       "fixedPrice" : true, "level" : 5,
       "itemTags" : [ "data_source", "datamass", "combat" ],
-      "builder" : "/items/buildscripts/ct_alta_item_builder.lua"
+      "builder" : "/items/buildscripts/alta/item.lua"
   },
   "wiki" : { "aliases" : { "Combat Protocol" : { } } }
 }
