@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_upgrade_station",
-  "colonyTags" : [ "alta", "crafting", "gheatsyn" ],
+  "colonyTags" : [ "crafting", "gheatsyn" ],
   "category" : "crafting",
   "level" : 1, "rarity" : "Rare", "price" : 1200,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 

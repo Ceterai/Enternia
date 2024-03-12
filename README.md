@@ -13,7 +13,9 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 
 [>>> SUPPORT THE MOD <<<](https://www.buymeacoffee.com/ceterai)</h4><h4 align="center">
 
-[>>> DISCORD SERVER <<<](https://discord.gg/qBZDKESdtp)</h4><p align="center">(dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^)</p>
+[>>> DISCORD SERVER <<<](https://discord.gg/qBZDKESdtp)</h4><p align="center">(dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^)</p><h4 align="center">
+
+[>>> 🇨🇳 Chinese Patch/中文翻译补丁 🇨🇳 <<<](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750)</h4>
 
 **Version 2.2: Alta Colonies** is out! Check out the [changelog](.meta/changelog.md) for details.
 

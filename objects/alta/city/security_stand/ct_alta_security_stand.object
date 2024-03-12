@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_security_stand",
-  "colonyTags" : [ "alta", "alta_city", "alta_security", "alta_robotics", "electronic", "misc", "spawner", "hazard" ],
+  "colonyTags" : [ "alta_city", "alta_security", "alta_robotics", "electronic", "misc", "spawner", "hazard" ],
   "category" : "breakable",
   "level" : 5, "rarity" : "Rare", "price" : 180,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Security Stand",
   "description" : "This strange device dispences a ^#b0e0fc;Security Drone^reset; each 8-16 seconds.",

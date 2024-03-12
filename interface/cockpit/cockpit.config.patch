@@ -80,9 +80,6 @@
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_longfall","value":{"displayName":"1/4 Falldamage","icon":"/stats/effects/ct_velocity_jump/ct_longfall.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_velocity_boost","value":{"displayName":"Velocity Boost","icon":"/interface/statuses/jumpboost.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_velocity_jump","value":{"displayName":"Velocity Jump","icon":"/stats/effects/ct_velocity_jump/ct_velocity_jump.png"}},
-    {"op":"add","path":"/weatherThreatValues/ctdrizzleweather","value":"0.1"},
-    {"op":"add","path":"/weatherThreatValues/ctrainweather","value":"0.1"},
-    {"op":"add","path":"/weatherThreatValues/ctstormweather","value":"0.1"},
     {"op":"add","path":"/weatherThreatValues/ct_crystal_fall","value":"1.4"},
     {"op":"add","path":"/weatherThreatValues/ct_glow_rain","value":"-0.1"},
     {"op":"add","path":"/weatherThreatValues/ct_ionic_drizzle","value":"0.1"},
@@ -139,12 +136,6 @@
     {"op":"add","path":"/namesList/ct_alterash_core_barrens","value":{"word":"ct_alterash_core_barrens","friendlyWord":"Obsidian Depths"}},
     {"op":"add","path":"/namesList/ct_alterash_core_haven","value":{"word":"ct_alterash_core_haven","friendlyWord":"Alterash Haven Depths"}},
     {"op":"add","path":"/namesList/ct_alterash_core_starfields","value":{"word":"ct_alterash_core_starfields","friendlyWord":"Starfields"}},
-    {"op":"add","path":"/namesList/ct_moonrock_space_islands","value":{"word":"ct_moonrock_space_islands","friendlyWord":"Astera"}},
-    {"op":"add","path":"/namesList/ctforest","value":{"word":"ctforest","friendlyWord":"None"}},
-    {"op":"add","path":"/namesList/ctforestsub","value":{"word":"ctforestsub","friendlyWord":"None"}},
-    {"op":"add","path":"/namesList/ctforestsub2","value":{"word":"ctforestsub2","friendlyWord":"None"}},
-    {"op":"add","path":"/namesList/ct_alterash_hive","value":{"word":"ct_alterash_hive","friendlyWord":"^red;Outdated^reset; Hive on Alterash"}},
-    {"op":"add","path":"/namesList/ct_alterash_labs","value":{"word":"ct_alterash_labs","friendlyWord":"^red;Outdated^reset; Alterash Hidden Labs"}},
-    {"op":"add","path":"/namesList/ct_alterash_snowlands","value":{"word":"ct_alterash_snowlands","friendlyWord":"^red;Outdated^reset; Snowlands"}}
+    {"op":"add","path":"/namesList/ct_moonrock_space_islands","value":{"word":"ct_moonrock_space_islands","friendlyWord":"Astera"}}
   ]
 ]

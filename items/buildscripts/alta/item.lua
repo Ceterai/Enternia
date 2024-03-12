@@ -31,34 +31,7 @@ function build(directory, config, parameters, level, seed)
   local configParameter = function(key, default) return getValue(key, default, config, parameters) end
 
   -- CUSTOM PARAMS --
-  if parameters.preset then  -- applying a preset from `presets`
-    if config.deprecation and config.deprecation[parameters.preset] then parameters.preset = config.deprecation[parameters.preset] end
-    if config.presets and config.presets[parameters.preset] ~= nil then
-      parameters = sb.jsonMerge(config.presets[parameters.preset], parameters)
-      if parameters.upgradeParameters then config.upgradeParameters = parameters.upgradeParameters end
-      if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
-      if parameters.price then config.price = parameters.price end
-    end
-  end
-  if parameters.baseAsset then  -- applying asset params as a preset
-    if not parameters.cfg then
-      local cfg = sb.jsonMerge(root.assetJson(parameters.baseAsset), copy(parameters))
-      cfg.tooltipKind = parameters.tooltipKind or config.tooltipKind
-      replaceRegexInData(cfg, parameters.baseAsset:gsub('[^/]+$', ''))
-      parameters = {baseAsset=parameters.baseAsset, cfg=cfg, upgraded=parameters.upgraded}
-      nullify(parameters.cfg, {"baseAsset", "cfg", "itemName", "wiki", "preset", "upgraded"})
-    end
-    for k, v in pairs(parameters.cfg) do if v ~= nil then config[k] = v end end
-  end
-  if parameters.upgraded and config.upgradeParameters then  -- applying upgrade params as a preset
-    config = sb.jsonMerge(config, config.upgradeParameters)
-    if parameters.preset and not parameters.baseAsset then parameters = sb.jsonMerge(parameters, config.upgradeParameters) end
-    if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
-    if parameters.price then config.price = parameters.price end
-    config.upgradeParameters = nil
-    parameters.upgradeParameters = nil
-    parameters.level = 6
-  end
+  config, parameters = getPresetParams(config, parameters)
 
   -- BASIC PARAMS --
 
@@ -89,12 +62,10 @@ function build(directory, config, parameters, level, seed)
 
   -- Palette Swaps
   if type(parameters.colorIndex) == "table" then parameters.colorIndex = util.randomChoice(parameters.colorIndex) end
-  config.dirs = getDirectivesTable(directory, config.palette, configParameter("colorIndex"), configParameter("paletteSwap"), {})
-  config.paletteSwaps = configParameter("paletteSwaps") or getColorDirectives(config.dirs, "")
-  config.inventoryIcon = getColorsIcon(configParameter("inventoryIcon"), config.paletteSwaps, parameters.lastDirs or {})
-  config.colorOptions = getColorsArmor(configParameter("colorOptions"), configParameter("paletteSwap"))
-  if #config.dirs > 0 then parameters.lastDirs = config.dirs end
-  nullify(parameters, {"colorOptions",})
+  config, parameters = getColorChanges(
+    config, parameters, directory, parameters.colorIndex, configParameter("paletteSwap"),
+    configParameter("paletteSwaps"), configParameter("inventoryIcon"), configParameter("colorOptions")
+  )
   -- Scripted Animation
   if parameters.scriptedAnimationParameters ~= nil then config.scriptedAnimationParameters = parameters.scriptedAnimationParameters end
   -- Offsets
@@ -106,7 +77,80 @@ function build(directory, config, parameters, level, seed)
 
 
   -- TOOLTIPS --
-  local tips = getTextConfig()
+  config, parameters = getTooltips(config, parameters, level, elementalType, getTextConfig())
+
+  return config, parameters
+end
+
+
+function getPresetParams(config, parameters)
+  if parameters.preset and config.presets then
+    config, parameters = getPreset(config, parameters)
+  end
+  if parameters.baseAsset then
+    config, parameters = getBaseAsset(config, parameters)
+  end
+  if parameters.upgraded and config.upgradeParameters then
+    config, parameters = getUpgrade(config, parameters)
+  end
+  return config, parameters
+end
+
+
+function getPreset(config, parameters)  -- applying a preset from `presets`
+  if config.deprecation and config.deprecation[parameters.preset] then parameters.preset = config.deprecation[parameters.preset] end
+  if config.presets and config.presets[parameters.preset] ~= nil then
+    parameters = sb.jsonMerge(config.presets[parameters.preset], parameters)
+    if parameters.upgradeParameters then config.upgradeParameters = parameters.upgradeParameters end
+    if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
+    if parameters.price then config.price = parameters.price end
+  end
+  return config, parameters
+end
+
+
+function getBaseAsset(config, parameters)  -- applying asset params as a preset
+  if not parameters.cfg then
+    local cfg = sb.jsonMerge(root.assetJson(parameters.baseAsset), copy(parameters))
+    cfg.tooltipKind = parameters.tooltipKind or config.tooltipKind
+    replaceRegexInData(cfg, parameters.baseAsset:gsub('[^/]+$', ''))
+    parameters = {baseAsset=parameters.baseAsset, cfg=cfg, upgraded=parameters.upgraded}
+    nullify(parameters.cfg, {"baseAsset", "cfg", "itemName", "wiki", "preset", "upgraded"})
+  end
+  for k, v in pairs(parameters.cfg) do if v ~= nil then config[k] = v end end
+  return config, parameters
+end
+
+
+function getUpgrade(config, parameters)  -- applying upgrade params as a preset
+  config = sb.jsonMerge(config, config.upgradeParameters)
+  if parameters.preset and not parameters.baseAsset then parameters = sb.jsonMerge(parameters, config.upgradeParameters) end
+  if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
+  if parameters.price then config.price = parameters.price end
+  config.upgradeParameters = nil
+  parameters.upgradeParameters = nil
+  parameters.level = 6
+  return config, parameters
+end
+
+
+function getColorChanges(config, parameters, directory, index, preset_swap, swaps, icon, options)  -- applying color swaps and directives
+  config.colorOptions = getPalette(options, preset_swap, directory)
+  if config.colorOptions or preset_swap then
+    config.dirs = getDirectivesList(config.colorOptions or {preset_swap,}, index or 0)
+    config.paletteSwaps = swaps or getDirectivesString(config.dirs, "")
+  end
+  if parameters.lastDirs or config.paletteSwaps then
+    config.inventoryIcon = getColoredImage(icon, config.paletteSwaps, parameters.lastDirs or {})
+  end
+  if config.dirs and #config.dirs > 0 then parameters.lastDirs = config.dirs end
+  nullify(parameters, {"colorOptions",})
+  return config, parameters
+end
+
+
+function getTooltips(config, parameters, level, elementalType, tips)
+  local configParameter = function(key, default) return getValue(key, default, config, parameters) end
   config.tooltipFields = config.tooltipFields or {}
   config.tooltipFields.levelLabel = level
   config.tooltipFields.levelTitleLabel = tips.level

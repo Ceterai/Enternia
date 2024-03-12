@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_ship_pod",
-  "colonyTags" : [ "alta", "alta_ship", "storage", "mechanical", "wired" ],
+  "colonyTags" : [ "alta_ship", "storage", "mechanical", "wired" ],
   "category" : "storage", "objectType" : "container",
   "level" : 6, "rarity" : "Legendary", "price" : 100,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Pod",
   "description" : "A reinforced advanced pod with isolated airtight space that can be used for storage.",

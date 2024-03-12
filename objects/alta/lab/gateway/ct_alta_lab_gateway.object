@@ -1,13 +1,12 @@
 {
   "objectName" : "ct_alta_lab_gateway",
-  "colonyTags" : [ "alta", "alta_lab", "mechanical", "door" ],
+  "colonyTags" : [ "alta_lab", "mechanical", "door" ],
   "category" : "door",
   "level" : 4, "rarity" : "Uncommon", "price" : 120,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Gateway",
-  "description" : "A protective bionid blast door.",
+  "description" : "A protective 2x5 bionid blast door. ^green;Can be placed both vertically and horizontally.^reset;",
   "altaDescription" : "Airtight blast door, used mainly in alta labs.",
 
   "apexDescription" : "This door is entirely secure.",
@@ -26,6 +25,26 @@
     {
       "dualImage" : "ct_door.png:default",
       "imagePosition" : [-20, 0],
+      "animationParts" : { "door" : "ct_door.png" },
+      "animationPosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    },
+    {
+      "dualImage" : "ct_door_h.png:default",
+      "imagePosition" : [-16, -20],
+      "animationParts" : { "door" : "ct_door_h.png" },
+      "animationPosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "dualImage" : "ct_door.png:default",
+      "imagePosition" : [-20, 0],
+      "animationParts" : { "door" : "ct_door.png" },
+      "animationPosition" : [-20, 0],
       "renderLayer" : "Object+5",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom", "top" ]

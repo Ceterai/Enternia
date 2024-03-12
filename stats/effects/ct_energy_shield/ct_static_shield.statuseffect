@@ -2,6 +2,8 @@
   "name" : "ct_static_shield",
   "label" : "Static Shield",
   "description" : "An energy shield that will expire once broken or overtime.",
+  "longdescription" : "Just like the ^#2080f0;energy shield^reset;, this piece of alta technology is yet to be learned by a number of civilizations.",
+  "altaDescription" : "An advanced static shield. Much harder to produce, because it utilizes impulses instead of plasma.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {

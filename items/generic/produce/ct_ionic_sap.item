@@ -10,7 +10,7 @@
   "rarity" : "Common", "price" : 5,
   "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item", "itemTags" : [ "ayaka", "ionic" ],
   "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ctvelcrojello", "ct_ionic_fresh", "ct_ionice_cube" ],
+  "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ct_ionic_fresh", "ct_ionice_cube" ],
 
   "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ayaka Sap" : { }, "Ionic Sap" : { } } }, "alkey" : "Eniar"

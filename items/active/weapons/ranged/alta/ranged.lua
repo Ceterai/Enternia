@@ -30,16 +30,17 @@ end
 function AltaRanged:blast(cfg)
   if self:drainEnergy() then
     self.weapon:setStance(self.stances.fire)
-    self:fireProjs(cfg, self:firePos(cfg.offset or self.weapon.muzzleOffset), {})
+    self:fireProjs(cfg, nil, cfg.offset or self.weapon.muzzleOffset, {})
     self:setState(self.cooldown)
   end
 end
 
-function AltaRanged:fireProjs(cfg, pos, fireIDs, damage)
+function AltaRanged:fireProjs(cfg, pos, offset, fireIDs, damage)
+  self.fireTime = cfg.fireTime or self.defaultFireTime
   local params = self:getProjDamage(cfg.params or {}, cfg.count, cfg.itemBonus, damage, cfg.multi)
   for i = 1, (cfg.count or 1) do
     if i == 1 or cfg.interval ~= 0 then self:muzzleFlash(cfg.sound, cfg.flash) end
-    table.insert(fireIDs, self:fireRanged(cfg.type, copy(params), pos, nil, cfg.aim, cfg.inaccuracy))
+    table.insert(fireIDs, self:fireRanged(cfg.type, copy(params), pos, offset, cfg.aim, cfg.inaccuracy))
     util.wait(cfg.interval or 0)
   end
   return fireIDs
@@ -55,7 +56,7 @@ function AltaRanged:muzzleFlash(sound, flash)
   animator.playSound(sound or self.abilitySlot..'_press')
 end
 
-function AltaRanged:cooldown()
+function AltaRanged:cooldown(cfg)
   self.cooldownTimer = self.fireTime
   self.weapon:setStance(self.stances.winddown)
   self.weapon:updateAim()
@@ -95,5 +96,6 @@ function AltaRanged:setDefaults()
   self.pressParams.sound = self.pressParams.sound or (self.abilitySlot..'_press')
   self.holdParams = util.mergeTable(copy(self.actionPresets[self.holdType or 'none']), self.holdParams or {})
   self.holdParams.sound = self.holdParams.sound or (self.abilitySlot..'_hold')
+  self.defaultFireTime = self.defaultFireTime or self.fireTime
   self.cooldownTimer = 0
 end

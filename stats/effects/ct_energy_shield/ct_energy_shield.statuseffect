@@ -2,11 +2,13 @@
   "name" : "ct_energy_shield",
   "label" : "Energy Shield",
   "description" : "An energy shield that will expire once broken or overtime.",
+  "longdescription" : "It holds up thanks to a constant stream of energy holding up a thick field of plasma in a certain area.",
+  "altaDescription" : "A standard protocol energy shield. Used quite often for basic alta protection.",
   "blockingStat" : "emiJam",
 
   "effectConfig" : {
     "shieldBase" : 60.0,
-    "shieldFromHealthPercent" : 0.5,
+    "shieldFromEnergyPercent" : 0.5,
     "shieldInitialPercent" : 1.0,
 
     "visuals" : "border=3;2080f099;00000000"

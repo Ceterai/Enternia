@@ -1,13 +1,12 @@
 {
   "objectName" : "ct_alta_shelf",
-  "colonyTags" : [ "alta" ],
+  "colonyTags" : [ ],
   "category" : "decorative",
   "level" : 2, "rarity" : "Common", "price" : 60,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Shelf",
-  "description" : "A simplistic titanium shelf with small crystal markings.",
+  "description" : "A simplistic titanium shelf with small crystal markings. ^green;Is a platform. Can be placed on walls, as well as the ground (in form of a small table).^reset;",
   "altaDescription" : "A regular shelf you would often see in alta interiors.",
 
   "apexDescription" : "It's a wall shelf.",
@@ -20,11 +19,9 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_alta_shelf.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ], "collision" : "platform"
-    }
+    { "dualImage" : "ct_alta_shelf.png", "spaceScan" : 0.1, "anchors" : [ "top" ], "collision" : "platform" },
+    { "dualImage" : "floor.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" },
+    { "dualImage" : "ct_alta_shelf.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

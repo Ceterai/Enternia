@@ -1,0 +1,30 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "shield" : {
+        "priority" : 2, "default" : "fulloff",
+        "states" : {
+          "off" : { "frames" : 10, "cycle" : 0.5, "mode" : "transition", "transition" : "fulloff" },
+          "fulloff" : { "frames" : 1 },
+          "on" : { "frames" : 16, "cycle" : 0.75, "mode" : "loop" }
+        }
+      }
+    },
+    "parts" : {      
+      "shield" : {
+        "properties" : { "zLevel" : 5, "centered" : true, "offset" : [0, 0.5] },
+        "partStates" : {
+          "shield" : {
+            "on" : { "properties" : { "image" : "/stats/effects/ct_analyzed/effect.png:on.<frame>" } },
+            "off" : { "properties" : { "image" : "/stats/effects/ct_analyzed/effect.png:flicker.<frame>" } },
+            "fulloff" : { "properties" : { "image" : "/stats/effects/ct_analyzed/effect.png:off" } }
+          }
+        }
+      }
+    }
+  },
+  "sounds" : {
+    "shieldOn" : [ "/sfx/melee/elemental_aura_activate.ogg" ],
+    "shieldOff" : [ "/sfx/melee/elemental_aura_deactivate1.ogg" ]
+  }
+}

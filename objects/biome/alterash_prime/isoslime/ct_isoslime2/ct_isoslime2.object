@@ -4,7 +4,6 @@
   "category" : "breakable",
   "level" : 1, "rarity" : "Common", "price" : 60,
   "race" : "generic",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Isoslime Pile",
   "description" : "A glob of ^#7ddcde;isoslime^reset;.",
@@ -24,7 +23,6 @@
   "orientations" : [
     {
       "dualImage" : "ct_isoslime2.png",
-      "imagePosition" : [-3, -5],
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }

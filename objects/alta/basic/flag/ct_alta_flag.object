@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_flag",
-  "colonyTags" : [ "alta", "alta_scout", "patriotic" ],
+  "colonyTags" : [ "alta_scout", "patriotic" ],
   "category" : "teleportMarker", "objectType" : "teleporter",
   "level" : 1, "rarity" : "Common", "price" : 70,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
   
   "shortdescription" : "Alta Flag",
   "description" : "An ^#b0e0fc;alta^reset; flag. The symbol of Alliana. Use ^green;[E]^reset; to bookmark a teleportation location.",

@@ -56,6 +56,43 @@ function getPickupMsgs(msgList, tagList)
   if #msgList > 0 then return getSortedUnique(msgList) end
 end
 
+function getDirectivesString(dirT, dirs)
+  for _, v in ipairs(dirT) do dirs = string.format("%s%s", dirs, v) end
+  return dirs
+end
+
+function getDirectivesList(palette, option)
+  local dirs = {}
+  for k, v in pairs(palette[option + 1] or {}) do table.insert(dirs, string.format("?replace=%s=%s", k:gsub('#', ''), v:gsub('#', ''))) end
+  return dirs
+end
+
+function getCleanImage(img, swaps)
+  for _, swap in ipairs(swaps) do img = img:gsub(swap, '') end
+  return img
+end
+
+function getColoredImage(icon, dirs, oldSwaps)
+  if type(icon) == "string" then icon = getCleanImage(icon, oldSwaps)..dirs
+  elseif icon then
+    for i, drawable in ipairs(icon) do
+      if drawable.image then
+        drawable.image = getCleanImage(drawable.image, oldSwaps)..dirs
+      end
+    end
+  end
+  return icon
+end
+
+function getPalette(palette, swaps, directory)
+  swaps = copy(swaps or {})
+  if type(palette) == "string" then palette = root.assetJson(util.absolutePath(directory, palette)) end
+  if palette and swaps then for i, _ in ipairs(palette) do for key, swap in pairs(swaps) do palette[i][key:gsub('#', '')] = swap:gsub('#', '') end end end
+  return palette
+end
+
+-- Deprecated, left for compatability
+
 function getColorDirectives(dirT, dirs)
   for _, v in ipairs(dirT) do dirs = string.format("%s%s", dirs, v) end
   return dirs
@@ -66,11 +103,6 @@ function getDirectivesTable(dir, palette, option, swaps, dirs)
   if palette then for k, v in pairs(root.assetJson(util.absolutePath(dir, palette))[(option or 0) + 1]) do swaps[k] = v end end
   for k, v in pairs(swaps) do table.insert(dirs, string.format("?replace=%s=%s", k:gsub('#', ''), v:gsub('#', ''))) end
   return dirs
-end
-
-function getCleanImage(img, swaps)
-  for _, swap in ipairs(swaps) do img = img:gsub(swap, '') end
-  return img
 end
 
 function getColorsIcon(icon, dirs, oldSwaps)

@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_ship_container",
-  "colonyTags" : [ "alta", "alta_ship", "storage", "cargo" ],
+  "colonyTags" : [ "alta_ship", "storage", "cargo" ],
   "category" : "storage", "objectType" : "container",
   "level" : 5, "rarity" : "Rare", "price" : 80,
   "race" : "generic",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Ship Container",
   "description" : "A small cargo crate. No doubt it has cargo in it.",

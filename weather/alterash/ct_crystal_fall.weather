@@ -8,8 +8,8 @@
   "projectiles" : [
     {
       "projectile" : "ct_calin_crystal",
-      "parameters" : { "power" : 6 },
-      "velocity" : [0, -30], "ratePerX" : 0.08,
+      "parameters" : { "power" : 8 },
+      "velocity" : [0, -30], "ratePerX" : 0.04,
       "spawnAboveRegion" : 30, "spawnHorizontalPad" : 30,
       "windAffectAmount" : 1.0
     }

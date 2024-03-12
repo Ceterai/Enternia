@@ -2,7 +2,7 @@
   "itemName" : "ct_aid_mimic",                                                     // A mimic - used only with presets. This one mimics default medicine items.
   "shortdescription" : "ZZZZ Consumable Mimic! (Evil, booo!) >>;3",                // Dev name, shouldn't show up ingame.
   "race" : "alta", "tooltipKind" : "ct_alta_consumable", "category" : "medicine",  // Defaults, applied to all presets.
-  "builder" : "/items/buildscripts/alta/consumable.lua",                      // Uses an expanded item builder to create a custom item from presets.
+  "builder" : "/items/buildscripts/alta/consumable.lua",                           // Uses an expanded item builder to create a custom item from presets.
   "wiki" : { "skip" : true },                                                      // Doesn't show up on the Wiki - skipped by generating scripts.
   "presets" : {                                                                    // Preset options that define mimic's final form.
     "bandade" : { "baseAsset" : "/items/generic/other/bandage.consumable",

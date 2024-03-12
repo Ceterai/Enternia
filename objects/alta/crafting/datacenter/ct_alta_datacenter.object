@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_datacenter",
-  "colonyTags" : [ "alta", "crafting", "hevika" ],
+  "colonyTags" : [ "crafting", "hevika" ],
   "category" : "crafting",
   "level" : 1, "rarity" : "Legendary", "price" : 1600,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {

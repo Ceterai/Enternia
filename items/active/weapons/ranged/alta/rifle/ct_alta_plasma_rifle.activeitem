@@ -43,14 +43,12 @@
       "semi" : {
         "pressType" : "semi",
         "pressParams" : { "type" : "ct_plasma_medium", "count" : 3, "interval" : 0.1 },
-        "holdTimeMax" : 0,
-        "winddown" : 0.1
+        "holdTimeMax" : 0
       },
       "single" : {
         "pressType" : "blast",
-        "pressParams" : { "type" : "ct_plasma_medium" },
-        "holdTimeMax" : 0,
-        "winddown" : 0.45
+        "pressParams" : { "type" : "ct_plasma_medium", "fireTime" : 0.45, "inaccuracy" : 0.02 },
+        "holdTimeMax" : 0
       }
     }
   },

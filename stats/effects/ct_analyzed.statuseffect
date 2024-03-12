@@ -8,7 +8,7 @@
   },
   "defaultDuration" : 10,
 
-  "animationConfig" : "/stats/effects/ct_energy_shield/ct_force_shield.animation",
+  "animationConfig" : "/stats/effects/ct_analyzed/effect.animation",
   "scripts" : [ "/stats/scripts/ct_immunity.lua" ],
   "icon" : "ct_analyzed.png"
 }

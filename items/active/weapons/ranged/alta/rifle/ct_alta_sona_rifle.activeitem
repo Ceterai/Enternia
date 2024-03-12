@@ -48,9 +48,8 @@
       },
       "burst" : {
         "pressType" : "burst",
-        "pressParams" : { "type" : "iceplasma", "count" : 3, "sound" : "primary_hold" },
-        "holdTimeMax" : 0,
-        "winddown" : 0.65
+        "pressParams" : { "type" : "iceplasma", "count" : 3, "sound" : "primary_hold", "fireTime" : 0.65 },
+        "holdTimeMax" : 0
       }
     }
   },

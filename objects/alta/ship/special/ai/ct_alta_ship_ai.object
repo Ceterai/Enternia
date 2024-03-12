@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_ship_ai",
-  "colonyTags" : [ "alta", "alta_ship", "alta_ai", "alta_citadel" ],
+  "colonyTags" : [ "alta_ship", "alta_ai", "alta_citadel" ],
   "category" : "decorative",
   "level" : 1, "rarity" : "Legendary", "price" : 3000,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "interactAction" : "OpenAiInterface",
 

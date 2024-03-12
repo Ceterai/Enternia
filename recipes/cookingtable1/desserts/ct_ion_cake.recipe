@@ -1,10 +1,9 @@
 {
   "input" : [
-    { "item" : "ct_ionic_fresh", "count" : 1 },
-    { "item" : "ctvelcrojello", "count" : 1 },
+    { "item" : "ct_ionic_fresh", "count" : 2 },
     { "item" : "ct_ionice_cube", "count" : 2 },
-    { "item" : "milk", "count" : 1 }
+    { "item" : "milk", "count" : 2 }
   ],
   "output" : { "item" : "ct_ion_cake", "count" : 1 },
-  "groups" : [ "my_enternia", "craftingfood", "consumables", "desserts", "mod" ]
+  "groups" : [ "my_enternia", "craftingfood", "consumables", "desserts", "cakes", "all", "mod" ]
 }

@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
+    - [2.2.2](#222)
     - [2.2.1a](#221a)
     - [2.2.1](#221)
     - [2.2.0](#220)
@@ -47,6 +48,62 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.2 - Alta Colonies
 
+### 2.2.2
+
+A handful of bug fixes and improvements to prepare the mod for the next major version.
+
+This purpose of this patch is also to celebrate a 🇨🇳 chinese translation patch that have just come out on Steam Workshop - [绮宇梦纪简中补丁](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750) 🩵  
+<p align="center"><img height=128 src="https://steamuserimages-a.akamaihd.net/ugc/2420193407381597972/C77AA556952F3E6735E38832AECD2521E536045D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/></p>
+
+**Main:**
+
+- furniture placement improvements;
+- build script optimizations;
+
+**Alta:**
+
+- improved existing furniture:
+  - **Alta Cabinets** can now be placed on the wall. If done so, they will use a slightly different sprite and will still act as platforms;
+  - **Alta Shelves** now also display differently when placed on the ground - they will look like small benches;
+  - **Alta Lab Server** now has the input node in a more convenient location;
+  - some alta furniture objects now mention that they can be places on multiple surfaces in their description;
+  - some alta gateways and hatches can now be placed both vertically and horizontally, which is reflected in their descriptions. These include an already existing **Alta Lab Gateway**;
+
+  ![ ](/.meta/images/showcase/furniture.png)
+- removed the food category from the **Ultimate Crafting Station**, since all food recipes will eventually be located in the **Alta Cookdecks**;
+- fixed improper categorization for basic alta items in the **Alta Constructor**;
+- added alta [tech interface](https://starbounder.org/Tech) visuals - the 4 semi-bright areas on the body (one in the head and three in the torso) are the **alta brain areas** - 2 primary (active) areas, that work similar to human brains, and 2 smaller secondary (backup) areas, that work more similar to a solid state drive:
+
+  ![ ](/.meta/images/showcase/techs.png)
+- added proper visuals to the **Analyzed** debuff:
+
+  ![ ](/.meta/images/showcase/analyzed.png)
+
+**Wiki:**
+
+- updated the wiki to match the contents of this version;
+
+**Dev:**
+
+- improved the object buildscript to now automatically set `printable` to `false` and `tooltipKind` to `ct_alta_object` if not set;
+- removed those params from most objects if they match the defaults;
+- slightly optimized item buildscripts (by splitting them into multiple parts and making sure certain processes only occur if specific params are present);
+
+**Translation:**
+
+- furniture items affected by improvements have small additions to their descriptions:
+  - `/objects/alta/basic/cabinet/ct_alta_cabinet.object`;
+  - `/objects/alta/basic/shelf/ct_alta_shelf.object`;
+  - `/objects/alta/lab/gateway/ct_alta_gateway.object`.
+
+**Other:**
+
+- various weapon fixes, including Plasma Rifle, Sona Rifle and Phase Cannon;
+- reduced projectile frequency in **Crystal Fall** and **Stardust Storm** weather types;
+- removed mentions of deprecated dish IDs;
+- minor grammar fixes;
+- minor bug fixes.
+
 ### 2.2.1a
 
 This small bugfix patch is a refinement & compatibility fix for the previous version, as well as a small clean-up of outdated and deprecated files and objects.
@@ -58,6 +115,8 @@ If you want to keep deprecated items, objects, planets, etc. - subscribe to the 
 This update is also to celebrate the mod finally reaching **five stars** in Steam Workshop! **★★★★★**
 
 ![ ](/.meta/images/panels/steam_stars.png)
+
+> Detailed changes for this version: [Update 2.2.1a](https://github.com/Ceterai/Enternia/commit/b581e8f89415f54004982dca5cf27bdbeb67ead6)
 
 **Main:**
 
@@ -78,11 +137,11 @@ This update is also to celebrate the mod finally reaching **five stars** in Stea
 
 - added an **Alta Robotics** page with information split from the main Alta page to make it load faster and more reliably;
 - moved more pages to a semi-manual state - **EDS**, **Faradea**, all modding-related pages;
-- added a "cheat/creative crafting tables" section to show if an item can be accquired in admin/creative places like **Tabula Rasa**, **Spawnable Item Pack**, **Ultimate Alta Station** or **Ultimate Alta Constructor**.
+- added a "cheat/creative crafting tables" section to show if an item can be accquired in admin/creative places like **Tabula Rasa**, **Spawnable Item Pack**, **Ultimate Alta Station** or **Ultimate Alta Constructor**;
 
 **Dev:**
 
-- added `README.md` files to some alta folders to help explain things, useful if you're using the modding wiki pages or are trying to understand where things re located in the mod;
+- added `README.md` files to some alta folders to help explain things, useful if you're using the modding wiki pages or are trying to understand where things are located in the mod;
 - updated most mod support files with proper links;
 - updated the main `README.md` with relevant information and some neat features;
 - moved the buildscripts slightly;

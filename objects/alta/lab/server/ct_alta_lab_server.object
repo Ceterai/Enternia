@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_lab_server",
-  "colonyTags" : [ "alta", "alta_lab", "electronic" ],
+  "colonyTags" : [ "alta_lab", "electronic" ],
   "category" : "decorative",
   "level" : 4, "rarity" : "Uncommon", "price" : 140,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "shortdescription" : "Alta Lab Server",
   "description" : "It looks like a server. I wonder what kind of games could be hosted on that.",
@@ -38,7 +37,7 @@
 
   "scripts" : [ "/objects/alta/switch.lua", "/scripts/npcToyObject.lua" ],
   "scriptDelta" : 60,
-  "inputNodes" : [ [-1, 2] ],
+  "inputNodes" : [ [1, 3] ],
   "outputNodes" : [ [0, 0] ],
 
   "npcToy" : {

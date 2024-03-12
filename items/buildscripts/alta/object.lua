@@ -21,7 +21,7 @@ function build(directory, config, parameters, level, seed)
 
   -- Item stats
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
-  parameters.color = "default"..config.paletteSwaps
+  if config.paletteSwaps then parameters.color = "default"..config.paletteSwaps end
   if parameters.cfg and config.itemName == 'ct_obj_mimic' then parameters = sb.jsonMerge(parameters, parameters.cfg) end
   if parameters.deprecated then parameters.colonyTags = nil end
   config.colonyTags = getTags(configParameter("colonyTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
@@ -30,6 +30,8 @@ function build(directory, config, parameters, level, seed)
   local tips = getTextConfig()
 
   -- Basic stats (Health, Tags, Slots, Drop Warning)
+  if config.tooltipKind == 'object' then config.tooltipKind = 'ct_alta_object' end
+  config.printable = config.printable or false
   if configParameter("smashOnBreak", false) or configParameter("smashable", false) then
     config.tooltipFields.smashLabel = tips.breaks
   end
@@ -82,22 +84,4 @@ function build(directory, config, parameters, level, seed)
   if not parameters.colonyTags and not parameters.deprecated then parameters.colonyTags = config.colonyTags end
   if parameters.deprecated then parameters.deprecated = nil end
   return config, parameters
-end
-
-
-function testColoring(directory)
-  if parameters.color then config.paletteSwaps = parameters.color:gsub("default", "") end
-  -- do main logic
-  local configParameter = function(key, default) return getValue(key, default, config, parameters) end
-  parameters.paletteSwaps = config.paletteSwaps
-  config.inventoryIcon = getColorsIcon(configParameter("inventoryIcon"), parameters.paletteSwaps, parameters.lastDirs or {})
-  if parameters.color and config.paletteSwaps ~= nil and config.paletteSwaps ~= "" then
-    if config.tooltipFields.objectImage then config.tooltipFields.objectImage = config.tooltipFields.objectImage..parameters.paletteSwaps end
-    if parameters.tooltipFields and parameters.tooltipFields.objectImage then parameters.tooltipFields.objectImage = parameters.tooltipFields.objectImage..parameters.paletteSwaps end
-    if not config.tooltipFields.objectImage then
-      if config.orientations[1].image then config.tooltipFields.objectImage = util.absolutePath(directory, config.orientations[1].image):gsub("<color>", "default"):gsub("<frame>", "default")..parameters.paletteSwaps end
-      if config.orientations[1].dualImage then config.tooltipFields.objectImage = util.absolutePath(directory, config.orientations[1].dualImage):gsub("<color>", "default"):gsub("<frame>", "default")..parameters.paletteSwaps end
-    end
-  end
-  if config.objectName == "ct_alta_lamp" or config.itemName == "ct_alta_lamp" then sb.logInfo('\n%s\n', parameters); parameters.shortdescription = "sds" end
 end

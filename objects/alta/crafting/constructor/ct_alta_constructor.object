@@ -1,10 +1,9 @@
 {
   "objectName" : "ct_alta_constructor",
-  "colonyTags" : ["alta", "crafting", "bishyn"],
+  "colonyTags" : [ "crafting", "bishyn" ],
   "category" : "crafting",
   "level" : 1, "rarity" : "Uncommon", "price" : 300,
   "race" : "alta",
-  "printable" : false, "tooltipKind" : "ct_alta_object",
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
