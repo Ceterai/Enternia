@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_valley_poptop_plush",
+  "colonyTags" : [ "pretty" ],
+  "category" : "toy",
+  "level" : 5, "rarity" : "Rare", "price" : 1250,
+  "race" : "alta",
+
+  "shortdescription" : "Valley Poptop Plushie ^#2080f0;^reset;",
+  "description" : "A big poptop plushie in pastel colors.",
+  "longdescription" : "Plush toys are extremely popular among altas, and hand-made plushies are often made by ^#b0e0fc;alta artists^reset; as a hobby, and are usually sold by ^#b0e0fc;alta party girls^reset; or found in high quantities in various stores in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "With this plushie, I can finally feel taller than a poptop! Those creatures are huge...",
+
+  "inventoryIcon" : "ct_valley_poptop_plush.png",
+  "orientations" : [
+    { "dualImage" : "ct_valley_poptop_plush.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

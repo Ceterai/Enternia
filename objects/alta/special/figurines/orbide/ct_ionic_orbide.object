@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_ionic_orbide_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+
+  "shortdescription" : "Ionic Orbide Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"Silent in its nature, the only sounds you will hear from a slowly approaching ionic orbide is the electric crackling around it.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "Orbides are very polite creatures, especially when not disturbed.",
+
+  "inventoryIcon" : "ct_ionic_orbide.png",
+  "orientations" : [
+    { "dualImage" : "ct_ionic_orbide.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

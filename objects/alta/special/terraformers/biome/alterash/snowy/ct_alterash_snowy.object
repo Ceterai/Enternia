@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alterash_snowy_tf",
+  "colonyTags" : [ "alterash" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3350, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Snowy Alterash Ridges Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into a snowy alterash mound. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#fffafa;Snowy Alterash Ridges^reset; are cool ridgy surfaces semi-covered with snow.\n\n\"Have you ever wanted to conquer a mountain? Or maybe you wished to quit everything, bring your friends and settle a mountain camp? Come to our mountains, we provide the chilly fresh winter atmosphere, you provide the fun.\" - Lenn",
+  "altaDescription" : "A comfortable, chill atmosphere with the softest snow you'll ever find. Neat!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_alterash_snowy",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

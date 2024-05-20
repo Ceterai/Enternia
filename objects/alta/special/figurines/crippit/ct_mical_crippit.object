@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_mical_crippit_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+
+  "shortdescription" : "Mical Crippit Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"Mical crippits are often mixed up with ruby crippits - although they live in quite different climates.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "How does it manage to keep its crystal shell so polished?",
+
+  "inventoryIcon" : "ct_mical_crippit.png",
+  "orientations" : [
+    { "dualImage" : "ct_mical_crippit.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

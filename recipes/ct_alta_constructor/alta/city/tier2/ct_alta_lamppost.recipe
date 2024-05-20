@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_block", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 2 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_lamppost",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_city", "objects", "lights", "all", "mod" ]
+}

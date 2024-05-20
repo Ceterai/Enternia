@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_aya_virma_plush",
+  "colonyTags" : [ "pretty" ],
+  "category" : "toy",
+  "level" : 4, "rarity" : "Uncommon", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Aya Virma Plushie",
+  "description" : "A small plushie made after a poisonous vine plant found in ayaka forests.",
+  "longdescription" : "Plush toys are extremely popular among altas, and hand-made plushies are often made by ^#b0e0fc;alta artists^reset; as a hobby, and are usually sold by ^#b0e0fc;alta party girls^reset; or found in high quantities in various stores in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "If you're careful enough, you can make a friend out of any aya virma out there. No wonder there's a book about it. But, if you're not, this plushie is right for you.",
+
+  "inventoryIcon" : "ct_aya_virma_plush.png",
+  "orientations" : [
+    { "dualImage" : "ct_aya_virma_plush.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

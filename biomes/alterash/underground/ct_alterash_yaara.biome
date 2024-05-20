@@ -16,6 +16,7 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "iguarmor" ] ] },
       { "select" : 2, "pool" : [ [ 1, "nutmidge" ], [ 1, "pteropod" ], [ 1, "toumingo" ], [ 1, "miasmop" ] ] },
+      { "select" : 1, "pool" : [ [ 0.75, "ct_juviley_spawn" ], [ 0.25, "ct_elin_bug_spawn" ] ] },
       { "select" : 1, "pool" : [[1,"jellocritter"]] },
       { "select" : 3, "pool" : [[1,"bowbirdcritter"], [1,"bouncercritter"], [1,"sackbagcritter"], [1,"toucritter"]] }
     ]

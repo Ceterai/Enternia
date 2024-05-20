@@ -122,5 +122,7 @@
   {
     "op": "add", "path": "/ct_alta_pod_tier5",
     "value": [ { "containers" : [ "ct_alta_ship_container" ], "treasurePool" : "ct_alta_pod_loot_tier5", "minimumLevel" : 0 } ]
-  }
+  },
+
+  { "op": "add", "path": "/ct_big_cargoChest", "value": [ { "containers" : [ "outpostshippingcontainer" ], "treasurePool" : "ct_alterashEndTreasure", "minimumLevel" : 0 } ] }
 ]

@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_led",
+  "colonyTags" : [ "reagent", "light" ],
+  "category" : "light",
+  "level" : 1, "rarity" : "Common", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Alta LED",
+  "description" : "A basic alta crystal-based light component used in most lamps, lights and indicators. Can be used as a standalone light source.",
+  "altaDescription" : "A crystal LED. Used in most light sources.",
+
+  "apexDescription" : "A light fixture made from metal.",
+  "avianDescription" : "It's a light, but not an attractive one.",
+  "floranDescription" : "Shiny lightsss.",
+  "glitchDescription" : "Impressed. This light functions superbly.",
+  "humanDescription" : "These lights are great, until they start flickering.",
+  "hylotlDescription" : "This light is harsh and unforgiving.",
+  "novakidDescription" : "A light that works, what more could you want?",
+
+  "lightColor" : [0, 80, 192],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/alta/switch_bg.animation",
+  "animationParts" : { "bg" : "body.png:", "fg" : "body.png:lit." },
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_ayaka_wood", "count" : 2 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_alta_circuit", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_washer",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_basic", "objects", "decoration", "all", "mod" ]
+}

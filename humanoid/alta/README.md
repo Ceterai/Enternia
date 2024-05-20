@@ -8,6 +8,10 @@ This folder contains humanoid configuration for the alta species.
 
 While playable alta subspecies all have ~~female~~ feminine body types, this folder also contains `malehead.png` for proper quest displays.
 
+Other than that, currently this species only defines 2 feminine gender options - altaya and kaitera.
+
+> **Note:** this might change in the future, if the alta species will need to fit more than 2 variations. Currently, only altaya and kaitera variations are playable, which might change with introduction of kaiters, alters and altaris.
+
 ## Horns
 
 The `horns` folder contains currently unused horns.

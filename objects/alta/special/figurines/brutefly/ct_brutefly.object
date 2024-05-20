@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_brutefly_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 4800,
+
+  "shortdescription" : "Brutefly Figurine",
+  "description" : "The label reads, \"Bruteflies often lead large packs of warped flies, creating a live venomous shielding from outside threats.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "Better be careful - these bruteflies can swarm you in seconds, so always better to wear protection.",
+
+  "inventoryIcon" : "ct_brutefly.png",
+  "orientations" : [
+    { "dualImage" : "ct_brutefly.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

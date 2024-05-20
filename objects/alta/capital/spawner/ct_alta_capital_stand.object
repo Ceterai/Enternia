@@ -1,0 +1,56 @@
+{
+  "objectName" : "ct_alta_capital_stand",
+  "colonyTags" : [ "alta_city", "alta_capital", "elite", "alta_robotics", "electronic", "misc", "spawner", "hazard" ],
+  "category" : "breakable",
+  "level" : 5, "rarity" : "Rare", "price" : 180,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Capital Stand",
+  "description" : "This strange device dispences a ^#b0e0fc;Security Drone^reset; each 8-16 seconds.",
+  "altaDescription" : "A mobile security station that dispenses security drones.",
+
+  "apexDescription" : "What's that moving inside...?",
+  "avianDescription" : "A green... thing. Wait, did I just spot something moving inside it?",
+  "floranDescription" : "Looks interesting... But sssmells funny!",
+  "glitchDescription" : "Stressed. I should probably get away from this green goo!",
+  "humanDescription" : "I swear I just saw something moving inside that.",
+  "hylotlDescription" : "This green substance smells absolutely horrendous.",
+  "novakidDescription" : "Some sort of green gel. Ain't sure about it.",
+
+  "health" : 20,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "dualImage" : "body.png:<color>.top.<frame>",
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "electriceggshard" }, { "count" : 8, "particle" : "steelshard" } ],
+
+  "scripts" : ["/objects/spawner/monsterspawner.lua"],
+  "spawner" : {
+    "monsterTypes" : [ "ct_alta_security_drone" ],
+    "monsterParams" : { "aggressive" : true },
+    "position" : [0, 0],
+    "positionVariance" : [0, 0],
+    "frequency" : [8, 16],
+    "stock" : -1,
+    "outOfSight" : false
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

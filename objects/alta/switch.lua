@@ -65,6 +65,10 @@ function switch(state, forceSwitch)
         object.setSoundEffectEnabled(state)
         if animator.hasSound(stateName) then animator.playSound(stateName) end
         object.setAllOutputNodes(state)
+        local damage = config.getParameter("barrierDamage")
+        if damage then
+            if state then object.setDamageSources(damage) else object.setDamageSources({}) end
+        end
     end
 end
 

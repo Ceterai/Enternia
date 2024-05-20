@@ -1,0 +1,23 @@
+{
+  "animatedParts" : {
+    "stateTypes" : { "body" : { "default" : "off", "states" : {
+        "off" : {},
+        "on" : { "frames" : 6, "cycle" : 0.6, "mode" : "loop" }
+    } } },
+    "parts" : {
+      "body" : {
+        "properties" : { "centered" : false },
+        "partStates" : {
+          "body" : {
+            "off" : { "properties" : { "image" : "<partImage>off.<color>" } },
+            "on" : { "properties" : { "image" : "<partImage><frame>.<color>" } }
+          }
+        }
+      }
+    }
+  },
+  "sounds" : {
+    "on" : [ ],
+    "off" : [ ]
+  }
+}

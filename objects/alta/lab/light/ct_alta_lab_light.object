@@ -1,0 +1,54 @@
+{
+  "objectName" : "ct_alta_lab_light",
+  "colonyTags" : [ "light" ],
+  "category" : "light",
+  "level" : 3, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Lab Light",
+  "description" : "A compact bion ceiling light on simplistic holders. ^green;Can be placed on the ground, walls and ceiling.^reset;",
+  "altaDescription" : "A basic ceiling light, you can find these in most alta labs.",
+
+  "apexDescription" : "A light fixture made from metal.",
+  "avianDescription" : "It's a light, but not an attractive one.",
+  "floranDescription" : "Shiny lightsss.",
+  "glitchDescription" : "Impressed. This light functions superbly.",
+  "humanDescription" : "These lights are great, until they start flickering.",
+  "hylotlDescription" : "This light is harsh and unforgiving.",
+  "novakidDescription" : "A light that works, what more could you want?",
+
+  "lightColor" : [176, 224, 252],
+  "pointLight" : true,
+  "pointBeam" : 1,
+  "beamAmbience" : 0.3,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ],
+      "animationParts" : { "bg" : "body.png:", "fg" : "body.png:lit." },
+      "lightPosition" : [1.95, -1], "beamAngle" : 270
+    },
+    {
+      "dualImage" : "body.png:floor.<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ],
+      "animationParts" : { "bg" : "body.png:floor.", "fg" : "body.png:floor.lit." },
+      "lightPosition" : [1.95, 0], "beamAngle" : 90
+    },
+    {
+      "dualImage" : "body.png:back.<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "background" ],
+      "animationParts" : { "bg" : "body.png:back.", "fg" : "body.png:back.lit." },
+      "pointBeam" : 0,
+      "beamAmbience" : 1.0,
+      "pointLight" : false, "lightPosition" : [1.95, 0], "beamAngle" : 270
+    }
+  ],
+
+  "animation" : "/objects/alta/switch_bg.animation",
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

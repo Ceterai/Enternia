@@ -1,0 +1,53 @@
+{
+  "objectName" : "ct_alterash_prime_tf",
+  "colonyTags" : [ "alterash_prime" ],
+  "category" : "terraformer",
+  "level" : 9, "price" : 4800, "rarity" : "Essential",
+  "race" : "alta",
+
+  "shortdescription" : "Alterash Prime Terraformer",
+  "description" : "Transforms a planet's climate into alterash prime. An alta attempt at creating planet-wide terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#2080f0;Alterash Prime^reset; is a subtype of ^#20f080;Alterash^reset;. It can be found as a satellite near frozen stars. Just like alterash, these planets have a highly ionized atmosphere, which majorly affects the nature of the planet and attracts nearby stardust.",
+  "altaDescription" : "Ah, alterash prime... The climate is a bit rougher than what I'm used to, but it's filled with crystals!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:inactive", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/planet/body.png:inactive" } ],
+      "imagePosition" : [-16, 0], "direction" : "left", "flipImages" : true,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:inactive", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/planet/body.png:inactive" } ],
+      "imagePosition" : [-16, 0], "direction" : "right",
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "health" : 48,
+  "rooting" : true,
+
+  "animation" : "/objects/terraformer/terraformer.animation",
+  "animationPosition" : [-16, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/planet/body.png",
+    "baseFullbright" : "body.png",
+    "beam" : "/objects/terraformer/beam/terraformer_beam_ice.png"
+  },
+
+  "scripts" : ["/objects/terraformer/terraformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-15, 0],  // animationPosition + 1
+
+  "minPregenerateTime" : 5,
+  "basePregenerateTime" : 10,
+  "pregenerateTimePerTile" : 0.1,
+
+  "planetTypeChangeThreshold" : 0.5,
+
+  "terraformBiome" : "ct_alterash_prime_gardens",
+  "terraformPlanetType" : "ct_alterash_prime_planet",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

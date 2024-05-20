@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_light_shirt", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "ct_alta_shirt_stack",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_basic", "objects", "decoration", "all", "mod" ]
+}

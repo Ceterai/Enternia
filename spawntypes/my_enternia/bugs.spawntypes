@@ -1,0 +1,129 @@
+[
+  {
+    "name" : "ct_aya_bee_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "day"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_aya_bee",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_alto_zich_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_alto_zich",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_elin_bug_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_elin_bug",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_klee_prime_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "night"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_klee_prime",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_juviley_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_juviley",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_klee_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_klee",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_starfly_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_starfly",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_unwarped_fly_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_unwarped_fly",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  }
+]

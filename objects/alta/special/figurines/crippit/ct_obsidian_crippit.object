@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_obsidian_crippit_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+
+  "shortdescription" : "Obsidian Crippit Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"The shell of this crippit is made out of actual obsidian - it's a mystery how they are able to carve a space for themselves inside it.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "You can easily miss these hiding in the dark, even with those red eyes.",
+
+  "inventoryIcon" : "ct_obsidian_crippit.png",
+  "orientations" : [
+    { "dualImage" : "ct_obsidian_crippit.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

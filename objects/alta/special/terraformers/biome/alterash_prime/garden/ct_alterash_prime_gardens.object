@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alterash_prime_gardens_tf",
+  "colonyTags" : [ "alterash_prime" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3350, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "A-Prime Gardens Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into an alterash prime garden. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#2080f0;Alterash Prime Gardens^reset; is a prime version of ^#20f080;alterash gardens^reset; found on ^#2080f0;alterash prime^reset; planets.",
+  "altaDescription" : "These gardens are very similar to the regular alterash gardens... except for crystals. There's so many crystals here!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_alterash_prime_gardens",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

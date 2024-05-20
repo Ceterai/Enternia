@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_cafe_umbrella",
+  "colonyTags" : [ "beach", "cafe" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Cafe Umbrella",
+  "description" : "A big umbrella meant for beaches and cafes.",
+  "longdescription" : "You can usually find it placed in the middle of a cafe table to provide cover for the food and people sitting at it.",
+  "altaDescription" : "A basic cafe umbrella.",
+
+  "apexDescription" : "A big umbrella on a metal pole.",
+  "avianDescription" : "This umbrella is pretty big!",
+  "floranDescription" : "A cover from the sssun.",
+  "glitchDescription" : "Impressed. This umbrella can fit multiple people under it.",
+  "humanDescription" : "A typical beach umbrella.",
+  "hylotlDescription" : "I shall rest under the covers of this umbrella.",
+  "novakidDescription" : "That umbrella is pretty sizey!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "spaces" : [ [ 2, 0 ] ] }
+  ],
+
+  "animation" : "/objects/alta/switch.animation",
+  "animationParts" : { "body" : "body.png:" },
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alterash_warped_tf",
+  "colonyTags" : [ "alterash" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3500, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Warped Forest Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into a warped forest. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#9b2d3f;Warped Forest^reset; is a land covered in ^#9b2d3f;warped^reset; growth. Numerous ^#9b2d3f;nivera^reset; plants can be found here, as well as luminous bushes full of ^#9b2d3f;glow fibre^reset;. Be careful though - this area is full of poison and wicked monsters!",
+  "altaDescription" : "Better be careful around warped lands, and not just because of venom. Those nivera sentias could be hiding ahywhere...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_alterash_warped",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

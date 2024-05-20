@@ -5,6 +5,8 @@ If you want to see more detailed changes, you can always navigate to the [commit
 <details><summary>Table of Contents (Expand)</summary>
 
 - [Changelog](#changelog)
+  - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.0](#230)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
     - [2.2.2](#222)
     - [2.2.1a](#221a)
@@ -46,13 +48,304 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 </details>
 
+## Update 2.3 - Alta Cafe & Monster Buffet
+
+### 2.3.0
+
+It's time to go. You decide where - whether it's into the wild areas of alterash planets, looking for new alien creatures, or your own brand new alta kitchen, with a lot of new furniture and appliances!
+
+**Main:**
+
+- added **38** creatures, including monsters and bugs;
+- added **48** items, including shielders and spawn eggs;
+- added **156** objects, including furniture, kitchen & bathroom appliances, switches, logical elements. The mod now adds a total of **436** objects, with **308** being alta technology and furniture;
+- added **Alta Cookdecks** - a crafting table similar to outpost cooking station, extept with only alta recipes. Unlike other cooking stations, this one also includes hidden alta food recipes, and lets you cook perfect food variants right away:
+  
+  ![ ](/.meta/images/showcase/2.3.0/cooking.png)
+- added small category-specific kitchen crafting stations, like Alta Kettle, Alta Juicer, etc., that will only provide recipes of specific types. For example, the Alta Kettle only contains tea recipes:
+  
+  ![ ](/.meta/images/showcase/2.3.0/kettle.png) ![ ](/.meta/images/showcase/2.3.0/juicer.png) ![ ](/.meta/images/showcase/2.3.0/saturator.png) ![ ](/.meta/images/showcase/2.3.0/microwave.png)
+
+**Alta:**
+
+- added 6 **shielders** - consumable items that apply a temporary energy shield when used:
+  - **Enviro Shielder**;
+  - **Combat Shielder**;
+  - **EDS Shielder**;
+  - **Elite Shielder**;
+  - **Energy Shielder**;
+  - **Force Shielder**.
+- added a great amount of furniture, decorations, wired components and mini cooking stations:
+  - Alta Furniture (20 objects):
+    - **Alta Mini Table** - 4x2 blocks instead of 6x2;
+    - **Alta Seat** - 3x2 instead of 4x2 of **Alta Chair**;
+    - **Alta Cafe Table** - 3x2 table variation;
+    - **Alta Cafe Chair** - 2x2 chair variation;
+
+    - **Alta Rest** - 2x1 platform, similar to **Alta Shelf**;
+    - **Alta Light Bar** - 3x1 instead of 4x2 of **Alta Light**, can be placed anywhere;
+    - **Alta Hatch** - 5x1 horizontal gateway;
+    - **Alta Alien Plant** - a variation of **Alta Decorative Plant**;
+
+    - **Alta Coral Plant** - a variation of **Alta Decorative Plant**;
+    - **Alta Yaara Plant** - a variation of **Alta Decorative Plant**;
+    - **Alta Lab Door** - a lab variation of **Alta Door**;
+    - **Alta Lab Hatch** - a 5x1 hatch. Can be placed both vertically and horizontally;
+
+    - **Alta Lab Trapdoor** - a 2x1 hatch. Can only be placed horizontally;
+    - **Alta Lab Light** - a lab variation of **Alta Light Bar**;
+    - **Alta Cafe Umbrella** - a big umbrella for beaches and cafes;
+    - **Alta Cafe Striped Umbrella** - a version of **Alta Cafe Umbrella** with a different design;
+
+    - **Alta Washer** - a washing machine;
+    - **Alta Shirt Stack** - a stack of white shirts;
+    - **Alta Skirt Stack** - a stack of black skirts;
+    - **Alta Sweater Stack** - a stack of light blue sweaters.
+
+    ![ ](/.meta/images/showcase/2.3.0/rests.png) ![ ](/.meta/images/showcase/2.3.0/basic1.png) ![ ](/.meta/images/showcase/2.3.0/basic2.png) ![ ](/.meta/images/showcase/2.3.0/vendor.png) ![ ](/.meta/images/showcase/2.3.0/cafe1.png) ![ ](/.meta/images/showcase/2.3.0/cafe2.png) ![ ](/.meta/images/showcase/2.3.0/cafe3.png)
+  - Alta Kitchen and Bathroom Appliances (16 objects):
+    - **Alta Plate** - a single plate, 1x0.25 blocks;
+    - **Alta Cup** - a single crystal glass, slightly off-center to add variety;
+    - **Alta Plate Stack** - a full block of plates, you can place stuff on top;
+    - **Alta Dishes** - a plate and a glass in a single block, if you don't have enough space;
+
+    - **Alta Pot** - a single pot;
+    - **Alta Microwave** - a compact microwave with campfire crafting recipes;
+    - **Alta Saturator** - an alta kitchen appliance for making punch;
+    - **Alta Juicer** - a juicer for making freshes;
+
+    - **Alta Kettle** - an electric kettle for making tea;
+    - **Alta Cookdecks** - a general cooking station with **all** alta food recipes, you can place stuff on top of it;
+    - **Alta Fridge** - a simple fridge;
+    - **Alta Bin** - a small recycling bin;
+
+    - **Alta Hand Dryer** - a compact hand dryer;
+    - **Alta Bidet** - an alta all-in-one bidet and toilet combination;
+    - **Alta Sink** - a simple compact sink;
+    - **Alta Cooler** - a small food cooler.
+
+    ![ ](/.meta/images/showcase/2.3.0/kitchen.png)
+  - Alta Switches (8 objects):
+    - **Alta Light Switch** - simple 1-block switch;
+    - **Alta Button** - 1-block button that activates for less than a second;
+    - **Alta Touchpad** - 1-block button that activates for approx. 5 seconds;
+    - **Alta Switch** - 1-block switch with different look and sounds from the Alta Light Switch;
+    - **Alta Step** - a tiny 1-block pressure plate;
+    - **Alta Vent** - a 1-block draining element;
+    - **Alta LED** - a 1-block basic light element, also used in crafting recipes for other lights;
+    - **Alta Circuit** - a 1-block basic logic element, also used in crafting recipes for other objects.
+
+    ![ ](/.meta/images/showcase/2.3.0/wired1.png) ![ ](/.meta/images/showcase/2.3.0/wired2.png)
+  - Alta Logic (8 objects):
+    - **Alta Logic - And** - a 3x1 "and" logic gate;
+    - **Alta Logic - Clock** - a 2x1 ticking element;
+    - **Alta Logic - Delay** - a 2x1 delay gate;
+    - **Alta Logic - Latch** - a 3x1 save-state element;
+    - **Alta Logic - Not** - a 2x1 "not" logic gate;
+    - **Alta Logic - Or** - a 3x1 "or" logic gate;
+    - **Alta Logic - Timer** - a 2x1 timer element;
+    - **Alta Logic - Xor** - a 3x1 "xor" logic gate.
+
+    ![ ](/.meta/images/showcase/2.3.0/wired3.png)
+  - Security Stuff (4 objects):
+    - **Alta Security Barrier** - a security version of the **Alta Lab Barrier**;
+    - **Alta Security Camera** - a 1-block ceiling security camera;
+    - **Alta Security Rack** - a wall- or floor- mounted weapon storage unit;
+    - **Alta Security Spike** - a 1-block electric trap, can be turned on or off.
+  - Misc Stuff (2 objects):
+    - **Alta Energy Block** - a 1-block energy source, always on, also used in crafting recipes of some furniture;
+    - **Alta Vendor** - a vending machine.
+- added 76 **trophy/collectable** objects that can either be found as monster/chest loot, or sold by some alta merchants:
+  - Plushies (8 objects):
+    - **Aya Virma Plushie**;
+    - **Boko Plushie**;
+    - **Kira Plushie**;
+    - **Kuda Plushie**;
+    - **Narfin Plushie**;
+    - **Omni Narfin Plushie**;
+    - **Poi Plushie**;
+    - **Valley Poptop Plushie**.
+
+    ![ ](/.meta/images/showcase/2.3.0/plushies.png)
+  - Trophies (8 objects):
+    - **Anglure's Lamp**;
+    - **Celestia's Trophy**;
+    - **Io's Trophy**;
+    - **Lumina Trophy**;
+    - **My Enternia Trophy**;
+    - **Narfin Trophy**;
+    - **Poptop's Claw**;
+    - **Stardust Trophy**.
+
+    ![ ](/.meta/images/showcase/2.3.0/trophies.png)
+  - Samples (8 objects):
+    - **Alternia Sample**;
+    - **Bionid Sample**;
+    - **Ceternia Sample**;
+    - **Enternia Sample**;
+    - **Isoslime Sample**;
+    - **Phospholion Sample**;
+    - **Stardust Sample**;
+    - **Warped Sample**.
+
+    ![ ](/.meta/images/showcase/2.3.0/samples.png)
+  - Paintings (12 objects):
+    - **Enchanted Sunset**;
+    - **Alta Format**;
+    - **Unanswered**;
+    - **Speed And Safety**;
+    - **Homely Gardens**;
+    - **The Great Friendly Aric**;
+    - **Over The Horizon**;
+    - **A Friendly Glow**;
+    - **Felistraza Beauty**;
+    - **The Stardust Orchid**;
+    - **Alien Mounds**;
+    - **Among The Grove**.
+
+    ![ ](/.meta/images/showcase/2.3.0/art.png)
+  - Figurines - 32 collectable figurines for almost every non-robot monster added by this mod - currently not actually a part of the monster collection;
+
+    ![ ](/.meta/images/showcase/2.3.0/figurines.png)
+  - Bugs - 8 bug jars for every bug added by this mod;
+
+    ![ ](/.meta/images/showcase/2.3.0/bugs.png)
+- added 22 **terraformers**:
+  - Alterash Microformers (12 objects):
+    - **Astera Microformer**;
+    - **Enchanted Meadows Microformer**;
+    - **Ayaka Forest Microformer**;
+    - **Alterash Gardens Microformer**;
+    - **Alterash Haven Microformer**;
+    - **Alterash Riversides Microformer**;
+    - **Snowy Alterash Ridges Microformer**;
+    - **Starforest Microformer**;
+    - **Antorash Plains Microformer**;
+    - **Poptop Valley Microformer**;
+    - **Warped Forest Microformer**;
+    - **Yaara Grove Microformer**.
+  - Alterash Prime Microformers (8 objects):
+    - **Aric Microformer**;
+    - **Enternia Asteroids Microformer**;
+    - **Bishyn Halls Microformer**;
+    - **A-Prime Gardens Microformer**;
+    - **Gheatorn Microformer**;
+    - **Hevikara Microformer**;
+    - **Tavriya Microformer**;
+    - **Tonnova Grove Microformer**.
+  - Terraformers (2 objects) - currently with WIP graphics:
+    - **Alterash Terraformer**;
+    - **Alterash Prime Terraformer**.
+- improved already existing furniture:
+  - **Alta Energy Source** and **Alta Pyramid** now have multiple output nodes for better wire management;
+
+**Monsters:**
+
+- added 30 monsters:
+  - Crawlers:
+    - **Bishyn Crippit**;
+    - **Calin Crippit**;
+    - **Crippit**;
+    - **Crystalline Crippit**;
+    - **Gheatsyn Crippit**;
+    - **Hevika Crippit**;
+    - **Ionic Crippit**;
+    - **Lava Crippit**;
+    - **Mical Crippit**;
+    - **Obsidian Crippit**;
+    - **Prism Crippit**;
+    - **Stardust Crippit**;
+    - **Ionic Crustoise**;
+    - **Overcharged Crustoise**.
+  - Flyers:
+    - **Bionfly**;
+    - **Brutefly**;
+    - **Bionid Pteropod**;
+    - **Isopod**;
+    - **Berry Bobfae**;
+    - **Impulse Bobfae**.
+  - Walkers:
+    - **Nightmare Anglure**;
+    - **Warped Anglure**;
+    - **Astral Narfin**;
+    - **Ionic Narfin**;
+    - **Omni Narfin**;
+    - **Stardust Narfin**;
+    - **Ionic Orbide**;
+    - **Nightmare Orbide**;
+    - **Aric Sporgus**;
+    - **Warped Sporgus**.
+
+    ![ ](/.meta/images/showcase/2.3.0/monsters1.png) ![ ](/.meta/images/showcase/2.3.0/monsters2.png) ![ ](/.meta/images/showcase/2.3.0/monsters3.png)
+- added 8 bugs:
+  - **Alto Zich**;
+  - **Aya Bee**;
+  - **Elin Bug**;
+  - **Juviley**;
+  - **Klee**;
+  - **Klee Prime**;
+  - **Starfly**;
+  - **Unwarped Fly**.
+- added a monster egg for every organic monster and bug.
+
+**Translation:**
+
+- this update added a lot of alta objects and items, each of which requires translation. Refer to the **Alta** and **Monsters** sections of this changelog for the full list of new objects and items;
+- new shielder items are located under `/items/generic/other/`;
+- new bug spawner items are located under `/items/active/unsorted/alta/spawner/bugs/`;
+- new monster spawner items are located under `/items/active/unsorted/alta/spawner/monsters/`;
+- new monsters are located under:
+  - `/monsters/crawlers/`;
+  - `/monsters/flyers/`;
+  - `/monsters/walkers/`.
+- new bugs are located under `/monsters/bugs/`, **but they do not require translation** as they can't be captured;
+- there are new items in `/items/generic/food/other/special/` - **please ignore them for now as they are currently WIP**;
+- new objects are located under:
+  - `/objects/alta/basic/`;
+  - `/objects/alta/cafe/`;
+  - `/objects/alta/city/`;
+  - `/objects/alta/security/`;
+  - `/objects/alta/lab/`;
+  - `/objects/alta/wired/`;
+  - `/objects/alta/special/`;
+  - `/objects/alta/capital/` - **please ignore for now as they are still WIP**.
+- moved following monsters:
+  - `/monsters/ct_poptop/ct_crystalpoptop.monstertype` to `/monsters/walkers/adultpoptop/ct_crystal_poptop.monstertype`;
+  - `/monsters/ct_poptop/ct_rarecrystalpoptop.monstertype` to `/monsters/walkers/adultpoptop/ct_crystal_poptop_rare.monstertype`;
+  - `/monsters/ct_poptop/ct_stardustpoptop.monstertype` to `/monsters/walkers/adultpoptop/ct_stardust_poptop.monstertype`;
+  - `/monsters/ct_poptop/ct_valleypoptop.monstertype` to `/monsters/walkers/adultpoptop/ct_valley_poptop.monstertype`.
+- moved following objects:
+  - `/objects/alta/basic/drone_spawner/ct_alta_drone_spawner.object` to `/objects/alta/scout/drone_spawner/ct_alta_drone_spawner.object`;
+  - `/objects/alta/basic/energy_source/ct_alta_energy_source.object` to `/objects/alta/scout/energy_source/ct_alta_energy_source.object`;
+  - `/objects/alta/basic/pod/ct_alta_pod.object` to `/objects/alta/scout/pod/ct_alta_pod.object`;
+  - `/objects/alta/basic/terminal/ct_alta_terminal.object` to `/objects/alta/scout/terminal/ct_alta_terminal.object`;
+  - `/objects/alta/city/security_aid/ct_alta_security_aid.object` to `/objects/alta/security/aid/ct_alta_security_aid.object`;
+  - `/objects/alta/city/security_pod/ct_alta_security_pod.object` to `/objects/alta/security/pod/ct_alta_security_pod.object`;
+  - `/objects/alta/city/security_stand/ct_alta_security_stand.object` to `/objects/alta/security/stand/ct_alta_security_stand.object`;
+  - `/objects/alta/city/security_terminal/ct_alta_security_terminal.object` to `/objects/alta/security/terminal/ct_alta_security_terminal.object`.
+- moved following items:
+  - `/items/generic/food/shop/ctcannedfood.consumable` to `/items/generic/food/shop/ct_alta_soup_canned.consumable`;
+  - `/items/generic/food/shop/ctayasoda.consumable` to `/items/generic/food/shop/ct_aya_soda.consumable`;
+  - `/items/generic/food/shop/cttsaycola.consumable` to `/items/generic/food/shop/ct_tsay_cola.consumable`.
+
+**Dev:**
+
+- updated IDs for poptops and shop food;
+- distributed treasure pools and spawn types into smaller files by categories;
+- deprecated certain spawn types;
+- removed old parallax files, now they are only present in the compatability patch.
+
+**Other:**
+
+- minor bug fixes.
+
 ## Update 2.2 - Alta Colonies
 
 ### 2.2.2
 
 A handful of bug fixes and improvements to prepare the mod for the next major version.
 
-This purpose of this patch is also to celebrate a 🇨🇳 chinese translation patch that have just come out on Steam Workshop - [绮宇梦纪简中补丁](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750) 🩵  
+The purpose of this patch is also to celebrate a 🇨🇳 chinese translation patch that have just come out on Steam Workshop - [绮宇梦纪简中补丁](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750) 🩵  
 <p align="center"><img height=128 src="https://steamuserimages-a.akamaihd.net/ugc/2420193407381597972/C77AA556952F3E6735E38832AECD2521E536045D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/></p>
 
 **Main:**

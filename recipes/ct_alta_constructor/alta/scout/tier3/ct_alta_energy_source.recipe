@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "crystal", "count" : 12 },
+    { "item" : "ct_alta_energy_block", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_energy_source",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_scout", "objects", "wired", "all", "mod" ]
+}

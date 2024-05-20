@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_plate_stack",
+  "colonyTags" : [ "cooking" ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Plate Stack",
+  "description" : "A tidy stack of ^#b0e0fc;alta plates^reset;. If you want, you can stack more on top. Or put something on it.",
+  "longdescription" : "An ergonomic way to stack this kind of plates. Very useful if you have a lot of them and don't know where to put them.",
+  "altaDescription" : "This stack of plates gives this place a strong kitchen vibe.",
+
+  "apexDescription" : "A little clay plate.",
+  "avianDescription" : "A dish on which food is served.",
+  "floranDescription" : "Plate needss food. Floran hungry.",
+  "glitchDescription" : "Humbled. A simple clay plate.",
+  "humanDescription" : "A very simple pottery plate.",
+  "hylotlDescription" : "A rounded clay plate.",
+  "novakidDescription" : "Small clay plate.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

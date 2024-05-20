@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_alta_not",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "<A /'NOT'/ switch. Inverts the input on the circuit.>",
+  "shortdescription" : "Alta Logic - NOT",
+  "race" : "alta",
+
+  "inventoryIcon" : "not.png:default.1",
+  "orientations" : [
+    {
+      "image" : "not.png:<color>.off",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "not.png"
+  },
+  "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "gates" : 1,
+  "truthtable" : [ true, false ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

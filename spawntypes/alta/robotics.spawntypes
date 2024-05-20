@@ -1,0 +1,40 @@
+[  // Alta Robotics spawn definitions. Includes biome spawntypes for alta drones and droids: https://github.com/Ceterai/Enternia/wiki/Alta-Robotics
+  { "name" : "ct_alta_drone_tier1", "monsterParameters" : {"aggressive" : false},
+    "spawnParameters" : {"area" : "air", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.01,
+    "monsterType" : [ [0.8, "ct_alta_scout_drone"], [0.15, "ct_alta_crystal_drone"], [0.05, "ct_alta_trans_drone"], [0.05, "ct_alta_shield_drone"] ]
+  },
+  { "name" : "ct_alta_drone_tier2", "monsterParameters" : {"aggressive" : false},
+    "spawnParameters" : {"area" : "air", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.01,
+    "monsterType" : [ [0.8, "ct_alta_security_drone"], [0.15, "ct_elin_drone"], [0.05, "ct_alta_companion_drone"], [0.05, "ct_alta_sentry_drone"] ]
+  },
+  { "name" : "ct_alta_drone_tier3", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "air", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.01,
+    "monsterType" : [ [0.9, "ct_alta_watcher_drone"], [0.05, "ct_eds_drone"], [0.05, "ct_ionic_drone"], [0.05, "ct_alta_engineer_drone"] ]
+  },
+  { "name" : "ct_alta_drone_tier4", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "air", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.01,
+    "monsterType" : [ [0.9, "ct_elite_drone"], [0.05, "ct_alta_defensive_drone"], [0.05, "ct_lava_drone"], [0.05, "ct_alta_frigate_drone"] ]
+  },
+
+  { "name" : "ct_alta_droid_tier3", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
+    "monsterType" : [ [0.9, "ct_alta_spider_droid"], [0.1, "ct_eds_droid"] ]
+  },
+  { "name" : "ct_alta_droid_tier4", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
+    "monsterType" : [ [0.9, "ct_elite_droid"], [0.1, "ct_alta_stalker_droid"] ]
+  },
+  { "name" : "ct_alta_droid_gheatsyn", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
+    "monsterType" : [ [1.0, "ct_gheatsyn_droid"] ]
+  },
+
+  { "name" : "ct_alta_drone_eds", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "air", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.01,
+    "monsterType" : [ [0.80, "ct_eds_drone"], [0.15, "ct_alta_defensive_drone"], [0.05, "ct_alta_frigate_drone"] ]
+  },
+  { "name" : "ct_alta_droid_eds", "monsterParameters" : {"aggressive" : true},
+    "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
+    "monsterType" : [ [0.95, "ct_eds_droid"], [0.05, "ct_alta_defensive_droid"] ]
+  }
+]

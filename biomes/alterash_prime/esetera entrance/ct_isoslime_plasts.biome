@@ -12,8 +12,7 @@
 
   "spawnProfile" : {
     "groups" : [
-      { "select" : 2, "pool" : [ [ 1, "wisper" ], [ 1, "pulpin" ], [ 1, "oculob" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      { "select" : 1, "pool" : [ [ 1, "ct_isopod_spawn" ] ] }
     ]
   },
 

@@ -17,7 +17,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 
 [>>> 🇨🇳 Chinese Patch/中文翻译补丁 🇨🇳 <<<](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750)</h4>
 
-**Version 2.2: Alta Colonies** is out! Check out the [changelog](.meta/changelog.md) for details.
+**Version 2.3: Alta Cafe & Monster Buffet** is out! Check out the [changelog](.meta/changelog.md) for details.
 
 Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/wiki/Tenants)
 

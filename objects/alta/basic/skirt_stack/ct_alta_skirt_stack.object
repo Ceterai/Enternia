@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_skirt_stack",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Skirt Stack",
+  "description" : "A tidy stack of regular skirts, for all and any occasions. Small sized.",
+  "longdescription" : "Any alta has at least a pack of these, usually given out by the city administration. They often come together with a flat as well.",
+  "altaDescription" : "Ah, a pack of freshly-washed skirts. What an amazing smell.",
+
+  "apexDescription" : "A set of tidy-packed skirts. The size is a bit too small.",
+  "avianDescription" : "Some structured pile of clothes.",
+  "floranDescription" : "Floran wantsss to wear thiss skirt.",
+  "glitchDescription" : "Curious. These skirts are stacked very carefully.",
+  "humanDescription" : "A stack of skirts.",
+  "hylotlDescription" : "A tidy stack of skirts, compiled by a very thoughtful person.",
+  "novakidDescription" : "That's a pretty tall stack of them clothes!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

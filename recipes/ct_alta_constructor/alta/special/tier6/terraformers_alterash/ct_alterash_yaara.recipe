@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_lab_amplifier", "count" : 4 },
+    { "item" : "ct_alta_pyramid", "count" : 1 },
+    { "item" : "ct_hevika_sample", "count" : 4 },
+    { "item" : "ct_entersphere", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_alterash_yaara_tf", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor6", "alta_special", "yaara", "objects", "terraformers", "microformers", "all", "mod" ]
+}

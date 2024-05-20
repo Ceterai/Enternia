@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_aric_sporgus_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5000,
+
+  "shortdescription" : "Aric Sporgus Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"This prime sporgus grew up in perfect spore-filled toxic conditions.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "A living creature made entirely from... mushroom? Is it edible by any chance?",
+
+  "inventoryIcon" : "ct_aric_sporgus.png",
+  "orientations" : [
+    { "dualImage" : "ct_aric_sporgus.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_poi_plush",
+  "colonyTags" : [ "pretty" ],
+  "category" : "toy",
+  "level" : 3, "rarity" : "Uncommon", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Poi Plushie",
+  "description" : "A plushie of a... slime. An alta slime. A poi, in other words.",
+  "longdescription" : "Plush toys are extremely popular among altas, and hand-made plushies are often made by ^#b0e0fc;alta artists^reset; as a hobby, and are usually sold by ^#b0e0fc;alta party girls^reset; or found in high quantities in various stores in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "A poi plushie! Just as soft and cuddly, but not as slimey!",
+
+  "inventoryIcon" : "ct_poi_plush.png",
+  "orientations" : [
+    { "dualImage" : "ct_poi_plush.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

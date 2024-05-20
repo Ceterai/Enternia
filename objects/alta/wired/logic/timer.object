@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_timer",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "A timer that stays active for a set duration. Default is 5s, sets through `duration` - int between 1 and 5.",
+  "shortdescription" : "Alta Logic - Timer",
+  "race" : "alta",
+
+  "floranDescription" : "A timer that sstays active for a ssset duration.",
+  "glitchDescription" : "Impressed. A timer that stays active for a set duration.",
+
+  "inventoryIcon" : "timer.png:default.5.1",
+  "orientations" : [
+    {
+      "image" : "timer.png:<color>.5.1",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/countdowntimer.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/timer5.animation",
+
+  "animationParts" : {
+    "timer" : "timer.png"
+  },
+  "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  // this value must be an integer between 1 and 5
+  "duration" : 5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

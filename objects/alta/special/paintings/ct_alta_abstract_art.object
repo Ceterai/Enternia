@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_alta_abstract_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Enchanted Sunset",
+  "description" : "An abstract picture with a warm, dreamy mood. Can add to the atmosphere of any place.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "Sometimes a couple of well-timed strokes can please the eye just enough. This color combination is pretty pleasant.",
+
+  "inventoryIcon" : "ct_alta_abstract_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_alta_abstract_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

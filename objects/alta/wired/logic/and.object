@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_alta_and",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
+  "shortdescription" : "Alta Logic - AND",
+
+  "floranDescription" : "An /'AND'/ ssswitch. Requiress all inputs to be /'on'/ to work.",
+  "glitchDescription" : "Pleased. An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
+
+  "inventoryIcon" : "and.png:default.1",
+  "orientations" : [
+    {
+      "image" : "and.png:<color>.off",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "and.png"
+  },
+
+  "inputNodes" : [ [0, 0], [2, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, false ], [ false, true ] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

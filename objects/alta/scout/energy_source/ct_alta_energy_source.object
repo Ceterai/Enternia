@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_alta_energy_source",
+  "colonyTags" : [ "alta_scout", "energy_source" ],
+  "category" : "wire",
+  "level" : 5, "rarity" : "Rare", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Energy Source",
+  "description" : "Some sort of crystal energy extractor. Perhaps an ^#b0e0fc;alta^reset; could provide more insight.",
+  "altaDescription" : "This device generates alternia energy from a crystal. Very useful.",
+
+  "apexDescription" : "A structure of unknown purpose.",
+  "avianDescription" : "What is this for?",
+  "floranDescription" : "A big metal triangle. Floran wondersss what's inssside.",
+  "glitchDescription" : "Cautious. This look misterious.",
+  "humanDescription" : "A metal pyramid.",
+  "hylotlDescription" : "What could be the purpose of this structure?",
+  "novakidDescription" : "T'is a weird shape for a building.",
+
+  "lightColor" : [0, 40, 96],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_energy_source.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "alwaysOn" : true,
+  "interactive" : false,
+  "outputNodes" : [ [2, 1], [2, 3] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

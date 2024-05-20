@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_tavriya_tf",
+  "colonyTags" : [ "alterash_prime" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3500, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Tavriya Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into a snowy alterash prime land. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#fffafa;Tavriya^reset; are plains and canyons full of ice and snow covering otherwise barren ^#6f6c66;moonrock^reset; base layer. Under the surface, you might find rare ^#7ddcde;isoslime^reset; plasts and ^#ceffd7;phospholion^reset; formations.  \nThe climate here is usually colder than on the rest of the planet, and contains higher levels of ionization.",
+  "altaDescription" : "Snow, ice and frozen energy... Yet, it has its own charm to tavriya that can only be felt, not understood. Still, it's pretty chill out here, a perfect environment for kaiters, so always better to avoid if possible.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_tavriya",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

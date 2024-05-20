@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_felistraza_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Felistraza Beauty",
+  "description" : "A simplistic drawing depicting a purple flower.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "Ah, a beautiful felistraza!",
+
+  "inventoryIcon" : "ct_felistraza_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_felistraza_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

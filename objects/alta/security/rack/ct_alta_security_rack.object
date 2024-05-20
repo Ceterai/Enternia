@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_security_rack",
+  "colonyTags" : [ "alta_security", "storage" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Security Rack",
+  "description" : "An armored rack with mechanical locks for safe weapon storage.",
+  "longdescription" : "Widely used in alta security bases for quick and authorized access during emergencies and regular missions.",
+  "altaDescription" : "An energy tool holder, often used by vardas and other security altas.",
+
+  "apexDescription" : "I wonder if there are any secrets inside...",
+  "avianDescription" : "Could there be anything of value within?",
+  "floranDescription" : "SSsssearch.",
+  "glitchDescription" : "Excited. Any items of interest inside?",
+  "humanDescription" : "A lab locker.",
+  "hylotlDescription" : "Perhaps something useful is inside.",
+  "novakidDescription" : "A locker. What does it contain?",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
+  ],
+
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5, "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -56,7 +56,7 @@ end
 function release()
   self.contained = false
   projectile.die()
-  local damageTeam = entity.damageTeam()
+  local damageTeam = self.monster.damageTeam or entity.damageTeam()
   local entityId = world.spawnMonster(self.monster.type, mcontroller.position(), sb.jsonMerge(self.monster.params, {
     level = self.monster.level,
     damageTeam = damageTeam.team,

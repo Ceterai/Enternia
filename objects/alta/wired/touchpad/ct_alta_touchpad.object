@@ -1,0 +1,48 @@
+{
+  "objectName" : "ct_alta_touchpad",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 20,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Touchpad",
+  "description" : "A compact button-like sensor screen that activates for 5s when pressed. Very tiny.",
+  "altaDescription" : "A simple touch screen. Useful for security doors due to its temporary activation.",
+
+  "apexDescription" : "A button. Its function is unknown. Only one way to find out.",
+  "avianDescription" : "Why am I always compelled to push buttons?",
+  "floranDescription" : "Floran push buttonsss!",
+  "glitchDescription" : "Tempted. A button, begging to be pressed.",
+  "humanDescription" : "There's a button! I can't not press it!",
+  "hylotlDescription" : "Buttons are infuriating. Still, I must push it.",
+  "novakidDescription" : "Why is it always so darn temptin' to push buttons.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "image" : "body.png:<color>.off", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : { "on" : [ "/sfx/objects/console_generic_switchon.ogg" ] }
+  },
+  "animationParts" : {
+    "switch" : "body.png"
+  },
+
+  "scripts" : [ "/objects/wired/momentaryswitch/momentaryswitch.lua", "/scripts/npcToyObject.lua" ],
+  "scriptDelta" : 5,
+  "outputNodes" : [ [0, 0] ],
+  "interval" : 60,
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [ "wallbutton" ],
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

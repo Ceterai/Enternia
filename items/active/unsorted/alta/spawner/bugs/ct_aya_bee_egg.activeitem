@@ -1,0 +1,31 @@
+{  // This is a monster egg item. Check out the `ct_monster_egg_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
+  "itemName" : "ct_aya_bee_egg",
+  "shortdescription" : "Aya Bee Egg",
+  "description" : "Can be used to spawn a bug called ^#b0e0fc;aya bee^reset;, commonly found around ^#b0e0fc;ayaka^reset; trees.",
+  "longdescription" : "These \"eggs\" are really just highly incubated versions of creatures, used by altas during research, often for simulation purposes, which is why they tend to be friendly to their owner.",
+  "altaDescription" : "A cute little aya bee, ready to go eat some ripe ayas right from a tree.",
+  "itemTags" : [ "throwable", "spawner", "monster_egg" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
+  "rarity" : "Common", "price" : 200, "level" : 2,
+  "twoHanded" : false, "pet" : "ct_aya_bee", "damageTeam" : { "team" : 1, "type" : "passive" },
+  "animation" : "/items/active/unsorted/alta/spawner/default.animation",
+  "scripts" : [ "/items/active/unsorted/alta/spawner/monster_spawn.lua" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

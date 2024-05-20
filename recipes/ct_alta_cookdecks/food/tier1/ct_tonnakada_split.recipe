@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_tonnakada", "count" : 1, "parameters" : { "preset" : "split" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "sides", "cooked", "kada", "all", "mod" ]
+}

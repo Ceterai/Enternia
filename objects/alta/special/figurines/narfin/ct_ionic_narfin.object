@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_ionic_narfin_af",
+  "colonyTags" : [ "ionic", "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+
+  "shortdescription" : "Ionic Narfin Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"Ionic narfins like to scratch against furry surfaces to polarize their horns.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "As far as I know, unlike with most narfins, the horns of ionic ones are not actual crystals - they are more like highly-conductive bones, more than anything.",
+
+  "inventoryIcon" : "ct_ionic_narfin.png",
+  "orientations" : [
+    { "dualImage" : "ct_ionic_narfin.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

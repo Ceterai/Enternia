@@ -13,8 +13,7 @@
 
   "spawnProfile" : {
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier4" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_hevika_crippit_spawn" ], [ 1, "ct_overcharged_crustoise_spawn" ] ] },
       { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
     ]
   },

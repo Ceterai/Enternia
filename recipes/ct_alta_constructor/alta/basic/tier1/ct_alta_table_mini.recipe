@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "ct_alta_table_mini",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor1", "alta", "alta_basic", "objects", "decoration", "all", "mod" ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_alta_energy_block",
+  "colonyTags" : [ "alta_city", "energy_source" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Energy Block ^#20f080;^reset;",
+  "description" : "A more powerful version of an ^#b0e0fc;energy cell^reset;, model G4. Somewhat bigger in size, it can be placed separately on most surfaces and is used in a lot of electronic alta furniture.",
+  "longdescription" : "G4 marking of the model refers to the general energy source capability (and size), compared to G2 (^#b0e0fc;alta energy cell^reset;) and G12 (^#b0e0fc;alta energy source^reset;).",
+  "altaDescription" : "This device generates alternia energy from a crystal. Very useful.",
+
+  "apexDescription" : "A structure of unknown purpose.",
+  "avianDescription" : "What is this for?",
+  "floranDescription" : "A small metal square. Floran wondersss what's inssside.",
+  "glitchDescription" : "Cautious. This look misterious.",
+  "humanDescription" : "A metal cube.",
+  "hylotlDescription" : "What could be the purpose of this block?",
+  "novakidDescription" : "Looks to me like an energy cube.",
+
+  "lightColor" : [0, 20, 48],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "alwaysOn" : true,
+  "interactive" : false,
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua", "alkey" : "G4 Nion"
+}

@@ -14,6 +14,7 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "ionicStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_poptop_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"prismelementalcritter"],[1,"fireflyspawner"],[1,"bioluminfireflyspawner"]] }
     ]
   },

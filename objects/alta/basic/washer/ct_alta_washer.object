@@ -1,0 +1,29 @@
+{
+  "objectName" : "ct_alta_washer",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 70,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Washer",
+  "description" : "A simple compact titanium washing machine. Not a lot of clothes can fit inside.",
+  "longdescription" : "Its design is quite similar to most washing machines, and is quite careful with silk and cotton.",
+  "altaDescription" : "Thankfully I don't need to wash anything right now.",
+
+  "apexDescription" : "This looks like a small washing machine.",
+  "avianDescription" : "Doesn't seem like this washing machine can fit a lot of clothes...",
+  "floranDescription" : "Sssplashy-sspinny thing. Too ssmall for Floran, sssadly.",
+  "glitchDescription" : "Confused. Do they make them this small?",
+  "humanDescription" : "A tiny washing machine. For tiny people, apparently.",
+  "hylotlDescription" : "A pretty minimalistic washing machine. Quite compact.",
+  "novakidDescription" : "A washer for some small dirty clothes.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

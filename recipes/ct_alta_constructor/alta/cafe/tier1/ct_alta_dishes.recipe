@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_cup", "count" : 1 },
+    { "item" : "ct_alta_plate", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_dishes",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_ionic_crustoise_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+
+  "shortdescription" : "Ionic Crustoise Figurine ^#8020f0;^reset;",
+  "description" : "The label reads, \"This powerful creature increases its abilities using the ionic energy around it.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "Ionic crustoises are pretty rare when it comes to crustoises in general. Also, their crystal coloring is pretty unique in general.",
+
+  "inventoryIcon" : "ct_ionic_crustoise.png",
+  "orientations" : [
+    { "dualImage" : "ct_ionic_crustoise.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_bin",
+  "colonyTags" : [ "storage" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 2, "rarity" : "Common", "price" : 70,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Bin",
+  "description" : "A recycling bin. Like a trash can, but environment-friendly.",
+  "longdescription" : "Altas actively keep their cities clean, volunteering for social work and helping with recycling.",
+  "altaDescription" : "Neat, a recycler! I need to sort things first though.",
+
+  "apexDescription" : "Garbage day!",
+  "avianDescription" : "Trash.",
+  "floranDescription" : "Pretty rubbish.",
+  "glitchDescription" : "Unimpressed. Garbage.",
+  "humanDescription" : "Time to take out the trash!",
+  "hylotlDescription" : "Vile garbage.",
+  "novakidDescription" : "Ain't nothin' but trash.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [ "trashcan", "trashcanComplete" ],
+    "defaultReactions" : {
+      "trashcan" : [
+        [1.0, "droptrash"]
+      ],
+      "trashcanComplete" : [
+        [1.0, "smile"],
+        [1.0, "annoyed"],
+        [1.0, "punch"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1, 0.0],
+    "preciseStandPositionRight" : [1, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

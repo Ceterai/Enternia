@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_alta_light_switch",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 20,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Light Switch",
+  "description" : "A compact switch that can be flipped on or off. Very tiny.",
+  "altaDescription" : "A typical light switch. For, you know, switching on the lights.",
+
+  "apexDescription" : "A switch. It activates something.",
+  "avianDescription" : "This tiny switch must activate something.",
+  "floranDescription" : "Ssswitch!",
+  "glitchDescription" : "Surprised. This small switch doesn't look that powerful.",
+  "humanDescription" : "How many times can I flip this switch on and off I wonder.",
+  "hylotlDescription" : "A basic switch. It can be used to activate something.",
+  "novakidDescription" : "I can flip this here switch!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "image" : "body.png:<color>.off", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "switch" : "body.png"
+  },
+
+  "scripts" : [ "/objects/wired/switch/switch.lua", "/scripts/npcToyObject.lua" ],
+  "scriptDelta" : 5,
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [ "wallswitch" ],
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

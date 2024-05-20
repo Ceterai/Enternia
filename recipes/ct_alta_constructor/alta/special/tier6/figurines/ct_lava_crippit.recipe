@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "goldbar", "count" : 2 },
+    { "item" : "ct_stardust", "count" : 32 },
+    { "item" : "ct_ceternia_core", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_lava_crippit_af", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "objects", "figurines", "all", "mod" ]
+}

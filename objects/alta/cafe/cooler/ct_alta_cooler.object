@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_alta_cooler",
+  "colonyTags" : [ "cooking", "storage" ],
+  "category" : "fridgeStorage", "objectType" : "container",
+  "level" : 2, "rarity" : "Common", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Cooler",
+  "description" : "A portable cooler. For beaches, hikes, and other events away from fridges.",
+  "longdescription" : "This compact and simple model can act as a thermos if no cooling matter is provided.",
+  "altaDescription" : "A cooling thermos for that sweet iced tea goodness!",
+
+  "apexDescription" : "A cooler. Let's hope there's food inside.",
+  "avianDescription" : "What's in the cooler, I wonder?",
+  "floranDescription" : "Cold!",
+  "glitchDescription" : "Calm. A cooler in light, relaxing colors.",
+  "humanDescription" : "A cooler. I wonder if there are eggs in here?",
+  "hylotlDescription" : "A food-chilling device.",
+  "novakidDescription" : "A cooler! I wonder if anyone left any treats?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0.0,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

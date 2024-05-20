@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ct_alta_led", "count" : 1 },
+    { "item" : "ct_alta_circuit", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_speaker",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_basic", "objects", "wired", "special", "all", "mod" ]
+}

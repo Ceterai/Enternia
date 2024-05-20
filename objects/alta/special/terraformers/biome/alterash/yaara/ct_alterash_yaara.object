@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alterash_yaara_tf",
+  "colonyTags" : [ "alterash" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3350, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Yaara Grove Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into a yaara grove. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#20f080;Yaara Grove^reset; is a cavey land that has once been overgrown with ^#20f080;Yaara^reset;.  \nSomewhere in the depths of these jungles you'll be able to find majestic giant flowers - ^#20f080;Yaara Hearts^reset;. In fact, the entire grove is just a one big yaara plant that has been streching and growing, spreading its roots everywhere. Those giant flowers are the places of concentration of its energy - ^#20f080;Ceternia^reset;.",
+  "altaDescription" : "I should probably be more respectful around these parts to not anger the keepers.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_alterash_yaara",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

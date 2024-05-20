@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_enternia_sample",
+  "colonyTags" : [ "enternia", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+  "race" : "alta",
+
+  "shortdescription" : "Enternia Sample ^#8020f0;^reset;",
+  "description" : "A perfect sample of an ^#8020f0;enternia^reset;-saturated rock, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "Finding a material with safely contained enternia was a pretty big discovery. And look at us now - ^#f02020;EDS^reset; can't stop shoving it in every piece of technology they have, and dreamers are hunting the empty barrens of ^#8020f0;enterash^reset;...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

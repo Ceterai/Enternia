@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_alta_minimal_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Unanswered",
+  "description" : "Some very simple minimalistic piece of art, that was probably made to fit a living space, rather than to be displayed in a gallery.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "I wonder what it means, given the name and all the shapes and colors. Perhaps, that's the point?",
+
+  "inventoryIcon" : "ct_alta_minimal_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_alta_minimal_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

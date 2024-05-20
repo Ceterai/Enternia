@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_moonrock_space_islands_tf",
+  "colonyTags" : [ "astera" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3500, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Astera Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into astera. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#6f6c66;Astera^reset; is a cluster of various-sized asteroids. Some of them are so convenient, that ^#b0e0fc;altas^reset; have built their space stations on them, as well as numerous ^#6f6c66;Astera Industries^reset;, scattered amond the floating rocks, all around ^#ffa8e8;stardust^reset; planets.  \nThese places often feel like small cosmic cities, when inhabitated by altas. When they're not, a no-less magical landscape occurs, full of beautifully shining specs of stardust all around reflecting the sunlight, creating a spectacular light show, also known as ^gray;astera's glow^reset;.",
+  "altaDescription" : "The borderland of cosmos... I wish I can become a spacedrifter one day and reach even further beyond!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_moonrock_space_islands",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

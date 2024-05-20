@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_sweater_stack",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Sweater Stack",
+  "description" : "A tidy stack of regular sweaters, for all and any occasions. Small sized.",
+  "longdescription" : "Any alta has at least a pack of these, usually given out by the city administration. They often come together with a flat as well.",
+  "altaDescription" : "Ah, a pack of freshly-washed sweaters. What an amazing smell.",
+
+  "apexDescription" : "A set of tidy-packed sweaters. The size is a bit too small.",
+  "avianDescription" : "Some structured pile of clothes.",
+  "floranDescription" : "Floran wantsss to wear thiss sweater.",
+  "glitchDescription" : "Curious. These sweaters are stacked very carefully.",
+  "humanDescription" : "A stack of sweaters.",
+  "hylotlDescription" : "A tidy stack of sweaters, compiled by a very thoughtful person.",
+  "novakidDescription" : "That's a pretty tall stack of them clothes!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

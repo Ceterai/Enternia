@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_alta_led", "count" : 12 },
+    { "item" : "ct_alta_shelf", "count" : 4 },
+    { "item" : "ct_alta_circuit", "count" : 4 },
+    { "item" : "ct_alta_touchpad", "count" : 1 },
+    { "item" : "ct_aya_soda", "count" : 1 },
+    { "item" : "ct_tsay_cola", "count" : 1 },
+    { "item" : "ct_gheanade", "count" : 1 },
+    { "item" : "ct_vmax", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_vendor",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "alta_city", "objects", "wired", "all", "mod" ]
+}

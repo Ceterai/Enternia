@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_starfields_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Alien Mounds",
+  "description" : "A landscape picture with some unusual plants and flowers.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "I wonder what planet this is from. Or what cave? This could be something found deep inside an alterash planet.",
+
+  "inventoryIcon" : "ct_starfields_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_starfields_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

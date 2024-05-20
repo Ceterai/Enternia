@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_stardust_narfin_af",
+  "colonyTags" : [ "stardust", "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 7, "rarity" : "Legendary", "price" : 4800,
+
+  "shortdescription" : "Stardust Narfin Figurine",
+  "description" : "The label reads, \"Some consider these to actualy be mimics - creatures of pure stardust that grew up around narfins and are now mimicking their looks and behaviours.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "I think there's a reason these are mostly found underground - the shimmer and saturation of stardust can get pretty high in those places. Then again, there're are also the stardust asteroids...",
+
+  "inventoryIcon" : "ct_stardust_narfin.png",
+  "orientations" : [
+    { "dualImage" : "ct_stardust_narfin.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

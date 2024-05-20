@@ -1,0 +1,48 @@
+{
+  "objectName" : "ct_alta_sink",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 70,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Sink",
+  "description" : "A simple compact sink often found in kitchens, restrooms and bathrooms.",
+  "longdescription" : "Made put of titanium, it sits firmly on the wall.",
+  "altaDescription" : "Having a couple of these around the flat is pretty convenient.",
+
+  "apexDescription" : "A basic sink.",
+  "avianDescription" : "A sink.",
+  "floranDescription" : "Splashy sssink.",
+  "glitchDescription" : "Neutral. A sink.",
+  "humanDescription" : "A sink. Maybe I should wash my hands...",
+  "hylotlDescription" : "Too small to swim in.",
+  "novakidDescription" : "A plain ol' sink.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "sink",
+      "sinkComplete"
+    ],
+    "defaultReactions" : {
+      "sink" : [
+        [1.0, "warmhands"]
+      ],
+      "sinkComplete" : [
+        [1.0, "smile"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.0, 0.0],
+    "preciseStandPositionRight" : [1.0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

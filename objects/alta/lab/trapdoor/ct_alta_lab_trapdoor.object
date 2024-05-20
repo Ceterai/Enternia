@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_alta_lab_trapdoor",
+  "colonyTags" : [ "alta_lab", "mechanical", "door" ],
+  "category" : "door",
+  "level" : 3, "rarity" : "Uncommon", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Lab Trapdoor",
+  "description" : "A small 1x2 bionid hatch.",
+  "altaDescription" : "A protective hatch, used mainly in alta labs.",
+
+  "apexDescription" : "This door is entirely secure.",
+  "avianDescription" : "A totally sturdy door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A flawless door.",
+  "humanDescription" : "An impenetrable executive door.",
+  "hylotlDescription" : "A robust executive door.",
+  "novakidDescription" : "This door sure is swish.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+   
+  "orientations" : [
+    {
+      "dualImage" : "body.png:default",
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : { "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ], "rangeMultiplier" : 0.5 },
+      "close" : { "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ], "rangeMultiplier" : 0.5 }
+    }
+  },
+  "animationParts" : { "door" : "body.png" },
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

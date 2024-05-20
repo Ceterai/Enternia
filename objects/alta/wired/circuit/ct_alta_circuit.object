@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_alta_circuit",
+  "colonyTags" : [ "reagent", "wired" ],
+  "category" : "wire",
+  "level" : 2, "rarity" : "Common", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Circuit",
+  "description" : "A basic alta crystal-based tech component used in most electronics. Can be placed as a standalone element.",
+  "altaDescription" : "A simple circuit fragment used in most alta technology.",
+
+  "apexDescription" : "A logical circuit board.",
+  "avianDescription" : "Some sort of electric contraption?",
+  "floranDescription" : "Complicated ssstuff.",
+  "glitchDescription" : "Impressed. A tiny circuit with quite an assortment of elements.",
+  "humanDescription" : "A circuit board. Looks a bit... bright?",
+  "hylotlDescription" : "A tiny tech card with some mysterious logic on it.",
+  "novakidDescription" : "A circuit that works, what more could you want?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "/objects/alta/switch_bg.animation",
+  "animationParts" : { "bg" : "body.png:", "fg" : "body.png:lit." },
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

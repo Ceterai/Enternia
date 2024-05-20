@@ -1,0 +1,298 @@
+{
+  "type" : "ct_aric_sporgus",
+  "shortdescription" : "Aric Sporgus",
+  "description" : "It prefers toxic and moist climates where it'll grow quicker. Spews corrosive toxins on contact.",
+
+  "categories" : [ "ct_aric_sporgus" ],
+  "parts" : [ "body" ],
+
+  "animation" : "ct_warped_sporgus.animation",
+
+  "dropPools" : [ { "default" : "ct_aric_sporgus_loot", "bow" : "ct_aric_sporgus_hunt" } ],
+
+  "baseParameters" : {
+    "monsterClass" : "rare",
+
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 1.5,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 8,
+            "minimumRange" : 0,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "projectileType" : "poisonsporeseed",
+            "projectileParameters" : {
+              "speed" : 10.0
+            },
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : false,
+            "aimDirection" : [0, 1],
+            "inaccuracy" : 1.5,
+            "projectileCount" : 8,
+            "projectileInterval" : 0.00,
+            "fireState" : "fire",
+            "fireDelay" : 0.5,
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.2
+          }
+        },
+        {
+          "name" : "action-charge",
+          "cooldown" : 3.5,
+          "parameters" : {
+            "maximumRange" : 15,
+            "minimumRange" : 7,
+            "windupTime" : 0.3,
+
+            "chargeTime" : 0.8,
+            "chargeSpeed" : 25,
+            "chargeControlForce" : 200,
+            "wallKnockback" : true,
+            "wallCrashSound" : "wallCrash",
+            "wallCrashEmitter" : "",
+
+            "winddownTime" : 0.3,
+            "winddownStopForce" : 200
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 4.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 20,
+            "minimumRange" : 10,
+            "windupState" : "firewindup",
+            "windupTime" : 1.0,
+
+            "projectileType" : "snauntspit",
+            "fireOffset" : [0.75, 0.25],
+            "aimAtTarget" : true,
+            "onGround" : false,
+            "fireState" : "fire",
+            "fireSound" : "fire",
+            "fireDelay" : 0.1,
+
+            "fireArc": true,
+            "projectileSpeed": 50,
+            "gravityMultiplier": 0.6,
+
+            "winddownState" : "",
+            "winddownTime" : 0.3
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : false
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : false
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "wanderTime" : [5, 15]
+          }
+        }
+      ],
+
+      "deathActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 3.0,
+          "parameters" : {
+            "maximumRange" : 50,
+            "requireLineOfSight" : false,
+            "onGround" : false,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "projectileType" : "smallpoisoncloud",
+            "projectileParameters" : {
+              "speed" : 10.0,
+              "timeToLive" : 2.0,
+              "power" : 6
+            },
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : false,
+            "inaccuracy" : 3.14,
+            "projectileCount" : 8,
+            "projectileInterval" : 0.0,
+            "fireState" : "",
+            "fireDelay" : 0.0,
+            "fireSound" : "fire",
+
+            "winddownState" : "",
+            "winddownTime" : 0.0
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.4375, 1.125], [0.9375, 0.625], [0.9375, -0.625], [0.4375, -1.125], [-0.4375, -1.125], [-0.9375, -0.625], [-0.9375, 0.625], [-0.4375, 1.125] ],
+      "damage" : 12,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "poisonlash",
+      "knockback" : 20,
+      "statusEffects" : [ "weakpoison" ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.4375, 1.125], [0.9375, 0.625], [0.9375, -0.625], [0.4375, -1.125], [-0.4375, -1.125], [-0.9375, -0.625], [-0.9375, 0.625], [-0.4375, 1.125] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 3,
+      "runSpeed" : 5,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 75
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.05
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : -0.25
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : -0.25
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : 0.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
+  }
+}

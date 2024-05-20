@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_alta_security_camera",
+  "colonyTags" : [ "alta_security" ],
+  "category" : "wired",
+  "level" : 4, "rarity" : "Uncommon", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Security Camera",
+  "description" : "A small ceiling wide-angle surveillance security camera that can be turned on or off.",
+  "longdescription" : "Often found at security check points, as well as most general secured places in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "Just a security camera. I can wave to say hi to the varda watching me, and to wish her a nice day!",
+
+  "apexDescription" : "A surveillance camera. Better not do anything stupid.",
+  "avianDescription" : "This spy camera looks pretty obvious to me.",
+  "floranDescription" : "A spying eye, Floran better be careful.",
+  "glitchDescription" : "Impressed. This tiny camera can see everything.",
+  "humanDescription" : "A camera, I better act natural.",
+  "hylotlDescription" : "I wonder how high is the quality of that camera.",
+  "novakidDescription" : "Someone might be watchin' me, better be cautious!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<frame>.<color>", "spaceScan" : 0.1, "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/alta/switch_bg.animation",
+  "animationParts" : { "bg" : "body.png:", "fg" : "body.png:lit." },
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

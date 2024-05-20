@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_bionid_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "A Friendly Glow",
+  "description" : "A drawing of a bionid pteropod in a dark cave, lighting up the path.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "Those little helpers are not only adorable, they are known to show the way out of a cave to altas lost in the underground.",
+
+  "inventoryIcon" : "ct_bionid_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_bionid_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

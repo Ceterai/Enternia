@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_alta_cafe_table",
+  "colonyTags" : [ "cafe" ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Cafe Table",
+  "description" : "A simplistic round table made out of titanium. Only 3 blocks wide.",
+  "altaDescription" : "A simple, yet sturdy table with minimal details. It's easy to clean and will last for a very long time.",
+
+  "apexDescription" : "A decent table.",
+  "avianDescription" : "A nice table.",
+  "floranDescription" : "Floran likess table.",
+  "glitchDescription" : "Indifferent. A table.",
+  "humanDescription" : "A table.",
+  "hylotlDescription" : "An unattractive table.",
+  "novakidDescription" : "Just a table.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

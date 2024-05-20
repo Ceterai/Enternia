@@ -1,0 +1,28 @@
+{
+
+  "frameGrid" : {
+    "size" : [8, 8],
+    "dimensions" : [7, 8],
+    "names" : [
+      [ "0.default", "1.default", "2.default", "3.default", "4.default", "5.default", "off.default" ],
+      [ "bottom.left.0.default", "bottom.left.1.default", "bottom.left.2.default", "bottom.left.3.default", "bottom.left.4.default", "bottom.left.5.default", "bottom.left.off.default" ],
+      [ "bottom.right.0.default", "bottom.right.1.default", "bottom.right.2.default", "bottom.right.3.default", "bottom.right.4.default", "bottom.right.5.default", "bottom.right.off.default" ],
+      [ "top.0.default", "top.1.default", "top.2.default", "top.3.default", "top.4.default", "top.5.default", "top.off.default" ],
+      [ "left.0.default", "left.1.default", "left.2.default", "left.3.default", "left.4.default", "left.5.default", "left.off.default" ],
+      [ "right.0.default", "right.1.default", "right.2.default", "right.3.default", "right.4.default", "right.5.default", "right.off.default" ],
+      [ "top.left.0.default", "top.left.1.default", "top.left.2.default", "top.left.3.default", "top.left.4.default", "top.left.5.default", "top.left.off.default" ],
+      [ "top.right.0.default", "top.right.1.default", "top.right.2.default", "top.right.3.default", "top.right.4.default", "top.right.5.default", "top.right.off.default" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "off.default",
+    "top.left.default.default" : "top.left.off.default",
+    "top.right.default.default" : "top.right.off.default",
+    "bottom.left.default.default" : "bottom.left.off.default",
+    "bottom.right.default.default" : "bottom.right.off.default",
+    "top.default.default" : "top.off.default",
+    "left.default.default" : "left.off.default",
+    "right.default.default" : "right.off.default"
+  }
+}

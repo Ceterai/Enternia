@@ -13,7 +13,8 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_enternia_stardust_spawn" ] ] },
+      { "select" : 2, "pool" : [ [ 1, "ct_stardust_narfin_spawn" ], [ 1, "ct_stardust_poptop_spawn" ], [ 0.5, "ct_stardust_crippit_spawn" ], [ 1, "ct_prism_crippit_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_starfly_spawn" ] ] },
       { "select" : 3, "pool" : [[1,"jellycritter"],[1,"bouncercritter"],[1,"prismelementalcritter"],[1,"prismscabcritter"],[1,"slugcritter"]] }
     ]
   },

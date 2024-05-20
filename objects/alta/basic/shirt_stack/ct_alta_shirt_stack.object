@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_shirt_stack",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Shirt Stack",
+  "description" : "A tidy stack of regular shirts, for all and any occasions. Small sized.",
+  "longdescription" : "Any alta has at least a pack of these, usually given out by the city administration. They often come together with a flat as well.",
+  "altaDescription" : "Ah, a pack of freshly-washed shirts. What an amazing smell.",
+
+  "apexDescription" : "A set of tidy-packed shirts. The size is a bit too small.",
+  "avianDescription" : "Some structured pile of clothes.",
+  "floranDescription" : "Floran wantsss to wear thiss shirt.",
+  "glitchDescription" : "Curious. These shirts are stacked very carefully.",
+  "humanDescription" : "A stack of shirts.",
+  "hylotlDescription" : "A tidy stack of shirts, compiled by a very thoughtful person.",
+  "novakidDescription" : "That's a pretty tall stack of them clothes!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_ceternia_sample",
+  "colonyTags" : [ "ceternia", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 6, "rarity" : "Legendary", "price" : 5200,
+  "race" : "alta",
+
+  "shortdescription" : "Ceternia Sample ^#8020f0;^reset;",
+  "description" : "A perfect sample of some ^#20f080;ceternia^reset;-saturated matter, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "Capturing ceternia on a semi-organic piece of matter sounds hard enough, keeping it on there seems impossible... But I guess here it is, proving me wrong. Another tiny secret of this mysterious universe.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

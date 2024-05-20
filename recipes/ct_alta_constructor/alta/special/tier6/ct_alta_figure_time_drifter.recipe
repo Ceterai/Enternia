@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_alternia_shard", "count" : 2 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_figure_time_drifter", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta", "alta_special", "objects", "figurines", "all", "mod" ]
+}

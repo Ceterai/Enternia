@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_aric_art",
+  "colonyTags" : [ "pretty" ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "The Great Friendly Aric",
+  "description" : "A friendly picture of a happy mushroom tree greeting the daylight sky.",
+  "longdescription" : "Drawing is a prominenct type of artistic expression in alta culture, as well as a simply pleasant hobby. Many ^#b0e0fc;alta artists^reset; sell their work as means of making a living, so be sure to support them!",
+  "altaDescription" : "Oaa, this drawing is so cute! Hello, mister friendly shroom!~",
+
+  "inventoryIcon" : "ct_aric_art.png",
+  "orientations" : [
+    { "dualImage" : "ct_aric_art.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

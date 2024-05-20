@@ -1,0 +1,57 @@
+{
+  "objectName" : "ct_alta_fridge",
+  "colonyTags" : [ "cooking", "storage" ],
+  "category" : "fridgeStorage", "objectType" : "container",
+  "level" : 3, "rarity" : "Uncommon", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Fridge",
+  "description" : "A refridgerator. Hopefully filled with tasty, tasty treats.",
+  "longdescription" : "The technology behind such appliances is pretty simple, as it runs on cryonic extracts and isoslime.",
+  "altaDescription" : "Oa-a... Wait, why did I come here?..",
+
+  "apexDescription" : "A fridge. Let's hope there's food inside.",
+  "avianDescription" : "What's in the fridge, I wonder?",
+  "floranDescription" : "Cold!",
+  "glitchDescription" : "Calm. A fridge in light, relaxing colors.",
+  "humanDescription" : "A fridge. I wonder if there are eggs in here?",
+  "hylotlDescription" : "A food-chilling device.",
+  "novakidDescription" : "A fridge! I wonder if anyone left any treats?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 2],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "direction" : "right",
+      "lightPosition" : [0, 2],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+  "lightColor" : [19, 27, 31],
+  "health" : 1.5,
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

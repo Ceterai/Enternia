@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_xor",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "An /'XOR'/ switch. Requires one input to be on, and one off.",
+  "shortdescription" : "Alta Logic - XOR",
+  "race" : "alta",
+
+  "floranDescription" : "An /'XOR'/ sswitch. Requiresss one input to be on, and one off.",
+  "glitchDescription" : "Observation. An /'XOR'/ switch. Requires one input to be on, and one off.",
+
+  "inventoryIcon" : "xor.png:default.1",
+  "orientations" : [
+    {
+      "image" : "xor.png:<color>.off",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "xor.png"
+  },
+  "inputNodes" : [ [0, 0], [2, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, true ], [ true, false ] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

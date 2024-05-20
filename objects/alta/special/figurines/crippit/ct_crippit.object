@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_crippit_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 4800,
+
+  "shortdescription" : "Crippit Figurine",
+  "description" : "The label reads, \"Moonrock crippits tend to be pretty shy in public, most likely due to not being able to find a pretty crystal shell instead.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "With the right approach and attitude, you can take one of these little friends for a ride! Or at least so I've heard.",
+
+  "inventoryIcon" : "ct_crippit.png",
+  "orientations" : [
+    { "dualImage" : "ct_crippit.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

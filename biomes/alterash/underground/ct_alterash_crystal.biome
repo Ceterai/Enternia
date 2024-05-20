@@ -14,7 +14,7 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_caves_narfin_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_ice_narfin_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
       { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
     ]

@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_alta_lab_door",
+  "colonyTags" : [ "alta_lab", "door" ],
+  "category" : "door",
+  "level" : 3, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Lab Door",
+  "description" : "A simple bion door with crystals instead of glass.",
+  "altaDescription" : "A basic see-through door to cancel out all the noises on the other side!",
+
+  "apexDescription" : "This door is rather secure.",
+  "avianDescription" : "Very sturdy for a basic door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful door.",
+  "humanDescription" : "A sturdy titanium door.",
+  "hylotlDescription" : "A robust titanium door.",
+  "novakidDescription" : "Now this is a sturdy lookin' door!",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "ct_door.png:right",
+  "orientations" : [
+    {
+      "image" : "ct_door.png:default",
+      "imagePosition" : [-16, 0], "renderLayer" : "Object+5",
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : { "pool" : [ "/sfx/objects/wooddoor_open.ogg" ], "rangeMultiplier" : 0.5 },
+      "close" : { "pool" : [ "/sfx/objects/wooddoor_close.ogg" ], "rangeMultiplier" : 0.5 }
+    }
+  },
+  "animationParts" : { "door" : "ct_door.png" },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ], "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

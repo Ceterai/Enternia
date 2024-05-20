@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "moonrock", "count" : 4 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_cetersphere", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ionic_crippit_egg", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "spawner", "monster_egg", "consumables", "all", "mod" ]
+}

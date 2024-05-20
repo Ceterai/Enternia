@@ -1,0 +1,31 @@
+{  // This is a monster egg item. Check out the `ct_monster_egg_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
+  "itemName" : "ct_alto_zich_egg",
+  "shortdescription" : "Alto Zich Egg",
+  "description" : "Can be used to spawn a bug called ^#b0e0fc;alto zich^reset;, or simply \"blue bug\" in alkey.",
+  "longdescription" : "These \"eggs\" are really just highly incubated versions of creatures, used by altas during research, often for simulation purposes, which is why they tend to be friendly to their owner.",
+  "altaDescription" : "It shimmers so beautifully in my hand! Does that mean that it likes me?! Oaaa~",
+  "itemTags" : [ "throwable", "spawner", "monster_egg" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
+  "rarity" : "Uncommon", "price" : 200, "level" : 4,
+  "twoHanded" : false, "pet" : "ct_alto_zich", "damageTeam" : { "team" : 1, "type" : "passive" },
+  "animation" : "/items/active/unsorted/alta/spawner/default.animation",
+  "scripts" : [ "/items/active/unsorted/alta/spawner/monster_spawn.lua" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

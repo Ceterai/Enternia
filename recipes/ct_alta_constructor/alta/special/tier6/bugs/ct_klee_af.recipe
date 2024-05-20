@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 12 },
+    { "item" : "ct_ceternia_core", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_klee_af", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alterash", "objects", "bugs", "all", "mod" ]
+}

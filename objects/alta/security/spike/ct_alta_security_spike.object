@@ -1,0 +1,101 @@
+{
+  "objectName" : "ct_alta_security_spike",
+  "colonyTags" : [ "alta_security", "electronic", "hazard", "trap", "wired" ],
+  "category" : "trap",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "shortdescription" : "Alta Security Spike",
+  "description" : "An electric trap filled with active plasma. Can be turned on or off and placed on almost any surface.",
+  "longdescription" : "These are rarely used by security outposts, mainly as slime traps and formal security measures.",
+  "altaDescription" : "A security spike. These can sting quite a bit, better to not touch them when they're active.",
+
+  "apexDescription" : "Electric traps. I'd better not touch.",
+  "avianDescription" : "If only I could fly over these traps.",
+  "floranDescription" : "Floran dislikess lightning machines.",
+  "glitchDescription" : "Fearful. There appears to be enough current here to entirely fry my circuits.",
+  "humanDescription" : "Uh oh, looks dangerous.",
+  "hylotlDescription" : "Similar devices are used defensively beneath the ocean. The Hylotl build moats of electricity currents as intruder deterrents.",
+  "novakidDescription" : "I don't fancy getting a nasty jolt. Better steer clear.",
+
+  "lightColor" : [0, 80, 192],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    
+    // PREVIEW ORIENTATION
+    {
+      "image" : "body.png:<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:" }, "fgAnchors" : [ [0, 0] ]
+    },
+
+    // NORMAL ORIENTATIONS
+    {
+      "image" : "body.png:top.left.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:top.left." }, "anchors" : [ "top", "left" ]
+    },
+
+    {
+      "image" : "body.png:top.right.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:top.right." }, "anchors" : [ "top", "right" ]
+    },
+
+    {
+      "image" : "body.png:bottom.left.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:bottom.left." }, "anchors" : [ "bottom", "left" ]
+    },
+
+    {
+      "image" : "body.png:bottom.right.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:bottom.right." }, "anchors" : [ "bottom", "right" ]
+    },
+
+    {
+      "image" : "body.png:<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:" }, "anchors" : [ "bottom" ]
+    },
+
+    {
+      "image" : "body.png:top.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:top." }, "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "body.png:left.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:left." }, "anchors" : [ "left" ]
+    },
+
+    {
+      "image" : "body.png:right.<frame>.<color>", "frames" : 6, "animationCycle" : 0.6, "spaceScan" : 0.1,
+      "animationParts" : { "body" : "body.png:right." }, "anchors" : [ "right" ]
+    }
+  ],
+  
+  "barrierDamage" : {
+    "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+    "damage" : 8, "damageType" : "Environment", "damageSourceKind" : "ct_plasma", "statusEffects" : [ "ct_plasma_burn" ],
+    "damageTeam" : { "type" : "indiscriminate" }, "teamType" : "indiscriminate"
+  },
+  "animation" : "/objects/alta/switch.animation",
+  "scripts" : [ "/objects/alta/switch.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "defaultState" : true,
+  "inputNodes" : [ [0, 0] ],
+
+  "soundEffect" : "/sfx/objects/teslaspike.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ ],
+  "smashParticles" : [ { "count" : 6, "particle" : "steelshard" } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

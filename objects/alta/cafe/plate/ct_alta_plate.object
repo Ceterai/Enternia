@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_plate",
+  "colonyTags" : [ "cooking" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 30,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Plate",
+  "description" : "A simple dining plate made out of hardened ^#3587ff;ayaka wood^reset;. Can be used in cooking.",
+  "longdescription" : "Easy to clean, eco-friendly and doesn't cause issues in microwaves and dishwashers. Neat.",
+  "altaDescription" : "A cool little plate, very clean. Looking at it makes me a little hungry...",
+
+  "apexDescription" : "A little clay plate.",
+  "avianDescription" : "A dish on which food is served.",
+  "floranDescription" : "Plate needss food. Floran hungry.",
+  "glitchDescription" : "Humbled. A simple clay plate.",
+  "humanDescription" : "A very simple pottery plate.",
+  "hylotlDescription" : "A rounded clay plate.",
+  "novakidDescription" : "Small clay plate.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

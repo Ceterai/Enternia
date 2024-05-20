@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "ct_alta_energy_cell", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_security_stand",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "alta_security", "objects", "hazard", "all", "mod" ]
+}

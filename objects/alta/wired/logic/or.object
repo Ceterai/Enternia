@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_or",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "An /'OR'/ switch. Allows you to have multiple individual inputs.",
+  "shortdescription" : "Alta Logic - OR",
+  "race" : "alta",
+
+  "floranDescription" : "An /'OR'/ sswitch. Allowsss you to have multiple individual inputs.",
+  "glitchDescription" : "Pleased. An /'OR'/ switch. Allows you to have multiple individual inputs.",
+
+  "inventoryIcon" : "or.png:default.1",
+  "orientations" : [
+    {
+      "image" : "or.png:<color>.off",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/logic.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "or.png"
+  },
+  "inputNodes" : [ [0, 0], [2, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "gates" : 2,
+  "truthtable" : [ [ false, true ], [ true, true ] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

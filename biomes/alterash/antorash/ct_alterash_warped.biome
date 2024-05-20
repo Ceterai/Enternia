@@ -13,7 +13,8 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] }
+      { "select" : 1, "pool" : [ [ 1, "ct_unwarped_fly_spawn" ] ] },
+      { "select" : 2, "pool" : [ [ 1, "ct_warped_sporgus_spawn" ], [ 1, "ct_warped_anglure_spawn" ], [ 1, "ct_brutefly_spawn" ] ] }
     ]
   },
 

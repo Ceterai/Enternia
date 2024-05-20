@@ -27,7 +27,7 @@
       "anchors" : [ "bottom" ]
     }
   ],
-  "outputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [0, 0], [0, 5], [7, 0], [7, 5] ],
 
   "builder" : "/items/buildscripts/alta/object.lua"
 }

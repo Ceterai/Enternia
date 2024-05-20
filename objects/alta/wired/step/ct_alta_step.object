@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_step",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 20,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Step",
+  "description" : "A simple pressure plate, or a floor button, semi-hidden on the floor.",
+  "longdescription" : "Although quite small in size, it's convenient enough and doesn't take a lot of pressure to switch, meaning it can be used by any creature.",
+  "altaDescription" : "A typical hidden step. Used for poi traps, mostly. Very satisfying to press, if you ask me.",
+
+  "apexDescription" : "A button. Its function is unknown. Only one way to find out.",
+  "avianDescription" : "Why am I always compelled to push buttons?",
+  "floranDescription" : "Floran push buttonsss!",
+  "glitchDescription" : "Tempted. A button, begging to be pressed.",
+  "humanDescription" : "There's a button! I can't not press it!",
+  "hylotlDescription" : "Buttons are infuriating. Still, I must push it.",
+  "novakidDescription" : "Why is it always so darn temptin' to push buttons.",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "image" : "body.png:<color>.off", "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "animation" : "/objects/wired/proximitysensor/pressureplate3.animation",
+  "animationParts" : { "switch" : "body.png" },
+
+  "scripts" : [
+    "/objects/wired/proximitysensor/proximitysensor.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+  "outputNodes" : [ [0, 0] ],
+  "interactive" : false,
+
+  "detectDuration" : 0.1,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-0.1, 0], [0.1, 0.5] ],
+
+  "npcToy": {
+    "ownerOnly" : true,
+    "influence" : [
+      "floorbutton"
+    ],
+    "defaultReactions" : {},
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

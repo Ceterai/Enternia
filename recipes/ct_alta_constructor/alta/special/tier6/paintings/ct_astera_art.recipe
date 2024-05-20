@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 4 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "liquidoil", "count" : 32 },
+    { "item" : "ct_stardust", "count" : 32 }
+  ],
+  "output" : { "item" : "ct_astera_art", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "objects", "art", "paintings", "all", "mod" ]
+}

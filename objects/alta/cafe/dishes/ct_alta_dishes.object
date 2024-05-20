@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_dishes",
+  "colonyTags" : [ "cooking" ],
+  "category" : "decorative",
+  "level" : 2, "rarity" : "Common", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Dishes",
+  "description" : "A well-placed set of alta dishes, including an ^#b0e0fc;alta plate^reset; and an ^#b0e0fc;alta cup^reset;, as well as utensils.",
+  "longdescription" : "A great way cor a cafe to demostrate that they are ready for customers is to display empty dish sets on free tables.",
+  "altaDescription" : "When's the dinner?",
+
+  "apexDescription" : "A little clay plate.",
+  "avianDescription" : "A dish on which food is served.",
+  "floranDescription" : "Plate needss food. Floran hungry.",
+  "glitchDescription" : "Humbled. A simple clay plate.",
+  "humanDescription" : "A very simple pottery plate.",
+  "hylotlDescription" : "A rounded clay plate.",
+  "novakidDescription" : "Small clay plate.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

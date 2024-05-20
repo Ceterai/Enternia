@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_starfly_af",
+  "colonyTags" : [ "stardust", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 6, "rarity" : "Legendary", "price" : 200,
+  "race" : "generic",
+
+  "shortdescription" : "Starfly",
+  "description" : "An attached note reads, \"This big dark-colored shimmering butterfly is made almost entirely out of stardust.\"",
+  "longdescription" : "Bottled bugs are often a midway state in the process of research and preservation, and thus are often possesed by various ^#b0e0fc;alta collectioners^reset;.",
+  "altaDescription" : "It shimmers so beautifully in the bottle! I hope it doesn't feel lonely in there.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_lab_light", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "alta_lab", "objects", "decoration", "all", "mod" ]
+}

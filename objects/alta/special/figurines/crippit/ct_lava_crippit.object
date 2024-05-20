@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_lava_crippit_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 5400,
+
+  "shortdescription" : "Lava Crippit ^#8020f0;^reset;",
+  "description" : "The label reads, \"The magma rocks are pleasantly warm on the inside, making them a perfect home for a crippit.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "I wonder how it's able to hold up all that weight...",
+
+  "inventoryIcon" : "ct_lava_crippit.png",
+  "orientations" : [
+    { "dualImage" : "ct_lava_crippit.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

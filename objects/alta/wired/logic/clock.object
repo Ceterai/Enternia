@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_alta_clock",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "The clock output alternates between on and off every 0.5 seconds. Default is 33 ticks (0.5s), sets through `interval`.",
+  "shortdescription" : "Alta Logic - Clock",
+  "race" : "alta",
+
+  "floranDescription" : "Clock output alternatesss between on and off every 0.5 secondsss.",
+  "glitchDescription" : "Neutral. The clock output alternates between on and off every 0.5 seconds.",
+
+  "inventoryIcon" : "clock.png:default.1",
+  "orientations" : [
+    {
+      "image" : "clock.png:<color>.off",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/timer.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "clock.png"
+  },
+  "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "interval" : 33,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

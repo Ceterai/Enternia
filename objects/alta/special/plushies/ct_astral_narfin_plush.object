@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_astral_narfin_plush",
+  "colonyTags" : [ "pretty" ],
+  "category" : "toy",
+  "level" : 5, "rarity" : "Rare", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Narfin Plushie",
+  "description" : "A cute narfin plush toy for your plush toy collection.",
+  "longdescription" : "Plush toys are extremely popular among altas, and hand-made plushies are often made by ^#b0e0fc;alta artists^reset; as a hobby, and are usually sold by ^#b0e0fc;alta party girls^reset; or found in high quantities in various stores in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "Narfins are pretty neat as it is, this plushie is that much better, so soft and cuddly!",
+
+  "inventoryIcon" : "ct_astral_narfin_plush.png",
+  "orientations" : [
+    { "dualImage" : "ct_astral_narfin_plush.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

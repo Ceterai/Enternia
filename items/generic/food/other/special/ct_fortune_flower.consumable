@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_fortune_flower",
+  "rarity" : "Legendary",
+  "price" : 1040,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_palopias.png",
+  "description" : "Yava alta cuisine. A flowery dish full of color and flavor. Often has a fortune hidden in one of the flowers!",
+  "shortdescription" : "Palopias",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Blooming Palopias ^#8020f0;^reset;",
+      "description" : "Yava alta cuisine. A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
+      "rarity" : "Legendary", "price" : 1340, "foodValue" : 80
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "ct_warped_anglure_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_warped_anglure_hunt"}] } ] ],
+  "ct_warped_anglure_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 3]},
+    {"weight" : 0.490, "item" : ["glowfibre", 4]},
+    {"weight" : 0.0085, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.0005, "item" : "ct_lumina_trophy"},
+    {"weight" : 0.001, "item" : "ct_warped_anglure_af"}
+  ] } ] ],
+
+  "ct_nightmare_anglure_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_nightmare_anglure_hunt"}] } ] ],
+  "ct_nightmare_anglure_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 3]},
+    {"weight" : 0.490, "item" : ["glowfibre", 4]},
+    {"weight" : 0.0085, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.0005, "item" : "ct_lumina_trophy"},
+    {"weight" : 0.001, "item" : "ct_nightmare_anglure_af"}
+  ] } ] ],
+
+  "ct_berry_bobfae_loot" : [ [ 1, { "poolRounds" : [[0.6,1],[0.4,0]], "pool" : [{"weight":1,"pool":"ct_berry_bobfae_hunt"}] } ] ],
+  "ct_berry_bobfae_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["silkfibre", 1]},
+    {"weight" : 0.4985, "item" : ["silkfibre", 2]},
+    {"weight" : 0.0005, "item" : "ct_gil"},
+    {"weight" : 0.001, "item" : "ct_berry_bobfae_af"}
+  ] } ] ],
+
+  "ct_impulse_bobfae_loot" : [ [ 1, { "poolRounds" : [[0.6,1],[0.4,0]], "pool" : [{"weight":1,"pool":"ct_impulse_bobfae_hunt"}] } ] ],
+  "ct_impulse_bobfae_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["silkfibre", 2]},
+    {"weight" : 0.450, "item" : ["silkfibre", 3]},
+    {"weight" : 0.049, "item" : "ct_ceternia_core"},
+    {"weight" : 0.001, "item" : "ct_impulse_bobfae_af"}
+  ] } ] ],
+
+  "ct_bionfly_loot" : [ [ 1, { "poolRounds" : [[0.6,1],[0.4,0]], "pool" : [{"weight":1,"pool":"ct_bionfly_hunt"}] } ] ],
+  "ct_bionfly_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.700, "item" : ["ct_bionid", 1]},
+    {"weight" : 0.2985, "item" : ["ct_bionid", 2]},
+    {"weight" : 0.0005, "item" : "ct_lumina_trophy"},
+    {"weight" : 0.001, "item" : "ct_bionfly_af"}
+  ] } ] ],
+
+  "ct_brutefly_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_brutefly_hunt"}] } ] ],
+  "ct_brutefly_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 3]},
+    {"weight" : 0.490, "item" : ["glowfibre", 4]},
+    {"weight" : 0.009, "item" : "ct_warped_glowbomb"},
+    {"weight" : 0.001, "item" : "ct_brutefly_af"}
+  ] } ] ],
+
+  "ct_bishyn_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_bishyn_crippit_hunt"}] } ] ],
+  "ct_bishyn_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 2]},
+    {"weight" : 0.499, "item" : ["crystal", 3]},
+    {"weight" : 0.001, "item" : "ct_bishyn_crippit_af"}
+  ] } ] ],
+
+  "ct_calin_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_calin_crippit_hunt"}] } ] ],
+  "ct_calin_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 2]},
+    {"weight" : 0.499, "item" : ["crystal", 3]},
+    {"weight" : 0.001, "item" : "ct_calin_crippit_af"}
+  ] } ] ],
+
+  "ct_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_crippit_hunt"}] } ] ],
+  "ct_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["moonrock", 2]},
+    {"weight" : 0.499, "item" : ["moonrock", 3]},
+    {"weight" : 0.001, "item" : "ct_crippit_af"}
+  ] } ] ],
+
+  "ct_crystalline_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_crystalline_crippit_hunt"}] } ] ],
+  "ct_crystalline_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 2]},
+    {"weight" : 0.499, "item" : ["crystal", 3]},
+    {"weight" : 0.001, "item" : "ct_crystalline_crippit_af"}
+  ] } ] ],
+
+  "ct_gheatsyn_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_gheatsyn_crippit_hunt"}] } ] ],
+  "ct_gheatsyn_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["ct_gheatsyn_shard", 2]},
+    {"weight" : 0.499, "item" : ["ct_gheatsyn_shard", 3]},
+    {"weight" : 0.001, "item" : "ct_gheatsyn_crippit_af"}
+  ] } ] ],
+
+  "ct_hevika_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_hevika_crippit_hunt"}] } ] ],
+  "ct_hevika_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 2]},
+    {"weight" : 0.450, "item" : ["crystal", 3]},
+    {"weight" : 0.049, "item" : "ct_alternia_shard"},
+    {"weight" : 0.001, "item" : "ct_hevika_crippit_af"}
+  ] } ] ],
+
+  "ct_ionic_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_ionic_crippit_hunt"}] } ] ],
+  "ct_ionic_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 2]},
+    {"weight" : 0.499, "item" : ["crystal", 3]},
+    {"weight" : 0.001, "item" : "ct_ionic_crippit_af"}
+  ] } ] ],
+
+  "ct_lava_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_lava_crippit_hunt"}] } ] ],
+  "ct_lava_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 1]},
+    {"weight" : 0.499, "item" : ["crystal", 2]},
+    {"weight" : 0.001, "item" : "ct_lava_crippit_af"}
+  ] } ] ],
+
+  "ct_mical_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_mical_crippit_hunt"}] } ] ],
+  "ct_mical_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 1]},
+    {"weight" : 0.499, "item" : ["crystal", 2]},
+    {"weight" : 0.001, "item" : "ct_mical_crippit_af"}
+  ] } ] ],
+
+  "ct_obsidian_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_obsidian_crippit_hunt"}] } ] ],
+  "ct_obsidian_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["obsidian", 1]},
+    {"weight" : 0.499, "item" : ["obsidian", 2]},
+    {"weight" : 0.001, "item" : "ct_obsidian_crippit_af"}
+  ] } ] ],
+
+  "ct_prism_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_prism_crippit_hunt"}] } ] ],
+  "ct_prism_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["prisiliteore", 1]},
+    {"weight" : 0.499, "item" : ["prisiliteore", 2]},
+    {"weight" : 0.001, "item" : "ct_prism_crippit_af"}
+  ] } ] ],
+
+  "ct_stardust_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_stardust_crippit_hunt"}] } ] ],
+  "ct_stardust_crippit_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["ct_stardust", 1]},
+    {"weight" : 0.499, "item" : ["ct_stardust", 2]},
+    {"weight" : 0.001, "item" : "ct_stardust_crippit_af"}
+  ] } ] ],
+
+  "ct_ionic_crustoise_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_ionic_crustoise_hunt"}] } ] ],
+  "ct_ionic_crustoise_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 1]},
+    {"weight" : 0.490, "item" : ["crystal", 2]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_ionic_crustoise_af"}
+  ] } ] ],
+
+  "ct_overcharged_crustoise_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_overcharged_crustoise_hunt"}] } ] ],
+  "ct_overcharged_crustoise_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 3]},
+    {"weight" : 0.490, "item" : ["glowfibre", 4]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_overcharged_crustoise_af"}
+  ] } ] ],
+
+  "ct_astral_narfin_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_astral_narfin_hunt"}] } ] ],
+  "ct_astral_narfin_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["prisiliteore", 1]},
+    {"weight" : 0.4849, "item" : ["prisiliteore", 2]},
+    {"weight" : 0.005, "item" : "ct_astral_narfin_plush"},
+    {"weight" : 0.0001, "item" : "ct_narfin_trophy"},
+    {"weight" : 0.001, "item" : "ct_astral_narfin_af"}
+  ] } ] ],
+
+  "ct_ionic_narfin_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_ionic_narfin_hunt"}] } ] ],
+  "ct_ionic_narfin_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 1]},
+    {"weight" : 0.4899, "item" : ["crystal", 2]},
+    {"weight" : 0.0001, "item" : "ct_narfin_trophy"},
+    {"weight" : 0.001, "item" : "ct_ionic_narfin_af"}
+  ] } ] ],
+
+  "ct_omni_narfin_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_omni_narfin_hunt"}] } ] ],
+  "ct_omni_narfin_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["ct_stardust", 1]},
+    {"weight" : 0.4849, "item" : ["ct_stardust", 2]},
+    {"weight" : 0.005, "item" : "ct_omni_narfin_plush"},
+    {"weight" : 0.0001, "item" : "ct_narfin_trophy"},
+    {"weight" : 0.001, "item" : "ct_omni_narfin_af"}
+  ] } ] ],
+
+  "ct_stardust_narfin_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_stardust_narfin_hunt"}] } ] ],
+  "ct_stardust_narfin_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["ct_stardust", 1]},
+    {"weight" : 0.4899, "item" : ["ct_stardust", 2]},
+    {"weight" : 0.0001, "item" : "ct_narfin_trophy"},
+    {"weight" : 0.001, "item" : "ct_stardust_narfin_af"}
+  ] } ] ],
+
+  "ct_ionic_orbide_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_ionic_orbide_hunt"}] } ] ],
+  "ct_ionic_orbide_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 1]},
+    {"weight" : 0.490, "item" : ["glowfibre", 2]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_ionic_orbide_af"}
+  ] } ] ],
+
+  "ct_nightmare_orbide_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_nightmare_orbide_hunt"}] } ] ],
+  "ct_nightmare_orbide_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 1]},
+    {"weight" : 0.490, "item" : ["glowfibre", 2]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_nightmare_orbide_af"}
+  ] } ] ],
+
+  "ct_crystal_poptop_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_crystal_poptop_hunt"}] } ] ],
+  "ct_crystal_poptop_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["crystal", 1]},
+    {"weight" : 0.490, "item" : ["crystal", 2]},
+    {"weight" : 0.009, "item" : "ct_poptop_claw"},
+    {"weight" : 0.001, "item" : "ct_crystal_poptop_af"}
+  ] } ] ],
+
+  "ct_valley_poptop_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_valley_poptop_hunt"}] } ] ],
+  "ct_valley_poptop_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.985, "item" : ["sharpenedclaw", 1]},
+    {"weight" : 0.009, "item" : "ct_poptop_claw"},
+    {"weight" : 0.005, "item" : "ct_omni_narfin_plush"},
+    {"weight" : 0.001, "item" : "ct_valley_poptop_af"}
+  ] } ] ],
+
+  "ct_bionid_pteropod_loot" : [ [ 1, { "poolRounds" : [[0.7,1],[0.3,0]], "pool" : [{"weight":1,"pool":"ct_bionid_pteropod_hunt"}] } ] ],
+  "ct_bionid_pteropod_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["ct_bionid", 1]},
+    {"weight" : 0.4985, "item" : ["ct_bionid", 2]},
+    {"weight" : 0.0005, "item" : "ct_lumina_trophy"},
+    {"weight" : 0.001, "item" : "ct_bionid_pteropod_af"}
+  ] } ] ],
+
+  "ct_isopod_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_isopod_hunt"}] } ] ],
+  "ct_isopod_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.700, "item" : ["ct_isoslime_ball", 1]},
+    {"weight" : 0.299, "item" : ["ct_isoslime_ball", 2]},
+    {"weight" : 0.001, "item" : "ct_isopod_af"}
+  ] } ] ],
+
+  "ct_aric_sporgus_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_aric_sporgus_hunt"}] } ] ],
+  "ct_aric_sporgus_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["toxicwaste", 1]},
+    {"weight" : 0.490, "item" : ["toxicwaste", 2]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_aric_sporgus_af"}
+  ] } ] ],
+
+  "ct_warped_sporgus_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_warped_sporgus_hunt"}] } ] ],
+  "ct_warped_sporgus_hunt" : [ [ 1, { "pool" : [
+    {"weight" : 0.500, "item" : ["glowfibre", 1]},
+    {"weight" : 0.490, "item" : ["glowfibre", 2]},
+    {"weight" : 0.009, "item" : "ct_anglure_lamp"},
+    {"weight" : 0.001, "item" : "ct_warped_sporgus_af"}
+  ] } ] ]
+}

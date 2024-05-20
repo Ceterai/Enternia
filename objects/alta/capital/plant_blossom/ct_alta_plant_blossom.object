@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alta_plant_blossom",
+  "colonyTags" : [ "alta_city", "alta_garden", "alta_capital", "ayaka", "pretty" ],
+  "category" : "decorative",
+  "level" : 3, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Blossom Plant",
+  "description" : "A decorative plant in a big titanium vase.",
+  "altaDescription" : "Some nice koywa leaves to bring life to any space! The vase is a complicated device that keeps it alive.",
+
+  "apexDescription" : "This plant isn't real!",
+  "avianDescription" : "A fake plant.",
+  "floranDescription" : "Floran ssstab imposter plant!",
+  "glitchDescription" : "Unsure. Is a fake plant better or worse than a real one?",
+  "humanDescription" : "Reminds me of waiting rooms.",
+  "hylotlDescription" : "A disgusting fake plastic plant.",
+  "novakidDescription" : "A fake plant - nature, without the work.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

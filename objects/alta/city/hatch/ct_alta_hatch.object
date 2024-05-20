@@ -1,0 +1,65 @@
+{
+  "objectName" : "ct_alta_hatch",
+  "colonyTags" : [ "mechanical", "door" ],
+  "category" : "door",
+  "level" : 2, "rarity" : "Common", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Hatch",
+  "description" : "A simple titanium 1x5 hatch. ^green;Can be placed both vertically and horizontally.^reset;",
+  "altaDescription" : "A slim any-dimensional city gateway. Quite sturdy.",
+
+  "apexDescription" : "Hatch designs like this are common on ships.",
+  "avianDescription" : "A spaceship hatch.",
+  "floranDescription" : "Ssspaceship hatch.",
+  "glitchDescription" : "Informed. A standard ship hatch.",
+  "humanDescription" : "A spaceship hatch.",
+  "hylotlDescription" : "A basic ship hatch.",
+  "novakidDescription" : "A hatch, the type you'd find on a ship.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_door_h.png:default",
+      "imagePosition" : [-16, -16],
+      "animationParts" : { "door" : "ct_door_h.png" },
+      "animationPosition" : [-16, -16],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "dualImage" : "ct_door.png:default",
+      "imagePosition" : [-16, 0],
+      "animationParts" : { "door" : "ct_door.png" },
+      "animationPosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "bottom" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

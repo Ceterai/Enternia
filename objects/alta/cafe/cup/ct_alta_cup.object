@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_cup",
+  "colonyTags" : [ "cooking" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 30,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Cup",
+  "description" : "A simple kitchen glass made out of crystals. Tiny, effective, and very pretty. Can be used in cooking.",
+  "longdescription" : "Even though this is technically a glass, the word \"cup\" was chosen by altas to not cause material confusion.",
+  "altaDescription" : "A neat little handless crystal cup, for when you want to go for a cup of tea.",
+
+  "apexDescription" : "A little wooden cup.",
+  "avianDescription" : "A wooden cup, difficult to keep clean.",
+  "floranDescription" : "Floran drink fleshy juicess from sssuch cupss.",
+  "glitchDescription" : "Disintered. A common wooden goblet.",
+  "humanDescription" : "A goblet made of wood.",
+  "hylotlDescription" : "A stained wooden goblet.",
+  "novakidDescription" : "A plain ol' wooden cup.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

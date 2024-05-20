@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_celestia_trophy",
+  "colonyTags" : [ "valuable" ],
+  "category" : "decorative",
+  "level" : 8, "rarity" : "Essential", "price" : 5000,
+
+  "shortdescription" : "Celestia's Trophy ^#f02020;^reset;",
+  "description" : "The plaque reads, \"Awarded to a precious little star, for being a good bean and making it this far. - Celestia\"",
+  "longdescription" : "As a trophy, its value is purely symbolic. Still, these are popular among ^#b0e0fc;alta collectioners^reset; and are just a delight to look at. While most trophies generally look like small sculpture-like contraptions, some resemble the reason they were awarded for.",
+  "altaDescription" : "Mother Celestia is proud... Perhaps this is all that matters.",
+
+  "inventoryIcon" : "ct_celestia_trophy.png",
+  "orientations" : [
+    { "dualImage" : "ct_celestia_trophy.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

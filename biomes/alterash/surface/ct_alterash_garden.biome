@@ -17,7 +17,8 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier1" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 0.75, "ct_klee_spawn" ], [ 0.25, "blueback" ] ] },
       { "select" : 2, "pool" : [[1,"birdcritter"],[1,"bunnycritter"],[1,"cliffcritter"],[1,"bioluminfireflyspawner"]] }
     ]
   },

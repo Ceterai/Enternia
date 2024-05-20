@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_stardust", "count" : 16 },
+    { "item" : "ct_phospholion", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_phospholion_sample", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "phospholion", "alta", "alta_special", "objects", "samples", "all", "mod" ]
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_alta_bidet",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 70,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Bidet",
+  "description" : "An all-purpose alta toilet and bidet in one appliance.",
+  "longdescription" : "Due to how alta biology works, this is one of the more convenient restroom designs.",
+  "altaDescription" : "Thankfully I don't need to go right now.",
+
+  "apexDescription" : "Do... I sit on this or...?",
+  "avianDescription" : "I'm not sure what this is.",
+  "floranDescription" : "Floran not sure about sssmelly seat.",
+  "glitchDescription" : "Impassive. A urinal. I think.",
+  "humanDescription" : "A bidet?",
+  "hylotlDescription" : "A basic urinal. I think.",
+  "novakidDescription" : "A dirty lookin' urinal. I think.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

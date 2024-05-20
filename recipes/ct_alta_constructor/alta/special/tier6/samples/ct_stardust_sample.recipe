@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_stardust", "count" : 20 }
+  ],
+  "output" : { "item" : "ct_stardust_sample", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "stardust", "alta", "alta_special", "objects", "samples", "all", "mod" ]
+}

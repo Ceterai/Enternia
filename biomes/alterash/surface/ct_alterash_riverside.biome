@@ -14,7 +14,7 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       {"select": 1, "pool": [[1, "lilodon"]]},
-      { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
       { "select" : 2, "pool" : [[1,"leafscabcritter"],[1,"bouncercritter"],[1,"fireflyspawner"]] }
     ]
   },

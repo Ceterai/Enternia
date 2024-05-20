@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_warped_sample",
+  "colonyTags" : [ "warped", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 4800,
+  "race" : "alta",
+
+  "shortdescription" : "Warped Sample",
+  "description" : "A perfect sample of ^#9b2d3f;warped^reset; growth, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "Not sure if an open pedestal with no protection is the best display for a warped sample. Considering its constant growth rate, this should have been a container instead.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

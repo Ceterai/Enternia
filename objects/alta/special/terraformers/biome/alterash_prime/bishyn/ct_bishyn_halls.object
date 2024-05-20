@@ -1,0 +1,49 @@
+{
+  "objectName" : "ct_bishyn_halls_tf",
+  "colonyTags" : [ "alterash_prime" ],
+  "category" : "terraformer",
+  "level" : 7, "price" : 3650, "rarity" : "Legendary",
+  "race" : "alta",
+
+  "shortdescription" : "Bishyn Halls Microformer ^#f02080;^reset;",
+  "description" : "Transforms an area of a planet into a bishyn hall. An alta attempt at creating smaller-scale terraformers. Is much more resource consuming and bigger in size than ancient analogs.",
+  "longdescription" : "^#378754;Bishyn Halls^reset; is a place full of ^#378754;bishyn^reset; crystals and poison. Both are dangerous.",
+  "altaDescription" : "A place with lots of poisonous crystals. I've heard that Unika produces a whole line of furniture made from these.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "right"
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:default", "fullbright" : true }, { "image" : "/objects/alta/special/terraformers/biome/body.png:default" } ],
+      "flipImages" : true, "imagePosition" : [-48, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ], "direction" : "left"
+    }
+  ],
+
+  "health" : 24,
+  "rooting" : true,
+
+  "animation" : "/objects/microformer/microformer.animation",
+  "animationPosition" : [-48, 0],
+  "animationParts" : {
+    "base" : "/objects/alta/special/terraformers/biome/body.png",
+    "baseFullbright" : "body.png"
+  },
+
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 60, "particle" : "metalshard" } ],
+
+  "scripts" : ["/objects/microformer/microformer.lua"],
+  "scriptDelta" : 10,
+
+  "terraformOffset" : [-47, 0],
+  "terraformSize" : 400,
+
+  "pregenerateTime" : [5, 30],
+
+  "terraformBiome" : "ct_bishyn_halls",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

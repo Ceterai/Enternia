@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_security_camera",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "alta_security", "objects", "hazard", "all", "mod" ]
+}

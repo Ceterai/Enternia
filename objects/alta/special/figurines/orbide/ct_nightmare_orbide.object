@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_nightmare_orbide_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 6, "rarity" : "Legendary", "price" : 4800,
+
+  "shortdescription" : "Nightmare Orbide Figurine",
+  "description" : "The label reads, \"Silly altas are tought to stay inside at night, so the nightmare orbide doesn't creep up on them and scare them.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "So creepy, yet so... peaceful? A frightful, yet captivating sight.",
+
+  "inventoryIcon" : "ct_nightmare_orbide.png",
+  "orientations" : [
+    { "dualImage" : "ct_nightmare_orbide.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

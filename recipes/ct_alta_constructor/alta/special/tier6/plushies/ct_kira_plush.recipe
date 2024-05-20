@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 4 },
+    { "item" : "cottonwool", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 32 }
+  ],
+  "output" : { "item" : "ct_kira_plush", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "objects", "toys", "plushies", "all", "mod" ]
+}

@@ -1,0 +1,23 @@
+{
+  "frameGrid" : {
+    "size" : [24, 8],
+    "dimensions" : [2, 6],
+    "names" : [
+      [ "on.default", "off.default" ],
+      [ "lit.on.default", "lit.off.default" ],
+      [ "back.on.default", "back.off.default" ],
+      [ "back.lit.on.default", "back.lit.off.default" ],
+      [ "floor.on.default", "floor.off.default" ],
+      [ "floor.lit.on.default", "floor.lit.off.default" ]
+    ]
+  },
+
+  "aliases" : {
+    "default.default" : "on.default",
+    "lit.default.default" : "lit.on.default",
+    "back.default.default" : "back.on.default",
+    "back.lit.default.default" : "back.lit.on.default",
+    "floor.default.default" : "floor.on.default",
+    "floor.lit.default.default" : "floor.lit.on.default"
+  }
+}

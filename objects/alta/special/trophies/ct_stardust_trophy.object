@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_stardust_trophy",
+  "colonyTags" : [ "valuable" ],
+  "category" : "decorative",
+  "level" : 7, "rarity" : "Legendary", "price" : 5600,
+
+  "shortdescription" : "Stardust Trophy ^#f02080;^reset;",
+  "description" : "The plaque reads, \"Awarded for a all the effort and patience, and for gathering a fabulous narfin collection.\"",
+  "longdescription" : "As a trophy, its value is purely symbolic. Still, these are popular among ^#b0e0fc;alta collectioners^reset; and are just a delight to look at. While most trophies generally look like small sculpture-like contraptions, some resemble the reason they were awarded for.",
+  "altaDescription" : "For all the stardust... And for Io.",
+
+  "inventoryIcon" : "ct_stardust_trophy.png",
+  "orientations" : [
+    { "dualImage" : "ct_stardust_trophy.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

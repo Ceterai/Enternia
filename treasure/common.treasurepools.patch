@@ -48,11 +48,11 @@
           {"weight" : 0.06, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
           {"weight" : 0.04, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
           // Shop Food,         total: 0.54
-          {"weight" : 0.12, "item" : "cttsaycola"},
-          {"weight" : 0.12, "item" : "ctayasoda"},
+          {"weight" : 0.12, "item" : "ct_tsay_cola"},
+          {"weight" : 0.12, "item" : "ct_aya_soda"},
           {"weight" : 0.12, "item" : "ct_gheanade"},
           {"weight" : 0.10, "item" : "ct_vmax"},
-          {"weight" : 0.08, "item" : "ctcannedfood"},
+          {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
           // Miscelanious,      total: 0.14
           {"weight" : 0.10, "pool" : "ct_alta_other_loot"},
           {"weight" : 0.04, "pool" : "ct_alta_codexes"},
@@ -78,11 +78,11 @@
           // Decorations,       total: 0.36
           {"weight" : 0.04, "item" : "bluestim"},
           {"weight" : 0.04, "item" : "greenstim"},
-          {"weight" : 0.04, "item" : "cttsaycola"},
-          {"weight" : 0.04, "item" : "ctayasoda"},
+          {"weight" : 0.04, "item" : "ct_tsay_cola"},
+          {"weight" : 0.04, "item" : "ct_aya_soda"},
           {"weight" : 0.04, "item" : "ct_gheanade"},
           // {"weight" : 0.10, "item" : "ct_vmax"},
-          // {"weight" : 0.08, "item" : "ctcannedfood"},
+          // {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
           // {"weight" : 0.02, "item" : "nanowrap"},
           {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade" } ] },
           {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade_pretty" } ] },
@@ -141,7 +141,7 @@
           {"weight" : 0.020, "item" : "ct_alta_metrocop_set"},
           // Miscelanious,      total: 0.14
           {"weight" : 0.06, "item" : "ct_alta_security-codex"},
-          {"weight" : 0.02, "item" : "ctayasoda"},
+          {"weight" : 0.02, "item" : "ct_aya_soda"},
           {"weight" : 0.02, "item" : "ct_alta_food-codex"},
           {"weight" : 0.02, "item" : "ct_logs_alta_job-codex"},
           {"weight" : 0.02, "item" : "ct_alta_lore_4-codex"},

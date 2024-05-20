@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_aya_bee_af",
+  "colonyTags" : [ "alterash", "ayaka", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 2, "rarity" : "Common", "price" : 200,
+  "race" : "generic",
+
+  "shortdescription" : "Aya Bee",
+  "description" : "An attached note reads, \"As the name suggests, this pseudo-bee is very fond of ripe ^#b0e0fc;ayas^reset; and other pretty fruits.\"",
+  "longdescription" : "Bottled bugs are often a midway state in the process of research and preservation, and thus are often possesed by various ^#b0e0fc;alta collectioners^reset;.",
+  "altaDescription" : "Aya bees are pretty good at distinquishing colors! That's how they're able to spot the most ripe ayas in sight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

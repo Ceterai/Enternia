@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_omni_narfin_plush",
+  "colonyTags" : [ "stardust", "pretty" ],
+  "category" : "toy",
+  "level" : 6, "rarity" : "Legendary", "price" : 1200,
+  "race" : "alta",
+
+  "shortdescription" : "Omni Narfin Plushie",
+  "description" : "A hand-made plushie of a very rare narfin species. Made specificaly to make your day.",
+  "longdescription" : "Plush toys are extremely popular among altas, and hand-made plushies are often made by ^#b0e0fc;alta artists^reset; as a hobby, and are usually sold by ^#b0e0fc;alta party girls^reset; or found in high quantities in various stores in ^#b0e0fc;alta cities^reset;.",
+  "altaDescription" : "An even bigger narfin plushie! Omni narfins are pretty rare, so good to see such a pleasant sight.",
+
+  "inventoryIcon" : "ct_omni_narfin_plush.png",
+  "orientations" : [
+    { "dualImage" : "ct_omni_narfin_plush.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

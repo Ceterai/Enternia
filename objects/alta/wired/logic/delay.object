@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_alta_delay",
+  "colonyTags" : [ "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 10,
+  "description" : "A circuit that relays signals after a set delay. Default is 0.5s, sets through `delay`.",
+  "shortdescription" : "Alta Logic - Delay",
+  "race" : "alta",
+
+  "floranDescription" : "A circuit that relays signalsss after a sset delay.",
+  "glitchDescription" : "Neutral. A circuit that relays signals after a set delay.",
+
+  "inventoryIcon" : "delay.png:default.1",
+  "orientations" : [
+    {
+      "image" : "delay.png:<color>.off",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/logic/delay.lua" ],
+  "scriptDelta" : 1,
+
+  "animation" : "/objects/wired/logic/logic.animation",
+
+  "animationParts" : {
+    "switch" : "delay.png"
+  },
+  "inputNodes" : [ [0, 0] ],
+  "outputNodes" : [ [1, 0] ],
+
+  "delay" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

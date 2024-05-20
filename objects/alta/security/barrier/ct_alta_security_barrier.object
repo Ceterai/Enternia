@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_alta_security_barrier",
+  "colonyTags" : [ "alta_security", "door", "electronic", "hazard", "trap", "wired" ],
+  "category" : "door",
+  "level" : 4, "rarity" : "Uncommon", "price" : 120,
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "shortdescription" : "Alta Security Barrier",
+  "description" : "An electric barrier used in security contraptions. Can be placed as a door. Deals damage when activated.",
+  "longdescription" : "Consists of two conductors that, when charged with energy, create a highly ionized field between each other. Adding energy to that field creates a powerful wall of electricity.",
+  "altaDescription" : "Technically you could pass through this barrier... but I wouldn't recommend.",
+
+  "apexDescription" : "This current forms a shield to keep things from passing through.",
+  "avianDescription" : "A door fashioned from electricity? Remarkable.",
+  "floranDescription" : "Door sssizzless, Floran don't like electric doorss.",
+  "glitchDescription" : "Unconcerned. The current here is completely grounded, there is no danger.",
+  "humanDescription" : "It's a gate made from electricity. Who makes a door like this?",
+  "hylotlDescription" : "The Hylotl are very cautious with electrical currents.",
+  "novakidDescription" : "A big rowdy spark of electric energy.",
+
+  "health" : 8.0,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "electriceggshard" }, { "count" : 6, "particle" : "steelshard" } ],
+  "smashDropPool" : "ct_glow_smashables",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:default",
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+  
+  "barrierDamage" : {
+    "poly" : [ [-0.5, 0.0], [1.5, 0.0], [-0.5, 1.0], [1.5, 1.0], [-0.5, 2.0], [1.5, 2.0], [-0.5, 3.0], [1.5, 3.0], [-0.5, 4.0], [1.5, 4.0], [-0.5, 5.0], [1.5, 5.0] ],
+    "damage" : 14, "damageType" : "Environment", "damageSourceKind" : "ct_plasma", "statusEffects" : [ ],
+    "damageTeam" : { "type" : "indiscriminate" }, "teamType" : "indiscriminate", "knockback" : 20
+  },
+
+  "scripts" : [ "/objects/alta/lab/barrier/barrier.lua" ],
+  "scriptDelta" : 5,
+  "closedLight" : [0, 80, 192],
+  "animation" : "/objects/alta/lab/barrier/barrier.animation",
+  "animationParts" : {
+    "bg" : "body.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

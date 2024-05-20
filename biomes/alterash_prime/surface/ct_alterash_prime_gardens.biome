@@ -16,7 +16,8 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "ionicStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_night_orbide_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_klee_prime_spawn" ] ] },
       { "select" : 2, "pool" : [[0.15,"crystalbirdcritter"], [0.6,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"], [0.1,"bluebutterflycritter"]] }
     ]
   },

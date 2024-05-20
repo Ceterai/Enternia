@@ -20,16 +20,17 @@ local ct_alta_item_builder = build
 function build(directory, config, parameters, level, seed)
   local tips = getTextConfig()
   -- 1. Load monster parameters
-  config.pet = config.itemName
+  config.pet = config.pet or config.itemName
   if config.pets then config.pet = config.pets[math.random(#config.pets)] end
-  local pet_params = root.assetJson(config.asset)
+  local pet_params = {}
+  if config.asset then pet_params = root.assetJson(config.asset) end
   -- 2. Get basic parameters if not set
   if pet_params.shortdescription then config.shortdescription = pet_params.shortdescription end
-  if not config.description then config.description = pet_params.description end
-  if not config.inventoryIcon then config.inventoryIcon = config.pet .. '.png' end
+  if not config.description and pet_params.description then config.description = pet_params.description end
+  if not config.inventoryIcon then config.inventoryIcon = config.itemName .. '.png' end
   if not config.animation then config.animation = 'default.animation' end
   if not config.animationParts then config.animationParts = {item = config.inventoryIcon} end
-  if not config.scripts then config.scripts = { "monster_spawn.lua" } end
+  if not config.scripts then config.scripts = { 'monster_spawn.lua' } end
   if not config.ammoUsage then config.ammoUsage = 1 end
   -- 3. Merge with monster base parameters
   config = sb.jsonMerge(config, pet_params)
@@ -58,8 +59,8 @@ function build(directory, config, parameters, level, seed)
   local params = sb.jsonMerge(config.baseParameters or {}, parameters.baseParameters or {})
   local settings = params.statusSettings or {}
   local stats = settings.stats or {}
-  stats.maxHealth.baseValue = stats.maxHealth.baseValue * root.evalFunction("monsterLevelHealthMultiplier", (parameters.level or config.level or 1))
-  if stats then
+  if stats and stats.maxHealth then
+    stats.maxHealth.baseValue = stats.maxHealth.baseValue * root.evalFunction("monsterLevelHealthMultiplier", (parameters.level or config.level or 1))
     config.tooltipFields.healthTitleLabel = tips.HP
     config.tooltipFields.healthLabel = util.round(stats.maxHealth.baseValue, 0)
     config.tooltipFields.armorTitleLabel = tips.AP
@@ -67,8 +68,7 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.healthRegenTitleLabel = tips.HPR
     config.tooltipFields.healthRegenLabel = util.round(stats.healthRegen.baseValue, 2)
 
-    function getBlock(value)
-      if value > 0 then return "block" else return "" end end
+    function getBlock(value) if value > 0 then return "block" else return "" end end
     config.tooltipFields.resTitleLabel = tips.resist.title
     config.tooltipFields.physicalResTitleLabel = tips.resist.physical
     config.tooltipFields.physicalResLabel = util.round(stats.physicalResistance.baseValue * 100, 0)
@@ -85,6 +85,8 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.poisonResTitleLabel = tips.resist.poison
     config.tooltipFields.poisonResLabel = util.round(stats.poisonResistance.baseValue * 100, 0)
     config.tooltipFields.poisonResImage = "/interface/statuses/poison" .. getBlock(stats.poisonStatusImmunity.baseValue) .. ".png"
+  else
+    config.tooltipFields.armorTitleLabel = ''  -- removing forced default value
   end
 
   return config, parameters

@@ -12,7 +12,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "orbide" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ], [ 1, "ct_caves_poptop_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ], [ 1, "ct_nightmare_orbide_spawn" ] ] },
       { "select" : 2, "pool" : [[1,"swarmcritter"],[1,"swarmflyingcritter"],[1,"rolypolycritter"],[1,"maggotcritter"]] }
     ]
   },

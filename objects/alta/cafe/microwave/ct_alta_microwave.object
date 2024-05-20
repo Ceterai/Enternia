@@ -1,0 +1,52 @@
+{
+  "objectName" : "ct_alta_microwave",
+  "colonyTags" : [ "cooking" ],
+  "category" : "crafting",
+  "level" : 3, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Microwave Oven",
+  "description" : "A compact microwave. For when you're hungry enough to nuke your food.",
+  "longdescription" : "Aside from general convenience, these certified models come with cleaning kits and heat-resistant tableware.",
+  "altaDescription" : "Alta microwaves are usually smaller in size than most other models, since we need smaller food protions.",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "  Microwave Oven",
+        "subtitle" : "  Cooking convenience"
+      }
+    }
+  },
+
+  "apexDescription" : "A type of oven.",
+  "avianDescription" : "A bizarre cooking device.",
+  "floranDescription" : "Floran likess raw meat, sssometimes cooked meat is good too.",
+  "glitchDescription" : "Irked. It is encrusted with spattered food, who left it in this state?",
+  "humanDescription" : "A microwave. Gotta get me some jacket potatoes.",
+  "hylotlDescription" : "A strange, spinning oven.",
+  "novakidDescription" : "This lil' rotatin' oven cooks food at speed!",
+
+  "lightColor" : [16, 23, 26],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png:<color>.<frame>", "fullbright" : true }, { "image" : "lit.png:<color>.<frame>" } ],
+      "direction" : "left",
+      "frames" : 4, "animationCycle" : 1,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png:<color>.<frame>", "fullbright" : true }, { "image" : "lit.png:<color>.<frame>" } ],
+      "direction" : "right", "flipImages" : true,
+      "frames" : 4, "animationCycle" : 1,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

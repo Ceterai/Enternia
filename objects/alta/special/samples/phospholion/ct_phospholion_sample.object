@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_phospholion_sample",
+  "colonyTags" : [ "phospholion", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 5200,
+  "race" : "alta",
+
+  "shortdescription" : "Phospholion Sample ^#2080f0;^reset;",
+  "description" : "A perfect sample of ^#ceffd7;phospholion^reset; metal, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "Though phospholion is highly exposed to radioactivity, this sample seems to show nosigns of danger. Interesting how certain things can mutate and change under particle beams.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}
