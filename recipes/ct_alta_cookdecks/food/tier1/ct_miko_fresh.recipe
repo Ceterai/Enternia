@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_verriskoywa_miko", "count" : 4 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_bio_fresh", "count" : 1, "parameters" : { "preset" : "miko" } },
   "duration" : 0.25,

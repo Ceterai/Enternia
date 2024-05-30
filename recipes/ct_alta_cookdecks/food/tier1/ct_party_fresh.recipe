@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "neonmelon", "count" : 1 },
+    { "item" : "oculemon", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_ionic_fresh", "count" : 1, "parameters" : { "preset" : "party" } },
   "duration" : 0.25,

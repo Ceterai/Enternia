@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "boiled_lookers" } },
   "duration" : 0.25,

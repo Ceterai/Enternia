@@ -1,0 +1,254 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR ALTA PODS
+  // ==============================================================================================
+  // These are drop tables of alta pods found in `pods.treasurechests` and loot crates at `/items/active/unsorted/alta/loot/`
+
+{
+  "ct_alta_pod_loot" : [ [0, {
+        "poolRounds" : [ [0.1, 1], [0.4, 2], [0.4, 3], [0.1, 4] ],
+        "pool" : [  //          total: 1.00
+          // Medicine,          total: 0.28
+          {"weight" : 0.04, "item" : "bluestim"},
+          {"weight" : 0.02, "item" : "nanowrap"},
+          {"weight" : 0.12, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
+          {"weight" : 0.06, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
+          {"weight" : 0.04, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
+          // Shop Food,         total: 0.54
+          {"weight" : 0.12, "item" : "ct_tsay_cola"},
+          {"weight" : 0.12, "item" : "ct_aya_soda"},
+          {"weight" : 0.12, "item" : "ct_gheanade"},
+          {"weight" : 0.10, "item" : "ct_vmax"},
+          {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.10, "pool" : "ct_alta_other_loot"},
+          {"weight" : 0.04, "pool" : "ct_alta_codexes"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.015, "item" : "ct_alta_toy_pet_ball"},
+          {"weight" : 0.015, "item" : "ct_alta_testing_ball"},
+          {"weight" : 0.005, "item" : "spaceorgan"},
+          {"weight" : 0.005, "item" : "squarewave"}
+        ]
+  } ] ],
+  "ct_alta_pod_loot_tier1" : [ [0, {
+      "fill" : [ {"pool" : "ct_alta_pod_loot"} ],
+      "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
+      "pool" : [  //          total: 1.00
+        // Resources,         total: 0.40
+        {"weight" : 0.20, "item" : ["throwingblock", 2]},
+        {"weight" : 0.10, "item" : "titaniumbar"},
+        {"weight" : 0.05, "item" : "ct_datamass"},
+        {"weight" : 0.05, "item" : "ct_alta_scout_drone"},
+        // Decorations,       total: 0.36
+        {"weight" : 0.03, "item" : "ct_alta_bed"},
+        {"weight" : 0.04, "item" : "ct_alta_cabinet"},
+        {"weight" : 0.06, "item" : "ct_alta_chair"},
+        {"weight" : 0.04, "item" : "ct_alta_table"},
+        {"weight" : 0.06, "item" : "ct_alta_lamp"},
+        {"weight" : 0.04, "item" : "ct_alta_light"},
+        {"weight" : 0.04, "item" : "ct_alta_shelf"},
+        {"weight" : 0.03, "item" : "ct_alta_monitor"},
+        {"weight" : 0.02, "item" : "ct_alta_sapling"},
+        // Cosmetics,         total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_backpack"},
+        {"weight" : 0.005, "item" : "ct_alta_respiratory_mask"},
+        {"weight" : 0.005, "item" : "ct_alta_respiratory_mask_colorful"},
+        {"weight" : 0.01, "item" : "ct_alta_vr_headset"},
+        {"weight" : 0.01, "item" : "ct_alta_visor"},
+        // Treasure,          total: 0.04
+        {"weight" : 0.010, "item" : "ct_protospear"},
+        {"weight" : 0.010, "item" : "ct_protohelmet"},
+        {"weight" : 0.020, "item" : "ct_alta_metrocop_set"},
+        // Miscelanious,      total: 0.14
+        {"weight" : 0.06, "item" : "ct_alta_security-codex"},
+        {"weight" : 0.02, "item" : "ct_aya_soda"},
+        {"weight" : 0.02, "item" : "ct_alta_food-codex"},
+        {"weight" : 0.02, "item" : "ct_logs_alta_job-codex"},
+        {"weight" : 0.02, "item" : "ct_alta_lore_4-codex"},
+        // Self-loot,         total: 0.02
+        {"weight" : 0.02, "item" : "ct_alta_loot_tier1"}
+      ]
+  } ] ],
+  "ct_alta_pod_loot_tier2" : [ [0, {
+      "fill" : [ {"pool" : "ct_alta_pod_loot"} ],
+      "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
+      "pool" : [  //          total: 1.00
+        // Resources,         total: 0.40
+        {"weight" : 0.10, "item" : "titaniumbar"},
+        {"weight" : 0.10, "item" : "crystal"},
+        {"weight" : 0.10, "item" : "ct_alta_energy_cell"},
+        {"weight" : 0.05, "item" : "ct_alta_security_drone"},
+        {"weight" : 0.05, "item" : "ct_electric_stim"},
+        // Decorations,       total: 0.36
+        {"weight" : 0.04, "item" : "ct_alta_bench"},
+        {"weight" : 0.04, "item" : "ct_alta_crystal_bed"},
+        {"weight" : 0.04, "item" : "ct_alta_flower_bed"},
+        {"weight" : 0.04, "item" : "ct_alta_lamppost"},
+        {"weight" : 0.06, "item" : "ct_alta_plant"},
+        {"weight" : 0.04, "item" : "ct_alta_stand_agitate"},
+        {"weight" : 0.04, "item" : "ct_alta_stand_promo"},
+        {"weight" : 0.02, "item" : "ct_alta_gateway"},
+        {"weight" : 0.04, "item" : "ct_alta_sapling"},
+        // Cosmetics,         total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_science_ocular"},
+        {"weight" : 0.01, "item" : "ct_alta_science_pack"},
+        {"weight" : 0.01, "item" : "ct_alta_state_beret"},
+        {"weight" : 0.01, "item" : "ct_alta_protective_collar"},
+        // Treasure,          total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_security_captain_helmet"},
+        {"weight" : 0.01, "item" : "ct_alta_security_helmet_mk2"},
+        {"weight" : 0.01, "item" : "ct_alta_impulse_rifle_mk2"},
+        {"weight" : 0.01, "item" : [ "ct_eds_shield", 1, { "preset" : "security" } ] },
+        // Miscelanious,      total: 0.14
+        {"weight" : 0.05, "item" : "ct_alta_security-codex"},
+        {"weight" : 0.01, "item" : "ct_arco-codex"},
+        {"weight" : 0.01, "item" : "ct_combat-codex"},
+        {"weight" : 0.01, "item" : "ct_eds-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_food-codex"},
+        {"weight" : 0.015, "item" : "ct_antorash-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_lore_3-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_city-codex"},
+        // Self-loot,         total: 0.02
+        {"weight" : 0.02, "item" : "ct_alta_loot_tier2"}
+      ]
+  } ] ],
+  "ct_alta_pod_loot_tier3" : [ [0, {
+      "fill" : [ {"pool" : "ct_alta_pod_loot"} ],
+      "poolRounds" : [ [0.1, 3], [0.3, 4], [0.4, 5], [0.2, 6] ],
+      "pool" : [  //          total: 1.00
+        // Resources,         total: 0.455
+        {"weight" : 0.15, "item" : "ct_eds_armor"},
+        {"weight" : 0.15, "item" : "ct_phosicore"},
+        {"weight" : 0.15, "item" : "ct_bion"},
+        {"weight" : 0.05, "item" : "ct_alta_watcher_drone"},
+        {"weight" : 0.05, "item" : "ct_alta_spider_droid"},
+        {"weight" : 0.05, "item" : "ct_impulse_stim"},
+        {"weight" : 0.05, "item" : "ct_ionic_stim"},
+        {"weight" : 0.05, "item" : "ct_plasma_stim"},
+        {"weight" : 0.05, "item" : "ct_impulse_nade"},
+        {"weight" : 0.05, "item" : "ct_ionic_nade"},
+        {"weight" : 0.05, "item" : "ct_plasma_nade"},
+        {"weight" : 0.10, "item" : "ct_hevikai_antidote"},
+        // Decorations,       total: 0.28
+        {"weight" : 0.03, "item" : "ct_alta_lab_bed"},
+        {"weight" : 0.04, "item" : "ct_alta_lab_chair"},
+        {"weight" : 0.03, "item" : "ct_alta_lab_table"},
+        {"weight" : 0.03, "item" : "ct_alta_lab_tanks"},
+        {"weight" : 0.04, "item" : ["ct_capsule", 4]},
+        {"weight" : 0.03, "item" : ["ct_capsule_red", 2]},
+        {"weight" : 0.03, "item" : ["ct_capsule_blue", 2]},
+        {"weight" : 0.03, "item" : ["ct_capsule_purple", 2]},
+        {"weight" : 0.02, "item" : "ct_alta_lab_sapling"},
+        // Cosmetics,         total: 0.04
+        {"weight" : 0.010, "item" : "ct_alta_hologlasses"},
+        {"weight" : 0.005, "item" : "ct_alta_researcher_coat"},
+        {"weight" : 0.005, "item" : "ct_alta_researcher_skirt"},
+        {"weight" : 0.005, "item" : "ct_alta_industrial_collar"},
+        {"weight" : 0.005, "item" : "ct_alta_oxygen_mask"},
+        // Treasure,          total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_industrial_helmet"},
+        {"weight" : 0.01, "item" : "ct_arco_protector"},
+        {"weight" : 0.005, "item" : "ct_companion_helmet"},
+        {"weight" : 0.005, "item" : "ct_faradeus"},
+        {"weight" : 0.005, "item" : "ct_kinetic_shield"},
+        {"weight" : 0.005, "item" : "ct_plasma_chakram"},
+        // Miscelanious,      total: 0.165
+        {"weight" : 0.03, "item" : "ct_arco-codex"},
+        {"weight" : 0.03, "item" : "ct_combat-codex"},
+        {"weight" : 0.03, "item" : "ct_eds-codex"},
+        {"weight" : 0.005, "item" : "ct_elite-codex"},
+        {"weight" : 0.005, "item" : "ct_ceterai-codex"},
+        {"weight" : 0.005, "item" : "ct_dreamer-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_food_2-codex"},
+        {"weight" : 0.015, "item" : "ct_esetera-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_lore_2-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_lab-codex"},
+        // Self-loot,         total: 0.02
+        {"weight" : 0.02, "item" : "ct_alta_loot_tier3"}
+      ]
+  } ] ],
+  "ct_alta_pod_loot_tier4" : [ [0, {
+      "fill" : [ {"pool" : "ct_alta_pod_loot"} ],
+      "poolRounds" : [ [0.1, 3], [0.2, 4], [0.4, 5], [0.3, 6] ],
+      "pool" : [  //          total: 1.00
+        // Resources,         total: 0.45
+        {"weight" : 0.09, "item" : "ct_ceternia_core"},
+        {"weight" : 0.09, "item" : "ct_alternia_shard"},
+        {"weight" : 0.09, "item" : "ct_enterite"},
+        {"weight" : 0.05, "item" : "ct_elite_drone"},
+        {"weight" : 0.05, "item" : "ct_elite_droid"},
+        {"weight" : 0.01, "item" : "ct_impulse_stim"},
+        {"weight" : 0.01, "item" : "ct_ionic_stim"},
+        {"weight" : 0.01, "item" : "ct_plasma_stim"},
+        {"weight" : 0.01, "item" : "ct_impulse_nade"},
+        {"weight" : 0.01, "item" : "ct_ionic_nade"},
+        {"weight" : 0.01, "item" : "ct_plasma_nade"},
+        {"weight" : 0.02, "item" : "ct_hevikai_stim"},
+        // Decorations,       total: 0.28
+        {"weight" : 0.03, "item" : "ct_alta_ship_bed"},
+        {"weight" : 0.04, "item" : "ct_alta_ship_chair"},
+        {"weight" : 0.04, "item" : "ct_alta_ship_light"},
+        {"weight" : 0.03, "item" : "ct_alta_ship_container"},
+        {"weight" : 0.02, "item" : "ct_alta_ship_container_medium"},
+        {"weight" : 0.04, "item" : ["ct_alta_ship_shelf", 2]},
+        {"weight" : 0.03, "item" : ["ct_alta_ship_shelf", 4]},
+        {"weight" : 0.03, "item" : "ct_alta_ship_table"},
+        {"weight" : 0.02, "item" : "ct_alta_ship_sapling"},
+        // Cosmetics,         total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_halogen_pack"},
+        {"weight" : 0.01, "item" : "ct_alta_energy_mask"},
+        {"weight" : 0.01, "item" : "ct_alta_pilot_helmet"},
+        {"weight" : 0.01, "item" : "ct_alta_energy_mask"},  // ct_specops_visor
+        // Treasure,          total: 0.04
+        {"weight" : 0.02, "item" : "ct_spacedrifter_shield"},
+        {"weight" : 0.02, "item" : "ct_plasmora"},
+        // Miscelanious,      total: 0.17
+        {"weight" : 0.03, "item" : "ct_elite-codex"},
+        {"weight" : 0.03, "item" : "ct_ceterai-codex"},
+        {"weight" : 0.03, "item" : "ct_dreamer-codex"},
+        {"weight" : 0.02, "item" : "ct_gsr_pod"},
+        {"weight" : 0.015, "item" : "ct_alta_crystals-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_food_2-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_lore_1-codex"},
+        {"weight" : 0.015, "item" : "ct_alta_ship-codex"},
+        // Self-loot,         total: 0.02
+        {"weight" : 0.02, "item" : "ct_alta_loot_tier4"}
+      ]
+  } ] ],
+  "ct_alta_pod_loot_tier5" : [ [0, {
+      "fill" : [ {"pool" : "ct_alta_pod_loot"} ],
+      "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ],
+      "pool" : [  //          total: 1.00
+        // Resources,         total: 0.40
+        {"weight" : 0.05, "item" : "ct_cetersphere"},
+        {"weight" : 0.05, "item" : "ct_altersphere"},
+        {"weight" : 0.05, "item" : "ct_entersphere"},
+        {"weight" : 0.05, "item" : "ct_alta_defensive_drone"},
+        {"weight" : 0.05, "item" : "ct_alta_stalker_droid"},
+        {"weight" : 0.05, "item" : "ct_hevikai_antidote"},
+        {"weight" : 0.10, "item" : "ct_hevikai_stim"},
+        // Decorations,       total: 0.36
+        {"weight" : 0.04, "item" : "ct_alta_ship_bed"},
+        {"weight" : 0.06, "item" : "ct_alta_ship_chair"},
+        {"weight" : 0.04, "item" : "ct_alta_ship_light"},
+        {"weight" : 0.04, "item" : "ct_alta_ship_container"},
+        {"weight" : 0.04, "item" : "ct_alta_ship_container_medium"},
+        {"weight" : 0.04, "item" : ["ct_alta_ship_shelf", 2]},
+        {"weight" : 0.06, "item" : ["ct_alta_ship_shelf", 4]},
+        {"weight" : 0.04, "item" : "ct_alta_ship_table"},
+        // Cosmetics,         total: 0.04
+        {"weight" : 0.01, "item" : "ct_alta_halogen_pack"},
+        {"weight" : 0.01, "item" : "ct_alta_energy_mask"},
+        {"weight" : 0.01, "item" : "ct_alta_pilot_helmet"},
+        {"weight" : 0.01, "item" : "ct_alta_energy_mask"},  // ct_specops_visor
+        // Treasure,          total: 0.04
+        {"weight" : 0.02, "item" : "ct_eds_one"},
+        {"weight" : 0.02, "item" : "ct_faradea_scavenger"},
+        // Miscelanious,      total: 0.14
+        {"weight" : 0.10, "item" : "ct_gsr_pod"},
+        {"weight" : 0.02, "item" : "ct_alta_capital-codex"},
+        {"weight" : 0.02, "item" : "ct_alta_citadel-codex"},
+        // Self-loot,         total: 0.02
+        {"weight" : 0.02, "item" : "ct_alta_loot_tier5"}
+      ]
+  } ] ]
+}

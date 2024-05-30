@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_alta_cake_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 4, "rarity" : "Uncommon", "price" : 5000,
+
+  "shortdescription" : "Alta Cake Figurine ^#20f080;^reset;",
+  "description" : "The label reads, \"A figurine of a... cake?\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "Hey, it's the cake figurine! My favorite!",
+
+  "inventoryIcon" : "ct_alta_cake_af.png",
+  "orientations" : [
+    { "dualImage" : "ct_alta_cake_af.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

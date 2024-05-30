@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "beakseed", "count" : 1 },
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_biomix_icecream", "count" : 1, "parameters" : { "preset" : "red" } },
   "duration" : 0.25,

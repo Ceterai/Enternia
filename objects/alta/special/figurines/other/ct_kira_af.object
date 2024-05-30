@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_kira_af",
+  "colonyTags" : [ "pretty", "valuable" ],
+  "category" : "actionFigure",
+  "level" : 4, "rarity" : "Uncommon", "price" : 4800,
+
+  "shortdescription" : "Kira Figurine",
+  "description" : "The label reads, \"A figurine of a popular alta cartoon character.\"",
+  "longdescription" : "Figurines like this one are quite popular among ^#b0e0fc;alta collectioners^reset;. The most detailed figurines are often created in bio research labs as downscaled references to actual creatures.",
+  "altaDescription" : "Oh Io, is this a Kira figurine? That's awesome! I wonder if it can bend, just like Kira in her original form!",
+
+  "inventoryIcon" : "ct_kira_af.png",
+  "orientations" : [
+    { "dualImage" : "ct_kira_af.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

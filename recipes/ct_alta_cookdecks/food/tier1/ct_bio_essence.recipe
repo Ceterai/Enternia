@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "biosample", "count" : 4 },
+    { "item" : "larva", "count" : 4 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_bio_fresh", "count" : 1, "parameters" : { "preset" : "essence" } },
   "duration" : 0.25,

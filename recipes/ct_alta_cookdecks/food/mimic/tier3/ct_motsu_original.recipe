@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_tsay", "count" : 1 },
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "ct_verriskoywa_faro", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "motsu_original" } },
   "duration" : 0.25,

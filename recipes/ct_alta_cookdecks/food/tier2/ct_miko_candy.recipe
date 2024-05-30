@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_verriskoywa_miko", "count" : 1 },
+    { "item" : "toxictopjam", "count" : 1 }
   ],
   "output" : { "item" : "ct_aya_candy", "count" : 1, "parameters" : { "preset" : "miko" } },
   "duration" : 0.25,

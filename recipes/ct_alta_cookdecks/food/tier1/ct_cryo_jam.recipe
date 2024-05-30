@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_isoslime_ball", "count" : 2 },
+    { "item" : "cryonicextract", "count" : 1 }
   ],
   "output" : { "item" : "ct_iso_jam", "count" : 1, "parameters" : { "preset" : "cryo" } },
   "duration" : 0.25,

@@ -40,7 +40,8 @@
       "sitPosition" : [-4, 14.3],
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-      "direction" : "left"
+      "direction" : "left",
+      "collision" : "platform"
     },
     {
       "imageLayers" : [ { "image" : "body.png:<color>.default", "fullbright" : true }, { "image" : "body.png:<color>.lit" } ],
@@ -49,7 +50,8 @@
       "sitPosition" : [-12, 14.3],
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-      "direction" : "right"
+      "direction" : "right",
+      "collision" : "platform"
     }
   ],
 

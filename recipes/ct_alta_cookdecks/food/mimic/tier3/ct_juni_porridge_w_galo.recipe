@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "crystalplant", "count" : 4 },
+    { "item" : "ct_gheatsyn_shard", "count" : 4 },
+    { "item" : "ct_gharus_spice", "count" : 2 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "juni_porridge_w_galo" } },
   "duration" : 0.25,

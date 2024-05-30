@@ -119,12 +119,12 @@
           "body" : {
             "idle" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
-            "fly" : {
+            "walk" : {
               "properties" : {
-                "image" : "<partImage>:fly.<frame>"
+                "image" : "<partImage>:walk.<frame>"
               }
             },
             "firewindup" : {
@@ -132,14 +132,14 @@
                 "image" : "<partImage>:windup.<frame>"
               }
             },
-            "winduploop" : {
-              "properties" : {
-                "image" : "<partImage>:winduploop.<frame>"
-              }
-            },
             "fire" : {
               "properties" : {
                 "image" : "<partImage>:fire.<frame>"
+              }
+            },
+            "firewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:winddown.<frame>"
               }
             }
           },

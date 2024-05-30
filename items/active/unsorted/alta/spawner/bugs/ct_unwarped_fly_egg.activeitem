@@ -4,6 +4,7 @@
   "description" : "Can be used to spawn a bug called ^#b0e0fc;unwarped fly^reset;, a much friendlier version of a ^#b0e0fc;warped fly^reset;.",
   "longdescription" : "These \"eggs\" are really just highly incubated versions of creatures, used by altas during research, often for simulation purposes, which is why they tend to be friendly to their owner.",
   "altaDescription" : "This one looks very friendly! Can't wait to let it out into the world!",
+  "inventoryIcon" : "ct_unwarped_fly_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
   "rarity" : "Uncommon", "price" : 200, "level" : 4,

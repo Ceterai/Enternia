@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 2 },
+    { "item" : "ct_verriskoywa_alto", "count" : 2 }
   ],
   "output" : { "item" : "ct_lifespring", "count" : 1, "parameters" : { "preset" : "lifesapling" } },
   "duration" : 0.25,

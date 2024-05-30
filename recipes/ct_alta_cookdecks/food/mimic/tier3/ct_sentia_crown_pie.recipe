@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_gillikada", "count" : 2 },
+    { "item" : "ct_ionic_sap", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 2 },
+    { "item" : "ct_verriskoywa_miko", "count" : 2 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "sentia_crown_pie" } },
   "duration" : 0.25,

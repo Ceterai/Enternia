@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_aya", "count" : 1 },
+    { "item" : "ct_verriskoywa_miko", "count" : 4 }
   ],
   "output" : { "item" : "ct_tonnakada", "count" : 1, "parameters" : { "preset" : "virma" } },
   "duration" : 0.25,

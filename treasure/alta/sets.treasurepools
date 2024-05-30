@@ -1,0 +1,118 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR ALTA ARMOR SETS
+  // ==============================================================================================
+  // These are the contents of armor sets found at `/items/active/unsorted/alta/loot/sets/`
+
+{
+  "ct_alta_scout_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_scout_mask"},
+          {"item" : "ct_alta_scout_lightwear"},
+          {"item" : "ct_alta_scout_velocity_eaters"},
+          {"item" : "ct_docs_units_scout-codex"}
+  ] } ] ],
+  "ct_alta_metrocop_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_visor"},
+          {"item" : "ct_alta_scout_lightwear"},
+          {"item" : "ct_alta_scout_velocity_eaters"}
+  ] } ] ],
+
+
+
+  "ct_alta_security_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_security_helmet"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"},
+          {"item" : "ct_docs_units_security-codex"}
+  ] } ] ],
+  "ct_alta_security_mk2_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_security_helmet_mk2"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"}
+  ] } ] ],
+  "ct_alta_security_captain_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_security_captain_helmet"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_pack"}
+  ] } ] ],
+  "ct_alta_security_droid_set" : [ [1, { "fill" : [
+          {"item" : "ct_alta_security_droid_head"},
+          {"item" : "ct_alta_security_chest"},
+          {"item" : "ct_alta_security_legwear"},
+          {"item" : "ct_alta_security_droid_back"}
+  ] } ] ],
+
+
+
+  "ct_arco_set" : [ [1, { "fill" : [
+          {"item" : "ct_arco_helmet"},
+          {"item" : "ct_arco_chest"},
+          {"item" : "ct_arco_legwear"},
+          {"item" : "ct_docs_units_enviro-codex"}
+  ] } ] ],
+  "ct_arco_mk2_set" : [ [1, { "fill" : [
+          {"item" : "ct_arco_helmet_mk2"},
+          {"item" : "ct_arco_chest"},
+          {"item" : "ct_arco_legwear"},
+          {"item" : "ct_arco_protector"}
+  ] } ] ],
+  "ct_combat_set" : [ [1, { "fill" : [
+          {"item" : "ct_combat_mask"},
+          {"item" : "ct_combat_chest"},
+          {"item" : "ct_combat_legwear"},
+          {"item" : "ct_docs_units_combat-codex"}
+  ] } ] ],
+  "ct_eds_officer_set" : [ [1, { "fill" : [
+          {"item" : "ct_eds_beret"},
+          {"item" : "ct_eds_chest"},
+          {"item" : "ct_eds_legwear"}
+  ] } ] ],
+  "ct_eds_op_set" : [ [1, { "fill" : [
+          {"item" : "ct_eds_visor"},
+          {"item" : "ct_eds_chest"},
+          {"item" : "ct_eds_legwear"}
+  ] } ] ],
+  "ct_eds_set" : [ [1, { "fill" : [
+          {"item" : "ct_eds_helmet"},
+          {"item" : "ct_eds_chest"},
+          {"item" : "ct_eds_legwear"},
+          {"item" : "ct_docs_units_eds-codex"}
+  ] } ] ],
+  "ct_eds_android_set" : [ [1, { "fill" : [
+          {"item" : "ct_eds_android_head"},
+          {"item" : "ct_eds_chest"},
+          {"item" : "ct_eds_legwear"},
+          {"item" : "ct_eds_android_back"}
+  ] } ] ],
+
+
+
+  "ct_elite_set" : [ [1, { "fill" : [
+          {"item" : "ct_elite_helmet"},
+          {"item" : "ct_elite_chest"},
+          {"item" : "ct_elite_legwear"},
+          {"item" : "ct_elite_protector"},
+          {"item" : "ct_docs_units_ceternia-codex"}
+  ] } ] ],
+  "ct_ceterai_set" : [ [1, { "fill" : [
+          {"item" : "ct_ceterai_helmet"},
+          {"item" : "ct_ceterai_chest"},
+          {"item" : "ct_ceterai_legwear"},
+          {"item" : "ct_docs_units_alternia-codex"}
+  ] } ] ],
+  "ct_dreamer_set" : [ [1, { "fill" : [
+          {"item" : "ct_dreamer_helmet"},
+          {"item" : "ct_dreamer_chest"},
+          {"item" : "ct_dreamer_legwear"},
+          {"item" : "ct_dreamer_enhancer"},
+          {"item" : "ct_docs_units_enternia-codex"}
+  ] } ] ],
+  "ct_ghearun_set" : [ [1, { "fill" : [
+          {"item" : "ct_ghearun_helmet"},
+          {"item" : "ct_ghearun_chest"},
+          {"item" : "ct_ghearun_legwear"},
+          {"item" : "ct_ghearun_back"}
+  ] } ] ]
+}

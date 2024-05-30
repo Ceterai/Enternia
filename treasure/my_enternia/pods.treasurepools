@@ -1,0 +1,804 @@
+{
+
+
+        // --- --- --- | --- --- --- | ALTERASH | --- --- --- | --- --- --- //
+
+
+  "ct_ayaka_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.05, "item" : "ct_aya"},
+          {"weight" : 0.10, "item" : ["ct_aya_powder", 2]},
+          {"weight" : 0.05, "item" : ["ct_ayaka_wood", 2]},
+          {"weight" : 0.05, "item" : "ct_ionic_sap"},
+          {"weight" : 0.05, "item" : ["ct_ionic_sap", 2]},
+          {"weight" : 0.10, "item" : ["ct_glowstick_omniblue", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.01, "item" : "ct_aya_fallen"},
+          {"weight" : 0.01, "item" : "ct_aya_pile"},
+          {"weight" : 0.0075, "item" : "ct_ayaka_sap_blob1"},
+          {"weight" : 0.005, "item" : "ct_ayaka_sap_blob2"},
+          {"weight" : 0.005, "item" : "ct_ayaka_tree"},
+          {"weight" : 0.0025, "item" : "ct_ayaka_garden_tree"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "wavebed"},
+          {"weight" : 0.06, "item" : "wavechair"},
+          {"weight" : 0.05, "item" : "waveswitch"},
+          {"weight" : 0.05, "item" : "wavedoor"},
+          {"weight" : 0.06, "item" : "wavelight"},
+          {"weight" : 0.05, "item" : "wavetable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "badgooplush"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_aya_virma"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.03, "item" : "ct_aya_baked"},
+          {"weight" : 0.03, "item" : "ct_aya_boiled"},
+          {"weight" : 0.04, "item" : "ct_aya_fresh"},
+          {"weight" : 0.02, "item" : "ct_ayaka-codex"},
+          {"weight" : 0.02, "item" : "ct_virma-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_ayaka_loot"}
+  ] }] ],
+  "ct_gyera_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.20, "item" : "titaniumbar"},
+          {"weight" : 0.20, "item" : ["ct_glowstick_ceterteal", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.02, "item" : "fireflowerpot"},
+          {"weight" : 0.02, "item" : "flowerlamp"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "tier3bed"},
+          {"weight" : 0.06, "item" : "tier3chair"},
+          {"weight" : 0.05, "item" : "tier3switch"},
+          {"weight" : 0.05, "item" : "tier3door"},
+          {"weight" : 0.06, "item" : "tier3light"},
+          {"weight" : 0.05, "item" : "tier3table"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "poptopplush"},
+          {"weight" : 0.02, "item" : "bearplush"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.01, "item" : ["ct_gharus_spice", 2]},
+          {"weight" : 0.01, "item" : "ct_gillikada"},
+          {"weight" : 0.02, "item" : "ct_alta_toy_runeva_ball"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.02, "item" : "largecooler1"},
+          {"weight" : 0.05, "item" : "ct_gil"},
+          {"weight" : 0.01, "item" : "ct_gil_seed"},
+          {"weight" : 0.02, "item" : "outdoorbench"},
+          {"weight" : 0.04, "item" : "ct_gyera-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_gyera_loot"}
+  ] }] ],
+  "ct_koywa_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.05, "item" : ["ct_verriskoywa_grass4", 2]},
+          {"weight" : 0.15, "item" : ["ct_ionice_cube", 2]},
+          {"weight" : 0.20, "item" : ["waterballoon", 4]},
+          // Nature,            total: 0.04
+          {"weight" : 0.007, "item" : "ct_verriskoywa_alto"},
+          {"weight" : 0.006, "item" : "ct_verriskoywa_alto_twin"},
+          {"weight" : 0.007, "item" : "ct_verriskoywa_faro"},
+          {"weight" : 0.0065, "item" : "ct_verriskoywa_faro_twin"},
+          {"weight" : 0.007, "item" : "ct_verriskoywa_miko"},
+          {"weight" : 0.0065, "item" : "ct_verriskoywa_miko_twin"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.04, "item" : "ct_verriskoywa_grass4"},
+          {"weight" : 0.04, "item" : "ct_verriskoywa_alto"},
+          {"weight" : 0.04, "item" : "ct_verriskoywa_faro"},
+          {"weight" : 0.04, "item" : "ct_verriskoywa_miko"},
+          {"weight" : 0.04, "item" : "largecooler1"},
+          {"weight" : 0.04, "item" : "oasisbed"},
+          {"weight" : 0.04, "item" : "deckchair"},
+          {"weight" : 0.02, "item" : "reedlamp"},
+          {"weight" : 0.01, "item" : "turtleplush"},
+          {"weight" : 0.01, "item" : "numiplush"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.004, "item" : "sensorysquidhathead"},
+          {"weight" : 0.01, "item" : "snorkelhead"},
+          {"weight" : 0.01, "item" : "oxygentank"},
+          {"weight" : 0.01, "item" : "divingmaskhead"},
+          {"weight" : 0.016, "item" : [ "ct_head_mimic", 1, { "preset" : "koywa_skirt" } ] },
+          // Treasure,          total: 0.04
+          {"weight" : 0.015, "item" : "ct_waterblaster"},
+          {"weight" : 0.015, "item" : "ct_barracuda_fin"},
+          {"weight" : 0.01, "item" : [ "ct_tool_mimic", 1, { "preset" : "ixodoomclaw" } ] },
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.02, "item" : "ct_alta_toy_runeva_ball"},
+          {"weight" : 0.02, "item" : "ct_alta_toy_ryushay_ball"},
+          {"weight" : 0.02, "item" : "ct_alta_toy_vizhus_worm"},
+          {"weight" : 0.01, "item" : "reedorgan"},
+          {"weight" : 0.03, "item" : "ct_koywa_tea"},
+          {"weight" : 0.01, "item" : "ct_koywa-codex"},
+          {"weight" : 0.01, "item" : "ct_tiana-codex"},
+          {"weight" : 0.01, "item" : "ct_love-codex"},
+          {"weight" : 0.01, "item" : "ct_lenn-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_koywa_loot"}
+  ] }] ],
+  "ct_haven_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.10, "item" : ["cloudblock", 4]},
+          {"weight" : 0.15, "item" : ["grassseeds", 4]},
+          {"weight" : 0.15, "item" : ["flowerygrassseeds", 4]},
+          // Nature,            total: 0.04
+          {"weight" : 0.01, "item" : "giantflower1"},
+          {"weight" : 0.01, "item" : "giantflower2"},
+          {"weight" : 0.01, "item" : "giantflower3"},
+          {"weight" : 0.01, "item" : "giantflower4"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "executivebed"},
+          {"weight" : 0.06, "item" : "executivechair"},
+          {"weight" : 0.05, "item" : "executiveswitch"},
+          {"weight" : 0.05, "item" : "executivedoor"},
+          {"weight" : 0.06, "item" : "executivelight"},
+          {"weight" : 0.05, "item" : "executivetable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "toxicflowerback"},
+          {"weight" : 0.01, "item" : "pinkeyeparasitehead"},
+          {"weight" : 0.01, "item" : "corobocklehead"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_haven_storm"},
+          {"weight" : 0.02, "item" : "ct_flowersword"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.05, "item" : "fireflowerpot"},
+          {"weight" : 0.05, "item" : "flowerlamp"},
+          {"weight" : 0.04, "item" : "ct_haven-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_haven_loot"}
+  ] }] ],
+  "ct_enchanted_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.15, "item" : "prisiliteore"},
+          {"weight" : 0.15, "item" : "ct_ionic_sap"},
+          {"weight" : 0.10, "item" : ["ct_glowstick_ionic", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "alienglowplant1"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.06, "item" : "alienbed"},
+          {"weight" : 0.08, "item" : "alienchair"},
+          {"weight" : 0.05, "item" : "alienchest"},
+          {"weight" : 0.06, "item" : "aliendoor"},
+          {"weight" : 0.06, "item" : "alientable"},
+          {"weight" : 0.01, "item" : "ct_enchanted_chest"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "badgooplush"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_enchanted_blaster"},
+          {"weight" : 0.02, "item" : "ct_enchanted_twins"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : "alienfruit"},
+          {"weight" : 0.02, "item" : "alienfruitjam"},
+          {"weight" : 0.02, "item" : "ct_ionic_fresh"},
+          {"weight" : 0.01, "item" : "ct_enchanted-codex"},
+          {"weight" : 0.01, "item" : "ct_miazma-codex"},
+          {"weight" : 0.01, "item" : "ct_viona-codex"},
+          {"weight" : 0.01, "item" : "ct_vionia-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_enchanted_loot"}
+  ] }] ],
+
+  "ct_yaara_loot" : [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.12, "item" : ["crystal", 2]},
+          {"weight" : 0.12, "item" : ["ct_yaara_root", 2]},
+          {"weight" : 0.08, "item" : "crystal"},
+          {"weight" : 0.045, "item" : "ct_yaara_root"},
+          {"weight" : 0.03, "item" : "ct_yaara_eye"},
+          {"weight" : 0.005, "item" : "ct_ceternia_core"},
+          // Nature,            total: 0.04
+          {"weight" : 0.010, "item" : "ct_yaara_bulb"},
+          {"weight" : 0.006, "item" : "ct_yaara_thorns1"},
+          {"weight" : 0.006, "item" : "ct_yaara_thorns2"},
+          {"weight" : 0.006, "item" : "ct_yaara_thorns3"},
+          {"weight" : 0.004, "item" : "ct_yaara_thorns4"},
+          {"weight" : 0.004, "item" : "ct_yaara_node"},
+          {"weight" : 0.002, "item" : "ct_yaara_crystal_node"},
+          {"weight" : 0.002, "item" : "ct_yaara_eye_node"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.04, "item" : "ct_yaara_bed"},
+          {"weight" : 0.04, "item" : "ct_yaara_cabinet"},
+          {"weight" : 0.04, "item" : "ct_yaara_couch"},
+          {"weight" : 0.04, "item" : "ct_yaara_door"},
+          {"weight" : 0.04, "item" : "ct_yaara_orb"},
+          {"weight" : 0.04, "item" : "ct_yaara_table"},
+          {"weight" : 0.02, "item" : "ct_yaara_watcher"},
+          {"weight" : 0.03, "item" : "ct_yaara_lamp"},
+          {"weight" : 0.03, "item" : "ct_yaara_lamp_crystal"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.006, "item" : [ "ct_head_mimic", 1, { "preset" : "yaara_keeper_mask" } ] },
+          {"weight" : 0.004, "item" : [ "ct_head_mimic", 1, { "preset" : "yaara_shaman_mask" } ] },
+          {"weight" : 0.002, "item" : [ "ct_head_mimic", 1, { "preset" : "yaara_keeper_crown" } ] },
+          {"weight" : 0.010, "item" : [ "ct_body_mimic",1, { "preset" : "yaara_body_vine" } ] },
+          {"weight" : 0.006, "item" : [ "ct_head_mimic", 1, { "preset" : "yaara" } ] },
+          {"weight" : 0.006, "item" : [ "ct_body_mimic",1, { "preset" : "yaara" } ] },
+          {"weight" : 0.006, "item" : [ "ct_legs_mimic", 1, { "preset" : "yaara" } ] },
+          // Treasure,          total: 0.04
+          {"weight" : 0.005, "item" : [ "ct_head_mimic", 1, { "preset" : "yaara_keeper" } ] },
+          {"weight" : 0.005, "item" : [ "ct_body_mimic",1, { "preset" : "yaara_keeper" } ] },
+          {"weight" : 0.005, "item" : [ "ct_legs_mimic", 1, { "preset" : "yaara_keeper" } ] },
+          {"weight" : 0.015, "item" : "ct_yaara_collar"},
+          {"weight" : 0.01, "item" : "ct_yaara_wand"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : "ct_tsay"},
+          {"weight" : 0.01, "item" : "ct_tsay_seed"},
+          {"weight" : 0.015, "item" : "ct_lifespring"},
+          {"weight" : 0.015, "item" : "ct_yaarings"},
+          {"weight" : 0.04, "item" : "ct_yaara-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_yaara_loot"}
+  ] }] ],
+
+  "ct_warped_loot" : [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.05, "item" : "ct_warped_hive"},
+          {"weight" : 0.10, "item" : ["glowfibre", 3]},
+          {"weight" : 0.05, "item" : ["glowfibre", 4]},
+          {"weight" : 0.10, "item" : ["ct_warped_glowbomb", 3]},
+          {"weight" : 0.10, "item" : ["ct_warped_hive", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.01, "item" : "ct_warped_smoker"},
+          {"weight" : 0.01, "item" : "ct_nivera_geyser"},
+          {"weight" : 0.005, "item" : "ct_nivera_thorns1"},
+          {"weight" : 0.005, "item" : "ct_nivera_thorns2"},
+          {"weight" : 0.005, "item" : "ct_nivera_thorns3"},
+          {"weight" : 0.005, "item" : "ct_nivera_thorns4"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.04, "item" : "ct_warped_bed"},
+          {"weight" : 0.04, "item" : "ct_warped_chair"},
+          {"weight" : 0.04, "item" : "ct_warped_chest"},
+          {"weight" : 0.04, "item" : "ct_warped_door"},
+          {"weight" : 0.04, "item" : "ct_warped_drainer"},
+          {"weight" : 0.04, "item" : "ct_warped_lamp"},
+          {"weight" : 0.04, "item" : "ct_warped_light"},
+          {"weight" : 0.04, "item" : "ct_warped_table"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.015, "item" : "ct_warped_augment"},
+          {"weight" : 0.015, "item" : "ct_warped_collar"},
+          {"weight" : 0.01, "item" : [ "ct_back_mimic", 1, { "preset" : "warped_glowtail" } ] },
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_warped_gun"},
+          {"weight" : 0.02, "item" : "ct_niverisk"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : "ct_bio_fresh"},
+          {"weight" : 0.01, "item" : "ct_warped_hive_seed"},
+          {"weight" : 0.03, "item" : ["ct_warped_hive", 3]},
+          {"weight" : 0.01, "item" : "ct_nivera-codex"},
+          {"weight" : 0.01, "item" : "ct_sentia-codex"},
+          {"weight" : 0.01, "item" : "ct_warped-codex"},
+          {"weight" : 0.01, "item" : "ct_yonnur-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_warped_loot"}
+  ] }] ],
+  "ct_elin_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.10, "item" : "titaniumbar"},
+          {"weight" : 0.05, "item" : "crystal"},
+          {"weight" : 0.10, "item" : "ct_yaara_root"},
+          {"weight" : 0.05, "item" : "ct_elin_drone"},
+          // Nature,            total: 0.04
+          {"weight" : 0.03, "item" : "ct_yaara_thorns4"},
+          {"weight" : 0.01, "item" : "ct_ayaka_elin_tree"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "geometricbed"},
+          {"weight" : 0.07, "item" : "geometricchair"},
+          {"weight" : 0.04, "item" : "geometricswitch"},
+          {"weight" : 0.04, "item" : "geometricdoor"},
+          {"weight" : 0.07, "item" : "geometriclight"},
+          {"weight" : 0.05, "item" : "geometrictable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "mindwurmplush"},
+          {"weight" : 0.02, "item" : "plainorbplush"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_elin_helmet"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : "ct_elin_drone"},
+          {"weight" : 0.03, "item" : "ct_tsay"},
+          {"weight" : 0.01, "item" : "ct_tsay_seed"},
+          {"weight" : 0.04, "item" : "ct_elin-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_elin_loot"}
+  ] }] ],
+
+  "ct_eva_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.15, "item" : ["cloudblock", 4]},
+          {"weight" : 0.15, "item" : ["prisiliteore", 2]},
+          {"weight" : 0.05, "item" : ["ct_glowstick_ceterteal", 2]},
+          {"weight" : 0.05, "item" : ["ct_glowstick_omniblue", 2]},
+          // Nature,            total: 0.00
+          // Decorations,       total: 0.32
+          {"weight" : 0.06, "item" : "rainbowbed"},
+          {"weight" : 0.07, "item" : "rainbowchair"},
+          {"weight" : 0.05, "item" : "rainbowchest"},
+          {"weight" : 0.06, "item" : "rainbowdoor"},
+          {"weight" : 0.02, "item" : "rainbowunicornstatue"},
+          {"weight" : 0.06, "item" : "rainbowtable"},
+          // Cosmetics,         total: 0.08
+          {"weight" : 0.015, "item" : "prismlamp1"},
+          {"weight" : 0.015, "item" : "prismlamp2"},
+          {"weight" : 0.015, "item" : "prismlamp3"},
+          {"weight" : 0.005, "item" : "telescope"},
+          {"weight" : 0.015, "item" : "pastelbunnyplush"},
+          {"weight" : 0.015, "item" : "unicornplush"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_arknight_shield"},
+          {"weight" : 0.02, "item" : "ct_sky_lance"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.04, "item" : ["ct_glowstick_ceterteal", 4]},
+          {"weight" : 0.04, "item" : ["ct_glowstick_omniblue", 4]},
+          {"weight" : 0.02, "item" : "ct_eva_collar"},
+          {"weight" : 0.0134, "item" : "ct_arknight-codex"},
+          {"weight" : 0.0134, "item" : "ct_eva-codex"},
+          {"weight" : 0.0132, "item" : "ct_evarus-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_eva_loot"}
+  ] }] ],
+
+
+  // --- --- --- | --- --- --- | ALTERASH PRIME | --- --- --- | --- --- --- //
+
+
+  "ct_sona_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.10, "item" : ["snowflake", 4]},
+          {"weight" : 0.10, "item" : ["ice", 2]},
+          {"weight" : 0.10, "item" : ["snowball", 4]},
+          {"weight" : 0.10, "item" : ["mediumsnowball", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "ct_frozen_energy_ball"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.035, "item" : "icespherechest"},
+          {"weight" : 0.035, "item" : "icechest"},
+          {"weight" : 0.03, "item" : "icemachine"},
+          {"weight" : 0.05, "item" : "icebed"},
+          {"weight" : 0.07, "item" : "icechair"},
+          {"weight" : 0.05, "item" : "icedoor"},
+          {"weight" : 0.05, "item" : "icetable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.035, "item" : "alienskullhead"},
+          {"weight" : 0.005, "item" : "iceboomerang"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.018, "item" : "ct_alta_sona_rifle"},
+          {"weight" : 0.018, "item" : "ct_sona_helmet"},
+          {"weight" : 0.004, "item" : "ct_brontor"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.03, "item" : "snowcone"},
+          {"weight" : 0.03, "item" : "ct_frozen_energy_ball"},
+          {"weight" : 0.03, "item" : ["snowflakeshuriken", 2]},
+          {"weight" : 0.01, "item" : ["snowflakeshuriken", 3]},
+          {"weight" : 0.02, "item" : "ct_sona-codex"},
+          {"weight" : 0.02, "item" : "ct_tavriya-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_sona_loot"}
+  ] }] ],
+
+  "ct_isoslime_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.10, "item" : ["ct_isoslime_ball", 3]},
+          {"weight" : 0.10, "item" : ["ct_isoslime_ball", 2]},
+          {"weight" : 0.10, "item" : "ct_isoslime_ball"},
+          {"weight" : 0.10, "item" : "biosample"},
+          // Nature,            total: 0.04
+          {"weight" : 0.03, "item" : "ct_isoslime1"},
+          {"weight" : 0.01, "item" : "ct_isoslime_blob"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.09, "item" : "slimechair"},
+          {"weight" : 0.07, "item" : "slimebed"},
+          {"weight" : 0.07, "item" : "slimehide"},
+          {"weight" : 0.09, "item" : ["slimetorch", 4]},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "ct_alta_toy_iso_ball"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_isoblaster"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.05, "item" : "ct_iso_jam"},
+          {"weight" : 0.02, "item" : "ct_bio_fresh"},
+          {"weight" : 0.03, "item" : "cryonicextract"},
+          {"weight" : 0.04, "item" : "ct_isoslime-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_isoslime_loot"}
+  ] }] ],
+  "ct_phospholion_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.20, "item" : "ct_phospholion"},
+          {"weight" : 0.05, "item" : ["ct_phosphonade", 2]},
+          {"weight" : 0.15, "item" : "toxicwaste"},
+          // Nature,            total: 0.04
+          {"weight" : 0.01, "item" : "ct_phospholion_deposit1"},
+          {"weight" : 0.03, "item" : "ct_phospholion_formation"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.03, "item" : "industrialbed"},
+          {"weight" : 0.03, "item" : "industrialcanister"},
+          {"weight" : 0.045, "item" : "industrialchair"},
+          {"weight" : 0.03, "item" : "industrialcomputer"},
+          {"weight" : 0.03, "item" : "industrialcrate"},
+          {"weight" : 0.035, "item" : "industrialdoor"},
+          {"weight" : 0.045, "item" : "industriallight"},
+          {"weight" : 0.035, "item" : "industrialdisplay"},
+          {"weight" : 0.01, "item" : "industrialstoragelocker"},
+          {"weight" : 0.03, "item" : "industrialtable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "minerhead"},
+          {"weight" : 0.02, "item" : "minerchest"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_phospholiator"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.02, "item" : "platinumdrill"},
+          {"weight" : 0.08, "item" : ["ct_phosphonade", 2]},
+          {"weight" : 0.04, "item" : "ct_docs_mining_desc-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_phospholion_loot"}
+  ] }] ],
+  "ct_crystalline_prime_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.24, "item" : "geode"},
+          {"weight" : 0.16, "item" : "crystal"},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "crystalplantseed"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.32, "pool" : "crystalTreasure"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.03, "item" : "ct_crystalline_shield"},
+          {"weight" : 0.01, "item" : [ "ct_crystalline_shield", 1, { "preset" : "carel" } ]},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_crystalline_sword"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.10, "item" : "crystalplant"},
+          {"weight" : 0.04, "item" : "ct_crystalline_prime-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_crystalline_prime_loot"}
+  ] }] ],
+  "ct_calin_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.25, "item" : ["crystal", 2]},
+          {"weight" : 0.10, "item" : ["crystal", 3]},
+          {"weight" : 0.05, "item" : "crystal"},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "ct_calin_sample"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.02, "item" : "ct_calin_bed"},
+          {"weight" : 0.04, "item" : "ct_calin_chair"},
+          {"weight" : 0.03, "item" : "ct_calin_chest"},
+          {"weight" : 0.02, "item" : "ct_calin_console"},
+          {"weight" : 0.02, "item" : "ct_calin_clubdecks"},
+          {"weight" : 0.03, "item" : "ct_calin_gateway"},
+          {"weight" : 0.03, "item" : "ct_calin_hatch"},
+          {"weight" : 0.04, "item" : "ct_calin_lamp"},
+          {"weight" : 0.04, "item" : "ct_calin_shelf"},
+          {"weight" : 0.03, "item" : "ct_calin_table"},
+          {"weight" : 0.02, "item" : "ct_calin_terminal"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "crystalbackpackback"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_calin_shield"},
+          {"weight" : 0.02, "item" : "ct_calin_sword"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.04, "item" : "crystalplant"},
+          {"weight" : 0.01, "item" : "crystalplantseed"},
+          {"weight" : 0.04, "item" : ["ct_minto_spice", 2]},
+          {"weight" : 0.01, "item" : "ct_minto_spice"},
+          {"weight" : 0.04, "item" : "ct_calin-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_calin_loot"}
+  ] }] ],
+
+  "ct_gheatsyn_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.20, "item" : ["ct_gheatsyn_shard", 2]},
+          {"weight" : 0.05, "item" : "ct_gheatsyn_crystal"},
+          {"weight" : 0.10, "item" : ["ct_gheatsyn_shard", 3]},
+          {"weight" : 0.05, "item" : "ct_gheatsyn_shard"},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "ct_gheatsyn_sample"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.02, "item" : "ct_gheatsyn_bed"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_chair"},
+          {"weight" : 0.015, "item" : "ct_gheatsyn_chest"},
+          {"weight" : 0.015, "item" : "ct_gheatsyn_console"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_door"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_gateway"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_hatch"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_lamp"},
+          {"weight" : 0.025, "item" : "ct_gheatsyn_light"},
+          {"weight" : 0.015, "item" : "ct_gheatsyn_minifridge"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_platform"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_shelf"},
+          {"weight" : 0.025, "item" : ["ct_gheatsyn_shelf", 4]},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_table"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn_tank"},
+          {"weight" : 0.015, "item" : "ct_gheatsyn_terminal"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "ct_accumulator_collar"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.019, "item" : "ct_tsyntex"},
+          {"weight" : 0.019, "item" : "ct_gheablade"},
+          {"weight" : 0.0004, "item" : "ct_ghearun_back"},
+          {"weight" : 0.0004, "item" : "ct_ghearun_chest"},
+          {"weight" : 0.0004, "item" : "ct_ghearun_helmet"},
+          {"weight" : 0.0004, "item" : "ct_ghearun_legwear"},
+          {"weight" : 0.0004, "item" : "ct_ghearun_set"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.05, "item" : "crystalplant"},
+          {"weight" : 0.015, "item" : "crystalplantseed"},
+          {"weight" : 0.035, "item" : "ct_crystal_jam"},
+          {"weight" : 0.02, "item" : "ct_gheatsyn-codex"},
+          {"weight" : 0.02, "item" : "ct_ghearun-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_gheatsyn_loot"}
+  ] }] ],
+  "ct_bionid_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.05, "item" : "ct_tonna"},
+          {"weight" : 0.05, "item" : "ct_bionid"},
+          {"weight" : 0.15, "item" : ["ct_tonna", 2]},
+          {"weight" : 0.15, "item" : ["ct_bionid", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.005, "item" : "ct_tonnova_tree"},
+          {"weight" : 0.005, "item" : "ct_tonnova_spiral_tree"},
+          {"weight" : 0.005, "item" : "ct_tonnova_wide_tree"},
+          {"weight" : 0.025, "item" : "ct_bulbonid"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "tier4switch"},
+          {"weight" : 0.06, "item" : "tier4chair"},
+          {"weight" : 0.05, "item" : "tier4bed"},
+          {"weight" : 0.05, "item" : "tier4door"},
+          {"weight" : 0.06, "item" : "tier4light"},
+          {"weight" : 0.05, "item" : "tier4table"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "causticstaghead"},
+          {"weight" : 0.02, "item" : "ct_bionid_augment"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.04, "item" : "ct_soniathrower"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.10, "item" : "ct_tonnakada"},
+          {"weight" : 0.01, "item" : "ct_bion-codex"},
+          {"weight" : 0.01, "item" : "ct_bionics-codex"},
+          {"weight" : 0.01, "item" : "ct_bionid-codex"},
+          {"weight" : 0.01, "item" : "ct_tonnova-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_bionid_loot"}
+  ] }] ],
+
+  "ct_bishyn_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.10, "item" : "liquidpoison"},
+          {"weight" : 0.10, "item" : "crystal"},
+          {"weight" : 0.05, "item" : ["ct_bishyn_nade", 4]},
+          {"weight" : 0.15, "item" : ["ct_bishyn_nade", 3]},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "ct_bishyn_sample"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.03, "item" : "ct_bishyn_bed"},
+          {"weight" : 0.04, "item" : "ct_bishyn_chair"},
+          {"weight" : 0.02, "item" : "ct_bishyn_chest"},
+          {"weight" : 0.03, "item" : "ct_bishyn_door"},
+          {"weight" : 0.03, "item" : "ct_bishyn_hatch"},
+          {"weight" : 0.04, "item" : "ct_bishyn_lamp"},
+          {"weight" : 0.04, "item" : "ct_bishyn_light"},
+          {"weight" : 0.02, "item" : "ct_bishyn_locker"},
+          {"weight" : 0.02, "item" : "ct_bishyn_monitor"},
+          {"weight" : 0.03, "item" : "ct_bishyn_table"},
+          {"weight" : 0.02, "item" : "ct_bishyn_terminal"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "thinkingcaphead"},
+          {"weight" : 0.02, "item" : "ct_bishyn_augment"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.01, "item" : "ct_bishyn_helmet"},
+          {"weight" : 0.01, "item" : "ct_bishyn_spear"},
+          {"weight" : 0.01, "item" : "ct_bishyn_gun"},
+          {"weight" : 0.01, "item" : [ "ct_crystalline_shield", 1, { "preset" : "bishyn" } ] },
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.04, "item" : "ct_poison_crystal4"},
+          {"weight" : 0.04, "item" : "crystalplant"},
+          {"weight" : 0.02, "item" : "crystalplantseed"},
+          {"weight" : 0.04, "item" : "ct_bishyn-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_bishyn_loot"}
+  ] }] ],
+  "ct_hevika_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.15, "item" : ["ct_hevika_javelin", 2]},
+          {"weight" : 0.10, "item" : ["ct_hevika_flare", 3]},
+          {"weight" : 0.05, "item" : ["crystal", 3]},
+          {"weight" : 0.10, "item" : "ct_alternia_shard"},
+          // Nature,            total: 0.04
+          {"weight" : 0.05, "item" : "ct_hevika_sample"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.025, "item" : "ct_hevika_bed"},
+          {"weight" : 0.025, "item" : "ct_hevika_chair"},
+          {"weight" : 0.025, "item" : "ct_hevika_chest"},
+          {"weight" : 0.025, "item" : "ct_hevika_console"},
+          {"weight" : 0.025, "item" : "ct_hevika_hatch"},
+          {"weight" : 0.025, "item" : "ct_hevika_lamp"},
+          {"weight" : 0.025, "item" : "ct_hevika_light"},
+          {"weight" : 0.025, "item" : "ct_hevika_monitor"},
+          {"weight" : 0.025, "item" : "ct_hevika_table"},
+          {"weight" : 0.025, "item" : "ct_hevika_terminal"},
+          {"weight" : 0.025, "item" : "ct_hevika_turret"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "ct_hevika_augment"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.038, "item" : "ct_kinetic_shield"},
+          {"weight" : 0.002, "item" : "ct_hevika_turret_gun"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : ["ct_hevika_flare", 4]},
+          {"weight" : 0.04, "item" : ["ct_hevika_javelin", 4]},
+          {"weight" : 0.04, "item" : "ct_hevika-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_hevika_loot"}
+  ] }] ],
+  "ct_shroomic_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.38
+          {"weight" : 0.14, "pool" : "luminousCaveTreasure"},
+          {"weight" : 0.08, "item" : "liquidpoison"},
+          {"weight" : 0.08, "item" : "biosample"},
+          {"weight" : 0.08, "item" : "toxicwaste"},
+          // Nature,            total: 0.06
+          {"weight" : 0.005, "item" : "ct_akollic_bulb_spots"},
+          {"weight" : 0.005, "item" : "ct_coroplic_mutant_giant"},
+          {"weight" : 0.005, "item" : "ct_hyolic_growth_crystal"},
+          {"weight" : 0.005, "item" : "ct_mooplic_shady_old"},
+          {"weight" : 0.005, "item" : "ct_perolic_glow_eyes"},
+          {"weight" : 0.005, "item" : "ct_vyralic_twisted_undone"},
+          {"weight" : 0.005, "item" : "ct_akollic_bulb"},
+          {"weight" : 0.005, "item" : "ct_coroplic_mutant"},
+          {"weight" : 0.005, "item" : "ct_hyolic_growth"},
+          {"weight" : 0.005, "item" : "ct_mooplic_shady"},
+          {"weight" : 0.005, "item" : "ct_perolic_glow"},
+          {"weight" : 0.005, "item" : "ct_vyralic_twisted"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.02, "item" : "serenebed"},
+          {"weight" : 0.025, "item" : "serenechair"},
+          {"weight" : 0.02, "item" : "sereneswitch"},
+          {"weight" : 0.02, "item" : "serenedoor"},
+          {"weight" : 0.025, "item" : "serenelight"},
+          {"weight" : 0.02, "item" : "serenetable"},
+          // Cosmetics,         total: 0.07
+          {"weight" : 0.005, "item" : "faceleechhead"},
+          {"weight" : 0.005, "item" : "symbiotehead"},
+          {"weight" : 0.005, "item" : "hazmathead"},
+          {"weight" : 0.005, "item" : "hazmatchest"},
+          {"weight" : 0.005, "item" : "hazmatlegs"},
+          {"weight" : 0.005, "item" : "hazmatback"},
+          {"weight" : 0.02, "item" : [ "ct_head_mimic", 1, { "preset" : "aric_headcap" } ] },
+          {"weight" : 0.02, "item" : [ "ct_head_mimic", 1, { "preset" : "aric_toxicap" } ] },
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_ararang"},
+          {"weight" : 0.02, "item" : "ct_aric_collar"},
+          // Miscelanious,      total: 0.11
+          {"weight" : 0.04, "item" : "ct_bio_fresh"},
+          {"weight" : 0.03, "pool" : "luminousCaveTreasure"},
+          {"weight" : 0.04, "item" : "ct_aric-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_shroomic_loot"}
+  ] }] ],
+
+  "ct_eds_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.15, "item" : "ct_eds_armor"},
+          {"weight" : 0.05, "item" : ["ct_eds_armor", 2]},
+          {"weight" : 0.05, "item" : "ct_eds_drone"},
+          {"weight" : 0.05, "item" : "ct_eds_droid"},
+          // Nature,            total: 0.04
+          {"weight" : 0.02, "item" : "ct_eds_haulter"},
+          {"weight" : 0.02, "item" : "ct_eds_haulter_wires"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.03, "item" : "ct_eds_container"},
+          {"weight" : 0.03, "item" : "ct_eds_containers"},
+          {"weight" : 0.04, "item" : "ct_eds_gateway"},
+          {"weight" : 0.04, "item" : "ct_eds_hatch"},
+          {"weight" : 0.05, "item" : "ct_eds_lamppost"},
+          {"weight" : 0.05, "item" : "ct_eds_haulter_marker"},
+          {"weight" : 0.04, "item" : "ct_eds_table"},
+          {"weight" : 0.04, "item" : "ct_eds_terminal"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "ct_eds_beret"},
+          {"weight" : 0.02, "item" : "ct_eds_visor"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.009, "item" : "ct_eds_mng"},
+          {"weight" : 0.009, "item" : "ct_eds_shield"},
+          {"weight" : 0.009, "item" : "ct_eds_claymore"},
+          {"weight" : 0.008, "item" : [ "ct_kinetic_shield", 1, { "preset" : "red" } ] },
+          {"weight" : 0.003, "item" : "ct_eds_augment"},
+          {"weight" : 0.0015, "item" : "ct_eds_aimbot_augment"},
+          {"weight" : 0.0005, "item" : "ct_eds_one"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.04, "item" : "ct_eds_drone"},
+          {"weight" : 0.04, "item" : "ct_eds_droid"},
+          {"weight" : 0.02, "item" : "ct_logs_eds_chatter-codex"},
+          {"weight" : 0.02, "item" : "ct_logs_eds_reload-codex"},
+          {"weight" : 0.02, "item" : "ct_notes_eds-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_eds_loot"}
+  ] }] ],
+  "ct_faradea_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.25, "item" : "ct_bion"},
+          {"weight" : 0.15, "item" : ["ct_vortex_nade", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.02, "item" : "arcademachine"},
+          {"weight" : 0.02, "item" : "arcadeblue"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.08, "item" : "outpoststandingdesk"},
+          {"weight" : 0.08, "item" : "outposttable"},
+          {"weight" : 0.08, "item" : "bluelight"},
+          {"weight" : 0.08, "item" : "blueflask"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "ct_alta_industrial_collar"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_faradeus"},
+          {"weight" : 0.0195, "item" : [ "ct_eds_shield", 1, { "preset" : "faradea" } ] },
+          {"weight" : 0.0005, "item" : "ct_faradea_scavenger"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.04, "item" : ["ct_vortex_nade", 3]},
+          {"weight" : 0.06, "item" : "ct_tsay_cooked"},
+          {"weight" : 0.04, "item" : "ct_faradea-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_faradea_loot"}
+  ] }] ],
+
+  "ct_astera_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.20, "item" : ["durasteelore", 2]},
+          {"weight" : 0.10, "item" : "ct_astera_tear"},
+          {"weight" : 0.05, "item" : ["ct_glowstick_ceterteal", 2]},
+          {"weight" : 0.05, "item" : ["ct_glowstick_ionic", 2]},
+          // Nature,            total: 0.02
+          {"weight" : 0.02, "item" : "astrostoragelocker"},
+          // Decorations,       total: 0.34
+          {"weight" : 0.025, "item" : "astrocabinet"},
+          {"weight" : 0.025, "item" : "astroceilingmonitor"},
+          {"weight" : 0.035, "item" : "astrochair"},
+          {"weight" : 0.02, "item" : "astroconsole"},
+          {"weight" : 0.02, "item" : "astrocrate"},
+          {"weight" : 0.03, "item" : "astrodoor"},
+          {"weight" : 0.035, "item" : "astrolight"},
+          {"weight" : 0.035, "item" : "astromonitor"},
+          {"weight" : 0.025, "item" : "astroserver"},
+          {"weight" : 0.03, "item" : "astrotable"},
+          {"weight" : 0.03, "item" : "astrovent"},
+          {"weight" : 0.03, "item" : "astrowallpanel"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.04, "item" : "causticstaghead"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.02, "item" : "ct_meteoblaster"},
+          {"weight" : 0.02, "item" : "ct_spacedrifter_shield"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.10, "item" : "ct_gsr_pod"},
+          {"weight" : 0.015, "item" : "ct_astera-codex"},
+          {"weight" : 0.015, "item" : "ct_spacedrifter-codex"},
+          {"weight" : 0.01, "item" : "ct_stardust-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_astera_loot"}
+  ] }] ],
+
+  "ct_ion_core_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.20, "item" : ["obsidian", 2]},
+          {"weight" : 0.10, "item" : ["ct_glowstick_omniblue", 2]},
+          {"weight" : 0.10, "item" : ["ct_glowstick_ionic", 2]},
+          // Nature,            total: 0.04
+          {"weight" : 0.04, "item" : "geodebluesample"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.05, "item" : "opulentbed"},
+          {"weight" : 0.06, "item" : "opulentchair"},
+          {"weight" : 0.05, "item" : "opulentswitch"},
+          {"weight" : 0.05, "item" : "opulentdoor"},
+          {"weight" : 0.06, "item" : "opulentlight"},
+          {"weight" : 0.05, "item" : "opulenttable"},
+          // Cosmetics,         total: 0.04
+          {"weight" : 0.02, "item" : "scalpionhead"},
+          {"weight" : 0.02, "item" : "causticstaghead"},
+          // Treasure,          total: 0.04
+          {"weight" : 0.014, "item" : "ct_ioncore_shield"},
+          {"weight" : 0.014, "item" : "ct_plasma_chakram"},
+          {"weight" : 0.004, "item" : "ct_plasmora"},
+          {"weight" : 0.004, "item" : "ct_ion_launcher"},
+          {"weight" : 0.004, "item" : "ct_ion_collider"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.10, "item" : "ct_gsr_pod"},
+          {"weight" : 0.04, "item" : "ct_ion_core-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_ion_core_loot"}
+  ] }] ]
+}

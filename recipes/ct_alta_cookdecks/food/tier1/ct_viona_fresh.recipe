@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "grapes", "count" : 1 }
   ],
   "output" : { "item" : "ct_aya_fresh", "count" : 1, "parameters" : { "preset" : "viona" } },
   "duration" : 0.25,

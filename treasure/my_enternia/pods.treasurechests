@@ -1,0 +1,28 @@
+{
+  "ct_enchanted_chest" : [ { "containers" : [ "ct_enchanted_chest" ], "treasurePool" : "ct_enchanted_loot", "minimumLevel" : 0 } ],
+  "ct_koywa_chest" : [ { "containers" : [ "giantflowerchest" ], "treasurePool" : "ct_koywa_loot", "minimumLevel" : 0 } ],
+  "ct_haven_chest" : [ { "containers" : [ "giantflowerchest" ], "treasurePool" : "ct_haven_loot", "minimumLevel" : 0 } ],
+  "ct_gyera_chest" : [ { "containers" : [ "giantflowerchest" ], "treasurePool" : "ct_gyera_loot", "minimumLevel" : 0 } ],
+  "ct_ayaka_chest" : [ { "containers" : [ "alienchest" ], "treasurePool" : "ct_ayaka_loot", "minimumLevel" : 0 } ],
+
+  "ct_yaaraChest" : [ { "containers" : [ "ct_yaara_orb" ], "treasurePool" : "ct_yaara_loot", "minimumLevel" : 0 } ],
+  "ct_warpedChest" : [ { "containers" : [ "ct_warped_chest" ], "treasurePool" : "ct_warped_loot", "minimumLevel" : 0 } ],
+  "ct_eva_pod" : [ { "containers" : [ "rainbowchest" ], "treasurePool" : "ct_eva_loot", "minimumLevel" : 0 } ],
+  "ct_astera_pod" : [ { "containers" : [ "alienchest" ], "treasurePool" : "ct_astera_loot", "minimumLevel" : 0 } ],
+
+  "ct_sona_chest" : [ { "containers" : [ "icechest", "icespherechest" ], "treasurePool" : "ct_sona_loot", "minimumLevel" : 0 } ],
+
+  "ct_isoslimeChest" : [ { "containers" : [ "slimehide" ], "treasurePool" : "ct_isoslime_loot", "minimumLevel" : 0 } ],
+  "ct_phospholionChest" : [ { "containers" : [ "miningchest" ], "treasurePool" : "ct_phospholion_loot", "minimumLevel" : 0 } ],
+  "ct_calinChest" : [ { "containers" : [ "ct_calin_chest" ], "treasurePool" : "ct_calin_loot", "minimumLevel" : 0 } ],
+  "ct_crystalline_primeChest" : [ { "containers" : [ "crystalchest" ], "treasurePool" : "ct_crystalline_prime_loot", "minimumLevel" : 0 } ],
+
+  "ct_gheatsynChest" : [ { "containers" : [ "ct_gheatsyn_chest" ], "treasurePool" : "ct_gheatsyn_loot", "minimumLevel" : 0 } ],
+  "ct_bionidChest" : [ { "containers" : [ "techchest", "techchest2" ], "treasurePool" : "ct_bionid_loot", "minimumLevel" : 0 } ],
+
+  "ct_bishynChest" : [ { "containers" : [ "ct_bishyn_chest" ], "treasurePool" : "ct_bishyn_loot", "minimumLevel" : 0 } ],
+  "ct_hevikaChest" : [ { "containers" : [ "ct_hevika_chest" ], "treasurePool" : "ct_hevika_loot", "minimumLevel" : 0 } ],
+  "ct_shroomicChest" : [ { "containers" : [ "toxicchest" ],  "treasurePool" : "ct_shroomic_loot",  "minimumLevel" : 0 } ],
+
+  "ct_ion_core_chest" : [ { "containers" : [ "techchest", "techchest2" ], "treasurePool" : "ct_ion_core_loot", "minimumLevel" : 0 } ]
+}

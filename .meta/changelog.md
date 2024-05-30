@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.1](#231)
     - [2.3.0](#230)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
     - [2.2.2](#222)
@@ -50,9 +51,66 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.1
+
+This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
+
+**Main:**
+
+- added 12 decorative objects;
+- monster egg-related fixes.
+
+**Alta:**
+
+- added 4 more figurines:
+  - **Alta Figurine**;
+  - **Alta Cake Figurine**;
+  - **Ceterai Figurine**;
+  - **Kira Figurine**.
+- added 4 more samples:
+  - **Bion Sample**;
+  - **Ionic Ferment Sample**;
+  - **Yaara Sample**;
+  - **Yonnur Sample**.
+- added 4 more trophies:
+  - **Alta Trophy**;
+  - **Crippit Scab**;
+  - **Drone Visor**;
+  - **Geological Trophy**.
+- added 4 **Alta Capital** decorations:
+  - **Alta Blossom Plant**;
+  - **Alta Capital Terminal**;
+  - **Alta Stardust Bed**;
+  - **Alta Stardust Plant**.
+
+**Monsters:**
+
+- added 2 trophy hats:
+  - **Crippihead**;
+  - **Impulse Bobmask**.
+
+**Translation:**
+
+- newly added decorations, described in above sections, require translation.
+
+**Dev:**
+
+- added explicit icons to monster egg items for better compatability with Spawnable Item Pack;
+- moved the rest of treasure pools to separate files.
+
+**Other:**
+
+- gave hidden food recipes proper ingredients since they are now available through normal gameplay (in **Alta Cookdecks**);
+- fixed anglure monster eggs - they no longer cause errors;
+- fixed anglure animation - while still imperfect, it should no longer cause errors;
+- brought back codexes to Spawnable Item Pack;
+- minor bug fixes.
+
 ### 2.3.0
 
 It's time to go. You decide where - whether it's into the wild areas of alterash planets, looking for new alien creatures, or your own brand new alta kitchen, with a lot of new furniture and appliances!
+
+> Detailed changes for this version: [Update 2.3.0](https://github.com/Ceterai/Enternia/commit/81fc852eb90a7e9fa3ebf1d65a0fec29ce1fcbdd)
 
 **Main:**
 
@@ -347,6 +405,8 @@ A handful of bug fixes and improvements to prepare the mod for the next major ve
 
 The purpose of this patch is also to celebrate a 🇨🇳 chinese translation patch that have just come out on Steam Workshop - [绮宇梦纪简中补丁](https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750) 🩵  
 <p align="center"><img height=128 src="https://steamuserimages-a.akamaihd.net/ugc/2420193407381597972/C77AA556952F3E6735E38832AECD2521E536045D/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"/></p>
+
+> Detailed changes for this version: [Update 2.2.2](https://github.com/Ceterai/Enternia/commit/c7b61f7acb4404f13eaa981e38ad4fc70acd65d3)
 
 **Main:**
 

@@ -1,0 +1,165 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR ALTA LOOT
+  // ==============================================================================================
+
+{
+  "ct_alta_codexes" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [
+          {"weight" : 0.08, "item" : "ct_docs_cen-codex"},
+          {"weight" : 0.08, "item" : "ct_docs_datamass-codex"},
+          {"weight" : 0.08, "item" : "ct_docs_drones-codex"},
+          {"weight" : 0.08, "item" : "ct_docs_energy-codex"},
+
+          {"weight" : 0.08, "item" : "ct_alta_food_calin-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_food_nia-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_food_runeva-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_food_yava-codex"},
+
+          {"weight" : 0.08, "item" : "ct_docs_units_scout-codex"},
+          {"weight" : 0.08, "item" : "ct_docs_units_security-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_enviro-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_combat-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_eds-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_ceternia-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_alternia-codex"},
+          {"weight" : 0.04, "item" : "ct_docs_units_enternia-codex"},
+
+          {"weight" : 0.08, "item" : "ct_logs_eds_chatter-codex"},
+          {"weight" : 0.08, "item" : "ct_logs_eds_reload-codex"},
+          {"weight" : 0.08, "item" : "ct_notes_eds-codex"},
+
+          {"weight" : 0.06, "item" : "ct_notes_mira_cen-codex"},
+          {"weight" : 0.06, "item" : "ct_notes_tiana_leave-codex"}
+        ]
+  } ] ],
+  "ct_alta_food_loot" : [
+    [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [2.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [4.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [6.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ]
+  ],
+  "ct_alta_other_loot" : [
+    [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.00
+          {"weight" : 0.10, "pool" : "weapon"},
+          {"weight" : 0.50, "pool" : "tool"},
+          {"weight" : 0.04, "pool" : "costume"},
+          {"weight" : 0.12, "item" : "manipulatormodule"},
+          {"weight" : 0.12, "item" : "techcard"},
+          {"weight" : 0.12, "item" : "upgrademodule"}
+        ]
+    } ]
+  ],
+  "ct_alta_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [  //          total: 1.00
+          // Resources,         total: 0.44
+          {"weight" : 0.10, "item" : ["crystal", 8]},
+          {"weight" : 0.08, "item" : ["prisiliteore", 6]},
+          {"weight" : 0.06, "item" : ["throwingblock", 4]},
+          {"weight" : 0.04, "item" : ["titaniumbar", 4]},
+          {"weight" : 0.06, "item" : ["ct_datamass", 2]},
+          // Decorations,       total: 0.36
+          {"weight" : 0.04, "item" : "bluestim"},
+          {"weight" : 0.04, "item" : "greenstim"},
+          {"weight" : 0.04, "item" : "ct_tsay_cola"},
+          {"weight" : 0.04, "item" : "ct_aya_soda"},
+          {"weight" : 0.04, "item" : "ct_gheanade"},
+          // {"weight" : 0.10, "item" : "ct_vmax"},
+          // {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
+          // {"weight" : 0.02, "item" : "nanowrap"},
+          {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade" } ] },
+          {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade_pretty" } ] },
+          // {"weight" : 0.06, "item" : "diamond"},
+          {"weight" : 0.04, "item" : "ct_alta_sapling"},
+          // Cosmetics,         total: 0.08
+          {"weight" : 0.01, "item" : "ct_alta_backpack"},
+          {"weight" : 0.005, "item" : "ct_alta_respiratory_mask"},
+          {"weight" : 0.005, "item" : "ct_alta_respiratory_mask_colorful"},
+          {"weight" : 0.01, "item" : "ct_alta_vr_headset"},
+          {"weight" : 0.01, "item" : "ct_alta_visor"},
+          {"weight" : 0.010, "item" : "ct_alta_visor"},
+          {"weight" : 0.010, "item" : "ct_alta_visor"},
+          {"weight" : 0.020, "item" : "ct_alta_visor"},
+          // Miscelanious,      total: 0.10
+          {"weight" : 0.02, "pool" : "ct_alta_codexes"},
+          {"weight" : 0.06, "item" : "ct_alta_security-codex"},
+          {"weight" : 0.02, "item" : "ct_alta_food-codex"},
+          {"weight" : 0.02, "item" : "ct_logs_alta_job-codex"},
+          {"weight" : 0.02, "item" : "ct_alta_lore_4-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_alta_loot_tier1"}
+        ]
+      }
+    ]
+  ],
+  "ct_alta_aid" : [
+    [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [2.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [4.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ],
+    [6.9, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.20, "item" : "nanowrap"},
+          {"weight" : 0.50, "item" : "bluestim"},
+          {"weight" : 0.10, "item" : "medkit"},
+          {"weight" : 0.20, "item" : "ct_vmax"}
+    ] } ]
+  ],
+  "ct_alterashEndNoteTreasure" : [ [0,{"poolRounds":[[0.6,0],[0.4,1]],"pool":[{"weight":1,"item":"ct_notes_maya_backdoor-codex"}]}] ],
+  "ct_alterashEndTreasure" : [ [0, {
+        "fill" : [ {"pool" : "ct_alterashEndNoteTreasure"} ],
+        "poolRounds" : [ [0.1, 2], [0.4, 3], [0.4, 4], [0.1, 5] ],
+        "pool" : [ {"weight" : 1, "pool" : "ct_alta_pod_loot_tier2"} ]
+  } ] ]
+}

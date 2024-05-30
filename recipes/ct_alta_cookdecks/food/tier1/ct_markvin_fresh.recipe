@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "redapple", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_aya_fresh", "count" : 1, "parameters" : { "preset" : "markvin" } },
   "duration" : 0.25,

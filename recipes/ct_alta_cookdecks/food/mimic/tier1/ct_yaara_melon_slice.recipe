@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_verriskoywa_alto", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "yaara_melon_slice" } },
   "duration" : 0.25,

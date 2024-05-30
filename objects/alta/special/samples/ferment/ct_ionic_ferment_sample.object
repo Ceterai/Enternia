@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_ionic_ferment_sample",
+  "colonyTags" : [ "ayaka", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 4800,
+  "race" : "alta",
+
+  "shortdescription" : "Ionic Ferment Sample",
+  "description" : "A perfect sample of ayaka sap, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "It's pretty easy to find a perfect sample of the ferment, but to preserve it is another deal completely.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

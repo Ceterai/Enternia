@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "grapes", "count" : 1 },
+    { "item" : "ct_verriskoywa_miko", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "viona_motsu" } },
   "duration" : 0.25,

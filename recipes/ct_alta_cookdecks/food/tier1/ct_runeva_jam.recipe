@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_aya", "count" : 1 },
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "ct_tsay", "count" : 1 }
   ],
   "output" : { "item" : "ct_aya_jam", "count" : 1, "parameters" : { "preset" : "runeva" } },
   "duration" : 0.25,

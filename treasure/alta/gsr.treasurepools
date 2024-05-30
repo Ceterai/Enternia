@@ -1,0 +1,149 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR ALTA GSR PODS
+  // ==============================================================================================
+  // These are the contents of GSR pods found at `/items/active/unsorted/alta/loot/other/`
+
+{
+  "ct_gsr_pod" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.725, "pool" : "ct_gsr_m1"},
+          {"weight" : 0.250, "pool" : "ct_gsr_m2"},
+          {"weight" : 0.025, "pool" : "ct_gsr_m3"}
+        ]
+  } ] ],
+  "ct_gsr_m1" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.02, "item" : ["titaniumbar", 4]},
+          {"weight" : 0.02, "item" : ["prisiliteore", 4]},
+
+          {"weight" : 0.02, "item" : ["ct_alta_energy_cell", 2]},
+          {"weight" : 0.02, "item" : ["durasteelbar", 2]},
+
+          {"weight" : 0.01, "item" : "ct_alta_scout_blaster"},
+          {"weight" : 0.01, "item" : "ct_alta_impulse_rifle"},
+          {"weight" : 0.01, "item" : "ct_enchanted_blaster"},
+          {"weight" : 0.01, "item" : "ct_aya_virma"},
+
+          {"weight" : 0.01, "item" : "ct_protospear"},
+          {"weight" : 0.01, "item" : "ct_barracuda_fin"},
+          {"weight" : 0.01, "item" : "ct_enchanted_twins"},
+          {"weight" : 0.01, "item" : "ct_calin_sword"},
+          {"weight" : 0.01, "item" : "ct_flowersword"},
+
+          {"weight" : 0.01, "item" : "ct_calin_shield"},
+          {"weight" : 0.01, "item" : "ct_crystalline_shield"},
+
+          {"weight" : 0.01, "item" : "ct_warped_augment"},
+          {"weight" : 0.01, "item" : "ct_warped_collar"},
+          {"weight" : 0.01, "item" : "ct_yaara_collar"}
+        ]
+  } ] ],
+  "ct_gsr_m2" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.02, "item" : ["ct_bion", 2]},
+          {"weight" : 0.02, "item" : ["ct_eds_armor", 2]},
+          {"weight" : 0.02, "item" : ["ct_phosicore", 2]},
+          {"weight" : 0.01, "item" : "ct_eds_mng"},
+          {"weight" : 0.01, "item" : "ct_estralis_vi"},
+          {"weight" : 0.01, "item" : "ct_pulsecutter"},
+          {"weight" : 0.01, "item" : "ct_soniathrower"},
+
+          {"weight" : 0.01, "item" : "ct_alta_impulse_rifle_mk2"},
+          {"weight" : 0.01, "item" : "ct_alta_plasma_rifle"},
+          {"weight" : 0.01, "item" : "ct_alta_sona_rifle"},
+          {"weight" : 0.01, "item" : "ct_sky_lance"},
+
+          {"weight" : 0.01, "item" : "ct_arknight_shield"},
+          {"weight" : 0.01, "item" : "ct_eds_shield"},
+          {"weight" : 0.01, "item" : "ct_ioncore_shield"},
+          {"weight" : 0.01, "item" : "ct_kinetic_shield"},
+
+          {"weight" : 0.01, "item" : "ct_bishyn_gun"},
+          {"weight" : 0.01, "item" : "ct_haven_storm"},
+          {"weight" : 0.01, "item" : "ct_phospholiator"},
+          {"weight" : 0.01, "item" : "ct_warped_gun"},
+
+          {"weight" : 0.01, "item" : "ct_faradeus"},
+          {"weight" : 0.01, "item" : "ct_tsyntex"},
+          {"weight" : 0.01, "item" : "ct_isoblaster"},
+          {"weight" : 0.01, "item" : "ct_meteoblaster"},
+
+          {"weight" : 0.01, "item" : "ct_ararang"},
+          {"weight" : 0.01, "item" : "ct_plasma_chakram"},
+
+          {"weight" : 0.01, "item" : "ct_crystalline_sword"},
+          {"weight" : 0.01, "item" : "ct_eds_claymore"},
+          {"weight" : 0.01, "item" : "ct_gheablade"},
+          {"weight" : 0.01, "item" : "ct_bishyn_spear"},
+          {"weight" : 0.01, "item" : "ct_niverisk"},
+
+          {"weight" : 0.01, "item" : "ct_arknight_shield"},
+          {"weight" : 0.01, "item" : "ct_eds_shield"},
+          {"weight" : 0.01, "item" : "ct_ioncore_shield"},
+          {"weight" : 0.01, "item" : "ct_kinetic_shield"},
+
+          {"weight" : 0.01, "item" : "ct_bishyn_augment"},
+          {"weight" : 0.01, "item" : "ct_hevika_augment"},
+          {"weight" : 0.01, "item" : "ct_warped_augment"}
+        ]
+  } ] ],
+  "ct_gsr_m3" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.48, "pool" : "ct_gsr_m3_t1"},
+          {"weight" : 0.32, "pool" : "ct_gsr_m3_t2"},
+          {"weight" : 0.16, "pool" : "ct_gsr_m3_t3"},
+          {"weight" : 0.04, "pool" : "ct_gsr_m3_t4"}
+        ]
+  } ] ],
+  "ct_gsr_m3_t1" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.02, "item" : ["ct_cetersphere", 2]},
+          {"weight" : 0.02, "item" : ["ct_altersphere", 2]},
+          {"weight" : 0.02, "item" : ["ct_entersphere", 2]},
+
+          {"weight" : 0.01, "item" : "ct_spacedrifter_shield"},
+
+          {"weight" : 0.01, "item" : "ct_neoblaster"},
+          {"weight" : 0.01, "item" : "ct_plasmora"},
+          {"weight" : 0.01, "item" : "ct_brontor"},
+          {"weight" : 0.01, "item" : "ct_pulsar"},
+          {"weight" : 0.01, "item" : "ct_alta_ionic_rifle"},
+          {"weight" : 0.01, "item" : "ct_ion_launcher"},
+          {"weight" : 0.01, "item" : "ct_magmataur_x"},
+          {"weight" : 0.01, "item" : "ct_plasmorbs"},
+          {"weight" : 0.01, "item" : "ct_naghurta"},
+          {"weight" : 0.01, "item" : "ct_alistraza"},
+          {"weight" : 0.01, "item" : "ct_ion_collider"},
+
+          {"weight" : 0.01, "item" : "ct_entermace"},
+          {"weight" : 0.01, "item" : "ct_dream_eater"},
+          {"weight" : 0.01, "item" : "ct_spectre"}
+        ]
+  } ] ],
+  "ct_gsr_m3_t2" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.01, "item" : "ct_protolaris"},
+          {"weight" : 0.01, "item" : "ct_ion_reaper"},
+          {"weight" : 0.01, "item" : "ct_vitershai"},
+          {"weight" : 0.01, "item" : "ct_bipolaris"},
+          {"weight" : 0.01, "item" : "ct_entropy"},
+          {"weight" : 0.01, "item" : "ct_eds_one"},
+          {"weight" : 0.01, "item" : "ct_faradea_scavenger"},
+          {"weight" : 0.01, "item" : "ct_hevika_turret_gun"},
+          {"weight" : 0.01, "item" : "ct_oni_nerus"},
+          {"weight" : 0.01, "item" : "ct_tsentarish"},
+
+          {"weight" : 0.01, "item" : "ct_elite_stunner"},
+          {"weight" : 0.01, "item" : "ct_winged_halberd"},
+          {"weight" : 0.01, "item" : "ct_staris_sword"}
+        ]
+  } ] ],
+  "ct_gsr_m3_t3" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.01, "item" : "ct_enalnia"},
+          {"weight" : 0.01, "item" : "ct_ngx000"},
+          {"weight" : 0.01, "item" : "ct_starburst"},
+          {"weight" : 0.01, "item" : "ct_astralis"},
+          {"weight" : 0.01, "item" : "ct_sinigai"},
+          {"weight" : 0.01, "item" : "ct_lira"}
+        ]
+  } ] ],
+  "ct_gsr_m3_t4" : [ [0, { "poolRounds" : [ [1.0, 1] ], "pool" : [
+          {"weight" : 0.01, "item" : "ct_phase_cannon"},
+          {"weight" : 0.01, "item" : "ct_celeste"}
+        ]
+  } ] ]
+}

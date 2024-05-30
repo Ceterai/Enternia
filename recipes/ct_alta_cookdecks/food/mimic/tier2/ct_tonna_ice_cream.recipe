@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_tonna", "count" : 1 },
+    { "item" : "ct_ionic_sap", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "tonna_ice_cream" } },
   "duration" : 0.25,

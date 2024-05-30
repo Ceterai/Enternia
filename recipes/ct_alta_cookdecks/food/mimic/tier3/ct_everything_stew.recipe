@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_aya_baked", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "everything_stew" } },
   "duration" : 0.25,

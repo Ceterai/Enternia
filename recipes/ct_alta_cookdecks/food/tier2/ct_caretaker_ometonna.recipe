@@ -1,6 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_tonna", "count" : 2 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 2 }
   ],
   "output" : { "item" : "ct_ometonna", "count" : 1, "parameters" : { "preset" : "caretaker" } },
   "duration" : 0.25,

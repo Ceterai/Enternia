@@ -1,5 +1,788 @@
 [
     {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_capital.codex",
+        "name": "ct_alta_capital-codex",
+        "shortdescription": "Alta Capitals",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_citadel.codex",
+        "name": "ct_alta_citadel-codex",
+        "shortdescription": "Alta Citadels ^#8020f0;^reset;",
+        "category": "codex",
+        "icon": "ebook/ship.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_city.codex",
+        "name": "ct_alta_city-codex",
+        "shortdescription": "Alta Cities",
+        "category": "codex",
+        "icon": "ebook/security.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_crystals.codex",
+        "name": "ct_alta_crystals-codex",
+        "shortdescription": "Altas & Crystals",
+        "category": "codex",
+        "icon": "ebook/lab.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food.codex",
+        "name": "ct_alta_food-codex",
+        "shortdescription": "Alta Culinary Guide",
+        "category": "codex",
+        "icon": "ebook/security.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_2.codex",
+        "name": "ct_alta_food_2-codex",
+        "shortdescription": "Alta Chef's Guide",
+        "category": "codex",
+        "icon": "ebook/lab.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_calin.codex",
+        "name": "ct_alta_food_calin-codex",
+        "shortdescription": "Calin Cuisine Book",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_nia.codex",
+        "name": "ct_alta_food_nia-codex",
+        "shortdescription": "Nia Cuisine Book",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_runeva.codex",
+        "name": "ct_alta_food_runeva-codex",
+        "shortdescription": "Runeva Cuisine Book",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_yava.codex",
+        "name": "ct_alta_food_yava-codex",
+        "shortdescription": "Yava Cuisine Book",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_lab.codex",
+        "name": "ct_alta_lab-codex",
+        "shortdescription": "Alta Labs",
+        "category": "codex",
+        "icon": "ebook/lab.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_lore_1.codex",
+        "name": "ct_alta_lore_1-codex",
+        "shortdescription": "Alta History - ^#fffffa;^reset;From A Speck",
+        "category": "codex",
+        "icon": "ebook/ship.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_lore_2.codex",
+        "name": "ct_alta_lore_2-codex",
+        "shortdescription": "Alta History - ^#fffffb;^reset;Born With A Purpose",
+        "category": "codex",
+        "icon": "ebook/lab.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_lore_3.codex",
+        "name": "ct_alta_lore_3-codex",
+        "shortdescription": "Alta History - ^#fffffc;^reset;To Find Out",
+        "category": "codex",
+        "icon": "ebook/security.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_lore_4.codex",
+        "name": "ct_alta_lore_4-codex",
+        "shortdescription": "Alta History - ^#fffffd;^reset;What We Are",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_security.codex",
+        "name": "ct_alta_security-codex",
+        "shortdescription": "Security Protocol Datamass",
+        "category": "codex",
+        "icon": "/items/generic/crafting/ct_datamass.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_ship.codex",
+        "name": "ct_alta_ship-codex",
+        "shortdescription": "Alta Ships",
+        "category": "codex",
+        "icon": "ebook/ship.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_antorash.codex",
+        "name": "ct_antorash-codex",
+        "shortdescription": "Antorash Tour Guide",
+        "category": "codex",
+        "icon": "ebook/security.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_arco.codex",
+        "name": "ct_arco-codex",
+        "shortdescription": "A.R.C.O. Research",
+        "category": "codex",
+        "icon": "datamass/arco.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_aric.codex",
+        "name": "ct_aric-codex",
+        "shortdescription": "Aric Sporelings",
+        "category": "codex",
+        "icon": "paper/aric.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_arknight.codex",
+        "name": "ct_arknight-codex",
+        "shortdescription": "Arknight's Handbook",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_astera.codex",
+        "name": "ct_astera-codex",
+        "shortdescription": "Astera Industries",
+        "category": "codex",
+        "icon": "datamass/astera.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_ayaka.codex",
+        "name": "ct_ayaka-codex",
+        "shortdescription": "Ayaka Gardener's Notes",
+        "category": "codex",
+        "icon": "paper/ayaka.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_bion.codex",
+        "name": "ct_bion-codex",
+        "shortdescription": "Complicated Nature of Bion",
+        "category": "codex",
+        "icon": "datamass/combat.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_bionics.codex",
+        "name": "ct_bionics-codex",
+        "shortdescription": "Bionics",
+        "category": "codex",
+        "icon": "ebook/bionid.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_bionid.codex",
+        "name": "ct_bionid-codex",
+        "shortdescription": "Bionid Extraction Note",
+        "category": "codex",
+        "icon": "paper/bionid.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_bishyn.codex",
+        "name": "ct_bishyn-codex",
+        "shortdescription": "Unika Offices Initiative",
+        "category": "codex",
+        "icon": "paper/bishyn.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_calin.codex",
+        "name": "ct_calin-codex",
+        "shortdescription": "Alta Clubhouse Brochure",
+        "category": "codex",
+        "icon": "paper/calin.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_cards_welcome.codex",
+        "name": "ct_cards_welcome-codex",
+        "shortdescription": "Welcome to Alterash!",
+        "category": "codex",
+        "icon": "paper/title.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_ceterai.codex",
+        "name": "ct_ceterai-codex",
+        "shortdescription": "Ceterai Project Database",
+        "category": "codex",
+        "icon": "datamass/plasma.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_combat.codex",
+        "name": "ct_combat-codex",
+        "shortdescription": "Combat Protocol Datamass",
+        "category": "codex",
+        "icon": "datamass/combat.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_crystalline_prime.codex",
+        "name": "ct_crystalline_prime-codex",
+        "shortdescription": "Crystalline Primification",
+        "category": "codex",
+        "icon": "ebook/crystalline_prime.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_cen.codex",
+        "name": "ct_docs_cen-codex",
+        "shortdescription": "CEN Referencing Guide",
+        "category": "codex",
+        "icon": "paper/title.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_datamass.codex",
+        "name": "ct_docs_datamass-codex",
+        "shortdescription": "Tech Docs: Data & Datamasses",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_drones.codex",
+        "name": "ct_docs_drones-codex",
+        "shortdescription": "Tech Docs: Drones & Droids",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_energy.codex",
+        "name": "ct_docs_energy-codex",
+        "shortdescription": "Tech Docs: Energy",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_mining_desc.codex",
+        "name": "ct_docs_mining_desc-codex",
+        "shortdescription": "Energy Mines",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_alternia.codex",
+        "name": "ct_docs_units_alternia-codex",
+        "shortdescription": "Tech Docs: Alternia Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_ceternia.codex",
+        "name": "ct_docs_units_ceternia-codex",
+        "shortdescription": "Tech Docs: Elite Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_combat.codex",
+        "name": "ct_docs_units_combat-codex",
+        "shortdescription": "Tech Docs: Combat Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_eds.codex",
+        "name": "ct_docs_units_eds-codex",
+        "shortdescription": "Tech Docs: EDS Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_enternia.codex",
+        "name": "ct_docs_units_enternia-codex",
+        "shortdescription": "Tech Docs: Dreamer Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_enviro.codex",
+        "name": "ct_docs_units_enviro-codex",
+        "shortdescription": "Tech Docs: Enviro Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_scout.codex",
+        "name": "ct_docs_units_scout-codex",
+        "shortdescription": "Tech Docs: Scout Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_docs_units_security.codex",
+        "name": "ct_docs_units_security-codex",
+        "shortdescription": "Tech Docs: Security Set",
+        "category": "codex",
+        "icon": "paper/long.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_dreamer.codex",
+        "name": "ct_dreamer-codex",
+        "shortdescription": "Prototype: The Dreamer",
+        "category": "codex",
+        "icon": "datamass/ionic.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_eds.codex",
+        "name": "ct_eds-codex",
+        "shortdescription": "^#f02020;EDS^reset; Database",
+        "category": "codex",
+        "icon": "datamass/eds.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_elin.codex",
+        "name": "ct_elin-codex",
+        "shortdescription": "Elin's Invite",
+        "category": "codex",
+        "icon": "datamass/elin.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_elite.codex",
+        "name": "ct_elite-codex",
+        "shortdescription": "Elite Protection Order",
+        "category": "codex",
+        "icon": "datamass/impulse.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_enchanted.codex",
+        "name": "ct_enchanted-codex",
+        "shortdescription": "Enchanted Datamass",
+        "category": "codex",
+        "icon": "datamass/enchanted.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_esetera.codex",
+        "name": "ct_esetera-codex",
+        "shortdescription": "What Is Esetera",
+        "category": "codex",
+        "icon": "ebook/lab.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_eva.codex",
+        "name": "ct_eva-codex",
+        "shortdescription": "Eva Nature",
+        "category": "codex",
+        "icon": "datamass/arknight.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_evarus.codex",
+        "name": "ct_evarus-codex",
+        "shortdescription": "The Sky Above Us",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_faradea.codex",
+        "name": "ct_faradea-codex",
+        "shortdescription": "Brawl Of Legends Poster",
+        "category": "codex",
+        "icon": "paper/faradea.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_ghearun.codex",
+        "name": "ct_ghearun-codex",
+        "shortdescription": "Ghearun Excavation Protocol",
+        "category": "codex",
+        "icon": "datamass/gheatsyn.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_gheatsyn.codex",
+        "name": "ct_gheatsyn-codex",
+        "shortdescription": "Gheatsyn Nature",
+        "category": "codex",
+        "icon": "ebook/gheatsyn.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_gyera.codex",
+        "name": "ct_gyera-codex",
+        "shortdescription": "Gyera Park Guide",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_haven.codex",
+        "name": "ct_haven-codex",
+        "shortdescription": "Haven Toxins",
+        "category": "codex",
+        "icon": "ebook/security.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_hevika.codex",
+        "name": "ct_hevika-codex",
+        "shortdescription": "Hevika Ordis Welcome Message",
+        "category": "codex",
+        "icon": "datamass/hevika.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_ion_core.codex",
+        "name": "ct_ion_core-codex",
+        "shortdescription": "Ion Core Monitoring",
+        "category": "codex",
+        "icon": "datamass/plasma.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_isoslime.codex",
+        "name": "ct_isoslime-codex",
+        "shortdescription": "Isoslime In Cooking",
+        "category": "codex",
+        "icon": "ebook/isoslime.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_koywa.codex",
+        "name": "ct_koywa-codex",
+        "shortdescription": "River Camping Brochure",
+        "category": "codex",
+        "icon": "paper/koywa.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_lenn.codex",
+        "name": "ct_lenn-codex",
+        "shortdescription": "The Observer",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_logs_alta_job.codex",
+        "name": "ct_logs_alta_job-codex",
+        "shortdescription": "Alta's Recommendation Letter",
+        "category": "codex",
+        "icon": "/items/generic/crafting/ct_datamass.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_logs_eds_chatter.codex",
+        "name": "ct_logs_eds_chatter-codex",
+        "shortdescription": "EDS Command Communication Log",
+        "category": "codex",
+        "icon": "datamass/eds.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_logs_eds_reload.codex",
+        "name": "ct_logs_eds_reload-codex",
+        "shortdescription": "EDS Server Connector Log",
+        "category": "codex",
+        "icon": "datamass/eds.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_love.codex",
+        "name": "ct_love-codex",
+        "shortdescription": "Little Star and Her Ray Of Light",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_miazma.codex",
+        "name": "ct_miazma-codex",
+        "shortdescription": "Viona Miazma Monitoring",
+        "category": "codex",
+        "icon": "datamass/enchanted.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_my_enternia_guide.codex",
+        "name": "ct_my_enternia_guide-codex",
+        "shortdescription": "Guide to My Enternia",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_nivera.codex",
+        "name": "ct_nivera-codex",
+        "shortdescription": "Nivera Cultivation",
+        "category": "codex",
+        "icon": "paper/warped.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_notes_eds.codex",
+        "name": "ct_notes_eds-codex",
+        "shortdescription": "EDS Status Analysis",
+        "category": "codex",
+        "icon": "datamass/eds.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_notes_maya_backdoor.codex",
+        "name": "ct_notes_maya_backdoor-codex",
+        "shortdescription": "A Secret Note",
+        "category": "codex",
+        "icon": "datamass/ionic.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_notes_mira_cen.codex",
+        "name": "ct_notes_mira_cen-codex",
+        "shortdescription": "CEN-7 Reapplication Request",
+        "category": "codex",
+        "icon": "datamass/plasma.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_notes_tiana_leave.codex",
+        "name": "ct_notes_tiana_leave-codex",
+        "shortdescription": "Evacuation Notes",
+        "category": "codex",
+        "icon": "datamass/impulse.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_sentia.codex",
+        "name": "ct_sentia-codex",
+        "shortdescription": "A Sentia's Crown",
+        "category": "codex",
+        "icon": "ebook/warped.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_sona.codex",
+        "name": "ct_sona-codex",
+        "shortdescription": "Sona Soldier's Notes",
+        "category": "codex",
+        "icon": "paper/sona.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_spacedrifter.codex",
+        "name": "ct_spacedrifter-codex",
+        "shortdescription": "A Spacedrifter's Adventure",
+        "category": "codex",
+        "icon": "ebook/astera.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_stardust.codex",
+        "name": "ct_stardust-codex",
+        "shortdescription": "Life, Value And Meaning",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_tavriya.codex",
+        "name": "ct_tavriya-codex",
+        "shortdescription": "On Tavriya Climate",
+        "category": "codex",
+        "icon": "datamass/sona.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_tiana.codex",
+        "name": "ct_tiana-codex",
+        "shortdescription": "Little Star and The Starflower Order",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_tonnova.codex",
+        "name": "ct_tonnova-codex",
+        "shortdescription": "The Neon Forest",
+        "category": "codex",
+        "icon": "ebook/bionid.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_viona.codex",
+        "name": "ct_viona-codex",
+        "shortdescription": "Colorful Poster",
+        "category": "codex",
+        "icon": "paper/enchanted.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_vionia.codex",
+        "name": "ct_vionia-codex",
+        "shortdescription": "The Miracles of Vionia",
+        "category": "codex",
+        "icon": "ebook/enchanted.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_virma.codex",
+        "name": "ct_virma-codex",
+        "shortdescription": "A Virma's Friend",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_warped.codex",
+        "name": "ct_warped-codex",
+        "shortdescription": "Warped Containment",
+        "category": "codex",
+        "icon": "datamass/warped.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_yaara.codex",
+        "name": "ct_yaara-codex",
+        "shortdescription": "About Yaara Keepers",
+        "category": "codex",
+        "icon": "datamass/elin.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_yonnur.codex",
+        "name": "ct_yonnur-codex",
+        "shortdescription": "Glowing Kingdom",
+        "category": "codex",
+        "icon": "ebook/warped.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/items/active/shields/",
         "fileName": "ct_arknight_shield.activeitem",
         "name": "ct_arknight_shield",
@@ -496,7 +1279,7 @@
         "name": "ct_alta_companion_drone",
         "shortdescription": "Companion Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_companion_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -506,7 +1289,7 @@
         "name": "ct_alta_crystal_drone",
         "shortdescription": "Crystal Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_crystal_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -516,7 +1299,7 @@
         "name": "ct_alta_defensive_droid",
         "shortdescription": "Defensive Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_defensive_droid.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -526,7 +1309,7 @@
         "name": "ct_alta_defensive_drone",
         "shortdescription": "Defensive Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_defensive_drone.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -536,7 +1319,7 @@
         "name": "ct_alta_engineer_drone",
         "shortdescription": "Engineer Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_engineer_drone.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -546,7 +1329,7 @@
         "name": "ct_alta_frigate_drone",
         "shortdescription": "Frigate Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_frigate_drone.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -556,7 +1339,7 @@
         "name": "ct_alta_frigate_drone_empty",
         "shortdescription": "Frigate Drone Empty",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_frigate_drone_empty.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -566,7 +1349,7 @@
         "name": "ct_alta_mini_drone",
         "shortdescription": "Mini Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_mini_drone.png",
         "rarity": "common",
         "race": "alta"
     },
@@ -576,7 +1359,7 @@
         "name": "ct_alta_scout_drone",
         "shortdescription": "Scout Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_scout_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -586,7 +1369,7 @@
         "name": "ct_alta_security_drone",
         "shortdescription": "Security Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_security_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -596,7 +1379,7 @@
         "name": "ct_alta_sentry_drone",
         "shortdescription": "Sentry Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_sentry_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -606,7 +1389,7 @@
         "name": "ct_alta_shield_drone",
         "shortdescription": "Shield Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_shield_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -616,7 +1399,7 @@
         "name": "ct_alta_spider_droid",
         "shortdescription": "Spider Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_spider_droid.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -626,7 +1409,7 @@
         "name": "ct_alta_stalker_droid",
         "shortdescription": "Stalker Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_stalker_droid.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -636,7 +1419,7 @@
         "name": "ct_alta_trans_drone",
         "shortdescription": "Orchid Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_trans_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -646,7 +1429,7 @@
         "name": "ct_alta_watcher_drone",
         "shortdescription": "Watcher Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alta_watcher_drone.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -656,7 +1439,7 @@
         "name": "ct_eds_droid",
         "shortdescription": "^#f02020;EDS^reset; Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_eds_droid.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -666,7 +1449,7 @@
         "name": "ct_eds_drone",
         "shortdescription": "^#f02020;EDS^reset; Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_eds_drone.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -676,7 +1459,7 @@
         "name": "ct_elin_drone",
         "shortdescription": "Elin Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_elin_drone.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -686,7 +1469,7 @@
         "name": "ct_elite_droid",
         "shortdescription": "Elite Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_elite_droid.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -696,7 +1479,7 @@
         "name": "ct_elite_drone",
         "shortdescription": "Elite Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_elite_drone.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -706,7 +1489,7 @@
         "name": "ct_gheatsyn_droid",
         "shortdescription": "Gheatsyn Droid",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_gheatsyn_droid.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -716,7 +1499,7 @@
         "name": "ct_ionic_drone",
         "shortdescription": "Ionic Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_ionic_drone.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -726,7 +1509,7 @@
         "name": "ct_lava_drone",
         "shortdescription": "Lava Drone",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_lava_drone.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -746,7 +1529,7 @@
         "name": "ct_alto_zich_egg",
         "shortdescription": "Alto Zich Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_alto_zich_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -755,7 +1538,7 @@
         "name": "ct_aya_bee_egg",
         "shortdescription": "Aya Bee Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_aya_bee_egg.png",
         "rarity": "common"
     },
     {
@@ -764,7 +1547,7 @@
         "name": "ct_elin_bug_egg",
         "shortdescription": "Elin Bug Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_elin_bug_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -773,7 +1556,7 @@
         "name": "ct_juviley_egg",
         "shortdescription": "Juviley Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_juviley_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -782,7 +1565,7 @@
         "name": "ct_klee_egg",
         "shortdescription": "Klee Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_klee_egg.png",
         "rarity": "common"
     },
     {
@@ -791,7 +1574,7 @@
         "name": "ct_klee_prime_egg",
         "shortdescription": "Klee Prime Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_klee_prime_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -800,7 +1583,7 @@
         "name": "ct_starfly_egg",
         "shortdescription": "Starfly Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_starfly_egg.png",
         "rarity": "legendary"
     },
     {
@@ -809,7 +1592,7 @@
         "name": "ct_unwarped_fly_egg",
         "shortdescription": "Unwarped Fly Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_unwarped_fly_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -818,7 +1601,7 @@
         "name": "ct_aric_sporgus_egg",
         "shortdescription": "Aric Sporgus Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_aric_sporgus_egg.png",
         "rarity": "rare"
     },
     {
@@ -827,7 +1610,7 @@
         "name": "ct_astral_narfin_egg",
         "shortdescription": "Astral Narfin Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_astral_narfin_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -836,7 +1619,7 @@
         "name": "ct_berry_bobfae_egg",
         "shortdescription": "Berry Bobfae Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_berry_bobfae_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -845,7 +1628,7 @@
         "name": "ct_bionfly_egg",
         "shortdescription": "Bionfly Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_bionfly_egg.png",
         "rarity": "rare"
     },
     {
@@ -854,7 +1637,7 @@
         "name": "ct_bionid_pteropod_egg",
         "shortdescription": "Bionid Pteropod Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_bionid_pteropod_egg.png",
         "rarity": "rare"
     },
     {
@@ -863,7 +1646,7 @@
         "name": "ct_bishyn_crippit_egg",
         "shortdescription": "Bishyn Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_bishyn_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -872,7 +1655,7 @@
         "name": "ct_brutefly_egg",
         "shortdescription": "Brutefly Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_brutefly_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -881,7 +1664,7 @@
         "name": "ct_calin_crippit_egg",
         "shortdescription": "Calin Crippit Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_calin_crippit_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -890,7 +1673,7 @@
         "name": "ct_crippit_egg",
         "shortdescription": "Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_crippit_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -899,7 +1682,7 @@
         "name": "ct_crystalline_crippit_egg",
         "shortdescription": "Crystalline Crippit Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_crystalline_crippit_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -908,7 +1691,7 @@
         "name": "ct_crystal_poptop_egg",
         "shortdescription": "Crystal Poptop Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_crystal_poptop_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -917,7 +1700,7 @@
         "name": "ct_crystal_poptop_rare_egg",
         "shortdescription": "Rare Crystal Poptop Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_crystal_poptop_rare_egg.png",
         "rarity": "rare"
     },
     {
@@ -926,7 +1709,7 @@
         "name": "ct_gheatsyn_crippit_egg",
         "shortdescription": "Gheatsyn Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_gheatsyn_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -935,7 +1718,7 @@
         "name": "ct_hevika_crippit_egg",
         "shortdescription": "Hevika Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_hevika_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -944,7 +1727,7 @@
         "name": "ct_impulse_bobfae_egg",
         "shortdescription": "Impulse Bobfae Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_impulse_bobfae_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -953,7 +1736,7 @@
         "name": "ct_ionic_crippit_egg",
         "shortdescription": "Ionic Crippit Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_ionic_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -962,7 +1745,7 @@
         "name": "ct_ionic_crustoise_egg",
         "shortdescription": "Ionic Crustoise Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_ionic_crustoise_egg.png",
         "rarity": "rare"
     },
     {
@@ -971,7 +1754,7 @@
         "name": "ct_ionic_narfin_egg",
         "shortdescription": "Ionic Narfin Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_ionic_narfin_egg.png",
         "rarity": "rare"
     },
     {
@@ -980,7 +1763,7 @@
         "name": "ct_ionic_orbide_egg",
         "shortdescription": "Ionic Orbide Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_ionic_orbide_egg.png",
         "rarity": "rare"
     },
     {
@@ -989,7 +1772,7 @@
         "name": "ct_isopod_egg",
         "shortdescription": "Isopod Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_isopod_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -998,7 +1781,7 @@
         "name": "ct_lava_crippit_egg",
         "shortdescription": "Lava Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_lava_crippit_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1007,7 +1790,7 @@
         "name": "ct_mical_crippit_egg",
         "shortdescription": "Mical Crippit Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_mical_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -1016,7 +1799,7 @@
         "name": "ct_nightmare_anglure_egg",
         "shortdescription": "Nightmare Anglure Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_nightmare_anglure_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -1025,7 +1808,7 @@
         "name": "ct_nightmare_orbide_egg",
         "shortdescription": "Nightmare Orbide Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_nightmare_orbide_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -1034,7 +1817,7 @@
         "name": "ct_obsidian_crippit_egg",
         "shortdescription": "Obsidian Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_obsidian_crippit_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1043,7 +1826,7 @@
         "name": "ct_omni_narfin_egg",
         "shortdescription": "Omni Narfin Egg ^#f02080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_omni_narfin_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1052,7 +1835,7 @@
         "name": "ct_overcharged_crustoise_egg",
         "shortdescription": "Overcharged Crustoise Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_overcharged_crustoise_egg.png",
         "rarity": "rare"
     },
     {
@@ -1061,7 +1844,7 @@
         "name": "ct_prism_crippit_egg",
         "shortdescription": "Prism Crippit Egg ^#2080f0;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_prism_crippit_egg.png",
         "rarity": "rare"
     },
     {
@@ -1070,7 +1853,7 @@
         "name": "ct_stardust_crippit_egg",
         "shortdescription": "Stardust Crippit Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_stardust_crippit_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1079,7 +1862,7 @@
         "name": "ct_stardust_narfin_egg",
         "shortdescription": "Stardust Narfin Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_stardust_narfin_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1088,7 +1871,7 @@
         "name": "ct_stardust_poptop_egg",
         "shortdescription": "Stardust Poptop Egg ^#f02080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_stardust_poptop_egg.png",
         "rarity": "legendary"
     },
     {
@@ -1097,7 +1880,7 @@
         "name": "ct_valley_poptop_egg",
         "shortdescription": "Valley Poptop Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_valley_poptop_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -1106,7 +1889,7 @@
         "name": "ct_warped_anglure_egg",
         "shortdescription": "Warped Anglure Egg",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_warped_anglure_egg.png",
         "rarity": "rare"
     },
     {
@@ -1115,7 +1898,7 @@
         "name": "ct_warped_sporgus_egg",
         "shortdescription": "Warped Sporgus Egg ^#20f080;^reset;",
         "category": "throwableItem",
-        "icon": "/assetMissing.png",
+        "icon": "ct_warped_sporgus_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -2901,6 +3684,26 @@
         "icon": "icon.png",
         "rarity": "legendary",
         "directives": "?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"
+    },
+    {
+        "path": "/items/armors/my_enternia/trophies/ct_crippit_head/",
+        "fileName": "ct_crippit.head",
+        "name": "ct_crippit_head",
+        "shortdescription": "Crippihead",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "directives": "?replace;0050c0=0050c0;2080f0=2080f0;60c0fc=60c0fc;b0e0fc=b0e0fc"
+    },
+    {
+        "path": "/items/armors/my_enternia/trophies/ct_impulse_bobfae_head/",
+        "fileName": "ct_impulse_bobfae.head",
+        "name": "ct_impulse_bobfae_head",
+        "shortdescription": "Impulse Bobmask",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "directives": "?replace;0050c0=0050c0;2080f0=2080f0;60c0fc=60c0fc;b0e0fc=b0e0fc"
     },
     {
         "path": "/items/augments/back/",
@@ -4848,6 +5651,46 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/capital/plant_blossom/",
+        "fileName": "ct_alta_plant_blossom.object",
+        "name": "ct_alta_plant_blossom",
+        "shortdescription": "Alta Blossom Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/capital/plant_stardust/",
+        "fileName": "ct_alta_plant_stardust.object",
+        "name": "ct_alta_plant_stardust",
+        "shortdescription": "Alta Stardust Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/capital/stardust_bed/",
+        "fileName": "ct_alta_stardust_bed.object",
+        "name": "ct_alta_stardust_bed",
+        "shortdescription": "Alta Stardust Bed",
+        "category": "furniture",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/capital/terminal/",
+        "fileName": "ct_alta_capital_terminal.object",
+        "name": "ct_alta_capital_terminal",
+        "shortdescription": "Alta Capital Terminal",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/city/bench/",
         "fileName": "ct_alta_bench.object",
         "name": "ct_alta_bench",
@@ -6192,6 +7035,42 @@
         "rarity": "legendary"
     },
     {
+        "path": "/objects/alta/special/figurines/other/",
+        "fileName": "ct_alta_af.object",
+        "name": "ct_alta_af",
+        "shortdescription": "Alta Figurine",
+        "category": "actionFigure",
+        "icon": "ct_alta_af.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/figurines/other/",
+        "fileName": "ct_alta_cake_af.object",
+        "name": "ct_alta_cake_af",
+        "shortdescription": "Alta Cake Figurine ^#20f080;^reset;",
+        "category": "actionFigure",
+        "icon": "ct_alta_cake_af.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/figurines/other/",
+        "fileName": "ct_ceterai_af.object",
+        "name": "ct_ceterai_af",
+        "shortdescription": "Ceterai Figurine ^#f02080;^reset;",
+        "category": "actionFigure",
+        "icon": "ct_ceterai_af.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/figurines/other/",
+        "fileName": "ct_kira_af.object",
+        "name": "ct_kira_af",
+        "shortdescription": "Kira Figurine",
+        "category": "actionFigure",
+        "icon": "ct_kira_af.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/alta/special/figurines/poptop/",
         "fileName": "ct_crystal_poptop.object",
         "name": "ct_crystal_poptop_af",
@@ -6456,6 +7335,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/special/samples/bion/",
+        "fileName": "ct_bion_sample.object",
+        "name": "ct_bion_sample",
+        "shortdescription": "Bion Sample ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/special/samples/bionid/",
         "fileName": "ct_bionid_sample.object",
         "name": "ct_bionid_sample",
@@ -6483,6 +7372,16 @@
         "category": "decorative",
         "icon": "icon.png",
         "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/samples/ferment/",
+        "fileName": "ct_ionic_ferment_sample.object",
+        "name": "ct_ionic_ferment_sample",
+        "shortdescription": "Ionic Ferment Sample",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -6520,6 +7419,26 @@
         "fileName": "ct_warped_sample.object",
         "name": "ct_warped_sample",
         "shortdescription": "Warped Sample",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/samples/yaara/",
+        "fileName": "ct_yaara_sample.object",
+        "name": "ct_yaara_sample",
+        "shortdescription": "Yaara Sample",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/samples/yonnur/",
+        "fileName": "ct_yonnur_sample.object",
+        "name": "ct_yonnur_sample",
+        "shortdescription": "Yonnur Sample",
         "category": "decorative",
         "icon": "icon.png",
         "rarity": "rare",
@@ -6767,6 +7686,15 @@
     },
     {
         "path": "/objects/alta/special/trophies/",
+        "fileName": "ct_alta_trophy.object",
+        "name": "ct_alta_trophy",
+        "shortdescription": "Alta Trophy ^#8020f0;^reset;",
+        "category": "decorative",
+        "icon": "ct_alta_trophy.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/trophies/",
         "fileName": "ct_anglure_lamp.object",
         "name": "ct_anglure_lamp",
         "shortdescription": "Anglure's Lamp ^#2080f0;^reset;",
@@ -6782,6 +7710,33 @@
         "category": "decorative",
         "icon": "ct_celestia_trophy.png",
         "rarity": "essential"
+    },
+    {
+        "path": "/objects/alta/special/trophies/",
+        "fileName": "ct_crippit_scab.object",
+        "name": "ct_crippit_scab",
+        "shortdescription": "Crippit Scab ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "ct_crippit_scab.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/trophies/",
+        "fileName": "ct_drone_visor.object",
+        "name": "ct_drone_visor",
+        "shortdescription": "Drone Visor ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "ct_drone_visor.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/trophies/",
+        "fileName": "ct_geo_trophy.object",
+        "name": "ct_geo_trophy",
+        "shortdescription": "Geological Trophy ^#f02080;^reset;",
+        "category": "decorative",
+        "icon": "ct_geo_trophy.png",
+        "rarity": "legendary"
     },
     {
         "path": "/objects/alta/special/trophies/",

@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_gillikada", "count" : 1 },
+    { "item" : "ct_isoslime_ball", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 2 }
   ],
   "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "gillimon_ice_cream" } },
   "duration" : 0.25,

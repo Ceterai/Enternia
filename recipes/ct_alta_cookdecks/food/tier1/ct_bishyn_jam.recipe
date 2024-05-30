@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "thornfruit", "count" : 1 },
+    { "item" : "crystalplant", "count" : 1 }
   ],
   "output" : { "item" : "ct_crystal_jam", "count" : 1, "parameters" : { "preset" : "bishyn" } },
   "duration" : 0.25,

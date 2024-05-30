@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_aya_powder", "count" : 4 },
+    { "item" : "ct_ionice_cube", "count" : 2 }
   ],
   "output" : { "item" : "ct_aya_candy", "count" : 1, "parameters" : { "preset" : "pop" } },
   "duration" : 0.25,

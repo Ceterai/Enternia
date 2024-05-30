@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_tsay", "count" : 1 },
+    { "item" : "biosample", "count" : 2 }
   ],
   "output" : { "item" : "ct_tsay_cooked", "count" : 1, "parameters" : { "preset" : "haven" } },
   "duration" : 0.25,

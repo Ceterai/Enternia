@@ -1,6 +1,7 @@
 {
   "input" : [
-    { "item" : "ct_crystal_jam", "count" : 1 }
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 1 }
   ],
   "output" : { "item" : "ct_calio_tea", "count" : 1 },
   "groups" : [ "my_enternia", "craftingfood", "consumables", "drinks", "tea", "all", "mod" ]

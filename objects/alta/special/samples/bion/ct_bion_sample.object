@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_bion_sample",
+  "colonyTags" : [ "bionid", "pretty", "valuable" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 5200,
+  "race" : "alta",
+
+  "shortdescription" : "Bion Sample ^#2080f0;^reset;",
+  "description" : "A perfect sample of pure bion matter, preserved on a small titanium pedestal.",
+  "longdescription" : "These samples are considered to be extremely valuable for alta research, and thus are preserved in high-quality shape and can be worth quite a lot.",
+  "altaDescription" : "Is this... what I'm made of?.. How pretty! And sturdy.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

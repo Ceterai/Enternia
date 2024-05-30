@@ -1,6 +1,8 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "ct_ionic_sap", "count" : 2 },
+    { "item" : "ct_iso_jam", "count" : 1 },
+    { "item" : "beakseed", "count" : 1 }
   ],
   "output" : { "item" : "ct_zandarm_tart", "count" : 1, "parameters" : { "preset" : "prime" } },
   "duration" : 0.25,
