@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_tonnakada", "count" : 1 },
+    { "item" : "ct_ionic_sap", "count" : 4 },
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_tonna_meringue", "count" : 1, "parameters" : { "preset" : "kada" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "pies", "meringue", "all", "mod" ]
+}

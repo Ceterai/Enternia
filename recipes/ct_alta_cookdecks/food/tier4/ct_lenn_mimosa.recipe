@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_tsay_cooked", "count" : 1 },
+    { "item" : "potato", "count" : 1 },
+    { "item" : "carrot", "count" : 1 },
+    { "item" : "egg", "count" : 2 },
+    { "item" : "kelp", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_special_mimosa", "count" : 1, "parameters" : { "preset" : "lenn" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "salads", "all", "mod" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_crystal_jam", "count" : 2 },
+    { "item" : "ct_crystal_icecream", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "ct_verriskoywa_miko", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_pavolda_cake", "count" : 1, "parameters" : { "preset" : "love" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "cakes", "all", "mod" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "wartweed", "count" : 1 },
+    { "item" : "ct_ionic_sap", "count" : 1 }
+  ],
+  "output" : { "item" : "wartweedjam", "count" : 1 },
+  "groups" : [ "alta_food", "jam", "all" ]
+}

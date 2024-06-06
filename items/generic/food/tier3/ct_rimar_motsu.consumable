@@ -41,7 +41,21 @@
       "description" : "A perfect mix of various ingredients turned into an exquisite ^#b0e0fc;alta^reset; motsu!",
       "longdescription" : "Though this motsu turned out better than usual, it's important to understand that there is no recipe for excellence.",
       "altaDescription" : "Yum!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45,
+      "paletteSwap" : {
+        "#f4fafd":"#f4f8fd","#acdcec":"#acd1ec","#47b6ab":"#47b684","#177a71":"#17727a","#074c44":"#07484c",
+        "#b7f601":"#f68a01","#8dbd01":"#bd0501"
+      }
+    },
+    "hive" : {
+      "shortdescription" : "Larva Motsu", "variant" : true,
+      "description" : "A motsu made mostly from hive and yava ingredients.",
+      "longdescription" : "Though this motsu turned out better than usual, it's important to understand that there is no recipe for excellence.",
+      "altaDescription" : "Yum!",
+      "paletteSwap" : {
+        "#f4fafd":"#fbfbf6","#acdcec":"#dcd9bb","#47b6ab":"#9b6562","#177a71":"#624d2f","#074c44":"#3b2c18",
+        "#b7f601":"#b2ba3d","#8dbd01":"#8f612f"
+      }
     }
   }
 }

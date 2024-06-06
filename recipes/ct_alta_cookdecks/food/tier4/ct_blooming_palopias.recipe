@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_lifespring", "count" : 1 },
+    { "item" : "ct_yaarings", "count" : 2 },
+    { "item" : "ct_gharus_spice", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 2 },
+    { "item" : "petalyellow", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_palopias", "count" : 1, "parameters" : { "preset" : "blooming" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "all", "mod" ]
+}

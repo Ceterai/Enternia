@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
+  ],
+  "output" : { "item" : "reefjuice", "count" : 1 },
+  "groups" : [ "alta_food", "juice", "all" ]
+}

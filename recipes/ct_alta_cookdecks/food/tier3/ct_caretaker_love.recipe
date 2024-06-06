@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_tsay_cooked", "count" : 2 },
+    { "item" : "ct_gil", "count" : 2 },
+    { "item" : "ct_verriskoywa_miko", "count" : 1 },
+    { "item" : "ct_verriskoywa_alto", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_dinner", "count" : 1, "parameters" : { "preset" : "caretaker" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "all", "mod" ]
+}

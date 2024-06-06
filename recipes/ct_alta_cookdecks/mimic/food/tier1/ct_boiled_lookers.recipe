@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "boiled_lookers" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "boils", "all", "mod" ]
+}

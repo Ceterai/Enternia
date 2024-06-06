@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "neonmelon", "count" : 1 },
-    { "item" : "ct_isoslime_ball", "count" : 2 }
-  ],
-  "output" : { "item" : "ct_iso_jam", "count" : 1, "parameters" : { "preset" : "honey" } },
-  "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "condiments", "jam", "all", "mod" ]
-}

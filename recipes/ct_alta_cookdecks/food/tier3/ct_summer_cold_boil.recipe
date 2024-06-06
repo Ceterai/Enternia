@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "banana", "count" : 1 },
+    { "item" : "corn", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_gil_tsay_stew", "count" : 1, "parameters" : { "preset" : "boil" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "boils", "all", "mod" ]
+}

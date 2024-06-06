@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 1 },
+    { "item" : "ct_ionic_fresh", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_nia_cocktail", "count" : 1, "parameters" : { "preset" : "alternia" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "cocktails", "all", "mod" ]
+}

@@ -36,7 +36,15 @@
       "description" : "Just like your caretaker used to make!",
       "longdescription" : "A great example of \"made with love\" that will leave no alta indifferent.",
       "altaDescription" : "Words can't describe my feelings about this, but the name reflects them perfectly.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 75
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 75,
+      "paletteSwap" : {
+        "#dd4c56":"#4cdda3","#b73d45":"#3db786","#8b2c32":"#2c8b66",
+        "#80ca00":"#ca003c","#538300":"#830026","#3c5e00":"#5e001c",
+        "#ff95a4":"#ff95c7","#ff3f5a":"#ff3f9a","#dd0120":"#dd0169","#8c0014":"#8c0042","#5a000d":"#5a002b",
+        "#d4ff5a":"#fff25a","#b7f601":"#f6e301","#8dbd01":"#bdae01",
+        "#ee7e7f":"#ee7ea4","#c16a7f":"#c16a9c","#aa546a":"#aa5486","#90394e":"#0077a3",
+        "#587fff":"#58b7ff","#0066ff":"#0091c7"
+      }
     }
   }
 }

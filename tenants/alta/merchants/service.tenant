@@ -1,12 +1,12 @@
 {
   "name" : "ct_alta_service_tenant",
-  "priority" : 4,
+  "priority" : 8,
 
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
-    "alta_city" : 8,
-    "commerce" : 8
+    "commerce" : 12,
+    "alta_city" : 12
   },
 
   "tenants" : [

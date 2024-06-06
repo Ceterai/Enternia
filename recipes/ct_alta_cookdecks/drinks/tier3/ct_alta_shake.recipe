@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 2 },
+    { "item" : "ct_aya_powder", "count" : 2 },
+    { "item" : "ct_verriskoywa_miko", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_tonna_shake", "count" : 1, "parameters" : { "preset" : "alta" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "shakes", "milk", "all", "mod" ]
+}

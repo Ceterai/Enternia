@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_aya_jam", "count" : 2 },
+    { "item" : "petalblue", "count" : 2 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "ct_verriskoywa_miko", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alliana_cake", "count" : 1, "parameters" : { "preset" : "orchid" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "cakes", "all", "mod" ]
+}

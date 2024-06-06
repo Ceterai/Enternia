@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "ct_alta_shelf", "count" : 1 },
+    { "item" : "ct_alta_led", "count" : 2 },
+    { "item" : "ct_alta_circuit", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_oven",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor4", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

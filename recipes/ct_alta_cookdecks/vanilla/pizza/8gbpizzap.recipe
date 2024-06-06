@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "automato", "count" : 1 },
+    { "item" : "boltbulb", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "8gbpizzap", "count" : 1 },
+  "groups" : [ "alta_food", "pizza", "all" ]
+}

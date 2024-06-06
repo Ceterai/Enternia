@@ -5,6 +5,14 @@
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "wiki" : { "skip" : true },
   "learnBlueprintsOnPickup" : [ ],
+  "inventoryIcon" : "/assetMissing.png",
+  "description" : "",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "level" : 2, "rarity" : "Common", "price" : 160,
+  "maxStack" : 1, "category" : "preparedFood", "itemTags" : [ ],
+  "foodValue" : 20,
+  "blockingEffects" : [ ],
   "presets" : {
     // T1
     "cooked_arics" : { "baseAsset" : "/items/generic/food/tier1/roastedmushrooms.consumable",
@@ -277,69 +285,117 @@
     // DRINKS
 
     "cuvia_punch" : { "baseAsset" : "/items/generic/food/tier4/alienfruitjuice.consumable",
-      "shortdescription" : "Cuvia Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Cuvia Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 720,
       "description" : "Some straight punch with a sweet taste to it. It says it was made from... cuvia? What is cuva?",
       "longdescription" : "Not to be mixed with kuva - some grineer might get angry at you if you make a kuva punch...",  // https://warframe.fandom.com/wiki/Kuva_(Resource)
       "altaDescription" : "I think I've never tried this. Is this something from crimsash? Looks like it.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#ffa9ff":"#dcc599","#892ae8":"#c3482f","#541abc":"#9d221f",
+        "#6bc4ff":"#ffcb6b","#3595ef":"#efbd35","#1670ca":"#ca9c16"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Alien_Fruit_Juice
     "alta_pear_tea" : { "baseAsset" : "/items/generic/food/tier2/carrotjuice.consumable",
-      "shortdescription" : "Alta Pear Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Alta Pear Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 400,
       "description" : "A good old alta pear tea. Not too sweet, not too sour, just about right everywhere. But, using it in cooking will make it similar to carrot juice.",
       "longdescription" : "The sudden change in taste comes from the meat part of the fruit, making the thickness spread and add more flavor to the mix.",
       "altaDescription" : "A nice, comforting tea mix. I feel like it can be enjoyable any time of year.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
-      "foodValue" : 25 },  // https://starbounder.org/Carrot_Juice
+      "paletteSwap" : {
+        "#ffc554":"#514d70","#f98a13":"#343563","#c65808":"#262a4d",
+        "#59987d":"#596498","#449718":"#ff6bb8","#0b5700":"#ef3586"
+      },
+      "foodValue" : 10 },  // https://starbounder.org/Carrot_Juice
     "ciranga_punch" : { "baseAsset" : "/items/generic/food/tier2/cactusjuice.consumable",
-      "shortdescription" : "Ciranga Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Ciranga Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 720,
       "description" : "Health is important, and so is taste. This punch has both!",
       "longdescription" : "Some multifruit punches have very distinct taste patterns, and this one gives strong ciranga vibes.",
       "altaDescription" : "I've heard this can be used as a substitute for cactus juice. The only problem is... What's a cactus?!", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#d5f958":"#f9e758","#a0c531":"#bba827","#749d24":"#97ac46","#557f08":"#7f2f08"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Cactus_Juice
     "fresh_cocktail" : { "baseAsset" : "/items/generic/food/tier4/bloodypuss.consumable",
-      "shortdescription" : "Fresh Cocktail", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Fresh Cocktail", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 1000,
       "description" : "Strainght and simple - this is a \"fresh\" cocktail, as in a cocktail made from a fresh! Very neat, so much foam too.",
       "longdescription" : "While there are no strict rules on what fresh to use, some might perform better than others.",
       "altaDescription" : "Foamyy, yayy~~", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#fb4990":"#f8fb49","#ce0d48":"#cec90d","#850b1f":"#9c9931",
+        "#ca3102":"#93ca02","#e96524":"#d0e924","#5a9e07":"#ba4e64", "#0b5700":"#00573a"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Bloody_Puss
     "poi_tea" : { "baseAsset" : "/items/generic/food/tier2/tomatojuice.consumable",
-      "shortdescription" : "Poi Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Poi Tea", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 400,
       "description" : "Very thick and fulfilling tea, almost like a well-made kissel.",  // https://en.wikipedia.org/wiki/Kissel
       "longdescription" : "No slimes were hurt in the process of making this tea, I swear.",
       "altaDescription" : "A poi... tea? Forget eating poi, now I can drink it too, nice.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
-      "foodValue" : 25 },  // https://starbounder.org/Tomato_Juice
+      "paletteSwap" : {
+        "#fa7163":"#6369fa","#e32323":"#4a23e3","#ba191d":"#1968ba",
+        "#59987d":"#598998","#449718":"#d0c157","#0b5700":"#002f57"
+      },
+      "foodValue" : 10 },  // https://starbounder.org/Tomato_Juice
     "multi_punch" : { "baseAsset" : "/items/generic/food/tier3/sweetpunch.consumable",
-      "shortdescription" : "Multifruit Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Multifruit Punch", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 720,
       "description" : "Some freshly made fruit multipunch. Wait, no.",
       "longdescription" : "Just pick your favourite fruits and throw them into a mixer! Oh, apparently you also need to be pretty skilled at it.",
       "altaDescription" : "Why eat fruits one-by-one, if I can eat them all at once?", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#d78aff":"#fef6a4","#8f2cd6":"#dec95a","#541d82":"#9b6eb4",
+        "#d7e871":"#e87191","#b6d361":"#d36173","#91b54b":"#b54b52",
+        "#fffd31":"#b62f00","#dad703":"#852100"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Sweet_Punch
 
 
 
     // JAM
 
-    "alta_pear_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
-      "shortdescription" : "Alta Pear Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+    "alta_pear_jam" : { "baseAsset" : "/items/generic/food/tier2/kiwijam.consumable",
+      "shortdescription" : "Alta Pear Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "runeva_cuisine" ], "race" : "alta", "price" : 280,
       "description" : "Moderately sweet jam with borderline liquid viscousity and small pieces of ^#3587ff;alta pear^reset; blending in with everything else.",
       "longdescription" : "Although alta pears are not particularly rare, they usually grow in very specific regions, making such jams pseudo-common in general.",
       "altaDescription" : "A decent jam flavor. Never really learned how to make it, I prefer ^#3587ff;aya jam^reset; instead.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#eef5eb":"#a9dcff","#c5eab7":"#6bc4ff","#81ca64":"#3595ef","#4ca32a":"#2a79e8","#4c7e38":"#1a4ebc","#3e6b2d":"#16429f",
+        "#2e4a22":"#ff6bb8","#416d2f":"#ef3586","#5a7e4c":"#b42865",
+        "#17330d":"#0d1c33"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Kiwi_Jam
-    "alunika_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
-      "shortdescription" : "Alunika Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+    "alunika_jam" : { "baseAsset" : "/items/generic/food/tier4/pussplumjam.consumable",
+      "shortdescription" : "Alunika Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "calin_cuisine" ], "race" : "alta", "price" : 280,
       "description" : "This plain ^#ff3f5a;alunika^reset; jam is a favourite for many altas, but requires special tech to make. Too bad you don't know any recipes that use it...",
       "longdescription" : "While making some alunika powder doesn't seem like a problem, an important part of this jam - alunika extract, is pretty hard to... well, extract.",
       "altaDescription" : "Those darker spots are clumps of powder. Alunika jam is pretty hard to make evenly.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#f03838":"#f3cddd","#d32121":"#e55b8b","#a70a0a":"#ce3d5d",
+        "#efae82":"#c5e091","#ff9a7c":"#c3d17d","#9e7763":"#a6b948",
+        "#5ca1e5":"#5ce5b2","#2965a3":"#29a377","#193d62":"#196247","#0a1826":"#0a261c"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Pussplum_Jam
-    "gillimon_jam" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
+    "gillimon_jam" : { "baseAsset" : "/items/generic/food/tier4/toxictopjam.consumable",
       "shortdescription" : "Gillimon Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
       "description" : "A gil-poi mix called ^gray;gillimon^reset; turned into jam. Perfect for sweet bakery and desserts. Too bad you don't know any recipes that use it...",
       "longdescription" : "While not known for its sweetness, it's often used in desserts to provide a unique, interesting flavor.",
       "altaDescription" : "Honestly, I didn't even know they make it. Such a good ice cream flavor!", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#f6daf1":"#f6dadd","#f2aae2":"#f2aaaf","#f378d7":"#f37881",
+        "#e13fbc":"#e13f4a","#a7269c":"#a72641","#7f2077":"#7f2034",
+        "#f57796":"#531d53",
+        "#6ecd44":"#5a44cd","#478a32":"#46328a","#295e19":"#29195e",
+        "#1f4c11":"#4c0b31","#0b4c48":"#4c0b31","#073633":"#360723"
+      },
       "foodValue" : 25 },  // https://starbounder.org/Toxictop_Jam
-    "miko_honey" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
-      "shortdescription" : "Miko Honey", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 380,
+    "miko_honey" : { "baseAsset" : "/items/generic/food/tier4/toxictopjam.consumable",
+      "shortdescription" : "Miko Honey", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine" ], "race" : "alta", "price" : 380,
       "description" : "An incredibly sweet honey made from a ^#497c64;miko koywa^reset; extract. It's bright pink and it was made with love! Too bad you don't know any recipes that use it...",
       "longdescription" : "This herb-based honey can sweeten-up any dish, even if not intended, so be careful.",
       "altaDescription" : "The taste, and even the smell itself is very alluring.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
+      "paletteSwap" : {
+        "#f6daf1":"#f6dae6","#f2aae2":"#f2aac5","#f378d7":"#f378a6",
+        "#e13fbc":"#e13f7b","#a7269c":"#a72668","#7f2077":"#7f2051",
+        "#f57796":"#f577cc",
+        "#6ecd44":"#cd4472","#478a32":"#8a324a","#295e19":"#5e192b",
+        "#1f4c11":"#4c1121","#0b4c48":"#4c1121","#073633":"#363107"
+      },
       "foodValue" : 28 }  // https://starbounder.org/Toxictop_Jam
   }
 }

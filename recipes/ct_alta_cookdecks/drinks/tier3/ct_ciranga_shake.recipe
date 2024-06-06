@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 2 },
+    { "item" : "thornfruit", "count" : 1 },
+    { "item" : "cacti", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_tonna_shake", "count" : 1, "parameters" : { "preset" : "alien" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "shakes", "milk", "all", "mod" ]
+}

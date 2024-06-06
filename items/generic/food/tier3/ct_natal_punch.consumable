@@ -38,7 +38,24 @@
       "longdescription" : "This \"premium\" version of the recipe contains a much higher concentration of crystals and thus might not be for everyone.",
       "altaDescription" : "Nice touch if you have something chewy to go along with it, or something like a pizza.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
-      "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ]
+      "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ],
+      "paletteSwap" : {
+        "#d4ff5a":"#f67600","#b7f601":"#d68e00","#c2dc48":"#b29f00","#8dbd01":"#b29f00","#6c9000":"#6c9000",
+        "#f4ffed":"#f0ffed","#d0fc99":"#bcfc99","#a6e94b":"#86e94b","#8ceb64":"#64ebb7","#69dc48":"#3db993",
+        "#ffffed":"#edefff","#fced99":"#99b5fc"
+      }
+    },
+    "gum" : {
+      "shortdescription" : "Bubble Gum Punch ^#2080f0;^reset;", "variant" : true,
+      "description" : "A bubble gum-flavored punch made from crystallic ingredients.",
+      "longdescription" : "This \"premium\" version of the recipe contains a much higher concentration of crystals and thus might not be for everyone.",
+      "altaDescription" : "Nice touch if you have something chewy to go along with it, or something like a pizza.",
+      "level" : 5, "rarity" : "Rare", "price" : 780, "foodValue" : 27,
+      "paletteSwap" : {
+        "#d4ff5a":"#5affcf","#b7f601":"#01f6af","#c2dc48":"#48dca4","#8dbd01":"#01bd86","#6c9000":"#009065",
+        "#f4ffed":"#edf7ff","#d0fc99":"#99e2fc","#a6e94b":"#4bc2e9","#8ceb64":"#ab8aff","#69dc48":"#9364e9",
+        "#ffffed":"#ffedf6","#fced99":"#fc99db"
+      }
     }
   }
 }

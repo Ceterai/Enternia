@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "reefpod", "count" : 1 },
+    { "item" : "avesmingo", "count" : 1 },
+    { "item" : "banana", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "multi_punch" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "punch", "all", "mod" ]
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_kettle",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "crafting",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Kettle",
+  "description" : "An electric alta kettle, meant primarily for boiling and purifying water, as well as making tea.",
+  "longdescription" : "This simple, yet useful kitchen appliance is quite popular among altas.",
+  "altaDescription" : "I could bo for a cup of tea right about now...",
+
+  "apexDescription" : "This machine produces different hot liquids.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A smelly drinksss machine.",
+  "glitchDescription" : "Neutral. A punch machine.",
+  "humanDescription" : "Some tasty tea.",
+  "hylotlDescription" : "A hot, pleasant drink.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "tea", "boiled" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Kettle", "subtitle" : "  Tea-making convenience" }
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

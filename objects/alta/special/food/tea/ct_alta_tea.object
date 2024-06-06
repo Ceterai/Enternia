@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alta_tea_fo",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Tea Serving",
+  "description" : "A simple serving of an alta tea. Can be picked up right away to take a closer look.",
+  "longdescription" : "These sample dishes are well preserved and are often used in restaurant displays.",
+  "altaDescription" : "Oa-a, a tea! I wonder which one it is~",
+
+  "apexDescription" : "A likely sweet tea in a bowl. Should I take it?",
+  "avianDescription" : "Ooh, a tasty tea! I bet it tastes just as good as it looks. Only one way to find out!",
+  "floranDescription" : "Tea. Floran shell enjoy itsss sswetnesss!",
+  "glitchDescription" : "Hungry. I should give this tea a taste.",
+  "humanDescription" : "Oh, this looks tasty! I think I should try it. Just a bit.",
+  "hylotlDescription" : "What a wonderful culinary miracle! I wonder if I could claim it.",
+  "novakidDescription" : "This goodness is smellin' very nice!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropPool" : "ct_alta_tea_loot",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

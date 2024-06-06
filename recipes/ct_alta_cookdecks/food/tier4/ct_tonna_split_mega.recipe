@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_zandarm_tart", "count" : 2 },
+    { "item" : "ct_tonnakada", "count" : 1 },
+    { "item" : "ct_iso_jam", "count" : 2 },
+    { "item" : "milk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_tonna_split", "count" : 1, "parameters" : { "preset" : "mega" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "all", "mod" ]
+}

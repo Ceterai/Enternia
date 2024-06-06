@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_tsay_cooked", "count" : 2 },
+    { "item" : "ct_gillikada", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_gil_tsay_stew", "count" : 1, "parameters" : { "preset" : "gharus" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "stew", "all", "mod" ]
+}

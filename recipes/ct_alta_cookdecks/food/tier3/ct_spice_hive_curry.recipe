@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "chili", "count" : 2 },
+    { "item" : "larva", "count" : 2 },
+    { "item" : "rice", "count" : 1 },
+    { "item" : "biosample", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_hive_curry", "count" : 1, "parameters" : { "preset" : "spice" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "curry", "all", "mod" ]
+}

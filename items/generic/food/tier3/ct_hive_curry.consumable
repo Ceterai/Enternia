@@ -40,7 +40,11 @@
       "description" : "Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
       "longdescription" : "This recipe is ablsolutely overloaded on spices, which might scare some altas off, but will atract other ones looking for something exotic.",
       "altaDescription" : "Spicy! Overwhelmingly curry, to the point where you might not even realise that it's all izoling-based.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50
+      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50,
+      "paletteSwap" : {
+        "#9cf600":"#f67600","#60d600":"#d68e00","#00b21a":"#b29f00",
+        "#eae8de":"#e7daee","#c4bba1":"#b695cf","#9d9071":"#8962ab","#756a4e":"#644181","#332b1c":"#ab2460"
+      }
     }
   }
 }

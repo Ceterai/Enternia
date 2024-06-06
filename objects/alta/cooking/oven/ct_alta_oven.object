@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_oven",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "crafting",
+  "level" : 5, "rarity" : "Rare", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Oven",
+  "description" : "A general pizza oven for making, well, pizza. Very sleek and lightweight.",
+  "longdescription" : "Often found in alta bakeries as part of the kitchen assortment, adding many delicious options to the menu.",
+  "altaDescription" : "An oven! For pizza! I'll take one with stuffed crust please.",
+
+  "apexDescription" : "A regular oven, the inside seems like it is meant for baking pizza.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A pizza maker!",
+  "glitchDescription" : "Neutral. An oven for pizzas.",
+  "humanDescription" : "Ah, the smell of pizza...",
+  "hylotlDescription" : "A pretty small oven for making pizza.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "pizza" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Oven", "subtitle" : "  Pizza-making convenience" }
+    }
+  },
+
+  "health" : 1.5,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "chili", "count" : 1 },
+    { "item" : "pussplum", "count" : 1 },
+    { "item" : "ct_gil", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "cuvia_punch" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "punch", "all", "mod" ]
+}

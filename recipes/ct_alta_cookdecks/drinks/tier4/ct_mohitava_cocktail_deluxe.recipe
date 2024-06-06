@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "pineapple", "count" : 1 },
+    { "item" : "ct_bio_fresh", "count" : 1 },
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_mohitava_cocktail", "count" : 1, "parameters" : { "preset" : "deluxe" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "cocktails", "all", "mod" ]
+}

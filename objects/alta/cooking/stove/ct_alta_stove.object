@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_stove",
+  "colonyTags" : [ "cooking" ],
+  "category" : "crafting",
+  "level" : 5, "rarity" : "Rare", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Stove",
+  "description" : "A piece of alta kitchen technology for making punches. Not those kinds of punches. Drinkable ones.",
+  "longdescription" : "The technology is quite complicated, and isn't very common among altas. However - still a must-have in a professional kitchen.",
+  "altaDescription" : "Oa-a, gimme some sweet punch!",
+
+  "apexDescription" : "A block stove for baking pie.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A pie machine.",
+  "glitchDescription" : "Neutral. A big stove.",
+  "humanDescription" : "Pie.",
+  "hylotlDescription" : "A huge stove for making all sorts of things. Smells like freshly-baked pie.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "pies", "crumbles", "banitsas", "strudels", "charlottes", "quiches", "tarts" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Stove", "subtitle" : "  Pie-making convenience" }
+    }
+  },
+
+  "health" : 1.5,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

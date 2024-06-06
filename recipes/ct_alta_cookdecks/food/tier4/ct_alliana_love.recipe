@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_aya_jam", "count" : 2 },
+    { "item" : "ct_assorti", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 4 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "ct_verriskoywa_miko", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alliana_cake", "count" : 1, "parameters" : { "preset" : "love" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "cakes", "all", "mod" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "alienfruitjam", "count" : 1 },
+    { "item" : "pineapple", "count" : 2 },
+    { "item" : "petalyellow", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_heecho_punch", "count" : 1, "parameters" : { "preset" : "alien" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "punch", "all", "mod" ]
+}

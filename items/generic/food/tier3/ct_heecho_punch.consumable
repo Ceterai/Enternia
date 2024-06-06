@@ -33,12 +33,76 @@
   "variants" : [ "extra" ],
   "presets" : {
     "extra" : {
-      "shortdescription" : "Extra Heecho Punch", "variant" : true,
+      "shortdescription" : "Extra Heecho Punch ^#2080f0;^reset;", "variant" : true,
+      "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
+      "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
+      "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
+      "level" : 5, "rarity" : "Rare", "price" : 840, "foodValue" : 28,
+      "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 280 }, { "effect" : "maxhealthboost20", "duration" : 280 } ] ],
+      "paletteSwap" : {
+        "#b7f601":"#f6db01","#8dbd01":"#bda801","#6c9000":"#907f00",
+        "#c9eef6":"#c9f6ed","#76c7e4":"#76e4d8","#4e8fb8":"#4eb5b8",
+        "#63a8fa":"#63dffa","#238ce3":"#23d1e3","#1975ba":"#19afba",
+        "#9cf600":"#f5f600","#60d600":"#add600","#00b21a":"#27b200",
+        "#d5f958":"#f9586f","#a0c531":"#c53142","#557f08":"#7f0809"
+      }
+    },
+    "gillimon" : {
+      "shortdescription" : "Gillimon Punch", "variant" : true,
+      "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
+      "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
+      "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
+      "paletteSwap" : {
+        "#b7f601":"#f601a2","#8dbd01":"#bd017d","#6c9000":"#900060",
+        "#c9eef6":"#eaf6c9","#76c7e4":"#bee476","#4e8fb8":"#86b84e",
+        "#63a8fa":"#9cfa63","#238ce3":"#7be323","#1975ba":"#68ba19",
+        "#9cf600":"#f60087","#60d600":"#d6004e","#00b21a":"#b22800",
+        "#d5f958":"#808080","#a0c531":"#5d5d5d","#557f08":"#333333"
+      }
+    },
+    "alien" : {
+      "shortdescription" : "Exotic Punch", "variant" : true,
       "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
       "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
       "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
       "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
-      "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 300 }, { "effect" : "maxhealthboost20", "duration" : 300 } ] ]
+      "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 300 }, { "effect" : "maxhealthboost20", "duration" : 300 } ] ],
+      "paletteSwap" : {
+        "#b7f601":"#6101f6","#8dbd01":"#4a01bd","#6c9000":"#370090",
+        "#c9eef6":"#f6d7c9","#76c7e4":"#e4a176","#4e8fb8":"#b8854e",
+        "#63a8fa":"#fac863","#238ce3":"#e39323","#1975ba":"#ba7319",
+        "#9cf600":"#7a00f6","#60d600":"#9200d6","#00b21a":"#b20080",
+        "#d5f958":"#f9f158","#a0c531":"#c5c231","#557f08":"#747f08"
+      }
+    },
+    "prism" : {
+      "shortdescription" : "Prism Punch", "variant" : true,
+      "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
+      "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
+      "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
+      "level" : 4, "rarity" : "Uncommon", "price" : 520, "foodValue" : 20,
+      "paletteSwap" : {
+        "#b7f601":"#01f6cf","#8dbd01":"#01bd9e","#6c9000":"#009078",
+        "#c9eef6":"#ebc9f6","#76c7e4":"#d376e4","#4e8fb8":"#b54eb8",
+        "#63a8fa":"#fa63e7","#238ce3":"#e323db","#1975ba":"#ba19b7",
+        "#9cf600":"#00f6e9","#60d600":"#00b8d6","#00b21a":"#0030b2",
+        "#d5f958":"#f6f6f6","#a0c531":"#d8dcf0","#557f08":"#b0b4c8"
+      }
+    },
+    "ayaka" : {
+      "shortdescription" : "Ayabaycalin Punch ^#2080f0;^reset;", "variant" : true,
+      "description" : "A mistery mixture that takes a fresh turn on the heecho punch.",
+      "longdescription" : "An exciting twist that makes a punch enjoyable with changing it too much. This one is also a shorter blend and has a slightly thicker texture compared to the original.",
+      "altaDescription" : "This is what happens when a friend making this decides to experiment with it a bit, and it's pretty delicious.",
+      "level" : 5, "rarity" : "Rare", "price" : 780, "foodValue" : 26,
+      "effects" : [ [ { "effect" : "ct_overcharged_crystals", "duration" : 260 }, { "effect" : "maxhealthboost20", "duration" : 260 } ] ],
+      "paletteSwap" : {
+        "#b7f601":"#01a2f6","#8dbd01":"#017dbd","#6c9000":"#006090",
+        "#c9eef6":"#f6c9ea","#76c7e4":"#e476be","#4e8fb8":"#b84e86",
+        "#63a8fa":"#fa639c","#238ce3":"#e3237b","#1975ba":"#ba1968",
+        "#9cf600":"#0087f6","#60d600":"#004ed6","#00b21a":"#2800b2",
+        "#d5f958":"#7c58f9","#a0c531":"#5631c5","#557f08":"#32087f"
+      }
     }
   }
 }

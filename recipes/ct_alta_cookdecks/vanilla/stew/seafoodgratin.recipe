@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 1 },
+    { "item" : "coralcreep", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "seafoodgratin", "count" : 1 },
+  "groups" : [ "alta_food", "stew", "all" ]
+}

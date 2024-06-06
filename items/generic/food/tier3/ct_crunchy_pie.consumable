@@ -36,7 +36,11 @@
       "description" : "A crunchy pineapple pie with extra steps. Totally worth it.",
       "longdescription" : "This pie includes a variety of carel sorts, like chinids and junis, prepared in different ways to make the difference noticable.",
       "altaDescription" : "Each bite can taste sligthly differently, and the texture is pretty uneven, but I think that is what makes it so interesting.",
-      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50,
+      "paletteSwap" : {
+        "#e6fdc5":"#c5f4fd","#bdeb7a":"#7ad9eb","#99cd4b":"#4bb9cd",
+        "#99c361":"#61c3a9","#769d3a":"#3a9d7e","#597224":"#247255"
+      }
     }
   }
 }

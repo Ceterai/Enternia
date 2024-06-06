@@ -37,7 +37,12 @@
       "description" : "A perfectly crafted motsu based on nia ingredients.",
       "longdescription" : "This recipe is not very different from the original, however, it does happen to feature a great ingredient balance, making perfectly following the recipe very worth it.",
       "altaDescription" : "You might not notice the difference at first, because it's pretty subtle. And pretty satisfying.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45,
+      "paletteSwap" : {
+        "#8f47fe":"#5b47fe","#7437c9":"#4b37c9","#5c1f8b":"#3d1f8b","#451868":"#2e1868","#381454":"#261454",
+        "#65c1d5":"#6580d5","#2d6aa6":"#372da6",
+        "#76ab12":"#12a0ab","#598801":"#017f88"
+      }
     }
   }
 }

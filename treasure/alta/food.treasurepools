@@ -1,0 +1,225 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR FOOD OBJECTS
+  // ==============================================================================================
+  // These are the possible contents of food objects found at `/objects/alta/special/food/`
+
+{
+  "ct_alta_dessert_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_gillikada", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonnakada", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonnakada", 1, { "preset" : "virma" } ] },
+          { "weight" : 0.08, "item" : [ "ct_gillikada", 1, { "preset" : "split" } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonnakada", 1, { "preset" : "split" } ] },
+
+          { "weight" : 0.08, "item" : [ "ct_zandarm_tart", 1, { "variant" : true } ] },
+          { "weight" : 0.07, "item" : [ "ct_aya_icecream", 1, { "preset" : "dessert" } ] },
+          { "weight" : 0.07, "item" : [ "ct_biomix_icecream", 1, { "preset" : "dessert" } ] },
+          { "weight" : 0.07, "item" : [ "ct_crystal_icecream", 1, { "preset" : "dessert" } ] },
+          { "weight" : 0.07, "item" : [ "ct_tsay_icecream", 1, { "preset" : "dessert" } ] },
+          { "weight" : 0.07, "item" : [ "ct_zandarm_tart", 1, { "preset" : "prime" } ] },
+
+          { "weight" : 0.07, "item" : [ "ct_tonna_meringue", 1, { "variant" : true } ] },
+          { "weight" : 0.06, "item" : [ "ct_tonna_meringue", 1, { "preset" : "kada" } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_meringue", 1, { "preset" : "crumble" } ] },
+
+          { "weight" : 0.05, "item" : [ "ct_tonna_split", 1, { "variant" : true } ] },
+          { "weight" : 0.04, "item" : [ "ct_tonna_split", 1, { "preset" : "extra" } ] },
+          { "weight" : 0.03, "item" : [ "ct_tonna_split", 1, { "preset" : "mega" } ] },
+          { "weight" : 0.02, "item" : [ "ct_tonna_split", 1, { "preset" : "surprize" } ] },
+
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "tonna_bowl" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "yaavikada" } ] }
+        ]
+  } ] ],
+  "ct_alta_cocktail_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_tonna_shake", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_shake", 1, { "preset" : "perfect" } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_shake", 1, { "preset" : "alien" } ] },
+
+          { "weight" : 0.08, "item" : [ "ct_mohitava_cocktail", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_warped_cocktail", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_yuri_cocktail", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_mohitava_cocktail", 1, { "preset" : "deluxe" } ] },
+          { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "preset" : "ceternia" } ] },
+          { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "preset" : "alternia" } ] },
+          { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "preset" : "enternia" } ] },
+          { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "preset" : "stardust" } ] },
+          { "weight" : 0.08, "item" : [ "ct_warped_cocktail", 1, { "preset" : "glowarp" } ] },
+          { "weight" : 0.08, "item" : [ "ct_yuri_cocktail", 1, { "preset" : "deluxe" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "fresh_cocktail" } ] }
+        ]
+  } ] ],
+  "ct_alta_punch_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_aya_punch", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_natal_punch", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_punch", 1, { "preset" : "bluesweet" } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "preset" : "extra" } ] },
+          { "weight" : 0.08, "item" : [ "ct_natal_punch", 1, { "preset" : "deluxe" } ] },
+          { "weight" : 0.08, "item" : [ "ct_natal_punch", 1, { "preset" : "gum" } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "preset" : "alien" } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "preset" : "ayaka" } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "preset" : "gillimon" } ] },
+          { "weight" : 0.08, "item" : [ "ct_heecho_punch", 1, { "preset" : "prism" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "cuvia_punch" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "ciranga_punch" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "multi_punch" } ] }
+        ]
+  } ] ],
+  "ct_alta_tea_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_calio_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_gheatsyn_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_koywa_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_maito_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_miko_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_vermont_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_yaara_tea", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_calio_tea", 1, { "preset" : "thick" } ] },
+          { "weight" : 0.08, "item" : [ "ct_calio_tea", 1, { "preset" : "ayaka" } ] },
+          { "weight" : 0.08, "item" : [ "ct_calio_tea", 1, { "preset" : "carel" } ] },
+          { "weight" : 0.08, "item" : [ "ct_gheatsyn_tea", 1, { "preset" : "gheamont" } ] },
+          { "weight" : 0.08, "item" : [ "ct_gheatsyn_tea", 1, { "preset" : "alien" } ] },
+          { "weight" : 0.08, "item" : [ "ct_koywa_tea", 1, { "preset" : "koywa" } ] },
+          { "weight" : 0.08, "item" : [ "ct_koywa_tea", 1, { "preset" : "dreamer" } ] },
+          { "weight" : 0.08, "item" : [ "ct_maito_tea", 1, { "preset" : "calm" } ] },
+          { "weight" : 0.08, "item" : [ "ct_maito_tea", 1, { "preset" : "crimson" } ] },
+          { "weight" : 0.08, "item" : [ "ct_miko_tea", 1, { "preset" : "yae" } ] },
+          { "weight" : 0.08, "item" : [ "ct_miko_tea", 1, { "preset" : "vitamin" } ] },
+          { "weight" : 0.08, "item" : [ "ct_vermont_tea", 1, { "preset" : "exotic" } ] },
+          { "weight" : 0.08, "item" : [ "ct_vermont_tea", 1, { "preset" : "tsay" } ] },
+          { "weight" : 0.08, "item" : [ "ct_yaara_tea", 1, { "preset" : "ceternia" } ] },
+          { "weight" : 0.08, "item" : [ "ct_yaara_tea", 1, { "preset" : "viona" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "alta_pear_tea" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "poi_tea" } ] }
+        ]
+  } ] ],
+  "ct_alta_fresh_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_bio_fresh", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_ionic_fresh", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_fresh", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_bio_fresh", 1, { "preset" : "miko" } ] },
+          { "weight" : 0.08, "item" : [ "ct_ionic_fresh", 1, { "preset" : "party" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_fresh", 1, { "preset" : "viona" } ] },
+          { "weight" : 0.08, "item" : [ "ct_bio_fresh", 1, { "preset" : "essence" } ] },
+          { "weight" : 0.08, "item" : [ "ct_ionic_fresh", 1, { "preset" : "essence" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_fresh", 1, { "preset" : "essence" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_fresh", 1, { "preset" : "markvin" } ] }
+        ]
+  } ] ],
+  "ct_alta_cake_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_alliana_cake", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_ion_cake", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_onitti_cake", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_pavolda_cake", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_alliana_cake", 1, { "preset" : "orchid" } ] },
+          { "weight" : 0.08, "item" : [ "ct_alliana_cake", 1, { "preset" : "love" } ] },
+          { "weight" : 0.08, "item" : [ "ct_ion_cake", 1, { "preset" : "love" } ] },
+          { "weight" : 0.08, "item" : [ "ct_pavolda_cake", 1, { "preset" : "love" } ] },
+          { "weight" : 0.08, "item" : [ "ct_onitti_cake", 1, { "preset" : "love" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "birthday_cake" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "estria_love" } ] }
+        ]
+  } ] ],
+  "ct_alta_jam_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_aya_jam", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_crystal_jam", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_iso_jam", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_iso_jam", 1, { "preset" : "cryo" } ] },
+    
+          { "weight" : 0.08, "item" : [ "ct_crystal_jam", 1, { "preset" : "bishyn" } ] },
+          { "weight" : 0.08, "item" : [ "ct_crystal_jam", 1, { "preset" : "calline" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_jam", 1, { "preset" : "runeva" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_jam", 1, { "preset" : "sap" } ] },
+    
+          { "weight" : 0.08, "item" : [ "ct_iso_jam", 1, { "preset" : "honey" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_jam", 1, { "preset" : "honey" } ] },
+    
+          // Mimic items
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "alta_pear_jam" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "alunika_jam" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "gillimon_jam" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "miko_honey" } ] }
+        ]
+  } ] ],
+  "ct_alta_meal_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_alta_dinner", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_alta_dinner", 1, { "preset" : "caretaker" } ] },
+          { "weight" : 0.08, "item" : [ "ct_haruplavu_venetto", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_ion_risotto", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_palopias", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_haruplavu_venetto", 1, { "preset" : "prime" } ] },
+          { "weight" : 0.08, "item" : [ "ct_ion_risotto", 1, { "preset" : "perfect" } ] },
+          { "weight" : 0.08, "item" : [ "ct_palopias", 1, { "preset" : "blooming" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "juni_porridge_w_galo" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "calin_jam_dumplings" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "graa_venetto" } ] }
+        ]
+  } ] ],
+  "ct_alta_motsu_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_aya_boiled", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_boiled", 1, { "preset" : "blue_boil" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "boiled_tonna" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "boiled_lookers" } ] },
+          { "weight" : 0.08, "item" : [ "ct_gil_tsay_stew", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_niatto_motsu", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_onitti_motsu", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_gil_tsay_stew", 1, { "preset" : "gharus" } ] },
+          { "weight" : 0.08, "item" : [ "ct_gil_tsay_stew", 1, { "preset" : "boil" } ] },
+          { "weight" : 0.08, "item" : [ "ct_niatto_motsu", 1, { "preset" : "perfect" } ] },
+          { "weight" : 0.08, "item" : [ "ct_onitti_motsu", 1, { "preset" : "perfect" } ] },
+          { "weight" : 0.08, "item" : [ "ct_rimar_motsu", 1, { "preset" : "perfect" } ] },
+          { "weight" : 0.08, "item" : [ "ct_rimar_motsu", 1, { "preset" : "hive" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "aric_stew" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "motsu_original" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "viona_motsu" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "blue_blend_motsu" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "everything_stew" } ] }
+        ]
+  } ] ],
+  "ct_alta_pie_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_aya_gil_pie", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_crunchy_pie", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_meringue", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_gil_pie", 1, { "preset" : "runeva" } ] },
+          { "weight" : 0.08, "item" : [ "ct_aya_gil_pie", 1, { "preset" : "alien" } ] },
+          { "weight" : 0.08, "item" : [ "ct_crunchy_pie", 1, { "preset" : "calin" } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_meringue", 1, { "preset" : "kada" } ] },
+          { "weight" : 0.08, "item" : [ "ct_tonna_meringue", 1, { "preset" : "crumble" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "alta_charlotte" } ] },
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "sentia_crown_pie" } ] }
+        ]
+  } ] ],
+  "ct_alta_salad_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "nia_assorti" } ] },
+          { "weight" : 0.08, "item" : [ "ct_assorti", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_assorti", 1, { "preset" : "salad" } ] },
+          { "weight" : 0.08, "item" : [ "ct_fivaldo_salad", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_fivaldo_salad", 1, { "preset" : "banquet" } ] },
+          { "weight" : 0.08, "item" : [ "ct_special_mimosa", 1, { "variant" : true } ] },
+          { "weight" : 0.08, "item" : [ "ct_special_mimosa", 1, { "preset" : "lenn" } ] }
+        ]
+  } ] ],
+  "ct_alta_soup_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [  //          total: 1.34
+        { "weight" : 0.08, "item" : [ "ct_alta_soup", 1, { "variant" : true } ] },
+        { "weight" : 0.08, "item" : [ "ct_minto_soup", 1, { "variant" : true } ] },
+        { "weight" : 0.08, "item" : [ "ct_staris_soup", 1, { "variant" : true } ] },
+        { "weight" : 0.08, "item" : [ "ct_alta_soup", 1, { "preset" : "perfect" } ] },
+        { "weight" : 0.08, "item" : [ "ct_minto_soup", 1, { "preset" : "maitai" } ] },
+        { "weight" : 0.08, "item" : [ "ct_minto_soup", 1, { "preset" : "perfect" } ] },
+        { "weight" : 0.08, "item" : [ "ct_staris_soup", 1, { "preset" : "perfect" } ] }
+        ]
+  } ] ]
+}

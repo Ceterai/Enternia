@@ -21,8 +21,8 @@
   "lightColor" : [0, 20, 48],
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] },
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
   ],
   "scripts" : [ "/objects/alta/switch.lua" ],
   "scriptDelta" : 60,

@@ -1,0 +1,15 @@
+{
+  "input" : [
+    { "item" : "ct_alta_juicer", "count" : 1 },
+    { "item" : "ct_alta_conserver", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 2 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_saturator",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor4", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

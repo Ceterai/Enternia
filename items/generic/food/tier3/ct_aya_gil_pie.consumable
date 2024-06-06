@@ -28,11 +28,30 @@
   "variants" : [ "runeva" ],
   "presets" : {
     "runeva" : {
-      "shortdescription" : "Runeva Pie", "variant" : true,
+      "shortdescription" : "Runeva Pie ^#2080f0;^reset;", "variant" : true,
       "description" : "A carefully crafted pie from peak-ripe ayas and gils.",
       "longdescription" : "A variety in original recipe that creates a proper runeva fruit mix filling for this amazing pie.",
       "altaDescription" : "Smells like autumn and a nice walk in a fruitful garden...",
-      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 50
+      "level" : 5, "rarity" : "Rare", "price" : 880, "foodValue" : 45,
+      "paletteSwap" : {
+        "#e24342":"#e28942","#bc1b1f":"#bc5d1b","#8b0c18":"#8b370c",
+        "#fdc5db":"#ffc3c7","#eb7aa7":"#ff6670","#cd4b80":"#eb2d3b",
+        "#cbd9ed":"#276bcc","#91aedc":"#0a53b6","#7c90d4":"#033e94",
+        "#468ae7":"#73ba76","#2a64b4":"#c3ac2b","#2d6aa6":"#417844"
+      }
+    },
+    "alien" : {
+      "shortdescription" : "Ciranga Pie ^#2080f0;^reset;", "variant" : true,
+      "description" : "This tingy pie is teeming with ciranga flavoring. Which is interesting, considering they're unusual for this type of dish.",
+      "longdescription" : "This recipe uses a freshly-made tonnakada as base for its recipe. Therefore, the baked tonna shell is used as pie casing too.",
+      "altaDescription" : "This is one of the reasons cooking is so fun - you can achieve similar results with different ingredients!",
+      "level" : 5, "rarity" : "Rare", "price" : 820, "foodValue" : 42,
+      "paletteSwap" : {
+        "#e24342":"#863f10","#bc1b1f":"#502910","#8b0c18":"#351e10",
+        "#fdc5db":"#f5dfcc","#eb7aa7":"#e7af7e","#cd4b80":"#cd864b",
+        "#cbd9ed":"#cec96a","#91aedc":"#bfac4d","#7c90d4":"#967b2c",
+        "#468ae7":"#67832c","#2a64b4":"#546724","#1f539b":"#364115"
+      }
     }
   }
 }

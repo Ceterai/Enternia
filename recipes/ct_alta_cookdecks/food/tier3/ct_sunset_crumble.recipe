@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "pineapple", "count" : 1 },
+    { "item" : "feathercrownjam", "count" : 1 },
+    { "item" : "wheat", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_tonna_meringue", "count" : 1, "parameters" : { "preset" : "crumble" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "crumbles", "all", "mod" ]
+}

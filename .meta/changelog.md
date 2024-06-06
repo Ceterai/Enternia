@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.2](#232)
     - [2.3.1](#231)
     - [2.3.0](#230)
   - [Update 2.2 - Alta Colonies](#update-22---alta-colonies)
@@ -50,6 +51,66 @@ If you want to see more detailed changes, you can always navigate to the [commit
 </details>
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
+
+### 2.3.2
+
+This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
+
+**Main:**
+
+- fixed Race Traits support;
+- added 20 objects;
+- added more food recipes, now at 214 prepared alta food recipes, and 225 food-related recipes in general;
+- please note that all recipes are only available in **Alta Cookdecks** and specialized alta cooking stations, only basic ones are available at other cooking stations.
+
+**Alta:**
+
+- added 12 **Food Objects** - decorations that give you random alta food when you click on them:
+  - **Alta Cake Serving**;
+  - **Alta Cocktail Serving**;
+  - **Alta Dessert Serving**;
+  - **Alta Fresh Serving**;
+  - **Alta Jam Serving**;
+  - **Alta Meal Serving**;
+  - **Alta Motsu Serving**;
+  - **Alta Pie Serving**;
+  - **Alta Punch Serving**;
+  - **Alta Salad Serving**;
+  - **Alta Soup Serving**;
+  - **Alta Tea Serving**.  
+  ![ ](/.meta/images/showcase/2.3.2/food.png)
+- added 8 more **Alta Cooking Stations**:
+  - **Alta Blender** - for making milkshakes;
+  - **Alta Cakery** - for making cakes;
+  - **Alta Conserver** - for making jam, sap, extracts and honey;
+  - **Alta Icer** - for making ice cream;
+  - **Alta Kitchener** - for making soup, stew, boils and porriges;
+  - **Alta Oven** - for making pizza;
+  - **Alta Shaker** - for making cocktails;
+  - **Alta Stove** - for making pies, charlottes, crumbles, tarts, etc.  
+  ![ ](/.meta/images/showcase/2.3.2/cooking1.png)![ ](/.meta/images/showcase/2.3.2/cooking2.png)
+- added 10 more special food variants;
+- specialized cooking stations now also include certain vanilla recipes;
+- **Alta Scanner** now shows whether a modified item can be used as substitute for a different item in recipes:  
+  ![ ](/.meta/images/showcase/2.3.2/scanner.png)
+
+**Translation:**
+
+- newly added decorations, described in above sections, require translation.
+
+**Dev:**
+
+- added explicit icons to monster egg items for better compatability with Spawnable Item Pack;
+- moved the rest of treasure pools to separate files.
+
+**Other:**
+
+- added missing food recipes for tier 3 and 4 food;
+- added custom tier 3 and 4 food variants;
+- updated icons for perfect tier 3 and 4 food;
+- objects no longer show tags in base tooltips - they are still listed in the **Alta Scanner**, giving it additional purpose;
+- fixed support for Race Traits by mentioning it in the "included" list;
+- minor bug fixes.
 
 ### 2.3.1
 

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crystalplant", "count" : 2 },
+    { "item" : "ct_gheatsyn_tea", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 2 },
+    { "item" : "chili", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_minto_soup", "count" : 1, "parameters" : { "preset" : "maitai" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "sides", "soup", "all", "mod" ]
+}

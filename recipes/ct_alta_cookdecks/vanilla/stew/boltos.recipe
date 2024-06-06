@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "boltbulb", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "boltos", "count" : 1 },
+  "groups" : [ "alta_food", "stew", "all" ]
+}

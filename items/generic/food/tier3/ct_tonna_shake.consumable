@@ -34,7 +34,35 @@
       "longdescription" : "This shake has turned out really well. Experimenting does pay back pretty nicely sometimes.",
       "altaDescription" : "It's extra-good! Yum...",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
-      "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ]
+      "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ],
+      "paletteSwap" : {
+        "#10b4ef":"#f4fafd","#106686":"#acdcec","#103f50":"#10b4ef","#102b35":"#2d6aa6",
+        "#f2f2f2":"#f2f2f2","#dadada":"#dadada","#acacac":"#acacac",
+        "#65c1d5":"#65d5aa","#2d6aa6":"#2da69d"
+      }
+    },
+    "alien" : {
+      "shortdescription" : "Ciranga Shake", "variant" : true,
+      "description" : "An exotic milkshake that can make you feel like you're full of vitamins.",
+      "longdescription" : "This shake has turned out really well. Experimenting does pay back pretty nicely sometimes.",
+      "altaDescription" : "It's extra-good! Yum...",
+      "paletteSwap" : {
+        "#10b4ef":"#fdfbf4","#106686":"#ecdcac","#103f50":"#efba10","#102b35":"#a67c2d",
+        "#f2f2f2":"#fffded","#dadada":"#fce299","#acacac":"#e9bd4b",
+        "#65c1d5":"#d57265","#2d6aa6":"#a6612d"
+      }
+    },
+    "alta" : {
+      "shortdescription" : "Alta Shake", "variant" : true,
+      "description" : "A simple alta milkshake made with most basic ingredients available in alta culinary culture.",
+      "longdescription" : "While its components are pretty common to find, it doesn't impact its taste negatively in any way.",
+      "altaDescription" : "So milky, so shaky! Wait, milkshakes aren't supposed to shake on their own...",
+      "level" : 4, "rarity" : "Uncommon", "price" : 600, "foodValue" : 25,
+      "paletteSwap" : {
+        "#10b4ef":"#ffeff7","#106686":"#fcdff0","#103f50":"#f2b4d8","#102b35":"#e686c4",
+        "#f2f2f2":"#f6f6f6","#dadada":"#d8dcf0","#acacac":"#b0b4c8",
+        "#65c1d5":"#707088","#2d6aa6":"#606074"
+      }
     }
   }
 }

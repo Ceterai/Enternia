@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_icer",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "crafting",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Icer",
+  "description" : "A piece of alta kitchen technology for making punches. Not those kinds of punches. Drinkable ones.",
+  "longdescription" : "The technology is quite complicated, and isn't very common among altas. However - still a must-have in a professional kitchen.",
+  "altaDescription" : "Oa-a-a...~ An icer full of ice cream...",
+
+  "apexDescription" : "This machine produces different iced cream tastes.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A sssnow ssnack machine.",
+  "glitchDescription" : "Neutral. An ice cream machine.",
+  "humanDescription" : "Some tasty icecream.",
+  "hylotlDescription" : "A cooking fridge full of differently-flavored snowcones.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "icecream" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Icer", "subtitle" : "  Ice cream-making convenience" }
+    }
+  },
+
+  "health" : 2.0,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

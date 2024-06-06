@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "rawbacon", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "pizzaslice", "count" : 1 },
+  "groups" : [ "alta_food", "pizza", "all" ]
+}

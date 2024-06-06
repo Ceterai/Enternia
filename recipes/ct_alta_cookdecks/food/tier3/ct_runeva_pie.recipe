@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_aya_boiled", "count" : 2 },
+    { "item" : "ct_gil", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_aya_gil_pie", "count" : 1, "parameters" : { "preset" : "runeva" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "pies", "all", "mod" ]
+}

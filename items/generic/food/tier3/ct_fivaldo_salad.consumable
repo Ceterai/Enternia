@@ -40,7 +40,15 @@
       "description" : "Now we're talking! This salad goes far and beyond, what a masterpiece!",
       "longdescription" : "While this particular variation doesn't require as much cutting and mixing as the original salad, the presentation and distribution play a big role in the overall experience.",
       "altaDescription" : "A whole banquet is very much a party thing. Fast to prepare, and the big portion size is great for a lot of friends. Or even just for you.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1100, "foodValue" : 55
+      "level" : 6, "rarity" : "Legendary", "price" : 1100, "foodValue" : 55,
+      "paletteSwap" : {
+        "#9cf600":"#00f608","#60d600":"#00d62f","#00b21a":"#00b290",
+        "#68dcff":"#6877ff","#3cb3d8":"#3c4bd8","#2c839d":"#2c379d","#252c33":"#272533",
+        "#b2ff2d":"#2dff34","#80ca00":"#00ca06","#538300":"#008304",
+        "#ae75f0":"#f075e0","#713bb0":"#b03ba0","#541d82":"#821d6c",
+        "#3aa73f":"#3aa787","#497c56":"#497c78","#2d564a":"#2d4756",
+        "#3587ff":"#6935ff","#0066ff":"#4400ff","#0042a6":"#2d00a6","#002a69":"#1c0069"
+      }
     }
   }
 }

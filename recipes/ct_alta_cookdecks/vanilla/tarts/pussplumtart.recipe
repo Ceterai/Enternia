@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "pussplumjam", "count" : 1 },
+    { "item" : "ct_aya_powder", "count" : 2 }
+  ],
+  "output" : { "item" : "pussplumtart", "count" : 1 },
+  "groups" : [ "alta_food", "tarts", "all" ]
+}

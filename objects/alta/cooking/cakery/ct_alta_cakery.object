@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_cakery",
+  "colonyTags" : [ "cooking", "cafe", "commerce" ],
+  "category" : "crafting",
+  "level" : 6, "rarity" : "Legendary", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Cakery",
+  "description" : "A piece of alta kitchen technology for making cakes. With this, you can open up your own bakery! Cake-ry, that is.",
+  "longdescription" : "Similar to the inner workings of the alta icer, this cooking station requires some powerful coolant to work properly.",
+  "altaDescription" : "Ah, cakes. Do I want to spend the next couple of hours in bliss?",
+
+  "apexDescription" : "This machine contains various party cakes.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A tasssty cake machine.",
+  "glitchDescription" : "Neutral. A cake machine.",
+  "humanDescription" : "Some tasty cakes.",
+  "hylotlDescription" : "A counter with everything you need to bake a delicious cake.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "cakes" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Cakery", "subtitle" : "  Cake-making convenience" }
+    }
+  },
+
+  "health" : 2.5,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

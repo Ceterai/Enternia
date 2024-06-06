@@ -16,14 +16,15 @@ function swapItem(widgetName)
   if itemDescriptor then
     itemDescriptor.count = 1
     widget.setItemSlotItem(widgetName, itemDescriptor)
-    item = root.itemConfig(itemDescriptor)
-    dir = item.directory
-    config = item.config
-    parameters = item.parameters
+    local item = root.itemConfig(itemDescriptor)
+    local dir = item.directory
+    local config = item.config
+    local parameters = item.parameters
     local tips = getTextConfig()
     local itemInfo = getTextConfig('/items/active/unsorted/alta/scanner/items.config:database')
     parameters = sb.jsonMerge(parameters, itemInfo[config.itemName or config.objectName] or {})
     local configParameter = function(key, default) return getValue(key, default, config, parameters) end
+    local uid = configParameter("itemName")
     widget.setText("rarityLabel", configParameter('rarity'))
     widget.setVisible("emptyLabel", false)
 
@@ -64,6 +65,9 @@ function swapItem(widgetName)
     local lore = '    '..configParameter("shortdescription", "")  -- Full description constructor in form of a string variable.
     if configParameter("description") then lore = appendText(lore, configParameter("description"), '\n') end
     if configParameter("longdescription") then lore = appendText(lore, configParameter("longdescription"), '\n') end
+    if configParameter("preset") and not string.find(uid, "mimic") then
+      lore = appendText(lore, string.format(tips.derivative, root.itemConfig(uid).config.shortdescription), '\n')
+    end
     if configParameter("altaDescription") then
       lore = appendText(lore, string.format(tips.scan.lore, 'alta'), '\n\n    ')
       lore = appendText(lore, configParameter("altaDescription"), '\n')

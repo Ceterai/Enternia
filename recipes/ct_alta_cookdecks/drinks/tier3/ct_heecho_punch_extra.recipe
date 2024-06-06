@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_biomix_icecream", "count" : 1 },
+    { "item" : "ct_maito_tea", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_heecho_punch", "count" : 1, "parameters" : { "preset" : "extra" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "drinks", "punch", "all", "mod" ]
+}

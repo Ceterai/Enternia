@@ -1,0 +1,19 @@
+{
+  "input" : [
+    { "item" : "ct_alta_shelf", "count" : 2 },
+    { "item" : "ct_alta_plate_stack", "count" : 2 },
+    { "item" : "ct_alta_dishes", "count" : 2 },
+    { "item" : "ct_alta_kettle", "count" : 1 },
+    { "item" : "ct_alta_microwave", "count" : 1 },
+    { "item" : "ct_alta_energy_block", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "fabric", "count" : 4 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_cookdecks",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor5", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

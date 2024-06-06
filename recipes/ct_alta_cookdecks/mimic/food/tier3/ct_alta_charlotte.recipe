@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_aya_boiled", "count" : 2 },
+    { "item" : "ct_aya_powder", "count" : 2 },
+    { "item" : "ct_gharus_spice", "count" : 2 },
+    { "item" : "ct_verriskoywa_faro", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "alta_charlotte" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "charlottes", "all", "mod" ]
+}

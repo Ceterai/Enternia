@@ -96,9 +96,9 @@
 
 
   "descriptionLabel" : {
-    "type" : "label", "position" : [14, 83],
+    "type" : "label", "position" : [14, 93],
     "hAnchor" : "left",
-    "vAnchor" : "mid",
+    "vAnchor" : "top",
     "fontSize" : 6,
     "wrapWidth" : 123
   },
@@ -116,22 +116,8 @@
     "wrapWidth" : 126
   },
 
-  "tagsTitleLabel" : {
-    "type" : "label", "position" : [14, 47],
-    "hAnchor" : "left",
-    "fontSize" : 6,
-    "wrapWidth" : 123
-  },
-  "tagsLabel" : {
-    "type" : "label", "position" : [136, 50],
-    "hAnchor" : "right",
-    "vAnchor" : "mid",
-    "lineSpacing" : 0.8,
-    "fontSize" : 6,
-    "wrapWidth" : 110
-  },
   "smashLabel" : {
-    "type" : "label", "position" : [14, 54],
+    "type" : "label", "position" : [14, 47],
     "hAnchor" : "left",
     "fontSize" : 6,
     "wrapWidth" : 128

@@ -29,10 +29,29 @@
   "presets" : {
     "kada" : {
       "shortdescription" : "Tonnakada Meringue", "variant" : true,
-      "description" : "The softness of this pie makes it feel like it's melting in your mouth.",
+      "description" : "The softness of this full-on meringue makes it feel like it's melting in your mouth.",
       "longdescription" : "This recipe uses a freshly-made tonnakada as base for its recipe. Therefore, the baked tonna shell is used as pie casing too.",
       "altaDescription" : "A very cool turn on a regular tonna meringue, that just sounds like a fun idea.",
-      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 55
+      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 55,
+      "paletteSwap" : {
+        "#106686":"#10867a","#103f50":"#105049","#102b35":"#103531",
+        "#f4fafd":"#f4fafd","#acdcec":"#acdcec","#10b4ef":"#10b4ef",
+        "#ceb06a":"#6aa1ce","#bf8f4d":"#4d99bf","#96602c":"#2c7c96","#6c411e":"#1e5c6c",
+        "#65c1d5":"#65d5ad","#2d6aa6":"#2da6a1"
+      }
+    },
+    "crumble" : {
+      "shortdescription" : "Sunset Crumble", "variant" : true,
+      "description" : "The softness of this crumble pie makes it feel like it's melting in your mouth.",
+      "longdescription" : "A combination of rare fruits gives it an additionally exceptional texture, eating it hot is preferred due to that as well.",
+      "altaDescription" : "A soft, warm crumble pie is such an excellent dish to go along with some tea!",
+      "level" : 4, "rarity" : "Uncommon", "price" : 560, "foodValue" : 35, "itemTags" : [ "alta_cuisine", "dessert", "crumble" ],
+      "paletteSwap" : {
+        "#106686":"#863f10","#103f50":"#502910","#102b35":"#351e10",
+        "#f4fafd":"#b689a4","#acdcec":"#a95b8b","#10b4ef":"#80245c",
+        "#ceb06a":"#ddd4c2","#bf8f4d":"#cebeaa","#96602c":"#ab9580","#6c411e":"#877366",
+        "#65c1d5":"#d56596","#2d6aa6":"#a62d3d"
+      }
     }
   }
 }

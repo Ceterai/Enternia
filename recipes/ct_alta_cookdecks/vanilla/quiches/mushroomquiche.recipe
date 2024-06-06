@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "shroom", "count" : 5 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "mushroomquiche", "count" : 1 },
+  "groups" : [ "alta_food", "quiches", "all" ]
+}

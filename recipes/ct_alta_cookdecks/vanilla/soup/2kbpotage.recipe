@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "currentcorn", "count" : 1 },
+    { "item" : "automato", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "2kbpotage", "count" : 1 },
+  "groups" : [ "alta_food", "soup", "all" ]
+}

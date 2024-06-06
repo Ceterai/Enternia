@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_root", "count" : 2 },
+    { "item" : "milk", "count" : 2 },
+    { "item" : "ct_verriskoywa_alto", "count" : 2 },
+    { "item" : "ct_minto_spice", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_onitti_motsu", "count" : 1, "parameters" : { "preset" : "perfect" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "sides", "soup", "motsu", "all", "mod" ]
+}

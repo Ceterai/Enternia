@@ -1,9 +1,0 @@
-{
-  "input" : [
-    { "item" : "ct_ayaka_wood", "count" : 2 },
-    { "item" : "ct_verriskoywa_miko", "count" : 4 }
-  ],
-  "output" : { "item" : "ct_aya_jam", "count" : 1, "parameters" : { "preset" : "honey" } },
-  "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "condiments", "jam", "all", "mod" ]
-}

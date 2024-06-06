@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_calio_tea", "count" : 1 },
+    { "item" : "ct_crystal_jam", "count" : 2 },
+    { "item" : "ct_alternia_shard", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 2 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_staris_soup", "count" : 1, "parameters" : { "preset" : "perfect" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "sides", "soup", "all", "mod" ]
+}

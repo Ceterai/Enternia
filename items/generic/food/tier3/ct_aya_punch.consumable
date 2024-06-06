@@ -29,12 +29,13 @@
   "variants" : [ "bluesweet" ],
   "presets" : {
     "bluesweet" : {
-      "shortdescription" : "Bluesweet Punch", "variant" : true,
+      "shortdescription" : "Bluesweet Punch ^#2080f0;^reset;", "variant" : true,
       "description" : "An aya punch with extra ayas and extra sweetness. The name checks out.",
       "longdescription" : "For this recipe, ayas are intentionally kept as sweet as possible. This results in a flavor shower that keeps on giving.",
       "altaDescription" : "A punch with an actual flavor punch to it, huh. Wouldn't expect it from something just plain sweet.",
-      "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
-      "effects" : [ [ { "effect" : "lowgrav", "duration" : 360 } ] ]
+      "level" : 5, "rarity" : "Rare", "price" : 840, "foodValue" : 28,
+      "effects" : [ [ { "effect" : "lowgrav", "duration" : 330 } ] ],
+      "paletteSwap" : {"#a0d1ff":"#a0a2ff","#0088ff":"#6670ff","#0066ff":"#009cff","#0040aa":"#0064aa","#00256b":"#003c6b","#ff6bcb":"#6babff","#ef359e":"#3576ef","#ca1679":"#1652ca"}
     }
   }
 }

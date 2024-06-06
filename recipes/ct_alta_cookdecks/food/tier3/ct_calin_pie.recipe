@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_crystal_jam", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 4 },
+    { "item" : "crystalplant", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_crunchy_pie", "count" : 1, "parameters" : { "preset" : "calin" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "pies", "all", "mod" ]
+}

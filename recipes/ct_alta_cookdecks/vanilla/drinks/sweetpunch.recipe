@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "pineapple", "count" : 1 },
+    { "item" : "kiwi", "count" : 1 },
+    { "item" : "grapes", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 1 }
+  ],
+  "output" : { "item" : "sweetpunch", "count" : 1 },
+  "groups" : [ "alta_food", "punch", "all" ]
+}

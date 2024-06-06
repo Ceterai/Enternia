@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_yaara_eye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "yaara_melon" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "snacks", "all", "mod" ]
+}

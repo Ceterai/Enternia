@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_tonna", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_food_mimic", "count" : 1, "parameters" : { "preset" : "boiled_tonna" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "mains", "boils", "all", "mod" ]
+}

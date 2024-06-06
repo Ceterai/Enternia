@@ -33,7 +33,11 @@
       "description" : "An exceptionally nutritious motsu from pristine yava ingredients.",
       "longdescription" : "A classic recipe with a small set of adjustments that can make it just-right for some altas.",
       "altaDescription" : "Seems like this motsu has turned out better than ever! What a treat!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45
+      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45,
+      "paletteSwap" : {
+        "#3aa73f":"#3aa787","#497c56":"#497c78","#2d564a":"#2d4756",
+        "#68dcff":"#68ffd1","#3cb3d8":"#3cd8a9","#252c33":"#253332"
+      }
     }
   }
 }

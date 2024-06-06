@@ -36,7 +36,12 @@
       "description" : "This caliopa has a stuffed crust! Delicious!",
       "longdescription" : "To compliment the carels, the stuffing is made from baked-in gheatsyn jam, as opposed to a nia-tonna pizza cream used in most stuffed crusts.",
       "altaDescription" : "Can I call this a pie because of the crust? I think I can. This pie is delicious!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45
+      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45,
+      "paletteSwap" : {
+        "#d4ff5a":"#5affb2","#a3ff15":"#15ffaf","#79c601":"#01c683",
+        "#daff4d":"#ebff4d","#a8d035":"#b7d035","#fffc4d":"#ffea4d","#ffd029":"#ffba29",
+        "#ffdc95":"#fff595","#d0a567":"#d0be67","#bd7028":"#a8d035"
+      }
     }
   }
 }

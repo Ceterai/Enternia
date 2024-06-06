@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "toxictopjam", "count" : 1 },
+    { "item" : "alienfruit", "count" : 1 },
+    { "item" : "ct_aya_powder", "count" : 2 }
+  ],
+  "output" : { "item" : "toxictart", "count" : 1 },
+  "groups" : [ "alta_food", "tarts", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eggshoot", "count" : 1 },
+    { "item" : "oculemon", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "eyebowls", "count" : 1 },
+  "groups" : [ "alta_food", "soup", "all" ]
+}

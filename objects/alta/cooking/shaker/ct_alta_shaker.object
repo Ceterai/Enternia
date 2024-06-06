@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_shaker",
+  "colonyTags" : [ "cooking", "cafe", "commerce" ],
+  "category" : "crafting",
+  "level" : 6, "rarity" : "Legendary", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Shaker",
+  "description" : "A piece of alta kitchen technology for making cocktails. Very versatile in funtionality.",
+  "longdescription" : "Ironically, alta blenders are used for milkshakes, while alta shakers are used for cocktails.",
+  "altaDescription" : "A set of familiar tools for making refreshing cocktails.",
+
+  "apexDescription" : "This machine produces different refreshing liquids.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A cold drinksss machine.",
+  "glitchDescription" : "Neutral. A cocktail machine.",
+  "humanDescription" : "Some tasty cocktails can be made here.",
+  "hylotlDescription" : "An interesting toolset, presumably for making cocktails.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "cocktails" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Shaker", "subtitle" : "  Cocktail-making convenience" }
+    }
+  },
+
+  "health" : 2.5,
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alta_dessert_fo",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Dessert Serving",
+  "description" : "A simple serving of an alta dessert. Can be picked up right away to take a closer look.",
+  "longdescription" : "These sample dishes are well preserved and are often used in restaurant displays.",
+  "altaDescription" : "Oa-a, a dessert! I wonder which one it is~",
+
+  "apexDescription" : "A likely sweet dessert in a bowl. Should I take it?",
+  "avianDescription" : "Ooh, a tasty dessert! I bet it tastes just as good as it looks. Only one way to find out!",
+  "floranDescription" : "A dessssssssert. Floran shell enjoy itsss sswetnesss!",
+  "glitchDescription" : "Hungry. I should give this dessert a taste.",
+  "humanDescription" : "Oh, this looks tasty! I think I should try it. Just a bit.",
+  "hylotlDescription" : "What a wonderful culinary miracle! I wonder if I could claim it.",
+  "novakidDescription" : "This goodness is smellin' very nice!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "scripts" : ["/objects/scripts/breakoninteract.lua"],
+  "scriptDelta" : 0,
+
+  "breakDropPool" : "ct_alta_dessert_loot",
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

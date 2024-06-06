@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_icer", "count" : 1 },
+    { "item" : "ct_alta_blender", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_cakery",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor5", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

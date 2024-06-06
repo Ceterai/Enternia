@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_kitchener",
+  "colonyTags" : [ "cooking" ],
+  "category" : "crafting",
+  "level" : 5, "rarity" : "Rare", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Kitchener",
+  "description" : "A set of alta kitchen appliances for making soup, stew, porridges and other fulfilling dishes.",
+  "longdescription" : "While the overall concept seems pretty simple, it's pretty resource-heavy to make as it requires a lot of heat-resisting materials.",
+  "altaDescription" : "I wouldn't mind enjoying a nice motsu right about now.",
+
+  "apexDescription" : "A typical kitchen stove. Useful for cooking mains and sides.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A ssstove. Floran can cook food here.",
+  "glitchDescription" : "Neutral. A cooking counter top.",
+  "humanDescription" : "Ah yes, a soup maker 3000.",
+  "hylotlDescription" : "This usual open stove is capable of handling a lot of challenges.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "boils", "soup", "stew" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Kitchener", "subtitle" : "  Soup-making convenience" }
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}
