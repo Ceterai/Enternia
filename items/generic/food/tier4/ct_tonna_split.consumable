@@ -54,7 +54,13 @@
       "description" : "You can't quite catch the taste, but it's certainly amazing. Seems as you can't get enough of this!",
       "longdescription" : "The flavor mix is very airy and milky, making it pleasantly sweet, but not over the top.",
       "altaDescription" : "Love the flavor! And there's quite a lot, which makes things even better.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1300, "foodValue" : 70
+      "level" : 6, "rarity" : "Legendary", "price" : 1300, "foodValue" : 70,
+      "paletteSwap" : {
+        "#f4fafd":"#fdf4fa","#acdcec":"#ecacd9","#10b4ef":"#ef10ac",
+        "#106686":"#108586","#103f50":"#105050","#102b35":"#103535",
+        "#65c1d5":"#d56590","#2d6aa6":"#a62d35",
+        "#e13fbc":"#e1c53f","#9f33cc":"#cc6233","#5441ae":"#ae415a"
+      }
     }
   }
 }

@@ -31,7 +31,13 @@
       "description" : "A bouquet of flavors on a plate. These palopias turned out better than ever! Check the fortune afterwards!",
       "longdescription" : "This recipe is quite special in that it requires certain ingredients to be in a very specific stage of their lifecycle, which isn't always easy to achieve.",
       "altaDescription" : "A delicacy full of tasty yaara flowers. Exquisite!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75,
+      "paletteSwap" : {
+        "#4e9e6f":"#4e869e","#436f55":"#43626f","#295039":"#294450",
+        "#588c9f":"#5f9f58","#3f5f7f":"#3f7f47","#1c314f":"#1c4f27",
+        "#fc9fff":"#9fc5ff","#dc58d9":"#5885dc","#771688":"#165088",
+        "#e7bf9c":"#e79cdf","#c49e7d":"#c47dbd","#a23c54":"#653ca2"
+      }
     }
   }
 }

@@ -14,7 +14,7 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 2, "pool" : [ [ 1, "ct_stardust_narfin_spawn" ], [ 1, "ct_stardust_poptop_spawn" ], [ 0.5, "ct_stardust_crippit_spawn" ], [ 1, "ct_prism_crippit_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_starfly_spawn" ] ] },
+      { "select" : 1, "pool" : [ [ 0.75, "ct_prism_wing_spawn" ], [ 0.25, "ct_starfly_spawn" ] ] },
       { "select" : 3, "pool" : [[1,"jellycritter"],[1,"bouncercritter"],[1,"prismelementalcritter"],[1,"prismscabcritter"],[1,"slugcritter"]] }
     ]
   },

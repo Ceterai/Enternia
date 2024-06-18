@@ -1,0 +1,69 @@
+{
+  "objectName" : "ct_bishyn_light",
+  "colonyTags" : [ "crystal", "bishyn", "light" ],
+  "category" : "light",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Bishyn Wall Light",
+  "description" : "A ^#378754;bishyn^reset; light.",
+  "altaDescription" : "An office wall light made out of bishyn crystals. Makes the light cold yet comfortably bright.",
+
+  "apexDescription" : "A green crystal light for a wall.",
+  "avianDescription" : "A cute wall light.",
+  "floranDescription" : "A cryssstal torch!!",
+  "glitchDescription" : "Cheered up. It's a torch, but you don't need a fire to lit it up.",
+  "humanDescription" : "This light will come in handy.",
+  "hylotlDescription" : "It looks like a torch, but more convinient.",
+  "novakidDescription" : "Lights up! Lights out!",
+
+  "lightColor" : [79, 182, 110],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "body.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+  "animationParts" : {
+    "bg" : "body.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

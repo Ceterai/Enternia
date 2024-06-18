@@ -35,7 +35,12 @@
       "description" : "A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
       "altaDescription" : "Something you would expect from a perfectly cooked dish.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65,
+      "paletteSwap" : {
+        "#459be2":"#e145e2","#2f5ac6":"#c62f9e",
+        "#594bc3":"#594bc3","#4543b9":"#4543b9","#33308f":"#33308f",
+        "#59b977":"#b94bc3","#408c71":"#a343b9","#2d6450":"#7f308f"
+      }
     }
   }
 }

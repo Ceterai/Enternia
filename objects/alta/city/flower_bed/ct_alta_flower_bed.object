@@ -22,7 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_alta_flower_bed.png",
+      "image" : "body.png",
       "direction" : "left",
       "flipImages" : true,
 
@@ -32,7 +32,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_alta_flower_bed.png",
+      "image" : "body.png",
       "direction" : "right",
 
       "sitPosition" : [15, 22],
@@ -43,7 +43,7 @@
   ],
   
   "objectType" : "loungeable",
-  "sitCoverImage" : "/objects/alta/city/flower_bed/ct_alta_flower_bed.png",
+  "sitCoverImage" : "/objects/alta/city/flower_bed/body.png",
   "sitFlipDirection" : false,
 
   "builder" : "/items/buildscripts/alta/object.lua"

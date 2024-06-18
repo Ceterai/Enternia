@@ -1,0 +1,39 @@
+{
+  "objectName" : "ct_alta_citadel_pod",
+  "colonyTags" : [ "alta_citadel", "storage", "mechanical" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 6, "rarity" : "Legendary", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Citadel Pod ^#8020f0;^reset;",
+  "description" : "A highly reinforced airtight pod that can be used as a chest.",
+  "altaDescription" : "This pod looks like it's used by citadel protectors.",
+
+  "apexDescription" : "A pod chest. What's inside?",
+  "avianDescription" : "These chests are built strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A pod chest is always a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+  "novakidDescription" : "A pod chest. Wonder what's inside...",
+
+  "health" : 6.0,
+
+  "lightColor" : [0, 80, 192],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_pod.png:<color>.<key>", "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 1], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32, "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

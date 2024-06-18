@@ -1,0 +1,32 @@
+{
+  "type" : "ct_alta_pirate",
+  "baseType" : "ct_faradea_guard",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "eyepatchhead", "buccaneerhead",
+            { "name" : "bandithat1", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "eyepatchhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "tricornhat", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "buccaneerhead", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+          ],
+          "chest" : [
+            "novakidsuspenders", "piratechest", "buccaneerchest",
+            { "name" : "novakidsuspenders", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "piratechest", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "buccaneerchest", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+          ],
+          "legs" : [
+            { "name" : "piratelegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "piratelegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } },
+            { "name" : "buccaneerlegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 8 ] } }
+          ],
+          "back" : [ "", "", "", "pirateback", "spearback" ],
+          "sheathedprimary" : [ "npcpistol", "npcshortsword" ]
+        }
+      ] ]
+    ]
+  }
+}

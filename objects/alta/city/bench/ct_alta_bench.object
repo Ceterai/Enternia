@@ -26,8 +26,8 @@
 
   "orientations" : [
     {
-      "image" : "ct_alta_bench.png",
-      "imagePosition" : [-36, 0],
+      "image" : "body.png",
+      "imagePosition" : [-32, 0],
       "flipImages" : true,
       "direction" : "left",
 
@@ -43,16 +43,16 @@
       "anchors" : ["bottom"]
     },
     {
-      "image" : "ct_alta_bench.png",
-      "imagePosition" : [-36, 0],
+      "image" : "body.png",
+      "imagePosition" : [-32, 0],
       "direction" : "right",
 
       "sitPositions" : [
         // Positions from front to back.
-        [-23, 21], // Left
-        [-10, 21], // Middle Left
-        [3, 21], // Middle Right
-        [16, 21] // Right
+        [-19, 21], // Left
+        [-6, 21], // Middle Left
+        [7, 21], // Middle Right
+        [20, 21] // Right
       ],
 
       "spaceScan" : 0.1,

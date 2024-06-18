@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.3](#233)
     - [2.3.2](#232)
     - [2.3.1](#231)
     - [2.3.0](#230)
@@ -51,6 +52,101 @@ If you want to see more detailed changes, you can always navigate to the [commit
 </details>
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
+
+### 2.3.3
+
+This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
+
+It also adds custom alta S.A.I.L. modifications, so expect standalone alta S.A.I.L. patch mods in the future!
+
+**Main:**
+
+- added 8 items;
+- added 20 objects;
+- added more specific npc types;
+- added support for [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/sharedfiles/filedetails/?id=947429656).
+
+**Alta:**
+
+- added 8 **Alta Pods** for different alta factions, so you can now spawn according tenants with ease:
+  - **Arknight Pod**;
+  - **Ceterai Pod**;
+  - **Citadel Pod**;
+  - **Combat Pod**;
+  - **Elin Pod**;
+  - **Elite Pod**;
+  - **Enviro Pod**;
+  - **Faradea Pod**.  
+  ![ ](/.meta/images/showcase/2.3.3/pods.png)
+- added 8 **Alta Emblems** - faction signatures and logos that you can put on walls:
+  - **Alta Emblem**;
+  - **A.R.C.O. Emblem**;
+  - **Arknight Emblem**;
+  - **Ceterai Emblem**;
+  - **EDS Emblem**;
+  - **Elin Emblem**;
+  - **Faradea Emblem**;
+  - **Iora Gyera Emblem**.  
+  ![ ](/.meta/images/showcase/2.3.3/emblems.png)
+- fixed phrases for faradea, medic, social worker and some researcher npcs.
+
+**Customizable A.I.:**
+
+- added 4 **Alta A.I. Chips** to use with the Customizable A.I. mod:
+  - available at tier 4+ - 4★★★ **Alta Crafting Station**;
+  - available at the S.A.I.L. chip crafting interface (with the mod installed);
+  - the chips will now be used in crafting recipes of some alta decorations and equipment pieces;
+  - the first one (**Alta Basic A.I. Chip**) purely adds visuals to the S.A.I.L., while others provide a much bigger overhaul:
+    - **Alta Basic A.I. Chip** - alta S.A.I.L. visuals in form of the **Alta Emblem**, nothing more;
+    - **Alta Ship A.I. Chip** - full alta ship A.I. with according colors, sounds and text;
+    - **EDS A.I. Chip** - EDS Command Center A.I. with according colors, sounds and text;
+    - **C.T.O.S. Chip** - Project Ceterai Operating System with according colors, sounds and text.  
+    ![ ](/.meta/images/showcase/2.3.3/ai.png) ![ ](/.meta/images/showcase/2.3.3/ceterai.gif)
+- made alta ship A.I. compatible with the mod, meaning it now accepts chips and has an according interface.
+
+**Monsters:**
+
+- added 4 more bugs:
+  - **Ion Klee**;
+  - **Prism Wing**;
+  - **Strizychar**;
+  - **Vio Zych**.  
+  ![ ](/.meta/images/showcase/2.3.3/bugs.png)
+- added 4 monster egg items for the new bugs;
+- some bugs are now used in certain special tier 4 recipes.
+
+**Translation:**
+
+- newly added decorations and items, described in above sections, require translation;
+- moved some alta decorations for consistency:
+  - all in `/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_*` to `/objects/biome/alterash_prime/bishyn/decorative/*`;
+  - all in `/objects/biome/alterash_prime/calin/decorative/ct_calin_*` to `/objects/biome/alterash_prime/calin/decorative/*`;
+  - all in `/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_*` to `/objects/biome/alterash_prime/gheatsyn/decorative/*`;
+  - all in `/objects/biome/alterash_prime/hevika/decorative/ct_hevika_*` to `/objects/biome/alterash_prime/hevika/decorative/*`;
+  - all in `/objects/alta/eds/haulters/ct_eds_*` to `/objects/alta/eds/haulters/*`;
+  - all in `/objects/alta/eds/status_pods/ct_eds_*` to `/objects/alta/eds/status_pods/*`.
+
+**Dev:**
+
+- updated **Alta Zich** to **Alta Zych**, which led to id changes throughout the mod;
+- updated merchant pools for engineer and mechanic (finally) - they now mostly contain alta items;
+- unified filenames of some object sprites, keeping files with old names for now for the sake of compatability;
+- added single-frame sprites named `tiled.png` to some objects for use in Tiled;
+- added a fully functional alta tileset for use in Tiled:  
+  ![ ](/.meta/images/showcase/2.3.3/tiled.png)
+- added more specific npc types instead of having them as tenants with modifications so they can be spawned directly and through Tiled;
+- added custom npcs behaviors to make alta npcs more vigilant around object stealing;
+- alta npcs now also alert nearby alta drones, causing them to attack the player if they steal anything.
+
+**Other:**
+
+- added 4 custom tier 4 food variants;
+- updated icons for perfect tier 4 food;
+- fixed compatability with [Monsters Unique Sounds (SFX from Beta)](https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235):
+  - that mod creates and uses custom parameters in base monster init;
+  - alta drones use a custom init that doesn't create those parameters, causing drones to explode on spawn;
+  - adding `ouchTimer` to the custom init fixed this issue (although I think ideally this should be handled by the author of that mod).
+- minor bug fixes.
 
 ### 2.3.2
 
@@ -106,8 +202,8 @@ This patch is meant to fix any immediate issues coming from 2.3, as well as make
 **Other:**
 
 - added missing food recipes for tier 3 and 4 food;
-- added custom tier 3 and 4 food variants;
-- updated icons for perfect tier 3 and 4 food;
+- added custom tier 3 food variants;
+- updated icons for perfect tier 3 food;
 - objects no longer show tags in base tooltips - they are still listed in the **Alta Scanner**, giving it additional purpose;
 - fixed support for Race Traits by mentioning it in the "included" list;
 - minor bug fixes.
@@ -397,7 +493,7 @@ It's time to go. You decide where - whether it's into the wild areas of alterash
 
     ![ ](/.meta/images/showcase/2.3.0/monsters1.png) ![ ](/.meta/images/showcase/2.3.0/monsters2.png) ![ ](/.meta/images/showcase/2.3.0/monsters3.png)
 - added 8 bugs:
-  - **Alto Zich**;
+  - **Alto Zych**;
   - **Aya Bee**;
   - **Elin Bug**;
   - **Juviley**;

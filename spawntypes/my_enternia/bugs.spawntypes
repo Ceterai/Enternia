@@ -16,7 +16,7 @@
   },
 
   {
-    "name" : "ct_alto_zich_spawn",
+    "name" : "ct_alto_zych_spawn",
 
     "spawnParameters" : {
       "area" : "air",
@@ -25,7 +25,7 @@
     },
 
     "spawnChance" : 0.001,
-    "monsterType" : "ct_alto_zich",
+    "monsterType" : "ct_alto_zych",
     "monsterParameters" : {
       "aggressive" : false
     }
@@ -125,5 +125,73 @@
     "monsterParameters" : {
       "aggressive" : false
     }
-  }
+  },
+
+  // added in 2.3.3
+
+  {
+    "name" : "ct_ion_klee_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_ion_klee",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_prism_wing_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_prism_wing",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_strizychar_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "exposed",
+      "time" : "day"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_strizychar",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  {
+    "name" : "ct_vio_zych_spawn",
+
+    "spawnParameters" : {
+      "area" : "air",
+      "region" : "all",
+      "time" : "day"
+    },
+
+    "spawnChance" : 0.001,
+    "monsterType" : "ct_vio_zych",
+    "monsterParameters" : {
+      "aggressive" : false
+    }
+  },
+
+  { "name" : "ct_alto_zich_spawn", "spawnParameters" : { "area" : "air", "region" : "all", "time" : "all" }, "spawnChance" : 0.001, "monsterType" : "ct_alto_zych" }
 ]

@@ -7,7 +7,7 @@
       "pools" : ["common", "guard"],
       "graduation" : { "nextNpcType" : [ [1, "crewmember"], [0.5, "crewmemberengineer"], [0.5, "crewmembermechanic"] ] }
     },
-    "dialog" : { "hail" : "/dialog/alta.config:hail" }
+    "dialog" : { "hail" : "/dialog/alta.config:medic" }
   },
   "items" : {
     "override" : [

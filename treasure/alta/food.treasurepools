@@ -49,7 +49,9 @@
           { "weight" : 0.08, "item" : [ "ct_nia_cocktail", 1, { "preset" : "stardust" } ] },
           { "weight" : 0.08, "item" : [ "ct_warped_cocktail", 1, { "preset" : "glowarp" } ] },
           { "weight" : 0.08, "item" : [ "ct_yuri_cocktail", 1, { "preset" : "deluxe" } ] },
-          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "fresh_cocktail" } ] }
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "fresh_cocktail" } ] },
+          { "weight" : 0.08, "item" : [ "ct_mohitava_cocktail", 1, { "preset" : "alien" } ] },
+          { "weight" : 0.08, "item" : [ "ct_yuri_cocktail", 1, { "preset" : "kaiter" } ] }
         ]
   } ] ],
   "ct_alta_punch_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],
@@ -124,7 +126,9 @@
           { "weight" : 0.08, "item" : [ "ct_pavolda_cake", 1, { "preset" : "love" } ] },
           { "weight" : 0.08, "item" : [ "ct_onitti_cake", 1, { "preset" : "love" } ] },
           { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "birthday_cake" } ] },
-          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "estria_love" } ] }
+          { "weight" : 0.08, "item" : [ "ct_food_mimic", 1, { "preset" : "estria_love" } ] },
+          { "weight" : 0.08, "item" : [ "ct_alliana_cake", 1, { "preset" : "berry" } ] },
+          { "weight" : 0.08, "item" : [ "ct_ion_cake", 1, { "preset" : "alien" } ] }
         ]
   } ] ],
   "ct_alta_jam_loot" : [ [0, { "poolRounds" : [ [1.0, 1] ],

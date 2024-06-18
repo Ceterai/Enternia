@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_calin_chair",
+  "colonyTags" : [ "crystal", "calin" ],
+  "category" : "furniture",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Calin Chair",
+  "description" : "A sleek chair that almost looks like it's levitating. The back and top part are flexible for comfort.",
+  "altaDescription" : "You will find chairs like these in clubs and other places dedicated to entertainment and relaxation.",
+
+  "apexDescription" : "An enormously stylish chair.",
+  "avianDescription" : "A fabulous chair.",
+  "floranDescription" : "Floran sssit on a masssive flying chair.",
+  "glitchDescription" : "Encouraged. A flawless elegant dark chair.",
+  "humanDescription" : "A sturdy looking but disarmingly comfy chair.",
+  "hylotlDescription" : "I'm not sure how it's standing up, but it is outrageously attractive.",
+  "novakidDescription" : "This chair is floatin' in the air.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

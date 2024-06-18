@@ -1,0 +1,48 @@
+{
+  "objectName" : "ct_hevika_lamp",
+  "colonyTags" : [ "crystal", "hevika", "light" ],
+  "category" : "light",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Hevika Lamp",
+  "description" : "A glowing hevika lamp on a reinforced stand. The crystal energy is enough to produce light.",
+  "altaDescription" : "This powerful lamp produces light by creating a plasma sphere from pure energy. Neat.",
+
+  "apexDescription" : "This lamp was created in a very strange shape.",
+  "avianDescription" : "This crystal shines in pleasant pink colors.",
+  "floranDescription" : "Isss it a ssspear? Floran can hurt sssomeone with it?",
+  "glitchDescription" : "Thoughtful. How is this crystal changes its color from purple to pink when I switch it on?",
+  "humanDescription" : "An elegant light source on a firm stand.",
+  "hylotlDescription" : "Is this a lamp? At first glance I thought it was some kind of a magical stuff or spear. Why would a lamp be shaped like that?",
+  "novakidDescription" : "You can't hurt anyone, can you?",
+
+  "lightColor" : [192, 96, 252],
+  "flickerDistance" : 0.5,
+  "flickerStrength" : 0.01,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "body.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

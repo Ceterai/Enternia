@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_elite_pod", "count" : 1 },
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "ct_bion", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_citadel_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor5", "alta", "alta_citadel", "objects", "storage", "all", "mod" ]
+}

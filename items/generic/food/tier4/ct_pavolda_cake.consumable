@@ -36,7 +36,12 @@
       "longdescription" : "The recipe itself makes the cakes crunchier than the original recipe, with an additional shift in taste.",
       "altaDescription" : "I feel cared for while eating this, maybe because it was actually made with love.",
       "variant" : true, "alkey" : "Celestia Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1520, "foodValue" : 100
+      "level" : 6, "rarity" : "Legendary", "price" : 1520, "foodValue" : 100,
+      "paletteSwap" : {
+        "#99e2c6":"#e299dc","#5aa88b":"#5aa6a8","#319972":"#319699","#126746":"#126667","#134736":"#134347",
+        "#cb3e7a":"#3ecbc7","#902f58":"#2f908d",  // "#cb3e7a":"#cb3e8d","#902f58":"#902f65",
+        "#6c17e4":"#e41781","#480c9c":"#9c0c56"
+      }
     }
   }, "alkey" : "Pavolda Ovak"
 }

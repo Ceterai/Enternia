@@ -1,7 +1,13 @@
 {
   "type" : "ct_faradea_merc",
   "baseType" : "ct_alta_lab_security",
-  "scriptConfig" : { "questGenerator" : { "pools" : ["common", "tenant", "shady"] } },
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : ["common", "tenant", "shady"] },
+    "dialog" : {
+      "converse" : "/dialog/alta.config:merc",
+      "hail" : "/dialog/alta.config:faradea"
+    }
+  },
   "items" : {
     "override" : [
       [0, [

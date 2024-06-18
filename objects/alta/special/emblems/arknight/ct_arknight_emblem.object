@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_arknight_emblem",
+  "colonyTags" : [ "patriotic", "holographic", "arknight" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Arknight Emblem",
+  "description" : "The titanium triangle is the symbol of arknight protection - vigilant altas up in the sky are watching over, keeping the order.",
+  "longdescription" : "Emblems are one of many ways altas distinguish their factions - including color combinations and other markings.",
+  "altaDescription" : "Seeing this means safety - they are watching over me.",
+
+  "inventoryIcon" : "body.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

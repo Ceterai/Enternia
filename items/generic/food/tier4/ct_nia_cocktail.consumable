@@ -68,7 +68,12 @@
       "description" : "An ultimate nia cocktail that perfactly encompasses the vibe and original taste.",
       "longdescription" : "Representing stardust energy and stardust, this drink feels almost like a powder, or a powdery drink, with the food coloring mixixng as you drink, making it seem like the drink is changing colors, or \"reacting\" to you drinking it.",
       "altaDescription" : "The most lucky you can get with a nia cocktail, I believe.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
+      "paletteSwap" : {
+        "#6f6c66":"#f9eeff","#44423f":"#d0d8e8","#222120":"#bbd0cc",
+        "#feff64":"#64fff3","#b6ba03":"#03baaf",
+        "#80a000":"#008da0","#345200":"#003b52"
+      }
     }
   }
 }

@@ -31,7 +31,13 @@
       "description" : "A very special mimosa that tastes exactly like that one time! That one time...",
       "longdescription" : "This very special recipe variation was created for a very special person.",
       "altaDescription" : "As far as I know, dishes like mohitavas and mimosas were brought to us by time drifters. I guess that's why it's named like that...",
-      "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 95
+      "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 95,
+      "paletteSwap" : {
+        "#f6da66":"#f6a066","#efb529":"#ef6529",
+        "#e2c657":"#e2c657","#cc9512":"#cc9512",
+        "#4671e9":"#7846e9","#335bcd":"#6333cd","#1c42ad":"#481cad",
+        "#189f55":"#189f91","#146f3d":"#146f66"
+      }
     }
   }
 }

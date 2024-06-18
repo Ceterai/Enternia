@@ -1,0 +1,50 @@
+{
+  "objectName" : "ct_eds_haulter_marker",
+  "colonyTags" : [ "eds", "combat", "misc", "patriotic" ],
+  "category" : "other",
+  "level" : 3, "rarity" : "Uncommon", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "^#f02020;EDS^reset; Marker",
+  "description" : "A defensive ^#f02020;EDS^reset; structure called 'Size-3 Grounded Halter', or a G3 Halter, for short. This one was repurposed to mark a nearby threat.",
+  "longdescription" : "Initially, these were created to trap small creatures in place, as well as rogue or hostile machinery.",
+  "altaDescription" : "This halter was turned into a harmless danger marker. Thanks for caring, EDS.",
+
+  "apexDescription" : "An alta defensive structure used to trap vehicles and creatures.",
+  "avianDescription" : "These nails can stop a tank!",
+  "floranDescription" : "Tank trapsss!",
+  "glitchDescription" : "Observant. A jagged metal shape used to trap vehicles.",
+  "humanDescription" : "This could stop a tank! Better be careful about those wires aswell.",
+  "hylotlDescription" : "A marked tank trap. I believe altas call these 'halters'.",
+  "novakidDescription" : "These nails could halt any ride. Classic.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "metalshard" } ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

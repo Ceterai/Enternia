@@ -58,8 +58,8 @@
     }
   },
 
-  "inputNodes" : [ [-2, 0] ],
-  "outputNodes" : [ [2, -1] ],
+  "inputNodes" : [ [1, 1] ],
+  "outputNodes" : [ [0, 0] ],
 
   "builder" : "/items/buildscripts/alta/object.lua"
 }

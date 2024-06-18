@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_ion_klee_af",
+  "colonyTags" : [ "alterash_prime", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 5, "rarity" : "Rare", "price" : 200,
+  "race" : "generic",
+
+  "shortdescription" : "Ion Klee",
+  "description" : "An attached note reads, \"Ion klees are not only rare in occurence, their behavior is just as rare for klees - they prefer dark crystallic environments to light natural ones.\"",
+  "longdescription" : "Bottled bugs are often a midway state in the process of research and preservation, and thus are often possesed by various ^#b0e0fc;alta collectioners^reset;.",
+  "altaDescription" : "A klee mystery that also looks quite pretty in the dark. I think they feed on crystal-organic microbes found in their environment.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

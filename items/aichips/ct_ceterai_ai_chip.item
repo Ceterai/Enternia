@@ -1,0 +1,99 @@
+// Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
+// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// This chip can be used to modify S.A.I.L. (if you have that mod installed)
+// Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
+{  // Note that this chip is highly overwritive (it overwrites a lot of S.A.I.L. parameters) - if you want a simpler one - use ct_alta_ai_chip instead.
+  "itemName": "ct_ceterai_ai_chip",
+
+  "shortdescription": "C.T.O.S. Chip ^#8020f0;^reset;",
+  "description": "An advanced alta A.I. chip with C.T.O.S. installed. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal. Highly overwritive.^reset;",
+  "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
+  "altaDescription": "A C.T.O.S.-based A.I., huh. Does it sound like Ceterai too? What does Ceterai sound like?..",
+
+  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+
+  "tooltipKind": "ct_alta_item_long", "category": "A.I. Chip", "fixedPrice" : true,
+  "tooltipFields" : { "objectImage": "/ai/portraits/ct_ceteraiquestportrait.png" },
+  "inventoryIcon": "ct_ceterai_ai_chip.png",
+
+  "aiData": {
+    "aiFrames": "ct_ceterai_ai.png",
+    "staticFrames": "ct_ceterai_static.png",
+    "portraitFrames": "portraits/ct_ceterai_portrait.png",
+    "questPortrait": "ct_ceterai",
+
+    "title": "^#2080f0;C.T.^#f6f6f6;O.S.^reset;",
+    "subtitle": "^#0040a8;Ceterai T. Operating System^reset;",
+    "titleIcon": "/interface/ai/ct_ceterai_ai.png",
+
+    "chatterSound": "/sfx/projectiles/zone_power_loop.ogg",
+
+    // "charactersPerSecond": 45,
+
+    "noCrewSpeech": {
+      "animation": "yell",
+      "text": "^#0040a8;Crew status:^#2080f0;\n\n- You are the only registered project member of this sector.\n\n- Finding other project members may allow for increased operational efficiency.",
+      "speedModifier": 0.85
+    },
+
+    "noMissionsSpeech": {
+      "animation": "refuse",
+      "text": "^#0040a8;Objectives:^#2080f0;\n\n- No special co-ordinates currently available.",
+      "speedModifier": 0.85
+    },
+
+    "shipStatus": {
+      "0": {
+        "animation": "unique",
+        "text": "^#2080f0;- ... All The Stardust...",
+        "speedModifier": 0.2
+      },
+      "1": {
+        "animation": "yell",
+        "text": "^#0040a8;Status:^#2080f0;\n\n- Ship thrusters are offline.\n\n- Ship teleportation system functioning correctly.\n\n- ^#f02080;Currently only the planet below is accessible.",
+        "speedModifier": 0.9
+      },
+      "2": {
+        "animation": "talk",
+        "text": "^#0040a8;Status:^#2080f0;\n\n- Ship thrusters are online.\n\n- Ship teleportation system functioning correctly.\n\n- ^#8020f0;Planets within this star system are accessible.",
+        "speedModifier": 0.9
+      },
+      "3": {
+        "animation": "talk",
+        "text": "^#0040a8;Status:^#2080f0;\n\n- Ship thrusters are online.\n\n- FTL drive is online.\n\n- Ship teleportation system functioning correctly.\n\n- ^#2080f0;The entire universe is accessible.",
+        "speedModifier": 0.9
+      }
+    },
+
+    "interfaceText": {
+      "homeBreadcrumbText": "^#2080f0;C.T.O.S.",
+      "crewBreadcrumbText": "CREW",
+      "configBreadcrumbText": "CONFIG",
+      "missionBreadcrumbText": "SPECIAL",
+
+      "buttonBackText": "^#2080f0;BACK",
+      "buttonOpenCraftingText": "^#2080f0;Open A.I. Synthesis",
+      "buttonOpenSlotText": "^#2080f0;Open A.I. Synthesis slot",
+      "buttonCloseSlotText": "^#2080f0;Close A.I. Synthesis slot",
+      "buttonFallbackText": "^#2080f0;Protectorate Defaults Reset",
+      "buttonMissionsText": "^#2080f0;SPECIAL",
+      "buttonCrewText": "^#2080f0;CREW",
+      "buttonCancelText": "^#2080f0;CANCEL",
+      "buttonDismissText": "^#2080f0;DISMISS",
+      "buttonDeployText": "^#2080f0;DEPLOY",
+
+      "overwrittingConfText": "^#2080f0;> Modifying C.T.O.S..................",
+      "aiDataText": "^#2080f0;You can install an A.I. chip here to customize C.T.O.S.",
+      "fallbackText": "^#2080f0;Use this if you can't find a mission or crewmember.",
+      "fallbackActivatedText": "^#f02080;The fallback interface will be loaded upon next interaction.",
+
+      "craftingTitle": "^#2080f0;A.I. Synthesis",
+      "craftingSubtitle": "^#0040a8;Create A.I. Chips to modify the operating system",
+
+      "defaultRecruitDescription": "^#0040a8;No recorded data yet.",
+      "defaultRecruitName": "^#2080f0;Project Member"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

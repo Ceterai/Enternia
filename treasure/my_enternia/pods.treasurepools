@@ -269,35 +269,6 @@
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_warped_loot"}
   ] }] ],
-  "ct_elin_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
-          // Resources,         total: 0.40
-          {"weight" : 0.10, "item" : "titaniumbar"},
-          {"weight" : 0.05, "item" : "crystal"},
-          {"weight" : 0.10, "item" : "ct_yaara_root"},
-          {"weight" : 0.05, "item" : "ct_elin_drone"},
-          // Nature,            total: 0.04
-          {"weight" : 0.03, "item" : "ct_yaara_thorns4"},
-          {"weight" : 0.01, "item" : "ct_ayaka_elin_tree"},
-          // Decorations,       total: 0.32
-          {"weight" : 0.05, "item" : "geometricbed"},
-          {"weight" : 0.07, "item" : "geometricchair"},
-          {"weight" : 0.04, "item" : "geometricswitch"},
-          {"weight" : 0.04, "item" : "geometricdoor"},
-          {"weight" : 0.07, "item" : "geometriclight"},
-          {"weight" : 0.05, "item" : "geometrictable"},
-          // Cosmetics,         total: 0.04
-          {"weight" : 0.02, "item" : "mindwurmplush"},
-          {"weight" : 0.02, "item" : "plainorbplush"},
-          // Treasure,          total: 0.04
-          {"weight" : 0.04, "item" : "ct_elin_helmet"},
-          // Miscelanious,      total: 0.14
-          {"weight" : 0.06, "item" : "ct_elin_drone"},
-          {"weight" : 0.03, "item" : "ct_tsay"},
-          {"weight" : 0.01, "item" : "ct_tsay_seed"},
-          {"weight" : 0.04, "item" : "ct_elin-codex"},
-          // Self-loot,         total: 0.02
-          {"weight" : 0.02, "item" : "ct_elin_loot"}
-  ] }] ],
 
   "ct_eva_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
@@ -671,70 +642,6 @@
           {"weight" : 0.04, "item" : "ct_aric-codex"},
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_shroomic_loot"}
-  ] }] ],
-
-  "ct_eds_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
-          // Resources,         total: 0.40
-          {"weight" : 0.15, "item" : "ct_eds_armor"},
-          {"weight" : 0.05, "item" : ["ct_eds_armor", 2]},
-          {"weight" : 0.05, "item" : "ct_eds_drone"},
-          {"weight" : 0.05, "item" : "ct_eds_droid"},
-          // Nature,            total: 0.04
-          {"weight" : 0.02, "item" : "ct_eds_haulter"},
-          {"weight" : 0.02, "item" : "ct_eds_haulter_wires"},
-          // Decorations,       total: 0.32
-          {"weight" : 0.03, "item" : "ct_eds_container"},
-          {"weight" : 0.03, "item" : "ct_eds_containers"},
-          {"weight" : 0.04, "item" : "ct_eds_gateway"},
-          {"weight" : 0.04, "item" : "ct_eds_hatch"},
-          {"weight" : 0.05, "item" : "ct_eds_lamppost"},
-          {"weight" : 0.05, "item" : "ct_eds_haulter_marker"},
-          {"weight" : 0.04, "item" : "ct_eds_table"},
-          {"weight" : 0.04, "item" : "ct_eds_terminal"},
-          // Cosmetics,         total: 0.04
-          {"weight" : 0.02, "item" : "ct_eds_beret"},
-          {"weight" : 0.02, "item" : "ct_eds_visor"},
-          // Treasure,          total: 0.04
-          {"weight" : 0.009, "item" : "ct_eds_mng"},
-          {"weight" : 0.009, "item" : "ct_eds_shield"},
-          {"weight" : 0.009, "item" : "ct_eds_claymore"},
-          {"weight" : 0.008, "item" : [ "ct_kinetic_shield", 1, { "preset" : "red" } ] },
-          {"weight" : 0.003, "item" : "ct_eds_augment"},
-          {"weight" : 0.0015, "item" : "ct_eds_aimbot_augment"},
-          {"weight" : 0.0005, "item" : "ct_eds_one"},
-          // Miscelanious,      total: 0.14
-          {"weight" : 0.04, "item" : "ct_eds_drone"},
-          {"weight" : 0.04, "item" : "ct_eds_droid"},
-          {"weight" : 0.02, "item" : "ct_logs_eds_chatter-codex"},
-          {"weight" : 0.02, "item" : "ct_logs_eds_reload-codex"},
-          {"weight" : 0.02, "item" : "ct_notes_eds-codex"},
-          // Self-loot,         total: 0.02
-          {"weight" : 0.02, "item" : "ct_eds_loot"}
-  ] }] ],
-  "ct_faradea_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
-          // Resources,         total: 0.40
-          {"weight" : 0.25, "item" : "ct_bion"},
-          {"weight" : 0.15, "item" : ["ct_vortex_nade", 2]},
-          // Nature,            total: 0.04
-          {"weight" : 0.02, "item" : "arcademachine"},
-          {"weight" : 0.02, "item" : "arcadeblue"},
-          // Decorations,       total: 0.32
-          {"weight" : 0.08, "item" : "outpoststandingdesk"},
-          {"weight" : 0.08, "item" : "outposttable"},
-          {"weight" : 0.08, "item" : "bluelight"},
-          {"weight" : 0.08, "item" : "blueflask"},
-          // Cosmetics,         total: 0.04
-          {"weight" : 0.04, "item" : "ct_alta_industrial_collar"},
-          // Treasure,          total: 0.04
-          {"weight" : 0.02, "item" : "ct_faradeus"},
-          {"weight" : 0.0195, "item" : [ "ct_eds_shield", 1, { "preset" : "faradea" } ] },
-          {"weight" : 0.0005, "item" : "ct_faradea_scavenger"},
-          // Miscelanious,      total: 0.14
-          {"weight" : 0.04, "item" : ["ct_vortex_nade", 3]},
-          {"weight" : 0.06, "item" : "ct_tsay_cooked"},
-          {"weight" : 0.04, "item" : "ct_faradea-codex"},
-          // Self-loot,         total: 0.02
-          {"weight" : 0.02, "item" : "ct_faradea_loot"}
   ] }] ],
 
   "ct_astera_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [

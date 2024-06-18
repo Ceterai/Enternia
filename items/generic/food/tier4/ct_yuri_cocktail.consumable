@@ -44,7 +44,33 @@
       "description" : "You can't describe the emotions that fill you whenever you drink this. What is this?",
       "longdescription" : "This cocktail is blooming with typical love ingredients often used in certain dishes.",
       "altaDescription" : "I wish I had a friend I could drink this with...",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
+      "paletteSwap" : {
+        "#d162ab":"#62d1ac","#b55696":"#56b595",
+        "#f86037":"#f837cf","#ee4619":"#ee19c0","#d52d00":"#d500a7",
+        "#ef7627":"#ef279f","#cd621c":"#cd1c86","#ac4d10":"#ac106e",
+        "#ff9a56":"#ff56ba","#e88442":"#e842a6","#d37230":"#d33091",
+        "#ffffff":"#b327ef","#f6d1d1":"#981ccd","#ecb0b0":"#7c10ac",
+        "#d162a4":"#8f62d1","#a74d83":"#724da7",
+        "#b55690":"#7b56b5","#9a4579":"#66459a",
+        "#a30262":"#4302a3","#7e004b":"#33007e"
+      }
+    },
+    "kaiter" : {
+      "shortdescription" : "Kaiter Cocktail", "variant" : true,
+      "description" : "You can't describe the emotions that fill you whenever you drink this. What is this?",
+      "longdescription" : "This cocktail is blooming with typical love ingredients often used in certain dishes.",
+      "altaDescription" : "I wish I had a friend I could drink this with...",
+      "paletteSwap" : {
+        "#d162ab":"#a362d1","#b55696":"#8d56b5",
+        "#f86037":"#373ff8","#ee4619":"#1921ee","#d52d00":"#0008d5",
+        "#ef7627":"#4427ef","#cd621c":"#361ccd","#ac4d10":"#2610ac",
+        "#ff9a56":"#7056ff","#e88442":"#5a42e8","#d37230":"#4930d3",
+        "#ffffff":"#ffffff","#f6d1d1":"#d1daf6","#ecb0b0":"#b0bfec",
+        "#d162a4":"#62c0d1","#a74d83":"#4d99a7",
+        "#b55690":"#56a8b5","#9a4579":"#458e9a",
+        "#a30262":"#028aa3","#7e004b":"#006a7e"
+      }
     }
   }
 }

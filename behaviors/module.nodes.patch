@@ -1,0 +1,50 @@
+[
+  {
+    "op" : "add",
+    "path" : "/ct_alta_accuse",
+    "value" : {
+      "type": "module",
+      "name": "ct_alta_accuse",
+      "title": "",
+      "properties": {
+        "hostileDamageTeam": {"type": "table", "value": {"type": "enemy", "team": 1}}
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/ct_alta_attack_thief",
+    "value" : {
+      "type": "module",
+      "name": "ct_alta_attack_thief",
+      "title": "ct_alta_attack_thief",
+      "properties": {
+        "hostileDamageTeam": {"type": "table", "value": {"type": "enemy", "team": 1}}
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/ct_alta_guard_behavior",
+    "value" : {
+      "type": "module",
+      "name": "ct_alta_guard_behavior",
+      "title": "",
+      "properties": {
+        "play": {"type": "bool", "value": true}
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/ct_alta_behavior",
+    "value" : {
+      "type": "module",
+      "name": "ct_alta_behavior",
+      "title": "",
+      "properties": {
+        "play": {"type": "bool", "value": true}
+      }
+    }
+  }
+]

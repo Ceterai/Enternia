@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_bishyn_sample",
+  "colonyTags" : [ "crystal", "bishyn", "commerce" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 160,
+  "race" : "alta",
+
+  "shortdescription" : "Bishyn Sample",
+  "description" : "A ^#378754;bishyn^reset; sample. The stand is powered by the crystal itself. An exhibit of prosperity.",
+  "altaDescription" : "Like other cal samples, this one is able to power its own stand. Also, not a natural bishyn shape.",
+
+  "apexDescription" : "Yes, it's a sample. Yes, it's poisonous. Yes, I won't touch it. No way I would.",
+  "avianDescription" : "A sample of poisonous crystal.",
+  "floranDescription" : "Floran won't touch poisonouss thing.",
+  "glitchDescription" : "Sad. It would be beautiful, if it wasn't poisonous.",
+  "humanDescription" : "It's a pity it's poisonous, otherwise I would sell this crystal.",
+  "hylotlDescription" : "Yeah, a poisonous sample... What else I haven't seen here?",
+  "novakidDescription" : "As I would say - watch, but don't touch!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

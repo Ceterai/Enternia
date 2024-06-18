@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_lab_pod", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_arco_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor5", "alta", "arco", "objects", "storage", "all", "mod" ]
+}

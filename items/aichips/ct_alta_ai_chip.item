@@ -1,0 +1,32 @@
+// Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
+// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// This chip can be used to modify S.A.I.L. (if you have that mod installed)
+// Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
+{
+  "itemName": "ct_alta_ai_chip",
+
+  "shortdescription": "Alta Basic A.I. Chip",
+  "description": "An alta ship A.I. interface chip. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal. Visuals only.^reset;",
+  "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
+  "altaDescription": "A simple interface in a highly-compatible datamass. Neat.",
+
+  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+
+  "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
+  "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },
+  "inventoryIcon": "ct_alta_ai_chip.png",
+
+  "aiData": {
+    "aiFrames": "alta_ai.png",
+    "staticFrames": "alta_static.png",
+    "portraitFrames": "portraits/alta_portrait.png",
+    "questPortrait": "alta",
+    "titleIcon": "/interface/ai/ct_alta_ai.png",
+
+    "interfaceText": {
+      "defaultRecruitName": "Unknown Member"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

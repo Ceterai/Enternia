@@ -31,7 +31,14 @@
       "description" : "A wild combination of the most popular ingridients from the nia cuisine that tastes more exciting than ever.",
       "longdescription" : "This recipe, unlike the original, features an almost completely different style and order of preparation, making this risotto somehow different, yet very-very similar.",
       "altaDescription" : "Amazing quality and taste, something you would expect from a proffesional restaurant.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75,
+      "paletteSwap" : {
+        "#ffffff":"#ffffff","#c47afd":"#fd7aae","#8f47fe":"#fe47af","#7437c9":"#c93786",
+        "#5c1f8b":"#8b1f4a","#451868":"#681838","#381454":"#54142e",
+        "#76ab12":"#12ab93","#598801":"#018873",
+        "#106686":"#6b1086","#103f50":"#411050","#102b35":"#2c1035",
+        "#65c1d5":"#b165d5","#2d6aa6":"#a52da6"
+      }
     }
   }
 }

@@ -40,5 +40,11 @@
     }
   ],
 
+  "scripts" : [
+    // "/objects/spawner/techstation.lua"
+    "/objects/alta/ship/special/ai/sail.lua"
+  ],
+  "scriptDelta" : 20,
+
   "builder" : "/items/buildscripts/alta/object.lua"
 }

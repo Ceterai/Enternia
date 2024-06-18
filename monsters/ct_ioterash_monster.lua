@@ -66,6 +66,11 @@ function init()  -- Engine callback - called on initialization of entity.
       end
     end
   end)
+
+  -- Mod Support for Monsters Unique Sounds (SFX from Beta)  
+  -- Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235  
+  -- Adding this because drones use a custom init that doesn't provide some params used by that mod
+  self.ouchTimer = 0
 end
 
 function shouldDie()  -- Whether the monster can finally stop existing.
@@ -79,4 +84,21 @@ function despawn()  -- Despawns the monster.
   self.deathBehavior = nil
   self.shouldDie = true
   status.addEphemeralEffect("monsterdespawn")
+end
+
+function notify(notification)
+  if notification ~= nil then
+    table.insert(self.notifications, notification)
+    local notifications = util.filter(self.notifications, function(n)
+      return n.type == "attackThief"
+    end)
+    for _,n in pairs(notifications) do
+      if world.isNpc(n.sourceId, entity.damageTeam().team) and n.targetId then
+        if entity.damageTeam().type ~= "pvp" and world.entityType(n.targetId) == "player" then
+          monster.setDamageTeam({type = "enemy", team = 1})
+        end
+      end
+    end
+  end
+  return true
 end

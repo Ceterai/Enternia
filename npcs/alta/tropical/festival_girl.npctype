@@ -1,0 +1,15 @@
+{
+  "type" : "ct_alta_festival_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "", "", { "name" : "ct_head_mimic", "parameters" : { "preset" : "headband", "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ],
+          "chest" : [ { "name" : "kimonochest", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ],
+          "legs" : [ { "name" : "kimonolegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -33,6 +33,7 @@ Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://g
   - [Supported Addons](#supported-addons)
     - [Information For Modders](#information-for-modders)
     - [Information For Translators](#information-for-translators)
+  - [Incompatible](#incompatible)
   - [Enhanced Tooltips](#enhanced-tooltips)
   - [Tenants](#tenants)
 - [Changes](#changes)
@@ -105,10 +106,12 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) (proper support for all effects, weather and biomes of this mod);
 - [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);
 - [Race Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2622273194) (check mod screenshots for stats);
-- [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458)).
+- [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458));
+- [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds 4 A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips).
 
 ![ ](.meta/images/scrn_tooltips5.png)
 ![ ](.meta/images/scrn_tooltips3.png)
+![ ](/.meta/images/showcase/2.3.3/ai.png) ![ ](/.meta/images/showcase/2.3.3/ceterai.gif)
 
 #### Information For Modders
 
@@ -140,6 +143,11 @@ If you're looking to translate this mod to another language, here's the list of 
 There's a helpful [`/.meta/world.json`](.meta/world.json) file containing translations and explanations of most alta words in the mod, which might be useful to translators.
 
 Starting with version [2.1.4a](https://github.com/Ceterai/Enternia/releases/tag/2.1.4a), each new version's changelog now contains a **Translation** section that goes over changes made in that version that might require attention from translators.
+
+### Incompatible
+
+Temporary **incompatible** with [Armor Adapt](https://steamcommunity.com/sharedfiles/filedetails/?id=2601606862).  
+Temporary **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta npcs with it.
 
 ### Enhanced Tooltips
 

@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_calin_sample",
+  "colonyTags" : [ "crystal", "calin", "pretty" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 160,
+  "race" : "alta",
+
+  "shortdescription" : "Calin Sample",
+  "description" : "A crystal sample. The stand is powered by the crystal itself. An exhibit of entertainment.",
+  "altaDescription" : "Despite holding probably the least energy among all types of crystals, it's still enough to power the stand.",
+
+  "apexDescription" : "A crystal sample.",
+  "avianDescription" : "A splendid crystal sample.",
+  "floranDescription" : "Floran wants to ssmash thingsss.",
+  "glitchDescription" : "Peaceful. A large crystal sample.",
+  "humanDescription" : "A big blue crystal.",
+  "hylotlDescription" : "It's a crystal sample. Nothing more, nothing less.",
+  "novakidDescription" : "Can I see a reflection in it?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

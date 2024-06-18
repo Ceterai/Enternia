@@ -15,6 +15,7 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier4" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "ct_ion_klee_spawn" ] ] },
       { "select" : 2, "pool" : [ [ 1, "ct_ionic_crippit_spawn" ], [ 1, "ct_ionic_crustoise_spawn" ], [ 1, "ct_ionic_orbide_spawn" ], [ 1, "ct_ionic_narfin_spawn" ] ] }
     ]
   },

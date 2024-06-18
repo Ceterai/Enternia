@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_eds_pod", "count" : 1 },
+    { "item" : "ct_verriskoywa_faro", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_faradea_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor4", "alta", "faradea", "objects", "storage", "all", "mod" ]
+}

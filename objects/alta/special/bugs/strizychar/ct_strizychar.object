@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_strizychar_af",
+  "colonyTags" : [ "koywa", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 2, "rarity" : "Common", "price" : 200,
+  "race" : "generic",
+
+  "shortdescription" : "Strizychar",
+  "description" : "An attached note reads, \"This light-friendly flying bug is using its horns to create tiny, barely noticeable vibrations.\"",
+  "longdescription" : "Bottled bugs are often a midway state in the process of research and preservation, and thus are often possesed by various ^#b0e0fc;alta collectioners^reset;.",
+  "altaDescription" : "Unlike strizych, these bugs seem to be a bit smaller in size... Although just as friendly!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

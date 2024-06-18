@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_hevika_chair",
+  "colonyTags" : [ "crystal", "hevika" ],
+  "category" : "furniture",
+  "level" : 4, "rarity" : "Uncommon", "price" : 40,
+  "race" : "alta",
+
+  "shortdescription" : "Hevika Chair",
+  "description" : "A mostly titanium chair with reinforced stand and a soft segmented back for comfort.",
+  "altaDescription" : "Hevika chairs are designed for maximum mobility, allowing the seated to take any pose without falling over.",
+
+  "apexDescription" : "A fine chair with a high, smooth back which you can lower to the horizontal position.",
+  "avianDescription" : "I can get a rest for my wings on this chair, and I can even sleep here! What a glorious chair!",
+  "floranDescription" : "Floran sssit on very big chair. Floran delighted.",
+  "glitchDescription" : "Relaxed. This chair is terrifyingly comfortable.",
+  "humanDescription" : "This chair so gorgeous, you can even sleep on it.",
+  "hylotlDescription" : "An amazing chair that you can sleep on. Not to mention that its back is illegally soft.",
+  "novakidDescription" : "You spin me right 'round, baby, right 'round!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

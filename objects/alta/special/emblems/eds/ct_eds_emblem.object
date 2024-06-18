@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_eds_emblem",
+  "colonyTags" : [ "patriotic", "holographic", "eds" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "^#f02020;EDS^reset; Emblem",
+  "description" : "An emblem marking ^#f02020;EDS^reset; territory or facility. Everything is most likely highly protected.",
+  "longdescription" : "Emblems are one of many ways altas distinguish their factions - including color combinations and other markings.",
+  "altaDescription" : "A symbol of strict advanced security measures. Either this place is dangerous or not anymore.",
+
+  "inventoryIcon" : "body.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

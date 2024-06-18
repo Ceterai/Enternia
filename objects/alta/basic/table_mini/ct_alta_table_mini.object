@@ -7,6 +7,7 @@
 
   "shortdescription" : "Alta Minitable",
   "description" : "A simplistic table made out of titanium. Only 4 blocks wide.",
+  "longdescription" : "Most basic alta furniture is designed to be simple, lightweight, and, most importantly, easy to clean and disassemble. The goal is to be comfortable and portable at the same time, while also being easy to recycle if needed.",
   "altaDescription" : "A simple, yet sturdy table with minimal details. It's easy to clean and will last for a very long time.",
 
   "apexDescription" : "A decent table.",
@@ -19,7 +20,11 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+    {
+      "dualImage" : "body.png",
+      "spaces" : [ [1, 0], [2, 0], [0, 1], [1, 1], [2, 1], [3, 1] ],
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

@@ -1,0 +1,101 @@
+// Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
+// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// This chip can be used to modify S.A.I.L. (if you have that mod installed)
+// Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
+{
+  "itemName": "ct_eds_ai_chip",
+
+  "shortdescription": "^#f02020;EDS^reset; A.I. Chip ^#8020f0;^reset;",
+  "description": "An ^#f02020;EDS^reset; command center interface chip. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal. Highly overwritive.^reset;",
+  "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
+  "altaDescription": "Oh, this datamass is usually installed on EDS communication tech, like terminals or retainers.",
+
+  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+
+  "tooltipKind": "ct_alta_item_long", "category": "A.I. Chip", "fixedPrice" : true,
+  "tooltipFields" : { "objectImage": "/ai/portraits/ct_edsquestportrait.png" },
+  "inventoryIcon": "ct_eds_ai_chip.png",
+
+  "aiData": {
+    "aiFrames": "ct_eds_ai.png",
+    "staticFrames": "ct_eds_static.png",
+    "portraitFrames": "portraits/ct_eds_portrait.png",
+    "questPortrait": "ct_eds",
+    "titleIcon": "/interface/ai/ct_eds_ai.png",
+
+    "title": "^#f02020;EDS ^#707088;Command Center^reset;",
+    "subtitle": "^#606074;Al'deron Command Center: connected^reset;",
+    "chatterSound": "/sfx/interface/nav_scanning_loop.ogg",
+
+    "staticOpacity": 0.4,
+    // "scanlineOpacity": 0.5,
+    "charactersPerSecond": 60,
+
+    "noCrewSpeech": {
+      "animation": "talk",
+      "text": "^#606074;Crew status:^#f02020;\n\n- ^#b81824;You are the only registered project member of this sector.^#f02020;\n\n- ^#b81824;Finding other project members may allow for increased operational efficiency.",
+      "speedModifier": 0.7
+    },
+
+    "noMissionsSpeech": {
+      "animation": "talk",
+      "text": "^#606074;Objectives:^#f02020;\n\n- ^#b81824;No special co-ordinates currently available.",
+      "speedModifier": 0.7
+    },
+
+    "shipStatus": {
+      "0": {
+        "animation": "unique",
+        "text": "^#f02020;- ^#b81824;Standing by...",
+        "speedModifier": 0.7
+      },
+      "1": {
+        "animation": "talk",
+        "text": "^#f02020;Status:\n\n- ^#b81824;EDS Command Center is responding.^#f02020;\n\n- ^#606074;Ship thrusters are offline.^#f02020;\n\n- ^#606074;FTL drive is offline.^#f02020;\n\n- ^#606074;Ship wormhole system functioning at basic levels.^#f02020;\n\n- ^#606074;Currently only the planet below is accessible.",
+        "speedModifier": 0.7
+      },
+      "2": {
+        "animation": "talk",
+        "text": "^#f02020;Status:\n\n- ^#b81824;EDS Command Center is responding.^#f02020;\n\n- ^#b81824;Ship thrusters are online.^#f02020;\n\n- ^#606074;FTL drive is offline.^#f02020;\n\n- ^#b81824;Ship wormhole system functioning correctly.^#f02020;\n\n- ^#606074;Planets within this star system are accessible.",
+        "speedModifier": 0.7
+      },
+      "3": {
+        "animation": "talk",
+        "text": "^#f02020;Status:\n\n- ^#b81824;EDS Command Center is responding.^#f02020;\n\n- ^#b81824;Ship thrusters are online.^#f02020;\n\n- ^#b81824;FTL drive is online.^#f02020;\n\n- ^#b81824;Ship wormhole system functioning correctly.^#f02020;\n\n- ^#b81824;The entire universe is accessible.",
+        "speedModifier": 0.7
+      }
+    },
+
+    "interfaceText": {
+      "homeBreadcrumbText": "System",
+      "crewBreadcrumbText": "Crew",
+      "configBreadcrumbText": "Config",
+      "missionBreadcrumbText": "Missions",
+
+      "buttonBackText": "^#707088;BACK",
+      "buttonMissionsText": "^#707088;MISSIONS",
+      "buttonCrewText": "^#707088;CREW",
+      "buttonCancelText": "^#707088;CANCEL",
+      "buttonDismissText": "^#707088;DISMISS",
+      "buttonDeployText": "^#707088;DEPLOY",
+
+      "buttonOpenCraftingText": "^#f02020;Open A.I. Synthesis",
+      "buttonOpenSlotText": "^#f02020;Open A.I. Synthesis slot",
+      "buttonCloseSlotText": "^#f02020;Close A.I. Synthesis slot",
+      "buttonFallbackText": "^#f02020;Protectorate Defaults Reset",
+
+      "overwrittingConfText": "^#707088;> Updating Comms..................",
+      "aiDataText": "^#707088;You can install an A.I. chip here to customize your comms.",
+      "fallbackText": "^#707088;Use this if you can't find a mission or crewmember.",
+      "fallbackActivatedText": "^#b81824;The fallback interface will be loaded upon next interaction.",
+
+      "craftingTitle": "^#f02020;A.I. Synthesis",
+      "craftingSubtitle": "^#b81824;Create A.I. Chips to modify the command center",
+
+      "defaultRecruitDescription": "^#707088;- NO DATA -",
+      "defaultRecruitName": "^#b81824;Unknown Member"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

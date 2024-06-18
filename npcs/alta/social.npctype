@@ -16,12 +16,16 @@
             "legs" : [
               { "name" : "ct_alta_social_bottom", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] } }
             ],
-            "back" : [ "" ]
+            "back" : [ "" ],
+            "sheathedprimary" : [ "ct_alta_scout_blaster" ]
           }
         ] ]
     ]
   },
   "scriptConfig" : {
+    "behavior" : "ct_alta_guard_behavior",
+    "attackerLimit" : 2,
+    "attackerLimitCooldown" : 3,
     "questGenerator" : { "graduation" : { "nextNpcType" : [ [0.5, "crewmember"], [1, "crewmemberjanitor"] ] } },
     "dialog" : { "converse" : "/dialog/alta.config:social" }
   }

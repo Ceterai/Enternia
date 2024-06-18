@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "carrotjuice", "count" : 1 },
+    { "item" : "kiwi", "count" : 1 },
+    { "item" : "cocoa", "count" : 2 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ion_cake", "count" : 1, "parameters" : { "preset" : "alien" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "cakes", "all", "mod" ]
+}

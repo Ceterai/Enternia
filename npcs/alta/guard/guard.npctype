@@ -2,7 +2,7 @@
   "type" : "ct_alta_guard",
   "baseType" : "ct_alta",
   "scriptConfig" : {
-    "behavior" : "villageguard",
+    "behavior" : "ct_alta_guard_behavior",
     "behaviorConfig" : { "greetingChance" : 0.0, "patrolTime" : 3 },
     "attackerLimit" : 8,
     "attackerLimitCooldown" : 3,

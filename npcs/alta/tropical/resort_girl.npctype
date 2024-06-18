@@ -1,0 +1,21 @@
+{
+  "type" : "ct_alta_resort_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "", "",
+            { "name" : "glasses1head", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } },
+            { "name" : "cupidshead", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } },
+            { "name" : "ladyhathead", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } },
+            { "name" : "floppyhathead", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } }
+          ],
+          "chest" : [ { "name" : "dress1chest", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ],
+          "legs" : [ { "name" : "dress1legs", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ]
+        }
+      ] ]
+    ]
+  }
+}

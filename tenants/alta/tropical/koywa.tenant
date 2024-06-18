@@ -11,30 +11,8 @@
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_alta_dancer",
-      "overrides" : {
-        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
-        "matchColorIndices" : false,
-        "items" : {
-          "override" : [
-            [0, [
-              {
-                "head" : [
-                  "", "", "",
-                  { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower", "colorIndex" : [ 0, 8, 9, 10 ] } },
-                  { "name" : "ct_head_mimic", "parameters" : { "preset" : "felistraza", "colorIndex" : 0 } },
-                  { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower_crown", "colorIndex" : 0 } },
-                  { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower_crown", "colorIndex" : 0 } },
-                  { "name" : "ct_head_mimic", "parameters" : { "preset" : "flower_crown", "colorIndex" : [ 0, 4, 5, 6, 7, 8, 9, 10 ] } }
-                ],
-                "legs" : [
-                  { "name" : "ct_legs_mimic", "parameters" : { "preset" : "koywa_skirt", "colorIndex" : 0 } }
-                ]
-              }
-            ] ]
-          ]
-        }
-      }
+      "type" : "ct_alta_koywa_dancer",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
   "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // crystals instead of pixels, prism shards

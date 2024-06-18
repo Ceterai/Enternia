@@ -24,7 +24,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_alta_ship_light.png:<color>.<frame>",
+      "image" : "body.png:<color>.<frame>",
       "imagePosition" : [0, 0],
 
       "direction" : "right",
@@ -36,7 +36,7 @@
 
   "animation" : "/objects/wired/light/lighttoggle.animation",
   "animationParts" : {
-    "light" : "ct_alta_ship_light.png"
+    "light" : "body.png"
   },
   "animationPosition" : [0, 0],
 

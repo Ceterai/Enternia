@@ -1,0 +1,56 @@
+{
+  "name": "ct_alta_guard_behavior",
+  "description": "",
+  "scripts": [],
+  "parameters": {
+    "play": true
+  },
+  "root": {
+    "title": "Villager",
+    "type": "composite",
+    "name": "dynamic",
+    "parameters": {},
+    "children": [
+      {
+        "title": "Tenant Baseline Behavior",
+        "type": "module",
+        "name": "Tenant Baseline Behavior",
+        "parameters": {}
+      },
+      {
+        "title": "ct_alta_attack_thief",
+        "type": "module",
+        "name": "ct_alta_attack_thief",
+        "parameters": {}
+      },
+      {
+        "title": "friendlynpccombat",
+        "type": "module",
+        "name": "friendlynpccombat",
+        "parameters": {
+          "hostileDamageTeam": {"value": {"type": "enemy", "team": 1}}
+        }
+      },
+      {
+        "title": "hail",
+        "type": "module",
+        "name": "hail",
+        "parameters": {}
+      },
+      {
+        "title": null,
+        "type": "module",
+        "name": "converse",
+        "parameters": {}
+      },
+      {
+        "title": "NPC Idle",
+        "type": "module",
+        "name": "NPC Idle",
+        "parameters": {
+          "play": {"value": "<play>"}
+        }
+      }
+    ]
+  }
+}

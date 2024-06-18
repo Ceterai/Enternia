@@ -51,7 +51,23 @@
       "longdescription" : "This recipe is incredibly hard to replicate, with only few being able to create it perfectly. After all, feelings are a presonal thing, that you can't just take and copy.",
       "altaDescription" : "A piece of culinary poetry, that's very hard to decypher.",
       "variant" : true, "alkey" : "Alliana Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 120
+      "level" : 6, "rarity" : "Legendary", "price" : 1600, "foodValue" : 120,
+      "paletteSwap" : {
+        "#c7deff":"#e7ecf5","#b5d1f8":"#dfe5ef","#90c5f4":"#ced9e6","#5381ee":"#b4bdd9",
+        "#f2f2f2":"#9cd1ff","#d4d4d4":"#7bb9ef","#969696":"#6ea7d7"
+      }
+    },
+    "berry" : {
+      "shortdescription" : "Berry Cake ^#2080f0;^reset;",
+      "description" : "A very puffy, soft berry cake with meringue topping made from different alta berries. Melts in your mouth and dissapears pretty quickly.",
+      "longdescription" : "This recipe is incredibly hard to replicate, with only few being able to create it perfectly. After all, feelings are a presonal thing, that you can't just take and copy.",
+      "altaDescription" : "It looks so big, and yet when you start eating eat you realise how airy it is. Still, very tasty.",
+      "variant" : true,
+      "level" : 5, "rarity" : "Rare", "price" : 900, "foodValue" : 80,
+      "paletteSwap" : {
+        "#c7deff":"#d1c7ff","#b5d1f8":"#c1b5f8","#90c5f4":"#9790f4","#5381ee":"#8253ee",
+        "#f2f2f2":"#eb7aba","#d4d4d4":"#cd4b95","#969696":"#ab3578"
+      }
     }
   }, "alkey" : "Alliana Ovak"
 }

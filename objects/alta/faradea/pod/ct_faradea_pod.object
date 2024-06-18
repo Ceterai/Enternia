@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_faradea_pod",
+  "colonyTags" : [ "faradea", "storage", "mechanical" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 5, "rarity" : "Rare", "price" : 110,
+  "race" : "alta",
+
+  "shortdescription" : "Faradea Pod ^#2080f0;^reset;",
+  "description" : "A protected bion pod with Faradea markings on it.",
+  "longdescription" : "Portable alta containers, or alta pods for short, are a standardized way of transporting equipment in a safe, airtight environment.",
+  "altaDescription" : "Looks like a Faradea pod. Probably has all kinds of things in there.",
+
+  "apexDescription" : "A pod chest. What's inside?",
+  "avianDescription" : "These chests are built strong, to protect the contents.",
+  "floranDescription" : "Let'ss get chesst open! Maybe food insside.",
+  "glitchDescription" : "Eager. No time to waste, open it up!",
+  "humanDescription" : "A pod chest is always a welcome sight.",
+  "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
+  "novakidDescription" : "A pod chest. Wonder what's inside...",
+
+  "health" : 4.0,
+
+  "lightColor" : [0, 80, 192],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_pod.png:<color>.<key>", "imagePosition" : [-8, 0],
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 1], [0, 1], [1, 1] ],
+      "anchors" : [ "bottom" ], "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 32, "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

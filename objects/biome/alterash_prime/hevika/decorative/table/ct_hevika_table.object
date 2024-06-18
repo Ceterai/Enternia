@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_hevika_table",
+  "colonyTags" : [ "crystal", "hevika", "commerce" ],
+  "category" : "furniture",
+  "level" : 4, "rarity" : "Uncommon", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Hevika Table",
+  "description" : "A titanium table with crystals and a reinforced stand. Spacey and functional.",
+  "altaDescription" : "Usually hevika crystals can be dangerous and are kept away and discharged, or are powering something.",
+
+  "apexDescription" : "A one-legged table with hanging down crystals.",
+  "avianDescription" : "How is this table even standing?",
+  "floranDescription" : "Thisss table hass only one leg at its ssside. Floran confused.",
+  "glitchDescription" : "Pleased. I'm glad that I, unlike this table, don't have any missing legs.",
+  "humanDescription" : "Wouldn't it overturn onto me if I sit on the other side? No?",
+  "hylotlDescription" : "You might think that the crystals on the other side of the table serve as another pair of legs, but no, this table has only one leg.",
+  "novakidDescription" : "Look a that! Ain't it a pretty one-legged pal?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

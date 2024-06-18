@@ -3,12 +3,17 @@
   // ==============================================================================================
 
 {
-  "ct_alto_zich_loot" : [ [0, { "fill" : [ {"item" : "ct_alto_zich_af" } ] } ] ],
+  "ct_alto_zych_loot" : [ [0, { "fill" : [ {"item" : "ct_alto_zych_af" } ] } ] ],
   "ct_aya_bee_loot" : [ [0, { "fill" : [ { "item" : "ct_aya_bee_af" } ] } ] ],
   "ct_elin_bug_loot" : [ [0, { "fill" : [ { "item" : "ct_elin_bug_af" } ] } ] ],
   "ct_juviley_loot" : [ [0, { "fill" : [ { "item" : "ct_juviley_af" } ] } ] ],
   "ct_klee_prime_loot" : [ [0, { "fill" : [ { "item" : "ct_klee_prime_af" } ] } ] ],
   "ct_klee_loot" : [ [0, { "fill" : [ { "item" : "ct_klee_af" } ] } ] ],
   "ct_starfly_loot" : [ [0, { "fill" : [ { "item" : "ct_starfly_af" } ] } ] ],
-  "ct_unwarped_fly_loot" : [ [0, { "fill" : [ { "item" : "ct_unwarped_fly_af" } ] } ] ]
+  "ct_unwarped_fly_loot" : [ [0, { "fill" : [ { "item" : "ct_unwarped_fly_af" } ] } ] ],
+  // added in 2.3.3
+  "ct_ion_klee_loot" : [ [0, { "fill" : [ { "item" : "ct_ion_klee_af" } ] } ] ],
+  "ct_prism_wing_loot" : [ [0, { "fill" : [ { "item" : "ct_prism_wing_af" } ] } ] ],
+  "ct_strizychar_loot" : [ [0, { "fill" : [ { "item" : "ct_strizychar_af" } ] } ] ],
+  "ct_vio_zych_loot" : [ [0, { "fill" : [ { "item" : "ct_vio_zych_af" } ] } ] ]
 }

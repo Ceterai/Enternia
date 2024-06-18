@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_bishyn_chest",
+  "colonyTags" : [ "crystal", "bishyn", "storage" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 4, "rarity" : "Uncommon", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Bishyn Chest",
+  "description" : "A scary looking crystal chest.",
+  "altaDescription" : "Probably the most compact peace of bishyn furniture. Holds quite a lot for its size aswell.",
+
+  "apexDescription" : "Yeah, a poisonous chest... Really?",
+  "avianDescription" : "Something doesn't feel right with that chest.",
+  "floranDescription" : "Floran won't open it.",
+  "glitchDescription" : "Cautious. This chest is wrapped in some crystal outgrowth.",
+  "humanDescription" : "A pretty rough chest wrapped in crystals.",
+  "hylotlDescription" : "Won't open it. It has toxic crystals around it.",
+  "novakidDescription" : "Some kind of crystals are growin' around this chest.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

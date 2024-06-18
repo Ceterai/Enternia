@@ -36,7 +36,12 @@
       "description" : "An extra-warpy drink that will warp your perception of drinks as a concept.",
       "longdescription" : "This recipe actually uses some warped ingredients in its recipe, like archulins and a little bit of warped honey.",
       "altaDescription" : "A pretty interesting mix of calin and yava ingredients.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
+      "paletteSwap" : {
+        "#b04c5e":"#8a4cb0","#751c2b":"#541c75","#480a16":"#300a48",
+        "#6a2284":"#225084","#320c40":"#0c2440","#18aec3":"#25c318",
+        "#ffd495":"#ff95d5","#ea9931":"#ea31a7","#6e2900":"#6e005b"
+      }
     }
   }
 }

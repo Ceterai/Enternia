@@ -13,21 +13,9 @@
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_alta_researcher",  // arco colors
+      "type" : "ct_arco_researcher",
       "overrides" : {
-        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
-        "items" : {
-          "override" : [
-            [0, [
-              {
-                "head" : [ { "name" : "ct_arco_helmet"}, { "name" : "ct_arco_helmet_mk2"} ],
-                "chest" : [ { "name" : "ct_arco_chest" } ],
-                "legs" : [ { "name" : "ct_arco_legwear" } ],
-                "back" : [ "", { "name" : "ct_arco_protector" } ]
-              }
-            ] ]
-          ]
-        }
+        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } }
       }
     }
   ],

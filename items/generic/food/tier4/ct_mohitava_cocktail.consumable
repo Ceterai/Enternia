@@ -36,7 +36,27 @@
       "description" : "A prime mohitava with an extra refreshing aftertaste.",
       "longdescription" : "The base in this recipe changed from plain water to yaara crystal juice for added taste!",
       "altaDescription" : "This cocktail feels like it has more taste than usual.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30
+      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
+      "paletteSwap" : {
+        "#9cf600":"#cefcef","#60d600":"#a9e4d4","#00b21a":"#92cabb",
+        "#3abcd9":"#d93a79","#258f93":"#932561",
+        "#3aa73f":"#3aa73f","#2d564a":"#2d564a",
+        "#80ca00":"#00c3ca","#538300":"#007e83","#3c5e00":"#005b5e",
+        "#dd4c56":"#ddac4c","#8b2c32":"#8b6b2c"
+      }
+    },
+    "alien" : {
+      "shortdescription" : "Cirangata", "variant" : true,
+      "description" : "A ciranga-mohitava variation with vitamin-like freshness.",
+      "longdescription" : "The base in this recipe changed from plain water to yaara crystal juice for added taste!",
+      "altaDescription" : "This cocktail feels like it has more taste than usual.",
+      "paletteSwap" : {
+        "#9cf600":"#fae0b5","#60d600":"#ffcd77","#00b21a":"#fabd4d",
+        "#3abcd9":"#d95d3a","#258f93":"#932d25",
+        "#3aa73f":"#a73a68","#2d564a":"#56362d",
+        "#80ca00":"#cac000","#538300":"#837d00","#3c5e00":"#5e5900",
+        "#dd4c56":"#dd584c","#8b2c32":"#8b342c"
+      }
     }
   }
 }

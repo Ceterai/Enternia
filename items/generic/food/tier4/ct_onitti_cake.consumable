@@ -28,11 +28,16 @@
   "presets" : {
     "love" : {
       "shortdescription" : "Elin's Love ^#8020f0;^reset;",
-      "description" : "Multiple layers of pure love and care for all ^#b0e0fc;altas^reset; in existance. It melts your heart with essence of love.",
+      "description" : "Multiple layers of pure love and care for all ^#b0e0fc;altas^reset; in existence. It melts your heart with essence of love.",
       "longdescription" : "This advanced recipe makes sure you put a lot of effort in it to achieve perfection.",
       "altaDescription" : "I've heard that this is momma Elin's own recipe. Very exciting!",
       "variant" : true, "alkey" : "Elin Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1480, "foodValue" : 90
+      "level" : 6, "rarity" : "Legendary", "price" : 1480, "foodValue" : 90,
+      "paletteSwap" : {
+        "#c9eef6":"#f1c9f6","#76c7e4":"#e176e4","#4e8fb8":"#b84ead","#366388":"#88367b",
+        "#3aa73f":"#3a86a7","#497c56":"#49627c","#2d564a":"#2d2f56","#252c33":"#2f2533",
+        "#68dcff":"#b068ff","#3cb3d8":"#683cd8"
+      }
     }
   }, "alkey" : "Onitti Ovak"
 }

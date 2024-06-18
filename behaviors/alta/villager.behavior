@@ -1,0 +1,48 @@
+{
+  "name": "ct_alta_behavior",
+  "description": "",
+  "scripts": [],
+  "parameters": {
+    "play": true
+  },
+  "root": {
+    "title": "Villager",
+    "type": "composite",
+    "name": "dynamic",
+    "parameters": {},
+    "children": [
+      {
+        "title": "Tenant Baseline Behavior",
+        "type": "module",
+        "name": "Tenant Baseline Behavior",
+        "parameters": {}
+      },
+      {
+        "title": null,
+        "type": "module",
+        "name": "flee",
+        "parameters": {}
+      },
+      {
+        "title": "ct_alta_accuse",
+        "type": "module",
+        "name": "ct_alta_accuse",
+        "parameters": {}
+      },
+      {
+        "title": null,
+        "type": "module",
+        "name": "converse",
+        "parameters": {}
+      },
+      {
+        "title": "NPC Idle",
+        "type": "module",
+        "name": "NPC Idle",
+        "parameters": {
+          "play": {"value": "<play>"}
+        }
+      }
+    ]
+  }
+}

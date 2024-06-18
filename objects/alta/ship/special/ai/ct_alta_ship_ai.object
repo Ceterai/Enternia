@@ -40,7 +40,8 @@
 
   "animation" : "/objects/ship/techstation.animation",
   "scripts" : [
-    "/objects/spawner/techstation.lua"
+    "/objects/spawner/techstation.lua",
+    "/objects/alta/ship/special/ai/sail.lua"
   ],
   "scriptDelta" : 20,
   "shipPetType" : "ct_alta_pet_drone",

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_elite_pod", "count" : 1 },
+    { "item" : "ct_bion", "count" : 1 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "ct_ceterai_ai_chip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_ceterai_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor5", "alta", "ceterai", "objects", "storage", "all", "mod" ]
+}

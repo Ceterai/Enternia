@@ -32,7 +32,27 @@
       "longdescription" : "Every bit is calculated and planned, all measurements are exact, including your reaction and what side of the cake you'll start with.",
       "altaDescription" : "This cake is screaming \"Mira\" with its sheer existance. Love her, and this cake accordingly.",
       "variant" : true, "alkey" : "Mira Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1560, "foodValue" : 110
+      "level" : 6, "rarity" : "Legendary", "price" : 1560, "foodValue" : 110,
+      "paletteSwap" : {
+        "#a588ee":"#88a1ee","#7f5add":"#5a7bdd","#613cbe":"#3c5cbe",
+        "#e56b93":"#e56bd4","#bf5b7c":"#bf5bb1","#cb235a":"#cb23b3","#912146":"#912181",
+        "#5a0d6a":"#690d6a","#4e0c5c":"#5b0c5c","#3c0647":"#460647",
+        "#491655":"#271655","#380a41":"#1b0a41","#26062d":"#2d0628"
+      }
+    },
+    "alien" : {
+      "shortdescription" : "Ciranga Cake ^#2080f0;^reset;",
+      "description" : "A pretty tough cake with wet bread and ciranga filling. Simple, yet effective. Pretty tasty, unlike its pie counterpart.",
+      "longdescription" : "Every bit is calculated and planned, all measurements are exact, including your reaction and what side of the cake you'll start with.",
+      "altaDescription" : "A simple cake with rare ingredients, almost like a delicacy.",
+      "variant" : true,
+      "level" : 5, "rarity" : "Rare", "price" : 900, "foodValue" : 80,
+      "paletteSwap" : {
+        "#a588ee":"#eed488","#7f5add":"#ddbb5a","#613cbe":"#be9d3c",
+        "#e56b93":"#e5746b","#bf5b7c":"#bf625b","#cb235a":"#cb2f23","#912146":"#912921",
+        "#5a0d6a":"#6a0d14","#4e0c5c":"#5c0c12","#3c0647":"#47060b",
+        "#491655":"#551648","#380a41":"#410a33","#26062d":"#2d0806"
+      }
     }
   }, "alkey" : "Ennia Ovak"
 }

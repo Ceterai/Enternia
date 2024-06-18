@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_gheatsyn_platform",
+  "colonyTags" : [ "crystal", "gheatsyn" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Gheatsyn Platform",
+  "description" : "A floating ^#a7e001;gheatsyn^reset; platform.",
+  "altaDescription" : "I'll be honest with you, I have no idea how they made it float. Perhaps there's some special component inside.",
+
+  "apexDescription" : "A platform on the gheatsyn pillar.",
+  "avianDescription" : "A dark floating platform.",
+  "floranDescription" : "A sssturdy flying platform.",
+  "glitchDescription" : "Peaceful. A flat platform.",
+  "humanDescription" : "A smooth platform. It's floating in the air!",
+  "hylotlDescription" : "A stylish levitating platform.",
+  "novakidDescription" : "A solid lookin' flying platform.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

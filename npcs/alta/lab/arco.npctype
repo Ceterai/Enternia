@@ -1,0 +1,22 @@
+{
+  "type" : "ct_arco_researcher",
+  "baseType" : "ct_alta_researcher",
+  "scriptConfig" : {
+    "behavior" : "ct_alta_guard_behavior",
+    "attackerLimit" : 2,
+    "attackerLimitCooldown" : 3
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_arco_helmet"}, { "name" : "ct_arco_helmet_mk2"} ],
+          "chest" : [ { "name" : "ct_arco_chest" } ],
+          "legs" : [ { "name" : "ct_arco_legwear" } ],
+          "back" : [ "", { "name" : "ct_arco_protector" } ],
+          "sheathedprimary" : [ "ct_pulsecutter" ]
+        }
+      ] ]
+    ]
+  }
+}

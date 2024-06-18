@@ -59,7 +59,7 @@
       "cantReach" : "/dialog/alta.config:cantReach"
     },
 
-    "behavior" : "villager",
+    "behavior" : "ct_alta_behavior",
     "behaviorConfig" : {
       "leapWindup" : 0.75,
       "questFollowerRunSpeed" : 14,

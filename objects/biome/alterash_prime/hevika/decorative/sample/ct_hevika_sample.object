@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_hevika_sample",
+  "colonyTags" : [ "crystal", "hevika", "knowledge" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 160,
+  "race" : "alta",
+
+  "shortdescription" : "Hevika Sample",
+  "description" : "A hevika sample. The stand is powered by the crystal itself. An exhibit of knowledge.",
+  "altaDescription" : "Charged crystals filled with pure alternia energy are divided into hevikal and altecal, this one is the former.",
+
+  "apexDescription" : "A crystal sample on the white stand.",
+  "avianDescription" : "A pretty blue crystal.",
+  "floranDescription" : "Floran can try to sssmash thingss.",
+  "glitchDescription" : "Calm. A blue crystal sample.",
+  "humanDescription" : "Can I take it? For educational purposes only. I won't sell it. Absolutely.",
+  "hylotlDescription" : "An interesting sample that, seemingly, can power its stand by itself.",
+  "novakidDescription" : "Two-in-one, a fine exhibit and a mirror.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

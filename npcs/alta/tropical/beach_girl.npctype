@@ -1,0 +1,18 @@
+{
+  "type" : "ct_alta_beach_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "", "", "sunglasses1head", "sunglasses1head", "sunglasses1head", "snorkelhead", "divingmaskhead",
+            { "name" : "snorkelhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 6, 7, 8, 9, 10 ] } },
+            { "name" : "divingmaskhead", "parameters" : { "colorIndex" : [ 1, 4, 5, 6, 7, 8, 9, 10 ] } }
+          ],
+          "chest" : [ { "name" : "avianfancyshirt", "parameters" : { "colorIndex" : [ 1, 4, 5, 6, 7, 8, 9, 10 ] } } ]
+        }
+      ] ]
+    ]
+  }
+}

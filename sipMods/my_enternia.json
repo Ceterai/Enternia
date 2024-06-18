@@ -1525,11 +1525,11 @@
     },
     {
         "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_alto_zich_egg.activeitem",
-        "name": "ct_alto_zich_egg",
-        "shortdescription": "Alto Zich Egg",
+        "fileName": "ct_alto_zych_egg.activeitem",
+        "name": "ct_alto_zych_egg",
+        "shortdescription": "Alto Zych Egg",
         "category": "throwableItem",
-        "icon": "ct_alto_zich_egg.png",
+        "icon": "ct_alto_zych_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -1549,6 +1549,15 @@
         "category": "throwableItem",
         "icon": "ct_elin_bug_egg.png",
         "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/bugs/",
+        "fileName": "ct_ion_klee_egg.activeitem",
+        "name": "ct_ion_klee_egg",
+        "shortdescription": "Ion Klee Egg",
+        "category": "throwableItem",
+        "icon": "ct_ion_klee_egg.png",
+        "rarity": "rare"
     },
     {
         "path": "/items/active/unsorted/alta/spawner/bugs/",
@@ -1579,6 +1588,15 @@
     },
     {
         "path": "/items/active/unsorted/alta/spawner/bugs/",
+        "fileName": "ct_prism_wing_egg.activeitem",
+        "name": "ct_prism_wing_egg",
+        "shortdescription": "Prism Wing Egg",
+        "category": "throwableItem",
+        "icon": "ct_prism_wing_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/bugs/",
         "fileName": "ct_starfly_egg.activeitem",
         "name": "ct_starfly_egg",
         "shortdescription": "Starfly Egg",
@@ -1588,11 +1606,29 @@
     },
     {
         "path": "/items/active/unsorted/alta/spawner/bugs/",
+        "fileName": "ct_strizychar_egg.activeitem",
+        "name": "ct_strizychar_egg",
+        "shortdescription": "Strizychar Egg",
+        "category": "throwableItem",
+        "icon": "ct_strizychar_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/bugs/",
         "fileName": "ct_unwarped_fly_egg.activeitem",
         "name": "ct_unwarped_fly_egg",
         "shortdescription": "Unwarped Fly Egg",
         "category": "throwableItem",
         "icon": "ct_unwarped_fly_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/bugs/",
+        "fileName": "ct_vio_zych_egg.activeitem",
+        "name": "ct_vio_zych_egg",
+        "shortdescription": "Vio Zych Egg",
+        "category": "throwableItem",
+        "icon": "ct_vio_zych_egg.png",
         "rarity": "uncommon"
     },
     {
@@ -2607,6 +2643,46 @@
         "shortdescription": "Starburst ^#8020f0;^reset;",
         "category": "shotgun",
         "icon": "ct_starburst.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_alta_ai_chip.item",
+        "name": "ct_alta_ai_chip",
+        "shortdescription": "Alta Basic A.I. Chip",
+        "category": "A.I. Chip",
+        "icon": "ct_alta_ai_chip.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_alta_ship_ai_chip.item",
+        "name": "ct_alta_ship_ai_chip",
+        "shortdescription": "Alta Ship A.I. Chip ^#8020f0;^reset;",
+        "category": "A.I. Chip",
+        "icon": "ct_alta_ship_ai_chip.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_ceterai_ai_chip.item",
+        "name": "ct_ceterai_ai_chip",
+        "shortdescription": "C.T.O.S. Chip ^#8020f0;^reset;",
+        "category": "A.I. Chip",
+        "icon": "ct_ceterai_ai_chip.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_eds_ai_chip.item",
+        "name": "ct_eds_ai_chip",
+        "shortdescription": "^#f02020;EDS^reset; A.I. Chip ^#8020f0;^reset;",
+        "category": "A.I. Chip",
+        "icon": "ct_eds_ai_chip.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -3686,7 +3762,7 @@
         "directives": "?replace;ffca8a=96cbe7;e0975c=5588d4;a85636=344495;6f2919=1a1c51"
     },
     {
-        "path": "/items/armors/my_enternia/trophies/ct_crippit_head/",
+        "path": "/items/armors/my_enternia/trophies/crippit_head/",
         "fileName": "ct_crippit.head",
         "name": "ct_crippit_head",
         "shortdescription": "Crippihead",
@@ -3696,7 +3772,7 @@
         "directives": "?replace;0050c0=0050c0;2080f0=2080f0;60c0fc=60c0fc;b0e0fc=b0e0fc"
     },
     {
-        "path": "/items/armors/my_enternia/trophies/ct_impulse_bobfae_head/",
+        "path": "/items/armors/my_enternia/trophies/impulse_bobfae_head/",
         "fileName": "ct_impulse_bobfae.head",
         "name": "ct_impulse_bobfae_head",
         "shortdescription": "Impulse Bobmask",
@@ -5251,6 +5327,26 @@
         "rarity": "uncommon"
     },
     {
+        "path": "/objects/alta/arco/pod/",
+        "fileName": "ct_arco_pod.object",
+        "name": "ct_arco_pod",
+        "shortdescription": "Enviro Pod ^#2080f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/arknight/pod/",
+        "fileName": "ct_arknight_pod.object",
+        "name": "ct_arknight_pod",
+        "shortdescription": "Arknight Pod ^#2080f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/basic/bed/",
         "fileName": "ct_alta_bed.object",
         "name": "ct_alta_bed",
@@ -5481,16 +5577,6 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/cafe/cookdecks/",
-        "fileName": "ct_alta_cookdecks.object",
-        "name": "ct_alta_cookdecks",
-        "shortdescription": "Alta Cookdecks",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
         "path": "/objects/alta/cafe/cooler/",
         "fileName": "ct_alta_cooler.object",
         "name": "ct_alta_cooler",
@@ -5501,121 +5587,11 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/cafe/cup/",
-        "fileName": "ct_alta_cup.object",
-        "name": "ct_alta_cup",
-        "shortdescription": "Alta Cup",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/dishes/",
-        "fileName": "ct_alta_dishes.object",
-        "name": "ct_alta_dishes",
-        "shortdescription": "Alta Dishes",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/fridge/",
-        "fileName": "ct_alta_fridge.object",
-        "name": "ct_alta_fridge",
-        "shortdescription": "Alta Fridge",
-        "category": "fridgeStorage",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
         "path": "/objects/alta/cafe/hand_dryer/",
         "fileName": "ct_alta_hand_dryer.object",
         "name": "ct_alta_hand_dryer",
         "shortdescription": "Alta Hand Dryer",
         "category": "light",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/juicer/",
-        "fileName": "ct_alta_juicer.object",
-        "name": "ct_alta_juicer",
-        "shortdescription": "Alta Juicer",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/kettle/",
-        "fileName": "ct_alta_kettle.object",
-        "name": "ct_alta_kettle",
-        "shortdescription": "Alta Kettle",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/microwave/",
-        "fileName": "ct_alta_microwave.object",
-        "name": "ct_alta_microwave",
-        "shortdescription": "Alta Microwave Oven",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/plate/",
-        "fileName": "ct_alta_plate.object",
-        "name": "ct_alta_plate",
-        "shortdescription": "Alta Plate",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/plate_stack/",
-        "fileName": "ct_alta_plate_stack.object",
-        "name": "ct_alta_plate_stack",
-        "shortdescription": "Alta Plate Stack",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/pot/",
-        "fileName": "ct_alta_pot.object",
-        "name": "ct_alta_pot",
-        "shortdescription": "Alta Pot",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/saturator/",
-        "fileName": "ct_alta_saturator.object",
-        "name": "ct_alta_saturator",
-        "shortdescription": "Alta Saturator",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/cafe/sink/",
-        "fileName": "ct_alta_sink.object",
-        "name": "ct_alta_sink",
-        "shortdescription": "Alta Sink",
-        "category": "decorative",
         "icon": "icon.png",
         "rarity": "common",
         "race": "alta"
@@ -5688,6 +5664,26 @@
         "category": "wire",
         "icon": "icon.png",
         "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/ceterai/pod/",
+        "fileName": "ct_ceterai_pod.object",
+        "name": "ct_ceterai_pod",
+        "shortdescription": "Ceterai Pod ^#8020f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/citadel/pod/",
+        "fileName": "ct_alta_citadel_pod.object",
+        "name": "ct_alta_citadel_pod",
+        "shortdescription": "Citadel Pod ^#8020f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "legendary",
         "race": "alta"
     },
     {
@@ -5891,6 +5887,216 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/combat/pod/",
+        "fileName": "ct_combat_pod.object",
+        "name": "ct_combat_pod",
+        "shortdescription": "Combat Pod ^#2080f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/blender/",
+        "fileName": "ct_alta_blender.object",
+        "name": "ct_alta_blender",
+        "shortdescription": "Alta Blender",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/cakery/",
+        "fileName": "ct_alta_cakery.object",
+        "name": "ct_alta_cakery",
+        "shortdescription": "Alta Cakery",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/conserver/",
+        "fileName": "ct_alta_conserver.object",
+        "name": "ct_alta_conserver",
+        "shortdescription": "Alta Conserver",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/cookdecks/",
+        "fileName": "ct_alta_cookdecks.object",
+        "name": "ct_alta_cookdecks",
+        "shortdescription": "Alta Cookdecks",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/cup/",
+        "fileName": "ct_alta_cup.object",
+        "name": "ct_alta_cup",
+        "shortdescription": "Alta Cup",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/dishes/",
+        "fileName": "ct_alta_dishes.object",
+        "name": "ct_alta_dishes",
+        "shortdescription": "Alta Dishes",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/fridge/",
+        "fileName": "ct_alta_fridge.object",
+        "name": "ct_alta_fridge",
+        "shortdescription": "Alta Fridge",
+        "category": "fridgeStorage",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/icer/",
+        "fileName": "ct_alta_icer.object",
+        "name": "ct_alta_icer",
+        "shortdescription": "Alta Icer",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/juicer/",
+        "fileName": "ct_alta_juicer.object",
+        "name": "ct_alta_juicer",
+        "shortdescription": "Alta Juicer",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/kettle/",
+        "fileName": "ct_alta_kettle.object",
+        "name": "ct_alta_kettle",
+        "shortdescription": "Alta Kettle",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/kitchener/",
+        "fileName": "ct_alta_kitchener.object",
+        "name": "ct_alta_kitchener",
+        "shortdescription": "Alta Kitchener",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/microwave/",
+        "fileName": "ct_alta_microwave.object",
+        "name": "ct_alta_microwave",
+        "shortdescription": "Alta Microwave Oven",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/oven/",
+        "fileName": "ct_alta_oven.object",
+        "name": "ct_alta_oven",
+        "shortdescription": "Alta Oven",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/plate/",
+        "fileName": "ct_alta_plate.object",
+        "name": "ct_alta_plate",
+        "shortdescription": "Alta Plate",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/plate_stack/",
+        "fileName": "ct_alta_plate_stack.object",
+        "name": "ct_alta_plate_stack",
+        "shortdescription": "Alta Plate Stack",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/pot/",
+        "fileName": "ct_alta_pot.object",
+        "name": "ct_alta_pot",
+        "shortdescription": "Alta Pot",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/saturator/",
+        "fileName": "ct_alta_saturator.object",
+        "name": "ct_alta_saturator",
+        "shortdescription": "Alta Saturator",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/shaker/",
+        "fileName": "ct_alta_shaker.object",
+        "name": "ct_alta_shaker",
+        "shortdescription": "Alta Shaker",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/sink/",
+        "fileName": "ct_alta_sink.object",
+        "name": "ct_alta_sink",
+        "shortdescription": "Alta Sink",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/stove/",
+        "fileName": "ct_alta_stove.object",
+        "name": "ct_alta_stove",
+        "shortdescription": "Alta Stove",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/crafting/constructor/",
         "fileName": "ct_alta_constructor.object",
         "name": "ct_alta_constructor",
@@ -5994,7 +6200,7 @@
         "path": "/objects/alta/eds/decorative/pod/",
         "fileName": "ct_eds_pod.object",
         "name": "ct_eds_pod",
-        "shortdescription": "^#f02020;EDS^reset; Pod",
+        "shortdescription": "^#f02020;EDS^reset; Pod ^#2080f0;^reset;",
         "category": "storage",
         "icon": "icon.png",
         "rarity": "rare",
@@ -6041,7 +6247,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/haulters/ct_eds_haulter/",
+        "path": "/objects/alta/eds/haulters/haulter/",
         "fileName": "ct_eds_haulter.object",
         "name": "ct_eds_haulter",
         "shortdescription": "^#f02020;EDS^reset; Halter",
@@ -6051,7 +6257,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/haulters/ct_eds_haulter_broken/",
+        "path": "/objects/alta/eds/haulters/haulter_broken/",
         "fileName": "ct_eds_haulter_broken.object",
         "name": "ct_eds_haulter_broken",
         "shortdescription": "Broken ^#f02020;EDS^reset; Halter",
@@ -6061,7 +6267,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/haulters/ct_eds_haulter_fence/",
+        "path": "/objects/alta/eds/haulters/haulter_fence/",
         "fileName": "ct_eds_haulter_fence.object",
         "name": "ct_eds_haulter_fence",
         "shortdescription": "^#f02020;EDS^reset; Halterfence",
@@ -6071,7 +6277,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/haulters/ct_eds_haulter_marker/",
+        "path": "/objects/alta/eds/haulters/haulter_marker/",
         "fileName": "ct_eds_haulter_marker.object",
         "name": "ct_eds_haulter_marker",
         "shortdescription": "^#f02020;EDS^reset; Marker",
@@ -6081,7 +6287,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/haulters/ct_eds_haulter_wires/",
+        "path": "/objects/alta/eds/haulters/haulter_wires/",
         "fileName": "ct_eds_haulter_wires.object",
         "name": "ct_eds_haulter_wires",
         "shortdescription": "^#f02020;EDS^reset; Halter Wires",
@@ -6111,7 +6317,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/status_pods/ct_eds_defense_pod/",
+        "path": "/objects/alta/eds/status_pods/defense_pod/",
         "fileName": "ct_eds_defense_pod.object",
         "name": "ct_eds_defense_pod",
         "shortdescription": "^#f02020;EDS^reset; Defense Pod",
@@ -6121,7 +6327,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/eds/status_pods/ct_eds_status_pod/",
+        "path": "/objects/alta/eds/status_pods/status_pod/",
         "fileName": "ct_eds_status_pod.object",
         "name": "ct_eds_status_pod",
         "shortdescription": "^#f02020;EDS^reset; Status Pod",
@@ -6146,6 +6352,36 @@
         "name": "ct_eds_turret",
         "shortdescription": "^#f02020;EDS^reset; Turret",
         "category": "wire",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/elin/pod/",
+        "fileName": "ct_elin_pod.object",
+        "name": "ct_elin_pod",
+        "shortdescription": "Elin Pod ^#20f080;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/elite/pod/",
+        "fileName": "ct_elite_pod.object",
+        "name": "ct_elite_pod",
+        "shortdescription": "Elite Pod ^#8020f0;^reset;",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/faradea/pod/",
+        "fileName": "ct_faradea_pod.object",
+        "name": "ct_faradea_pod",
+        "shortdescription": "Faradea Pod ^#2080f0;^reset;",
+        "category": "storage",
         "icon": "icon.png",
         "rarity": "rare",
         "race": "alta"
@@ -6721,10 +6957,10 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/special/bugs/alto_zich/",
-        "fileName": "ct_alto_zich.object",
-        "name": "ct_alto_zich_af",
-        "shortdescription": "Alto Zich",
+        "path": "/objects/alta/special/bugs/alto_zych/",
+        "fileName": "ct_alto_zych.object",
+        "name": "ct_alto_zych_af",
+        "shortdescription": "Alto Zych",
         "category": "bug",
         "icon": "icon.png",
         "rarity": "uncommon",
@@ -6748,6 +6984,16 @@
         "category": "bug",
         "icon": "icon.png",
         "rarity": "uncommon",
+        "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/bugs/ion_klee/",
+        "fileName": "ct_ion_klee.object",
+        "name": "ct_ion_klee_af",
+        "shortdescription": "Ion Klee",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "rare",
         "race": "generic"
     },
     {
@@ -6781,6 +7027,16 @@
         "race": "generic"
     },
     {
+        "path": "/objects/alta/special/bugs/prism_wing/",
+        "fileName": "ct_prism_wing.object",
+        "name": "ct_prism_wing_af",
+        "shortdescription": "Prism Wing",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "generic"
+    },
+    {
         "path": "/objects/alta/special/bugs/starfly/",
         "fileName": "ct_starfly.object",
         "name": "ct_starfly_af",
@@ -6788,6 +7044,16 @@
         "category": "bug",
         "icon": "icon.png",
         "rarity": "legendary",
+        "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/bugs/strizychar/",
+        "fileName": "ct_strizychar.object",
+        "name": "ct_strizychar_af",
+        "shortdescription": "Strizychar",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "common",
         "race": "generic"
     },
     {
@@ -6799,6 +7065,96 @@
         "icon": "icon.png",
         "rarity": "uncommon",
         "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/bugs/vio_zych/",
+        "fileName": "ct_vio_zych.object",
+        "name": "ct_vio_zych_af",
+        "shortdescription": "Vio Zych",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/emblems/alta/",
+        "fileName": "ct_alta_emblem.object",
+        "name": "ct_alta_emblem",
+        "shortdescription": "Alta Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/arco/",
+        "fileName": "ct_arco_emblem.object",
+        "name": "ct_arco_emblem",
+        "shortdescription": "A.R.C.O. Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/arknight/",
+        "fileName": "ct_arknight_emblem.object",
+        "name": "ct_arknight_emblem",
+        "shortdescription": "Arknight Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/ceterai/",
+        "fileName": "ct_ceterai_emblem.object",
+        "name": "ct_ceterai_emblem",
+        "shortdescription": "Ceterai Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/eds/",
+        "fileName": "ct_eds_emblem.object",
+        "name": "ct_eds_emblem",
+        "shortdescription": "^#f02020;EDS^reset; Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/elin/",
+        "fileName": "ct_elin_emblem.object",
+        "name": "ct_elin_emblem",
+        "shortdescription": "Elin Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/faradea/",
+        "fileName": "ct_faradea_emblem.object",
+        "name": "ct_faradea_emblem",
+        "shortdescription": "Faradea Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/emblems/gyera/",
+        "fileName": "ct_gyera_emblem.object",
+        "name": "ct_gyera_emblem",
+        "shortdescription": "Iora Gyera Emblem",
+        "category": "decorative",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/anglure/",
@@ -7123,6 +7479,126 @@
         "category": "actionFigure",
         "icon": "ct_warped_sporgus.png",
         "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/food/cake/",
+        "fileName": "ct_alta_cake.object",
+        "name": "ct_alta_cake_fo",
+        "shortdescription": "Alta Cake Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/cocktail/",
+        "fileName": "ct_alta_cocktail.object",
+        "name": "ct_alta_cocktail_fo",
+        "shortdescription": "Alta Cocktail Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/dessert/",
+        "fileName": "ct_alta_dessert.object",
+        "name": "ct_alta_dessert_fo",
+        "shortdescription": "Alta Dessert Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/fresh/",
+        "fileName": "ct_alta_fresh.object",
+        "name": "ct_alta_fresh_fo",
+        "shortdescription": "Alta Fresh Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/jam/",
+        "fileName": "ct_alta_jam.object",
+        "name": "ct_alta_jam_fo",
+        "shortdescription": "Alta Jam Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/meal/",
+        "fileName": "ct_alta_meal.object",
+        "name": "ct_alta_meal_fo",
+        "shortdescription": "Alta Meal Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/motsu/",
+        "fileName": "ct_alta_motsu.object",
+        "name": "ct_alta_motsu_fo",
+        "shortdescription": "Alta Motsu Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/pie/",
+        "fileName": "ct_alta_pie.object",
+        "name": "ct_alta_pie_fo",
+        "shortdescription": "Alta Pie Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/punch/",
+        "fileName": "ct_alta_punch.object",
+        "name": "ct_alta_punch_fo",
+        "shortdescription": "Alta Punch Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/salad/",
+        "fileName": "ct_alta_salad.object",
+        "name": "ct_alta_salad_fo",
+        "shortdescription": "Alta Salad Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/soup/",
+        "fileName": "ct_alta_soup.object",
+        "name": "ct_alta_soup_fo",
+        "shortdescription": "Alta Soup Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/food/tea/",
+        "fileName": "ct_alta_tea.object",
+        "name": "ct_alta_tea_fo",
+        "shortdescription": "Alta Tea Serving",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/paintings/",
@@ -8612,7 +9088,7 @@
         "race": "generic"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_bed/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/bed/",
         "fileName": "ct_bishyn_bed.object",
         "name": "ct_bishyn_bed",
         "shortdescription": "Bishyn Bed",
@@ -8622,7 +9098,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_chair/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/chair/",
         "fileName": "ct_bishyn_chair.object",
         "name": "ct_bishyn_chair",
         "shortdescription": "Bishyn Chair",
@@ -8632,7 +9108,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_chest/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/chest/",
         "fileName": "ct_bishyn_chest.object",
         "name": "ct_bishyn_chest",
         "shortdescription": "Bishyn Chest",
@@ -8642,7 +9118,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_door/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/door/",
         "fileName": "ct_bishyn_door.object",
         "name": "ct_bishyn_door",
         "shortdescription": "Bishyn Door",
@@ -8652,7 +9128,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_hatch/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/hatch/",
         "fileName": "ct_bishyn_hatch.object",
         "name": "ct_bishyn_hatch",
         "shortdescription": "Bishyn Hatch",
@@ -8662,7 +9138,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_lamp/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/lamp/",
         "fileName": "ct_bishyn_lamp.object",
         "name": "ct_bishyn_lamp",
         "shortdescription": "Bishyn Lamp",
@@ -8672,7 +9148,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_light/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/light/",
         "fileName": "ct_bishyn_light.object",
         "name": "ct_bishyn_light",
         "shortdescription": "Bishyn Wall Light",
@@ -8682,7 +9158,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_locker/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/locker/",
         "fileName": "ct_bishyn_locker.object",
         "name": "ct_bishyn_locker",
         "shortdescription": "Bishyn Locker",
@@ -8692,7 +9168,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_monitor/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/monitor/",
         "fileName": "ct_bishyn_monitor.object",
         "name": "ct_bishyn_monitor",
         "shortdescription": "Bishyn Monitor",
@@ -8702,7 +9178,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_sample/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/sample/",
         "fileName": "ct_bishyn_sample.object",
         "name": "ct_bishyn_sample",
         "shortdescription": "Bishyn Sample",
@@ -8712,7 +9188,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_table/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/table/",
         "fileName": "ct_bishyn_table.object",
         "name": "ct_bishyn_table",
         "shortdescription": "Bishyn Table",
@@ -8722,7 +9198,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/bishyn/decorative/ct_bishyn_terminal/",
+        "path": "/objects/biome/alterash_prime/bishyn/decorative/terminal/",
         "fileName": "ct_bishyn_terminal.object",
         "name": "ct_bishyn_terminal",
         "shortdescription": "Bishyn Terminal",
@@ -8732,7 +9208,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_bed/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/bed/",
         "fileName": "ct_calin_bed.object",
         "name": "ct_calin_bed",
         "shortdescription": "Calin Bed",
@@ -8742,7 +9218,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_chair/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/chair/",
         "fileName": "ct_calin_chair.object",
         "name": "ct_calin_chair",
         "shortdescription": "Calin Chair",
@@ -8752,7 +9228,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_chest/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/chest/",
         "fileName": "ct_calin_chest.object",
         "name": "ct_calin_chest",
         "shortdescription": "Calin Chest",
@@ -8762,7 +9238,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_clubdecks/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/clubdecks/",
         "fileName": "ct_calin_clubdecks.object",
         "name": "ct_calin_clubdecks",
         "shortdescription": "Calin Club Decks",
@@ -8772,7 +9248,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_console/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/console/",
         "fileName": "ct_calin_console.object",
         "name": "ct_calin_console",
         "shortdescription": "Calin Console",
@@ -8782,7 +9258,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_gateway/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/gateway/",
         "fileName": "ct_calin_gateway.object",
         "name": "ct_calin_gateway",
         "shortdescription": "Calin Gateway",
@@ -8792,7 +9268,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_hatch/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/hatch/",
         "fileName": "ct_calin_hatch.object",
         "name": "ct_calin_hatch",
         "shortdescription": "Calin Hatch",
@@ -8802,7 +9278,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_lamp/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/lamp/",
         "fileName": "ct_calin_lamp.object",
         "name": "ct_calin_lamp",
         "shortdescription": "Calin Lamp",
@@ -8812,7 +9288,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_sample/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/sample/",
         "fileName": "ct_calin_sample.object",
         "name": "ct_calin_sample",
         "shortdescription": "Calin Sample",
@@ -8822,7 +9298,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_shelf/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/shelf/",
         "fileName": "ct_calin_shelf.object",
         "name": "ct_calin_shelf",
         "shortdescription": "Calin Shelf",
@@ -8832,7 +9308,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_table/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/table/",
         "fileName": "ct_calin_table.object",
         "name": "ct_calin_table",
         "shortdescription": "Calin Table",
@@ -8842,7 +9318,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/calin/decorative/ct_calin_terminal/",
+        "path": "/objects/biome/alterash_prime/calin/decorative/terminal/",
         "fileName": "ct_calin_terminal.object",
         "name": "ct_calin_terminal",
         "shortdescription": "Calin Terminal",
@@ -8932,7 +9408,7 @@
         "race": "generic"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_bed/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/bed/",
         "fileName": "ct_gheatsyn_bed.object",
         "name": "ct_gheatsyn_bed",
         "shortdescription": "Gheatsyn Bed",
@@ -8942,7 +9418,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_chair/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/chair/",
         "fileName": "ct_gheatsyn_chair.object",
         "name": "ct_gheatsyn_chair",
         "shortdescription": "Gheatsyn Chair",
@@ -8952,7 +9428,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_chest/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/chest/",
         "fileName": "ct_gheatsyn_chest.object",
         "name": "ct_gheatsyn_chest",
         "shortdescription": "Gheatsyn Chest",
@@ -8962,7 +9438,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_console/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/console/",
         "fileName": "ct_gheatsyn_console.object",
         "name": "ct_gheatsyn_console",
         "shortdescription": "Gheatsyn Console",
@@ -8972,7 +9448,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_door/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/door/",
         "fileName": "ct_gheatsyn_door.object",
         "name": "ct_gheatsyn_door",
         "shortdescription": "Gheatsyn Door",
@@ -8982,7 +9458,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_gateway/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/gateway/",
         "fileName": "ct_gheatsyn_gateway.object",
         "name": "ct_gheatsyn_gateway",
         "shortdescription": "Gheatsyn Gateway",
@@ -8992,7 +9468,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_hatch/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/hatch/",
         "fileName": "ct_gheatsyn_hatch.object",
         "name": "ct_gheatsyn_hatch",
         "shortdescription": "Gheatsyn Hatch",
@@ -9002,7 +9478,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_lamp/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/lamp/",
         "fileName": "ct_gheatsyn_lamp.object",
         "name": "ct_gheatsyn_lamp",
         "shortdescription": "Gheatsyn Lamp",
@@ -9012,7 +9488,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_light/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/light/",
         "fileName": "ct_gheatsyn_light.object",
         "name": "ct_gheatsyn_light",
         "shortdescription": "Gheatsyn Light",
@@ -9022,7 +9498,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_minifridge/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/minifridge/",
         "fileName": "ct_gheatsyn_minifridge.object",
         "name": "ct_gheatsyn_minifridge",
         "shortdescription": "Gheatsyn Minifridge",
@@ -9032,7 +9508,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_platform/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/platform/",
         "fileName": "ct_gheatsyn_platform.object",
         "name": "ct_gheatsyn_platform",
         "shortdescription": "Gheatsyn Platform",
@@ -9042,7 +9518,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_sample/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/sample/",
         "fileName": "ct_gheatsyn_sample.object",
         "name": "ct_gheatsyn_sample",
         "shortdescription": "Gheatsyn Sample",
@@ -9052,7 +9528,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_shelf/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/shelf/",
         "fileName": "ct_gheatsyn_shelf.object",
         "name": "ct_gheatsyn_shelf",
         "shortdescription": "Gheatsyn Shelf",
@@ -9062,7 +9538,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_table/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/table/",
         "fileName": "ct_gheatsyn_table.object",
         "name": "ct_gheatsyn_table",
         "shortdescription": "Gheatsyn Table",
@@ -9072,7 +9548,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_tank/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/tank/",
         "fileName": "ct_gheatsyn_tank.object",
         "name": "ct_gheatsyn_tank",
         "shortdescription": "Gheatsyn Tank",
@@ -9082,7 +9558,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/ct_gheatsyn_terminal/",
+        "path": "/objects/biome/alterash_prime/gheatsyn/decorative/terminal/",
         "fileName": "ct_gheatsyn_terminal.object",
         "name": "ct_gheatsyn_terminal",
         "shortdescription": "Gheatsyn Terminal",
@@ -9092,7 +9568,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_bed/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/bed/",
         "fileName": "ct_hevika_bed.object",
         "name": "ct_hevika_bed",
         "shortdescription": "Hevika Bed",
@@ -9102,7 +9578,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_chair/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/chair/",
         "fileName": "ct_hevika_chair.object",
         "name": "ct_hevika_chair",
         "shortdescription": "Hevika Chair",
@@ -9112,7 +9588,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_chest/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/chest/",
         "fileName": "ct_hevika_chest.object",
         "name": "ct_hevika_chest",
         "shortdescription": "Hevika Chest",
@@ -9122,7 +9598,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_console/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/console/",
         "fileName": "ct_hevika_console.object",
         "name": "ct_hevika_console",
         "shortdescription": "Hevika Console",
@@ -9132,7 +9608,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_hatch/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/hatch/",
         "fileName": "ct_hevika_hatch.object",
         "name": "ct_hevika_hatch",
         "shortdescription": "Hevika Hatch",
@@ -9142,7 +9618,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_lamp/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/lamp/",
         "fileName": "ct_hevika_lamp.object",
         "name": "ct_hevika_lamp",
         "shortdescription": "Hevika Lamp",
@@ -9152,7 +9628,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_light/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/light/",
         "fileName": "ct_hevika_light.object",
         "name": "ct_hevika_light",
         "shortdescription": "Hevika Light",
@@ -9162,7 +9638,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_monitor/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/monitor/",
         "fileName": "ct_hevika_monitor.object",
         "name": "ct_hevika_monitor",
         "shortdescription": "Hevika Monitor",
@@ -9172,7 +9648,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_sample/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/sample/",
         "fileName": "ct_hevika_sample.object",
         "name": "ct_hevika_sample",
         "shortdescription": "Hevika Sample",
@@ -9182,7 +9658,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_table/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/table/",
         "fileName": "ct_hevika_table.object",
         "name": "ct_hevika_table",
         "shortdescription": "Hevika Table",
@@ -9192,7 +9668,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_terminal/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/terminal/",
         "fileName": "ct_hevika_terminal.object",
         "name": "ct_hevika_terminal",
         "shortdescription": "Hevika Terminal",
@@ -9202,7 +9678,7 @@
         "race": "alta"
     },
     {
-        "path": "/objects/biome/alterash_prime/hevika/decorative/ct_hevika_turret/",
+        "path": "/objects/biome/alterash_prime/hevika/decorative/turret/",
         "fileName": "ct_hevika_turret.object",
         "name": "ct_hevika_turret",
         "shortdescription": "Hevika Turret",

@@ -31,7 +31,12 @@
       "description" : "This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
       "altaDescription" : "You have to be an exceptional alta chef to consitenly be able to make these.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65,
+      "paletteSwap" : {
+        "#c3944b":"#c3744b","#b88c49":"#b86e49","#b98043":"#b96043","#8f6130":"#8f4830",
+        "#6bb959":"#a5cbce","#408c4b":"#94a8b5",
+        "#c64f2f":"#2f87c6","#9e2e1f":"#1f759e"
+      }
     }
   }
 }

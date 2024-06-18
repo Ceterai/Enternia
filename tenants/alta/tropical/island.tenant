@@ -12,21 +12,8 @@
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_alta",
-      "overrides" : {
-        "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } },
-        "items" : {
-          "override" : [
-            [0, [
-              {
-                "head" : [ "", "", { "name" : "ct_head_mimic", "parameters" : { "preset" : "headband", "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ],
-                "chest" : [ { "name" : "kimonochest", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ],
-                "legs" : [ { "name" : "kimonolegs", "parameters" : { "colorIndex" : [ 0, 1, 4, 5, 7, 8, 9, 10 ] } } ]
-              }
-            ] ]
-          ]
-        }
-      }
+      "type" : "ct_alta_festival_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
   "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // crystals instead of pixels, prism shards

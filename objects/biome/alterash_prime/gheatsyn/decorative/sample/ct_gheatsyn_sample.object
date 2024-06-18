@@ -1,0 +1,33 @@
+{
+  "objectName" : "ct_gheatsyn_sample",
+  "colonyTags" : [ "crystal", "gheatsyn", "pretty", "science" ],
+  "category" : "decorative",
+  "level" : 5, "rarity" : "Rare", "price" : 160,
+  "race" : "alta",
+
+  "shortdescription" : "Gheatsyn Sample",
+  "description" : "A ^#a7e001;gheatsyn^reset; crystal.",
+  "altaDescription" : "A fine sample, useful for experiments and as an artsy display. The sample is charged so it doesn't turn into a liquid.",
+
+  "apexDescription" : "A really massive gheatsyn crystal sample.",
+  "avianDescription" : "A beautiful green crystal.",
+  "floranDescription" : "Floran can take thisss big cute thing home.",
+  "glitchDescription" : "Self-assured. A big green crystal.",
+  "humanDescription" : "I wonder how much it costs?",
+  "hylotlDescription" : "This crystal sample is really pretty and well-made.",
+  "novakidDescription" : "I'm gonna sell it and paint the town red tonight!",
+
+  "lightColor" : [32, 44, 0],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "lightPosition" : [0, 2],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

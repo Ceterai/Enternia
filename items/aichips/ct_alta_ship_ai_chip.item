@@ -1,0 +1,99 @@
+// Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
+// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// This chip can be used to modify S.A.I.L. (if you have that mod installed)
+// Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
+{
+  "itemName": "ct_alta_ship_ai_chip",
+
+  "shortdescription": "Alta Ship A.I. Chip ^#8020f0;^reset;",
+  "description": "An alta standardized ship A.I. chip. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal. Highly overwritive.^reset;",
+  "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
+  "altaDescription": "A whole ship A.I. condensed into a small datamass... Amusing.",
+
+  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+
+  "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
+  "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },
+  "inventoryIcon": "ct_alta_ship_ai_chip.png",
+
+  "aiData": {
+    "aiFrames": "alta_ai.png",
+    "staticFrames": "alta_static.png",
+    "portraitFrames": "portraits/alta_portrait.png",
+    "questPortrait": "alta",
+    "titleIcon": "/interface/ai/ct_alta_ai.png",
+
+    "title": "^#b0e0fc;Alta ^#f6f6f6;Ship A.I.^reset;",
+    "subtitle": "^#0040a8;Al'deron Command Center: connected^reset;",
+    "chatterSound": "/sfx/interface/nav_scanning_loop.ogg",
+
+    "charactersPerSecond": 60,
+
+    "noCrewSpeech": {
+      "animation": "refuse",
+      "text": "^#0040a8;Crew status:^#2080f0;\n\n- You are the only registered project member of this sector.\n\n- Finding other project members may allow for increased operational efficiency.",
+      "speedModifier": 0.7
+    },
+
+    "noMissionsSpeech": {
+      "animation": "refuse",
+      "text": "^#0040a8;Objectives:^#2080f0;\n\n- No special co-ordinates currently available.",
+      "speedModifier": 0.7
+    },
+
+    "shipStatus": {
+      "0": {
+        "animation": "unique",
+        "text": "^#20f080;- Standing by...",
+        "speedModifier": 0.7
+      },
+      "1": {
+        "animation": "talk",
+        "text": "^#00a840;Status:\n\n- ^#8020f0;Ship thrusters are offline.^#00a840;\n\n- ^#20f080;Al'deron Command Center is responding.^#00a840;\n\n- ^#2080f0;Ship wormhole system functioning at basic levels.^#00a840;\n\n- ^#8020f0;Currently only the planet below is accessible.",
+        "speedModifier": 0.7
+      },
+      "2": {
+        "animation": "talk",
+        "text": "^#00a840;Status:\n\n- ^#20f080;Ship thrusters are online.^#00a840;\n\n- ^#20f080;Al'deron Command Center is responding.^#00a840;\n\n- ^#20f080;Ship wormhole system functioning correctly.^#00a840;\n\n- ^#2080f0;Planets within this star system are accessible.",
+        "speedModifier": 0.7
+      },
+      "3": {
+        "animation": "talk",
+        "text": "^#00a840;Status:\n\n- ^#20f080;Ship thrusters are online.^#00a840;\n\n- ^#20f080;Al'deron Command Center is responding.^#00a840;\n\n- ^#20f080;FTL drive is online.^#00a840;\n\n- ^#20f080;Ship wormhole system functioning correctly.^#00a840;\n\n- ^#20f080;The entire universe is accessible.",
+        "speedModifier": 0.7
+      }
+    },
+
+    "interfaceText": {
+      "homeBreadcrumbText": "System",
+      "crewBreadcrumbText": "Crew",
+      "configBreadcrumbText": "Config",
+      "missionBreadcrumbText": "Missions",
+
+      "buttonBackText": "^#8020f0;BACK",
+      "buttonMissionsText": "^#8020f0;MISSIONS",
+      "buttonCrewText": "^#8020f0;CREW",
+      "buttonCancelText": "^#8020f0;CANCEL",
+      "buttonDismissText": "^#8020f0;DISMISS",
+      "buttonDeployText": "^#8020f0;DEPLOY",
+
+      "buttonOpenCraftingText": "^#20f080;Open A.I. Synthesis",
+      "buttonOpenSlotText": "^#20f080;Open A.I. Synthesis slot",
+      "buttonCloseSlotText": "^#2080f0;Close A.I. Synthesis slot",
+      "buttonFallbackText": "^#8020f0;Protectorate Defaults Reset",
+
+      "overwrittingConfText": "^#00a840;> Updating Comms..................",
+      "aiDataText": "^#00a840;You can install an A.I. chip here to customize your comms.",
+      "fallbackText": "^#00a840;Use this if you can't find a mission or crewmember.",
+      "fallbackActivatedText": "^#4000a8;The fallback interface will be loaded upon next interaction.",
+
+      "craftingTitle": "^#20f080;A.I. Synthesis",
+      "craftingSubtitle": "^#00a840;Create A.I. Chips to modify the A.I.",
+
+      "defaultRecruitDescription": "^#4000a8;- NO DATA -",
+      "defaultRecruitName": "^#8020f0;Unknown Member"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

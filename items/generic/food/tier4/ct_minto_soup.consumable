@@ -41,7 +41,11 @@
       "description" : "This soup turned out to be just perfectly spicy and tasty! For pristine spice enjoyers.",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
       "altaDescription" : "A very good outcome, what an enjoyable piece of culinary art!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65
+      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65,
+      "paletteSwap" : {
+        "#e2e045":"#e2e045","#a0c62f":"#a0c62f","#76c34b":"#c3584b","#78b943":"#9ab943","#71b849":"#49b8ab","#5a8f30":"#8f3230",
+        "#59b9aa":"#59b4b9","#407e8c":"#406f8c","#2d5a64":"#2d4f64"
+      }
     }
   }
 }

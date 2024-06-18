@@ -31,7 +31,12 @@
       "description" : "A well-made haruplavu that somehow tastes very different from the original. Still incredibly tasty.",
       "longdescription" : "A chef's hand made this dish irreversibly unique.",
       "altaDescription" : "A nice touch on a classic haruplavu.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75
+      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75,
+      "paletteSwap" : {
+        "#fd7a86":"#fdab7a","#fe4777":"#fe6c47","#c9375a":"#c95837","#ab1241":"#ab2b12","#88012a":"#881701","#681820":"#683518",
+        "#108667":"#106e86","#10503f":"#104350","#10352b":"#102e35",
+        "#a065d5":"#65d59c","#932da6":"#2da68f"
+      }
     }
   }
 }

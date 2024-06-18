@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_alta_security_pod", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 4 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_elin_pod",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "elin", "objects", "storage", "all", "mod" ]
+}

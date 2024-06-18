@@ -27,9 +27,9 @@
     "behaviorConfig" : {
       "damageOnTouch" : true, "targetQueryRange" : 20,
       "foundTargetActions" : [ ],
-      "fleeActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 20, "maxRange" : 50 } } ],
+      "fleeActions" : [ ],
       "spawnActions" : [ { "name" : "action-animate", "parameters" : { "state" : "activate", "animationTime" : 2.78 } } ],
-      "hostileActions" : [ { "name" : "approach-fly", "parameters" : { "minRange" : 8, "maxRange" : 12 } },
+      "hostileActions" : [
         {
           "name" : "action-swoop", "cooldown" : [2,6], "parameters" : {
             "minimumRange" : 3, "maximumRange" : 10, "onGround" : false,  // "action-windup" params

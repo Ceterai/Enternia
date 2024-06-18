@@ -1,0 +1,291 @@
+{
+  "name": "ct_alta_accuse",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/notification.lua",
+    "/scripts/actions/position.lua",
+    "/scripts/actions/sensor.lua",
+    "/scripts/actions/world.lua",
+    "/scripts/actions/dialog.lua",
+    "/scripts/behavior.lua",
+    "/scripts/actions/entity.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {
+    "hostileDamageTeam": {"type": "enemy", "team": 1}
+  },
+  "root": {
+    "title": "sequence",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "selector",
+        "type": "composite",
+        "name": "selector",
+        "parameters": {},
+        "children": [
+          {
+            "title": "receivedNotification",
+            "type": "action",
+            "name": "receivedNotification",
+            "parameters": {
+              "type": {"value": "objectBroken"}
+            },
+            "output": {
+              "target": "thiefTarget",
+              "targetPosition": "objectPosition"
+            }
+          },
+          {
+            "title": "receivedNotification",
+            "type": "action",
+            "name": "receivedNotification",
+            "parameters": {
+              "type": {"value": "tileBroken"}
+            },
+            "output": {
+              "target": "thiefTarget",
+              "targetPosition": "objectPosition"
+            }
+          },
+          {
+            "title": "receivedNotification",
+            "type": "action",
+            "name": "receivedNotification",
+            "parameters": {
+              "type": {"value": "itemStolen"}
+            },
+            "output": {
+              "target": "thiefTarget",
+              "targetPosition": "objectPosition"
+            }
+          }
+        ]
+      },
+      {
+        "title": "selector",
+        "type": "composite",
+        "name": "selector",
+        "parameters": {},
+        "children": [
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "distance",
+                "type": "action",
+                "name": "distance",
+                "parameters": {
+                  "from": {"key": "self"},
+                  "to": {"key": "objectPosition"}
+                },
+                "output": {
+                  "vector": "toObject"
+                }
+              },
+              {
+                "title": "inverter",
+                "type": "decorator",
+                "name": "inverter",
+                "parameters": {},
+                "child": {
+                  "title": "lineTileCollision",
+                  "type": "action",
+                  "name": "lineTileCollision",
+                  "parameters": {
+                    "collisionType": {"value": ["Null", "Block", "Dynamic"]},
+                    "offset": {"key": "toObject"},
+                    "position": {"key": "self"}
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "entityPosition",
+                "type": "action",
+                "name": "entityPosition",
+                "parameters": {
+                  "entity": {"key": "thiefTarget"}
+                },
+                "output": {
+                  "position": "thiefPosition"
+                }
+              },
+              {
+                "title": "distance",
+                "type": "action",
+                "name": "distance",
+                "parameters": {
+                  "from": {"key": "self"},
+                  "to": {"key": "thiefPosition"}
+                },
+                "output": {
+                  "vector": "toThief"
+                }
+              },
+              {
+                "title": "inverter",
+                "type": "decorator",
+                "name": "inverter",
+                "parameters": {},
+                "child": {
+                  "title": "lineTileCollision",
+                  "type": "action",
+                  "name": "lineTileCollision",
+                  "parameters": {
+                    "collisionType": {"value": ["Null", "Block", "Dynamic"]},
+                    "offset": {"key": "toThief"},
+                    "position": {"key": "self"}
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "selector",
+        "type": "composite",
+        "name": "selector",
+        "parameters": {},
+        "children": [
+          {
+            "title": "limiter",
+            "type": "decorator",
+            "name": "limiter",
+            "parameters": {
+              "limit": {"value": 1}
+            },
+            "child": {
+              "title": "sayToEntity",
+              "type": "action",
+              "name": "sayToEntity",
+              "parameters": {
+                "dialogType": {"value": "dialog.accuse"},
+                "entity": {"key": "thiefTarget"},
+                "tags": {"value": {}}
+              }
+            }
+          },
+          {
+            "title": "sequence",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "setEntity",
+                "type": "action",
+                "name": "setEntity",
+                "parameters": {
+                  "entity": {"key": "thiefTarget"}
+                },
+                "output": {
+                  "entity": "reactTarget"
+                }
+              },
+              {
+                "title": "setDamageTeam",
+                "type": "action",
+                "name": "setDamageTeam",
+                "parameters": {
+                  "damageTeam": {"key": "<hostileDamageTeam>"}
+                }
+              },
+              {
+                "title": "parallel",
+                "type": "composite",
+                "name": "parallel",
+                "parameters": {
+                  "fail": {"value": -1},
+                  "success": {"value": -1}
+                },
+                "children": [
+                  {
+                    "title": "cooldown",
+                    "type": "decorator",
+                    "name": "cooldown",
+                    "parameters": {
+                      "cooldown": {"value": 1},
+                      "onFail": {"value": false},
+                      "onSuccess": {"value": true}
+                    },
+                    "child": {
+                      "title": "broadcastNotification",
+                      "type": "action",
+                      "name": "broadcastNotification",
+                      "parameters": {
+                        "entityTypes": {"value": ["npc", "monster"]},
+                        "position": {"key": "self"},
+                        "range": {"value": 40},
+                        "target": {"key": "reactTarget"},
+                        "type": {"value": "attackThief"}
+                      }
+                    }
+                  },
+                  {
+                    "title": "cooldown",
+                    "type": "decorator",
+                    "name": "cooldown",
+                    "parameters": {
+                      "cooldown": {"value": 6},
+                      "onFail": {"value": false},
+                      "onSuccess": {"value": true}
+                    },
+                    "child": {
+                      "title": "sequence",
+                      "type": "composite",
+                      "name": "sequence",
+                      "parameters": {},
+                      "children": [
+                        {
+                          "title": "timer",
+                          "type": "action",
+                          "name": "timer",
+                          "parameters": {
+                            "time": {"value": 2}
+                          }
+                        },
+                        {
+                          "title": "sayToEntity",
+                          "type": "action",
+                          "name": "sayToEntity",
+                          "parameters": {
+                            "dialogType": {"value": "dialog.alert"},
+                            "entity": {"key": "reactTarget"},
+                            "tags": {"value": {}}
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "reaction-follow",
+                    "type": "module",
+                    "name": "reaction-follow",
+                    "parameters": {
+                      "creepy": {"value": false},
+                      "duration": {"value": 10}
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

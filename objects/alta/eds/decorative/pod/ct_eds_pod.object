@@ -2,11 +2,12 @@
   "objectName" : "ct_eds_pod",
   "colonyTags" : [ "eds", "storage", "mechanical" ],
   "category" : "storage", "objectType" : "container",
-  "level" : 5, "rarity" : "Rare", "price" : 100,
+  "level" : 5, "rarity" : "Rare", "price" : 120,
   "race" : "alta",
 
-  "shortdescription" : "^#f02020;EDS^reset; Pod",
+  "shortdescription" : "^#f02020;EDS^reset; Pod ^#2080f0;^reset;",
   "description" : "An armored pod with red markings all over it. Can be used as a storage unit. Belongs to ^#f02020;EDS^reset;.",
+  "longdescription" : "Portable alta containers, or alta pods for short, are a standardized way of transporting equipment in a safe, airtight environment.",
   "altaDescription" : "This pod is covered in EDS markings. Perhaps there is some EDS tech inside.",
 
   "apexDescription" : "A pod chest. What's inside?",
@@ -17,7 +18,7 @@
   "hylotlDescription" : "Presents are most exciting when they're still wrapped.",
   "novakidDescription" : "A pod chest. Wonder what's inside...",
 
-  "health" : 2.5,
+  "health" : 4.5,
 
   "lightColor" : [192, 0, 0],
   "inventoryIcon" : "icon.png",

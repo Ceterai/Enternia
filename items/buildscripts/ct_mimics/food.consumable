@@ -214,12 +214,19 @@
       "description" : "It's your birthday!!! Or... is it? Doesn't hurt to try this cake anyway.",
       "longdescription" : "Its proper pillar cake structure and dense ^#3587ff;aya jam^reset; filling will satisfy pretty much anyone. The ^#497c64;koywa bread^reset; base will also ensure its fulfillingness.",
       "altaDescription" : "When was my birthday again?... Doesn't matter, I'll take three please!!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#f2f2f2":"#ffc7e0","#d4d4d4":"#f490c4","#969696":"#ee5399",
+        "#ffc7c8":"#c7e6ff","#f8b5b6":"#b5daf8","#f4909d":"#90d2f4","#ee6353":"#5396ee"
+      },
       "foodValue" : 80 },  // https://starbounder.org/Cake
     "estria_love" : { "baseAsset" : "/items/generic/food/tier2/coffeecake.consumable",
       "shortdescription" : "Estria's Love ^#8020f0;^reset;", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "nia_cuisine", "cake" ], "race" : "alta", "price" : 1120,
       "description" : "This cake was prepared following ^#f02080;Estria^reset;'s personal recipe. It's fuming with \"love\". Make sure not to eat too much, for your own sake.",
       "longdescription" : "A perfect gift to a love partner. Make sure to eat a ^#9b2d3f;\"sentia's crown\" pie^reset; afterwards and wash it down with some ^#ffa8e8;miko tea^reset;.",
       "altaDescription" : "Oh nice, a cake of lust. You won't fool me, evil ^#9b2d3f;sentia^reset;!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#ffd6ae":"#dd014c","#d5a97e":"#8c0030","#945b38":"#5a001f","#824925":"#71aed8"
+      },
       "foodValue" : 75 },  // https://starbounder.org/Coffee_Cake
     "calin_jam_dumplings" : { "baseAsset" : "/items/generic/food/tier5/eggshootsalad.consumable",
       "shortdescription" : "Calin Jam Dumplings", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "calin_cuisine", "carel", "koywa" ], "race" : "alta", "price" : 1040,
@@ -227,9 +234,9 @@
       "longdescription" : "Prepared together with ^#c1dfae;chinid^reset; leaves and covered in spices, a simple serving of dumplings turns into a delicacy.",
       "altaDescription" : "Sometimes, if you get extra juicy ones - be careful when popping them, especially if they're still hot.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "paletteSwap" : {
-        "#ffffff":"#f6f6f6","#d2d2d2":"#d8dcf0","#c0c0c0":"#b0b4c8","#3f433f":"#606478","#e85b1f":"#1fdee8","#802c08":"#087980",
-        "#56b97e":"#b956aa","#67b964":"#a064b9","#8dc75a":"#795ac7","#267f23":"#65237f","#0a5128":"#510a45",
-        "#f6edd7":"#d7e8f6","#eee0bf":"#c9eef6","#bbad89":"#76c7e4","#b5b1a8":"#4e8fb8","#9a8553":"#366388"
+        "#ffffff":"#f6f6f6","#d2d2d2":"#d8dcf0","#c0c0c0":"#b0b4c8","#3f433f":"#3f4342","#e85b1f":"#e81f5f","#802c08":"#80082d",
+        "#56b97e":"#56b5b9","#67b964":"#64b997","#8dc75a":"#5ac76c","#267f23":"#237f5b","#0a5128":"#0a4d51",
+        "#f6edd7":"#f6dad7","#eee0bf":"#eec3bf","#bbad89":"#bb8e89","#b5b1a8":"#b5a9a8","#9a8553":"#9a5953"
       },
       "foodValue" : 60 },  // https://starbounder.org/Eggshoot_Salad
     "graa_venetto" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
@@ -237,6 +244,14 @@
       "description" : "A pleasant dish with a layered cake-like mixture with ^#497c64;yukva^reset; cream and ^#497c64;koywa bread^reset;, with roasted ^#9b2d3f;archulin^reset; paste base.",
       "longdescription" : "This complicated dish smells similar to roasted vegetables. The cake part is meant to be eaten together with paste, dipped in it slightly.",
       "altaDescription" : "Never knew how some chefs are able to make something like this. Truly incredible.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#fbfbfb":"#f6f6f6","#e3e3e3":"#d8dcf0",
+        "#f3b286":"#a5d4c4","#e7a185":"#b0a1cb","#ca9069":"#84ae9f","#9d5c38":"#54806f",
+        "#86654c":"#b7d7d0","#674b37":"#b0cac4","#5d3505":"#9acac4","#563e21":"#d2536e","#493318":"#a34456",
+        "#6aae40":"#4073ae","#3d6525":"#254265",
+        "#9feaff":"#f0e5bd","#58b9dc":"#cec388","#167c88":"#8b784e",
+        "#7863da":"#da7263","#3d3ca2":"#a23c40"
+      },
       "foodValue" : 60 },  // https://starbounder.org/Ocean_Risotto
 
 

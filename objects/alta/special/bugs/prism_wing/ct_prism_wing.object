@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_prism_wing_af",
+  "colonyTags" : [ "stardust", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 3, "rarity" : "Uncommon", "price" : 200,
+  "race" : "generic",
+
+  "shortdescription" : "Prism Wing",
+  "description" : "An attached note reads, \"This beautiful bug might look like a crystal shard from afar, though it is quite soft to the touch.\"",
+  "longdescription" : "Bottled bugs are often a midway state in the process of research and preservation, and thus are often possesed by various ^#b0e0fc;alta collectioners^reset;.",
+  "altaDescription" : "Seems like it's just crawling around the jar, instead of flying...",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

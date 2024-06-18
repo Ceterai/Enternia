@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_gyera_emblem",
+  "colonyTags" : [ "patriotic", "holographic", "alta_garden" ],
+  "category" : "decorative",
+  "level" : 1, "rarity" : "Common", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Iora Gyera Emblem",
+  "description" : "An emblem of a nature preserving organization called Iora Gyera Ordis.",
+  "longdescription" : "Emblems are one of many ways altas distinguish their factions - including color combinations and other markings.",
+  "altaDescription" : "Seeing this usually means there's a garden nearby, or a gyera lab.",
+
+  "inventoryIcon" : "body.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

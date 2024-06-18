@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_calin_shelf",
+  "colonyTags" : [ "crystal", "calin" ],
+  "category" : "decorative",
+  "level" : 4, "rarity" : "Uncommon", "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Calin Shelf",
+  "description" : "A blue metal shelf with dim light strips powered by a calin crystal.",
+  "altaDescription" : "A regular shelf you would often see in alta stores, markets and storages.",
+
+  "apexDescription" : "It's a wall shelf.",
+  "avianDescription" : "A nice little shelf.",
+  "floranDescription" : "Cute shelf.",
+  "glitchDescription" : "Bored. A wall shelf.",
+  "humanDescription" : "A blue wall shelf.",
+  "hylotlDescription" : "I need to arrange my goods.",
+  "novakidDescription" : "An attractive shelf.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -4,8 +4,8 @@
   // These are chest definitions for the pod loot tables in `pods.treasurepools` and alta pods found at `/objects/alta/`
 
 {
-  "ct_elin_pod" : [ { "containers" : [ "ct_eds_pod" ], "treasurePool" : "ct_elin_loot", "minimumLevel" : 0 } ],
-  "ct_faradea_pod" : [ { "containers" : [ "ct_eds_pod" ], "treasurePool" : "ct_faradea_loot", "minimumLevel" : 0 } ],
+  "ct_elin_pod" : [ { "containers" : [ "ct_elin_pod" ], "treasurePool" : "ct_elin_loot", "minimumLevel" : 0 } ],
+  "ct_faradea_pod" : [ { "containers" : [ "ct_faradea_pod" ], "treasurePool" : "ct_faradea_loot", "minimumLevel" : 0 } ],
   "ct_eds_pod" : [ { "containers" : [ "ct_eds_pod" ], "treasurePool" : "ct_eds_loot", "minimumLevel" : 0 } ],
 
   "ct_alta_pod_tier1" : [ { "containers" : [ "ct_alta_pod" ], "treasurePool" : "ct_alta_pod_loot_tier1", "minimumLevel" : 0 } ],

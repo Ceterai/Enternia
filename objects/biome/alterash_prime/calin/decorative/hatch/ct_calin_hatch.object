@@ -1,0 +1,72 @@
+{
+  "objectName" : "ct_calin_hatch",
+  "colonyTags" : [ "crystal", "calin", "mechanical", "door" ],
+  "category" : "door",
+  "level" : 4, "rarity" : "Uncommon", "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Calin Hatch",
+  "description" : "A horizontal crystal doorway. Similar to calin gateways, the crystal plays the main role.",
+  "altaDescription" : "Not many places that use calin style have the need for hatches, yet they still prove themselves useful.",
+
+  "apexDescription" : "A hatch with a crystal in it.",
+  "avianDescription" : "Surely it's a nice hatch.",
+  "floranDescription" : "Floran see door. Floran come in.",
+  "glitchDescription" : "Calm. A firm horizontal door.",
+  "humanDescription" : "A crystal hatch.",
+  "hylotlDescription" : "That a wonderful door!",
+  "novakidDescription" : "A horizontal doorway. Watch your steps!",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "body.png"
+  },
+  
+    "orientations" : [
+    {
+      "image" : "body.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "flipImages" : true,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    },
+    {
+      "image" : "body.png:default",
+      "imagePosition" : [-16, -8],
+      "renderLayer" : "Object+5",
+      "animationPosition" : [-16, -8],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

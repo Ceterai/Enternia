@@ -1,0 +1,42 @@
+{
+  "objectName" : "ct_gheatsyn_chest",
+  "colonyTags" : [ "crystal", "gheatsyn", "storage" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 4, "rarity" : "Uncommon", "price" : 80,
+  "race" : "alta",
+
+  "shortdescription" : "Gheatsyn Chest",
+  "description" : "A simple dark ^#a7e001;gheatsyn^reset; chest.",
+  "altaDescription" : "This blast resistant storage unit uses crystals as a lock mechanism. Electrifiyng gheatsyn forces it to liquify, unlocking it.",
+
+  "apexDescription" : "A gheatsyn chest.",
+  "avianDescription" : "A common chest. I'm more curious about its content.",
+  "floranDescription" : "Sssome ordinary chessst.",
+  "glitchDescription" : "Indifferent. Common dark chest.",
+  "humanDescription" : "A common chest.",
+  "hylotlDescription" : "A common chest with a green lock.",
+  "novakidDescription" : "A common chest.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/miningchest_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/miningchest_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

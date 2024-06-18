@@ -1,0 +1,17 @@
+{
+  "type" : "ct_arco_security",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_arco_rebreather" } ],
+            "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 5 } } ],
+            "legs" : [ { "name" : "ct_arco_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle" ],
+            "sheathedprimary" : [ "ct_plasmasword" ]
+          }
+        ] ]
+    ]
+  }
+}
