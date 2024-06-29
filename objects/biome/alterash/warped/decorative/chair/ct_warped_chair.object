@@ -1,0 +1,47 @@
+{
+  "objectName" : "ct_warped_chair",
+  "colonyTags" : [ "warped" ],
+  "category" : "furniture",
+  "level" : 1, "rarity" : "Common", "price" : 40,
+  "race" : "generic",
+
+  "shortdescription" : "Warped Chair",
+  "description" : "A chair made from spiked nivera vines with a seat made from purple warped vein matter.",
+  "altaDescription" : "Usually nivera spikes are sharp and filled with poison, but not this time I guess.",
+
+  "apexDescription" : "A chair made of vines. With spikes. Do you still want to sit?",
+  "avianDescription" : "This chair looks like it's not from this world.",
+  "floranDescription" : "Evil chair made from warpy plantsss. Floran should beware.",
+  "glitchDescription" : "Indignant. How masochistical do you need to be to even think about sitting here?",
+  "humanDescription" : "Everything about this chair is wrong! Just everything!",
+  "hylotlDescription" : "This chair has a really interesting swirl around its back. Although everything else about it is terrifying.",
+  "novakidDescription" : "A frightfully lookin' chair with sharp spikes.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "sitPosition" : [2, 24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "sitPosition" : [2, 24],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

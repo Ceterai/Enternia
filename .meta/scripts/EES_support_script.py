@@ -35,7 +35,7 @@ IDS = {
 }
 
 def is_obj_file(name: str) -> bool:
-    return (name[-11:] == '.consumable' or name[-5:] == '.item')
+    return (base.get_ext(name) in ('consumable', 'item'))
 
 def run():
     paths = base.get_files_flat(is_obj_file)

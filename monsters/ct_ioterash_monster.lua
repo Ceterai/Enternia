@@ -68,7 +68,7 @@ function init()  -- Engine callback - called on initialization of entity.
   end)
 
   -- Mod Support for Monsters Unique Sounds (SFX from Beta)  
-  -- Link: https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235  
+  -- Read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#monsters-unique-sounds-sfx-from-beta  
   -- Adding this because drones use a custom init that doesn't provide some params used by that mod
   self.ouchTimer = 0
 end

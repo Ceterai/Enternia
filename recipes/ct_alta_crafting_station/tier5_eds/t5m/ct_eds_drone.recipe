@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "ct_alta_security_drone", "count" : 1 },
+    { "item" : "ct_eds_ai_chip", "count" : 1 },
     { "item" : "ct_eds_armor", "count" : 2 },
-    { "item" : "upgrademodule", "count" : 1 }
+    { "item" : "ct_phosicore", "count" : 2 }
   ],
   "duration" : 1.625,
   "output" : { "item" : "ct_eds_drone", "count" : 1 },
-  "groups" : [ "my_enternia", "alta_t3m", "alta", "tier5_eds", "spawner", "drone", "consumables", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_t3m", "alta", "tier5_eds", "l5m", "spawner", "drones", "consumables", "all", "mod" ]
 }

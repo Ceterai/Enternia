@@ -1,0 +1,56 @@
+{
+  "objectName" : "ct_warped_lamp",
+  "colonyTags" : [ "warped", "light" ],
+  "category" : "light",
+  "level" : 1, "rarity" : "Common", "price" : 40,
+  "race" : "generic",
+
+  "shortdescription" : "Warped Lamp",
+  "description" : "Some red vines with glowing bits entangled into a lamp-like form. Are they alive?",
+  "altaDescription" : "This growth is called 'nioxu'. It's a wine-like plant, similar to nivera, except harmless and pretty.",
+
+  "apexDescription" : "A plant with glowing elements.", 
+  "avianDescription" : "A luminous yucky living bush.",
+  "floranDescription" : "Warpy plantss are evil, but plant lightss can't burn Floran. Floran win.",
+  "glitchDescription" : "Uncertain. It would be a pretty lamp, if it wasn't alive.",
+  "humanDescription" : "Lets pretend that this is a Christmas tree.",
+  "hylotlDescription" : "A plexus of these vines creates together a fine lamp. If you can forget about that it's a living being.",
+  "novakidDescription" : "What a handy living lamp.",
+
+  "lightColor" : [174, 111, 29],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 3]
+    },
+    {
+      "image" : "body.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 3]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "body.png",
+    "fg" : "lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

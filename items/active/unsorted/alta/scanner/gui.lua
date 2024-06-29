@@ -3,7 +3,7 @@ require "/items/buildscripts/ct_utils.lua"
 
 function init()
   local tips = getTextConfig()
-  pane.setTitle(tips.scan.title, tips.scan.subtitle)
+  -- pane.setTitle(tips.scan.title, tips.scan.subtitle)
   widget.setText("itemSlotLabel", tips.scan.item)
   widget.setText("emptyLabel", tips.scan.empty)
   widget.setVisible("itemScrollArea", false)

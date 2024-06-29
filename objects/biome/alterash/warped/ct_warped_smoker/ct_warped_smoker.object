@@ -19,11 +19,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_warped_smoker.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
   "particleEmitter" : {
     "emissionRate" : 0.25,

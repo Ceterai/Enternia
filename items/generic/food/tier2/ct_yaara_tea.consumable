@@ -9,6 +9,10 @@
   "inventoryIcon" : "ct_yaara_tea.png",
   "effects" : [ [
     {
+        "effect" : "ct_alta_happiness",
+        "duration" : 120
+    },
+    {
         "effect" : "regeneration1",
         "duration" : 240
     }

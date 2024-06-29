@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_lust",
+  "label" : "Lustful",
+  "description" : "I think you had enough of sweet drinks.",
+  "effectConfig" : { "particleEmitters" : [ "lust" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "lust.animation",
+  "icon" : "/animations/emotes/alta/steaming.png:1"
+}

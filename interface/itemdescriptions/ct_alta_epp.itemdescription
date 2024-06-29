@@ -38,6 +38,7 @@
   "descriptionLabel" : {
     "type" : "label", "position" : [16, 90],
     "wrapWidth" : 122, "fontSize" : 7,
+    "lineSpacing" : 1.0,
     "hAnchor" : "left",
     "vAnchor" : "top"
   },
@@ -87,12 +88,13 @@
     "position" : [6, 161],
     "schema" : {
       "spacing" : [0, 1],
-      "memberSize" : [999, 13],
+      "memberSize" : [999, 12],
       "listTemplate" : {
         "statusLabel" : {
           "type" : "label",
           "position" : [129, 6],
           "wrapWidth" : 60,
+          "lineSpacing" : 1.0,
           "fontSize" : 6,
           "hAnchor" : "right",
           "vAnchor" : "mid"

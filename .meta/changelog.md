@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.3a](#233a)
     - [2.3.3](#233)
     - [2.3.2](#232)
     - [2.3.1](#231)
@@ -53,11 +54,111 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.3a
+
+This mini-patch refines already existing things and improves the quality of life overall.
+
+It also adds support for a couple more mods!
+
+In time for the release of this patch, a couple more mods were released to provide more compatability and customization:
+
+- [Alta A.I. Chips](https://steamcommunity.com/sharedfiles/filedetails/?id=3276795992)
+- [EDS Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277537016)
+- [C.T.O.S. Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277849874)
+- [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
+
+**Main:**
+
+- added support for [Craftable Seeds](https://steamcommunity.com/sharedfiles/filedetails/?id=1938886559);
+- added support for [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062);
+- added support for [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533);
+- added support for [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283);
+- major UI update;
+- progression rework;
+- updated the mod logo:  
+  ![ ](/.meta/images/logos/logo_v3.png)
+
+**Alta:**
+
+- **Alta Washer** is now a container with 9 item slots:  
+  ![ ](/.meta/images/showcase/2.3.3a/washer.png)
+- **Alta Bidet** is now a sitting space:  
+  ![ ](/.meta/images/showcase/2.3.3a/bidet.png)
+- updated A.I. chips to fit in with alta progression better;
+- updated interface for **Alta Scanner**, **Alta Crafting Station** and **Alta Constructor**:  
+  ![ ](/.meta/images/showcase/2.3.3a/station1.png) ![ ](/.meta/images/showcase/2.3.3a/station2.png)  
+  ![ ](/.meta/images/showcase/2.3.3a/constructor1.png) ![ ](/.meta/images/showcase/2.3.3a/constructor2.png)  
+  ![ ](/.meta/images/showcase/2.3.3a/scanner1.png) ![ ](/.meta/images/showcase/2.3.3a/scanner2.png)
+- added 10 **Alta Emotions** - visual status effects that can be acquired through eating certain alta food:
+  - **Bored**
+  - **Confused**
+  - **Curious**
+  - **Determined**
+  - **Happy**
+  - **Inspired**
+  - **In Love**
+  - **Lustful**
+  - **Passionate**
+  - **Sad**
+- added 4 **GR "Animus"** level 7 variations (currently just for testing):
+  - **GRS "Animus-M" ★**
+  - **GRS "Animus-T" ★★**
+  - **GRS "Animus-C" ★★★**
+  - **GRS "Animus-X" ★★★★**
+
+**Alterash Prime:**
+
+- made it possible to plase **Isoslime** objects both on ground and ceiling:  
+  ![ ](/.meta/images/showcase/2.3.3a/isoslime.png)
+
+**Wardrobe Interface:**
+
+- added most alta armor and clothing to the Wardrobe with proper color options:  
+  ![ ](/.meta/images/showcase/2.3.3a/wardrobe1.png) ![ ](/.meta/images/showcase/2.3.3a/wardrobe2.png)
+
+**Starburst Rework:**
+
+- updated **Immunity Effect** script to accept SR electricity-related blocking stats (`/stats/scripts/ct_immunity.lua`);
+- updated following status effects:
+  - **Electroblockade** - now provides immunity to the **Mild Static** SR effect;
+  - **Pulsoblockade** - increased resistance to 25%;
+  - **Plasmablockade** - now provides immunity to the **Mild Static** SR effect;
+  - **Ionoblockade** - decreased resistance to 18%, now provides immunity to both **Mild Static** and **Deadly Static**.
+- updated the **Stim**, **Augment** and **EPP** series that use these effects to reflect the changes in their descriptions:  
+  ![ ](/.meta/images/showcase/2.3.3a/starburst1.png) ![ ](/.meta/images/showcase/2.3.3a/starburst2.png)  
+  ![ ](/.meta/images/showcase/2.3.3a/starburst3.png) ![ ](/.meta/images/showcase/2.3.3a/starburst4.png)
+
+**Translation:**
+
+- changes to Stim/Augment/EPP descriptions might require translation;
+- new UI fields in **Alta Crafting Station** and **Alta Constructor** will require translation.
+
+**Dev:**
+
+- updated some lua and python scripts to allow for more flexibility and provide more insight and comments;
+- added generic alta UI elemtents to an `/interface/alta` folder;
+- added `ct_alta_effects_2` tooltip type for armor items with 2 effects;
+- unified more filenames of object sprites, keeping files with old names for now for the sake of compatability;
+- added more single-frame sprites named `tiled.png` to objects for use in Tiled;
+- added a fully functional My Enternia tileset for use in Tiled:  
+  ![ ](/.meta/images/showcase/2.3.3a/tiled.png)
+
+**Other:**
+
+- updated content rundown;
+- reworked most armor and equipment recipes to make them more interesting and utilize more items added by the mod;
+- reworked groups of a lot of crafting recipes;
+- adjusted Crafting Station progress with the updated UI;
+- adjusted armor and EPP item tooltips;
+- minor bug fixes.
+
 ### 2.3.3
 
 This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
 
 It also adds custom alta S.A.I.L. modifications, so expect standalone alta S.A.I.L. patch mods in the future!
+
+> Detailed changes for this version: [Update 2.3.3](https://github.com/Ceterai/Enternia/commit/d6c5b5f775fa67dec6f5c162cb1ed1653166b014)
 
 **Main:**
 
@@ -152,6 +253,8 @@ It also adds custom alta S.A.I.L. modifications, so expect standalone alta S.A.I
 
 This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
 
+> Detailed changes for this version: [Update 2.3.2](https://github.com/Ceterai/Enternia/commit/d08888d33e5b99de5e67ec864cf4910b0e59d896)
+
 **Main:**
 
 - fixed Race Traits support;
@@ -211,6 +314,8 @@ This patch is meant to fix any immediate issues coming from 2.3, as well as make
 ### 2.3.1
 
 This patch is meant to fix any immediate issues coming from 2.3, as well as make some small additions to its new content.
+
+> Detailed changes for this version: [Update 2.3.1](https://github.com/Ceterai/Enternia/commit/38a5be511fabee5bb200e07ede682deafe450a10)
 
 **Main:**
 
@@ -641,7 +746,7 @@ This update is also to celebrate the mod finally reaching **five stars** in Stea
 
 - made the mod compatible with **Alta Lights** placed before 2.2.1;
 - the **Alta Scanner** can now be found in the quickbar around the bottom of the list *(note that just like most quickbar tools, it's meant to be used in the **admin mode** or for **creative purposes**, not an actual survival/rp, as it's still an item you'd have to craft first if you care about the progress)*:  
-  ![ ](/.meta/images/panels/quickbar_scanner.png)
+  ![ ](/.meta/images/showcase/2.2.1a/quickbar.png)
 
 **Wiki:**
 
@@ -1155,6 +1260,8 @@ It seems you have also got a hold of some weird pods labeled "GSR". I wonder wha
 - added 8 ranged wrist weapons and 8 unique ranged weapons (4 WIPs);
 - added 24 melee weapons (WIP): 8 light, 8 heavy and 8 spears;
 - added perfectly cooked versions to all food items added by the mod;
+- updated the mod logo:  
+  ![ ](/.meta/images/logos/logo_v2.png)
 
 **Alta:**
 

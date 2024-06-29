@@ -9,6 +9,7 @@ import FU_support_script as FU
 import IFD_support_script as IFD
 import MPI_support_script as MPI
 import EES_support_script as EES
+import WI_support_script as WI
 import json
 
 METADATA_PATH = '/_metadata'
@@ -26,6 +27,7 @@ FU.run()
 IFD.run()
 MPI.run()
 EES.run()
+WI.run()
 
 # Prints affected files for your convenience
 print('Affected files:\n' + '\n'.join(['- ' + path for path in (
@@ -34,5 +36,6 @@ print('Affected files:\n' + '\n'.join(['- ' + path for path in (
     IFD.AFFECTED_FILES +
     MPI.AFFECTED_FILES +
     EES.AFFECTED_FILES +
+    WI.AFFECTED_FILES +
     [METADATA_PATH]
 )]))

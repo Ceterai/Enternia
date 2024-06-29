@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "ct_yaara_root", "count" : 4 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "duration" : 4.5,
+  "output" : { "item" : "ct_alta_impulse_rifle", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_citadel", "l6m", "weapon", "weapons", "ranged", "all", "mod" ]
+}

@@ -1,10 +1,11 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "durasteelbar", "count" : 6 },
     { "item" : "ct_alta_energy_cell", "count" : 1 },
     { "item" : "silk", "count" : 1 }
   ],
   "duration" : 4.5,
   "output" : { "item" : "ct_alta_security_chest", "count" : 1 },
-  "groups" : [ "my_enternia", "alta_t2", "alta", "tier4_security", "armor", "armors", "body", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_t2", "alta", "tier4_security", "l4", "armor", "armors", "body_armor", "all", "mod" ]
 }

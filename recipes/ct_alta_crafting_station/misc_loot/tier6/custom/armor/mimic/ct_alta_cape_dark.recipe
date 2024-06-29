@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "silk", "count" : 2 }
-  ],
-  "output" : { "item" : "ct_back_mimic", "count" : 1, "parameters" : { "preset" : "cape", "colorIndex" : 1 } },
-  "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "combat", "clothing", "back", "all", "mod" ]
-}

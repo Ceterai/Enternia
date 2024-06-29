@@ -1,16 +1,15 @@
 {
   "objectName" : "ct_aya_pile",
   "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "rarity" : "Common",
   "category" : "breakable",
+  "level" : 1, "rarity" : "Common", "price" : 25,
+  "race" : "generic",
 
   "shortdescription" : "Aya Pile",
   "description" : "A pile of blue ^#3587ff;ayaka^reset; fruits. Probably not in the best condition.",
   "altaDescription" : "Freshly fallen ripe ayas from nearby ayakas. Even a smashed aya is a nice source of aya powder.",
-  "race" : "generic",
 
   "fullbright" : true,
-  "lightColor" : [0, 50, 40],
 
   "apexDescription" : "A small mound of fruits. How am I meant to store this?",
   "avianDescription" : "A tiny blob of... fruit?",
@@ -22,11 +21,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_aya_pile.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],

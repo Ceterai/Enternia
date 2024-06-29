@@ -6,6 +6,7 @@ require "/stats/scripts/ct_animation.lua"
 function init()
   initAnimation()
   initImmunityStats()
+  script.setUpdateDelta(0)
 end
 
 -- Sets element-related stats like resistance and immunity to the player while the effect is active, or strips of them.
@@ -16,66 +17,97 @@ end
 -- - `<element>Resistance`: percentage value (default is `0.0`)
 -- - `<element>StatusImmunity`: boolean value (default is `false`) - if `true`, sets according stat to `1.0`
 -- - `<alta element>StatusImmunity`: boolean value (default is `false`) - if `true`, sets according stat to `1.0`
+-- - `<mod element>StatusImmunity`: boolean value (default is `false`) - if `true`, sets according stat to `1.0`
 -- - `remove<Element>Immunity`: boolean value (default is `false`) - if `true`, sets according immunity stat to `0.0`
 --
 -- `<element>` is any of the following: `ice`, `fire`, `poison`, `electric`  
--- `<alta element>` is any of the following: `impulse`, `plasma`, `ionic`, `hevikai`, `dream`, `void`
+-- `<alta element>` is any of the following: `impulse`, `plasma`, `ionic`, `hevikai`, `dream`, `void`  
+-- `<mod element>` is any of the following: `pf_biomelightning`, `pf_mildBiomeLightningImmunity`
 function initImmunityStats()
-  effect.addStatModifierGroup({{stat = "protection", amount = config.getParameter("protection", 0)}})
-  effect.addStatModifierGroup({{stat = "physicalResistance", amount = config.getParameter("physicalResistance", 0.0)}})
-  effect.addStatModifierGroup({{stat = "electricResistance", amount = config.getParameter("electricResistance", 0.0)}})
-  effect.addStatModifierGroup({{stat = "poisonResistance", amount = config.getParameter("poisonResistance", 0.0)}})
-  effect.addStatModifierGroup({{stat = "fireResistance", amount = config.getParameter("fireResistance", 0.0)}})
-  effect.addStatModifierGroup({{stat = "iceResistance", amount = config.getParameter("iceResistance", 0.0)}})
+  local modifiers = jarray()
+  modifiers = getVanillaResistanceStats(modifiers)
+  modifiers = getVanillaImmunityStats(modifiers)
+  modifiers = getMEImmunityStats(modifiers)
+  modifiers = getSRImmunityStats(modifiers)
+  effect.addStatModifierGroup(modifiers)
+end
 
+function getVanillaResistanceStats(modifiers)
+  params = {
+    "protection",
+    "physicalResistance",
+    "electricResistance",
+    "poisonResistance",
+    "fireResistance",
+    "iceResistance",
+  }
+  for _, param in ipairs(params) do
+    local val = config.getParameter(param, 0)
+    if val ~= 0 then table.insert(modifiers, {stat = param, amount = val}) end
+  end
+  return modifiers
+end
+
+function getVanillaImmunityStats(modifiers)
+  params = {
+    "electricStatusImmunity",
+    "poisonStatusImmunity",
+    "fireStatusImmunity",
+    "iceStatusImmunity",
+  }
+  for _, param in ipairs(params) do
+    local val = config.getParameter(param, false)
+    if val then table.insert(modifiers, {stat = param, amount = 1.0}) end
+  end
   if config.getParameter("removeElectricImmunity", false) then
-    effect.addStatModifierGroup({{stat = "electricStatusImmunity", effectiveMultiplier = 0.0}})
+    table.insert(modifiers, {stat = "electricStatusImmunity", effectiveMultiplier = 0.0})
   end
   if config.getParameter("removePoisonImmunity", false) then
-    effect.addStatModifierGroup({{stat = "poisonStatusImmunity", effectiveMultiplier = 0.0}})
+    table.insert(modifiers, {stat = "poisonStatusImmunity", effectiveMultiplier = 0.0})
   end
   if config.getParameter("removeFireImmunity", false) then
-    effect.addStatModifierGroup({{stat = "fireStatusImmunity", effectiveMultiplier = 0.0}})
+    table.insert(modifiers, {stat = "fireStatusImmunity", effectiveMultiplier = 0.0})
   end
   if config.getParameter("removeIceImmunity", false) then
-    effect.addStatModifierGroup({{stat = "iceStatusImmunity", effectiveMultiplier = 0.0}})
+    table.insert(modifiers, {stat = "iceStatusImmunity", effectiveMultiplier = 0.0})
   end
-
-  if config.getParameter("electricStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "electricStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("poisonStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "poisonStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("fireStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "fireStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("iceStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "iceStatusImmunity", amount = 1.0}})
-  end
-
-  if config.getParameter("impulseStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "impulseStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("plasmaStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "plasmaStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("ionicStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "ionicStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("hevikaiStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "hevikaiStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("dreamStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "dreamStatusImmunity", amount = 1.0}})
-  end
-  if config.getParameter("voidStatusImmunity", false) then
-    effect.addStatModifierGroup({{stat = "voidStatusImmunity", amount = 1.0}})
-  end
+  return modifiers
 end
 
-function update(dt)
+-- My Enternia immunities
+function getMEImmunityStats(modifiers)
+  params = {
+    "impulseStatusImmunity",
+    "plasmaStatusImmunity",
+    "ionicStatusImmunity",
+    "hevikaiStatusImmunity",
+    "dreamStatusImmunity",
+    "voidStatusImmunity",
+  }
+  for _, param in ipairs(params) do
+    local val = config.getParameter(param, false)
+    if val then table.insert(modifiers, {stat = param, amount = 1.0}) end
+  end
+  return modifiers
 end
 
-function uninit()
+-- Mod support area
+
+-- Mod support for Starburst Rework  
+-- Read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#starburst-rework
+function getSRImmunityStats(modifiers)
+  -- `root.itemConfig("antidote").config.effects[1][1]` is `antidote` in vanilla.
+  -- it's a table in SR, and the `effect` value is `pf_biomepoisonprotection`.
+  if root.itemConfig("antidote").config.effects[1][1].effect == "pf_biomepoisonprotection" then
+    params = {
+      "pf_biomelightningImmunity",
+      "pf_mildBiomeLightningImmunity",
+    }
+    for _, param in ipairs(params) do
+      local val = config.getParameter(param, false)
+      if val then table.insert(modifiers, {stat = param, amount = 1.0}) end
+    end
+    return modifiers
+  end
+  return modifiers
 end

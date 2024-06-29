@@ -1,16 +1,16 @@
 // Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
-// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// Read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#customizable-ai
 // This chip can be used to modify S.A.I.L. (if you have that mod installed)
 // Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
-{  // Note that this chip is highly overwritive (it overwrites a lot of S.A.I.L. parameters) - if you want a simpler one - use ct_alta_ai_chip instead.
+{
   "itemName": "ct_ceterai_ai_chip",
 
-  "shortdescription": "C.T.O.S. Chip ^#8020f0;^reset;",
+  "shortdescription": "^#2080f0;C.T.^reset;O.S. Chip ^#8020f0;^reset;",
   "description": "An advanced alta A.I. chip with C.T.O.S. installed. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal. Highly overwritive.^reset;",
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "A C.T.O.S.-based A.I., huh. Does it sound like Ceterai too? What does Ceterai sound like?..",
 
-  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+  "rarity": "Legendary", "price": 240, "level" : 6, "race" : "alta",
 
   "tooltipKind": "ct_alta_item_long", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/ct_ceteraiquestportrait.png" },
@@ -18,7 +18,7 @@
 
   "aiData": {
     "aiFrames": "ct_ceterai_ai.png",
-    "staticFrames": "ct_ceterai_static.png",
+    "staticFrames": "alta_static.png",
     "portraitFrames": "portraits/ct_ceterai_portrait.png",
     "questPortrait": "ct_ceterai",
 

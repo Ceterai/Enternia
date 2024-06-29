@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 2 },
+    { "item" : "crystal", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_energy_mask",
+    "count" : 1
+  },
+  "duration" : 0.85,
+  "groups" : [ "my_enternia", "alta_t4m", "alta", "metrocop", "devices", "head", "all", "mod" ]
+}

@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "ct_alta_energy_cell", "count" : 1 },
-    { "item" : "ct_eds_armor", "count" : 8 },
-    { "item" : "ct_phosicore", "count" : 2 }
+    { "item" : "ct_eds_armor", "count" : 1 },
+    { "item" : "ct_eds_claymore", "count" : 1 },
+    { "item" : "upgrademodule", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_eds_claymore", "count" : 1, "parameters" : { "upgraded" : true } },
-  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_eds", "weapon", "weapons", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_eds", "l6m", "weapon", "weapons", "melee", "all", "mod" ]
 }

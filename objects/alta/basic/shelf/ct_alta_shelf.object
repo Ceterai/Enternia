@@ -20,9 +20,9 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "ct_alta_shelf.png", "spaceScan" : 0.1, "anchors" : [ "top" ], "collision" : "platform" },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "top" ], "collision" : "platform" },
     { "dualImage" : "floor.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" },
-    { "dualImage" : "ct_alta_shelf.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

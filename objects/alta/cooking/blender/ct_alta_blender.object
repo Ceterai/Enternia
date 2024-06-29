@@ -22,7 +22,7 @@
   "interactData" : {
     "requiresBlueprint" : false,
     "config" : "/interface/windowconfig/craftingcampfire.config",
-    "filter" : [ "alta_max", "alta_food", "food", "consumables", "craftingfood" ],
+    "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
     "paneLayoutOverride" : {
       "categories" : { "buttons" : [ { "data" : { "filter" : [ "shakes" ] }, "selected" : true } ] },
       "windowtitle" : { "title" : "  Blender", "subtitle" : "  Milkshake-making convenience" }

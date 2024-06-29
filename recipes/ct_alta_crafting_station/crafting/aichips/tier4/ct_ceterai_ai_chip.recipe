@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "salvagetier4", "count" : 1 },
+    { "item" : "ct_ceterai-codex", "count" : 1 },
+    { "item" : "prisiliteore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_ceterai_ai_chip",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_t4mm", "alta", "ceterai", "other", "aichips", "aichip", "all", "mod" ]
+}

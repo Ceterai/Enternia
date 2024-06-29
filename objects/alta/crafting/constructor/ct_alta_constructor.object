@@ -43,11 +43,6 @@
       },
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier1.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station",
-            "subtitle" : " ^#b9b5b2;Alta Tier 1 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon1.png" }
-        } },
         "filter" : [ "alta_constructor1" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_alta_security-codex", "count" : 1 },
@@ -71,11 +66,6 @@
 
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier2.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station",
-            "subtitle" : " ^#b9b5b2;Alta Tier 2 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon2.png" }
-        } },
         "filter" : [ "alta_constructor1", "alta_constructor2" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_arco-codex", "count" : 1 },
@@ -102,11 +92,6 @@
 
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier3.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station",
-            "subtitle" : " ^#b9b5b2;Alta Tier 3 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon3.png" }
-        } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_elite-codex", "count" : 1 },
@@ -135,11 +120,6 @@
 
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier4.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station",
-            "subtitle" : " ^#b9b5b2;Alta Tier 4 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon4.png" }
-        } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_stardust", "count" : 256 },
@@ -163,11 +143,6 @@
 
       "interactData" : {
         "config" : "/objects/alta/crafting/constructor/tier5.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Stardust Extractor",
-            "subtitle" : " ^#b9b5b2;Alta Tier 5 Recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon5.png" }
-        } },
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4", "alta_constructor5" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_starfire", "count" : 256 },
@@ -192,16 +167,7 @@
         "description" : "Used for crafting ^#b0e0fc;alta^reset; decorations, furniture, traps and natural objects."
       },
 
-      "interactData" : {
-        "config" : "/objects/alta/crafting/constructor/tier6.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Ultimate Alta Constructor",
-            "subtitle" : " ^#b9b5b2;All My Enternia object & loot crate recipes",
-            "icon" : { "file" : "/objects/alta/crafting/constructor/ui/icon5.png" }
-        } },
-        "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4", "alta_constructor5", "alta_constructor6" ], "initialRecipeUnlocks" : []
-      },
-
+      "interactData" : { "config" : "/objects/alta/crafting/constructor/tier6.config" },
       "learnBlueprintsOnPickup" : []
     }
   ],

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 16 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ctspear", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "my_enternia", "alta_max", "stardust", "l6m3", "weapon", "weapons", "melee", "all", "mod" ]
+}

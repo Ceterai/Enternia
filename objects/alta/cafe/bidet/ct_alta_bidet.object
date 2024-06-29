@@ -1,7 +1,7 @@
 {
   "objectName" : "ct_alta_bidet",
-  "colonyTags" : [ ],
-  "category" : "decorative",
+  "colonyTags" : [ "sanitary", "restroom", "bathroom" ],
+  "category" : "decorative", "objectType" : "loungeable",
   "level" : 1, "rarity" : "Common", "price" : 70,
   "race" : "alta",
 
@@ -22,8 +22,10 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] },
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+    { "image" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "sitPosition" : [8, 16], "direction" : "right" },
+    { "image" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "sitPosition" : [-8, 16], "direction" : "left", "flipImages" : true },
+    { "image" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "sitPosition" : [8, 16], "direction" : "right" },
+    { "image" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "sitPosition" : [-8, 16], "direction" : "left", "flipImages" : true }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

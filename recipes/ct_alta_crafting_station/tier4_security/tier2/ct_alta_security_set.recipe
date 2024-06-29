@@ -1,11 +1,12 @@
 {
   "input" : [
-    { "item" : "titaniumbar", "count" : 24 },
+    { "item" : "titaniumbar", "count" : 8 },
+    { "item" : "durasteelbar", "count" : 16 },
     { "item" : "ct_alta_energy_cell", "count" : 4 },
     { "item" : "ct_alta_security-codex", "count" : 1 },
     { "item" : "silk", "count" : 4 }
   ],
   "duration" : 4.5,
   "output" : { "item" : "ct_alta_security_set", "count" : 1 },
-  "groups" : [ "my_enternia", "alta_t2", "alta", "security", "set", "other", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_t2", "alta", "security", "l4", "sets", "other", "all", "mod" ]
 }

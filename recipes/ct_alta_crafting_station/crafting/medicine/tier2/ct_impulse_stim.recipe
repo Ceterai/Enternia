@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "ct_yaara_eye", "count" : 1 },
+    { "item" : "ct_glowstick_ceterteal", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_impulse_stim",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_t2m", "alta", "medicine", "consumables", "debug", "all", "mod" ]
+}

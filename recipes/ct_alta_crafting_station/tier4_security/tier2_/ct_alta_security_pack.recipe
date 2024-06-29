@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "ct_alta_protective_collar", "count" : 1 },
+    { "item" : "ct_alta_backpack", "count" : 1 }
+  ],
+  "duration" : 4.75,
+  "output" : { "item" : "ct_alta_security_pack", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t2+", "alta", "tier4_security", "l4", "armor", "armors", "back_armor", "all", "mod" ]
+}

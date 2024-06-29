@@ -9,7 +9,7 @@
   "inventoryIcon" : "ct_miko_tea.png",
   "effects" : [ [
     {
-        "effect" : "love",
+        "effect" : "ct_alta_passion",
         "duration" : 240
     },
     {
@@ -31,7 +31,7 @@
       "longdescription" : "With additional spices and increased sweetness from ^#497c64;miko koywa^reset; extract, this drink will go well for someone in an already good mood.",
       "altaDescription" : "Can be a hit and a miss, both taste-wise and sentiment-wise. There's even an alta saying \"Yae Miko is too much\", for when you're not sure if the person you're talking to is comfortable with the subject.",
       "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "love", "duration" : 300 }, { "effect" : "slowlove", "duration" : 300 } ] ], "variant" : true, "alkey" : "Yae Chi",
+      "effects" : [ [ { "effect" : "ct_alta_lust", "duration" : 300 } ] ], "variant" : true, "alkey" : "Yae Chi",
       "paletteSwap" : {"#fa637b":"#fa63e9","#e32353":"#e323df","#ba1945":"#b819ba",
       "#ff68c8":"#c768ff","#d83c9f":"#9e3cd8","#9d2c74":"#732c9d","#651e4b":"#4b1e65",
       "#82ae42":"#ae5142","#3aa779":"#3a78a7","#2d4c56":"#312d56"}
@@ -42,7 +42,7 @@
       "longdescription" : "With additional spices and increased sweetness from ^#497c64;miko koywa^reset; extract, this drink will go well for someone in an already good mood.",
       "altaDescription" : "Can be a hit and a miss, both taste-wise and sentiment-wise. There's even an alta saying \"Yae Miko is too much\", for when you're not sure if the person you're talking to is comfortable with the subject.",
       "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "love", "duration" : 300 }, { "effect" : "slowlove", "duration" : 300 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Amin Chi",
+      "effects" : [ [ { "effect" : "ct_alta_determination", "duration" : 300 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Amin Chi",
       "paletteSwap" : {"#fa637b":"#dcfa63","#e32353":"#cfe323","#ba1945":"#adba19",
       "#ff68c8":"#68e3ff","#d83c9f":"#3cbcd8","#9d2c74":"#2c889d","#651e4b":"#1e5765",
       "#82ae42":"#429aae","#3aa779":"#9ca73a","#2d4c56":"#37562d"}

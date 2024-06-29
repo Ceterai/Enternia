@@ -19,11 +19,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_verriskoywa_alto_twin.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
   "smashable" : true,

@@ -21,11 +21,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_alta_speaker.png:<color>",
-      "imagePosition" : [0, 0],
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png:<color>", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

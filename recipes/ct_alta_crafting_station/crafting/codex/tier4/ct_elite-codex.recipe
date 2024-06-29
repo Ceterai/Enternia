@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_datamass", "count" : 1 },
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_elite-codex", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t4", "alta", "elite", "alta_codex", "codex", "other", "datamass", "all", "mod" ]
+}

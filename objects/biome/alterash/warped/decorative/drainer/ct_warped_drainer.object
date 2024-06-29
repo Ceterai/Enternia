@@ -1,0 +1,46 @@
+{
+  "objectName" : "ct_warped_drainer",
+  "colonyTags" : [ "warped", "wired" ],
+  "category" : "wire",
+  "level" : 3, "rarity" : "Uncommon", "price" : 120,
+  "race" : "generic",
+
+  "shortdescription" : "Warped Drainer",
+  "description" : "This mechanism made out of weird plants sucks in liquids around it. Looks like a hungry plant monster.",
+  "altaDescription" : "This warped drainer utilizes some plants' sensory abilities and predatory nature to absorb certain liquids.",
+
+  "apexDescription" : "An unpleasant sight.",
+  "avianDescription" : "What an ugly creature.",
+  "floranDescription" : "Warpy hole plant sssuck water! But also poissson. Floran could use thisss.",
+  "glitchDescription" : "Disgusted. A deformed... something.",
+  "humanDescription" : "An odd living creature.",
+  "hylotlDescription" : "Seems like this creature sucks liquids around it for some reason.",
+  "novakidDescription" : "This thing is lookin' really bizarre.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.on",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/drain/drain.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/drain/drain.animation",
+
+  "animationParts" : {
+    "drain" : "body.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [0, 0] ],
+
+  "interval" : 5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

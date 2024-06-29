@@ -1,5 +1,5 @@
 // Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
-// Link: https://steamcommunity.com/workshop/filedetails/?id=947429656
+// Read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#customizable-ai
 // This chip can be used to modify S.A.I.L. (if you have that mod installed)
 // Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
 {
@@ -10,7 +10,7 @@
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "A simple interface in a highly-compatible datamass. Neat.",
 
-  "rarity": "Legendary", "price": 20, "level" : 6, "race" : "alta",
+  "rarity": "Uncommon", "price": 120, "level" : 3, "race" : "alta",
 
   "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },

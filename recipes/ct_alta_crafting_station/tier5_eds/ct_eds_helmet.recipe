@@ -1,10 +1,10 @@
 {
   "input" : [
     { "item" : "ct_eds_armor", "count" : 4 },
-    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_eds_visor", "count" : 1 },
     { "item" : "ct_eds-codex", "count" : 1 }
   ],
   "duration" : 5,
   "output" : { "item" : "ct_eds_helmet", "count" : 1 },
-  "groups" : [ "my_enternia", "alta_t3", "alta", "tier5_eds", "armor", "armors", "head", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_t3", "alta", "tier5_eds", "l5", "armor", "armors", "head_armor", "all", "mod" ]
 }

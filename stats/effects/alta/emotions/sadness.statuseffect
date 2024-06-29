@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_sadness",
+  "label" : "Sad",
+  "description" : "I... feel you...",
+  "effectConfig" : { "particleEmitters" : [ "sadness" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "sadness.animation",
+  "icon" : "/animations/emotes/sad.png:1"
+}

@@ -19,16 +19,8 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "body.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    },
-    {
-      "dualImage" : "body_top.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] },
+    { "dualImage" : "body_top.png", "spaceScan" : 0.1, "anchors" : [ "top" ] }
   ],
   "smashable" : true,
   "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],

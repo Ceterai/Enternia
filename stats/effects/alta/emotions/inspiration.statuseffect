@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_inspiration",
+  "label" : "Inspired",
+  "description" : "Your mind is filled with ideas and the desire to make them a reality.",
+  "effectConfig" : { "particleEmitters" : [ "inspiration" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig" : "inspiration.animation",
+  "icon" : "/animations/emotes/surprised.png:1"
+}

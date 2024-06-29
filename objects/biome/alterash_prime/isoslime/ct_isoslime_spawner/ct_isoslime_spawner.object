@@ -22,11 +22,8 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_isoslime_spawner.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] },
+    { "dualImage" : "top.png", "spaceScan" : 0.1, "anchors" : [ "top" ] }
   ],
 
   "health" : 12,

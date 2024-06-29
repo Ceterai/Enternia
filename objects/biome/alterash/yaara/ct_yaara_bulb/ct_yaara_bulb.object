@@ -22,7 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_yaara_bulb.png:<color>.<frame>",
+      "dualImage" : "body.png:<color>.<frame>",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
     }
@@ -30,8 +30,8 @@
 
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationParts" : {
-    "bg" : "ct_yaara_bulb.png",
-    "fg" : "ct_yaara_bulb_lit.png"
+    "bg" : "body.png",
+    "fg" : "lit.png"
   },
   "animationPosition" : [0, 0],
 

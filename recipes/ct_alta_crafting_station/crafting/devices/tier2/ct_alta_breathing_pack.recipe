@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "durasteelbar", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_back_mimic", "count" : 1, "parameters" : { "preset" : "breathing_pack" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_t2m", "alta", "tserera", "devices", "back", "all", "mod" ]
+}

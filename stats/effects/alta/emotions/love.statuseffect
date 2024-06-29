@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_love",
+  "label" : "In Love",
+  "description" : "What is this tingling feeling in your heart?",
+  "effectConfig" : { "particleEmitters" : [ "love" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "love.animation",
+  "icon" : "/animations/emotes/happy.png:1"
+}

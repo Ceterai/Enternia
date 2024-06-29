@@ -23,17 +23,20 @@ Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://g
 
 - [Installation](#installation)
   - [Steam](#steam)
-  - [GitHub](#github)
   - [Starbound Forums](#starbound-forums)
+  - [GitHub](#github)
+  - [Nexus Mods](#nexus-mods)
+  - [Skymods](#skymods)
 - [Where to start](#where-to-start)
 - [Contents](#contents)
   - [Screenshots](#screenshots)
   - [Mod Content Rundown](#mod-content-rundown)
   - [Compatability](#compatability)
-  - [Supported Addons](#supported-addons)
+    - [Incompatible](#incompatible)
+    - [Supported Addons](#supported-addons)
+    - [Other Addon Support](#other-addon-support)
     - [Information For Modders](#information-for-modders)
     - [Information For Translators](#information-for-translators)
-  - [Incompatible](#incompatible)
   - [Enhanced Tooltips](#enhanced-tooltips)
   - [Tenants](#tenants)
 - [Changes](#changes)
@@ -41,18 +44,34 @@ Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://g
 
 ## Installation
 
+These are all the different ways to obtain the mod - choose whichever one you like!
+
 ### Steam
 
 Subscribe to this mod on Steam! [Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2006558650)
+
+### Starbound Forums
+
+Get this mod on the official Chucklefish Forums: [Link](https://community.playstarbound.com/resources/my-enternia.6252/)
 
 ### GitHub
 
 1. Download the latest release or clone the repo;
 1. Put the dowloaded/cloned folder into the `mods` folder in your Starbound directory.
 
-### Starbound Forums
+> When downloading a release, you can choose between a `.zip` and a `.pak` version.
 
-Get this mod on the official Chucklefish Forums: [Link](https://community.playstarbound.com/resources/my-enternia.6252/)
+> Files, attached to releases, support direct public download links, so **can be used by servers** as well.
+
+### Nexus Mods
+
+- *COMING SOON*
+
+### Skymods
+
+> Not recommended as the mod on this resource **isn't updated by me**, so tends to be quite **outdated** and the above methods are highly preferred.
+
+Still, you can get it here: [Link](https://catalogue.smods.ru/archives/173393)
 
 ## Where to start
 
@@ -95,7 +114,14 @@ More information on new weapon features like press&hold, firemodes, attachments 
 1. Doesn't require any other mods to work;
 1. Should be FU-compatible.
 
-### Supported Addons
+#### Incompatible
+
+Having these mods doesn't crash the game, but using them with altas will not work.
+
+Temporary partially **incompatible** with [Armor Adapt](https://steamcommunity.com/sharedfiles/filedetails/?id=2601606862) - using armors from this mod with it will cause lag.  
+Temporary partially **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta npcs with it.
+
+#### Supported Addons
 
 More about supported addons here: [Mod Support](https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support)
 
@@ -107,11 +133,22 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);
 - [Race Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2622273194) (check mod screenshots for stats);
 - [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458));
-- [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds 4 A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips).
+- [Quickbar Mini](https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034)/[Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) (adds ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/scanner/icon.png) [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) to the quick bar);
+- [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds 4 A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips) - if you only want the chips and not the rest of the mod - use this instead: [Alta A.I. Chips](https://steamcommunity.com/sharedfiles/filedetails/?id=3276795992);
+- [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062) (all armor and clothing from the mod can be found in the wardrobe with proper dying options);
+- [Craftable Seeds NEW](https://steamcommunity.com/sharedfiles/filedetails/?id=1938886559)/[Craftable Seeds](https://steamcommunity.com/sharedfiles/filedetails/?id=731358672) (all crops and saplings from this mod can be crafted in the Seed Maker);
+- [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533) (adds all recipes and crafting stations from this mod to the interface);
+- [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR).
 
 ![ ](.meta/images/scrn_tooltips5.png)
 ![ ](.meta/images/scrn_tooltips3.png)
 ![ ](/.meta/images/showcase/2.3.3/ai.png) ![ ](/.meta/images/showcase/2.3.3/ceterai.gif)
+
+#### Other Addon Support
+
+- Starting with 2.3.3 is now compatible with [Monsters Unique Sounds (SFX from Beta)](https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235) - alta drones no longer crash with this mod installed;
+- [Enhanced Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=731220462) is supported with the following patch: [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
+- You can alter alta S.A.I.L. by installing one of the officials patches: [EDS Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277537016), [C.T.O.S. Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277849874).
 
 #### Information For Modders
 
@@ -143,11 +180,6 @@ If you're looking to translate this mod to another language, here's the list of 
 There's a helpful [`/.meta/world.json`](.meta/world.json) file containing translations and explanations of most alta words in the mod, which might be useful to translators.
 
 Starting with version [2.1.4a](https://github.com/Ceterai/Enternia/releases/tag/2.1.4a), each new version's changelog now contains a **Translation** section that goes over changes made in that version that might require attention from translators.
-
-### Incompatible
-
-Temporary **incompatible** with [Armor Adapt](https://steamcommunity.com/sharedfiles/filedetails/?id=2601606862).  
-Temporary **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta npcs with it.
 
 ### Enhanced Tooltips
 

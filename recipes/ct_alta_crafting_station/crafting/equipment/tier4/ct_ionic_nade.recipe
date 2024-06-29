@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_enterite", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ionic_nade", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t4", "alta", "enternia", "equipment", "consumables", "all", "mod" ]
+}

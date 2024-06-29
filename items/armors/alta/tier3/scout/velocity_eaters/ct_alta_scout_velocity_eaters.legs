@@ -73,10 +73,10 @@
   "upgradeParameters" : {
     "inventoryIcon" : "icon.png", "maleFrames" : "pants.png", "femaleFrames" : "pants.png",
     "shortdescription" : "Protea's Vectors ^#8020f0;^reset;",
-    "description" : "\nThese protective leggings with ^#ffa8e8;stardust^reset; crystals once belonged to Protea. They're yours now. Enjoy!",
+    "description" : "These protective leggings with ^#ffa8e8;stardust^reset; crystals once belonged to Protea. They're yours now. Enjoy!",
     "longdescription" : "They're part of the Protea's gift to inexperienced alta scouts as means of care and support!",
     "price" : 750, "rarity" : "Legendary",
-    "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ],
+    "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ], "tooltipKind" : "ct_alta_effects_2",
     "statusEffects" : [
       "ct_velocity_jump", "ct_velocity_swim",
       { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 0.85 },

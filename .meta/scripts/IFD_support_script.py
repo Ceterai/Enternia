@@ -18,7 +18,7 @@ MOD = 'Improved Food Descriptions'
 HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 
 def is_obj_file(name: str) -> bool:
-    return (name[-13:] == '.statuseffect')
+    return (base.get_ext(name) == 'statuseffect')
 
 def run():
     paths = base.get_files_flat(is_obj_file)

@@ -1,11 +1,12 @@
 {
   "name" : "ct_electroblockade",
   "label" : "Electroblockade",
-  "description" : "Adds 15% ^#7733aa;electric resistance^reset; and ^#7733aa;Electric Status Immunity^reset;.",
+  "description" : "Adds 15% ^#7733aa;electric resistance^reset; and ^#7733aa;Electric Immunity^reset;.  \nWith ^#7733aa;Starburst Rework^reset; - adds immunity to ^#7733aa;Mild Static^reset;.",
 
   "effectConfig" : {
     "electricResistance" : 0.15,
-    "electricStatusImmunity" : true
+    "electricStatusImmunity" : true,
+    "pf_mildBiomeLightningImmunity" : true
   },
   "defaultDuration" : 5,
 

@@ -17,13 +17,13 @@ MOD = 'More Planet Info'
 HINT = base.HINT.format(mod=MOD, name=base.get_file(__file__))
 
 def is_effect(name: str) -> bool:
-    return (name[-13:] == '.statuseffect')
+    return (base.get_ext(name) == 'statuseffect')
 
 def is_weather(name: str) -> bool:
-    return (name[-8:] == '.weather')
+    return (base.get_ext(name) == 'weather')
 
 def is_biome(name: str) -> bool:
-    return (name[-6:] == '.biome')
+    return (base.get_ext(name) == 'biome')
 
 def run():
     # Initial fill

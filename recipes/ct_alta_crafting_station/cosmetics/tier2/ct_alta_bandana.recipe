@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 3 }
+  ],
+  "output" : { "item" : "ct_head_mimic", "count" : 1, "parameters" : { "preset" : "bandana" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_t2+", "alta", "alta_basic", "cosmetics", "head", "all", "mod" ]
+}

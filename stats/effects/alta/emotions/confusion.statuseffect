@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_confusion",
+  "label" : "Confused",
+  "description" : "You have no idea what's happening.",
+  "effectConfig" : { "particleEmitters" : [ "confusion" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "confusion.animation",
+  "icon" : "/animations/emotes/alta/lost.png:1"
+}

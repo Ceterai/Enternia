@@ -22,7 +22,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "dualImage" : "ct_alta_lab_server.png:<frame>.<color>", "frames" : 3, "animationCycle" : 0.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+      "dualImage" : "body.png:<frame>.<color>", "frames" : 3, "animationCycle" : 0.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ]
     }
   ],
 
@@ -31,8 +31,8 @@
   "animation" : "/objects/alta/switch_bg_animated.animation",
   "animationCustom" : { "animatedParts" : { "stateTypes" : { "body" : { "states" : { "on" : { "frames" : 3 } } } } } },
   "animationParts" : {
-    "bg" : "ct_alta_lab_server.png:",
-    "fg" : "ct_alta_lab_server_lit.png:"
+    "bg" : "body.png:",
+    "fg" : "lit.png:"
   },
 
   "scripts" : [ "/objects/alta/switch.lua", "/scripts/npcToyObject.lua" ],

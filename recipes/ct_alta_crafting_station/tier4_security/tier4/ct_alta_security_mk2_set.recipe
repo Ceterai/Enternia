@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 26 },
+    { "item" : "ct_alta_energy_cell", "count" : 5 },
+    { "item" : "ct_alta_security-codex", "count" : 1 },
+    { "item" : "silk", "count" : 4 }
+  ],
+  "duration" : 4.75,
+  "output" : { "item" : "ct_alta_security_mk2_set", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t4", "alta", "security", "l4m", "sets", "other", "all", "mod" ]
+}

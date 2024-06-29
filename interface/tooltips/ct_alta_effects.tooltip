@@ -75,12 +75,13 @@
     "position" : [0, 168],
     "schema" : {
       "spacing" : [0, 1],
-      "memberSize" : [999, 13],
+      "memberSize" : [999, 12],
       "listTemplate" : {
         "statusLabel" : {
           "type" : "label",
           "position" : [132, 6],
           "wrapWidth" : 60,
+          "lineSpacing" : 1.0,
           "fontSize" : 6,
           "hAnchor" : "right",
           "vAnchor" : "mid"

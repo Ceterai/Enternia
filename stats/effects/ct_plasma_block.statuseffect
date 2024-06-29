@@ -1,12 +1,13 @@
 {
   "name" : "ct_plasma_block",
   "label" : "Plasmoblockade",
-  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#2080f0;Plasma Status Immunity^reset;.",
+  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Immunity^reset; and ^#2080f0;Plasma Immunity^reset;.  \nWith ^#7733aa;Starburst Rework^reset; - adds immunity to ^#7733aa;Mild Static^reset;.",
 
   "effectConfig" : {
     "electricResistance" : 0.20,
     "plasmaStatusImmunity" : true,
-    "electricStatusImmunity" : true
+    "electricStatusImmunity" : true,
+    "pf_mildBiomeLightningImmunity" : true
   },
   "defaultDuration" : 5,
 

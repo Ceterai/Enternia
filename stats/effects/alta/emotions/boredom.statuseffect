@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_boredom",
+  "label" : "Bored",
+  "description" : "It feels like an infinity...",
+  "effectConfig" : { "particleEmitters" : [ "boredom" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "boredom.animation",
+  "icon" : "/animations/emotes/sleepy.png:1"
+}

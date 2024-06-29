@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_passion",
+  "label" : "Passionate",
+  "description" : "An anazing feeling of being in the moment over something you enjoy.",
+  "effectConfig" : { "particleEmitters" : [ "passion" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig" : "passion.animation",
+  "icon" : "/animations/emotes/alta/passionate.png:1"
+}

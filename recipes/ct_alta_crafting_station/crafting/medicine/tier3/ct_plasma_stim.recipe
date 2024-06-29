@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "syringe", "count" : 1 },
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "ct_glowstick_omniblue", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_plasma_stim",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_t3+", "alta", "medicine", "consumables", "debug", "all", "mod" ]
+}

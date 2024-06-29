@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "silk", "count" : 2 }
   ],
-  "output" : { "item" : "ct_alta_security_helmet", "count" : 1, "parameters" : { "preset" : "stardust" } },
+  "output" : { "item" : "ct_alta_security_helmet", "count" : 1, "parameters" : { "preset" : "enternia" } },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "spacedrifter", "armor", "armors", "head", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_citadel", "l6m", "armor", "armors", "head_armor", "all", "mod" ]
 }

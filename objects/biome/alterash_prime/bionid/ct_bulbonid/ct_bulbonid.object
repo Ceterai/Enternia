@@ -25,7 +25,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "ct_bulbonid.png:<color>.<frame>",
+      "image" : "body.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       
       "direction" : "right",
@@ -34,7 +34,7 @@
       "anchors" : [ "bottom" ]
     },
     {
-      "image" : "ct_bulbonid.png:<color>.<frame>",
+      "image" : "body.png:<color>.<frame>",
       "imagePosition" : [0, 0],
       
       "direction" : "left",
@@ -47,8 +47,8 @@
 
   "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
   "animationParts" : {
-    "bg" : "ct_bulbonid.png",
-    "fg" : "ct_bulbonid_lit.png"
+    "bg" : "body.png",
+    "fg" : "lit.png"
   },
   "animationPosition" : [0, 0],
 

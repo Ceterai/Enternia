@@ -1,11 +1,11 @@
 {
   "input" : [
-    { "item" : "ct_phosicore", "count" : 4 },
-    { "item" : "ct_eds_armor", "count" : 2 },
+    { "item" : "ct_entersphere", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 4 },
     { "item" : "diamond", "count" : 1 },
     { "item" : "ct_bion", "count" : 1 }
   ],
   "duration" : 4,
   "output" : { "item" : "ct_tool_mimic", "count" : 1, "parameters" : { "preset" : "eds_heavy", "upgraded" : true } },
-  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_eds", "weapon", "weapons", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "astera", "l6m3", "weapon", "weapons", "ranged", "all", "mod" ]
 }

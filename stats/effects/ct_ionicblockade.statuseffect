@@ -1,12 +1,14 @@
 {
   "name" : "ct_ionicblockade",
   "label" : "Ionoblockade",
-  "description" : "Adds 20% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Status Immunity^reset; and ^#8020f0;Ionic Status Immunity^reset;.",
+  "description" : "Adds 18% ^#7733aa;electric resistance^reset;, ^#7733aa;Electric Immunity^reset; and ^#8020f0;Ionic Immunity^reset;.  \nWith ^#7733aa;Starburst Rework^reset; - adds immunity to ^#7733aa;Mild Static^reset; and ^reset;^#7733aa;Deadly Static^reset;.",
 
   "effectConfig" : {
-    "electricResistance" : 0.20,
+    "electricResistance" : 0.18,
     "ionicStatusImmunity" : true,
-    "electricStatusImmunity" : true
+    "electricStatusImmunity" : true,
+    "pf_biomelightningImmunity" : true,
+    "pf_mildBiomeLightningImmunity" : true
   },
   "defaultDuration" : 5,
 

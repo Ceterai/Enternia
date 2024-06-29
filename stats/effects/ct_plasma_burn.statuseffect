@@ -1,7 +1,7 @@
 {
   "name" : "ct_plasma_burn",
   "label" : "Plasma Burn",
-  "description" : "Repeatedly damages you with pure ^#2080f0;plasma^reset;. Having ^#2080f0;Plasma Status Immunity^reset; blocks the effect, ^#7733aa;Electric Status Immunity^reset; minimizes the damage, ^#f08020;Fire Status Immunity^reset; decreases the damage, ^#0050c0;Hevikai^reset; increases the damage.",
+  "description" : "Repeatedly damages you with pure ^#2080f0;plasma^reset;. Having ^#2080f0;Plasma Immunity^reset; blocks the effect, ^#7733aa;Electric Immunity^reset; minimizes the damage, ^#f08020;Fire Status Immunity^reset; decreases the damage, ^#0050c0;Hevikai^reset; increases the damage.",
   "blockingStat" : "plasmaStatusImmunity",
 
   "effectConfig" : {

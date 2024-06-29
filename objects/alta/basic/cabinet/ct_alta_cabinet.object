@@ -22,9 +22,9 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "ct_alta_cabinet.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" },
-    { "dualImage" : "ct_alta_cabinet_top.png", "spaceScan" : 0.1, "anchors" : [ "top" ], "collision" : "platform" },
-    { "dualImage" : "ct_alta_cabinet_top.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" },
+    { "dualImage" : "top.png", "spaceScan" : 0.1, "anchors" : [ "top" ], "collision" : "platform" },
+    { "dualImage" : "top.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" }
   ],
 
   "openSounds" : [ "/sfx/objects/locker_open.ogg" ],

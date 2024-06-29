@@ -1,7 +1,7 @@
 {
   "name" : "ct_pulse_paralysis",
   "label" : "Pulse Paralysis",
-  "description" : "Stuns you for 1.75 seconds. Having ^#7733aa;electric status immunity^reset; or ^#20f080;impulse status immunity^reset; blocks the effect.",
+  "description" : "Stuns you for 1.15 seconds. Having ^#7733aa;Electric Immunity^reset; or ^#20f080;Impulse Immunity^reset; blocks the effect.",
   "blockingStat" : "impulseStatusImmunity",
 
   "effectConfig" : {
@@ -9,7 +9,7 @@
 
     "miniImmunity" : "electricStatusImmunity"
   },
-  "defaultDuration" : 1.75,
+  "defaultDuration" : 1.15,
 
   "scripts" : [ "/stats/scripts/ct_stunned.lua" ],
   "animationConfig" : "ct_impulse.animation",

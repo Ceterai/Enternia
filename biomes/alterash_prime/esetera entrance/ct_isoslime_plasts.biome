@@ -54,11 +54,11 @@
       },
       {
         "mode" : "ceiling", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
-        "objectSets" : [ { "pool" : [ [0.5, "ct_isoslime_ceiling1" ], [0.475, "ct_isoslime_ceiling2" ], [0.025, "ct_isoslime_spawner" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [0.1, "ct_isoslime1" ], [0.4, "ct_isoslime2" ], [0.465, "ct_isoslime3" ], [0.025, "ct_isoslime_spawner" ], [0.01, "ct_isoslime_blob" ] ], "parameters" : { } } ]
       },
       {
         "mode" : "floor", "priority" : 1.0, "variants" : 1, "distribution" : "/biomes/distributions.config:denseMedium", "type" : "object",
-        "objectSets" : [ { "pool" : [ [0.45, "ct_isoslime1" ], [0.30, "ct_isoslime2" ], [0.225, "ct_isoslime3" ], [0.025, "ct_isoslime_blob" ] ], "parameters" : { } } ]
+        "objectSets" : [ { "pool" : [ [0.43, "ct_isoslime1" ], [0.30, "ct_isoslime2" ], [0.225, "ct_isoslime3" ], [0.02, "ct_isoslime_spawner" ], [0.025, "ct_isoslime_blob" ] ], "parameters" : { } } ]
       }
     ]
   },

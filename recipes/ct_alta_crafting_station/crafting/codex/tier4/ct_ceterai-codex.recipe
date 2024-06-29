@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_datamass", "count" : 1 },
+    { "item" : "ct_altersphere", "count" : 1 },
+    { "item" : "refinedferozium", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_ceterai-codex", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t4", "alta", "ceterai", "alta_codex", "codex", "other", "datamass", "all", "mod" ]
+}

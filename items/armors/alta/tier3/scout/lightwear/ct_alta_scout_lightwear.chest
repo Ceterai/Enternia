@@ -83,10 +83,10 @@
     "maleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
     "femaleFrames" : { "body" : "chestf.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
     "shortdescription" : "Protea's Jacket ^#8020f0;^reset;",
-    "description" : "\nThis protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea «\".",
+    "description" : "This protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea «\".",
     "longdescription" : "This gift is part of Protea's relics, that she worn or used as a scout.",
     "price" : 1700, "rarity" : "Legendary",
-    "statusEffects" : [ "ct_life_support_module", "ct_emergency_healer" ],
+    "statusEffects" : [ "ct_life_support_module", "ct_emergency_healer" ], "tooltipKind" : "ct_alta_effects_2",
     "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
       "#383c50":"#c060fc","#24283c":"#8020f0","#101428":"#5000c0"},
     "leveledStatusEffects" : [

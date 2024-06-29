@@ -1,0 +1,11 @@
+// Mod Support for Starburst Rework, read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#starburst-rework
+[
+  [
+    { "op": "test", "path": "/scripts" },
+    { "op": "add", "path": "/scripts/-", "value": "/stats/effects/biomeprotection/ct_pf_full_protection.lua" }
+  ],
+  [
+    { "op": "test", "path": "/scripts", "inverse": true },
+    { "op": "add", "path": "/scripts", "value": [ "/stats/effects/biomeprotection/ct_pf_full_protection.lua" ] }
+  ]
+]

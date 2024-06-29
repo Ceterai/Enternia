@@ -38,12 +38,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_ayaka_sap_blob_ceiling2.png",
-      "imagePosition" : [-3, -9],
-      "spaceScan" : 0.1,
-      "anchors" : [ "top" ]
-    }
+    { "dualImage" : "body.png", "imagePosition" : [-3, -9], "spaceScan" : 0.1, "anchors" : [ "top" ] }
   ],
 
   "smashable" : true,

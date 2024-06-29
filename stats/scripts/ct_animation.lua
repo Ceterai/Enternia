@@ -1,6 +1,11 @@
-function init() initAnimation() end
+-- ### Animation Effect
+-- This customizable effect purely sets animation-related parameters and is able to unset them if needed.
+function init()
+  initAnimation()
+  script.setUpdateDelta(0)
+end
 function update(dt) end
-function uninit() end
+function uninit() uninitAnimation() end
 
 -- Initializes all **animation things** configured via the optional `animation` effect parameter.
 function initAnimation(animation)

@@ -9,6 +9,10 @@
   "inventoryIcon" : "ct_gheatsyn_tea.png",
   "effects" : [ [
     {
+        "effect" : "ct_alta_curiosity",
+        "duration" : 240
+    },
+    {
         "effect" : "lightaugment2",
         "duration" : 240
     }

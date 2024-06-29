@@ -1,0 +1,59 @@
+{
+  "objectName" : "ct_yaara_couch",
+  "colonyTags" : [ "yaara" ],
+  "category" : "furniture",
+  "level" : 1, "rarity" : "Common", "price" : 140,
+  "race" : "floran",
+
+  "shortdescription" : "Yaara Couch",
+  "description" : "A couch made of plant fibre hide and large vines. Would a floran hurt a plant?",
+  "altaDescription" : "A couch made by some alta-like sentient plants that live in yaara growth. We call them Yaara Keepers.",
+
+  "apexDescription" : "A sofa decorated with plants on its sides.",
+  "avianDescription" : "This couch looks so soft to touch!",
+  "floranDescription" : "Yaara Floran kill cryssstalss and other plantss, but big and evil. Make plant couch out of them.",
+  "glitchDescription" : "Pleased. Finally a place where I can rest for a bit.",
+  "humanDescription" : "A nice purple couch.",
+  "hylotlDescription" : "A comfy soft couch that, presumably, was made from some organic materials.",
+  "novakidDescription" : "A pretty soft couch, I will sit for a bit.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "sitCoverImage" : "/objects/biome/alterash/yaara/decorative/couch/cover.png",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-7, 20], // Right
+        [6, 20] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png",
+      "sitCoverImage" : "/objects/biome/alterash/yaara/decorative/couch/cover.png",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-7, 20], // Left
+        [6, 20] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

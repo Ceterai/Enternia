@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_impulse_nade", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t2m", "alta", "security", "equipment", "consumables", "all", "mod" ]
+}

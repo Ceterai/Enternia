@@ -20,11 +20,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { 
-      "dualImage" : "ct_alta_table.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ], "collision" : "platform"
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
   ],
 
   "builder" : "/items/buildscripts/alta/object.lua"

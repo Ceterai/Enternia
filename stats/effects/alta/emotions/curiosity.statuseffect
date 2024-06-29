@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_curiosity",
+  "label" : "Curious",
+  "description" : "Ohh, what's that?",
+  "effectConfig" : { "particleEmitters" : [ "curiosity" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig": "curiosity.animation",
+  "icon" : "/animations/emotes/confused.png:1"
+}

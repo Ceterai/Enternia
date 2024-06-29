@@ -2,7 +2,7 @@
   "objectName" : "ct_aya_fallen",
   "colonyTags" : [ "alterash", "nature", "ayaka" ],
   "category" : "breakable",
-  "level" : 1, "rarity" : "Common", "price" : 45,
+  "level" : 1, "rarity" : "Common", "price" : 20,
   "race" : "generic",
 
   "shortdescription" : "Fallen Aya",
@@ -19,11 +19,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_aya_fallen.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
   "smashable" : true,

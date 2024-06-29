@@ -9,7 +9,11 @@
   "inventoryIcon" : "ct_vermont_tea.png",
   "effects" : [ [
     {
-        "effect" : "biomecoldImmunity",
+        "effect" : "ct_alta_confusion",
+        "duration" : 120
+    },
+    {
+        "effect" : "iceblockaugment",
         "duration" : 240
     }
   ] ],
@@ -27,7 +31,7 @@
       "longdescription" : "The original vermont tea mix with significant modifications. It's secret lies in switching up spices with aya powder, and using less soury ingredients.",
       "altaDescription" : "It's really hard to describe the flavor other than a sweet and milky vermont tea. I feel like I've unlocked a new color palette.",
       "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "biomecoldImmunity", "duration" : 300 } ] ], "variant" : true, "alkey" : "Ozuri Chi",
+      "effects" : [ [ { "effect" : "iceblockaugment", "duration" : 300 } ] ], "variant" : true, "alkey" : "Ozuri Chi",
       "paletteSwap" : {"#d5f958":"#d5f958","#a0c531":"#a0c531","#749d24":"#749d24","#ff95a4":"#ffc595","#ff3f5a":"#ff973f",
       "#3587ff":"#ff3565","#0066ff":"#ff003b","#0042a6":"#a60026","#002a69":"#690018"}
     },

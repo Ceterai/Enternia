@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_alta_security-codex", "count" : 1 },
+    { "item" : "ct_alta_ai_chip", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 }
+  ],
+  "duration" : 1.25,
+  "output" : { "item" : "ct_alta_security_drone", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t2+", "alta", "tier4_security", "l4", "spawner", "drones", "consumables", "all", "mod" ]
+}

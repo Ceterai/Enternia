@@ -20,12 +20,7 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "ct_alta_chair.png",
-      "imagePosition" : [-8, 0],
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-    }
+    { "dualImage" : "body.png", "imagePosition" : [-8, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
   "objectType" : "loungeable",

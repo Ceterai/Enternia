@@ -1,7 +1,7 @@
 {
   "objectName" : "ct_alta_washer",
-  "colonyTags" : [ ],
-  "category" : "decorative",
+  "colonyTags" : [ "storage", "sanitary", "mechanical" ],
+  "category" : "storage", "objectType" : "container",
   "level" : 2, "rarity" : "Common", "price" : 70,
   "race" : "alta",
 
@@ -24,6 +24,12 @@
   "orientations" : [
     { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
   ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5, "autoCloseCooldown" : 3600,
 
   "builder" : "/items/buildscripts/alta/object.lua"
 }

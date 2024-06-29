@@ -9,6 +9,10 @@
   "inventoryIcon" : "ct_koywa_tea.png",
   "effects" : [ [
     {
+        "effect" : "ct_alta_curiosity",
+        "duration" : 240
+    },
+    {
         "effect" : "maxhealthscalingboostfood",
         "duration" : 240
     }

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "reddye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_back_mimic", "count" : 1, "parameters" : { "preset" : "cape_striped", "colorIndex" : 4 } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_t3mm", "alta", "eds", "clothing", "back", "all", "mod" ]
+}

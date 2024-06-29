@@ -1,0 +1,12 @@
+{
+  "name" : "ct_alta_determination",
+  "label" : "Determined",
+  "description" : "You feel like nothing can stop you.",
+  "effectConfig" : { "particleEmitters" : [ "determination" ] },
+  "defaultDuration" : 2,
+
+  "scripts" : [ "/stats/effects/npcreactions/particlereaction.lua" ],
+  
+  "animationConfig" : "determination.animation",
+  "icon" : "/animations/emotes/alta/determined.png:1"
+}

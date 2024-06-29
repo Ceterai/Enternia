@@ -1,7 +1,7 @@
 {
   "name" : "ct_overcharged_air",
   "label" : "Overcharged Air",
-  "description" : "Quickly degrades your energy. Once out of energy, damages you repeatedly with ^#2080f0;plasma^reset; strikes.  \nHaving ^#7733aa;electric status immunity^reset; minimizes negative effects, while ^#2080f0;plasma status immunity^reset; blocks the effect completely.",
+  "description" : "Quickly degrades your energy. Once out of energy, damages you repeatedly with ^#2080f0;plasma^reset; strikes.  \nHaving ^#7733aa;Electric Immunity^reset; minimizes negative effects, while ^#2080f0;Plasma Immunity^reset; blocks the effect completely.",
   "blockingStat" : "plasmaStatusImmunity",
 
   "effectConfig" : {
