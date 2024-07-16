@@ -85,9 +85,9 @@
       "damage" : 3,
 
       "teamType" : "enemy",
-      "damageSourceKind" : "poisonslash",
+      "damageSourceKind" : "slash",
       "knockback" : 20,
-      "statusEffects" : [ "weakpoison" ]
+      "statusEffects" : [ ]
     },
 
     "metaBoundBox" : [-4, -4, 4, 4],

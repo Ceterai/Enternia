@@ -2,10 +2,10 @@
   [
     {"op":"add","path":"/planetTypeNames/ct_alterash_planet","value":"Alterash"},
     {"op":"add","path":"/planetTypeColors/ct_alterash_planet","value":[32,240,128]},
-    {"op":"add","path":"/visitableTypeDescription/ct_alterash_planet","value":["The forests of this planet are home to exotic fruits and creatures. Plasts of prisms can be found here, buried in the ground.","Scanners show this planet is covered in dense forests and rivers. Detected weak ^#8020f0;ionic^reset; impulses throughout the atmosphere. Be careful.","It seems like this planet is teeming with lifeforms. Scanners detect ^#ffa8e8;stardust^reset; in the atmosphere, as well as high levels of ^#7733aa;electric^reset; charges.","Planet is covered in ^#ffa8e8;stardust^reset;. Additionally, the data suggests it is best to not land there at night or during bad weather.","Small sources of ^#2080f0;alternia^reset; energy detected. Pieces of blue crystals are scattered among plasts of moonstone and moonrocks.","A ^#ffa8e8;stardust^reset;-compatible planet. Be cautious of high electricity levels in the air. Also, night and bad weather are not best for landing.","This planet is inhabited by lifeforms compatible with or immune to some ^#2080f0;alternia^reset; effects. The flora consists of rare crops and plants."]},
+    {"op":"add","path":"/visitableTypeDescription/ct_alterash_planet","value":["The forests of this planet are home to exotic fruits and creatures. Layers of prisms can be found here, buried in the ground.","Scanners show this planet is covered in dense forests and rivers. Detected weak ^#8020f0;ionic^reset; impulses throughout the atmosphere. Be careful.","It seems like this planet is teeming with lifeforms. Scanners detect ^#ffa8e8;stardust^reset; in the atmosphere, as well as high levels of ^#7733aa;electric^reset; charges.","Planet is covered in ^#ffa8e8;stardust^reset;. Additionally, the data suggests it is best to not land there at night or during bad weather.","Small sources of ^#2080f0;alternia^reset; energy detected. Pieces of blue crystals are scattered among plasts of moonstone and moonrocks.","A ^#ffa8e8;stardust^reset;-compatible planet. Be cautious of high electricity levels in the air. Also, night and bad weather are not best for landing.","This planet is inhabited by lifeforms compatible with or immune to some ^#2080f0;alternia^reset; effects. The flora consists of rare crops and plants."]},
     {"op":"add","path":"/planetTypeNames/ct_alterash_prime_planet","value":"Alterash Prime"},
     {"op":"add","path":"/planetTypeColors/ct_alterash_prime_planet","value":[32,128,240]},
-    {"op":"add","path":"/visitableTypeDescription/ct_alterash_prime_planet","value":["The planet is partially covered in snow. Plasts of crystals and prisms can be found here, buried in the ground.","Scanners show this planet is covered in grass plains and snowy canyons. Detected strong ^#8020f0;ionic^reset; impulses throughout the atmosphere. Be careful.","It seems like this planet is teeming with crystals. Scanners detect ^#2080f0;alternia^reset; in the atmosphere, as well as high levels of ^#7733aa;electric^reset; charges.","Planet is covered in snow and crystals. Additionally, the data suggests it is best to not land there at night or during bad weather.","High sources of ^#2080f0;alternia^reset; energy detected. Pieces of blue crystals are scattered among plasts of moonstone and moonrocks.","A ^#ffa8e8;stardust^reset;-compatible planet. Be cautious of high electricity levels in the air. Geoanalysis detects rare plasts of ^#a7e001;gheatsyn^reset; underground.","This planet is inhabited by lifeforms compatible with or immune to ^#2080f0;alternia^reset; effects. The flora consists of rare crops and plants."]},
+    {"op":"add","path":"/visitableTypeDescription/ct_alterash_prime_planet","value":["The planet is partially covered in snow. Layers of crystals and prisms can be found here, buried in the ground.","Scanners show this planet is covered in grass plains and snowy canyons. Detected strong ^#8020f0;ionic^reset; impulses throughout the atmosphere. Be careful.","It seems like this planet is teeming with crystals. Scanners detect ^#2080f0;alternia^reset; in the atmosphere, as well as high levels of ^#7733aa;electric^reset; charges.","Planet is covered in snow and crystals. Additionally, the data suggests it is best to not land there at night or during bad weather.","High sources of ^#2080f0;alternia^reset; energy detected. Pieces of blue crystals are scattered among layers of moonstone and moonrocks.","A ^#ffa8e8;stardust^reset;-compatible planet. Be cautious of high electricity levels in the air. Geoanalysis detects rare layers of ^#a7e001;gheatsyn^reset; underground.","This planet is inhabited by lifeforms compatible with or immune to ^#2080f0;alternia^reset; effects. The flora consists of rare crops and plants."]},
     {"op":"add","path":"/visitableTypeDescription/ct_enterash_planet","value":["Scanners show the terrain is dense and hard to traverse. Effects of ^#8020f0;enternia^reset; can be found throughout the surface.","It seems like this planet is mostly barren. Scanners detect ^#8020f0;enternia^reset; in the atmosphere. It is recommended to be careful.","Planet is overrun with ^#8020f0;enternia^reset;. Scanners detect constant bad weather conditions and partial absence of any daylight.","^#8020f0;Enternia^reset; effects detected. Pieces of obsidian and moonrocks are scattered everywhere. The flora is hard to pickup by scanners."]},
     {"op":"add","path":"/displayWeathers/ct_ionic_rain","value":{"displayName":"Ionic Rain","icon":"/interface/cockpit/weather/ct_ionic_rain.png"}},
     {"op":"add","path":"/displayWeathers/ct_ionic_drizzle","value":{"displayName":"Ionic Drizzle","icon":"/interface/cockpit/weather/ct_ionic_drizzle.png"}},
@@ -89,7 +89,10 @@
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_omniblue_vision","value":{"displayName":"Omniblue Vision","icon":"/stats/effects/ct_omniblue_light/ct_omniblue_vision.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_longfall","value":{"displayName":"1/4 Falldamage","icon":"/stats/effects/ct_velocity_jump/ct_longfall.png"}},
     {"op":"add","path":"/displayEnvironmentStatusEffects/ct_velocity_boost","value":{"displayName":"Velocity Boost","icon":"/interface/statuses/jumpboost.png"}},
-    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_velocity_jump","value":{"displayName":"Velocity Jump","icon":"/stats/effects/ct_velocity_jump/ct_velocity_jump.png"}},
+    {"op":"add","path":"/displayEnvironmentStatusEffects/ct_velocity_jump","value":{"displayName":"Velocity Jump","icon":"/stats/effects/ct_velocity_jump/ct_velocity_jump.png"}}
+  ],
+  [
+    {"op":"test","path":"/weatherThreatValues"},
     {"op":"add","path":"/weatherThreatValues/ct_crystal_fall","value":"1.4"},
     {"op":"add","path":"/weatherThreatValues/ct_glow_rain","value":"-0.1"},
     {"op":"add","path":"/weatherThreatValues/ct_ionic_drizzle","value":"0.1"},
@@ -103,7 +106,10 @@
     {"op":"add","path":"/weatherThreatValues/ct_enternia_cyclone","value":"0.4"},
     {"op":"add","path":"/weatherThreatValues/ct_enternia_meteors","value":"2.4"},
     {"op":"add","path":"/weatherThreatValues/ct_orbital_strike","value":"3.0"},
-    {"op":"add","path":"/weatherThreatValues/ct_purple_storm","value":"1.5"},
+    {"op":"add","path":"/weatherThreatValues/ct_purple_storm","value":"1.5"}
+  ],
+  [
+    {"op":"test","path":"/namesList"},
     {"op":"add","path":"/namesList/ct_alterash_starforest","value":{"word":"ct_alterash_starforest","friendlyWord":"Starforest"}},
     {"op":"add","path":"/namesList/ct_alterash_underworld","value":{"word":"ct_alterash_underworld","friendlyWord":"Antorash Plains"}},
     {"op":"add","path":"/namesList/ct_alterash_warped","value":{"word":"ct_alterash_warped","friendlyWord":"Warped Forest"}},
@@ -134,7 +140,7 @@
     {"op":"add","path":"/namesList/ct_hevika","value":{"word":"ct_hevika","friendlyWord":"Hevikara"}},
     {"op":"add","path":"/namesList/ct_calin","value":{"word":"ct_calin","friendlyWord":"Calocaves"}},
     {"op":"add","path":"/namesList/ct_crystalline_prime","value":{"word":"ct_crystalline_prime","friendlyWord":"Crystalline Prime"}},
-    {"op":"add","path":"/namesList/ct_isoslime_plasts","value":{"word":"ct_isoslime_plasts","friendlyWord":"Isoplast"}},
+    {"op":"add","path":"/namesList/ct_isoslime_plasts","value":{"word":"ct_isoslime_plasts","friendlyWord":"Isostratum"}},
     {"op":"add","path":"/namesList/ct_phospholion_mines","value":{"word":"ct_phospholion_mines","friendlyWord":"Phospholion Mines"}},
     {"op":"add","path":"/namesList/ct_eva_prime","value":{"word":"ct_eva_prime","friendlyWord":"Eva Prime"}},
     {"op":"add","path":"/namesList/ct_alta_prime_labs","value":{"word":"ct_alta_prime_labs","friendlyWord":"Alta Prime Labs"}},

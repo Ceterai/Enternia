@@ -19,7 +19,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 
 **Version 2.3: Alta Cafe & Monster Buffet** is out! Check out the [changelog](.meta/changelog.md) for details.
 
-Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/wiki/Tenants)
+Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](.meta/wiki/tenants.md)
 
 - [Installation](#installation)
   - [Steam](#steam)

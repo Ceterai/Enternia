@@ -1,0 +1,88 @@
+// Mod support for a mod called Scripted Artificial Intelligence Lattice (Customisable A.I.!)
+// Read more here: https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#customizable-ai
+// This chip can be used to modify S.A.I.L. (if you have that mod installed)
+// Created from template: https://github.com/xn-5o8h/sbmod_scriptedsail_templateaichip/releases
+{
+  "itemName": "ct_alta_security_ai_chip",
+
+  "shortdescription": "Alta Security A.I. Chip",
+  "description": "An alta security comms chip. ^gray;With Customizable A.I.: Can be installed on S.A.I.L.'s terminal.^reset;",
+  "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
+  "altaDescription": "A security interface in a highly-compatible datamass.",
+
+  "rarity": "Uncommon", "price": 150, "level" : 4, "race" : "alta", "itemTags" : [ "security" ],
+
+  "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
+  "tooltipFields" : { "objectImage": "/ai/portraits/ct_alta_securityquestportrait.png" },
+  "inventoryIcon": "ct_alta_security_ai_chip.png",
+
+  "aiData": {
+    "aiFrames": "ct_alta_security_ai.png",
+    "staticFrames": "alta_static.png",
+    "portraitFrames": "portraits/ct_alta_security_portrait.png",
+    "questPortrait": "ct_alta_security",
+    "titleIcon": "/interface/ai/ct_alta_ai.png",
+
+    "title": "^#b0e0fc;Alta ^#f6f6f6;Security Comms^reset;",
+    "subtitle": "^#0040a8;Alliana Command Center: connected^reset;",
+    "chatterSound": "/sfx/interface/nav_scanning_loop.ogg",
+
+    "charactersPerSecond": 60,
+
+    "noCrewSpeech": {
+      "animation": "refuse",
+      "text": "^#b0b4c8;Crew status:^#f6f6f6;\n\n- You are the only registered security unit of this sector.\n\n- Acquiring more security units may allow for increased operational efficiency.",
+      "speedModifier": 0.7
+    },
+
+    "noMissionsSpeech": {
+      "animation": "refuse",
+      "text": "^#b0b4c8;Objectives:^#f6f6f6;\n\n- No priority co-ordinates currently available.",
+      "speedModifier": 0.7
+    },
+
+    "shipStatus": {
+      "0": {
+        "animation": "unique",
+        "text": "^#f6f6f6;- Standing by...",
+        "speedModifier": 0.7
+      },
+      "1": {
+        "animation": "talk",
+        "text": "^#b0b4c8;Status:\n\n- ^#f6f6f6;Ship thrusters are offline.^#b0b4c8;\n\n- ^#f6f6f6;Alliana Command Center is responding.^#b0b4c8;\n\n- ^#b0e0fc;Ship wormhole system functioning at basic levels.^#b0b4c8;\n\n- ^#b0e0fc;Currently only the planet below is accessible.",
+        "speedModifier": 0.7
+      },
+      "2": {
+        "animation": "talk",
+        "text": "^#b0b4c8;Status:\n\n- ^#f6f6f6;Ship thrusters are online.^#b0b4c8;\n\n- ^#f6f6f6;Alliana Command Center is responding.^#b0b4c8;\n\n- ^#f6f6f6;Ship wormhole system functioning correctly.^#b0b4c8;\n\n- ^#b0e0fc;Planets within this star system are accessible.",
+        "speedModifier": 0.7
+      },
+      "3": {
+        "animation": "talk",
+        "text": "^#b0b4c8;Status:\n\n- ^#f6f6f6;Ship thrusters are online.^#b0b4c8;\n\n- ^#f6f6f6;Alliana Command Center is responding.^#b0b4c8;\n\n- ^#f6f6f6;FTL drive is online.^#b0b4c8;\n\n- ^#f6f6f6;Ship wormhole system functioning correctly.^#b0b4c8;\n\n- ^#f6f6f6;The entire universe is accessible.",
+        "speedModifier": 0.7
+      }
+    },
+
+    "interfaceText": {
+
+      "buttonOpenCraftingText": "^#f6f6f6;Open A.I. Synthesis",
+      "buttonOpenSlotText": "^#f6f6f6;Open A.I. Synthesis slot",
+      "buttonCloseSlotText": "^#b0e0fc;Close A.I. Synthesis slot",
+      "buttonFallbackText": "^#f6f6f6;Protectorate Defaults Reset",
+
+      "overwrittingConfText": "^#b0e0fc;> Updating Comms..................",
+      "aiDataText": "^#b0e0fc;You can install an A.I. chip here to customize your comms.",
+      "fallbackText": "^#b0e0fc;Use this if you can't find a mission or crewmember.",
+      "fallbackActivatedText": "^#b0e0fc;The fallback interface will be loaded upon next interaction.",
+
+      "craftingTitle": "^#f6f6f6;A.I. Synthesis",
+      "craftingSubtitle": "^#b0e0fc;Create A.I. Chips to modify the A.I.",
+
+      "defaultRecruitDescription": "^#b0e0fc;- NO DATA -",
+      "defaultRecruitName": "Unknown Unit"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

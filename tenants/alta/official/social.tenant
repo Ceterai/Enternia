@@ -16,5 +16,21 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Social Worker",
+    "description" : "Altas who volunteer to clean public spaces and help people in need.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/social1.png",
+      "primary" : [
+        "images/tenants/social1.png",
+        "images/tenants/social2.png",
+        "images/tenants/social3.png",
+        "images/tenants/social4.png",
+        "images/tenants/social5.png"
+      ]
+    }
+  }
 }

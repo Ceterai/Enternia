@@ -15,5 +15,36 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // crystals instead of pixels, prism shards
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },  // crystals instead of pixels, prism shards
+
+
+
+  // Wiki information area, not used by the game an doesn't require modification/translation
+  "wiki" : {
+    "title" : "Alta",
+    "description" : "Regular alta dressed up in casual attire - simple, easy to put on and maintain clothes, made according to latest protocols. These clothes don't restrict movement and are quite comfortable to wear.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/casual1.png",
+      "primary" : [
+        "images/sprites/casual1.png",
+        "images/sprites/casual2.png"
+      ],
+      "secondary" : [
+        "images/tenants/casual14.png",
+        "images/tenants/casual10.png",
+        "images/tenants/casual6.png",
+        "images/tenants/casual7.png",
+        "images/tenants/casual8.png",
+        "images/tenants/casual9.png",
+        "images/tenants/casual5.png",
+        "images/tenants/casual13.png",
+        "images/tenants/casual11.png",
+        "images/tenants/casual15.png",
+        "images/tenants/casual16.png"
+      ],
+      "old" : [
+      ]
+    }
+  }
 }

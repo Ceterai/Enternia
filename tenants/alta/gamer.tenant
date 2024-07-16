@@ -16,5 +16,19 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Gamer",
+    "description" : "This alta is a heavy fan of gaming and various types of entertainment.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/gamer2.png",
+      "primary" : [
+        "images/tenants/gamer1.png",
+        "images/tenants/gamer2.png",
+        "images/tenants/gamer3.png"
+      ]
+    }
+  }
 }

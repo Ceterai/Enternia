@@ -10,6 +10,7 @@ import IFD_support_script as IFD
 import MPI_support_script as MPI
 import EES_support_script as EES
 import WI_support_script as WI
+import generate_tenant_guide as TG
 import json
 
 METADATA_PATH = '/_metadata'
@@ -28,6 +29,9 @@ IFD.run()
 MPI.run()
 EES.run()
 WI.run()
+
+# Updates the Tenant Guide
+TG.run()
 
 # Prints affected files for your convenience
 print('Affected files:\n' + '\n'.join(['- ' + path for path in (

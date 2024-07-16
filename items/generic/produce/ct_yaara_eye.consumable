@@ -8,7 +8,7 @@
   "level" : 1, "price" : 30, "rarity" : "Common",
 
   "maxStack" : 1000, "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yaara" ],
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 0.003,
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "rottingMultiplier" : 0.3,
   "blockingEffects" : [ "wellfed" ], "foodValue" : 7,
 
   "inventoryIcon" : "ct_yaara_eye.png",

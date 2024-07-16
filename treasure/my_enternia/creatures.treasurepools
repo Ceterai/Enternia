@@ -134,7 +134,7 @@
   "ct_prism_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_prism_crippit_hunt"}] } ] ],
   "ct_prism_crippit_hunt" : [ [ 1, { "pool" : [
     {"weight" : 0.500, "item" : ["prisiliteore", 1]},
-    {"weight" : 0.4985, "item" : ["prisiliteore", 2]},
+    {"weight" : 0.4985, "item" : ["prisiliteore", 1]},
     {"weight" : 0.0005, "item" : "ct_crippit_scab"},
     {"weight" : 0.001, "item" : "ct_prism_crippit_af"}
   ] } ] ],
@@ -142,7 +142,7 @@
   "ct_stardust_crippit_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_stardust_crippit_hunt"}] } ] ],
   "ct_stardust_crippit_hunt" : [ [ 1, { "pool" : [
     {"weight" : 0.500, "item" : ["ct_stardust", 1]},
-    {"weight" : 0.4985, "item" : ["ct_stardust", 2]},
+    {"weight" : 0.4985, "item" : ["ct_stardust", 1]},
     {"weight" : 0.0005, "item" : "ct_crippit_scab"},
     {"weight" : 0.001, "item" : "ct_stardust_crippit_af"}
   ] } ] ],
@@ -190,7 +190,7 @@
   "ct_stardust_narfin_loot" : [ [ 1, { "poolRounds" : [[0.8,1],[0.2,0]], "pool" : [{"weight":1,"pool":"ct_stardust_narfin_hunt"}] } ] ],
   "ct_stardust_narfin_hunt" : [ [ 1, { "pool" : [
     {"weight" : 0.500, "item" : ["ct_stardust", 1]},
-    {"weight" : 0.4899, "item" : ["ct_stardust", 2]},
+    {"weight" : 0.4899, "item" : ["ct_stardust", 1]},
     {"weight" : 0.0001, "item" : "ct_narfin_trophy"},
     {"weight" : 0.001, "item" : "ct_stardust_narfin_af"}
   ] } ] ],

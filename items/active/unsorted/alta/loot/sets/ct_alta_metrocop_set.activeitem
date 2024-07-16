@@ -11,7 +11,7 @@
 
   "level" : 3, "price" : 2800, "rarity" : "Uncommon", "race" : "alta",
   "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
-  "itemTags" : [ "set", "alta_city" ],
+  "itemTags" : [ "set", "city" ],
 
   "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
   "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],

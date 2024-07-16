@@ -25,6 +25,8 @@ function swapItem(widgetName)
     parameters = sb.jsonMerge(parameters, itemInfo[config.itemName or config.objectName] or {})
     local configParameter = function(key, default) return getValue(key, default, config, parameters) end
     local uid = configParameter("itemName")
+    local tags = getTags(configParameter("itemTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
+    local tags2 = getTags(configParameter("colonyTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
     widget.setText("rarityLabel", configParameter('rarity'))
     widget.setVisible("emptyLabel", false)
 
@@ -62,11 +64,12 @@ function swapItem(widgetName)
       return old
     end
 
+    local tmp_tags = tags
+    if configParameter("colonyTags") then tmp_tags = tags2 end
     local lore = '    '..configParameter("shortdescription", "")  -- Full description constructor in form of a string variable.
-    if configParameter("description") then lore = appendText(lore, configParameter("description"), '\n') end
-    if configParameter("longdescription") then lore = appendText(lore, configParameter("longdescription"), '\n') end
+    lore = getLore(lore, configParameter("description"), configParameter("longdescription"), tmp_tags, configParameter('category'), configParameter('race'), tips)
     if configParameter("preset") and not string.find(uid, "mimic") then
-      lore = appendText(lore, string.format(tips.derivative, root.itemConfig(uid).config.shortdescription), '\n')
+      lore = appendText(lore, string.format(tips.derivative, root.itemConfig(uid).config.shortdescription), '\n\n')
     end
     if configParameter("altaDescription") then
       lore = appendText(lore, string.format(tips.scan.lore, 'alta'), '\n\n    ')
@@ -98,25 +101,44 @@ function swapItem(widgetName)
     if config.category == "petCollar" then lore = appendText(lore, tips.collar, '\n') end
     if configParameter("smashOnBreak", false) or configParameter("smashable", false) then lore = appendText(lore, tips.breaks, '\n') end
     if configParameter("foundIn") then lore = appendText(lore, tips.found .. table.concat(configParameter("foundIn"), "^gray;,^reset; "), '\n') end
-    local tags = getTags(configParameter("itemTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
-    local tags2 = getTags(configParameter("colonyTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
     if tags2 and #tags2 > 0 and #tags2 >= #tags then lore = appendText(lore, tips.tags..' '..getColored(table.concat(tags2, ", ")), '\n')
     elseif tags and #tags > 0 then lore = appendText(lore, tips.tags..' '..getColored(table.concat(tags, ", ")), '\n') end
     widget.setText("itemScrollArea.loreLabel", lore)
     widget.setVisible("itemScrollArea", true)
   else
-    widget.setItemSlotItem(widgetName, nil)
-    widget.setVisible("emptyLabel", true)
-    widget.setVisible("itemScrollArea", false)
-    widget.setText("rarityLabel", '')
-    widget.setText("levelLabel", '')
-    widget.setText("levelTitleLabel", '')
-    widget.setText("speciesLabel", '')
-    widget.setText("speciesTitleLabel", '')
-    widget.setText("alkeyLabel", '')
-    widget.setText("alkeyTitleLabel", '')
-    widget.setText("handednessLabel", '')
-    widget.setImage("damageKindImage", '')
-    widget.setText("itemScrollArea.loreLabel", '')
+    cleanBody(widgetName)
   end
+end
+
+function cleanBody(widgetName)
+  widget.setItemSlotItem(widgetName, nil)
+  widget.setVisible("emptyLabel", true)
+  widget.setVisible("itemScrollArea", false)
+  widget.setText("rarityLabel", '')
+  widget.setText("levelLabel", '')
+  widget.setText("levelTitleLabel", '')
+  widget.setText("speciesLabel", '')
+  widget.setText("speciesTitleLabel", '')
+  widget.setText("alkeyLabel", '')
+  widget.setText("alkeyTitleLabel", '')
+  widget.setText("handednessLabel", '')
+  widget.setImage("damageKindImage", '')
+  widget.setText("itemScrollArea.loreLabel", '')
+end
+
+function getLore(full, desc, lore, tags, cat, species, tips)
+  if desc then full = appendText(full, desc, '\n') end
+  if lore then full = appendText(full, lore, '\n') end
+  for _, tag in ipairs(tags) do
+    if tips.lore.alta[tag] and species == 'alta' then full = appendText(full, tips.lore.alta[tag], '\n\n') end
+  end
+  for _, tag in ipairs(tags) do
+    if tips.lore.tags[tag] then full = appendText(full, tips.lore.tags[tag], '\n\n') end
+  end
+  for _, tag in ipairs(tags) do
+    if tips.lore.factions[tag] then full = appendText(full, tips.lore.factions[tag], '\n\n') end
+  end
+  if cat and tips.lore.categories[cat] then full = appendText(full, tips.lore.categories[cat], '\n\n') end
+  if species and tips.lore.species[species] then full = appendText(full, tips.lore.species[species], '\n\n') end
+  return full
 end

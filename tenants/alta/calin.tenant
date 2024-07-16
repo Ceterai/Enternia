@@ -28,5 +28,21 @@
       }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta in a Calin Dress",
+    "description" : "An alta in a beautiful calin-themed dress.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+        "images/tenants/calin1.png",
+        "images/tenants/calin2.png",
+        "images/tenants/calin3.png",
+        "images/tenants/calin4.png",
+        "images/tenants/calin5.png"
+      ]
+    }
+  }
 }

@@ -1207,7 +1207,7 @@
         "path": "/items/active/unsorted/alta/loot/sets/",
         "fileName": "ct_ceterai_set.activeitem",
         "name": "ct_ceterai_set",
-        "shortdescription": "C.T. Alternia Set",
+        "shortdescription": "^#2080f0;C.T.^reset; Alternia Set",
         "category": "mysteriousReward",
         "icon": "ct_ceterai_set.png",
         "rarity": "legendary",
@@ -2165,7 +2165,7 @@
         "path": "/items/active/weapons/other/asirai/",
         "fileName": "alternia_spear.activeitem",
         "name": "ctspear",
-        "shortdescription": "Alternia Spear",
+        "shortdescription": "^#2080f0;Alternia^reset; Spear",
         "category": "spear",
         "icon": "alternia_spear.png",
         "rarity": "rare"
@@ -2653,14 +2653,34 @@
         "shortdescription": "Alta Basic A.I. Chip",
         "category": "A.I. Chip",
         "icon": "ct_alta_ai_chip.png",
-        "rarity": "legendary",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_alta_sail_ai_chip.item",
+        "name": "ct_alta_sail_ai_chip",
+        "shortdescription": "Alta S.A.I.L. A.I. Chip",
+        "category": "A.I. Chip",
+        "icon": "ct_alta_sail_ai_chip.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/aichips/",
+        "fileName": "ct_alta_security_ai_chip.item",
+        "name": "ct_alta_security_ai_chip",
+        "shortdescription": "Alta Security A.I. Chip",
+        "category": "A.I. Chip",
+        "icon": "ct_alta_security_ai_chip.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
         "path": "/items/aichips/",
         "fileName": "ct_alta_ship_ai_chip.item",
         "name": "ct_alta_ship_ai_chip",
-        "shortdescription": "Alta Ship A.I. Chip ^#8020f0;^reset;",
+        "shortdescription": "Alta Ship A.I. Chip ^#8020f0;^reset;",
         "category": "A.I. Chip",
         "icon": "ct_alta_ship_ai_chip.png",
         "rarity": "legendary",
@@ -2670,7 +2690,7 @@
         "path": "/items/aichips/",
         "fileName": "ct_ceterai_ai_chip.item",
         "name": "ct_ceterai_ai_chip",
-        "shortdescription": "C.T.O.S. Chip ^#8020f0;^reset;",
+        "shortdescription": "^#2080f0;C.T.^reset;O.S. Chip ^#8020f0;^reset;",
         "category": "A.I. Chip",
         "icon": "ct_ceterai_ai_chip.png",
         "rarity": "legendary",
@@ -2680,10 +2700,10 @@
         "path": "/items/aichips/",
         "fileName": "ct_eds_ai_chip.item",
         "name": "ct_eds_ai_chip",
-        "shortdescription": "^#f02020;EDS^reset; A.I. Chip ^#8020f0;^reset;",
+        "shortdescription": "^#f02020;EDS^reset; A.I. Chip ^#2080f0;^reset;",
         "category": "A.I. Chip",
         "icon": "ct_eds_ai_chip.png",
-        "rarity": "legendary",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -5541,7 +5561,7 @@
         "fileName": "ct_alta_washer.object",
         "name": "ct_alta_washer",
         "shortdescription": "Alta Washer",
-        "category": "decorative",
+        "category": "storage",
         "icon": "icon.png",
         "rarity": "common",
         "race": "alta"
@@ -5591,7 +5611,7 @@
         "fileName": "ct_alta_hand_dryer.object",
         "name": "ct_alta_hand_dryer",
         "shortdescription": "Alta Hand Dryer",
-        "category": "light",
+        "category": "decorative",
         "icon": "icon.png",
         "rarity": "common",
         "race": "alta"
@@ -5760,7 +5780,7 @@
         "path": "/objects/alta/city/plant/",
         "fileName": "ct_alta_plant.object",
         "name": "ct_alta_plant",
-        "shortdescription": "Alta Decorative Plant",
+        "shortdescription": "Alta Koywa Plant",
         "category": "decorative",
         "icon": "icon.png",
         "rarity": "common",
@@ -8578,16 +8598,6 @@
         "race": "generic"
     },
     {
-        "path": "/objects/biome/alterash/viona/chest/",
-        "fileName": "ct_enchanted_chest.object",
-        "name": "ct_enchanted_chest",
-        "shortdescription": "Enchanted Chest",
-        "category": "storage",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "generic"
-    },
-    {
         "path": "/objects/biome/alterash/koywa/flowers/alto/",
         "fileName": "ct_verriskoywa_alto.object",
         "name": "ct_verriskoywa_alto",
@@ -8683,6 +8693,16 @@
         "name": "ct_verriskoywa_grass2",
         "shortdescription": "Verriskoywa Thin Grass",
         "category": "breakable",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "generic"
+    },
+    {
+        "path": "/objects/biome/alterash/viona/chest/",
+        "fileName": "ct_enchanted_chest.object",
+        "name": "ct_enchanted_chest",
+        "shortdescription": "Enchanted Chest",
+        "category": "storage",
         "icon": "icon.png",
         "rarity": "common",
         "race": "generic"
@@ -10117,24 +10137,6 @@
         "race": "generic"
     },
     {
-        "path": "/objects/farmables/warped_hive/",
-        "fileName": "ct_warped_hive_seed.object",
-        "name": "ct_warped_hive_seed",
-        "shortdescription": "Warped Hive Seed",
-        "category": "seed",
-        "icon": "icon.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/objects/farmables/warped_hive/",
-        "fileName": "ct_wild_warped_hive_seed.object",
-        "name": "ct_wild_warped_hive_seed",
-        "shortdescription": "Wild Warped Hive Seed",
-        "category": "seed",
-        "icon": "icon.png",
-        "rarity": "common"
-    },
-    {
         "path": "/objects/farmables/gil/",
         "fileName": "ct_gil_seed.object",
         "name": "ct_gil_seed",
@@ -10166,6 +10168,24 @@
         "fileName": "ct_wild_tsay_seed.object",
         "name": "ct_wild_tsay_seed",
         "shortdescription": "Wild Tsay Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/warped_hive/",
+        "fileName": "ct_warped_hive_seed.object",
+        "name": "ct_warped_hive_seed",
+        "shortdescription": "Warped Hive Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/warped_hive/",
+        "fileName": "ct_wild_warped_hive_seed.object",
+        "name": "ct_wild_warped_hive_seed",
+        "shortdescription": "Wild Warped Hive Seed",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"

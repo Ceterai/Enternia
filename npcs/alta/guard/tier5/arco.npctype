@@ -9,7 +9,10 @@
             "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 5 } } ],
             "legs" : [ { "name" : "ct_arco_legwear" } ],
             "primary" : [ "ct_alta_plasma_rifle" ],
-            "sheathedprimary" : [ "ct_plasmasword" ]
+            "sheathedprimary" : [
+              { "name" : "ct_tool_mimic", "parameters" : { "preset" : "baton" } },
+              { "name" : "ct_tool_mimic", "parameters" : { "preset" : "baton", "upgraded" : true } }
+            ]
           }
         ] ]
     ]

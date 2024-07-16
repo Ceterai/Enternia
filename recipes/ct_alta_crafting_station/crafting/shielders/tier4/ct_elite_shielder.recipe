@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_elite_shielder",
+    "count" : 1
+  },
+  "duration" : 0.45,
+  "groups" : [ "my_enternia", "alta_t4", "alta", "elite", "consumables", "shielders", "all", "mod" ]
+}

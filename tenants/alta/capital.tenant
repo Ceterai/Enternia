@@ -50,5 +50,14 @@
       }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta from a Capital",
+    "description" : "Regular alta dressed up in casual attire in alta capital-themed colors.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/capital1.png"
+    }
+  }
 }

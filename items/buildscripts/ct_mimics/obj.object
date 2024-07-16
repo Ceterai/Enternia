@@ -167,7 +167,7 @@
     },
     "tea_cafe_sign" : {
       "baseAsset" : "/objects/hylotl/softdrinksign/softdrinksign.object", "race" : "alta", "price" : 100,
-      "shortdescription" : "Tea Cafe Sign", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "alta_city", "neon", "electronic", "commerce", "unique" ], "health" : 1.5,
+      "shortdescription" : "Tea Cafe Sign", "level" : 3, "rarity" : "Uncommon", "colonyTags" : [ "city", "neon", "electronic", "commerce", "unique" ], "health" : 1.5,
       "description" : "A sign indicating a nearby herb cafe.", "altaDescription" : "A cafe sign. Wouldn't mind going for a cup of tea.",
       "longdescription" : "Tea cafes are quite common among altas, as well as the tea itself, with hundreds of recipes being shared in different alta cooking books.",
       "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ]

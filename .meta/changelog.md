@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.3b](#233b)
     - [2.3.3a](#233a)
     - [2.3.3](#233)
     - [2.3.2](#232)
@@ -54,6 +55,57 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.3b
+
+This mini-patch refines already existing things and improves the quality of life overall.
+
+**Main:**
+
+- added 2 items;
+- grammar fixes;
+- lore expansion;
+- balancing.
+
+**Alta:**
+
+- added 2 more **A.I. Chips**:
+  - **Alta Security A.I. Chip**;
+  - **Alta S.A.I.L. A.I. Chip**.  
+  ![ ](/.meta/images/showcase/2.3.3b/ai.png)
+- made alta bodies less curvy - will later release a patch that brings back the original version.
+
+**Translation:**
+
+- fixed typos in a number of objects and effects:
+  - `/objects/alta/special/figurines/anglure/ct_nightmare_anglure.object` - `description`;
+  - `/objects/alta/special/paintings/ct_alta_abstract_art.object` (and other paintings) - `longdescription`;
+  - `/objects/alta/special/samples/phospholion/ct_phospholion_sample.object` - `altaDescription`;
+  - `/objects/alta/special/terraformers/biome/alterash/astera/ct_moonrock_space_islands.object` - `longdescription`;
+  - `/objects/alta/special/figurines/sporgus/ct_warped_sporgus.object` - `altaDescription`;
+  - `/objects/alta/special/figurines/other/ct_alta_af.object` - `description`;
+  - `/objects/alta/arknight/pod/ct_arknight_pod.object` - `description`;
+  - `/objects/alta/special/terraformers/biome/alterash_prime/gheatorn/ct_gheatorn.object` - `description`;
+  - `/stats/effects/alta/emotions/passion.statuseffect` - `description`;
+  - `/objects/alta/elite/pod/ct_elite_pod.object` - `altaDescription`;
+  - `/objects/alta/special/terraformers/biome/alterash/enchanted/ct_alterash_enchanted.object` - `longdescription`;
+  - `/objects/alta/scout/drone_spawner/ct_alta_drone_spawner.object` - `longdescription`;
+  - `/objects/biome/alterash_prime/bishyn/decorative/terminal/ct_bishyn_terminal.object` - `altaDescription`.
+- added altered species descriptions for decorative alta plants;
+- added a `longdescription` for **Alta Energy Source**;
+- added shared descriptions to `/items/buildscripts/ct_texts.config:lore`;
+- removed shared `longdescription` from most special objects.
+
+**Other:**
+
+- added recipes for **Alta Shielders** and included them as ingredients in other alta equipment;
+- added an entry to the **My Enternia Guide** that talks about the **Alta Scanner**;
+- made support for More Planet Info more granular, in that it now checks for each parameter before adding values to it;
+- made **Yaara Eyes** ferment a little slower (`0.003` -> `0.3`);
+- made slight adjustments to creature spawn rates and loot;
+- made **Alta Constructor** only ask for 16 **Stardust** instead of 256 to upgrade to tier 5;
+- fixed **Brutefly** and **Bionfly** - they no longer autodefeat when trying to perform an attack;
+- minor bug fixes.
+
 ### 2.3.3a
 
 This mini-patch refines already existing things and improves the quality of life overall.
@@ -66,6 +118,8 @@ In time for the release of this patch, a couple more mods were released to provi
 - [EDS Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277537016)
 - [C.T.O.S. Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277849874)
 - [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
+
+> Detailed changes for this version: [Update 2.3.3a](https://github.com/Ceterai/Enternia/commit/04ce0d66ec9a520ddb4e6735eeb9c67cba780a84)
 
 **Main:**
 
@@ -1586,7 +1640,7 @@ The update also adds tier 5 and 6 armor sets, as well as loot items and set item
 
 - added 1 atmosphere biome ([Eva Prime](https://github.com/Ceterai/Enternia/wiki/Eva-Prime)) with clouds and bg stat effects;
 - added 4 surface biomes ([Alterash Prime Gardens](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime-Gardens), [Alta Prime Labs](https://github.com/Ceterai/Enternia/wiki/Alta-Prime-Labs), [EDS Grounds](https://github.com/Ceterai/Enternia/wiki/EDS-Grounds), [Tavriya](https://github.com/Ceterai/Enternia/wiki/Tavriya));
-- added 4 subsurface biomes ([Calocaves](https://github.com/Ceterai/Enternia/wiki/Calocaves), [Crystalline Prime](https://github.com/Ceterai/Enternia/wiki/Crystalline-Prime), [Isoslime Plasts](https://github.com/Ceterai/Enternia/wiki/Isoslime-Plasts), [Phospholion Mines](https://github.com/Ceterai/Enternia/wiki/Phospholion-Mines));
+- added 4 subsurface biomes ([Calocaves](https://github.com/Ceterai/Enternia/wiki/Calocaves), [Crystalline Prime](https://github.com/Ceterai/Enternia/wiki/Crystalline-Prime), [Isoslime Plasts](https://github.com/Ceterai/Enternia/wiki/Isostratum), [Phospholion Mines](https://github.com/Ceterai/Enternia/wiki/Phospholion-Mines));
 - added 2 shallow underground biomes ([Hidden Alta Labs](https://github.com/Ceterai/Enternia/wiki/Hidden-Alta-Labs), [Tonnova Grove](https://github.com/Ceterai/Enternia/wiki/Tonnova-Grove));
 - added 4 mid underground biomes ([Alta Lab Debris](https://github.com/Ceterai/Enternia/wiki/Alta-Lab-Debris), [Bishyn Halls](https://github.com/Ceterai/Enternia/wiki/Bishyn-Halls), [Hevika](https://github.com/Ceterai/Enternia/wiki/Hevika), [Shroomic Depths](https://github.com/Ceterai/Enternia/wiki/Shroomic-Depths));
 - added 2 deep underground biomes ([Hevika Tunnels](https://github.com/Ceterai/Enternia/wiki/Hevika-Tunnels), [Ionic Hive](https://github.com/Ceterai/Enternia/wiki/Ionic-Hive));

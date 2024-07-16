@@ -43,5 +43,17 @@
       }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta from the Outpost",
+    "description" : "An alta that frequents various outposts. Often has protectorate-related insignias and clothes usually seen on other species.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/peace1.png",
+      "primary" : [
+        "images/sprites/raw/npcs/outpost1.png"
+      ]
+    }
+  }
 }

@@ -10,7 +10,7 @@
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "A C.T.O.S.-based A.I., huh. Does it sound like Ceterai too? What does Ceterai sound like?..",
 
-  "rarity": "Legendary", "price": 240, "level" : 6, "race" : "alta",
+  "rarity": "Legendary", "price": 240, "level" : 6, "race" : "alta", "itemTags" : [ "ceterai" ],
 
   "tooltipKind": "ct_alta_item_long", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/ct_ceteraiquestportrait.png" },

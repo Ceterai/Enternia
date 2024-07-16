@@ -26,8 +26,8 @@ Species pets in this mod can make sounds (often) and sing (rarely).
 
 Scripts implementing that:
 
-- [/monsters/pets/ct_alta_pet_drone/petBehavior.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/pets/ct_alta_pet_drone/petBehavior.lua)
-- [/monsters/pets/ct_alta_pet_drone/singState.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/pets/ct_alta_pet_drone/singState.lua)
-- [/monsters/pets/ct_alta_pet_drone/soundState.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/pets/ct_alta_pet_drone/soundState.lua)
+- [/monsters/alta/pets/drone/petBehavior.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/alta/pets/drone/petBehavior.lua)
+- [/monsters/alta/pets/drone/singState.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/alta/pets/drone/singState.lua)
+- [/monsters/alta/pets/drone/soundState.lua](https://github.com/Ceterai/Enternia/blob/main/monsters/alta/pets/drone/soundState.lua)
 
 Pet example: [[ Personal Drone ]]

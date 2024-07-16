@@ -16,5 +16,20 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Dancer",
+    "description" : "A professional alta dancer. Can be often seen in clubs and dancing events. Likes clothing that doesn't restrict her movement.",
+    "category" : "casual",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/dancer2.png",
+      "primary" : [
+        "images/tenants/dancer1.png",
+        "images/tenants/dancer5.png",
+        "images/tenants/dancer3.png",
+        "images/tenants/dancer2.png"
+      ]
+    }
+  }
 }

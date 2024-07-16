@@ -29,7 +29,7 @@ In addition to vital and economically necessary buildings, alta cities are teemi
     "itemConfig" : {
       "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
       "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "alta_city" ],
+      "itemTags" : [ "data_source", "ebook", "city" ],
       "builder" : "/items/buildscripts/alta/item.lua"
   }
 }

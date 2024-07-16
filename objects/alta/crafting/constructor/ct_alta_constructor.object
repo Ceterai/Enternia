@@ -122,7 +122,7 @@
         "config" : "/objects/alta/crafting/constructor/tier4.config",
         "filter" : [ "alta_constructor1", "alta_constructor2", "alta_constructor3", "alta_constructor4" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
-          { "item" : "ct_stardust", "count" : 256 },
+          { "item" : "ct_stardust", "count" : 16 },
           { "item" : "upgrademodule", "count" : 1 }
         ]
       },

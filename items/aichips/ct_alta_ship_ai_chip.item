@@ -10,7 +10,7 @@
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "A whole ship A.I. condensed into a small datamass... Amusing.",
 
-  "rarity": "Legendary", "price": 220, "level" : 6, "race" : "alta",
+  "rarity": "Legendary", "price": 220, "level" : 6, "race" : "alta", "itemTags" : [ "ship" ],
 
   "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },
@@ -31,13 +31,13 @@
 
     "noCrewSpeech": {
       "animation": "refuse",
-      "text": "^#0040a8;Crew status:^#2080f0;\n\n- You are the only registered project member of this sector.\n\n- Finding other project members may allow for increased operational efficiency.",
+      "text": "^#0040a8;Crew status:^#2080f0;\n\n- You are the only registered crew member of this ship.\n\n- Acquiring more crew members may allow for increased operational efficiency.",
       "speedModifier": 0.7
     },
 
     "noMissionsSpeech": {
       "animation": "refuse",
-      "text": "^#0040a8;Objectives:^#2080f0;\n\n- No special co-ordinates currently available.",
+      "text": "^#0040a8;Objectives:^#2080f0;\n\n- No mission co-ordinates currently available.",
       "speedModifier": 0.7
     },
 

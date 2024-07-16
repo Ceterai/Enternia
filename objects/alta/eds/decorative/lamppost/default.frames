@@ -4,11 +4,13 @@
     "size" : [8, 160],
     "dimensions" : [2, 1],
     "names" : [
-      [ "default.on", "default.off" ]
+      [ "on.default", "off.default" ]
     ]
   },
 
   "aliases" : {
-    "default.default" : "default.on"
+    "default.default" : "on.default",
+    "default.on" : "on.default",
+    "default.off" : "off.default"
   }
 }

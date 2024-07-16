@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_force_shielder",
+    "count" : 1
+  },
+  "duration" : 0.45,
+  "groups" : [ "my_enternia", "alta_t1+", "alta", "metrocop", "consumables", "shielders", "all", "mod" ]
+}

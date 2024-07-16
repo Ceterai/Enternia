@@ -10,7 +10,7 @@
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "Oh, this datamass is usually installed on EDS communication tech, like terminals or retainers.",
 
-  "rarity": "Rare", "price": 190, "level" : 5, "race" : "alta",
+  "rarity": "Rare", "price": 190, "level" : 5, "race" : "alta", "itemTags" : [ "eds" ],
 
   "tooltipKind": "ct_alta_item_long", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/ct_edsquestportrait.png" },
@@ -33,13 +33,13 @@
 
     "noCrewSpeech": {
       "animation": "talk",
-      "text": "^#606074;Crew status:^#f02020;\n\n- ^#b81824;You are the only registered project member of this sector.^#f02020;\n\n- ^#b81824;Finding other project members may allow for increased operational efficiency.",
+      "text": "^#606074;Crew status:^#f02020;\n\n- ^#b81824;You are the only registered security unit of this sector.^#f02020;\n\n- ^#b81824;Acquiring more security units may allow for increased operational efficiency.",
       "speedModifier": 0.7
     },
 
     "noMissionsSpeech": {
       "animation": "talk",
-      "text": "^#606074;Objectives:^#f02020;\n\n- ^#b81824;No special co-ordinates currently available.",
+      "text": "^#606074;Objectives:^#f02020;\n\n- ^#b81824;No mission co-ordinates currently available.",
       "speedModifier": 0.7
     },
 

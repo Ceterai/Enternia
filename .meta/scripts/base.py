@@ -38,5 +38,8 @@ def get_files_flat(filter_f, paths: list[str] = None) -> list[str]:
         obj_list.extend(get_files(path, filter_f))
     return obj_list
 
+def get_objects(filter_f) -> list[dict[str]]:
+    return {path: get_obj(path) for path in get_files_flat(filter_f)}
+
 def get_ext(name: str):
     return name.split('.')[-1] if '.' in name else ''
