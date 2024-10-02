@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "ct_alta_service_pants",
+    "count" : 1, "parameters" : { "preset" : "light" }
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_t2+", "alta", "alta_basic", "clothing", "legs", "all", "mod" ]
+}

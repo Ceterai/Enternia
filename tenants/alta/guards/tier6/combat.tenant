@@ -1,6 +1,6 @@
 {
   "name" : "ct_combat_captain_tenant",
-  "priority" : 7,
+  "priority" : 9,
 
   "colonyTagCriteria" : {
     "light" : 1,
@@ -20,5 +20,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Army Captain",
+    "description" : "This alta commands combat operations executed by regular alta army.",
+    "category" : "guard_l6", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

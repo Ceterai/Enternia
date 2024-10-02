@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_iron_girl",
+  "baseType" : "ct_alta_copper_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "mercenaryhead" ],
+          "chest" : [ "mercenarychest" ],
+          "legs" : [ "mercenarylegs" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

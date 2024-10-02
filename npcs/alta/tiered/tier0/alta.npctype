@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_copper_girl",
+  "baseType" : "ct_alta_guard",
+  "disableWornArmor" : true,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "copperarmorhead" ],
+          "chest" : [ "copperarmorchest" ],
+          "legs" : [ "copperarmorpants" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

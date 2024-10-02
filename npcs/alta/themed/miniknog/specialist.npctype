@@ -1,0 +1,14 @@
+{
+  "type" : "ct_mki_specialist",
+  "baseType" : "ct_mki_officer",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "apexspecialistjacket" ],
+            "legs" : [ "apexspecialistpants" ]
+          }
+        ] ]
+    ]
+  }
+}

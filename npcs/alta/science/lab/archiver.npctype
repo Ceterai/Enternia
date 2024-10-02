@@ -1,0 +1,19 @@
+{
+  "type" : "ct_alta_lab_archiver",
+  "baseType" : "ct_alta_archiver",
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "common", "uncommon", "rare", "legendary", "unique", "lab" ] } }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
+          "back" : [ { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  }
+}

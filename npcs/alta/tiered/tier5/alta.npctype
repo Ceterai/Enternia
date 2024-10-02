@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_aegisalt_girl",
+  "baseType" : "ct_alta_durasteel_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "apextier5ahead" ],
+          "chest" : [ "apextier5achest" ],
+          "legs" : [ "apextier5apants" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

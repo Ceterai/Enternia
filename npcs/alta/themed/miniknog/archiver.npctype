@@ -1,0 +1,21 @@
+{
+  "type" : "ct_mki_archiver",
+  "baseType" : "ct_alta_archiver",
+  "scriptConfig" : {
+    "merchant" : { "poolsFile" : "/npcs/alta/lab/trade/shop.config", "categories" : { "default" : [
+      "common", "uncommon", "rare", "legendary", "unique", "miniknog"
+    ] } }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "scientisthead" ],
+          "chest" : [ "scientistchest" ],
+          "legs" : [ "scientistlegs" ],
+          "back" : [ { "name" : "ct_alta_backpack" } ]
+        }
+      ] ]
+    ]
+  }
+}

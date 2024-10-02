@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_lunar_guard",
+  "baseType" : "ct_alta_earth",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "spacesuithead", "parameters" : { "colorIndex" : 6 } } ],
+          "chest" : [ { "name" : "spacesuitchest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "spacesuitlegs", "parameters" : { "colorIndex" : 0 } } ],
+          "primary" : [ "" ],
+          "sheathedprimary" : [ "npcpistol" ]
+        }
+      ] ]
+    ]
+  }
+}

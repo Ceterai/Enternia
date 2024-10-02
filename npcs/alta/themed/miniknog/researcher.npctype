@@ -1,0 +1,15 @@
+{
+  "type" : "ct_mki_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "scientisthead" ],
+          "chest" : [ { "name" : "apextier6mchest", "parameters" : { "colorIndex" : 2 } } ],
+          "legs" : [ { "name" : "apextier6mpants", "parameters" : { "colorIndex" : 2 } } ]
+        }
+      ] ]
+    ]
+  }
+}

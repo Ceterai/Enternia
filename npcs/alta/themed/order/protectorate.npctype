@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_protectorate",
+  "baseType" : "ct_alta_earth",
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "protectoratechest", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] } } ],
+          "legs" : [ { "name" : "protectoratepants", "parameters" : { "colorIndex" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] } } ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "ct_alta_service_tenant",
+  "priority" : 8,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "commerce" : 12,
+    "alta" : 12,
+    "city" : 12
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_servicer",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Servicer",
+    "description" : "A service worker that can provide you with neat essentials.",
+    "category" : "service", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

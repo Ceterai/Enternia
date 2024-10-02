@@ -5,6 +5,7 @@
 
   "level" : 5, "price" : 320, "rarity" : "Rare",
   "category" : "legwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "itemTags" : [ "tier5clothing", "science", "pelizhar" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -37,6 +38,45 @@
     // CRYSTAL (BROWN)
     { "0050c0b3" : "366388b3", "2080f0b3" : "4e8fb8b3", "60c0fcb3" : "76c7e4b3", "b0e0fcb3" : "c9eef6b3" }
   ],
+
+  "presets" : {
+    "arco" : {
+      "shortdescription" : "A.R.C.O. Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "arco" ], "colorIndex" : 5,
+      "description" : "An official A.R.C.O. researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "ceterai" : {
+      "shortdescription" : "C.T. Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "ceterai" ], "colorIndex" : 8,
+      "description" : "An official Project Ceterai researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "ghearun" : {
+      "shortdescription" : "Ghearun Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "ghearun" ], "colorIndex" : 1,
+      "description" : "An official Ghearun researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "hevika" : {
+      "shortdescription" : "Hevika Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "hevika" ], "colorIndex" : 9,
+      "description" : "An official Hevika Ordis researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "lab" : {
+      "shortdescription" : "Alta Lab Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "alta_lab" ], "colorIndex" : 11,
+      "description" : "An official alta lab researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "neiteru" : {
+      "shortdescription" : "Neiteru-1 Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "neiteru" ], "colorIndex" : 10,
+      "description" : "An official Neiteru researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "tserera" : {
+      "shortdescription" : "Tserera Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "tserera" ], "colorIndex" : 11,
+      "description" : "An official Tserera researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "eds" : {
+      "shortdescription" : "EDS Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
+      "description" : "An official EDS researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    }
+  },
 
   "builder" : "/items/buildscripts/alta/item.lua"
 }

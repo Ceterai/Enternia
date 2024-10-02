@@ -1,0 +1,19 @@
+{
+  "type" : "ct_alta_security_commander",
+  "baseType" : "ct_alta_official",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+              { "name" : "ct_alta_official_jacket", "parameters" : { "colorIndex" : 0, "preset" : "light" } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_official_skirt", "parameters" : { "colorIndex" : 8, "preset" : "light" } },
+              { "name" : "ct_alta_official_tights", "parameters" : { "colorIndex" : 8, "preset" : "light" } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

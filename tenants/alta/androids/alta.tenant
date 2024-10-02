@@ -17,5 +17,16 @@
       "overrides" : { }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Android",
+    "description" : "A tier 1 alta robotic, android type. Performs general preset tasks.",
+    "category" : "android", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

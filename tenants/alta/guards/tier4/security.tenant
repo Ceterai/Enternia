@@ -1,11 +1,12 @@
 {
   "name" : "ct_alta_security_tenant",
-  "priority" : 4,
+  "priority" : 5,
 
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
-    "alta_security" : 8
+    "alta_security" : 8,
+    "combat" : 8
   },
 
   "tenants" : [
@@ -17,5 +18,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Security Guard",
+    "description" : "An alta security unit protecting vital infrastructure, commonly found in alta cities.",
+    "category" : "guard_l4", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

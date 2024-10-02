@@ -14,23 +14,20 @@
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_elite_android",
-      "overrides" : {
-        "items" : {
-          "override" : [
-            [0, [
-                {
-                  "head" : [ { "name" : "ct_elite_android_head", "parameters" : { "colorIndex" : 11 } } ],
-                  "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 10 } } ],
-                  "legs" : [ { "name" : "ct_elite_legwear", "parameters" : { "colorIndex" : 10 } } ],
-                  "back" : [ { "name" : "ct_elite_generator", "parameters" : { "colorIndex" : 10 } } ],
-                  "primary" : [ "npcassaultrifle" ]
-                }
-              ] ]
-          ]
-        }
-      }
+      "type" : "ct_alta_capital_android",
+      "overrides" : { }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Imperial Android",
+    "description" : "A tier 4 alta robotic, android type. Protects alta capitals alongside elite guards.",
+    "category" : "android", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

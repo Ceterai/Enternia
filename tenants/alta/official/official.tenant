@@ -5,7 +5,7 @@
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
-    "alta" : 8,
+    "alta" : 12,
     "executive" : 12
   },
   "tenants" : [
@@ -16,5 +16,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Official",
+    "description" : "An alta official with various responsibilities in a small infrastructure.",
+    "category" : "official",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

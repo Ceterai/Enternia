@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_vibrant_dancer",
+  "baseType" : "ct_alta_neon_dancer",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_eds_visor", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10 ] } } ],
+          "chest" : [ { "name" : "ct_dreamer_chest", "parameters" : { "colorIndex" : [ 1, 2, 3, 4, 5, 6, 7, 8, 10 ] } } ],
+          "legs" : [ { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : { "questGenerator" : { "pools" : [ "common", "tenant" ] } }
+}

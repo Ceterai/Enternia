@@ -20,10 +20,56 @@
           "swoosh_spear1" : { "frames" : 3, "cycle" : 0.08, "mode" : "transition", "transition" : "idle" }
         }
       },
+      // Blade Charge
       "bladeCharge" : { "default" : "idle", "states" : { "idle" : { },
         "charge" : {"cycle":1.2,"mode":"transition","transition":"full","properties":{"persistentSound":"/sfx/melee/charge_up13.ogg","persistentSoundStopTime":0.25}},
         "full" : { "mode" : "loop", "properties" : { "persistentSound" : "/sfx/melee/charge_full_hold1.ogg", "immediateSound" : "/sfx/melee/sword_parry.ogg" } }
-      } }
+      } },
+      // Spin Slash & Super Spin Slash
+      "spinSwoosh" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          },
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.075,
+            "mode" : "transition",
+            "transition" : "idle",
+            "properties" : {
+              "persistentSound" : "/sfx/melee/sword_superspinslash.ogg"
+            }
+          }
+        }
+      },
+      // Rising Slash
+      "risingSwoosh" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+          },
+          "slash" : {
+            "frames" : 3,
+            "cycle" : 0.175,
+            "mode" : "transition",
+            "transition" : "idle"
+          }
+        }
+      },
+      // Parry
+      "parryShield" : {
+        "default" : "inactive",
+        "states" : {
+          "inactive" : {},
+          "active" : {},
+          "block" : {
+            "frames" : 1,
+            "cycle" : 0.2,
+            "mode" : "transition",
+            "transition" : "active"
+          }
+        }
+      }
     },
 
     "parts" : {
@@ -81,6 +127,87 @@
             }
           }
         }
+      },
+      // Spin Slash & Super Spin Slash
+      "spinSwoosh" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0, 0.75],
+          "transformationGroups" : ["swoosh"],
+          "rotationCenter" : [0, 0]
+        },
+        "partStates" : {
+          "spinSwoosh" : {
+            "idle" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/abilities/broadsword/spinslash/spinswoosh.png:<frame><swooshDirectives>",
+                "damageArea" : [ [-1.5, 0.875], [2.75, 0.875], [4.125, 0.5], [5.0, 0], [5.0, -0.5], [4.625, -0.875], [3.5, -1.375], [-1.5, -1.375] ]
+              }
+            }
+          }
+        }
+      },
+      // Rising Slash
+      "risingSwoosh" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [0.25, -2.5],
+          "transformationGroups" : ["swoosh"],
+          "rotationCenter" : [0, 0]
+        },
+
+        "partStates" : {
+          "risingSwoosh" : {
+            "idle" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "slash" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/abilities/broadsword/risingslash/risingswoosh.png:<frame>",
+                "damageArea" : [[-5, -2], [-2.5, -3], [1, -3], [4, -1.75], [5, 0.25], [5, 2.25], [4, 3.25], [0, 2.5]]
+              }
+            }
+          }
+        }
+      },
+      // Parry
+      "parryShield" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [-0.75, 1.75],
+          "transformationGroups" : ["weapon"],
+          "rotationCenter" : [0, 0],
+          "shieldPoly" : [ [-0.25, -2.5], [-0.25, 2.0], [1.0, 2.75], [1.0, -1.0] ]
+        },
+        "partStates" : {
+          "parryShield" : {
+            "inactive" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "active" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:active"
+              }
+            },
+            "block" : {
+              "properties" : {
+                "image" : "/items/active/weapons/melee/abilities/broadsword/parry/parryshield.png:block"
+              }
+            }
+          }
+        }
       }
     }
   },
@@ -119,8 +246,61 @@
         }
       ]
     },
+    // Blade Charge
     "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
       "particles" : [ { "particle" : "charge"}, { "particle" : "charge"}, { "particle" : "charge"} ]
+    },
+    // Trail Dash
+    "fireSwordCharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "fireswoosh1"},
+        { "particle" : "fireswoosh2"},
+        { "particle" : "fireswoosh3"}
+      ]
+    },
+    "electricSwordCharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "electricswoosh1"},
+        { "particle" : "electricswoosh2"},
+        { "particle" : "electricswoosh2"}
+      ]
+    },
+    "iceSwordCharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "iceswoosh1"},
+        { "particle" : "iceswoosh2"},
+        { "particle" : "iceswoosh3"}
+      ]
+    },
+    "poisonSwordCharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [
+        { "particle" : "poisonswoosh1"},
+        { "particle" : "poisonswoosh2"},
+        { "particle" : "fireswoosh2"}
+      ]
+    },
+    "physicalSwordCharge" : {
+      "active" : false,
+      "transformationGroups" : ["weapon"],
+      "emissionRate" : 30,
+      "offsetRegion" : [-0.75, 0.0, 0.75, 5.5],
+      "particles" : [ ]
     }
   },
 
@@ -140,6 +320,31 @@
     "alt_start" : [ ], "alt_loop" : [ ], "alt_end" : [ ],
 
     "downstab" : [ "/sfx/melee/swing_spear.ogg" ],
-    "groundImpact" : [ "/sfx/melee/hammer_hit_ground3.ogg", "/sfx/melee/hammer_hit_ground4.ogg" ]
+    "groundImpact" : [ "/sfx/melee/hammer_hit_ground3.ogg", "/sfx/melee/hammer_hit_ground4.ogg" ],
+
+    // Trail Dash
+    "fireTrailDashCharge" : [ "/sfx/melee/charge_traildash3.ogg" ],
+    "iceTrailDashCharge" : [ "/sfx/melee/charge_traildash3.ogg" ],
+    "electricTrailDashCharge" : [ "/sfx/melee/charge_traildash3.ogg" ],
+    "poisonTrailDashCharge" : [ "/sfx/melee/charge_traildash3.ogg" ],
+
+    "fireTrailDashFire" : [ "/sfx/melee/travelingslash_fire3.ogg" ],
+    "iceTrailDashFire" : [ "/sfx/melee/travelingslash_ice4.ogg" ],
+    "electricTrailDashFire" : [ "/sfx/melee/travelingslash_electric1.ogg", "/sfx/melee/travelingslash_electric2.ogg", "/sfx/melee/travelingslash_electric3.ogg" ],
+    "poisonTrailDashFire" : [ "/sfx/melee/travelingslash_poison3.ogg" ],
+
+    // Traveling Slash
+    "fireTravelSlash" : [ "/sfx/melee/travelingslash_fire1.ogg" ],
+    "iceTravelSlash" : [ "/sfx/melee/travelingslash_ice2.ogg" ],
+    // "electricTravelSlash" : [ "/sfx/melee/travelingslash_electric1.ogg", "/sfx/melee/travelingslash_electric2.ogg", "/sfx/melee/travelingslash_electric3.ogg" ],
+    "electricTravelSlash" : [ "/sfx/melee/travelingslash_electric4.ogg" ],
+    "poisonTravelSlash" : [ "/sfx/melee/travelingslash_poison2.ogg" ],
+    
+    // Rising Slash
+    "upswing" : [ "/sfx/melee/swing_shortsword.ogg" ],
+    
+    // Parry
+    "guard" : [ "/sfx/melee/sword_guard.ogg" ],
+    "parry" : [ "/sfx/melee/sword_parry.ogg" ]
   }
 }

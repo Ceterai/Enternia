@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_holiday_tenant",
+  "priority" : 5,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "christmas" : 8
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_holiday_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Holiday Girl",
+    "description" : "An alta dressed up in human festive clothes. While the culture is not native to altas, she wears it either to celebrate, as cosplay, or to fit in with natives.",
+    "category" : "holiday",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

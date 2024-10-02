@@ -1,0 +1,24 @@
+{
+  "type" : "ct_alta_brigadier",
+  "baseType" : "ct_alta_guard",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            { "name" : "miniknoghead", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "chest" : [
+            { "name" : "miniknogchest", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "legs" : [
+            { "name" : "miniknoglegs", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "back" : [ "", { "name" : "neoback", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "primary" : [ "plasmarifle" ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_ferozium_girl",
+  "baseType" : "ct_alta_aegisalt_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "humantier5mhead" ],
+          "chest" : [ "humantier5mchest" ],
+          "legs" : [ "humantier5mpants" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

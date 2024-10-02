@@ -1,0 +1,17 @@
+{
+  "type" : "ct_neiteru_field_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_ghearun_helmet"} ],
+          "chest" : [ { "name" : "ct_ghearun_chest" } ],
+          "legs" : [ { "name" : "ct_ghearun_legwear" } ],
+          "back" : [ "", { "name" : "ct_ghearun_back" } ],
+          "sheathedprimary" : [ "ct_pulsecutter" ]
+        }
+      ] ]
+    ]
+  }
+}

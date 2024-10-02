@@ -1,10 +1,13 @@
 {
   "itemName" : "ct_alta_researcher_coat",
   "shortdescription" : "Researcher Coat",
-  "description" : "An official A.R.C.O. researcher's coat. Designed by Pelizhar.",
+  "description" : "An advanced alta researcher's coat with proper lab safety measures. Designed by Pelizhar.",
+  "longdescription" : "Just like other pieces of alta laboratory attire, this one provides full body coverage with optional gloves to complete the set.",
+  "altaDescription" : "A nice middleground between official-ness and practicality.",
 
   "level" : 5, "price" : 320, "rarity" : "Rare",
   "category" : "chestwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "itemTags" : [ "tier5clothing", "science", "pelizhar" ],
   "race" : "alta",
 
   "inventoryIcon" : "icon.png",
@@ -45,6 +48,45 @@
     // CRYSTAL (BROWN)
     { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
   ],
+
+  "presets" : {
+    "arco" : {
+      "shortdescription" : "A.R.C.O. Researcher Coat", "itemTags" : [ "tier5clothing", "science", "arco" ],
+      "description" : "An official A.R.C.O. researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "ceterai" : {
+      "shortdescription" : "C.T. Researcher Coat", "itemTags" : [ "tier5clothing", "science", "ceterai" ], "colorIndex" : 8,
+      "description" : "An official Project Ceterai researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "ghearun" : {
+      "shortdescription" : "Ghearun Researcher Coat", "itemTags" : [ "tier5clothing", "science", "ghearun" ], "colorIndex" : 1,
+      "description" : "An official Ghearun researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "hevika" : {
+      "shortdescription" : "Hevika Researcher Coat", "itemTags" : [ "tier5clothing", "science", "hevika" ], "colorIndex" : 9,
+      "description" : "An official Hevika Ordis researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "lab" : {
+      "shortdescription" : "Alta Lab Researcher Coat", "itemTags" : [ "tier5clothing", "science", "alta_lab" ], "colorIndex" : 11,
+      "description" : "An official alta lab researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    },
+    "neiteru" : {
+      "shortdescription" : "Neiteru-1 Researcher Coat", "itemTags" : [ "tier5clothing", "science", "neiteru" ], "colorIndex" : 4,
+      "description" : "An official Neiteru researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "tserera" : {
+      "shortdescription" : "Tserera Researcher Coat", "itemTags" : [ "tier5clothing", "science", "tserera" ], "colorIndex" : 11,
+      "description" : "An official Tserera researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true }
+    },
+    "eds" : {
+      "shortdescription" : "EDS Researcher Coat", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
+      "description" : "An official EDS researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
+    }
+  },
 
   "builder" : "/items/buildscripts/alta/item.lua"
 }

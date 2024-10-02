@@ -1,0 +1,35 @@
+{
+  "name" : "ct_alta_koywa_tenant",
+  "priority" : 3,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "koywa" : 12
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_koywa_dancer",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Koywa Dancer",
+    "description" : "A professional koywa dancer in a koywa skirt, likely performing a koywa dance.",
+    "category" : "tropical",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+        "images/tenants/calin1.png",
+        "images/tenants/calin2.png",
+        "images/tenants/calin3.png",
+        "images/tenants/calin4.png",
+        "images/tenants/calin5.png"
+      ]
+    }
+  }
+}

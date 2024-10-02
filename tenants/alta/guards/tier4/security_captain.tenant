@@ -1,12 +1,13 @@
 {
   "name" : "ct_alta_security_captain_tenant",
-  "priority" : 5,
+  "priority" : 6,
 
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
     "alta_security" : 12,
-    "patriotic" : 4
+    "patriotic" : 4,
+    "combat" : 8
   },
 
   "tenants" : [
@@ -18,5 +19,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0, "effectiveMultiplier" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Security Captain",
+    "description" : "An alta security unit commanding other units in her squad.",
+    "category" : "guard_l4", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

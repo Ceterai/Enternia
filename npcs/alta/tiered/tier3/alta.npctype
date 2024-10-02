@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_titanium_girl",
+  "baseType" : "ct_alta_tungsten_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "voyagerhead" ],
+          "chest" : [ "voyagerchest" ],
+          "legs" : [ "voyagerlegs" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

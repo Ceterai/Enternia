@@ -1,0 +1,16 @@
+{
+  "type" : "ct_mki_commander",
+  "baseType" : "ct_mki_navy",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "apexcommanderjacket" ],
+            "legs" : [ "apexcommanderpants" ],
+            "primary" : [ "" ],
+            "sheathedprimary" : [ "npcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

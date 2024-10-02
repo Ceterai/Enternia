@@ -1,0 +1,18 @@
+{
+  "type" : "ct_alta_capital_guard",
+  "baseType" : "ct_elite_guard",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_elite_helmet", "parameters" : { "colorIndex" : 11 } } ],
+            "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 10 } } ],
+            "legs" : [ { "name" : "ct_elite_legwear", "parameters" : { "colorIndex" : 10 } } ],
+            "back" : [ { "name" : "ct_elite_generator", "parameters" : { "colorIndex" : 10 } } ],
+            "primary" : [ "ct_alta_plasma_rifle", "ct_alta_impulse_rifle_mk2", "ct_pulsar" ],
+            "sheathedprimary" : [ "ct_elite_stunner" ]
+          }
+        ] ]
+    ]
+  }
+}

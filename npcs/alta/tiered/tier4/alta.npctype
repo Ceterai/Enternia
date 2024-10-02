@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_durasteel_girl",
+  "baseType" : "ct_alta_titanium_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "pathfinderhead" ],
+          "chest" : [ "pathfinderchest" ],
+          "legs" : [ "pathfinderlegs" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

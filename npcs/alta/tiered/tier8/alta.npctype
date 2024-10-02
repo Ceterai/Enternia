@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_solarium_girl",
+  "baseType" : "ct_alta_violium_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "firelordhead" ],
+          "chest" : [ "firelordchest" ],
+          "legs" : [ "firelordlegs" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

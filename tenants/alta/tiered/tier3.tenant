@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_tier3_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "tier3" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_titanium_girl",
+      "level" : 3,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Titanium Girl",
+    "description" : "This alta is cosplaying as a titanium warrior. Probably.",
+    "category" : "tiered",
+    "images" : {
+      "primary" : [
+      ]
+    }
+  }
+}

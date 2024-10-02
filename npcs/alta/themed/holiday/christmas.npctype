@@ -1,0 +1,21 @@
+{
+  "type" : "ct_alta_christmas_girl",
+  "baseType" : "ct_alta_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "hotholidayhead" ],
+          "chest" : [ "hotholidaychest" ],
+          "legs" : [ "hotholidaypants" ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 8, "categories" : { "default" : [
+      "aid", "shop", "thrown", "robotics", "augments", "collars", "sets", "shields", "tools", "armor", "decor", "randomguns", "randomswords", "codex", "rare"
+    ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:tout" } }
+  }
+}

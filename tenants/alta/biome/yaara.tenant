@@ -6,7 +6,7 @@
     "light" : 1,
     "door" : 1,
     "commerce" : 8,
-    "yaara" : 14  // alien, pastel for fairy and rainbow for rainbow warrior
+    "yaara" : 14
   },
   "tenants" : [
     {
@@ -16,5 +16,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // animal cosmetics, weird/odd furniture
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Yaara Merchant",
+    "description" : "This merchant sells lots yaara-related things.",
+    "category" : "nature", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

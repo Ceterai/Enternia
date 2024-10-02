@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_tier7_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "tier7" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_violium_girl",
+      "level" : 7,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Violium Protecta",
+    "description" : "An alta protecta in violium armor.",
+    "category" : "tiered",
+    "images" : {
+      "primary" : [
+      ]
+    }
+  }
+}

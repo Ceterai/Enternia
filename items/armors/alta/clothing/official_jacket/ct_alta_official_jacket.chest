@@ -37,5 +37,12 @@
     { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
   ],
 
+  "presets" : {
+    "light" : {
+      "wiki" : { "skip" : true },
+      "paletteSwap" : {"#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#101014":"#606478"}
+    }
+  },
+
   "builder" : "/items/buildscripts/alta/item.lua"
 }

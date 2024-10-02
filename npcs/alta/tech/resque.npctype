@@ -1,0 +1,15 @@
+{
+  "type" : "ct_alta_resque",
+  "baseType" : "ct_alta_social",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_head_mimic", "parameters" : { "preset" : "comm_set", "colorIndex" : 6 } } ],
+          "chest" : [ { "name" : "minerchest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 8 } } ]
+        }
+      ] ]
+    ]
+  }
+}

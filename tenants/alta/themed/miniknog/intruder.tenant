@@ -1,0 +1,33 @@
+{
+  "name" : "ct_mki_intruder_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 12,
+    "apexresearchlab" : 18,
+    "combat" : 24,
+    "tier4" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_mki_intruder",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "MKI Intruder",
+    "description" : "This alta is the final result of the MiniKnog Infiltration project. While the uniform is not native to altas, she wears it as part of her mission.",
+    "category" : "miniknog", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

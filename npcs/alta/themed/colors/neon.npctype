@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_neon_dancer",
+  "baseType" : "ct_alta_dancer",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : 10 } } ],
+          "chest" : [ { "name" : "ct_dreamer_chest", "parameters" : { "colorIndex" : 10 } } ],
+          "legs" : [ { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : { "questGenerator" : { "pools" : [ "common", "tenant" ] } }
+}

@@ -1,0 +1,15 @@
+{
+  "type" : "ct_alta_geologist",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_visor", "parameters" : { "colorIndex" : 2 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "colorIndex" : 2 } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "colorIndex" : 7 } } ]
+        }
+      ] ]
+    ]
+  }
+}

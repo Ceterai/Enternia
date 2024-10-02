@@ -18,5 +18,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_chef_gift" }  // seeds, furniture (flowers), hives, yaara, koywa, saplings, gardening and park codexes
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_chef_gift" },
+
+  "wiki" : {
+    "title" : "Alta Gardener",
+    "description" : "An alta gardener taking care of her garden. She's ready to share her goods with you!",
+    "category" : "casual", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

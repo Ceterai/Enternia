@@ -6,13 +6,30 @@ FILE_PATH = '/.meta/wiki/tenants.md'
 CATEGORIES = {
     'alta' : '## Alta',
     'casual' : '### Casual',
-    'misc' : '#### Misc',
+    'official' : '#### Official',
+    'service' : '#### Service',
+    'tech' : '#### Tech',
+    'science' : '### Scientific',
+    'arco' : '#### A.R.C.O.',
+    'eds' : '#### EDS',
+    'hevika' : '#### Hevika Ordis',
+    'ghearun' : '#### Ghearun',
+    'ceterai' : '#### Ceterai Project',
+    'neiteru' : '#### Neiteru-1',
+    'lab' : '#### Alta Lab',
+    'tserera' : '#### Tserera',
+    'themed_science' : '#### Themed Researchers',
+    'themed' : '### Themed',
+    'travel' : '#### Travel',
+    'order' : '#### Order',
+    'miniknog' : '#### MKI',
+    'human' : '#### Human',
+    'nature' : '#### Nature',
+    'colorful' : '#### Colorful',
     'tropical' : '#### Tropical',
-    'special' : '#### Special',
-    'official' : '### Official',
-    'lab' : '### Scientific',
-    'merchant' : '### Merchants',
-    'biome_merchant' : '#### Biome Merchants',
+    'holiday' : '#### Holiday',
+    'retro' : '#### Track',
+    'tiered' : '#### Tiered',
     'guard' : '### Guards',
     'guard_l3' : '#### Level 3',
     'guard_l4' : '#### Level 4',
@@ -94,10 +111,10 @@ def get_tenants():
     return [Tenant(obj) for obj in base.get_objects(is_obj_file).values()]
 
 
-def get_tenants_by_cats():
+def get_tenants_by_cats(all_tenants: list[Tenant]):
     result = {cat : [] for cat in CATEGORIES}
     result[''] = []
-    for tenant in get_tenants():
+    for tenant in all_tenants:
         result[tenant.category].append(tenant)
     return result
 
@@ -153,8 +170,9 @@ def get_table(tenants: list[Tenant]):
 
 
 def get_text():
-    tenants = get_tenants_by_cats()
-    body = ''
+    all_tenants = get_tenants()
+    tenants = get_tenants_by_cats(all_tenants)
+    body = f'This mod adds a total of {len(all_tenants)} tenants.\n\n'
     for cat in CATEGORIES:
         body = body + CATEGORIES[cat] + '\n'
         if len(tenants[cat]) > 0:

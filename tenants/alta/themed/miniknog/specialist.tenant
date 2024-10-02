@@ -1,0 +1,32 @@
+{
+  "name" : "ct_mki_specialist_tenant",
+  "priority" : 12,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 12,
+    "apex" : 12,
+    "electronic" : 12
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_mki_specialist",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "MKI Specialist",
+    "description" : "This alta is wearing an apex specialist uniform to infiltrate Miniknog. While the uniform is not native to altas, she wears it as part of her mission.",
+    "category" : "miniknog",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

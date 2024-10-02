@@ -1,0 +1,28 @@
+{
+  "type" : "ct_alta_huntress",
+  "baseType" : "ct_faradea_guard",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "",
+            { "name" : "predatoryhead", "parameters" : { "colorIndex" : 8 } },
+            { "name" : "predatoryhead", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "chest" : [
+            { "name" : "predatorychest", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "legs" : [
+            { "name" : "predatorylegs", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "back" : [
+            "",
+            { "name" : "predatoryback", "parameters" : { "colorIndex" : 8 } }
+          ],
+          "sheathedprimary" : [ "npcsniperrifle", "npcspear" ]
+        }
+      ] ]
+    ]
+  }
+}

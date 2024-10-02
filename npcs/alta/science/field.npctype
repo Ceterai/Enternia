@@ -1,0 +1,22 @@
+{
+  "type" : "ct_alta_field_researcher",
+  "baseType" : "ct_alta_researcher",
+  "scriptConfig" : {
+    "behavior" : "ct_alta_guard_behavior",
+    "attackerLimit" : 2,
+    "attackerLimitCooldown" : 3
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_respiratory_mask"} ],
+          "chest" : [ { "name" : "ct_arco_chest" } ],
+          "legs" : [ { "name" : "ct_arco_legwear" } ],
+          "back" : [ { "name" : "ct_alta_backpack" } ],
+          "sheathedprimary" : [ "ct_pulsecutter" ]
+        }
+      ] ]
+    ]
+  }
+}

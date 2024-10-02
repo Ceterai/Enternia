@@ -1,0 +1,17 @@
+{
+  "type" : "ct_alta_lunar",
+  "baseType" : "ct_alta_earth",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "minerhead", "parameters" : { "colorIndex" : 8 } } ],
+          "chest" : [ { "name" : "minerchest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "humantier2pants" } ],
+          "primary" : [ "" ],
+          "sheathedprimary" : [ "npcpistol" ]
+        }
+      ] ]
+    ]
+  }
+}

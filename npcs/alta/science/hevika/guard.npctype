@@ -1,0 +1,20 @@
+{
+  "type" : "ct_hevika_security",
+  "baseType" : "ct_alta_lab_security",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ { "name" : "ct_arco_rebreather" } ],
+            "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 9 } } ],
+            "legs" : [ { "name" : "ct_arco_legwear" } ],
+            "primary" : [ "ct_alta_plasma_rifle" ],
+            "sheathedprimary" : [
+              { "name" : "ct_tool_mimic", "parameters" : { "preset" : "baton" } },
+              { "name" : "ct_tool_mimic", "parameters" : { "preset" : "baton", "upgraded" : true } }
+            ]
+          }
+        ] ]
+    ]
+  }
+}

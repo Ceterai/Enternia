@@ -1,0 +1,14 @@
+{
+  "type" : "ct_alta_retro",
+  "baseType" : "ct_alta_earth",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "startrackchest" } ],
+          "legs" : [ { "name" : "startracklegs" } ]
+        }
+      ] ]
+    ]
+  }
+}

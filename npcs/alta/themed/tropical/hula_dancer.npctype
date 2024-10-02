@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_hula_dancer",
+  "baseType" : "ct_alta_koywa_dancer",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "hawaiianhead" ],
+          "chest" : [ "hawaiianchest" ],
+          "legs" : [ "hawaiianlegs" ]
+        }
+      ] ]
+    ]
+  }
+}

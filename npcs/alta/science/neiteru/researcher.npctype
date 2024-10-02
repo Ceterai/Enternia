@@ -1,0 +1,15 @@
+{
+  "type" : "ct_neiteru_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_science_ocular", "parameters" : { "colorIndex" : 4 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "preset" : "neiteru" } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "preset" : "neiteru" } } ]
+        }
+      ] ]
+    ]
+  }
+}

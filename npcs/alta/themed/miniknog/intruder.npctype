@@ -1,0 +1,27 @@
+{
+  "type" : "ct_mki_intruder",
+  "baseType" : "ct_alta_guard",
+  "levelVariance" : [6, 6],
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "", "visorhead",
+            { "name" : "miniknoghead", "parameters" : { "colorIndex" : 1 } },
+            { "name" : "miniknoghead", "parameters" : { "colorIndex" : 1 } },
+            { "name" : "visorhead", "parameters" : { "colorIndex" : 1 } }
+          ],
+          "chest" : [
+            { "name" : "miniknogchest", "parameters" : { "colorIndex" : 1 } }
+          ],
+          "legs" : [
+            { "name" : "miniknoglegs", "parameters" : { "colorIndex" : 1 } }
+          ],
+          "back" : [ "", "", "", "neondiskback" ],
+          "primary" : [ "spaceplasmarifle" ]
+        }
+      ] ]
+    ]
+  }
+}

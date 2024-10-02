@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.3c](#233c)
     - [2.3.3b](#233b)
     - [2.3.3a](#233a)
     - [2.3.3](#233)
@@ -55,6 +56,32 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.3c
+
+This mini-patch mostly focuses on npcs and tenants.
+
+**Main:**
+
+- increased total amount of tenants to 150 and total amount of npcs to 148;
+- added 30 item variations.
+
+**Alta:**
+
+- added 2 bandade variations;
+- added light variations for the official clothing set;
+- added light variations for the service clothing set;
+- added 8 variations for the researcher clothing set;
+- added a great amount of NPCs and tenants, listed in [/.meta/wiki/tenants.md](wiki/tenants.md);
+- updated alta ship palette to match the general alta palette, also updated a couple of ship details.
+
+**Translation:**
+
+- updated some descriptions in `/items/buildscripts/ct_texts.config:lore.tags`.
+
+**Other:**
+
+- minor bug fixes.
+
 ### 2.3.3b
 
 This mini-patch refines already existing things and improves the quality of life overall.
@@ -72,7 +99,8 @@ This mini-patch refines already existing things and improves the quality of life
   - **Alta Security A.I. Chip**;
   - **Alta S.A.I.L. A.I. Chip**.  
   ![ ](/.meta/images/showcase/2.3.3b/ai.png)
-- made alta bodies less curvy - will later release a patch that brings back the original version.
+- made alta bodies less curvy - will later release a patch that brings back the original version.  
+  ![ ](/.meta/images/showcase/2.3.3b/body.png)
 
 **Translation:**
 

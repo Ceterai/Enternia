@@ -18,10 +18,28 @@
       "shortdescription" : "Pretty Band-Aid", "itemTags" : [ "aid", "stardust" ], "price" : 55, "level" : 3, "rarity" : "Uncommon",
       "description" : "A set of colorful little bandades often carried by caretakers. It radiates love and happiness and turns your body into a colorful canvas!",
       "longdescription" : "Made from processed ^#3587ff;ayaka wood^reset; and ^#ffe8e8;silk^reset;, it acts as both disinfectant and an absorber.",
-      "altaDescription" : "My caretakes back at gardens used to have these! Ahh, nostalgia!~",
+      "altaDescription" : "My caretakers back at gardens used to have these! Ahh, nostalgia!~",
       "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Mika Amik",
       "blockingEffects" : [ "salveheal", "bandageheal", "medkitheal", "nanowrapheal" ],
       "paletteSwap" : {"#d0c0a8":"#fcb0e0","#a58862":"#fc60c0","#87623c":"#f02080","#553115":"#c00050"}
+    },
+    "bandade_bion" : { "baseAsset" : "/items/generic/other/bandage.consumable",
+      "shortdescription" : "Bion-Aid", "itemTags" : [ "aid", "bion" ], "price" : 70, "level" : 4, "rarity" : "Uncommon",
+      "description" : "A professional aid set with additional healing compatability for alta bodies.",
+      "longdescription" : "The base material is comprized from a specific bionic mix, made to be accepted by an alta organism.",
+      "altaDescription" : "Not sure how well this will work for any other species...",
+      "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Mika Amik",
+      "blockingEffects" : [ "bandageheal", "medkitheal", "nanowrapheal" ],
+      "paletteSwap" : {"#d0c0a8":"#71d4f8","#a58862":"#10b4ef","#87623c":"#1090c0","#553115":"#106890"}
+    },
+    "bandade_bion_2" : { "baseAsset" : "/items/generic/other/bandage.consumable",
+      "shortdescription" : "Bion-Aid M1 ^#20f080;^reset;", "itemTags" : [ "aid", "bion" ], "price" : 80, "level" : 4, "rarity" : "Uncommon",
+      "description" : "An advanced set of bandading materials, made specifically for altas in critical conditions.",
+      "longdescription" : "These special bion fibres are charged with the appropriate amount of plasma to increase their efficiency.",
+      "altaDescription" : "An amazing first aid tool made with great quality!",
+      "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Mika Amik",
+      "blockingEffects" : [ "bandageheal" ],
+      "paletteSwap" : {"#d0c0a8":"#707088","#a58862":"#606074","#87623c":"#404050","#553115":"#2c2c34"}
     }
   }
 }

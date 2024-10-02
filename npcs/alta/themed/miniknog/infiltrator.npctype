@@ -1,0 +1,27 @@
+{
+  "type" : "ct_mki_infiltrator",
+  "baseType" : "ct_alta_guard",
+  "levelVariance" : [3, 3],
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [
+            "", "", "miniknoghead", "miniknoghead", "visorhead",
+            { "name" : "visorhead", "parameters" : { "colorIndex" : 3 } }
+          ],
+          "chest" : [
+            "miniknogchest"
+          ],
+          "legs" : [
+            "miniknoglegs"
+          ],
+          "back" : [ "", "",
+            { "name" : "neoback", "parameters" : { "colorIndex" : 3 } }
+          ],
+          "primary" : [ "spaceplasmarifle" ]
+        }
+      ] ]
+    ]
+  }
+}

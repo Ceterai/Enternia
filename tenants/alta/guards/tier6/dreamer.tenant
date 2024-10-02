@@ -18,5 +18,16 @@
       "overrides" : { }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Dreamer",
+    "description" : "This alta is a dreamer. Not that kind of dreamer - this one is a powerful independant hunter, remaining in a constant state of half-dreaming.",
+    "category" : "guard_l6", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

@@ -7,7 +7,7 @@
     "door" : 1,
     "alta" : 8,
     "commerce" : 8,
-    "stardust" : 14  // alien, pastel for fairy and rainbow for rainbow warrior
+    "stardust" : 14
   },
   "tenants" : [
     {
@@ -17,5 +17,16 @@
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }  // animal cosmetics, weird/odd furniture
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Stardust Merchant",
+    "description" : "This alta sells lots of stardust-enchanted things.",
+    "category" : "nature", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

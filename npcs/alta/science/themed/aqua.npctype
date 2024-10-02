@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_oceanologist",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_arco_rebreather", "parameters" : { "colorIndex" : 8 } } ],
+          "chest" : [ { "name" : "ct_elite_chest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "ct_alta_security_legwear" } ],
+          "back" : [ { "name" : "ct_back_mimic", "parameters" : { "preset" : "breathing_pack" } } ]
+        }
+      ] ]
+    ]
+  }
+}

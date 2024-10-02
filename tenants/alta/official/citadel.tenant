@@ -1,20 +1,32 @@
 {
-  "name" : "ct_alta_citadel_tenant",
-  "priority" : 4,
+  "name" : "ct_alta_citadel_official_tenant",
+  "priority" : 10,
 
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
     "alta" : 12,
-    "citadel" : 14
+    "citadel" : 12,
+    "executive" : 12
   },
   "tenants" : [
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_alta_official",
+      "type" : "ct_alta_administrator",
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Administrator",
+    "description" : "This alta official is responsible for running an alta capital from its citadel. Or at least an alta city.",
+    "category" : "official",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
 }

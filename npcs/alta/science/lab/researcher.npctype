@@ -1,0 +1,15 @@
+{
+  "type" : "ct_alta_lab_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_hologlasses", "parameters" : { "colorIndex" : 6 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "preset" : "lab" } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "preset" : "lab" } } ]
+        }
+      ] ]
+    ]
+  }
+}

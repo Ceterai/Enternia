@@ -1,0 +1,36 @@
+{
+  "name" : "ct_alta_sea_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "sea" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_resort_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Resort Girl",
+    "description" : "An alta visiting a riverside resort. Often in sunglasses or a beautiful sunny hat.",
+    "category" : "tropical",
+    "images" : {
+      "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+        "images/tenants/calin1.png",
+        "images/tenants/calin2.png",
+        "images/tenants/calin3.png",
+        "images/tenants/calin4.png",
+        "images/tenants/calin5.png"
+      ]
+    }
+  }
+}

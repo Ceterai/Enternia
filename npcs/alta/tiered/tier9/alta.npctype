@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_diamond_girl",
+  "baseType" : "ct_alta_solarium_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "valoroushead" ],
+          "chest" : [ "valorouschest" ],
+          "legs" : [ "valorouspants" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

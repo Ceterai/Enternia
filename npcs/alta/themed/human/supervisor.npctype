@@ -1,0 +1,18 @@
+{
+  "type" : "ct_alta_supervisor",
+  "baseType" : "ct_alta_guard",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "humantier1head", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "humantier1chest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "humantier1pants", "parameters" : { "colorIndex" : [ 0, 1 ] } } ],
+          "primary" : [ "" ],
+          "sheathedprimary" : [ "npcpistol" ]
+        }
+      ] ]
+    ]
+  }
+}

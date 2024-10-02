@@ -6,10 +6,10 @@
       [0, [
         {
           "head" : [ { "name" : "ct_head_mimic", "parameters" : { "preset" : "headband", "colorIndex" : 1 } } ],
-          "chest" : [ { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ] } } ],
+          "chest" : [ { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ], "preset" : "light" } } ],
           "legs" : [
-            { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ] } },
-            { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ] } }
+            { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ], "preset" : "light" } },
+            { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : [ 1, 2, 3, 5, 6, 7, 8, 9, 10, 11 ], "preset" : "light" } }
           ]
         }
       ] ]

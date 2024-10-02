@@ -1,0 +1,14 @@
+{
+  "type" : "ct_alta_princess",
+  "baseType" : "ct_alta_earth",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "chest" : [ { "name" : "wedding2chest" } ],
+          "legs" : [ { "name" : "wedding1legs" } ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_tier4_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "tier4" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_durasteel_girl",
+      "level" : 4,
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Durasteel Girl",
+    "description" : "This alta is cosplaying as a durasteel warrior. Probably.",
+    "category" : "tiered",
+    "images" : {
+      "primary" : [
+      ]
+    }
+  }
+}

@@ -93,7 +93,8 @@ function notify(notification)
       return n.type == "attackThief"
     end)
     for _,n in pairs(notifications) do
-      if world.isNpc(n.sourceId, entity.damageTeam().team) and n.targetId then
+      -- if world.isNpc(n.sourceId, entity.damageTeam().team) and n.targetId then
+      if world.isNpc(n.sourceId) and n.targetId then
         if entity.damageTeam().type ~= "pvp" and world.entityType(n.targetId) == "player" then
           monster.setDamageTeam({type = "enemy", team = 1})
         end

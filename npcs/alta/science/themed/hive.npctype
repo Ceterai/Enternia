@@ -1,0 +1,15 @@
+{
+  "type" : "ct_alta_hive_keeper",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_visor", "parameters" : { "colorIndex" : 6 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "colorIndex" : 4 } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "colorIndex" : 5 } } ]
+        }
+      ] ]
+    ]
+  }
+}

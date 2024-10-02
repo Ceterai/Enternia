@@ -1,0 +1,17 @@
+{
+  "type" : "ct_ceterai_field_researcher",
+  "baseType" : "ct_alta_field_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_ceterai_helmet"}, { "name" : "ct_ceterai_mindframe"} ],
+          "chest" : [ { "name" : "ct_ceterai_chest" } ],
+          "legs" : [ { "name" : "ct_ceterai_legwear" } ],
+          "back" : [ "", { "name" : "ct_ceterai_core" } ],
+          "sheathedprimary" : [ "ct_pulsecutter" ]
+        }
+      ] ]
+    ]
+  }
+}

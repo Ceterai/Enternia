@@ -1,0 +1,19 @@
+{
+  "type" : "ct_arco_archiver",
+  "baseType" : "ct_alta_archiver",
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "common", "uncommon", "rare", "legendary", "unique", "arco" ] } }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_respiratory_mask" } ],
+          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 0 } } ],
+          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } } ],
+          "back" : [ { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : 5 } } ]
+        }
+      ] ]
+    ]
+  }
+}

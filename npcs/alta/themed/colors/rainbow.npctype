@@ -1,0 +1,18 @@
+{
+  "type" : "ct_alta_rainbow_girl",
+  "baseType" : "ct_alta_guard",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "rainbowhoodhead" ],
+          "chest" : [ { "name" : "ct_dreamer_chest", "parameters" : { "colorIndex" : 6 } } ],
+          "legs" : [ { "name" : "ct_dreamer_legs", "parameters" : { "colorIndex" : 11 } } ],
+          "back" : [ "rainbowcapeback" ],
+          "primary" : [ "astrosabredeluxe" ]
+        }
+      ] ]
+    ]
+  }
+}

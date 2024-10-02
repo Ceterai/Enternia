@@ -1,0 +1,15 @@
+{
+  "type" : "ct_ceterai_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_alta_visor", "parameters" : { "colorIndex" : 5 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "preset" : "ceterai" } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "preset" : "ceterai" } } ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type" : "ct_neiteru_archiver",
+  "baseType" : "ct_alta_archiver",
+  "scriptConfig" : {
+    "merchant" : { "categories" : { "default" : [ "common", "uncommon", "rare", "legendary", "unique", "neiteru" ] } }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } } ],
+          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 4 } } ],
+          "back" : [ { "name" : "ct_alta_backpack" } ]
+        }
+      ] ]
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_peacekeeper",
+  "baseType" : "ct_alta_earth",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "", { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "peacekeeperchest", "parameters" : { "colorIndex" : 0 } } ],
+          "legs" : [ { "name" : "peacekeeperpants", "parameters" : { "colorIndex" : 0 } } ]
+        },
+        {
+          "head" : [ "", { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "protectoratechest", "parameters" : { "colorIndex" : 0 } } ],
+          "legs" : [ { "name" : "protectoratepants", "parameters" : { "colorIndex" : 0 } } ]
+        },
+        {
+          "head" : [ "", { "name" : "peacekeeperhead", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "protectoratevestchest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : 8 } } ]
+        }
+      ] ]
+    ]
+  }
+}

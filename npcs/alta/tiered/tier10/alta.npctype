@@ -1,0 +1,16 @@
+{
+  "type" : "ct_alta_impervium_girl",
+  "baseType" : "ct_alta_diamond_girl",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "apextier6shead" ],
+          "chest" : [ "apextier6schest" ],
+          "legs" : [ "apextier6spants" ],
+          "primary" : [ "npcbroadsword" ]
+        }
+      ] ]
+    ]
+  }
+}

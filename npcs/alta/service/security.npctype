@@ -1,0 +1,21 @@
+{
+  "type" : "ct_alta_security_officer",
+  "baseType" : "ct_alta_social",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [ "", "ct_alta_beret" ],
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 8, "preset" : "light" } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : 8, "preset" : "light" } },
+              { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : 8, "preset" : "light" } }
+            ],
+            "sheathedprimary" : [ "mpcpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

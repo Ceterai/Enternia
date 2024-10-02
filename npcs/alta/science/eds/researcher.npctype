@@ -1,0 +1,15 @@
+{
+  "type" : "ct_eds_researcher",
+  "baseType" : "ct_alta_researcher",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_eds_visor", "parameters" : { "colorIndex" : 4 } } ],
+          "chest" : [ { "name" : "ct_alta_researcher_coat", "parameters" : { "preset" : "eds" } } ],
+          "legs" : [ { "name" : "ct_alta_researcher_skirt", "parameters" : { "preset" : "eds" } } ]
+        }
+      ] ]
+    ]
+  }
+}

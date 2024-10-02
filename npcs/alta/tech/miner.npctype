@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_miner",
+  "baseType" : "ct_alta_servicer",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_alta_industrial_helmet", "parameters" : { "colorIndex" : 6 } }
+            ],
+            "chest" : [
+              { "name" : "ct_dreamer_chest", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "ct_ceterai_legwear", "parameters" : { "colorIndex" : 6 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : ["common", "tenant"], "graduation" : { "nextNpcType" : [ [1, "crewmemberengineer"] ] } },
+    "merchant" : { "categories" : { "default" : [ "wiring" ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:engineer" } }
+  }
+}
