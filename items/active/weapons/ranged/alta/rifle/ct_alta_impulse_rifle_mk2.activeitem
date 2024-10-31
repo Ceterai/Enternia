@@ -7,7 +7,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "assaultRifle",
@@ -68,7 +68,6 @@
     "description" : "An already improved ^#20f080;impulse^reset; rifle with additional ^#ffa8e8;stardust^reset; enhancements.",
     "longdescription" : "Powerful rail technology turns piece of work into a tool of electric destruction.",
     "altaDescription" : "A real railgun! Neat!",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ] } }
   }
 }

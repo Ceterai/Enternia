@@ -4,7 +4,7 @@
   "description" : "A blaster meant to spread ^#7ddcde;isoslime^reset; everywhere. Holding LMB will charge up an ^#7ddcde;isoslime ball^reset;.",
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
   "twoHanded" : false, "category" : "pistol",
@@ -80,7 +80,6 @@
     "animationParts" : { "middle" : "ct_isoblaster_2.png" },
     "shortdescription" : "Isoblaster Prime ^#8020f0;^reset;",
     "description" : "This izoslime blaster has been upgraded to be even stickier!",
-    "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip2.ogg" ] } },
     "primaryAbility" : {
       "name" : "Slime Barrage",

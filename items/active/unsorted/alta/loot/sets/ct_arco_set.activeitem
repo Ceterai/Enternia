@@ -6,17 +6,14 @@
   "altaDescription" : "I can feel like a researcher in a full-body suit with this! I hope I can swim in it too.",
 
   "inventoryIcon" : "ct_arco_set.png",
-  "treasure" : { "pool" : "ct_arco_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_arco_set" },
   "animationParts" : { "gun" : "ct_arco_set.png" },
 
-  "level" : 5, "price" : 3200, "rarity" : "Rare", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 5, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "arco" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Envirosuit" : { }, "A.R.C.O. Set" : { }, "A.R.C.O. Researcher" : { }, "Arco Set" : { }, "Arco Researcher" : { }, "Arco Arcia" : { }, "A.R.C.O. Arcia" : { } } },
   "alkey" : "Arco Veus"
 }

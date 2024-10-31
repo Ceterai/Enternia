@@ -5,7 +5,7 @@
   "longdescription" : "This mysterious weapon-looking item is actually an energy tool, similar to alta protospears. Ceterai uses it to manipulate energy and help herself travel on long distances.",
   "altaDescription" : "...Ce.. Ceterai?..",
 
-  "level" : 5, "rarity" : "Rare", "price" : 880,
+  "level" : 5,
   "itemTags" : ["weapon", "melee", "spear", "upgradeableWeapon"],
   "twoHanded" : true, "maxStack" : 1, "aimOffset" : -1.0,
   "category" : "spear", "tooltipKind" : "ct_alta_weapon_3", "elementalType" : "electric",
@@ -145,7 +145,7 @@
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters":{
-    "rarity" : "Legendary", "price" : 960,
+    "price" : 720,
     "itemTags" : ["weapon", "melee", "axe"],
     "category" : "axe",
     "inventoryIcon" : "ammerax.png",

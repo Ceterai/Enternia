@@ -7,7 +7,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 3, "price" : 480, "rarity" : "Uncommon",
+  "level" : 3,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : false, "category" : "uniqueWeapon",
@@ -55,7 +55,6 @@
     "shortdescription" : "Scout Protector ^#8020f0;^reset;",
     "description" : "This special tool with advanced mechanisms uses ^#ffa8e8;stardust^reset; energy for its charges. Anything to protect an ^#b0e0fc;alta^reset;.",
     "longdescription" : "The casing of this improved version is made from ^#299fc5;bionix^reset;. This ensures sturdines of the tool while making it lighter and more resistant to temperature changes.",
-    "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/projectiles/electric_barrier_shock_kill.ogg" ] },
       "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] },
         "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [0, 80, 192] },

@@ -5,8 +5,7 @@
   "longdescription" : "The wrist mechanisms are meant to be connected to any equiped proto-gear, like ^#b0e0fc;protospears^reset;, ^#b0e0fc;protomasks^reset; or even ^#b0e0fc;velocity eaters^reset;.",
   "altaDescription" : "A scava's body armor, very light and bendable. I like the feel of it in my hands.",
 
-  "price" : 1600, "rarity" : "Uncommon",
-  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
   "race" : "alta",
 
@@ -85,7 +84,6 @@
     "shortdescription" : "Protea's Jacket ^#8020f0;^reset;",
     "description" : "This protective jacket is encrusted with ^#ffa8e8;stardust^reset;. Label on the inner side reads \"From Protea «\".",
     "longdescription" : "This gift is part of Protea's relics, that she worn or used as a scout.",
-    "price" : 1700, "rarity" : "Legendary",
     "statusEffects" : [ "ct_life_support_module", "ct_emergency_healer" ], "tooltipKind" : "ct_alta_effects_2",
     "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
       "#383c50":"#c060fc","#24283c":"#8020f0","#101428":"#5000c0"},

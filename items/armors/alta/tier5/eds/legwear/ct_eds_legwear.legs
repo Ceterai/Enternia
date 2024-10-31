@@ -5,8 +5,7 @@
   "longdescription" : "Its full focus goes to reinforcing critical parts of the leg - feet and knees. This creates a good weight-defence balance.",
   "altaDescription" : "One can definitely feel their step in these.",
 
-  "price" : 700, "rarity" : "Rare",
-  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 5, "itemTags" : [ "tier5armour", "eds" ],
   "race" : "alta",
 
@@ -70,7 +69,7 @@
 
   "presets" : {
     "koywa" : {
-      "shortdescription" : "Thermoleggings ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 760,
+      "shortdescription" : "Thermoleggings ^#20f080;^reset;", "itemTags" : [ "tier4armour", "thermo" ], "level" : 4,
       "description" : "A power ranger legwear often used by riverside alta scouts.",
       "longdescription" : "It provides additional armor and step extendings to protect the legs and add weight to them.", "alkey" : "Gaush Ling",
       "altaDescription" : "These leggings make you slightly taller, or so I've heard. Would be neat to try, since we're all the same height.",

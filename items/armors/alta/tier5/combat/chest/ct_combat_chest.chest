@@ -3,8 +3,7 @@
   "shortdescription" : "Combat Uniform",
   "description" : "A bulletproof cape covering a weather-adaptive jacket that doesn't restrict movement.",
 
-  "price" : 1600, "rarity" : "Rare",
-  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 5, "itemTags" : [ "tier5armour", "combat" ],
   "race" : "alta",
 
@@ -76,7 +75,7 @@
 
   "presets" : {
     "light" : {
-      "shortdescription" : "Sona Jacketarmor ^#2080f0;^reset;", "itemTags" : [ "tier5armour", "sona", "arknight" ], "price" : 1680,
+      "shortdescription" : "Sona Jacketarmor ^#2080f0;^reset;", "itemTags" : [ "tier5armour", "sona", "arknight" ],
       "description" : "A warm, armored uniform jacket usually used by ^#b0e0fc;sona soldiers^reset; and ^#60c0fc;arknightss^reset;.",
       "longdescription" : "The in-built emergency healing system is meant to protect the wearer in case of unforseen circumstances.",
       "altaDescription" : "So warm and cozy, yet also so protective!", "alkey" : "Sona Fazh",

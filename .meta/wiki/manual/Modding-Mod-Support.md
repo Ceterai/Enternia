@@ -24,6 +24,7 @@ Navigation:
 - [Recipe Browser](#recipe-browser)
 - [Starburst Rework](#starburst-rework)
 - [Enhanced Storage](#enhanced-storage)
+- [Armor Adapt](#armor-adapt)
 
 ### Tabula Rasa
 
@@ -39,13 +40,17 @@ Support for this mod consists of 2 parts:
 
    The patch is located here: [`/objects/wired/tabularasa/tabularasa.object.patch`](https://github.com/Ceterai/Enternia/blob/main/objects/wired/tabularasa/tabularasa.object.patch)
 
+![ ](/.meta/images/showcase/2.2.1/tabula_rasa.png)
+
 > Previously to 2.2.1, this only included species clothing and certain cosmetics added by the mod, and no custom category buttons or correct category groups were present. More details about these changes: [Update 2.2.1](https://github.com/Ceterai/Enternia/blob/main/.meta/changelog.md#221)
 
 ### Spawnable Item Pack
 
-> Added in [2.2.1](https://github.com/Ceterai/Enternia/releases/tag/2.2.1)
+> Added in [2.2.1](https://github.com/Ceterai/Enternia/releases/tag/2.2.1), updated in [2.3.3d](https://github.com/Ceterai/Enternia/releases/tag/2.3.3d)
 
-Support for this mod was made following this guide: [Spawnable Item Pack: Adding Items](https://github.com/Silverfeelin/Starbound-SpawnableItemPack/blob/master/sipMods/README.md)
+I decided to write my own script in python similar to what I did with [Wardrobe Interface](#wardrobe-interface).
+
+The script is located here: [`/.meta/scripts/SIP_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/SIP_support_script.py)
 
 Currently, the way SIP compiles the list of its "recipes" doesn't allow passing parameters, which are used by a lot of items in this mod, so a lot of items are not available through SIP.
 
@@ -53,6 +58,11 @@ Output files:
 
 - [`/sipMods/my_enternia.json`](https://github.com/Ceterai/Enternia/blob/main/sipMods/my_enternia.json)
 - [`/sipMods/load.config.patch`](https://github.com/Ceterai/Enternia/blob/main/sipMods/load.config.patch)
+
+![ ](/.meta/images/showcase/2.2.1/spawnable_item_pack1.png) ![ ](/.meta/images/showcase/2.2.1/spawnable_item_pack2.png)
+
+> Previously to 2.3.3d, support for this mod was made following this guide: [Spawnable Item Pack: Adding Items](https://github.com/Silverfeelin/Starbound-SpawnableItemPack/blob/master/sipMods/README.md)
+> More details about these changes: [Update 2.3.3d](https://github.com/Ceterai/Enternia/blob/main/.meta/changelog.md#233d)
 
 ### Equivalent Exchange
 
@@ -63,6 +73,8 @@ Made in accordance to the general guide made by the author of the mod: [Tutorial
 The script can be found here: [`/.meta/scripts/EES_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/EES_support_script.py)
 
 The resulting file is [`/EES_transmutationstudylist.config.patch`](https://github.com/Ceterai/Enternia/blob/main/EES_transmutationstudylist.config.patch).
+
+![ ](/.meta/images/showcase/2.2.1/equivalent_exchange.png)
 
 ### Improved Food Descriptions
 
@@ -75,6 +87,8 @@ To do that, I've made a python script that goes accross the mod directories, fin
 That's it!
 
 The script can be found here: [`/.meta/scripts/IFD_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/IFD_support_script.py)
+
+![ ](/.meta/images/showcase/2.0.0/improved_food_descriptions.png)
 
 ### More Planet Info
 
@@ -200,11 +214,13 @@ This can be done by adding the following recipe gropus to those recipes:
 
 ### Recipe Browser
 
-> Added in [2.3.3a](https://github.com/Ceterai/Enternia/releases/tag/2.3.3a)
+> Added in [2.3.3a](https://github.com/Ceterai/Enternia/releases/tag/2.3.3a), updated in [2.3.3d](https://github.com/Ceterai/Enternia/releases/tag/2.3.3d)
 
 The mod author has provided a lot of ways to generate a patch, one of them being a python script.
 
 For this mod, a modified version of that script was used to make a patch specific to this mod.
+
+The script is located here: [`/.meta/scripts/RB_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/RB_support_script.py)
 
 The resulting file is [`/data/FullDatabase.database.patch`](https://github.com/Ceterai/Enternia/blob/main/data/FullDatabase.database.patch).
 
@@ -248,3 +264,7 @@ This is done through scripts and patches in [`/stats/biomeprotection/`](https://
 ### Enhanced Storage
 
 > This one requires installing a patch: [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
+
+### Armor Adapt
+
+The compatability is provided by simply **not changing the `itemTags` in the builder**.

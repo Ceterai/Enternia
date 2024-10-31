@@ -6,16 +6,13 @@
   "altaDescription" : "A full-on EDS soldier look and feel... Extra protection from every little creature in existance. Why not?",
 
   "inventoryIcon" : "ct_eds_set.png",
-  "treasure" : { "pool" : "ct_eds_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_eds_set" },
   "animationParts" : { "gun" : "ct_eds_set.png" },
 
-  "level" : 5, "price" : 3200, "rarity" : "Rare", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 5, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "eds" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "EDS Guard" : { }, "EDS-Varda" : { } } }, "alkey" : "EDS Veus"
 }

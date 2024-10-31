@@ -4,7 +4,7 @@ Read more about automated support for this mod here:
 https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support#wardrobe-interface
 """
 
-import pyjson5
+import json
 import base
 
 
@@ -44,5 +44,6 @@ def run():
                         colors['#' + color.replace('#', '')] = option[color]
                     params['colorOptions'].append(colors)
             result[base.get_ext(obj)].append(params)
-    with open(base.ROOT + PATH, 'wb') as patch_file:
-        pyjson5.dump(result, patch_file, indent=2)
+    with open(base.ROOT + PATH, 'w') as patch_file:
+        json.dump(result, patch_file, indent=2)
+        patch_file.write('\n')

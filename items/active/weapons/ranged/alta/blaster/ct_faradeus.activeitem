@@ -7,7 +7,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : false, "category" : "machinePistol",
@@ -48,7 +48,6 @@
     "shortdescription" : "Faradeus Prime ^#8020f0;^reset;",
     "description" : "These ^#ffe364;Faradea^reset; weapons were enhanced with ^#ffa8e8;stardust^reset; energy, increasing their potential to the maximum.",
     "longdescription" : "A find like this is pretty rare even among the mercs, but can sometimes be seen being wielded by some ^#ffe364;faradea legends^reset;.",
-    "price" : 520, "rarity" : "Legendary",
     "muzzleOffset" : [1.25, 0.35],
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/pistol_reload_clip3.ogg" ] } },
     "primaryAbility" : {

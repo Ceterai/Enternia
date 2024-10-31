@@ -5,8 +5,7 @@
   "longdescription" : "It provides a better visor with a broader scope and field of view. Similar models are used in many alta defence-related projects.",
   "altaDescription" : "It's like a huge visor, that takes up all of your face!",
 
-  "price" : 1120, "rarity" : "Rare",
-  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
   "level" : 5, "itemTags" : [ "tier5armour", "combat" ],
   "race" : "alta",
 
@@ -71,7 +70,7 @@
 
   "presets" : {
     "koywa" : {
-      "shortdescription" : "Thermoscreen ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1060,
+      "shortdescription" : "Thermoscreen ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4,
       "description" : "An advanced armored mask with a thermoscanner. What does it do? Nobody knows.",
       "longdescription" : "These masks are often worn by riverside scouts and are used to detect any small fire spreads in sight.",
       "altaDescription" : "Looks very battle-esque, with the camo paint and everything, although altas don't really use these palettes.", "alkey" : "Gaushviz",
@@ -99,10 +98,10 @@
       ], "wiki" : { "skip" : true }
     },
     "stardust" : {
-      "shortdescription" : "Faceless Mask ^#8020f0;^reset;", "itemTags" : [ "tier6armour" ], "level" : 6, "rarity" : "Legendary", "colorIndex" : 9,
+      "shortdescription" : "Faceless Mask ^#8020f0;^reset;", "itemTags" : [ "tier6armour" ], "level" : 6, "colorIndex" : 9,
       "description" : "A mask of an unknown alta, presumably a spacedrifter, one of many who used stardust to fuel their artifacts, like this one. Has built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "This unique model of a combat mask is made from a different composite of materials, and has a tiny visor opening for better defence.",
-      "altaDescription" : "That small, tiny point of a vir, can see and capture your every move...", "alkey" : "Neva Nit", "price" : 1060,
+      "altaDescription" : "That small, tiny point of a vir, can see and capture your every move...", "alkey" : "Neva Nit",
       "radioMessagesOnPickup" : [ "ct_alta_head_armor_msg" ],
       "paletteSwap" : {"#606074":"#4c5064","#404050":"#383c50","#2c2c34":"#24283c","#101014":"#101428",
       "#106890":"#24283c","#1090c0":"#383c50","#10b4ef":"#4c5064"},

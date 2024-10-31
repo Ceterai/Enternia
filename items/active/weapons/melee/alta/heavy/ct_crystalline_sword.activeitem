@@ -6,7 +6,7 @@
   "altaDescription" : "Doesn't seem to be a registered alta product. Maybe it's a semi-fresh prototype of sorts. Judging by its looks, that seems highly probable.",
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
   "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "broadsword", "sword", "crystal", "crystalline", "upgradeableWeapon" ],
 
@@ -64,7 +64,6 @@
     "longdescription" : "Perhaps this is what led to the creation of all of the prototypes. Seems like calline crystals might have some hidden extraordinary features...",
     "inventoryIcon" : "ct_crystalline_sword_2.png", "animationParts" : { "blade" : "ct_crystalline_sword_2.png" },
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/tools/energypickaxe_stop1.ogg" ] } },
-    "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
       "name" : "Sinara's Blade",

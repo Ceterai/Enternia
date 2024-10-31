@@ -4,7 +4,7 @@
   "inventoryIcon" : "ct_alta_scout_drone.png",
   "itemTags" : [ "throwable", "spawner", "alta_scout", "robotics", "drone" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
-  "rarity" : "Uncommon", "price" : 240, "level" : 3,
+  "price" : 240, "level" : 3,
   "race" : "alta",
   "twoHanded" : false,
 
@@ -29,7 +29,7 @@
 
   "presets" : {
     "pastel" : {
-      "shortdescription" : "Pastel Drone ^#20f080;^reset;", "price" : 280,
+      "shortdescription" : "Pastel Drone ^#20f080;^reset;",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/scout_pastel.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#c00050", "#2080f0" : "#f02080", "#60c0fc" : "#fc60c0", "#b0e0fc" : "#fcb0e0" }
     },

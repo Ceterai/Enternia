@@ -5,8 +5,7 @@
   "longdescription" : "It compensates lesser effect with mobility and protection, as well as a freen back slot.",
   "altaDescription" : "You do feel quite safe in stuff like this, especially with all the life support systems.",
 
-  "price" : 1600, "rarity" : "Rare",
-  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "chestarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 5, "itemTags" : [ "tier5armour", "eds" ],
   "race" : "alta",
 
@@ -78,7 +77,7 @@
 
   "presets" : {
     "koywa" : {
-      "shortdescription" : "Thermoarmor ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1680,
+      "shortdescription" : "Thermoarmor ^#20f080;^reset;", "itemTags" : [ "tier4armour", "thermo" ], "level" : 4,
       "description" : "A power ranger body protection often used by riverside alta scouts.",
       "longdescription" : "A fireblast material is covering most of this chestpiece's surface to protect from dangerous environment.",
       "altaDescription" : "You can look like a camouflaging EDS soldier with this helmet.", "alkey" : "Gaush Gard",

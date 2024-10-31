@@ -4,13 +4,17 @@
   "description" : "Put in a bowl and carefully mixed together.",
   "longdescription" : "This mysterious and powerful powder, also known as **Staris** by ^#b0e0fc;altas^reset;, is the energy matter of ^#ffa8e8;Io^reset;. When a star explodes, the energy from it bursts in every direction, eventually crystallizing and forming tiny specks, filled with different types of ^#b0e0fc;energy^reset;.  \nRead a related codex for more: ^#b0e0fc;Alta History - From A Speck^reset;",
   "altaDescription" : "Some precious staris. Io's gift of life. I hope I can do it some justice.",
-  "level" : 8, "price" : 0, "rarity" : "Legendary",
-  "category" : "craftingMaterial", "itemTags" : [ "reagent", "staris", "stardust", "energy_source", "life_source", "io", "ceterai" ],
+
+  "level" : 7, "price" : 0, "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent", "staris", "stardust", "energy_source", "life_source", "io", "ceterai" ],
   "inventoryIcon" : "ct_stardust.png",
+
   "wiki" : {
     "aliases" : { "Io's Gift" : { } },
     "md" : {
       "You can find more lore here: **[Ceterai's Set - Stardust](https://www.hiveworkshop.com/threads/ceterais-set.351976/)**" : "<table><thead><tr><td width=96>\n\n![ ](https://www.hiveworkshop.com/data/ratory-images/272/272304-d3c49969f8075a573e72fda0492776c5.png)\n</td><td>\n\n**Stardust**<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_cetersphere.png) Thoughts: Where does it come from? Is it you? 💚<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_altersphere.png) Memories: Moondust of stars, colour of dreams. 💙<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_entersphere.png) Dreams: Is this really who you are? Broken, miserable star? 💜<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/ct_stardust.png) Stardust: Each and every single speck - is just a tiny, miniscule, almost non-existent beautiful new life, with its own thoughts, memories and dreams...</td></tr></thead></table>"
     }
-  }, "alkey" : "Staris"
+  },
+  "alkey" : "Staris"
 }

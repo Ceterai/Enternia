@@ -6,14 +6,12 @@
   "altaDescription" : "An unstable material with a lengthy name. Why are we using it again?",
   "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;subsurface^reset;" ],
 
-  "level" : 4, "price" : 20, "rarity" : "Uncommon",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "armor", "phospholion", "radiation" ], "tooltipKind" : "ct_alta_item_long",
-
+  "level" : 4,
+  "itemTags" : [ "reagent", "armor", "phospholion", "radiation" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_phospholion.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
-  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Phospholion",
   "wiki" : {
     "aliases" : { "Phospholion Ore" : { } },
     "md" : {
@@ -33,5 +31,6 @@
         "#### [[ Loot Items ]]" : [ "Phospholion Loot Crate" ]
       }
     }
-  }
+  },
+  "alkey" : "Phospholion"
 }

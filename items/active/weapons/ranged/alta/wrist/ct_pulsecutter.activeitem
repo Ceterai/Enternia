@@ -5,7 +5,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
   "twoHanded" : false, "category" : "pistol",
@@ -57,7 +57,6 @@
     "animationParts" : { "middle" : "ct_pulsecutter_2.png" },
     "shortdescription" : "Hyperblaster ^#8020f0;^reset;",
     "description" : "This cutting tool has been upgraded to a full-on automatic blaster that uses ^#ffa8e8;stardust^reset; energy for its pulses.\nNow with a laser pointer.",
-    "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/ar_reload_clip1.ogg" ] },
       "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] },
         "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 64, 12] }

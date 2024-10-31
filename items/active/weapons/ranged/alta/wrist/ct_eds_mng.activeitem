@@ -5,7 +5,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
   "twoHanded" : false, "category" : "machinePistol",
@@ -57,7 +57,6 @@
     "animationParts" : { "middle" : "ct_eds_mng_2.png" },
     "shortdescription" : "Double Point MNG ^#8020f0;^reset;",
     "description" : "^#ffa8e8;Stardust^reset; enhancement allows this wrist blaster to launch two Ion Minis at the same time.",
-    "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/ar_reload_clip2.ogg" ] } },
     "muzzleOffset" : [0.7, 0.0],
     "primaryAbility" : { "pressParams" : { "type" : "ct_ionic_small", "count" : 2, "inaccuracy" : 0.06 } }

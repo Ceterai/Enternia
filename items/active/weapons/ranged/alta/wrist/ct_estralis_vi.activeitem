@@ -4,7 +4,7 @@
   "description" : "A unique wrist device lost in the midst of nowhere. How did it get here? Is it... looking at you?",
   "elementalType" : "electric",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
   "twoHanded" : false, "category" : "uniqueWeapon",
@@ -56,7 +56,6 @@
     "animationParts" : { "middle" : "ct_estralis_vi_2.png" },
     "shortdescription" : "Estralis Vyurm ^#8020f0;^reset;",
     "description" : "Seems like the mysterious plasmic claws have grown and come to life... Is this all the ^#ffa8e8;stardust^reset;?",
-    "price" : 520, "rarity" : "Legendary",
     "primaryAbility" : {
       "name" : "Starstrains",
       "description" : "This device now generates Staris Strains instead of plasmic ones:\n\n- max amount: 10 (instead of 8)\n- max length: 24 (instead of 20)",

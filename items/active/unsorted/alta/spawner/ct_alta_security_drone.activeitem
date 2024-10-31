@@ -4,7 +4,7 @@
   "inventoryIcon" : "ct_alta_security_drone.png",
   "itemTags" : [ "throwable", "spawner", "city", "alta_security", "robotics", "drone" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
-  "rarity" : "Uncommon", "price" : 240, "level" : 4,
+  "price" : 240, "level" : 4,
   "race" : "alta",
   "twoHanded" : false,
 
@@ -29,12 +29,12 @@
 
   "presets" : {
     "cleaner" : {
-      "shortdescription" : "Cleaner Drone", "price" : 240,
+      "shortdescription" : "Cleaner Drone",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#0020c0", "#2080f0" : "#2020f0", "#60c0fc" : "#6060fc", "#b0e0fc" : "#b0b0fc" }
     },
     "toy" : {
-      "shortdescription" : "Toy Drone ^#20f080;^reset;", "price" : 320,
+      "shortdescription" : "Toy Drone ^#20f080;^reset;",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner_toy.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#7d00c0", "#2080f0" : "#9d20f0", "#60c0fc" : "#a760fc", "#b0e0fc" : "#d1b0fc" }
     }

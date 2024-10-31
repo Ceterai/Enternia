@@ -1,5 +1,6 @@
 require "/scripts/vec2.lua"
 
+
 function init()
   self.recoil = 0
   self.recoilRate = 0
@@ -10,6 +11,7 @@ function init()
   self.active = false
   storage.fireTimer = storage.fireTimer or 0
 end
+
 
 function update(dt, fireMode, shiftHeld)
   updateAim()
@@ -39,8 +41,9 @@ function update(dt, fireMode, shiftHeld)
     item.consume(1)
     if player then
       local pool = config.getParameter("treasure.pool")
-      local level = config.getParameter("treasure.level")
+      local level = config.getParameter("treasure.level", config.getParameter("level"))
       local seed = config.getParameter("treasure.seed")
+      sb.logInfo("\nlevel: %s\n", level)
       local treasure = root.createTreasure(pool, level, seed)
       for _,item in pairs(treasure) do
         player.giveItem(item)
@@ -51,11 +54,9 @@ function update(dt, fireMode, shiftHeld)
   end
 end
 
-function activate(fireMode, shiftHeld)
-  if not storage.firing then
-    self.active = true
-  end
-end
+
+function activate(fireMode, shiftHeld) if not storage.firing then self.active = true end end
+
 
 function updateAim()
   self.aimAngle, self.aimDirection = activeItem.aimAngleAndDirection(self.fireOffset[2], activeItem.ownerAimPosition())
@@ -64,24 +65,13 @@ function updateAim()
   activeItem.setFacingDirection(self.aimDirection)
 end
 
-function firePosition()
-  return vec2.add(mcontroller.position(), activeItem.handPosition(self.fireOffset))
-end
 
 function aimVector()
   local aimVector = vec2.rotate({1, 0}, self.aimAngle + sb.nrand(config.getParameter("inaccuracy", 0), 0))
   aimVector[1] = aimVector[1] * self.aimDirection
   return aimVector
 end
-
-function holdingItem()
-  return true
-end
-
-function recoil()
-  return false
-end
-
-function outsideOfHand()
-  return false
-end
+function firePosition() return vec2.add(mcontroller.position(), activeItem.handPosition(self.fireOffset)) end
+function holdingItem() return true end
+function recoil() return false end
+function outsideOfHand() return false end

@@ -3,8 +3,7 @@
   "shortdescription" : "Combat Off-Roaders",
   "description" : "All ^#b0e0fc;alta^reset; combat units wear these boots to ease traversing any landscape.",
 
-  "price" : 700, "rarity" : "Rare",
-  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 5, "itemTags" : [ "tier5armour", "combat" ],
   "race" : "alta",
 
@@ -68,7 +67,7 @@
 
   "presets" : {
     "light" : {
-      "shortdescription" : "Sona Legarmor ^#2080f0;^reset;", "itemTags" : [ "tier5armour", "sona", "arknight" ], "price" : 740,
+      "shortdescription" : "Sona Legarmor ^#2080f0;^reset;", "itemTags" : [ "tier5armour", "sona", "arknight" ],
       "description" : "Warm, armored uniform bottoms usually used by ^#b0e0fc;sona soldiers^reset; and ^#60c0fc;arknightss^reset;.",
       "longdescription" : "Mobility with a reasonable level of defense creates a great balance useful during rapid combat.",
       "altaDescription" : "So warm and cozy, yet also so protective!", "alkey" : "Sona Linko",

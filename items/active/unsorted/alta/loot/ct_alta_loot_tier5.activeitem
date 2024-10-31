@@ -5,16 +5,15 @@
   "longdescription" : "Seems like these are similar contents to the special SSR pods scattered around Io - they are regular protected ^#b0e0fc;alta ship pods^reset; with unknown markings on them, often containing legendary items and equipment that can save an alta's life.",
   "altaDescription" : "It says \"MECA\" on the side, similar to ^#b0e0fc;GSR pods^reset;. I wonder what this means.",
 
-  "price" : 160, "level" : 6, "rarity" : "Legendary", "race" : "alta",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 7, "race" : "alta",
   "itemTags" : [ "loot", "citadel" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_alta_loot_tier5.png",
   "animationParts" : { "gun" : "ct_alta_loot_tier5.png" },
-  "treasure" : { "pool" : "ct_alta_pod_loot_tier5", "level" : 1 },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : [ "ct_alta_loot.lua" ],
-
+  "treasure" : { "pool" : "ct_alta_pod_loot_tier5" },
   "builder" : "/items/buildscripts/alta/item.lua",
-  "wiki" : { "aliases" : { "TS Crate" : { }, "TS Pad" : { }, "SSR Crate" : { }, "SSR Pad" : { } } }, "alkey" : "Prime Pad"  // Elite Crate
+
+  "wiki" : { "aliases" : { "TS Crate" : { }, "TS Pad" : { }, "SSR Crate" : { }, "SSR Pad" : { } } },
+  "alkey" : "Prime Pad"  // Elite Crate
 }

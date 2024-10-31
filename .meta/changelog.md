@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.3d](#233d)
     - [2.3.3c](#233c)
     - [2.3.3b](#233b)
     - [2.3.3a](#233a)
@@ -56,9 +57,41 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.3d
+
+This mini-patch mostly focuses on bugs and improving the mod's codebase.
+
+**Main:**
+
+- code optimizations;
+- bug fixes.
+
+**Translation:**
+
+- all rarity names were moved to `/items/buildscripts/ct_texts.config`.
+
+**Dev:**
+
+- optimized the item builder code slightly;
+- the `itemTags` property is no longer updated for most items - a potential fix for the **Armor Adapt** conflict;
+- added item defaults - some parameters like price no longer need to be defined for most items;
+- added rarity calculation - improves rarity and makes it dependent on item level;
+- added custom mod support script for **Spawnable Item Pack**: `/.meta/scripts/SIP_support_script.py`;
+- added custom mod support script for **Recipe Browser**: `/.meta/scripts/RB_support_script.py`.
+
+**Other:**
+
+- loot items now give loot **depending on their level**, which can be changed via parameters;
+- fixed the **Sets** tab in the **Ultimate Crafting Station**;
+- fixed dublicate tenant IDs for **Security Guard** and **Security Officer**;
+- fixed item levels in NPC shops;
+- minor bug fixes.
+
 ### 2.3.3c
 
 This mini-patch mostly focuses on npcs and tenants.
+
+> Detailed changes for this version: [Update 2.3.3c](https://github.com/Ceterai/Enternia/commit/c28b5da83f8d4f14b1faefaee54bde24e8a4b270)
 
 **Main:**
 
@@ -82,9 +115,17 @@ This mini-patch mostly focuses on npcs and tenants.
 
 - minor bug fixes.
 
+**2.3.3c.fix**:
+
+- fixed `ct_ayaka_sap` in 2 recipes to `ct_ionic_sap`;
+- fixed `mpcpistol` to `npcpistol` in Alta Security Officers;
+- fixed `ct_alta_beret` to `ct_alta_state_beret` in Alta Security Officers.
+
 ### 2.3.3b
 
 This mini-patch refines already existing things and improves the quality of life overall.
+
+> Detailed changes for this version: [Update 2.3.3b](https://github.com/Ceterai/Enternia/commit/3166911896cc76a9e785002b0a06d82cc95d3331)
 
 **Main:**
 
@@ -874,7 +915,9 @@ This update is also to celebrate the **4th anniversary** of the mod, since it wa
   - **Most Recipes**: **Tabula Rasa**;
   - **Majority of Recipes**: **Spawnable Item Pack**.
     - Due to how SIP works, I wasn't able to make a lot of the recipes available there as they require parameters.
+  ![ ](/.meta/images/showcase/2.2.1/spawnable_item_pack1.png) ![ ](/.meta/images/showcase/2.2.1/spawnable_item_pack2.png)
 - added support for [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104);
+  ![ ](/.meta/images/showcase/2.2.1/equivalent_exchange.png)
 
 **Alta:**
 
@@ -901,6 +944,7 @@ This update is also to celebrate the **4th anniversary** of the mod, since it wa
 - added "mod category" buttons - **My Enternia** and **Alta Species**:
   - **My Enternia** button filters by all recipes from this mod;
   - **Alta Species** button filters by all recipes from this mod that belong to altas or are considered alta technology.
+  ![ ](/.meta/images/showcase/2.2.1/tabula_rasa.png)
 
 **Other:**
 
@@ -1326,11 +1370,10 @@ It seems you have also got a hold of some weird pods labeled "GSR". I wonder wha
 - created Mod Wiki. Find it here: [My Enternia: Wiki](https://github.com/Ceterai/Enternia/wiki);
 - the Wiki contains in-detail info about pretty much everything in the mod, from items/objects/monsters to effects, biomes, weather and even worldbuilding concepts/lore;
 - the Wiki also includes extensive info for modders wanting to create mods on top of this mod;
-
 - added full support for the [Improved Food Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=731354142) addon;
 - added full support for the [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) addon;
 - added full support for the [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) addon;
-
+  ![ ](/.meta/images/showcase/2.0.0/improved_food_descriptions.png)
 - added much more detailed GUI tooltips to many types of items:
   - weapon/shield tooltips now include more stats, element icons (shields too), full description, ability names and description, and whether it can be upgraded to anything;
   - armor/clothing/backpack/epp tooltips now have more slots for abilities and display them properly, as well as show upgrades if any;

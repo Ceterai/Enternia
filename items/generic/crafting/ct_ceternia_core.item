@@ -6,12 +6,11 @@
   "altaDescription" : "If I put my hand in it, it almost feels like someone is holding it. Not just touching, but holding, with intent, as if this is someone alive.",
   "foundIn" : [ "^#20f080;Alterash^reset; ^gray;mid caves^reset;" ],
 
-  "level" : 5, "price" : 20, "rarity" : "Rare",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "essence", "core", "remnant", "living", "ceternia" ], "tooltipKind" : "ct_alta_item",
-
+  "level" : 5,
+  "itemTags" : [ "reagent", "energy_source", "essence", "core", "remnant", "living", "ceternia" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_ceternia_core.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
-  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Cenia Gir"
+  "alkey" : "Cenia Gir"
 }

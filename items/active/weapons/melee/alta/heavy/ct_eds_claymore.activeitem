@@ -5,7 +5,7 @@
   "longdescription":"This bastion of EDS defence is a basic combat tool usually carried by EDS mechs or by EDS ^#b0e0fc;arkanas^reset;.\n\n^gray;Elerune CDR^reset; is an integrated blast system, an inherent part of an EDS Claymore, and provides blaster-like abilities to the tool, making it addtionally effective in middle-range combat too.",
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare", "race" : "alta",
+  "level" : 5, "race" : "alta",
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : true, "category" : "broadsword",
@@ -89,7 +89,6 @@
     "shortdescription" : "^#f02020;EDS^reset; Cannonsword ^#8020f0;^reset;",
     "description" : "This weapon is now a powerful device that can hold any threat back, no matter how far away it is.",
     "longdescription" : "The enhanced CDR is now able to launch powerful ^#f02020;EDS rockets^reset; at the targets. Packed with the ^gray;Litera-7^reset; homing system, it's able to find it target after a charge.\n\n^gray;Centar Thruster^reset; is what causing the weapon to propell forward, with the use of mentioned rockets as push charges.",
-    "price" : 800, "rarity" : "Legendary",
     "inventoryIcon" : "ct_eds_claymore_2.png", "animationParts" : { "blade" : "ct_eds_claymore_2.png" },
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip3.ogg" ] } },
     "primaryAbility" : {

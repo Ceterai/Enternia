@@ -5,8 +5,7 @@
   "longdescription" : "They are powered by the special protosystem that replaces usual energy cells with an energy circulation mechanic that flows troughout the whole costume.",
   "altaDescription" : "I can jump so much higher in these! Like a real scava!",
 
-  "price" : 700, "rarity" : "Uncommon",
-  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",
   "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
   "race" : "alta",
 
@@ -75,7 +74,6 @@
     "shortdescription" : "Protea's Vectors ^#8020f0;^reset;",
     "description" : "These protective leggings with ^#ffa8e8;stardust^reset; crystals once belonged to Protea. They're yours now. Enjoy!",
     "longdescription" : "They're part of the Protea's gift to inexperienced alta scouts as means of care and support!",
-    "price" : 750, "rarity" : "Legendary",
     "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ], "tooltipKind" : "ct_alta_effects_2",
     "statusEffects" : [
       "ct_velocity_jump", "ct_velocity_swim",

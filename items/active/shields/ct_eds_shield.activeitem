@@ -5,38 +5,23 @@
   "longdescription" : "It's sliding plates allow it to stay relatively combat when unused, while expanding in area when necessary.",
   "altaDescription" : "A very sturdy shield, it's a shame it only protects your front. Although, I guess you could put another one on your back...",
 
-  "level" : 5, "rarity" : "Rare", "price" : 480,
-
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "eds", "upgradeableWeapon" ],
-  "twoHanded" : false, "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "shield", "eds", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2",
 
   "inventoryIcon" : "ct_eds_shield.png",
-
-  "animation" : "shield.animation",
-  "animationParts" : {
-    "shield" : "images/ct_eds_shield.png"
-  },
+  "animationParts" : { "shield" : "images/ct_eds_shield.png" },
   "animationCustom" : {
-    "globalTagDefaults" : { "paletteSwaps" : "" },
-    "animatedParts" : { "parts" : { "shield" : { "properties" : {
-        "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ]
-    }, "partStates" : { "shield" : {
-        "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
-        "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
-        "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
-    } }
-    }}},
+    "animatedParts" : { "parts" : {
+        "shield" : { "properties" : { "shieldPoly" : [ [-0.5, -2.5], [-0.5, 2.25], [0.75, 1.5], [0.75, -1.75] ] } }
+    } },
     "sounds" : {
-      "init" : [ ],
       "raiseShield" : [ "/sfx/gun/magnorbs_shield.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
       "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
     }
   },
-
-  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
 
   "primaryAbility" : {
     "name" : "Armored Shield",
@@ -60,27 +45,12 @@
   "knockback" : 10,
   "statusEffects" : [ "ct_eds_protection_module" ],
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "raised" : {
-      "armRotation" : 0,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    }
-  },
-
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "presets" : {
     "security" : {
       "shortdescription" : "Security Shield ^#20f080;^reset;", "itemTags" : [ "shield", "alta_security", "upgradeableWeapon" ],
-      "price" : 520, "level" : 4, "rarity" : "Uncommon",
+      "level" : 4,
       "description" : "A shield used by some security guards. They have been deprecated since altas were able to find a way to co-exists with slimes.",
       "longdescription" : "They were the most prominent \"visitors\" of ^#b0e0fc;alta cities^reset;, and had to be gotten rid of somehow. These shields are taller than most slimes' jump height, and thus are perfect for containing them.",
       "altaDescription" : "Long and sturdy, perfect for snowboarding! Although an ^#60c0fc;arknight's shield^reset; might be a better fit.", "alkey" : "Varda Taum",
@@ -92,7 +62,7 @@
         "description" : "A powerful fortress in the hands of an ^#b0e0fc;elite guard^reset; that can bring anything to a halt.",
         "longdescription" : "Its multilayered armor plates follow latest alta safety protocols for composite armor.",
         "altaDescription" : "I can be suuuper safe with this!",
-        "price" : 560, "rarity" : "Legendary", "alkey" : "Prime Taum",
+        "alkey" : "Prime Taum",
         "baseShieldHealth" : 64,
         "paletteSwap" : {"#707088":"#f6f6f6","#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#202028":"#606478",
           "#a42b2b":"#fcb0e0","#762222":"#20f0bd","#551b1b":"#00c097"},
@@ -114,7 +84,6 @@
     "shortdescription" : "^#f02020;EDS^reset; Protector ^#8020f0;^reset;",
     "description" : "Armor of this shield has beed encrusted with ^#ffa8e8;stardust^reset;. With more power come more powerful effects!",
     "longdescription" : "The basic energy has been increased, which also allowed for new, heavier systems to be installed. This is common practice with stardust-enhanced and enternia-enhanced EDS tech.",
-    "price" : 520, "rarity" : "Legendary",
     "paletteSwap" : {"#a42b2b":"#fcb0e0","#762222":"#8020f0","#551b1b":"#5000c0"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } }
   }, "alkey" : "EDS Taum"

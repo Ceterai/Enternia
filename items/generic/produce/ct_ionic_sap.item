@@ -5,13 +5,12 @@
   "longdescription" : "^#b0e0fc;Altas^reset; use the ferment in many different ways, from a connective component when mixing materials or for outright glue mixtures, to a cooking ingredient, in cosmetics, gardening, medicine and energy filters.  \nRead more about this: ^#3587ff;Ayaka Gardener's Notes^reset;",
   "altaDescription" : "Useful in basically enerything. Also, things like boiled ayas stuffed with eniar jam are the reason why I enjoy runeva stuff so much.",
   "foundIn" : [ "^#20f080;Alterash^reset;", "^#2080f0;Alterash Prime^reset;" ],
+
+  "itemTags" : [ "ayaka", "ionic" ],
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_ionic_sap.png",
-
-  "rarity" : "Common", "price" : 5,
-  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item", "itemTags" : [ "ayaka", "ionic" ],
-  "maxStack" : 1000,
   "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ct_ionic_fresh", "ct_ionice_cube" ],
-
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Ayaka Sap" : { }, "Ionic Sap" : { } } }, "alkey" : "Eniar"
 }

@@ -6,7 +6,7 @@
   "altaDescription" : "Seems very handy. Not sure what exact geological purposes this was made for, but is pretty powerful anyway, so I'm not complaining.",
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 480, "rarity" : "Rare", "race" : "alta",
+  "level" : 5, "race" : "alta",
   "twoHanded" : false, "maxStack" : 1, "category" : "axe", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "axe", "gheatsyn", "ghearun", "upgradeableWeapon" ],
 
@@ -40,7 +40,6 @@
     "description" : "The blade of this axe is made from layered ^#a7e001;gheatsyn^reset;. There are electronic compensators on the handle made from the same crystals.",
     "longdescription" : "These compensators, or gheafluxers, are meant to engage the energy from cimilar crystals nearby, creating a barely visible resonation, that ultimately accelerates ^#a7e001;tsyntex^reset;.",
     "inventoryIcon" : "ct_gheablade_2.png", "animationParts" : { "blade" : "ct_gheablade_2.png" },
-    "price" : 520, "rarity" : "Legendary",
     "primaryAbility" : {
       "name" : "Gheaflux Prime",
       "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",

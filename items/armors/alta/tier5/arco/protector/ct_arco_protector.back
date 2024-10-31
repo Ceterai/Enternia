@@ -3,9 +3,9 @@
   "shortdescription" : "Enviroprotector ^#2080f0;^reset;",
   "description" : "Provides life support and enhanced protection.",
 
-  "level" : 5, "price" : 700, "rarity" : "Rare",
-  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5,
+  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",
+  "race" : "alta", "itemTags" : [ "tier5armour", "arco" ],
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",

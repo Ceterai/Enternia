@@ -4,7 +4,7 @@
   "inventoryIcon" : "ct_ionic_drone.png",
   "itemTags" : [ "throwable", "spawner", "ionic", "robotics", "drone" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
-  "rarity" : "Rare", "price" : 280, "level" : 5,
+  "price" : 240, "level" : 5,
   "race" : "alta",
   "twoHanded" : false,
 
@@ -29,27 +29,27 @@
 
   "presets" : {
     "lab" : {
-      "shortdescription" : "Alta Lab Drone", "price" : 240,
+      "shortdescription" : "Alta Lab Drone",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner_lab.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#5000c0" : "#418cb0", "#8020f0" : "#5fb6d7", "#c060fc" : "#78d6e3", "#e0b0fc" : "#bcebf0", "#351975" : "#f08f20" },
       "elementalType" : ""
     },
     "neon" : {
-      "shortdescription" : "Alta Citadel Drone", "price" : 360, "rarity" : "Legendary", "level" : 6,
+      "shortdescription" : "Alta Citadel Drone ^#8020f0;^reset;", "level" : 6,
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner_neon.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#5000c0" : "#00c08a", "#8020f0" : "#20f0ab", "#c060fc" : "#60fcb2", "#e0b0fc" : "#b0fcd6", "#351975" : "#f020ee",
         "#707088" : "#606074", "#606074" : "#404050", "#404050" : "#2c2c34", "#2c2c34" : "#202028" },
         "elementalType" : ""
     },
     "nb" : {
-      "shortdescription" : "Mystic Drone ^#2080f0;^reset;", "price" : 320,
+      "shortdescription" : "Mystic Drone ^#2080f0;^reset;",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/scout_mystic.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#5000c0" : "#737800", "#8020f0" : "#9ca000", "#c060fc" : "#f0e520", "#e0b0fc" : "#f6ebc8", "#351975" : "#7320f0",
         "#707088" : "#606074", "#606074" : "#404050", "#404050" : "#2c2c34", "#2c2c34" : "#202028" },
         "elementalType" : ""
     },
     "bi" : {
-      "shortdescription" : "Viona Drone ^#2080f0;^reset;", "price" : 320,
+      "shortdescription" : "Viona Drone ^#2080f0;^reset;",
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/smart_bi.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#5000c0" : "#6300c0", "#8020f0" : "#8120f0", "#c060fc" : "#ff49aa", "#e0b0fc" : "#ff88c7", "#351975" : "#6062fc" },
       "elementalType" : ""

@@ -55,7 +55,7 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.effectLabel = tips.food.format(configParameter("foodValue", 0))
   end
   -- Tags
-  for _, tag in ipairs(config.itemTags) do
+  for _, tag in ipairs(config.itemTags or {}) do
     if tips.cuisines[tag] then config.tooltipFields.loreLabel = tips.cuisines[tag]..config.tooltipFields.loreLabel end
   end
   -- Variants

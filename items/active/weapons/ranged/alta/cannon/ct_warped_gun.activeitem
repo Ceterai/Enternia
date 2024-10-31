@@ -5,7 +5,7 @@
 
   "elementalType" : "poison",
 
-  "level" : 4, "price" : 720, "rarity" : "Uncommon",
+  "level" : 4,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "shotgun",
@@ -131,7 +131,6 @@
     "animationParts" : { "middle" : "ct_warped_gun_2.png" },
     "shortdescription" : "Biowarper ^#8020f0;^reset;",
     "description" : "It looks like this ^#9b2d3f;warped^reset; cannon has become alive due to ^#ffa8e8;stardust^reset; energy - the warped roots have expanded and are now pulsating with life and poison.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ] } }
   }
 }

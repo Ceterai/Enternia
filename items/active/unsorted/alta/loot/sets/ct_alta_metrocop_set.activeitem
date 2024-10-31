@@ -6,16 +6,14 @@
   "altaDescription" : "Some diva's clothes. That could be me, honestly. Also, being able to outrun a fellow varda just to show off is enticing.",
 
   "inventoryIcon" : "ct_alta_metrocop_set.png",
-  "treasure" : { "pool" : "ct_alta_metrocop_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_alta_metrocop_set" },
   "animationParts" : { "gun" : "ct_alta_metrocop_set.png" },
 
-  "level" : 3, "price" : 2800, "rarity" : "Uncommon", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 3, "price" : 2800, "race" : "alta",
   "itemTags" : [ "set", "city" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
-  "wiki" : { "aliases" : { "Alta Metrocop" : { }, "Metrocop" : { }, "Diva" : { } } }, "alkey" : "Diva Veus"
+
+  "wiki" : { "aliases" : { "Alta Metrocop" : { }, "Metrocop" : { }, "Diva" : { } } },
+  "alkey" : "Diva Veus"
 }

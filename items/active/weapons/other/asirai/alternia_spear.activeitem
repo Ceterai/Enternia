@@ -3,7 +3,7 @@
   "shortdescription" : "^#2080f0;Alternia^reset; Spear",
   "description" : "Made of pure starsteel, it bursts with electricity.",
 
-  "level" : 4, "rarity" : "Rare",  "price" : 1100,
+  "level" : 5,
   "itemTags" : ["weapon", "melee", "spear", "upgradeableWeapon"],
   "twoHanded" : true, "maxStack" : 1, "aimOffset" : -1.0,
   "category" : "spear", "tooltipKind" : "ct_alta_weapon_2", "elementalType" : "electric",
@@ -128,7 +128,7 @@
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters":{
-    "rarity" : "Legendary",
+    "price" : 720,
     "itemTags" : ["weapon", "melee", "axe", "upgradeableWeapon"],
     "category" : "axe",
     "inventoryIcon" : "enternia_halberd.png",

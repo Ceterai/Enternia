@@ -6,7 +6,7 @@
   "altaDescription":"Now this is an energy tool to all energy tools! It cuts through ^#b0e0fc;titanium^reset; and weaker metals easily, and I'm not even talking about light stuff like ^#3587ff;ayakut^reset;!",
   "elementalType" : "electric",
 
-  "level" : 5, "price" : 800, "rarity" : "Rare", "race" : "alta",
+  "level" : 5, "race" : "alta",
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "broadsword",
@@ -81,7 +81,7 @@
     "shortdescription" : "^#2080f0;Alter^reset;-Sword ^#8020f0;^reset;",
     "description" : "The blade of this sword is pure plasma, entirely made out of concentrated ^#2080f0;alternia^reset; and enhanced with ^#ffa8e8;stardust^reset;.",
     "longdescription" : "This modification significantly increases the amount of plasma impact on evergy hit and allows this energy tool to gather alternia from all around it to increase its power.\n\nThese rare devices were secretly developed specifically as part of the ^#2080f0;project Ceterai^reset; as means of withstanding the consequences of the ^#0050c0;hevikai incident^reset;.",
-    "price" : 880, "rarity" : "Legendary", "tooltipKind" : "ct_alta_weapon_2",
+    "tooltipKind" : "ct_alta_weapon_2",
     "inventoryIcon" : "ct_plasmasword_2.png", "animationParts" : { "blade" : "ct_plasmasword_2.png" },
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/aegisaltpistol_stop.ogg" ] } },
     "primaryAbility" : {

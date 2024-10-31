@@ -6,14 +6,12 @@
   "altaDescription" : "It's so pretty!! That hypnotizing glow, those soft colors are amazing! I can't stop looking at it... although nothing can compare to the magical glow of staris «",
   "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;shallow caves^reset;" ],
 
-  "level" : 4, "price" : 20, "rarity" : "Uncommon",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "armor", "bionid" ], "tooltipKind" : "ct_alta_item_long",
-
+  "level" : 4,
+  "itemTags" : [ "reagent", "armor", "bionid" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_bionid.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
-  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Bionid",
   "wiki" : {
     "aliases" : { "Biotsyn" : { }, "Calonid" : { } },
     "md" : {
@@ -33,5 +31,6 @@
         "#### [[ Loot Items ]]" : [ "Bionid Loot Crate" ]
       }
     }
-  }
+  },
+  "alkey" : "Bionid"
 }

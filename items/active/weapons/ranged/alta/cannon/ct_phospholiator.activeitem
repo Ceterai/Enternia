@@ -5,7 +5,7 @@
 
   "elementalType" : "fire",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "grenadeLauncher",
@@ -140,7 +140,6 @@
     "animationParts" : { "middle" : "ct_phospholiator_2.png" },
     "shortdescription" : "Phosic Cannon ^#8020f0;^reset;",
     "description" : "The ^#ceffd7;phosicores^reset; in this cannon have been enhanced with ^#ffa8e8;stardust^reset;. Its ^#f08020;fire^reset; now bursts with energy!",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } }
   }
 }

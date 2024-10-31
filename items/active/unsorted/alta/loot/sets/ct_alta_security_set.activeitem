@@ -6,16 +6,13 @@
   "altaDescription" : "This will allow me to wear an armor of a true order keeper. Exciting!",
 
   "inventoryIcon" : "ct_alta_security_set.png",
-  "treasure" : { "pool" : "ct_alta_security_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_alta_security_set" },
   "animationParts" : { "gun" : "ct_alta_security_set.png" },
 
-  "level" : 4, "price" : 3200, "rarity" : "Uncommon", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 4, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "city", "alta_security" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Security Guard" : { }, "Varda" : { } } }, "alkey" : "Varda Veus"
 }

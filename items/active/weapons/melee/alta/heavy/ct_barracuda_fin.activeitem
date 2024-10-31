@@ -6,7 +6,7 @@
   "altaDescription" : "I can use this as a sword. Or a surfing board! But I guess I should take care of the smell first...",
   "elementalType" : "physical",
 
-  "level" : 3, "price" : 720, "rarity" : "Uncommon",
+  "level" : 3,
   "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "broadsword", "sword", "sea","fish","fin","undead","predatory","barracuda","staris ghura","koywa","flooded","upgradeableWeapon" ],
 
@@ -59,7 +59,6 @@
     "longdescription" : "The only things left are the most necessary ones - the hard, refined **pillar bone** and barely visible refined **cuda spikes**. With this size they're now able to resonate, attracting and spreading charged kinetic energy.",
     "inventoryIcon" : "ct_barracuda_fin_2.png", "animationParts" : { "blade" : "ct_barracuda_fin_2.png" },
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ] } },
-    "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
       "fireTime" : 0.7,

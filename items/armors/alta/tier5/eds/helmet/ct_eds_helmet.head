@@ -5,7 +5,6 @@
   "longdescription" : "This cap-like metal headwear is supplied with a standardized ^#f02020;EDS visor^reset; module in place.",
   "altaDescription" : "This helmet kinda looks like it has a cap.",
 
-  "price" : 1000, "rarity" : "Rare",
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
   "level" : 5, "itemTags" : [ "tier5armour", "eds" ],
   "race" : "alta",
@@ -71,7 +70,7 @@
 
   "presets" : {
     "koywa" : {
-      "shortdescription" : "Thermo Helmet ^#20f080;^reset;", "itemTags" : [ "tier4armour" ], "level" : 4, "rarity" : "Uncommon", "price" : 1060,
+      "shortdescription" : "Thermo Helmet ^#20f080;^reset;", "itemTags" : [ "tier4armour", "thermo" ], "level" : 4,
       "description" : "A power ranger helmet often used by riverside alta scouts.",
       "longdescription" : "Similar to the ^#83a8a4;thermoscreen^reset;, this helmet is equipped with thermodetective technology.",
       "altaDescription" : "You can look like a camouflaging EDS soldier with this helmet.", "alkey" : "Gaush Grom",

@@ -5,8 +5,7 @@
   "longdescription" : "If protects the head completely from all sides, providing a visor with small cameras on the sides for a combined field of view.",
   "altaDescription" : "When I first saw it, I was wondering how vardas can see in this. Visors!",
 
-  "price" : 1000, "rarity" : "Uncommon",
-  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
   "level" : 4, "itemTags" : [ "tier4armour", "alta_security" ],
   "race" : "alta",
 
@@ -69,7 +68,7 @@
 
   "presets" : {
     "enternia" : {
-      "shortdescription" : "GR \"Animus\" ^#8020f0;^reset;", "itemTags" : [ "tier6armour", "enternia" ], "price" : 1060, "level" : 6, "rarity" : "Legendary",
+      "shortdescription" : "GR \"Animus\" ^#8020f0;^reset;", "itemTags" : [ "tier6armour", "enternia" ], "level" : 6,
       "description" : "A high-tech enternia artifact that hides unknown power. And your face with it.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with enternia, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus",
@@ -99,7 +98,7 @@
       ], "wiki" : { "skip" : true }
     },
     "stardust" : {
-      "shortdescription" : "GRS \"Animus-M\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "stardust" ], "price" : 1060, "level" : 7, "rarity" : "Legendary",
+      "shortdescription" : "GRS \"Animus-M\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "stardust" ], "level" : 7,
       "description" : "An Animus prototype that uses pure stardust energy to run, instead of relying on enternia.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with stardust, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus-M",
@@ -129,7 +128,7 @@
       ], "wiki" : { "skip" : true }
     },
     "orchid" : {
-      "shortdescription" : "GRS \"Animus-T\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "void" ], "price" : 1120, "level" : 7, "rarity" : "Legendary",
+      "shortdescription" : "GRS \"Animus-T\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "void" ], "level" : 7,
       "description" : "An Animus prototype that uses pure void energy to run, instead of relying on enternia.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with void, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus-T",
@@ -144,7 +143,7 @@
       ], "wiki" : { "skip" : true }
     },
     "celestia" : {
-      "shortdescription" : "GRS \"Animus-C\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "celestia" ], "price" : 1180, "level" : 7, "rarity" : "Legendary",
+      "shortdescription" : "GRS \"Animus-C\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "celestia" ], "level" : 7,
       "description" : "An Animus prototype that uses celestial energy to run, instead of relying on enternia.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with celestial energy, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus-C",
@@ -160,7 +159,7 @@
       ], "wiki" : { "skip" : true }
     },
     "omni" : {
-      "shortdescription" : "GRS \"Animus-X\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "omni" ], "price" : 1240, "level" : 7, "rarity" : "Legendary",
+      "shortdescription" : "GRS \"Animus-X\" ^#f02080;^reset;", "itemTags" : [ "tier7armour", "omni" ], "level" : 7,
       "description" : "An Animus prototype that uses omni-stardust energy to run, instead of relying on enternia.  \nHas built-in ^#b0e0fc;breath protection^reset;.",
       "longdescription" : "Its energy transceptors fuel your systems with mixed stardust, resulting in a centralized protosystem.",
       "altaDescription" : "It looks very mysterious, but no more mysterious than the person wearing it.", "alkey" : "Animus-X",

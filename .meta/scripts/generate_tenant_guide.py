@@ -87,6 +87,11 @@ class Tenant:
         return self.raw.get('wiki', {}).get('category', '')
 
     @property
+    def class_str(self):
+        output = self.raw.get('wiki', {}).get('class', '')
+        return f'({output})' if output else output
+
+    @property
     def images(self) -> dict[str]:
         return self.raw.get('wiki', {}).get('images', {})
 
@@ -149,7 +154,7 @@ def get_table_row(tenant: Tenant):
 {tenant.icon}
 </td><td>
 
-Type: **{tenant.name}**
+Type: **{tenant.name}** {tenant.class_str}
 
 Tags: {tenant.tags_str}
 

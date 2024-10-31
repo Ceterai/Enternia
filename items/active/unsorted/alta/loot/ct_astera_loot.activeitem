@@ -5,23 +5,14 @@
   "longdescription" : "Blessed by the stars and tears of astera, this pad is packed with astera alta devices and rarely ^#6f6c66;spacedrifter^reset; equipment.",
   "altaDescription" : "I heard these are packed by ^#60c0fc;arknights^reset; as safety measures for ^#6f6c66;astera scouts^reset;. Both ^#ffe8e8;eva^reset; and ^#6f6c66;astera^reset; are filled with stardust, so I can only imagine what treasure lies inside...",
 
-  "level" : 5, "price" : 80, "rarity" : "Rare",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 5,
   "itemTags" : [ "loot", "astera" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_astera_loot.png",
   "animationParts" : { "gun" : "ct_astera_loot.png" },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : ["ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
-
-  "treasure" : {
-    "pool" : "ct_astera_loot",
-    "level" : 1
-  },
-
+  "treasure" : { "pool" : "ct_astera_loot" },
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Astera Crate" : { } } }, "alkey" : "Astera Pad"
 }

@@ -6,16 +6,13 @@
   "altaDescription" : "I don't think all dreamers wear the same specific set of armor, but this seems to be a more or less popular combo regardless.",
 
   "inventoryIcon" : "ct_dreamer_set.png",
-  "treasure" : { "pool" : "ct_dreamer_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_dreamer_set" },
   "animationParts" : { "gun" : "ct_dreamer_set.png" },
 
-  "level" : 6, "price" : 3200, "rarity" : "Legendary", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 6, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "dreamer" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Dreamer" : { }, "Aena" : { } } }, "alkey" : "Aena Veus"
 }

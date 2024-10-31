@@ -6,16 +6,14 @@
   "altaDescription" : "Scava's clothes! I can wear them, to feel like I'm a real scava!! With a protospear!!!",
 
   "inventoryIcon" : "ct_alta_scout_set.png",
-  "treasure" : { "pool" : "ct_alta_scout_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_alta_scout_set" },
   "animationParts" : { "gun" : "ct_alta_scout_set.png" },
 
-  "level" : 3, "price" : 3200, "rarity" : "Uncommon", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 3, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "alta_scout" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
-  "wiki" : { "aliases" : { "Alta Scout" : { }, "Scout" : { }, "Scava" : { } } }, "alkey" : "Scava Veus"
+
+  "wiki" : { "aliases" : { "Alta Scout" : { }, "Scout" : { }, "Scava" : { } } },
+  "alkey" : "Scava Veus"
 }

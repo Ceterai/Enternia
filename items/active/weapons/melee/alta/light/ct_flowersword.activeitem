@@ -6,7 +6,7 @@
   "altaDescription" : "Wow, this is weird. Is it okay for me to hold it?",
   "elementalType" : "physical",
 
-  "level" : 4, "price" : 480, "rarity" : "Uncommon",
+  "level" : 4,
   "twoHanded" : false, "maxStack" : 1, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "shortsword", "haven", "flower", "toxic", "nature", "upgradeableWeapon" ],
 
@@ -50,7 +50,6 @@
     "description" : "Toxic fever in the field of ^#ffa8e8;stardust^reset; flowers. There's nothing else.",
     "longdescription" : "Except for a very prominent unfamiliar smell coming from small, barely visible colored fibres on the \"blade\" part.",
     "inventoryIcon" : "ct_flowersword_2.png", "animationParts" : { "blade" : "ct_flowersword_2.png" },
-    "price" : 520, "rarity" : "Legendary",
     "elementalType" : "physical",
     "primaryAbility" : {
       "name" : "Colorstrike",

@@ -4,7 +4,7 @@
   "description" : "It's very rare to find a chakram used as a weapon nowadays. This one is a little damaged, but seems to still work somehow.",
   "elementalType" : "electric",
   "race" : "alta",
-  "level" : 5, "price" : 480, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
   "twoHanded" : false, "category" : "chakram",
@@ -59,7 +59,6 @@
     "animationParts" : { "chakram" : "ct_plasma_chakram_2.png" },
     "shortdescription" : "Inarus ^#8020f0;^reset;",
     "description" : "Fusing this chakram with ^#ffa8e8;stardust^reset; has revealed its true form - one of the lost staris relics, scattered accross io.",
-    "price" : 520, "rarity" : "Legendary",
     "primaryAbility" : {
       "name" : "Staris Chakram",
       "description" : "This ability makes chakram's owner able to manipulate its trajectory.\nNow has more distance and spin time.",

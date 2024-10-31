@@ -5,7 +5,7 @@
     "override" : [
       [0, [
           {
-            "head" : [ "", "ct_alta_beret" ],
+            "head" : [ "", "ct_alta_state_beret" ],
             "chest" : [
               { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 8, "preset" : "light" } }
             ],
@@ -13,7 +13,7 @@
               { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : 8, "preset" : "light" } },
               { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : 8, "preset" : "light" } }
             ],
-            "sheathedprimary" : [ "mpcpistol" ]
+            "sheathedprimary" : [ "npcpistol" ]
           }
         ] ]
     ]

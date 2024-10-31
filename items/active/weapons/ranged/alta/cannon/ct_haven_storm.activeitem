@@ -5,7 +5,7 @@
 
   "elementalType" : "poison",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "rocketLauncher",
@@ -127,7 +127,6 @@
     "animationParts" : { "middle" : "ct_haven_storm_2.png" },
     "shortdescription" : "Haven Chaos ^#8020f0;^reset;",
     "description" : "A powerful generator of haven toxins, now enhanced with ^#ffa8e8;stardust^reset; energy.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ] } }
   }
 }

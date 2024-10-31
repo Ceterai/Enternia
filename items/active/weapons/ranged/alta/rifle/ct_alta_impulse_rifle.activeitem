@@ -7,7 +7,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 4, "price" : 720, "rarity" : "Uncommon",
+  "level" : 4,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "assaultRifle",
@@ -60,7 +60,6 @@
     "description" : "An NG4 with added laser pointer and scope, as well as increased firerate and precision due to the use of ^#ffa8e8;stardust^reset; energy.",
     "longdescription" : "This long-range high-precision energy instrument can generate long-lasting impulses, able to travel without losing height.",
     "altaDescription" : "I don't think I've ever seen this model before. I assume it's custom made.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/rocket_reload_clip1.ogg" ] } },
     "primaryAbility" : {
       "baseDps" : 6, "fireTime" : 0.7,

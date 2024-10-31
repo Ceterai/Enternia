@@ -1,9 +1,7 @@
 {
   "itemName" : "ct_meteoblaster",
-  "price" : 720,
   "inventoryIcon" : "ct_meteoblaster.png",
   "maxStack" : 1,
-  "rarity" : "Rare",
   "description" : "Its core was constructed from enternia-enhanced moonrock meteorites of ^#6f6c66;Astera^reset;.",
   "shortdescription" : "Meteoblaster ^red;WIP^reset;",
   "level" : 5,
@@ -115,7 +113,6 @@
       "muzzleFlash" : ""
     },
     "shortdescription" : "Starblaster ^#8020f0;^reset;",
-    "description" : "This meteoblaster was enhanced with ^#ffa8e8;stardust^reset;. It's now able to launch Starshards instead of meteorite shards.",
-    "price" : 800, "rarity" : "Legendary"
+    "description" : "This meteoblaster was enhanced with ^#ffa8e8;stardust^reset;. It's now able to launch Starshards instead of meteorite shards."
   }
 }

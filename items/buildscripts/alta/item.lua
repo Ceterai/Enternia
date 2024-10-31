@@ -27,47 +27,54 @@ require "/items/buildscripts/ct_utils.lua"
 -- - abilities and upgrades - supports `primaryAbility`, `altAbility`, `passiveAbility` and `upgradeParameters`
 -- - usage tooltips (for EPP augments and pet collars)
 -- > Note that all tooltip text is located in a separate config file.
-function build(directory, config, parameters, level, seed)
-  local configParameter = function(key, default) return getValue(key, default, config, parameters) end
+function build(directory, config, params, level, seed)
+  local get = function(key, default) return getValue(key, default, config, params) end
+  local tips = getTextConfig()
+
+  if params.shop then params.shop = nil; params.level = nil end
 
   -- CUSTOM PARAMS --
-  config, parameters = getPresetParams(config, parameters)
+  config, params = getPresetParams(config, params)
 
   -- BASIC PARAMS --
-
+  config = getDefaults(config, get("category"), get("race"))
   -- Level
-  if level and not configParameter("fixedLevel", true) then parameters.level = level end
-  if configParameter("levelOverride") then parameters.level = configParameter("levelOverride") end
-  level = configParameter("level", 1)
+  params.level = getLevel(params.level, level, get("fixedLevel", true))
+  level = get("level")
+  -- Bonus
+  local bonus = select(2, get("shortdescription", ""):gsub("%", ""))
   -- Price
-  if not configParameter("fixedPrice", false) then
-    if parameters.price ~= nil then parameters.oPrice = parameters.price; parameters.price = nil end
-    config.price = (parameters.oPrice or configParameter("price", 0)) * root.evalFunction("itemLevelPriceMultiplier", level)
+  if not get("fixedPrice", false) then
+    if params.price ~= nil then params.oPrice = params.price; params.price = nil end
+    local price = params.oPrice or get("price", 0)
+    config.price = price * root.evalFunction("itemLevelPriceMultiplier", level)
+    config.price = config.price + (math.floor((price / 100) + 0.5) * 10 * bonus)
   end
+  -- Rarity
+  config.rarity = getRarity(config, level, tips)
   -- Damage level multiplier
   config.damageLevelMultiplier = root.evalFunction("weaponDamageLevelMultiplier", level)
   -- Elemental type and config
-  local elementalType = configParameter("elementalType", "physical")
+  local elementalType = get("elementalType", "physical")
   replacePatternInData(config, nil, "<elementalType>", elementalType)
   for i, abil_type in ipairs({"primary", "alt"}) do
-    setupAbility(config, parameters, abil_type)
+    setupAbility(config, params, abil_type)
     local a = abil_type .. "Ability"
     if config[a] and config[a].elementalConfig then util.mergeTable(config[a] or {}, config[a].elementalConfig[elementalType] or {}) end
   end
-  config.itemTags = getTags(configParameter("itemTags"), configParameter("race"), configParameter("rarity", "common"), configParameter("elementalType"))
-  config.radioMessagesOnPickup = getPickupMsgs(configParameter("radioMessagesOnPickup", {}), config.itemTags)
+  local tags = getTags(get("itemTags"), get("race"), get("rarity"), get("elementalType"))
+  config.radioMessagesOnPickup = getPickupMsgs(get("radioMessagesOnPickup", {}), tags)
 
 
   -- GRAPHICS --
 
   -- Palette Swaps
-  if type(parameters.colorIndex) == "table" then parameters.colorIndex = util.randomChoice(parameters.colorIndex) end
-  config, parameters = getColorChanges(
-    config, parameters, directory, parameters.colorIndex, configParameter("paletteSwap"),
-    configParameter("paletteSwaps"), configParameter("inventoryIcon"), configParameter("colorOptions")
+  if type(params.colorIndex) == "table" then params.colorIndex = util.randomChoice(params.colorIndex) end
+  config, params = getColorChanges(
+    config, params, directory, params.colorIndex, get("paletteSwap"), get("paletteSwaps"), get("inventoryIcon"), get("colorOptions")
   )
   -- Scripted Animation
-  if parameters.scriptedAnimationParameters ~= nil then config.scriptedAnimationParameters = parameters.scriptedAnimationParameters end
+  if params.scriptedAnimationParameters ~= nil then config.scriptedAnimationParameters = params.scriptedAnimationParameters end
   -- Offsets
   if config.baseOffset then
     construct(config, "animationCustom", "animatedParts", "parts", "middle", "properties")
@@ -77,9 +84,9 @@ function build(directory, config, parameters, level, seed)
 
 
   -- TOOLTIPS --
-  config, parameters = getTooltips(config, parameters, level, elementalType, getTextConfig())
+  config, params = getTooltips(config, params, level, elementalType, tips)
 
-  return config, parameters
+  return config, params
 end
 
 
@@ -150,22 +157,23 @@ end
 
 
 function getTooltips(config, parameters, level, elementalType, tips)
-  local configParameter = function(key, default) return getValue(key, default, config, parameters) end
+  local get = function(key, default) return getValue(key, default, config, parameters) end
   config.tooltipFields = config.tooltipFields or {}
+  config.tooltipFields.rarityLabel = tips.rarities[level..""]
   config.tooltipFields.levelLabel = level
   config.tooltipFields.levelTitleLabel = tips.level
   config.tooltipFields.armorTitleLabel = tips.armor
   config.tooltipFields.toolLabel = tips.tool
-  config.tooltipFields.raceLabel = getColored(getTitle(configParameter('race', '')))
+  config.tooltipFields.raceLabel = getColored(getTitle(get('race', '')))
   if elementalType ~= "physical" and elementalType ~= "" then config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png" end
 
   local abil1 = sb.jsonMerge(config.primaryAbility or config.projectileParameters or {}, parameters.primaryAbility or parameters.projectileParameters or {})
   local dmg = abil1.power or 0
-  local dps = (abil1.baseDps or configParameter("baseDps", 0)) * (config.damageLevelMultiplier or 1)
-  local rate = (abil1.fireTime or configParameter("fireTime") or configParameter("cooldownTime") or 0.0)
+  local dps = (abil1.baseDps or get("baseDps", 0)) * (config.damageLevelMultiplier or 1)
+  local rate = (abil1.fireTime or get("fireTime") or get("cooldownTime") or 0.0)
   if dps == 0 and dmg ~= 0 then dps = dmg * rate * (config.damageLevelMultiplier or 1) end
-  local eps = (abil1.energyUsage or configParameter("energyUsage", 0))
-  local hp = configParameter("baseShieldHealth", 0) * root.evalFunction("shieldLevelMultiplier", level)
+  local eps = (abil1.energyUsage or get("energyUsage", 0))
+  local hp = get("baseShieldHealth", 0) * root.evalFunction("shieldLevelMultiplier", level)
   local cd = parameters.cooldownTime or config.cooldownTime or 0
   if hp > 0 and cd > 0 then
     config.tooltipFields.healthTitleLabel = tips.HP
@@ -175,13 +183,13 @@ function getTooltips(config, parameters, level, elementalType, tips)
     config.tooltipFields.cooldownTitleLabel = tips.CD
     config.tooltipFields.cooldownLabel = parameters.cooldownTime or config.cooldownTime
     config.tooltipFields.knockbackTitleLabel = tips.KB
-    config.tooltipFields.knockbackLabel = configParameter("knockback", 0)
+    config.tooltipFields.knockbackLabel = get("knockback", 0)
     config.tooltipFields.minTimeTitleLabel = tips.MT
-    config.tooltipFields.minTimeLabel = configParameter("minActiveTime", 0)
+    config.tooltipFields.minTimeLabel = get("minActiveTime", 0)
     config.tooltipFields.perfectTimeTitleLabel = tips.PT
-    config.tooltipFields.perfectTimeLabel = configParameter("perfectBlockTime", 0)
+    config.tooltipFields.perfectTimeLabel = get("perfectBlockTime", 0)
     -- config.tooltipFields.heavyTitleLabel = tips.HV
-    -- config.tooltipFields.heavyLabel = (configParameter("forceWalk", false) and tips.HY or tips.HN)
+    -- config.tooltipFields.heavyLabel = (get("forceWalk", false) and tips.HY or tips.HN)
   elseif dps > 0 or rate > 0 then
     config.tooltipFields.dpsTitleLabel = tips.DPS
     config.tooltipFields.dpsLabel = util.round(dps, 1)
@@ -199,7 +207,7 @@ function getTooltips(config, parameters, level, elementalType, tips)
 
   function getAbil(old, abilType, tooltips)
     local abil = abilType..'Ability'
-    local params = configParameter(abil)
+    local params = get(abil)
     if params ~= nil then
       local name = (params.name or config[abil].name or tooltips.none)
       local desc = (params.description or config[abil].description or '')
@@ -217,7 +225,7 @@ function getTooltips(config, parameters, level, elementalType, tips)
     return old
   end
 
-  local lore = configParameter("description", "")  -- Full description constructor in form of a string variable.
+  local lore = get("description", "")  -- Full description constructor in form of a string variable.
   lore = getAbil(lore, 'primary', tips)  -- Primary Ability
   lore = getAbil(lore, 'alt', tips)      -- Special Ability
   lore = getAbil(lore, 'passive', tips)  -- Passive Ability (currently replaces special in some tootips)
@@ -225,7 +233,7 @@ function getTooltips(config, parameters, level, elementalType, tips)
   -- Upgrade
   if config.upgradeParameters and config.upgradeParameters.shortdescription and config.upgradeParameters.shortdescription:len() > 0 then
     local name = config.upgradeParameters.shortdescription
-    if name and name ~= configParameter("shortdescription", "") then
+    if name and name ~= get("shortdescription", "") then
       config.tooltipFields.upgradeLabel = name
       config.tooltipFields.upgradeTitleLabel = tips.upgrade
       lore = appendText(lore, tips.upgfull..name, '\n\n    ')
@@ -238,7 +246,24 @@ function getTooltips(config, parameters, level, elementalType, tips)
   config.tooltipFields.loreLabel = lore
 
   -- Tooltip showing where this item can be found
-  if configParameter("foundIn") then config.tooltipFields.foundOnLabel = tips.found .. table.concat(configParameter("foundIn"), "^gray;,^reset; ") end
+  if get("foundIn") then config.tooltipFields.foundOnLabel = tips.found .. table.concat(get("foundIn"), "^gray;,^reset; ") end
 
   return config, parameters
+end
+
+
+function getDefaults(config, category, race)
+  local defs = getTextConfig('/items/buildscripts/alta/defaults.config')
+  config = sb.jsonMerge((defs.species[race or 'default'] or {})[category or 'default'] or {}, config)
+  config = sb.jsonMerge(defs.species.default[category or 'default'] or {}, config)
+  config = sb.jsonMerge(defs.species.default.default, config)
+  return config
+end
+
+
+function getLevel(level, gen, fixed) if gen and not fixed then return gen else return level end end
+
+
+function getRarity(config, level, tips)
+  return config.rarity or tips.rarityTypes[tostring(math.floor(level))]
 end

@@ -5,23 +5,14 @@
   "longdescription" : "The casings has Low Toxicity markings all over it, and an additional safety switch to make sure that the create can't be opened on accident.",
   "altaDescription" : "I better not touch this without permissions. I know these are not as toxic as ^#3baf2f;aric pads^reset;, but better be safe than sorry.",
 
-  "level" : 3, "price" : 80, "rarity" : "Uncommon",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 3,
   "itemTags" : [ "loot", "haven" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_haven_loot.png",
   "animationParts" : { "gun" : "ct_haven_loot.png" },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : ["ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
-
-  "treasure" : {
-    "pool" : "ct_haven_loot",
-    "level" : 1
-  },
-
+  "treasure" : { "pool" : "ct_haven_loot" },
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Haven Crate" : { } } }, "alkey" : "Malina Pad"
 }

@@ -6,26 +6,14 @@
   "altaDescription" : "I like this spin on energy fields. Useful and effective, but I wonder if I can make it change colors...",
   "elementalType" : "electric",
 
-  "level" : 5, "rarity" : "Rare", "price" : 480,
-
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3", "itemTags" : [ "shield", "energy", "upgradeableWeapon" ],
-  "twoHanded" : false, "maxStack" : 1,
+  "level" : 5,
+  "itemTags" : [ "shield", "energy", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_3",
 
   "inventoryIcon" : "ct_kinetic_shield.png",
-
-  "animation" : "shield.animation",
-  "animationParts" : {
-    "shield" : "images/ct_kinetic_shield.png"
-  },
+  "animationParts" : { "shield" : "images/ct_kinetic_shield.png" },
   "animationCustom" : {
-    "globalTagDefaults" : { "paletteSwaps" : "" },
-    "animatedParts" : { "parts" : { "shield" : { "partStates" : { "shield" : {
-      "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
-      "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
-      "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
-    } } } } },
     "sounds" : {
-      "init" : [ ],
       "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
       "charge_end" : [ "/sfx/gun/shockblast.ogg" ],
       "raiseShield" : [ "/sfx/melee/charge_full_swing2.ogg" ],
@@ -34,8 +22,6 @@
       "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
     }
   },
-
-  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
 
   "primaryAbility" : {
     "name" : "Whipshock",
@@ -63,21 +49,6 @@
   "perfectBlockTime" : 0.4,
 
   "knockback" : 64,
-  
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "raised" : {
-      "armRotation" : 0,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    }
-  },
 
   "builder" : "/items/buildscripts/alta/item.lua",
 
@@ -91,7 +62,7 @@
       "paletteSwap" : {"#0050c0BF":"#c07f00BF","#2080f0BF":"#f0a020BF","#60c0fcBF":"#fca960BF","#b0e0fcBF":"#fcd2b0BF"}, "wiki" : { "skip" : true }
     },
     "strong" : {
-      "shortdescription" : "Strong Kinetic Shield ^#2080f0;^reset;", "price" : 520, "baseShieldHealth" : 32,
+      "shortdescription" : "Strong Kinetic Shield ^#2080f0;^reset;", "baseShieldHealth" : 32,
       "paletteSwap" : {"#0050c0BF":"#00a6c0BF","#2080f0BF":"#20dff0BF","#60c0fcBF":"#60fcf2BF","#b0e0fcBF":"#b0fcf5BF"}, "wiki" : { "skip" : true }
     }
   },
@@ -102,7 +73,6 @@
     "shortdescription" : "Energy Blockade ^#8020f0;^reset;",
     "description" : "A shield made of pure energy has been enhanced with ^#ffa8e8;stardust^reset;. How much energy is too much energy?",
     "longdescription" : "Its projecting device is now a sunject to overcharges, but thankfully, due to the proper use of ^#b0e0fc;overlocks^reset;, this energy gets dispersed and adds onto the shield's power level.",
-    "price" : 520, "rarity" : "Legendary",
     "paletteSwap" : {"#0050c0BF":"#0f00c0BF","#2080f0BF":"#2620f0BF","#60c0fcBF":"#6072fcBF","#b0e0fcBF":"#b0bafcBF"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/magnorbs_fire7.ogg" ] } }
   }, "alkey" : "Rinea Taum"

@@ -7,7 +7,7 @@
   "elementalType" : "ice",
   "race" : "alta",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "assaultRifle",
@@ -71,7 +71,6 @@
     "shortdescription" : "Sona Rifle SG5X ^#8020f0;^reset;",
     "description" : "A sona rifle encrusted with ^#ffa8e8;stardust^reset; crystals.",
     "longdescription" : "Can produce more powerful sona charges while using the same amount of energy.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/statuseffects/stimuse.ogg" ] } }
   },
   "wiki" : { "aliases" : { "SG5" : { } } }, "alkey" : "Sonagirin"

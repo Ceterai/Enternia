@@ -6,28 +6,16 @@
   "altaDescription" : "The inner workings of this tool are beyond my understanding, but it can definitely be used as a shield.",
   "elementalType" : "electric",
 
-  "level" : 6, "rarity" : "Legendary", "price" : 520,
-
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2", "itemTags" : [ "shield", "crystal", "staris", "stardust" ],
-  "twoHanded" : false, "maxStack" : 1,
-  "race" : "alta",
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "shield", "crystal", "staris", "stardust" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_2",
 
   "inventoryIcon" : "ct_protolaris.png",
-
-  "animation" : "shield.animation",
-  "animationParts" : {
-    "shield" : "images/ct_protolaris.png"
-  },
+  "animationParts" : { "shield" : "images/ct_protolaris.png" },
   "animationCustom" : {
-    "globalTagDefaults" : { "paletteSwaps" : "" },
-    "animatedParts" : { "parts" : { "shield" : { "properties" : {
-        "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
-    }, "partStates" : { "shield" : {
-        "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
-        "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
-        "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
-    } }
-    }}},
+    "animatedParts" : { "parts" : {
+        "shield" : { "properties" : { "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ] } }
+    } },
     "sounds" : {
       "init" : [ "/sfx/gun/mech_beamsniper_windup1.ogg", "/sfx/gun/mech_beamsniper_windup2.ogg" ],
       "charge_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
@@ -38,8 +26,6 @@
       "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
     }
   },
-
-  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
 
   "primaryAbility" : {
     "name" : "Guardian's Dome",
@@ -66,21 +52,6 @@
 
   "knockback" : 10,
   "knockbackStatusEffects" : [ "ct_analyzed" ],
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "raised" : {
-      "armRotation" : 0,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    }
-  },
 
   "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Ikai Protolaris"
 }

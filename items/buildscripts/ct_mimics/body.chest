@@ -20,7 +20,7 @@
     "yaara" : {
       "baseAsset" : "/items/armors/decorative/costumes/rainbowood/rainbowwood.chest",
       "price" : 600,
-      "shortdescription" : "Yaara Shirt", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nature", "yaara" ],
+      "shortdescription" : "Yaara Shirt", "level" : 4, "itemTags" : [ "nature", "yaara" ],
       "description" : "This ^#20f080;yaara^reset; chest makes me feel like a plant.",
       "longdescription" : "Worth noting that the wooden texture of this peace of costume doesn't reflect it's protective capabilities.",
       "altaDescription" : "Very... planty?",
@@ -42,8 +42,7 @@
     },
     "yaara_keeper" : {
       "baseAsset" : "/items/armors/floran/floran-tier5manipulator/florantier5manipulator.chest",
-      "price" : 1660,
-      "shortdescription" : "Yaara Keeper's Guard ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
+      "shortdescription" : "Yaara Keeper's Guard ^#20f080;^reset;", "level" : 4, "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
       "description" : "A plant-based piece of armor fused with very sturdy materials, decorated with ^#20f080;yaara^reset; leaves, petals and crystals.",
       "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disguise.",
       "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
@@ -88,7 +87,7 @@
     },
     "calin_dress" : {
       "baseAsset" : "/items/armors/decorative/costumes/hotholiday/hotholiday.chest", "price" : 600,
-      "shortdescription" : "Calin Dress Top", "level" : 5, "rarity" : "Rare", "itemTags" : [ "pretty", "valuable", "calin" ],
+      "shortdescription" : "Calin Dress Top", "level" : 5, "itemTags" : [ "pretty", "valuable", "calin" ],
       "description" : "A night dress often worn to ^#b0e0fc;alta clubhouses^reset;. Designed by ^#b0e0fc;Perizhad^reset;.",
       "longdescription" : "Made from a high-quality material, this dress will make you the center of attention.",
       "altaDescription" : "Pretty and effective. I like the calin-like shiny rims on this dress.", "foundIn" : [ "^#b0e0fc;Alta Designer^reset;" ],

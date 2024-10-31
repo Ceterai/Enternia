@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_stardust_poptop_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Legendary", "price" : 260, "level" : 7,
+  "rarity" : "Legendary", "price" : 240, "level" : 7,
   "twoHanded" : false, "pet" : "ct_stardust_poptop",
   "animation" : "/items/active/unsorted/alta/spawner/default.animation",
   "scripts" : [ "/items/active/unsorted/alta/spawner/monster_spawn.lua" ],

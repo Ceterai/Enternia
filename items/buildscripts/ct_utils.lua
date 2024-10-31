@@ -35,7 +35,7 @@ function getSortedUnique(list)
   return res
 end
 
-function getTags(tagList, race, rarity, element) return getSortedUnique(appendList(tagList or jarray(), {race or '', rarity:lower(), element or ''})) end
+function getTags(tagList, race, rarity, element) return getSortedUnique(appendList(tagList or jarray(), {race or '', (rarity or ''):lower(), element or ''})) end
 
 function getPickupMsgs(msgList, tagList)
   for _,v in ipairs(tagList) do

@@ -6,7 +6,7 @@
   "altaDescription" : "This seems a bit hazardous. I should probably consult with a coordinator first, just in case. Viona anomalies can be pretty dangerous.",
   "elementalType" : "ice",
 
-  "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
+  "level" : 4, "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "broadsword", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "broadsword", "sword", "twinblade", "enchanted", "viona", "upgradeableWeapon" ],
 
@@ -84,7 +84,6 @@
     "longdescription" : "You can feel slight pressure if you put your hand between the blades. If you move it slowly, you will feel how gravity is wavering from side to side, sliding from end to end, as if some kind of uneven surface.",
     "inventoryIcon" : "ct_enchanted_twins_2.png", "animationParts" : { "blade" : "ct_enchanted_twins_2.png" },
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/tools/energypickaxe_stop1.ogg" ] } },
-    "price" : 800, "rarity" : "Legendary",
     "elementalType" : "electric",
     "primaryAbility" : {
       "name" : "Dual Resonation", "fireTime" : 0.93,

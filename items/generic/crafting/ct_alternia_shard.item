@@ -6,12 +6,11 @@
   "altaDescription" : "There's so much energy in it, it's glowing with tiny, tingling sparks! What if I chip a tiny bit and use it as a pretty glowy pin?!",
   "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;mid & deep caves^reset;" ],
 
-  "level" : 5, "price" : 20, "rarity" : "Rare",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "crystal", "shard", "alternia" ], "tooltipKind" : "ct_alta_item",
-
+  "level" : 5,
+  "itemTags" : [ "reagent", "energy_source", "crystal", "shard", "alternia" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alternia_shard.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
 
-  "builder" : "/items/buildscripts/alta/item.lua", "alkey" : "Alnia Rist"
+  "alkey" : "Alnia Rist"
 }

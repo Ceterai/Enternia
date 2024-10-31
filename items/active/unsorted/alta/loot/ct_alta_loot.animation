@@ -4,31 +4,17 @@
       "firing" : {
         "default" : "off",
         "states" : {
-          "off" : {
-            "properties" : {
-              "particleEmittersOff" : [ "confetti" ]
-            }
-          },
+          "off" : { "properties" : { "particleEmittersOff" : [ "confetti" ] } },
           "fire" : {
-            "frames" : 2,
-            "cycle" : 0.1,
-            "mode" : "transition",
-            "transition" : "confetti",
-            "properties" : {
-              "immediateSound" : "/sfx/statuseffects/powerup.ogg",
-              "particleEmittersOff" : [ "confetti" ]
-            },
-            "frameProperties" : {
-              "stateNudge" : [ [-0.125, 0], [0, 0] ]
-            }
+            "frames" : 2, "cycle" : 0.1,
+            "mode" : "transition", "transition" : "confetti",
+            "properties" : { "immediateSound" : "/sfx/statuseffects/powerup.ogg", "particleEmittersOff" : [ "confetti" ] },
+            "frameProperties" : { "stateNudge" : [ [-0.125, 0], [0, 0] ] }
           },
           "confetti" : {
             "cycle" : 0.2,
-            "mode" : "transition",
-            "transition" : "off",
-            "properties" : {
-              "particleEmittersOn" : [ "confetti" ]
-            }
+            "mode" : "transition", "transition" : "off",
+            "properties" : { "particleEmittersOn" : [ "confetti" ] }
           }
         }
       }
@@ -38,6 +24,7 @@
       "gun" : {
         "properties" : {
           "centered" : true,
+          // Directive "?replace=000000=ffffff00" removes the black border around an icon, making it look like an item visual.
           "image" : "<partImage>?replace=000000=ffffff00",
           "offset" : [0.0, 0.0]
         }
@@ -53,7 +40,7 @@
 
       "particles" : [
         {
-          // purple shard, drifting
+          // Purple shards, drifting away.
           "particle" : {
             "type" : "animated",
             "animation" : "/animations/shards/ancientenergy.animation",
@@ -73,7 +60,7 @@
           }
         },
         {
-          // Green, falling fast
+          // Green shards, falling fast.
           "particle" : {
             "type" : "animated",
             "animation" : "/animations/shards/ancientenergy.animation",

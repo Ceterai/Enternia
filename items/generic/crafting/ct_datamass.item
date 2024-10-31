@@ -4,14 +4,12 @@
   "description" : "A compact encrypted data storage that can be used for storing blueprints, codex info and other data. Right now it's empty.",
   "longdescription" : "A very popular mini-device among ^#b0e0fc;altas^reset;. Apart from being used as data storage, it can also be used as automated databases for other ^#b0e0fc;alta technology^reset;, like AI for ^#b0e0fc;alta robotics^reset;.\n\nLooks and works similarly to human USB Drives, except with integrated data protection measures, like encryption, and small shape differences - datamasses are cylindrical, so you don't have to worry about what side to insert it with, and have unified size regulations to be able to fit in most alta devices.",
   "altaDescription" : "It's small enough and has a keychain ring slot. Very convenient. I can use these almost anywhere, the only problem is to find the right data.",
-  "race" : "alta",
-  "level" : 3, "price" : 40, "rarity" : "Uncommon",
 
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "data_source", "data_storage", "datamass" ], "tooltipKind" : "ct_alta_item_long",
-
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "reagent", "data_source", "data_storage", "datamass" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_datamass.png",
-
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Alta Datamass" : { }, "Empty Datamass" : { } } }, "alkey" : "Arkves"
 }

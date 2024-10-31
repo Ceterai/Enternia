@@ -5,23 +5,14 @@
   "longdescription" : "It's mostly yaara nature specimes and resources necessary to look after them, as well as other related equipment.",
   "altaDescription" : "A yaara pad full of live yaara matter. I think it acts as a mini ^#b0e0fc;eco chamber^reset;, in order to keep it alive.",
 
-  "level" : 2, "price" : 80, "rarity" : "Common",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 2,
   "itemTags" : [ "loot", "yaara" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_yaara_loot.png",
   "animationParts" : { "gun" : "ct_yaara_loot.png" },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : ["ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
-
-  "treasure" : {
-    "pool" : "ct_yaara_loot",
-    "level" : 1
-  },
-
+  "treasure" : { "pool" : "ct_yaara_loot" },
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Yaara Crate" : { } } }, "alkey" : "Yaara Pad"
 }

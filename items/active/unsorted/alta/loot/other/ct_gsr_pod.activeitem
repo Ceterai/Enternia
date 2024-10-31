@@ -5,15 +5,13 @@
   "longdescription" : "Sometimes simply called starpods, these mysterious containers are sometimes found in the deepest corners of the world, and seem to be filled to the brim by various treasure and legendary equipment. Who makes them and how do they get there? No one knows.",
   "altaDescription" : "A GSR pod with a lock on it. I wonder what's inside.",
 
-  "level" : 6, "price" : 240, "rarity" : "Legendary", "race" : "alta",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item_long",
+  "level" : 6, "price" : 240, "race" : "alta",
   "itemTags" : [ "gsr" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
 
   "inventoryIcon" : "ct_gsr_pod.png",
   "animationParts" : { "gun" : "ct_gsr_pod.png" },
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-  "treasure" : { "pool" : "ct_gsr_pod", "level" : 1 },
+  "treasure" : { "pool" : "ct_gsr_pod" },
 
   "builder" : "/items/buildscripts/alta/item.lua"
 }

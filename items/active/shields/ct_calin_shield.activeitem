@@ -5,34 +5,20 @@
   "longdescription" : "It overwhelmes the shield's body, smoothing its texture yet gripping it to your hand, making the grab sturdier and more certain.",
   "altaDescription" : "Its made entirely out of crystals! Like... a crystal? I bet I could make some cute bracelets out of it.",
 
-  "level" : 4, "rarity" : "Uncommon", "price" : 480,
-
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "crystal", "calin", "upgradeableWeapon" ],
-  "twoHanded" : false, "maxStack" : 1,
+  "level" : 4,
+  "itemTags" : [ "shield", "crystal", "calin", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1",
 
   "inventoryIcon" : "ct_calin_shield.png",
-
-  "animation" : "shield.animation",
-  "animationParts" : {
-    "shield" : "images/ct_calin_shield.png"
-  },
+  "animationParts" : { "shield" : "images/ct_calin_shield.png" },
   "animationCustom" : {
-    "globalTagDefaults" : { "paletteSwaps" : "" },
-    "animatedParts" : { "parts" : { "shield" : { "partStates" : { "shield" : {
-      "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
-      "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
-      "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
-    } } } } },
     "sounds" : {
-      "init" : [ ],
       "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_ice_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_ice.ogg" ],
       "break" : [ "/sfx/melee/shield_break_ice.ogg" ]
     }
   },
-
-  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
 
   "primaryAbility" : {
     "name" : "Polarized Surface",
@@ -50,28 +36,13 @@
 
   "knockback" : 10,
   "knockbackStatusEffects" : [ "ct_pulse_paralysis" ],
-  
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "raised" : {
-      "armRotation" : 0,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    }
-  },
 
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "presets" : {
     "amethyst" : {
       "shortdescription" : "Crystallite", "itemTags" : [ "shield", "crystal", "upgradeableWeapon" ],
-      "price" : 480, "level" : 3, "rarity" : "Uncommon",
+      "level" : 3,
       "description" : "A rare amethyst crystal formation with good protective capabilities. Quite pretty as well.",
       "longdescription" : "This variation of a regular gemstone is much more resistant than usual, however, not nearly as resistant as some other crystals.",
       "altaDescription" : "I've heard that these grow naturally in special geodes, and then researchers cut them out in proper shapes.", "alkey" : "Callite",
@@ -88,7 +59,7 @@
         "description" : "More refined than ever, this pretty Crystallite is now infused with ^#ffa8e8;stardust^reset;.",
         "longdescription" : "While maintaining its purple tint, you can see the effects of stardust slowly changing the reflections.",
         "paletteSwap" : {"#c9eef6":"#d5c9f6","#76c7e4":"#9b76e4","#4e8fb8":"#724eb8","#366388":"#573688"},
-        "price" : 520, "rarity" : "Legendary", "alkey" : "Callite Prime",
+        "alkey" : "Callite Prime",
         "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
       }, "wiki" : { "skip" : true }
     }
@@ -101,7 +72,6 @@
     "description" : "A crystal shield enhanced with ^#ffa8e8;stardust^reset;. Now you can feel it pulsate with new energy, see the sparks come off of it into nowhere.",
     "longdescription" : "It's barely visible cosmic shimmer is almost hypnotizing.",
     "paletteSwap" : {"#c9eef6":"#c9dcf6","#76c7e4":"#769be4","#4e8fb8":"#4e64b8","#366388":"#364288"},
-    "price" : 520, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/sniper_reload_clip1.ogg" ] } }
   }, "alkey" : "Calin Taum"
 }

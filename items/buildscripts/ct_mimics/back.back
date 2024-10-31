@@ -11,7 +11,7 @@
   "presets" : {
     "warped_glowtail" : {
       "baseAsset" : "/items/armors/backitems/tigertail/tigertail.back", "price" : 600,
-      "shortdescription" : "Warped Glowtail", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nature", "warped", "light" ],
+      "shortdescription" : "Warped Glowtail", "level" : 4, "itemTags" : [ "nature", "warped", "light" ],
       "description" : "A decorative ^#9b2d3f;wapred^reset; tail-like growth that dimly glows in the dark. Stylish!",
       "longdescription" : "While not very practical, it's 100% eco-friendly and does provide a tiny lightsource.",
       "altaDescription" : "A ^#9b2d3f;yonnur^reset;-filled decorative tail. Sounds neat. Looks neat. Now where do I stick it into?",
@@ -33,7 +33,7 @@
     },
     "cape" : {
       "baseAsset" : "/items/armors/backitems/simplecape/simplecape.back", "price" : 420,
-      "shortdescription" : "Alta Pall", "level" : 2, "rarity" : "Common", "itemTags" : [ ], "race" : "alta",
+      "shortdescription" : "Alta Pall", "level" : 2, "itemTags" : [ ], "race" : "alta",
       "description" : "This simple blank alta wrap-over cape will make you look like a makeshift superhero!",
       "longdescription" : "Made from silk and eco-friendly compounds, it will serve you well for many years to come.",
       "altaDescription" : "Ooh, a long pretty cape! I bet I can use it as a blanket too.",
@@ -54,7 +54,7 @@
     },
     "cape_striped" : {
       "baseAsset" : "/items/armors/backitems/rainbowcape/rainbowcape.back", "price" : 680,
-      "shortdescription" : "Striped Cape", "level" : 5, "rarity" : "Rare", "itemTags" : [ ], "race" : "alta",
+      "shortdescription" : "Striped Cape", "level" : 5, "itemTags" : [ ], "race" : "alta",
       "description" : "An alta cape with colored stripes used mainly for insignias and other faction markings. Made from flexible bion compounds.",
       "longdescription" : "While not a very popular option for alta uniforms, it's a personal fashionable choice for many altas.",
       "altaDescription" : "I can make everyone behind me know what faction I'm a part of! Or, just let them know how cool I look in this.",
@@ -87,7 +87,7 @@
     },
     "cape_stardust" : {
       "baseAsset" : "/items/armors/backitems/rainbowcape/rainbowcape.back", "price" : 1600,
-      "shortdescription" : "Stardust Cape", "level" : 7, "rarity" : "Legendary", "itemTags" : [ "stardust" ], "race" : "alta",
+      "shortdescription" : "Stardust Cape", "level" : 7, "itemTags" : [ "stardust" ], "race" : "alta",
       "description" : "A pretty cape made of starmatter and pure stardust.",
       "longdescription" : "You can see tiny stardust particles radiate from inside it.",
       "altaDescription" : "I can look like a stardust scout with this!",
@@ -120,7 +120,7 @@
     },
     "breathing_pack" : {
       "baseAsset" : "/items/armors/backitems/oxygentank/oxygentank.back", "price" : 800,
-      "shortdescription" : "Alta Breathing Pack", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ ], "race" : "alta",
+      "shortdescription" : "Alta Breathing Pack", "level" : 4, "itemTags" : [ ], "race" : "alta",
       "description" : "A pair of tanks filled with condensed oxygen (or any other breathable substance), made by latest alta safety protocols.",
       "longdescription" : "Most often than not it contains an artificial breathable compound gas (or ABCG for short), most compatible with altas.",
       "altaDescription" : "Useful to have one of these with you when you're in space. Or I guess in lava?",
@@ -142,7 +142,7 @@
     },
     "crayon" : {
       "baseAsset" : "/items/armors/biome/colorful/crayonredback/crayonredback.back", "price" : 820,
-      "shortdescription" : "Crystal Crayon", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ ], "race" : "alta",
+      "shortdescription" : "Crystal Crayon", "level" : 4, "itemTags" : [ ], "race" : "alta",
       "description" : "A gigantic crayon that you can wear on your back! Comes in many colors popular among altas!",
       "longdescription" : "Since many altas are used to playing and drawing with crayons in either Elin Gardens or CorFals (correctional facilities), this item might be more than familiar to them.",
       "altaDescription" : "Oaa, I used to have a set of these back in the CorFal! Except, well, smaller. I remember losing one at some point, but my caretaker found it a day later!",
@@ -175,7 +175,7 @@
     },
     "antennas" : {
       "baseAsset" : "/items/armors/decorative/costumes/predatory/predatory.back", "price" : 920,
-      "shortdescription" : "Alta Antennas", "level" : 5, "rarity" : "Rare", "itemTags" : [ ], "race" : "alta",
+      "shortdescription" : "Alta Antennas", "level" : 5, "itemTags" : [ ], "race" : "alta",
       "description" : "A set of protected hitech appendages with an unclear purpose.",
       "longdescription" : "These are often seen on technical units, as well as alta androids.",
       "altaDescription" : "An EDS transmitter. Compatible with some body armor models, but there's always a useful adapter just in case.",

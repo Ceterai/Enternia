@@ -21,7 +21,7 @@
   "presets" : {
     "yaara" : {
       "baseAsset" : "/items/armors/decorative/costumes/rainbowood/rainbowwood.head", "price" : 600,
-      "shortdescription" : "Yaara Mask", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nature", "yaara" ],
+      "shortdescription" : "Yaara Mask", "level" : 4, "itemTags" : [ "nature", "yaara" ],
       "description" : "It's like someone beheaded some weird ^#20f080;yaara^reset; creature.",
       "longdescription" : "Worth noting that the wooden texture of this peace of costume doesn't reflect it's protective capabilities.",
       "altaDescription" : "Very... planty?",
@@ -43,8 +43,7 @@
     },
     "yaara_keeper" : {
       "baseAsset" : "/items/armors/floran/floran-tier5manipulator/florantier5manipulator.head",
-      "price" : 1060,
-      "shortdescription" : "Yaara Keeper's Helmet ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
+      "shortdescription" : "Yaara Keeper's Helmet ^#20f080;^reset;", "level" : 4, "itemTags" : [ "yaara", "yaara_keeper" ], "race" : "floran",
       "description" : "A plant-based piece of armor fused with very sturdy materials, decorated with ^#20f080;yaara^reset; leaves, petals and crystals.",
       "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disguise.",
       "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
@@ -67,7 +66,7 @@
     "yaara_keeper_mask" : {
       "baseAsset" : "/items/armors/floran/floran-tier5separator/florantier5separator.head",
       "price" : 600,
-      "shortdescription" : "Yaara Keeper's Mask", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yaara" ], "category" : "headwear", "leveledStatusEffects" : [ ],
+      "shortdescription" : "Yaara Keeper's Mask", "level" : 4, "itemTags" : [ "yaara" ], "category" : "headwear", "leveledStatusEffects" : [ ],
       "description" : "A floran ceremonial mask. It's like you went to a floran carnival!", "race" : "floran",
       "longdescription" : "Perfect for special occasions and to hide your identity.",
       "altaDescription" : "This mask belongs to a yaara keeper. Am I allowed to wear it?",
@@ -101,7 +100,7 @@
     },
     "yaara_shaman_mask" : { "baseAsset" : "/items/armors/floran/floran-tier6manipulator/florantier6manipulator.head",
       "price" : 600,
-      "shortdescription" : "Yaara Shaman's Mask ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "yaara" ], "category" : "headwear", "leveledStatusEffects" : [ ],
+      "shortdescription" : "Yaara Shaman's Mask ^#2080f0;^reset;", "level" : 5, "itemTags" : [ "yaara" ], "category" : "headwear", "leveledStatusEffects" : [ ],
       "description" : "A fierce looking ritualistic mask full of ornaments designating a shaman among ^#20f080;yaara keepers^reset;.", "race" : "floran",
       "longdescription" : "Enchanted eyes and a silent grin are the least disquieting aspects of this terrifying mask.",
       "altaDescription" : "This mask belongs to a yaara keeper. Am I allowed to wear it?",
@@ -136,7 +135,7 @@
     "yaara_keeper_crown" : {
       "baseAsset" : "/items/armors/decorative/hats/greenfinger/greenfinger.head",
       "price" : 630, "race" : "floran",
-      "shortdescription" : "Yaarafinger's Crown ^#8020f0;^reset;", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "nature", "yaara", "pretty", "valuable" ],
+      "shortdescription" : "Yaarafinger's Crown ^#8020f0;^reset;", "level" : 6, "itemTags" : [ "nature", "yaara", "pretty", "valuable" ],
       "description" : "An ornate headdress, denoting a ^#20f080;Yaara Keeper^reset; as the ^#20f080;Greenfinger^reset; of their tribe.",
       "longdescription" : "This floran relic can vary in shape and materials from tribe to tribe.",
       "altaDescription" : "An extremely precious yaara keeper relic. I should treat it with care.",
@@ -173,7 +172,7 @@
 
     "aric_headcap" : {
       "baseAsset" : "/items/armors/biome/mushroom/mushroom/mushroom.head", "price" : 600,
-      "shortdescription" : "Aric Headcap", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nature", "aric" ],
+      "shortdescription" : "Aric Headcap", "level" : 4, "itemTags" : [ "nature", "aric" ],
       "description" : "With this hat, you'll be a fungi to be around.",
       "longdescription" : "...Also it might be toxic so be careful.", "foundIn" : [ "^#3baf2f;Biome Chests^reset;", "^#3baf2f;Aric Merchant^reset;" ],
       "altaDescription" : "Doesn't seem to be toxic, so probably safe to wear.",
@@ -194,7 +193,7 @@
     },
     "aric_toxicap" : {
       "baseAsset" : "/items/armors/biome/mushroom/evilmushroom/evilmushroom.head", "price" : 600,
-      "shortdescription" : "Aric Toxicap", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nature", "aric" ],
+      "shortdescription" : "Aric Toxicap", "level" : 5, "itemTags" : [ "nature", "aric" ],
       "description" : "It never stops staring. Who would make such a thing?",
       "longdescription" : "...Also it might be toxic so be careful.", "foundIn" : [ "^#3baf2f;Biome Chests^reset;", "^#3baf2f;Aric Merchant^reset;" ],
       "altaDescription" : "Will I become toxic if I wear this? I don't want to insult my friends...",
@@ -215,7 +214,7 @@
     },
     "flower" : {
       "baseAsset" : "/items/armors/decorative/hats/protectorateflower/protectorateflower.head",
-      "shortdescription" : "Alta Flower", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "nature", "gyera", "flower", "pretty", "patriotic" ], "race" : "alta",
+      "shortdescription" : "Alta Flower", "level" : 3, "itemTags" : [ "nature", "gyera", "flower", "pretty", "patriotic" ], "race" : "alta",
       "description" : "This fake flower made out of silk represents one of common alta colors.", "foundIn" : [ "Crafting", "^#b0e0fc;Alta Gardener^reset;" ], "price" : 200,
       "longdescription" : "A symbol of patriotism and innocence, this flower is often worn by some ^#b0e0fc;alta social workers^reset; and ^#b0e0fc;alta caretakers^reset;.",
       "altaDescription" : "I like what this flower represents. An how it sits on my hair, too.",
@@ -236,7 +235,7 @@
     },
     "felistraza" : {
       "baseAsset" : "/items/armors/decorative/hats/protectorateflower/protectorateflower.head",
-      "shortdescription" : "Felistraza", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nature", "gyera", "flower", "pretty" ], "price" : 600,
+      "shortdescription" : "Felistraza", "level" : 5, "itemTags" : [ "nature", "gyera", "flower", "pretty" ], "price" : 600,
       "description" : "A very rare ionic flower that makes for a great hair accessory.", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
       "longdescription" : "It often growns as part of a felistraze bushes, that can grow up to 2 meters in height. You can often find 3-5 flowers per bush.",
       "altaDescription" : "This is quite a find. As far as I remember, these are not usually for sale.",
@@ -257,7 +256,7 @@
     },
     "flower_crown" : {
       "baseAsset" : "/items/armors/decorative/hats/hawaiian/hawaiian.head",
-      "shortdescription" : "Gyera Flower Crown ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nature", "gyera", "flower", "pretty" ], "price" : 640,
+      "shortdescription" : "Gyera Flower Crown ^#2080f0;^reset;", "level" : 5, "itemTags" : [ "nature", "gyera", "flower", "pretty" ], "price" : 640,
       "description" : "This pretty crown was made with different flowers found around ^#b0e0fc;gyera parks^reset;.", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
       "longdescription" : "Often worn by nature-lowing altas, and those altas who're not afraid to put some ^#80f020;haven^reset; flowers on their head too.",
       "altaDescription" : "I don't know how someone can not put it on their head immediately. So beautiful!",

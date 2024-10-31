@@ -10,6 +10,8 @@ import IFD_support_script as IFD
 import MPI_support_script as MPI
 import EES_support_script as EES
 import WI_support_script as WI
+import SIP_support_script as SIP
+import RB_support_script as RB
 import generate_tenant_guide as TG
 import json
 
@@ -29,6 +31,8 @@ IFD.run()
 MPI.run()
 EES.run()
 WI.run()
+SIP.run()
+RB.run()
 
 # Updates the Tenant Guide
 TG.run()
@@ -41,5 +45,7 @@ print('Affected files:\n' + '\n'.join(['- ' + path for path in (
     MPI.AFFECTED_FILES +
     EES.AFFECTED_FILES +
     WI.AFFECTED_FILES +
+    SIP.AFFECTED_FILES +
+    RB.AFFECTED_FILES +
     [METADATA_PATH]
 )]))

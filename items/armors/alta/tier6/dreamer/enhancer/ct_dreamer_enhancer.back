@@ -3,8 +3,8 @@
   "shortdescription" : "Dreamer's Enhancer",
   "description" : "A worn device that enhances a dreamer's abilities. Has an augment slot.",
 
-  "level" : 6, "price" : 640, "rarity" : "Legendary",
-  "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",  "maxStack" : 1,
+  "level" : 6,
+  "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",
   "race" : "alta", "itemTags" : [ "tier6armour", "dreamer" ],
 
   "pickupQuestTemplates" : [ ],
@@ -46,8 +46,8 @@
 
   "presets" : {
     "koywa" : {
-      "shortdescription" : "Thermo Thrusters ^#20f080;^reset;", "itemTags" : [ "tier4armour" ],
-      "level" : 4, "elementalType" : "fire", "price" : 680, "rarity" : "Uncommon", "statusEffects" : [ "ct_ionic_clouds" ],
+      "shortdescription" : "Thermo Thrusters ^#20f080;^reset;", "itemTags" : [ "tier4armour", "thermo" ],
+      "level" : 4, "elementalType" : "fire", "statusEffects" : [ "ct_ionic_clouds" ],
       "description" : "These camo-painted backthrusters blend in perfectly with koywa fields! Almost perfectly. Often used by riverside scouts.",
       "longdescription" : "The design is meant to protect the wearer with heat bursts and bost their movement at the same time.",
       "altaDescription" : "Some powerful thrusters to let you go far.", "alkey" : "Gaush Virexi",

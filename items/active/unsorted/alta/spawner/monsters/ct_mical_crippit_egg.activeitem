@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_mical_crippit_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Rare", "price" : 280, "level" : 5,
+  "rarity" : "Rare", "price" : 240, "level" : 5,
   "twoHanded" : false, "pet" : "ct_mical_crippit",
   "animation" : "/items/active/unsorted/alta/spawner/default.animation",
   "scripts" : [ "/items/active/unsorted/alta/spawner/monster_spawn.lua" ],

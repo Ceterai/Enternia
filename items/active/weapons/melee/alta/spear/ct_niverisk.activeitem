@@ -5,7 +5,7 @@
   "longdescription" : "It's unknown who's bone exactly this is, or if it's even a bone to begin with. If you examine it real closely, you might sense a slight pleasant smell of parfumes.",
   "altaDescription" : "I don't think I should touch this. But I kinda want to... Nope! I might prick a finger, and it seems slightly poisonous.",
   "elementalType" : "poison",
-  "price" : 720, "level" : 5, "rarity" : "Rare",
+  "level" : 5,
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "spear", "warped", "nivera", "upgradeableWeapon" ],
 
@@ -61,7 +61,6 @@
     "description" : "This nivera spear gives off a strong scent of ^#ffa8e8;stardust^reset; and unknown pheromones. Holding it somehow feels a little wrong...",
     "longdescription" : "It belongs to ^gray;Estria^reset;, one of the ^#9b2d3f;queens of thorns^reset;. She used this spear to lure in and capture unsuspecting altas, in order to try and make friends. The venom isn't meant to be harmful to altas, as much as restrict their movement, preventing them from running away easily.",
     "inventoryIcon" : "ct_niverisk_2.png", "animationParts" : { "blade" : "ct_niverisk_2.png" },
-    "price" : 800, "rarity" : "Legendary",
     "primaryAbility" : {
       "name" : "Estria's Love",
       "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nEnters a charged state every 5 (-5) seconds, making next 5 (+1) hits deal bonus electric damage.",

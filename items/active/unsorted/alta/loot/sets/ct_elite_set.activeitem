@@ -6,16 +6,13 @@
   "altaDescription" : "A full set of prime armor. Maximum defense! All that's left is to step aboard ^#b0e0fc;Al'deron^reset; in this.",
 
   "inventoryIcon" : "ct_elite_set.png",
-  "treasure" : { "pool" : "ct_elite_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_elite_set" },
   "animationParts" : { "gun" : "ct_elite_set.png" },
 
-  "level" : 6, "price" : 3200, "rarity" : "Legendary", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 6, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "elite", "alta_ship", "capital" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Elite Guard" : { }, "Prime Varda" : { }, "Elite Forces" : { } } }, "alkey" : "Prime Veus"
 }

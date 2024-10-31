@@ -5,7 +5,7 @@
   "longdescription" : "Protospears are used to gather energy and covert it into kinetic force, allowing scouts to traverse the harshest terrain.",
   "altaDescription" : "Oh wow, I love these! You can almost fly with them, with just a proper swing of an arm! ..Better be mindful of landing though. Preferably in advance.",
   "elementalType" : "electric",
-  "level" : 4, "price" : 720, "rarity" : "Uncommon", "race" : "alta",
+  "level" : 4, "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "spear", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "melee", "spear", "protogear", "plasma", "upgradeableWeapon" ],
 
@@ -212,7 +212,7 @@
     "description" : "This ^#ffa8e8;stardust^reset; relic belongs to Protea. Seems like it's yours now. Enjoy!",
     "longdescription" : "And don't forget to say thank you, because this tool was very important to her.",
     "inventoryIcon" : "ct_protospear_2.png", "animationParts" : { "blade" : "ct_protospear_2.png" },
-    "price" : 520, "rarity" : "Legendary", "elementalType" : "electric",
+    "elementalType" : "electric",
     "primaryAbility" : {
       "name" : "Protea's Gift",
       "description" : "A sequence of 4 (+1) light strikes. Hold to perform a Super Heavy Slash.\nHold to launch yourself into the air.",

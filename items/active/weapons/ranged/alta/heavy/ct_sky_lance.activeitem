@@ -5,7 +5,7 @@
   "elementalType" : "ice",
   "race" : "alta",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "sniperRifle",
@@ -51,7 +51,6 @@
     "animationParts" : { "middle" : "ct_sky_lance_2.png" },
     "shortdescription" : "Eva Linn ^#8020f0;^reset;",
     "description" : "An advanced ^#60c0fc;arknight^reset; tool designed to withstand the cold and pressure in the skyes of Eva & ^#6f6c66;Astera^reset;.",
-    "altAbility" : { "name" : "Heaven's Gaze" },
-    "price" : 800, "rarity" : "Legendary"
+    "altAbility" : { "name" : "Heaven's Gaze" }
   }
 }

@@ -6,16 +6,9 @@
   "altaDescription" : "It smells of dreams... To be honest... I wouldn't mind to... Take a nap... Too... ...",
   "foundIn" : [ "^#2080f0;Alterash Prime^reset; ^gray;asteroids^reset;" ],
 
-  "level" : 5, "price" : 20, "rarity" : "Rare",
-
-  "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "energy_source", "armor", "enternia" ], "tooltipKind" : "ct_alta_item",
-
+  "level" : 5,
+  "itemTags" : [ "reagent", "energy_source", "armor", "enternia" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_enterite.png",
-
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottedItem" : "",
-  "rottingMultiplier" : 0.03,
-
   "builder" : "/items/buildscripts/alta/item.lua"
 }

@@ -5,23 +5,14 @@
   "longdescription" : "This includes mostly, well, bionid. It can also contain tonnova fruits and other similar materials, as well as some simple tonna-based dishes.",
   "altaDescription" : "Could really go for a tonnakada right about now. Let's test my luck!",
 
-  "level" : 4, "price" : 80, "rarity" : "Uncommon",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 4,
   "itemTags" : [ "loot", "bionid" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_bionid_loot.png",
   "animationParts" : { "gun" : "ct_bionid_loot.png" },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : ["ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
-
-  "treasure" : {
-    "pool" : "ct_bionid_loot",
-    "level" : 1
-  },
-
+  "treasure" : { "pool" : "ct_bionid_loot" },
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Bionid Crate" : { } } }, "alkey" : "Bionid Pad"
 }

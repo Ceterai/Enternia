@@ -6,7 +6,7 @@
 
   "elementalType" : "physical",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_3",
   "twoHanded" : true, "category" : "shotgun",
@@ -135,7 +135,6 @@
     "animationParts" : { "middle" : "ct_bishyn_gun_2.png" },
     "shortdescription" : "Bishyn Cannon ^#8020f0;^reset;",
     "description" : "This massive blaster now shoots ^#378754;bishyn^reset; crystals encrusted with ^#ffa8e8;stardust^reset;.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ] } }
   }
 }

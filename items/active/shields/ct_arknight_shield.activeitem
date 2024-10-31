@@ -5,38 +5,23 @@
   "longdescription" : "Its compact yet tall structure makes it very convenient during air combat, and its energy receptors allow it to slowly recharge its duration.",
   "altaDescription" : "I can use this as huge snowboard! Or, well, as a shield. But a lot of my arknight friends use it as snowboards too, sooo...",
 
-  "level" : 5, "rarity" : "Rare", "price" : 480,
-
-  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1", "itemTags" : [ "shield", "arknight", "upgradeableWeapon" ],
-  "twoHanded" : false, "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "shield", "arknight", "upgradeableWeapon" ],
+  "category" : "shield", "tooltipKind" : "ct_alta_weapon_1",
 
   "inventoryIcon" : "ct_arknight_shield.png",
-
-  "animation" : "shield.animation",
-  "animationParts" : {
-    "shield" : "images/ct_arknight_shield.png"
-  },
+  "animationParts" : { "shield" : "images/ct_arknight_shield.png" },
   "animationCustom" : {
-    "globalTagDefaults" : { "paletteSwaps" : "" },
-    "animatedParts" : { "parts" : { "shield" : { "properties" : {
-        "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ]
-    }, "partStates" : { "shield" : {
-        "idle" : { "properties" : { "image" : "<partImage>:<hand>idle<paletteSwaps><directives>" } },
-        "raised" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } },
-        "block" : { "properties" : { "image" : "<partImage>:<hand>raised<paletteSwaps><directives>" } }
-    } }
-    }}},
+    "animatedParts" : { "parts" : {
+        "shield" : { "properties" : { "shieldPoly" : [ [-0.5, -1.75], [-0.5, 2.0], [0.75, 1.25], [0.75, -1.0] ] } }
+    } },
     "sounds" : {
-      "init" : [ ],
       "raiseShield" : [ "/sfx/melee/sword_guard.ogg" ],
       "perfectBlock" : [ "/sfx/melee/shield_block_metal_perfect.ogg" ],
       "block" : [ "/sfx/melee/shield_block_metal.ogg" ],
       "break" : [ "/sfx/melee/shield_break_metal.ogg" ]
     }
   },
-
-  "scripts" : ["/items/active/shields/ct_alta_shield.lua"],
 
   "primaryAbility" : {
     "name" : "Armored Shield",
@@ -54,21 +39,6 @@
 
   "knockback" : 16,
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : -90,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    },
-    "raised" : {
-      "armRotation" : 0,
-      "shieldRotation" : 0,
-      "allowRotate" : false,
-      "allowFlip" : true
-    }
-  },
-
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
@@ -77,7 +47,6 @@
     "shortdescription" : "Eva Protos ^#8020f0;^reset;",
     "description" : "A ^#ffa8e8;stardust^reset; relic used by ^#60c0fc;arknight^reset; heros. A message is engraved on the back of the shield. It reads \"Stars look over you\".",
     "longdescription" : "Its mysterious cosmic shine distinquishes it from the rest of arknight shields. The energy within is slowly pulsating, waiting to release in a surge.",
-    "price" : 520, "rarity" : "Legendary",
     "paletteSwap" : {"#f6f6f6" : "#4c5064", "#d8dcf0" : "#383c50", "#b0b4c8" : "#24283c", "#606478" : "#101428",
       "#0050c0" : "#00c097", "#2080f0" : "#20f0bd", "#60c0fc" : "#fc60c0", "#b0e0fc" : "#fcb0e0"},
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/grenade_reload_clip1.ogg" ], "raiseShield" : [ "/sfx/gun/mech_multidrone1.ogg" ] } }

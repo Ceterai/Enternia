@@ -6,16 +6,13 @@
   "altaDescription" : "I think this set was designed by Ceterai herself. Interesting how these researchers got help from someone who seemingly went away. But then again, we're not the ones to blame her.",
 
   "inventoryIcon" : "ct_ceterai_set.png",
-  "treasure" : { "pool" : "ct_ceterai_set", "level" : 1 },
+  "treasure" : { "pool" : "ct_ceterai_set" },
   "animationParts" : { "gun" : "ct_ceterai_set.png" },
 
-  "level" : 6, "price" : 3200, "rarity" : "Legendary", "race" : "alta",
-  "category" : "mysteriousReward", "maxStack" : 1000, "twoHanded" : false, "tooltipKind" : "ct_alta_item_long",
+  "level" : 6, "price" : 3200, "race" : "alta",
   "itemTags" : [ "set", "ceterai" ],
-
-  "animation" : "/items/active/unsorted/alta/loot/ct_alta_loot.animation",
-  "scripts" : [ "/items/active/unsorted/alta/loot/ct_alta_loot.lua" ],
-
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "C.T. Researcher" : { }, "Tiana's Set" : { }, "C.T. Arcia" : { } } }, "alkey" : "C.T. Veus"
 }

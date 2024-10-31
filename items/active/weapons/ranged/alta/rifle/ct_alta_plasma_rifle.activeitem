@@ -7,7 +7,7 @@
   "elementalType" : "electric",
   "race" : "alta",
 
-  "level" : 5, "price" : 720, "rarity" : "Rare",
+  "level" : 5,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
   "twoHanded" : true, "category" : "assaultRifle",
@@ -70,7 +70,6 @@
     "description" : "This improved NG5 model has enhanced energy capacity due to the use of ^#ffa8e8;stardust^reset;.",
     "longdescription" : "The integrated crystal acts as an energy booster, and the updated rapid generator allows for longer high loads.",
     "altaDescription" : "These are sometimes attached to heavy machinery as an in-place defence mechanism.",
-    "price" : 800, "rarity" : "Legendary",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/npc/boss/cultistboss_beamwindup.ogg" ] } }
   }
 }

@@ -5,24 +5,14 @@
   "longdescription" : "Park management equipment, gardener tech, seeds and samples are the most common things to appear in this.",
   "altaDescription" : "It smells of flowers and colorful crystals. Yes, some of them do smell, and it's beautiful.",
 
-  "level" : 1, "price" : 80, "rarity" : "Common",
-  "race" : "alta",
-  "maxStack" : 1000, "category" : "mysteriousReward", "twoHanded" : true, "tooltipKind" : "ct_alta_item",
+  "level" : 1, "race" : "alta",
   "itemTags" : [ "loot", "garden", "gyera" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_gyera_loot.png",
   "animationParts" : { "gun" : "ct_gyera_loot.png" },
-  "animation" : "ct_alta_loot.animation",
-  "scripts" : ["ct_alta_loot.lua"],
-
-  "fireTime" : 1.0,
-  "fireOffset" : [0.5, 0.0],
-
-  "treasure" : {
-    "pool" : "ct_gyera_loot",
-    "level" : 1
-  },
-
+  "treasure" : { "pool" : "ct_gyera_loot" },
   "builder" : "/items/buildscripts/alta/item.lua",
+
   "wiki" : { "aliases" : { "Gyera Crate" : { } } }, "alkey" : "Gyera Pad"
 }
