@@ -10,9 +10,16 @@ def get_folder(name: str):
     return os.path.dirname(name).replace(ROOT, '').replace('\\', '/')
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-REPO_PATH = 'https://github.com/Ceterai/Enternia/tree/main'
+MODS = os.path.dirname(ROOT)
+META = os.path.join(ROOT, '.meta')
+WIKI = os.path.join(META, 'wiki')
+RELEASE = os.path.join(META, 'release')
+STARBOUND = os.path.dirname(MODS)
+REPO = 'https://github.com/Ceterai/Enternia'
+IMAGE_PATH = 'https://raw.githubusercontent.com/Ceterai/Enternia/main'
+REPO_PATH = f'{REPO}/blob/main'
 HINT_PATH = __file__.replace(ROOT, '').replace('\\', '/').replace(get_file(__file__), '')
-HINT = '// Mod Support for {mod}, generated with this script: ' + REPO_PATH + HINT_PATH + '{name}'
+HINT = '// Mod Support for {mod}, generated with this script: ' + REPO_PATH + HINT_PATH + 'mods/{name}'
 
 def get_paths_flat(roots: list[str] = ['']) -> list[str]:
     paths = []

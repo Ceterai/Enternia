@@ -1,0 +1,58 @@
+{
+  "objectName" : "ct_isoslime_ceiling1",
+  "colonyTags" : [ "alterash_prime", "isoslime", "izopoi", "slime" ],
+  "category" : "breakable",
+  "level" : 1, "rarity" : "Common", "price" : 60,
+  "race" : "generic",
+
+  "shortdescription" : "Isoslime Driplet",
+  "description" : "A glob of dripping ^#7ddcde;isoslime^reset;.",
+  "altaDescription" : "An isoslime deposit. It's dripping a little bit.",
+
+  "apexDescription" : "A slime deposit. It appears to be dripping.",
+  "avianDescription" : "A disgusting slime ball.",
+  "floranDescription" : "Floran wants to avoid touching ssslime.",
+  "glitchDescription" : "Disgusted. A viscous slime deposit.",
+  "humanDescription" : "Slime is so gross.",
+  "hylotlDescription" : "Slime isn't so bad when your skin is already slimy.",
+  "novakidDescription" : "Oozing slime.",
+
+  "lightColor" : [0, 50, 40],
+
+  "particleEmitter" : {
+    "emissionRate" : 0.2,
+    "emissionVariance" : 0.5,
+    "pixelOrigin" : [5, -10],
+
+    "particle" : {
+      "type" : "ember",
+      "size" : 1.0,
+      "color" : [90, 211, 133, 255],
+      "fade" : 0.9,
+      "initialVelocity" : [0.0, -2],
+      "finalVelocity" : [0.0, -5],
+      "approach" : [0, 10],
+      "timeToLive" : 4.0,
+      "layer" : "back"
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/biome/alterash_prime/isoslime/ct_isoslime_ceiling1/ct_isoslime_ceiling1.png",
+      "imagePosition" : [-3, -9],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/blocks/water_swim.ogg" ],
+  "smashParticles" : [ { "count" : 8, "particle" : "jellyshard" } ],
+  "smashDropPool" : "ct_smashable_isoslime",
+
+  "biomePlaced" : true,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

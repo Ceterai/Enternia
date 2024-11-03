@@ -50,7 +50,7 @@ Support for this mod consists of 2 parts:
 
 I decided to write my own script in python similar to what I did with [Wardrobe Interface](#wardrobe-interface).
 
-The script is located here: [`/.meta/scripts/SIP_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/SIP_support_script.py)
+The script is located here: [`/.meta/scripts/mods/SIP.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/SIP.py)
 
 Currently, the way SIP compiles the list of its "recipes" doesn't allow passing parameters, which are used by a lot of items in this mod, so a lot of items are not available through SIP.
 
@@ -70,7 +70,7 @@ Output files:
 
 Made in accordance to the general guide made by the author of the mod: [Tutorial: How to add support between your mod and EE for Starbound.](https://steamcommunity.com/workshop/filedetails/discussion/1790667104/1642042464747956675/)
 
-The script can be found here: [`/.meta/scripts/EES_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/EES_support_script.py)
+The script can be found here: [`/.meta/scripts/mods/EES.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/EES.py)
 
 The resulting file is [`/EES_transmutationstudylist.config.patch`](https://github.com/Ceterai/Enternia/blob/main/EES_transmutationstudylist.config.patch).
 
@@ -86,7 +86,7 @@ To do that, I've made a python script that goes accross the mod directories, fin
 
 That's it!
 
-The script can be found here: [`/.meta/scripts/IFD_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/IFD_support_script.py)
+The script can be found here: [`/.meta/scripts/mods/IFD.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/IFD.py)
 
 ![ ](/.meta/images/showcase/2.0.0/improved_food_descriptions.png)
 
@@ -106,7 +106,7 @@ It creates a batch patch file (a patch file consisting of separate lists of batc
 
 The resulting file is [`/interface/cockpit/cockpit.config.patch`](https://github.com/Ceterai/Enternia/blob/main/interface/cockpit/cockpit.config.patch).
 
-The script can be found here: [`/.meta/scripts/MPI_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/MPI_support_script.py)
+The script can be found here: [`/.meta/scripts/mods/MPI.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/MPI.py)
 
 ### True Space
 
@@ -129,7 +129,7 @@ There are two parts to making your mod support Race Traits:
 - have your traits listed in a `/stats/effects/om_customstats/om_racetraits/om_racetraits.statuseffect.patch` file;
 - have your species include an extended description listing said traits.
 
-This is done automatically via the following script: [`/.meta/scripts/RT_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/RT_support_script.py)
+This is done automatically via the following script: [`/.meta/scripts/mods/RT.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/RT.py)
 
 The script uses initial data (such as original species description and a general list of all possible species-specific traits) from this file: [`/.meta/alta.config`](https://github.com/Ceterai/Enternia/blob/main/.meta/alta.config)
 
@@ -145,7 +145,7 @@ Support for this mod is similar to Race Traits:
 - have your species include an extended description listing said traits;
 - have your food have specific effects to make it correspond to diets (WIP).
 
-This is done automatically via the following script: [`/.meta/scripts/FU_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/FU_support_script.py)
+This is done automatically via the following script: [`/.meta/scripts/mods/FU.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/FU.py)
 
 The script uses initial data (such as original species description and a general list of all possible species-specific traits) from this file: [`/.meta/alta.config`](https://github.com/Ceterai/Enternia/blob/main/.meta/alta.config)
 
@@ -190,7 +190,7 @@ There is a guide for generating support for this mod: [Wardrobe Interface Wiki: 
 
 Still, I decided to write my own script in python since that's what I'm more used to and something I can customize and run together with other mod support scripts.
 
-The script is located here: [`/.meta/scripts/WI_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/WI_support_script.py)
+The script is located here: [`/.meta/scripts/mods/WI.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/WI.py)
 
 Output files:
 
@@ -220,7 +220,7 @@ The mod author has provided a lot of ways to generate a patch, one of them being
 
 For this mod, a modified version of that script was used to make a patch specific to this mod.
 
-The script is located here: [`/.meta/scripts/RB_support_script.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/RB_support_script.py)
+The script is located here: [`/.meta/scripts/mods/RB.py`](https://github.com/Ceterai/Enternia/blob/main/.meta/scripts/mods/RB.py)
 
 The resulting file is [`/data/FullDatabase.database.patch`](https://github.com/Ceterai/Enternia/blob/main/data/FullDatabase.database.patch).
 

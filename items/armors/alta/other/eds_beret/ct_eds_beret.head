@@ -3,9 +3,9 @@
   "shortdescription" : "^#f02020;EDS^reset; Duty Beret",
   "description" : "Decorative on-duty ^#b0e0fc;alta^reset; ^#f02020;EDS^reset; headwear.",
 
-  "level" : 5, "price" : 240, "rarity" : "Rare",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5clothing", "eds", "patriotic" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

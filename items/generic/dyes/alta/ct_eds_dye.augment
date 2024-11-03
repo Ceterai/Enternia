@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_eds_dye",
+  "shortdescription" : "^#f02020;EDS^reset; Dye",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "longdescription" : "This dye imitates the shades of a piece of EDS armor, as well as regular red EDS dye.",
+  "altaDescription" : "Ooh, this almost looks like actual EDS armor!",
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "dye", "eds" ],
+  "category" : "clothingDye", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_eds_dye.png",
+
+  "dyeDirectives" : {
+    "f6f6f6":"707088", "d8dcf0":"606074", "b0b4c8":"404050", "606478":"2c2c34",  // ALTAN
+    "e6e9ea":"707088", "c6d2d4":"606074", "959ea2":"404050", "464a4c":"2c2c34",  // TITANIUM
+    "6d7278":"707088", "505559":"606074", "373b3e":"404050", "1c1c1e":"2c2c34",  // DARK METAL
+    "4c5064":"707088", "383c50":"606074", "24283c":"404050", "101428":"2c2c34",  // BION
+    "707088":"ca002b", "606074":"a42b2b", "404050":"762222", "2c2c34":"551b1b",  // EDS ARMOR
+    "ffca8a":"707088", "e0975c":"606074", "a85636":"404050", "6f2919":"2c2c34"   // DEFAULT
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

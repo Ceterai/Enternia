@@ -3,6 +3,7 @@ import base
 
 WIKI_URL = 'https://raw.githubusercontent.com/wiki/Ceterai/Enternia/'
 FILE_PATH = '/.meta/wiki/tenants.md'
+AFFECTED_FILES = [FILE_PATH]
 CATEGORIES = {
     'alta' : '## Alta',
     'casual' : '### Casual',
@@ -89,7 +90,7 @@ class Tenant:
     @property
     def class_str(self):
         output = self.raw.get('wiki', {}).get('class', '')
-        return f'({output})' if output else output
+        return f' ({output})' if output else output
 
     @property
     def images(self) -> dict[str]:
@@ -154,7 +155,7 @@ def get_table_row(tenant: Tenant):
 {tenant.icon}
 </td><td>
 
-Type: **{tenant.name}** {tenant.class_str}
+Type: **{tenant.name}**{tenant.class_str}
 
 Tags: {tenant.tags_str}
 
@@ -189,3 +190,4 @@ def get_text():
 def run():
     with open(base.ROOT + FILE_PATH, 'w') as guide:
         guide.write(get_text())
+    return AFFECTED_FILES

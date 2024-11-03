@@ -118,7 +118,9 @@ end
 
 function getBaseAsset(config, parameters)  -- applying asset params as a preset
   if not parameters.cfg then
-    local cfg = sb.jsonMerge(root.assetJson(parameters.baseAsset), copy(parameters))
+    local base = root.assetJson(parameters.baseAsset)
+    nullify(base, {"price", "rarity"})
+    local cfg = sb.jsonMerge(base, copy(parameters))
     cfg.tooltipKind = parameters.tooltipKind or config.tooltipKind
     replaceRegexInData(cfg, parameters.baseAsset:gsub('[^/]+$', ''))
     parameters = {baseAsset=parameters.baseAsset, cfg=cfg, upgraded=parameters.upgraded}

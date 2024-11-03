@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_bion_dye",
+  "shortdescription" : "Bion Dye",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "longdescription" : "This dye imitates the shades of a piece of bion compound, as well as regular bionic glow.",
+  "altaDescription" : "Ooh, this almost looks like actual bion!",
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "dye", "bion" ],
+  "category" : "clothingDye", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_bion_dye.png",
+
+  "dyeDirectives" : {
+    "f6f6f6":"4c5064", "d8dcf0":"383c50", "b0b4c8":"24283c", "606478":"101428",  // ALTAN
+    "e6e9ea":"4c5064", "c6d2d4":"383c50", "959ea2":"24283c", "464a4c":"101428",  // TITANIUM
+    "6d7278":"4c5064", "505559":"383c50", "373b3e":"24283c", "1c1c1e":"101428",  // DARK METAL
+    "4c5064":"71d4f8", "383c50":"10b4ef", "24283c":"1090c0", "101428":"106890",  // BION
+    "707088":"4c5064", "606074":"383c50", "404050":"24283c", "2c2c34":"101428",  // EDS ARMOR
+    "ffca8a":"4c5064", "e0975c":"383c50", "a85636":"24283c", "6f2919":"101428"   // DEFAULT
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

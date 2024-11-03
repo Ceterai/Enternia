@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 16 },
+    { "item" : "ct_alta_security-codex", "count" : 2 },
+    { "item" : "ct_alta_security_ai_chip", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 2 }
+  ],
+  "duration" : 1.25,
+  "output" : { "item" : "ct_alta_security_android", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier4_security", "l4", "spawner", "androids", "consumables", "all", "mod" ]
+}

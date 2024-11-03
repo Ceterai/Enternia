@@ -1,4 +1,4 @@
-// This file contains initial cockpit info that gets enhanced by the MPI_support_script.py script.
+// This file contains initial cockpit info that gets enhanced by the MPI.py script.
 [
   { "op": "add", "path": "/planetTypeNames/ct_alterash_planet", "value": "Alterash" },
   { "op": "add", "path": "/planetTypeColors/ct_alterash_planet", "value": [32, 240, 128] },

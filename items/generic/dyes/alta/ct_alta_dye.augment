@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_alta_dye",
+  "shortdescription" : "Alta Dye",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "longdescription" : "This dye imitates the shades of a piece of refined alta titanium called \"altan\", as well as regular blue alta dye.",
+  "altaDescription" : "Ooh, this almost looks like actual metal!",
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "dye", "altan" ],
+  "category" : "clothingDye", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_alta_dye.png",
+
+  "dyeDirectives" : {
+    "f6f6f6":"9cd8ff", "d8dcf0":"78bae3", "b0b4c8":"4182cf", "606478":"1e54a1",  // ALTAN
+    "e6e9ea":"f6f6f6", "c6d2d4":"d8dcf0", "959ea2":"b0b4c8", "464a4c":"606478",  // TITANIUM
+    "6d7278":"f6f6f6", "505559":"d8dcf0", "373b3e":"b0b4c8", "1c1c1e":"606478",  // DARK METAL
+    "4c5064":"f6f6f6", "383c50":"d8dcf0", "24283c":"b0b4c8", "101428":"606478",  // BION
+    "707088":"f6f6f6", "606074":"d8dcf0", "404050":"b0b4c8", "2c2c34":"606478",  // EDS ARMOR
+    "ffca8a":"f6f6f6", "e0975c":"d8dcf0", "a85636":"b0b4c8", "6f2919":"606478"   // DEFAULT
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

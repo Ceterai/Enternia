@@ -42,18 +42,18 @@
     },
     "boomerang" : {
       "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
-      "shortdescription" : "Boomerang", "rarity" : "Common",
+      "shortdescription" : "Boomerang",
       "description" : "A simple alta toy with powerful thrusters. You won't use it for hurting anyone, right?",
       "longdescription" : "Its simple shape and common alta colors make it a staple in alta culture and a common item at ^#497c64;alterash riverside^reset; resorts.",
       "altaDescription" : "What a classic. I should play with the girls sometimes if I happen to have this with me.",
       "tooltipKind" : "ct_alta_weapon_1",
       "level" : 2, "race" : "alta", "itemTags" : [ "weapon", "ranged", "boomerang", "toy", "upgradeableWeapon" ],
       "foundIn" : [ "^#b0e0fc;Alta Party Girl^reset;" ],
-      "upgradeParameters" : { "rarity" : "Legendary", "shortdescription" : "Powerang ^#8020f0;^reset;" }
+      "upgradeParameters" : { "shortdescription" : "Powerang ^#8020f0;^reset;" }
     },
     "r_power" : {
       "baseAsset" : "/items/active/weapons/other/exmachina/exmachina.activeitem",
-      "shortdescription" : "R-Power Prototype ^#2080f0;^reset;", "price" : 720,
+      "shortdescription" : "R-Power Prototype ^#2080f0;^reset;",
       "description" : "A powerful cannon that utilizes ^#7ddcde;isoslime^reset; both as coolant and as missile component.",
       "longdescription" : "This heavy energy tool has outside origins and was simply altered in a Neiteru alta lab.",
       "altaDescription" : "This is quite bulky, not sure if I'll be able to lift it up...",
@@ -69,13 +69,13 @@
       },
       "foundIn" : [ "^#b0e0fc;Alta Cargo Manager^reset; (5+ tier)" ],
       "upgradeParameters" : {
-        "shortdescription" : "R-Powercannon ^#8020f0;^reset;", "rarity" : "Legendary",
+        "shortdescription" : "R-Powercannon ^#8020f0;^reset;",
         "paletteSwap" : {"#9da8af":"#707088","#676f83":"#606074","#3d3d51":"#404050","#24232f":"#2c2c34","#141414":"#202028","#e6e6e6":"#e0b0fc","#7b7b7b":"#c060fc","#373737":"#8020f0"}
       }
     },
     "eds_heavy" : {
       "baseAsset" : "/items/active/weapons/ranged/unrand/doomcannon/doomcannon.activeitem",
-      "shortdescription" : "^#f02020;EDS^reset; Heavy Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 720,
+      "shortdescription" : "^#f02020;EDS^reset; Heavy Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "price" : 720,
       "description" : "This armored cannon containing a powerful phosic energen can generate multiple accelerated blasts at once.",
       "longdescription" : "All the armor hide a complex cooling system needed to contain and redirect all the energy from the phosicores inside.",
       "altaDescription" : "One of the heavier EDS defense developments, literally. Not very high on amount of functions, but pretty high on blastpower instead.",
@@ -93,7 +93,7 @@
       "altAbility" : { "projectileType" : "grenade", "name" : "Physnade", "description" : "Launches a simple physical nade." },
       "tooltipKind" : "ct_alta_weapon_2",
       "upgradeParameters" : {
-        "shortdescription" : "Vermillion ^#8020f0;^reset;", "rarity" : "Legendary",
+        "shortdescription" : "Vermillion ^#8020f0;^reset;",
         "description" : "An impressive, massive energy tool, able to produce enhaced energy pellets. This great power often comes a lot of weight, so make sure to bring an exo-skeleton.",
         "longdescription" : "Named after a major EDS center that emraced enternia technology, this tool reflects that energy by isolating that anargy from all the ^#ffa8e8;stardust^reset;.",
         "primaryAbility" : { "name" : "Vermilliada-X",
@@ -104,7 +104,7 @@
     },
     "railgun" : {  // https://starbounder.org/Tesla%27s_Wrath
       "baseAsset" : "/items/active/weapons/other/electricrailgun/electricrailgun.activeitem",
-      "shortdescription" : "^#8020f0;Enter^reset;-Railgun ^#8020f0;^reset;", "level" : 6, "race" : "alta", "price" : 720,
+      "shortdescription" : "^#8020f0;Enter^reset;-Railgun ^#8020f0;^reset;", "level" : 6, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "sniperrifle", "ionic" ], "elementalType" : "electric",
       "description" : "Dreamers hunting on ethereal nightmares of enterash often use means of appropriate size, no matter the limits...",
       "longdescription" : "The markings on the side mention Avida - possibly a dreamer, or an alta recearcher who created this tool.",
@@ -128,7 +128,7 @@
     },
     "baton" : {  // https://starbounder.org/Electro_Baton
       "baseAsset" : "/items/active/weapons/other/electrobaton/electrobaton.activeitem",
-      "shortdescription" : "Impulsolver ^#2080f0;^reset;", "level" : 5, "race" : "alta", "price" : 480, "rarity" : "Rare",
+      "shortdescription" : "Impulsolver ^#2080f0;^reset;", "level" : 5, "race" : "alta",
       "itemTags" : [ "weapon", "shortsword", "impulse", "upgradeableWeapon" ], "elementalType" : "electric",
       "description" : "This literal energy tool is meant to be used for diffusing enchanted traps and reacting to miazmas.",
       "longdescription" : "Generally used by scientific alta groups, its design is secondary to its function.",
@@ -189,11 +189,11 @@
         "description" : "The energy-generated \"blade\" of this tool deals electric damage on impact. Be careful!"
       },
       "tooltipKind" : "ct_alta_weapon_1",
-      "upgradeParameters" : { "shortdescription" : "Pulse Rejector ^#8020f0;^reset;", "rarity" : "Legendary" }
+      "upgradeParameters" : { "shortdescription" : "Pulse Rejector ^#8020f0;^reset;" }
     },
     "horn" : {  // https://starbounder.org/Ixodoom_Claw
       "baseAsset" : "/items/active/weapons/bossdrop/ixodoomclaw/ixodoomclaw.activeitem",
-      "shortdescription" : "Barracuda's Horn", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 720,
+      "shortdescription" : "Barracuda's Horn", "level" : 4, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "A horn from an especially massive cuda lurking in the flooded alterash caves.",
       "longdescription" : "It looks polished due to special cover that can be found on some appendages of rare cudas.",
@@ -207,7 +207,7 @@
       "altAbility" : { "description" : "Launches a poison wave, dealing damage to all targets in its path." },
       "tooltipKind" : "ct_alta_weapon_2",
       "upgradeParameters" : {
-        "shortdescription" : "Barracuda's Wing ^#8020f0;^reset;", "rarity" : "Legendary",
+        "shortdescription" : "Barracuda's Wing ^#8020f0;^reset;",
         "paletteSwap" : {"#9da8af":"#c9ccdb","#676f83":"#8e95a8","#3d3d51":"#5e6675","#24232f":"#363b45","#aab893":"#ecf9dc","#7c916f":"#c1dfae","#546951":"#87b684","#30362f":"#4a784e"}
       }
     },
@@ -226,7 +226,7 @@
       "altAbility" : { "description" : "Launches a shrapnel blast pack." },
       "tooltipKind" : "ct_alta_weapon_2",
       "upgradeParameters" : {
-        "shortdescription" : "S'urysk ^#8020f0;^reset;", "rarity" : "Legendary",
+        "shortdescription" : "S'urysk ^#8020f0;^reset;",
         "paletteSwap" : {"#657988":"#707088","#434d5e":"#606074","#313247":"#404050","#555555":"#4c5064","#383838":"#383c50","#151515":"#24283c","#1adde3":"#9bdcff","#249fb8":"#7abfe4","#38667c":"#5d9dbf"}
       }
     },
@@ -237,7 +237,7 @@
 
     "mirazh" : {  // loot https://starbounder.org/Violium_Shortsword
       "baseAsset" : "/items/active/weapons/protectorate/violiumshortsword/violiumshortsword.activeitem",
-      "shortdescription" : "Mirazh ^#8020f0;^reset;", "level" : 6, "race" : "alta", "price" : 480,
+      "shortdescription" : "Mirazh ^#8020f0;^reset;", "level" : 6, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "shortsword", "ionic", "dreamer" ], "elementalType" : "electric",
       "description" : "An energy sword wrapped in sturdy heat-reducing astera materials. A favorite of any spacedrifter.",
       "primaryAbility" : { "name" : "Plasmablade", "description" : "Simple plasmic attacks that might take additional energy to generate." },
@@ -245,16 +245,16 @@
     },
     "neo_orbit" : {  // shop https://starbounder.org/Neo_Chakram
       "baseAsset" : "/items/active/weapons/chakram/neochakram.activeitem",
-      "shortdescription" : "Energo-Orbit ^#20f080;^reset;", "level" : 4, "race" : "alta", "rarity" : "Uncommon", "price" : 480,
+      "shortdescription" : "Energo-Orbit ^#20f080;^reset;", "level" : 4, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "chakram", "plasma", "upgradeableWeapon" ], "elementalType" : "electric",
       "description" : "Crackling with destructive energy.",
       "primaryAbility" : { "name" : "Orbiting Throw", "description" : "A spinned throw that makes this chakram crease with energy." },
       "tooltipKind" : "ct_alta_weapon_1",
-      "upgradeParameters" : { "shortdescription" : "Energo-Aperture ^#8020f0;^reset;", "rarity" : "Legendary" }
+      "upgradeParameters" : { "shortdescription" : "Energo-Aperture ^#8020f0;^reset;" }
     },
     "neo_mp" : {  // shop https://starbounder.org/Neo_Uzi
       "baseAsset" : "/items/active/weapons/ranged/unrand/neouzi/neouzi.activeitem",
-      "shortdescription" : "Neo-MP ^#8020f0;^reset;", "level" : 6, "race" : "alta", "price" : 480,
+      "shortdescription" : "Neo-MP ^#8020f0;^reset;", "level" : 6, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "machinepistol", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "A neo model fuzed with alta tech an various protocols. Its batteries generate plasma with high levels of acidity.",
       "animationCustom" : {"lights":{"laser":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}},"sounds":{"fire":["/sfx/gun/rocket_poison1.ogg"]}},
@@ -272,17 +272,17 @@
     },
     "warper" : {  // loot https://starbounder.org/Alien_Worm_Gun
       "baseAsset" : "/items/active/weapons/other/tentaclegun/wormgun.activeitem",
-      "shortdescription" : "Venomous Warper", "level" : 5, "race" : "alta", "rarity" : "Rare", "price" : 720,
+      "shortdescription" : "Venomous Warper", "level" : 5, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "A full on creature that you can wear on your hand. Be careful - its tentacles are pretty venomous...",
       "animationCustom" : {"lights":{"venom":{"transformationGroups":["weapon"],"active":true,"position":[3.3,0.385],"color":[0,90,40]}}},
       "primaryAbility" : { "name" : "Venomous Kiss", "description" : "Exposes its tentacles one by one, each touch equally dangerous." },
       "tooltipKind" : "ct_alta_weapon_1",
-      "upgradeParameters" : { "shortdescription" : "Toxiwarper ^#8020f0;^reset;", "rarity" : "Legendary" }
+      "upgradeParameters" : { "shortdescription" : "Toxiwarper ^#8020f0;^reset;" }
     },
     "astrosabredeluxe" : {  // shop https://starbounder.org/Asuterosaberu_DX
       "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
-      "shortdescription" : "Asterix", "level" : 6, "race" : "alta", "price" : 720,
+      "shortdescription" : "Asterix", "level" : 6, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "Reinforced titanium blade polished with pure stardust... It shimmers in the dark, as if reflecting light that's not there.",
       "primaryAbility" : { "name" : "Starblade", "description" : "A set of attacks that glitter with stardust." },
@@ -295,7 +295,7 @@
 
     "warped_shield" : {
       "baseAsset" : "/items/active/shields/eyeshield.activeitem",
-      "shortdescription" : "Warped Shield ^#20f080;^reset;", "level" : 4, "itemTags" : [ "shield", "warped", "eyepatch" ], "rarity" : "Uncommon", "price" : 480,
+      "shortdescription" : "Warped Shield ^#20f080;^reset;", "level" : 4, "itemTags" : [ "shield", "warped", "eyepatch" ],
       "description" : "It's not staring at you, I swear.", "foundIn" : [ "^#9b2d3f;Biome Chests^reset;", "^#9b2d3f;Warped Merchant^reset;" ],
       "longdescription" : "Looks like a piece of natural warped growth, full on some sort of herbal bone-like matter, making it pretty sturdy.",
       "altaDescription" : "I'm not scared, but I'd much rather stay behind it than in front of it. Espesially with the venomous sight and all.",
@@ -307,7 +307,7 @@
     },
     "viona_shield" : {
       "baseAsset" : "/items/active/shields/eyeshield.activeitem",
-      "shortdescription" : "Enchanted Shield ^#20f080;^reset;", "level" : 4, "itemTags" : [ "shield", "enchanted", "eyepatch" ], "rarity" : "Uncommon", "price" : 480,
+      "shortdescription" : "Enchanted Shield ^#20f080;^reset;", "level" : 4, "itemTags" : [ "shield", "enchanted", "eyepatch" ],
       "description" : "A very familiar shield, corrupted by ^#8080f0;viona^reset; anomalies.", "foundIn" : [ "^#8080f0;Viona Merchant^reset;" ],
       "longdescription" : "The crystallized globe near the center feels alive in a way. The energy it radiates is similar to miazmas and.. ...did it twitch?..",
       "altaDescription" : "This looks like a corrupted warped shield. As if that's... even a thing? Can you corrupt what's already corrupted? I guess vionia can.",
@@ -318,7 +318,7 @@
     },
     "vi_callista" : {
       "baseAsset" : "/items/active/shields/riotshield.activeitem",
-      "shortdescription" : "Vi-Callista ^#2080f0;^reset;", "level" : 5, "itemTags" : [ "shield", "enchanted", "crystal" ], "rarity" : "Rare", "price" : 480,
+      "shortdescription" : "Vi-Callista ^#2080f0;^reset;", "level" : 5, "itemTags" : [ "shield", "enchanted", "crystal" ],
       "description" : "This ^#76c7e4;crystal^reset; shield is ornamented with ^#8080f0;enchanted^reset; rims.", "foundIn" : [ "^#8080f0;Viona Merchant^reset;" ],
       "longdescription" : "Its pristine nature is a somewhat rare effect of enchanted influence. This indicates its naturally impecable structure.",
       "altaDescription" : "So pretty! I'm interested in how this was made - it looks handmade using crystals, but quite hardened, seemingly due to an anomaly of sorts.",

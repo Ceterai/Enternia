@@ -108,6 +108,32 @@
         {"ffca8a":"ccae7c","e0975c":"a47844","a85636":"754c23","6f2919":"472b13","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
           "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"}
       ]
+    },
+    "archiver" : {
+      "baseAsset" : "/items/armors/decorative/costumes/scientist/scientist.legs",
+      "shortdescription" : "Archiver Bottom", "level" : 4, "itemTags" : [ "tier4clothing", "knowledge" ], "race" : "alta",
+      "description" : "A top half of a scientific coat used by alta archivers. Has lots of pockets for storing all the science goods!",
+      "longdescription" : "The underlayered sweater is pretty worm and cozy, and is a bit softer compared to the regular researcher attire.",
+      "altaDescription" : "The smell of sience is coming from this piece of clothing...",
+      "paletteSwap" : {
+        "#ffca8a":"#606478","#e0975c":"#4c5064","#a85636":"#383c50","#6f2919":"#24283c",
+        "#808080":"#606074","#555555":"#404050","#303030":"#2c2c34",
+        "#a47844":"#606074","#754c23":"#404050","#472b13":"#2c2c34"
+      },
+      "colorOptions" : [  // Alta Dark
+        { "e6e6e6" : "f6f6f6", "b6b6b6" : "d8dcf0", "7b7b7b" : "b0b4c8" },  // ALTA LIGHT (DEFAULT)
+        { "e6e6e6" : "707088", "b6b6b6" : "606074", "7b7b7b" : "404050" },  // ALTA DARK (BLACK)
+        { "e6e6e6" : "b5b5b5", "b6b6b6" : "808080", "7b7b7b" : "555555" },  // GREY
+        { "e6e6e6" : "f6f6f6", "b6b6b6" : "d8dcf0", "7b7b7b" : "b0b4c8" },  // ALTA LIGHT (WHITE)
+        { "e6e6e6" : "f4988c", "b6b6b6" : "d93a3a", "7b7b7b" : "932625" },  // RED
+        { "e6e6e6" : "ffd495", "b6b6b6" : "ea9931", "7b7b7b" : "af4e00" },  // ORANGE
+        { "e6e6e6" : "ffffa7", "b6b6b6" : "e2c344", "7b7b7b" : "a46e06" },  // YELLOW
+        { "e6e6e6" : "b2e89d", "b6b6b6" : "51bd3b", "7b7b7b" : "247824" },  // GREEN
+        { "e6e6e6" : "96cbe7", "b6b6b6" : "5588d4", "7b7b7b" : "344495" },  // BLUE
+        { "e6e6e6" : "d29ce7", "b6b6b6" : "a451c4", "7b7b7b" : "6a2284" },  // PURPLE
+        { "e6e6e6" : "eab3db", "b6b6b6" : "d35eae", "7b7b7b" : "97276d" },  // PINK
+        { "e6e6e6" : "ccae7c", "b6b6b6" : "a47844", "7b7b7b" : "754c23" }   // BROWN
+      ]
     }
   }
 }

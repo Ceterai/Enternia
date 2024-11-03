@@ -5,10 +5,9 @@
   "longdescription" : "Just like other pieces of alta laboratory attire, this one provides full body coverage with optional gloves to complete the set.",
   "altaDescription" : "A nice middleground between official-ness and practicality.",
 
-  "level" : 5, "price" : 320, "rarity" : "Rare",
-  "category" : "chestwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 5, "race" : "alta",
   "itemTags" : [ "tier5clothing", "science", "pelizhar" ],
-  "race" : "alta",
+  "category" : "chestwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : {
@@ -82,7 +81,7 @@
       "description" : "An official Tserera researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true }
     },
     "eds" : {
-      "shortdescription" : "EDS Researcher Coat", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
+      "shortdescription" : "^#f02020;EDS^reset; Researcher Coat", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
       "description" : "An official EDS researcher's coat. Practical and well thought-out.", "wiki" : { "skip" : true },
       "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
     }

@@ -1603,6 +1603,46 @@
         "race": "alta"
     },
     {
+        "path": "/items/active/unsorted/alta/spawner/androids/",
+        "fileName": "ct_alta_android.activeitem",
+        "name": "ct_alta_android",
+        "shortdescription": "Android",
+        "category": "throwableItem",
+        "icon": "ct_alta_android.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/androids/",
+        "fileName": "ct_alta_capital_android.activeitem",
+        "name": "ct_alta_capital_android",
+        "shortdescription": "Imperial Android",
+        "category": "throwableItem",
+        "icon": "ct_alta_capital_android.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/androids/",
+        "fileName": "ct_alta_lab_android.activeitem",
+        "name": "ct_alta_lab_android",
+        "shortdescription": "Alta Lab Android",
+        "category": "throwableItem",
+        "icon": "ct_alta_lab_android.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/androids/",
+        "fileName": "ct_alta_security_android.activeitem",
+        "name": "ct_alta_security_android",
+        "shortdescription": "Security Android",
+        "category": "throwableItem",
+        "icon": "ct_alta_security_android.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/items/active/unsorted/alta/spawner/bugs/",
         "fileName": "ct_alto_zych_egg.activeitem",
         "name": "ct_alto_zych_egg",
@@ -1709,6 +1749,46 @@
         "category": "throwableItem",
         "icon": "ct_vio_zych_egg.png",
         "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/helpers/",
+        "fileName": "ct_alta_roomba.activeitem",
+        "name": "ct_alta_roomba",
+        "shortdescription": "Roomba",
+        "category": "throwableItem",
+        "icon": "ct_alta_roomba.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/helpers/",
+        "fileName": "ct_alta_waiter.activeitem",
+        "name": "ct_alta_waiter",
+        "shortdescription": "Waiter",
+        "category": "throwableItem",
+        "icon": "ct_alta_waiter.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/helpers/",
+        "fileName": "ct_arco_scanner.activeitem",
+        "name": "ct_arco_scanner",
+        "shortdescription": "Enviroscanner",
+        "category": "throwableItem",
+        "icon": "ct_arco_scanner.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/unsorted/alta/spawner/helpers/",
+        "fileName": "ct_eds_gardis.activeitem",
+        "name": "ct_eds_gardis",
+        "shortdescription": "^#f02020;EDS^reset; Gardis",
+        "category": "throwableItem",
+        "icon": "ct_eds_gardis.png",
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/items/active/unsorted/alta/spawner/monsters/",
@@ -4195,6 +4275,46 @@
         "rarity": "legendary"
     },
     {
+        "path": "/items/generic/dyes/alta/",
+        "fileName": "ct_alta_dye.augment",
+        "name": "ct_alta_dye",
+        "shortdescription": "Alta Dye",
+        "category": "clothingDye",
+        "icon": "ct_alta_dye.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/dyes/alta/",
+        "fileName": "ct_bion_dye.augment",
+        "name": "ct_bion_dye",
+        "shortdescription": "Bion Dye",
+        "category": "clothingDye",
+        "icon": "ct_bion_dye.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/dyes/alta/",
+        "fileName": "ct_eds_dye.augment",
+        "name": "ct_eds_dye",
+        "shortdescription": "^#f02020;EDS^reset; Dye",
+        "category": "clothingDye",
+        "icon": "ct_eds_dye.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/dyes/alta/",
+        "fileName": "ct_titanium_dye.augment",
+        "name": "ct_titanium_dye",
+        "shortdescription": "Titanium Dye",
+        "category": "clothingDye",
+        "icon": "ct_titanium_dye.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/items/generic/food/other/",
         "fileName": "ct_aya_powder.item",
         "name": "ct_aya_powder",
@@ -6214,16 +6334,6 @@
         "icon": "icon.png",
         "rarity": "legendary",
         "race": "alta"
-    },
-    {
-        "path": "/objects/alta/crafting/deprecation_station/",
-        "fileName": "ct_deprecation_station.object",
-        "name": "ct_deprecation_station",
-        "shortdescription": "^orange;Deprecation Station^reset;",
-        "category": "crafting",
-        "icon": "icon.png",
-        "rarity": "legendary",
-        "race": "generic"
     },
     {
         "path": "/objects/alta/crafting/upgrade_station/",
@@ -9861,26 +9971,6 @@
         "fileName": "ct_isoslime_blob.object",
         "name": "ct_isoslime_blob",
         "shortdescription": "Isoblob",
-        "category": "breakable",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "generic"
-    },
-    {
-        "path": "/objects/biome/alterash_prime/isoslime/ct_isoslime_ceiling1/",
-        "fileName": "ct_isoslime_ceiling1.object",
-        "name": "ct_isoslime_ceiling1",
-        "shortdescription": "Isoslime Driplet",
-        "category": "breakable",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "generic"
-    },
-    {
-        "path": "/objects/biome/alterash_prime/isoslime/ct_isoslime_ceiling2/",
-        "fileName": "ct_isoslime_ceiling2.object",
-        "name": "ct_isoslime_ceiling2",
-        "shortdescription": "Isoslime Ceilglob",
         "category": "breakable",
         "icon": "icon.png",
         "rarity": "common",

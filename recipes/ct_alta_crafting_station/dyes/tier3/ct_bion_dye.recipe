@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 1 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_bion_dye",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_t3+", "alta", "combat", "dyes", "all" ]
+}

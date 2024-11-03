@@ -64,7 +64,7 @@ function release()
     aggressive = self.monster.aggressive
   }))
   if entityId then
-    local position = world.callScriptedEntity(entityId, "findGroundPosition", world.entityPosition(entityId), -10, 10, false)
+    local position = world.callScriptedEntity(entityId, "findGroundPosition", world.entityPosition(entityId), -30, 30, false)
     if position then world.callScriptedEntity(entityId, "mcontroller.setPosition", position) end
   end
 end

@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4](#234)
     - [2.3.3d](#233d)
     - [2.3.3c](#233c)
     - [2.3.3b](#233b)
@@ -57,6 +58,66 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.4
+
+This mini-patch mostly focuses on bugs and improving the mod's codebase.
+
+**Main:**
+
+- added proper archiver coats;
+- bug fixes.
+
+**Alta:**
+
+- added proper variations for the archiver NPC coats - sold by archivers or crafted in **Ultimate Crafting Station**:
+  - **Archiver Top**;
+  - **Archiver Bottom**.  
+  ![ ](/.meta/images/showcase/2.3.4/archiver1.png) ![ ](/.meta/images/showcase/2.3.4/archiver2.png) ![ ](/.meta/images/showcase/2.3.4/archiver3.png)
+- added 4 critter-like **Robohelpers** that can spawn naturally or be spawned with an item, and can be relocated:
+  - **Roomba**;
+  - **Waiter**;
+  - **Enviroscanner**;
+  - **EDS Gardis**.  
+  ![ ](/.meta/images/showcase/2.3.4/alta_critter.png)
+- added 4 spawners for **Androids**:
+  - **Android**;
+  - **Security Android**;
+  - **Alta Lab Android**;
+  - **Imperial Android**.  
+  ![ ](/.meta/images/showcase/2.3.4/android.png) ![ ](/.meta/images/showcase/2.3.4/security_android.png) ![ ](/.meta/images/showcase/2.3.4/lab_android.png) ![ ](/.meta/images/showcase/2.3.4/capital_android.png)
+- added 4 custom **Armor Dyes** - somewhat unpredictable dyes for armor parts of clothing:
+  - **Alta Dye**;  
+  ![ ](/.meta/images/showcase/2.3.4/dye_alta1.png) ![ ](/.meta/images/showcase/2.3.4/dye_alta2.png) ![ ](/.meta/images/showcase/2.3.4/dye_alta3.png)
+  - **Titanium Dye**;  
+  ![ ](/.meta/images/showcase/2.3.4/dye_titanium1.png) ![ ](/.meta/images/showcase/2.3.4/dye_titanium2.png) ![ ](/.meta/images/showcase/2.3.4/dye_titanium3.png) ![ ](/.meta/images/showcase/2.3.4/dye_titanium4.png)
+  - **Bion Dye**;  
+  ![ ](/.meta/images/showcase/2.3.4/dye_bion1.png) ![ ](/.meta/images/showcase/2.3.4/dye_bion2.png) ![ ](/.meta/images/showcase/2.3.4/dye_bion3.png) ![ ](/.meta/images/showcase/2.3.4/dye_bion4.png)
+  - **EDS Dye**.  
+  ![ ](/.meta/images/showcase/2.3.4/dye_eds1.png) ![ ](/.meta/images/showcase/2.3.4/dye_eds2.png) ![ ](/.meta/images/showcase/2.3.4/dye_eds3.png)
+
+**Critters:**
+
+- added 20 critters that can be found throughout the world:
+  - **Archiver Top**;
+  - **Archiver Bottom**.
+
+**Translation:**
+
+- all rarity names were moved to `/items/buildscripts/ct_texts.config`;
+- all added dyes, critters, robohelpers and androids.
+
+**Dev:**
+
+- optimized the item builder code slightly again;
+- moved deprecated objects so they don't show up in SIP;
+- added an auto-deploy script;
+- monster spawner items can now spawn npcs as well.
+
+**Other:**
+
+- updated prices for some cosmetic items and added proper item tags;
+- minor bug fixes.
+
 ### 2.3.3d
 
 This mini-patch mostly focuses on bugs and improving the mod's codebase.
@@ -76,8 +137,8 @@ This mini-patch mostly focuses on bugs and improving the mod's codebase.
 - the `itemTags` property is no longer updated for most items - a potential fix for the **Armor Adapt** conflict;
 - added item defaults - some parameters like price no longer need to be defined for most items;
 - added rarity calculation - improves rarity and makes it dependent on item level;
-- added custom mod support script for **Spawnable Item Pack**: `/.meta/scripts/SIP_support_script.py`;
-- added custom mod support script for **Recipe Browser**: `/.meta/scripts/RB_support_script.py`.
+- added custom mod support script for **Spawnable Item Pack**: `/.meta/scripts/mods/SIP.py`;
+- added custom mod support script for **Recipe Browser**: `/.meta/scripts/mods/RB.py`.
 
 **Other:**
 

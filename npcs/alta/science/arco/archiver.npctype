@@ -9,8 +9,8 @@
       [0, [
         {
           "head" : [ { "name" : "ct_alta_respiratory_mask" } ],
-          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 0 } } ],
-          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "ct_body_mimic", "parameters" : { "colorIndex" : 0, "preset" : "archiver" } } ],
+          "legs" : [ { "name" : "ct_legs_mimic", "parameters" : { "colorIndex" : 0, "preset" : "archiver" } } ],
           "back" : [ { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : 5 } } ]
         }
       ] ]

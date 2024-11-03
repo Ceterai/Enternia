@@ -12,8 +12,8 @@
       [0, [
         {
           "head" : [ "" ],
-          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 0 } } ],
-          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 0 } } ],
+          "chest" : [ { "name" : "ct_body_mimic", "parameters" : { "preset" : "archiver" } } ],
+          "legs" : [ { "name" : "ct_legs_mimic", "parameters" : { "preset" : "archiver" } } ],
           "back" : [ { "name" : "ct_alta_backpack" } ]
         }
       ] ]

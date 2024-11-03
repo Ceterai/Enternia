@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_titanium_dye",
+  "shortdescription" : "Titanium Dye",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "longdescription" : "This dye imitates the shades of a piece of regular titanium, often used by the Miniknog.",
+  "altaDescription" : "I think this is what MKI intruders use to make our tech look like Miniknog's.",
+  "race" : "alta",
+  "itemTags" : [ "dye", "titanium" ],
+  "category" : "clothingDye", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_titanium_dye.png",
+
+  "dyeDirectives" : {
+    "f6f6f6":"e6e9ea", "d8dcf0":"c6d2d4", "b0b4c8":"959ea2", "606478":"464a4c",  // ALTAN
+    "e6e9ea":"b0fcf9", "c6d2d4":"60fcf9", "959ea2":"20d3f0", "464a4c":"009cc0",  // TITANIUM
+    "6d7278":"e6e9ea", "505559":"c6d2d4", "373b3e":"959ea2", "1c1c1e":"464a4c",  // DARK METAL
+    "4c5064":"6d7278", "383c50":"505559", "24283c":"373b3e", "101428":"1c1c1e",  // BION
+    "707088":"e6e9ea", "606074":"c6d2d4", "404050":"959ea2", "2c2c34":"464a4c",  // EDS ARMOR
+    "ffca8a":"e6e9ea", "e0975c":"c6d2d4", "a85636":"959ea2", "6f2919":"464a4c"   // DEFAULT
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

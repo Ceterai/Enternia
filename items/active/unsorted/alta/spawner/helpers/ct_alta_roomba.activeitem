@@ -1,0 +1,41 @@
+{
+  "itemName" : "ct_alta_roomba",
+  "shortdescription" : "Roomba",
+  "description" : "Can be used to deploy a persistent alta roomba helper droid.",
+  "longdescription" : "Alta roombas are simple cleaning robots, used in many alta facilities, often as companions for alta cleaners and alta waiters.",
+  "altaDescription" : "So cute! I want to get out of its way as quickly as possible!",
+
+  "primaryAbility" : {
+    "name" : "Friendly Helper",
+    "description" : "This small robotic helper was designed to help altals in their daily work, and thus isn't a threat.  \nCan be relocated with a Relocator."
+  },
+
+  "passiveAbility" : {
+    "name" : "Persistent",
+    "description" : "Whenever you leave, it will wait for you to come back! ^gray;(Doesn't despawn.)^reset;"
+  },
+
+  "inventoryIcon" : "ct_alta_roomba.png",
+  "itemTags" : [ "throwable", "spawner", "robotics", "droid" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "droid",
+  "price" : 400, "level" : 3, "race" : "alta",
+  "twoHanded" : false, "pet" : "ct_alta_roomba", "baseParameters" : { "persistent" : true },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

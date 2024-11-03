@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_ai_chip", "count" : 1 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 1 }
+  ],
+  "duration" : 1.625,
+  "output" : { "item" : "ct_arco_scanner", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_arco", "l5", "spawner", "robohelpers", "consumables", "all", "mod" ]
+}

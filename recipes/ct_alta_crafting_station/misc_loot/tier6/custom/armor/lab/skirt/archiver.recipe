@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_legs_mimic", "count" : 1, "parameters" : { "preset" : "archiver" } },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_max", "alta", "tserera", "clothing", "legs", "all", "mod" ]
+}

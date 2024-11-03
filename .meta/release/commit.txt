@@ -1,0 +1,52 @@
+Update 2.3.4
+
+This mini-patch mostly focuses on bugs and improving the mod's codebase.
+
+Main:
+
+- added proper archiver coats;
+- bug fixes.
+
+Alta:
+
+- added proper variations for the archiver NPC coats - sold by archivers or crafted in Ultimate Crafting Station:
+  - Archiver Top;
+  - Archiver Bottom.  
+- added 4 critter-like Robohelpers that can spawn naturally or be spawned with an item, and can be relocated:
+  - Roomba;
+  - Waiter;
+  - Enviroscanner;
+  - EDS Gardis.  
+- added 4 spawners for Androids:
+  - Android;
+  - Security Android;
+  - Alta Lab Android;
+  - Imperial Android.  
+- added 4 custom Armor Dyes - somewhat unpredictable dyes for armor parts of clothing:
+  - Alta Dye;  
+  - Titanium Dye;  
+  - Bion Dye;  
+  - EDS Dye.  
+
+Critters:
+
+- added 20 critters that can be found throughout the world:
+  - Archiver Top;
+  - Archiver Bottom.
+
+Translation:
+
+- all rarity names were moved to `/items/buildscripts/ct_texts.config`;
+- all added dyes, critters, robohelpers and androids.
+
+Dev:
+
+- optimized the item builder code slightly again;
+- moved deprecated objects so they don't show up in SIP;
+- added an auto-deploy script;
+- monster spawner items can now spawn npcs as well.
+
+Other:
+
+- updated prices for some cosmetic items and added proper item tags;
+- minor bug fixes.

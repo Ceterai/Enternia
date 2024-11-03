@@ -3,10 +3,9 @@
   "shortdescription" : "Researcher Skirt",
   "description" : "An official A.R.C.O. researcher's legwear. Compiled by designers from Pelizhar.",
 
-  "level" : 5, "price" : 320, "rarity" : "Rare",
-  "category" : "legwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 5, "race" : "alta",
   "itemTags" : [ "tier5clothing", "science", "pelizhar" ],
-  "race" : "alta",
+  "category" : "legwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
@@ -72,7 +71,7 @@
       "description" : "An official Tserera researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true }
     },
     "eds" : {
-      "shortdescription" : "EDS Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
+      "shortdescription" : "^#f02020;EDS^reset; Researcher Skirt", "itemTags" : [ "tier5clothing", "science", "eds" ], "colorIndex" : 4,
       "description" : "An official EDS researcher's legwear. Practical and well thought-out.", "wiki" : { "skip" : true },
       "paletteSwap" : { "#f6f6f6" : "#707088", "#d8dcf0" : "#606074", "#b0b4c8" : "#404050", "#606478" : "#2c2c34" }
     }

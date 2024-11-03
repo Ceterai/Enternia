@@ -94,6 +94,7 @@ function throwProjectile()
 
   params.monster = {
     type = self.pet,
+    species = config.getParameter("petSpecies", nil),
     damageTeam = config.getParameter("damageTeam"),
     level = monsterLevel(),
     aggressive = true,

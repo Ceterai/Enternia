@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "ct_datamass", "count" : 2 },
+    { "item" : "ct_alta_ai_chip", "count" : 1 },
+    { "item" : "ct_force_shielder", "count" : 1 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "ct_alta_android", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier3_scout", "l3", "spawner", "androids", "consumables", "all", "mod" ]
+}

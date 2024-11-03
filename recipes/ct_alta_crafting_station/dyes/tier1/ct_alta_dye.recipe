@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 1 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_dye",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_t1+", "alta", "alta_basic", "dyes", "all" ]
+}

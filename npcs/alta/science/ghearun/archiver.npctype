@@ -8,8 +8,8 @@
     "override" : [
       [0, [
         {
-          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 1 } } ],
-          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 1 } } ],
+          "chest" : [ { "name" : "ct_body_mimic", "parameters" : { "colorIndex" : 1, "preset" : "archiver" } } ],
+          "legs" : [ { "name" : "ct_legs_mimic", "parameters" : { "colorIndex" : 1, "preset" : "archiver" } } ],
           "back" : [ { "name" : "ct_alta_backpack", "parameters" : { "colorIndex" : 7 } } ]
         }
       ] ]

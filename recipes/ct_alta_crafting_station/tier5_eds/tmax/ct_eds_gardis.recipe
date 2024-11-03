@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_eds_ai_chip", "count" : 1 },
+    { "item" : "ct_eds_armor", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 1 }
+  ],
+  "duration" : 1.625,
+  "output" : { "item" : "ct_eds_gardis", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_eds", "l5", "spawner", "robohelpers", "consumables", "all", "mod" ]
+}

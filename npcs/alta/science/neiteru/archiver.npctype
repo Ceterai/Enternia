@@ -9,8 +9,8 @@
       [0, [
         {
           "head" : [ "" ],
-          "chest" : [ { "name" : "scientistchest", "parameters" : { "colorIndex" : 4 } } ],
-          "legs" : [ { "name" : "scientistlegs", "parameters" : { "colorIndex" : 4 } } ],
+          "chest" : [ { "name" : "ct_body_mimic", "parameters" : { "colorIndex" : 4, "preset" : "archiver" } } ],
+          "legs" : [ { "name" : "ct_legs_mimic", "parameters" : { "colorIndex" : 4, "preset" : "archiver" } } ],
           "back" : [ { "name" : "ct_alta_backpack" } ]
         }
       ] ]

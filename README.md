@@ -22,6 +22,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](.meta/wiki/tenants.md)
 
 - [Installation](#installation)
+  - [Direct](#direct)
   - [Steam](#steam)
   - [Starbound Forums](#starbound-forums)
   - [GitHub](#github)
@@ -45,6 +46,14 @@ Also, check out this helpful tenant guide: [My Enternia Wiki: Tenants](.meta/wik
 ## Installation
 
 These are all the different ways to obtain the mod - choose whichever one you like!
+
+### Direct
+
+**Recommended for servers** - download the mod in either `.zip` or `.pak` format via a direct link to the file:
+
+`https://github.com/Ceterai/Enternia/releases/download/<version>/My.Enternia.<version>.<zip/pak>`
+
+Simply replace `<version>` with the desired version (for example `2.3.4`), and `<zip/pak>` with the desired file type (for example `zip`)!
 
 ### Steam
 
@@ -118,7 +127,6 @@ More information on new weapon features like press&hold, firemodes, attachments 
 
 Having these mods doesn't crash the game, but using them with altas will not work.
 
-Temporary partially **incompatible** with [Armor Adapt](https://steamcommunity.com/sharedfiles/filedetails/?id=2601606862) - using armors from this mod with it will cause lag.  
 Temporary partially **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta npcs with it.
 
 #### Supported Addons
@@ -134,7 +142,7 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [Race Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2622273194) (check mod screenshots for stats);
 - [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458));
 - [Quickbar Mini](https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034)/[Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) (adds ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/scanner/icon.png) [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) to the quick bar);
-- [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds 4 A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips) - if you only want the chips and not the rest of the mod - use this instead: [Alta A.I. Chips](https://steamcommunity.com/sharedfiles/filedetails/?id=3276795992);
+- [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips) - if you only want the chips and not the rest of the mod - use this instead: [Alta A.I. Chips](https://github.com/Ceterai/AltaAIChips);
 - [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062) (all armor and clothing from the mod can be found in the wardrobe with proper dying options);
 - [Craftable Seeds NEW](https://steamcommunity.com/sharedfiles/filedetails/?id=1938886559)/[Craftable Seeds](https://steamcommunity.com/sharedfiles/filedetails/?id=731358672) (all crops and saplings from this mod can be crafted in the Seed Maker);
 - [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533) (adds all recipes and crafting stations from this mod to the interface);
@@ -147,8 +155,16 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 #### Other Addon Support
 
 - Starting with 2.3.3 is now compatible with [Monsters Unique Sounds (SFX from Beta)](https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235) - alta drones no longer crash with this mod installed;
-- [Enhanced Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=731220462) is supported with the following patch: [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
-- You can alter alta S.A.I.L. by installing one of the officials patches: [EDS Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277537016), [C.T.O.S. Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277849874).
+- [Armor Adapt](https://steamcommunity.com/sharedfiles/filedetails/?id=2601606862) - armor from this mod no longer causes lag with armor adapt installed;
+- [Enhanced Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=731220462) is supported with the following patch: [My Enternia Enhanced Storage Patch](https://github.com/Ceterai/MyEnterniaEnhancedStoragePatch)
+- You can alter alta S.A.I.L. by installing one of the official patches:
+  - [EDS Alta S.A.I.L.](https://github.com/Ceterai/AltaEDSSAIL)
+  - [C.T.O.S. Alta S.A.I.L.](https://github.com/Ceterai/AltaCTOSSAIL)
+  - [Classic Alta S.A.I.L.](https://github.com/Ceterai/AltaClassicSAIL)
+  - [Alta Security S.A.I.L.](https://github.com/Ceterai/AltaSecuritySAIL)
+- You can alter alta body type by installing one of the official patches:
+  - [Full Alta Body Type](https://github.com/Ceterai/AltaFullBodyType)
+  - [Flat Alta Body Type](https://github.com/Ceterai/AltaFlatBodyType)
 
 #### Information For Modders
 

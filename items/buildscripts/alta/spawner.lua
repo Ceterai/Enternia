@@ -28,16 +28,22 @@ function build(directory, config, parameters, level, seed)
   if pet_params.shortdescription then config.shortdescription = pet_params.shortdescription end
   if not config.description and pet_params.description then config.description = pet_params.description end
   if not config.inventoryIcon then config.inventoryIcon = config.itemName .. '.png' end
-  if not config.animation then config.animation = 'default.animation' end
+  if not config.animation then config.animation = '/items/active/unsorted/alta/spawner/default.animation' end
   if not config.animationParts then config.animationParts = {item = config.inventoryIcon} end
-  if not config.scripts then config.scripts = { 'monster_spawn.lua' } end
+  if not config.scripts then config.scripts = { '/items/active/unsorted/alta/spawner/monster_spawn.lua' } end
   if not config.ammoUsage then config.ammoUsage = 1 end
   -- 3. Merge with monster base parameters
   config = sb.jsonMerge(config, pet_params)
   -- 4. Run through regular builder
   config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
   -- 5. Construct monster preview
-  local img = root.monsterPortrait(config.pet, parameters.baseParameters)
+  local img = nil
+  if config.npc then
+    -- img = root.npcPortrait("bust", config.petSpecies, config.pet, 6.0, seed, parameters.baseParameters)
+    imp = { image = config.inventoryIcon }
+  else
+    img = root.monsterPortrait(config.pet, parameters.baseParameters)
+  end
   local tooltip = config.subtitle or tips.egg
   local frame = config.iconTooltipFrame
   if config.titleTooltip then tooltip = tips[config.titleTooltip] end
@@ -69,22 +75,24 @@ function build(directory, config, parameters, level, seed)
     config.tooltipFields.healthRegenLabel = util.round(stats.healthRegen.baseValue, 2)
 
     function getBlock(value) if value > 0 then return "block" else return "" end end
-    config.tooltipFields.resTitleLabel = tips.resist.title
-    config.tooltipFields.physicalResTitleLabel = tips.resist.physical
-    config.tooltipFields.physicalResLabel = util.round(stats.physicalResistance.baseValue * 100, 0)
-    config.tooltipFields.physicalResImage = "/interface/tooltips/armor.png"
-    config.tooltipFields.fireResTitleLabel = tips.resist.fire
-    config.tooltipFields.fireResLabel = util.round(stats.fireResistance.baseValue * 100, 0)
-    config.tooltipFields.fireResImage = "/interface/statuses/fire" .. getBlock(stats.fireStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.iceResTitleLabel = tips.resist.ice
-    config.tooltipFields.iceResLabel = util.round(stats.iceResistance.baseValue * 100, 0)
-    config.tooltipFields.iceResImage = "/interface/statuses/ice" .. getBlock(stats.iceStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.electricResTitleLabel = tips.resist.electric
-    config.tooltipFields.electricResLabel = util.round(stats.electricResistance.baseValue * 100, 0)
-    config.tooltipFields.electricResImage = "/interface/statuses/electric" .. getBlock(stats.electricStatusImmunity.baseValue) .. ".png"
-    config.tooltipFields.poisonResTitleLabel = tips.resist.poison
-    config.tooltipFields.poisonResLabel = util.round(stats.poisonResistance.baseValue * 100, 0)
-    config.tooltipFields.poisonResImage = "/interface/statuses/poison" .. getBlock(stats.poisonStatusImmunity.baseValue) .. ".png"
+    if stats.physicalResistance then
+      config.tooltipFields.resTitleLabel = tips.resist.title
+      config.tooltipFields.physicalResTitleLabel = tips.resist.physical
+      config.tooltipFields.physicalResLabel = util.round(stats.physicalResistance.baseValue * 100, 0)
+      config.tooltipFields.physicalResImage = "/interface/tooltips/armor.png"
+      config.tooltipFields.fireResTitleLabel = tips.resist.fire
+      config.tooltipFields.fireResLabel = util.round(stats.fireResistance.baseValue * 100, 0)
+      config.tooltipFields.fireResImage = "/interface/statuses/fire" .. getBlock(stats.fireStatusImmunity.baseValue) .. ".png"
+      config.tooltipFields.iceResTitleLabel = tips.resist.ice
+      config.tooltipFields.iceResLabel = util.round(stats.iceResistance.baseValue * 100, 0)
+      config.tooltipFields.iceResImage = "/interface/statuses/ice" .. getBlock(stats.iceStatusImmunity.baseValue) .. ".png"
+      config.tooltipFields.electricResTitleLabel = tips.resist.electric
+      config.tooltipFields.electricResLabel = util.round(stats.electricResistance.baseValue * 100, 0)
+      config.tooltipFields.electricResImage = "/interface/statuses/electric" .. getBlock(stats.electricStatusImmunity.baseValue) .. ".png"
+      config.tooltipFields.poisonResTitleLabel = tips.resist.poison
+      config.tooltipFields.poisonResLabel = util.round(stats.poisonResistance.baseValue * 100, 0)
+      config.tooltipFields.poisonResImage = "/interface/statuses/poison" .. getBlock(stats.poisonStatusImmunity.baseValue) .. ".png"
+    end
   else
     config.tooltipFields.armorTitleLabel = ''  -- removing forced default value
   end

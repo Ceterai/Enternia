@@ -8,11 +8,14 @@
         "poolRounds" : [ [0.1, 1], [0.4, 2], [0.4, 3], [0.1, 4] ],
         "pool" : [  //          total: 1.00
           // Medicine,          total: 0.28
-          {"weight" : 0.04, "item" : "bluestim"},
-          {"weight" : 0.02, "item" : "nanowrap"},
+          {"weight" : 0.03, "item" : "bluestim"},
+          {"weight" : 0.01, "item" : "nanowrap"},
+          {"weight" : 0.02, "item" : [ "ct_alta_dye", 2 ] },
           {"weight" : 0.12, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
-          {"weight" : 0.06, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
-          {"weight" : 0.04, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
+          {"weight" : 0.05, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
+          {"weight" : 0.045, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
+          {"weight" : 0.0025, "item" : "ct_alta_roomba"},
+          {"weight" : 0.0025, "item" : "ct_alta_waiter"},
           // Shop Food,         total: 0.54
           {"weight" : 0.12, "item" : "ct_tsay_cola"},
           {"weight" : 0.12, "item" : "ct_aya_soda"},
@@ -35,8 +38,9 @@
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40
         {"weight" : 0.20, "item" : ["throwingblock", 2]},
-        {"weight" : 0.10, "item" : "titaniumbar"},
-        {"weight" : 0.05, "item" : "ct_datamass"},
+        {"weight" : 0.09, "item" : "titaniumbar"},
+        {"weight" : 0.04, "item" : "ct_datamass"},
+        {"weight" : 0.02, "item" : [ "ct_alta_dye", 2 ] },
         {"weight" : 0.05, "item" : "ct_alta_scout_drone"},
         // Decorations,       total: 0.36
         {"weight" : 0.03, "item" : "ct_alta_bed"},
@@ -76,7 +80,8 @@
         {"weight" : 0.10, "item" : "titaniumbar"},
         {"weight" : 0.10, "item" : "crystal"},
         {"weight" : 0.10, "item" : "ct_alta_energy_cell"},
-        {"weight" : 0.05, "item" : "ct_alta_security_drone"},
+        {"weight" : 0.045, "item" : "ct_alta_security_drone"},
+        {"weight" : 0.005, "item" : "ct_alta_security_android"},
         {"weight" : 0.05, "item" : "ct_electric_stim"},
         // Decorations,       total: 0.36
         {"weight" : 0.04, "item" : "ct_alta_bench"},
@@ -116,9 +121,9 @@
       "poolRounds" : [ [0.1, 3], [0.3, 4], [0.4, 5], [0.2, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.455
-        {"weight" : 0.15, "item" : "ct_eds_armor"},
-        {"weight" : 0.15, "item" : "ct_phosicore"},
-        {"weight" : 0.15, "item" : "ct_bion"},
+        {"weight" : 0.14, "item" : "ct_eds_armor"},
+        {"weight" : 0.14, "item" : "ct_phosicore"},
+        {"weight" : 0.14, "item" : "ct_bion"},
         {"weight" : 0.05, "item" : "ct_alta_watcher_drone"},
         {"weight" : 0.05, "item" : "ct_alta_spider_droid"},
         {"weight" : 0.05, "item" : "ct_impulse_stim"},
@@ -127,6 +132,9 @@
         {"weight" : 0.05, "item" : "ct_impulse_nade"},
         {"weight" : 0.05, "item" : "ct_ionic_nade"},
         {"weight" : 0.05, "item" : "ct_plasma_nade"},
+        {"weight" : 0.025, "item" : [ "ct_bion_dye", 2 ] },
+        {"weight" : 0.004, "item" : "ct_alta_lab_android"},
+        {"weight" : 0.001, "item" : "ct_arco_scanner"},
         {"weight" : 0.10, "item" : "ct_hevikai_antidote"},
         // Decorations,       total: 0.28
         {"weight" : 0.03, "item" : "ct_alta_lab_bed"},
@@ -223,8 +231,9 @@
         {"weight" : 0.05, "item" : "ct_cetersphere"},
         {"weight" : 0.05, "item" : "ct_altersphere"},
         {"weight" : 0.05, "item" : "ct_entersphere"},
-        {"weight" : 0.05, "item" : "ct_alta_defensive_drone"},
-        {"weight" : 0.05, "item" : "ct_alta_stalker_droid"},
+        {"weight" : 0.045, "item" : "ct_alta_defensive_drone"},
+        {"weight" : 0.045, "item" : "ct_alta_stalker_droid"},
+        {"weight" : 0.01, "item" : "ct_alta_capital_android"},
         {"weight" : 0.05, "item" : "ct_hevikai_antidote"},
         {"weight" : 0.10, "item" : "ct_hevikai_stim"},
         // Decorations,       total: 0.36
@@ -290,9 +299,12 @@
   "ct_eds_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
           {"weight" : 0.15, "item" : "ct_eds_armor"},
-          {"weight" : 0.05, "item" : ["ct_eds_armor", 2]},
-          {"weight" : 0.05, "item" : "ct_eds_drone"},
-          {"weight" : 0.05, "item" : "ct_eds_droid"},
+          {"weight" : 0.045, "item" : ["ct_eds_armor", 2]},
+          {"weight" : 0.02, "item" : [ "ct_eds_dye", 2 ]},
+          {"weight" : 0.02, "item" : "ct_eds_dye"},
+          {"weight" : 0.03, "item" : "ct_eds_drone"},
+          {"weight" : 0.03, "item" : "ct_eds_droid"},
+          {"weight" : 0.005, "item" : "ct_eds_gardis"},
           // Nature,            total: 0.04
           {"weight" : 0.02, "item" : "ct_eds_haulter"},
           {"weight" : 0.02, "item" : "ct_eds_haulter_wires"},

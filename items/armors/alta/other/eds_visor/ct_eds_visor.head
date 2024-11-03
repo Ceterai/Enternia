@@ -3,9 +3,9 @@
   "shortdescription" : "^#f02020;EDS^reset; Visor",
   "description" : "An advanced visor upgrade for ^#f02020;EDS^reset; units.",
 
-  "level" : 5, "price" : 320, "rarity" : "Rare",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5, "price" : 360, "race" : "alta",
+  "itemTags" : [ "tier5clothing", "eds" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
@@ -46,7 +46,7 @@
   "presets" : {
     "light" : {
       "shortdescription" : "Sky Visor",
-      "description" : "A light version of the original EDS visor.",
+      "description" : "A light version of the original EDS visor.", "itemTags" : [ "tier5clothing", "arknight" ],
       "paletteSwap" : {"#606074":"#f6f6f6","#404050":"#d8dcf0","#2c2c34":"#b0b4c8","#101014":"#606478"},
       "colorOptions" : [
         { "801c1c" : "0050c0", "b81824" : "2080f0", "ff2c40" : "60c0fc", "ff6480" : "b0e0fc" },
