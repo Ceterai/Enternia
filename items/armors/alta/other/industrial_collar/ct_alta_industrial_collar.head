@@ -3,9 +3,9 @@
   "shortdescription" : "Industrial Collar",
   "description" : "This collar provides health monitoring and a way of communication. Designed for any industrial environments.",
 
-  "level" : 5, "price" : 600, "rarity" : "Rare",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5clothing", "industrial" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

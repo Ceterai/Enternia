@@ -15,8 +15,11 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 4, "pool" : [ [ 1, "aggroLargeFish" ] ] },
+      // Critters Water
       { "select" : 2, "pool" : [ [ 1, "smallFishOcean1" ], [ 1, "smallFishOcean2" ] ] },
-      { "select" : 3, "pool" : [[1,"jellycritter"],[1,"fishlemoncritter"],[1,"fishberrycritter"],[1,"fishchilicritter"],[1,"jellocritter"]] }
+      { "select" : 1, "pool" : [ [1, "jellycritter" ], [1, "fishlemoncritter" ], [1, "fishberrycritter" ], [1,"fishchilicritter" ], [1,"jellocritter"] ] },
+      // Critters Land & Water
+      { "select" : 2, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_alta_jelly_spawn" ] ] }
     ]
   },
 

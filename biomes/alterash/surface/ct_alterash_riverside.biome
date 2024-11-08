@@ -14,9 +14,14 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       {"select": 1, "pool": [[1, "lilodon"]]},
+      // Night
       { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
+      // Bugs
       { "select" : 1, "pool" : [ [ 1, "ct_strizychar_spawn" ] ] },
-      { "select" : 2, "pool" : [[1,"leafscabcritter"],[1,"bouncercritter"],[1,"fireflyspawner"]] }
+      // Critters Water
+      { "select" : 1, "pool" : [ [1,"leafscabcritter"], [1,"bouncercritter"], [1,"fireflyspawner"] ] },
+      // Critters Land & Water
+      { "select" : 2, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_alta_jelly_spawn" ] ] }
     ]
   },
 

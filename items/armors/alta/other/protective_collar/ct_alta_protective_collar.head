@@ -3,9 +3,9 @@
   "shortdescription" : "Protective Collar",
   "description" : "This collar provides an energy shield to prevent you from receiving damage.",
 
-  "level" : 4, "price" : 320, "rarity" : "Uncommon",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "tier4clothing", "alta_security" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

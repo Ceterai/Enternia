@@ -3,8 +3,9 @@
   "shortdescription" : "Deprecation Horns",
   "description" : "A chaotic wig with horns and crystals. No one likes losing things.",
 
-  "price" : 4800, "rarity" : "Legendary",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 6,
+  "itemTags" : [ "deprecation", "trophy" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

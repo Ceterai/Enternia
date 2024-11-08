@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 4 },
+    { "item" : "ct_datamass", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_security_legwear", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_capital", "l6m", "armor", "armors", "leg_armor", "all", "mod" ]
+}

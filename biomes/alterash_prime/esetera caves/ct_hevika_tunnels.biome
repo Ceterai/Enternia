@@ -14,7 +14,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_hevika_crippit_spawn" ], [ 1, "ct_overcharged_crustoise_spawn" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      { "select" : 2, "pool" : [ [ 1, "ct_plasma_nibbler_spawn" ], [ 1, "crystaltortoisecritter" ] ] }
     ]
   },
 

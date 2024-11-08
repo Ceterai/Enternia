@@ -3,9 +3,9 @@
   "shortdescription" : "Security MkII Helmet ^#20f080;^reset;",
   "description" : "A slightly upgraded version of ^#b0e0fc;alta^reset; security helmets.",
 
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "tier4armour", "alta_security" ],
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
-  "level" : 4, "itemTags" : [ "tier4armour", "alta_security" ],
-  "race" : "alta",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

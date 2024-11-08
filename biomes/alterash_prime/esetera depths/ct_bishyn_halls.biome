@@ -14,7 +14,8 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_bishyn_crippit_spawn" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      // Critters
+      { "select" : 2, "pool" : [ [ 1, "ct_bishyn_tortoise_spawn" ] ] }
     ]
   },
 

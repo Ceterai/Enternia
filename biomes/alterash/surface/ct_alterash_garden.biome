@@ -17,9 +17,15 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier1" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_narfin_spawn" ] ] },
+      // Night
       { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
+      // Bugs
       { "select" : 1, "pool" : [ [ 0.75, "ct_klee_spawn" ], [ 0.25, "blueback" ] ] },
-      { "select" : 2, "pool" : [[1,"birdcritter"],[1,"bunnycritter"],[1,"cliffcritter"],[1,"bioluminfireflyspawner"]] }
+      // Critters
+      { "select" : 2, "pool" : [ [ 0.3, "birdcritter"], [ 0.3, "bunnycritter" ] ] },
+      { "select" : 2, "pool" : [ [ 1, "ct_boki_spawn" ] ] },
+      // Critters Night
+      { "select" : 1, "pool" : [ [ 1, "bioluminfireflyspawner" ] ] }
     ]
   },
 

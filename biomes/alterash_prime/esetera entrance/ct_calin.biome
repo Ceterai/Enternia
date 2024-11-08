@@ -13,7 +13,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_calin_crippit_spawn" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      { "select" : 3, "pool" : [ [ 1, "ct_calin_snail_spawn" ] ] }
     ]
   },
 

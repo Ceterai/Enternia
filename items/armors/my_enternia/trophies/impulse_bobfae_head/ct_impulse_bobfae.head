@@ -5,8 +5,9 @@
   "longdescription" : "Just like most trophy cosmetics, this wearable can often be left behind by a creature that looks similar to it.",
   "altaDescription" : "This mask looks familiar... Is that what impulse bobfaes wear all the time?",
 
-  "level" : 3, "price" : 1800, "rarity" : "Uncommon",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 3,
+  "itemTags" : [ "bobfae", "trophy" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

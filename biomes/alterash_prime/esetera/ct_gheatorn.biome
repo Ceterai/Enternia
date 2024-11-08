@@ -13,9 +13,12 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1.0, "ct_alta_droid_gheatsyn" ] ] },
       { "select" : 1, "pool" : [ [ 1.0, "ct_gheatsyn_crippit_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
+      // Random
       { "select" : 1, "pool" : "generatedFlying" },
-      { "select" : 1, "pool" : [ [ 1, "dancercritter" ] ] }
+      // Bugs
+      { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
+      // Critters
+      { "select" : 3, "pool" : [ [ 1, "ct_gheatsyn_snail_spawn" ] ] }
     ]
   },
 

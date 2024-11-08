@@ -3,9 +3,9 @@
   "shortdescription" : "Colored Respiratory Mask",
   "description" : "A simple but effective filtering mask. Now in colors!",
 
-  "level" : 2, "price" : 240, "rarity" : "Common",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 1, "race" : "alta",
+  "itemTags" : [ "tier1clothing" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

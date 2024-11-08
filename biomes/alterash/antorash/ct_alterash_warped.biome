@@ -13,8 +13,13 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
+      { "select" : 2, "pool" : [ [ 1, "ct_warped_sporgus_spawn" ], [ 1, "ct_warped_anglure_spawn" ], [ 1, "ct_brutefly_spawn" ] ] },
+      // Bugs
       { "select" : 1, "pool" : [ [ 1, "ct_unwarped_fly_spawn" ] ] },
-      { "select" : 2, "pool" : [ [ 1, "ct_warped_sporgus_spawn" ], [ 1, "ct_warped_anglure_spawn" ], [ 1, "ct_brutefly_spawn" ] ] }
+      // Critters
+      { "select" : 2, "pool" : [ [ 1, "ct_warped_worm_spawn" ], [ 1, "ct_warped_spider_spawn" ], [ 1, "ct_warped_bug_spawn" ] ] },
+      // Critters Water
+      { "select" : 1, "pool" : [ [ 1, "ct_floater_spawn" ] ] }
     ]
   },
 

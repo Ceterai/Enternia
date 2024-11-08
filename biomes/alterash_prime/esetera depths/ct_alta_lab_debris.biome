@@ -15,7 +15,8 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier4" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_alta_droid_tier4" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      // Critters
+      { "select" : 3, "pool" : [ [ 1, "ct_alta_scab_spawn" ] ] }
     ]
   },
 

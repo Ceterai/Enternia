@@ -3,9 +3,9 @@
   "shortdescription" : "Envirosuit MkII Helmet ^#2080f0;^reset;",
   "description" : "An improved version of the ^#f08f20;Envirosuit Helmet^reset; with added armor capabilities.",
 
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5armour", "arco" ],
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
-  "level" : 5, "itemTags" : [ "tier5armour", "arco" ],
-  "race" : "alta",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

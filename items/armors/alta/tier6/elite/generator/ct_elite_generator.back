@@ -5,9 +5,9 @@
   "longdescription" : "To provide enough energy to power the entire range with its aura, the generator uses multiple energy cores in its blueprint.",
   "altaDescription" : "I can feel safer under the frotective aura of this thing.",
 
-  "level" : 6,
-  "category" : "enviroProtectionPack",  "tooltipKind" : "ct_alta_epp",
-  "race" : "alta", "itemTags" : [ "tier6armour", "elite", "patriotic" ],
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "tier6armour", "elite", "patriotic" ],
+  "category" : "enviroProtectionPack", "tooltipKind" : "ct_alta_epp",
 
   "pickupQuestTemplates" : [ ],
   "acceptsAugmentType" : "back",
@@ -23,30 +23,18 @@
   ],
 
   "colorOptions" : [
-    // OMNITEAL (DEFAULT)
-    { "00c050" : "00c050", "20f080" : "20f080", "60fcc0" : "60fcc0", "b0fce0" : "b0fce0" },
-    // LIME (BLACK)
-    { "00c050" : "8fc000", "20f080" : "c5f020", "60fcc0" : "f3fc60", "b0fce0" : "f9fcb0" },
-    // TEAL (GRAY)
-    { "00c050" : "00c063", "20f080" : "20f081", "60fcc0" : "60fc91", "b0fce0" : "b0fcc7" },
-    // CYAN (WHITE)
-    { "00c050" : "009cc0", "20f080" : "20d3f0", "60fcc0" : "60fcf9", "b0fce0" : "b0fcf9" },
-    // RED
-    { "00c050" : "c00003", "20f080" : "f0202d", "60fcc0" : "fc6082", "b0fce0" : "fcb0c2" },
-    // ORANGE
-    { "00c050" : "c07000", "20f080" : "f08f20", "60fcc0" : "fc9c60", "b0fce0" : "fcccb0" },
-    // YELLOW
-    { "00c050" : "c0af00", "20f080" : "f0d420", "60fcc0" : "fcd060", "b0fce0" : "fce5b0" },
-    // GREEN
-    { "00c050" : "03c000", "20f080" : "2df020", "60fcc0" : "82fc60", "b0fce0" : "c2fcb0" },
-    // BLUE
-    { "00c050" : "001cc0", "20f080" : "2049f0", "60fcc0" : "6096fc", "b0fce0" : "b0ccfc" },
-    // PURPLE
-    { "00c050" : "7c00c0", "20f080" : "9d20f0", "60fcc0" : "a660fc", "b0fce0" : "d1b0fc" },
-    // PINK
-    { "00c050" : "c00069", "20f080" : "f0209b", "60fcc0" : "fc60d4", "b0fce0" : "fcb0ea" },
-    // CRYSTAL (BROWN)
-    { "00c050" : "366388", "20f080" : "4e8fb8", "60fcc0" : "76c7e4", "b0fce0" : "c9eef6" }
+    { "00c050" : "00c050fe", "20f080" : "20f080fe", "60fcc0" : "60fcc0fe", "b0fce0" : "b0fce0fe" },  // OMNITEAL (DEFAULT)
+    { "00c050" : "8fc000fe", "20f080" : "c5f020fe", "60fcc0" : "f3fc60fe", "b0fce0" : "f9fcb0fe" },  // LIME (BLACK)
+    { "00c050" : "00c063fe", "20f080" : "20f081fe", "60fcc0" : "60fc91fe", "b0fce0" : "b0fcc7fe" },  // TEAL (GRAY)
+    { "00c050" : "009cc0fe", "20f080" : "20d3f0fe", "60fcc0" : "60fcf9fe", "b0fce0" : "b0fcf9fe" },  // CYAN (WHITE)
+    { "00c050" : "c00003fe", "20f080" : "f0202dfe", "60fcc0" : "fc6082fe", "b0fce0" : "fcb0c2fe" },  // RED
+    { "00c050" : "c07000fe", "20f080" : "f08f20fe", "60fcc0" : "fc9c60fe", "b0fce0" : "fcccb0fe" },  // ORANGE
+    { "00c050" : "c0af00fe", "20f080" : "f0d420fe", "60fcc0" : "fcd060fe", "b0fce0" : "fce5b0fe" },  // YELLOW
+    { "00c050" : "03c000fe", "20f080" : "2df020fe", "60fcc0" : "82fc60fe", "b0fce0" : "c2fcb0fe" },  // GREEN
+    { "00c050" : "001cc0fe", "20f080" : "2049f0fe", "60fcc0" : "6096fcfe", "b0fce0" : "b0ccfcfe" },  // BLUE
+    { "00c050" : "7c00c0fe", "20f080" : "9d20f0fe", "60fcc0" : "a660fcfe", "b0fce0" : "d1b0fcfe" },  // PURPLE
+    { "00c050" : "c00069fe", "20f080" : "f0209bfe", "60fcc0" : "fc60d4fe", "b0fce0" : "fcb0eafe" },  // PINK
+    { "00c050" : "366388fe", "20f080" : "4e8fb8fe", "60fcc0" : "76c7e4fe", "b0fce0" : "c9eef6fe" }   // CRYSTAL (BROWN)
   ],
 
   "presets" : {

@@ -36,5 +36,32 @@
   { "name" : "ct_alta_droid_eds", "monsterParameters" : {"aggressive" : true},
     "spawnParameters" : {"area" : "surface", "region" : "all", "time" : "all"}, "groupSize" : [1, 1], "spawnChance" : 0.06,
     "monsterType" : [ [0.95, "ct_eds_droid"], [0.05, "ct_alta_defensive_droid"] ]
+  },
+
+  // Robohelpers
+
+  {
+    "name" : "ct_alta_roomba_spawn",
+    "monsterType" : "ct_alta_roomba",
+    "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_alta_waiter_spawn",
+    "monsterType" : "ct_alta_waiter",
+    "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_arco_scanner_spawn",
+    "monsterType" : "ct_arco_scanner",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_eds_gardis_spawn",
+    "monsterType" : "ct_eds_gardis",
+    "spawnParameters" : { "area" : "surface", "region" : "exposed", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
   }
 ]

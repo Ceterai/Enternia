@@ -3,10 +3,9 @@
   "shortdescription" : "Companion Helmet",
   "description" : "A helmet resembling a companion android's head.",
 
-  "price" : 1000, "rarity" : "Rare",
-  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5armour", "portal" ],
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
@@ -42,29 +41,29 @@
 
   "colorOptions" : [
     // COMPANION (DEFAULT)
-    { "bf65a8" : "bf65a8", "de7dca" : "de7dca", "eca4e8" : "eca4e8", "f5d1f4" : "f5d1f4" },
+    { "bf65a8" : "bf65a8fe", "de7dca" : "de7dcafe", "eca4e8" : "eca4e8fe", "f5d1f4" : "f5d1f4fe" },
     // LIME (BLACK)
-    { "bf65a8" : "8fc000", "de7dca" : "c5f020", "eca4e8" : "f3fc60", "f5d1f4" : "f9fcb0" },
+    { "bf65a8" : "8fc000fe", "de7dca" : "c5f020fe", "eca4e8" : "f3fc60fe", "f5d1f4" : "f9fcb0fe" },
     // TEAL (GRAY)
-    { "bf65a8" : "00c063", "de7dca" : "20f081", "eca4e8" : "60fc91", "f5d1f4" : "b0fcc7" },
+    { "bf65a8" : "00c063fe", "de7dca" : "20f081fe", "eca4e8" : "60fc91fe", "f5d1f4" : "b0fcc7fe" },
     // CYAN (WHITE)
-    { "bf65a8" : "009cc0", "de7dca" : "20d3f0", "eca4e8" : "60fcf9", "f5d1f4" : "b0fcf9" },
+    { "bf65a8" : "009cc0fe", "de7dca" : "20d3f0fe", "eca4e8" : "60fcf9fe", "f5d1f4" : "b0fcf9fe" },
     // RED
-    { "bf65a8" : "c00003", "de7dca" : "f0202d", "eca4e8" : "fc6082", "f5d1f4" : "fcb0c2" },
+    { "bf65a8" : "c00003fe", "de7dca" : "f0202dfe", "eca4e8" : "fc6082fe", "f5d1f4" : "fcb0c2fe" },
     // ORANGE
-    { "bf65a8" : "c07000", "de7dca" : "f08f20", "eca4e8" : "fc9c60", "f5d1f4" : "fcccb0" },
+    { "bf65a8" : "c07000fe", "de7dca" : "f08f20fe", "eca4e8" : "fc9c60fe", "f5d1f4" : "fcccb0fe" },
     // YELLOW
-    { "bf65a8" : "c0af00", "de7dca" : "f0d420", "eca4e8" : "fcd060", "f5d1f4" : "fce5b0" },
+    { "bf65a8" : "c0af00fe", "de7dca" : "f0d420fe", "eca4e8" : "fcd060fe", "f5d1f4" : "fce5b0fe" },
     // GREEN
-    { "bf65a8" : "03c000", "de7dca" : "2df020", "eca4e8" : "82fc60", "f5d1f4" : "c2fcb0" },
+    { "bf65a8" : "03c000fe", "de7dca" : "2df020fe", "eca4e8" : "82fc60fe", "f5d1f4" : "c2fcb0fe" },
     // BLUE
-    { "bf65a8" : "001cc0", "de7dca" : "2049f0", "eca4e8" : "6096fc", "f5d1f4" : "b0ccfc" },
+    { "bf65a8" : "001cc0fe", "de7dca" : "2049f0fe", "eca4e8" : "6096fcfe", "f5d1f4" : "b0ccfcfe" },
     // PURPLE
-    { "bf65a8" : "7c00c0", "de7dca" : "9d20f0", "eca4e8" : "a660fc", "f5d1f4" : "d1b0fc" },
+    { "bf65a8" : "7c00c0fe", "de7dca" : "9d20f0fe", "eca4e8" : "a660fcfe", "f5d1f4" : "d1b0fcfe" },
     // PINK
-    { "bf65a8" : "c00069", "de7dca" : "f0209b", "eca4e8" : "fc60d4", "f5d1f4" : "fcb0ea" },
+    { "bf65a8" : "c00069fe", "de7dca" : "f0209bfe", "eca4e8" : "fc60d4fe", "f5d1f4" : "fcb0eafe" },
     // CRYSTAL (BROWN)
-    { "bf65a8" : "366388", "de7dca" : "4e8fb8", "eca4e8" : "76c7e4", "f5d1f4" : "c9eef6" }
+    { "bf65a8" : "366388fe", "de7dca" : "4e8fb8fe", "eca4e8" : "76c7e4fe", "f5d1f4" : "c9eef6fe" }
   ],
 
   "builder" : "/items/buildscripts/alta/item.lua"

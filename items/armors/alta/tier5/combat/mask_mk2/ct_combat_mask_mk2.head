@@ -5,9 +5,9 @@
   "longdescription" : "It provides a better visor with a broader scope and field of view. Similar models are used in many alta defence-related projects.",
   "altaDescription" : "It's like a huge visor, that takes up all of your face!",
 
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5armour", "combat" ],
   "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
-  "level" : 5, "itemTags" : [ "tier5armour", "combat" ],
-  "race" : "alta",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
@@ -43,29 +43,29 @@
 
   "colorOptions" : [
     // COMBAT (DEFAULT)
-    { "106890" : "106890", "1090c0" : "1090c0", "10b4ef" : "10b4ef", "71d4f8" : "71d4f8" },
+    { "106890" : "106890fe", "1090c0" : "1090c0fe", "10b4ef" : "10b4effe", "71d4f8" : "71d4f8fe" },
     // LIME (BLACK)
-    { "106890" : "8fc000", "1090c0" : "c5f020", "10b4ef" : "f3fc60", "71d4f8" : "f9fcb0" },
+    { "106890" : "8fc000fe", "1090c0" : "c5f020fe", "10b4ef" : "f3fc60fe", "71d4f8" : "f9fcb0fe" },
     // TEAL (GRAY)
-    { "106890" : "00c063", "1090c0" : "20f081", "10b4ef" : "60fc91", "71d4f8" : "b0fcc7" },
+    { "106890" : "00c063fe", "1090c0" : "20f081fe", "10b4ef" : "60fc91fe", "71d4f8" : "b0fcc7fe" },
     // CYAN (WHITE)
-    { "106890" : "009cc0", "1090c0" : "20d3f0", "10b4ef" : "60fcf9", "71d4f8" : "b0fcf9" },
+    { "106890" : "009cc0fe", "1090c0" : "20d3f0fe", "10b4ef" : "60fcf9fe", "71d4f8" : "b0fcf9fe" },
     // RED
-    { "106890" : "c00003", "1090c0" : "f0202d", "10b4ef" : "fc6082", "71d4f8" : "fcb0c2" },
+    { "106890" : "c00003fe", "1090c0" : "f0202dfe", "10b4ef" : "fc6082fe", "71d4f8" : "fcb0c2fe" },
     // ORANGE
-    { "106890" : "c07000", "1090c0" : "f08f20", "10b4ef" : "fc9c60", "71d4f8" : "fcccb0" },
+    { "106890" : "c07000fe", "1090c0" : "f08f20fe", "10b4ef" : "fc9c60fe", "71d4f8" : "fcccb0fe" },
     // YELLOW
-    { "106890" : "c0af00", "1090c0" : "f0d420", "10b4ef" : "fcd060", "71d4f8" : "fce5b0" },
+    { "106890" : "c0af00fe", "1090c0" : "f0d420fe", "10b4ef" : "fcd060fe", "71d4f8" : "fce5b0fe" },
     // GREEN
-    { "106890" : "03c000", "1090c0" : "2df020", "10b4ef" : "82fc60", "71d4f8" : "c2fcb0" },
+    { "106890" : "03c000fe", "1090c0" : "2df020fe", "10b4ef" : "82fc60fe", "71d4f8" : "c2fcb0fe" },
     // BLUE
-    { "106890" : "001cc0", "1090c0" : "2049f0", "10b4ef" : "6096fc", "71d4f8" : "b0ccfc" },
+    { "106890" : "001cc0fe", "1090c0" : "2049f0fe", "10b4ef" : "6096fcfe", "71d4f8" : "b0ccfcfe" },
     // PURPLE
-    { "106890" : "7c00c0", "1090c0" : "9d20f0", "10b4ef" : "a660fc", "71d4f8" : "d1b0fc" },
+    { "106890" : "7c00c0fe", "1090c0" : "9d20f0fe", "10b4ef" : "a660fcfe", "71d4f8" : "d1b0fcfe" },
     // PINK
-    { "106890" : "c00069", "1090c0" : "f0209b", "10b4ef" : "fc60d4", "71d4f8" : "fcb0ea" },
+    { "106890" : "c00069fe", "1090c0" : "f0209bfe", "10b4ef" : "fc60d4fe", "71d4f8" : "fcb0eafe" },
     // CRYSTAL (BROWN)
-    { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
+    { "106890" : "366388fe", "1090c0" : "4e8fb8fe", "10b4ef" : "76c7e4fe", "71d4f8" : "c9eef6fe" }
   ],
 
   "presets" : {
@@ -83,18 +83,18 @@
         { "levelFunction" : "standardArmorLevelMaxHealthMultiplier", "stat" : "maxHealth", "amount" : 3.5 }
       ],
       "colorOptions" : [
-        { "106890" : "c05c00", "1090c0" : "f08e20", "10b4ef" : "fcca60", "71d4f8" : "fce5b0" },
-        { "106890" : "8fc000", "1090c0" : "c5f020", "10b4ef" : "f3fc60", "71d4f8" : "f9fcb0" },
-        { "106890" : "00c063", "1090c0" : "20f081", "10b4ef" : "60fc91", "71d4f8" : "b0fcc7" },
-        { "106890" : "009cc0", "1090c0" : "20d3f0", "10b4ef" : "60fcf9", "71d4f8" : "b0fcf9" },
-        { "106890" : "c00003", "1090c0" : "f0202d", "10b4ef" : "fc6082", "71d4f8" : "fcb0c2" },
-        { "106890" : "c07000", "1090c0" : "f08f20", "10b4ef" : "fc9c60", "71d4f8" : "fcccb0" },
-        { "106890" : "c0af00", "1090c0" : "f0d420", "10b4ef" : "fcd060", "71d4f8" : "fce5b0" },
-        { "106890" : "03c000", "1090c0" : "2df020", "10b4ef" : "82fc60", "71d4f8" : "c2fcb0" },
-        { "106890" : "001cc0", "1090c0" : "2049f0", "10b4ef" : "6096fc", "71d4f8" : "b0ccfc" },
-        { "106890" : "7c00c0", "1090c0" : "9d20f0", "10b4ef" : "a660fc", "71d4f8" : "d1b0fc" },
-        { "106890" : "c00069", "1090c0" : "f0209b", "10b4ef" : "fc60d4", "71d4f8" : "fcb0ea" },
-        { "106890" : "366388", "1090c0" : "4e8fb8", "10b4ef" : "76c7e4", "71d4f8" : "c9eef6" }
+        { "106890" : "c05c00fe", "1090c0" : "f08e20fe", "10b4ef" : "fcca60fe", "71d4f8" : "fce5b0fe" },
+        { "106890" : "8fc000fe", "1090c0" : "c5f020fe", "10b4ef" : "f3fc60fe", "71d4f8" : "f9fcb0fe" },
+        { "106890" : "00c063fe", "1090c0" : "20f081fe", "10b4ef" : "60fc91fe", "71d4f8" : "b0fcc7fe" },
+        { "106890" : "009cc0fe", "1090c0" : "20d3f0fe", "10b4ef" : "60fcf9fe", "71d4f8" : "b0fcf9fe" },
+        { "106890" : "c00003fe", "1090c0" : "f0202dfe", "10b4ef" : "fc6082fe", "71d4f8" : "fcb0c2fe" },
+        { "106890" : "c07000fe", "1090c0" : "f08f20fe", "10b4ef" : "fc9c60fe", "71d4f8" : "fcccb0fe" },
+        { "106890" : "c0af00fe", "1090c0" : "f0d420fe", "10b4ef" : "fcd060fe", "71d4f8" : "fce5b0fe" },
+        { "106890" : "03c000fe", "1090c0" : "2df020fe", "10b4ef" : "82fc60fe", "71d4f8" : "c2fcb0fe" },
+        { "106890" : "001cc0fe", "1090c0" : "2049f0fe", "10b4ef" : "6096fcfe", "71d4f8" : "b0ccfcfe" },
+        { "106890" : "7c00c0fe", "1090c0" : "9d20f0fe", "10b4ef" : "a660fcfe", "71d4f8" : "d1b0fcfe" },
+        { "106890" : "c00069fe", "1090c0" : "f0209bfe", "10b4ef" : "fc60d4fe", "71d4f8" : "fcb0eafe" },
+        { "106890" : "366388fe", "1090c0" : "4e8fb8fe", "10b4ef" : "76c7e4fe", "71d4f8" : "c9eef6fe" }
       ], "wiki" : { "skip" : true }
     },
     "stardust" : {

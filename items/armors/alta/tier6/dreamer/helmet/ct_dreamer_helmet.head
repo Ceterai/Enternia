@@ -5,10 +5,9 @@
   "longdescription" : "While it covers the head only partially, there are aerodynamic flexible membranes prtecting the rest of it and providing extra mobility.",
   "altaDescription" : "It looks so beautiful, yet I know what consequences lie behind wearing it.",
 
-  "price" : 1000, "rarity" : "Legendary",
-  "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
-  "level" : 6, "itemTags" : [ "tier6armour", "dreamer" ],
-  "race" : "alta",
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "tier6armour", "dreamer" ],
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
@@ -42,30 +41,18 @@
   ],
 
   "colorOptions" : [
-    // OMNIPURPLE (DEFAULT)
-    { "5000c0" : "5000c0", "8020f0" : "8020f0", "c060fc" : "c060fc", "e0b0fc" : "e0b0fc" },
-    // LIME (BLACK)
-    { "5000c0" : "8fc000", "8020f0" : "c5f020", "c060fc" : "f3fc60", "e0b0fc" : "f9fcb0" },
-    // TEAL (GRAY)
-    { "5000c0" : "00c063", "8020f0" : "20f081", "c060fc" : "60fc91", "e0b0fc" : "b0fcc7" },
-    // CYAN (WHITE)
-    { "5000c0" : "009cc0", "8020f0" : "20d3f0", "c060fc" : "60fcf9", "e0b0fc" : "b0fcf9" },
-    // RED
-    { "5000c0" : "c00003", "8020f0" : "f0202d", "c060fc" : "fc6082", "e0b0fc" : "fcb0c2" },
-    // ORANGE
-    { "5000c0" : "c07000", "8020f0" : "f08f20", "c060fc" : "fc9c60", "e0b0fc" : "fcccb0" },
-    // YELLOW
-    { "5000c0" : "c0af00", "8020f0" : "f0d420", "c060fc" : "fcd060", "e0b0fc" : "fce5b0" },
-    // GREEN
-    { "5000c0" : "03c000", "8020f0" : "2df020", "c060fc" : "82fc60", "e0b0fc" : "c2fcb0" },
-    // BLUE
-    { "5000c0" : "001cc0", "8020f0" : "2049f0", "c060fc" : "6096fc", "e0b0fc" : "b0ccfc" },
-    // PURPLE
-    { "5000c0" : "7c00c0", "8020f0" : "9d20f0", "c060fc" : "a660fc", "e0b0fc" : "d1b0fc" },
-    // PINK
-    { "5000c0" : "c00069", "8020f0" : "f0209b", "c060fc" : "fc60d4", "e0b0fc" : "fcb0ea" },
-    // CRYSTAL (BROWN)
-    { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }
+    { "5000c0" : "5000c0", "8020f0" : "8020f0", "c060fc" : "c060fc", "e0b0fc" : "e0b0fc" },  // OMNIPURPLE (DEFAULT)
+    { "5000c0" : "8fc000", "8020f0" : "c5f020", "c060fc" : "f3fc60", "e0b0fc" : "f9fcb0" },  // LIME (BLACK)
+    { "5000c0" : "00c063", "8020f0" : "20f081", "c060fc" : "60fc91", "e0b0fc" : "b0fcc7" },  // TEAL (GRAY)
+    { "5000c0" : "009cc0", "8020f0" : "20d3f0", "c060fc" : "60fcf9", "e0b0fc" : "b0fcf9" },  // CYAN (WHITE)
+    { "5000c0" : "c00003", "8020f0" : "f0202d", "c060fc" : "fc6082", "e0b0fc" : "fcb0c2" },  // RED
+    { "5000c0" : "c07000", "8020f0" : "f08f20", "c060fc" : "fc9c60", "e0b0fc" : "fcccb0" },  // ORANGE
+    { "5000c0" : "c0af00", "8020f0" : "f0d420", "c060fc" : "fcd060", "e0b0fc" : "fce5b0" },  // YELLOW
+    { "5000c0" : "03c000", "8020f0" : "2df020", "c060fc" : "82fc60", "e0b0fc" : "c2fcb0" },  // GREEN
+    { "5000c0" : "001cc0", "8020f0" : "2049f0", "c060fc" : "6096fc", "e0b0fc" : "b0ccfc" },  // BLUE
+    { "5000c0" : "7c00c0", "8020f0" : "9d20f0", "c060fc" : "a660fc", "e0b0fc" : "d1b0fc" },  // PURPLE
+    { "5000c0" : "c00069", "8020f0" : "f0209b", "c060fc" : "fc60d4", "e0b0fc" : "fcb0ea" },  // PINK
+    { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }   // CRYSTAL (BROWN)
   ],
 
   "presets" : {
@@ -76,18 +63,18 @@
       "altaDescription" : "Smells like ^#3587ff;blossoming ayaka leaves^reset;. Very romantic.", "alkey" : "Stante Cora",
       "paletteSwap" : {"#505050":"#f7f7f7","#444444":"#ffd1fe","#343434":"#f496f7","#181818":"#b154af","#080808":"#a0439e"},
       "colorOptions" : [
-        { "5000c0" : "c00089", "8020f0" : "f020ab", "c060fc" : "fc60b0", "e0b0fc" : "fcb0d6" },
-        { "5000c0" : "8fc000", "8020f0" : "c5f020", "c060fc" : "f3fc60", "e0b0fc" : "f9fcb0" },
-        { "5000c0" : "00c063", "8020f0" : "20f081", "c060fc" : "60fc91", "e0b0fc" : "b0fcc7" },
-        { "5000c0" : "009cc0", "8020f0" : "20d3f0", "c060fc" : "60fcf9", "e0b0fc" : "b0fcf9" },
-        { "5000c0" : "c00003", "8020f0" : "f0202d", "c060fc" : "fc6082", "e0b0fc" : "fcb0c2" },
-        { "5000c0" : "c07000", "8020f0" : "f08f20", "c060fc" : "fc9c60", "e0b0fc" : "fcccb0" },
-        { "5000c0" : "c0af00", "8020f0" : "f0d420", "c060fc" : "fcd060", "e0b0fc" : "fce5b0" },
-        { "5000c0" : "03c000", "8020f0" : "2df020", "c060fc" : "82fc60", "e0b0fc" : "c2fcb0" },
-        { "5000c0" : "001cc0", "8020f0" : "2049f0", "c060fc" : "6096fc", "e0b0fc" : "b0ccfc" },
-        { "5000c0" : "7c00c0", "8020f0" : "9d20f0", "c060fc" : "a660fc", "e0b0fc" : "d1b0fc" },
-        { "5000c0" : "c00069", "8020f0" : "f0209b", "c060fc" : "fc60d4", "e0b0fc" : "fcb0ea" },
-        { "5000c0" : "366388", "8020f0" : "4e8fb8", "c060fc" : "76c7e4", "e0b0fc" : "c9eef6" }
+        { "5000c0" : "c00089fe", "8020f0" : "f020abfe", "c060fc" : "fc60b0fe", "e0b0fc" : "fcb0d6fe" },
+        { "5000c0" : "8fc000fe", "8020f0" : "c5f020fe", "c060fc" : "f3fc60fe", "e0b0fc" : "f9fcb0fe" },
+        { "5000c0" : "00c063fe", "8020f0" : "20f081fe", "c060fc" : "60fc91fe", "e0b0fc" : "b0fcc7fe" },
+        { "5000c0" : "009cc0fe", "8020f0" : "20d3f0fe", "c060fc" : "60fcf9fe", "e0b0fc" : "b0fcf9fe" },
+        { "5000c0" : "c00003fe", "8020f0" : "f0202dfe", "c060fc" : "fc6082fe", "e0b0fc" : "fcb0c2fe" },
+        { "5000c0" : "c07000fe", "8020f0" : "f08f20fe", "c060fc" : "fc9c60fe", "e0b0fc" : "fcccb0fe" },
+        { "5000c0" : "c0af00fe", "8020f0" : "f0d420fe", "c060fc" : "fcd060fe", "e0b0fc" : "fce5b0fe" },
+        { "5000c0" : "03c000fe", "8020f0" : "2df020fe", "c060fc" : "82fc60fe", "e0b0fc" : "c2fcb0fe" },
+        { "5000c0" : "001cc0fe", "8020f0" : "2049f0fe", "c060fc" : "6096fcfe", "e0b0fc" : "b0ccfcfe" },
+        { "5000c0" : "7c00c0fe", "8020f0" : "9d20f0fe", "c060fc" : "a660fcfe", "e0b0fc" : "d1b0fcfe" },
+        { "5000c0" : "c00069fe", "8020f0" : "f0209bfe", "c060fc" : "fc60d4fe", "e0b0fc" : "fcb0eafe" },
+        { "5000c0" : "366388fe", "8020f0" : "4e8fb8fe", "c060fc" : "76c7e4fe", "e0b0fc" : "c9eef6fe" }
       ], "wiki" : { "skip" : true }
     }
   },

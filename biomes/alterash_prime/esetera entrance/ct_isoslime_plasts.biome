@@ -12,7 +12,9 @@
 
   "spawnProfile" : {
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_isopod_spawn" ] ] }
+      { "select" : 2, "pool" : [ [ 1, "ct_isopod_spawn" ] ] },
+      // Critters
+      { "select" : 2, "pool" : [ [ 1, "ct_isogloop_spawn" ] ] }
     ]
   },
 

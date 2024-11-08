@@ -3,8 +3,9 @@
   "shortdescription" : "Crystal Pillar Hat",
   "description" : "A bright blue crystal that you can put on your head.",
 
-  "price" : 1800, "rarity" : "Rare",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 5,
+  "itemTags" : [ "crystal", "trophy" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

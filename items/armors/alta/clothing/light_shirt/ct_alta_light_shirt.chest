@@ -2,9 +2,9 @@
   "itemName" : "ct_alta_light_shirt",
   "shortdescription" : "Light Shirt",
   "description" : "A simple casual shirt worn by many altas. It smells of home and peace.",
-  "level" : 1, "price" : 75, "rarity" : "Common", "race" : "alta",
 
-  "category" : "chestwear", "maxStack" : 1, "tooltipKind" : "ct_alta_effects",
+  "race" : "alta",
+  "category" : "chestwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },

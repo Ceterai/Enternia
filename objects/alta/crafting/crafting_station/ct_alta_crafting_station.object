@@ -179,7 +179,7 @@
           "img_clothing" : { "file" : "/items/armors/backitems/simplecape/simplecapebackicon.png?replace=ffca8a=707088?replace=e0975c=606074?replace=a85636=404050?replace=6f2919=2c2c34" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_combat_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_alta_watcher_drone.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/drones/ct_alta_watcher_drone.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_combat_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+" ], "initialRecipeUnlocks" : [],
@@ -211,7 +211,7 @@
           "img_clothing" : { "file" : "/items/armors/alta/other/eds_beret/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/reddye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_eds_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_eds_droid.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/droids/ct_eds_droid.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_eds_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m" ], "initialRecipeUnlocks" : [],
@@ -243,7 +243,7 @@
           "img_clothing" : { "file" : "/items/armors/alta/other/hologlasses/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/pinkdye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_eds_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_eds_drone.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/drones/ct_eds_drone.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_combat_power_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm" ], "initialRecipeUnlocks" : [],
@@ -297,7 +297,7 @@
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_ceterai_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_ionic_drone.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/drones/ct_ionic_drone.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_ceterai_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm", "alta_t4", "alta_t4+" ],
@@ -329,7 +329,7 @@
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_dreamer_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_ionic_drone.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/drones/ct_ionic_drone.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_ionic_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm",
@@ -360,7 +360,7 @@
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
           "img_sets" : { "file" : "/items/active/unsorted/alta/loot/sets/ct_dreamer_set.png" },
-          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/ct_ionic_drone.png" },
+          "img_robotics" : { "file" : "/items/active/unsorted/alta/spawner/drones/ct_ionic_drone.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_alternia_augment.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m", "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm",

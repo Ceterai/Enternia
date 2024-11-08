@@ -57,6 +57,8 @@ if VERSION and TITLE:
 
         TMP = base.os.path.join(base.MODS, 'tmp')
         ARCHIVE = base.os.path.join(base.MODS, f'My Enternia {VERSION}')
+        ARCHIVE_ZIP = f'{ARCHIVE}.zip'
+        ARCHIVE_PAK = f'{ARCHIVE}.pak'
 
         # Step 5
 
@@ -76,7 +78,7 @@ if VERSION and TITLE:
         # Step 7
 
         print('Step 7. Create a .pak archive.')
-        command = ['.\\..\\..\\win32\\asset_packer.exe', TMP, ARCHIVE + '.pak']
+        command = ['.\\..\\..\\win32\\asset_packer.exe', TMP, ARCHIVE_PAK]
         result = subprocess.run(command, encoding='utf-8', shell=True)
         result = subprocess.run(command, encoding='utf-8', shell=True)
 
@@ -101,7 +103,7 @@ if VERSION and TITLE:
 
             # Installation: https://github.com/cli/cli?tab=readme-ov-file#windows
             # Documentation: https://cli.github.com/manual/gh_release_create
-            command = ['gh', 'release', 'create', VERSION, '--title', f'My Enternia {VERSION}: {TITLE}', '--notes-file', release_msg, f"{ARCHIVE}.zip", f"{ARCHIVE}.pak"]
+            command = ['gh', 'release', 'create', VERSION, '--title', f'My Enternia {VERSION}: {TITLE}', '--notes-file', release_msg, ARCHIVE_ZIP, ARCHIVE_PAK]
             print('- Running command:', ' '.join(command))
             result = subprocess.run(command, encoding='utf-8', shell=True)
 
@@ -111,3 +113,13 @@ if VERSION and TITLE:
             webbrowser.open(f'{base.REPO}/releases/', new=0, autoraise=True)
             webbrowser.open('https://steamcommunity.com/sharedfiles/filedetails/changelog/2006558650', new=0, autoraise=True)
             webbrowser.open('https://community.playstarbound.com/resources/my-enternia.6252/add-version', new=0, autoraise=True)
+
+            # Step 11
+
+            print('Step 11. Cleanup')
+            if base.os.path.exists(ARCHIVE_ZIP):
+                print('- Deleting file:', ARCHIVE_ZIP)
+                base.os.remove(ARCHIVE_ZIP)
+            if base.os.path.exists(ARCHIVE_PAK):
+                print('- Deleting file:', ARCHIVE_PAK)
+                base.os.remove(ARCHIVE_PAK)

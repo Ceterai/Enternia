@@ -5,9 +5,9 @@
   "longdescription" : "This analytical alternia-powered protected headwear is a dream of many ^#b0e0fc;alta researchers^reset;, as there are quite a few comparable alternatives.",
   "altaDescription" : "Many Project Ceterai associates used to wear this on-field. Now I could be the one utilizing it to the fullest.",
 
-  "level" : 6, "price" : 1000, "rarity" : "Legendary", "race" : "alta",
-  "category" : "headarmour",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 6, "race" : "alta",
   "itemTags" : [ "tier6armour", "ceterai" ],
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
@@ -42,29 +42,29 @@
 
   "colorOptions" : [
     // DARK OMNIBLUE
-    { "60c0fc" : "60c0fc", "2080f0" : "2080f0", "0050c0" : "0050c0", "081c6c" : "081c6c" },
+    { "60c0fc" : "60c0fcfe", "2080f0" : "2080f0fe", "0050c0" : "0050c0fe", "081c6c" : "081c6cfe" },
     // BLACK
-    { "60c0fc" : "4e4e4e", "2080f0" : "333333", "0050c0" : "242424", "081c6c" : "121212" },
+    { "60c0fc" : "4e4e4efe", "2080f0" : "333333fe", "0050c0" : "242424fe", "081c6c" : "121212fe" },
     // GREY
-    { "60c0fc" : "b1b1b1", "2080f0" : "727272", "0050c0" : "525252", "081c6c" : "282828" },
+    { "60c0fc" : "b1b1b1fe", "2080f0" : "727272fe", "0050c0" : "525252fe", "081c6c" : "282828fe" },
     // WHITE
-    { "60c0fc" : "dfdfdf", "2080f0" : "c5c5c5", "0050c0" : "b8b8b8", "081c6c" : "a6a6a6" },
+    { "60c0fc" : "dfdfdffe", "2080f0" : "c5c5c5fe", "0050c0" : "b8b8b8fe", "081c6c" : "a6a6a6fe" },
     // RED
-    { "60c0fc" : "ff646b", "2080f0" : "cd1921", "0050c0" : "922113", "081c6c" : "520000" },
+    { "60c0fc" : "ff646bfe", "2080f0" : "cd1921fe", "0050c0" : "922113fe", "081c6c" : "520000fe" },
     // ORANGE
-    { "60c0fc" : "ffa664", "2080f0" : "cd5919", "0050c0" : "924313", "081c6c" : "522e00" },
+    { "60c0fc" : "ffa664fe", "2080f0" : "cd5919fe", "0050c0" : "924313fe", "081c6c" : "522e00fe" },
     // YELLOW
-    { "60c0fc" : "ffe364", "2080f0" : "cdad19", "0050c0" : "928f13", "081c6c" : "515200" },
+    { "60c0fc" : "ffe364fe", "2080f0" : "cdad19fe", "0050c0" : "928f13fe", "081c6c" : "515200fe" },
     // GREEN
-    { "60c0fc" : "94ff64", "2080f0" : "51cd19", "0050c0" : "279213", "081c6c" : "005205" },
+    { "60c0fc" : "94ff64fe", "2080f0" : "51cd19fe", "0050c0" : "279213fe", "081c6c" : "005205fe" },
     // BLUE
-    { "60c0fc" : "6485ff", "2080f0" : "1940cd", "0050c0" : "131b92", "081c6c" : "0c0052" },
+    { "60c0fc" : "6485fffe", "2080f0" : "1940cdfe", "0050c0" : "131b92fe", "081c6c" : "0c0052fe" },
     // PURPLE
-    { "60c0fc" : "a064ff", "2080f0" : "5e19cd", "0050c0" : "571392", "081c6c" : "380052" },
+    { "60c0fc" : "a064fffe", "2080f0" : "5e19cdfe", "0050c0" : "571392fe", "081c6c" : "380052fe" },
     // PINK
-    { "60c0fc" : "ff64f0", "2080f0" : "cd19bd", "0050c0" : "921373", "081c6c" : "52002d" },
+    { "60c0fc" : "ff64f0fe", "2080f0" : "cd19bdfe", "0050c0" : "921373fe", "081c6c" : "52002dfe" },
     // CRYSTAL (BROWN)
-    { "60c0fc" : "c9eef6", "2080f0" : "76c7e4", "0050c0" : "4e8fb8", "081c6c" : "366388" }
+    { "60c0fc" : "c9eef6fe", "2080f0" : "76c7e4fe", "0050c0" : "4e8fb8fe", "081c6c" : "366388fe" }
   ],
 
   "presets" : {

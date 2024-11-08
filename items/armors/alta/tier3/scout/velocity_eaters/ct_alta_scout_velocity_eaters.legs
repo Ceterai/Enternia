@@ -5,9 +5,9 @@
   "longdescription" : "They are powered by the special protosystem that replaces usual energy cells with an energy circulation mechanic that flows troughout the whole costume.",
   "altaDescription" : "I can jump so much higher in these! Like a real scava!",
 
-  "category" : "legarmour",  "tooltipKind" : "ct_alta_effects",
-  "level" : 3, "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
-  "race" : "alta",
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "protogear", "tier3armour", "upgradeableWeapon" ],
+  "category" : "legarmour", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "pants.png",
@@ -41,47 +41,34 @@
   ],
 
   "colorOptions" : [
-    // OMNIBLUE (DEFAULT)
-    { "0050c0" : "0050c0", "2080f0" : "2080f0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
-    // LIME (BLACK)
-    { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
-    // TEAL (GRAY)
-    { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
-    // CYAN (WHITE)
-    { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
-    // RED
-    { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
-    // ORANGE
-    { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
-    // YELLOW
-    { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
-    // GREEN
-    { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
-    // BLUE
-    { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
-    // PURPLE
-    { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
-    // PINK
-    { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
-    // CRYSTAL (BROWN)
-    { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
+    { "0050c0" : "0050c0fe", "2080f0" : "2080f0fe", "60c0fc" : "60c0fcfe", "b0e0fc" : "b0e0fcfe" },  // OMNIBLUE (DEFAULT)
+    { "0050c0" : "8fc000fe", "2080f0" : "c5f020fe", "60c0fc" : "f3fc60fe", "b0e0fc" : "f9fcb0fe" },  // LIME (BLACK)
+    { "0050c0" : "00c063fe", "2080f0" : "20f081fe", "60c0fc" : "60fc91fe", "b0e0fc" : "b0fcc7fe" },  // TEAL (GRAY)
+    { "0050c0" : "009cc0fe", "2080f0" : "20d3f0fe", "60c0fc" : "60fcf9fe", "b0e0fc" : "b0fcf9fe" },  // CYAN (WHITE)
+    { "0050c0" : "c00003fe", "2080f0" : "f0202dfe", "60c0fc" : "fc6082fe", "b0e0fc" : "fcb0c2fe" },  // RED
+    { "0050c0" : "c07000fe", "2080f0" : "f08f20fe", "60c0fc" : "fc9c60fe", "b0e0fc" : "fcccb0fe" },  // ORANGE
+    { "0050c0" : "c0af00fe", "2080f0" : "f0d420fe", "60c0fc" : "fcd060fe", "b0e0fc" : "fce5b0fe" },  // YELLOW
+    { "0050c0" : "03c000fe", "2080f0" : "2df020fe", "60c0fc" : "82fc60fe", "b0e0fc" : "c2fcb0fe" },  // GREEN
+    { "0050c0" : "001cc0fe", "2080f0" : "2049f0fe", "60c0fc" : "6096fcfe", "b0e0fc" : "b0ccfcfe" },  // BLUE
+    { "0050c0" : "7c00c0fe", "2080f0" : "9d20f0fe", "60c0fc" : "a660fcfe", "b0e0fc" : "d1b0fcfe" },  // PURPLE
+    { "0050c0" : "c00069fe", "2080f0" : "f0209bfe", "60c0fc" : "fc60d4fe", "b0e0fc" : "fcb0eafe" },  // PINK
+    { "0050c0" : "366388fe", "2080f0" : "4e8fb8fe", "60c0fc" : "76c7e4fe", "b0e0fc" : "c9eef6fe" }   // CRYSTAL (BROWN)
   ],
 
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "upgradeParameters" : {
-    "inventoryIcon" : "icon.png", "maleFrames" : "pants.png", "femaleFrames" : "pants.png",
-    "shortdescription" : "Protea's Vectors ^#8020f0;^reset;",
+    "shortdescription" : "Protea's Vectors ^#8020f0;^reset;", "itemTags" : [ "tier6armour", "protea" ], "tooltipKind" : "ct_alta_effects_2",
     "description" : "These protective leggings with ^#ffa8e8;stardust^reset; crystals once belonged to Protea. They're yours now. Enjoy!",
     "longdescription" : "They're part of the Protea's gift to inexperienced alta scouts as means of care and support!",
-    "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ], "tooltipKind" : "ct_alta_effects_2",
+    "radioMessagesOnPickup" : [ "ct_alta_legs_armor_msg" ],
     "statusEffects" : [
       "ct_velocity_jump", "ct_velocity_swim",
       { "stat" : "fallDamageMultiplier", "effectiveMultiplier" : 0.85 },
       { "stat" : "knockbackThreshold", "amount" : 3.0 }
     ],
     "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
-      "#383c50":"#c060fc","#24283c":"#8020f0","#101428":"#5000c0"},
+      "#383c50":"#c060fcfe","#24283c":"#8020f0fe","#101428":"#5000c0fe"},
     "leveledStatusEffects" : [
       {
         "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",

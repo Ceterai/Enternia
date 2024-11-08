@@ -3,9 +3,9 @@
   "shortdescription" : "Scientific Visor",
   "description" : "Developed by Tserera, this device provides visual analysis right to your eyes!",
 
-  "level" : 5, "price" : 320, "rarity" : "Rare",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "tier5clothing", "science" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

@@ -3,10 +3,9 @@
   "shortdescription" : "Envirosuit Helmet",
   "description" : "Comes as part of the Envirosuit.",
 
-  "price" : 1000, "rarity" : "Rare",
-  "category" : "headarmour", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "level" : 5, "itemTags" : [ "tier5armour" ],
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5armour", "arco" ],
+  "category" : "headarmour", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

@@ -5,44 +5,31 @@
   "longdescription" : "This necessary life-saving technology is required for every security guard by safety protocols, but has to be worn separately from the suit.",
   "altaDescription" : "No additional weight can be dismissed in exchange for a life.",
 
-  "level" : 4, "price" : 640, "rarity" : "Uncommon",
-  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1, "itemTags" : [ "tier4armour", "alta_security" ],
-  "race" : "alta",
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "tier4armour", "alta_security", "upgradeableWeapon" ],
+  "category" : "backwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",
   "femaleFrames" : "back.png",
 
   "statusEffects" : [
-    "ct_life_support_system",
-    "ct_autoprotector"
+    "ct_life_support_system"
   ],
 
   "colorOptions" : [
-    // OMNIBLUE (DEFAULT)
-    { "0050c0" : "0050c0", "2080f0" : "2080f0", "60c0fc" : "60c0fc", "b0e0fc" : "b0e0fc" },
-    // LIME (BLACK)
-    { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
-    // TEAL (GRAY)
-    { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
-    // CYAN (WHITE)
-    { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
-    // RED
-    { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
-    // ORANGE
-    { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
-    // YELLOW
-    { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
-    // GREEN
-    { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
-    // BLUE
-    { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
-    // PURPLE
-    { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
-    // PINK
-    { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
-    // CRYSTAL (BROWN)
-    { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
+    { "0050c0" : "0050c0fe", "2080f0" : "2080f0fe", "60c0fc" : "60c0fcfe", "b0e0fc" : "b0e0fcfe" },  // OMNIBLUE (DEFAULT)
+    { "0050c0" : "8fc000fe", "2080f0" : "c5f020fe", "60c0fc" : "f3fc60fe", "b0e0fc" : "f9fcb0fe" },  // LIME (BLACK)
+    { "0050c0" : "00c063fe", "2080f0" : "20f081fe", "60c0fc" : "60fc91fe", "b0e0fc" : "b0fcc7fe" },  // TEAL (GRAY)
+    { "0050c0" : "009cc0fe", "2080f0" : "20d3f0fe", "60c0fc" : "60fcf9fe", "b0e0fc" : "b0fcf9fe" },  // CYAN (WHITE)
+    { "0050c0" : "c00003fe", "2080f0" : "f0202dfe", "60c0fc" : "fc6082fe", "b0e0fc" : "fcb0c2fe" },  // RED
+    { "0050c0" : "c07000fe", "2080f0" : "f08f20fe", "60c0fc" : "fc9c60fe", "b0e0fc" : "fcccb0fe" },  // ORANGE
+    { "0050c0" : "c0af00fe", "2080f0" : "f0d420fe", "60c0fc" : "fcd060fe", "b0e0fc" : "fce5b0fe" },  // YELLOW
+    { "0050c0" : "03c000fe", "2080f0" : "2df020fe", "60c0fc" : "82fc60fe", "b0e0fc" : "c2fcb0fe" },  // GREEN
+    { "0050c0" : "001cc0fe", "2080f0" : "2049f0fe", "60c0fc" : "6096fcfe", "b0e0fc" : "b0ccfcfe" },  // BLUE
+    { "0050c0" : "7c00c0fe", "2080f0" : "9d20f0fe", "60c0fc" : "a660fcfe", "b0e0fc" : "d1b0fcfe" },  // PURPLE
+    { "0050c0" : "c00069fe", "2080f0" : "f0209bfe", "60c0fc" : "fc60d4fe", "b0e0fc" : "fcb0eafe" },  // PINK
+    { "0050c0" : "366388fe", "2080f0" : "4e8fb8fe", "60c0fc" : "76c7e4fe", "b0e0fc" : "c9eef6fe" }   // CRYSTAL (BROWN)
   ],
 
   "presets" : {
@@ -53,22 +40,35 @@
       "altaDescription" : "First line of protection of all the precious research we've made and knowledgge we've gained.", "alkey" : "Tek Varda Amaikav",
       "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#383c50","#606478":"#24283c","#24283c":"#101428"},
       "colorOptions" : [
-        { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "ffaa49", "b0e0fc" : "ffc888" },
-        { "0050c0" : "8fc000", "2080f0" : "c5f020", "60c0fc" : "f3fc60", "b0e0fc" : "f9fcb0" },
-        { "0050c0" : "00c063", "2080f0" : "20f081", "60c0fc" : "60fc91", "b0e0fc" : "b0fcc7" },
-        { "0050c0" : "009cc0", "2080f0" : "20d3f0", "60c0fc" : "60fcf9", "b0e0fc" : "b0fcf9" },
-        { "0050c0" : "c00003", "2080f0" : "f0202d", "60c0fc" : "fc6082", "b0e0fc" : "fcb0c2" },
-        { "0050c0" : "c07000", "2080f0" : "f08f20", "60c0fc" : "fc9c60", "b0e0fc" : "fcccb0" },
-        { "0050c0" : "c0af00", "2080f0" : "f0d420", "60c0fc" : "fcd060", "b0e0fc" : "fce5b0" },
-        { "0050c0" : "03c000", "2080f0" : "2df020", "60c0fc" : "82fc60", "b0e0fc" : "c2fcb0" },
-        { "0050c0" : "001cc0", "2080f0" : "2049f0", "60c0fc" : "6096fc", "b0e0fc" : "b0ccfc" },
-        { "0050c0" : "7c00c0", "2080f0" : "9d20f0", "60c0fc" : "a660fc", "b0e0fc" : "d1b0fc" },
-        { "0050c0" : "c00069", "2080f0" : "f0209b", "60c0fc" : "fc60d4", "b0e0fc" : "fcb0ea" },
-        { "0050c0" : "366388", "2080f0" : "4e8fb8", "60c0fc" : "76c7e4", "b0e0fc" : "c9eef6" }
+        { "0050c0" : "c07000fe", "2080f0" : "f08f20fe", "60c0fc" : "ffaa49fe", "b0e0fc" : "ffc888fe" },
+        { "0050c0" : "8fc000fe", "2080f0" : "c5f020fe", "60c0fc" : "f3fc60fe", "b0e0fc" : "f9fcb0fe" },  // LIME (BLACK)
+        { "0050c0" : "00c063fe", "2080f0" : "20f081fe", "60c0fc" : "60fc91fe", "b0e0fc" : "b0fcc7fe" },  // TEAL (GRAY)
+        { "0050c0" : "009cc0fe", "2080f0" : "20d3f0fe", "60c0fc" : "60fcf9fe", "b0e0fc" : "b0fcf9fe" },  // CYAN (WHITE)
+        { "0050c0" : "c00003fe", "2080f0" : "f0202dfe", "60c0fc" : "fc6082fe", "b0e0fc" : "fcb0c2fe" },  // RED
+        { "0050c0" : "c07000fe", "2080f0" : "f08f20fe", "60c0fc" : "fc9c60fe", "b0e0fc" : "fcccb0fe" },  // ORANGE
+        { "0050c0" : "c0af00fe", "2080f0" : "f0d420fe", "60c0fc" : "fcd060fe", "b0e0fc" : "fce5b0fe" },  // YELLOW
+        { "0050c0" : "03c000fe", "2080f0" : "2df020fe", "60c0fc" : "82fc60fe", "b0e0fc" : "c2fcb0fe" },  // GREEN
+        { "0050c0" : "001cc0fe", "2080f0" : "2049f0fe", "60c0fc" : "6096fcfe", "b0e0fc" : "b0ccfcfe" },  // BLUE
+        { "0050c0" : "7c00c0fe", "2080f0" : "9d20f0fe", "60c0fc" : "a660fcfe", "b0e0fc" : "d1b0fcfe" },  // PURPLE
+        { "0050c0" : "c00069fe", "2080f0" : "f0209bfe", "60c0fc" : "fc60d4fe", "b0e0fc" : "fcb0eafe" },  // PINK
+        { "0050c0" : "366388fe", "2080f0" : "4e8fb8fe", "60c0fc" : "76c7e4fe", "b0e0fc" : "c9eef6fe" }   // CRYSTAL (BROWN)
       ], "wiki" : { "skip" : true }
     }
   },
   "alkey" : "Varda Amaikav",
 
-  "builder" : "/items/buildscripts/alta/item.lua"
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "upgradeParameters" : {
+    "shortdescription" : "GR Supply ^#8020f0;^reset;", "itemTags" : [ "tier6armour", "animus" ], "tooltipKind" : "ct_alta_epp",
+    "description" : "A compact ^#ffa8e8;stardust^reset;-enhanced life support system once worn by Kora.",
+    "longdescription" : "Kora wore this supply not as much for herself - more so for other altas in need.",
+    "category" : "enviroProtectionPack", "acceptsAugmentType" : "back", "radioMessagesOnPickup" : [ "ct_alta_back_armor_msg" ],
+    "statusEffects" : [
+      "ct_life_support_system",
+      "ct_autoprotector"
+    ],
+    "paletteSwap" : {"#f6f6f6":"#606478","#d8dcf0":"#4c5064","#b0b4c8":"#24283c","#606478":"#101428",
+      "#4c5064" : "#b0fce0fe", "#383c50":"#60fcc0fe","#24283c":"#20f080fe","#101428":"#00c050fe"}
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 },
+    { "item" : "ct_datamass", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_security_helmet", "count" : 1, "parameters" : { "upgraded" : true } },
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_capital", "l6m", "armor", "armors", "head_armor", "all", "mod" ]
+}

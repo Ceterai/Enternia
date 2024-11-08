@@ -3,9 +3,9 @@
   "shortdescription" : "Respiratory Mask",
   "description" : "A simple but effective filtering mask to help you not breath dust.",
 
-  "level" : 2, "price" : 240, "rarity" : "Common",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
   "race" : "alta",
+  "itemTags" : [ "tier0clothing" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

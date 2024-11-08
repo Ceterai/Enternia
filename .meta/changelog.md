@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4a](#234a)
     - [2.3.4](#234)
     - [2.3.3d](#233d)
     - [2.3.3c](#233c)
@@ -58,12 +59,54 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
-### 2.3.4
+### 2.3.4a
 
-This mini-patch mostly focuses on bugs and improving the mod's codebase.
+A patch that makes the new critters actually spawn into the world, and also focuses on rebalancing armor prices and adding an "author" field to the **Alta Scanner**. It also makes the **Security Set** fully upgradeable.
 
 **Main:**
 
+- armor improvements;
+- bug fixes.
+
+**Alta:**
+
+- **Alta Scanner** now displays the item/object author, if it was set within the item's config or parameters;
+- alta armor and clothing now supports [Futara's Dragon Pixel Full Bright Shader](https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190);
+- added upgrades to the **Security Set**.
+
+**Translation:**
+
+- moved drone (`_drone`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/drones/` subdirectory;
+- moved drone (`_droid`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/droids/` subdirectory;
+- added an author-related label to `/items/buildscripts/ct_texts.config:scan.author`;
+- reworked lines in `/items/armors/alta/tier4/security/helmet/ct_alta_security_helmet.head`;
+- added lines in:
+  - `/items/armors/alta/tier4/security/chest/ct_alta_security_chest.head`;
+  - `/items/armors/alta/tier4/security/legwear/ct_alta_security_legwear.legs`;
+  - `/items/armors/alta/tier4/security/pack/ct_alta_security_pack.back`.
+
+**Dev:**
+
+- further enhancement to the deploy script to add pre-deployment checks and a release message;
+- updated armor config values to have unified tags and rely on automatical price & rarity assignment;
+- updated clothing config values to have unified tags and rely on automatical price & rarity assignment.
+
+**Other:**
+
+- minor grammar fixes in robohelper spawner items added in the last update;
+- minor bug fixes.
+
+### 2.3.4
+
+An update that finally brings in critters, as well as special alta robotic helpers, like roombas or waiters. It also adds new custom dyes and some clothing alternatives.
+
+> Detailed changes for this version: [Update 2.3.4](https://github.com/Ceterai/Enternia/commit/e7caf28312c3a197b30972230be7656c3040f487)
+
+**Main:**
+
+- added 24 critters;
+- added 8 spawner items;
+- added 4 dyes;
 - added proper archiver coats;
 - bug fixes.
 
@@ -98,13 +141,30 @@ This mini-patch mostly focuses on bugs and improving the mod's codebase.
 **Critters:**
 
 - added 20 critters that can be found throughout the world:
-  - **Archiver Top**;
-  - **Archiver Bottom**.
+  - **Alta Jelly**;
+  - **Alta Scab**;
+  - **Ariling**;
+  - **Baratoad**;
+  - **Bishyn Tortoise**;
+  - **Boki**;
+  - **Calin Snail**;
+  - **EDS Scab**;
+  - **Eeriss**;
+  - **Floater**;
+  - **Floating Calline**;
+  - **Gheatsyn Snail**;
+  - **Isogloop**;
+  - **Miazmur**;
+  - **Plasma Nibbler**;
+  - **Riverside Crab**;
+  - **Warped Bug**;
+  - **Warped Spider**;
+  - **Warped Worm**;
+  - **Yaafrog**.
 
 **Translation:**
 
-- all rarity names were moved to `/items/buildscripts/ct_texts.config`;
-- all added dyes, critters, robohelpers and androids.
+- all added dyes, critters, robohelpers and android spawner items need to be translated.
 
 **Dev:**
 

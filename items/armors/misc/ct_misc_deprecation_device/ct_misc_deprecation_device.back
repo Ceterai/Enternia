@@ -3,8 +3,9 @@
   "shortdescription" : "Deprecation Device",
   "description" : "Please accept this small gift for all that you've lost.",
 
-  "price" : 4800, "rarity" : "Legendary",
-  "category" : "backwear",  "tooltipKind" : "ct_alta_effects",  "maxStack" : 1,
+  "level" : 6,
+  "itemTags" : [ "deprecation", "trophy" ],
+  "category" : "backwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "back.png",

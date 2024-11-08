@@ -1,57 +1,34 @@
-This mini-patch mostly focuses on bugs and improving the mod's codebase.
+A patch that makes the new critters actually spawn into the world, and also focuses on rebalancing armor prices and adding an "author" field to the **Alta Scanner**. It also makes the **Security Set** fully upgradeable.
 
 ### Main
 
-- added proper archiver coats;
+- armor improvements;
 - bug fixes.
 
 ### Alta
 
-- added proper variations for the archiver NPC coats - sold by archivers or crafted in **Ultimate Crafting Station**:
-  - **Archiver Top**;
-  - **Archiver Bottom**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/archiver1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/archiver2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/archiver3.png)
-- added 4 critter-like **Robohelpers** that can spawn naturally or be spawned with an item, and can be relocated:
-  - **Roomba**;
-  - **Waiter**;
-  - **Enviroscanner**;
-  - **EDS Gardis**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/alta_critter.png)
-- added 4 spawners for **Androids**:
-  - **Android**;
-  - **Security Android**;
-  - **Alta Lab Android**;
-  - **Imperial Android**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/android.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/security_android.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/lab_android.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/capital_android.png)
-- added 4 custom **Armor Dyes** - somewhat unpredictable dyes for armor parts of clothing:
-  - **Alta Dye**;  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_alta1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_alta2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_alta3.png)
-  - **Titanium Dye**;  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_titanium1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_titanium2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_titanium3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_titanium4.png)
-  - **Bion Dye**;  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_bion1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_bion2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_bion3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_bion4.png)
-  - **EDS Dye**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_eds1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_eds2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4/dye_eds3.png)
-
-### Critters
-
-- added 20 critters that can be found throughout the world:
-  - **Archiver Top**;
-  - **Archiver Bottom**.
+- **Alta Scanner** now displays the item/object author, if it was set within the item's config or parameters;
+- alta armor and clothing now supports [Futara's Dragon Pixel Full Bright Shader](https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190);
+- added upgrades to the **Security Set**.
 
 ### Translation
 
-- all rarity names were moved to `/items/buildscripts/ct_texts.config`;
-- all added dyes, critters, robohelpers and androids.
+- moved drone (`_drone`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/drones/` subdirectory;
+- moved drone (`_droid`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/droids/` subdirectory;
+- added an author-related label to `/items/buildscripts/ct_texts.config:scan.author`;
+- reworked lines in `/items/armors/alta/tier4/security/helmet/ct_alta_security_helmet.head`;
+- added lines in:
+  - `/items/armors/alta/tier4/security/chest/ct_alta_security_chest.head`;
+  - `/items/armors/alta/tier4/security/legwear/ct_alta_security_legwear.legs`;
+  - `/items/armors/alta/tier4/security/pack/ct_alta_security_pack.back`.
 
 ### Dev
 
-- optimized the item builder code slightly again;
-- moved deprecated objects so they don't show up in SIP;
-- added an auto-deploy script;
-- monster spawner items can now spawn npcs as well.
+- further enhancement to the deploy script to add pre-deployment checks and a release message;
+- updated armor config values to have unified tags and rely on automatical price & rarity assignment;
+- updated clothing config values to have unified tags and rely on automatical price & rarity assignment.
 
 ### Other
 
-- updated prices for some cosmetic items and added proper item tags;
+- minor grammar fixes in robohelper spawner items added in the last update;
 - minor bug fixes.

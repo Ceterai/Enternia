@@ -3,9 +3,9 @@
   "shortdescription" : "State Beret",
   "description" : "Decorative parade ^#b0e0fc;alta^reset; headwear.",
 
-  "level" : 3, "price" : 240, "rarity" : "Uncommon",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "tier2clothing", "patriotic" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

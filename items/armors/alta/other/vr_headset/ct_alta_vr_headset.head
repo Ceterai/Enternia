@@ -3,9 +3,9 @@
   "shortdescription" : "VR Headset",
   "description" : "A virtual reality headwear.",
 
-  "level" : 3, "price" : 240, "rarity" : "Uncommon",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
-  "race" : "alta",
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "tier3clothing" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",

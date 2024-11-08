@@ -5,8 +5,9 @@
   "longdescription" : "Just like most trophy cosmetics, this wearable can often be left behind by a creature that looks similar to it.",
   "altaDescription" : "Oh, is this what crippits use for hiding?",
 
-  "level" : 3, "price" : 1800, "rarity" : "Uncommon",
-  "category" : "headwear", "tooltipKind" : "ct_alta_effects", "maxStack" : 1,
+  "level" : 3,
+  "itemTags" : [ "crippit", "trophy" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
 
   "inventoryIcon" : "icon.png",
   "maleFrames" : "head.png",
