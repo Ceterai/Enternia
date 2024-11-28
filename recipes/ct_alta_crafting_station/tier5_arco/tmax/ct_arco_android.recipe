@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 4 },
+    { "item" : "ct_phosicore", "count" : 4 },
+    { "item" : "ct_arco-codex", "count" : 2 },
+    { "item" : "ct_alta_security_ai_chip", "count" : 1 }
+  ],
+  "duration" : 1.25,
+  "output" : { "item" : "ct_arco_android", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "tier5_arco", "l5m", "spawner", "androids", "consumables", "all", "mod" ]
+}

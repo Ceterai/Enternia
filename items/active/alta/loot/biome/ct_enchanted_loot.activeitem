@@ -1,0 +1,18 @@
+{
+  "itemName" : "ct_enchanted_loot",
+  "shortdescription" : "Enchanted Loot Crate",
+  "description" : "Contains random loot from ^#8080f0;enchanted meadow^reset; chests.",
+  "longdescription" : "Better be cautious, since the create is full of items contaminated with unstable ^#8080f0;vionia^reset;.",
+  "altaDescription" : "This pad \"reeks\" of viona, and the smell is amazing. It's so inviting! I'll open it just a tad, just to do a little peek...",
+
+  "level" : 3,
+  "itemTags" : [ "loot", "viona", "enchanted" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "ct_enchanted_loot.png",
+  "animationParts" : { "item" : "ct_enchanted_loot.png" },
+  "treasure" : { "pool" : "ct_enchanted_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Enchanted Crate" : { } } }, "alkey" : "Viona Pad"
+}

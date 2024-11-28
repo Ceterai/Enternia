@@ -67,6 +67,7 @@
         "projectileType" : "poisonplasmarocket", "name" : "Lexiplasma",
         "description" : "Launches a special mix of toxins and enhanced slime as a rocket."
       },
+      "altAbility" : { "projectileType" : "guidedrocket" },
       "foundIn" : [ "^#b0e0fc;Alta Cargo Manager^reset; (5+ tier)" ],
       "upgradeParameters" : {
         "shortdescription" : "R-Powercannon ^#8020f0;^reset;",

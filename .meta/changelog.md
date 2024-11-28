@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4b](#234b)
     - [2.3.4a](#234a)
     - [2.3.4](#234)
     - [2.3.3d](#233d)
@@ -59,9 +60,105 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.4b
+
+A patch that adds more critters and adds even more spawner items, as well as some more colored glowsticks!
+
+**Main:**
+
+- added 16 critters;
+- added 36 critter spawn eggs;
+- some critters can now be caught with a bugnet or hunted down with a bow.
+- added 8 glowsticks;
+- glowsticks now glow in your hand;
+- bug fixes.
+
+**Alta:**
+
+- added tier 0 alta loot crate;
+- added 8 more glowsticks:
+  - **Bionid Glowstick**;
+  - **Calline Glowstick**;
+  - **Crystal Glowstick**;
+  - **EDS Glowstick**;
+  - **Gheatsyn Glowstick**;
+  - **Mical Glowstick**;
+  - **Stardust Glowstick**;
+  - **Yonnur Glowstick**.  
+  ![ ](/.meta/images/showcase/2.3.4b/glowsticks.png)
+- glowsticks added by this mod now glow in the dark;  
+  ![ ](/.meta/images/showcase/2.3.4b/glow.png)
+- added 6 remaining **Alta Android** spawners:
+  - **Combat Android**;
+  - **Enviro Android**;
+  - **EDS Android**;
+  - **Elite Android**;
+  - **Ceterai Android**;
+  - **Dreamer Android**;  
+  ![ ](/.meta/images/showcase/2.3.4b/android1.png)![ ](/.meta/images/showcase/2.3.4b/android2.png)![ ](/.meta/images/showcase/2.3.4b/android3.png)![ ](/.meta/images/showcase/2.3.4b/android4.png)![ ](/.meta/images/showcase/2.3.4b/android5.png)![ ](/.meta/images/showcase/2.3.4b/android6.png)
+- fixed leg armor on these androids.
+
+**Critters:**
+
+- added 16 critters that can be found throughout the world:
+  - **Bionid Snail**;
+  - **Glow Tortoise**;
+  - **Hevika Scab**;
+  - **Hunter Flower**;
+  - **Impulse Crawler**;
+  - **In Jelly**;
+  - **Ion Tortoise**;
+  - **Koyscream**;
+  - **Kudok Squid**;
+  - **Mini Pinky**;
+  - **Mini Poi**;
+  - **Impulse Nia Squid**;
+  - **Plasma Nia Squid**;
+  - **Ionic Nia Squid**;
+  - **Stardust Nia Squid**;
+  - **Phosnail**.  
+  ![ ](/.meta/images/showcase/2.3.4b/critters.png)
+- added 4 bottled (caught) versions for snails:
+  - **Bionid Snail**;
+  - **Calin Snail**;
+  - **Gheatsyn Snail**;
+  - **Phosnail**.  
+  ![ ](/.meta/images/showcase/2.3.4b/bugnet.png)
+- added 36 critter spawn eggs with proper descriptions;
+- some critters glow now;
+- some critters (elementals) drop their spawn eggs when caught with a bugnet.
+
+**Translation:**
+
+- added critter spawn eggs to `/items/active/alta/spawners/critters/`;
+- added tier 0 alta loot crate to `/items/active/alta/loot/`;
+- updated tiered alta loot crate descriptions in `/items/active/alta/loot/`;
+- updated filenames of droid/drone/android spawners, as well as tiered alta loot crates;
+- moved everything in `/items/active/unstorted/alta/` to `/items/active/alta/`;
+- moved everything in `/items/active/alta/spawner/` to `/items/active/alta/spawners/`;
+- moved biome-related loot in `/items/active/alta/loot/` to `/items/active/alta/loot/biome/`;
+- moved drone descriptions from their `.monstertype` files to their spawner items in `/items/active/alta/spawners/drones/`;
+- moved droid descriptions from their `.monstertype` files to their spawner items in `/items/active/alta/spawners/droids/`.
+
+**Dev:**
+
+- simplified parameters for some spawner items and bug objects;
+- simplified tiered alta loot tables;
+- made it so certain critters can be caught with a bug net;
+- made it so certain critters can drop resources when hunted down with a bow;
+- restructured unsorted items - they are sorted now and most of them have proper, simpler names.
+
+**Other:**
+
+- small projectile fix for R-Powercannon;
+- updated bottled bug recipes to be made from respective eggs and bottles;
+- minor bug fixes.
+
 ### 2.3.4a
 
 A patch that makes the new critters actually spawn into the world, and also focuses on rebalancing armor prices and adding an "author" field to the **Alta Scanner**. It also makes the **Security Set** fully upgradeable.
+
+> Detailed changes for this version: [Update 2.3.4a](https://github.com/Ceterai/Enternia/commit/6a6ac9d5549631b407e10c5c842eb4467628afa6)
 
 **Main:**
 
@@ -71,13 +168,15 @@ A patch that makes the new critters actually spawn into the world, and also focu
 **Alta:**
 
 - **Alta Scanner** now displays the item/object author, if it was set within the item's config or parameters;
-- alta armor and clothing now supports [Futara's Dragon Pixel Full Bright Shader](https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190);
-- added upgrades to the **Security Set**.
+- alta armor and clothing now supports [Futara's Dragon Pixel Full Bright Shader](https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190);  
+  ![ ](/.meta/images/showcase/2.3.4a/shader1.png) ![ ](/.meta/images/showcase/2.3.4a/shader2.png) ![ ](/.meta/images/showcase/2.3.4a/shader3.png) ![ ](/.meta/images/showcase/2.3.4a/shader4.png) ![ ](/.meta/images/showcase/2.3.4a/shader5.png) ![ ](/.meta/images/showcase/2.3.4a/shader6.png) ![ ](/.meta/images/showcase/2.3.4a/shader7.png) ![ ](/.meta/images/showcase/2.3.4a/shader8.png)
+- added upgrades to the **Security Set**.  
+  ![ ](/.meta/images/showcase/2.3.4a/security_upg.png) ![ ](/.meta/images/showcase/2.3.4a/security_upg_shader.png)
 
 **Translation:**
 
-- moved drone (`_drone`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/drones/` subdirectory;
-- moved drone (`_droid`) spawner items from `/items/active/unsorted/alta/spawner/` root to `/items/active/unsorted/alta/spawner/droids/` subdirectory;
+- moved drone (`_drone`) spawner items from `/items/active/alta/spawner/` root to `/items/active/alta/spawner/drones/` subdirectory;
+- moved drone (`_droid`) spawner items from `/items/active/alta/spawner/` root to `/items/active/alta/spawner/droids/` subdirectory;
 - added an author-related label to `/items/buildscripts/ct_texts.config:scan.author`;
 - reworked lines in `/items/armors/alta/tier4/security/helmet/ct_alta_security_helmet.head`;
 - added lines in:
@@ -856,8 +955,8 @@ It's time to go. You decide where - whether it's into the wild areas of alterash
 
 - this update added a lot of alta objects and items, each of which requires translation. Refer to the **Alta** and **Monsters** sections of this changelog for the full list of new objects and items;
 - new shielder items are located under `/items/generic/other/`;
-- new bug spawner items are located under `/items/active/unsorted/alta/spawner/bugs/`;
-- new monster spawner items are located under `/items/active/unsorted/alta/spawner/monsters/`;
+- new bug spawner items are located under `/items/active/alta/spawner/bugs/`;
+- new monster spawner items are located under `/items/active/alta/spawner/monsters/`;
 - new monsters are located under:
   - `/monsters/crawlers/`;
   - `/monsters/flyers/`;
@@ -1007,7 +1106,7 @@ This update is also to celebrate the mod finally reaching **five stars** in Stea
 
 **Translation:**
 
-- moved loot items from `/items/active/unsorted/ct_alta_loot/` to `/items/active/unsorted/alta/loot/`;
+- moved loot items from `/items/active/ct_alta_loot/` to `/items/active/alta/loot/`;
 
 **Other:**
 
@@ -1053,10 +1152,10 @@ This update is also to celebrate the **4th anniversary** of the mod, since it wa
 
 **Translation:**
 
-- added a file with extended item descriptions - `/items/active/unsorted/alta/scanner/items.config`;
+- added a file with extended item descriptions - `/items/active/alta/scanner/items.config`;
 - minor grammar fixes that **shouldn't affect translation**;
-- moved spawner items from `/items/active/unsorted/ct_alta_spawner/` to `/items/active/unsorted/alta/spawner/` - **shouldn't affect translation** as these files don't need to be translated in the first place;
-- planning to move loot items from `/items/active/unsorted/ct_alta_loot/` to `/items/active/unsorted/alta/loot/` in the next update;
+- moved spawner items from `/items/active/ct_alta_spawner/` to `/items/active/alta/spawner/` - **shouldn't affect translation** as these files don't need to be translated in the first place;
+- planning to move loot items from `/items/active/ct_alta_loot/` to `/items/active/alta/loot/` in the next update;
 
 **Tabula Rasa:**
 

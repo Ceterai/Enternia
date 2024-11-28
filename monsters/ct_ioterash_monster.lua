@@ -37,6 +37,7 @@ function init()  -- Engine callback - called on initialization of entity.
   self.touchDamageEnabled = false
   self.shouldDie = config.getParameter("shouldDie", true)  -- Whether this monster can die at all.
   self.minHealth = config.getParameter("minHealth", 0) * root.evalFunction("monsterLevelHealthMultiplier", monster.level())  -- Actual min hp (def: 0).
+  self.bug = config.getParameter("bug", false)
 
   -- Status Effects
   if config.getParameter("statusEffects") then
@@ -102,4 +103,14 @@ function notify(notification)
     end
   end
   return true
+end
+
+function damage(args)
+  if self.bug and args.sourceKind == "bugnet" then
+    self.damaged = false
+    status.setResourcePercentage("health", 0)
+  else
+    self.damaged = true
+    self.board:setEntity("damageSource", args.sourceId)
+  end
 end

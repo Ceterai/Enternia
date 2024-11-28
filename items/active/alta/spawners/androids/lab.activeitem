@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_lab_android",
+  "shortdescription" : "Alta Lab Android",
+  "inventoryIcon" : "lab.png",
+  "itemTags" : [ "throwable", "spawner", "robotics", "android", "alta_lab" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "droid",
+  "price" : 240, "level" : 5, "race" : "alta",
+  "pet" : "ct_alta_lab_android", "baseParameters" : { "persistent" : false }, "npc" : true,
+  "projectileType" : "ct_npc_spawner", "petSpecies" : "shadow",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

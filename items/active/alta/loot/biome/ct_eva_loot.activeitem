@@ -1,0 +1,18 @@
+{
+  "itemName" : "ct_eva_loot",
+  "shortdescription" : "Eva Loot Crate",
+  "description" : "Contains random loot from alterash ^#ffe8e8;eva^reset; chests.",
+  "longdescription" : "It comes in form of soft, beautiful clouds and colorful objects, as well as rarely some accidental sky duty equipment.",
+  "altaDescription" : "I think these are either packed by the general security systems, or directly by ^#60c0fc;arknights^reset;. Both options make a lot of sense actually.",
+
+  "level" : 4,
+  "itemTags" : [ "loot", "eva" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "ct_eva_loot.png",
+  "animationParts" : { "item" : "ct_eva_loot.png" },
+  "treasure" : { "pool" : "ct_eva_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Eva Crate" : { } } }, "alkey" : "Eva Pad"
+}

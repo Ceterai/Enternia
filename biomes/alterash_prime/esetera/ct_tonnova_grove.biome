@@ -2,7 +2,7 @@
   "name" : "ct_tonnova_grove",
   "friendlyName" : "Tonnova Grove",
   "description" : "This land is lit by all the ^#c1ebf8;tonnova^reset; springs and trees. Watch out for falling ^#c1ebf8;tonnas^reset;!\n\nTonnova Groves are great mining sources of ^#299fc5;bionid^reset;.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_bionid_loot.png",
+  "icon" : "/items/active/alta/loot/ct_bionid_loot.png",
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "moonstone" ],
 
@@ -12,8 +12,10 @@
   "spawnProfile" : {
     "groups" : [
       {"select": 2, "pool": [[1, "ct_bionfly_spawn"], [1, "ct_bionid_pteropod_spawn"]]},
+      // Bugs
       { "select" : 1, "pool" : [ [ 0.4, "polarmoth" ], [ 0.3, "orphanfly" ], [ 0.3, "snowskater" ] ] },
-      { "select": 2, "pool": [ [ 1, "frozenowlcritter" ], [ 1, "sealcritter" ], [ 1, "icescabcritter" ], [ 1, "dancercritter" ], [ 1, "snowbcritter" ] ] }
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_glow_tortoise_spawn" ], [ 1, "ct_bionid_snail_spawn" ] ] }
     ]
   },
 

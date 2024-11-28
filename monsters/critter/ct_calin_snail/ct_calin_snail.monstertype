@@ -4,19 +4,20 @@
   "categories" : [ "ct_calin_snail" ],
   "parts" : [ "body" ],
 
-  "animation" : "/monsters/critter/ciclesnailcritter/ciclesnailcritter.animation",
+  "animation" : "/monsters/critter/ciclesnail/ciclesnailcritter.animation",
   "reversed" : false,
 
   "dropPools" : [
     {
-      "default" : "empty"
+      "default" : "empty",
+      "bow" : "ct_calin_snail_hunt",
+      "bugnet" : "ct_calin_snail_loot"
     }
   ],
 
   "baseParameters" : {
-    "scripts" : [
-      "/monsters/monster.lua"
-    ],
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ],
+    "bug" : true,
 
     "behavior" : "walkingcritter",
 

@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_elin_drone",
+  "shortdescription" : "Elin Drone ^#20f080;^reset;",
+  "description" : "An armored drone originally created to patrol and protect ^#20f080;Elin Gardens^reset;. It has partially overgrown with ^#20f080;yaara roots^reset;.",
+  "longdescription" : "In its nature, this drone is a direct analogy of the security drone, with slight adjustments to better fit its new specific goals.",
+  "altaDescription" : "This cutie is any caretaker's little helper! Slightly overprotective one at that, too.",
+  "race" : "alta", "alkey" : "Elin Drei",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Careful",
+    "description" : "Will avoid the battle if confronted. Will charge at enemy and explode on destruction.",
+    "longdescription" : "It's not cowardous to be able to properly assess the situation."
+  },
+
+  "passiveAbility" : {
+    "name" : "Protective Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoprotector^reset;, ^#2080f0;Autorepeller^reset;.\nDeals ^#20f080;impulse^reset; damage on touch, applying ^#20f080;Pulse Paralysis^reset;.",
+    "longdescription" : "Has medium armor mostly made from titanium, and thus might appear slightly bulkier in size, and provides additional assistance as opposed to regular protected drones."
+  },
+
+  "inventoryIcon" : "elin.png",
+  "itemTags" : [ "throwable", "spawner", "elin", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 4,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_elin_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

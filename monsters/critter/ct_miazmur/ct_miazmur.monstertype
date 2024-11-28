@@ -4,19 +4,19 @@
   "categories" : [ "ct_miazmur" ],
   "parts" : [ "body" ],
 
-  "animation" : "/monsters/critter/glowingballcritter/glowingballcritter.animation",
+  "animation" : "ct_miazmur.animation",
   "reversed" : false,
 
   "dropPools" : [
     {
-      "default" : "empty"
+      "default" : "empty",
+      "bugnet" : "ct_miazmur_loot"
     }
   ],
 
   "baseParameters" : {
-    "scripts" : [
-      "/monsters/monster.lua"
-    ],
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ],
+    "bug" : true,
 
     "behavior" : "walkingcritter",
 

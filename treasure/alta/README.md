@@ -36,7 +36,7 @@ Location: [`gsr.treasurepools`](./gsr.treasurepools)
 
 ### Sets
 
-Contents of armor sets found here: [Modding: Alta Sets](/items/active/unsorted/alta/loot/sets/README.md#sets)
+Contents of armor sets found here: [Modding: Alta Sets](/items/active/alta/loot/sets/README.md#sets)
 
 Location: [`robotics.treasurepools`](./robotics.treasurepools)
 

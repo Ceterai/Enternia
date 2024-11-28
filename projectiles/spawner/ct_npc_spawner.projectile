@@ -1,7 +1,7 @@
 {
   "projectileName" : "ct_npc_spawner",
-  "image" : "/items/active/unsorted/alta/spawner/ct_monster_spawner.png",
-  "damageKindImage" : "/items/active/unsorted/alta/spawner/ct_monster_spawner.png",
+  "image" : "/items/active/alta/spawners/ct_monster_spawner.png",
+  "damageKindImage" : "/items/active/alta/spawners/ct_monster_spawner.png",
   "scripts" : [ "ct_npc_spawner.lua" ],
   "physics" : "grenade",
   "frameNumber" : 1,

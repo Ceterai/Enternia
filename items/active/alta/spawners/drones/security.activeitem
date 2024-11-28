@@ -1,0 +1,60 @@
+{
+  "itemName" : "ct_alta_security_drone",
+  "shortdescription" : "Security Drone",
+  "description" : "An observer drone equipped with suppression tools.",
+  "longdescription" : "These security helpers can usually be found assisting a security team or patrolling relatively smal areas.",
+  "altaDescription" : "It likes to ram its targets instead of actually listening to your commands. And sometimes it likes to ram its teammates. For fun. Oh well...",
+  "race" : "alta", "alkey" : "Varda Drei",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Unarmed",
+    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "Having no energy accelerators allows this machine to be much lighter in weight."
+  },
+
+  "passiveAbility" : {
+    "name" : "Protected Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoprotector^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Has medium armor mostly made from titanium, and thus might appear slightly bulkier in size."
+  },
+
+  "inventoryIcon" : "security.png",
+  "itemTags" : [ "throwable", "spawner", "city", "alta_security", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 4,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_security_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "presets" : {
+    "cleaner" : {
+      "shortdescription" : "Cleaner Drone",
+      "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner.png" }, "wiki" : { "skip" : true },
+      "paletteSwap" : { "#0050c0" : "#0020c0", "#2080f0" : "#2020f0", "#60c0fc" : "#6060fc", "#b0e0fc" : "#b0b0fc" }
+    },
+    "toy" : {
+      "shortdescription" : "Toy Drone ^#20f080;^reset;",
+      "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner_toy.png" }, "wiki" : { "skip" : true },
+      "paletteSwap" : { "#0050c0" : "#7d00c0", "#2080f0" : "#9d20f0", "#60c0fc" : "#a760fc", "#b0e0fc" : "#d1b0fc" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

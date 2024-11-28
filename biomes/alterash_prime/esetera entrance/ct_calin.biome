@@ -2,7 +2,7 @@
   "name" : "ct_calin",
   "friendlyName" : "Calocaves",
   "description" : "Calocaves, or ^#76c7e4;Calin^reset; for short, are caves with rich deposits of plain regular ^#76c7e4;crystals^reset;.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_calin_loot.png",
+  "icon" : "/items/active/alta/loot/ct_calin_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moonrock" ],
   "ores" : "ct_alterash_depth1",
@@ -13,6 +13,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_calin_crippit_spawn" ] ] },
+      // Critters
       { "select" : 3, "pool" : [ [ 1, "ct_calin_snail_spawn" ] ] }
     ]
   },

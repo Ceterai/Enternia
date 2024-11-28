@@ -2,7 +2,7 @@
   "name" : "ct_alterash_core_starfields",
   "friendlyName" : "Starfields",
   "description" : "These caves are literally dotted with ^#ffa8e8;stardust^reset; crystals and prisms. Also you can find some fuel over here, which is really convenient.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier3.png",
+  "icon" : "/items/active/alta/loot/tier3.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core_enternia",
@@ -14,8 +14,13 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 2, "pool" : [ [ 1, "ct_stardust_narfin_spawn" ], [ 1, "ct_stardust_poptop_spawn" ], [ 0.5, "ct_stardust_crippit_spawn" ], [ 1, "ct_prism_crippit_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 0.75, "ct_prism_wing_spawn" ], [ 0.25, "ct_starfly_spawn" ] ] },
-      { "select" : 3, "pool" : [[1,"jellycritter"],[1,"bouncercritter"],[1,"prismelementalcritter"],[1,"prismscabcritter"],[1,"slugcritter"]] }
+      // Bugs
+      { "select" : 1, "pool" : [ [ 0.95, "ct_prism_wing_spawn" ], [ 0.05, "ct_starfly_spawn" ] ] },
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_mini_pinky_spawn" ], [ 1, "prismelementalcritter" ] ] },
+      { "select" : 1, "pool" : [ [1,"jellycritter"], [1,"bouncercritter"], [1,"prismscabcritter"], [1,"slugcritter"] ] },
+      // Critters Water
+      { "select" : 1, "pool" : [ [ 1, "ct_nia_squid_spawn" ] ] }
     ]
   },
 

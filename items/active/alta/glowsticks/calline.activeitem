@@ -1,0 +1,56 @@
+{
+  "itemName" : "ct_glowstick_calline",
+  "level" : 3, "price" : 5, "race" : "alta",
+  "itemTags" : [ "glowstick", "light", "crystalline_prime" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "calline.png",
+  "shortdescription" : "Calline Glowstick",
+  "description" : "Creates a prime crystal glow when thrown. Is made from rare crystallic materials.",
+  "longdescription" : "This is mostly made from the leaves, which are technically not full crystals.",
+  "altaDescription" : "I've heard this one is made from crystal plants.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "lightColor" : [252, 120, 0],
+
+  "projectileType" : "ct_glowstick_calline_blast",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "animationParts" : { "item" : "calline.png" },
+  "animation" : "/items/active/alta/glowstick.animation",
+  "scripts" : [ "/items/active/alta/glowstick.lua" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
+  ],
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "alkey" : "Callino Vial"
+}

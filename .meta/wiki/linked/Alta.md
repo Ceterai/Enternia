@@ -123,9 +123,9 @@ Altas are a relatively peaceful species, so most militaristic factions and comba
 - ^#b0e0fc;A.R.C.O.^reset;
 - ^#b0e0fc;Ghearun^reset;
 - ^#b0e0fc;Hevika Ordis^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier3.png) ^#b0e0fc;Neiteru-1^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Tserera^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/sets/ct_ceterai_set.png) ^#b0e0fc;Project C.T.^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier3.png) ^#b0e0fc;Neiteru-1^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Tserera^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/sets/ct_ceterai_set.png) ^#b0e0fc;Project C.T.^reset;
 
 Most alta laboratories are located underground, often hidden in ^#b0e0fc;esetera^reset; spaces.  
 The equipment is mostly made from bion compounds and powered by energy cells.  
@@ -171,10 +171,10 @@ Full list of decor: ^#b0e0fc;Alta Ship Decorations^reset;
 
 #### Other Factions
 
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_gyera_loot.png) ^#b0e0fc;Yava Gyera Ordis^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Perizhad^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_bishyn_loot.png) ^#b0e0fc;Unika^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_gyera_loot.png) ^#b0e0fc;Yava Gyera Ordis^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Perizhad^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_bishyn_loot.png) ^#b0e0fc;Unika^reset;
 
 ##### Perizhad
 
@@ -218,16 +218,16 @@ Most alta technology runs on [[ crystals|Alta#crystals ]] and is made out of fol
 Tier 0
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier1.png) Tier 1
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) Tier 1
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png) Tier 2
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier2.png) Tier 2
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier3.png) Tier 3
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier3.png) Tier 3
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier4.png) Tier 4
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier4.png) Tier 4
 </th> </tr>
 <tr><td>
 
@@ -279,16 +279,16 @@ Most alta technology is classified into 4 tiers:
 <table> <tbody valign="top">
 <tr valign="middle"><th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier1.png) Basic (Tier 1)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) Basic (Tier 1)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png) [[ City|Alta-Cities ]] (Tier 2)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier2.png) [[ City|Alta-Cities ]] (Tier 2)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier3.png) [[ Lab|Alta-Labs ]] (Tier 3)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier3.png) [[ Lab|Alta-Labs ]] (Tier 3)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier4.png) [[ Ship|Alta-Ships ]] (Tier 4)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier4.png) [[ Ship|Alta-Ships ]] (Tier 4)
 </th> </tr>
 <tr><td>
 
@@ -376,13 +376,13 @@ Most alta technology is classified into 4 tiers:
 </td></tr>
 <tr valign="middle"><th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset; (Tier 2)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset; (Tier 2)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier4.png) [[ Capital|Alta-Capitals ]] (Tier 3)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier4.png) [[ Capital|Alta-Capitals ]] (Tier 3)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_alta_loot_tier5.png) [[ Citadel|Alta-Citadels-★★ ]] (Tier 4)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier5.png) [[ Citadel|Alta-Citadels-★★ ]] (Tier 4)
 </th> <th>
 
 Ruins
@@ -404,7 +404,7 @@ Ruins
 ^#b0e0fc;Faradea^reset; (Tier 3)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/other/ct_gsr_pod.png) Special
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/other/ct_gsr_pod.png) Special
 </th> <th>
 
 Crafting
@@ -431,10 +431,10 @@ See according section:
 </td></tr>
 <tr valign="middle"><th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_calin_loot.png) [[ Parties|Calin ]] (Tier 3)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_calin_loot.png) [[ Parties|Calin ]] (Tier 3)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_bishyn_loot.png) [[ Offices|Bishyn ]] (Tier 3)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_bishyn_loot.png) [[ Offices|Bishyn ]] (Tier 3)
 </th> <th>
 
 ^#b0e0fc;Hevika Ordis^reset; (Tier 3)

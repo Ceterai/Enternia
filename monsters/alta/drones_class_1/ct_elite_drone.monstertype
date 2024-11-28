@@ -1,23 +1,5 @@
 {
   "type" : "ct_elite_drone",
-  "shortdescription" : "Elite Drone",
-  "description" : "A reinforced drone with enhanced attack arsenal.",
-  "longdescription" : "This model is lighter than the droid version, but can still pack quite a punch.",
-  "altaDescription" : "A beautiful example of ^#b0e0fc;Al'deron^reset; technology.",
-  "race" : "alta", "alkey" : "Prime Drei",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Elite Arsenal",
-    "description" : "Can launch semi-auto bursts of 4 ^#20f080;Pulsings^reset; or charge up a powerful ^#20f080;Proto-Pulsar^reset;. Will charge at enemy and explode on destruction.",
-    "longdescription" : "Such arsenal was designed to work under most environmental conditions."
-  },
-
-  "passiveAbility" : {
-    "name" : "Elite Armor",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#20f080;Elite Autoshielder^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "Heavy armor comes with increased overall mass, as well as higher armor rates."
-  },
 
   "categories" : [ "ct_elite_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier4_class1", "bow" : "ct_alta_tier4_class2" } ],

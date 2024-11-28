@@ -4,19 +4,19 @@
   "categories" : [ "ct_floating_calline" ],
   "parts" : [ "body" ],
 
-  "animation" : "/monsters/critter/floatinggeodecritter/floatinggeodecritter.animation",
+  "animation" : "ct_floating_calline.animation",
   "reversed" : false,
 
   "dropPools" : [
     {
-      "default" : "empty"
+      "default" : "empty",
+      "bugnet" : "ct_floating_calline_loot"
     }
   ],
 
   "baseParameters" : {
-    "scripts" : [
-      "/monsters/monster.lua"
-    ],
+    "scripts" : [ "/monsters/ct_ioterash_monster.lua" ],
+    "bug" : true,
 
     "behavior" : "walkingcritter",
 

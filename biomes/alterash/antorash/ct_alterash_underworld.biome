@@ -2,7 +2,7 @@
   "name" : "ct_alterash_underworld",
   "friendlyName" : "Antorash Plains",
   "description" : "A common place the Alterash Underworlds. The nature here highly reflects nature in ^#20f080;alterash gardens^reset;, although highly saturated with blueish due to lack of light.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png",
+  "icon" : "/items/active/alta/loot/tier2.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "rock14", "obsidian" ],
@@ -14,8 +14,11 @@
   "spawnProfile" : {
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
+      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] },
+      // Bugs
       { "select" : 1, "pool" : [ [ 1, "ct_alto_zych_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier2" ] ] }
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_mini_poi_spawn" ] ] }
     ]
   },
 

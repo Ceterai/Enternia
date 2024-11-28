@@ -210,7 +210,7 @@ All listed parameters are optional except for `asset`.
 ### Spawner Logic
 
 The logic is similar to how [Capture Pods](https://starbounder.org/Capture_Pod) work - on use, a monster spawner releases a creature contained within it.  
-The file with the logic is located here: [`/items/active/unsorted/alta/spawner/monster_spawn.lua`](https://github.com/Ceterai/Enternia/blob/main/items/active/unsorted/alta/spawner/monster_spawn.lua)
+The file with the logic is located here: [`/items/active/alta/spawner.lua`](https://github.com/Ceterai/Enternia/blob/main/items/active/alta/spawner.lua)
 
 #### Spawner Projectile
 

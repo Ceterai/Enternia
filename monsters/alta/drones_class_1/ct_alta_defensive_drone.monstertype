@@ -1,30 +1,5 @@
 {
   "type" : "ct_alta_defensive_drone",
-  "shortdescription" : "Defensive Drone R300 ^#8020f0;^reset;",
-  "description" : "Hightech reinforced protective drone. Has powerful ranged attacks and protective shields.",
-  "longdescription" : "Another staple of technological advancement for altas. However, fully relying on unstable energy is rarely a good option, so this model leaves room for improvement.",
-  "altaDescription" : "Remember when PDR200s where a breakthrough? And now, we are harnessing enternia... Look at us, and how far we've come, Io~",
-  "race" : "alta",
-  "wiki" : {
-    "aliases" : { "Defensive Drone" : { }, "PDR300" : { } },
-    "md" : {
-      "#### R200" : "R200, or **PDR200**, is an older model of defensive drone, that was developed before altas were able to fully understand ^#8020f0;enternia^reset; and void energy. It used ^#b0e0fc;mical^reset; crystals, found on asteroids on relatively safe distances from their ^#b0e0fc;enterash prime^reset; planet origins, as energy concentrators, and had a much smoother armor structure compared to R300, similar to that of a ^#b0e0fc;lava drone^reset;."
-    },
-    "images" : [ "images/tooltips/ct_defensive_drone.png", "images/tooltips/ct_defensive_drone_old.png" ]
-  },
-  "alkey" : "Proto-Drei R300",
-
-  "primaryAbility" : {
-    "name" : "Defensive Mechanisms",
-    "description" : "Will fire charges made from crystal energy when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "Mical concentrators are a good at accumulating lost of energy into a single charge. And also at making it to look menacingly red."
-  },
-
-  "passiveAbility" : {
-    "name" : "EDS Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#b81824;EDS Autoshielder^reset;.\nDeals ^#8020f0;ionic^reset; damage on touch, applying ^#8020f0;Ionic Shock^reset;.",
-    "longdescription" : "Its heavy armored structure was designed and manufactured by EDS."
-  },
 
   "categories" : [ "ct_alta_defensive_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_eds_class1", "bow" : "ct_alta_eds_class2" } ],

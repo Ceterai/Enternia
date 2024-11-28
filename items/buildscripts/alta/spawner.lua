@@ -28,9 +28,9 @@ function build(directory, config, parameters, level, seed)
   if pet_params.shortdescription then config.shortdescription = pet_params.shortdescription end
   if not config.description and pet_params.description then config.description = pet_params.description end
   if not config.inventoryIcon then config.inventoryIcon = config.itemName .. '.png' end
-  if not config.animation then config.animation = '/items/active/unsorted/alta/spawner/default.animation' end
+  if not config.animation then config.animation = '/items/active/alta/spawner.animation' end
   if not config.animationParts then config.animationParts = {item = config.inventoryIcon} end
-  if not config.scripts then config.scripts = { '/items/active/unsorted/alta/spawner/monster_spawn.lua' } end
+  if not config.scripts then config.scripts = { '/items/active/alta/spawner.lua' } end
   if not config.ammoUsage then config.ammoUsage = 1 end
   -- 3. Merge with monster base parameters
   config = sb.jsonMerge(config, pet_params)

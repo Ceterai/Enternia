@@ -1,0 +1,36 @@
+{  // This is a monster egg item. Check out the `ct_monster_egg_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
+  "itemName" : "ct_nia_squid_plasma_egg",
+  "shortdescription" : "Nia Squid Plasma Egg",
+  "description" : "Can be used to spawn a squid called ^#b0e0fc;plasma nia squid^reset;.",
+  "longdescription" : "These \"eggs\" are really just highly incubated versions of creatures, used by altas during research, often for simulation purposes, which is why they tend to be friendly to their owner.",
+  "altaDescription" : "This one lights up the water in blue color!",
+  "inventoryIcon" : "ct_nia_squid_plasma_egg.png",
+  "itemTags" : [ "throwable", "spawner", "monster_egg" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
+  "price" : 200, "level" : 5,
+  "pet" : "ct_nia_squid_plasma", "damageTeam" : { "team" : 1, "type" : "passive" },
+
+  "primaryAbility" : {
+    "name" : "Critter",
+    "description" : "Critters can be ^gray;relocated^reset; with a ^gray;relocator^reset;, and some of them ^gray;drop resources^reset; when hunted down with a ^gray;bow^reset;.",
+    "longdescription" : "Look if the critter's shell or outer layer has grow a crystal or bionic matter on it, and remove it carefully to not damage the critter."
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

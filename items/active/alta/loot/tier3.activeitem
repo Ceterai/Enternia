@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_loot_tier3",
+  "shortdescription" : "Tier 3 Pad",
+  "description" : "Contains random loot from ^#b0e0fc;alta lab pods^reset;.",
+  "longdescription" : "A lab crate like this one usually contains lab-related equipment, sanitizers, cleaning supplies, experimental top secret combat gear prototypes, etc. The usual stuff.",
+  "altaDescription" : "This tek pad is probably packed with goodies. Hopefully no useless capsules this time.",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "loot", "alta_lab" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "tier3.png",
+  "animationParts" : { "item" : "tier3.png" },
+  "treasure" : { "pool" : "ct_alta_pod_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "T3 Crate" : { }, "T3 Pad" : { }, "Lab Crate" : { }, "Lab Pad" : { } } },
+  "alkey" : "Tek Pad"  // Lab Crate
+}

@@ -2,7 +2,7 @@
   "name" : "ct_alterash_starforest",
   "friendlyName" : "Starforest",
   "description" : "A colourful forest filled with ^#ffa8e8;stardust^reset; crystals. So much so even all the ayakas growing here are shining with different colors...",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png",
+  "icon" : "/items/active/alta/loot/tier2.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14", "moonrock" ],
   "ores" : "ct_alterash_depth2",
@@ -14,8 +14,13 @@
     "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_stardust_narfin_spawn" ], [ 1, "ct_prism_crippit_spawn" ] ] },
+      // Bugs
       { "select" : 1, "pool" : [ [ 0.95, "ct_prism_wing_spawn" ], [ 0.05, "ct_starfly_spawn" ] ] },
-      { "select" : 3, "pool" : [[1,"jellycritter"],[1,"bouncercritter"],[1,"prismelementalcritter"],[1,"prismscabcritter"],[1,"slugcritter"]] }
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_mini_pinky_spawn" ], [ 1, "prismelementalcritter" ] ] },
+      { "select" : 1, "pool" : [ [1,"jellycritter"], [1,"bouncercritter"], [1,"prismscabcritter"], [1,"slugcritter"] ] },
+      // Critters Water
+      { "select" : 1, "pool" : [ [ 1, "ct_nia_squid_spawn" ] ] }
     ]
   },
 

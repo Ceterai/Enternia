@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_loot_tier2",
+  "shortdescription" : "Tier 2 Pad",
+  "description" : "Contains random loot from ^#b0e0fc;alta security pods^reset;.",
+  "longdescription" : "Similar to the ^#b0e0fc;T1 crate^reset;, this one contains a compact arrangement of equipment, this time mainly security-related devices and information.",
+  "altaDescription" : "If I'm lucky enough, I could become a full-on ^#b0e0fc;varda^reset; with this. At least visually.",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "loot", "city" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "tier2.png",
+  "animationParts" : { "item" : "tier2.png" },
+  "treasure" : { "pool" : "ct_alta_pod_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "T2 Crate" : { }, "T2 Pad" : { }, "Security Crate" : { }, "Security Pad" : { } } },
+  "alkey" : "Varda Pad"  // Security Crate
+}

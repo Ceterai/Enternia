@@ -2,7 +2,7 @@
   "name" : "ct_alterash_caves",
   "friendlyName" : "Alterash Caves",
   "description" : "Lush shallow caves full of growth and prisms.\n\n*\"Did you go down a cave to mine some minerals? Huh, dig depper, in this cave you will find only... jungles.\"* - Lenn",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier1.png",
+  "icon" : "/items/active/alta/loot/tier1.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
@@ -16,7 +16,8 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier1" ] ] },
       { "select" : 1, "pool" : [ [ 1, "ct_crystal_poptop_spawn" ], [ 1, "ct_crippit_spawn" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_mini_poi_spawn" ] ] }
     ]
   },
 

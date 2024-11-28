@@ -2,7 +2,7 @@
   "name" : "ct_alterash_core_haven",
   "friendlyName" : "Alterash Haven Depths",
   "description" : "These caves are inhabited by various animals and plants, mostly peaceful. Although while they cause almost no harm on their own, this can't be said about the air around here, because it's highly toxic, which, by the way, is the reason for the enormous growth of these plants.\n\nThis biome is an underground counterpart to the surface ^#80f020;alterash haven^reset; biome.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_haven_loot.png",
+  "icon" : "/items/active/alta/loot/ct_haven_loot.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14", "crystalblock" ],
   "ores" : "ct_alterash_core",
@@ -14,7 +14,9 @@
     "monsterParameters" : { "colors" : "ocean" },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_impulse_bobfae_spawn" ] ] }
+      { "select" : 1, "pool" : [ [ 1, "ct_impulse_bobfae_spawn" ] ] },
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_impulse_crawler_spawn" ], [ 1, "ct_hunter_flower_spawn" ] ] }
     ]
   },
 

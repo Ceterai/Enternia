@@ -5,9 +5,9 @@
         "path": "/items/ct_alta_scanner",
         "value": {
             "label": "Alta Scanner",
-            "icon": "/items/active/unsorted/alta/scanner/icon.png",
+            "icon": "/items/active/alta/scanner/icon.png",
             "weight": 48,
-            "action": [ "pane", "/items/active/unsorted/alta/scanner/gui.config" ]
+            "action": [ "pane", "/items/active/alta/scanner/gui.config" ]
         }
     }
 ]

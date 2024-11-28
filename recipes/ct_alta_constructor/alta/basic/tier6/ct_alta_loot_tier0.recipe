@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 4 },
+    { "item" : "ct_stardust", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_alta_loot_tier0", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta", "alta_basic", "loot", "other", "all", "mod" ]
+}

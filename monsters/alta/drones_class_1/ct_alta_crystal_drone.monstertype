@@ -1,23 +1,5 @@
 {
   "type" : "ct_alta_crystal_drone",
-  "shortdescription" : "Crystallized Scout Drone ^#20f080;^reset;",
-  "description" : "A damaged ^#b0e0fc;alta^reset; drone, overgrown with ionized crystals.",
-  "longdescription" : "A falling star can be noticeably dangerous if you're not careful enough. Or if you're a drone. During a ^#b0e0fc;starfall^reset;.",
-  "altaDescription" : "Poor thing! This silly drei got into quite a predicament... I wonder if those malfunctions are fixable.",
-  "race" : "alta", "alkey" : "Cal Drei",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Crystal-Covered",
-    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "Be careful not to poke your finger on one of the crystals! If you have fingers, that is."
-  },
-
-  "passiveAbility" : {
-    "name" : "Defective Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Defective^reset;, ^#2080f0;Omniblue Light^reset;.\nDeals ^#20f080;impulse^reset; damage on touch, applying ^#20f080;Pulse Paralysis^reset;.",
-    "longdescription" : "Don't stand too close to it or else you might get \"stung\"."
-  },
 
   "categories" : [ "ct_alta_crystal_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier1_crystal", "bow" : "ct_alta_tier1_class2" } ],

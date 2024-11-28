@@ -1,22 +1,5 @@
 {
   "type" : "ct_alta_spider_droid",
-  "shortdescription" : "Spider Droid",
-  "description" : "This ^#b0e0fc;alta^reset; droid is fast and small, a patch of these can swarm you in seconds.",
-  "longdescription" : "Their leg-like appendages are able to easily stick to uneven surfaces, making them able to climb walls and ceilings.",
-  "altaDescription" : "Spider-droid, spider-droid, does whatever a spider... No, I've got nothing.",
-  "race" : "alta", "alkey" : "Shisa Dron",
-
-  "primaryAbility" : {
-    "name" : "Crawler",
-    "description" : "Will charge at the target with high speed. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "Having no energy accelerators allows this machine to be much lighter in weight."
-  },
-
-  "passiveAbility" : {
-    "name" : "Basic Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "Basic drones and droids usually don't have any kind of energy shields or armor regeneration, and cannot see targets through liquids."
-  },
 
   "categories" : [ "ct_alta_spider_droid" ], "parts" : [ "body", "head" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier3_class1", "bow" : "ct_alta_tier3_class2" } ],

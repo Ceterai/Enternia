@@ -1,0 +1,60 @@
+{
+  "itemName" : "ct_alta_watcher_drone",
+  "shortdescription" : "Watcher Drone",
+  "description" : "An armored drone with an alarm system that attracts protective units.",
+  "longdescription" : "Its main purpose is observation duty, for which it has an enhanced visor that acts as a projector.",
+  "altaDescription" : "It surveys you, closely... Only to turn on its visor light and blind you for, like, 5 seconds. Annoying dreis.",
+  "race" : "alta", "alkey" : "Vika Drei",
+
+  "primaryAbility" : {
+    "name" : "Careful",
+    "description" : "Will avoid the battle if confronted. Will charge at enemy and explode on destruction.",
+    "longdescription" : "It's not cowardous to be able to properly assess the situation."
+  },
+
+  "passiveAbility" : {
+    "name" : "Alert Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, Bright Visor.\nDeals physical damage on touch.",
+    "longdescription" : "Will call in reinforcements on alert."
+  },
+
+  "inventoryIcon" : "watcher.png",
+  "itemTags" : [ "throwable", "spawner", "alta_lab", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 5,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_watcher_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "presets" : {
+    "gheatsyn" : {
+      "shortdescription" : "Gheatsyn Drone",
+      "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/scout_gheatsyn.png" }, "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6e8c8" : "#f4ffc8", "#f0d820" : "#d0ff0a", "#a09900" : "#88cf00", "#787400" : "#5a9200" }
+    },
+    "tech" : {
+      "shortdescription" : "Tech Drone",
+      "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/smart_tech.png" }, "wiki" : { "skip" : true },
+      "paletteSwap" : { "#f6e8c8" : "#fcfab0", "#f0d820" : "#d8e85c", "#a09900" : "#c0dc1c", "#787400" : "#9bc000",
+      "#707088" : "#f6f6f6", "#606074" : "#d8dcf0", "#404050" : "#b0b4c8", "#2c2c34" : "#606478" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

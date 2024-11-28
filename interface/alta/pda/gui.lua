@@ -6,7 +6,7 @@ function init()
 end
 
 function openScanner(widgetName)
-  player.interact('ScriptPane', '/items/active/unsorted/alta/scanner/gui.config')
+  player.interact('ScriptPane', '/items/active/alta/scanner/gui.config')
   pane.dismiss()
 end
 

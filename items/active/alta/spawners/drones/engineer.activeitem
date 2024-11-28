@@ -1,0 +1,46 @@
+{
+  "itemName" : "ct_alta_engineer_drone",
+  "shortdescription" : "Engineer Drone ^#2080f0;^reset;",
+  "description" : "A massive technical drone able to repair anything, even itself. Slightly more resistant to ^#f08020;fire^reset; and ^#80f0f0;ice^reset;.",
+  "longdescription" : "And while repair and construction are this drone's main functions, it can put up quite the fight.",
+  "altaDescription" : "Such an irreplaceable thing when it comes to building esetera labs, as well as astera ones. Huge and amazing!",
+  "race" : "alta", "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "name" : "Drone Spawner",
+    "description" : "Constantly spawns ^#b0e0fc;minidrones^reset;. Will explode with ^#7733aa;electric^reset; particles on destruction.",
+    "longdescription" : "It's hard to imagine all these tiny drones are being constructed on the fly."
+  },
+
+  "passiveAbility" : {
+    "name" : "Enviro Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset; and ^#2080f0;Force Field Autoshielder^reset; and ^#f08020;Enviro Protection^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "This drone was developed to operate in unsafe conditions."
+  },
+
+  "inventoryIcon" : "engineer.png",
+  "itemTags" : [ "throwable", "spawner", "alta_lab", "citadel", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 480, "level" : 5,
+
+  "asset" : "/monsters/alta/drones_class_2/ct_alta_engineer_drone.monstertype",
+  "titleTooltip" : "drone",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

@@ -2,7 +2,7 @@
   "name" : "ct_alterash_crystal",
   "friendlyName" : "Electric Crystal Caves",
   "description" : "Well-lit crystallic caves full of hidden ^#2020f0;tesla spikes^reset; and other hidden ^#7733aa;electric^reset; ^#8080f0;traps^reset;.\n\n*\"Yeah, yeah, you can be proud of yourself. Because true big ^#76c7e4;crystal^reset; deposits lie here. You fully deserve your reward, so, what are you waiting for? These crystals won't mine themselves.\"* - Lenn",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png",
+  "icon" : "/items/active/alta/loot/tier2.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "crystalblock", "moonrock" ],
@@ -16,7 +16,7 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_ice_narfin_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      { "select" : 2, "pool" : [ [ 0.85, "ciclesnailcritter" ], [ 0.15, "crystaltortoisecritter" ] ] }
     ]
   },
 

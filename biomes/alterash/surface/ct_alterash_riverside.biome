@@ -2,7 +2,7 @@
   "name" : "ct_alterash_riverside",
   "friendlyName" : "Alterash Riversides",
   "description" : "This steppe area is riddled with rivers and underground waters and thus has rich vegetation that you would commonly find in places like these, like thickets of reeds and willow-like trees. ^#b0e0fc;Altas^reset; use this coastal zone for resorts and camping, using the reeds as crafting materials for tents and deck chairs. Underneath the ground you can find many different semi-flooded caves with crystal-clear water and interesting rock formations.\n\nThis place is a home to brightly-colored ^#497c64;verriskoywa^reset; flowers, these swampy plains are full of tall grass and willow-like trees called ^#497c64;gianas^reset;.  \nProfessional chefs often come here in search of a rare spice - ^#497c64;veraltai^reset;, made from petals of ^#497c64;koywa altos^reset;.\n\nUnder the ground there are harmless [[moonrock stalactites|Lunatai Stalactite]] with water from the rivers slowly dripping onto just as harmless [[moonrock stalagmites|Lunatai Stalagmite]], forming dense electrified ponds right under the surface.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_koywa_loot.png",
+  "icon" : "/items/active/alta/loot/ct_koywa_loot.png",
   "mainBlock" : "moondust",
   "subBlocks" : [ "moonstone" ],
   "ores" : "prismore",
@@ -18,10 +18,12 @@
       { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
       // Bugs
       { "select" : 1, "pool" : [ [ 1, "ct_strizychar_spawn" ] ] },
-      // Critters Water
-      { "select" : 1, "pool" : [ [1,"leafscabcritter"], [1,"bouncercritter"], [1,"fireflyspawner"] ] },
       // Critters Land & Water
-      { "select" : 2, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_alta_jelly_spawn" ] ] }
+      { "select" : 1, "pool" : [ [1,"leafscabcritter"], [1,"bouncercritter"], [1,"fireflyspawner"] ] },
+      // Critters Land
+      { "select" : 1, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_koyscream_spawn" ] ] },
+      // Critters Water
+      { "select" : 2, "pool" : [ [1, "ct_alta_jelly_spawn" ], [1, "ct_kudok_squid_spawn" ], [1, "ct_nia_squid_night_spawn" ] ] }
     ]
   },
 

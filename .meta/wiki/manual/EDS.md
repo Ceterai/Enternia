@@ -1,6 +1,6 @@
 > Main pages: [[ Alta ]], [[ Factions ]]
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/unsorted/alta/loot/ct_eds_loot.png) **Elerune Defensive System** is a "Security and Defences" project that formed as a reaction to a serious spike in danger caused by exploration of new worlds, discoveries of unstable energy sources and the creation of kaiters.
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_eds_loot.png) **Elerune Defensive System** is a "Security and Defences" project that formed as a reaction to a serious spike in danger caused by exploration of new worlds, discoveries of unstable energy sources and the creation of kaiters.
 
 EDS manufactures protective and destructive equipment, as well as security devices such as [[ combat drones|EDS#robots ]] and [[ stationary turrets|EDS Turret ]].
 All of the mentioned devices, as well as multiple defensive protocols and alta security systems, are controlled by EDS's decentralized multifunctional AI.

@@ -1,22 +1,5 @@
 {
   "type" : "ct_alta_companion_drone",
-  "shortdescription" : "Companion Drone ^#20f080;^reset;",
-  "description" : "This drone is now your personal companion! Treat it with care and support.",
-  "longdescription" : "It reminds you of something, but you can't quite put your finger on it...",
-  "altaDescription" : "I like this nice visor shape, as well as these friendly colors! « Can I keep it? Pleeease!..",
-  "race" : "alta", "alkey" : "Ava Drei",
-
-  "primaryAbility" : {
-    "name" : "Likes Cake (fool)",
-    "description" : "Will swoop at enemies when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "All smart drones know for sure that cake is a lie, but this one isn't convinced."
-  },
-
-  "passiveAbility" : {
-    "name" : "Scouting Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "This set of functions is often attributed to scouting drones, as well as personal drones, although not as often."
-  },
 
   "categories" : [ "ct_alta_companion_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier2_class1", "bow" : "ct_alta_tier2_class2" } ],

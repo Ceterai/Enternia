@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_eds_drone",
+  "shortdescription" : "^#f02020;EDS^reset; Drone ^#2080f0;^reset;",
+  "description" : "An advanced armored drone operated by ^#f02020;EDS^reset;. Has additional armor layers.",
+  "longdescription" : "This is the most common EDS robot model, as it is versatile enough to be used in most types of operations.",
+  "altaDescription" : "A staple EDS drei. These always look more serious than, let's say, companion ones.",
+  "race" : "alta", "alkey" : "EDS Drei",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Transformer",
+    "description" : "Will fire semi-auto bursts of 3 ^#8020f0;ionic charges^reset; when in range. Will transform into an ^#f02020;EDS droid^reset; on low health.",
+    "longdescription" : "If one approach wasn't effective enough, it will try a different one..."
+  },
+
+  "passiveAbility" : {
+    "name" : "Basic Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Basic drones and droids usually don't have any kind of energy shields or armor regeneration, and cannot see targets through liquids."
+  },
+
+  "inventoryIcon" : "eds.png",
+  "itemTags" : [ "throwable", "spawner", "eds", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 5,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_eds_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

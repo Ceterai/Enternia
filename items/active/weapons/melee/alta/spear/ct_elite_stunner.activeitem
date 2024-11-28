@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_elite_stunner",
-  "shortdescription" : "Elite Stunner ^#8020f0;^reset;",
+  "shortdescription" : "^#20f080;Elite^reset; Stunner ^#8020f0;^reset;",
   "description" : "^red;WIP^reset;. An ^#20f080;impulse^reset; spear used by elite ^#b0e0fc;alta^reset; forces to deal with threats.",
   "longdescription" : "This is an advanced form of a standard alta ^#b0e0fc;halter stick^reset;, with enhanced energy capabilities and additional range in exchange for the original special abilities.",
   "altaDescription" : "Exceptionally good for keeping poi and silly dreys at bay! And also for looking cool while holding it.",
@@ -34,7 +34,7 @@
 
   "primaryAbilityType" : "spearstab",
   "primaryAbility" : {
-    "name" : "Elite Formation",
+    "name" : "^#20f080;Elite^reset; Formation",
     "description" : "^red;WIP^reset;. Hold to hold out the stunner.",
     "longdescription" : "All elite guards operating a stunner are trained in a way to get the most of this tool capabilities.",
     "fireTime" : 0.95,

@@ -1,0 +1,46 @@
+{
+  "itemName" : "ct_alta_trans_drone",
+  "shortdescription" : "Orchid Drone ^#20f080;^reset;",
+  "description" : "This ^#b0e0fc;alta drone^reset; is very special! She's also extremely shy, so please handle her with care. Likes orchids!",
+  "longdescription" : "She also likes stardust and gazing at the sky once in awhile, bewildered by its beauty, wondering and dreaming of stars and infinity.",
+  "altaDescription" : "Who's a pretty little drei?~~ You are! «",
+  "race" : "alta", "alkey" : "Tia Drei",
+
+  "primaryAbility" : {
+    "name" : "Reincarnation",
+    "description" : "Will swoop at enemies when in range. Will turn into a ^#20f080;Crystal Drone ^reset; on destruction.",
+    "longdescription" : "This isn't a pre-built function of the drone, and is a mistery to some... Although true stardust orchids are known to be able to crystallize, so maybe no surprise here."
+  },
+
+  "passiveAbility" : {
+    "name" : "Scouting Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoanalyzer^reset;, ^#2080f0;Omniblue Vision^reset; and a bit of love.\nDeals physical damage on touch.",
+    "longdescription" : "This set of functions is often attributed to scouting drones, as well as personal drones, although not as often."
+  },
+
+  "inventoryIcon" : "trans.png",
+  "itemTags" : [ "throwable", "spawner", "orchid", "alta_scout", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 3,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_alta_trans_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

@@ -1,0 +1,56 @@
+{
+  "itemName" : "ct_glowstick_bionid",
+  "level" : 5, "price" : 5, "race" : "alta",
+  "itemTags" : [ "glowstick", "light", "bionid" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "bionid.png",
+  "shortdescription" : "Bionid Glowstick",
+  "description" : "Creates a bright bionic glow when thrown. Is made from rare biocrystallic materials.",
+  "longdescription" : "Has to come from bionid specifically, since that's the most luminescent type of bionid.",
+  "altaDescription" : "The color of my plasma... Eery, but interesting.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "lightColor" : [16, 180, 239],
+
+  "projectileType" : "ct_glowstick_bionid_blast",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "animationParts" : { "item" : "bionid.png" },
+  "animation" : "/items/active/alta/glowstick.animation",
+  "scripts" : [ "/items/active/alta/glowstick.lua" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
+  ],
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "alkey" : "Bio Vial"
+}

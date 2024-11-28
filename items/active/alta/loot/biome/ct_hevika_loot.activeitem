@@ -1,0 +1,18 @@
+{
+  "itemName" : "ct_hevika_loot",
+  "shortdescription" : "Hevika Loot Crate",
+  "description" : "Contains random loot from ^#0050c0;hevika^reset; biome chests.",
+  "longdescription" : "Often used by ^#0050c0;Hevika Ordis^reset; for energy transportation, as well as containment of especially overcharged specimens.",
+  "altaDescription" : "I hope I can't get ^#0050c0;hevikai^reset; just from touching this. Probably not, but still a little scary.",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "loot", "hevika" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "ct_hevika_loot.png",
+  "animationParts" : { "item" : "ct_hevika_loot.png" },
+  "treasure" : { "pool" : "ct_hevika_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Hevika Crate" : { } } }, "alkey" : "Hevika Pad"
+}

@@ -1,0 +1,56 @@
+{
+  "itemName" : "ct_glowstick_crystal",
+  "level" : 1, "price" : 5, "race" : "alta",
+  "itemTags" : [ "glowstick", "light", "calin" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "crystal.png",
+  "shortdescription" : "Crystal Glowstick",
+  "description" : "Creates a regular crystal glow when thrown. Is made from rare crystallic materials.",
+  "longdescription" : "Actual crystal are used in combination with proper glowfibre to make the effect work.",
+  "altaDescription" : "The most comforting light color out there.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+  "lightColor" : [78, 143, 184],
+
+  "projectileType" : "ct_glowstick_crystal_blast",
+  "projectileConfig" : {
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "animationParts" : { "item" : "crystal.png" },
+  "animation" : "/items/active/alta/glowstick.animation",
+  "scripts" : [ "/items/active/alta/glowstick.lua" ],
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
+  ],
+
+  "builder" : "/items/buildscripts/alta/item.lua",
+  "alkey" : "Calo Vial"
+}

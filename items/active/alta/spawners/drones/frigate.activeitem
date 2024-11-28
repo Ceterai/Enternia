@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_alta_frigate_drone",
+  "shortdescription" : "^#f02020;EDS^reset; Frigate Drone ^#8020f0;^reset;",
+  "description" : "This huge combat machine is able to construct new drones on the fly.",
+  "longdescription" : "Its body is designed to be able to act as a protected carrier, with lots of compactly placed minidrones and an additional defensive drone.",
+  "altaDescription" : "A flying goliath with a buch of small dreis inside it. Some may wonder how it even stays afloat.",
+  "race" : "alta",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "Drone Spawner",
+    "description" : "Constantly spawns ^#b0e0fc;minidrones^reset; when aggroed. Will turn into ^#f02020;empty frigate drone^reset; on low health by releasing a ^#f02020;defensive drone^reset;.",
+    "longdescription" : "It's hard to imagine all these tiny drones are being constructed on the fly."
+  },
+
+  "passiveAbility" : {
+    "name" : "EDS Drone",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#b81824;EDS Autoshielder^reset;, ^#f02020;EDS Rocket Aimbot^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Its heavy armored structure was designed and manufactured by EDS."
+  },
+
+  "inventoryIcon" : "frigate.png",
+  "itemTags" : [ "throwable", "spawner", "eds", "citadel", "robotics", "droid" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 480, "level" : 6,
+
+  "asset" : "/monsters/alta/drones_class_2/ct_alta_frigate_drone.monstertype",
+  "titleTooltip" : "drone",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

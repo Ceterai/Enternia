@@ -1,23 +1,5 @@
 {
   "type" : "ct_elite_droid",
-  "shortdescription" : "Elite Droid",
-  "description" : "A mechanical minitank that can stick to surfaces.",
-  "longdescription" : "Its prime combatative power compensates for a fairly heavy weight of the droid, meant mostly for relatively smooth surfaces.",
-  "altaDescription" : "They seem pretty sturdy, can I ride this one?",
-  "race" : "alta", "alkey" : "Prime Dron",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Elite Arsenal",
-    "description" : "Can launch semi-auto bursts of 4 ^#20f080;Pulsings^reset; or charge up a powerful ^#20f080;Proto-Pulsar^reset;. Will charge at enemy and explode on destruction.",
-    "longdescription" : "Such arsenal was designed to work under most environmental conditions."
-  },
-
-  "passiveAbility" : {
-    "name" : "Elite Armor",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#20f080;Elite Autoshielder^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "Heavy armor comes with increased overall mass, as well as higher armor rates."
-  },
 
   "categories" : [ "ct_elite_droid" ], "parts" : [ "body", "head" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier4_class1", "bow" : "ct_alta_tier4_class2" } ],

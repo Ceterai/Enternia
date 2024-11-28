@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_loot_tier4",
+  "shortdescription" : "Tier 4 Pad",
+  "description" : "Contains random loot from ^#b0e0fc;alta ship pods^reset;.",
+  "longdescription" : "A compact blast-protected container with spaceship equipment and life packs. Its airtight construction allows it to safely store any things in a very cramped environment.",
+  "altaDescription" : "Ooh! I wonder if there's anything from ^#6f6c66;spacedrifters^reset; in there! I love spacedrifters! Maybe a souvenir or something? Please?",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "loot", "alta_ship" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "tier4.png",
+  "animationParts" : { "item" : "tier4.png" },
+  "treasure" : { "pool" : "ct_alta_pod_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "T4 Crate" : { }, "T4 Pad" : { }, "Ship Crate" : { }, "Ship Pad" : { } } },
+  "alkey" : "Evia Pad"  // Ship Crate
+}

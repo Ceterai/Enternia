@@ -2,7 +2,7 @@
   "name" : "ct_alterash_flooded",
   "friendlyName" : "Flooded Alterash Caves",
   "description" : "A set of flooded caves with various seaweeds and fish. Contains various ^#497c64;koywa^reset; loot and lots of ^#6f6c66;moondust^reset;.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_koywa_loot.png",
+  "icon" : "/items/active/alta/loot/ct_koywa_loot.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moondust", "moondust" ],
@@ -16,10 +16,10 @@
     "groups" : [
       { "select" : 4, "pool" : [ [ 1, "aggroLargeFish" ] ] },
       // Critters Water
-      { "select" : 2, "pool" : [ [ 1, "smallFishOcean1" ], [ 1, "smallFishOcean2" ] ] },
+      { "select" : 1, "pool" : [ [ 1, "smallFishOcean1" ], [ 1, "smallFishOcean2" ] ] },
       { "select" : 1, "pool" : [ [1, "jellycritter" ], [1, "fishlemoncritter" ], [1, "fishberrycritter" ], [1,"fishchilicritter" ], [1,"jellocritter"] ] },
       // Critters Land & Water
-      { "select" : 2, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_alta_jelly_spawn" ] ] }
+      { "select" : 3, "pool" : [ [1, "ct_riverside_crab_spawn" ], [1, "ct_baratoad_spawn" ], [1, "ct_in_jelly_spawn" ], [1, "ct_kudok_squid_spawn" ] ] }
     ]
   },
 

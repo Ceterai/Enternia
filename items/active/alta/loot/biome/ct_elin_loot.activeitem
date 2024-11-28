@@ -1,0 +1,18 @@
+{
+  "itemName" : "ct_elin_loot",
+  "shortdescription" : "Elin Loot Crate",
+  "description" : "Contains random loot from ^#76c7e4;elin^reset; pods.",
+  "longdescription" : "Mainly used by ^#76c7e4;elin guards^reset;, it holds security devices and protective equipment.",
+  "altaDescription" : "Sometimes you can find elin furniture here. Not exactly sure why, but I'm sure it is important.",
+
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "loot", "elin" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "ct_elin_loot.png",
+  "animationParts" : { "item" : "ct_elin_loot.png" },
+  "treasure" : { "pool" : "ct_elin_loot" },
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Elin Crate" : { } } }, "alkey" : "Elin Pad"
+}

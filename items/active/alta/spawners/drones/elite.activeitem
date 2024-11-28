@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_elite_drone",
+  "shortdescription" : "^#20f080;Elite^reset; Drone",
+  "description" : "A reinforced drone with enhanced attack arsenal.",
+  "longdescription" : "This model is lighter than the droid version, but can still pack quite a punch.",
+  "altaDescription" : "A beautiful example of ^#b0e0fc;Al'deron^reset; technology.",
+  "race" : "alta", "alkey" : "Prime Drei",
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "name" : "^#20f080;Elite^reset; Arsenal",
+    "description" : "Can launch semi-auto bursts of 4 ^#20f080;Pulsings^reset; or charge up a powerful ^#20f080;Proto-Pulsar^reset;. Will charge at enemy and explode on destruction.",
+    "longdescription" : "Such arsenal was designed to work under most environmental conditions."
+  },
+
+  "passiveAbility" : {
+    "name" : "^#20f080;Elite^reset; Armor",
+    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#20f080;Elite Autoshielder^reset;.\nDeals physical damage on touch.",
+    "longdescription" : "Heavy armor comes with increased overall mass, as well as higher armor rates."
+  },
+
+  "inventoryIcon" : "elite.png",
+  "itemTags" : [ "throwable", "spawner", "elite", "alta_ship", "capital", "robotics", "drone" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
+  "price" : 240, "level" : 6,
+
+  "asset" : "/monsters/alta/drones_class_1/ct_elite_drone.monstertype",
+  "titleTooltip" : "drone", "iconTooltipFrame" : "fly.1",
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "windup" : {
+      "duration" : 0.1, "transitionFunction" : "fire",
+      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
+      "animationState" : { "weapon" : "visible" }
+    },
+    "throw" : {
+      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
+      "animationState" : { "weapon" : "hidden" }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/spawner.lua"
+}

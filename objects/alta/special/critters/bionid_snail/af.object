@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_bionid_snail_af",
+  "colonyTags" : [ "bionid", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 5,
+
+  "shortdescription" : "Bionid Snail",
+  "description" : "An attached note reads, \"This snails glows in the dark, when not hungry.\"",
+  "altaDescription" : "Does it produce bionid or simply uses it as a shell?",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

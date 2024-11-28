@@ -2,7 +2,7 @@
   "name" : "ct_alterash_caves_deep",
   "friendlyName" : "Alterash Deep Caves",
   "description" : "Mostly hollow caves full of ^#6f6c66;moonrock^reset; and sparse ^#76c7e4;crystals^reset;.\n\n*\"So, do you suppose that now you descended deep enough to get your minerals? I don't want to upset anyone, but I hasten to inform you that... Oh, forget it, go get these damn minerals already!!\"* - Lenn",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier2.png",
+  "icon" : "/items/active/alta/loot/tier2.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moonrock" ],
@@ -16,7 +16,8 @@
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_crystal_poptop_spawn" ] ] },
       { "select" : 1, "pool" : [ [ 1, "wisper" ], [ 1, "skimbus" ] ] },
-      { "select" : 2, "pool" : [[0.85,"ciclesnailcritter"], [0.15,"crystaltortoisecritter"]] }
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "ct_baratoad_spawn" ], [ 1, "glowingballcritter" ] ] }
     ]
   },
 

@@ -2,7 +2,7 @@
   "name" : "ct_alterash_yaara",
   "friendlyName" : "Yaara Grove",
   "description" : "A cavey land that has once been overgrown with ^#20f080;Yaara^reset;.  \nSomewhere in the depths of these jungles you'll be able to find majestic giant flowers - ^#20f080;Yaara Hearts^reset;. In fact, the entire grove is just a one big yaara plant that has been streching and growing, spreading its roots everywhere. Those giant flowers are the places of concentration of its energy - ^#20f080;Ceternia^reset;.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_yaara_loot.png",
+  "icon" : "/items/active/alta/loot/ct_yaara_loot.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonrock", "moonrock" ],
@@ -18,10 +18,11 @@
       { "select" : 2, "pool" : [ [ 1, "nutmidge" ], [ 1, "pteropod" ], [ 1, "toumingo" ], [ 1, "miasmop" ] ] },
       // Bugs
       { "select" : 1, "pool" : [ [ 0.75, "ct_juviley_spawn" ], [ 0.25, "ct_elin_bug_spawn" ] ] },
+      // Critters Water
+      { "select" : 1, "pool" : [ [ 1, "jellocritter" ], [ 1, "ct_in_jelly_spawn" ] ] },
       // Critters
-      { "select" : 1, "pool" : [ [1, "jellocritter" ] ] },
       { "select" : 1, "pool" : [ [1,"bowbirdcritter"], [1,"bouncercritter"], [1,"sackbagcritter"], [1,"toucritter"] ] },
-      { "select" : 2, "pool" : [ [ 1, "ct_yaafrog_spawn" ], [ 1, "ct_eeriss_spawn" ], [ 1, "sackbagcritter" ], [ 1, "toucritter" ] ] }
+      { "select" : 3, "pool" : [ [ 1, "ct_yaafrog_spawn" ], [ 1, "ct_eeriss_spawn" ], [ 1, "sackbagcritter" ], [ 1, "toucritter" ], [ 1, "ct_hunter_flower_spawn" ] ] }
     ]
   },
 

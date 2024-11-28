@@ -1,23 +1,5 @@
 {
   "type" : "ct_elin_drone",
-  "shortdescription" : "Elin Drone ^#20f080;^reset;",
-  "description" : "An armored drone originally created to patrol and protect ^#20f080;Elin Gardens^reset;. It has partially overgrown with ^#20f080;yaara roots^reset;.",
-  "longdescription" : "In its nature, this drone is a direct analogy of the security drone, with slight adjustments to better fit its new specific goals.",
-  "altaDescription" : "This cutie is any caretaker's little helper! Slightly overprotective one at that, too.",
-  "race" : "alta", "alkey" : "Elin Drei",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Careful",
-    "description" : "Will avoid the battle if confronted. Will charge at enemy and explode on destruction.",
-    "longdescription" : "It's not cowardous to be able to properly assess the situation."
-  },
-
-  "passiveAbility" : {
-    "name" : "Protective Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Autoprotector^reset;, ^#2080f0;Autorepeller^reset;.\nDeals ^#20f080;impulse^reset; damage on touch, applying ^#20f080;Pulse Paralysis^reset;.",
-    "longdescription" : "Has medium armor mostly made from titanium, and thus might appear slightly bulkier in size, and provides additional assistance as opposed to regular protected drones."
-  },
 
   "categories" : [ "ct_elin_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier2_class1", "bow" : "ct_alta_tier2_class2" } ],

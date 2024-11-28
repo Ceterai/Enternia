@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_calin_snail_egg", "count" : 1 },
+    { "item" : "bottle", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_calin_snail_af", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "calin", "objects", "snails", "all", "mod" ]
+}

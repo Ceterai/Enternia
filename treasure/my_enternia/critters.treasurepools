@@ -1,0 +1,22 @@
+  // ==============================================================================================
+  //                       TREASURE POOLS FOR CRITTERS (BOW & BUGNET TOOL)
+  // ==============================================================================================
+
+{
+  // Bugnet Loot
+  // added in 2.3.4b
+  "ct_bionid_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_bionid_snail_af" } ] } ] ],
+  "ct_calin_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_calin_snail_af" } ] } ] ],
+  "ct_gheatsyn_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_gheatsyn_snail_af" } ] } ] ],
+  "ct_phosnail_loot" : [ [0, { "fill" : [ { "item" : "ct_phosnail_af" } ] } ] ],
+
+  "ct_floating_calline_loot" : [ [0, { "fill" : [ { "item" : "ct_floating_calline_egg" } ] } ] ],
+  "ct_miazmur_loot" : [ [0, { "fill" : [ { "item" : "ct_miazmur_egg" } ] } ] ],
+
+  // Hunting Loot
+  // added in 2.3.4b
+  "ct_bionid_snail_hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_bionid", 1 ] } ] } ] ],
+  "ct_calin_snail_hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "crystal", 2 ] } ] } ] ],
+  "ct_gheatsyn_snail_hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_ghetsyn_shard", 2 ] } ] } ] ],
+  "ct_phosnail_hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_phospholion", 1 ] } ] } ] ]
+}

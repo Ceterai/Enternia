@@ -1,27 +1,5 @@
 {
   "type" : "ct_lava_drone",
-  "shortdescription" : "Lava Drone ^#8020f0;^reset;",
-  "description" : "This drone likes to swim in lava. Made out of a highly resistant material.",
-  "longdescription" : "Based on the once infamous R200 model, for what it lacks in attacking power it compensates in protection.",
-  "altaDescription" : "Its armor can withstand actual lava!",
-  "race" : "alta",
-  "wiki" : {
-    "images" : [ "images/tooltips/ct_lava_drone.png", "images/tooltips/ct_defensive_drone_old.png" ]
-  },
-  "alkey" : "Kae Drei",
-  "elementalType" : "fire",
-
-  "primaryAbility" : {
-    "name" : "Fire Cannon",
-    "description" : "Can charge up a powerful ^#f08020;fire^reset; rocket. Periodically disperses ^#f08020;fire^reset; clouds around it. Will explode with ^#f08020;fire^reset; particles on destruction.",
-    "longdescription" : "Using the heat from outside environment, it can generate according charges with a set of properly configured ^#b0e0fc;phosicores^reset;."
-  },
-
-  "passiveAbility" : {
-    "name" : "Magma-Robot",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals ^#f08020;fire^reset; damage on touch, applying ^#f08020;Burning^reset;.",
-    "longdescription" : "Due to used materials and airtight design, it's almost completely resistant to lava."
-  },
 
   "categories" : [ "ct_lava_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier4_class1", "bow" : "ct_alta_tier4_class2" } ],

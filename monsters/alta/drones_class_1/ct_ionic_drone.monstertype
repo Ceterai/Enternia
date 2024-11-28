@@ -1,27 +1,5 @@
 {
   "type" : "ct_ionic_drone",
-  "shortdescription" : "Ionic Drone ^#2080f0;^reset;",
-  "description" : "An advanced armored drone filled with enternia energy. Has ranged attacks and spreads ionized clouds.",
-  "longdescription" : "This model is a direct upgrade to a once commonplace alta battle drone.",
-  "altaDescription" : "Enternia power unleashed!",
-  "race" : "alta",
-  "wiki" : {
-    "images" : [ "images/tooltips/ct_ionic_drone.png", "images/tooltips/ct_battle_drone.png" ]
-  },
-  "alkey" : "Ena Drei",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Ion Discharger",
-    "description" : "Can fire a rapid semi-auto ion burst of 6 ^#8020f0;Ions^reset;. Periodically disperses ^#7733aa;electric^reset; clouds around it. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "Ion discharges can be very dangerous to other types of machinery, since they jumble the elecricity in its wiring, but not for this one."
-  },
-
-  "passiveAbility" : {
-    "name" : "Supercharged Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#2080f0;Mind Field^reset;, ^#8020f0;Ionic Clouds^reset;.\nDeals ^#8020f0;ionic^reset; damage on touch, applying ^#8020f0;Ionic Shock^reset;.",
-    "longdescription" : "Warning: very high voltage!"
-  },
 
   "categories" : [ "ct_ionic_drone_parts" ], "parts" : [ "body" ], "animation" : "default.animation", "reversed" : true,
   "dropPools" : [ { "default" : "ct_alta_tier3_class1", "bow" : "ct_alta_tier3_class2" } ],

@@ -3,6 +3,36 @@
   // ==============================================================================================
 
 {
+  "ct_alta_loot" : [
+    [0, {
+      "poolRounds" : [ [0.1, 1], [0.4, 2], [0.4, 3], [0.1, 4] ],
+      "pool" : [  //          total: 1.00
+        // Medicine,          total: 0.28
+        {"weight" : 0.03, "item" : "bluestim"},
+        {"weight" : 0.01, "item" : "nanowrap"},
+        {"weight" : 0.02, "item" : [ "ct_alta_dye", 2 ] },
+        {"weight" : 0.12, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
+        {"weight" : 0.05, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
+        {"weight" : 0.045, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
+        {"weight" : 0.0025, "item" : "ct_alta_roomba"},
+        {"weight" : 0.0025, "item" : "ct_alta_waiter"},
+        // Shop Food,         total: 0.54
+        {"weight" : 0.12, "item" : "ct_tsay_cola"},
+        {"weight" : 0.12, "item" : "ct_aya_soda"},
+        {"weight" : 0.12, "item" : "ct_gheanade"},
+        {"weight" : 0.10, "item" : "ct_vmax"},
+        {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
+        // Miscelanious,      total: 0.14
+        {"weight" : 0.10, "pool" : "ct_alta_other_loot"},
+        {"weight" : 0.04, "pool" : "ct_alta_codexes"},
+        // Treasure,          total: 0.04
+        {"weight" : 0.015, "item" : "ct_alta_toy_pet_ball"},
+        {"weight" : 0.015, "item" : "ct_alta_testing_ball"},
+        {"weight" : 0.005, "item" : "spaceorgan"},
+        {"weight" : 0.005, "item" : "squarewave"}
+      ]
+    } ]
+  ],
   "ct_alta_codexes" : [ [0, { "poolRounds" : [ [1.0, 1] ],
         "pool" : [
           {"weight" : 0.08, "item" : "ct_docs_cen-codex"},
@@ -161,6 +191,6 @@
   "ct_alterashEndTreasure" : [ [0, {
         "fill" : [ {"pool" : "ct_alterashEndNoteTreasure"} ],
         "poolRounds" : [ [0.1, 2], [0.4, 3], [0.4, 4], [0.1, 5] ],
-        "pool" : [ {"weight" : 1, "pool" : "ct_alta_pod_loot_tier2"} ]
+        "pool" : [ {"weight" : 1, "pool" : "ct_alta_pod_loot"} ]
   } ] ]
 }

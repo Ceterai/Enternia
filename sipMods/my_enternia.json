@@ -482,7 +482,7 @@
         "path": "/codex/alta/",
         "fileName": "ct_elite.codex",
         "name": "ct_elite-codex",
-        "shortdescription": "Elite Protection Order",
+        "shortdescription": "^#20f080;Elite^reset; Protection Order",
         "category": "codex",
         "icon": "datamass/impulse.png",
         "rarity": "legendary",
@@ -862,6 +862,1669 @@
         "race": "alta"
     },
     {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "bionid.activeitem",
+        "name": "ct_glowstick_bionid",
+        "shortdescription": "Bionid Glowstick",
+        "category": "throwableItem",
+        "icon": "bionid.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "calline.activeitem",
+        "name": "ct_glowstick_calline",
+        "shortdescription": "Calline Glowstick",
+        "category": "throwableItem",
+        "icon": "calline.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "ceterteal.activeitem",
+        "name": "ct_glowstick_ceterteal",
+        "shortdescription": "Ceterteal Glowstick",
+        "category": "throwableItem",
+        "icon": "ceterteal.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "crystal.activeitem",
+        "name": "ct_glowstick_crystal",
+        "shortdescription": "Crystal Glowstick",
+        "category": "throwableItem",
+        "icon": "crystal.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "eds.activeitem",
+        "name": "ct_glowstick_eds",
+        "shortdescription": "^#f02020;EDS^reset; Glowstick",
+        "category": "throwableItem",
+        "icon": "eds.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "gheatsyn.activeitem",
+        "name": "ct_glowstick_gheatsyn",
+        "shortdescription": "Gheatsyn Glowstick",
+        "category": "throwableItem",
+        "icon": "gheatsyn.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "ionic.activeitem",
+        "name": "ct_glowstick_ionic",
+        "shortdescription": "Ionic Glowstick",
+        "category": "throwableItem",
+        "icon": "ionic.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "mical.activeitem",
+        "name": "ct_glowstick_mical",
+        "shortdescription": "Mical Glowstick",
+        "category": "throwableItem",
+        "icon": "mical.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "omniblue.activeitem",
+        "name": "ct_glowstick_omniblue",
+        "shortdescription": "Omniblue Glowstick",
+        "category": "throwableItem",
+        "icon": "omniblue.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "stardust.activeitem",
+        "name": "ct_glowstick_stardust",
+        "shortdescription": "Stardust Glowstick",
+        "category": "throwableItem",
+        "icon": "stardust.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/glowsticks/",
+        "fileName": "yonnur.activeitem",
+        "name": "ct_glowstick_yonnur",
+        "shortdescription": "Yonnur Glowstick",
+        "category": "throwableItem",
+        "icon": "yonnur.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier0.activeitem",
+        "name": "ct_alta_loot_tier0",
+        "shortdescription": "Tier 0 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier0.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier1.activeitem",
+        "name": "ct_alta_loot_tier1",
+        "shortdescription": "Tier 1 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier1.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier2.activeitem",
+        "name": "ct_alta_loot_tier2",
+        "shortdescription": "Tier 2 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier2.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier3.activeitem",
+        "name": "ct_alta_loot_tier3",
+        "shortdescription": "Tier 3 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier3.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier4.activeitem",
+        "name": "ct_alta_loot_tier4",
+        "shortdescription": "Tier 4 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier4.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/",
+        "fileName": "tier5.activeitem",
+        "name": "ct_alta_loot_tier5",
+        "shortdescription": "Tier 5 Pad",
+        "category": "mysteriousReward",
+        "icon": "tier5.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_astera_loot.activeitem",
+        "name": "ct_astera_loot",
+        "shortdescription": "Astera Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_astera_loot.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_ayaka_loot.activeitem",
+        "name": "ct_ayaka_loot",
+        "shortdescription": "Ayaka Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_ayaka_loot.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_bionid_loot.activeitem",
+        "name": "ct_bionid_loot",
+        "shortdescription": "Bionid Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_bionid_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_bishyn_loot.activeitem",
+        "name": "ct_bishyn_loot",
+        "shortdescription": "Bishyn Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_bishyn_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_calin_loot.activeitem",
+        "name": "ct_calin_loot",
+        "shortdescription": "Calin Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_calin_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_crystalline_prime_loot.activeitem",
+        "name": "ct_crystalline_prime_loot",
+        "shortdescription": "Crystalline Prime Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_crystalline_prime_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_eds_loot.activeitem",
+        "name": "ct_eds_loot",
+        "shortdescription": "^#f02020;EDS^reset; Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_eds_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_elin_loot.activeitem",
+        "name": "ct_elin_loot",
+        "shortdescription": "Elin Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_elin_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_enchanted_loot.activeitem",
+        "name": "ct_enchanted_loot",
+        "shortdescription": "Enchanted Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_enchanted_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_eva_loot.activeitem",
+        "name": "ct_eva_loot",
+        "shortdescription": "Eva Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_eva_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_faradea_loot.activeitem",
+        "name": "ct_faradea_loot",
+        "shortdescription": "Faradea Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_faradea_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_gheatsyn_loot.activeitem",
+        "name": "ct_gheatsyn_loot",
+        "shortdescription": "Gheatsyn Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_gheatsyn_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_gyera_loot.activeitem",
+        "name": "ct_gyera_loot",
+        "shortdescription": "Gyera Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_gyera_loot.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_haven_loot.activeitem",
+        "name": "ct_haven_loot",
+        "shortdescription": "Haven Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_haven_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_hevika_loot.activeitem",
+        "name": "ct_hevika_loot",
+        "shortdescription": "Hevika Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_hevika_loot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_ion_core_loot.activeitem",
+        "name": "ct_ion_core_loot",
+        "shortdescription": "Ion Core Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_ion_core_loot.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_isoslime_loot.activeitem",
+        "name": "ct_isoslime_loot",
+        "shortdescription": "Isoslime Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_isoslime_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_koywa_loot.activeitem",
+        "name": "ct_koywa_loot",
+        "shortdescription": "Koywa Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_koywa_loot.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_phospholion_loot.activeitem",
+        "name": "ct_phospholion_loot",
+        "shortdescription": "Phospholion Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_phospholion_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_shroomic_loot.activeitem",
+        "name": "ct_shroomic_loot",
+        "shortdescription": "Shroomic Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_shroomic_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_sona_loot.activeitem",
+        "name": "ct_sona_loot",
+        "shortdescription": "Sona Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_sona_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_warped_loot.activeitem",
+        "name": "ct_warped_loot",
+        "shortdescription": "Warped Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_warped_loot.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/loot/biome/",
+        "fileName": "ct_yaara_loot.activeitem",
+        "name": "ct_yaara_loot",
+        "shortdescription": "Yaara Loot Crate",
+        "category": "mysteriousReward",
+        "icon": "ct_yaara_loot.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/loot/other/",
+        "fileName": "ct_gsr_pod.activeitem",
+        "name": "ct_gsr_pod",
+        "shortdescription": "GSR Pod ^#8020f0;^reset;",
+        "category": "mysteriousReward",
+        "icon": "ct_gsr_pod.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_metrocop_set.activeitem",
+        "name": "ct_alta_metrocop_set",
+        "shortdescription": "Metrocop Set",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_metrocop_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_scout_set.activeitem",
+        "name": "ct_alta_scout_set",
+        "shortdescription": "Scout Set",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_scout_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_security_captain_set.activeitem",
+        "name": "ct_alta_security_captain_set",
+        "shortdescription": "Security Captain Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_security_captain_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_security_droid_set.activeitem",
+        "name": "ct_alta_security_droid_set",
+        "shortdescription": "Security Android Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_security_droid_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_security_mk2_set.activeitem",
+        "name": "ct_alta_security_mk2_set",
+        "shortdescription": "Advanced Security Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_security_mk2_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_alta_security_set.activeitem",
+        "name": "ct_alta_security_set",
+        "shortdescription": "Security Set",
+        "category": "mysteriousReward",
+        "icon": "ct_alta_security_set.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_arco_set.activeitem",
+        "name": "ct_arco_set",
+        "shortdescription": "Enviro Set",
+        "category": "mysteriousReward",
+        "icon": "ct_arco_set.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_ceterai_set.activeitem",
+        "name": "ct_ceterai_set",
+        "shortdescription": "^#2080f0;C.T.^reset; Alternia Set",
+        "category": "mysteriousReward",
+        "icon": "ct_ceterai_set.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_combat_set.activeitem",
+        "name": "ct_combat_set",
+        "shortdescription": "Combat Set",
+        "category": "mysteriousReward",
+        "icon": "ct_combat_set.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_dreamer_set.activeitem",
+        "name": "ct_dreamer_set",
+        "shortdescription": "Dreamer Set",
+        "category": "mysteriousReward",
+        "icon": "ct_dreamer_set.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_eds_set.activeitem",
+        "name": "ct_eds_set",
+        "shortdescription": "^#f02020;EDS^reset; Set",
+        "category": "mysteriousReward",
+        "icon": "ct_eds_set.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_elite_set.activeitem",
+        "name": "ct_elite_set",
+        "shortdescription": "^#20f080;Elite^reset; Set",
+        "category": "mysteriousReward",
+        "icon": "ct_elite_set.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/sets/",
+        "fileName": "ct_ghearun_set.activeitem",
+        "name": "ct_ghearun_set",
+        "shortdescription": "Ghearun M1 Set",
+        "category": "mysteriousReward",
+        "icon": "ct_ghearun_set.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/scanner/",
+        "fileName": "ct_alta_scanner.activeitem",
+        "name": "ct_alta_scanner",
+        "shortdescription": "Alta Scanner",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/",
+        "fileName": "ct_monster_spawner.activeitem",
+        "name": "ct_monster_spawner",
+        "shortdescription": "Random Monster Spawn Egg",
+        "category": "throwableItem",
+        "icon": "ct_monster_spawner.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "alta.activeitem",
+        "name": "ct_alta_android",
+        "shortdescription": "Android",
+        "category": "throwableItem",
+        "icon": "alta.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "arco.activeitem",
+        "name": "ct_arco_android",
+        "shortdescription": "Enviro Android ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "arco.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "capital.activeitem",
+        "name": "ct_alta_capital_android",
+        "shortdescription": "Imperial Android",
+        "category": "throwableItem",
+        "icon": "capital.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "ceterai.activeitem",
+        "name": "ct_ceterai_android",
+        "shortdescription": "C.T. Android ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ceterai.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "combat.activeitem",
+        "name": "ct_combat_android",
+        "shortdescription": "Combat Android ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "combat.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "dreamer.activeitem",
+        "name": "ct_dreamer_android",
+        "shortdescription": "Dreamer Android ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "dreamer.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "eds.activeitem",
+        "name": "ct_eds_android",
+        "shortdescription": "^#f02020;EDS^reset; Android ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "eds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "elite.activeitem",
+        "name": "ct_elite_android",
+        "shortdescription": "^#20f080;Elite^reset; Android ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "elite.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "lab.activeitem",
+        "name": "ct_alta_lab_android",
+        "shortdescription": "Alta Lab Android",
+        "category": "throwableItem",
+        "icon": "lab.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/androids/",
+        "fileName": "security.activeitem",
+        "name": "ct_alta_security_android",
+        "shortdescription": "Security Android",
+        "category": "throwableItem",
+        "icon": "security.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_alto_zych_egg.activeitem",
+        "name": "ct_alto_zych_egg",
+        "shortdescription": "Alto Zych Egg",
+        "category": "throwableItem",
+        "icon": "ct_alto_zych_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_aya_bee_egg.activeitem",
+        "name": "ct_aya_bee_egg",
+        "shortdescription": "Aya Bee Egg",
+        "category": "throwableItem",
+        "icon": "ct_aya_bee_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_elin_bug_egg.activeitem",
+        "name": "ct_elin_bug_egg",
+        "shortdescription": "Elin Bug Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_elin_bug_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_ion_klee_egg.activeitem",
+        "name": "ct_ion_klee_egg",
+        "shortdescription": "Ion Klee Egg",
+        "category": "throwableItem",
+        "icon": "ct_ion_klee_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_juviley_egg.activeitem",
+        "name": "ct_juviley_egg",
+        "shortdescription": "Juviley Egg",
+        "category": "throwableItem",
+        "icon": "ct_juviley_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_klee_egg.activeitem",
+        "name": "ct_klee_egg",
+        "shortdescription": "Klee Egg",
+        "category": "throwableItem",
+        "icon": "ct_klee_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_klee_prime_egg.activeitem",
+        "name": "ct_klee_prime_egg",
+        "shortdescription": "Klee Prime Egg",
+        "category": "throwableItem",
+        "icon": "ct_klee_prime_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_prism_wing_egg.activeitem",
+        "name": "ct_prism_wing_egg",
+        "shortdescription": "Prism Wing Egg",
+        "category": "throwableItem",
+        "icon": "ct_prism_wing_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_starfly_egg.activeitem",
+        "name": "ct_starfly_egg",
+        "shortdescription": "Starfly Egg",
+        "category": "throwableItem",
+        "icon": "ct_starfly_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_strizychar_egg.activeitem",
+        "name": "ct_strizychar_egg",
+        "shortdescription": "Strizychar Egg",
+        "category": "throwableItem",
+        "icon": "ct_strizychar_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_unwarped_fly_egg.activeitem",
+        "name": "ct_unwarped_fly_egg",
+        "shortdescription": "Unwarped Fly Egg",
+        "category": "throwableItem",
+        "icon": "ct_unwarped_fly_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/bugs/",
+        "fileName": "ct_vio_zych_egg.activeitem",
+        "name": "ct_vio_zych_egg",
+        "shortdescription": "Vio Zych Egg",
+        "category": "throwableItem",
+        "icon": "ct_vio_zych_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_alta_jelly_egg.activeitem",
+        "name": "ct_alta_jelly_egg",
+        "shortdescription": "Alta Jelly Egg",
+        "category": "throwableItem",
+        "icon": "ct_alta_jelly_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_alta_scab_egg.activeitem",
+        "name": "ct_alta_scab_egg",
+        "shortdescription": "Alta Scab Egg",
+        "category": "throwableItem",
+        "icon": "ct_alta_scab_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_ariling_egg.activeitem",
+        "name": "ct_ariling_egg",
+        "shortdescription": "Ariling Egg",
+        "category": "throwableItem",
+        "icon": "ct_ariling_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_baratoad_egg.activeitem",
+        "name": "ct_baratoad_egg",
+        "shortdescription": "Baratoad Egg",
+        "category": "throwableItem",
+        "icon": "ct_baratoad_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_bionid_snail_egg.activeitem",
+        "name": "ct_bionid_snail_egg",
+        "shortdescription": "Bionid Snail Egg",
+        "category": "throwableItem",
+        "icon": "ct_bionid_snail_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_bishyn_tortoise_egg.activeitem",
+        "name": "ct_bishyn_tortoise_egg",
+        "shortdescription": "Bishyn Tortoise Egg",
+        "category": "throwableItem",
+        "icon": "ct_bishyn_tortoise_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_boki_egg.activeitem",
+        "name": "ct_boki_egg",
+        "shortdescription": "Boki Egg",
+        "category": "throwableItem",
+        "icon": "ct_boki_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_calin_snail_egg.activeitem",
+        "name": "ct_calin_snail_egg",
+        "shortdescription": "Calin Snail Egg",
+        "category": "throwableItem",
+        "icon": "ct_calin_snail_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_eds_scab_egg.activeitem",
+        "name": "ct_eds_scab_egg",
+        "shortdescription": "EDS Scab Egg",
+        "category": "throwableItem",
+        "icon": "ct_eds_scab_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_eeriss_egg.activeitem",
+        "name": "ct_eeriss_egg",
+        "shortdescription": "Eeriss Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_eeriss_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_floater_egg.activeitem",
+        "name": "ct_floater_egg",
+        "shortdescription": "Floater Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_floater_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_floating_calline_egg.activeitem",
+        "name": "ct_floating_calline_egg",
+        "shortdescription": "Floating Calline Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_floating_calline_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_gheatsyn_snail_egg.activeitem",
+        "name": "ct_gheatsyn_snail_egg",
+        "shortdescription": "Gheatsyn Snail Egg",
+        "category": "throwableItem",
+        "icon": "ct_gheatsyn_snail_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_glow_tortoise_egg.activeitem",
+        "name": "ct_glow_tortoise_egg",
+        "shortdescription": "Glow Tortoise Egg",
+        "category": "throwableItem",
+        "icon": "ct_glow_tortoise_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_hevika_scab_egg.activeitem",
+        "name": "ct_hevika_scab_egg",
+        "shortdescription": "Hevika Scab Egg",
+        "category": "throwableItem",
+        "icon": "ct_hevika_scab_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_hunter_flower_egg.activeitem",
+        "name": "ct_hunter_flower_egg",
+        "shortdescription": "Hunter Flower Egg",
+        "category": "throwableItem",
+        "icon": "ct_hunter_flower_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_impulse_crawler_egg.activeitem",
+        "name": "ct_impulse_crawler_egg",
+        "shortdescription": "Impulse Crawler Egg",
+        "category": "throwableItem",
+        "icon": "ct_impulse_crawler_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_in_jelly_egg.activeitem",
+        "name": "ct_in_jelly_egg",
+        "shortdescription": "In Jelly Egg",
+        "category": "throwableItem",
+        "icon": "ct_in_jelly_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_ion_tortoise_egg.activeitem",
+        "name": "ct_ion_tortoise_egg",
+        "shortdescription": "Ion Tortoise Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_ion_tortoise_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_isogloop_egg.activeitem",
+        "name": "ct_isogloop_egg",
+        "shortdescription": "Isogloop Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_isogloop_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_koyscream_egg.activeitem",
+        "name": "ct_koyscream_egg",
+        "shortdescription": "Koyscream Egg",
+        "category": "throwableItem",
+        "icon": "ct_koyscream_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_kudok_squid_egg.activeitem",
+        "name": "ct_kudok_squid_egg",
+        "shortdescription": "Kudok Squid Egg",
+        "category": "throwableItem",
+        "icon": "ct_kudok_squid_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_miazmur_egg.activeitem",
+        "name": "ct_miazmur_egg",
+        "shortdescription": "Miazmur Egg",
+        "category": "throwableItem",
+        "icon": "ct_miazmur_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_mini_pinky_egg.activeitem",
+        "name": "ct_mini_pinky_egg",
+        "shortdescription": "Mini Pinky Egg",
+        "category": "throwableItem",
+        "icon": "ct_mini_pinky_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_mini_poi_egg.activeitem",
+        "name": "ct_mini_poi_egg",
+        "shortdescription": "Mini Poi Egg",
+        "category": "throwableItem",
+        "icon": "ct_mini_poi_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_nia_squid_impulse_egg.activeitem",
+        "name": "ct_nia_squid_impulse_egg",
+        "shortdescription": "Impulse Nia Squid Egg",
+        "category": "throwableItem",
+        "icon": "ct_nia_squid_impulse_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_nia_squid_ionic_egg.activeitem",
+        "name": "ct_nia_squid_ionic_egg",
+        "shortdescription": "Nia Squid Ionic Egg",
+        "category": "throwableItem",
+        "icon": "ct_nia_squid_ionic_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_nia_squid_plasma_egg.activeitem",
+        "name": "ct_nia_squid_plasma_egg",
+        "shortdescription": "Nia Squid Plasma Egg",
+        "category": "throwableItem",
+        "icon": "ct_nia_squid_plasma_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_nia_squid_stardust_egg.activeitem",
+        "name": "ct_nia_squid_stardust_egg",
+        "shortdescription": "Nia Squid Stardust Egg",
+        "category": "throwableItem",
+        "icon": "ct_nia_squid_stardust_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_phosnail_egg.activeitem",
+        "name": "ct_phosnail_egg",
+        "shortdescription": "Phosnail Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_phosnail_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_plasma_nibbler_egg.activeitem",
+        "name": "ct_plasma_nibbler_egg",
+        "shortdescription": "Plasma Nibbler Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_plasma_nibbler_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_riverside_crab_egg.activeitem",
+        "name": "ct_riverside_crab_egg",
+        "shortdescription": "Riverside Crab Egg",
+        "category": "throwableItem",
+        "icon": "ct_riverside_crab_egg.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_warped_bug_egg.activeitem",
+        "name": "ct_warped_bug_egg",
+        "shortdescription": "Warped Bug Egg",
+        "category": "throwableItem",
+        "icon": "ct_warped_bug_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_warped_spider_egg.activeitem",
+        "name": "ct_warped_spider_egg",
+        "shortdescription": "Warped Spider Egg",
+        "category": "throwableItem",
+        "icon": "ct_warped_spider_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_warped_worm_egg.activeitem",
+        "name": "ct_warped_worm_egg",
+        "shortdescription": "Wapred Worm Egg",
+        "category": "throwableItem",
+        "icon": "ct_warped_worm_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/critters/",
+        "fileName": "ct_yaafrog_egg.activeitem",
+        "name": "ct_yaafrog_egg",
+        "shortdescription": "Yaafrog Egg",
+        "category": "throwableItem",
+        "icon": "ct_yaafrog_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "defensive.activeitem",
+        "name": "ct_alta_defensive_droid",
+        "shortdescription": "^#f02020;EDS^reset; Defensive Droid ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "defensive.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "eds.activeitem",
+        "name": "ct_eds_droid",
+        "shortdescription": "^#f02020;EDS^reset; Droid ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "eds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "elite.activeitem",
+        "name": "ct_elite_droid",
+        "shortdescription": "^#20f080;Elite^reset; Droid",
+        "category": "throwableItem",
+        "icon": "elite.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "ghearun.activeitem",
+        "name": "ct_gheatsyn_droid",
+        "shortdescription": "Ghearun Droid ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ghearun.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "spider.activeitem",
+        "name": "ct_alta_spider_droid",
+        "shortdescription": "Spider Droid",
+        "category": "throwableItem",
+        "icon": "spider.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/droids/",
+        "fileName": "stalker.activeitem",
+        "name": "ct_alta_stalker_droid",
+        "shortdescription": "Stalker Droid ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "stalker.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "companion.activeitem",
+        "name": "ct_alta_companion_drone",
+        "shortdescription": "Companion Drone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "companion.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "crystal.activeitem",
+        "name": "ct_alta_crystal_drone",
+        "shortdescription": "Crystallized Scout Drone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "crystal.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "defensive.activeitem",
+        "name": "ct_alta_defensive_drone",
+        "shortdescription": "^#f02020;EDS^reset; Defensive Drone ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "defensive.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "eds.activeitem",
+        "name": "ct_eds_drone",
+        "shortdescription": "^#f02020;EDS^reset; Drone ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "eds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "elin.activeitem",
+        "name": "ct_elin_drone",
+        "shortdescription": "Elin Drone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "elin.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "elite.activeitem",
+        "name": "ct_elite_drone",
+        "shortdescription": "^#20f080;Elite^reset; Drone",
+        "category": "throwableItem",
+        "icon": "elite.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "engineer.activeitem",
+        "name": "ct_alta_engineer_drone",
+        "shortdescription": "Engineer Drone ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "engineer.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "frigate.activeitem",
+        "name": "ct_alta_frigate_drone",
+        "shortdescription": "^#f02020;EDS^reset; Frigate Drone ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "frigate.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "frigate_empty.activeitem",
+        "name": "ct_alta_frigate_drone_empty",
+        "shortdescription": "Empty ^#f02020;EDS^reset; Frigate Drone ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "frigate_empty.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "ionic.activeitem",
+        "name": "ct_ionic_drone",
+        "shortdescription": "Ionic Drone ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ionic.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "lava.activeitem",
+        "name": "ct_lava_drone",
+        "shortdescription": "Lava Drone ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "lava.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "mini.activeitem",
+        "name": "ct_alta_mini_drone",
+        "shortdescription": "Minidrone",
+        "category": "throwableItem",
+        "icon": "mini.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "scout.activeitem",
+        "name": "ct_alta_scout_drone",
+        "shortdescription": "Scout Drone",
+        "category": "throwableItem",
+        "icon": "scout.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "security.activeitem",
+        "name": "ct_alta_security_drone",
+        "shortdescription": "Security Drone",
+        "category": "throwableItem",
+        "icon": "security.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "sentry.activeitem",
+        "name": "ct_alta_sentry_drone",
+        "shortdescription": "Sentry Drone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "sentry.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "shield.activeitem",
+        "name": "ct_alta_shield_drone",
+        "shortdescription": "Shieldrone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "shield.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "trans.activeitem",
+        "name": "ct_alta_trans_drone",
+        "shortdescription": "Orchid Drone ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "trans.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/drones/",
+        "fileName": "watcher.activeitem",
+        "name": "ct_alta_watcher_drone",
+        "shortdescription": "Watcher Drone",
+        "category": "throwableItem",
+        "icon": "watcher.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/helpers/",
+        "fileName": "arco.activeitem",
+        "name": "ct_arco_scanner",
+        "shortdescription": "Enviroscanner",
+        "category": "throwableItem",
+        "icon": "arco.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/helpers/",
+        "fileName": "eds.activeitem",
+        "name": "ct_eds_gardis",
+        "shortdescription": "^#f02020;EDS^reset; Gardis",
+        "category": "throwableItem",
+        "icon": "eds.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/helpers/",
+        "fileName": "roomba.activeitem",
+        "name": "ct_alta_roomba",
+        "shortdescription": "Roomba",
+        "category": "throwableItem",
+        "icon": "roomba.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/helpers/",
+        "fileName": "waiter.activeitem",
+        "name": "ct_alta_waiter",
+        "shortdescription": "Waiter",
+        "category": "throwableItem",
+        "icon": "waiter.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_aric_sporgus_egg.activeitem",
+        "name": "ct_aric_sporgus_egg",
+        "shortdescription": "Aric Sporgus Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_aric_sporgus_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_astral_narfin_egg.activeitem",
+        "name": "ct_astral_narfin_egg",
+        "shortdescription": "Astral Narfin Egg",
+        "category": "throwableItem",
+        "icon": "ct_astral_narfin_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_berry_bobfae_egg.activeitem",
+        "name": "ct_berry_bobfae_egg",
+        "shortdescription": "Berry Bobfae Egg",
+        "category": "throwableItem",
+        "icon": "ct_berry_bobfae_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_bionfly_egg.activeitem",
+        "name": "ct_bionfly_egg",
+        "shortdescription": "Bionfly Egg",
+        "category": "throwableItem",
+        "icon": "ct_bionfly_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_bionid_pteropod_egg.activeitem",
+        "name": "ct_bionid_pteropod_egg",
+        "shortdescription": "Bionid Pteropod Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_bionid_pteropod_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_bishyn_crippit_egg.activeitem",
+        "name": "ct_bishyn_crippit_egg",
+        "shortdescription": "Bishyn Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_bishyn_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_brutefly_egg.activeitem",
+        "name": "ct_brutefly_egg",
+        "shortdescription": "Brutefly Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_brutefly_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_calin_crippit_egg.activeitem",
+        "name": "ct_calin_crippit_egg",
+        "shortdescription": "Calin Crippit Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_calin_crippit_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_crippit_egg.activeitem",
+        "name": "ct_crippit_egg",
+        "shortdescription": "Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_crippit_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_crystalline_crippit_egg.activeitem",
+        "name": "ct_crystalline_crippit_egg",
+        "shortdescription": "Crystalline Crippit Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_crystalline_crippit_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_crystal_poptop_egg.activeitem",
+        "name": "ct_crystal_poptop_egg",
+        "shortdescription": "Crystal Poptop Egg",
+        "category": "throwableItem",
+        "icon": "ct_crystal_poptop_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_crystal_poptop_rare_egg.activeitem",
+        "name": "ct_crystal_poptop_rare_egg",
+        "shortdescription": "Rare Crystal Poptop Egg",
+        "category": "throwableItem",
+        "icon": "ct_crystal_poptop_rare_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_gheatsyn_crippit_egg.activeitem",
+        "name": "ct_gheatsyn_crippit_egg",
+        "shortdescription": "Gheatsyn Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_gheatsyn_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_hevika_crippit_egg.activeitem",
+        "name": "ct_hevika_crippit_egg",
+        "shortdescription": "Hevika Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_hevika_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_impulse_bobfae_egg.activeitem",
+        "name": "ct_impulse_bobfae_egg",
+        "shortdescription": "Impulse Bobfae Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_impulse_bobfae_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_ionic_crippit_egg.activeitem",
+        "name": "ct_ionic_crippit_egg",
+        "shortdescription": "Ionic Crippit Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_ionic_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_ionic_crustoise_egg.activeitem",
+        "name": "ct_ionic_crustoise_egg",
+        "shortdescription": "Ionic Crustoise Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_ionic_crustoise_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_ionic_narfin_egg.activeitem",
+        "name": "ct_ionic_narfin_egg",
+        "shortdescription": "Ionic Narfin Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_ionic_narfin_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_ionic_orbide_egg.activeitem",
+        "name": "ct_ionic_orbide_egg",
+        "shortdescription": "Ionic Orbide Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_ionic_orbide_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_isopod_egg.activeitem",
+        "name": "ct_isopod_egg",
+        "shortdescription": "Isopod Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_isopod_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_lava_crippit_egg.activeitem",
+        "name": "ct_lava_crippit_egg",
+        "shortdescription": "Lava Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_lava_crippit_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_mical_crippit_egg.activeitem",
+        "name": "ct_mical_crippit_egg",
+        "shortdescription": "Mical Crippit Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_mical_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_nightmare_anglure_egg.activeitem",
+        "name": "ct_nightmare_anglure_egg",
+        "shortdescription": "Nightmare Anglure Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_nightmare_anglure_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_nightmare_orbide_egg.activeitem",
+        "name": "ct_nightmare_orbide_egg",
+        "shortdescription": "Nightmare Orbide Egg",
+        "category": "throwableItem",
+        "icon": "ct_nightmare_orbide_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_obsidian_crippit_egg.activeitem",
+        "name": "ct_obsidian_crippit_egg",
+        "shortdescription": "Obsidian Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_obsidian_crippit_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_omni_narfin_egg.activeitem",
+        "name": "ct_omni_narfin_egg",
+        "shortdescription": "Omni Narfin Egg ^#f02080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_omni_narfin_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_overcharged_crustoise_egg.activeitem",
+        "name": "ct_overcharged_crustoise_egg",
+        "shortdescription": "Overcharged Crustoise Egg",
+        "category": "throwableItem",
+        "icon": "ct_overcharged_crustoise_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_prism_crippit_egg.activeitem",
+        "name": "ct_prism_crippit_egg",
+        "shortdescription": "Prism Crippit Egg ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_prism_crippit_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_stardust_crippit_egg.activeitem",
+        "name": "ct_stardust_crippit_egg",
+        "shortdescription": "Stardust Crippit Egg",
+        "category": "throwableItem",
+        "icon": "ct_stardust_crippit_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_stardust_narfin_egg.activeitem",
+        "name": "ct_stardust_narfin_egg",
+        "shortdescription": "Stardust Narfin Egg",
+        "category": "throwableItem",
+        "icon": "ct_stardust_narfin_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_stardust_poptop_egg.activeitem",
+        "name": "ct_stardust_poptop_egg",
+        "shortdescription": "Stardust Poptop Egg ^#f02080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_stardust_poptop_egg.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_valley_poptop_egg.activeitem",
+        "name": "ct_valley_poptop_egg",
+        "shortdescription": "Valley Poptop Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_valley_poptop_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_warped_anglure_egg.activeitem",
+        "name": "ct_warped_anglure_egg",
+        "shortdescription": "Warped Anglure Egg",
+        "category": "throwableItem",
+        "icon": "ct_warped_anglure_egg.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/spawners/monsters/",
+        "fileName": "ct_warped_sporgus_egg.activeitem",
+        "name": "ct_warped_sporgus_egg",
+        "shortdescription": "Warped Sporgus Egg ^#20f080;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_warped_sporgus_egg.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/items/active/shields/",
         "fileName": "ct_arknight_shield.activeitem",
         "name": "ct_arknight_shield",
@@ -936,1165 +2599,6 @@
         "icon": "ct_spacedrifter_shield.png",
         "rarity": "legendary",
         "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_alta_loot_tier1.activeitem",
-        "name": "ct_alta_loot_tier1",
-        "shortdescription": "Alta Tier 1 Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_loot_tier1.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_alta_loot_tier2.activeitem",
-        "name": "ct_alta_loot_tier2",
-        "shortdescription": "Alta Tier 2 Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_loot_tier2.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_alta_loot_tier3.activeitem",
-        "name": "ct_alta_loot_tier3",
-        "shortdescription": "Alta Tier 3 Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_loot_tier3.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_alta_loot_tier4.activeitem",
-        "name": "ct_alta_loot_tier4",
-        "shortdescription": "Alta Tier 4 Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_loot_tier4.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_alta_loot_tier5.activeitem",
-        "name": "ct_alta_loot_tier5",
-        "shortdescription": "Alta Prime Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_loot_tier5.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_astera_loot.activeitem",
-        "name": "ct_astera_loot",
-        "shortdescription": "Astera Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_astera_loot.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_ayaka_loot.activeitem",
-        "name": "ct_ayaka_loot",
-        "shortdescription": "Ayaka Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_ayaka_loot.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_bionid_loot.activeitem",
-        "name": "ct_bionid_loot",
-        "shortdescription": "Bionid Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_bionid_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_bishyn_loot.activeitem",
-        "name": "ct_bishyn_loot",
-        "shortdescription": "Bishyn Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_bishyn_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_calin_loot.activeitem",
-        "name": "ct_calin_loot",
-        "shortdescription": "Calin Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_calin_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_crystalline_prime_loot.activeitem",
-        "name": "ct_crystalline_prime_loot",
-        "shortdescription": "Crystalline Prime Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_crystalline_prime_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_eds_loot.activeitem",
-        "name": "ct_eds_loot",
-        "shortdescription": "^#f02020;EDS^reset; Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_eds_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_elin_loot.activeitem",
-        "name": "ct_elin_loot",
-        "shortdescription": "Elin Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_elin_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_enchanted_loot.activeitem",
-        "name": "ct_enchanted_loot",
-        "shortdescription": "Enchanted Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_enchanted_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_eva_loot.activeitem",
-        "name": "ct_eva_loot",
-        "shortdescription": "Eva Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_eva_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_faradea_loot.activeitem",
-        "name": "ct_faradea_loot",
-        "shortdescription": "Faradea Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_faradea_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_gheatsyn_loot.activeitem",
-        "name": "ct_gheatsyn_loot",
-        "shortdescription": "Gheatsyn Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_gheatsyn_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_gyera_loot.activeitem",
-        "name": "ct_gyera_loot",
-        "shortdescription": "Gyera Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_gyera_loot.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_haven_loot.activeitem",
-        "name": "ct_haven_loot",
-        "shortdescription": "Haven Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_haven_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_hevika_loot.activeitem",
-        "name": "ct_hevika_loot",
-        "shortdescription": "Hevika Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_hevika_loot.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_ion_core_loot.activeitem",
-        "name": "ct_ion_core_loot",
-        "shortdescription": "Ion Core Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_ion_core_loot.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_isoslime_loot.activeitem",
-        "name": "ct_isoslime_loot",
-        "shortdescription": "Isoslime Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_isoslime_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_koywa_loot.activeitem",
-        "name": "ct_koywa_loot",
-        "shortdescription": "Koywa Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_koywa_loot.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_phospholion_loot.activeitem",
-        "name": "ct_phospholion_loot",
-        "shortdescription": "Phospholion Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_phospholion_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_shroomic_loot.activeitem",
-        "name": "ct_shroomic_loot",
-        "shortdescription": "Shroomic Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_shroomic_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_sona_loot.activeitem",
-        "name": "ct_sona_loot",
-        "shortdescription": "Sona Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_sona_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_warped_loot.activeitem",
-        "name": "ct_warped_loot",
-        "shortdescription": "Warped Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_warped_loot.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/",
-        "fileName": "ct_yaara_loot.activeitem",
-        "name": "ct_yaara_loot",
-        "shortdescription": "Yaara Loot Crate",
-        "category": "mysteriousReward",
-        "icon": "ct_yaara_loot.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/other/",
-        "fileName": "ct_gsr_pod.activeitem",
-        "name": "ct_gsr_pod",
-        "shortdescription": "GSR Pod ^#8020f0;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_gsr_pod.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_metrocop_set.activeitem",
-        "name": "ct_alta_metrocop_set",
-        "shortdescription": "Metrocop Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_metrocop_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_scout_set.activeitem",
-        "name": "ct_alta_scout_set",
-        "shortdescription": "Scout Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_scout_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_security_captain_set.activeitem",
-        "name": "ct_alta_security_captain_set",
-        "shortdescription": "Security Captain Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_captain_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_security_droid_set.activeitem",
-        "name": "ct_alta_security_droid_set",
-        "shortdescription": "Security Android Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_droid_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_security_mk2_set.activeitem",
-        "name": "ct_alta_security_mk2_set",
-        "shortdescription": "Advanced Security Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_mk2_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_alta_security_set.activeitem",
-        "name": "ct_alta_security_set",
-        "shortdescription": "Security Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_arco_set.activeitem",
-        "name": "ct_arco_set",
-        "shortdescription": "Enviro Set",
-        "category": "mysteriousReward",
-        "icon": "ct_arco_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_ceterai_set.activeitem",
-        "name": "ct_ceterai_set",
-        "shortdescription": "^#2080f0;C.T.^reset; Alternia Set",
-        "category": "mysteriousReward",
-        "icon": "ct_ceterai_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_combat_set.activeitem",
-        "name": "ct_combat_set",
-        "shortdescription": "Combat Set",
-        "category": "mysteriousReward",
-        "icon": "ct_combat_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_dreamer_set.activeitem",
-        "name": "ct_dreamer_set",
-        "shortdescription": "Dreamer Set",
-        "category": "mysteriousReward",
-        "icon": "ct_dreamer_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_eds_set.activeitem",
-        "name": "ct_eds_set",
-        "shortdescription": "^#f02020;EDS^reset; Set",
-        "category": "mysteriousReward",
-        "icon": "ct_eds_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_elite_set.activeitem",
-        "name": "ct_elite_set",
-        "shortdescription": "Elite Set",
-        "category": "mysteriousReward",
-        "icon": "ct_elite_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/loot/sets/",
-        "fileName": "ct_ghearun_set.activeitem",
-        "name": "ct_ghearun_set",
-        "shortdescription": "Ghearun M1 Set",
-        "category": "mysteriousReward",
-        "icon": "ct_ghearun_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/scanner/",
-        "fileName": "ct_alta_scanner.activeitem",
-        "name": "ct_alta_scanner",
-        "shortdescription": "Alta Scanner",
-        "category": "tool",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/",
-        "fileName": "ct_monster_spawner.activeitem",
-        "name": "ct_monster_spawner",
-        "shortdescription": "Random Monster Spawn Egg",
-        "category": "throwableItem",
-        "icon": "ct_monster_spawner.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/androids/",
-        "fileName": "ct_alta_android.activeitem",
-        "name": "ct_alta_android",
-        "shortdescription": "Android",
-        "category": "throwableItem",
-        "icon": "ct_alta_android.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/androids/",
-        "fileName": "ct_alta_capital_android.activeitem",
-        "name": "ct_alta_capital_android",
-        "shortdescription": "Imperial Android",
-        "category": "throwableItem",
-        "icon": "ct_alta_capital_android.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/androids/",
-        "fileName": "ct_alta_lab_android.activeitem",
-        "name": "ct_alta_lab_android",
-        "shortdescription": "Alta Lab Android",
-        "category": "throwableItem",
-        "icon": "ct_alta_lab_android.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/androids/",
-        "fileName": "ct_alta_security_android.activeitem",
-        "name": "ct_alta_security_android",
-        "shortdescription": "Security Android",
-        "category": "throwableItem",
-        "icon": "ct_alta_security_android.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_alto_zych_egg.activeitem",
-        "name": "ct_alto_zych_egg",
-        "shortdescription": "Alto Zych Egg",
-        "category": "throwableItem",
-        "icon": "ct_alto_zych_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_aya_bee_egg.activeitem",
-        "name": "ct_aya_bee_egg",
-        "shortdescription": "Aya Bee Egg",
-        "category": "throwableItem",
-        "icon": "ct_aya_bee_egg.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_elin_bug_egg.activeitem",
-        "name": "ct_elin_bug_egg",
-        "shortdescription": "Elin Bug Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_elin_bug_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_ion_klee_egg.activeitem",
-        "name": "ct_ion_klee_egg",
-        "shortdescription": "Ion Klee Egg",
-        "category": "throwableItem",
-        "icon": "ct_ion_klee_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_juviley_egg.activeitem",
-        "name": "ct_juviley_egg",
-        "shortdescription": "Juviley Egg",
-        "category": "throwableItem",
-        "icon": "ct_juviley_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_klee_egg.activeitem",
-        "name": "ct_klee_egg",
-        "shortdescription": "Klee Egg",
-        "category": "throwableItem",
-        "icon": "ct_klee_egg.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_klee_prime_egg.activeitem",
-        "name": "ct_klee_prime_egg",
-        "shortdescription": "Klee Prime Egg",
-        "category": "throwableItem",
-        "icon": "ct_klee_prime_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_prism_wing_egg.activeitem",
-        "name": "ct_prism_wing_egg",
-        "shortdescription": "Prism Wing Egg",
-        "category": "throwableItem",
-        "icon": "ct_prism_wing_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_starfly_egg.activeitem",
-        "name": "ct_starfly_egg",
-        "shortdescription": "Starfly Egg",
-        "category": "throwableItem",
-        "icon": "ct_starfly_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_strizychar_egg.activeitem",
-        "name": "ct_strizychar_egg",
-        "shortdescription": "Strizychar Egg",
-        "category": "throwableItem",
-        "icon": "ct_strizychar_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_unwarped_fly_egg.activeitem",
-        "name": "ct_unwarped_fly_egg",
-        "shortdescription": "Unwarped Fly Egg",
-        "category": "throwableItem",
-        "icon": "ct_unwarped_fly_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/bugs/",
-        "fileName": "ct_vio_zych_egg.activeitem",
-        "name": "ct_vio_zych_egg",
-        "shortdescription": "Vio Zych Egg",
-        "category": "throwableItem",
-        "icon": "ct_vio_zych_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_alta_defensive_droid.activeitem",
-        "name": "ct_alta_defensive_droid",
-        "shortdescription": "Defensive Droid",
-        "category": "throwableItem",
-        "icon": "ct_alta_defensive_droid.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_alta_spider_droid.activeitem",
-        "name": "ct_alta_spider_droid",
-        "shortdescription": "Spider Droid",
-        "category": "throwableItem",
-        "icon": "ct_alta_spider_droid.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_alta_stalker_droid.activeitem",
-        "name": "ct_alta_stalker_droid",
-        "shortdescription": "Stalker Droid",
-        "category": "throwableItem",
-        "icon": "ct_alta_stalker_droid.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_eds_droid.activeitem",
-        "name": "ct_eds_droid",
-        "shortdescription": "^#f02020;EDS^reset; Droid",
-        "category": "throwableItem",
-        "icon": "ct_eds_droid.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_elite_droid.activeitem",
-        "name": "ct_elite_droid",
-        "shortdescription": "Elite Droid",
-        "category": "throwableItem",
-        "icon": "ct_elite_droid.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/droids/",
-        "fileName": "ct_gheatsyn_droid.activeitem",
-        "name": "ct_gheatsyn_droid",
-        "shortdescription": "Gheatsyn Droid",
-        "category": "throwableItem",
-        "icon": "ct_gheatsyn_droid.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_companion_drone.activeitem",
-        "name": "ct_alta_companion_drone",
-        "shortdescription": "Companion Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_companion_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_crystal_drone.activeitem",
-        "name": "ct_alta_crystal_drone",
-        "shortdescription": "Crystal Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_crystal_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_defensive_drone.activeitem",
-        "name": "ct_alta_defensive_drone",
-        "shortdescription": "Defensive Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_defensive_drone.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_engineer_drone.activeitem",
-        "name": "ct_alta_engineer_drone",
-        "shortdescription": "Engineer Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_engineer_drone.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_frigate_drone.activeitem",
-        "name": "ct_alta_frigate_drone",
-        "shortdescription": "Frigate Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_frigate_drone.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_frigate_drone_empty.activeitem",
-        "name": "ct_alta_frigate_drone_empty",
-        "shortdescription": "Frigate Drone Empty",
-        "category": "throwableItem",
-        "icon": "ct_alta_frigate_drone_empty.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_mini_drone.activeitem",
-        "name": "ct_alta_mini_drone",
-        "shortdescription": "Mini Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_mini_drone.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_scout_drone.activeitem",
-        "name": "ct_alta_scout_drone",
-        "shortdescription": "Scout Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_scout_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_security_drone.activeitem",
-        "name": "ct_alta_security_drone",
-        "shortdescription": "Security Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_security_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_sentry_drone.activeitem",
-        "name": "ct_alta_sentry_drone",
-        "shortdescription": "Sentry Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_sentry_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_shield_drone.activeitem",
-        "name": "ct_alta_shield_drone",
-        "shortdescription": "Shield Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_shield_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_trans_drone.activeitem",
-        "name": "ct_alta_trans_drone",
-        "shortdescription": "Orchid Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_trans_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_alta_watcher_drone.activeitem",
-        "name": "ct_alta_watcher_drone",
-        "shortdescription": "Watcher Drone",
-        "category": "throwableItem",
-        "icon": "ct_alta_watcher_drone.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_eds_drone.activeitem",
-        "name": "ct_eds_drone",
-        "shortdescription": "^#f02020;EDS^reset; Drone",
-        "category": "throwableItem",
-        "icon": "ct_eds_drone.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_elin_drone.activeitem",
-        "name": "ct_elin_drone",
-        "shortdescription": "Elin Drone",
-        "category": "throwableItem",
-        "icon": "ct_elin_drone.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_elite_drone.activeitem",
-        "name": "ct_elite_drone",
-        "shortdescription": "Elite Drone",
-        "category": "throwableItem",
-        "icon": "ct_elite_drone.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_ionic_drone.activeitem",
-        "name": "ct_ionic_drone",
-        "shortdescription": "Ionic Drone",
-        "category": "throwableItem",
-        "icon": "ct_ionic_drone.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/drones/",
-        "fileName": "ct_lava_drone.activeitem",
-        "name": "ct_lava_drone",
-        "shortdescription": "Lava Drone",
-        "category": "throwableItem",
-        "icon": "ct_lava_drone.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/helpers/",
-        "fileName": "ct_alta_roomba.activeitem",
-        "name": "ct_alta_roomba",
-        "shortdescription": "Roomba",
-        "category": "throwableItem",
-        "icon": "ct_alta_roomba.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/helpers/",
-        "fileName": "ct_alta_waiter.activeitem",
-        "name": "ct_alta_waiter",
-        "shortdescription": "Waiter",
-        "category": "throwableItem",
-        "icon": "ct_alta_waiter.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/helpers/",
-        "fileName": "ct_arco_scanner.activeitem",
-        "name": "ct_arco_scanner",
-        "shortdescription": "Enviroscanner",
-        "category": "throwableItem",
-        "icon": "ct_arco_scanner.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/helpers/",
-        "fileName": "ct_eds_gardis.activeitem",
-        "name": "ct_eds_gardis",
-        "shortdescription": "^#f02020;EDS^reset; Gardis",
-        "category": "throwableItem",
-        "icon": "ct_eds_gardis.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_aric_sporgus_egg.activeitem",
-        "name": "ct_aric_sporgus_egg",
-        "shortdescription": "Aric Sporgus Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_aric_sporgus_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_astral_narfin_egg.activeitem",
-        "name": "ct_astral_narfin_egg",
-        "shortdescription": "Astral Narfin Egg",
-        "category": "throwableItem",
-        "icon": "ct_astral_narfin_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_berry_bobfae_egg.activeitem",
-        "name": "ct_berry_bobfae_egg",
-        "shortdescription": "Berry Bobfae Egg",
-        "category": "throwableItem",
-        "icon": "ct_berry_bobfae_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_bionfly_egg.activeitem",
-        "name": "ct_bionfly_egg",
-        "shortdescription": "Bionfly Egg",
-        "category": "throwableItem",
-        "icon": "ct_bionfly_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_bionid_pteropod_egg.activeitem",
-        "name": "ct_bionid_pteropod_egg",
-        "shortdescription": "Bionid Pteropod Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_bionid_pteropod_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_bishyn_crippit_egg.activeitem",
-        "name": "ct_bishyn_crippit_egg",
-        "shortdescription": "Bishyn Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_bishyn_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_brutefly_egg.activeitem",
-        "name": "ct_brutefly_egg",
-        "shortdescription": "Brutefly Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_brutefly_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_calin_crippit_egg.activeitem",
-        "name": "ct_calin_crippit_egg",
-        "shortdescription": "Calin Crippit Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_calin_crippit_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_crippit_egg.activeitem",
-        "name": "ct_crippit_egg",
-        "shortdescription": "Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_crippit_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_crystalline_crippit_egg.activeitem",
-        "name": "ct_crystalline_crippit_egg",
-        "shortdescription": "Crystalline Crippit Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_crystalline_crippit_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_crystal_poptop_egg.activeitem",
-        "name": "ct_crystal_poptop_egg",
-        "shortdescription": "Crystal Poptop Egg",
-        "category": "throwableItem",
-        "icon": "ct_crystal_poptop_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_crystal_poptop_rare_egg.activeitem",
-        "name": "ct_crystal_poptop_rare_egg",
-        "shortdescription": "Rare Crystal Poptop Egg",
-        "category": "throwableItem",
-        "icon": "ct_crystal_poptop_rare_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_gheatsyn_crippit_egg.activeitem",
-        "name": "ct_gheatsyn_crippit_egg",
-        "shortdescription": "Gheatsyn Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_gheatsyn_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_hevika_crippit_egg.activeitem",
-        "name": "ct_hevika_crippit_egg",
-        "shortdescription": "Hevika Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_hevika_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_impulse_bobfae_egg.activeitem",
-        "name": "ct_impulse_bobfae_egg",
-        "shortdescription": "Impulse Bobfae Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_impulse_bobfae_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_ionic_crippit_egg.activeitem",
-        "name": "ct_ionic_crippit_egg",
-        "shortdescription": "Ionic Crippit Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_ionic_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_ionic_crustoise_egg.activeitem",
-        "name": "ct_ionic_crustoise_egg",
-        "shortdescription": "Ionic Crustoise Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_ionic_crustoise_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_ionic_narfin_egg.activeitem",
-        "name": "ct_ionic_narfin_egg",
-        "shortdescription": "Ionic Narfin Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_ionic_narfin_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_ionic_orbide_egg.activeitem",
-        "name": "ct_ionic_orbide_egg",
-        "shortdescription": "Ionic Orbide Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_ionic_orbide_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_isopod_egg.activeitem",
-        "name": "ct_isopod_egg",
-        "shortdescription": "Isopod Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_isopod_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_lava_crippit_egg.activeitem",
-        "name": "ct_lava_crippit_egg",
-        "shortdescription": "Lava Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_lava_crippit_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_mical_crippit_egg.activeitem",
-        "name": "ct_mical_crippit_egg",
-        "shortdescription": "Mical Crippit Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_mical_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_nightmare_anglure_egg.activeitem",
-        "name": "ct_nightmare_anglure_egg",
-        "shortdescription": "Nightmare Anglure Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_nightmare_anglure_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_nightmare_orbide_egg.activeitem",
-        "name": "ct_nightmare_orbide_egg",
-        "shortdescription": "Nightmare Orbide Egg",
-        "category": "throwableItem",
-        "icon": "ct_nightmare_orbide_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_obsidian_crippit_egg.activeitem",
-        "name": "ct_obsidian_crippit_egg",
-        "shortdescription": "Obsidian Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_obsidian_crippit_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_omni_narfin_egg.activeitem",
-        "name": "ct_omni_narfin_egg",
-        "shortdescription": "Omni Narfin Egg ^#f02080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_omni_narfin_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_overcharged_crustoise_egg.activeitem",
-        "name": "ct_overcharged_crustoise_egg",
-        "shortdescription": "Overcharged Crustoise Egg",
-        "category": "throwableItem",
-        "icon": "ct_overcharged_crustoise_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_prism_crippit_egg.activeitem",
-        "name": "ct_prism_crippit_egg",
-        "shortdescription": "Prism Crippit Egg ^#2080f0;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_prism_crippit_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_stardust_crippit_egg.activeitem",
-        "name": "ct_stardust_crippit_egg",
-        "shortdescription": "Stardust Crippit Egg",
-        "category": "throwableItem",
-        "icon": "ct_stardust_crippit_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_stardust_narfin_egg.activeitem",
-        "name": "ct_stardust_narfin_egg",
-        "shortdescription": "Stardust Narfin Egg",
-        "category": "throwableItem",
-        "icon": "ct_stardust_narfin_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_stardust_poptop_egg.activeitem",
-        "name": "ct_stardust_poptop_egg",
-        "shortdescription": "Stardust Poptop Egg ^#f02080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_stardust_poptop_egg.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_valley_poptop_egg.activeitem",
-        "name": "ct_valley_poptop_egg",
-        "shortdescription": "Valley Poptop Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_valley_poptop_egg.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_warped_anglure_egg.activeitem",
-        "name": "ct_warped_anglure_egg",
-        "shortdescription": "Warped Anglure Egg",
-        "category": "throwableItem",
-        "icon": "ct_warped_anglure_egg.png",
-        "rarity": "rare"
-    },
-    {
-        "path": "/items/active/unsorted/alta/spawner/monsters/",
-        "fileName": "ct_warped_sporgus_egg.activeitem",
-        "name": "ct_warped_sporgus_egg",
-        "shortdescription": "Warped Sporgus Egg ^#20f080;^reset;",
-        "category": "throwableItem",
-        "icon": "ct_warped_sporgus_egg.png",
-        "rarity": "uncommon"
     },
     {
         "path": "/items/active/weapons/melee/alta/heavy/",
@@ -2275,7 +2779,7 @@
         "path": "/items/active/weapons/melee/alta/spear/",
         "fileName": "ct_elite_stunner.activeitem",
         "name": "ct_elite_stunner",
-        "shortdescription": "Elite Stunner ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Stunner ^#8020f0;^reset;",
         "category": "spear",
         "icon": "ct_elite_stunner.png",
         "rarity": "legendary",
@@ -3699,7 +4203,7 @@
         "path": "/items/armors/alta/tier6/elite/android_head/",
         "fileName": "ct_elite_android_head.head",
         "name": "ct_elite_android_head",
-        "shortdescription": "Elite Android Head ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Android Head ^#8020f0;^reset;",
         "category": "headarmour",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3709,7 +4213,7 @@
         "path": "/items/armors/alta/tier6/elite/chest/",
         "fileName": "ct_elite_chest.chest",
         "name": "ct_elite_chest",
-        "shortdescription": "Elite Guard Armor",
+        "shortdescription": "^#20f080;Elite^reset; Guard Armor",
         "category": "chestarmour",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3719,7 +4223,7 @@
         "path": "/items/armors/alta/tier6/elite/generator/",
         "fileName": "ct_elite_generator.back",
         "name": "ct_elite_generator",
-        "shortdescription": "Elite Generator ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Generator ^#8020f0;^reset;",
         "category": "enviroProtectionPack",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3729,7 +4233,7 @@
         "path": "/items/armors/alta/tier6/elite/helmet/",
         "fileName": "ct_elite_helmet.head",
         "name": "ct_elite_helmet",
-        "shortdescription": "Elite Ceter-Helm",
+        "shortdescription": "^#20f080;Elite^reset; Ceter-Helm",
         "category": "headarmour",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3739,7 +4243,7 @@
         "path": "/items/armors/alta/tier6/elite/legwear/",
         "fileName": "ct_elite_legwear.legs",
         "name": "ct_elite_legwear",
-        "shortdescription": "Elite Energy Greaves",
+        "shortdescription": "^#20f080;Elite^reset; Energy Greaves",
         "category": "legarmour",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3749,7 +4253,7 @@
         "path": "/items/armors/alta/tier6/elite/protector/",
         "fileName": "ct_elite_protector.back",
         "name": "ct_elite_protector",
-        "shortdescription": "Elite Protector",
+        "shortdescription": "^#20f080;Elite^reset; Protector",
         "category": "enviroProtectionPack",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3992,7 +4496,7 @@
         "path": "/items/augments/back/",
         "fileName": "ct_elite_augment.augment",
         "name": "ct_elite_augment",
-        "shortdescription": "Elite Augment ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Augment ^#8020f0;^reset;",
         "category": "eppAugment",
         "icon": "ct_elite_augment.png",
         "rarity": "legendary",
@@ -5156,7 +5660,7 @@
         "path": "/items/generic/other/",
         "fileName": "ct_elite_shielder.consumable",
         "name": "ct_elite_shielder",
-        "shortdescription": "Elite Shielder ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Shielder ^#8020f0;^reset;",
         "category": "shield",
         "icon": "ct_elite_shielder.png",
         "rarity": "legendary",
@@ -5324,36 +5828,6 @@
         "category": "throwableItem",
         "icon": "ct_gheatsyn_shard.png",
         "rarity": "common"
-    },
-    {
-        "path": "/items/throwables/",
-        "fileName": "ct_glowstick_ceterteal.thrownitem",
-        "name": "ct_glowstick_ceterteal",
-        "shortdescription": "Ceterteal Glowstick",
-        "category": "throwableItem",
-        "icon": "ct_glowstick_ceterteal.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/",
-        "fileName": "ct_glowstick_ionic.thrownitem",
-        "name": "ct_glowstick_ionic",
-        "shortdescription": "Ionic Glowstick",
-        "category": "throwableItem",
-        "icon": "ct_glowstick_ionic.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/",
-        "fileName": "ct_glowstick_omniblue.thrownitem",
-        "name": "ct_glowstick_omniblue",
-        "shortdescription": "Omniblue Glowstick",
-        "category": "throwableItem",
-        "icon": "ct_glowstick_omniblue.png",
-        "rarity": "uncommon",
-        "race": "alta"
     },
     {
         "path": "/items/throwables/",
@@ -6569,7 +7043,7 @@
         "path": "/objects/alta/elite/pod/",
         "fileName": "ct_elite_pod.object",
         "name": "ct_elite_pod",
-        "shortdescription": "Elite Pod ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Pod ^#8020f0;^reset;",
         "category": "storage",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -7274,6 +7748,42 @@
         "icon": "icon.png",
         "rarity": "uncommon",
         "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/critters/bionid_snail/",
+        "fileName": "af.object",
+        "name": "ct_bionid_snail_af",
+        "shortdescription": "Bionid Snail",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/critters/calin_snail/",
+        "fileName": "af.object",
+        "name": "ct_calin_snail_af",
+        "shortdescription": "Calin Snail",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/critters/gheatsyn_snail/",
+        "fileName": "af.object",
+        "name": "ct_gheatsyn_snail_af",
+        "shortdescription": "Gheatsyn Snail",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/critters/phosnail/",
+        "fileName": "af.object",
+        "name": "ct_phosnail_af",
+        "shortdescription": "Phosnail",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/alta/special/emblems/alta/",

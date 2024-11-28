@@ -1,23 +1,5 @@
 {
   "type" : "ct_alta_frigate_drone",
-  "shortdescription" : "Frigate Drone ^#8020f0;^reset;",
-  "description" : "This huge combat machine is able to construct new drones on the fly.",
-  "longdescription" : "Its body is designed to be able to act as a protected carrier, with lots of compactly placed minidrones and an additional defensive drone.",
-  "altaDescription" : "A flying goliath with a buch of small dreis inside it. Some may wonder how it even stays afloat.",
-  "race" : "alta",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "Drone Spawner",
-    "description" : "Constantly spawns ^#b0e0fc;minidrones^reset; when aggroed. Will turn into ^#f02020;empty frigate drone^reset; on low health by releasing a ^#f02020;defensive drone^reset;.",
-    "longdescription" : "It's hard to imagine all these tiny drones are being constructed on the fly."
-  },
-
-  "passiveAbility" : {
-    "name" : "EDS Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, ^#b81824;EDS Autoshielder^reset;, ^#f02020;EDS Rocket Aimbot^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "Its heavy armored structure was designed and manufactured by EDS."
-  },
 
   "categories" : [ "ct_alta_frigate_drone" ], "parts" : [ "body" ], "animation" : "default.animation",
   "dropPools" : [ ],

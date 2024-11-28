@@ -2,7 +2,7 @@
   "name" : "ct_hevika",
   "friendlyName" : "Hevikara",
   "description" : "A ^#76c7e4;crystal^reset; biome full of ^#0050c0;hevika^reset; crystals and, well, electricity they produce. Watch out.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_hevika_loot.png",
+  "icon" : "/items/active/alta/loot/ct_hevika_loot.png",
   "statusEffects" : [ "ct_overcharged_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "crystalblock", "moonrock" ],
@@ -14,7 +14,7 @@
   "spawnProfile" : {
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_hevika_crippit_spawn" ], [ 1, "ct_overcharged_crustoise_spawn" ] ] },
-      { "select" : 2, "pool" : [ [ 1, "ct_plasma_nibbler_spawn" ], [ 1, "crystaltortoisecritter" ] ] }
+      { "select" : 2, "pool" : [ [ 1, "ct_plasma_nibbler_spawn" ], [ 1, "ct_hevika_scab_spawn" ] ] }
     ]
   },
 

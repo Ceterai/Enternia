@@ -230,11 +230,12 @@
 
   "ct_warped_loot" : [ [0, { "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ], "pool" : [
           // Resources,         total: 0.40
-          {"weight" : 0.05, "item" : "ct_warped_hive"},
+          {"weight" : 0.02, "item" : "ct_warped_hive"},
           {"weight" : 0.10, "item" : ["glowfibre", 3]},
           {"weight" : 0.05, "item" : ["glowfibre", 4]},
           {"weight" : 0.10, "item" : ["ct_warped_glowbomb", 3]},
           {"weight" : 0.10, "item" : ["ct_warped_hive", 2]},
+          {"weight" : 0.03, "item" : ["ct_glowstick_yonnur", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.01, "item" : "ct_warped_smoker"},
           {"weight" : 0.01, "item" : "ct_nivera_geyser"},
@@ -311,10 +312,11 @@
 
   "ct_sona_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
-          {"weight" : 0.10, "item" : ["snowflake", 4]},
-          {"weight" : 0.10, "item" : ["ice", 2]},
-          {"weight" : 0.10, "item" : ["snowball", 4]},
-          {"weight" : 0.10, "item" : ["mediumsnowball", 2]},
+          {"weight" : 0.08, "item" : ["snowflake", 4]},
+          {"weight" : 0.08, "item" : ["ice", 2]},
+          {"weight" : 0.08, "item" : ["snowball", 4]},
+          {"weight" : 0.08, "item" : ["mediumsnowball", 2]},
+          {"weight" : 0.08, "item" : ["ct_glowstick_bionid", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.04, "item" : "ct_frozen_energy_ball"},
           // Decorations,       total: 0.32
@@ -402,8 +404,9 @@
   ] }] ],
   "ct_crystalline_prime_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
-          {"weight" : 0.24, "item" : "geode"},
+          {"weight" : 0.08, "item" : "geode"},
           {"weight" : 0.16, "item" : "crystal"},
+          {"weight" : 0.16, "item" : ["ct_glowstick_calline", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.04, "item" : "crystalplantseed"},
           // Decorations,       total: 0.32
@@ -423,7 +426,7 @@
           // Resources,         total: 0.40
           {"weight" : 0.25, "item" : ["crystal", 2]},
           {"weight" : 0.10, "item" : ["crystal", 3]},
-          {"weight" : 0.05, "item" : "crystal"},
+          {"weight" : 0.05, "item" : ["ct_glowstick_crystal", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.04, "item" : "ct_calin_sample"},
           // Decorations,       total: 0.32
@@ -455,10 +458,11 @@
 
   "ct_gheatsyn_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
-          {"weight" : 0.20, "item" : ["ct_gheatsyn_shard", 2]},
+          {"weight" : 0.18, "item" : ["ct_gheatsyn_shard", 2]},
           {"weight" : 0.05, "item" : "ct_gheatsyn_crystal"},
           {"weight" : 0.10, "item" : ["ct_gheatsyn_shard", 3]},
           {"weight" : 0.05, "item" : "ct_gheatsyn_shard"},
+          {"weight" : 0.02, "item" : ["ct_glowstick_gheatsyn", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.04, "item" : "ct_gheatsyn_sample"},
           // Decorations,       total: 0.32
@@ -499,10 +503,11 @@
   ] }] ],
   "ct_bionid_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.40
-          {"weight" : 0.05, "item" : "ct_tonna"},
-          {"weight" : 0.05, "item" : "ct_bionid"},
+          {"weight" : 0.04, "item" : "ct_tonna"},
+          {"weight" : 0.04, "item" : "ct_bionid"},
           {"weight" : 0.15, "item" : ["ct_tonna", 2]},
           {"weight" : 0.15, "item" : ["ct_bionid", 2]},
+          {"weight" : 0.02, "item" : ["ct_glowstick_bionid", 2]},
           // Nature,            total: 0.04
           {"weight" : 0.005, "item" : "ct_tonnova_tree"},
           {"weight" : 0.005, "item" : "ct_tonnova_spiral_tree"},
@@ -648,8 +653,9 @@
           // Resources,         total: 0.40
           {"weight" : 0.20, "item" : ["durasteelore", 2]},
           {"weight" : 0.10, "item" : "ct_astera_tear"},
-          {"weight" : 0.05, "item" : ["ct_glowstick_ceterteal", 2]},
-          {"weight" : 0.05, "item" : ["ct_glowstick_ionic", 2]},
+          {"weight" : 0.04, "item" : ["ct_glowstick_ceterteal", 2]},
+          {"weight" : 0.04, "item" : ["ct_glowstick_ionic", 2]},
+          {"weight" : 0.02, "item" : ["ct_glowstick_stardust", 2]},
           // Nature,            total: 0.02
           {"weight" : 0.02, "item" : "astrostoragelocker"},
           // Decorations,       total: 0.34

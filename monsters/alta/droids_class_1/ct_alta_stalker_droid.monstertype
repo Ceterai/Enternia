@@ -1,23 +1,5 @@
 {
   "type" : "ct_alta_stalker_droid",
-  "shortdescription" : "Stalker Droid ^#8020f0;^reset;",
-  "description" : "This hightech droid has an integrated invisibility tech prototype. Can teleport, slightly giving away its location.",
-  "longdescription" : "Many stalker droids are used as a safe surveillance for the research of various wild creatures.",
-  "altaDescription" : "Likes to jumpscare innocent alta researchers trying to do their job. This is how you get grounded as a droid.",
-  "race" : "alta", "alkey" : "El'dar Dron",
-  "elementalType" : "poison",
-
-  "primaryAbility" : {
-    "name" : "Silent Hunter",
-    "description" : "Will launch ^#80f020;poison^reset; charges at targets from the distance. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "The launch process of charges is muffled to increase the stealth effect of the machine."
-  },
-
-  "passiveAbility" : {
-    "name" : "Camouflager",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;, Camouflage 50%.\nDeals physical damage on touch.",
-    "longdescription" : "While the technology behind this isn't perfect, making these droids completely invisible could have unexpected sideffects for its allies."
-  },
 
   "categories" : [ "ct_alta_stalker_droid" ], "parts" : [ "body", "head" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_tier4_class1", "bow" : "ct_alta_tier4_class2" } ],

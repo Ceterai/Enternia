@@ -9,8 +9,6 @@
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
   "rarity" : "Uncommon", "price" : 200, "level" : 4,
   "twoHanded" : false, "pet" : "ct_alto_zych", "damageTeam" : { "team" : 1, "type" : "passive" },
-  "animation" : "/items/active/unsorted/alta/spawner/default.animation",
-  "scripts" : [ "/items/active/unsorted/alta/spawner/monster_spawn.lua" ],
 
   "stances" : {
     "idle" : {

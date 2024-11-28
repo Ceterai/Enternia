@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_calin_snail_af",
+  "colonyTags" : [ "calin", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 4,
+
+  "shortdescription" : "Calin Snail",
+  "description" : "An attached note reads, \"Its shell is made out of a hollowed-out crystal.\"",
+  "altaDescription" : "I've heard its pretty warm in its shell due to all the reflections.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

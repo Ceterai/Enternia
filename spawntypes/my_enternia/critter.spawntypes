@@ -8,6 +8,14 @@
     "spawnChance" : 0.02, "monsterParameters" : { "aggressive" : false }
   },
 
+  // 2.3.4b
+  {
+    "name" : "ct_koyscream_spawn",
+    "monsterType" : "ct_koyscream",
+    "spawnParameters" : { "area" : "surface", "region" : "exposed", "time" : "day" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
   // Cave Critters
   // All
   {
@@ -57,6 +65,26 @@
     "monsterType" : "ct_yaafrog",
     "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
     "spawnChance" : 0.02, "monsterParameters" : { "aggressive" : false }
+  },
+
+  // 2.3.4b
+  {
+    "name" : "ct_hevika_scab_spawn",
+    "monsterType" : "ct_hevika_scab",
+    "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
+    "spawnChance" : 0.02, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_impulse_crawler_spawn",
+    "monsterType" : "ct_impulse_crawler",
+    "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
+    "spawnChance" : 0.02, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_ion_tortoise_spawn",
+    "monsterType" : "ct_ion_tortoise",
+    "spawnParameters" : { "area" : "surface", "region" : "enclosed", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
   },
 
   // Any Land Critters
@@ -117,6 +145,44 @@
     "spawnChance" : 0.02, "monsterParameters" : { "aggressive" : false }
   },
 
+  // 2.3.4b
+  {
+    "name" : "ct_mini_pinky_spawn",
+    "monsterType" : "ct_mini_pinky",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_mini_poi_spawn",
+    "monsterType" : "ct_mini_poi",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_hunter_flower_spawn",
+    "monsterType" : "ct_hunter_flower",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "day" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_glow_tortoise_spawn",
+    "monsterType" : "ct_glow_tortoise",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_bionid_snail_spawn",
+    "monsterType" : "ct_bionid_snail",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_phosnail_spawn",
+    "monsterType" : "ct_phosnail",
+    "spawnParameters" : { "area" : "surface", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
   // Any Liquid Critters
 
   {
@@ -128,6 +194,59 @@
   {
     "name" : "ct_floater_spawn",
     "monsterType" : "ct_floater",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
+  // 2.3.4b
+  {
+    "name" : "ct_nia_squid_spawn",
+    "monsterType" : [ [1.0, "ct_nia_squid_impulse"], [1.0, "ct_nia_squid_ionic"], [1.0, "ct_nia_squid_plasma"], [1.0, "ct_nia_squid_stardust"] ],
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_nia_squid_night_spawn",
+    "monsterType" : [ [1.0, "ct_nia_squid_impulse"], [1.0, "ct_nia_squid_ionic"], [1.0, "ct_nia_squid_plasma"], [1.0, "ct_nia_squid_stardust"] ],
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "night" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
+  {
+    "name" : "ct_kudok_squid_spawn",
+    "monsterType" : "ct_kudok_squid",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
+  {
+    "name" : "ct_nia_squid_impulse_spawn",
+    "monsterType" : "ct_nia_squid_impulse",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_nia_squid_plasma_spawn",
+    "monsterType" : "ct_nia_squid_plasma",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_nia_squid_ionic_spawn",
+    "monsterType" : "ct_nia_squid_ionic",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+  {
+    "name" : "ct_nia_squid_stardust_spawn",
+    "monsterType" : "ct_nia_squid_stardust",
+    "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
+    "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
+  },
+
+  {
+    "name" : "ct_in_jelly_spawn",
+    "monsterType" : "ct_in_jelly",
     "spawnParameters" : { "area" : "liquid", "region" : "all", "time" : "all" },
     "spawnChance" : 0.04, "monsterParameters" : { "aggressive" : false }
   }

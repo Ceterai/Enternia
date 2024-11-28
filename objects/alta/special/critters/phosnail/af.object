@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_phosnail_af",
+  "colonyTags" : [ "phospholion", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 4,
+
+  "shortdescription" : "Phosnail",
+  "description" : "An attached note reads, \"This snal has mutated due to constant non-lethal levels of radiation.\"",
+  "altaDescription" : "So cute, but seems dangerous to touch.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

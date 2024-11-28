@@ -1,23 +1,5 @@
 {
   "type" : "ct_eds_droid",
-  "shortdescription" : "^#f02020;EDS^reset; Droid ^#2080f0;^reset;",
-  "description" : "An advanced armored droid operated by ^#f02020;EDS^reset;. Has additional armor layers.",
-  "longdescription" : "Its defensive mechanisms include ionic generators with a mical energy concentrator.",
-  "altaDescription" : "Small, yet efficient EDS tank. On legs.",
-  "race" : "alta", "alkey" : "EDS Dron",
-  "elementalType" : "electric",
-
-  "primaryAbility" : {
-    "name" : "EDS Battle Machine",
-    "description" : "Will fire semi-auto bursts of 3 ^#8020f0;Ionic Charges^reset; when in range. Will explode with ^#7733aa;electric^reset; particles on destruction.",
-    "longdescription" : "A standard EDS set of combat machine capabilities."
-  },
-
-  "passiveAbility" : {
-    "name" : "Basic Drone",
-    "description" : "Has status effects: ^#2080f0;Sensitive Electronics^reset;.\nDeals physical damage on touch.",
-    "longdescription" : "Basic drones and droids usually don't have any kind of energy shields or armor regeneration, and cannot see targets through liquids."
-  },
 
   "categories" : [ "ct_eds_droid" ], "parts" : [ "body", "head" ], "animation" : "default.animation",
   "dropPools" : [ { "default" : "ct_alta_eds_class1", "bow" : "ct_alta_eds_class2" } ],

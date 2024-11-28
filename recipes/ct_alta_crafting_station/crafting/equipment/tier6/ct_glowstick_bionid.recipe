@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "glowfibre", "count" : 3 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "ct_bionid", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_glowstick_bionid", "count" : 2 },
+  "groups" : [ "my_enternia", "alta_max", "alta", "equipment", "consumables", "all", "mod" ]
+}

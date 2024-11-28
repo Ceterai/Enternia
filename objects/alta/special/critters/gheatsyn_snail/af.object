@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_gheatsyn_snail_af",
+  "colonyTags" : [ "gheatsyn", "nature" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 5,
+
+  "shortdescription" : "Gheatsyn Snail",
+  "description" : "An attached note reads, \"If its shell will melt at any point, the snail will have to look for a new one.\"",
+  "altaDescription" : "Better be careful with it - the shell is pretty sensitive to electricity.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

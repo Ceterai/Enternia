@@ -2,7 +2,7 @@
   "name" : "ct_alterash_core_barrens",
   "friendlyName" : "Obsidian Depths",
   "description" : "These wide dark crimson caves are made from ^#4f4c46;obsidian^reset;. Their crimson colour comes from remains of some ^#b0e0fc;alta^reset; stashes, while the rest of these caves remains in the dark. What lurks inside it are vicious obsidian scorpions, darker than the night itself.",
-  "icon" : "/items/active/unsorted/alta/loot/ct_alta_loot_tier3.png",
+  "icon" : "/items/active/alta/loot/tier3.png",
   "mainBlock" : "obsidian",
   "subBlocks" : [ "rock14" ],
   "ores" : "ct_alterash_core",
@@ -13,7 +13,9 @@
     "monsterParameters" : { "colors" : "volcanic" },
     "groups" : [
       { "select" : 1, "pool" : [ [ 1, "ct_alta_drone_tier3" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_obsidian_crippit_spawn" ] ] }
+      { "select" : 1, "pool" : [ [ 1, "ct_obsidian_crippit_spawn" ] ] },
+      // Critters
+      { "select" : 1, "pool" : [ [ 1, "krawlcritter" ], [ 1, "darknessscabcritter" ] ] }
     ]
   },
 
