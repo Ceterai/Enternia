@@ -11,10 +11,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
 
   "inventoryIcon" : "tier0.png",
-  "animationParts" : { "item" : "tier0.png" },
   "treasure" : { "pool" : "ct_alta_pod_loot" },
-  "fireTime" : 1.0, "fireOffset" : [0.5, 0.0],  // Script defaults
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   // Lore and Wiki-related parameters that shouldn't be translated.
   "wiki" : { "aliases" : { "T0 Crate" : { }, "T0 Pad" : { }, "Alta Crate" : { }, "Alta Pad" : { } } },

@@ -1248,141 +1248,11 @@
     },
     {
         "path": "/items/active/alta/loot/other/",
-        "fileName": "ct_gsr_pod.activeitem",
+        "fileName": "gsr.activeitem",
         "name": "ct_gsr_pod",
         "shortdescription": "GSR Pod ^#8020f0;^reset;",
         "category": "mysteriousReward",
-        "icon": "ct_gsr_pod.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_metrocop_set.activeitem",
-        "name": "ct_alta_metrocop_set",
-        "shortdescription": "Metrocop Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_metrocop_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_scout_set.activeitem",
-        "name": "ct_alta_scout_set",
-        "shortdescription": "Scout Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_scout_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_security_captain_set.activeitem",
-        "name": "ct_alta_security_captain_set",
-        "shortdescription": "Security Captain Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_captain_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_security_droid_set.activeitem",
-        "name": "ct_alta_security_droid_set",
-        "shortdescription": "Security Android Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_droid_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_security_mk2_set.activeitem",
-        "name": "ct_alta_security_mk2_set",
-        "shortdescription": "Advanced Security Set ^#20f080;^reset;",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_mk2_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_alta_security_set.activeitem",
-        "name": "ct_alta_security_set",
-        "shortdescription": "Security Set",
-        "category": "mysteriousReward",
-        "icon": "ct_alta_security_set.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_arco_set.activeitem",
-        "name": "ct_arco_set",
-        "shortdescription": "Enviro Set",
-        "category": "mysteriousReward",
-        "icon": "ct_arco_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_ceterai_set.activeitem",
-        "name": "ct_ceterai_set",
-        "shortdescription": "^#2080f0;C.T.^reset; Alternia Set",
-        "category": "mysteriousReward",
-        "icon": "ct_ceterai_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_combat_set.activeitem",
-        "name": "ct_combat_set",
-        "shortdescription": "Combat Set",
-        "category": "mysteriousReward",
-        "icon": "ct_combat_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_dreamer_set.activeitem",
-        "name": "ct_dreamer_set",
-        "shortdescription": "Dreamer Set",
-        "category": "mysteriousReward",
-        "icon": "ct_dreamer_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_eds_set.activeitem",
-        "name": "ct_eds_set",
-        "shortdescription": "^#f02020;EDS^reset; Set",
-        "category": "mysteriousReward",
-        "icon": "ct_eds_set.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_elite_set.activeitem",
-        "name": "ct_elite_set",
-        "shortdescription": "^#20f080;Elite^reset; Set",
-        "category": "mysteriousReward",
-        "icon": "ct_elite_set.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/active/alta/loot/sets/",
-        "fileName": "ct_ghearun_set.activeitem",
-        "name": "ct_ghearun_set",
-        "shortdescription": "Ghearun M1 Set",
-        "category": "mysteriousReward",
-        "icon": "ct_ghearun_set.png",
+        "icon": "gsr.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -1393,6 +1263,136 @@
         "shortdescription": "Alta Scanner",
         "category": "tool",
         "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "arco.activeitem",
+        "name": "ct_arco_set",
+        "shortdescription": "Enviro Set",
+        "category": "mysteriousReward",
+        "icon": "arco.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "ceterai.activeitem",
+        "name": "ct_ceterai_set",
+        "shortdescription": "^#2080f0;C.T.^reset; Alternia Set",
+        "category": "mysteriousReward",
+        "icon": "ceterai.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "combat.activeitem",
+        "name": "ct_combat_set",
+        "shortdescription": "Combat Set",
+        "category": "mysteriousReward",
+        "icon": "combat.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "dreamer.activeitem",
+        "name": "ct_dreamer_set",
+        "shortdescription": "Dreamer Set",
+        "category": "mysteriousReward",
+        "icon": "dreamer.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "eds.activeitem",
+        "name": "ct_eds_set",
+        "shortdescription": "^#f02020;EDS^reset; Set",
+        "category": "mysteriousReward",
+        "icon": "eds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "elite.activeitem",
+        "name": "ct_elite_set",
+        "shortdescription": "^#20f080;Elite^reset; Set",
+        "category": "mysteriousReward",
+        "icon": "elite.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "ghearun.activeitem",
+        "name": "ct_ghearun_set",
+        "shortdescription": "Ghearun M1 Set",
+        "category": "mysteriousReward",
+        "icon": "ghearun.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "metrocop.activeitem",
+        "name": "ct_alta_metrocop_set",
+        "shortdescription": "Metrocop Set",
+        "category": "mysteriousReward",
+        "icon": "metrocop.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "scout.activeitem",
+        "name": "ct_alta_scout_set",
+        "shortdescription": "Scout Set",
+        "category": "mysteriousReward",
+        "icon": "scout.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "security.activeitem",
+        "name": "ct_alta_security_set",
+        "shortdescription": "Security Set",
+        "category": "mysteriousReward",
+        "icon": "security.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "security_captain.activeitem",
+        "name": "ct_alta_security_captain_set",
+        "shortdescription": "Security Captain Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "security_captain.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "security_droid.activeitem",
+        "name": "ct_alta_security_droid_set",
+        "shortdescription": "Security Android Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "security_droid.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/sets/",
+        "fileName": "security_mk2.activeitem",
+        "name": "ct_alta_security_mk2_set",
+        "shortdescription": "Advanced Security Set ^#20f080;^reset;",
+        "category": "mysteriousReward",
+        "icon": "security_mk2.png",
         "rarity": "uncommon",
         "race": "alta"
     },

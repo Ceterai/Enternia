@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_glowstick_mical",
-  "level" : 3, "price" : 5, "race" : "alta",
+  "level" : 3, "race" : "alta",
   "itemTags" : [ "glowstick", "light", "mical" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "mical.png",
   "shortdescription" : "Mical Glowstick",
@@ -8,49 +8,8 @@
   "longdescription" : "Somewhat distinguishable from EDS gil glowsticks due to its hue shift and darker tones.",
   "altaDescription" : "A glowstick originating from enterash prime... I wonder why these are so cheap.",
 
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
   "lightColor" : [184, 4, 52],
 
-  "projectileType" : "ct_glowstick_mical_blast",
-  "projectileConfig" : {
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
-      }
-    ]
-  },
-
-  "animationParts" : { "item" : "mical.png" },
-  "animation" : "/items/active/alta/glowstick.animation",
-  "scripts" : [ "/items/active/alta/glowstick.lua" ],
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
-
-  "learnBlueprintsOnPickup" : [
-    "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
-  ],
-
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/glowstick.lua",
   "alkey" : "Miko Vial"
 }

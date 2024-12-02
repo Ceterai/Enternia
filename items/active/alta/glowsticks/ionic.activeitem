@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_glowstick_ionic",
-  "level" : 3, "price" : 5, "race" : "alta",
+  "level" : 3, "race" : "alta",
   "itemTags" : [ "glowstick", "light", "ionic" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ionic.png",
   "shortdescription" : "Ionic Glowstick",
@@ -8,49 +8,12 @@
   "longdescription" : "While being a simple light, its energy saturation makes its contents a good filler for the alta sphere energy sources.",
   "altaDescription" : "In the dark, it lures you in with a dreamy glow. Altas often use these in combination with miko ones to create a romantic atmosphere.",
 
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
   "lightColor" : [128, 32, 240],
-
-  "projectileType" : "ct_glowstick_ionic_blast",
-  "projectileConfig" : {
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
-      }
-    ]
-  },
-
-  "animationParts" : { "item" : "ionic.png" },
-  "animation" : "/items/active/alta/glowstick.animation",
-  "scripts" : [ "/items/active/alta/glowstick.lua" ],
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
 
   "learnBlueprintsOnPickup" : [
     "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
   ],
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/glowstick.lua",
   "wiki" : { "aliases" : { "Ionica" : { }, "Enko" : { } } }, "alkey" : "Enko Vial"
 }

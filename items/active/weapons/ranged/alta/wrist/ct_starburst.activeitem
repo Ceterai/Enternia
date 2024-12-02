@@ -4,7 +4,7 @@
   "description" : "Previously owned by a legendary ^#60c0fc;arknight^reset;, this powerful wrist blaster seemingly just fell one day from sky. Legend says it can create tiny Stardust Bursts with its core.",
   "elementalType" : "electric",
   "race" : "alta",
-  "level" : 6, "price" : 480,
+  "level" : 6,
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
   "twoHanded" : false, "category" : "shotgun",
@@ -43,5 +43,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua"
 }

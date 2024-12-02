@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "tier3.png",
-  "animationParts" : { "item" : "tier3.png" },
   "treasure" : { "pool" : "ct_alta_pod_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "T3 Crate" : { }, "T3 Pad" : { }, "Lab Crate" : { }, "Lab Pad" : { } } },
   "alkey" : "Tek Pad"  // Lab Crate

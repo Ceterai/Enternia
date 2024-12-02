@@ -18,5 +18,5 @@
 
   "scripts" : [ "/scripts/augments/augment.lua" ],
   "radioMessagesOnPickup" : [ "pickupaugment" ],
-  "builder" : "/items/buildscripts/alta/item.lua"
+  "builder" : "/items/buildscripts/alta/augment.lua"
 }

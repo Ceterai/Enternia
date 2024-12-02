@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_ion_core_loot.png",
-  "animationParts" : { "item" : "ct_ion_core_loot.png" },
   "treasure" : { "pool" : "ct_ion_core_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Ion Core Crate" : { } } }, "alkey" : "Enigira Pad"
 }

@@ -37,7 +37,7 @@
   "knockback" : 10,
   "knockbackStatusEffects" : [ "ct_pulse_paralysis" ],
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/shield.lua",
 
   "presets" : {
     "amethyst" : {

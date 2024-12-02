@@ -1,0 +1,21 @@
+{
+  "projectileName" : "ct_glowstick_yonnur-thrown",
+  "image" : "yonnur.png",
+  "lightColor" : [196, 134, 0],
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 50,
+  "animationCycle" : 0.25,
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "power" : 0,
+  "speed" : 30,
+  "level" : 10,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

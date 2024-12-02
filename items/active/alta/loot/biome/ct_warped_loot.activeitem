@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_warped_loot.png",
-  "animationParts" : { "item" : "ct_warped_loot.png" },
   "treasure" : { "pool" : "ct_warped_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Warped Crate" : { } } }, "alkey" : "Vuzia Pad"
 }

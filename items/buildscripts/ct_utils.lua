@@ -22,6 +22,8 @@ function inif(q, t, f) if q then return t else return f end end  -- Inline if-el
 function rand(v) if type(v) == "table" then return util.randomChoice(v) else return v end end  -- Better `util.randomChoice` that handles non-tables.
 function nullify(data, keys) for _, key in ipairs(keys) do if data[key] then data[key] = nil end end end
 function getTextConfig(path) return root.assetJson(path or '/items/buildscripts/ct_texts.config') end
+function getDefaultsConfig(path, itype) return root.assetJson((path or '/items/buildscripts/alta/defaults.config')..(itype or '')) end
+function getItemTypeDefaults(itype, path) return getDefaultsConfig(path, ':'..itype) end
 function getTitle(text) return string.gsub(' '..text, '%W%l', string.upper):sub(2) end
 function getColored(text, color) return '^' .. (color or 'gray') .. ';' .. text .. '^reset;' end
 function appendText(old, new, delimiter) if old then return old .. delimiter .. new else return new end end

@@ -15,9 +15,9 @@
   "animation" : "/items/active/weapons/ranged/alta/abils/orbs/orbs.animation",
   "animationParts" : {
     "glove" : "ct_tsentarish.png",
-    "orb1" : "/projectiles/charge/other/orb/full/ct_magmorb.png",
-    "orb2" : "/projectiles/charge/other/orb/full/ct_magmorb.png",
-    "orb3" : "/projectiles/charge/other/orb/full/ct_magmorb.png" },
+    "orb1" : "/projectiles/alta/charges/other/orb/full/ct_magmorb.png",
+    "orb2" : "/projectiles/alta/charges/other/orb/full/ct_magmorb.png",
+    "orb3" : "/projectiles/alta/charges/other/orb/full/ct_magmorb.png" },
   "animationCustom" : {
     "animatedParts" : { "parts" : {
       "glove" : { "properties" : { "offset" : [0.1, 1.0] } },
@@ -53,5 +53,5 @@
     "shield" : { "armRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua"
 }

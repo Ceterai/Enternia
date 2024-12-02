@@ -16,21 +16,5 @@
     "longdescription" : "Look if the critter's shell or outer layer has grow a crystal or bionic matter on it, and remove it carefully to not damage the critter."
   },
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
-
   "builder" : "/items/buildscripts/alta/spawner.lua"
 }

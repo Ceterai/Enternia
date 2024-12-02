@@ -5,7 +5,7 @@
   "longdescription" : "The counterpart to that is the size and overall mass of this tool - it might be a bit too hard to hold it up without an exoskeleton...",
   "altaDescription" : "Okay, NOW we're talking.",
   "elementalType" : "electric",
-  "level" : 6, "price" : 720, "race" : "alta",
+  "level" : 6, "race" : "alta",
   "twoHanded" : true, "maxStack" : 1, "category" : "uniqueWeapon", "tooltipKind" : "ct_alta_weapon_2",
   "itemTags" : [ "weapon", "ranged", "beam", "staris", "stardust" ],
 
@@ -61,7 +61,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
   "wiki" : {
     "aliases" : { "Phase Corruption" : { "anchor" : "zeta-charges", "icon" : "none" }, "Zeta Charges" : { "anchor" : "zeta-charges", "icon" : "none" } },
     "md" : {

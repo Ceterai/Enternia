@@ -1,0 +1,21 @@
+{
+  "projectileName" : "ct_glowstick_mical-thrown",
+  "image" : "mical.png",
+  "lightColor" : [184, 4, 52],
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 50,
+  "animationCycle" : 0.25,
+  "frameNumber" : 2,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "power" : 0,
+  "speed" : 30,
+  "level" : 10,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

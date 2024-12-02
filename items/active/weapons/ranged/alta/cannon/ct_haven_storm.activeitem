@@ -37,7 +37,7 @@
 
     "pressType" : "blast",
     "pressParams" : {
-      "type" : "poisonplasmabullet",
+      "type" : "poisonplasma",
       "inaccuracy" : 0.11,
       "params" : { "knockback" : 5, "timeToLive" : 5.0 }
     },
@@ -120,7 +120,7 @@
     }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_haven_storm_2.png",

@@ -63,7 +63,7 @@
           "img_medicine" : { "file" : "/items/generic/crafting/syringe.png" },
           "img_clothing" : { "file" : "/items/armors/alta/clothing/social_top/icon.png" },
           "img_objects" : { "file" : "/objects/alta/crafting/constructor/icon1.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_alta_scout_set.png" }
+          "img_sets" : { "file" : "/items/active/alta/sets/scout.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [ { "item" : "upgrademodule", "count" : 2 }, { "item" : "ct_alta_security-codex", "count" : 1 } ]
@@ -127,7 +127,7 @@
           "img_equipment" : { "file" : "/items/throwables/ct_impulse_nade.png" },
           "img_medicine" : { "file" : "/items/generic/other/ct_impulse_stim.png" },
           "img_clothing" : { "file" : "/items/armors/alta/other/state_beret/icon.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_alta_security_captain_set.png" }
+          "img_sets" : { "file" : "/items/active/alta/sets/security_captain.png" }
         },
         "filter" : [ "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
@@ -178,7 +178,7 @@
           "img_datamasses" : { "file" : "/codex/alta/datamass/combat.png" },
           "img_clothing" : { "file" : "/items/armors/backitems/simplecape/simplecapebackicon.png?replace=ffca8a=707088?replace=e0975c=606074?replace=a85636=404050?replace=6f2919=2c2c34" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_combat_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/combat.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/drones/watcher.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_combat_augment.png" }
         },
@@ -210,7 +210,7 @@
           "img_aichips" : { "file" : "/items/aichips/ct_eds_ai_chip.png" },
           "img_clothing" : { "file" : "/items/armors/alta/other/eds_beret/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/reddye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_eds_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/eds.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/droids/eds.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_eds_augment.png" }
         },
@@ -242,7 +242,7 @@
           "img_aichips" : { "file" : "/items/aichips/ct_eds_ai_chip.png" },
           "img_clothing" : { "file" : "/items/armors/alta/other/hologlasses/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/pinkdye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_eds_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/eds.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/drones/eds.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_combat_power_augment.png" }
         },
@@ -296,7 +296,7 @@
           "img_materials" : { "file" : "/items/generic/crafting/ct_alternia_shard.png" },
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_ceterai_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/ceterai.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/drones/ionic.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_ceterai_augment.png" }
         },
@@ -328,7 +328,7 @@
           "img_materials" : { "file" : "/items/generic/crafting/ct_enterite.png" },
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_dreamer_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/dreamer.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/drones/ionic.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_ionic_augment.png" }
         },
@@ -359,7 +359,7 @@
           "img_materials" : { "file" : "/items/generic/crafting/ct_enterite.png" },
           "img_objects" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
           "img_dyes" : { "file" : "/items/generic/dyes/bluedye.png" },
-          "img_sets" : { "file" : "/items/active/alta/loot/sets/ct_dreamer_set.png" },
+          "img_sets" : { "file" : "/items/active/alta/sets/dreamer.png" },
           "img_robotics" : { "file" : "/items/active/alta/spawners/drones/ionic.png" },
           "img_enhancements" : { "file" : "/items/augments/back/ct_alternia_augment.png" }
         },

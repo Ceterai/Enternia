@@ -1,8 +1,6 @@
 require "/scripts/util.lua"
 require "/items/buildscripts/alta/item.lua"
 
-local ct_alta_item_builder = build
-
 
 -- # My Enternia Monster Spawner Builder
 -- This enhanced monster spawner builder is based on the enhanced item builder, and is able to provide an extended amount of functions.
@@ -19,23 +17,17 @@ local ct_alta_item_builder = build
 -- > Note that all tooltip text is located in a separate config file.
 function build(directory, config, parameters, level, seed)
   local tips = getTextConfig()
+  config, parameters = getPresetParams(config, parameters)
   -- 1. Load monster parameters
   config.pet = config.pet or config.itemName
   if config.pets then config.pet = config.pets[math.random(#config.pets)] end
-  local pet_params = {}
-  if config.asset then pet_params = root.assetJson(config.asset) end
   -- 2. Get basic parameters if not set
-  if pet_params.shortdescription then config.shortdescription = pet_params.shortdescription end
-  if not config.description and pet_params.description then config.description = pet_params.description end
   if not config.inventoryIcon then config.inventoryIcon = config.itemName .. '.png' end
-  if not config.animation then config.animation = '/items/active/alta/spawner.animation' end
   if not config.animationParts then config.animationParts = {item = config.inventoryIcon} end
-  if not config.scripts then config.scripts = { '/items/active/alta/spawner.lua' } end
-  if not config.ammoUsage then config.ammoUsage = 1 end
-  -- 3. Merge with monster base parameters
-  config = sb.jsonMerge(config, pet_params)
+  -- 3. Get default values
+  config = sb.jsonMerge(getItemTypeDefaults('spawner'), config)
   -- 4. Run through regular builder
-  config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
+  config, parameters = buildItem(directory, config, parameters, level, seed)
   -- 5. Construct monster preview
   local img = nil
   if config.npc then
@@ -98,4 +90,10 @@ function build(directory, config, parameters, level, seed)
   end
 
   return config, parameters
+end
+
+
+function setDefaults(config)
+  local defs = getTextConfig('/items/buildscripts/alta/defaults.config')
+  return sb.jsonMerge(defs['spawner'], config)
 end

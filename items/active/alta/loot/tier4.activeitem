@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "tier4.png",
-  "animationParts" : { "item" : "tier4.png" },
   "treasure" : { "pool" : "ct_alta_pod_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "T4 Crate" : { }, "T4 Pad" : { }, "Ship Crate" : { }, "Ship Pad" : { } } },
   "alkey" : "Evia Pad"  // Ship Crate

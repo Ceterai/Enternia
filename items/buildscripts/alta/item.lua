@@ -4,6 +4,13 @@ require "/items/buildscripts/abilities.lua"
 require "/items/buildscripts/ct_utils.lua"
 
 
+function build(directory, config, params, level, seed)
+  config, params = getPresetParams(config, params)
+  config, params = buildItem(directory, config, params, level, seed)
+  return config, params
+end
+
+
 -- # My Enternia Item Builder
 -- This enhanced item builder, as well as its derivatives, are able to process and handle a large number of functions,
 -- including coloring, presets and tooltips. To learn more, visit this Wiki page: https://github.com/Ceterai/Enternia/wiki/Modding-Items
@@ -27,17 +34,13 @@ require "/items/buildscripts/ct_utils.lua"
 -- - abilities and upgrades - supports `primaryAbility`, `altAbility`, `passiveAbility` and `upgradeParameters`
 -- - usage tooltips (for EPP augments and pet collars)
 -- > Note that all tooltip text is located in a separate config file.
-function build(directory, config, params, level, seed)
+function buildItem(directory, config, params, level, seed)
   local get = function(key, default) return getValue(key, default, config, params) end
   local tips = getTextConfig()
 
-  if params.shop then params.shop = nil; params.level = nil end
-
-  -- CUSTOM PARAMS --
-  config, params = getPresetParams(config, params)
-
   -- BASIC PARAMS --
   config = getDefaults(config, get("category"), get("race"))
+  if params.shop then params.shop = nil; params.level = nil end
   -- Level
   params.level = getLevel(params.level, level, get("fixedLevel", true))
   level = get("level")
@@ -258,7 +261,7 @@ function getDefaults(config, category, race)
   local defs = getTextConfig('/items/buildscripts/alta/defaults.config')
   config = sb.jsonMerge((defs.species[race or 'default'] or {})[category or 'default'] or {}, config)
   config = sb.jsonMerge(defs.species.default[category or 'default'] or {}, config)
-  config = sb.jsonMerge(defs.species.default.default, config)
+  config = sb.jsonMerge(defs.default, config)
   return config
 end
 

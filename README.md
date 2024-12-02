@@ -12,7 +12,9 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 <br>
 <a class="ct_button" href="https://buymeacoffee.com/ceterai">SUPPORT ME</a> | <a class="ct_button" href="https://discord.gg/qBZDKESdtp" title="Dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^">DISCORD</a>
 <br>
-<a class="ct_button" href="https://github.com/Ceterai/Enternia/wiki">WIKI</a> | <a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750">🇨🇳 Chinese Patch/中文翻译补丁 🇨🇳</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md">TENANTS</a>
+<a class="ct_button" href="https://ceterai.github.io/MyEnternia/Mods/">ADDONS</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia/wiki">WIKI</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md">TENANTS</a>
+<br>
+<a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750">🇨🇳 Chinese Patch/中文翻译补丁 🇨🇳</a>
 </div>
 
 **Version 2.3: Alta Cafe & Monster Buffet** is out! Check out the [changelog](https://github.com/Ceterai/Enternia/tree/main/.meta/changelog.md) for details.
@@ -38,6 +40,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
   - [Tenants](#tenants)
 - [Changes](#changes)
   - [Removed Content](#removed-content)
+- [Addons](#addons)
 - [Credits](#credits)
 
 ## Installation
@@ -106,10 +109,10 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 ### Mod Content Rundown
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.png)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.png" width="100%">)
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
@@ -143,9 +146,10 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533) (adds all recipes and crafting stations from this mod to the interface);
 - [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR).
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ai.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ai.png" width="100%">
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif)
 
 #### Other Addon Support
 
@@ -196,14 +200,14 @@ Starting with version [2.1.4a](https://github.com/Ceterai/Enternia/releases/tag/
 
 As mentioned in the content rundown, many different items in this mod have improved, informative tooltips. Below are some examples of that:
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.png)
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.png)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.png" width="100%">
 
 ### Tenants
 
-This mod add a large amount of npcs, outpost visitors and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/wiki/Tenants)
+This mod add a large amount of npcs, outpost visitors and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md)
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.png)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.png" width="100%">
 
 ## Changes
 
@@ -216,6 +220,10 @@ During development, new features appear and some features become deprecated. Usu
 
 - [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3169344640)
 - [Starbound Forums Link](https://community.playstarbound.com/resources/my-enternia-removed-content.6282/)
+
+## Addons
+
+A list of alta mods can be found here: [My Enternia Mods](https://ceterai.github.io/MyEnternia/Mods/)
 
 ## Credits
 
@@ -231,7 +239,7 @@ Special, warm thanks to the following people for helping with my mod!~
 
 ([Post link](https://boosty.to/unath_tayar/posts/27d1f7c1-3cd2-46b0-a036-90ccfe4c40fe?share=post_link))
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/4.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/5.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/6.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/7.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/8.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/9.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/10.png)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/4.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/5.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/6.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/7.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/8.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/9.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/10.png)
 
 ([Post link](https://boosty.to/unath_tayar/posts/27d1f7c1-3cd2-46b0-a036-90ccfe4c40fe?share=post_link))
 

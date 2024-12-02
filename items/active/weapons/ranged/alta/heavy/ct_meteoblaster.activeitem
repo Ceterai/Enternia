@@ -99,9 +99,9 @@
   },
 
   "altAbilityType" : "exmachinarocket", // balllightning
-  "altAbility" : { "elementalConfig" : { "electric" : { } } },
+  "altAbility" : { "elementalConfig" : { "electric" : { "projectileType" : "exmachinarocket" } } },
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
 
   "upgradeParameters" : {
     "inventoryIcon" : "ct_meteoblaster_2.png",

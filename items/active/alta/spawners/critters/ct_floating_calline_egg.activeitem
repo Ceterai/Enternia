@@ -22,21 +22,5 @@
     "longdescription" : "The shape of the elemental doesn't change, but be careful while throwing it."
   },
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
-
   "builder" : "/items/buildscripts/alta/spawner.lua"
 }

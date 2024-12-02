@@ -55,6 +55,7 @@ function AsiraiAttack:init()
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
+  self.baseStanceData=copy(self.stances)
 end
 
 function AsiraiAttack:reset()

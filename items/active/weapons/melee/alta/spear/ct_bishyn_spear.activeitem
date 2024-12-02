@@ -63,7 +63,7 @@
     "longdescription" : "This technology is part of the design, however not without flaws. It requires an energy source to function, but has poor compatability with usual alta tech."
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Razhus Az'Ar ^#8020f0;^reset;",

@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_hevika_loot.png",
-  "animationParts" : { "item" : "ct_hevika_loot.png" },
   "treasure" : { "pool" : "ct_hevika_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Hevika Crate" : { } } }, "alkey" : "Hevika Pad"
 }

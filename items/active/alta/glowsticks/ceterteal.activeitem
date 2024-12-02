@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_glowstick_ceterteal",
-  "level" : 3, "price" : 5, "race" : "alta",
+  "level" : 3, "race" : "alta",
   "itemTags" : [ "glowstick", "light", "impulse" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ceterteal.png",
   "shortdescription" : "Ceterteal Glowstick",
@@ -8,49 +8,12 @@
   "longdescription" : "While not quite an advanced piece of technology, altas have a variety of uses for it outside of temporary illumination.",
   "altaDescription" : "These are perfect for parties! I keep a couple of different colors just in case my friends invite me somewhere.",
 
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
   "lightColor" : [32, 240, 128],
-
-  "projectileType" : "ct_glowstick_ceterteal_blast",
-  "projectileConfig" : {
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
-      }
-    ]
-  },
-
-  "animationParts" : { "item" : "ceterteal.png" },
-  "animation" : "/items/active/alta/glowstick.animation",
-  "scripts" : [ "/items/active/alta/glowstick.lua" ],
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
 
   "learnBlueprintsOnPickup" : [
     "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
   ],
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/glowstick.lua",
   "wiki" : { "aliases" : { "Ceterteal" : { }, "Ceko" : { } } }, "alkey" : "Ceko Vial"
 }

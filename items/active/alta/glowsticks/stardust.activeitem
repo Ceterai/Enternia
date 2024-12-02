@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_glowstick_stardust",
-  "level" : 3, "price" : 5, "race" : "alta",
+  "level" : 3, "race" : "alta",
   "itemTags" : [ "glowstick", "light", "stardust" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "stardust.png",
   "shortdescription" : "Stardust Glowstick",
@@ -8,49 +8,8 @@
   "longdescription" : "Not entirely known why combining the stardust ingredients shifts the hue even further to the red, but it seems like the same is happening to starlight...",
   "altaDescription" : "Ooh, a glowstick miracle!",
 
-  "ammoUsage" : 1,
-
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
   "lightColor" : [240, 32, 128],
 
-  "projectileType" : "ct_glowstick_stardust_blast",
-  "projectileConfig" : {
-    "periodicActions" : [
-      {
-        "time" : 0,
-        "repeat" : false,
-        "action" : "sound",
-        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
-      }
-    ]
-  },
-
-  "animationParts" : { "item" : "stardust.png" },
-  "animation" : "/items/active/alta/glowstick.animation",
-  "scripts" : [ "/items/active/alta/glowstick.lua" ],
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -70, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
-
-  "learnBlueprintsOnPickup" : [
-    "ct_glowstick_ionic", "ct_glowstick_omniblue", "ct_glowstick_ceterteal"
-  ],
-
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/glowstick.lua",
   "alkey" : "Tio Vial"
 }

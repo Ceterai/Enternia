@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_alta_security_captain_set",
+  "shortdescription" : "Security Captain Set ^#20f080;^reset;",
+  "description" : "Contains full equipment set of an ^#b0e0fc;alta^reset; security captain, including a lore codex of this set.\nIs cheaper to craft this way than separately.",
+
+  "inventoryIcon" : "security_captain.png",
+  "treasure" : { "pool" : "ct_alta_security_captain_set" },
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "set", "city", "alta_security" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
+  "builder" : "/items/buildscripts/alta/set.lua",
+
+  "wiki" : { "aliases" : { "Alta Security Captain" : { }, "Security Captain" : { } } }
+}

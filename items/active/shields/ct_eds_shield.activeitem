@@ -45,7 +45,7 @@
   "knockback" : 10,
   "statusEffects" : [ "ct_eds_protection_module" ],
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/shield.lua",
 
   "presets" : {
     "security" : {

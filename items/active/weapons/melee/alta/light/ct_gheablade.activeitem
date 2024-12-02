@@ -33,7 +33,7 @@
     "damageConfig" : { "knockback" : 25, "itemBonus" : { "type" : "ct_gheatsyn_shard", "damageFactor" : 0.005, "max" : 120 } }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
 
   "upgradeParameters" : {
     "shortdescription" : "Gheacleaver ^#8020f0;^reset;",

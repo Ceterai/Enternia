@@ -1,6 +1,7 @@
 ---@diagnostic disable: lowercase-global, undefined-global
 require "/scripts/vec2.lua"
 require "/scripts/util.lua"
+require "/scripts/interp.lua"
 require "/scripts/activeitem/stances.lua"
 
 function init()
@@ -12,12 +13,22 @@ end
 function update(dt, fireMode, shiftHeld)
   updateStance(dt)
 
-  if fireMode ~= "primary" then self.fired = false end
+  if fireMode ~= "primary" then
+    if self.active then
+      self.active = false
+      if self.stanceName == "wave" or self.stanceName == "wave2" then setStance("idle") else setStance("windup") end
+    end
+  end
 
   if self.stanceName == "idle" then
-    if fireMode == "primary" and not self.fired then
-      self.fired = true
-      setStance("windup")
+    if fireMode == "primary" then
+      if self.active then
+        self.holdTime = self.holdTime + dt
+        if self.holdTime > 0.2 then wave() end
+      else
+        self.holdTime = 0
+        self.active = true
+      end
     end
   end
 
@@ -30,34 +41,24 @@ function update(dt, fireMode, shiftHeld)
 end
 
 function consumePod()
-  local entityId = activeItem.ownerEntityId()
   if player then
     local itm = item.descriptor()
-    if config.getParameter('ammoUsage') then itm.count = config.getParameter('ammoUsage') end
+    itm.count = config.getParameter('ammoUsage', 1)
     player.consumeItem(itm, true, true)
   else
-    world.callScriptedEntity(entityId, "setItemSlotDelayed", activeItem.hand())
+    world.callScriptedEntity(activeItem.ownerEntityId(), "setItemSlotDelayed", activeItem.hand())
   end
 end
 
 function fire()
-  throwProjectile()
   setStance("throw")
-end
-
-function throwProjectile()
-  local position = firePosition()
+  local proj = config.getParameter("projectileType", config.getParameter("itemName")..'-thrown')
   local params = config.getParameter("projectileConfig", {})
+  params.damageKindImage = "/items/active/alta/glowsticks/"..config.getParameter("inventoryIcon")
   params.ownerAimPosition = activeItem.ownerAimPosition()
   if self.aimDirection < 0 then params.processing = "?flipx" end
-
-  self.projectileId = world.spawnProjectile(
-    config.getParameter("projectileType"),
-    position,
-    activeItem.ownerEntityId(),
-    aimVector(),
-    false,
-    params
-  )
+  self.projectileId = world.spawnProjectile(proj, firePosition(), activeItem.ownerEntityId(), aimVector(), false, params)
   animator.playSound("throw")
 end
+
+function wave() if self.stanceName == 'wave' then setStance('wave2') else setStance('wave') end end

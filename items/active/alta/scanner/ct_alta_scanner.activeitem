@@ -12,7 +12,7 @@
   "animationParts" : { "item" : "icon.png" },
   "animation" : "/items/active/alta/loot.animation",
   "scripts" : [ "logic.lua" ],
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
 
   "wiki" : {
     "aliases" : { "Scanner" : { } },

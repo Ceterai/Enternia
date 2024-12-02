@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_haven_loot.png",
-  "animationParts" : { "item" : "ct_haven_loot.png" },
   "treasure" : { "pool" : "ct_haven_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Haven Crate" : { } } }, "alkey" : "Malina Pad"
 }

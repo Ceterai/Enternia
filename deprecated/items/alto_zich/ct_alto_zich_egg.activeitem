@@ -10,21 +10,5 @@
   "rarity" : "Uncommon", "price" : 200, "level" : 4,
   "twoHanded" : false, "pet" : "ct_alto_zych", "damageTeam" : { "team" : 1, "type" : "passive" },
 
-  "stances" : {
-    "idle" : {
-      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
-
   "builder" : "/items/buildscripts/alta/spawner.lua"
 }

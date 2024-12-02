@@ -125,7 +125,7 @@ Altas are a relatively peaceful species, so most militaristic factions and comba
 - ^#b0e0fc;Hevika Ordis^reset;
 - ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier3.png) ^#b0e0fc;Neiteru-1^reset;
 - ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Tserera^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/sets/ct_ceterai_set.png) ^#b0e0fc;Project C.T.^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/sets/ceterai.png) ^#b0e0fc;Project C.T.^reset;
 
 Most alta laboratories are located underground, often hidden in ^#b0e0fc;esetera^reset; spaces.  
 The equipment is mostly made from bion compounds and powered by energy cells.  
@@ -404,7 +404,7 @@ Ruins
 ^#b0e0fc;Faradea^reset; (Tier 3)
 </th> <th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/other/ct_gsr_pod.png) Special
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/other/gsr.png) Special
 </th> <th>
 
 Crafting

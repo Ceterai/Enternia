@@ -46,7 +46,7 @@ function consumePod()
   local entityId = activeItem.ownerEntityId()
   if player then
     local itm = item.descriptor()
-    if config.getParameter('ammoUsage') then itm.count = config.getParameter('ammoUsage') end
+    itm.count = config.getParameter('ammoUsage', 1)
     player.consumeItem(itm, true, true)
   else
     world.callScriptedEntity(entityId, "setItemSlotDelayed", activeItem.hand())
@@ -103,14 +103,16 @@ function throwProjectile()
   params.returns = self.returns
   params.ownerAimPosition = activeItem.ownerAimPosition()
   if self.aimDirection < 0 then params.processing = "?flipx" end
+  local projectileType = "ct_monster_spawner"
+  if config.getParameter("npc", false) then projectileType = "ct_npc_spawner" end
 
   self.projectileId = world.spawnProjectile(
-      config.getParameter("projectileType", "ct_monster_spawner"),
-      position,
-      activeItem.ownerEntityId(),
-      aimVector(),
-      false,
-      params
-    )
+    projectileType,
+    position,
+    activeItem.ownerEntityId(),
+    aimVector(),
+    false,
+    params
+  )
   animator.playSound("throw")
 end

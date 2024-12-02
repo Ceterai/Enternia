@@ -4,25 +4,8 @@
   "inventoryIcon" : "dreamer.png",
   "itemTags" : [ "throwable", "spawner", "robotics", "android", "dreamer" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "droid",
-  "price" : 240, "level" : 6, "race" : "alta",
-  "pet" : "ct_dreamer_android", "baseParameters" : { "persistent" : false }, "npc" : true,
-  "projectileType" : "ct_npc_spawner", "petSpecies" : "shadow",
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
+  "level" : 6, "race" : "alta",
+  "pet" : "ct_dreamer_android", "baseParameters" : { "persistent" : false }, "npc" : true, "petSpecies" : "shadow",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"
 }

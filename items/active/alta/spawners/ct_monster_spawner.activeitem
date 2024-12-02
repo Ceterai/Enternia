@@ -1,4 +1,4 @@
-{
+{  // This is a monster egg item. Check out the `ct_robot_spawner_msg` message in `/radiomessages/exploration.radiomessages.patch` for more info.
   "itemName" : "ct_monster_spawner",
   "itemTags" : [ "throwable", "spawner" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster",
@@ -11,22 +11,6 @@
 
   "inventoryIcon" : "ct_monster_spawner.png",
   "animationParts" : { "item" : "ct_monster_spawner.png" },
-
-  "stances" : {
-    "idle" : {
-      "armRotation" : -20, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "windup" : {
-      "duration" : 0.1, "transitionFunction" : "fire",
-      "armRotation" : 70, "allowRotate" : false, "allowFlip" : false,
-      "animationState" : { "weapon" : "visible" }
-    },
-    "throw" : {
-      "armRotation" : 0, "allowRotate" : true, "allowFlip" : true,
-      "animationState" : { "weapon" : "hidden" }
-    }
-  },
 
   "level" : 6,
   "pets" : [

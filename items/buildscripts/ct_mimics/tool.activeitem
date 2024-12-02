@@ -2,7 +2,7 @@
   "itemName" : "ct_tool_mimic",
   "shortdescription" : "ZZZZ Active Item Mimic! This is a bug!",
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_2",
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/tool.lua",
   "wiki" : { "skip" : true },
   "presets" : {  // Note to translators: some items below lack `longdescription` and `altaDescription`, which will be added in later versions.
     // TBD: https://starbounder.org/Vine_Whip https://starbounder.org/Poison_Bow
@@ -76,7 +76,7 @@
     },
     "eds_heavy" : {
       "baseAsset" : "/items/active/weapons/ranged/unrand/doomcannon/doomcannon.activeitem",
-      "shortdescription" : "^#f02020;EDS^reset; Heavy Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "price" : 720,
+      "shortdescription" : "^#f02020;EDS^reset; Heavy Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta",
       "description" : "This armored cannon containing a powerful phosic energen can generate multiple accelerated blasts at once.",
       "longdescription" : "All the armor hide a complex cooling system needed to contain and redirect all the energy from the phosicores inside.",
       "altaDescription" : "One of the heavier EDS defense developments, literally. Not very high on amount of functions, but pretty high on blastpower instead.",
@@ -214,7 +214,7 @@
     },
     "cryo" : {  // https://starbounder.org/Neo_Shotgun
       "baseAsset" : "/items/active/weapons/ranged/unrand/neoshotgun/neoshotgun.activeitem",
-      "shortdescription" : "Cryonic Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta", "price" : 480,
+      "shortdescription" : "Cryonic Blaster ^#2080f0;^reset;", "level" : 5, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "shotgun", "sona", "upgradeableWeapon" ], "elementalType" : "ice",
       "description" : "A compact non-standard energy tool for producing cryonic energy bursts. Very easy to pack in an alta pad.",
       "longdescription" : "Popular among sona soldiers and aspiring faradea legends, as well as kaiter raiders.",
@@ -265,7 +265,7 @@
     },
     "suria" : {  // loot, gsr https://starbounder.org/Solus_Katana
       "baseAsset" : "/items/active/weapons/bossdrop/soluskatana/soluskatana.activeitem",
-      "shortdescription" : "Suria-Prime ^#8020f0;^reset;", "level" : 5, "race" : "alta", "price" : 480,
+      "shortdescription" : "Suria-Prime ^#8020f0;^reset;", "level" : 5, "race" : "alta",
       "itemTags" : [ "weapon", "ranged", "rocketLauncher", "isoslime", "upgradeableWeapon" ], "elementalType" : "poison",
       "description" : "This energy saber produces a very special type of plasma of unknown polarity - sura-plasma. Similar to enternia, you can feel the air around you go static...",
       "primaryAbility" : { "name" : "Sura-Strike", "description" : "A set of attacks that burn through energetic fields with sura energy." },

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "ct_emergencer_charge",
+  "shortdescription" : "Emergencer Signal",
+  "image" : "ct_emergencer_charge.png",
+  "damageKindImage" : "/damage/ct_plasma.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 3,
+  "lightColor" : [96, 192, 252],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/alta/charges/other/ct_emergencer_charge/default.config"
+    }
+  ],
+  "statusEffects" : [ "ct_plasma_burn" ],
+  "emitters" : [ "electricplasma" ],
+  "flippable" : true,
+  "power" : 12.0,
+  "speed" : 48.0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "ct_plasma"
+}

@@ -23,7 +23,7 @@ My Enternia {version} Patch
 View the changelog for this version here: [URL='{repo}/blob/main/.meta/changelog.md#{v}']Update {version} Changelog[/URL]
 
 - Discord release message:
-Released My Enternia {version}! {release}"""
+Released My Enternia **{version}**! {release}"""
 
 
 def run():

@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_ayaka_loot.png",
-  "animationParts" : { "item" : "ct_ayaka_loot.png" },
   "treasure" : { "pool" : "ct_ayaka_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Ayaka Crate" : { } } },
   "alkey" : "Ayaka Pad"

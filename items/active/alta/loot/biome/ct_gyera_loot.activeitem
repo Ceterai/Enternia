@@ -10,9 +10,8 @@
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "ct_gyera_loot.png",
-  "animationParts" : { "item" : "ct_gyera_loot.png" },
   "treasure" : { "pool" : "ct_gyera_loot" },
-  "builder" : "/items/buildscripts/alta/item.lua",
+  "builder" : "/items/buildscripts/alta/loot.lua",
 
   "wiki" : { "aliases" : { "Gyera Crate" : { } } }, "alkey" : "Gyera Pad"
 }

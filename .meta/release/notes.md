@@ -1,91 +1,29 @@
-A patch that adds more critters and adds even more spawner items, as well as some more colored glowsticks!
+This patch adds the wave animation to the glowsticks, as well as focuses on fixing errors and preparing the mod for Wiki 2.0.
 
 ### Main
 
-- added 16 critters;
-- added 36 critter spawn eggs;
-- some critters can now be caught with a bugnet or hunted down with a bow.
-- added 8 glowsticks;
-- glowsticks now glow in your hand;
+- you can now hold the mouse button to wave glowsticks;
 - bug fixes.
 
 ### Alta
 
-- added tier 0 alta loot crate;
-- added 8 more glowsticks:
-  - **Bionid Glowstick**;
-  - **Calline Glowstick**;
-  - **Crystal Glowstick**;
-  - **EDS Glowstick**;
-  - **Gheatsyn Glowstick**;
-  - **Mical Glowstick**;
-  - **Stardust Glowstick**;
-  - **Yonnur Glowstick**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/glowsticks.png)
-- glowsticks added by this mod now glow in the dark;  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/glow.png)
-- added 6 remaining **Alta Android** spawners:
-  - **Combat Android**;
-  - **Enviro Android**;
-  - **EDS Android**;
-  - **Elite Android**;
-  - **Ceterai Android**;
-  - **Dreamer Android**;  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android1.png)![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android2.png)![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android3.png)![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android4.png)![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android5.png)![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/android6.png)
-- fixed leg armor on these androids.
+- all glowsticks from this mod now have a small wave animation.
 
 ### Critters
 
-- added 16 critters that can be found throughout the world:
-  - **Bionid Snail**;
-  - **Glow Tortoise**;
-  - **Hevika Scab**;
-  - **Hunter Flower**;
-  - **Impulse Crawler**;
-  - **In Jelly**;
-  - **Ion Tortoise**;
-  - **Koyscream**;
-  - **Kudok Squid**;
-  - **Mini Pinky**;
-  - **Mini Poi**;
-  - **Impulse Nia Squid**;
-  - **Plasma Nia Squid**;
-  - **Ionic Nia Squid**;
-  - **Stardust Nia Squid**;
-  - **Phosnail**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/critters.png)
-- added 4 bottled (caught) versions for snails:
-  - **Bionid Snail**;
-  - **Calin Snail**;
-  - **Gheatsyn Snail**;
-  - **Phosnail**.  
-  ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.4b/bugnet.png)
-- added 36 critter spawn eggs with proper descriptions;
-- some critters glow now;
-- some critters (elementals) drop their spawn eggs when caught with a bugnet.
+- added hunting loot to all remaining critters.
 
 ### Translation
 
-- added critter spawn eggs to `/items/active/alta/spawners/critters/`;
-- added tier 0 alta loot crate to `/items/active/alta/loot/`;
-- updated tiered alta loot crate descriptions in `/items/active/alta/loot/`;
-- updated filenames of droid/drone/android spawners, as well as tiered alta loot crates;
-- moved everything in `/items/active/unstorted/alta/` to `/items/active/alta/`;
-- moved everything in `/items/active/alta/spawner/` to `/items/active/alta/spawners/`;
-- moved biome-related loot in `/items/active/alta/loot/` to `/items/active/alta/loot/biome/`;
-- moved drone descriptions from their `.monstertype` files to their spawner items in `/items/active/alta/spawners/drones/`;
-- moved droid descriptions from their `.monstertype` files to their spawner items in `/items/active/alta/spawners/droids/`.
+- relocated sets a layer higher - they are now located in `items/active/alta/sets/`.
 
 ### Dev
 
-- simplified parameters for some spawner items and bug objects;
-- simplified tiered alta loot tables;
-- made it so certain critters can be caught with a bug net;
-- made it so certain critters can drop resources when hunted down with a bow;
-- restructured unsorted items - they are sorted now and most of them have proper, simpler names.
+- updated items to use type-specific builders for certain types of items;
+- reworked some projectile paths.
 
 ### Other
 
-- small projectile fix for R-Powercannon;
-- updated bottled bug recipes to be made from respective eggs and bottles;
+- fixed projectiles on more weapons;
+- fixed a tiny melee combo compatability issue with FU;
 - minor bug fixes.

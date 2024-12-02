@@ -13,7 +13,7 @@
   "inventoryIcon" : "ct_oni_nerus.png",
   "scripts" : [ "/items/active/weapons/ranged/alta/abils/chakram/chakram.lua" ],
   "animation" : "/items/active/weapons/ranged/alta/abils/chakram/chakram.animation",
-  "animationParts" : { "glove" : "ct_oni_nerus.png", "chakram" : "/projectiles/charge/other/chakram/ct_lunar_chakram.png:0" },
+  "animationParts" : { "glove" : "ct_oni_nerus.png", "chakram" : "/projectiles/alta/charges/other/chakram/ct_lunar_chakram.png:0" },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "chakram" : { "properties" : { "offset" : [1.375, 0.0] }}}},
     "sounds" : { "throw" : [ "/sfx/melee/swing_dagger.ogg" ] }
@@ -52,5 +52,5 @@
     }
   },
 
-  "builder" : "/items/buildscripts/alta/item.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua"
 }
