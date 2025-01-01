@@ -8,8 +8,8 @@ import extract_version
 import base
 
 
-PREDEPLOY = False
-DEPLOY = False
+PREDEPLOY = True
+DEPLOY = True
 
 def print_affected(files):
     '''Prints affected files for your convenience.'''
