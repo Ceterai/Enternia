@@ -1,0 +1,80 @@
+{
+  "itemName" : "ct_alta_slime_sprayer",
+  "shortdescription" : "Alta Slime Sprayer",
+  "description" : "Spray a sticky foam that slows down enemies!",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "sanitary", "upgradeableWeapon" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+
+  "animation" : "/items/active/weapons/ranged/unrand/gluesprayer/gluesprayer.animation",
+  "animationParts" : { "middle" : "body.png", "middleFullbright" : "lit.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : { "fire" : ["/sfx/projectiles/bubble_blow2.ogg"] } },
+
+  "baseOffset" : [0.0, 0.125],
+  "muzzleOffset" : [2.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.15,
+    "baseDps" : 10,
+    "energyUsage" : 28,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.1,
+    "fireType" : "auto",
+
+    "projectileType" : "ct_slime_spray",
+    "projectileParameters" : {
+      "knockbackRange" : [10, 40]
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [0.7, -0.7]
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "weaponOffset" : [0.7, -0.7]
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "weaponOffset" : [0.7, -0.7]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "animationParts" : { "middle" : "body_upg.png", "middleFullbright" : "lit.png", "muzzleFlash" : "" },
+    "shortdescription" : "Super-Slimer ^#8020f0;^reset;",
+    "primaryAbility" : { "fireTime" : 0.12 }
+  }
+}

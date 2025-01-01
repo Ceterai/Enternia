@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_calotronics",
+  "shortdescription" : "Calotronics",
+  "description" : "A piece of alta technology - general set of crystal electronics, or calotronics for short.",
+  "longdescription" : "It includes all of the simplest basics used by altas in most of their devices.",
+  "altaDescription" : "Funny how you can use this to repair almost any drone. The true definition of spare parts.",
+
+  "level" : 1, "race" : "alta",
+  "itemTags" : [ "reagent", "electronic" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "calotronics.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Alta Electronics" : { }, "Crystal Electronics" : { }, "Electronics" : { }, "Spare Parts" : { } } }, "alkey" : "Calar"
+}

@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_star_catcher",
+  "shortdescription" : "Star Catcher",
+  "description" : "A stellar tool full of stardust energy. Its default lure glows in the dark.",
+
+  "level" : 7, "race" : "alta",
+  "category" : "fishingRod", "tooltipKind" : "fishingrod",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/fishingrod/fishingrod.animation",
+  "animationParts" : { "fishingrod" : "body.png" },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/fishingrod/fishingrod.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [200, 150, 250, 100],
+  "ropeFlashColor" : [220, 200, 250, 200],
+
+  "corrodeLiquidIds" : [],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [8],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : true,
+
+  "lureType" : "light",
+  "lureName" : "Illuminated Lure",
+  "lureIcon" : "/items/augments/fishing/lurelight.png",
+  "lureProjectile" : "fishinglurelight",
+
+  "reelType" : "ct_stardust_vortex",
+  "reelName" : "Stardust Vortex",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 55,
+    "lineBreakMargin" : 12,
+    "reelSpeed" : 12,
+    "lineBreakTime" : 0.9
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.25,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/rod.lua"
+}

@@ -1,0 +1,67 @@
+{
+  "itemName" : "ct_celestial_pick",
+  "shortdescription" : "Celestial Pick",
+  "description" : "A mining tool unlike anything you've seen in other media.",
+
+  "level" : 8, "race" : "alta",
+  "itemTags" : [ "mining", "miningtool", "pickaxe" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : [
+    { "image" : "handle.png" },
+    { "image" : "head.png:active.1" }
+  ],
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "animation" : "/items/active/weapons/melee/pickaxe/energypickaxe.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "blade" : "head.png"
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "pickslash",
+  "primaryAbility" : {
+    "layer" : "foreground",
+
+    "activatingFireMode" : "primary",
+    "energyUsage" : 5,
+
+    "requisiteAnimationStates" : {
+      "blade" : "active"
+    },
+    "windupAnimationStates" : {
+      "blade" : "activating"
+    },
+    "onLeaveAnimationStates" : {
+      "blade" : "deactivating"
+    }
+  },
+
+  "altAbilityType" : "pickslash",
+  "altAbility" : {
+    "layer" : "background",
+
+    "activatingFireMode" : "alt",
+    "energyUsage" : 5,
+
+    "requisiteAnimationStates" : {
+      "blade" : "active"
+    },
+    "windupAnimationStates" : {
+      "blade" : "activating"
+    },
+    "onLeaveAnimationStates" : {
+      "blade" : "deactivating"
+    },
+    "inactiveAnimationStates" : {
+      "blade" : "inactive"
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

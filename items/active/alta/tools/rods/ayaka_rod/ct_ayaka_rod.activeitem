@@ -1,0 +1,79 @@
+{
+  "itemName" : "ct_ayaka_rod",
+  "shortdescription" : "Ayaka Rod",
+  "description" : "A simple wooden fishing rod with no modular reel or lure. Can't be used in lava, poison, fuel or slime.",
+
+  "race" : "alta",
+  "category" : "fishingRod", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:light",
+  "animation" : "/items/active/fishingrod/fishingrod.animation",
+  "animationParts" : { "fishingrod" : "body.png" },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/fishingrod/fishingrod.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [150, 200, 250, 100],
+  "ropeFlashColor" : [255, 200, 200, 200],
+
+  "corrodeLiquidIds" : [3],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [2, 8],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : false,
+
+  "lureType" : "basic",
+  "lureName" : "Basic Lure",
+  "lureIcon" : "/items/augments/fishing/lurebasic.png",
+  "lureProjectile" : "fishinglure",
+
+  "reelType" : "ct_ayaka_reel",
+  "reelName" : "Ayaka Reel",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 30,
+    "lineBreakMargin" : 10,
+    "reelSpeed" : 10,
+    "lineBreakTime" : 0.7
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.30,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/rod.lua"
+}

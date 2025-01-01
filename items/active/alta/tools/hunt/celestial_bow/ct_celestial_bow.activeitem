@@ -1,0 +1,52 @@
+{
+  "itemName" : "ct_celestial_bow",
+  "shortdescription" : "Celestial Bow",
+  "description" : "Fires glowing beams of pure energy!",
+
+  "level" : 8, "race" : "alta",
+  "category" : "bow", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:0",
+  "maxStack" : 1,
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "bow" ],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : { "bow" : "body.png" },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "lightarrow",
+    "powerProjectileType" : "chargedlightarrow",
+    "projectileParameters" : {
+      "power" : 6.5
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "drawFrameSelector" : "poisonBowImageSelectorNoPower",
+    "drawArmFrames" : ["rotation", "swim.2", "swim.2", "swim.2", "swimIdle.1", "swimIdle.1"],
+    "projectileType" : "lightarrow",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

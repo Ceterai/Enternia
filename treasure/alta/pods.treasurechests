@@ -8,12 +8,12 @@
   "ct_faradea_pod" : [ { "containers" : [ "ct_faradea_pod" ], "treasurePool" : "ct_faradea_loot", "minimumLevel" : 0 } ],
   "ct_eds_pod" : [ { "containers" : [ "ct_eds_pod" ], "treasurePool" : "ct_eds_loot", "minimumLevel" : 0 } ],
 
-  "ct_alta_pod_tier0" : [ { "containers" : [ "ct_alta_pod" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 0 } ],
-  "ct_alta_pod_tier1" : [ { "containers" : [ "ct_alta_pod" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 3 } ],
-  "ct_alta_pod_tier2" : [ { "containers" : [ "ct_alta_security_pod" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 4 } ],
-  "ct_alta_pod_tier3" : [ { "containers" : [ "ct_alta_lab_pod" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 5 } ],
-  "ct_alta_pod_tier4" : [ { "containers" : [ "ct_alta_ship_pod" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 6 } ],
-  "ct_alta_pod_tier5" : [ { "containers" : [ "ct_alta_ship_container" ], "treasurePool" : "ct_alta_pod_loot", "minimumLevel" : 7 } ],
+  "ct_alta_pod_tier0" : [ { "containers" : [ "ct_alta_pod" ], "treasurePool" : "ct_alta_pod_0", "minimumLevel" : 0 } ],
+  "ct_alta_pod_tier1" : [ { "containers" : [ "ct_alta_pod" ], "treasurePool" : "ct_alta_pod_1", "minimumLevel" : 0 } ],
+  "ct_alta_pod_tier2" : [ { "containers" : [ "ct_alta_security_pod" ], "treasurePool" : "ct_alta_pod_2", "minimumLevel" : 0 } ],
+  "ct_alta_pod_tier3" : [ { "containers" : [ "ct_alta_lab_pod" ], "treasurePool" : "ct_alta_pod_3", "minimumLevel" : 0 } ],
+  "ct_alta_pod_tier4" : [ { "containers" : [ "ct_alta_ship_pod" ], "treasurePool" : "ct_alta_pod_4", "minimumLevel" : 0 } ],
+  "ct_alta_pod_tier5" : [ { "containers" : [ "ct_alta_ship_container" ], "treasurePool" : "ct_alta_pod_5", "minimumLevel" : 0 } ],
 
   "ct_big_cargoChest" : [ { "containers" : [ "outpostshippingcontainer" ], "treasurePool" : "ct_alterashEndTreasure", "minimumLevel" : 0 } ]
 }

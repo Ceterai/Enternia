@@ -155,7 +155,7 @@
         "name": "ct_alta_security-codex",
         "shortdescription": "Security Protocol Datamass",
         "category": "codex",
-        "icon": "/items/generic/crafting/ct_datamass.png",
+        "icon": "/items/generic/crafting/alta/datamass.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -634,7 +634,7 @@
         "name": "ct_logs_alta_job-codex",
         "shortdescription": "Alta's Recommendation Letter",
         "category": "codex",
-        "icon": "/items/generic/crafting/ct_datamass.png",
+        "icon": "/items/generic/crafting/alta/datamass.png",
         "rarity": "common",
         "race": "alta"
     },
@@ -2522,6 +2522,716 @@
         "shortdescription": "Warped Sporgus Egg ^#20f080;^reset;",
         "category": "throwableItem",
         "icon": "ct_warped_sporgus_egg.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/brush/",
+        "fileName": "ct_alta_brush.activeitem",
+        "name": "ct_alta_brush",
+        "shortdescription": "Alta Brush",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/cleaner/",
+        "fileName": "ct_alta_cleaner.activeitem",
+        "name": "ct_alta_cleaner",
+        "shortdescription": "Alta Cleaner",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/fossil_cleaner/",
+        "fileName": "ct_alta_fossil_cleaner.activeitem",
+        "name": "ct_alta_fossil_cleaner",
+        "shortdescription": "Fossil Cleaner",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/ghearun_brush/",
+        "fileName": "ct_ghearun_brush.activeitem",
+        "name": "ct_ghearun_brush",
+        "shortdescription": "Ghearun Brush",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/silk_brush/",
+        "fileName": "ct_alta_silk_brush.activeitem",
+        "name": "ct_alta_silk_brush",
+        "shortdescription": "Silk Brush",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/brushes/starmatter_brush/",
+        "fileName": "ct_starmatter_brush.activeitem",
+        "name": "ct_starmatter_brush",
+        "shortdescription": "Starmatter Brush",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/capture/filled_pod/",
+        "fileName": "filledcapturepod.activeitem",
+        "name": "ct_alta_filled_capture_pod",
+        "shortdescription": "Filled Capture Pod",
+        "category": "throwableItem",
+        "icon": "filledcapturepodicon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/capture/pod/",
+        "fileName": "capturepod.thrownitem",
+        "name": "ct_alta_capture_pod",
+        "shortdescription": "Capture Pod",
+        "category": "throwableItem",
+        "icon": "capturepod.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/broom/",
+        "fileName": "ct_alta_broom.activeitem",
+        "name": "ct_alta_broom",
+        "shortdescription": "Alta Broom",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/foam_sprayer/",
+        "fileName": "ct_alta_foam_sprayer.activeitem",
+        "name": "ct_alta_foam_sprayer",
+        "shortdescription": "Alta Foam Sprayer",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/pollen_pump/",
+        "fileName": "ct_alta_pollen_pump.activeitem",
+        "name": "ct_alta_pollen_pump",
+        "shortdescription": "Alta Pollen Pump",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/slime_cleaner/",
+        "fileName": "ct_alta_slime_cleaner.activeitem",
+        "name": "ct_alta_slime_cleaner",
+        "shortdescription": "Alta Slime Cleaner",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/slime_sprayer/",
+        "fileName": "ct_alta_slime_sprayer.activeitem",
+        "name": "ct_alta_slime_sprayer",
+        "shortdescription": "Alta Slime Sprayer",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/climb/climbing_tool/",
+        "fileName": "ct_alta_climbing_tool.activeitem",
+        "name": "ct_alta_climbing_tool",
+        "shortdescription": "Alta Climbing Tool",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/climb/grappler/",
+        "fileName": "ct_alta_grappler.activeitem",
+        "name": "ct_alta_grappler",
+        "shortdescription": "Alta Grappler",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/climb/quick_builder/",
+        "fileName": "ct_alta_quick_builder.activeitem",
+        "name": "ct_alta_quick_builder",
+        "shortdescription": "Alta Quick Builder",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/grab/ceter_relocator/",
+        "fileName": "ct_ceter_relocator.activeitem",
+        "name": "ct_ceter_relocator",
+        "shortdescription": "Ceter-Relocator",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/grab/grabber/",
+        "fileName": "ct_alta_grabber.activeitem",
+        "name": "ct_alta_grabber",
+        "shortdescription": "Alta Grabber",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/grab/preserver/",
+        "fileName": "ct_alta_preserver.activeitem",
+        "name": "ct_alta_preserver",
+        "shortdescription": "Alta Preserver",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/grab/relocator/",
+        "fileName": "ct_alta_relocator.activeitem",
+        "name": "ct_alta_relocator",
+        "shortdescription": "Alta Relocator",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/celestial_bow/",
+        "fileName": "ct_celestial_bow.activeitem",
+        "name": "ct_celestial_bow",
+        "shortdescription": "Celestial Bow",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/composite_bow/",
+        "fileName": "ct_composite_bow.activeitem",
+        "name": "ct_composite_bow",
+        "shortdescription": "Composite Bow",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/composite_harpooner/",
+        "fileName": "ct_composite_harpooner.activeitem",
+        "name": "ct_composite_harpooner",
+        "shortdescription": "Composite Hunter",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/harpooner/",
+        "fileName": "ct_alta_harpooner.activeitem",
+        "name": "ct_alta_harpooner",
+        "shortdescription": "Alta Harpooner",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/riftera/",
+        "fileName": "ct_riftera.activeitem",
+        "name": "ct_riftera",
+        "shortdescription": "Riftera-S",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/hunt/warped_hunter/",
+        "fileName": "ct_warped_hunter.activeitem",
+        "name": "ct_warped_hunter",
+        "shortdescription": "Warped Hunter",
+        "category": "bow",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/tools/mine/celestial_pick/",
+        "fileName": "ct_celestial_pick.activeitem",
+        "name": "ct_celestial_pick",
+        "shortdescription": "Celestial Pick",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/mine/energy_drill/",
+        "fileName": "ct_alta_energy_drill.activeitem",
+        "name": "ct_alta_energy_drill",
+        "shortdescription": "Alta Energy Laser",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/mine/mining_drone/",
+        "fileName": "ct_alta_mining_drone.activeitem",
+        "name": "ct_alta_mining_drone",
+        "shortdescription": "Alta Mining Drone",
+        "category": "drone",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/mine/photon_drill/",
+        "fileName": "ct_photon_drill.activeitem",
+        "name": "ct_photon_drill",
+        "shortdescription": "Photon Drill",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/nets/bion_net/",
+        "fileName": "ct_bion_bug_net.activeitem",
+        "name": "ct_bion_bug_net",
+        "shortdescription": "Bion Bug Net",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/nets/bug_lover/",
+        "fileName": "ct_bug_lover.activeitem",
+        "name": "ct_bug_lover",
+        "shortdescription": "Bug Lover",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/nets/bug_net/",
+        "fileName": "ct_alta_bug_net.activeitem",
+        "name": "ct_alta_bug_net",
+        "shortdescription": "Alta Bug Net",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/nets/haven_catcher/",
+        "fileName": "ct_haven_catcher.activeitem",
+        "name": "ct_haven_catcher",
+        "shortdescription": "Haven Catcher",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "flowerygrassseeds.thrownitem",
+        "name": "ct_flowery_grass_seeds",
+        "shortdescription": "Flowery Grass Seeds",
+        "category": "throwableItem",
+        "icon": "flowerygrassseeds.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "grassseeds.thrownitem",
+        "name": "ct_grass_seeds",
+        "shortdescription": "Grass Seeds",
+        "category": "throwableItem",
+        "icon": "grassseedsicon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/rail/energy_hook/",
+        "fileName": "ct_alta_energy_hook.activeitem",
+        "name": "ct_alta_energy_hook",
+        "shortdescription": "Energy Hook",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rail/hook/",
+        "fileName": "ct_alta_rail_hook.activeitem",
+        "name": "ct_alta_rail_hook",
+        "shortdescription": "Rail Hook",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/altan_umbrella/",
+        "fileName": "ct_altan_umbrella.activeitem",
+        "name": "ct_altan_umbrella",
+        "shortdescription": "Altan Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/blue_umbrella/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_omniblue_umbrella",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/green_umbrella/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_ceterteal_umbrella",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/hover_tool/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_alta_hover_tool",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/null_hover_tool/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_alta_null_hover_tool",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/purple_umbrella/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_ionic_umbrella",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/star_parasol/",
+        "fileName": "parasol.activeitem",
+        "name": "ct_star_parasol",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rain/umbrella/",
+        "fileName": "ct_alta_umbrella.activeitem",
+        "name": "ct_alta_umbrella",
+        "shortdescription": "Alta Umbrella",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/ayaka_rod/",
+        "fileName": "ct_ayaka_rod.activeitem",
+        "name": "ct_ayaka_rod",
+        "shortdescription": "Ayaka Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/bion_rod/",
+        "fileName": "ct_bion_rod.activeitem",
+        "name": "ct_bion_rod",
+        "shortdescription": "Bion Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/celestial_rod/",
+        "fileName": "ct_celestial_rod.activeitem",
+        "name": "ct_celestial_rod",
+        "shortdescription": "Celestial Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/composite_rod/",
+        "fileName": "ct_composite_rod.activeitem",
+        "name": "ct_composite_rod",
+        "shortdescription": "Composite Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/energy_rod/",
+        "fileName": "ct_alta_energy_rod.activeitem",
+        "name": "ct_alta_energy_rod",
+        "shortdescription": "Energy Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/rod/",
+        "fileName": "ct_alta_rod.activeitem",
+        "name": "ct_alta_rod",
+        "shortdescription": "Alta Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/star_catcher/",
+        "fileName": "ct_star_catcher.activeitem",
+        "name": "ct_star_catcher",
+        "shortdescription": "Star Catcher",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/rods/warped_rod/",
+        "fileName": "ct_warped_rod.activeitem",
+        "name": "ct_warped_rod",
+        "shortdescription": "Warped Rod",
+        "category": "fishingRod",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/scan/cave_detector/",
+        "fileName": "cavedetector.activeitem",
+        "name": "ct_alta_cave_detector",
+        "shortdescription": "Cave Detector",
+        "category": "Tool",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/tools/scan/ore_detector/",
+        "fileName": "oredetector.activeitem",
+        "name": "ct_alta_ore_detector",
+        "shortdescription": "Ore Detector",
+        "category": "Tool",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/tools/water/altan_can/",
+        "fileName": "ct_altan_can.activeitem",
+        "name": "ct_altan_can",
+        "shortdescription": "Altan Watercan",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/water/bucket/",
+        "fileName": "ct_alta_bucket.activeitem",
+        "name": "ct_alta_bucket",
+        "shortdescription": "Alta Bucket",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/water/gyera_can/",
+        "fileName": "ct_gyera_can.activeitem",
+        "name": "ct_gyera_can",
+        "shortdescription": "Gyera Watering Can",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/water/watering_can/",
+        "fileName": "ct_alta_watering_can.activeitem",
+        "name": "ct_alta_watering_can",
+        "shortdescription": "Alta Watering Can",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bow/",
+        "fileName": "bow.activeitem",
+        "name": "ct_alta_bow",
+        "shortdescription": "Alta Bow",
+        "category": "toy",
+        "icon": "bowicon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/bubblegun/",
+        "fileName": "bubblegun.activeitem",
+        "name": "ct_alta_bubbler",
+        "shortdescription": "Bubble Blaster",
+        "category": "toy",
+        "icon": "bubblegunicon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/cupidsbow/",
+        "fileName": "cupidsbow.activeitem",
+        "name": "ct_estria_bow",
+        "shortdescription": "Estria's Bow",
+        "category": "bow",
+        "icon": "cupidsbowicon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/",
+        "fileName": "throwingdart.thrownitem",
+        "name": "ct_alta_dart",
+        "shortdescription": "Throwing Dart",
+        "category": "throwableItem",
+        "icon": "throwingdart.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/blue/",
+        "fileName": "throwingdart.thrownitem",
+        "name": "ct_alta_dart_omniblue",
+        "shortdescription": "Throwing Dart",
+        "category": "throwableItem",
+        "icon": "throwingdart.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/green/",
+        "fileName": "throwingdart.thrownitem",
+        "name": "ct_alta_dart_ceterteal",
+        "shortdescription": "Throwing Dart",
+        "category": "throwableItem",
+        "icon": "throwingdart.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/purple/",
+        "fileName": "throwingdart.thrownitem",
+        "name": "ct_alta_dart_ionic",
+        "shortdescription": "Throwing Dart",
+        "category": "throwableItem",
+        "icon": "throwingdart.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/paintgun/",
+        "fileName": "paintgunblue.activeitem",
+        "name": "ct_alta_painter_blue",
+        "shortdescription": "Blue Paintgun",
+        "category": "toy",
+        "icon": "paintgunblue.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/paintgun/",
+        "fileName": "paintgungreen.activeitem",
+        "name": "ct_alta_painter_green",
+        "shortdescription": "Green Paintgun",
+        "category": "toy",
+        "icon": "paintgungreen.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/paintgun/",
+        "fileName": "paintgunpurple.activeitem",
+        "name": "ct_alta_painter_purple",
+        "shortdescription": "Purple Paintgun",
+        "category": "toy",
+        "icon": "paintgunpurple.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/paintgun/",
+        "fileName": "paintgunred.activeitem",
+        "name": "ct_alta_painter_red",
+        "shortdescription": "Red Paintgun",
+        "category": "toy",
+        "icon": "paintgunred.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/plane/",
+        "fileName": "paperplane.thrownitem",
+        "name": "ct_paper_plane",
+        "shortdescription": "Paper Plane",
+        "category": "throwableItem",
+        "icon": "paperplane.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/snowgun/",
+        "fileName": "snowgun.activeitem",
+        "name": "ct_alta_snowthrower",
+        "shortdescription": "Snowball Shooter",
+        "category": "toy",
+        "icon": "snowgun.png",
         "rarity": "uncommon"
     },
     {
@@ -4637,16 +5347,6 @@
     },
     {
         "path": "/items/generic/crafting/",
-        "fileName": "ct_alta_energy_cell.item",
-        "name": "ct_alta_energy_cell",
-        "shortdescription": "Energy Cell",
-        "category": "craftingMaterial",
-        "icon": "ct_alta_energy_cell.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
         "fileName": "ct_alternia_shard.item",
         "name": "ct_alternia_shard",
         "shortdescription": "^#2080f0;Alternia^reset; Shard",
@@ -4656,32 +5356,12 @@
     },
     {
         "path": "/items/generic/crafting/",
-        "fileName": "ct_altersphere.item",
-        "name": "ct_altersphere",
-        "shortdescription": "^#2080f0;Alter^reset;-Sphere",
-        "category": "craftingMaterial",
-        "icon": "ct_altersphere.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
         "fileName": "ct_ayaka_wood.item",
         "name": "ct_ayaka_wood",
         "shortdescription": "Ayaka Wood",
         "category": "craftingMaterial",
         "icon": "ct_ayaka_wood.png",
         "rarity": "common"
-    },
-    {
-        "path": "/items/generic/crafting/",
-        "fileName": "ct_bion.item",
-        "name": "ct_bion",
-        "shortdescription": "Bion Compound",
-        "category": "craftingMaterial",
-        "icon": "ct_bion.png",
-        "rarity": "rare",
-        "race": "alta"
     },
     {
         "path": "/items/generic/crafting/",
@@ -4703,62 +5383,12 @@
     },
     {
         "path": "/items/generic/crafting/",
-        "fileName": "ct_cetersphere.item",
-        "name": "ct_cetersphere",
-        "shortdescription": "^#20f080;Ceter^reset;-Sphere",
-        "category": "craftingMaterial",
-        "icon": "ct_cetersphere.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
-        "fileName": "ct_datamass.item",
-        "name": "ct_datamass",
-        "shortdescription": "Datamass",
-        "category": "craftingMaterial",
-        "icon": "ct_datamass.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
-        "fileName": "ct_eds_armor.item",
-        "name": "ct_eds_armor",
-        "shortdescription": "^#f02020;EDS^reset; Armor Unit",
-        "category": "craftingMaterial",
-        "icon": "ct_eds_armor.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
         "fileName": "ct_enterite.item",
         "name": "ct_enterite",
         "shortdescription": "^#8020f0;Enterite^reset;",
         "category": "craftingMaterial",
         "icon": "ct_enterite.png",
         "rarity": "rare"
-    },
-    {
-        "path": "/items/generic/crafting/",
-        "fileName": "ct_entersphere.item",
-        "name": "ct_entersphere",
-        "shortdescription": "^#8020f0;Enter^reset;-Sphere",
-        "category": "craftingMaterial",
-        "icon": "ct_entersphere.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/crafting/",
-        "fileName": "ct_phosicore.item",
-        "name": "ct_phosicore",
-        "shortdescription": "Phosicore",
-        "category": "craftingMaterial",
-        "icon": "ct_phosicore.png",
-        "rarity": "rare",
-        "race": "alta"
     },
     {
         "path": "/items/generic/crafting/",
@@ -4777,6 +5407,126 @@
         "category": "craftingMaterial",
         "icon": "ct_stardust.png",
         "rarity": "legendary"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "altan.item",
+        "name": "ct_altan",
+        "shortdescription": "Altan Compound",
+        "category": "craftingMaterial",
+        "icon": "altan.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "altersphere.item",
+        "name": "ct_altersphere",
+        "shortdescription": "^#2080f0;Alter^reset;-Sphere",
+        "category": "craftingMaterial",
+        "icon": "altersphere.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "bion.item",
+        "name": "ct_bion",
+        "shortdescription": "Bion Compound",
+        "category": "craftingMaterial",
+        "icon": "bion.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "calotronics.item",
+        "name": "ct_calotronics",
+        "shortdescription": "Calotronics",
+        "category": "craftingMaterial",
+        "icon": "calotronics.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "cetersphere.item",
+        "name": "ct_cetersphere",
+        "shortdescription": "^#20f080;Ceter^reset;-Sphere",
+        "category": "craftingMaterial",
+        "icon": "cetersphere.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "composite.item",
+        "name": "ct_composite",
+        "shortdescription": "Composite Armor",
+        "category": "craftingMaterial",
+        "icon": "composite.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "datamass.item",
+        "name": "ct_datamass",
+        "shortdescription": "Datamass",
+        "category": "craftingMaterial",
+        "icon": "datamass.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "eds.item",
+        "name": "ct_eds_armor",
+        "shortdescription": "^#f02020;EDS^reset; Armor",
+        "category": "craftingMaterial",
+        "icon": "eds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "energy_cell.item",
+        "name": "ct_alta_energy_cell",
+        "shortdescription": "Energy Cell",
+        "category": "craftingMaterial",
+        "icon": "energy_cell.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "entersphere.item",
+        "name": "ct_entersphere",
+        "shortdescription": "^#8020f0;Enter^reset;-Sphere",
+        "category": "craftingMaterial",
+        "icon": "entersphere.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "isowire.item",
+        "name": "ct_isowire",
+        "shortdescription": "Isowire",
+        "category": "craftingMaterial",
+        "icon": "isowire.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/crafting/alta/",
+        "fileName": "phosicore.item",
+        "name": "ct_phosicore",
+        "shortdescription": "Phosicore",
+        "category": "craftingMaterial",
+        "icon": "phosicore.png",
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/items/generic/dyes/alta/",
@@ -6780,6 +7530,56 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/crafting/aquarium/",
+        "fileName": "ct_alta_aquarium.object",
+        "name": "ct_alta_aquarium",
+        "shortdescription": "^orange;Alta Aquarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/architect_station/",
+        "fileName": "ct_alta_architect_station.object",
+        "name": "ct_alta_architect_station",
+        "shortdescription": "^orange;Alta Architect Station^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/armory/",
+        "fileName": "ct_alta_armory.object",
+        "name": "ct_alta_armory",
+        "shortdescription": "^orange;Alta Armory^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/bench/",
+        "fileName": "ct_alta_emergency_bench.object",
+        "name": "ct_alta_emergency_bench",
+        "shortdescription": "^orange;Alta Emergency Bench^reset;",
+        "category": "crafting",
+        "icon": "icon1.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/bestiarium/",
+        "fileName": "ct_alta_bestiarium.object",
+        "name": "ct_alta_bestiarium",
+        "shortdescription": "^orange;Alta Bestiarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/crafting/constructor/",
         "fileName": "ct_alta_constructor.object",
         "name": "ct_alta_constructor",
@@ -6810,6 +7610,96 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/crafting/dendrarium/",
+        "fileName": "ct_alta_dendrarium.object",
+        "name": "ct_alta_dendrarium",
+        "shortdescription": "^orange;Alta Dendrarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/energy_station/",
+        "fileName": "ct_alta_energy_station.object",
+        "name": "ct_alta_energy_station",
+        "shortdescription": "^orange;Alta Energy Station^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/insectarium/",
+        "fileName": "ct_alta_insectarium.object",
+        "name": "ct_alta_insectarium",
+        "shortdescription": "^orange;Alta Insectarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/ionomelter/",
+        "fileName": "ct_alta_ionomelter.object",
+        "name": "ct_alta_ionomelter",
+        "shortdescription": "^orange;Alta Ionomelter^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/resque_station/",
+        "fileName": "ct_alta_resque_station.object",
+        "name": "ct_alta_resque_station",
+        "shortdescription": "^orange;Alta Resque Station^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/robocrafter/",
+        "fileName": "ct_alta_robocrafter.object",
+        "name": "ct_alta_robocrafter",
+        "shortdescription": "^orange;Alta Robocrafter^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/stellarium/",
+        "fileName": "ct_alta_stellarium.object",
+        "name": "ct_alta_stellarium",
+        "shortdescription": "^orange;Alta Stellarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/tailor/",
+        "fileName": "ct_alta_tailor.object",
+        "name": "ct_alta_tailor",
+        "shortdescription": "^orange;Alta Tailor^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/terrarium/",
+        "fileName": "ct_alta_terrarium.object",
+        "name": "ct_alta_terrarium",
+        "shortdescription": "^orange;Alta Terrarium^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/crafting/upgrade_station/",
         "fileName": "ct_alta_upgrade_station.object",
         "name": "ct_alta_upgrade_station",
@@ -6817,6 +7707,16 @@
         "category": "crafting",
         "icon": "icon1.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/workshop/",
+        "fileName": "ct_alta_workshop.object",
+        "name": "ct_alta_workshop",
+        "shortdescription": "^orange;Alta Workshop^reset;",
+        "category": "crafting",
+        "icon": "icon1.png",
+        "rarity": "common",
         "race": "alta"
     },
     {

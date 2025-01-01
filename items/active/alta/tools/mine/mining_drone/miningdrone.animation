@@ -1,0 +1,40 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "weapon" : {
+        "default" : "visible",
+        "states" : {
+          "visible" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "drone" : {
+        "properties" : {
+          "centered" : true,
+          "offset" : [0.0, 0.0],
+          "transformationGroups" : [ "weapon" ]
+        },
+
+        "partStates" : {
+          "weapon" : {
+            "visible" : {
+              "properties" : {
+                "image" : "<partImage>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups" : {
+    "weapon" : {}
+  },
+
+  "sounds" : {
+    "throw" : [ "/sfx/melee/swing_dagger.ogg" ]
+  }
+}

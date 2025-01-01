@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_slime_cleaner", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l3", "alta_t1", "tool", "tools", "cleaning_tools", "all", "mod" ]
+}

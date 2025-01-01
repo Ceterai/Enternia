@@ -1,0 +1,35 @@
+{
+  "itemName" : "ct_bion_bug_net",
+  "shortdescription" : "Bion Bug Net",
+  "description" : "A big net that uses different light bion compounds for its handle and net itself.",
+
+  "level" : 5, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : true,
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:idle",
+
+  "animation" : "/items/active/unsorted/bugnet/bugnet.animation",
+  "animationParts" : { "bugnet" : "body.png", "swoosh" : "/items/active/unsorted/bugnet/swoosh.png" },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"], "class" : "MeleeSlash",
+    "fireTime" : 0.5, "baseDps" : 0.01,
+    "damageConfig" : { "damageSourceKind" : "bugnet", "statusEffects" : [ ], "knockback" : 0, "knockbackMode" : "facing", "timeoutGroup" : "primary" },
+    "stances" : {
+      "idle" : { "armRotation" : -90, "weaponRotation" : -10, "allowRotate" : false, "allowFlip" : true },
+      "windup" : {
+        "duration" : 0.2, "armRotation" : 60, "weaponRotation" : 10,
+        "twoHanded" : true, "allowRotate" : false, "allowFlip" : true, "animationStates" : { "net" : "hang" }
+      },
+      "fire" : {
+        "duration" : 0.3, "armRotation" : -45, "weaponRotation" : -55,
+        "twoHanded" : true, "allowRotate" : false, "allowFlip" : false, "animationStates" : { "net" : "swing" }
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

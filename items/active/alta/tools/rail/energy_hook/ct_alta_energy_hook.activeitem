@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_alta_energy_hook",
+  "shortdescription" : "Energy Hook",
+  "description" : "Attach yourself to the rails using pure energy and ride them with increased velocity!",
+
+  "level" : 6, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:1",
+  "animation" : "/items/active/alta/tools/rail/default.animation",
+  "animationParts" : { "railhook" : "body.png" },
+  "scripts" : ["/items/active/unsorted/railhook/railhook.lua"],
+
+  "connectionOffset" : [1.0, 0],
+  "activeArmAngle" : 1.5,
+  "inactiveArmAngle" : -1.0,
+
+  "railConfig" : { "useGravity" : true, "gravityMultiplier" : 0.6 },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

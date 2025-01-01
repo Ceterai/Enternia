@@ -107,7 +107,11 @@ end
 
 function damage(args)
   if self.bug and args.sourceKind == "bugnet" then
+    monster.setDeathParticleBurst(nil)
+    monster.setDeathSound(nil)
+    self.deathBehavior = nil
     self.damaged = false
+    args.damage = 0
     status.setResourcePercentage("health", 0)
   else
     self.damaged = true

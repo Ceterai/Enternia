@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_alta_rod",
+  "shortdescription" : "Alta Rod",
+  "description" : "A proper customizable alta rod for... jellying?.. What do you call fishing with no fish?..",
+
+  "level" : 2, "race" : "alta",
+  "category" : "fishingRod", "tooltipKind" : "fishingrod",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/fishingrod/fishingrod.animation",
+  "animationParts" : { "fishingrod" : "body.png" },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/fishingrod/fishingrod.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [150, 200, 250, 100],
+  "ropeFlashColor" : [255, 200, 200, 200],
+
+  "corrodeLiquidIds" : [3],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [2, 8],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : true,
+
+  "lureType" : "basic",
+  "lureName" : "Basic Lure",
+  "lureIcon" : "/items/augments/fishing/lurebasic.png",
+  "lureProjectile" : "fishinglure",
+
+  "reelType" : "ct_alta_short_reel",
+  "reelName" : "Short Reel",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 35,
+    "lineBreakMargin" : 10,
+    "reelSpeed" : 11,
+    "lineBreakTime" : 0.7
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.25,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/rod.lua"
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_composite",
+  "shortdescription" : "Composite Armor",
+  "description" : "An alta metal compound plate consisting of altan and durasteel layers. Often used by alta security as a heavier counterpart to regular altan.",
+  "longdescription" : "This titanium-durasteel composite is heavier than its predecessor, so is usually applied in smaller amounts.",
+  "altaDescription" : "A secure plate fit for protecting security.",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "reagent", "armor", "compound", "alta_security" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "composite.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Composite Armor Unit" : { } } }, "alkey" : "Initan"
+}

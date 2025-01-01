@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4d](#234d)
     - [2.3.4c](#234c)
     - [2.3.4b](#234b)
     - [2.3.4a](#234a)
@@ -61,9 +62,47 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.4d
+
+A patch with minor fixes to loot chances and with some WIP additions.
+
+**Main:**
+
+- reverted loot table system for alta pods to make sure high tiers can spawn again;
+- bug fixes.
+
+**Alta:**
+
+- added experimental tools which aren't available through normal gameplay yet;
+- added experimental crafting tables which aren't available through normal gameplay yet.
+
+**Critters:**
+
+- added hunting loot to all remaining critters.
+
+**Translation:**
+
+- moved some alta crafting materials to `/items/generic/crafting/alta/` and renamed them slightly to match a common pattern;
+- minor grammar fixes;
+- added tools, tables & materials are WIP and don't need to be translated just yet.
+
+**Dev:**
+
+- small projectile changes;
+- made it so regular items can't have ability tooltips;
+- made it so critters no longer explode when they get captured with a bug net.
+
+**Other:**
+
+- fixed projectiles on more weapons;
+- fixed a tiny melee combo compatability issue with FU;
+- minor bug fixes.
+
 ### 2.3.4c
 
 This patch adds the wave animation to the glowsticks, as well as focuses on fixing errors and preparing the mod for Wiki 2.0.
+
+> Detailed changes for this version: [Update 2.3.4c](https://github.com/Ceterai/Enternia/commit/fbfb0702c42bc6bccc35a0cc304b61251f0febeb)
 
 **Main:**
 
@@ -96,6 +135,8 @@ This patch adds the wave animation to the glowsticks, as well as focuses on fixi
 ### 2.3.4b
 
 A patch that adds more critters and adds even more spawner items, as well as some more colored glowsticks!
+
+> Detailed changes for this version: [Update 2.3.4b](https://github.com/Ceterai/Enternia/commit/3166911896cc76a9e785002b0a06d82cc95d3331)
 
 **Main:**
 

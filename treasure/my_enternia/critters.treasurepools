@@ -5,13 +5,13 @@
 {
   // Bugnet Loot
   // added in 2.3.4b
-  "ct_bionid_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_bionid_snail_af" } ] } ] ],
-  "ct_calin_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_calin_snail_af" } ] } ] ],
-  "ct_gheatsyn_snail_loot" : [ [0, { "fill" : [ { "item" : "ct_gheatsyn_snail_af" } ] } ] ],
-  "ct_phosnail_loot" : [ [0, { "fill" : [ { "item" : "ct_phosnail_af" } ] } ] ],
+  "ct_bionid_snail-loot" : [ [0, { "fill" : [ { "item" : "ct_bionid_snail_af" } ] } ] ],
+  "ct_calin_snail-loot" : [ [0, { "fill" : [ { "item" : "ct_calin_snail_af" } ] } ] ],
+  "ct_gheatsyn_snail-loot" : [ [0, { "fill" : [ { "item" : "ct_gheatsyn_snail_af" } ] } ] ],
+  "ct_phosnail-loot" : [ [0, { "fill" : [ { "item" : "ct_phosnail_af" } ] } ] ],
 
-  "ct_floating_calline_loot" : [ [0, { "fill" : [ { "item" : "ct_floating_calline_egg" } ] } ] ],
-  "ct_miazmur_loot" : [ [0, { "fill" : [ { "item" : "ct_miazmur_egg" } ] } ] ],
+  "ct_floating_calline-loot" : [ [0, { "fill" : [ { "item" : "ct_floating_calline_egg" } ] } ] ],
+  "ct_miazmur-loot" : [ [0, { "fill" : [ { "item" : "ct_miazmur_egg" } ] } ] ],
 
   // Hunting Loot
   // added in 2.3.4b
@@ -23,11 +23,11 @@
   "ct_alta_jelly-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_alta_scab-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "titaniumbar", 1 ] } ] } ] ],
   "ct_ariling-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
-  "ct_baratoad-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
+  "ct_baratoad-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ],
   "ct_bishyn_tortoise-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "crystal", 2 ] } ] } ] ],
   "ct_boki-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "silkfibre", 2 ] } ] } ] ],
   "ct_eds_scab-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_eds_armor", 1 ] } ] } ] ],
-  "ct_eeriss-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
+  "ct_eeriss-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ],
   "ct_floater-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_floating_calline-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "crystalplant", 1 ] } ] } ] ],
   "ct_glow_tortoise-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_bionid", 1 ] } ] } ] ],
@@ -37,8 +37,8 @@
   "ct_in_jelly-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_ion_tortoise-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_enterite", 1 ] } ] } ] ],
   "ct_isogloop-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_isoslime", 2 ] } ] } ] ],
-  "ct_koyscream-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
-  "ct_kudok_squid-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
+  "ct_koyscream-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ],
+  "ct_kudok_squid-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ],
   "ct_miazmur-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_ceternia_core", 1 ] } ] } ] ],
   "ct_mini_pinky-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "greenslime", 2 ] } ] } ] ],
   "ct_mini_poi-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "greenslime", 2 ] } ] } ] ],
@@ -47,9 +47,9 @@
   "ct_nia_squid_plasma-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_nia_squid_stardust-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_plasma_nibbler-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "ct_alternia_shard", 1 ] } ] } ] ],
-  "ct_riverside_crab-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ],
+  "ct_riverside_crab-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ],
   "ct_warped_bug-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_warped_spider-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
   "ct_warped_worm-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "glowfibre", 2 ] } ] } ] ],
-  "ct_yaafrog-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "biosample", 2 ] } ] } ] ]
+  "ct_yaafrog-hunt" : [ [ 0, { "pool" : [ { "weight" : 1.0, "item" : [ "cellmatter", 2 ] } ] } ] ]
 }

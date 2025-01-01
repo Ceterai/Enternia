@@ -1,0 +1,54 @@
+{
+  "itemName" : "ct_alta_grappler",
+  "shortdescription" : "Alta Grappler",
+  "description" : "Oh my god, whee! This is so fun!",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "objectImage" : "body.png",
+  "inventoryIcon" : "icon.png",
+  
+  "maxStack" : 1,
+  "fireTime" : 0,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "default.animation",
+
+  "fireOffset" : [0, 0.3],
+  "ropeOffset" : [-1.75, 0.3],
+  "ropeVisualOffset" : [0.75, 0.3],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "grapplehook",
+  "projectileParameters" : {
+    "speed" : 100,
+    "timeToLive" : 0.35
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [120, 80, 30, 255],
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 50,
+  "breakLength" : 60,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 15,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2,
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png",
+    "shortdescription" : "Energy Grappler ^#8020f0;^reset;",
+    "reelOutLength" : 60,
+    "reelSpeed" : 18
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_alta_illuminator",
+  "shortdescription" : "Alta Illuminator",
+  "description" : "A pretty powerful flashlight.",
+
+  "level" : 6, "price" : 240, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "maxStack" : 1,
+
+  "image" : "body.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [255, 255, 255],
+  "beamLevel" : 5,
+  "beamAmbience" : 1.0,
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

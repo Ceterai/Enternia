@@ -2,21 +2,7 @@
   "objectName" : "ct_alta_datacenter",
   "colonyTags" : [ "crafting", "hevika" ],
   "category" : "crafting",
-  "level" : 1, "rarity" : "Legendary", "price" : 1600,
-  "race" : "alta",
-
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/objects/alta/crafting/datacenter/ui/ui.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : " Alta Datacenter",
-        "subtitle" : " For storing alta information, documents, codexes and datamass.",
-        "icon" : { "file" : "/objects/alta/crafting/datacenter/ui/icon.png" }
-      }
-    },
-    "filter" : [ "alta_codex" ]
-  },
+  "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Datacenter^reset;",
   "description" : "An ultimate ^#b0e0fc;alta^reset; database. Used for storing ^#b0e0fc;alta^reset; information, documents, codexes and datamasses in ^#0050c0;hevika^reset; crystals.",
@@ -32,13 +18,38 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    {
-      "dualImage" : "body.png",
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "collision" : "platform"
-    }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
   ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_codex" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Alta Datacenter", "subtitle" : " For storing alta information, documents, codexes and datamass." },
+      "tab1" : { "file" : "/items/active/alta/scanner/icon.png" },
+      "tab2" : { "file" : "/items/generic/crafting/alta/datamass.png" },
+      "tab3" : { "file" : "/codex/alta/paper/short.png" },
+      "tab4" : { "file" : "/codex/alta/ebook/basic.png" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [175, 37], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "datacenter" ] }
+        },
+        {
+          "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "datamass" ] }
+        },
+        {
+          "position" : [45, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "document", "card" ] }
+        },
+        {
+          "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "book" ] }
+        }
+      ] }
+    }
+  },
 
   "builder" : "/items/buildscripts/alta/object.lua"
 }

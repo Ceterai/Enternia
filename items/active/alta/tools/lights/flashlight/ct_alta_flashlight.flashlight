@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_flashlight",
+  "shortdescription" : "Alta Flashlight",
+  "description" : "A handy flashlight!",
+
+  "level" : 3, "price" : 40, "race" : "alta",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "maxStack" : 1,
+
+  "image" : "body.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [220, 220, 220],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4,
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "image" : "body_upg.png",
+    "shortdescription" : "Enhanced Flashlight ^#8020f0;^reset;",
+    "beamLevel" : 5,
+    "lightColor" : [220, 255, 220]
+  }
+}

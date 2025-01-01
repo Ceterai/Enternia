@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_haven_tiller",
+  "shortdescription" : "Haven Tiller",
+  "description" : "An advanced tool to till soil. The tilled soil can then be used to grow all sorts of crops!",
+
+  "level" : 5, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : true,
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "image" : "body.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.20,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops" ],
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

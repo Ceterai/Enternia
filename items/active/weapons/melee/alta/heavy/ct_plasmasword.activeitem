@@ -29,12 +29,12 @@
     "particleEmitters" : {
       "bladeCharge" : { "active" : false, "transformationGroups" : ["weapon"], "emissionRate" : 30, "offsetRegion" : [-0.625, 0.0, 0.375, 2.5],
         "particles" : [
-          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
-          "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
-          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
-          "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
-          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[0,10.0],
-          "finalVelocity":[0,10.0],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}}
+          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[ 0.0,10.0 ],
+          "finalVelocity":[ 0.0,10.0 ],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
+          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[ 0.0,10.0 ],
+          "finalVelocity":[ 0.0,10.0 ],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}},
+          {"particle":{"type":"ember","size":1.5,"color":[32,128,240,230],"fade":0.9,"position":[0.0,0.0],"offsetRegion":[0,0,0,0],"initialVelocity":[ 0.0,10.0 ],
+          "finalVelocity":[ 0.0,10.0 ],"destructionAction":"shrink","destructionTime":0.1,"approach":[0,10],"timeToLive":0.2,"variance":{"initialVelocity":[0,1.0]}}}
         ]
       }
     }
@@ -60,9 +60,9 @@
       "preslash1" : { "duration" : 0.05, "armRotation" : 55, "weaponRotation" : -45, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
       "fire1" : { "duration" : 0.25, "armRotation" : -45, "weaponRotation" : -55, "twoHanded" : true, "allowRotate" : false, "allowFlip" : false },
       "wait1" : { "duration" : 0.2, "armRotation" : -45, "weaponRotation" : -55, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
-      "windup2" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
-      "fire2" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
-      "wait2" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
+      "windup2" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [ 0.0, 1.1 ], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+      "fire2" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [ 0.0, 1.1 ], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false },
+      "wait2" : { "duration" : 0.2, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [ 0.0, 1.1 ], "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
       "windup3" : { "duration" : 0.25, "armRotation" : -150, "weaponRotation" : 55, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
       "fire3" : { "duration" : 0.2, "armRotation" : 0, "weaponRotation" : -90, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
       "wait3" : { "duration" : 0.2, "armRotation" : -15, "weaponRotation" : -85, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
@@ -98,8 +98,8 @@
       ],
       "stances" : {
         "wait4" : { "duration" : 0.2, "armRotation" : 15, "weaponRotation" : -15, "allowRotate" : true, "allowFlip" : true, "twoHanded" : true },
-        "windup5" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
-        "fire5" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [0, 1.1], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false }
+        "windup5" : { "duration" : 0.25, "armRotation" : -15, "weaponRotation" : -60, "weaponOffset" : [ 0.0, 1.1 ], "twoHanded" : true, "allowFlip" : true, "allowRotate" : true },
+        "fire5" : { "duration" : 0.3, "armRotation" : -150, "weaponRotation" : 55, "weaponOffset" : [ 0.0, 1.1 ], "twoHanded" : true, "allowFlip" : true, "allowRotate" : false }
       }
     },
     "altAbility" : { "name" : "Enhanced Energy Aura", "description" : "Hold to create an Enhanced Energy Aura." }

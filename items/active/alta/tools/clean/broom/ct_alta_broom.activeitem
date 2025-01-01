@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_alta_broom",
+  "shortdescription" : "Alta Broom",
+  "description" : "The most useful of sweeping tools.",
+
+  "price" : 40, "race" : "alta",
+  "itemTags" : [ "sanitary" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "twoHanded" : true,
+
+  "animationParts" : { "broom" : "body.png" },
+  "animation" : "default.animation",
+  "scripts" : ["/items/active/unsorted/broom/broom.lua"],
+  "scriptDelta" : 3,
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

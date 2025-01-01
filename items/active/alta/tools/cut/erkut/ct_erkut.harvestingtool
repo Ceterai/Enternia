@@ -1,0 +1,26 @@
+{
+  "itemName" : "ct_erkut",
+  "shortdescription" : "Erkut R300",
+  "description" : "Truly a lumbering craft one of a kind. Neiteru production.",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:idle",
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "image" : "body.png:{frame}",
+  "frames" : 5,
+  "animationCycle" : 0.5,
+
+  "handPosition" : [-6, 3],
+  "fireTime" : 0.15,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "idleSound" : "/sfx/tools/chainsaw_idle.ogg",
+  "strikeSounds" : [ "/sfx/tools/chainsaw_swing.ogg" ],
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

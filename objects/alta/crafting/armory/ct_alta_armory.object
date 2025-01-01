@@ -1,0 +1,56 @@
+{
+  "objectName" : "ct_alta_armory",
+  "colonyTags" : [ "crafting" ],
+  "category" : "crafting",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Armory^reset;",
+  "description" : "An alta sewing machine with additional functionality.",
+  "longdescription" : "Can create folded seams and protects the operator from the needle.",
+  "altaDescription" : "I can make cloth and clothing here.",
+
+  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
+  "avianDescription" : "A giant electronic library!",
+  "floranDescription" : "Floran can make equipment for wiring thingsss.",
+  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
+  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
+  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
+  "novakidDescription" : "A workstation for all things wirin' related.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_clothing" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Alta Energy Station", "subtitle" : " For sewing things together." },
+      "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab2" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab4" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [175, 37], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "energy" ] }
+        },
+        {
+          "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "ai" ] }
+        },
+        {
+          "position" : [45, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "head_devices", "back_devices" ] }
+        },
+        {
+          "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "shielders" ] }
+        }
+      ] }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

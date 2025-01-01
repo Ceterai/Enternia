@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_erkut", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l6m", "alta_max", "tool", "tools", "dendrarium_tools", "all", "mod" ]
+}

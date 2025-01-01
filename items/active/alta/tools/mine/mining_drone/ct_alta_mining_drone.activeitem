@@ -1,0 +1,44 @@
+{
+  "itemName" : "ct_alta_mining_drone",
+  "shortdescription" : "Alta Mining Drone",
+  "description" : "A disposable, mechanical owl that will fly in a direction and dig a tunnel when thrown.",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "mining" ],
+  "category" : "drone", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+
+  "animation" : "miningdrone.animation",
+  "animationParts" : {
+    "drone" : "body.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["miningdrone.lua"],
+  "animationScripts" : ["/items/active/unsorted/miningdrone/arrow.lua"],
+
+  "fireOffset" : [0.0, 0.0],
+  "cooldownTime" : 0.6,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : 70,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "throw" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 0,
+      "allowRotate" : true,
+      "allowFlip" : true
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_alta_fossil_cleaner",
+  "shortdescription" : "Fossil Cleaner",
+  "description" : "Can be used once to excavate a fossil, with heightened success.",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : ["fossilbrush"],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "maxStack" : 100,
+  "objectImage" : "body.png",
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/fossil/fossilbrush.animation",
+  "animationParts" : { "brush" : "body.png" },
+  "scripts" : ["/items/active/alta/tools/brushes/brush.lua"],
+  "scriptDelta" : 2,
+  "toolType" : "student",
+  "sweepArmAngle" : -1.25,
+  "sweepBrushAngle" : -0.2,
+  "ammoUsage" : 0,
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

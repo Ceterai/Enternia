@@ -1,0 +1,77 @@
+{
+  "itemName" : "ct_alta_quick_builder",
+  "shortdescription" : "Alta Quick Builder",
+  "description" : "Intended for sending instects to sleep. Can be used instead of a bug net.\nCharge: 200 blocks.",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "upgradeableWeapon" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:0",
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : { "bow" : "body.png" },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [1.0, -0.25]
+    }}}},
+    "sounds" : {
+      "draw" : [ ],
+      "release" : [ "/sfx/gun/pumpgun_blast1.ogg", "/sfx/gun/pumpgun_blast2.ogg", "/sfx/gun/pumpgun_blast3.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/pumpgun_blast1.ogg", "/sfx/gun/pumpgun_blast2.ogg", "/sfx/gun/pumpgun_blast3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "durability" : 200.0,
+  "durabilityLabel" : "Charge: %s blocks.",
+  "durabilityPerUse" : 1,
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "scripts" : [ "/items/active/alta/tools/durability.lua" ],
+    "class" : "LimitedShot",
+    "fireOffset" : [2.5, 0.25],
+
+    "energyPerShot" : 45,
+
+    "cooldownTime" : 0.35,
+    "inaccuracy" : 0.01,
+
+    "drawFrameSelector" : "pollenpumpImageSelector",
+    "drawPowerMultiplier" : "pollenpumpPowerMultiplier",
+    "drawSpeedMultiplier" : "pollenpumpTimeMultiplier",
+
+    "projectileType" : "throwingblock",
+    "powerProjectileType" : "throwingblock",
+    "powerProjectileTime" : [1.0, 0],
+    "projectileParameters" : {
+    },
+
+    "drawArmFrames" : ["swim.2", "swim.2", "swimIdle.1"],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -15
+      },
+      "fire" : {
+        "duration" : 0.3,
+
+        "frontArmFrame" : "swim.2"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png:0", "animationParts" : { "bow" : "body_upg.png" },
+    "shortdescription" : "Enhanced Builder ^#8020f0;^reset;",
+    "primaryAbility" : { "cooldownTime" : 0.1 },
+    "durability" : 200.0,
+    "durabilityHit" : null,
+    "durabilityLabel" : "",
+    "durabilityPerUse" : 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_entersphere",
+  "shortdescription" : "^#8020f0;Enter^reset;-Sphere",
+  "description" : "Provides powerful discarges of ^#8020f0;enternia^reset; energy.",
+  "longdescription" : "Unlike other ^#b0e0fc;alta^reset; spheres, these can be quite chaotic in their nature and are often used for proto-overloads, rechargers and overlocks.\n\n**Proto-Overloads** are special alta fuze systems that are often used in alta combat tools and high-capacity facilities.\n\n**Overlocks** are power limiters and find most uses in some alta mechs.",
+  "altaDescription" : "One of a few enternia-filled things that isn't trying to get into your head. Still, better be cautious. I wonder how ^#8020f0;dreamers^reset; can have so many of these on them and stay conscious.",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "reagent", "energy_source", "ionic", "enternia" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "entersphere.png",
+  "radioMessagesOnPickup" : [ "ct_sphere_msg" ],
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : {
+    "aliases" : { "Proto-Overload" : { "icon" : "none" }, "Overlock" : { } },
+    "md" : {
+      "You can read more about this catalyst here: **[Ceterai's Set - Enter-Sphere](https://www.hiveworkshop.com/threads/ceterais-set.351976/)**" : "<table><thead><tr><td width=96>\n\n![ ](https://www.hiveworkshop.com/data/ratory-images/272/272292-377efc0ed3ae8dcf1658d34f32d3dc33.png)\n</td><td>\n\n**Enter-Sphere**<br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/alta/altersphere.png) <span style=\"color:#2C82C9\"><span style=\"font-weight:bold\">Memories:</span> An electric anomaly, waiting for something to happen.</span><br>![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/generic/crafting/alta/entersphere.png) <span style=\"color:#9365B8\"><span style=\"font-weight:bold\">Dreams:</span> Vague memories of things that happened someplace else. Strange, yet familiar. What are you?</span></td></tr></thead></table>"
+    }
+  },
+  "alkey" : "Enter-Faa"
+}

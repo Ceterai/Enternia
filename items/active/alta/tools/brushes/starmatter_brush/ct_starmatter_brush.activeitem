@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_starmatter_brush",
+  "shortdescription" : "Starmatter Brush",
+  "description" : "Can be used once to excavate a fossil, with heightened success.",
+
+  "level" : 7, "price" : 20, "race" : "alta",
+  "itemTags" : ["fossilbrush"],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "maxStack" : 100,
+  "objectImage" : "body.png",
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/fossil/fossilbrush.animation",
+  "animationParts" : { "brush" : "body.png" },
+  "scripts" : ["/items/active/fossil/fossilbrush.lua"],
+  "scriptDelta" : 2,
+  "toolType" : "master",
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

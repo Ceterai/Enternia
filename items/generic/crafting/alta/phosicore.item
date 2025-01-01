@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_phosicore",
+  "shortdescription" : "Phosicore",
+  "description" : "A small energy concentrator made from irradiated ^#ceffd7;phospholion^reset;. Its phosic waves can produce energy blasts.",
+  "longdescription" : "This high-capacity adaptive device can also convert energy into certain states or chemical reactions, like ^#f08020;fire^reset;, ^#80f0f0;ice^reset; and ^#80f020;poison^reset;.",
+  "altaDescription" : "A compact phosigir, that can convert nia into different states.",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "reagent", "energy_source", "phospholion", "core" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "phosicore.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Phosigir" : { }, "Alta Phosigir" : { } } }, "alkey" : "Phosigir"
+}

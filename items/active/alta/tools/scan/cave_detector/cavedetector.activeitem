@@ -1,0 +1,41 @@
+{
+  "itemName" : "ct_alta_cave_detector",
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "Emits pulses to plot the density of nearby materials.",
+  "shortdescription" : "Cave Detector",
+  "twoHanded" : false,
+  "category" : "Tool",
+  "itemTags" : ["tool"],
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "animation" : "/items/active/unsorted/oredetector/oredetector.animation",
+  "animationParts" : {
+    "detector" : "body.png",
+    "detectorfullbright" : "lit.png"
+  },
+  "animationCustom" : {},
+
+  "animationScripts" : ["/items/active/effects/detector.lua"],
+  "animationDelta" : 5,
+
+  "scripts" : ["/items/active/unsorted/oredetector/oredetector.lua"],
+  "scriptDelta" : 1,
+
+  "pingDetectConfig" : {
+    "type" : "cave",
+    "image" : "/items/active/unsorted/oredetector/detectnoise.png:<variant>",
+    "variants" : 4,
+    "colors" : {
+      "empty" : [30, 30, 255, 255],
+      "solid" : [120, 120, 160, 50]
+    }
+  },
+
+  "pingRange" : 30,
+  "pingBandWidth" : 12,
+  "pingDuration" : 2.5,
+  "pingCooldown" : 1.0
+}
