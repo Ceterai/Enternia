@@ -8,7 +8,7 @@ COMMIT_LOG = base.os.path.join(base.RELEASE, 'commit.txt')
 MESSAGE_LOG = base.os.path.join(base.RELEASE, 'info.txt')
 
 TITLE_REGEX = r'## Update [0-9].[0-9]+ - ([^\n]+)'
-VERSION_REGEX = r'### ([0-9]\.[0-9]\.[0-9][a-z]?)'
+VERSION_REGEX = r'### ([0-9]\.[0-9]\.[0-9][a-z]?(\.[a-z]+)?)'
 SUBTITLE_REGEX = r'\*\*([A-Za-z0-9\s]+)\:\*\*'
 
 MESSAGE = """- GitHub direct download links:
