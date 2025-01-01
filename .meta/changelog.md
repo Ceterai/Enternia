@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4d.fix](#234dfix)
     - [2.3.4d](#234d)
     - [2.3.4c](#234c)
     - [2.3.4b](#234b)
@@ -61,6 +62,10 @@ If you want to see more detailed changes, you can always navigate to the [commit
 </details>
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
+
+### 2.3.4d.fix
+
+A patch to fix OSB error messages for WIP food items.
 
 ### 2.3.4d
 
