@@ -1,35 +1,3 @@
-Update 2.3.4d
+Update 2.3.4d.fix
 
-A patch with minor fixes to loot chances and with some WIP additions.
-
-Main:
-
-- reverted loot table system for alta pods to make sure high tiers can spawn again;
-- bug fixes.
-
-Alta:
-
-- added experimental tools which aren't available through normal gameplay yet;
-- added experimental crafting tables which aren't available through normal gameplay yet.
-
-Critters:
-
-- added hunting loot to all remaining critters.
-
-Translation:
-
-- moved some alta crafting materials to `/items/generic/crafting/alta/` and renamed them slightly to match a common pattern;
-- minor grammar fixes;
-- added tools, tables & materials are WIP and don't need to be translated just yet.
-
-Dev:
-
-- small projectile changes;
-- made it so regular items can't have ability tooltips;
-- made it so critters no longer explode when they get captured with a bug net.
-
-Other:
-
-- fixed projectiles on more weapons;
-- fixed a tiny melee combo compatability issue with FU;
-- minor bug fixes.
+A patch to fix OSB error messages for WIP food items.
