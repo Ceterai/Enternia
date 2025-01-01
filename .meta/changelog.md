@@ -71,6 +71,8 @@ A patch to fix OSB error messages for WIP food items.
 
 A patch with minor fixes to loot chances and with some WIP additions.
 
+> Detailed changes for this version: [Update 2.3.4d](https://github.com/Ceterai/Enternia/commit/7a6a1c6ec824c700cfec79c43730f9290406ea7c)
+
 **Main:**
 
 - reverted loot table system for alta pods to make sure high tiers can spawn again;
