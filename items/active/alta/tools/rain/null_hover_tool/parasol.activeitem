@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_alta_null_hover_tool",
+  "shortdescription" : "Alta Umbrella",
+  "description" : "Open to gently float while falling. It's bad luck to open inside the house.",
+
+  "level" : 6, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/alta/tools/rain/default.animation",
+  "animationParts" : { "parasol" : "body.png" },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/unsorted/parasol/parasol.lua"],
+
+  "idleRotation" : -45,
+  "activeRotation" : 65,
+  "switchTime" : 0.3,
+  "fallingParameters" : {
+    "airForce" : 30,
+    "runSpeed" : 14,
+    "walkSpeed" : 14
+  },
+  "maxFallSpeed" : -14,
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

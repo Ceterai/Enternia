@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_paper_plane",
+  "rarity" : "Common",
+  "price" : 400,
+  "category" : "throwableItem",
+  "inventoryIcon" : "paperplane.png",
+  "image" : "paperplane.png",
+  "shortdescription" : "Paper Plane",
+  "description" : "A small plane made out of ayaka paper. Just don't be too wasteful!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "paperplane",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_bucket",
+  "shortdescription" : "Alta Bucket",
+  "description" : "A simple ayaka bucket to water your crops in bulk. Make sure you have a drain.",
+
+  "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "twoHanded" : true,
+
+  "animation" : "/items/active/unsorted/wateringcan/wateringcan.animation",
+  "animationParts" : { "wateringcan" : "body.png" },
+  "scripts" : ["/items/active/unsorted/wateringcan/wateringcan.lua"],
+
+  "waterTime" : 0.5,
+  "waterAngle" : 5,
+  "cooldownTime" : 3,
+  "projectileRate" : 1.75,
+  "projectileInaccuracy" : 0.3,
+  "projectileType" : "water",
+  "projectileParameters" : {
+    "speed" : 5,
+    "power" : 0,
+    "timeToLive" : 5,
+    "color" : [10, 255, 10]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

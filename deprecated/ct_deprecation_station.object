@@ -5,20 +5,6 @@
   "level" : 1, "rarity" : "Legendary", "price" : 1250,
   "race" : "generic",
 
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/objects/alta/crafting/deprecation_station/default.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : " Deprecation Station",
-        "subtitle" : " Get rewards for deprecated or lost items from Enternia mod",
-        "icon" : {
-          "file" : "/objects/alta/crafting/deprecation_station/interface.png"
-        }
-      }
-    },
-    "filter" : [ "ct_alta_upg1" ]
-  },
   "description" : "Get rewards for deprecated or lost items from Enternia mod.",
   "shortdescription" : "^orange;Deprecation Station^reset;",
 
@@ -30,10 +16,10 @@
   "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
   "novakidDescription" : "A workstation for all things wirin' related.",
 
-  "inventoryIcon" : "/objects/alta/crafting/deprecation_station/icon.png",
+  "inventoryIcon" : "/objects/alta/crafting/aquarium/icon.png",
   "orientations" : [
     {
-      "dualImage" : "/objects/alta/crafting/deprecation_station/body.png",
+      "dualImage" : "/objects/alta/crafting/aquarium/body.png",
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
 

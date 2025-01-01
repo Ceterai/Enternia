@@ -1,0 +1,20 @@
+{
+  "itemName" : "ct_alta_hoe",
+  "shortdescription" : "Alta Hoe",
+  "description" : "A simple tool to till soil. Not very accurate. The tilled soil can then be used to grow all sorts of crops!",
+
+  "level" : 1, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : false,
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "image" : "body.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.35,
+  "blockRadius" : 5,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops" ],
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

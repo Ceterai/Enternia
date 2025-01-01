@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_isowire",
+  "shortdescription" : "Isowire",
+  "description" : "Isolated alta wires - simple, but effective both for isolating (not conducting) electricity and providing support.",
+  "longdescription" : "Made almost entirely from separate parts of an ayaka tree, it utilizes its strands, sap and strong cell matter as means to conduct electricity, even if relatively poorly.",
+  "altaDescription" : "The simplest you can get, yet essential if you have no other means to transfer energy.",
+
+  "race" : "alta",
+  "itemTags" : [ "reagent", "electronic" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "isowire.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "wiki" : { "aliases" : { "Alta Wire" : { }, "Isolated Wire" : { }, "Ionic Wire" : { } } }, "alkey" : "Izolyar"
+}

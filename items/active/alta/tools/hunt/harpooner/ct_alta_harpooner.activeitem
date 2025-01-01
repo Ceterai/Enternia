@@ -1,0 +1,69 @@
+{
+  "itemName" : "ct_alta_harpooner",
+  "shortdescription" : "Alta Harpooner",
+  "description" : "A special squid capturing device with electric neutralizers - to defeat, but not over-defeat.",
+
+  "level" : 3, "race" : "alta",
+  "category" : "bow", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:0",
+  "maxStack" : 1,
+  "itemTags" : [ "weapon", "ranged", "upgradeableWeapon" ],
+
+  "handGrip" : "wrap",
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : { "bow" : "body.png" },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.75, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "walkWhileFiring" : true,
+
+    "fireOffset" : [1.75, 0],
+
+    "energyPerShot" : 40,
+
+    "cooldownTime" : 0.25,
+    "inaccuracy" : 0.01,
+
+    "drawFrameSelector" : "bowImageSelector",
+
+    "drawPowerMultiplier" : "drawTimeMultiplier",
+    "drawSpeedMultiplier" : "drawTimeMultiplier",
+
+    "drawArmFrames" : ["rotation", "rotation", "rotation", "rotation", "rotation"],
+
+    "projectileType" : "harpoon",
+    "powerProjectileType" : "chargedharpoon",
+    "powerProjectileTime" : [0.9, 1.1],
+    "projectileParameters" : {
+      "speed" : 80,
+      "power" : 6.5
+    },
+
+    "stances" : {
+      "fire" : {
+        "frontArmFrame" : "rotation"
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png:0", "animationParts" : { "bow" : "body_upg.png" },
+    "shortdescription" : "Harp-M ^#8020f0;^reset;"
+  }
+}

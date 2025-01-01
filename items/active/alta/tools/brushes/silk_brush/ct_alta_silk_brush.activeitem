@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_alta_silk_brush",
+  "shortdescription" : "Silk Brush",
+  "description" : "Can be used once to excavate a fossil, with moderate success.",
+
+  "level" : 4, "price" : 20, "race" : "alta",
+  "itemTags" : ["fossilbrush"],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "maxStack" : 100,
+  "objectImage" : "body.png",
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "/items/active/fossil/fossilbrush.animation",
+  "animationParts" : { "brush" : "body.png" },
+  "scripts" : ["/items/active/fossil/fossilbrush.lua"],
+  "scriptDelta" : 2,
+  "toolType" : "student",
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

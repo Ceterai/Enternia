@@ -1,0 +1,19 @@
+{
+  "itemName" : "ct_altan",
+
+  // Item lore. Should be translated.
+  "shortdescription" : "Altan Compound",
+  "description" : "The most common alta metal out there - altan. Fairly light, bendable and sturdy - with thin titanium layering protectiong your body.",
+  "longdescription" : "A cloth layer makes this easy to contact with the skin.",
+  "altaDescription" : "This is what gives you that alta shine!",
+
+  // Item params - no translation required.
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "reagent", "cloth", "armor", "compound", "titanium", "altan" ],
+  "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
+  "inventoryIcon" : "altan.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  // Lore and Wiki-related parameters that shouldn't be translated.
+  "wiki" : { "aliases" : { "Alta Metal" : { }, "Alta Titanium" : { } } }, "alkey" : "Altan"
+}

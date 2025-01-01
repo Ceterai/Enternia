@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_celestial_rod",
+  "shortdescription" : "Celestial Rod",
+  "description" : "A perfect rod impervient to any liquids, full of celestial power. Even its default lure glows in the dark.",
+
+  "level" : 8, "race" : "alta",
+  "category" : "fishingRod", "tooltipKind" : "fishingrod",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/fishingrod/fishingrod.animation",
+  "animationParts" : { "fishingrod" : "body.png" },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/fishingrod/fishingrod.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [200, 150, 250, 100],
+  "ropeFlashColor" : [220, 200, 250, 200],
+
+  "corrodeLiquidIds" : [],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : true,
+
+  "lureType" : "light",
+  "lureName" : "Illuminated Lure",
+  "lureIcon" : "/items/augments/fishing/lurelight.png",
+  "lureProjectile" : "fishinglurelight",
+
+  "reelType" : "ct_celestial_vortex",
+  "reelName" : "Celestial Vortex",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 60,
+    "lineBreakMargin" : 12,
+    "reelSpeed" : 15,
+    "lineBreakTime" : 1.0
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.25,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/rod.lua"
+}

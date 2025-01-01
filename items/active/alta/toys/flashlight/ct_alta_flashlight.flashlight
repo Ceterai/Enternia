@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_alta_toy_flashlight",
+  "shortdescription" : "Flashlight",
+  "description" : "A handy flashlight!",
+
+  "level" : 3, "price" : 40, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+
+  "image" : "body.png",
+  "handPosition" : [-2, 0],
+  "lightPosition" : [4, 0],
+  "lightColor" : [220, 220, 220],
+  "beamLevel" : 5,
+  "beamAmbience" : 0.4
+}

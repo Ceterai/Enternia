@@ -1,0 +1,44 @@
+{
+  "itemName" : "ct_alta_power_drill",
+  "shortdescription" : "Alta Powerdrill",
+  "description" : "Drills fast but breaks quickly. A temporary alternative to the matter manipulator.",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "mining" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:0",
+  "twoHanded" : true,
+  "maxStack" : 1,
+
+  "image" : "body.png:{frame}",
+  "frames" : 5,
+  "animationCycle" : 0.1,
+  "handPosition" : [-8, 1],
+  "pointable" : true,
+  "swingStart" : 0,
+  "swingFinish" : 0,
+  "fireTime" : 0.1,
+  "blockRadius" : 2,
+  "altBlockRadius" : 1,
+  "idleSound" : "/sfx/tools/chainsaw_idle.ogg",
+  "strikeSounds" : [ "/sfx/tools/drill_hit.ogg" ],
+  "breakSound" : "/sfx/tools/pickaxe_break.ogg",
+  "durability" : 1200,
+  "durabilityPerUse" : 1,
+  "tileDamage" : 3.0,
+  "harvestLevel" : 99,
+  "tileDamageBlunted" : 0.2,
+
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png:0", "image" : "body_upg.png:{frame}",
+    "shortdescription" : "A-Zych RX ^#8020f0;^reset;",
+    "blockRadius" : 3,
+    "tileDamage" : 5.0,
+    "durability" : 1200,
+    "durabilityHit" : null,
+    "durabilityPerUse" : 0
+  }
+}

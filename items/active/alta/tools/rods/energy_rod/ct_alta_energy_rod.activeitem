@@ -1,0 +1,78 @@
+{
+  "itemName" : "ct_alta_energy_rod",
+  "shortdescription" : "Energy Rod",
+  "description" : "The rod line is protected with a layer of an energy field protecting it, fit for extreme environments.",
+
+  "level" : 6, "race" : "alta",
+  "category" : "fishingRod", "tooltipKind" : "fishingrod",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "/items/active/fishingrod/fishingrod.animation",
+  "animationParts" : { "fishingrod" : "body.png" },
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+  "scripts" : ["/items/active/fishingrod/fishingrod.lua"],
+
+  "ropeWidth" : 0.5,
+  "ropeColor" : [200, 150, 250, 100],
+  "ropeFlashColor" : [220, 200, 250, 200],
+
+  "corrodeLiquidIds" : [],
+  "corrodeParticle" : "poisonswoosh2",
+
+  "burnLiquidIds" : [8],
+  "burnParticle" : "fireswoosh1",
+
+  "usesFishingUpgrades" : true,
+
+  "lureType" : "basic",
+  "lureName" : "Basic Lure",
+  "lureIcon" : "/items/augments/fishing/lurebasic.png",
+  "lureProjectile" : "fishinglure",
+
+  "reelType" : "ct_alta_energy_reel",
+  "reelName" : "Energy Reel",
+  "reelIcon" : "/items/augments/fishing/reelbasic.png",
+  "reelParameters" : {
+    "reelOutLength" : 50,
+    "lineBreakMargin" : 11,
+    "reelSpeed" : 12,
+    "lineBreakTime" : 0.8
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -80,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "armRotation" : -80,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "cast" : {
+      "armRotation" : -40,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "reel" : {
+      "armRotation" : -35,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "catch" : {
+      "duration" : 0.25,
+      "transition" : "idle",
+      "armRotation" : -30,
+      "twoHanded" : true,
+      "allowRotate" : false,
+      "allowFlip" : false
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/rod.lua"
+}

@@ -1,0 +1,76 @@
+{
+  "objectName" : "ct_alta_tailor",
+  "colonyTags" : [ "crafting" ],
+  "category" : "crafting",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Tailor^reset;",
+  "description" : "An alta sewing machine with additional functionality.",
+  "longdescription" : "Can create folded seams and protects the operator from the needle.",
+  "altaDescription" : "I can make cloth and clothing here.",
+
+  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
+  "avianDescription" : "A giant electronic library!",
+  "floranDescription" : "Floran can make equipment for wiring thingsss.",
+  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
+  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
+  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
+  "novakidDescription" : "A workstation for all things wirin' related.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui8.config", "filter" : [ "alta_clothing" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Alta Tailor", "subtitle" : " For sewing things together." },
+      "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab2" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab4" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab5" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab6" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab7" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab8" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [175, 37], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "cloth" ] }
+        },
+        {
+          "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "dyes" ] }
+        },
+        {
+          "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "head" ] }
+        },
+        {
+          "position" : [45, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "body" ] }
+        },
+        {
+          "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "legs" ] }
+        },
+        {
+          "position" : [99, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "back" ] }
+        },
+        {
+          "position" : [99, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "toys" ] }
+        },
+        {
+          "position" : [99, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "plushies" ] }
+        }
+      ] }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

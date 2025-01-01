@@ -1,0 +1,26 @@
+{
+  "projectileName" : "ct_slime_spray",
+  "image" : "slime.png",
+  "animationCycle" : 0.15,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "physics" : "stickybomb",
+  "pointLight" : false,
+  "timeToLive" : 4,
+  "bounces" : -1,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/footstep_mud.ogg" ]
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 60,
+  "lightColor" : [0, 0, 0],
+  "damageType" : "NoDamage",
+  "damageKind" : "plasma",
+  "piercing" : true,
+
+  "persistentStatusEffects" : ["glueslow"],
+  "statusEffectArea" : [ [-1, 0], [-1, -1], [0, -1], [1, -1], [1, 0], [1, 1], [0, 1], [-1, 1] ]
+}

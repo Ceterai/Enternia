@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_relocator", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l5", "alta_t3+", "tool", "tools", "bestiarium_tools", "all", "mod" ]
+}

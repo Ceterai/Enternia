@@ -1,0 +1,110 @@
+{
+  "objectName" : "ct_alta_emergency_bench",
+  "colonyTags" : [ "crafting", "gheatsyn" ],
+  "category" : "crafting",
+  "price" : 400,
+  "race" : "alta",
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "animation" : "default.animation",
+  "animationPosition" : [12, 12],
+  "inventoryIcon" : "icon1.png",
+  "placementImage" : "body1.png",
+  "placementImagePosition" : [0, 0],
+
+  "shortdescription" : "^orange;Alta Emergency Bench^reset;",
+  "description" : "Used to craft basic alta armor and upgrade to a beacon.",
+  "altaDescription" : "This station allows to upgrade equipment using gheatsyn shards.",
+
+  "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
+  "avianDescription" : "A crafting bench made of titanium.",
+  "floranDescription" : "Floran putsss a crystal in - getsss a shiny out.",
+  "glitchDescription" : "Impressed. Simple yet functional, contains unusual instruments.",
+  "humanDescription" : "A crafting table out of a titanium. Do you need to have another workbench just to create this one?",
+  "hylotlDescription" : "The simplicity of its design compliments the simplicity of its functionality.",
+  "novakidDescription" : "Basic lookin' bench.",
+
+  "breakDropOptions" : [], "learnBlueprintsOnPickup" : [], "startingUpgradeStage" : 1, "maxUpgradeStage" : 3,
+
+  "soundEffect" : "/sfx/objects/scififurnace.ogg",
+  "soundEffectRangeMultiplier" : 1.0,
+  "craftingSound" : "/sfx/interface/crafting_furnacetech.ogg",
+  "upgradeStages" : [
+    {
+      "animationState" : "tier0",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon1.png", "placementImage" : "body1.png", "price" : 400,
+        "shortdescription" : "^orange;Emergency Alta Bench^white;",
+        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
+      },
+      "interactData" : {
+        "config" : "/objects/alta/crafting/upgrade_station/default.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Alta Research Station",
+            "subtitle" : " ^#b9b5b2;Simple crafting works to help a stranded alta!",
+            "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon1.png" }
+        } },
+        "filter" : [ "tier0" ], "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "ct_gheatsyn_crystal", "count" : 32 },
+          { "item" : "ct_bion", "count" : 8 },
+          { "item" : "upgrademodule", "count" : 1 }
+        ]
+      },
+      "learnBlueprintsOnPickup" : [], "upgradeSoundEffect" : "fanfare", "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "tier1",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon2.png", "placementImage" : "body2.png", "price" : 600,
+        "shortdescription" : "^orange;Emergency Alta Station^white;",
+        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/upgrade_station/default.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Ultimate Alta Station",
+            "subtitle" : " ^#b9b5b2;Gheatsyn Upgrades",
+            "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon2.png" }
+        } },
+        "filter" : [ "tier0", "tier1" ], "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : []
+    },
+
+    {
+      "animationState" : "tier2",
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "icon2.png", "placementImage" : "body2.png", "price" : 800,
+        "shortdescription" : "^orange;Emergency Alta Beacon^white;",
+        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
+      },
+
+      "interactData" : {
+        "config" : "/objects/alta/crafting/upgrade_station/default.config",
+        "paneLayoutOverride" : { "windowtitle" : {
+            "title" : " Ultimate Alta Station",
+            "subtitle" : " ^#b9b5b2;Gheatsyn Upgrades",
+            "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon2.png" }
+        } },
+        "filter" : [ "tier0", "tier1", "tier2" ], "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "dualImage" : "body1.png",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

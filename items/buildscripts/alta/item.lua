@@ -87,7 +87,7 @@ function buildItem(directory, config, params, level, seed)
 
 
   -- TOOLTIPS --
-  config, params = getTooltips(config, params, level, elementalType, tips)
+  config, params = getTooltips(config, params, level, elementalType, tips, directory)
 
   return config, params
 end
@@ -161,7 +161,7 @@ function getColorChanges(config, parameters, directory, index, preset_swap, swap
 end
 
 
-function getTooltips(config, parameters, level, elementalType, tips)
+function getTooltips(config, parameters, level, elementalType, tips, directory)
   local get = function(key, default) return getValue(key, default, config, parameters) end
   config.tooltipFields = config.tooltipFields or {}
   config.tooltipFields.rarityLabel = tips.rarities[level..""]
@@ -170,70 +170,73 @@ function getTooltips(config, parameters, level, elementalType, tips)
   config.tooltipFields.armorTitleLabel = tips.armor
   config.tooltipFields.toolLabel = tips.tool
   config.tooltipFields.raceLabel = getColored(getTitle(get('race', '')))
+  if get('objectImage') then config.tooltipFields.objectImage = directory..get('objectImage') end
   if elementalType ~= "physical" and elementalType ~= "" then config.tooltipFields.damageKindImage = "/interface/elements/"..elementalType..".png" end
 
-  local abil1 = sb.jsonMerge(config.primaryAbility or config.projectileParameters or {}, parameters.primaryAbility or parameters.projectileParameters or {})
-  local dmg = abil1.power or 0
-  local dps = (abil1.baseDps or get("baseDps", 0)) * (config.damageLevelMultiplier or 1)
-  local rate = (abil1.fireTime or get("fireTime") or get("cooldownTime") or 0.0)
-  if dps == 0 and dmg ~= 0 then dps = dmg * rate * (config.damageLevelMultiplier or 1) end
-  local eps = (abil1.energyUsage or get("energyUsage", 0))
-  local hp = get("baseShieldHealth", 0) * root.evalFunction("shieldLevelMultiplier", level)
-  local cd = parameters.cooldownTime or config.cooldownTime or 0
-  if hp > 0 and cd > 0 then
-    config.tooltipFields.healthTitleLabel = tips.HP
-    config.tooltipFields.healthLabel = util.round(hp, 0)
-    config.tooltipFields.energyTitleLabel = tips.EPS
-    config.tooltipFields.energyLabel = util.round(eps, 1)
-    config.tooltipFields.cooldownTitleLabel = tips.CD
-    config.tooltipFields.cooldownLabel = parameters.cooldownTime or config.cooldownTime
-    config.tooltipFields.knockbackTitleLabel = tips.KB
-    config.tooltipFields.knockbackLabel = get("knockback", 0)
-    config.tooltipFields.minTimeTitleLabel = tips.MT
-    config.tooltipFields.minTimeLabel = get("minActiveTime", 0)
-    config.tooltipFields.perfectTimeTitleLabel = tips.PT
-    config.tooltipFields.perfectTimeLabel = get("perfectBlockTime", 0)
-    -- config.tooltipFields.heavyTitleLabel = tips.HV
-    -- config.tooltipFields.heavyLabel = (get("forceWalk", false) and tips.HY or tips.HN)
-  elseif dps > 0 or rate > 0 then
-    config.tooltipFields.dpsTitleLabel = tips.DPS
-    config.tooltipFields.dpsLabel = util.round(dps, 1)
-    config.tooltipFields.fireRateTitleLabel = tips.FSR
-    config.tooltipFields.fireRateLabel = util.round(1 / (rate or 1.0), 1)
-    config.tooltipFields.energyTitleLabel = tips.EPS
-    config.tooltipFields.energyLabel = util.round(eps, 1)
-    config.tooltipFields.damagePerShotTitleLabel = tips.DPC
-    config.tooltipFields.damagePerShotLabel = util.round(dps * (rate or 1.0), 1)
-    config.tooltipFields.energyPerShotTitleLabel = tips.EPC
-    config.tooltipFields.energyPerShotLabel = util.round(eps * (rate or 1.0), 1)
-    config.tooltipFields.damagePerEnergyTitleLabel = tips.DPE
-    config.tooltipFields.damagePerEnergyLabel = util.round(dps / eps, 1)
-  end
-
-  function getAbil(old, abilType, tooltips)
-    local abil = abilType..'Ability'
-    local params = get(abil)
-    if params ~= nil then
-      local name = (params.name or config[abil].name or tooltips.none)
-      local desc = (params.description or config[abil].description or '')
-      if abilType == 'passive' then abil = 'altAbility' end
-      if name then
-        config.tooltipFields[abil..'Label'] = name
-        config.tooltipFields[abil..'TitleLabel'] = tooltips[abilType].title
-        old = appendText(old, getColored(name, 'cyan')..' '..tooltips[abilType].full, '\n\n    ')
-      end
-      if desc then
-        config.tooltipFields[abil..'DescriptionLabel'] = desc
-        old = appendText(old, desc, '\n')
-      end
-    end
-    return old
-  end
-
   local lore = get("description", "")  -- Full description constructor in form of a string variable.
-  lore = getAbil(lore, 'primary', tips)  -- Primary Ability
-  lore = getAbil(lore, 'alt', tips)      -- Special Ability
-  lore = getAbil(lore, 'passive', tips)  -- Passive Ability (currently replaces special in some tootips)
+  if config.tooltipKind ~= 'ct_alta_item' and config.tooltipKind ~= 'ct_alta_item_long' then
+    local abil1 = sb.jsonMerge(config.primaryAbility or config.projectileParameters or {}, parameters.primaryAbility or parameters.projectileParameters or {})
+    local dmg = abil1.power or 0
+    local dps = (abil1.baseDps or get("baseDps", 0)) * (config.damageLevelMultiplier or 1)
+    local rate = (abil1.fireTime or get("fireTime") or get("cooldownTime") or 0.0)
+    if dps == 0 and dmg ~= 0 then dps = dmg * rate * (config.damageLevelMultiplier or 1) end
+    local eps = (abil1.energyUsage or get("energyUsage", 0))
+    local hp = get("baseShieldHealth", 0) * root.evalFunction("shieldLevelMultiplier", level)
+    local cd = parameters.cooldownTime or config.cooldownTime or 0
+    if hp > 0 and cd > 0 then
+      config.tooltipFields.healthTitleLabel = tips.HP
+      config.tooltipFields.healthLabel = util.round(hp, 0)
+      config.tooltipFields.energyTitleLabel = tips.EPS
+      config.tooltipFields.energyLabel = util.round(eps, 1)
+      config.tooltipFields.cooldownTitleLabel = tips.CD
+      config.tooltipFields.cooldownLabel = parameters.cooldownTime or config.cooldownTime
+      config.tooltipFields.knockbackTitleLabel = tips.KB
+      config.tooltipFields.knockbackLabel = get("knockback", 0)
+      config.tooltipFields.minTimeTitleLabel = tips.MT
+      config.tooltipFields.minTimeLabel = get("minActiveTime", 0)
+      config.tooltipFields.perfectTimeTitleLabel = tips.PT
+      config.tooltipFields.perfectTimeLabel = get("perfectBlockTime", 0)
+      -- config.tooltipFields.heavyTitleLabel = tips.HV
+      -- config.tooltipFields.heavyLabel = (get("forceWalk", false) and tips.HY or tips.HN)
+    elseif dps > 0 or rate > 0 then
+      config.tooltipFields.dpsTitleLabel = tips.DPS
+      config.tooltipFields.dpsLabel = util.round(dps, 1)
+      config.tooltipFields.fireRateTitleLabel = tips.FSR
+      config.tooltipFields.fireRateLabel = util.round(1 / (rate or 1.0), 1)
+      config.tooltipFields.energyTitleLabel = tips.EPS
+      config.tooltipFields.energyLabel = util.round(eps, 1)
+      config.tooltipFields.damagePerShotTitleLabel = tips.DPC
+      config.tooltipFields.damagePerShotLabel = util.round(dps * (rate or 1.0), 1)
+      config.tooltipFields.energyPerShotTitleLabel = tips.EPC
+      config.tooltipFields.energyPerShotLabel = util.round(eps * (rate or 1.0), 1)
+      config.tooltipFields.damagePerEnergyTitleLabel = tips.DPE
+      config.tooltipFields.damagePerEnergyLabel = util.round(dps / eps, 1)
+    end
+
+    function getAbil(old, abilType, tooltips)
+      local abil = abilType..'Ability'
+      local params = get(abil)
+      if params ~= nil then
+        local name = (params.name or config[abil].name or tooltips.none)
+        local desc = (params.description or config[abil].description or '')
+        if abilType == 'passive' then abil = 'altAbility' end
+        if name then
+          config.tooltipFields[abil..'Label'] = name
+          config.tooltipFields[abil..'TitleLabel'] = tooltips[abilType].title
+          old = appendText(old, getColored(name, 'cyan')..' '..tooltips[abilType].full, '\n\n    ')
+        end
+        if desc then
+          config.tooltipFields[abil..'DescriptionLabel'] = desc
+          old = appendText(old, desc, '\n')
+        end
+      end
+      return old
+    end
+
+    lore = getAbil(lore, 'primary', tips)  -- Primary Ability
+    lore = getAbil(lore, 'alt', tips)      -- Special Ability
+    lore = getAbil(lore, 'passive', tips)  -- Passive Ability (currently replaces special in some tootips)
+  end
 
   -- Upgrade
   if config.upgradeParameters and config.upgradeParameters.shortdescription and config.upgradeParameters.shortdescription:len() > 0 then

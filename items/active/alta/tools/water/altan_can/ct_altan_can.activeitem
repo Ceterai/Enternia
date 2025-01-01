@@ -1,0 +1,31 @@
+{
+  "itemName" : "ct_altan_can",
+  "shortdescription" : "Altan Watercan",
+  "description" : "Water your crops with this fashionable watering can.",
+
+  "level" : 3, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+
+  "animation" : "/items/active/unsorted/wateringcan/wateringcan.animation",
+  "animationParts" : { "wateringcan" : "body.png" },
+  "scripts" : ["/items/active/unsorted/wateringcan/wateringcan.lua"],
+
+  "waterTime" : 1.0,
+  "waterAngle" : 30,
+
+  "cooldownTime" : 1.0,
+
+  "projectileRate" : 0.15,
+  "projectileInaccuracy" : 0.4,
+  "projectileType" : "watersprinkledroplet",
+  "projectileParameters" : {
+    "speed" : 13,
+    "power" : 0,
+    "timeToLive" : 5,
+    "color" : [10, 255, 10]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

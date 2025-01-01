@@ -31,11 +31,12 @@
   },
   "objectImage" : {
     "type" : "image",
-    "position" : [75, 122],
+    "position" : [75, 128],
     "file" : "",
     "centered" : true,
-    "maxSize" : [70, 45],
-    "minSize" : [70, 40]
+    "vAnchor" : "mid",
+    "maxSize" : [90, 65],
+    "minSize" : [90, 60]
   },
   "title" : {
     "type" : "label",

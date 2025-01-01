@@ -1,75 +1,77 @@
 // All mod worldbuilding concepts like biomes and factions with their color codes and links to respective wiki pages.
 // Note that you can find definitions for most of these on Wiki, and also in the `Guide to My Enternia` codex (/codex/alta/ct_my_enternia_guide.codex)
 {
-    "planets" : [
-        "^#20f080;Alterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Alterash
-        "^#2080f0;Alterash Prime^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alterash-Prime
-        "^#8020f0;Enterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Enterash
-        "^#f02080;Enterash Prime^reset;"   // https://github.com/Ceterai/Enternia/wiki/Enterash-Prime
-    ],
-    "energy" : [
-        "^#20f080;Ceternia^reset;", "Cenia", "Cena", "Thoughts", "^#20f080;Impulse^reset;",  // https://github.com/Ceterai/Enternia/wiki/Ceternia
-        "^#2080f0;Alternia^reset;", "Alnia", "Alna", "Memories","^#2080f0;Plasma^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alternia
-        "^#8020f0;Enternia^reset;", "Ennia", "Enna", "Dreams", "^#8020f0;Ionic^reset;",  // https://github.com/Ceterai/Enternia/wiki/Enternia
-        "^#ffa8e8;Stardust^reset;", "Staris",           // https://github.com/Ceterai/Enternia/wiki/Stardust
-        "^#8080f0;Enchanted^reset;", "Vionia", "Viona", // https://github.com/Ceterai/Enternia/wiki/Enchanted-Datamass
-        "^#f080f0;Miazma^reset;",                       // https://github.com/Ceterai/Enternia/wiki/Viona-Miazma-Monitoring
-        "^#f0f020;Void^reset;"
-    ],
-    "regions" : [  // Biomes, Minibiomes, Biome types, Worlds, Layers, etc.
-        "^#6f6c66;Astera^reset;",
-        "^#80f020;Haven^reset;",
-        "^#2d4c56;Riversides^reset;",
-        "^#202080;Ion Core^reset;",
-        "^#202080;Esetera^reset;",
-        "^#208020;Antorash^reset;",
-        "^#f080f0;Invertia^reset;"
-    ],
-    "nature" : [  // Plants, growth, fruits, produce
-        "^#497c64;Koywa^reset;",
-        "^#9b2d3f;Warped^reset;",
-        "^#20f080;Yaara^reset;",
-        "^#3baf2f;Aric^reset;",
-        "^#c1ebf8;Tonnova^reset;",
-        "^#3587ff;Ayaka^reset;",
-        "^#ff3f5a;Gil^reset;",
-        "^#80f020;Tsay^reset;"
-    ],
-    "materials" : [
-        "^#299fc5;Bionid^reset;",
-        "^#ceffd7;Phospholion^reset;",
-        "^#7ddcde;Isoslime^reset;",
-        // Crystals
-        "^#76c7e4;Crystal^reset;", "Cal",
-        "^#378754;Bishyn^reset;", "Poison Crystal",
-        "^#0050c0;Hevika^reset;",
-        "^#a7e001;Gheatsyn^reset;",
-        "^#c1dfae;Crystalline Prime^reset;", "Calline Prime",
-        "^#c1dfae;Crystal Plant^reset;", "Carel"
-    ],
-    "factions" : [
-        "^#b0e0fc;Alta^reset;",
-        "^#f02020;EDS^reset;",
-        "^#ffe364;Faradea^reset;",
-        "^#f08f20;A.R.C.O.^reset;",
-        "^#10b4ef;Combat^reset;",
-        "^#a7e001;Ghearun^reset;",
-        "^#60c0fc;Arknight^reset;",
-        "^#76c7e4;Elin^reset;",
-        "^#0050c0;Hevika Ordis^reset;"
-    ],
-    "blocks" : [
-        "^#ffe8e8;Cloud^reset;",
-        "^#6f6c66;Moonrock^reset;",
-        "^#4f4c46;Obsidian^reset;",
-        "^#e8e8ff;Snow^reset;"
-    ],
-    "elements" : [
-        "^#7733aa;Electric^reset;",
-        "^#f08020;Fire^reset;",
-        "^#80f0f0;Ice^reset;",
-        "^#80f020;Poison^reset;"
-    ],
+    "colors" : {
+        "planets" : [
+            "^#20f080;Alterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Alterash
+            "^#2080f0;Alterash Prime^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alterash-Prime
+            "^#8020f0;Enterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Enterash
+            "^#f02080;Enterash Prime^reset;"   // https://github.com/Ceterai/Enternia/wiki/Enterash-Prime
+        ],
+        "energy" : [
+            "^#20f080;Ceternia^reset;", "Cenia", "Cena", "Thoughts", "^#20f080;Impulse^reset;",  // https://github.com/Ceterai/Enternia/wiki/Ceternia
+            "^#2080f0;Alternia^reset;", "Alnia", "Alna", "Memories","^#2080f0;Plasma^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alternia
+            "^#8020f0;Enternia^reset;", "Ennia", "Enna", "Dreams", "^#8020f0;Ionic^reset;",  // https://github.com/Ceterai/Enternia/wiki/Enternia
+            "^#ffa8e8;Stardust^reset;", "Staris",           // https://github.com/Ceterai/Enternia/wiki/Stardust
+            "^#8080f0;Enchanted^reset;", "Vionia", "Viona", // https://github.com/Ceterai/Enternia/wiki/Enchanted-Datamass
+            "^#f080f0;Miazma^reset;",                       // https://github.com/Ceterai/Enternia/wiki/Viona-Miazma-Monitoring
+            "^#f0f020;Void^reset;"
+        ],
+        "regions" : [  // Biomes, Minibiomes, Biome types, Worlds, Layers, etc.
+            "^#6f6c66;Astera^reset;",
+            "^#80f020;Haven^reset;",
+            "^#2d4c56;Riversides^reset;",
+            "^#202080;Ion Core^reset;",
+            "^#202080;Esetera^reset;",
+            "^#208020;Antorash^reset;",
+            "^#f080f0;Invertia^reset;"
+        ],
+        "nature" : [  // Plants, growth, fruits, produce
+            "^#497c64;Koywa^reset;",
+            "^#9b2d3f;Warped^reset;",
+            "^#20f080;Yaara^reset;",
+            "^#3baf2f;Aric^reset;",
+            "^#c1ebf8;Tonnova^reset;",
+            "^#3587ff;Ayaka^reset;",
+            "^#ff3f5a;Gil^reset;",
+            "^#80f020;Tsay^reset;"
+        ],
+        "materials" : [
+            "^#299fc5;Bionid^reset;",
+            "^#ceffd7;Phospholion^reset;",
+            "^#7ddcde;Isoslime^reset;",
+            // Crystals
+            "^#76c7e4;Crystal^reset;", "Cal",
+            "^#378754;Bishyn^reset;", "Poison Crystal",
+            "^#0050c0;Hevika^reset;",
+            "^#a7e001;Gheatsyn^reset;",
+            "^#c1dfae;Crystalline Prime^reset;", "Calline Prime",
+            "^#c1dfae;Crystal Plant^reset;", "Carel"
+        ],
+        "factions" : [
+            "^#b0e0fc;Alta^reset;",
+            "^#f02020;EDS^reset;",
+            "^#ffe364;Faradea^reset;",
+            "^#f08f20;A.R.C.O.^reset;",
+            "^#10b4ef;Combat^reset;",
+            "^#a7e001;Ghearun^reset;",
+            "^#60c0fc;Arknight^reset;",
+            "^#76c7e4;Elin^reset;",
+            "^#0050c0;Hevika Ordis^reset;"
+        ],
+        "blocks" : [
+            "^#ffe8e8;Cloud^reset;",
+            "^#6f6c66;Moonrock^reset;",
+            "^#4f4c46;Obsidian^reset;",
+            "^#e8e8ff;Snow^reset;"
+        ],
+        "elements" : [
+            "^#7733aa;Electric^reset;",
+            "^#f08020;Fire^reset;",
+            "^#80f0f0;Ice^reset;",
+            "^#80f020;Poison^reset;"
+        ]
+    },
     "palettes" : {  // More palettes here: /.meta/palettes/colors_swaps.json
         "omniblue" :        [ "#b0e0fc", "#60c0fc", "#2080f0", "#0050c0" ],
         "ceterteal" :       [ "#e0b0fc", "#c060fc", "#8020f0", "#5000c0" ],
@@ -189,7 +191,7 @@
         "faro" : [ "yellow" ],
         "miko" : [ "red/pink" ],
         // Materials
-        "bion" : [ "bion" ],  // proper name, /items/generic/crafting/ct_bion.item, /codex/alta/ct_bionics.codex
+        "bion" : [ "bion" ],  // proper name, /items/generic/crafting/alta/bion.item, /codex/alta/ct_bionics.codex
         "bionid" : [ "bion-organic variation that occurs in nature" ],  // /items/generic/crafting/ct_bionid.item, /codex/alta/ct_bionid.codex
         "bionic" : [ "bion compound", "bion-based compound" ],  // you can read more about these here: /codex/alta/ct_bionics.codex (& other related pages).
         "bionica" : [ "bion creature", "bion-based creature" ],  // altas are considered bionicas: /codex/alta/ct_bionics.codex, /codex/alta/ct_bion.codex
@@ -385,5 +387,12 @@
             "NG",  // NG4, NG5, etc - nia girin (energy rifle), SG - sona girin (snow rifle)
             "NGX-000"  // N can stand for both Nia and Neiteru
         ]
+    },
+    "materials" : {  // l0,                 l1,                 l2,             l3,                     l4,                     l5,             l6
+        "cloth" : [     "fabric",           "cottonwool",       "cottonwool",   "ct_altan",             "silk",                 "ct_bion",      "ct_bion" ],
+        "armor" : [     "ct_ayaka_wood",    "ct_ayaka_wood",    "crystal",      "ct_altan",             "ct_composite",         "ct_eds",       "3" ],
+        "energy" : [    "ct_isowire",       "ct_calotronics",   "ct_datamass",  "ct_alta_energy_cell",  "ct_alta_energy_cell",  "ct_phosicore", "3" ],
+        "data" : [      "",                 "",                 "",             "ct_alta_scout",        "ct_alta_security",     "3",            "3" ],
+        "shield" : [    "",                 "",                 "",             "",                     "ct_tech_shielder",     "3",            "3" ]
     }
 }

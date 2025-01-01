@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_space_tiller",
+  "shortdescription" : "Space Tiller",
+  "description" : "A proficient tool to till soil. The tilled soil can then be used to grow all sorts of crops!",
+
+  "level" : 6, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : true,
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "image" : "body.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.15,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops" ],
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

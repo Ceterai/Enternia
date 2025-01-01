@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_foam_sprayer", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l2", "alta_t0mm", "tool", "tools", "cleaning_tools", "all", "mod" ]
+}

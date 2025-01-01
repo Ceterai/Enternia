@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_celestial_rod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l8", "alta_max", "tool", "tools", "aquarium_tools", "all", "mod" ]
+}

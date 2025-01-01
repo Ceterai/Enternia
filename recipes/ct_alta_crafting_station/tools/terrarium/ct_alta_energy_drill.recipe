@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_alta_energy_drill", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l6m", "alta_t4m", "tool", "tools", "terrarium_tools", "all", "mod" ]
+}

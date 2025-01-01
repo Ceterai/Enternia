@@ -1,0 +1,58 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "tier1",
+        "states" : {
+          "tier1" : {},
+          "tier2" : {}
+        }
+      }
+    },
+
+    "parts" : {
+      "lights" : {
+        "properties" : {},
+        "partStates" : {
+          "stage" : {
+            "tier1" : {},
+            "tier2" : {}
+          }
+        }
+      },
+      "chassis" : {
+        "properties" : {},
+        "partStates" : {
+          "stage" : {
+            "tier1" : {
+              "properties" : {
+                "image" : "body1.png"
+              }
+            },
+            "tier2" : {
+              "properties" : {
+                "image" : "body2.png"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/mission_unlock_event.ogg"],
+    "fanfare2" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {},
+
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

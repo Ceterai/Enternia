@@ -1,0 +1,21 @@
+{
+  "itemName" : "ct_alta_tiller",
+  "shortdescription" : "Alta Tiller",
+  "description" : "An advanced tool to till soil. RMB for more accurate tilling.",
+
+  "level" : 4, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "twoHanded" : true,
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "image" : "body.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 3,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops" ],
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "ct_datamass", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_ceterteal_umbrella", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l2", "alta_t0mm", "tool", "tools", "other_tools", "all", "mod" ]
+}

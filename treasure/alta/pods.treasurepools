@@ -6,11 +6,36 @@
 {
   "ct_alta_pod_loot" : [
     [0, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
-      "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ]
+      "fill" : [ {"pool" : "ct_alta_pod_0"} ]
     } ],
     [2.5, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
+      "fill" : [ {"pool" : "ct_alta_pod_1"} ]
+    } ],
+    [3.5, {
+      "fill" : [ {"pool" : "ct_alta_pod_2"} ]
+    } ],
+    [4.5, {
+      "fill" : [ {"pool" : "ct_alta_pod_3"} ]
+    } ],
+    [5.5, {
+      "fill" : [ {"pool" : "ct_alta_pod_4"} ]
+    } ],
+    [6.5, {
+      "fill" : [ {"pool" : "ct_alta_pod_5"} ]
+    } ]
+  ],
+
+
+  "ct_alta_pod_0" : [
+    [0, {
+      "fill" : [ { "pool" : "ct_alta_loot" } ],
+      "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
+      "pool" : [
+      ]
+  } ] ],
+  "ct_alta_pod_1" : [
+    [2.5, {
+      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_1"} ],
       "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40
@@ -48,9 +73,10 @@
         // Self-loot,         total: 0.02
         {"weight" : 0.02, "item" : "ct_alta_loot_tier1"}
       ]
-    } ],
-    [3.5, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
+  } ] ],
+  "ct_alta_pod_2" : [
+    [0, {
+      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_2"} ],
       "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40
@@ -92,9 +118,10 @@
         // Self-loot,         total: 0.02
         {"weight" : 0.02, "item" : "ct_alta_loot_tier2"}
       ]
-    } ],
-    [4.5, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
+  } ] ],
+  "ct_alta_pod_3" : [
+    [0, {
+      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_3"} ],
       "poolRounds" : [ [0.1, 3], [0.3, 4], [0.4, 5], [0.2, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.455
@@ -150,9 +177,10 @@
         // Self-loot,         total: 0.02
         {"weight" : 0.02, "item" : "ct_alta_loot_tier3"}
       ]
-    } ],
-    [5.5, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
+  } ] ],
+  "ct_alta_pod_4" : [
+    [0, {
+      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_4"} ],
       "poolRounds" : [ [0.1, 3], [0.2, 4], [0.4, 5], [0.3, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.45
@@ -199,9 +227,10 @@
         // Self-loot,         total: 0.02
         {"weight" : 0.02, "item" : "ct_alta_loot_tier4"}
       ]
-    } ],
-    [6.5, {
-      "fill" : [ {"pool" : "ct_alta_loot"} ],
+  } ] ],
+  "ct_alta_pod_5" : [
+    [0, {
+      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_4"} ],
       "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40

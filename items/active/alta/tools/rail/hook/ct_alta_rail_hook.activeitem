@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_alta_rail_hook",
+  "shortdescription" : "Rail Hook",
+  "description" : "Used by some metrocops to ride the rails!",
+
+  "level" : 3, "race" : "alta",
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:1",
+  "animation" : "/items/active/alta/tools/rail/default.animation",
+  "animationParts" : { "railhook" : "body.png" },
+  "scripts" : ["/items/active/unsorted/railhook/railhook.lua"],
+
+  "connectionOffset" : [1.0, 0],
+  "activeArmAngle" : 1.5,
+  "inactiveArmAngle" : -1.0,
+
+  "railConfig" : { "useGravity" : true, "gravityMultiplier" : 0.8 },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

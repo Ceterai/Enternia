@@ -3,9 +3,9 @@
     { "item" : "titaniumbar", "count" : 2 },
     { "item" : "ct_bion", "count" : 2 },
     { "item" : "ct_stardust", "count" : 16 },
-    { "item" : "ct_warped_hive", "count" : 1 }
+    { "item" : "ct_bion", "count" : 500 }
   ],
   "output" : { "item" : "ct_bion_sample", "count" : 1 },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_constructor6", "bionid", "alta", "alta_special", "objects", "samples", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_other_5", "bionid", "alta", "alta_special", "objects", "samples", "all", "mod" ]
 }

@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_ionomelter",
+  "colonyTags" : [ "crafting" ],
+  "category" : "crafting",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Ionomelter^reset;",
+  "description" : "An alta sewing machine with additional functionality.",
+  "longdescription" : "Can create folded seams and protects the operator from the needle.",
+  "altaDescription" : "I can make cloth and clothing here.",
+
+  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
+  "avianDescription" : "A giant electronic library!",
+  "floranDescription" : "Floran can make equipment for wiring thingsss.",
+  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
+  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
+  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
+  "novakidDescription" : "A workstation for all things wirin' related.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui1.config", "filter" : [ "alta_t1", "alta_t1+" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Ionomelter", "subtitle" : " For sewing things together." },
+      "categories" : {
+        "type" : "radioGroup", "toggleMode" : false,
+        "buttons" : [ { "data" : { "filter" : [ "ionomelter" ] }, "selected" : true, "baseImage" : "", "baseImageChecked" : "" } ]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}
