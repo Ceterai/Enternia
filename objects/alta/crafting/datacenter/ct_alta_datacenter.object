@@ -23,28 +23,30 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_codex" ],
+    "config" : "/interface/alta/crafting/ui_tabs.config", "filter" : [ "alta_codex" ],
     "paneLayoutOverride" : {
-      "windowtitle" : { "title" : " Alta Datacenter", "subtitle" : " For storing alta information, documents, codexes and datamass." },
-      "tab1" : { "file" : "/items/active/alta/scanner/icon.png" },
-      "tab2" : { "file" : "/items/generic/crafting/alta/datamass.png" },
-      "tab3" : { "file" : "/codex/alta/paper/short.png" },
-      "tab4" : { "file" : "/codex/alta/ebook/basic.png" },
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA DATACENTER", "subtitle" : "^noshadow;^#001054;Alta info & docs storage" },
+      "tab1" : { "file" : "" }, "tab2" : { "file" : "" }, "tab7" : { "file" : "" }, "tab8" : { "file" : "" },
+      "bg1" : { "file" : "" }, "bg2" : { "file" : "" }, "bg7" : { "file" : "" }, "bg8" : { "file" : "" },
+      "tab3" : { "file" : "/items/active/alta/scanner/icon.png" },
+      "tab4" : { "file" : "/items/generic/crafting/alta/datamass.png" },
+      "tab5" : { "file" : "/codex/alta/paper/short.png" },
+      "tab6" : { "file" : "/codex/alta/ebook/basic.png" },
       "categories" : { "buttons" : [
         {
-          "position" : [175, 37], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "datacenter" ] }
+          "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "datacenter", "card" ] }
         },
         {
-          "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "datamass" ] }
         },
         {
-          "position" : [45, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "document", "card" ] }
+          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "document" ] }
         },
         {
-          "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "book" ] }
         }
       ] }

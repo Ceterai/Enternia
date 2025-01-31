@@ -1,6 +1,6 @@
 > Main pages: [[ Alta ]], [[ Factions ]]
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_faradea_loot.png) **Faradea** is a large organized group of [[ alta ]] mercenaries recognized mainly by **yellow straps** on their uniforms and equipment.
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/biome/ct_faradea_loot.png) **Faradea** is a large organized group of [[ alta ]] mercenaries recognized mainly by **yellow straps** on their uniforms and equipment.
 
 **Faradea Mercs** don't have a clear unanimous goal or mission, and thair main occupations is whatever they were hired for.
 In other cases, mercs can be found all over alterash planets scavenging the are in search of treasure and adventures.

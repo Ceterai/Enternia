@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
+    - [2.3.4d.fix-2](#234dfix-2)
     - [2.3.4d.fix](#234dfix)
     - [2.3.4d](#234d)
     - [2.3.4c](#234c)
@@ -63,9 +64,34 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.3 - Alta Cafe & Monster Buffet
 
+### 2.3.4d.fix-2
+
+A patch with minor fixes to UI and OSB SIP log errors.
+
+**Main:**
+
+- bug fixes.
+
+**Alta:**
+
+- fixed Alta Datacenter UI;
+- fixed Alta Constructor UI.
+
+**Dev:**
+
+- removed deprecated Ceiling Slime objects.
+
+**Other:**
+
+- fixed loot crate icon paths;
+- fixed Tonnova Tree sapling icons;
+- minor bug fixes.
+
 ### 2.3.4d.fix
 
 A patch to fix OSB error messages for WIP food items.
+
+> Detailed changes for this version: [Update 2.3.4d.fix](https://github.com/Ceterai/Enternia/commit/bf6adf9d063cc5875bdab18c937cb66df999069f)
 
 ### 2.3.4d
 

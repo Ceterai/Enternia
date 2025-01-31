@@ -171,8 +171,8 @@ Full list of decor: ^#b0e0fc;Alta Ship Decorations^reset;
 
 #### Other Factions
 
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset;
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_gyera_loot.png) ^#b0e0fc;Yava Gyera Ordis^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/biome/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset;
+- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/biome/ct_gyera_loot.png) ^#b0e0fc;Yava Gyera Ordis^reset;
 - ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier1.png) ^#b0e0fc;Perizhad^reset;
 - ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_bishyn_loot.png) ^#b0e0fc;Unika^reset;
 
@@ -376,7 +376,7 @@ Most alta technology is classified into 4 tiers:
 </td></tr>
 <tr valign="middle"><th>
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset; (Tier 2)
+![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/biome/ct_elin_loot.png) ^#b0e0fc;Elin Gardens^reset; (Tier 2)
 </th> <th>
 
 ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/loot/ct_alta_loot_tier4.png) [[ Capital|Alta-Capitals ]] (Tier 3)
