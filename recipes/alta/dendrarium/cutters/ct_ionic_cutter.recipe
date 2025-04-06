@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_enterite", "count" : 2 },
+    { "item" : "ct_phosicore", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "ct_ionic_cutter", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l5m", "alta_t4m", "alta_dendrarium", "tool", "tools", "cutters", "all", "mod" ]
+}

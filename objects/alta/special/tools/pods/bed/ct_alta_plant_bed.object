@@ -1,0 +1,71 @@
+{
+  "objectName" : "ct_alta_plant_bed",
+  "colonyTags" : [ "garden", "plant_pod" ], "learnBlueprintsOnPickup" : [ "ct_alta_terraponics-codex", "ct_alta_plant_bed" ],
+  "category" : "furniture",
+  "level" : 3, "price" : 100, "race" : "alta",
+
+  "shortdescription" : "Alta Plant Tray",
+  "description" : "A wide empty altan flower bed made with a simple in-build eco system.",
+  "altaDescription" : "A well-maintained crystal garden with titanium bedding.",
+
+  "apexDescription" : "A well-tended flowerbed. One of the few Apex pleasures.",
+  "avianDescription" : "A sickly-sweet smell wafts in the air.",
+  "floranDescription" : "Floran once hid in flowers, then jumped out to sssurprise poptop! Poptop not happy.",
+  "glitchDescription" : "Admiration. A remarkably well-cultivated flowerbed.",
+  "humanDescription" : "A flower bed. Best left to those with green fingers.",
+  "hylotlDescription" : "A rather childish attempt at a floral display.",
+  "novakidDescription" : "A flower bed. Maximum quaintness.",
+
+  "health" : 2.0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "direction" : "left", "flipImages" : true,
+      "sitPosition" : [-15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png",
+      "direction" : "right",
+      "sitPosition" : [15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body_top.png",
+      "direction" : "left", "flipImages" : true,
+      "sitPosition" : [-15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "body_top.png",
+      "direction" : "right",
+      "sitPosition" : [15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "body_bg.png",
+      "direction" : "left", "flipImages" : true,
+      "sitPosition" : [-15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "body_bg.png",
+      "direction" : "right",
+      "sitPosition" : [15, 22],
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

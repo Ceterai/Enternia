@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_wild_ionic_seed",
+  "colonyTags" : [ "alterash", "nature", "ionic" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Ionic Seed",
+  "description" : "A plant with a big purple fruit at the top.",
+  "altaDescription" : "This lab-created plant can produce pure ionic sap!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_ionic_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_ionic_seed", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false
+}

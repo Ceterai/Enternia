@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_gil_cultivated", "count" : 1 },
+    { "item" : "ct_gyera_fertilizer", "count" : 1 },
+    { "item" : "ct_gil_seed", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_gil_fertile", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

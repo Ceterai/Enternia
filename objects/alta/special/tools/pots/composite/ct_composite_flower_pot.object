@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_composite_flower_pot",
+  "colonyTags" : [ "garden" ], "learnBlueprintsOnPickup" : [ "ct_bion_flower_pot" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 4, "price" : 80, "race" : "alta",
+
+  "shortdescription" : "Composite Flower Pot",
+  "description" : "A properly isolated metal flower pot.",
+  "longdescription" : "Can be used for capturing plant critters for collection and to have them as pets.",
+  "altaDescription" : "An empty flower pot... Or is something just hiding somewhere inside?~",
+
+  "apexDescription" : "A decent aquarium.",
+  "avianDescription" : "A nice aquarium.",
+  "floranDescription" : "Floran likess aquarium.",
+  "glitchDescription" : "Indifferent. A fish square.",
+  "humanDescription" : "A aquarium.",
+  "hylotlDescription" : "An unattractive aquarium.",
+  "novakidDescription" : "Just an aquarium.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

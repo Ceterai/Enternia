@@ -6,11 +6,9 @@
   "altaDescription" : "This adds a good accent to any tea I've tried so far, and isn't as bad in punches either, too bad most recipes don't include it by default.",
 
   "level" : 2,
-  "itemTags" : [ "tsay" ],
-  "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
-  "rottingMultiplier" : 3.0,
+  "itemTags" : [ "tsay" ], "learnBlueprintsOnPickup" : [ "ct_tsay_cooked", "ct_tsay_sapling" ],
+  "category" : "food", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_tsay.png",
-  "learnBlueprintsOnPickup" : [ "ct_tsay_cooked" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
 
   "alkey" : "Tsay"

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "moonstone", "count" : 2 },
+    { "item" : "moondust", "count" : 2 },
+    { "item" : "biosample", "count" : 2 },
+    { "item" : "paper", "count" : 2 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_basic_fertilizer", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l0", "alta_max", "alta_dendrarium", "consumables", "fertilizers", "all", "mod" ]
+}

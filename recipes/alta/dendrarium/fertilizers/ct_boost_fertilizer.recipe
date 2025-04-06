@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_gil_seed", "count" : 1 },
+    { "item" : "swampwater", "count" : 2 },
+    // { "item" : "ct_alunika_cutting", "count" : 1 },
+    // { "item" : "ct_koywa_egg", "count" : 1 },
+    { "item" : "moonstone", "count" : 2 },
+    { "item" : "paper", "count" : 2 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_boost_fertilizer", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l5", "alta_max", "alta_dendrarium", "consumables", "fertilizers", "all", "mod" ]
+}

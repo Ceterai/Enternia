@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_yaara_eye_node",
-  "colonyTags" : [ "alterash", "nature", "yaara" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaavi_seed" ],
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Eyed Yaara Node",
   "description" : "These bulb-like ^#20f080;yaara nodes^reset; are more prone to growing ^#20f080;yaara eyes^reset; on them as fruits.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_yaara/foliage/ct_yaara_eye_leaves/saplingicon.png",
+  "inventoryIcon" : "ct_yaara_eye_node.png", "fixedIcon" : true,
   "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

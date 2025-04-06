@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_wild_calin_seed",
+  "colonyTags" : [ "alterash", "nature", "calin" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Calin Seed",
+  "description" : "A wild crystal plant that produces small, blue-ish crystals.",
+  "altaDescription" : "It's a very slow process, but this plant can grow simple crystals!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_calin_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_calin_seed", 1, { } ] ]
+  ],
+
+  "consumeSoilMoisture" : false
+}

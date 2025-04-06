@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_hive_tree",
+  "colonyTags" : [ "alterash_prime", "nature", "hive" ], "learnBlueprintsOnPickup" : [ "ct_hive_seed" ],
+  "level" : 5, "category" : "sapling",
+
+  "shortdescription" : "Ionic Hive Stalk",
+  "description" : "A huge tentacle-looking stem full of insects. Better to not touch it.",
+  "longdescription" : "Similar to regular hive stalks, this one was adapted to grow on alterash planets.",
+  "altaDescription" : "This eco pod contains a sapling of an ionic hive stalk.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 4.5,
+
+  "inventoryIcon" : "ct_hive_tree.png", "fixedIcon" : true,
+  "fixedStem" : "hive", "fixedFoliage" : "hive",
+  "fixedStemHues" : [ -32, 0, 32 ], "fixedFoliageHues" : [ 0 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/lab/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/alta/sapling.lua"
+}

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_alta_plate", "count" : 2 },
+    { "item" : "ct_alta_circuit", "count" : 4 },
+    { "item" : "ct_bion", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_mixer",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor4", "alta", "alta_cooking", "objects", "decoration", "all", "mod" ]
+}

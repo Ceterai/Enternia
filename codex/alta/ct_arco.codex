@@ -4,6 +4,7 @@
   "description" : "A description of some kind of tech company. Seems like most of the data is encrypted.",
   "longdescription" : "This ^#b0e0fc;datamass^reset; contains an ^#f08f20;Arco^reset; promo message with attached encrypted research and documentation. It looks like this is an official authorship request, backed up by studies and fully explained. Unfortunatelly, only specific software designed for this can decrypt it.",
   "icon" : "datamass/arco.png",
+  "species" : "alta",
   "contentPages" : [
 
     "A.R.C.O. RESEARCH COMPILATION
@@ -20,9 +21,8 @@ Please see appropriate research, descriptions and instructions below.
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "arco" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5,
+      "itemTags" : [ "data_source", "datamass", "arco" ], "learnBlueprintsOnPickup" : [ "ct_arco-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

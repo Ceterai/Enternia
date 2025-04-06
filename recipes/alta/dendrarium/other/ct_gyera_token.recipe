@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 1 },
+    { "item" : "ct_gyera_fertilizer", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_gyera_token", "count" : 4 },
+  "groups" : [ "my_enternia", "alta", "alta_loot", "alta_dendrarium", "gyera", "dendrarium_other", "all", "mod" ]
+}

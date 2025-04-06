@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_aya_soda",
+  "shortdescription" : "Ayoda",
+  "description" : "What a sweet drink this is.",
+  "longdescription" : "In fact, in order to not blend the natural ^#3587ff;aya^reset; sweetness, this drink contains lesser amounts of fizziness, so you can focus on the taste.",
+  "altaDescription" : "Wouldn't call it better than an ^#b0e0fc;aya essence^reset; or a proper ^#b0e0fc;aya punch^reset;, but it's definitely up there.",
+  "inventoryIcon" : "ct_aya_soda.png",
+  "level" : 1, "race" : "alta", "category" : "drink",
+  "itemTags" : [ "ayaka", "vendor_drink" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "rotToEffectRatio" : 9, "goodEffects" : [ "maxenergyscalingboostfood" ] },
+
+  "presets" : {
+    "zero" : {
+      "shortdescription" : "Ayoda Zero Sugar", "variant" : true, "inventoryIcon" : "ct_aya_soda_zero.png", "build" : { "foodValue" : 5 },
+      "description" : "A special Ayoda edition that contains zero sugar. Perfect for your workout!",
+      "longdescription" : "You might think that the point is kinda lost with a zero sugar aya, but that's not true, since ayas themselves do not contain actual sugar to begin with."
+    }
+  },
+  "brand" : "NR FoodStore",
+  "alkey" : "Ayoda"
+}

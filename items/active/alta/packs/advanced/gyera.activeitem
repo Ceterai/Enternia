@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_gyera_set",
+  "shortdescription" : "Gyera Pack",
+  "description" : "Contains a set of gyera tools and appliances.",
+  "longdescription" : "Compact item packs are useful when you want to reduce the space they are taking up otherwise.",
+  "altaDescription" : "I like keeping everything neat and sorted!",
+
+  "inventoryIcon" : "gyera.png",
+  "treasure" : { "pool" : "ct_gyera-pack" },
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "set", "gyera" ], "learnBlueprintsOnPickup" : [ "ct_gyera_loot", "ct_haven_loot", "ct_yaara_loot" ],
+  "category" : "mysteriousReward",
+  "builder" : "/items/buildscripts/alta/set.lua"
+}

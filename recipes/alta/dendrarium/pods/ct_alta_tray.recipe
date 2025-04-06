@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_alta_hydroponics-codex", "count" : 1 },
+    { "item" : "ct_alta_compact_sprinkler", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_tray", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta", "alta_special", "objects", "eco_pods", "all", "mod" ]
+}

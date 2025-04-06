@@ -4,13 +4,12 @@
   "description" : "Truly a lumbering craft one of a kind. Neiteru production.",
 
   "level" : 6, "race" : "alta",
-  "itemTags" : [ "upgradeableWeapon" ],
+  "itemTags" : [ "cutter", "upgradeableWeapon" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
+
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:idle",
   "twoHanded" : true,
-  "maxStack" : 1,
-
   "image" : "body.png:{frame}",
   "frames" : 5,
   "animationCycle" : 0.5,

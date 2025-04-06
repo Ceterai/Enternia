@@ -3,6 +3,7 @@
   "title" : "Energy Mines",
   "description" : "Mining facility description.",
   "icon" : "paper/short.png",
+  "species" : "alta",
   "contentPages" : [
 
     "The energy mine is a separate part of object 17, going 20 levels underground. It produces energy mixtures and an alien material - phospholion.
@@ -19,7 +20,7 @@ Additionally, cores for servo weapons are made from radiation-enhanced phospholi
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_mining_desc-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

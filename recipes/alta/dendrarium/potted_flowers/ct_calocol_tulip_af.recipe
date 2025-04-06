@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystalplantseed", "count" : 1 },
+    { "item" : "liquidhealing", "count" : 1 },
+    { "item" : "ct_benema_fertilizer", "count" : 1 },
+    { "item" : "ct_bion_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_calocol_tulip_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

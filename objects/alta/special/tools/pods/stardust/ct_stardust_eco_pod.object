@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_stardust_eco_pod",
+  "colonyTags" : [ "stardust", "garden", "plant_pod" ],
+  "learnBlueprintsOnPickup" : [
+    "ct_alta_omniponics-codex", "ct_azura_tree", "ct_livira_tree", "ct_sofara_tree",
+    "ct_calocol_tulip_af", "ct_ezmeralda_af", "ct_poppy_prime_af"
+  ],
+  "category" : "sapling", "objectType" : "container",
+  "level" : 7, "price" : 100, "race" : "alta",
+
+  "shortdescription" : "Stardust Eco Pod",
+  "description" : "An empty starsteel chamber, presumably made for plants.",
+  "longdescription" : "The capabilities are rather limited, yet even still this is a fascinating peace of technology able to keep a growing lifeform alive and well.",
+  "altaDescription" : "A stardust eco chamber for growing plants or crystal plants with highly specific conditions.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 4.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

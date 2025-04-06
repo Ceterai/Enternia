@@ -1,0 +1,25 @@
+{
+  "id" : "ct_alta_soil_enrichment",
+  "title" : "Alta Soil Enrichment",
+  "description" : "A manual regarding soil types and ways to enchrich them. ^gray;(Unlocks level 3-4 fertilizers)^reset;",
+  "longdescription" : "Soil types described are moon-like, crystalline, aquatic and air-like, mainly benefitting from 6 types of fertilizers in different ways.",
+  "altaDescription" : "This will help me understand how to create advanced, profile-specific fertilizers.",
+  "icon" : "ebook/gyera.png",
+  "species" : "alta",
+  "contentPages" : [
+    "While alterash planets mainly consist of moonrock, moonstone and moondust, they are usually filled with an abundance of additional resources, which are used by some plants, crystals, mushrooms and animals to prosper.",
+    "Because of this, when growing rare plants in an isolated environment, you maight find that some of them experience complications during growth, some might refuse to bloom, or ripe, or even grow at all.\nSome plants can die during the process, unable to receive elements essential for their survival.",
+    "This is why you might turn to enhancing your soils witd additional components, making them much more useful to the plant growing in them. Keep in mind that the same enhrichment process might not work for different plants, so choose your recipe carefully and don't generalize.",
+    "Professional alta bio engineers use pre-defined mixtures manufactured on a factory level, but manual enrichment come be done locally by carefully following the instructions."
+  ],
+  "itemConfig" : {
+    "level" : 5, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "ebook" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [
+      "ct_benema_fertilizer", "ct_biomix_fertilizer", "ct_bubble_fertilizer",
+      "ct_calin_fertilizer", "ct_gyera_fertilizer", "ct_plasma_fertilizer",
+      "ct_alta_botanics-codex"
+    ]
+  }
+}

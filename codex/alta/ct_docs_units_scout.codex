@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Scout Set",
   "description" : "A brief description of tier 3 alta equipment worn by ^#b0e0fc;alta^reset; scouts.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Scouts are lightweight exploration units.
@@ -18,7 +19,7 @@ Longfall Legwear (Velocity Eaters) - A pair of specialized boots that provide a 
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_scout-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

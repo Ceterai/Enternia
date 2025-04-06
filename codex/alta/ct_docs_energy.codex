@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Energy",
   "description" : "A piece of some technical documentation. Code on the back reads 'CEN-462'.",
   "icon" : "paper/short.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Altas use crystals to produce, store and gather energy and to convert it to electricity. As such, most alta energy sources are crystal-driven.
@@ -11,7 +12,7 @@ Altas distinquish three types of electric energy: ceternia, alternia and enterni
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_energy-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

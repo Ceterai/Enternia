@@ -1,0 +1,15 @@
+{
+  "objectName" : "ct_tonnova_af",
+  "colonyTags" : [ "nature", "tonna", "garden" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 280,
+
+  "shortdescription" : "Potted Tonnova Spring",
+  "description" : "A seemingly unsuspecting plant in a tall pot.",
+  "altaDescription" : "Looking at it fills me with delight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-2, 0], "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

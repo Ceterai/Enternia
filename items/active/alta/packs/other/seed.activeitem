@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_alta_seed_set",
+  "shortdescription" : "Alta Seed Pack",
+  "description" : "Contains a random assortment of farmable seeds.",
+  "longdescription" : "Compact item packs are useful when you want to reduce the space they are taking up otherwise.",
+  "altaDescription" : "I like keeping everything neat and sorted!",
+
+  "inventoryIcon" : "seed.png",
+  "treasure" : { "pool" : "ct_alta_seed-pack" },
+
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "set", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_seed_vendor" ],
+  "category" : "mysteriousReward",
+  "builder" : "/items/buildscripts/alta/set.lua"
+}

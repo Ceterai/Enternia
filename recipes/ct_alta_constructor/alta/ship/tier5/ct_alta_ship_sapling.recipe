@@ -2,11 +2,9 @@
   "input" : [
     { "item" : "crystal", "count" : 4 },
     { "item" : "biosample", "count" : 4 },
-    { "item" : "ct_bion", "count" : 4 },
-    { "item" : "titaniumbar", "count" : 2 },
-    { "item" : "ct_cetersphere", "count" : 1 }
+    { "item" : "ct_alta_ship_eco_pod", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_ship_sapling", "count" : 1 },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_constructor5", "alta_other_6", "alta", "alta_ship", "objects", "alta_saplings", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_constructor5", "alta_dendrarium", "alta_saplings", "alta", "alta_ship", "objects", "all", "mod" ]
 }

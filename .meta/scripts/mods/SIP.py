@@ -24,7 +24,7 @@ def run():
     with open(base.ROOT + '/items/buildscripts/ct_texts.config') as f:
         tips = pyjson5.load(f)
     for obj in objs:
-        item_id = objs[obj].get('itemName', objs[obj].get('objectName', str(objs[obj].get('id')) + '-codex'))
+        item_id: str = objs[obj].get('itemName', objs[obj].get('objectName', str(objs[obj].get('id')) + '-codex'))
         if 'mimic' not in item_id and 'deprecated' not in obj:
             if 'itemConfig' in objs[obj]:
                 objs[obj].update(objs[obj]['itemConfig'])
@@ -37,6 +37,8 @@ def run():
                 "icon": objs[obj].get('inventoryIcon', objs[obj].get('icon')),
                 "rarity": (objs[obj].get('rarity') or tips['rarityTypes'][str(objs[obj].get('level', 0))]).lower(),
             }
+            if item_id.endswith('-codex'):
+                params['race'] = 'alta'
             if 'race' in objs[obj]:
                 params['race'] = objs[obj]['race']
             if params['category'] == 'uniqueWeapon':

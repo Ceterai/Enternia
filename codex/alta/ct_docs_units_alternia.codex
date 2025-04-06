@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Alternia Set",
   "description" : "A brief description of tier 6 ^#b0e0fc;alta^reset; equipment worn by project Ceterai researchers.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Researchers of one of the most advanced alta projects use special equipment that allows them to enhance their energy usage and use highly electric environments to their advantage.",
@@ -17,7 +18,7 @@
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_alternia-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

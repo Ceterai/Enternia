@@ -7,10 +7,9 @@
   "foundIn" : [ "^#20f080;Alterash^reset; ^gray;mid caves^reset;" ],
   "inventoryIcon" : "ct_yaara_root.png",
 
-  "level" : 3, "price" : 10,
-  "itemTags" : [ "yaara" ],
-  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
-  "learnBlueprintsOnPickup" : [ "ct_lifespring" ],
+  "level" : 3,
+  "itemTags" : [ "yaara" ], "learnBlueprintsOnPickup" : [ "ct_lifespring", "ct_alta_plant_yaara" ],
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop",
   "builder" : "/items/buildscripts/alta/item.lua",
 
   "alkey" : "Yaarut"

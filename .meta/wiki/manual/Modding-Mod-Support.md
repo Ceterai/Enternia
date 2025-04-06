@@ -24,7 +24,7 @@ Navigation:
 - [Recipe Browser](#recipe-browser)
 - [Starburst Rework](#starburst-rework)
 - [Enhanced Storage](#enhanced-storage)
-- [Armor Adapt](#armor-adapt)
+- [Many Tabs](#many-tabs)
 
 ### Tabula Rasa
 
@@ -265,6 +265,10 @@ This is done through scripts and patches in [`/stats/biomeprotection/`](https://
 
 > This one requires installing a patch: [My Enternia Enhanced Storage Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3278292921)
 
-### Armor Adapt
+### Many Tabs
 
-The compatability is provided by simply **not changing the `itemTags` in the builder**.
+> Added in [2.3.4e](https://github.com/Ceterai/Enternia/releases/tag/2.3.4e)
+
+This is just adding an alta tab to the codex library to filter out alta codex entries.
+
+This is done by creating the following patch file: [`/interface/windowconfig/codex.config.patch`](https://github.com/Ceterai/Enternia/blob/main/interface/windowconfig/codex.config.patch)

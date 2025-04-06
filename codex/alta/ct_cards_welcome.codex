@@ -3,6 +3,7 @@
   "title" : "Welcome to Alterash!",
   "description" : "A printed invitation to a... planet? Planets? Huh.",
   "icon" : "paper/title.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Ashal!
@@ -11,7 +12,7 @@ Have a nice stay!"
 
   ],
     "itemConfig" : {
-    "rarity" : "Common",
+    "rarity" : "Common", "learnBlueprintsOnPickup" : [ "ct_cards_welcome-codex", "ct_my_enternia_guide-codex" ],
     "price" : 120
   }
 }

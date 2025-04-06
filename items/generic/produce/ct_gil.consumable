@@ -6,11 +6,9 @@
   "altaDescription" : "Gils are pretty versatile, but ^#ff3f5a;gillikadas^reset; are my favourite things to make out of them. Good thing some alta gardeners have their personal minigardens.",
 
   "level" : 2,
-  "itemTags" : [ "gil" ],
-  "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
-  "rottingMultiplier" : 3.0,
+  "itemTags" : [ "gil" ], "learnBlueprintsOnPickup" : [ "ct_gillikada", "ct_gil_sapling" ],
+  "category" : "food", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_gil.png",
-  "learnBlueprintsOnPickup" : [ "ct_gillikada" ],
 
   "builder" : "/items/buildscripts/alta/consumable.lua", "alkey" : "Gil"
 }

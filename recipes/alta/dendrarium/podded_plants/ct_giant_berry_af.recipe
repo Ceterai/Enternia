@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "berryhead", "count" : 1 },
+    { "item" : "clay", "count" : 1 },
+    { "item" : "ct_gyera_fertilizer", "count" : 1 },
+    { "item" : "ct_alta_plant_pod", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_giant_berry_af",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "potted_flowers", "alta", "alta_special", "objects", "decoration", "all", "mod" ]
+}

@@ -5,6 +5,7 @@
   "longdescription" : "This datamass is covered in ongrown bionid clumps - ^gray;nidias^reset;. It might not fit well into some sockets.",
   "altaDescription" : "The information inside is pretty insightful. Although we are usually created with that knowledge, or at list its general outlines, this can be exceptionally useful to someone else, or maybe as a part of a more global study, like the \"Environmental Causes Of Crystallic Formations In Organic Creatures\" one, or ^gray;\"ECOC-FIOC\"^reset;. Quite popular.",
   "icon" : "datamass/combat.png",
+  "species" : "alta",
   "contentPages" : [
 
     "It is still unclear how to properly categorize bion as a material because of its origins and a complicated nature.
@@ -23,10 +24,9 @@ The concept of bionic creatures, or bionicas, is one of the most common ones in 
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "bionid", "bion" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_bion-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "nidia" : { "icon" : "none" },

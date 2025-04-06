@@ -1,0 +1,79 @@
+{
+  "objectName" : "ct_gyera_vendor",
+  "level" : 6, "price" : 120, "race" : "alta",
+  "colonyTags" : [ "gyera", "commerce" ],
+  "category" : "decorative",
+
+  "shortdescription" : "Gyera Vendor",
+  "description" : "A vending machine in altan casing. Instead of buttons it uses a touchscreen for better navigation.",
+  "longdescription" : "These can often be found in specialized stores and complexes.",
+  "altaDescription" : "This vendor has tillers and other botanical tools for sale!",
+
+  "apexDescription" : "This vending machine sells foraging equipment.",
+  "avianDescription" : "You can buy farming tools from this machine.",
+  "floranDescription" : "Ssskin care routine for Floran!",
+  "glitchDescription" : "Excited. I can start my own farm with these.",
+  "humanDescription" : "Heh. Botanics. He-he.",
+  "hylotlDescription" : "A vending machine for purchasing agricultural wonders.",
+  "novakidDescription" : "Ye good old buckets n' soils, neat.",
+
+  "health" : 12,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "metalshard" }, { "count" : 6, "particle" : "steelshard" } ],
+
+  "lightColor" : [100, 105, 125],
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Vending Machine", "subtitle" : " Botanics" }
+    },
+    "buyFactor" : 5.0,
+    "sellFactor" : 0.0,
+    "items" : [
+      { "item" : "ct_gyera_emblem" },
+      { "item" : "ct_gyera-codex" },
+      { "item" : "ct_gyera_can" },
+      { "item" : "ct_gyera_blaster" },
+      { "item" : "ct_gyera_sprinkler" },
+      { "item" : "ct_gyera_fertilizer" },
+      { "item" : "ct_benema_fertilizer" },
+      { "item" : "ct_biomix_fertilizer" },
+      { "item" : "ct_bubble_fertilizer" },
+      { "item" : "ct_calin_fertilizer" },
+      { "item" : "ct_plasma_fertilizer" },
+      { "item" : "ct_gyera_token" }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : ["bottom"] }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [ [1.0, "pressbutton"] ],
+      "vendingmachineCollect" : [ [1.0, "crouchcollect"] ],
+      "vendingmachineConsume" : [ [1.0, "drink"] ],
+      "vendingmachineComplete" : [ [1.0, "smile"], [0.1, "vomit"] ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

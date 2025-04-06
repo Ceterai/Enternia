@@ -1,4 +1,438 @@
 {
+  "ct_gil_harvest" : [ [0, {
+        "pool" : [
+          {"weight" : 0.89, "item" : "ct_gil"},
+          {"weight" : 0.01, "item" : "ct_gil_seed"},
+          {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_gil_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_gil_harvest"} ] } ] ],
+  "ct_gil_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_gil_harvest"} ] } ] ],
+  "ct_gil_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_gil_harvest"} ] } ] ],
+  "ct_gil_fertile_harvest" : [ [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.89, "item" : [ "ct_gil", 1, { } ] },
+          {"weight" : 0.01, "item" : "ct_gil_seed"},
+          {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_gil_mixed_harvest" : [ [0, {
+        "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+        "pool" : [
+          {"weight" : 0.89, "item" : "thornfruit"},
+          {"weight" : 0.01, "item" : "ct_gil_seed"},
+          {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_tsay_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_tsay"},
+        {"weight" : 0.01, "item" : "ct_tsay_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_tsay_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_tsay_harvest"} ] } ] ],
+  "ct_tsay_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_tsay_harvest"} ] } ] ],
+  "ct_tsay_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_tsay_harvest"} ] } ] ],
+  "ct_tsay_fertile_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_tsay", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_tsay_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_tsay_mixed_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "alienfruit"},
+        {"weight" : 0.01, "item" : "ct_tsay_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_aya_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_aya"},
+        {"weight" : 0.01, "item" : "ct_wild_aya_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_aya_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_aya_harvest"} ] } ] ],
+  "ct_aya_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_aya_harvest"} ] } ] ],
+  "ct_aya_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_aya_harvest"} ] } ] ],
+  "ct_aya_fertile_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_aya", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_wild_aya_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_aya_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_aya", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_wild_aya_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_alta_pear_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_alta_pear"},
+        {"weight" : 0.01, "item" : "ct_alta_pear_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_alta_pear_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_alta_pear_harvest"} ] } ] ],
+  "ct_alta_pear_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_alta_pear_harvest"} ] } ] ],
+  "ct_alta_pear_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_alta_pear_harvest"} ] } ] ],
+  "ct_alta_pear_fertile_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_alta_pear", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_alta_pear_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_alta_pear_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_alta_pear", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_alta_pear_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_yaavi_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_yaara_eye"},
+        {"weight" : 0.01, "item" : "ct_yaavi_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_yaavi_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_yaavi_harvest"} ] } ] ],
+  "ct_yaavi_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_yaavi_harvest"} ] } ] ],
+  "ct_yaavi_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_yaavi_harvest"} ] } ] ],
+  "ct_yaavi_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_alta_pear", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_yaavi_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_archulin_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_archulin"},
+        {"weight" : 0.01, "item" : "ct_archulin_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_archulin_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_archulin_harvest"} ] } ] ],
+  "ct_archulin_rich_harvest" : [ [0, { "poolRounds" : [ [0.6, 1], [0.4, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_archulin_harvest"} ] } ] ],
+  "ct_archulin_boosted_harvest" : [ [0, { "poolRounds" : [ [0.8, 2], [0.2, 3] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_archulin_harvest"} ] } ] ],
+  "ct_archulin_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.6, 1], [0.4, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_archulin", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_archulin_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_yaara_melon_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_yaara_melon"},
+        {"weight" : 0.01, "item" : "ct_yaavi_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_yaara_melon_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_yaara_melon_harvest"} ] } ] ],
+  "ct_yaara_melon_fertile_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_yaara_melon", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_yaavi_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_yaara_melon_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_yaara_melon", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_yaavi_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_alunika_harvest" : [ [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_alunika"},
+        {"weight" : 0.01, "item" : "ct_alunika_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_alunika_poor_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ {"weight" : 0.89, "pool" : "ct_alunika_harvest"} ] } ] ],
+  "ct_alunika_fertile_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_alunika", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_alunika_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_alunika_sort_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : [ "ct_alunika", 1, { } ] },
+        {"weight" : 0.01, "item" : "ct_alunika_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_alternia_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_alternia_shard"},
+        {"weight" : 0.01, "item" : "ct_alternia_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_ceternia_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_ceternia_core"},
+        {"weight" : 0.01, "item" : "ct_ceternia_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_enternia_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_enterite"},
+        {"weight" : 0.01, "item" : "ct_enternia_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_stardust_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_stardust"},
+        {"weight" : 0.01, "item" : "ct_stardust_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_eva_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["cloudblock", 2]},
+        {"weight" : 0.40, "item" : ["cloudblock", 1]},
+        {"weight" : 0.01, "item" : "ct_eva_seed"},
+        {"weight" : 0.1, "item" : "liquidwater"}
+  ] } ] ],
+  "ct_sona_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["snowball", 2]},
+        {"weight" : 0.40, "item" : ["snowball", 1]},
+        {"weight" : 0.01, "item" : "ct_sona_seed"},
+        {"weight" : 0.1, "item" : "liquidwater"}
+  ] } ] ],
+  "ct_cocola_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["liquidmilk", 2]},
+        {"weight" : 0.50, "item" : ["liquidmilk", 1]},
+        {"weight" : 0.01, "item" : "ct_cocola_seed"}
+  ] } ] ],
+  "ct_blossom_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["silkfibre", 2]},
+        {"weight" : 0.50, "item" : ["silkfibre", 1]},
+        {"weight" : 0.01, "item" : "ct_blossom_seed"}
+  ] } ] ],
+  "ct_tonna_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_tonna"},
+        {"weight" : 0.01, "item" : "ct_tonna_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_azura_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["alienstripedwood", 2]},
+        {"weight" : 0.40, "item" : ["alienstripedwood", 1]},
+        {"weight" : 0.01, "item" : "ct_azura_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_viona_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["rainbowwood", 2]},
+        {"weight" : 0.40, "item" : ["rainbowwood", 1]},
+        {"weight" : 0.01, "item" : "ct_viona_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_ela_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["glowfibre", 2]},
+        {"weight" : 0.40, "item" : ["glowfibre", 1]},
+        {"weight" : 0.01, "item" : "ct_ela_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_ionic_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["ct_ionic_sap", 3]},
+        {"weight" : 0.40, "item" : ["ct_ionic_sap", 2]},
+        {"weight" : 0.01, "item" : "ct_ionic_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_dream_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["liquidfuel", 2]},
+        {"weight" : 0.40, "item" : ["liquidfuel", 1]},
+        {"weight" : 0.01, "item" : "ct_dream_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_alien_harvest" : [ [0, {  // !!!
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "alienfruit"},
+        {"weight" : 0.01, "item" : "ct_alien_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_thornfruit_harvest" : [ [0, {  // !!!
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "alienfruit"},
+        {"weight" : 0.01, "item" : "ct_alien_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_yaara_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_yaara_root"},
+        {"weight" : 0.01, "item" : "ct_yaara_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_koywa_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["ct_verriskoywa_grass4", 2]},
+        {"weight" : 0.40, "item" : ["ct_verriskoywa_grass4", 1]},
+        {"weight" : 0.01, "item" : "ct_koywa_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_turanta_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "giantflowerpetal"},
+        {"weight" : 0.01, "item" : "ct_turanta_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_haven_harvest" : [ [0, {
+      "poolRounds" : [ [0.8, 3], [0.1, 4], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.33, "item" : "petalblue"},
+        {"weight" : 0.33, "item" : "petalred"},
+        {"weight" : 0.33, "item" : "petalyellow"},
+        {"weight" : 0.01, "item" : "ct_haven_seed"}
+  ] } ] ],
+
+
+
+  "ct_ruka_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["biosample", 2]},
+        {"weight" : 0.40, "item" : ["biosample", 1]},
+        {"weight" : 0.01, "item" : "ct_ruka_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+  "ct_hive_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.49, "item" : ["larva", 2]},
+        {"weight" : 0.40, "item" : ["larva", 1]},
+        {"weight" : 0.01, "item" : "ct_hive_seed"},
+        {"weight" : 0.1, "item" : "ct_ionic_sap"}
+  ] } ] ],
+
+
+
+  "ct_coral_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "coralfragment"},
+        {"weight" : 0.01, "item" : "ct_coral_seed"},
+        {"weight" : 0.1, "item" : "liquidwater"}
+  ] } ] ],
+  "ct_voda_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "kelp"},
+        {"weight" : 0.01, "item" : "ct_voda_seed"},
+        {"weight" : 0.1, "item" : "liquidwater"}
+  ] } ] ],
+
+
+
+  "ct_calin_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "crystal"},
+        {"weight" : 0.01, "item" : "ct_calin_seed"},
+        {"weight" : 0.1, "item" : "crystalblock"}
+  ] } ] ],
+  "ct_gheatsyn_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ { "weight" : 0.89, "item" : "ct_gheatsyn_shard" } ] } ] ],
+  "ct_diamond_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ { "weight" : 0.89, "item" : "diamond" } ] } ] ],
+  "ct_core_harvest" : [ [0, { "poolRounds" : [ [0.9, 1], [0.1, 2] ], "pool" : [ { "weight" : 0.89, "item" : "corefragment" } ] } ] ],
+
+
+
+  "ct_alta_jelly_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_alta_jelly_egg"},
+        {"weight" : 0.01, "item" : "ct_slime_seed"},
+        {"weight" : 0.1, "item" : "greenslime"}
+  ] } ] ],
+  "ct_in_jelly_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_in_jelly_egg"},
+        {"weight" : 0.01, "item" : "ct_slime_seed"},
+        {"weight" : 0.1, "item" : "greenslime"}
+  ] } ] ],
+  "ct_poi_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "greenslime"},
+        {"weight" : 0.01, "item" : "ct_isoslime_seed"},
+        {"weight" : 0.1, "item" : "greenslime"}
+  ] } ] ],
+  "ct_isoslime_harvest" : [ [0, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "ct_isoslime_ball"},
+        {"weight" : 0.01, "item" : "ct_isoslime_seed"},
+        {"weight" : 0.1, "item" : "greenslime"}
+  ] } ] ],
+
+
+
   "ctgilHarvest" : [ [0, {
         "poolRounds" : [ [0.6, 1], [0.4, 2] ],
         "pool" : [

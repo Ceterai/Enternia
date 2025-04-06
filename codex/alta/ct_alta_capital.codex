@@ -5,6 +5,7 @@
   "longdescription" : "While alta capitals are considered to be categorically different from regular alta cities, they are a direct upgrade to the latter.",
   "altaDescription" : "Reading this gives you a pretty good understanding of just how protected capitals are.",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "The capital ^#b0e0fc;alta cities^reset; are massive metropolises, where the a tall ^#b0e0fc;alta citadel^reset; serves as the administrative center.
@@ -42,9 +43,8 @@ Volunteer altas engaged in regular cleaning, general errands and simply helping 
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 6,
-      "itemTags" : [ "data_source", "ebook", "capital" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 6,
+      "itemTags" : [ "data_source", "ebook", "capital" ], "learnBlueprintsOnPickup" : [ "ct_alta_capital-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

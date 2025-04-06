@@ -1,0 +1,104 @@
+{
+  "projectileName" : "ct_omni_grass_blast",
+  "image" : "/projectiles/alta/seeds/nothing.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 0.11,
+  "physics" : "grenade",
+  "flippable" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_thick_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1.1,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0.8,
+      "angleAdjust" : -10
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0.8,
+      "angleAdjust" : 10
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_flowery_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1,
+      "angleAdjust" : -20
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_flowery_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0.9,
+      "angleAdjust" : 30
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_thick_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0.7,
+      "angleAdjust" : -30
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1.3,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1.1,
+      "angleAdjust" : -40
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 0.7,
+      "angleAdjust" : 50
+    },
+    {
+      "action" : "projectile",
+      "type" : "ct_omni_grass_seeding",
+      "fuzzAngle" : 3,
+      "inheritDamageFactor" : 0,
+      "inheritSpeedFactor" : 1,
+      "angleAdjust" : -50
+    }
+  ],
+  "damagePoly" : [ ],
+  "power" : 0.0,
+  "damageKind" : "default"
+}

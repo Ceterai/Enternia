@@ -5,6 +5,7 @@
   "longdescription" : "The book refers to warped plants filled with ^#9b2d3f;yonnur^reset; - a bioluminescent liquid that comes in different colors and can be found in special bulbs in things like ^#9b2d3f;warped lights^reset;.",
   "altaDescription" : "A good educational read for altas that prefer staying at home to adventuring, and to corfal patients as a bedtime story.",
   "icon" : "ebook/warped.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Once upon a time, there was a very colorful kingdom. It was deep under the ground, where no light reaches from the surface.
@@ -22,10 +23,9 @@ So be careful, silly altas, and don't go alone to a warped forest, its inhabitor
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "warped" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "warped" ], "learnBlueprintsOnPickup" : [ "ct_yonnur-codex" ], // TODO in 2.4:, "ct_ela_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

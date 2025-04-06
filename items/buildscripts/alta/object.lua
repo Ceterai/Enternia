@@ -1,7 +1,13 @@
 require "/scripts/util.lua"
 require "/items/buildscripts/alta/item.lua"
 
-local ct_alta_item_builder = build
+
+function build(directory, config, params, level, seed)
+  config, params = getPresetParams(config, params)
+  config, params = buildItem(directory, config, params, level, seed)
+  config, params = buildObject(directory, config, params, level, seed)
+  return config, params
+end
 
 
 -- # My Enternia Object Builder
@@ -16,11 +22,10 @@ local ct_alta_item_builder = build
 -- - slot count info (for storage items)
 -- - drop info (whether the object drops itself when broken)
 -- > Note that all tooltip text is located in a separate config file.
-function build(directory, config, parameters, level, seed)
+function buildObject(directory, config, parameters, level, seed)
   local configParameter = function(key, default) return getValue(key, default, config, parameters) end
 
   -- Item stats
-  config, parameters = ct_alta_item_builder(directory, config, parameters, level, seed)
   if config.paletteSwaps then parameters.color = "default"..config.paletteSwaps end
   if parameters.cfg and config.itemName == 'ct_obj_mimic' then parameters = sb.jsonMerge(parameters, parameters.cfg) end
   if parameters.deprecated then parameters.colonyTags = nil end

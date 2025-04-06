@@ -4,6 +4,7 @@
   "description" : "An important part of alta history. For some reason, it reads like... a fairytale?",
   "longdescription" : "Seems like this is Part 3.",
   "icon" : "ebook/security.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Altas were different from Celestia's flowers. They quickly came together and started building, exploring, creating. There were a lot of them, too. Very soon they found ways to make more of themselves, spreading across the world, expanding and doing what they could to help those little flowers.",
@@ -20,10 +21,9 @@ And then that thought dissipated in ceternia, as she went on, smiling towards th
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 6,
-      "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 6,
+      "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_3-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_omni_lush_grass_seeds",
+  "shortdescription" : "Omni Lush Seeds ^#2080f0;^reset;",
+  "description" : "Toss these on any ground to grow jungle-like grass!",
+
+  "level" : 5, "price" : 20, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "ct_lush_grass_seeds.png",
+  "objectImage" : "ct_lush_grass_seeds.png",
+  "image" : "ct_lush_grass_seeds.png",
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_omni_lush_grass_spray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

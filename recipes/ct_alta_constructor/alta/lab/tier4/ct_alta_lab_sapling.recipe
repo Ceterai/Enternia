@@ -2,10 +2,9 @@
   "input" : [
     { "item" : "crystal", "count" : 4 },
     { "item" : "biosample", "count" : 4 },
-    { "item" : "ct_bion", "count" : 4 },
-    { "item" : "ct_phosicore", "count" : 1 }
+    { "item" : "ct_alta_lab_eco_pod", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_lab_sapling", "count" : 1 },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_constructor4", "alta_other_5", "alta", "alta_lab", "objects", "alta_saplings", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_constructor4", "alta_dendrarium", "alta_saplings", "alta", "alta_lab", "objects", "all", "mod" ]
 }

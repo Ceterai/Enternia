@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_alta_farming_set_2",
+  "shortdescription" : "Advanced Farming Pack",
+  "description" : "Contains several improved farming tools and equipment.",
+  "longdescription" : "Compact item packs are useful when you want to reduce the space they are taking up otherwise.",
+  "altaDescription" : "I like keeping everything neat and sorted!",
+
+  "inventoryIcon" : "farming.png",
+  "treasure" : { "pool" : "ct_alta_farming_2-pack" },
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "set", "farming" ], "learnBlueprintsOnPickup" : [ "ct_gyera_set", "ct_alta_farming_set_3", "ct_alta_botanics_vendor" ],
+  "category" : "mysteriousReward",
+  "builder" : "/items/buildscripts/alta/set.lua"
+}

@@ -1,0 +1,19 @@
+{
+  "id" : "ct_alta_omniponics",
+  "title" : "Alta Omniponics",
+  "description" : "A logical element with an eco-system database and a functional operating system designed to power and run an eco chamber. Instructions included.",
+  "longdescription" : "The instruction part can be accessed through any device with a screen, even through some eco chambers' interface.",
+  "altaDescription" : "Something similar to RI, but for plant housing.",
+  "icon" : "datamass/void.png",
+  "species" : "alta",
+  "contentPages" : [
+    "Celestial energy and radiation can very rarely be used as a singular source of essential plant-growing materials. Even still, omniponics show that there can be real usage in that, even if the demand for it is sparse.\nStill, omnipowerful stream-based plant growing is one of the greatest achievements of alta science.",
+    "Alta Omni Eco Pods are a the best piece of implementation for this technique as of now, with further developments by several research groups happening in real time."
+  ],
+  "itemConfig" : {
+    "level" : 8, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "datamass" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [ "ct_omni_eco_pod" ]
+  }
+}

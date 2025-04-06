@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_ariling_af",
+  "colonyTags" : [ "aric", "nature", "garden" ], "learnBlueprintsOnPickup" : [ "ct_ariling_egg" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 280,
+
+  "shortdescription" : "Potted Ariling",
+  "description" : "An attached note reads, \"It's not as toxic as you'd expect it to be.\"",
+  "altaDescription" : "It blinks neutrally.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 8, "animationCycle" : 2.3, "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -5,6 +5,7 @@
   "longdescription" : "The paper also depicts further plans for an exploration task for building a bridge over a canyon - a common occurance for places like tavriya.",
   "altaDescription" : "Life of an explorer is always exciting, even as a soldier with orders. I hope this alta had a pleasant travel!",
   "icon" : "paper/sona.png",
+  "species" : "alta",
   "contentPages" : [
 
     "This chill breeze is quite bearable compared to the cosmic coldness of the dark side of ^#6f6c66;Astera^reset;.
@@ -27,10 +28,9 @@ Let's see what we can find. I'm very exited!"
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "docs", "sona" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs", "sona" ], "learnBlueprintsOnPickup" : [ "ct_sona-codex" ], // TODO in 2.4:, "ct_sona_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

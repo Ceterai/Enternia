@@ -5,6 +5,7 @@
   "longdescription" : "It goes into detail about general infrastructure and what to expect from the city, the general atmosphere and crowdness.",
   "altaDescription" : "This seems like a brochure for an extra-terrestrial visitor, but as far as I know, these are sometimes being given to altas in some gardens \"just in case\".",
   "icon" : "ebook/security.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Alta cities are relatively small but highly urbanized settlements that can occasionally be found on ^#20f080;alterash^reset; planets. Despite their size and short buildings, such cities have fairly large populations.
@@ -27,9 +28,8 @@ In addition to vital and economically necessary buildings, alta cities are teemi
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "city" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "city" ], "learnBlueprintsOnPickup" : [ "ct_alta_city-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

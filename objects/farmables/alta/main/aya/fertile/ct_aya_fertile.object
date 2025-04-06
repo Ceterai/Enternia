@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_aya_fertile",
+  "colonyTags" : [ "alterash", "nature", "ayaka", "farming" ], "learnBlueprintsOnPickup" : [ "ct_aya_boosted" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Fertile Aya Sapling ^#20f080;^reset;",
+  "description" : "This sapling will grow bigger, healthier ayas.",
+  "altaDescription" : "A lab-produced aya spring. Seems like this one won't grow into a tall ayaka, like usual.",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0], "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_aya_fertile_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

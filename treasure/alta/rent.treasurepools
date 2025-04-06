@@ -1,0 +1,293 @@
+  // ==============================================================================================
+  //                                    TREASURE POOLS FOR ALTA LOOT
+  // ==============================================================================================
+
+{
+  "ct_alta_artist_gift" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.2, "item" : [ "ct_alta_dye", 2 ] },
+        {"weight" : 0.1, "item" : "dyeremover" },
+        {"weight" : 0.2, "item" : [ "bluedye", 2 ] },
+        {"weight" : 0.2, "item" : [ "fabric", 2 ] },
+        {"weight" : 0.2, "item" : "cottonwool" },
+        {"weight" : 0.080, "item" : "ct_vmax"},
+        {"weight" : 0.010, "item" : "ct_alta_toy_pet_ball"},
+        {"weight" : 0.005, "item" : "spaceorgan"},
+        {"weight" : 0.005, "item" : "squarewave"}
+      ]
+    } ],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.2, "item" : [ "ct_alta_dye", 4 ] },
+        {"weight" : 0.1, "item" : [ "dyeremover", 2 ] },
+        {"weight" : 0.2, "item" : [ "bluedye", 4 ] },
+        {"weight" : 0.2, "item" : [ "canvas", 2 ] },
+        {"weight" : 0.2, "item" : "silk" },
+        {"weight" : 0.080, "item" : "ct_vmax"},
+        {"weight" : 0.010, "item" : "ct_alta_toy_pet_ball"},
+        {"weight" : 0.005, "item" : "spaceorgan"},
+        {"weight" : 0.005, "item" : "squarewave"}
+      ]
+    } ],
+    [7.9, { "fill" : [ { "item" : "paintgunblue" } ] } ]
+  ],
+
+  "ct_alta_science_gift" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.20, "item" : [ "biosample", 2 ] },
+        {"weight" : 0.20, "item" : [ "cellmatter", 2 ] },
+        {"weight" : 0.10, "item" : [ "syringe", 2 ] },
+        {"weight" : 0.10, "item" : [ "bottle", 2 ] },
+        {"weight" : 0.10, "item" : [ "paper", 2 ] },
+        {"weight" : 0.05, "item" : "ct_datamass" },
+        {"weight" : 0.05, "item" : "ct_alta_testing_ball"},
+        {"weight" : 0.05, "item" : "ct_docs_cen-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_datamass-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_drones-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_energy-codex"}
+      ]
+    } ],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.20, "item" : [ "ct_datamass", 2 ] },
+        {"weight" : 0.20, "item" : "ct_alta_energy_cell" },
+        {"weight" : 0.10, "item" : "ct_alta_testing_ball" },
+        {"weight" : 0.05, "item" : [ "volatilepowder", 2 ] },
+        {"weight" : 0.05, "item" : [ "cellmatter", 2 ] },
+        {"weight" : 0.05, "item" : [ "biosample", 2 ] },
+        {"weight" : 0.05, "item" : [ "syringe", 2 ] },
+        {"weight" : 0.05, "item" : [ "paper", 2 ] },
+        {"weight" : 0.05, "item" : "ct_docs_cen-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_datamass-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_drones-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_energy-codex"},
+        {"weight" : 0.025, "item" : "techcard"},
+        {"weight" : 0.025, "item" : "upgrademodule"}
+      ]
+    } ],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.20, "item" : [ "ct_datamass", 4 ] },
+        {"weight" : 0.20, "item" : [ "ct_alta_energy_cell", 2 ] },
+        {"weight" : 0.05, "item" : "ct_docs_cen-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_datamass-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_drones-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_energy-codex"},
+        {"weight" : 0.05, "item" : "ct_phosicore" },
+        {"weight" : 0.05, "item" : "ct_alta_lab-codex" },
+        {"weight" : 0.05, "item" : "ct_aric-codex" },
+        {"weight" : 0.05, "item" : "ct_crystalline_prime-codex" },
+        {"weight" : 0.05, "item" : "ct_miazma-codex"},
+        {"weight" : 0.05, "item" : "ct_ion_core-codex"},
+        {"weight" : 0.05, "item" : "ct_hevika-codex"},
+        {"weight" : 0.025, "item" : "techcard"},
+        {"weight" : 0.025, "item" : "upgrademodule"}
+      ]
+    } ],
+    [7.9, { "pool" : [
+      { "weight" : 1.0, "item" : "ct_cetersphere" },
+      { "weight" : 1.0, "item" : "ct_altersphere" },
+      { "weight" : 1.0, "item" : "ct_entersphere" }
+    ] } ],
+    [9.9, { "fill" : [ { "item" : "teleportercore" } ] } ]
+  ],
+
+  "ct_alta_chef_gift" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.20, "item" : "ricepudding"},
+          {"weight" : 0.20, "item" : "bonbons"},
+          {"weight" : 0.20, "item" : "beakseedtart"},
+          {"weight" : 0.20, "item" : "ct_gillikada"},
+          {"weight" : 0.20, "item" : "ct_yaarings"}
+    ] } ],
+    [2.9, {
+        "pool" : [
+          {"weight" : 0.10, "item" : "spikycookies"},
+          {"weight" : 0.10, "item" : "choconut"},
+          {"weight" : 0.10, "item" : "bonbonbonbons"},
+          {"weight" : 0.10, "item" : "ct_tsay_icecream"},
+          {"weight" : 0.15, "item" : "ct_ometonna"},
+          {"weight" : 0.15, "item" : "ct_zandarm_tart"},
+          {"weight" : 0.15, "item" : "ct_biomix_icecream"},
+          {"weight" : 0.15, "item" : "ct_maito_tea"}
+    ] } ],
+    [5.9, {
+        "pool" : [
+          {"weight" : 0.10, "item" : "reefshake"},
+          {"weight" : 0.10, "item" : "alienfruitjuice"},
+          {"weight" : 0.20, "item" : "ct_alta_dinner"},
+          {"weight" : 0.15, "item" : "ct_tonna_meringue"},
+          {"weight" : 0.15, "item" : "ct_caliopa"},
+          {"weight" : 0.15, "item" : "ct_hive_curry"},
+          {"weight" : 0.15, "item" : "ct_gil_tsay_stew"}
+    ] } ],
+    [7.9, { "fill" : [ { "item" : "ultimatejuice" } ] } ]
+  ],
+
+  "ct_alta_guard_gift" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "weapon"},
+        {"weight" : 0.10, "item" : "ct_docs_units_scout-codex"},
+        {"weight" : 0.10, "item" : "ct_docs_units_security-codex"},
+        {"weight" : 0.30, "item" : [ "throwingblock", 2 ] },
+        {"weight" : 0.30, "item" : "titaniumbar" },
+        {"weight" : 0.10, "item" : "ct_alta_visor" }
+      ]
+    } ],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.05, "pool" : "weapon"},
+        {"weight" : 0.05, "item" : "ct_docs_units_enviro-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_units_combat-codex"},
+        {"weight" : 0.05, "item" : "ct_docs_units_eds-codex"},
+        {"weight" : 0.05, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
+        {"weight" : 0.05, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] },
+        {"weight" : 0.05, "item" : [ "ct_catalyst", 1, { "preset" : "repell" } ] },
+        {"weight" : 0.30, "item" : [ "throwingblock", 4 ] },
+        {"weight" : 0.30, "item" : [ "titaniumbar", 2 ] },
+        {"weight" : 0.05, "item" : "ct_alta_visor" }
+      ]
+    } ],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.10, "pool" : "weapon"},
+        {"weight" : 0.10, "item" : "ct_docs_units_ceternia-codex"},
+        {"weight" : 0.10, "item" : "ct_docs_units_alternia-codex"},
+        {"weight" : 0.10, "item" : "ct_docs_units_enternia-codex"},
+        {"weight" : 0.25, "item" : [ "throwingblock", 6 ] },
+        {"weight" : 0.25, "item" : [ "durasteelbar", 2 ] },
+        {"weight" : 0.10, "item" : "ct_alta_visor" }
+      ]
+    } ],
+    [7.9, { "fill" : [ { "item" : "solariumstar" } ] } ]
+  ],
+
+  "ct_alta_gift" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.10, "item" : ["crystal", 4]},
+        {"weight" : 0.10, "item" : ["crystal", 2]},
+        {"weight" : 0.10, "item" : "prisiliteore" },
+        {"weight" : 0.10, "item" : "bluestim"},
+        {"weight" : 0.10, "item" : "greenstim"},
+        {"weight" : 0.10, "item" : "ct_tsay_cola"},
+        {"weight" : 0.10, "item" : "ct_aya_soda"},
+        {"weight" : 0.10, "item" : "ct_gheanade"},
+        {"weight" : 0.05, "item" : "ct_alta_backpack"},
+        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask"},
+        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask_colorful"},
+        {"weight" : 0.05, "item" : "ct_alta_loot_tier0"}
+      ]
+    } ],
+    [2.9, {
+      "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+      "pool" : [
+        {"weight" : 0.10, "item" : [ "crystal", 6 ] },
+        {"weight" : 0.10, "item" : [ "crystal", 4 ] },
+        {"weight" : 0.10, "item" : [ "prisiliteore", 2 ] },
+        {"weight" : 0.05, "item" : "bluestim"},
+        {"weight" : 0.05, "item" : "greenstim"},
+        {"weight" : 0.05, "item" : "ct_tsay_cola"},
+        {"weight" : 0.05, "item" : "ct_aya_soda"},
+        {"weight" : 0.05, "item" : "ct_gheanade"},
+        {"weight" : 0.05, "item" : "ct_alta_soup_canned"},
+        {"weight" : 0.05, "item" : "nanowrap"},
+        {"weight" : 0.05, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade" } ] },
+        {"weight" : 0.05, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade_pretty" } ] },
+        {"weight" : 0.05, "item" : "ct_alta_backpack"},
+        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask"},
+        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask_colorful"},
+        {"weight" : 0.05, "item" : "ct_alta_hologlasses"},
+        {"weight" : 0.05, "item" : "ct_alta_loot_tier1"}
+      ]
+    } ],
+    [7.9, { "fill" : [ { "item" : "prisilitestar" } ] } ]
+  ],
+
+  "ct_alta_official_gift" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.20, "item" : [ "money", 32 ] },
+        {"weight" : 0.15, "item" : [ "prisiliteore", 4 ] },
+        {"weight" : 0.20, "item" : "silverbar" },
+        {"weight" : 0.15, "item" : "ct_datamass" },
+        {"weight" : 0.05, "item" : "ct_ionic_fresh"},
+        {"weight" : 0.05, "item" : "ct_bio_fresh"},
+        {"weight" : 0.05, "item" : "ct_logs_alta_job-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_city-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_1-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_2-codex"}
+      ]
+    } ],
+    [2.9, {
+      "pool" : [
+        {"weight" : 0.10, "item" : [ "money", 64 ] },
+        {"weight" : 0.10, "item" : [ "money", 48 ] },
+        {"weight" : 0.10, "item" : [ "money", 32 ] },
+        {"weight" : 0.10, "item" : [ "prisiliteore", 6 ] },
+        {"weight" : 0.15, "item" : [ "silverbar", 2 ] },
+        {"weight" : 0.10, "item" : [ "ct_datamass", 2 ] },
+        {"weight" : 0.0025, "item" : "ct_alta_roomba"},
+        {"weight" : 0.0025, "item" : "ct_alta_waiter"},
+        {"weight" : 0.045, "item" : "ct_assorti"},
+        {"weight" : 0.05, "item" : "ct_vermont_tea"},
+        {"weight" : 0.05, "item" : "tropicalpunch"},
+        {"weight" : 0.05, "item" : "ct_alta_city-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_capital-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_2-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_3-codex"}
+      ]
+    } ],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.10, "item" : [ "money", 128 ] },
+        {"weight" : 0.10, "item" : [ "money", 96 ] },
+        {"weight" : 0.10, "item" : [ "money", 64 ] },
+        {"weight" : 0.10, "item" : "prisilitestar" },
+        {"weight" : 0.10, "item" : [ "silverbar", 1 ] },
+        {"weight" : 0.10, "item" : [ "ct_datamass", 4 ] },
+        {"weight" : 0.0025, "item" : "ct_alta_roomba"},
+        {"weight" : 0.0025, "item" : "ct_alta_waiter"},
+        {"weight" : 0.045, "item" : "ct_fivaldo_salad"},
+        {"weight" : 0.05, "item" : "ct_aya_gil_pie" },
+        {"weight" : 0.05, "item" : "tropicalpunch" },
+        {"weight" : 0.05, "item" : "diamond" },
+        {"weight" : 0.05, "item" : "ct_alta_capital-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_citadel-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_3-codex"},
+        {"weight" : 0.05, "item" : "ct_alta_lore_4-codex"}
+      ]
+    } ],
+    [7.9, { "fill" : [ { "item" : "diamond" } ] } ]
+  ],
+
+  "ct_alta_party_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "ct_glowstick_crystal", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_calline", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_gheatsyn", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_mical", 2 ] },
+          {"weight" : 0.05, "item" : "prisiliteore" },
+          {"weight" : 0.05, "item" : "ct_tsay_cola"},
+          {"weight" : 0.05, "item" : "ct_aya_soda"},
+          {"weight" : 0.05, "item" : "ct_gheanade"},
+          {"weight" : 0.05, "item" : "ct_vmax"},
+          {"weight" : 0.05, "item" : "ct_aya_candy"},
+          {"weight" : 0.05, "item" : "ct_alta_vr_headset"},
+          {"weight" : 0.05, "item" : "ct_calin-codex"},
+          {"weight" : 0.05, "item" : "ct_viona-codex"},
+          {"weight" : 0.05, "item" : "ct_koywa-codex"},
+          {"weight" : 0.05, "item" : "ct_faradea-codex"},
+          {"weight" : 0.025, "item" : "ct_alta_respiratory_mask_colorful"},
+          {"weight" : 0.025, "item" : "ct_alta_toy_pet_ball"}
+        ]
+      }
+    ]
+  ]
+}

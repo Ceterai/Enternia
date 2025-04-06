@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_colorful_grass_seeds", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 2 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_omni_colorful_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l6m", "alta_max", "alta_dendrarium", "consumables", "omni_grass_seeds", "all", "mod" ]
+}

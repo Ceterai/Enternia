@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_yaara_crystal_node",
-  "colonyTags" : [ "alterash", "nature", "yaara" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaara_eye_node", "ct_calin_seed" ],
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Crystal Yaara Node",
   "description" : "A short, yet beautiful ^#20f080;yaara node^reset;, patched with ^#76c7e4;crystals^reset; growing on top of it. Wonderful!",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_yaara/foliage/ct_yaara_crystal_leaves/saplingicon.png",
+  "inventoryIcon" : "ct_yaara_crystal_node.png", "fixedIcon" : true,
   "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

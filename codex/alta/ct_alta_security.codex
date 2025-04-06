@@ -4,6 +4,7 @@
   "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
   "longdescription" : "**CEN-411** is a set of security-related regulations in ^#b0e0fc;alta cities^reset; and other semi-protected facilities, like ^#b0e0fc;alta^reset; parks and general ^#20f080;antorash^reset; spaces. Places like these are usually guarded by ^#b0e0fc;security guards^reset;.",
   "icon" : "/items/generic/crafting/alta/datamass.png",
+  "species" : "alta",
   "contentPages" : [
 
     "SECURITY PROTOCOL DOCUMENTATION
@@ -23,10 +24,9 @@ As well as by the majority of creators."
 
   ],
     "itemConfig" : {
-    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-    "fixedPrice" : true, "level" : 4,
-    "itemTags" : [ "data_source", "datamass", "alta_security" ],
-    "builder" : "/items/buildscripts/alta/item.lua"
+    "level" : 4, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "datamass", "alta_security" ], "learnBlueprintsOnPickup" : [ "ct_alta_security-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : { "CEN-411" : { }, "Alta Security Protocol" : { }, "Security Protocol" : { } } }
 }

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_isoslime_ball", "count" : 4 },
+    // { "item" : "ct_prime_sap", "count" : 1 },
+    { "item" : "crystalplantseed", "count" : 1 },
+    { "item" : "paper", "count" : 2 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_plasma_fertilizer", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l4m", "alta_max", "alta_dendrarium", "consumables", "fertilizers", "all", "mod" ]
+}

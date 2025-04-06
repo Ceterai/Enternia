@@ -3,12 +3,8 @@
   "shortdescription" : "Naghurta",
   "description" : "A mysterious ionthrower, in the middle of nowhere, on ^#8020f0;enterash^reset;... Doesn't feel like we'll find its previous owner.",
   "elementalType" : "electric",
-  "race" : "alta",
-
-  "level" : 6,
-
-  "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
-  "twoHanded" : false, "category" : "uniqueWeapon",
+  "race" : "alta", "level" : 6,
+  "tooltipKind" : "ct_alta_weapon_1", "category" : "uniqueWeapon",
   "itemTags" : [ "weapon", "ranged" ],
 
   "inventoryIcon" : "ct_naghurta.png",

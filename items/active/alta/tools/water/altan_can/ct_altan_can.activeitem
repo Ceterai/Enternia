@@ -4,6 +4,7 @@
   "description" : "Water your crops with this fashionable watering can.",
 
   "level" : 3, "race" : "alta",
+  "itemTags" : [ "watering_can", "upgradeableWeapon" ], "learnBlueprintsOnPickup" : [ "ct_alta_tiller" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png",
@@ -27,5 +28,11 @@
     "color" : [10, 255, 10]
   },
 
-  "builder" : "/items/buildscripts/alta/tool.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "animationParts" : { "wateringcan" : "body_upg.png" },
+    "shortdescription" : "Astan Dew ^#8020f0;^reset;",
+    "cooldownTime" : 0.3
+  }
 }

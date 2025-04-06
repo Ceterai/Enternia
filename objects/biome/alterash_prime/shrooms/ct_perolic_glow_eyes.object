@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_perolic_glow_eyes",
   "colonyTags" : [ "alterash_prime", "nature", "aric", "shroom", "toxic" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Eyed Perolic Shroom",
   "description" : "This unedible-looking shroom is a variation of ^#3baf2f;perolic shrooms^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 2.5,
 
-  "inventoryIcon" : "/plants/trees/ct_aric/foliage/ct_perolic/saplingicon.png",
+  "inventoryIcon" : "ct_perolic_glow_eyes.png", "fixedIcon" : true,
   "fixedStem" : "ct_aric_glow_eyes", "fixedFoliage" : "ct_perolic",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

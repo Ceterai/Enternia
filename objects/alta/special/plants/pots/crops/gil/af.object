@@ -1,0 +1,15 @@
+{
+  "objectName" : "ct_gil_af",
+  "colonyTags" : [ "nature", "gil", "garden" ],
+  "category" : "decorative",
+  "level" : 4, "price" : 280,
+
+  "shortdescription" : "Potted Gil",
+  "description" : "A seemingly unsuspecting plant in a small pot.",
+  "altaDescription" : "Looking at it fills me with delight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-1, 0], "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

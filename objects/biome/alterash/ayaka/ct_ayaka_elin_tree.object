@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_elin_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka", "elin" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 5, "rarity" : "Rare", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka", "elin" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_unona_tree" ],
+  "level" : 5, "category" : "sapling",
 
   "shortdescription" : "Elin Ayaka",
   "description" : "A special variation of ^#3587ff;ayaka trees^reset; that grows in ^#76c7e4;elin gardens^reset;. It's precious, tender ^#ffa8e8;stardust^reset; leaves are filled with the softest ^#ffe8e8;silk fibres^reset; out there.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/objects/biome/stardust/ct_stardust_crystal/icon.png",
+  "inventoryIcon" : "ct_ayaka_elin_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_blossom_leaves", "middleLayerSuffix" : "_icon.png",
   "fixedStemHues" : [ 105, 150 ], "fixedFoliageHues" : [ -150, -105 ],
   "orientations" : [
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
     { "tree" : true }
   ],
 

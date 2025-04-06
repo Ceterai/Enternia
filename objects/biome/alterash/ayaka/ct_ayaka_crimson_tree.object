@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_ayaka_crimson_tree",
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_blossom_tree" ],
+  "level" : 2, "category" : "sapling",
+
+  "shortdescription" : "Crimson Ayaka",
+  "description" : "A regular ^gray;ayaka tree^reset;, as you will find it in most alterash gardens and forests. It's stem cosists of soft yet very useful ^#3587ff;ayaka wood^reset;.",
+  "longdescription" : "In general, ayaka is a family of growth, commonly found in form of ^#ffffff;trees^reset;.\n\nMore information on ayakas, their nature and how they're maintained, can be found here: ^#3587ff;Ayaka Gardener's Notes^reset;",
+  "altaDescription" : "This chamber contains a sapling of ayaka.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "ct_ayaka_crimson_tree.png", "fixedIcon" : true,
+  "fixedStem" : "ct_young_ayaka_stem", "fixedFoliage" : "ct_young_ayaka_leaves",
+  "fixedStemHues" : [ 0 ], "fixedFoliageHues" : [ 140 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/city/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/alta/sapling.lua"
+}

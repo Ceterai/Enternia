@@ -1,0 +1,33 @@
+{
+  "objectName" : "ct_haven_sapling",
+  "colonyTags" : [ "alterash", "nature", "haven", "farming" ], "learnBlueprintsOnPickup" : [ "ct_haven_eco", "ct_gyera_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Haven Sapling",
+  "description" : "A proper sapling that takes less space and has increased and more consistent speed of growth stages.",
+  "altaDescription" : "A haven sprout that has multiple flowers growing from it at the same time!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [380, 420] },
+    { "duration" : [380, 420] },
+    { "alts" : 5, "duration" : [1600, 1800] },
+    { "alts" : 5, "harvestPool" : "ct_haven_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

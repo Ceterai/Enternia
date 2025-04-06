@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "petalred", "count" : 12 },
+    { "item" : "plantfibre", "count" : 4 },
+    { "item" : "cloudblock", "count" : 4 },
+    { "item" : "ct_bubble_fertilizer", "count" : 1 },
+    { "item" : "ct_bion_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_poppy_prime_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

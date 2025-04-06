@@ -4,6 +4,7 @@
   "description" : "An encoded ^#b0e0fc;datamass^reset; that smells like plants.",
   "longdescription" : "Seems like this datamass was written by an unknown elin gardener, or an elin scout, since the visual patterns match Elin's signature visual style.",
   "icon" : "datamass/elin.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#20f080;Yaara^reset; megaplants grow to sizes so big, they tend to develop their own small ecosystem with its own flora and fauna.
@@ -19,9 +20,8 @@ This is why one of the main points of negotiation between altas and yaara keeper
 
   ],
     "itemConfig" : {
-    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-    "fixedPrice" : true, "level" : 4,
-    "itemTags" : [ "data_source", "datamass", "yaara" ],
-    "builder" : "/items/buildscripts/alta/item.lua"
+    "level" : 4,
+    "itemTags" : [ "data_source", "datamass", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaara-codex" ], // TODO in 2.4:, "ct_yaara_flower_af", "ct_yaara_node" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

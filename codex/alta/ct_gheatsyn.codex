@@ -5,6 +5,7 @@
   "longdescription" : "These crystals - gheatsyn - seem to be able to liquify and crystallize under electric current.",
   "altaDescription" : "Gheatsyn became an important part of alta tech due to its amazing abilities, so its nature and origins are definitely worth studying.",
   "icon" : "ebook/gheatsyn.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Beautiful green crystals hang from the ceiling, slowly dripping onto the ground, creating new formations with each crystal drip.
@@ -33,10 +34,9 @@ It would be unpleasant if your beautiful necklace spilled on you and burned you,
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "gheatsyn" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "gheatsyn" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn-codex" ], // TODO in 2.4:, "ct_gheatsyn_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

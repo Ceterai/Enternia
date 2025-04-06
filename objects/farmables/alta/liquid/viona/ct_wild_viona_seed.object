@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_wild_viona_seed",
+  "colonyTags" : [ "alterash", "nature", "viona" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Vionora Seed",
+  "description" : "A small colorful wooden sprout that is constantly growing.",
+  "altaDescription" : "A vionora sprout that produces lots of rainbow wood!~",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_viona_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_viona_seed", 1, { } ] ]
+  ],
+
+  "minImmersion" : 0.5,
+  "consumeSoilMoisture" : false
+}

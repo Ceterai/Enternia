@@ -3,6 +3,7 @@
   "title" : "EDS Server Connector Log",
   "description" : "Some sort of unknown logging cache.",
   "icon" : "datamass/eds.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Error #264: EDS server address error
@@ -26,7 +27,7 @@ Continuing autopilot mode until successful connection is established."
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "datamass", "eds" ],
+    "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_logs_eds_reload-codex" ],
     "rarity" : "Uncommon",
     "price" : 120
   }

@@ -143,51 +143,6 @@
         ]
     } ]
   ],
-  "ct_alta_gift" : [
-      [0, {
-        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
-        "pool" : [  //          total: 1.00
-          // Resources,         total: 0.44
-          {"weight" : 0.10, "item" : ["crystal", 8]},
-          {"weight" : 0.08, "item" : ["prisiliteore", 6]},
-          {"weight" : 0.06, "item" : ["throwingblock", 4]},
-          {"weight" : 0.04, "item" : ["titaniumbar", 4]},
-          {"weight" : 0.06, "item" : ["ct_datamass", 2]},
-          // Decorations,       total: 0.36
-          {"weight" : 0.05, "item" : ["ct_alta_dye", 2]},
-          {"weight" : 0.03, "item" : "bluestim"},
-          {"weight" : 0.03, "item" : "greenstim"},
-          {"weight" : 0.03, "item" : "ct_tsay_cola"},
-          {"weight" : 0.03, "item" : "ct_aya_soda"},
-          {"weight" : 0.03, "item" : "ct_gheanade"},
-          // {"weight" : 0.10, "item" : "ct_vmax"},
-          // {"weight" : 0.08, "item" : "ct_alta_soup_canned"},
-          // {"weight" : 0.02, "item" : "nanowrap"},
-          {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade" } ] },
-          {"weight" : 0.06, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade_pretty" } ] },
-          // {"weight" : 0.06, "item" : "diamond"},
-          {"weight" : 0.04, "item" : "ct_alta_sapling"},
-          // Cosmetics,         total: 0.08
-          {"weight" : 0.01, "item" : "ct_alta_backpack"},
-          {"weight" : 0.005, "item" : "ct_alta_respiratory_mask"},
-          {"weight" : 0.005, "item" : "ct_alta_respiratory_mask_colorful"},
-          {"weight" : 0.01, "item" : "ct_alta_vr_headset"},
-          {"weight" : 0.01, "item" : "ct_alta_visor"},
-          {"weight" : 0.010, "item" : "ct_alta_visor"},
-          {"weight" : 0.010, "item" : "ct_alta_visor"},
-          {"weight" : 0.020, "item" : "ct_alta_visor"},
-          // Miscelanious,      total: 0.10
-          {"weight" : 0.02, "pool" : "ct_alta_codexes"},
-          {"weight" : 0.06, "item" : "ct_alta_security-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_food-codex"},
-          {"weight" : 0.02, "item" : "ct_logs_alta_job-codex"},
-          {"weight" : 0.02, "item" : "ct_alta_lore_4-codex"},
-          // Self-loot,         total: 0.02
-          {"weight" : 0.02, "item" : "ct_alta_loot_tier1"}
-        ]
-      }
-    ]
-  ],
   "ct_alta_aid" : [
     [0, {
         "poolRounds" : [ [0.6, 1], [0.4, 2] ],

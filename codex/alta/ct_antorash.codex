@@ -4,6 +4,7 @@
   "description" : "A small tour ebook that guides you through the hollow areas deep underneath ^#20f080;alterash^reset; planets.",
   "longdescription" : "There's an encrypted note at the end with exact coordinates that don't work, and a signature that says ^#2080f0;\"C.T.\"^reset;.",
   "icon" : "ebook/security.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Welcome to ^#20f080;Antorash^reset;!
@@ -17,9 +18,8 @@ If you stumble upon an ^#b0e0fc;alta city^reset;, be sure to check in with a ^#b
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "antorash" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "antorash" ], "learnBlueprintsOnPickup" : [ "ct_antorash-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

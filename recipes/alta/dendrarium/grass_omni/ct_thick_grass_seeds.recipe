@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_thick_grass_seeds", "count" : 1 },
+    { "item" : "ct_yaara_root", "count" : 2 }
+  ],
+  "duration" : 0.2,
+  "output" : { "item" : "ct_omni_thick_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l6", "alta_max", "alta_dendrarium", "consumables", "omni_grass_seeds", "all", "mod" ]
+}

@@ -2,11 +2,10 @@
   "objectName" : "ct_alta_sapling",
   "colonyTags" : [ "city", "garden" ],
   "category" : "sapling",
-  "level" : 3, "rarity" : "Uncommon", "price" : 20,
-  "race" : "alta",
+  "level" : 3, "race" : "alta",
 
   "shortdescription" : "Alta Sapling",
-  "description" : "A tree sapling inside of some sort of eco chamber. It's not clear what tree is growing inside.  \nCan be placed on moonstone.",
+  "description" : "A tree sapling inside of some sort of eco chamber. It's not clear what tree is growing inside.  \n^gray;Can be placed on moonstone. Can grow into ayakas, yaara nodes, warped trees and palms.^reset;",
   "longdescription" : "The capabilities are rather limited, yet even still this is a fascinating peace of technology able to keep a growing lifeform alive and well.",
   "altaDescription" : "Eco chambers like this one are used to safely grow trees on alterash planets, mainly ayakas.",
 
@@ -33,12 +32,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
     { "tree" : true }
   ],
   "treePool" : [
@@ -53,19 +50,43 @@
     { "fixedStem" : "ct_ayaka_garden_stem", "fixedFoliage" : "ct_ayaka_garden_leaves", "fixedFoliageHues" : [ 0, -15, -30 ] },
     { "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ 45, 30, 15 ] },
     { "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves" },
+    { "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves" },
 
-    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
-    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
+    // Added in 2.3.4e
+    { "fixedStem" : "ct_young_ayaka_short_stem", "fixedFoliage" : "ct_young_ayaka_leaves" },
+    { "fixedStem" : "ct_young_ayaka_fruit_stem", "fixedFoliage" : "ct_young_ayaka_fruit_leaves", "fixedStemHues" : [ 0 ], "fixedFoliageHues" : [ -150 ] },
+    { "fixedStem" : "ct_young_ayaka_stem", "fixedFoliage" : "ct_young_ayaka_leaves", "fixedStemHues" : [ 0 ], "fixedFoliageHues" : [ 140 ] },
+    { "fixedStem" : "ct_young_ayaka_giant_stem", "fixedFoliage" : "ct_ayaka_prime_leaves" },
+    { "fixedStem" : "ct_young_ayaka_fruit_stem", "fixedFoliage" : "ct_young_ayaka_fruit_leaves" },
+    { "fixedStem" : "ct_young_ayaka_short_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "fixedFoliageHues" : [ -32, 32 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm" },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedStemHues" : [ -32 ], "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedStemHues" : [ -80 ], "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm" },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedStemHues" : [ -32 ], "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+    { "fixedStem" : "colourfulstem", "fixedFoliage" : "colourfulpalm", "fixedStemHues" : [ -80 ], "fixedFoliageHues" : [ 0, 60, 32, -40 ] },
+
     { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_leaves" },
-    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
-    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
     { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_eye_leaves" },
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
+    { "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_crystal_leaves" },
+
     { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180 ] },
     { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180, 120 ] },
+    { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180 ] },
+    { "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180, 100, 180, 100, 180 ], "fixedFoliageHues" : [ 180, 120 ] },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ 180 ] },
+    { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ -135 ] },
     { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ 180 ] },
     { "fixedStem" : "ct_yaara_baobab_stem", "fixedFoliage" : "ct_yaara_crystal_leaves", "fixedStemHues" : [ 180 ], "fixedFoliageHues" : [ -135 ] }
   ],
 
   "builder" : "/items/buildscripts/alta/sapling.lua",
-  "wiki" : { "aliases" : { "Alta Eco Chamber" : { }, "Eco Chamber" : { } } }, "alkey" : "Yava Crom"
+  "alkey" : "Yava Crom"
 }

@@ -3,6 +3,7 @@
   "title" : "Crystalline Primification",
   "description" : "A compact ^#b0e0fc;ebook^reset; that contains several pages describing ^#c1dfae;crystalline prime^reset; and the \"prime\" phenomenon as a whole.",
   "icon" : "ebook/crystalline_prime.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Primification is the process of amplifying the energy or power within an entity by releasing its capabilities.
@@ -17,10 +18,9 @@
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "crystalline_prime" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "crystalline_prime" ], "learnBlueprintsOnPickup" : [ "ct_crystalline_prime-codex" ], // TODO in 2.4:, "ct_carel_sapling" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "Primification" : { }, "Prime" : { } }

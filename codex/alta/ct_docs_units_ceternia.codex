@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Elite Set",
   "description" : "A brief description of tier 6 alta equipment worn by elite ^#b0e0fc;alta^reset; operatives.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Elite security units are usually protecting high-importancy objects, like the Citadel of the main alta capitol Alliana, or the biggest alta mothership Al'deron.",
@@ -17,7 +18,7 @@ Elite Energy Greaves - This ceternia-enhanced legwear reduses any falldamage by 
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_ceternia-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

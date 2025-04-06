@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_omni_grass_seeds",
+  "shortdescription" : "Omni Grass Seeds ^#2080f0;^reset;",
+  "description" : "Toss these on any ground to grow grass.",
+
+  "level" : 5, "price" : 20, "race" : "alta",
+  "learnBlueprintsOnPickup" : [ "ct_alta_grass_blaster" ],
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "ct_grass_seeds.png",
+  "objectImage" : "ct_grass_seeds.png",
+  "image" : "ct_grass_seeds.png",
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_omni_grass_spray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

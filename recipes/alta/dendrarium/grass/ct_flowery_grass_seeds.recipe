@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "petalblue", "count" : 1 },
+    { "item" : "petalred", "count" : 1 },
+    { "item" : "petalyellow", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
+  ],
+  "duration" : 0.15,
+  "output" : { "item" : "ct_flowery_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l1", "alta_max", "alta_dendrarium", "consumables", "grass_seeds", "all", "mod" ]
+}

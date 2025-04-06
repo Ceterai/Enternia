@@ -3,6 +3,7 @@
   "title" : "EDS Command Communication Log",
   "description" : "This ^#b0e0fc;datamass^reset; contains a message history. Or at least something resembling it.",
   "icon" : "datamass/eds.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Strangely enough, this message history doesn't contain any plain written messages at all.
@@ -17,7 +18,7 @@ What happened?.."
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "datamass", "eds" ],
+    "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_logs_eds_chatter-codex" ],
     "rarity" : "Uncommon",
     "price" : 120
   }

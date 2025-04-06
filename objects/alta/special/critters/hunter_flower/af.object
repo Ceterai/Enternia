@@ -1,0 +1,24 @@
+{
+  "objectName" : "ct_hunter_flower_af",
+  "colonyTags" : [ "yaara", "nature", "flower", "garden" ], "learnBlueprintsOnPickup" : [ "ct_hunter_flower_egg" ],
+  "category" : "decorative",
+  "level" : 4, "price" : 280,
+
+  "shortdescription" : "Potted Hunter Flower",
+  "description" : "An attached note reads, \"This seemingly happy flower can angrily bite your cheek!\"",
+  "altaDescription" : "It dances so happily!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0] ],
+      "frames" : 8,
+      "animationCycle" : 2.3,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

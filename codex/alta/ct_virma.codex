@@ -5,6 +5,7 @@
   "longdescription" : "Obviously, no alta is truly able to talk to plants and command them, but there are cases close to that, and special education courses are put in place for ^#b0e0fc;alta gardeners^reset; and ^#b0e0fc;virma tamers^reset; that teach them proper communication with different intelligent creatures, like virmas.",
   "altaDescription" : "Wouldn't it be cool to become a virma tamer some day? And have a tentacle monster plant to protect you from all the silly poi?",
   "icon" : "ebook/gyera.png",
+  "species" : "alta",
   "contentPages" : [
 
     "There's a powerful virmamancer living in the woods, the legends say she rules over all virmas in those woods and they do anything she wants on just a single command.
@@ -15,10 +16,9 @@ Not many know, but the virmamancer is actually just a kind litlle alta gardener,
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 3,
-      "itemTags" : [ "data_source", "ebook", "ayaka" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 3,
+      "itemTags" : [ "data_source", "ebook", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_virma-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

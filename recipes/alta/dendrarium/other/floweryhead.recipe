@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "giantflowerpetal", "count" : 16 },
+    { "item" : "ct_ionic_sap", "count" : 16 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "livingroot", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "floweryhead",
+    "count" : 1
+  },
+  "duration" : 0.01,
+  "groups" : [ "my_enternia", "alta_dendrarium", "wild_plants", "all" ]
+}

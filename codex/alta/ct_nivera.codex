@@ -5,6 +5,7 @@
   "longdescription" : "It was made as part of an initiative of getting altas familiar with warped nature and popularizing the topic of ^#9b2d3f;warped containment^reset;.",
   "altaDescription" : "While I'm a bit cautious, nivera plants can be quite useful in medicine I think, so these kinds of things are definitely worth the effort.",
   "icon" : "paper/warped.png",
+  "species" : "alta",
   "contentPages" : [
 
     "\"Why would you cultivate a nivera plant?\" you might ask, dear sister.
@@ -23,10 +24,9 @@ For Alliana!"
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "docs", "warped" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs", "warped" ], "learnBlueprintsOnPickup" : [ "ct_nivera-codex" ], // TODO in 2.4:, "ct_nivera_tree", "ct_nivera_af" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

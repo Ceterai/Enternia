@@ -1,0 +1,33 @@
+{
+  "objectName" : "ct_sona_sapling",
+  "colonyTags" : [ "alterash_prime", "nature", "sona", "farming" ], "learnBlueprintsOnPickup" : [ "ct_sona_eco", "ct_benema_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Sonava Sapling",
+  "description" : "A proper sapling that takes less space and has increased and more consistent speed of growth stages.",
+  "altaDescription" : "This plant produces snow-like substance that is basically plant-based snow!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [380, 420] },
+    { "duration" : [380, 420] },
+    { "alts" : 5, "duration" : [1600, 1800] },
+    { "alts" : 5, "harvestPool" : "ct_sona_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

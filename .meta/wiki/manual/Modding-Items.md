@@ -175,8 +175,8 @@ All listed parameters are optional.
 | `fixedPrice` | `true` | Unlike for other items, this value is true by default. |
 |   |   |   |
 | `rotConfig` | [`"/items/generic/food/ct_ionic_rotting.config"`](https://github.com/Ceterai/Enternia/blob/main/items/generic/food/ct_ionic_rotting.config) | Path to rotting config, if used. |
-| `timeToRotMax` or `timeToRot` | `nil` | If set, sets fixed max rotting time without multipliers. |
-| `rottingMultiplier` | 1.0 | If `timeToRotMax`/`timeToRot` isn't set, this is uset to dynamically determine those parameters. |
+| `timeToRot` | `nil` | If set, sets fixed max rotting time without multipliers. |
+| `rottingMultiplier` | 1.0 | If `timeToRot` isn't set, this is used to dynamically determine those parameters. |
 | `foodValue` | `nil` | If set, displays in a tooltip. |
 |   |   |   |
 | `variants` | `[]` | If set, displays in a tooltip. If the item has an aging spript attached, this might be used to turn the item into one of possible variants. |

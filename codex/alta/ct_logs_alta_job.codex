@@ -3,6 +3,7 @@
   "title" : "Alta's Recommendation Letter",
   "description" : "A ^#b0e0fc;datamass^reset; containing a job application response.",
   "icon" : "/items/generic/crafting/alta/datamass.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Hi Tifa! I'm glad to inform you that our review found an extensive list of positions available for you! Please review the list below and let me know if any option suits you.
@@ -17,9 +18,8 @@ Let's show poor lost altas care, love and support together!
 
   ],
     "itemConfig" : {
-      "rarity" : "Common", "price" : 60, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 2,
-      "itemTags" : [ "data_source", "datamass", "city" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 2, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "city" ], "learnBlueprintsOnPickup" : [ "ct_logs_alta_job-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

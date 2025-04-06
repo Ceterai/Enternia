@@ -5,6 +5,7 @@
   "longdescription" : "Id describes what lies beyond ^#6f6c66;Astera^reset;, and what challenges alta adventurers face in open space (and on moons).",
   "altaDescription" : "Some altas can't help but wonder what it's like to traverse Io on your own and what kinds of things can happen, so on one hand I'm glad that books like this one exist, on the other I think they might be the reason why so many altas think about this in the first place.",
   "icon" : "ebook/astera.png",
+  "species" : "alta",
   "contentPages" : [
 
     "\"I want to go on an adventure!..\" - an eepy alta thought, as she went to sleep early to spend as much time as possible in the realm of dreams, miracles, and pure magic.
@@ -39,10 +40,9 @@ And woke up in her bed, with her plushie still in her hands. Excited for the bra
 
   ],
     "itemConfig" : {
-    "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-    "fixedPrice" : true, "level" : 6,
-    "itemTags" : [ "data_source", "ebook", "astera" ],
-    "builder" : "/items/buildscripts/alta/item.lua"
+    "level" : 6, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "ebook", "astera" ], "learnBlueprintsOnPickup" : [ "ct_spacedrifter-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "Astera Ordis" : { } },

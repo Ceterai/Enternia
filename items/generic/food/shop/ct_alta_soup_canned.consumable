@@ -4,22 +4,20 @@
   "description" : "The best combination of boiled ayas, some fresh gils and cooked tsays.",
   "longdescription" : "Might not be as tasty as a freshly made, manually-prepared ^#b0e0fc;alta soup^reset;, but is still almost as fulfilling and has a decent taste.",
   "altaDescription" : "Obviously I prefer it kitchen-made, but this is perfect for long space travels and any other adventures.",
-  "level" : 3, "rarity" : "Uncommon", "price" : 320,
-  "race" : "alta",
+  "level" : 3, "race" : "alta",
   "inventoryIcon" : "ct_alta_soup_canned.png",
-  "category" : "food", "tooltipKind" : "ct_alta_consumable", "foodValue" : 30, "maxStack" : 1,
+  "category" : "preparedFood",
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 10,
-  "blockingEffects" : [ "wellfed" ],
+  "build" : { "rotToEffectRatio" : 10 },
 
-  "variants" : [ "extra" ],
   "presets" : {
     "extra" : {
       "shortdescription" : "Canned Altasoup Extra Size", "variant" : true,
       "description" : "This extra size can contains 50% more tastiness!",
       "longdescription" : "Hopefully the core balance is there as well.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 520, "foodValue" : 50
+      "level" : 4
     }
-  }, "alkey" : "Jett Altamisu"
+  },
+  "brand" : "NR FoodStore",
+  "alkey" : "Jett Altamisu"
 }

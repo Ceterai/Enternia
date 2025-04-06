@@ -1,0 +1,44 @@
+{
+  "objectName" : "ct_wild_warped_hive_seed",
+  "colonyTags" : [ "alterash", "nature", "warped" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Warped Hive Seed",
+  "description" : "Warped plant with hive growing atop of it.",
+  "altaDescription" : "I can gather the hive without harming warped flies inside of it!",
+
+  "apexDescription" : "Some strange insects swarm in this hive.",
+  "avianDescription" : "Fie! Something is swarming in this hive!",
+  "floranDescription" : "Thisss plant lookss ssscary. Floran will ssstay alert.",
+  "glitchDescription" : "Careful. Some dangerous hive is growing on this plant.",
+  "humanDescription" : "Why is this plant looks like some kind of a tentacle monster?",
+  "hylotlDescription" : "These 'fruits' can be useful in fights.",
+  "novakidDescription" : "Please tell me that this plant isn't alive!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_warped_hive_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_warped_hive_seed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false
+}

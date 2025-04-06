@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_blossom_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_stardust_tree" ],
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Blossoming Ayaka",
   "description" : "An ^#3587ff;ayaka tree^reset; on its blossoming stage. While short and fruitless, it's quite pretty and its leaves can be used to produce ^#ffe8e8;silk^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_rose/icon.png",
+  "inventoryIcon" : "ct_ayaka_blossom_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_blossom_stem", "fixedFoliage" : "ct_ayaka_blossom_leaves",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

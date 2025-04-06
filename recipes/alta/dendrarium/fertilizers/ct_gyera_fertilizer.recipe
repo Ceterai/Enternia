@@ -1,0 +1,11 @@
+{
+  "input" : [
+    // { "item" : "ct_alta_pear_sap", "count" : 1 },
+    { "item" : "liquidhealing", "count" : 4 },
+    { "item" : "moondust", "count" : 4 },
+    { "item" : "paper", "count" : 2 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_gyera_fertilizer", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l3", "alta_max", "alta_dendrarium", "consumables", "fertilizers", "all", "mod" ]
+}

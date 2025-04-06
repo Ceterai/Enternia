@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_alta_tiller", "count" : 1 },
+    { "item" : "ct_altan_can", "count" : 1 },
+    { "item" : "ct_composite_cutter", "count" : 1 },
+    { "item" : "ct_alta_fertilizer", "count" : 2 },
+    { "item" : "ct_composite_flower_pot", "count" : 1 },
+    { "item" : "ct_bion_flower_pot", "count" : 1 },
+    { "item" : "bottledhealingwater", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_farming_set_3", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta_dendrarium", "l6", "loot", "other", "all", "mod" ]
+}

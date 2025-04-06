@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_diamond_eco",
+  "colonyTags" : [ "enterash_prime", "nature", "crystalline", "diamond", "farming" ], "learnBlueprintsOnPickup" : [ "ct_diamond_boosted" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 7,
+
+  "shortdescription" : "Eco Diamond Sapling",
+  "description" : "This diamond sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "A diamond bud! It will take a long time, but it will grow into more diamonds!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_diamond_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

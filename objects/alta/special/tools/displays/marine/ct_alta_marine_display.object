@@ -1,0 +1,27 @@
+{
+  "objectName" : "ct_alta_marine_display",
+  "colonyTags" : [ "cafe", "aquarium" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 120,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Marine Display",
+  "description" : "An aquarium with enough space for a small squid, or a big jello.",
+  "longdescription" : "Can be used for capturing water critters for collection and to have them as pets.",
+  "altaDescription" : "An empty marine display... Or is something just hiding somewhere inside?~",
+
+  "apexDescription" : "A decent aquarium.",
+  "avianDescription" : "A nice aquarium.",
+  "floranDescription" : "Floran likess aquarium.",
+  "glitchDescription" : "Indifferent. A fish square.",
+  "humanDescription" : "A aquarium.",
+  "hylotlDescription" : "An unattractive aquarium.",
+  "novakidDescription" : "Just an aquarium.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

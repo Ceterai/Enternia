@@ -4,6 +4,7 @@
   "description" : "Water your crops with this fashionable watering can.",
 
   "level" : 4, "race" : "alta",
+  "itemTags" : [ "gyera", "watering_can", "upgradeableWeapon" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png",
@@ -27,5 +28,15 @@
     "color" : [10, 255, 10]
   },
 
-  "builder" : "/items/buildscripts/alta/tool.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "animationParts" : { "wateringcan" : "body_upg.png" },
+    "shortdescription" : "Iora Rincer ^#8020f0;^reset;",
+    "waterTime" : 0.5,
+    "waterAngle" : 45,
+    "cooldownTime" : 0.5,
+    "projectileRate" : 0.10,
+    "projectileInaccuracy" : 0.55
+  }
 }

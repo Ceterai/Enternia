@@ -5,6 +5,7 @@
   "longdescription" : "The material in question - bionid - has differing methods of extractiong depending on the source, local climate and the variation of bionid itself. In the note, these specifics seem detrimental to proper extraction.",
   "altaDescription" : "Some of the aspects described in the document are very similar to ^gray;Bionid-C2-Prias-7^reset;, which I think was the most common variety in my area. Both of these are classified as corrosive, so lots of similarities. I think these are all called ^gray;\"Nerigid\"^reset; for short?",
   "icon" : "paper/bionid.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Local bionid subtype is increasingly reactive to sunlight and general radiation. Given the environment, some of the area is already exposed to rich phospholion deposits in the upper layers of esetera.
@@ -17,10 +18,9 @@ This bionid variation cannot be used as a direct building material due to its un
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "docs", "bionid", "bion" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_bionid-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "Nerigid" : { "icon" : "none" },

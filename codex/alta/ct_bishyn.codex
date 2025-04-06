@@ -3,6 +3,7 @@
   "title" : "Unika Offices Initiative",
   "description" : "A promotional brochure promoting some sleek, stylish ^#b0e0fc;alta^reset; furniture made from ^#378754;bishyn^reset; crystals.",
   "icon" : "paper/bishyn.png",
+  "species" : "alta",
   "contentPages" : [
 
     "< UNIKA ORD. >
@@ -19,9 +20,8 @@ Current set is accomplished in a modern-esc maxi-mini style called ^#378754;Setu
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "docs", "bishyn" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs", "bishyn" ], "learnBlueprintsOnPickup" : [ "ct_bishyn-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

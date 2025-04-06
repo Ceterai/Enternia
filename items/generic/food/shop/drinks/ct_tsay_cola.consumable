@@ -1,0 +1,24 @@
+{
+  "itemName" : "ct_tsay_cola",
+  "shortdescription" : "Tsay-Cola",
+  "description" : "A lemon in a can? Isn't it just lemonade then?",
+  "longdescription" : "Apart from the similarities, the preparation methods used for tsay-cola allow for great variance, resulting in interesting results like **Bluemix**, **Tsay-Carel Duo** and others.",
+  "altaDescription" : "I really like the bluemix ones, although they're not as easy to find in ^#b0e0fc;alta cities^reset;. If this is really how lemons can taste like, then I guess they're pretty neat.",
+  "inventoryIcon" : "ct_tsay_cola.png",
+  "level" : 2, "race" : "alta", "category" : "drink",
+  "itemTags" : [ "tsay", "vendor_drink" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "rotToEffectRatio" : 10, "goodEffects" : [ "swimboostcola" ] },
+
+  "presets" : {
+    "pop" : {
+      "shortdescription" : "Tsay-Pop", "variant" : true,
+      "description" : "A fresh spin on the Tsay-Cola that definitely has more pop to it!",
+      "longdescription" : "Another pleasant variation that, while not having a great taste difference from the original, provides a new interesting texture and aftertaste.",
+      "level" : 3
+    }
+  },
+  "wiki" : { "aliases" : { "Bluemix" : { }, "Tsay-Carel Duo" : { } } },
+  "brand" : "Ortan Ti",
+  "alkey" : "Tsay-Fizh"
+}

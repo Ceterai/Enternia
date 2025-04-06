@@ -3,6 +3,7 @@
   "title" : "A Secret Note",
   "description" : "This ^#b0e0fc;datamass^reset; contains some personal notes.",
   "icon" : "datamass/ionic.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Tia thinks that the two of us can handle this, but I'm not as optimistic. Now, that Mira is...
@@ -17,7 +18,7 @@ Find the generator, charge the backdoor and find us. I'll try to hold her back a
 
   ],
   "itemConfig" : {
-    "rarity" : "Legendary",
+    "rarity" : "Legendary", "learnBlueprintsOnPickup" : [ "ct_notes_maya_backdoor-codex" ],
     "price" : 0
   }
 }

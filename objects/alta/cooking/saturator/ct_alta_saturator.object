@@ -2,7 +2,7 @@
   "objectName" : "ct_alta_saturator",
   "colonyTags" : [ "cooking", "cafe" ],
   "category" : "crafting",
-  "level" : 5, "rarity" : "Rare", "price" : 60,
+  "level" : 5, "price" : 60,
   "race" : "alta",
 
   "shortdescription" : "Alta Saturator",
@@ -24,7 +24,7 @@
     "config" : "/interface/windowconfig/craftingcampfire.config",
     "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
     "paneLayoutOverride" : {
-      "categories" : { "buttons" : [ { "data" : { "filter" : [ "punch", "compote" ] }, "selected" : true } ] },
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "punch", "compote", "kissel", "cheese" ] }, "selected" : true } ] },
       "windowtitle" : { "title" : "  Saturator", "subtitle" : "  Punch-making convenience" }
     }
   },

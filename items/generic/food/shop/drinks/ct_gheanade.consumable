@@ -1,0 +1,23 @@
+{
+  "itemName" : "ct_gheanade",
+  "shortdescription" : "Gheanade",
+  "description" : "Some say it was made from liquid crystals! As if that's possible.",
+  "longdescription" : "In reality it's made based of off a popular alta cooking ingredient with described capabilities - ^#a7e001;gheatsyn^reset;.",
+  "altaDescription" : "Nice and refreshing. Although I wouldn't drink it from a can. Seems a little impractical.",
+  "inventoryIcon" : "ct_gheanade.png",
+  "level" : 2, "race" : "alta", "category" : "drink",
+  "itemTags" : [ "gheatsyn", "vendor_drink" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "rotToEffectRatio" : 10, "goodEffects" : [ "maxenergyscalingboostfood" ] },
+
+  "presets" : {
+    "max" : {
+      "shortdescription" : "Gheanade Max", "variant" : true,
+      "description" : "This limited series of Gheanade is extra-full on energy!",
+      "longdescription" : "With higher concentration of ^#c1dfae;carels^reset; extract, special **Gheryuza** formula and overall vitamin count, this drink is presented as an improved 1-up version of the original."
+    }
+  },
+  "wiki" : { "aliases" : { "Gheryuza" : { "anchor" : "item-upgrades" } } },
+  "brand" : "Ortan Ti",
+  "alkey" : "Geahfizh"
+}

@@ -5,6 +5,7 @@
   "longdescription" : "This was written by a beginner arknight alta as part of her learning experience.",
   "altaDescription" : "If I were to learn from this, could I possibly become an arknight myself one day?",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "According to the ^#60c0fc;Arknight Protocol^reset;, my duties include patroling, general help and coordination, as well as emergencies and missions.
@@ -23,10 +24,9 @@ Every ^#b0e0fc;alta^reset; matters."
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "arknight" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "arknight" ], "learnBlueprintsOnPickup" : [ "ct_arknight-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

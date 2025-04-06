@@ -1,0 +1,42 @@
+{
+  "itemName" : "ct_alta_water",
+  "shortdescription" : "Alta Water",
+  "description" : "",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "inventoryIcon" : "ct_alta_water.png",
+  "race" : "alta", "category" : "drink",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+
+  "presets" : {
+    "poi" : {
+      "shortdescription" : "Jelloed Water", "variant" : true,
+      "description" : "",
+      "longdescription" : "",
+      "altaDescription" : "",
+      "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ] }
+    },
+    "air" : {
+      "shortdescription" : "AirPlus Water", "variant" : true,
+      "description" : "",
+      "longdescription" : "",
+      "altaDescription" : "",
+      "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ] }
+    },
+    "rich" : {
+      "shortdescription" : "Alta Mineral Water", "variant" : true,
+      "description" : "",
+      "longdescription" : "",
+      "altaDescription" : "",
+      "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ] }
+    },
+    "calin" : {
+      "shortdescription" : "Crystal Water", "variant" : true,
+      "description" : "",
+      "longdescription" : "",
+      "altaDescription" : "",
+      "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ] }
+    }
+  },
+  "brand" : "NR FoodStore"
+}

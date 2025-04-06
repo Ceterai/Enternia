@@ -4,6 +4,7 @@
   "description" : "The information in this ^#b0e0fc;ebook^reset; contains descriptions of ^#80f020;haven^reset; plants and their toxic nature.",
   "longdescription" : "According to this data, the nature on stardust planets appears to be on a toxicity spectrum, with regular nature being at the lowest, and haven nature being somewhere in the middle.",
   "icon" : "ebook/security.png",
+  "species" : "alta",
   "contentPages" : [
 
     "While ^#80f020;haven^reset; nature looks a lot like regular flowery fields, all of those flowers are based on organic materials that are comparably more toxic than regular ionic iora nature.
@@ -14,9 +15,8 @@ That's the main reason why haven growth is never mentioned in ^#b0e0fc;Gyera Par
 
   ],
     "itemConfig" : {
-    "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-    "fixedPrice" : true, "level" : 4,
-    "itemTags" : [ "data_source", "ebook", "haven" ],
-    "builder" : "/items/buildscripts/alta/item.lua"
+    "level" : 4,
+    "itemTags" : [ "data_source", "ebook", "haven" ], "learnBlueprintsOnPickup" : [ "ct_haven-codex" ], // TODO in 2.4:, "ct_haven_tiller", "ct_poppy_prime_af" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_coroplic_mutant_giant",
   "colonyTags" : [ "alterash_prime", "nature", "aric", "shroom", "toxic" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 4, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "level" : 4, "category" : "sapling",
 
   "shortdescription" : "Giant Coroplic Shroom",
   "description" : "This ^#3baf2f;corplic shroom^reset; has grown to enormous sizes.",
@@ -20,7 +17,7 @@
 
   "health" : 2.5,
 
-  "inventoryIcon" : "/plants/trees/ct_aric/foliage/ct_coroplic/saplingicon.png",
+  "inventoryIcon" : "ct_coroplic_mutant_giant.png", "fixedIcon" : true,
   "fixedStem" : "ct_aric_mutant_giant", "fixedFoliage" : "ct_coroplic",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
     { "tree" : true }
   ],
 

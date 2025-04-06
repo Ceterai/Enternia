@@ -5,6 +5,7 @@
   "longdescription" : "The happenings described in the book are meant to create an association with a healthy caution around ^#f080f0;viona anomalies^reset;.",
   "altaDescription" : "I've heard this book is often being read to newcomers to ^#b0e0fc;viona corfals^reset;, who weren't wary about viona's negative consequences.",
   "icon" : "ebook/enchanted.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Viona energy, or vionia for short, is a magical whyrlpool of energies, that comes together to create a miracle. Each miracle is a surprise, and can be pretty unpredictable, if you're not very careful.
@@ -19,10 +20,9 @@ So be careful, silly altas, and don't play with vionia and tricky miazmas too mu
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "viona" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "viona" ], "learnBlueprintsOnPickup" : [ "ct_vionia-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

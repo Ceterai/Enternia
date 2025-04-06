@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_ionic_sap", "count" : 16 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "livingroot", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "floweryback",
+    "count" : 1
+  },
+  "duration" : 0.01,
+  "groups" : [ "my_enternia", "alta_dendrarium", "wild_plants", "all" ]
+}

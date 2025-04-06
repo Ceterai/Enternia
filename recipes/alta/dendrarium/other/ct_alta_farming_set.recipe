@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_hoe", "count" : 1 },
+    { "item" : "ct_alta_bucket", "count" : 1 },
+    { "item" : "ct_basic_fertilizer", "count" : 2 },
+    { "item" : "ct_ayaka_flower_pot", "count" : 1 },
+    { "item" : "ct_calin_flower_pot", "count" : 1 },
+    { "item" : "bottledwater", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_farming_set", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta_dendrarium", "l2", "loot", "other", "all", "mod" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_eds_armor", "count" : 2 },
+    { "item" : "ct_alta_thermoponics-codex", "count" : 1 },
+    { "item" : "ct_cetersphere", "count" : 1 },
+    { "item" : "ct_alta_super_sprinkler", "count" : 1 },
+    { "item" : "ct_stardust", "count" : 10 }
+  ],
+  "output" : { "item" : "ct_stardust_eco_pod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta", "alta_special", "objects", "eco_pods", "all", "mod" ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_voda_seed",
+  "colonyTags" : [ "alterash", "nature", "voda", "koywa", "sea", "farming" ], "learnBlueprintsOnPickup" : [ "ct_voda_sapling", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Vodakoywa Seed",
+  "description" : "A large-leaf aloe-like plant with soft seaweed leaves.",
+  "altaDescription" : "Vodakoywa plants are pretty rare to find on the riversides, among all other koywa plants.",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1670, 1730] },
+    { "alts" : 5, "harvestPool" : "ct_voda_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

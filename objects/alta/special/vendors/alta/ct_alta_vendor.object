@@ -1,0 +1,88 @@
+{
+  "objectName" : "ct_alta_vendor",
+  "colonyTags" : [ "city", "commerce" ],
+  "level" : 5, "price" : 120,
+  "category" : "decorative",
+  "race" : "alta",
+
+  "shortdescription" : "Alta Vendor",
+  "description" : "A vending machine in altan casing. Instead of buttons it uses a touchscreen for better navigation.",
+  "longdescription" : "These can often be found in alta cities as a hygenic no-contact method of buying snacks and refilling your drinks.",
+  "altaDescription" : "Oa, a vendor! I can get some drinks and snacks here~",
+
+  "apexDescription" : "This vending machine sells drinks and snacks.",
+  "avianDescription" : "You can buy energising drinks from this machine.",
+  "floranDescription" : "Energy drinksss help Floran ssstudy for exams!",
+  "glitchDescription" : "Disappointed. These energy drinks do little for Glitch.",
+  "humanDescription" : "Oh man. I've drunk way too many of these energy drinks.",
+  "hylotlDescription" : "A vending machine for purchasing sugary drinks and snacks.",
+  "novakidDescription" : "These energy drinks can keep you up all night. Crazy, I tell ye.",
+
+  "health" : 1.5,
+
+  "lightColor" : [100, 105, 125],
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Vending Machine", "subtitle" : " Tasty Snacks" }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.0,
+    "items" : [
+      { "item" : "ct_aya_soda" },
+      { "item" : "ct_tsay_cola" },
+      { "item" : "ct_gheanade" },
+      { "item" : "bottledwater" },
+      { "item" : "ct_vmax" },
+      { "item" : "ct_aya_candy" },
+      { "item" : "reefcola" },
+      { "item" : "ct_alta_soup_canned" }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : ["bottom"] }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+
+  //"onSound" : "/sfx/objects/vendingmachine_open1.ogg",
+  //"offSound" : "/sfx/objects/vendingmachine_close1.ogg",
+
+  //"openSounds" : [ "/sfx/objects/vendingmachine_open1.ogg" ],
+  //"closeSounds" : [ "/sfx/objects/vendingmachine_close1.ogg" ]
+}

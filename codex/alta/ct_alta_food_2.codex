@@ -4,6 +4,7 @@
   "description" : "An extensive culinary ^#b0e0fc;ebook^reset; that goes in-depth into alta cooking culture and its meaning to altas in general, as well as provides advanced recipes as examples. (Unlocks tier 3 recipes)",
   "longdescription" : "This ebook was written by a grand alta chef named Miara, a very caring alta looking forward to educate less experienced altas how to cook!",
   "icon" : "ebook/lab.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Hi again, fellow ^#b0e0fc;alta^reset;! My name is Miara and I am a grand chef at one of ^#b0e0fc;Alta-1^reset; biggest restaurants.  
@@ -33,10 +34,9 @@ These four main cuisines represent the ^#b0e0fc;Alta Quaternion^reset; - a commo
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua",
+      "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_alta_dinner", "ct_aya_punch", "ct_caliopa", "ct_crunchy_pie", "ct_fivaldo_salad", "ct_heecho_punch", "ct_hive_curry", "ct_natal_punch",
         "ct_niatto_motsu", "ct_onitti_motsu", "ct_rimar_motsu", "ct_tonna_meringue", "ct_tonna_shake", "ct_yaarizza", "ct_gil_tsay_stew", "ct_aya_gil_pie"

@@ -4,6 +4,7 @@
   "description" : "A simple ayaka bucket to water your crops in bulk. Make sure you have a drain.",
 
   "race" : "alta",
+  "itemTags" : [ "watering_can" ], "learnBlueprintsOnPickup" : [ "ct_alta_hoe" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png",

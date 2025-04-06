@@ -5,6 +5,7 @@
   "longdescription" : "These protocols are used by ^#a7e001;ghearun^reset; geologists and miners during excavations.",
   "altaDescription" : "It's always important to adhere to safety rules and protocols, so nice to see this in an easy-to-read form.",
   "icon" : "datamass/gheatsyn.png",
+  "species" : "alta",
   "contentPages" : [
 
     "The following protocol is designed to help with and regulate any excavation processes in ^#a7e001;gheatorn^reset; areas, but is also applicable to some extent for areas with similar ground density and ^#76c7e4;crystallic^reset; climate, like ^#a7e001;gheaprism^reset; surfaces and certain ^#f02080;mical^reset; areas.
@@ -36,10 +37,9 @@ All excavations should only be permitted after appropriate planning and geo-scan
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "ghearun" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "ghearun" ], "learnBlueprintsOnPickup" : [ "ct_ghearun-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

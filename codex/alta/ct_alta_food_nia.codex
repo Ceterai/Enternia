@@ -4,6 +4,7 @@
   "description" : "An ebook containing various energy-based ^#b0e0fc;alta^reset; recipes and their history. (Unlocks some nia recipes)",
   "longdescription" : "This ^#b0e0fc;ebook^reset; describes different nia recipes and the culture around them.",
   "icon" : "ebook/gyera.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#b0e0fc;Nia cuisine^reset;, or energy cuisine, is popular among sporty altas and makes up a big part of the ^#b0e0fc;Enia Diet^reset;.
@@ -17,10 +18,9 @@ It takes time to process, mostly leaving poor altas full to the brim, only willi
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
+      "level" : 4,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua",
+      "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_ionic_fresh", "ct_iso_jam", "ct_tonnakada", "ct_ometonna", "ct_zandarm_tart",
         "ct_niatto_motsu", "ct_tonna_meringue", "ct_tonna_shake", "ct_ion_cake", "ct_ion_risotto", "ct_nia_cocktail", "ct_tonna_split"

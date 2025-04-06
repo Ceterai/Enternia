@@ -4,6 +4,7 @@
   "description" : "A presentable invitation to an ^#b0e0fc;alta^reset; party, styled after the ^#497c64;koywa^reset; plants.",
   "longdescription" : "This invitation is to a riverside resort called **Auroza**. Seems like it's the grand opening and they're throwing a party! The paper is covered in heart and bikini stickers, with refreshing cocktails and other beach party attire drawn on the card.",
   "icon" : "paper/koywa.png",
+  "species" : "alta",
   "contentPages" : [
 
     "This season we're hosting a special event at our party camp!
@@ -18,9 +19,8 @@ The fun starts now!"
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 3,
-      "itemTags" : [ "data_source", "docs", "koywa" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 3,
+      "itemTags" : [ "data_source", "docs", "koywa" ], "learnBlueprintsOnPickup" : [ "ct_koywa-codex" ], // TODO in 2.4:, "ct_koywa_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

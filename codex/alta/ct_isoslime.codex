@@ -5,6 +5,7 @@
   "longdescription" : "It includes a set of simple recipes, some of which require hard-to-find ingredients.",
   "altaDescription" : "Love poi-based desserts, and also icy stuff like ice creams and iced desserts. Though disturbing actual live poi for this is a bad idea, so I'm glad there are other ways to do this instead.",
   "icon" : "ebook/isoslime.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#7ddcde;Izopoi^reset;, or isoslime, is a generally inedible material that, with proper preparation, can become a great cooking ingredient.
@@ -20,9 +21,8 @@ Izo Jam is a popular cooking ingredient in itself, used in many different cold d
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "isoslime" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "isoslime" ], "learnBlueprintsOnPickup" : [ "ct_isoslime-codex" ], // TODO in 2.4:, "ct_poi_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -6,8 +6,8 @@
   "altaDescription" : "This smell is amazing! I want to try this with every dish I can find. It's too bad it doesn't taste the well on its own, but then again - that's cooking for you, I guess.",
   "inventoryIcon" : "ct_gharus_spice.png",
 
-  "level" : 3, "rarity" : "Uncommon", "price" : 20, "race" : "alta",
-  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "level" : 3, "price" : 20, "race" : "alta",
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop",
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice" ],
 
   "builder" : "/items/buildscripts/alta/item.lua",

@@ -1,0 +1,76 @@
+{
+  "objectName" : "ct_alta_seed_vendor",
+  "level" : 5, "price" : 120, "race" : "alta",
+  "colonyTags" : [ "farming", "commerce" ],
+  "learnBlueprintsOnPickup" : [ "ct_alta_seed_vendor_rare" ],
+  "category" : "decorative",
+
+  "shortdescription" : "Alta Seed Vendor ^#2080f0;^reset;",
+  "description" : "A vending machine in altan casing. Instead of buttons it uses a touchscreen for better navigation.",
+  "longdescription" : "These can often be found in specialized stores and complexes.",
+  "altaDescription" : "From little seed, a tree will grow~",
+
+  "apexDescription" : "This vending machine sells seeds.",
+  "avianDescription" : "You can buy tasty seeds from this machine.",
+  "floranDescription" : "Floran can buy little brotherss and ssisters here.",
+  "glitchDescription" : "Interested. I wonder what seeds I can buy here.",
+  "humanDescription" : "I can make myself some healthy cereal with these.",
+  "hylotlDescription" : "A vending machine for purchasing various seeds, tubers and sprouts.",
+  "novakidDescription" : "From little seed, a tree will grow.",
+
+  "health" : 10,
+  "smashOnBreak" : true,
+  "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "metalshard" }, { "count" : 6, "particle" : "steelshard" } ],
+
+  "lightColor" : [100, 105, 125],
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : " Vending Machine", "subtitle" : " Healthy Seeds" }
+    },
+    "buyFactor" : 10.0,
+    "sellFactor" : 0.0,
+    "items" : [
+      { "item" : "ct_tsay_seed" },
+      { "item" : "ct_flowery_grass_seeds" },
+      { "item" : "ct_lush_grass_seeds" },
+      { "item" : "ct_thick_grass_seeds" },
+      { "item" : "ct_gil_seed" },
+      { "item" : "ct_grass_seeds" },
+      { "item" : "ct_aya_seed" },
+      { "item" : "ct_yaavi_seed" }
+    ]
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : ["bottom"] }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "scripts" : [ "/scripts/npcToyObject.lua" ],
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [ [1.0, "pressbutton"] ],
+      "vendingmachineCollect" : [ [1.0, "crouchcollect"] ],
+      "vendingmachineConsume" : [ [1.0, "drink"] ],
+      "vendingmachineComplete" : [ [1.0, "smile"], [0.1, "vomit"] ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

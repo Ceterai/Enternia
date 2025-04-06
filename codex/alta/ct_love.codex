@@ -5,6 +5,7 @@
   "longdescription" : "This story shows the destructive power of radiation and its effects on stardust, which are the reason for the existance of manu phospholion-related regulations.",
   "altaDescription" : "I've heard this story is about a real asta, who once met an actual time drifter, thinking it's a ray of light. Very lovely.",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "One day, while plowing through the endless expanses of Io, a little star saw a mysterious ray of light in the distance.
@@ -75,9 +76,8 @@ The little ray, glowing with excitement, agreed. \"I will stay, but I will have 
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 240, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 7,
-      "itemTags" : [ "data_source", "ebook", "love", "tiana", "lenn" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 7,
+      "itemTags" : [ "data_source", "ebook", "love", "tiana", "lenn" ], "learnBlueprintsOnPickup" : [ "ct_love-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

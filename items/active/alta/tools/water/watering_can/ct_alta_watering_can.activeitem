@@ -4,6 +4,7 @@
   "description" : "Gently and efficiently water your crops.",
 
   "level" : 2, "race" : "alta",
+  "itemTags" : [ "watering_can" ], "learnBlueprintsOnPickup" : [ "ct_alta_lumber_cutter" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png",

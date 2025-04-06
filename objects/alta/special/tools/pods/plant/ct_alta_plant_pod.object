@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_alta_plant_pod",
+  "colonyTags" : [ "city", "garden", "plant_pod" ], "learnBlueprintsOnPickup" : [ "ct_alta_plant_bed", "ct_alta_plant", "ct_alta_plant_alien", "ct_alta_plant_coral" ],
+  "category" : "sapling", "objectType" : "container",
+  "level" : 3, "price" : 100, "race" : "alta",
+
+  "shortdescription" : "Alta Plant Pod",
+  "description" : "A decorative plant in a big titanium pod-like vase.",
+  "longdescription" : "The capabilities are rather limited, yet even still this is a fascinating peace of technology able to keep a growing lifeform alive and well.",
+  "altaDescription" : "Some nice koywa leaves to bring life to any space! The vase is a complicated device that keeps it alive.",
+
+  "apexDescription" : "This plant seems to grow from a special alta eco chamber. An expected level of care towards nature.",
+  "avianDescription" : "A pretty plant that gets all the things it needs from that big pot!",
+  "floranDescription" : "A plant in lotsss of metal. Very protected.",
+  "glitchDescription" : "Unsure. The pot for this plant seems to be bigger than the plant itself.",
+  "humanDescription" : "Reminds me of waiting rooms.",
+  "hylotlDescription" : "A complicated titanium pod with a pretty plant growing inside it.",
+  "novakidDescription" : "Some complicated alta tech, all just to make a plant grow, huh.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

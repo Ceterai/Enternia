@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_turanta_seed",
+  "colonyTags" : [ "alterash", "nature", "haven", "farming" ], "learnBlueprintsOnPickup" : [ "ct_turanta_sapling", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 2,
+
+  "shortdescription" : "Turanta Seed",
+  "description" : "A lush flower with big petals that is constantly growing.",
+  "altaDescription" : "A pretty turanta! Its big petals can be quite useful!",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1670, 1730] },
+    { "alts" : 5, "harvestPool" : "ct_turanta_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

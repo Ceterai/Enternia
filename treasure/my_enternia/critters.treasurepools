@@ -12,6 +12,11 @@
 
   "ct_floating_calline-loot" : [ [0, { "fill" : [ { "item" : "ct_floating_calline_egg" } ] } ] ],
   "ct_miazmur-loot" : [ [0, { "fill" : [ { "item" : "ct_miazmur_egg" } ] } ] ],
+  // TODO in 2.4
+  // "ct_ariling-loot" : [ [0, { "fill" : [ { "item" : "ct_ariling_egg" } ] } ] ],
+  // "ct_hunter_flower-loot" : [ [0, { "fill" : [ { "item" : "ct_hunter_flower_egg" } ] } ] ],
+  "ct_ariling-loot" : [ [0, { "fill" : [ ] } ] ],
+  "ct_hunter_flower-loot" : [ [0, { "fill" : [ ] } ] ],
 
   // Hunting Loot
   // added in 2.3.4b

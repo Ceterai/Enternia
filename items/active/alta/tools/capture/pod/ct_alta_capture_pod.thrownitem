@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_alta_capture_pod",
+  "shortdescription" : "Capture Pod",
+  "description" : "Throw it at a monster to forcefully capture it and bring it to a new home.",
+
+  "level" : 5, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "body.png",
+  "objectImage" : "body.png",
+  "image" : "body.png",
+  "radioMessagesOnPickup" : [ "pickupcapturepod" ],
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_capture_blast",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

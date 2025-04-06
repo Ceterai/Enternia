@@ -4,13 +4,12 @@
   "description" : "An energy-based alta lumber cutter.",
 
   "level" : 5, "race" : "alta",
-  "itemTags" : [ "upgradeableWeapon" ],
+  "itemTags" : [ "cutter", "upgradeableWeapon" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "elementalType" : "electric",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:idle",
   "twoHanded" : true,
-  "maxStack" : 1,
-
   "image" : "body.png:{frame}",
   "frames" : 5,
   "animationCycle" : 0.5,

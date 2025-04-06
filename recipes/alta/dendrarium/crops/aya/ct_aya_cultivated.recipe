@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_aya_sapling", "count" : 1 },
+    { "item" : "ct_ionic_fertilizer", "count" : 1 },
+    { "item" : "ct_aya_seed", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_aya_cultivated", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_crops", "nature", "crop", "all", "mod" ]
+}

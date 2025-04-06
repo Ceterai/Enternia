@@ -1,0 +1,15 @@
+{
+  "objectName" : "ct_warped_bush_af",
+  "colonyTags" : [ "nature", "bush", "warped", "garden" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 280,
+
+  "shortdescription" : "Potted Warped Bush",
+  "description" : "A seemingly unsuspecting bush in a composite pot.",
+  "altaDescription" : "Looking at it fills me with delight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-1, 0], "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

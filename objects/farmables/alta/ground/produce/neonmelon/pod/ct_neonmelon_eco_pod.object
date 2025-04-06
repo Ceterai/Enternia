@@ -1,0 +1,28 @@
+{
+  "objectName" : "ct_neonmelon_eco_pod",
+  "colonyTags" : [ "neonmelon", "farming" ], "learnBlueprintsOnPickup" : [ "neonmelonseed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "Neonmelon Eco Pod ^#8020f0;^reset;",
+  "description" : "Contains a modified carel sapling, as well as all things necessary for it to ripe. Can be placed anywhere.",
+  "altaDescription" : "Unlike alunika, carel is an edible crystal growing from a plant, not a plant-like crystal.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "ct_sapling.png:default.4.0",
+  "orientations" : [
+    { "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "duration" : [1860, 1940] },
+    { "harvestPool" : "ct_gil_poor_harvest", "resetToStage" : 2 }
+  ],
+
+  "consumeSoilMoisture" : false,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

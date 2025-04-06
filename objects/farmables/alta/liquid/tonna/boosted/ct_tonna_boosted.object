@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_tonna_boosted",
+  "colonyTags" : [ "alterash_prime", "nature", "tonnova", "farming" ], "learnBlueprintsOnPickup" : [ "ct_tonna_eco_pod" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 6,
+
+  "shortdescription" : "Boosted Tonna Sapling",
+  "description" : "This sapling comes with enhanced mutations that allow much faster ripening. Requires to be at least 50% in a liquid.",
+  "altaDescription" : "Now I don't have to climb a tonnova to get me some tonnas!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_tonna_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

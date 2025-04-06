@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_wild_ruka_seed",
+  "colonyTags" : [ "alterash", "nature", "bio" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Ruka Seed",
+  "description" : "A project Ruka 14-2 seed that has adapted to nature and can be randomly growing in wet areas.",
+  "altaDescription" : "This plant was initially created in a lab! Now look at it, growing like that~",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_ruka_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_ruka_seed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false
+}

@@ -5,6 +5,7 @@
   "longdescription" : "From the text it is clear that most of the flora found in eva is of cosmic origins, and boils down to alien lifeforms getting stuck in the clouds on their way down, surviving the fall.",
   "altaDescription" : "I've yet to see it myself, but judging how specific the conditions are, I think I'm better off traveling to an ^#60c0fc;arknight^reset; station for that.",
   "icon" : "datamass/arknight.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Believe it or not, eva areas do have a whole variety of life, with its own light and tangly cosmic flora, and its own aviary and ethereal fauna.
@@ -26,10 +27,9 @@ It's worth noting that there are some species alien to the area that are slowly 
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "eva" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5,
+      "itemTags" : [ "data_source", "datamass", "eva" ], "learnBlueprintsOnPickup" : [ "ct_eva-codex" ], // TODO in 2.4:, "ct_ezmeralda_af" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "lumena pods" : { "icon" : "none" },

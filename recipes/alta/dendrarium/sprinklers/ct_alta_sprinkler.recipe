@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidwater", "count" : 16 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "moonrock", "count" : 4 },
+    { "item" : "ct_alta_ponics-codex", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_sprinkler", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "alta_constructor6", "alta_special", "alta_dendrarium", "objects", "wired", "sprinklers", "all", "mod" ]
+}

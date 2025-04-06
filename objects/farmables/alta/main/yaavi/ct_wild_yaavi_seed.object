@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_wild_yaavi_seed",
+  "colonyTags" : [ "alterash", "nature", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaavi_seed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 1,
+
+  "shortdescription" : "Wild Yaara Eye Sprout",
+  "description" : "It will grow into a spring with juicy yaara eyes, also known as yaavis.",
+  "altaDescription" : "A wild yaavi spring. Seems like this one ripes once in a while, unlike usual yaavi pulps.",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [680, 1320] },
+    { "duration" : [680, 1320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_yaavi_poor_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

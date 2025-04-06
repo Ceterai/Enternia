@@ -1,13 +1,12 @@
 {
   "input" : [
-    { "item" : "ct_ayaka_wood", "count" : 2 },
-    { "item" : "titaniumbar", "count" : 2 },
-    { "item" : "ct_yaara_root", "count" : 2 }
+    { "item" : "ct_yaara_lamp_crystal", "count" : 1 },
+    { "item" : "ct_alta_plant_pod", "count" : 1 }
   ],
   "output" : {
     "item" : "ct_alta_plant_yaara",
     "count" : 1
   },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_city", "objects", "decoration", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_constructor2", "alta_dendrarium", "potted_flowers", "alta", "alta_city", "objects", "decoration", "all", "mod" ]
 }

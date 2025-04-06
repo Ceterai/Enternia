@@ -1,0 +1,28 @@
+{
+  "objectName" : "ct_voda_eco_pod",
+  "colonyTags" : [ "alterash", "nature", "voda", "koywa", "sea" ], "learnBlueprintsOnPickup" : [ "ct_voda_seed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "Vodakoywa Eco Pod",
+  "description" : "Contains a modified kelp sapling, as well as all things necessary for it to ripe. Can be placed anywhere.",
+  "altaDescription" : "A koywa kelp sapling is always a nice addition to your aquatic farm.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "ct_sapling.png:default.4.0",
+  "orientations" : [
+    { "dualImage" : "ct_sapling.png:<color>.<stage>.<alt>", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "duration" : [1860, 1940] },
+    { "harvestPool" : "ct_voda_harvest", "resetToStage" : 2 }
+  ],
+
+  "consumeSoilMoisture" : false,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

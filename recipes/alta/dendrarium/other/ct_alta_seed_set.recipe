@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "crystalplantseed", "count" : 1 },
+    { "item" : "ct_tsay_seed", "count" : 1 },
+    { "item" : "ct_flowery_grass_seeds", "count" : 1 },
+    { "item" : "beakseedseed", "count" : 1 },
+    { "item" : "ct_gil_seed", "count" : 1 },
+    { "item" : "ct_grass_seeds", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_seed_set", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta_dendrarium", "l3", "loot", "other", "all", "mod" ]
+}

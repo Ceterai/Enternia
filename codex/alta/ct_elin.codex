@@ -3,6 +3,7 @@
   "title" : "Elin's Invite",
   "description" : "A ^#b0e0fc;datamass^reset; containing some sort of invitation.",
   "icon" : "datamass/elin.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Hi! Welcome to your life, dear ^#b0e0fc;alta^reset;.
@@ -16,9 +17,8 @@ With love, ^#76c7e4;Elin^reset;. «"
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "elin" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "elin" ], "learnBlueprintsOnPickup" : [ "ct_elin-codex" ], // TODO in 2.4:, "ct_elin_ayaka_tree" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

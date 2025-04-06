@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_warped_tree",
+  "colonyTags" : [ "alterash", "nature", "warped" ], "learnBlueprintsOnPickup" : [ "ct_warped_bush_af" ],
+  "level" : 4, "category" : "sapling",
+
+  "shortdescription" : "Warped Tree ^#20f080;^reset;",
+  "description" : "A piece of powerful warped growth rich on glow fibre, able to reach significant sizes.",
+  "longdescription" : "In nature, it's unknown whether this tree was ever \"un-warped\" or grew after areal contamination. In lab environments, altas usually use pre-warped growth in their experiments, rather than relying on contaminating existing plants.",
+  "altaDescription" : "This eco pod contains a sapling of a warped tree.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "ct_warped_tree.png", "fixedIcon" : true,
+  "fixedStem" : "ct_warped_yaara_stem", "fixedFoliage" : "ct_yaara_leaves",
+  "fixedStemHues" : [ 100 ], "fixedFoliageHues" : [ 120, 180 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/city/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/alta/sapling.lua"
+}

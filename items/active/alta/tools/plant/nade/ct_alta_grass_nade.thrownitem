@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_alta_grass_nade",
+  "shortdescription" : "Alta Grass Nade",
+  "description" : "Toss these on any ground to explode with various grass.",
+
+  "level" : 7, "price" : 20, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "ct_alta_grass_nade.png",
+  "objectImage" : "ct_alta_grass_nade.png",
+  "image" : "ct_alta_grass_nade.png",
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_omni_grass_blast",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

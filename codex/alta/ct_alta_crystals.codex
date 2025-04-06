@@ -4,6 +4,7 @@
   "description" : "An small ebook containing some ^#76c7e4;crystal^reset;-related information and classification. Seems to do with how ^#b0e0fc;altas^reset; utilize various crystals in their culture.",
   "longdescription" : "This classification also explains the terms and alternative names of certain crystal types, giving additional clarity. The ebook itself is a good navigation point for learning about alta crystals.",
   "icon" : "ebook/lab.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#ffa8e8;Stardust^reset; ^#ffffff;planets^reset; and cosmic bodies, or ^#ffa8e8;Io Structs^reset;, thrive with a variety of crystals and semi-crystal matters. Even the integral part of ^#ffa8e8;Io^reset; - stardust itself - can be found here in form of ^#ffa8e8;stardust crystals^reset;.
@@ -32,10 +33,9 @@ Read more on individual crystal species to learn more about them and how they ar
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

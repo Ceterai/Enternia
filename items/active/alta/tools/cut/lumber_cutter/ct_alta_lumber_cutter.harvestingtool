@@ -1,16 +1,15 @@
 {
   "itemName" : "ct_alta_lumber_cutter",
-  "description" : "Great for chopping down trees. Try to avoid massacres.",
-  "shortdescription" : "Chainsaw",
+  "shortdescription" : "Alta Lumber Cutter",
+  "description" : "Great for chopping down trees.",
 
   "level" : 3, "race" : "alta",
-  "itemTags" : [ "upgradeableWeapon" ],
+  "itemTags" : [ "cutter", "upgradeableWeapon" ], "learnBlueprintsOnPickup" : [ "ct_altan_can" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
+
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:idle",
   "twoHanded" : true,
-  "maxStack" : 1,
-
   "image" : "body.png:{frame}",
   "frames" : 5,
   "animationCycle" : 0.5,

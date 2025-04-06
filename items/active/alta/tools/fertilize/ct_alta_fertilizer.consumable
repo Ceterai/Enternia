@@ -1,0 +1,12 @@
+{
+  "itemName" : "ct_alta_fertilizer",
+  "shortdescription" : "Alta Fertilizer",
+  "description" : "A generic all-purpose ferilizer fit for most plants. Will likely not poison you, unlike others.",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "level" : 2, "race" : "alta", "category" : "food",
+  "build" : { "foodValue" : 4, "rotToEffectRatio" : 19.0 },
+  "inventoryIcon" : "ct_alta_fertilizer.png",
+  "itemTags" : [ "fertilizer" ], "learnBlueprintsOnPickup" : [ "ct_alta_fertilizer" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua"
+}

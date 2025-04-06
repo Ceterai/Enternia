@@ -1,6 +1,16 @@
 [
     {
         "path": "/codex/alta/",
+        "fileName": "ct_alta_botanics.codex",
+        "name": "ct_alta_botanics-codex",
+        "shortdescription": "Alta Botanics Guide ^#2080f0;^reset;",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_alta_capital.codex",
         "name": "ct_alta_capital-codex",
         "shortdescription": "Alta Capitals",
@@ -37,6 +47,36 @@
         "category": "codex",
         "icon": "ebook/lab.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_ecoponics.codex",
+        "name": "ct_alta_ecoponics-codex",
+        "shortdescription": "Alta Ecoponics ^#8020f0;^reset;",
+        "category": "codex",
+        "icon": "datamass/astera.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_farming.codex",
+        "name": "ct_alta_farming-codex",
+        "shortdescription": "Alta Farmer's Notes",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_flowers.codex",
+        "name": "ct_alta_flowers-codex",
+        "shortdescription": "Flower Lover's Guide",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -101,6 +141,16 @@
     },
     {
         "path": "/codex/alta/",
+        "fileName": "ct_alta_hydroponics.codex",
+        "name": "ct_alta_hydroponics-codex",
+        "shortdescription": "Alta Hydroponics ^#2080f0;^reset;",
+        "category": "codex",
+        "icon": "datamass/elin.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_alta_lab.codex",
         "name": "ct_alta_lab-codex",
         "shortdescription": "Alta Labs",
@@ -151,6 +201,26 @@
     },
     {
         "path": "/codex/alta/",
+        "fileName": "ct_alta_omniponics.codex",
+        "name": "ct_alta_omniponics-codex",
+        "shortdescription": "Alta Omniponics",
+        "category": "codex",
+        "icon": "datamass/void.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_ponics.codex",
+        "name": "ct_alta_ponics-codex",
+        "shortdescription": "Altaponics",
+        "category": "codex",
+        "icon": "/items/generic/crafting/alta/datamass.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_alta_security.codex",
         "name": "ct_alta_security-codex",
         "shortdescription": "Security Protocol Datamass",
@@ -166,6 +236,36 @@
         "shortdescription": "Alta Ships",
         "category": "codex",
         "icon": "ebook/ship.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_soil_enrichment.codex",
+        "name": "ct_alta_soil_enrichment-codex",
+        "shortdescription": "Alta Soil Enrichment",
+        "category": "codex",
+        "icon": "ebook/gyera.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_terraponics.codex",
+        "name": "ct_alta_terraponics-codex",
+        "shortdescription": "Alta Terraponics ^#20f080;^reset;",
+        "category": "codex",
+        "icon": "datamass/arknight.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_thermoponics.codex",
+        "name": "ct_alta_thermoponics-codex",
+        "shortdescription": "Alta Thermoponics ^#f02080;^reset;",
+        "category": "codex",
+        "icon": "datamass/stardust.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -226,7 +326,7 @@
         "shortdescription": "Ayaka Gardener's Notes",
         "category": "codex",
         "icon": "paper/ayaka.png",
-        "rarity": "rare",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -286,7 +386,8 @@
         "shortdescription": "Welcome to Alterash!",
         "category": "codex",
         "icon": "paper/title.png",
-        "rarity": "common"
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -615,7 +716,7 @@
         "shortdescription": "River Camping Brochure",
         "category": "codex",
         "icon": "paper/koywa.png",
-        "rarity": "rare",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -645,7 +746,8 @@
         "shortdescription": "EDS Command Communication Log",
         "category": "codex",
         "icon": "datamass/eds.png",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -654,7 +756,8 @@
         "shortdescription": "EDS Server Connector Log",
         "category": "codex",
         "icon": "datamass/eds.png",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -683,7 +786,8 @@
         "shortdescription": "Guide to My Enternia",
         "category": "codex",
         "icon": "ebook/basic.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -702,7 +806,8 @@
         "shortdescription": "EDS Status Analysis",
         "category": "codex",
         "icon": "datamass/eds.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -711,7 +816,8 @@
         "shortdescription": "A Secret Note",
         "category": "codex",
         "icon": "datamass/ionic.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -720,7 +826,8 @@
         "shortdescription": "CEN-7 Reapplication Request",
         "category": "codex",
         "icon": "datamass/plasma.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -729,7 +836,8 @@
         "shortdescription": "Evacuation Notes",
         "category": "codex",
         "icon": "datamass/impulse.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/codex/alta/",
@@ -828,7 +936,7 @@
         "shortdescription": "A Virma's Friend",
         "category": "codex",
         "icon": "ebook/gyera.png",
-        "rarity": "rare",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -1254,6 +1362,56 @@
         "category": "mysteriousReward",
         "icon": "gsr.png",
         "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/packs/advanced/",
+        "fileName": "farming.activeitem",
+        "name": "ct_alta_farming_set_2",
+        "shortdescription": "Advanced Farming Pack",
+        "category": "mysteriousReward",
+        "icon": "farming.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/packs/advanced/",
+        "fileName": "gyera.activeitem",
+        "name": "ct_gyera_set",
+        "shortdescription": "Gyera Pack",
+        "category": "mysteriousReward",
+        "icon": "gyera.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/packs/basic/",
+        "fileName": "farming.activeitem",
+        "name": "ct_alta_farming_set",
+        "shortdescription": "Alta Farming Pack",
+        "category": "mysteriousReward",
+        "icon": "farming.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/packs/master/",
+        "fileName": "farming.activeitem",
+        "name": "ct_alta_farming_set_3",
+        "shortdescription": "Master Farming Pack",
+        "category": "mysteriousReward",
+        "icon": "farming.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/packs/other/",
+        "fileName": "seed.activeitem",
+        "name": "ct_alta_seed_set",
+        "shortdescription": "Alta Seed Pack",
+        "category": "mysteriousReward",
+        "icon": "seed.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -2586,21 +2744,23 @@
     },
     {
         "path": "/items/active/alta/tools/capture/filled_pod/",
-        "fileName": "filledcapturepod.activeitem",
+        "fileName": "ct_alta_filled_capture_pod.activeitem",
         "name": "ct_alta_filled_capture_pod",
         "shortdescription": "Filled Capture Pod",
         "category": "throwableItem",
-        "icon": "filledcapturepodicon.png",
-        "rarity": "common"
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/tools/capture/pod/",
-        "fileName": "capturepod.thrownitem",
+        "fileName": "ct_alta_capture_pod.thrownitem",
         "name": "ct_alta_capture_pod",
         "shortdescription": "Capture Pod",
         "category": "throwableItem",
-        "icon": "capturepod.png",
-        "rarity": "common"
+        "icon": "body.png",
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/tools/clean/broom/",
@@ -2620,6 +2780,16 @@
         "category": "tool",
         "icon": "icon.png",
         "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/clean/pollenizer/",
+        "fileName": "ct_alta_pollenizer.activeitem",
+        "name": "ct_alta_pollenizer",
+        "shortdescription": "Alta Pollenizer ^#2080f0;^reset;",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -2679,6 +2849,106 @@
         "shortdescription": "Alta Quick Builder",
         "category": "tool",
         "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_alta_fertilizer.consumable",
+        "name": "ct_alta_fertilizer",
+        "shortdescription": "Alta Fertilizer",
+        "category": "food",
+        "icon": "ct_alta_fertilizer.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_basic_fertilizer.consumable",
+        "name": "ct_basic_fertilizer",
+        "shortdescription": "Soil Fertilizer",
+        "category": "food",
+        "icon": "ct_basic_fertilizer.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_benema_fertilizer.consumable",
+        "name": "ct_benema_fertilizer",
+        "shortdescription": "Benema Fertilizer",
+        "category": "food",
+        "icon": "ct_benema_fertilizer.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_biomix_fertilizer.consumable",
+        "name": "ct_biomix_fertilizer",
+        "shortdescription": "Biomix Fertilizer",
+        "category": "food",
+        "icon": "ct_biomix_fertilizer.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_boost_fertilizer.consumable",
+        "name": "ct_boost_fertilizer",
+        "shortdescription": "Boostilizer",
+        "category": "food",
+        "icon": "ct_boost_fertilizer.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_bubble_fertilizer.consumable",
+        "name": "ct_bubble_fertilizer",
+        "shortdescription": "Bubble Fertilizer",
+        "category": "food",
+        "icon": "ct_bubble_fertilizer.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_calin_fertilizer.consumable",
+        "name": "ct_calin_fertilizer",
+        "shortdescription": "Calin Fertilizer ^#20f080;^reset;",
+        "category": "food",
+        "icon": "ct_calin_fertilizer.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_gyera_fertilizer.consumable",
+        "name": "ct_gyera_fertilizer",
+        "shortdescription": "Gyera Fertilizer",
+        "category": "food",
+        "icon": "ct_gyera_fertilizer.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_ionic_fertilizer.consumable",
+        "name": "ct_ionic_fertilizer",
+        "shortdescription": "Ionic Fertilizer",
+        "category": "food",
+        "icon": "ct_ionic_fertilizer.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/fertilize/",
+        "fileName": "ct_plasma_fertilizer.consumable",
+        "name": "ct_plasma_fertilizer",
+        "shortdescription": "Plasma Fertilizer ^#20f080;^reset;",
+        "category": "food",
+        "icon": "ct_plasma_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -2782,6 +3052,26 @@
         "rarity": "rare"
     },
     {
+        "path": "/items/active/alta/tools/lights/flare_blaster/",
+        "fileName": "ct_alta_flare_blaster.activeitem",
+        "name": "ct_alta_flare_blaster",
+        "shortdescription": "Alta Flare Blaster",
+        "category": "ranged",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/lights/tazer/",
+        "fileName": "ct_alta_tazer.activeitem",
+        "name": "ct_alta_tazer",
+        "shortdescription": "Alta Tazer",
+        "category": "ranged",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/items/active/alta/tools/mine/celestial_pick/",
         "fileName": "ct_celestial_pick.activeitem",
         "name": "ct_celestial_pick",
@@ -2862,22 +3152,228 @@
         "race": "alta"
     },
     {
-        "path": "/items/active/alta/tools/plant/",
-        "fileName": "flowerygrassseeds.thrownitem",
-        "name": "ct_flowery_grass_seeds",
-        "shortdescription": "Flowery Grass Seeds",
-        "category": "throwableItem",
-        "icon": "flowerygrassseeds.png",
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_alta_baton.activeitem",
+        "name": "ct_alta_baton",
+        "shortdescription": "Alta Baton",
+        "category": "shortsword",
+        "icon": null,
         "rarity": "common"
     },
     {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_alta_grass_blaster.activeitem",
+        "name": "ct_alta_grass_blaster",
+        "shortdescription": "Alta Grass Blaster ^#2080f0;^reset;",
+        "category": "tool",
+        "icon": "ct_alta_grass_blaster.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_ayaka_stick.activeitem",
+        "name": "ct_ayaka_stick",
+        "shortdescription": "Ayaka Stick",
+        "category": "shortsword",
+        "icon": null,
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_gyera_blaster.activeitem",
+        "name": "ct_gyera_blaster",
+        "shortdescription": "Gyera Blaster",
+        "category": "tool",
+        "icon": "ct_gyera_blaster.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_haven_thrower.activeitem",
+        "name": "ct_haven_thrower",
+        "shortdescription": "Haven Grassthrower ^#8020f0;^reset;",
+        "category": "tool",
+        "icon": "ct_haven_thrower.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_yaara_wand.activeitem",
+        "name": "ct_yaara_wand",
+        "shortdescription": "Yaara Wand ^#8020f0;^reset;",
+        "category": "tool",
+        "icon": "ct_yaara_wand.png",
+        "rarity": "legendary"
+    },
+    {
         "path": "/items/active/alta/tools/plant/",
-        "fileName": "grassseeds.thrownitem",
+        "fileName": "ct_colorful_grass_seeds.thrownitem",
+        "name": "ct_colorful_grass_seeds",
+        "shortdescription": "Colorful Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_colorful_grass_seeds.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_crimson_grass_seeds.thrownitem",
+        "name": "ct_crimson_grass_seeds",
+        "shortdescription": "Crimson Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_crimson_grass_seeds.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_flowery_grass_seeds.thrownitem",
+        "name": "ct_flowery_grass_seeds",
+        "shortdescription": "Flowery Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_flowery_grass_seeds.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_grass_seeds.thrownitem",
         "name": "ct_grass_seeds",
         "shortdescription": "Grass Seeds",
         "category": "throwableItem",
-        "icon": "grassseedsicon.png",
-        "rarity": "common"
+        "icon": "ct_grass_seeds.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_lush_grass_seeds.thrownitem",
+        "name": "ct_lush_grass_seeds",
+        "shortdescription": "Lush Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_lush_grass_seeds.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_mical_grass_seeds.thrownitem",
+        "name": "ct_mical_grass_seeds",
+        "shortdescription": "Mical Growth Seeds",
+        "category": "throwableItem",
+        "icon": "ct_mical_grass_seeds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_thick_grass_seeds.thrownitem",
+        "name": "ct_thick_grass_seeds",
+        "shortdescription": "Thick Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_thick_grass_seeds.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/",
+        "fileName": "ct_warped_grass_seeds.thrownitem",
+        "name": "ct_warped_grass_seeds",
+        "shortdescription": "Warped Grass Seeds",
+        "category": "throwableItem",
+        "icon": "ct_warped_grass_seeds.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/nade/",
+        "fileName": "ct_alta_grass_nade.thrownitem",
+        "name": "ct_alta_grass_nade",
+        "shortdescription": "Alta Grass Nade",
+        "category": "throwableItem",
+        "icon": "ct_alta_grass_nade.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_colorful_grass_seeds.thrownitem",
+        "name": "ct_omni_colorful_grass_seeds",
+        "shortdescription": "Omni Colorful Seeds ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_colorful_grass_seeds.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_crimson_grass_seeds.thrownitem",
+        "name": "ct_omni_crimson_grass_seeds",
+        "shortdescription": "Omni Crimson Seeds ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_crimson_grass_seeds.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_flowery_grass_seeds.thrownitem",
+        "name": "ct_omni_flowery_grass_seeds",
+        "shortdescription": "Omni Flowery Seeds ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_flowery_grass_seeds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_grass_seeds.thrownitem",
+        "name": "ct_omni_grass_seeds",
+        "shortdescription": "Omni Grass Seeds ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_grass_seeds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_lush_grass_seeds.thrownitem",
+        "name": "ct_omni_lush_grass_seeds",
+        "shortdescription": "Omni Lush Seeds ^#2080f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_lush_grass_seeds.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_mical_grass_seeds.thrownitem",
+        "name": "ct_omni_mical_grass_seeds",
+        "shortdescription": "Omni Mical Seeds ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_mical_grass_seeds.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_thick_grass_seeds.thrownitem",
+        "name": "ct_omni_thick_grass_seeds",
+        "shortdescription": "Omni Thick Seeds",
+        "category": "throwableItem",
+        "icon": "ct_thick_grass_seeds.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/tools/plant/omni/",
+        "fileName": "ct_warped_grass_seeds.thrownitem",
+        "name": "ct_omni_warped_grass_seeds",
+        "shortdescription": "Omni Warped Seeds ^#8020f0;^reset;",
+        "category": "throwableItem",
+        "icon": "ct_warped_grass_seeds.png",
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/tools/rail/energy_hook/",
@@ -3119,30 +3615,21 @@
     },
     {
         "path": "/items/active/alta/toys/bow/",
-        "fileName": "bow.activeitem",
+        "fileName": "ct_alta_bow.activeitem",
         "name": "ct_alta_bow",
         "shortdescription": "Alta Bow",
         "category": "toy",
-        "icon": "bowicon.png",
+        "icon": "icon.png",
         "rarity": "common"
     },
     {
-        "path": "/items/active/alta/toys/bubblegun/",
-        "fileName": "bubblegun.activeitem",
+        "path": "/items/active/alta/toys/bubble/blaster/",
+        "fileName": "ct_alta_bubbler.activeitem",
         "name": "ct_alta_bubbler",
         "shortdescription": "Bubble Blaster",
         "category": "toy",
-        "icon": "bubblegunicon.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/active/alta/toys/cupidsbow/",
-        "fileName": "cupidsbow.activeitem",
-        "name": "ct_estria_bow",
-        "shortdescription": "Estria's Bow",
-        "category": "bow",
-        "icon": "cupidsbowicon.png",
-        "rarity": "rare"
+        "icon": "icon.png",
+        "rarity": "common"
     },
     {
         "path": "/items/active/alta/toys/dart/",
@@ -3181,7 +3668,16 @@
         "rarity": "common"
     },
     {
-        "path": "/items/active/alta/toys/paintgun/",
+        "path": "/items/active/alta/toys/love/",
+        "fileName": "cupidsbow.activeitem",
+        "name": "ct_estria_bow",
+        "shortdescription": "Estria's Bow",
+        "category": "bow",
+        "icon": "cupidsbowicon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/items/active/alta/toys/paint/",
         "fileName": "paintgunblue.activeitem",
         "name": "ct_alta_painter_blue",
         "shortdescription": "Blue Paintgun",
@@ -3190,7 +3686,7 @@
         "rarity": "uncommon"
     },
     {
-        "path": "/items/active/alta/toys/paintgun/",
+        "path": "/items/active/alta/toys/paint/",
         "fileName": "paintgungreen.activeitem",
         "name": "ct_alta_painter_green",
         "shortdescription": "Green Paintgun",
@@ -3199,7 +3695,7 @@
         "rarity": "uncommon"
     },
     {
-        "path": "/items/active/alta/toys/paintgun/",
+        "path": "/items/active/alta/toys/paint/",
         "fileName": "paintgunpurple.activeitem",
         "name": "ct_alta_painter_purple",
         "shortdescription": "Purple Paintgun",
@@ -3208,7 +3704,7 @@
         "rarity": "uncommon"
     },
     {
-        "path": "/items/active/alta/toys/paintgun/",
+        "path": "/items/active/alta/toys/paint/",
         "fileName": "paintgunred.activeitem",
         "name": "ct_alta_painter_red",
         "shortdescription": "Red Paintgun",
@@ -3226,13 +3722,22 @@
         "rarity": "common"
     },
     {
-        "path": "/items/active/alta/toys/snowgun/",
+        "path": "/items/active/alta/toys/snow/blaster/",
         "fileName": "snowgun.activeitem",
         "name": "ct_alta_snowthrower",
         "shortdescription": "Snowball Shooter",
         "category": "toy",
         "icon": "snowgun.png",
         "rarity": "uncommon"
+    },
+    {
+        "path": "/items/active/alta/toys/water/blaster/",
+        "fileName": "ct_waterblaster.activeitem",
+        "name": "ct_waterblaster",
+        "shortdescription": "Waterblaster",
+        "category": "toy",
+        "icon": "ct_waterblaster.png",
+        "rarity": "legendary"
     },
     {
         "path": "/items/active/shields/",
@@ -3620,15 +4125,6 @@
         "race": "alta"
     },
     {
-        "path": "/items/active/weapons/ranged/alta/blaster/",
-        "fileName": "ct_waterblaster.activeitem",
-        "name": "ct_waterblaster",
-        "shortdescription": "Waterblaster",
-        "category": "toy",
-        "icon": "ct_waterblaster.png",
-        "rarity": "legendary"
-    },
-    {
         "path": "/items/active/weapons/ranged/alta/cannon/",
         "fileName": "ct_bishyn_gun.activeitem",
         "name": "ct_bishyn_gun",
@@ -3930,15 +4426,6 @@
         "icon": "ct_tsentarish.png",
         "rarity": "legendary",
         "race": "alta"
-    },
-    {
-        "path": "/items/active/weapons/ranged/alta/unique/",
-        "fileName": "ct_yaara_wand.activeitem",
-        "name": "ct_yaara_wand",
-        "shortdescription": "Yaara Wand ^red;WIP^reset;",
-        "category": "tool",
-        "icon": "ct_yaara_wand.png",
-        "rarity": "legendary"
     },
     {
         "path": "/items/active/weapons/ranged/alta/wrist/",
@@ -5575,7 +6062,8 @@
         "shortdescription": "Aya Powder",
         "category": "cookingIngredient",
         "icon": "ct_aya_powder.png",
-        "rarity": "common"
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/generic/food/other/",
@@ -5701,13 +6189,23 @@
         "fileName": "ct_alta_soup_canned.consumable",
         "name": "ct_alta_soup_canned",
         "shortdescription": "Canned Altasoup",
-        "category": "food",
+        "category": "preparedFood",
         "icon": "ct_alta_soup_canned.png",
         "rarity": "uncommon",
         "race": "alta"
     },
     {
         "path": "/items/generic/food/shop/",
+        "fileName": "ct_alta_water.consumable",
+        "name": "ct_alta_water",
+        "shortdescription": "Alta Water",
+        "category": "drink",
+        "icon": "ct_alta_water.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/shop/drinks/",
         "fileName": "ct_aya_soda.consumable",
         "name": "ct_aya_soda",
         "shortdescription": "Ayoda",
@@ -5717,7 +6215,7 @@
         "race": "alta"
     },
     {
-        "path": "/items/generic/food/shop/",
+        "path": "/items/generic/food/shop/drinks/",
         "fileName": "ct_gheanade.consumable",
         "name": "ct_gheanade",
         "shortdescription": "Gheanade",
@@ -5727,7 +6225,7 @@
         "race": "alta"
     },
     {
-        "path": "/items/generic/food/shop/",
+        "path": "/items/generic/food/shop/drinks/",
         "fileName": "ct_tsay_cola.consumable",
         "name": "ct_tsay_cola",
         "shortdescription": "Tsay-Cola",
@@ -5737,7 +6235,7 @@
         "race": "alta"
     },
     {
-        "path": "/items/generic/food/shop/",
+        "path": "/items/generic/food/shop/drinks/",
         "fileName": "ct_vmax.consumable",
         "name": "ct_vmax",
         "shortdescription": "V-Max",
@@ -6438,6 +6936,15 @@
     },
     {
         "path": "/items/generic/other/",
+        "fileName": "ct_gyera_token.item",
+        "name": "ct_gyera_token",
+        "shortdescription": "Gyera Token",
+        "category": "currency",
+        "icon": "ct_gyera_token.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/generic/other/",
         "fileName": "ct_hevikai_antidote.consumable",
         "name": "ct_hevikai_antidote",
         "shortdescription": "Hevikai Antidote ^#2080f0;^reset;",
@@ -7060,36 +7567,6 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/capital/plant_blossom/",
-        "fileName": "ct_alta_plant_blossom.object",
-        "name": "ct_alta_plant_blossom",
-        "shortdescription": "Alta Blossom Plant",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/capital/plant_stardust/",
-        "fileName": "ct_alta_plant_stardust.object",
-        "name": "ct_alta_plant_stardust",
-        "shortdescription": "Alta Stardust Plant",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/capital/stardust_bed/",
-        "fileName": "ct_alta_stardust_bed.object",
-        "name": "ct_alta_stardust_bed",
-        "shortdescription": "Alta Stardust Bed",
-        "category": "furniture",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
         "path": "/objects/alta/capital/terminal/",
         "fileName": "ct_alta_capital_terminal.object",
         "name": "ct_alta_capital_terminal",
@@ -7130,16 +7607,6 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/city/crystal_bed/",
-        "fileName": "ct_alta_crystal_bed.object",
-        "name": "ct_alta_crystal_bed",
-        "shortdescription": "Alta Crystal Bed",
-        "category": "furniture",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
         "path": "/objects/alta/city/energy_block/",
         "fileName": "ct_alta_energy_block.object",
         "name": "ct_alta_energy_block",
@@ -7147,16 +7614,6 @@
         "category": "wire",
         "icon": "icon.png",
         "rarity": "uncommon",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/flower_bed/",
-        "fileName": "ct_alta_flower_bed.object",
-        "name": "ct_alta_flower_bed",
-        "shortdescription": "Alta Flower Bed",
-        "category": "furniture",
-        "icon": "icon.png",
-        "rarity": "common",
         "race": "alta"
     },
     {
@@ -7185,46 +7642,6 @@
         "name": "ct_alta_lamppost",
         "shortdescription": "Alta Lamppost",
         "category": "light",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/plant/",
-        "fileName": "ct_alta_plant.object",
-        "name": "ct_alta_plant",
-        "shortdescription": "Alta Koywa Plant",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/plant_alien/",
-        "fileName": "ct_alta_plant_alien.object",
-        "name": "ct_alta_plant_alien",
-        "shortdescription": "Alta Alien Plant",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/plant_coral/",
-        "fileName": "ct_alta_plant_coral.object",
-        "name": "ct_alta_plant_coral",
-        "shortdescription": "Alta Coral Plant",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/plant_yaara/",
-        "fileName": "ct_alta_plant_yaara.object",
-        "name": "ct_alta_plant_yaara",
-        "shortdescription": "Alta Yaara Plant",
-        "category": "decorative",
         "icon": "icon.png",
         "rarity": "common",
         "race": "alta"
@@ -7310,16 +7727,6 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/city/vendor/",
-        "fileName": "ct_alta_vendor.object",
-        "name": "ct_alta_vendor",
-        "shortdescription": "Alta Vendor",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
         "path": "/objects/alta/combat/pod/",
         "fileName": "ct_combat_pod.object",
         "name": "ct_combat_pod",
@@ -7390,6 +7797,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/cooking/fermenter/",
+        "fileName": "ct_alta_fermenter.object",
+        "name": "ct_alta_fermenter",
+        "shortdescription": "Alta Fermenter",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/cooking/fridge/",
         "fileName": "ct_alta_fridge.object",
         "name": "ct_alta_fridge",
@@ -7410,6 +7827,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/cooking/jellyfier/",
+        "fileName": "ct_alta_jellyfier.object",
+        "name": "ct_alta_jellyfier",
+        "shortdescription": "Alta Jellyfier",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/cooking/juicer/",
         "fileName": "ct_alta_juicer.object",
         "name": "ct_alta_juicer",
@@ -7417,6 +7844,16 @@
         "category": "crafting",
         "icon": "icon.png",
         "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/kadamaker/",
+        "fileName": "ct_alta_kadamaker.object",
+        "name": "ct_alta_kadamaker",
+        "shortdescription": "Alta Kadamaker",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -7447,6 +7884,26 @@
         "category": "crafting",
         "icon": "icon.png",
         "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/milker/",
+        "fileName": "ct_alta_milker.object",
+        "name": "ct_alta_milker",
+        "shortdescription": "Alta Milker",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/mixer/",
+        "fileName": "ct_alta_mixer.object",
+        "name": "ct_alta_mixer",
+        "shortdescription": "Alta Mixer",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -7490,6 +7947,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/cooking/roaster/",
+        "fileName": "ct_alta_roaster.object",
+        "name": "ct_alta_roaster",
+        "shortdescription": "Alta Roaster",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/cooking/saturator/",
         "fileName": "ct_alta_saturator.object",
         "name": "ct_alta_saturator",
@@ -7515,6 +7982,26 @@
         "name": "ct_alta_sink",
         "shortdescription": "Alta Sink",
         "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/slicer/",
+        "fileName": "ct_alta_slicer.object",
+        "name": "ct_alta_slicer",
+        "shortdescription": "Alta Slicer",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/cooking/spicer/",
+        "fileName": "ct_alta_spicer.object",
+        "name": "ct_alta_spicer",
+        "shortdescription": "Alta Spicer",
+        "category": "crafting",
         "icon": "icon.png",
         "rarity": "common",
         "race": "alta"
@@ -7616,7 +8103,7 @@
         "shortdescription": "^orange;Alta Dendrarium^reset;",
         "category": "crafting",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -8650,6 +9137,15 @@
         "race": "generic"
     },
     {
+        "path": "/objects/alta/special/critters/ariling/",
+        "fileName": "af.object",
+        "name": "ct_ariling_af",
+        "shortdescription": "Potted Ariling",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
         "path": "/objects/alta/special/critters/bionid_snail/",
         "fileName": "af.object",
         "name": "ct_bionid_snail_af",
@@ -8675,6 +9171,15 @@
         "category": "bug",
         "icon": "icon.png",
         "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/critters/hunter_flower/",
+        "fileName": "af.object",
+        "name": "ct_hunter_flower_af",
+        "shortdescription": "Potted Hunter Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/alta/special/critters/phosnail/",
@@ -9330,6 +9835,368 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/special/plants/beds/crystal/",
+        "fileName": "ct_alta_crystal_bed.object",
+        "name": "ct_alta_crystal_bed",
+        "shortdescription": "Alta Crystal Bed",
+        "category": "furniture",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/beds/flower/",
+        "fileName": "ct_alta_flower_bed.object",
+        "name": "ct_alta_flower_bed",
+        "shortdescription": "Alta Flower Bed",
+        "category": "furniture",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/beds/stardust/",
+        "fileName": "ct_alta_stardust_bed.object",
+        "name": "ct_alta_stardust_bed",
+        "shortdescription": "Alta Stardust Bed",
+        "category": "furniture",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/alien/",
+        "fileName": "ct_alta_plant_alien.object",
+        "name": "ct_alta_plant_alien",
+        "shortdescription": "Potted Alien Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/alta/",
+        "fileName": "ct_alta_plant.object",
+        "name": "ct_alta_plant",
+        "shortdescription": "Potted Alta Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/berry/",
+        "fileName": "af.object",
+        "name": "ct_giant_berry_af",
+        "shortdescription": "Potted Giant Berry",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/blossom/",
+        "fileName": "ct_alta_plant_blossom.object",
+        "name": "ct_alta_plant_blossom",
+        "shortdescription": "Potted Blossom Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/coral/",
+        "fileName": "ct_alta_plant_coral.object",
+        "name": "ct_alta_plant_coral",
+        "shortdescription": "Potted Coral Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/stardust/",
+        "fileName": "ct_alta_plant_stardust.object",
+        "name": "ct_alta_plant_stardust",
+        "shortdescription": "Potted Stardust Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/toxic/",
+        "fileName": "af.object",
+        "name": "ct_toxic_flower_af",
+        "shortdescription": "Potted Toxic Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pods/yaara/",
+        "fileName": "ct_alta_plant_yaara.object",
+        "name": "ct_alta_plant_yaara",
+        "shortdescription": "Potted Yaara Plant",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/bushes/koywa/",
+        "fileName": "af.object",
+        "name": "ct_koywa_af",
+        "shortdescription": "Potted Koywa",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/bushes/koywa_tall/",
+        "fileName": "af.object",
+        "name": "ct_koywa_bush_af",
+        "shortdescription": "Potted Koywa Bush",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/bushes/tonnova/",
+        "fileName": "af.object",
+        "name": "ct_tonnova_af",
+        "shortdescription": "Potted Tonnova Spring",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/bushes/warped/",
+        "fileName": "af.object",
+        "name": "ct_warped_bush_af",
+        "shortdescription": "Potted Warped Bush",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/aya/",
+        "fileName": "af.object",
+        "name": "ct_aya_af",
+        "shortdescription": "Potted Aya",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/gil/",
+        "fileName": "af.object",
+        "name": "ct_gil_af",
+        "shortdescription": "Potted Gil",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/tsay/",
+        "fileName": "af.object",
+        "name": "ct_tsay_af",
+        "shortdescription": "Potted Tsay",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/yaavi/",
+        "fileName": "af.object",
+        "name": "ct_yaavi_af",
+        "shortdescription": "Potted Yaavi",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/alto/",
+        "fileName": "af.object",
+        "name": "ct_alto_flower_af",
+        "shortdescription": "Potted Alto Koywa Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/blue/",
+        "fileName": "af.object",
+        "name": "ct_blue_flower_af",
+        "shortdescription": "Potted Blue Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/calocol/",
+        "fileName": "af.object",
+        "name": "ct_calocol_tulip_af",
+        "shortdescription": "Potted Calocol Tulip",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/ezmeralda/",
+        "fileName": "af.object",
+        "name": "ct_ezmeralda_af",
+        "shortdescription": "Potted Ezmeralda",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/faro/",
+        "fileName": "af.object",
+        "name": "ct_faro_flower_af",
+        "shortdescription": "Potted Faro Koywa Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/miko/",
+        "fileName": "af.object",
+        "name": "ct_miko_flower_af",
+        "shortdescription": "Potted Miko Koywa Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/nivera/",
+        "fileName": "af.object",
+        "name": "ct_nivera_af",
+        "shortdescription": "Potted Nivera",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/pink/",
+        "fileName": "af.object",
+        "name": "ct_pink_flower_af",
+        "shortdescription": "Potted Pink Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/poppy/",
+        "fileName": "af.object",
+        "name": "ct_poppy_prime_af",
+        "shortdescription": "Potted Poppy Prime",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/red/",
+        "fileName": "af.object",
+        "name": "ct_red_flower_af",
+        "shortdescription": "Potted Red Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/yaara_bulb/",
+        "fileName": "af.object",
+        "name": "ct_yaara_flower_af",
+        "shortdescription": "Potted Yaara Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/flowers/yellow/",
+        "fileName": "af.object",
+        "name": "ct_yellow_flower_af",
+        "shortdescription": "Potted Yellow Flower",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_azura_tree.object",
+        "name": "ct_azura_tree",
+        "shortdescription": "Azura",
+        "category": "sapling",
+        "icon": "ct_azura_tree.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_hive_tree.object",
+        "name": "ct_hive_tree",
+        "shortdescription": "Ionic Hive Stalk",
+        "category": "sapling",
+        "icon": "ct_hive_tree.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_livira_tree.object",
+        "name": "ct_livira_tree",
+        "shortdescription": "Livira",
+        "category": "sapling",
+        "icon": "ct_livira_tree.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_mical_tree.object",
+        "name": "ct_mical_tree",
+        "shortdescription": "Mical Tree",
+        "category": "sapling",
+        "icon": "ct_mical_tree.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_nivera_tree.object",
+        "name": "ct_nivera_tree",
+        "shortdescription": "Nivera",
+        "category": "sapling",
+        "icon": "ct_nivera_tree.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_sofara_tree.object",
+        "name": "ct_sofara_tree",
+        "shortdescription": "Sofara",
+        "category": "sapling",
+        "icon": "ct_sofara_tree.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_viona_tree.object",
+        "name": "ct_viona_tree",
+        "shortdescription": "Vionora",
+        "category": "sapling",
+        "icon": "ct_viona_tree.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/trees/",
+        "fileName": "ct_warped_tree.object",
+        "name": "ct_warped_tree",
+        "shortdescription": "Warped Tree ^#20f080;^reset;",
+        "category": "sapling",
+        "icon": "ct_warped_tree.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/alta/special/plushies/",
         "fileName": "ct_astral_narfin_plush.object",
         "name": "ct_astral_narfin_plush",
@@ -9770,6 +10637,236 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/special/tools/displays/empty/",
+        "fileName": "ct_alta_display.object",
+        "name": "ct_alta_display",
+        "shortdescription": "Alta Display",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/displays/marine/",
+        "fileName": "ct_alta_marine_display.object",
+        "name": "ct_alta_marine_display",
+        "shortdescription": "Alta Marine Display",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/displays/terrene/",
+        "fileName": "ct_alta_terrene_display.object",
+        "name": "ct_alta_terrene_display",
+        "shortdescription": "Alta Terrene Display",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/bed/",
+        "fileName": "ct_alta_plant_bed.object",
+        "name": "ct_alta_plant_bed",
+        "shortdescription": "Alta Plant Tray",
+        "category": "furniture",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/eco/",
+        "fileName": "ct_alta_eco_pod.object",
+        "name": "ct_alta_eco_pod",
+        "shortdescription": "Alta Eco Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/lab/",
+        "fileName": "ct_alta_lab_eco_pod.object",
+        "name": "ct_alta_lab_eco_pod",
+        "shortdescription": "Alta Lab Eco Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/omni/",
+        "fileName": "ct_omni_eco_pod.object",
+        "name": "ct_omni_eco_pod",
+        "shortdescription": "Omni Eco Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/plant/",
+        "fileName": "ct_alta_plant_pod.object",
+        "name": "ct_alta_plant_pod",
+        "shortdescription": "Alta Plant Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/ship/",
+        "fileName": "ct_alta_ship_eco_pod.object",
+        "name": "ct_alta_ship_eco_pod",
+        "shortdescription": "Alta Ship Eco Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/stardust/",
+        "fileName": "ct_stardust_eco_pod.object",
+        "name": "ct_stardust_eco_pod",
+        "shortdescription": "Stardust Eco Pod",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pods/tray/",
+        "fileName": "ct_alta_tray.object",
+        "name": "ct_alta_tray",
+        "shortdescription": "Alta Hydroponic Tray",
+        "category": "sapling",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/alta/",
+        "fileName": "ct_alta_flower_pot.object",
+        "name": "ct_alta_flower_pot",
+        "shortdescription": "Alta Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/basic/",
+        "fileName": "ct_ayaka_flower_pot.object",
+        "name": "ct_ayaka_flower_pot",
+        "shortdescription": "Ayaka Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/bion/",
+        "fileName": "ct_bion_flower_pot.object",
+        "name": "ct_bion_flower_pot",
+        "shortdescription": "Bion Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/calin/",
+        "fileName": "ct_calin_flower_pot.object",
+        "name": "ct_calin_flower_pot",
+        "shortdescription": "Crystal Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/composite/",
+        "fileName": "ct_composite_flower_pot.object",
+        "name": "ct_composite_flower_pot",
+        "shortdescription": "Composite Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/pots/tall/",
+        "fileName": "ct_alta_tall_flower_pot.object",
+        "name": "ct_alta_tall_flower_pot",
+        "shortdescription": "Alta Tall Flower Pot",
+        "category": "storage",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/basic/",
+        "fileName": "ct_alta_sprinkler.object",
+        "name": "ct_alta_sprinkler",
+        "shortdescription": "Alta Sprinkler",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/compact/",
+        "fileName": "ct_alta_compact_sprinkler.object",
+        "name": "ct_alta_compact_sprinkler",
+        "shortdescription": "Alta Compa-Sprinkler ^#2080f0;^reset;",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/gyera/",
+        "fileName": "ct_gyera_sprinkler.object",
+        "name": "ct_gyera_sprinkler",
+        "shortdescription": "Gyera Sprinkler",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/lab/",
+        "fileName": "ct_alta_lab_sprinkler.object",
+        "name": "ct_alta_lab_sprinkler",
+        "shortdescription": "Alta Lab Sprinkler",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/rincer/",
+        "fileName": "ct_alta_rincer.object",
+        "name": "ct_alta_rincer",
+        "shortdescription": "Alta Rincer ^#2080f0;^reset;",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/sprinklers/super/",
+        "fileName": "ct_alta_super_sprinkler.object",
+        "name": "ct_alta_super_sprinkler",
+        "shortdescription": "Alta Super Sprinkler",
+        "category": "wire",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/special/trophies/",
         "fileName": "ct_alta_trophy.object",
         "name": "ct_alta_trophy",
@@ -9876,6 +10973,56 @@
         "category": "decorative",
         "icon": "ct_stardust_trophy.png",
         "rarity": "legendary"
+    },
+    {
+        "path": "/objects/alta/special/vendors/alta/",
+        "fileName": "ct_alta_vendor.object",
+        "name": "ct_alta_vendor",
+        "shortdescription": "Alta Vendor",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/vendors/botanics/",
+        "fileName": "vendor.object",
+        "name": "ct_alta_botanics_vendor",
+        "shortdescription": "Alta Botanics Vendor ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/vendors/gyera/",
+        "fileName": "vendor.object",
+        "name": "ct_gyera_vendor",
+        "shortdescription": "Gyera Vendor",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/vendors/seeds/",
+        "fileName": "vendor.object",
+        "name": "ct_alta_seed_vendor",
+        "shortdescription": "Alta Seed Vendor ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/vendors/seeds_rare/",
+        "fileName": "vendor.object",
+        "name": "ct_alta_seed_vendor_rare",
+        "shortdescription": "Alta Rare Seed Vendor ^#8020f0;^reset;",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/wired/button/",
@@ -10042,9 +11189,17 @@
         "name": "ct_ayaka_blossom_tree",
         "shortdescription": "Blossoming Ayaka",
         "category": "sapling",
-        "icon": "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_rose/icon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_ayaka_blossom_tree.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/biome/alterash/ayaka/",
+        "fileName": "ct_ayaka_crimson_tree.object",
+        "name": "ct_ayaka_crimson_tree",
+        "shortdescription": "Crimson Ayaka",
+        "category": "sapling",
+        "icon": "ct_ayaka_crimson_tree.png",
+        "rarity": "common"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10052,9 +11207,8 @@
         "name": "ct_ayaka_crystal_tree",
         "shortdescription": "Crystal Ayaka",
         "category": "sapling",
-        "icon": "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_crystal_stem_icon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_ayaka_crystal_tree.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10062,9 +11216,17 @@
         "name": "ct_ayaka_elin_tree",
         "shortdescription": "Elin Ayaka",
         "category": "sapling",
-        "icon": "/objects/biome/stardust/ct_stardust_crystal/icon.png",
-        "rarity": "rare",
-        "race": "generic"
+        "icon": "ct_ayaka_elin_tree.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/biome/alterash/ayaka/",
+        "fileName": "ct_ayaka_eva_tree.object",
+        "name": "ct_ayaka_eva_tree",
+        "shortdescription": "Eva Ayaka",
+        "category": "sapling",
+        "icon": "ct_ayaka_eva_tree.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10072,9 +11234,8 @@
         "name": "ct_ayaka_garden_tree",
         "shortdescription": "Garden Ayaka",
         "category": "sapling",
-        "icon": "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_garden_stem_icon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_ayaka_garden_tree.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10082,9 +11243,8 @@
         "name": "ct_ayaka_giant_tree",
         "shortdescription": "Ayaka Giant",
         "category": "sapling",
-        "icon": "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/icon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_ayaka_giant_tree.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10092,9 +11252,8 @@
         "name": "ct_ayaka_prime_tree",
         "shortdescription": "Ayaka Prime",
         "category": "sapling",
-        "icon": "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_prime_stem_icon.png",
-        "rarity": "common",
-        "race": "generic"
+        "icon": "ct_ayaka_prime_tree.png",
+        "rarity": "common"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10102,9 +11261,8 @@
         "name": "ct_ayaka_stardust_tree",
         "shortdescription": "Stardust Ayaka",
         "category": "sapling",
-        "icon": "/objects/biome/stardust/ct_stardust_crystal/icon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_ayaka_stardust_tree.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/ayaka/",
@@ -10112,9 +11270,26 @@
         "name": "ct_ayaka_tree",
         "shortdescription": "Ayaka",
         "category": "sapling",
-        "icon": "/objects/biome/alterash/ayaka/ct_aya_pile/icon.png",
-        "rarity": "common",
-        "race": "generic"
+        "icon": "ct_ayaka_tree.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/biome/alterash/ayaka/",
+        "fileName": "ct_ayaka_unona_tree.object",
+        "name": "ct_ayaka_unona_tree",
+        "shortdescription": "Unona Ayaka",
+        "category": "sapling",
+        "icon": "ct_ayaka_unona_tree.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/biome/alterash/ayaka/",
+        "fileName": "ct_ayaka_young_tree.object",
+        "name": "ct_ayaka_young_tree",
+        "shortdescription": "Young Ayaka",
+        "category": "sapling",
+        "icon": "ct_ayaka_young_tree.png",
+        "rarity": "common"
     },
     {
         "path": "/objects/biome/alterash/ayaka/ct_ayaka_sap_blob1/",
@@ -10442,9 +11617,8 @@
         "name": "ct_yaara_crystal_node",
         "shortdescription": "Crystal Yaara Node",
         "category": "sapling",
-        "icon": "/plants/trees/ct_yaara/foliage/ct_yaara_crystal_leaves/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_yaara_crystal_node.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/yaara/",
@@ -10452,9 +11626,8 @@
         "name": "ct_yaara_eye_node",
         "shortdescription": "Eyed Yaara Node",
         "category": "sapling",
-        "icon": "/plants/trees/ct_yaara/foliage/ct_yaara_eye_leaves/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_yaara_eye_node.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash/yaara/",
@@ -10462,9 +11635,8 @@
         "name": "ct_yaara_node",
         "shortdescription": "Yaara Node",
         "category": "sapling",
-        "icon": "/plants/trees/ct_yaara/foliage/ct_yaara_leaves/saplingicon.png",
-        "rarity": "common",
-        "race": "generic"
+        "icon": "ct_yaara_node.png",
+        "rarity": "common"
     },
     {
         "path": "/objects/biome/alterash/yaara/ct_yaara_bulb/",
@@ -10622,9 +11794,8 @@
         "name": "ct_tonnova_spiral_tree",
         "shortdescription": "Tonnova Spiral",
         "category": "sapling",
-        "icon": "/plants/trees/ct_tonnova/stem/ct_tonnova_spiral_stem/icon.png",
-        "rarity": "rare",
-        "race": "generic"
+        "icon": "ct_tonnova_spiral_tree.png",
+        "rarity": "rare"
     },
     {
         "path": "/objects/biome/alterash_prime/bionid/",
@@ -10632,9 +11803,8 @@
         "name": "ct_tonnova_tree",
         "shortdescription": "Tonnova Tree",
         "category": "sapling",
-        "icon": "/plants/trees/ct_tonnova/stem/ct_tonnova_stem/icon.png",
-        "rarity": "rare",
-        "race": "generic"
+        "icon": "ct_tonnova_tree.png",
+        "rarity": "rare"
     },
     {
         "path": "/objects/biome/alterash_prime/bionid/",
@@ -10642,9 +11812,8 @@
         "name": "ct_tonnova_wide_tree",
         "shortdescription": "Wide Tonnova",
         "category": "sapling",
-        "icon": "/plants/trees/ct_tonnova/stem/ct_tonnova_wide_stem/icon.png",
-        "rarity": "rare",
-        "race": "generic"
+        "icon": "ct_tonnova_wide_tree.png",
+        "rarity": "rare"
     },
     {
         "path": "/objects/biome/alterash_prime/bionid/ct_bulbonid/",
@@ -11471,9 +12640,8 @@
         "name": "ct_akollic_bulb",
         "shortdescription": "Akollic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_akollic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_akollic_bulb.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11481,9 +12649,8 @@
         "name": "ct_akollic_bulb_spots",
         "shortdescription": "Spotful Akollic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_akollic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_akollic_bulb_spots.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11491,9 +12658,8 @@
         "name": "ct_coroplic_mutant",
         "shortdescription": "Coroplic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_coroplic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_coroplic_mutant.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11501,9 +12667,8 @@
         "name": "ct_coroplic_mutant_giant",
         "shortdescription": "Giant Coroplic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_coroplic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_coroplic_mutant_giant.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11511,9 +12676,8 @@
         "name": "ct_hyolic_growth",
         "shortdescription": "Hyolic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_hyolic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_hyolic_growth.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11521,9 +12685,8 @@
         "name": "ct_hyolic_growth_crystal",
         "shortdescription": "Crystal Hyolic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_hyolic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_hyolic_growth_crystal.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11531,9 +12694,8 @@
         "name": "ct_mooplic_shady",
         "shortdescription": "Mooplic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_mooplic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_mooplic_shady.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11541,9 +12703,8 @@
         "name": "ct_mooplic_shady_old",
         "shortdescription": "Old Mooplic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_mooplic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_mooplic_shady_old.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11551,9 +12712,8 @@
         "name": "ct_perolic_glow",
         "shortdescription": "Perolic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_perolic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_perolic_glow.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11561,9 +12721,8 @@
         "name": "ct_perolic_glow_eyes",
         "shortdescription": "Eyed Perolic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_perolic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_perolic_glow_eyes.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11571,9 +12730,8 @@
         "name": "ct_vyralic_twisted",
         "shortdescription": "Vyralic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_vyralic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_vyralic_twisted.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -11581,9 +12739,8 @@
         "name": "ct_vyralic_twisted_undone",
         "shortdescription": "Undone Vyralic Shroom",
         "category": "sapling",
-        "icon": "/plants/trees/ct_aric/foliage/ct_vyralic/saplingicon.png",
-        "rarity": "uncommon",
-        "race": "generic"
+        "icon": "ct_vyralic_twisted_undone.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/agaranic/",
@@ -11726,43 +12883,710 @@
         "race": "generic"
     },
     {
-        "path": "/objects/farmables/gil/",
-        "fileName": "ct_gil_seed.object",
-        "name": "ct_gil_seed",
-        "shortdescription": "Gil Seeds",
+        "path": "/objects/farmables/alta/ground/alternia/",
+        "fileName": "ct_alternia_seed.object",
+        "name": "ct_alternia_seed",
+        "shortdescription": "Alternia Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/alternia/pod/",
+        "fileName": "ct_alternia_eco_pod.object",
+        "name": "ct_alternia_eco_pod",
+        "shortdescription": "Alternia Eco Pod ^#f02080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/alternia/sapling/",
+        "fileName": "ct_alternia_sapling.object",
+        "name": "ct_alternia_sapling",
+        "shortdescription": "Alternia Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/azura/",
+        "fileName": "ct_azura_seed.object",
+        "name": "ct_azura_seed",
+        "shortdescription": "Azura Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/azura/",
+        "fileName": "ct_wild_azura_seed.object",
+        "name": "ct_wild_azura_seed",
+        "shortdescription": "Wild Azura Seed",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"
     },
     {
-        "path": "/objects/farmables/gil/",
-        "fileName": "ct_wild_gil_seed.object",
-        "name": "ct_wild_gil_seed",
-        "shortdescription": "Wild Gil Seeds",
+        "path": "/objects/farmables/alta/ground/azura/boosted/",
+        "fileName": "ct_azura_boosted.object",
+        "name": "ct_azura_boosted",
+        "shortdescription": "Boosted Azura Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/azura/eco/",
+        "fileName": "ct_azura_eco.object",
+        "name": "ct_azura_eco",
+        "shortdescription": "Eco Azura Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/azura/pod/",
+        "fileName": "ct_azura_eco_pod.object",
+        "name": "ct_azura_eco_pod",
+        "shortdescription": "Azura Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/azura/sapling/",
+        "fileName": "ct_azura_sapling.object",
+        "name": "ct_azura_sapling",
+        "shortdescription": "Azura Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/blossom/",
+        "fileName": "ct_blossom_seed.object",
+        "name": "ct_blossom_seed",
+        "shortdescription": "Blossom Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/blossom/",
+        "fileName": "ct_wild_blossom_seed.object",
+        "name": "ct_wild_blossom_seed",
+        "shortdescription": "Wild Blossom Seed",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"
     },
     {
-        "path": "/objects/farmables/tsay/",
-        "fileName": "ct_tsay_seed.object",
-        "name": "ct_tsay_seed",
-        "shortdescription": "Tsay Seed",
+        "path": "/objects/farmables/alta/ground/blossom/boosted/",
+        "fileName": "ct_blossom_boosted.object",
+        "name": "ct_blossom_boosted",
+        "shortdescription": "Boosted Blossom Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/blossom/eco/",
+        "fileName": "ct_blossom_eco.object",
+        "name": "ct_blossom_eco",
+        "shortdescription": "Eco Blossom Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/blossom/pod/",
+        "fileName": "ct_blossom_eco_pod.object",
+        "name": "ct_blossom_eco_pod",
+        "shortdescription": "Blossom Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/blossom/sapling/",
+        "fileName": "ct_blossom_sapling.object",
+        "name": "ct_blossom_sapling",
+        "shortdescription": "Blossom Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ceternia/",
+        "fileName": "ct_ceternia_seed.object",
+        "name": "ct_ceternia_seed",
+        "shortdescription": "Ceternia Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ceternia/pod/",
+        "fileName": "ct_ceternia_eco_pod.object",
+        "name": "ct_ceternia_eco_pod",
+        "shortdescription": "Ceternia Eco Pod ^#f02080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ceternia/sapling/",
+        "fileName": "ct_ceternia_sapling.object",
+        "name": "ct_ceternia_sapling",
+        "shortdescription": "Ceternia Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/core/",
+        "fileName": "ct_core_seed.object",
+        "name": "ct_core_seed",
+        "shortdescription": "Faacain Bud",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"
     },
     {
-        "path": "/objects/farmables/tsay/",
-        "fileName": "ct_wild_tsay_seed.object",
-        "name": "ct_wild_tsay_seed",
-        "shortdescription": "Wild Tsay Seed",
+        "path": "/objects/farmables/alta/ground/core/",
+        "fileName": "ct_wild_core_seed.object",
+        "name": "ct_wild_core_seed",
+        "shortdescription": "Wild Faacain Bud",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"
     },
     {
-        "path": "/objects/farmables/warped_hive/",
+        "path": "/objects/farmables/alta/ground/core/boosted/",
+        "fileName": "ct_core_boosted.object",
+        "name": "ct_core_boosted",
+        "shortdescription": "Boosted Faacain Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/core/eco/",
+        "fileName": "ct_core_eco.object",
+        "name": "ct_core_eco",
+        "shortdescription": "Eco Faacain Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/core/pod/",
+        "fileName": "ct_core_eco_pod.object",
+        "name": "ct_core_eco_pod",
+        "shortdescription": "Faacain Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/core/sapling/",
+        "fileName": "ct_core_sapling.object",
+        "name": "ct_core_sapling",
+        "shortdescription": "Faacain Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/cotton/boosted/",
+        "fileName": "ct_cotton_boosted.object",
+        "name": "ct_cotton_boosted",
+        "shortdescription": "Boosted Evara Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/cotton/eco/",
+        "fileName": "ct_cotton_eco.object",
+        "name": "ct_cotton_eco",
+        "shortdescription": "Eco Cotton Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/cotton/pod/",
+        "fileName": "ct_cotton_eco_pod.object",
+        "name": "ct_cotton_eco_pod",
+        "shortdescription": "Cotton Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/cotton/sapling/",
+        "fileName": "ct_cotton_sapling.object",
+        "name": "ct_cotton_sapling",
+        "shortdescription": "Cotton Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/enternia/",
+        "fileName": "ct_enternia_seed.object",
+        "name": "ct_enternia_seed",
+        "shortdescription": "Enternia Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/enternia/pod/",
+        "fileName": "ct_enternia_eco_pod.object",
+        "name": "ct_enternia_eco_pod",
+        "shortdescription": "Enternia Eco Pod ^#f02080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/enternia/sapling/",
+        "fileName": "ct_enternia_sapling.object",
+        "name": "ct_enternia_sapling",
+        "shortdescription": "Enternia Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/",
+        "fileName": "ct_eva_seed.object",
+        "name": "ct_eva_seed",
+        "shortdescription": "Evara Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/",
+        "fileName": "ct_wild_eva_seed.object",
+        "name": "ct_wild_eva_seed",
+        "shortdescription": "Wild Evara Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/boosted/",
+        "fileName": "ct_eva_boosted.object",
+        "name": "ct_eva_boosted",
+        "shortdescription": "Boosted Evara Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/eco/",
+        "fileName": "ct_eva_eco.object",
+        "name": "ct_eva_eco",
+        "shortdescription": "Eco Evara Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/pod/",
+        "fileName": "ct_eva_eco_pod.object",
+        "name": "ct_eva_eco_pod",
+        "shortdescription": "Evara Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/eva/sapling/",
+        "fileName": "ct_eva_sapling.object",
+        "name": "ct_eva_sapling",
+        "shortdescription": "Evara Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/",
+        "fileName": "ct_eva_seed.object",
+        "name": "ct_haven_seed",
+        "shortdescription": "Haven Bouquet Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/",
+        "fileName": "ct_wild_eva_seed.object",
+        "name": "ct_wild_haven_seed",
+        "shortdescription": "Wild Haven Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/boosted/",
+        "fileName": "ct_eva_boosted.object",
+        "name": "ct_haven_boosted",
+        "shortdescription": "Boosted Haven Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/eco/",
+        "fileName": "ct_eva_eco.object",
+        "name": "ct_haven_eco",
+        "shortdescription": "Eco Haven Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/pod/",
+        "fileName": "ct_eva_eco_pod.object",
+        "name": "ct_haven_eco_pod",
+        "shortdescription": "Haven Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/haven/sapling/",
+        "fileName": "ct_eva_sapling.object",
+        "name": "ct_haven_sapling",
+        "shortdescription": "Haven Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/",
+        "fileName": "ct_isoslime_seed.object",
+        "name": "ct_isoslime_seed",
+        "shortdescription": "Isoslime Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/",
+        "fileName": "ct_wild_isoslime_seed.object",
+        "name": "ct_wild_isoslime_seed",
+        "shortdescription": "Wild Isoslime Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/boosted/",
+        "fileName": "ct_isoslime_boosted.object",
+        "name": "ct_isoslime_boosted",
+        "shortdescription": "Isoslime Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/eco/",
+        "fileName": "ct_isoslime_eco.object",
+        "name": "ct_isoslime_eco",
+        "shortdescription": "Eco Isoslime Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/eco_green/",
+        "fileName": "ct_poi_eco.object",
+        "name": "ct_poi_eco",
+        "shortdescription": "Eco Poi Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/pod/",
+        "fileName": "ct_isoslime_eco_pod.object",
+        "name": "ct_isoslime_eco_pod",
+        "shortdescription": "Isoslime Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/pod_green/",
+        "fileName": "ct_poi_eco_pod.object",
+        "name": "ct_poi_eco_pod",
+        "shortdescription": "Poi Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/isoslime/sapling/",
+        "fileName": "ct_isoslime_sapling.object",
+        "name": "ct_isoslime_sapling",
+        "shortdescription": "Isoslime Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/beakseed/pod/",
+        "fileName": "ct_beakseed_eco_pod.object",
+        "name": "ct_beakseed_eco_pod",
+        "shortdescription": "Beakseed Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/carel/pod/",
+        "fileName": "ct_carel_eco_pod.object",
+        "name": "ct_carel_eco_pod",
+        "shortdescription": "Carel Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/neonmelon/pod/",
+        "fileName": "ct_neonmelon_eco_pod.object",
+        "name": "ct_neonmelon_eco_pod",
+        "shortdescription": "Neonmelon Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/oculemon/pod/",
+        "fileName": "ct_carel_eco_pod.object",
+        "name": "ct_oculemon_eco_pod",
+        "shortdescription": "Oculemon Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/",
+        "fileName": "ct_ruka_seed.object",
+        "name": "ct_ruka_seed",
+        "shortdescription": "Ruka 14-2 Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/",
+        "fileName": "ct_wild_ruka_seed.object",
+        "name": "ct_wild_ruka_seed",
+        "shortdescription": "Wild Ruka Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/boosted/",
+        "fileName": "ct_ruka_boosted.object",
+        "name": "ct_ruka_boosted",
+        "shortdescription": "Ruka 16 Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/eco/",
+        "fileName": "ct_ruka_eco.object",
+        "name": "ct_ruka_eco",
+        "shortdescription": "Ruka 14-E Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/pod/",
+        "fileName": "ct_ruka_eco_pod.object",
+        "name": "ct_ruka_eco_pod",
+        "shortdescription": "Ruka Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/ruka/sapling/",
+        "fileName": "ct_ruka_sapling.object",
+        "name": "ct_ruka_sapling",
+        "shortdescription": "Ruka 14-2 Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/",
+        "fileName": "ct_sona_seed.object",
+        "name": "ct_sona_seed",
+        "shortdescription": "Sonava Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/",
+        "fileName": "ct_wild_sona_seed.object",
+        "name": "ct_wild_sona_seed",
+        "shortdescription": "Wild Sonava Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/boosted/",
+        "fileName": "ct_sona_boosted.object",
+        "name": "ct_sona_boosted",
+        "shortdescription": "Boosted Sonava Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/eco/",
+        "fileName": "ct_sona_eco.object",
+        "name": "ct_sona_eco",
+        "shortdescription": "Eco Sonava Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/pod/",
+        "fileName": "ct_sona_eco_pod.object",
+        "name": "ct_sona_eco_pod",
+        "shortdescription": "Sonava Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/sona/sapling/",
+        "fileName": "ct_sona_sapling.object",
+        "name": "ct_sona_sapling",
+        "shortdescription": "Sonava Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/stardust/",
+        "fileName": "ct_stardust_seed.object",
+        "name": "ct_stardust_seed",
+        "shortdescription": "Starflower Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/stardust/pod/",
+        "fileName": "ct_starflower_eco_pod.object",
+        "name": "ct_starflower_eco_pod",
+        "shortdescription": "Starflower Eco Pod ^#f02020;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/stardust/sapling/",
+        "fileName": "ct_stardust_sapling.object",
+        "name": "ct_stardust_sapling",
+        "shortdescription": "Stardust Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/",
+        "fileName": "ct_turanta_seed.object",
+        "name": "ct_turanta_seed",
+        "shortdescription": "Turanta Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/",
+        "fileName": "ct_wild_turanta_seed.object",
+        "name": "ct_wild_turanta_seed",
+        "shortdescription": "Wild Turanta Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/boosted/",
+        "fileName": "ct_turanta_boosted.object",
+        "name": "ct_turanta_boosted",
+        "shortdescription": "Turanta Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/eco/",
+        "fileName": "ct_turanta_eco.object",
+        "name": "ct_turanta_eco",
+        "shortdescription": "Eco Turanta Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/pod/",
+        "fileName": "ct_turanta_eco_pod.object",
+        "name": "ct_turanta_eco_pod",
+        "shortdescription": "Turanta Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/turanta/sapling/",
+        "fileName": "ct_turanta_sapling.object",
+        "name": "ct_turanta_sapling",
+        "shortdescription": "Turanta Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/warped_hive/",
         "fileName": "ct_warped_hive_seed.object",
         "name": "ct_warped_hive_seed",
         "shortdescription": "Warped Hive Seed",
@@ -11771,12 +13595,1252 @@
         "rarity": "common"
     },
     {
-        "path": "/objects/farmables/warped_hive/",
+        "path": "/objects/farmables/alta/ground/warped_hive/",
         "fileName": "ct_wild_warped_hive_seed.object",
         "name": "ct_wild_warped_hive_seed",
         "shortdescription": "Wild Warped Hive Seed",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/warped_hive/boosted/",
+        "fileName": "ct_warped_hive_boosted.object",
+        "name": "ct_warped_hive_boosted",
+        "shortdescription": "Boosted Tsay Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/warped_hive/eco/",
+        "fileName": "ct_warped_hive_eco.object",
+        "name": "ct_warped_hive_eco",
+        "shortdescription": "Eco Warped Hive Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/warped_hive/pod/",
+        "fileName": "ct_tsay_eco_pod.object",
+        "name": "ct_warped_hive_eco_pod",
+        "shortdescription": "Warped Hive Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/warped_hive/sapling/",
+        "fileName": "ct_warped_hive_sapling.object",
+        "name": "ct_warped_hive_sapling",
+        "shortdescription": "Warped Hive Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/",
+        "fileName": "ct_calin_seed.object",
+        "name": "ct_calin_seed",
+        "shortdescription": "Calin Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/",
+        "fileName": "ct_wild_calin_seed.object",
+        "name": "ct_wild_calin_seed",
+        "shortdescription": "Wild Calin Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/boosted/",
+        "fileName": "ct_calin_boosted.object",
+        "name": "ct_calin_boosted",
+        "shortdescription": "Boosted Tsay Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/eco/",
+        "fileName": "ct_calin_eco.object",
+        "name": "ct_calin_eco",
+        "shortdescription": "Eco Calin Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/pod/",
+        "fileName": "ct_calin_eco_pod.object",
+        "name": "ct_calin_eco_pod",
+        "shortdescription": "Calin Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/calin/sapling/",
+        "fileName": "ct_calin_sapling.object",
+        "name": "ct_calin_sapling",
+        "shortdescription": "Calin Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/",
+        "fileName": "ct_cocola_seed.object",
+        "name": "ct_cocola_seed",
+        "shortdescription": "Cocola Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/",
+        "fileName": "ct_wild_cocola_seed.object",
+        "name": "ct_wild_cocola_seed",
+        "shortdescription": "Wild Cocola Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/boosted/",
+        "fileName": "ct_tonna_boosted.object",
+        "name": "ct_cocola_boosted",
+        "shortdescription": "Boosted Cocola Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/eco/",
+        "fileName": "ct_cocola_eco.object",
+        "name": "ct_cocola_eco",
+        "shortdescription": "Eco Cocola Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/pod/",
+        "fileName": "ct_cocola_eco_pod.object",
+        "name": "ct_cocola_eco_pod",
+        "shortdescription": "Cocola Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/cocola/sapling/",
+        "fileName": "ct_cocola_sapling.object",
+        "name": "ct_cocola_sapling",
+        "shortdescription": "Cocola Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/",
+        "fileName": "ct_coral_seed.object",
+        "name": "ct_coral_seed",
+        "shortdescription": "Ember Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/",
+        "fileName": "ct_wild_coral_seed.object",
+        "name": "ct_wild_coral_seed",
+        "shortdescription": "Wild Ember Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/boosted/",
+        "fileName": "ct_coral_boosted.object",
+        "name": "ct_coral_boosted",
+        "shortdescription": "Boosted Ember Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/eco/",
+        "fileName": "ct_coral_eco.object",
+        "name": "ct_coral_eco",
+        "shortdescription": "Eco Ember Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/pod/",
+        "fileName": "ct_coral_eco_pod.object",
+        "name": "ct_coral_eco_pod",
+        "shortdescription": "Ember Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/coral/sapling/",
+        "fileName": "ct_coral_sapling.object",
+        "name": "ct_coral_sapling",
+        "shortdescription": "Ember Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/",
+        "fileName": "ct_diamond_seed.object",
+        "name": "ct_diamond_seed",
+        "shortdescription": "Diamond Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/",
+        "fileName": "ct_wild_diamond_seed.object",
+        "name": "ct_wild_diamond_seed",
+        "shortdescription": "Wild Diamond Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/boosted/",
+        "fileName": "ct_diamond_boosted.object",
+        "name": "ct_diamond_boosted",
+        "shortdescription": "Boosted Diamond Sapling ^#f02080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/eco/",
+        "fileName": "ct_diamond_eco.object",
+        "name": "ct_diamond_eco",
+        "shortdescription": "Eco Diamond Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/pod/",
+        "fileName": "ct_diamond_eco_pod.object",
+        "name": "ct_diamond_eco_pod",
+        "shortdescription": "Diamond Eco Pod ^#f02080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/diamond/sapling/",
+        "fileName": "ct_diamond_sapling.object",
+        "name": "ct_diamond_sapling",
+        "shortdescription": "Diamond Sapling ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/",
+        "fileName": "ct_dream_seed.object",
+        "name": "ct_dream_seed",
+        "shortdescription": "Dreamer's Flower Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/",
+        "fileName": "ct_wild_dream_seed.object",
+        "name": "ct_wild_dream_seed",
+        "shortdescription": "Wild Dreamer's Flower Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/boosted/",
+        "fileName": "ct_dream_boosted.object",
+        "name": "ct_dream_boosted",
+        "shortdescription": "Boosted Dreamer Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/eco/",
+        "fileName": "ct_dream_eco.object",
+        "name": "ct_dream_eco",
+        "shortdescription": "Eco Dreamer's Flower Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/pod/",
+        "fileName": "ct_dream_eco_pod.object",
+        "name": "ct_dream_eco_pod",
+        "shortdescription": "Dreamer Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/dream/sapling/",
+        "fileName": "ct_dream_sapling.object",
+        "name": "ct_dream_sapling",
+        "shortdescription": "Dreamer's Flower Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/",
+        "fileName": "ct_ela_seed.object",
+        "name": "ct_ela_seed",
+        "shortdescription": "Ela Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/",
+        "fileName": "ct_wild_ela_seed.object",
+        "name": "ct_wild_ela_seed",
+        "shortdescription": "Wild Ela Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/boosted/",
+        "fileName": "ct_ela_boosted.object",
+        "name": "ct_ela_boosted",
+        "shortdescription": "Boosted Ela Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/eco/",
+        "fileName": "ct_ela_eco.object",
+        "name": "ct_ela_eco",
+        "shortdescription": "Eco Ela Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/pod/",
+        "fileName": "ct_ela_eco_pod.object",
+        "name": "ct_ela_eco_pod",
+        "shortdescription": "Ela Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ela/sapling/",
+        "fileName": "ct_ela_sapling.object",
+        "name": "ct_ela_sapling",
+        "shortdescription": "Ela Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/",
+        "fileName": "ct_gheatsyn_seed.object",
+        "name": "ct_gheatsyn_seed",
+        "shortdescription": "Gheatsyn Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/",
+        "fileName": "ct_wild_gheatsyn_seed.object",
+        "name": "ct_wild_gheatsyn_seed",
+        "shortdescription": "Wild Gheatsyn Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/boosted/",
+        "fileName": "ct_gheatsyn_boosted.object",
+        "name": "ct_gheatsyn_boosted",
+        "shortdescription": "Boosted Gheatsyn Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/eco/",
+        "fileName": "ct_gheatsyn_eco.object",
+        "name": "ct_gheatsyn_eco",
+        "shortdescription": "Eco Gheatsyn Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/pod/",
+        "fileName": "ct_gheatsyn_eco_pod.object",
+        "name": "ct_gheatsyn_eco_pod",
+        "shortdescription": "Gheatsyn Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/gheatsyn/sapling/",
+        "fileName": "ct_gheatsyn_sapling.object",
+        "name": "ct_gheatsyn_sapling",
+        "shortdescription": "Gheatsyn Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/",
+        "fileName": "ct_hive_seed.object",
+        "name": "ct_hive_seed",
+        "shortdescription": "Hive Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/",
+        "fileName": "ct_wild_hive_seed.object",
+        "name": "ct_wild_hive_seed",
+        "shortdescription": "Wild Hive Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/boosted/",
+        "fileName": "ct_hive_boosted.object",
+        "name": "ct_hive_boosted",
+        "shortdescription": "Boosted Hive Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/eco/",
+        "fileName": "ct_hive_eco.object",
+        "name": "ct_hive_eco",
+        "shortdescription": "Eco Hive Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/pod/",
+        "fileName": "ct_hive_eco_pod.object",
+        "name": "ct_hive_eco_pod",
+        "shortdescription": "Hive Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/hive/sapling/",
+        "fileName": "ct_hive_sapling.object",
+        "name": "ct_hive_sapling",
+        "shortdescription": "Hive Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/",
+        "fileName": "ct_ionic_seed.object",
+        "name": "ct_ionic_seed",
+        "shortdescription": "Ionic Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/",
+        "fileName": "ct_wild_ionic_seed.object",
+        "name": "ct_wild_ionic_seed",
+        "shortdescription": "Wild Ionic Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/boosted/",
+        "fileName": "ct_ionic_boosted.object",
+        "name": "ct_ionic_boosted",
+        "shortdescription": "Boosted Ionic Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/eco/",
+        "fileName": "ct_ionic_eco.object",
+        "name": "ct_ionic_eco",
+        "shortdescription": "Eco Ionic Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/pod/",
+        "fileName": "ct_ionic_eco_pod.object",
+        "name": "ct_ionic_eco_pod",
+        "shortdescription": "Ionic Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/ionic/sapling/",
+        "fileName": "ct_ionic_sapling.object",
+        "name": "ct_ionic_sapling",
+        "shortdescription": "Ionic Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/",
+        "fileName": "ct_in_jelly_seed.object",
+        "name": "ct_in_jelly_seed",
+        "shortdescription": "Jelly Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/",
+        "fileName": "ct_wild_in_jelly_seed.object",
+        "name": "ct_wild_in_jelly_seed",
+        "shortdescription": "Wild Jelly Bud",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/boosted/",
+        "fileName": "ct_in_jelly_boosted.object",
+        "name": "ct_in_jelly_boosted",
+        "shortdescription": "Boosted Jelly Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/eco/",
+        "fileName": "ct_in_jelly_eco.object",
+        "name": "ct_in_jelly_eco",
+        "shortdescription": "Eco Jelly Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/eco_alta/",
+        "fileName": "ct_alta_jelly_eco.object",
+        "name": "ct_alta_jelly_eco",
+        "shortdescription": "Eco Alta Jelly Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/pod/",
+        "fileName": "ct_alta_jelly_eco_pod.object",
+        "name": "ct_in_jelly_eco_pod",
+        "shortdescription": "In Jelly Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/pod_alta/",
+        "fileName": "ct_alta_jelly_eco_pod.object",
+        "name": "ct_alta_jelly_eco_pod",
+        "shortdescription": "Alta Jelly Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/jelly/sapling/",
+        "fileName": "ct_in_jelly_sapling.object",
+        "name": "ct_in_jelly_sapling",
+        "shortdescription": "Jelly Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/",
+        "fileName": "ct_koywa_seed.object",
+        "name": "ct_koywa_seed",
+        "shortdescription": "Verriskoywa Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/",
+        "fileName": "ct_wild_koywa_seed.object",
+        "name": "ct_wild_koywa_seed",
+        "shortdescription": "Wild Verriskoywa Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/boosted/",
+        "fileName": "ct_koywa_boosted.object",
+        "name": "ct_koywa_boosted",
+        "shortdescription": "Boosted Verriskoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/eco/",
+        "fileName": "ct_koywa_eco.object",
+        "name": "ct_koywa_eco",
+        "shortdescription": "Eco Verriskoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/pod/",
+        "fileName": "ct_koywa_eco_pod.object",
+        "name": "ct_koywa_eco_pod",
+        "shortdescription": "Verriskoywa Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/koywa/sapling/",
+        "fileName": "ct_koywa_sapling.object",
+        "name": "ct_koywa_sapling",
+        "shortdescription": "Verriskoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/produce/alien_fruit/pod/",
+        "fileName": "ct_alien_fruit_eco_pod.object",
+        "name": "ct_alien_fruit_eco_pod",
+        "shortdescription": "Alien Fruit Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/produce/coralcreep/pod/",
+        "fileName": "ct_coralcreep_eco_pod.object",
+        "name": "ct_coralcreep_eco_pod",
+        "shortdescription": "Coralcreep Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/produce/reefpod/pod/",
+        "fileName": "ct_reefpod_eco_pod.object",
+        "name": "ct_reefpod_eco_pod",
+        "shortdescription": "Reefpod Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/produce/thornfruit/pod/",
+        "fileName": "ct_thornfruit_eco_pod.object",
+        "name": "ct_thornfruit_eco_pod",
+        "shortdescription": "Thornfruit Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/",
+        "fileName": "ct_tonna_seed.object",
+        "name": "ct_tonna_seed",
+        "shortdescription": "Tonna Tuber",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/",
+        "fileName": "ct_wild_tonna_seed.object",
+        "name": "ct_wild_tonna_seed",
+        "shortdescription": "Wild Tonna Tuber",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/boosted/",
+        "fileName": "ct_tonna_boosted.object",
+        "name": "ct_tonna_boosted",
+        "shortdescription": "Boosted Tonna Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/eco/",
+        "fileName": "ct_tonna_eco.object",
+        "name": "ct_tonna_eco",
+        "shortdescription": "Eco Tonna Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/pod/",
+        "fileName": "ct_tonna_eco_pod.object",
+        "name": "ct_tonna_eco_pod",
+        "shortdescription": "Tonna Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/tonna/sapling/",
+        "fileName": "ct_tonna_sapling.object",
+        "name": "ct_tonna_sapling",
+        "shortdescription": "Tonna Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/",
+        "fileName": "ct_viona_seed.object",
+        "name": "ct_viona_seed",
+        "shortdescription": "Vionora Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/",
+        "fileName": "ct_wild_viona_seed.object",
+        "name": "ct_wild_viona_seed",
+        "shortdescription": "Wild Vionora Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/boosted/",
+        "fileName": "ct_viona_boosted.object",
+        "name": "ct_viona_boosted",
+        "shortdescription": "Boosted Vionora Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/eco/",
+        "fileName": "ct_viona_eco.object",
+        "name": "ct_viona_eco",
+        "shortdescription": "Eco Vionora Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/pod/",
+        "fileName": "ct_viona_eco_pod.object",
+        "name": "ct_viona_eco_pod",
+        "shortdescription": "Vionora Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/viona/sapling/",
+        "fileName": "ct_viona_sapling.object",
+        "name": "ct_viona_sapling",
+        "shortdescription": "Vionora Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/",
+        "fileName": "ct_voda_seed.object",
+        "name": "ct_voda_seed",
+        "shortdescription": "Vodakoywa Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/",
+        "fileName": "ct_wild_voda_seed.object",
+        "name": "ct_wild_voda_seed",
+        "shortdescription": "Wild Vodakoywa Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/boosted/",
+        "fileName": "ct_voda_boosted.object",
+        "name": "ct_voda_boosted",
+        "shortdescription": "Boosted Vodakoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/eco/",
+        "fileName": "ct_voda_eco.object",
+        "name": "ct_voda_eco",
+        "shortdescription": "Eco Vodakoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/pod/",
+        "fileName": "ct_voda_eco_pod.object",
+        "name": "ct_voda_eco_pod",
+        "shortdescription": "Vodakoywa Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/voda/sapling/",
+        "fileName": "ct_voda_sapling.object",
+        "name": "ct_voda_sapling",
+        "shortdescription": "Vodakoywa Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/",
+        "fileName": "ct_wild_yaara_seed.object",
+        "name": "ct_wild_yaara_seed",
+        "shortdescription": "Wild Yaara Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/",
+        "fileName": "ct_yaara_seed.object",
+        "name": "ct_yaara_seed",
+        "shortdescription": "Yaara Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/boosted/",
+        "fileName": "ct_yaara_boosted.object",
+        "name": "ct_yaara_boosted",
+        "shortdescription": "Boosted Yaara Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/eco/",
+        "fileName": "ct_yaara_eco.object",
+        "name": "ct_yaara_eco",
+        "shortdescription": "Eco Yaara Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/pod/",
+        "fileName": "ct_yaara_eco_pod.object",
+        "name": "ct_yaara_eco_pod",
+        "shortdescription": "Yaara Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/liquid/yaara/sapling/",
+        "fileName": "ct_yaara_sapling.object",
+        "name": "ct_yaara_sapling",
+        "shortdescription": "Yaara Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/",
+        "fileName": "ct_wild_aya_seed.object",
+        "name": "ct_wild_aya_seed",
+        "shortdescription": "Wild Aya Tuber",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/boosted/",
+        "fileName": "ct_aya_boosted.object",
+        "name": "ct_aya_boosted",
+        "shortdescription": "Boosted Aya Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/cultivated/",
+        "fileName": "ct_aya_cultivated.object",
+        "name": "ct_aya_cultivated",
+        "shortdescription": "Cultivated Aya Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/eco/",
+        "fileName": "ct_aya_eco.object",
+        "name": "ct_aya_eco",
+        "shortdescription": "Eco Aya Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/fertile/",
+        "fileName": "ct_aya_fertile.object",
+        "name": "ct_aya_fertile",
+        "shortdescription": "Fertile Aya Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/pod/",
+        "fileName": "ct_aya_eco_pod.object",
+        "name": "ct_aya_eco_pod",
+        "shortdescription": "Aya Eco Pod",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/sapling/",
+        "fileName": "ct_aya_sapling.object",
+        "name": "ct_aya_sapling",
+        "shortdescription": "Aya Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/seed/",
+        "fileName": "ct_aya_seed.object",
+        "name": "ct_aya_seed",
+        "shortdescription": "Aya Tuber",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/aya/sort/",
+        "fileName": "ct_aya_sort.object",
+        "name": "ct_aya_sort",
+        "shortdescription": "Pink Aya Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/",
+        "fileName": "ct_gil_seed.object",
+        "name": "ct_gil_seed",
+        "shortdescription": "Gil Seeds",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/",
+        "fileName": "ct_wild_gil_seed.object",
+        "name": "ct_wild_gil_seed",
+        "shortdescription": "Wild Gil Seeds",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/boosted/",
+        "fileName": "ct_gil_boosted.object",
+        "name": "ct_gil_boosted",
+        "shortdescription": "Boosted Gil Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/cultivated/",
+        "fileName": "ct_gil_cultivated.object",
+        "name": "ct_gil_cultivated",
+        "shortdescription": "Cultivated Gil Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/eco/",
+        "fileName": "ct_gil_eco.object",
+        "name": "ct_gil_eco",
+        "shortdescription": "Eco Gil Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/fertile/",
+        "fileName": "ct_gil_fertile.object",
+        "name": "ct_gil_fertile",
+        "shortdescription": "Fertile Gil Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/mixed/",
+        "fileName": "ct_gil_mixed.object",
+        "name": "ct_gil_mixed",
+        "shortdescription": "Mixed Gil Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/pod/",
+        "fileName": "ct_gil_eco_pod.object",
+        "name": "ct_gil_eco_pod",
+        "shortdescription": "Gil Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/main/gil/sapling/",
+        "fileName": "ct_gil_sapling.object",
+        "name": "ct_gil_sapling",
+        "shortdescription": "Gil Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/",
+        "fileName": "ct_tsay_seed.object",
+        "name": "ct_tsay_seed",
+        "shortdescription": "Tsay Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/",
+        "fileName": "ct_wild_tsay_seed.object",
+        "name": "ct_wild_tsay_seed",
+        "shortdescription": "Wild Tsay Seed",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/boosted/",
+        "fileName": "ct_tsay_boosted.object",
+        "name": "ct_tsay_boosted",
+        "shortdescription": "Boosted Tsay Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/cultivated/",
+        "fileName": "ct_tsay_cultivated.object",
+        "name": "ct_tsay_cultivated",
+        "shortdescription": "Cultivated Tsay Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/eco/",
+        "fileName": "ct_tsay_eco.object",
+        "name": "ct_tsay_eco",
+        "shortdescription": "Eco Tsay Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/fertile/",
+        "fileName": "ct_tsay_fertile.object",
+        "name": "ct_tsay_fertile",
+        "shortdescription": "Fertile Tsay Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/mixed/",
+        "fileName": "ct_tsay_mixed.object",
+        "name": "ct_tsay_mixed",
+        "shortdescription": "Mixed Tsay Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/pod/",
+        "fileName": "ct_tsay_eco_pod.object",
+        "name": "ct_tsay_eco_pod",
+        "shortdescription": "Tsay Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/main/tsay/sapling/",
+        "fileName": "ct_tsay_sapling.object",
+        "name": "ct_tsay_sapling",
+        "shortdescription": "Tsay Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/",
+        "fileName": "ct_wild_yaavi_seed.object",
+        "name": "ct_wild_yaavi_seed",
+        "shortdescription": "Wild Yaara Eye Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/boosted/",
+        "fileName": "ct_yaavi_boosted.object",
+        "name": "ct_yaavi_boosted",
+        "shortdescription": "Boosted Yaavi Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/cultivated/",
+        "fileName": "ct_yaavi_cultivated.object",
+        "name": "ct_yaavi_cultivated",
+        "shortdescription": "Cultivated Yaara Eye Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/eco/",
+        "fileName": "ct_yaavi_eco.object",
+        "name": "ct_yaavi_eco",
+        "shortdescription": "Eco Yaavi Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/pod/",
+        "fileName": "ct_yaavi_eco_pod.object",
+        "name": "ct_yaavi_eco_pod",
+        "shortdescription": "Yaavi Eco Pod ^#8020f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/sapling/",
+        "fileName": "ct_yaavi_sapling.object",
+        "name": "ct_yaavi_sapling",
+        "shortdescription": "Yaara Eye Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/seed/",
+        "fileName": "ct_yaavi_seed.object",
+        "name": "ct_yaavi_seed",
+        "shortdescription": "Yaara Eye Sprout",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/main/yaavi/sort/",
+        "fileName": "ct_yaavi_sort.object",
+        "name": "ct_yaavi_sort",
+        "shortdescription": "Special Yaara Eye Sapling ^#20f080;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
     }
 ]

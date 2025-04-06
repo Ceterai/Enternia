@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_wild_coral_seed",
+  "colonyTags" : [ "enterash_prime", "nature", "coral", "sea" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Ember Bud",
+  "description" : "A warm coral bud that is slowly, but actively growing.",
+  "altaDescription" : "A growing ember coral. These can usually be found on enterash prime planets.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_coral_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_coral_seed", 1, { } ] ]
+  ],
+
+  "minImmersion" : 0.5,
+  "consumeSoilMoisture" : false
+}

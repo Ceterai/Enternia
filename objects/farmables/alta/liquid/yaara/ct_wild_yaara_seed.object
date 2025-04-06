@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_wild_yaara_seed",
+  "colonyTags" : [ "alterash", "nature", "yaara" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Yaara Seed",
+  "description" : "A weird flower with roots instead of petals.",
+  "altaDescription" : "A yaara sprout able to live on its own is a pretty rare occurrence!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_yaara_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_yaara_seed", 1, { } ] ]
+  ],
+
+  "minImmersion" : 0.5,
+  "consumeSoilMoisture" : false
+}

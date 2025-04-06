@@ -4,6 +4,7 @@
   "description" : "A small ebook that explains the gigantic empty space inside of ^#2080f0;alterash prime^reset; planets.",
   "longdescription" : "This space spans across multiple geological layers of the planet, and thus should be traversed with extreme caution.",
   "icon" : "ebook/lab.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#2080f0;Esetera^reset;, or The Empty Place, is an underground abyss on ^#2080f0;alterash prime^reset; planets. A gargantuan space, formed by the unstable ionized nature of ^#ffa8e8;Io Structs^reset;.
@@ -24,9 +25,8 @@ This effect is absent near the ^#202080;Ion Core^reset; of the planet."
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "esetera" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5,
+      "itemTags" : [ "data_source", "ebook", "esetera" ], "learnBlueprintsOnPickup" : [ "ct_esetera-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

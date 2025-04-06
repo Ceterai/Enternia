@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_eds_armor", "count" : 2 },
+    { "item" : "ct_enterite", "count" : 1 },
+    { "item" : "ct_alta_ecoponics-codex", "count" : 1 },
+    { "item" : "ct_alta_rincer", "count" : 1 },
+    { "item" : "ct_phosicore", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_ship_eco_pod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta", "alta_special", "objects", "eco_pods", "all", "mod" ]
+}

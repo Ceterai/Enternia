@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_gyera_emblem", "count" : 1 },
+    { "item" : "ct_gyera-codex", "count" : 1 },
+    { "item" : "ct_gyera_can", "count" : 1 },
+    { "item" : "ct_gyera_blaster", "count" : 1 },
+    { "item" : "ct_gyera_sprinkler", "count" : 2 },
+    { "item" : "ct_gyera_fertilizer", "count" : 2 },
+    { "item" : "ct_gyera_token", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_gyera_set", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "alta_dendrarium", "l5", "loot", "other", "all", "mod" ]
+}

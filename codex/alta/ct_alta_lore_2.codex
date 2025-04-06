@@ -4,6 +4,7 @@
   "description" : "An important part of alta history. For some reason, it reads like... a fairytale?",
   "longdescription" : "Seems like this is Part 2.",
   "icon" : "ebook/lab.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Once upon a time, there was a broken little star. She saw no meaning in her life and purposelessly wandered across Io not knowing who she is and why she exists.
@@ -35,10 +36,9 @@ And thus, with the help of Io, altas were born.",
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 6,
-      "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 6,
+      "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_2-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

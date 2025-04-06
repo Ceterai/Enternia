@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Enviro Set",
   "description" : "A brief description of tier 5 alta equipment worn by ^#b0e0fc;alta^reset; A.R.C.O. researchers in dangerous environments.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Just like any other sciance-and-research alta company, A.R.C.O. is giving special attention to the protection of its researchers.
@@ -23,7 +24,7 @@ Enviroprotector - Provides Life Support and emergency Force Shield.",
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_enviro-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

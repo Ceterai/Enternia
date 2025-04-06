@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_lab_sapling", "count" : 1 },
+    { "item" : "larva", "count" : 32 },
+    { "item" : "biosample", "count" : 2 },
+    { "item" : "moonstone", "count" : 1 },
+    { "item" : "liquidmilk", "count" : 1 },
+    { "item" : "ct_benema_fertilizer", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_hive_tree", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "nature", "alterash_prime_nature", "hive", "alta_saplings", "all", "seedmaker", "saplingsMods", "mod" ]
+}

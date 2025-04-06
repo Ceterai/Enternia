@@ -1,13 +1,10 @@
 {
   "objectName" : "ct_ayaka_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 1, "rarity" : "Common", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_prime_tree", "ct_ayaka_crimson_tree" ],
+  "level" : 1, "category" : "sapling",
 
   "shortdescription" : "Ayaka",
-  "description" : "A regular ^gray;ayaka tree^reset;, as you will find it in most alterash gardens and forests. It's stem cosists of soft yet very useful ^#3587ff;ayaka wood^reset;.",
+  "description" : "A regular ^gray;ayaka tree^reset;, as you will find it in most alterash gardens and forests. Its stem consists of soft yet very useful ^#3587ff;ayaka wood^reset;.",
   "longdescription" : "In general, ayaka is a family of growth, commonly found in form of ^#ffffff;trees^reset;.\n\nMore information on ayakas, their nature and how they're maintained, can be found here: ^#3587ff;Ayaka Gardener's Notes^reset;",
   "altaDescription" : "This chamber contains a sapling of ayaka.",
 
@@ -21,7 +18,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/objects/biome/alterash/ayaka/ct_aya_pile/icon.png",
+  "inventoryIcon" : "ct_ayaka_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_stem", "fixedFoliage" : "ct_ayaka_prime_leaves",
   "orientations" : [
     {
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
     { "tree" : true }
   ],
 

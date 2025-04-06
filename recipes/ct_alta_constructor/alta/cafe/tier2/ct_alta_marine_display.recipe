@@ -1,0 +1,18 @@
+{
+  "input" : [
+    { "item" : "ct_alta_shelf", "count" : 2 },
+    { "item" : "ct_alta_sink", "count" : 1 },
+    // { "item" : "ct_alta_cleaner", "count" : 1 },
+    { "item" : "crystal", "count" : 12 },
+    { "item" : "liquidwater", "count" : 40 },
+    { "item" : "moondust", "count" : 16 },
+    { "item" : "kelp", "count" : 2 },
+    { "item" : "coralfragment", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_marine_display",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_cafe", "objects", "decoration", "all", "mod" ]
+}

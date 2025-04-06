@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_hyolic_growth_crystal",
   "colonyTags" : [ "alterash_prime", "nature", "aric", "shroom", "toxic" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 4, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "level" : 4, "category" : "sapling",
 
   "shortdescription" : "Crystal Hyolic Shroom",
   "description" : "This variation of a ^#3baf2f;hyolic shroom^reset; has weird crystal-looking growth on its stipe.",
@@ -20,7 +17,7 @@
 
   "health" : 2.5,
 
-  "inventoryIcon" : "/plants/trees/ct_aric/foliage/ct_hyolic/saplingicon.png",
+  "inventoryIcon" : "ct_hyolic_growth_crystal.png", "fixedIcon" : true,
   "fixedStem" : "ct_aric_growth_crystal", "fixedFoliage" : "ct_hyolic",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

@@ -5,6 +5,7 @@
   "longdescription" : "It shows a common among altas cultural perception of the planetary layers above the planet and how they are inhabitated.",
   "altaDescription" : "This story reminds you that it's ok to dream and wonder, and that it's a nice way of relaxation too!",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "The sky above ^#20f080;alterash^reset; always sparkled with a mysterious starry glow.
@@ -26,10 +27,9 @@ And farthest from all, in every star, around it and everywhere, there is ^#ffa8e
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "eva" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "ebook", "eva" ], "learnBlueprintsOnPickup" : [ "ct_evarus-codex" ], // TODO in 2.4:, "ct_ayaka_eva_tree" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
   "related" : {

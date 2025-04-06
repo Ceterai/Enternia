@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_spicer",
+  "colonyTags" : [ "cooking", "cafe" ],
+  "category" : "crafting",
+  "level" : 1, "price" : 60,
+  "race" : "alta",
+
+  "shortdescription" : "Alta Spicer",
+  "description" : "A piece of alta kitchen technology for making freshes, juices, and other raw squeezes.",
+  "longdescription" : "A bit bulky in size, it was made to be like this to make sure any fruits and other ingredients fit in.",
+  "altaDescription" : "Ao, how does one make freshes again?",
+
+  "apexDescription" : "This machine produces different sweet liquids.",
+  "avianDescription" : "I like the smell of this.",
+  "floranDescription" : "A smelly drinksss machine.",
+  "glitchDescription" : "Neutral. A juice machine.",
+  "humanDescription" : "Some tasty juices.",
+  "hylotlDescription" : "A sweet, pleasant drink.",
+  "novakidDescription" : "Don't mind if I do!",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "requiresBlueprint" : false,
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
+    "paneLayoutOverride" : {
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "spices", "powder", "sauce", "dressing", "herbs" ] }, "selected" : true } ] },
+      "windowtitle" : { "title" : "  Spicer", "subtitle" : "  Spice-making convenience" }
+    }
+  },
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

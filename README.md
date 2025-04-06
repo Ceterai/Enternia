@@ -1,9 +1,9 @@
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alterash.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alterash.png" loading="lazy" width="100%" alt="What awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! Welcome to Alterash.">
 
 <h1 align="center" id="my-enternia">My Enternia</h1>
 
 I made this little mod mainly for myself, but decided to share with everybody.  
-This mod adds a new species - ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/title/ct_alta_altaya.png) [Alta](https://github.com/Ceterai/Enternia/wiki/Alta), 2 new planets with their own biomes, monsters, many hazards and treasure. The mod adds new unique weapons, armor, cosmetics, augments/collars, spawners, codexes, throwables and other equipment.  
+This mod adds a new species - ![Alta Portrait](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/title/ct_alta_altaya.png) [Alta](https://github.com/Ceterai/Enternia/wiki/Alta), 2 new planets with their own biomes, monsters, many hazards and treasure. The mod adds new unique weapons, armor, cosmetics, augments/collars, spawners, codexes, throwables and other equipment.  
 All new content **can only be found on those 2 planets**, is fairly balanced, and thus doesn't interfere with normal gameplay!  
 Check out the end of the description for a **rundown of new content**. Or, even better, check out the official **Wiki**!
 
@@ -86,7 +86,7 @@ Still, you can get it here: [Link](https://catalogue.smods.ru/archives/173393)
 
 To explore the worlds added by this mod, try to find new planet types around tier 3+ stars!
 
-To start progressing in the mod content, craft an ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/crafting_station/icon1.png) [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station)! It should be available at the tier 2 Inventor's Table.  
+To start progressing in the mod content, craft an ![alta crafting table -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/crafting_station/icon1.png) [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station)! It should be available at the tier 2 Inventor's Table.  
 From there, you'll be able to craft:
 
 - mod equipment (armor, weapons, throwables, etc);
@@ -95,9 +95,9 @@ From there, you'll be able to craft:
 
 Other crafting tables include:
 
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/constructor/icon1.png) [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) for crafting objects/decorations/traps (upgrading to max tier allows you to even craft natural objects and loot tables);
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png) [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them so you don't have to visit the wiki);
-- ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png) [Alta Upgrade Station](https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station) for upgrading some mod items in exchange for ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png) [Gheatsyn Shards](https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard).
+- ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/constructor/icon1.png) [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) for crafting objects/decorations/traps (upgrading to max tier allows you to even craft natural objects and loot tables);
+- ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png) [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them so you don't have to visit the wiki);
+- ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png) [Alta Upgrade Station](https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station) for upgrading some mod items in exchange for ![small crystals -](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png) [Gheatsyn Shards](https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard).
 
 ## Contents
 
@@ -109,10 +109,10 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 ### Mod Content Rundown
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.png" width="100%">)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.png" loading="lazy" width="100%" alt="Alta Species have their own cloths, haircuts, eyes, ship pet drones, codexes, S.A.I.L. chips and a special Alta Scanner!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.png" loading="lazy" width="100%" alt="Alta Species also have a full set of armor and weapon upgrades, as well as alternative helmets, EPPs and other back items!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.png" loading="lazy" width="100%" alt="My Enternia includes 2 planets, new weather, effects, biomes, monsters and objects!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.png" loading="lazy" width="100%" alt="Alta Species have their own upgradeable weapon system with different types and enhanced features, even for shields!">
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
@@ -136,20 +136,21 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104) (all plant-based and non-organic materials can be studied at the Farm Table and the Mine Table respectfully. Nothing fot the Hunt Table);
 - [Improved Food Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=731354142) (proper support for all effects added by this mod);
 - [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) (proper support for all effects, weather and biomes of this mod);
-- [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);
+- [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![Planets like](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![planets like](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);
 - [Race Traits](https://steamcommunity.com/sharedfiles/filedetails/?id=2622273194) (check mod screenshots for stats);
 - [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458));
-- [Quickbar Mini](https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034)/[Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) (adds ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/scanner/icon.png) [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) to the quick bar);
+- [Quickbar Mini](https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034)/[Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) (adds ![a tool called](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/scanner/icon.png) [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) to the quick bar);
 - [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips) - if you only want the chips and not the rest of the mod - use this instead: [Alta A.I. Chips](https://github.com/Ceterai/AltaAIChips);
 - [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062) (all armor and clothing from the mod can be found in the wardrobe with proper dying options);
 - [Craftable Seeds NEW](https://steamcommunity.com/sharedfiles/filedetails/?id=1938886559)/[Craftable Seeds](https://steamcommunity.com/sharedfiles/filedetails/?id=731358672) (all crops and saplings from this mod can be crafted in the Seed Maker);
 - [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533) (adds all recipes and crafting stations from this mod to the interface);
-- [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR).
+- [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR);
+- [More Tabs](https://steamcommunity.com/sharedfiles/filedetails/?id=1119086325) (codex library now has an alta tab).
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ai.png" width="100%">
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.png" loading="lazy" width="100%" alt="My Enternia provides rich mod support for a lot of popular Starbound plugins!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.png" loading="lazy" width="100%" alt="My Enternia provides support for species-specific traits!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ai.png" loading="lazy" width="100%" alt="My Enternia provides support for S.A.I.L. chips!">
+![All chips are properly animated.](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif)
 
 #### Other Addon Support
 
@@ -200,14 +201,14 @@ Starting with version [2.1.4a](https://github.com/Ceterai/Enternia/releases/tag/
 
 As mentioned in the content rundown, many different items in this mod have improved, informative tooltips. Below are some examples of that:
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.png" width="100%">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.png" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of items!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.png" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of objects!">
 
 ### Tenants
 
 This mod add a large amount of npcs, outpost visitors and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md)
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.png" loading="lazy" width="100%" alt="Alta Species include around 200 tenants!">
 
 ## Changes
 
@@ -231,20 +232,28 @@ Special, warm thanks to the following people for helping with my mod!~
 
 **Emori Logan** ([YouTube](https://www.youtube.com/@mr.connor8492)) for the following sprites:
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/monsters/walkers/orbide/body/ct_ionic_orbide.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/monsters/walkers/narfin/body/ct_ionic_narfin.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/monsters/crawlers/crustoise/body/ct_ionic_crustoise.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/monsters/crawlers/crippit/ct_crippit/ct_ionic_crippit.png)
+![Ionic Orbide](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/orbide.png) ![Ionic Narfin](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/narfin.png) ![Ionic Crustoise](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/crustoise.png) ![Ionic Crippit](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/crippit.png) ![Ionic Peblit](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/peblit.png) ![Ionic Smoglin](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/ionic/smoglin.png)
+
+![EDS Hovercraft](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/hovercraft/1.png) ![Ghearun Hovercraft](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/hovercraft/2.png)
+
+![Energy Scout Armor](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/emori/energy_scout_armor/full.png)
 
 **Evgen99** ([Boosty](https://boosty.to/unath_tayar), [YouTube](https://www.youtube.com/@unathtaer)) for the following sprites:
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/4.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/5.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/6.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/7.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/8.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/9.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/10.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/11.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/12.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/13.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/14.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/15.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/16.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/17.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/18.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/19.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/20.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/21.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/22.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/23.png)
+![Mical Crystal 1](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/1.png) ![Mical Crystal 2](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/2.png) ![Mical Crystal 3](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/3.png) ![Mical Crystal 4](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/4.png) ![Mical Crystal 5](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/5.png) ![Mical Crystal 6](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/6.png) ![Mical Crystal 7](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/7.png) ![Mical Crystal 8](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/8.png) ![Mical Crystal 9](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/9.png) ![Mical Crystal 10](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/10.png) ![Mical Crystal 11](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/11.png) ![Mical Crystal 12](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/12.png) ![Mical Crystal 13](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/13.png) ![Mical Crystal 14](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/14.png) ![Mical Crystal 15](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/15.png) ![Mical Crystal 16](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/16.png) ![Mical Crystal 17](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/17.png) ![Mical Crystal 18](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/18.png) ![Mical Crystal 19](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/19.png) ![Mical Crystal 20](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/20.png) ![Mical Crystal 21](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/21.png) ![Mical Crystal 22](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/22.png) ![Mical Crystal 23](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/mical/23.png)
 
 ([Post link](https://boosty.to/unath_tayar/posts/27d1f7c1-3cd2-46b0-a036-90ccfe4c40fe?share=post_link))
 
-![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/1.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/2.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/3.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/4.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/5.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/6.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/7.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/8.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/9.png) ![ ](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/10.png)
+![Critter 1](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/1.png) ![Critter 2](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/2.png) ![Critter 3](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/3.png) ![Critter 4](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/4.png) ![Critter 5](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/5.png) ![Critter 6](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/6.png) ![Critter 7](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/7.png) ![Critter 8](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/8.png) ![Critter 9](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/9.png) ![Critter 10](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/critters/10.png)
 
 ([Post link](https://boosty.to/unath_tayar/posts/27d1f7c1-3cd2-46b0-a036-90ccfe4c40fe?share=post_link))
+
+![Ionic Crystal 1](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/1.png) ![Ionic Crystal 2](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/2.png) ![Ionic Crystal 3](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/3.png) ![Ionic Crystal 4](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/4.png) ![Ionic Crystal 5](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/5.png) ![Ionic Crystal 6](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/6.png) ![Ionic Crystal 7](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/7.png) ![Ionic Crystal 8](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/8.png) ![Ionic Crystal 9](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/9.png) ![Ionic Crystal 10](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/10.png) ![Ionic Crystal 11](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/credits/evgen99/ionic/11.png)
+
+([Post link](https://boosty.to/unath_tayar/posts/893011c9-7ae8-4266-a898-2d3a3af6b036?share=post_link))
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alta_sign4.png">
+  <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alta_sign4.png" loading="lazy" alt="For Alliana!">
 </p>

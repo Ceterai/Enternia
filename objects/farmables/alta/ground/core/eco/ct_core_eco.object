@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_core_eco",
+  "colonyTags" : [ "enterash_prime", "nature", "core", "farming" ], "learnBlueprintsOnPickup" : [ "ct_core_boosted", "ct_diamond_seed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Eco Faacain Sapling ^#20f080;^reset;",
+  "description" : "This core fragment sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "A faacain bud! It will take a long time, but it will grow into more core fragments!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_core_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_azura_tree",
+  "colonyTags" : [ "enterash", "nature", "alien" ], "learnBlueprintsOnPickup" : [ "ct_azura_tree", "ct_azura_seed" ],
+  "level" : 4, "category" : "sapling",
+
+  "shortdescription" : "Azura",
+  "description" : "An alien tree rarely found anywhere in nature, apart from radioactive planets and scarse alive areas on enterash planets.",
+  "longdescription" : "This tree consists of a special type of wood often used in decorative furniture crafting.",
+  "altaDescription" : "This eco pod contains a sapling of azura.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 7.5,
+
+  "inventoryIcon" : "ct_azura_tree.png", "fixedIcon" : true,
+  "fixedStem" : "alienstriped", "fixedFoliage" : "alienbigleaf",
+  "fixedStemHues" : [ 0 ], "fixedFoliageHues" : [ 0 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/ship/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/alta/sapling.lua"
+}

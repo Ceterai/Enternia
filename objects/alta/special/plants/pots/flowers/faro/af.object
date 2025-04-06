@@ -1,0 +1,15 @@
+{
+  "objectName" : "ct_faro_flower_af",
+  "colonyTags" : [ "nature", "flower", "koywa" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 280,
+
+  "shortdescription" : "Potted Faro Koywa Flower",
+  "description" : "A seemingly unsuspecting flower in a tall pot.",
+  "altaDescription" : "Looking at it fills me with delight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

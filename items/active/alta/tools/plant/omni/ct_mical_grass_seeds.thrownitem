@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_omni_mical_grass_seeds",
+  "shortdescription" : "Omni Mical Seeds ^#8020f0;^reset;",
+  "description" : "Toss these on on any ground to grow tiny mical crystals!",
+
+  "level" : 6, "price" : 20, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "ct_mical_grass_seeds.png",
+  "objectImage" : "ct_mical_grass_seeds.png",
+  "image" : "ct_mical_grass_seeds.png",
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_omni_mical_grass_spray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_garden_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_wild_aya_seed" ],
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Garden Ayaka",
   "description" : "An ^#3587ff;ayaka tree^reset; ripe with fresh ^#3587ff;ayas^reset;. Commonly found in ^#3587ff;ayaka forests^reset; and ^#20f080;alterash gardens^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_garden_stem_icon.png",
+  "inventoryIcon" : "ct_ayaka_garden_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_garden_stem", "fixedFoliage" : "ct_ayaka_garden_leaves", "middleLayerSuffix" : "_icon.png",
   "fixedFoliageHues" : [ 0, -15, -30 ],
   "orientations" : [
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

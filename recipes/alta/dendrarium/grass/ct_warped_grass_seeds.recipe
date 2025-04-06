@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_warped_hive", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
+  ],
+  "duration" : 0.3,
+  "output" : { "item" : "ct_warped_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l4", "alta_max", "alta_dendrarium", "consumables", "grass_seeds", "all", "mod" ]
+}

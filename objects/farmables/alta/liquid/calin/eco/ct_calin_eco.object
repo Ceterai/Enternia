@@ -1,0 +1,28 @@
+{
+  "objectName" : "ct_calin_eco",
+  "colonyTags" : [ "alterash", "nature", "calin", "farming" ], "learnBlueprintsOnPickup" : [ "ct_calin_boosted", "ct_gheatsyn_seed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Eco Calin Sapling ^#20f080;^reset;",
+  "description" : "This crystal sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "A calin bud! It will take a long time, but it will grow into more crystals!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_calin_harvest", "resetToStage" : 2 }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

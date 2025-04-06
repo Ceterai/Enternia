@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_alta_farming_set",
+  "shortdescription" : "Alta Farming Pack",
+  "description" : "Contains several simple farming tools and equipment.",
+  "longdescription" : "Compact item packs are useful when you want to reduce the space they are taking up otherwise.",
+  "altaDescription" : "I like keeping everything neat and sorted!",
+
+  "inventoryIcon" : "farming.png",
+  "treasure" : { "pool" : "ct_alta_farming-pack" },
+
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "set", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_seed_set", "ct_alta_farming_set_2" ],
+  "category" : "mysteriousReward",
+  "builder" : "/items/buildscripts/alta/set.lua"
+}

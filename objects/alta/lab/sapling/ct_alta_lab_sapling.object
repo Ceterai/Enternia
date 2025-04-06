@@ -1,12 +1,11 @@
 {
   "objectName" : "ct_alta_lab_sapling",
-  "colonyTags" : [ "alta_lab", "garden", "science" ],
+  "colonyTags" : [ "alta_lab", "garden", "science" ], "learnBlueprintsOnPickup" : [ "ct_hive_tree" ],
   "category" : "sapling",
-  "level" : 5, "rarity" : "Rare", "price" : 20,
-  "race" : "alta",
+  "level" : 5, "race" : "alta",
 
   "shortdescription" : "Alta Lab Sapling",
-  "description" : "A tree sapling. Securely contained within a monitored environment.",
+  "description" : "A tree sapling. Securely contained within a monitored environment.  \n^gray;Can be placed on moonstone. Can grow into tonnova trees, hive tentacles or aric shrooms.^reset;",
   "altaDescription" : "A lab eco chamber for growing giant non-plants like aric shrooms and tonnovas.",
 
   "apexDescription" : "I can plant this to grow a tree.",
@@ -27,18 +26,20 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
   "treePool" : [
     { "fixedStem" : "ct_tonnova_spiral_stem", "fixedFoliage" : "ct_tonnova_bulb" },
     { "fixedStem" : "ct_tonnova_stem", "fixedFoliage" : "ct_tonnova_blob" },
     { "fixedStem" : "ct_tonnova_wide_stem", "fixedFoliage" : "ct_tonnova_blob" },
+
+    // Added in 2.3.4e
+    { "fixedStem" : "hive", "fixedFoliage" : "hive" },
+    { "fixedStem" : "hive", "fixedFoliage" : "hive", "fixedStemHues" : [ -32, 0, 32 ] },
 
     { "fixedStem" : "ct_aric_bulb_spots", "fixedFoliage" : "ct_akollic" },
     { "fixedStem" : "ct_aric_bulb", "fixedFoliage" : "ct_akollic" },
@@ -57,6 +58,6 @@
 
   "builder" : "/items/buildscripts/alta/sapling.lua",
   "wiki" : {
-    "aliases" : { "Lab Sapling" : { }, "Alta Lab Eco-Chamber" : { }, "Lab Eco-Chamber" : { } }
+    "aliases" : { "Lab Sapling" : { }, "Alta Lab Eco-Chamber" : { } }
   }
 }

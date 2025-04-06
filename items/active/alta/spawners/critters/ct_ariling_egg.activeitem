@@ -5,7 +5,7 @@
   "longdescription" : "These \"eggs\" are really just highly incubated versions of creatures, used by altas during research, often for simulation purposes, which is why they tend to be friendly to their owner.",
   "altaDescription" : "Where does it get its minerals from?..",
   "inventoryIcon" : "ct_ariling_egg.png",
-  "itemTags" : [ "throwable", "spawner", "monster_egg" ],
+  "itemTags" : [ "throwable", "spawner", "monster_egg" ], "learnBlueprintsOnPickup" : [ "ct_ariling_af" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
   "price" : 200, "level" : 5,
   "pet" : "ct_ariling", "damageTeam" : { "team" : 1, "type" : "passive" },

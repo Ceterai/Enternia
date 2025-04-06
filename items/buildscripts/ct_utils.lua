@@ -12,6 +12,11 @@ function replaceRegexInData(data, replacevalue)
   end
 end
 
+---@param keyName string
+---@param defaultValue any
+---@param config table
+---@param parameters table
+---@return any
 function getValue(keyName, defaultValue, config, parameters)
   if parameters[keyName] ~= nil then return parameters[keyName]
   elseif config[keyName] ~= nil then return config[keyName]
@@ -40,7 +45,7 @@ end
 function getTags(tagList, race, rarity, element) return getSortedUnique(appendList(tagList or jarray(), {race or '', (rarity or ''):lower(), element or ''})) end
 
 function getPickupMsgs(msgList, tagList)
-  for _,v in ipairs(tagList) do
+  for _,v in ipairs(tagList or {}) do
     if v == 'gsr' then table.insert(msgList, 'ct_gsr_msg') end
     if v == 'set' then table.insert(msgList, 'ct_set_msg') end
     if v == 'loot' then table.insert(msgList, 'ct_loot_crate_msg') end

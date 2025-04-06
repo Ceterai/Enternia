@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_aya_cultivated", "count" : 1 },
+    { "item" : "ct_gyera_fertilizer", "count" : 1 },
+    { "item" : "avesmingoseed", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_aya_sort", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

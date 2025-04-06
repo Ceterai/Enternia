@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_alta_flower_pot", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l3", "alta_constructor6", "alta_special", "alta_dendrarium", "flower_pots", "all", "mod" ]
+}

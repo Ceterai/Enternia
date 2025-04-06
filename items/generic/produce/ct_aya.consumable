@@ -6,11 +6,9 @@
   "altaDescription" : "Makes you feel like home as soon as you feel the taste.",
 
   "level" : 1,
-  "itemTags" : [ "ayaka" ],
-  "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
-  "rottingMultiplier" : 3.0,
+  "itemTags" : [ "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_aya_jam", "ct_aya_fresh", "ct_aya_baked", "ct_aya_powder", "ct_aya_boiled" ],
+  "category" : "food", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_aya.png",
-  "learnBlueprintsOnPickup" : [ "ct_aya_jam", "ct_aya_fresh", "ct_aya_baked", "ct_aya_powder", "ct_aya_boiled" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
 
   "wiki" : { "aliases" : { "Alta Peach" : { } } }, "alkey" : "Aya"

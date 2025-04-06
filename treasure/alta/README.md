@@ -40,6 +40,12 @@ Contents of armor sets found here: [Modding: Alta Sets](/items/active/alta/sets/
 
 Location: [`robotics.treasurepools`](./robotics.treasurepools)
 
+### Rent
+
+Rent is given by tenants periodically. Full tenant list: [Tenants](/.meta/wiki/tenants.md)
+
+Location: [`rent.treasurepools`](./rent.treasurepools)
+
 ## Treasure Chests
 
 Alta chest definitions for the pod loot tables in [Loot Tables: Pods](#pods) and alta pods found at `/objects/alta/`

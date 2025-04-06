@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_alta_vendor", "count" : 1 },
+    { "item" : "ct_alta_farming_set", "count" : 1 },
+    { "item" : "ct_alta_farming_set_2", "count" : 1 },
+    { "item" : "ct_alta_farming_set_3", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_botanics_vendor",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta", "alta_special", "alta_dendrarium", "dendrarium_other", "vendors", "objects", "wired", "all", "mod" ]
+}

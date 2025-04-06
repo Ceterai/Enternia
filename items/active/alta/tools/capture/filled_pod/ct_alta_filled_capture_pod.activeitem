@@ -1,0 +1,109 @@
+{
+  "itemName" : "ct_alta_filled_capture_pod",
+  "shortdescription" : "Filled Capture Pod",
+  "description" : "Throw it down to release the creature captured inside!",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "weapon" ],
+  "category" : "throwableItem", "tooltipKind" : "filledcapturepod",
+
+  "inventoryIcon" : "icon.png",
+  "animation" : "default.animation",
+  "animationParts" : { "filledcapturepod" : "body.png" },
+  "animationCustom" : { },
+  "scripts" : [ "/items/active/unsorted/filledcapturepod/filledcapturepod.lua" ],
+
+  "icons" : {
+    "healthy" : "/items/active/alta/tools/capture/filled_pod/icon.png",
+    "dead" : "/items/active/alta/tools/capture/filled_pod/icon_dead.png"
+  },
+
+  "deadPodShake" : {
+    "frequency" : 1.5,
+    "phase" : 0, // degrees
+    "amplitude" : 30 // degrees
+  },
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : -20,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "windup" : {
+      "duration" : 0.1,
+      "transitionFunction" : "fire",
+      "armRotation" : 70,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "dead" : {
+      "duration" : 0.5,
+      "transition" : "idle",
+      "armRotation" : 50,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : false
+    },
+    "throw" : {
+      "armRotation" : 0,
+      "animationState" : {
+        "weapon" : "hidden"
+      },
+      "allowRotate" : true,
+      "allowFlip" : true
+    },
+    "catch" : {
+      "duration" : 0.2,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "monsterEnergyCatch" : {
+      "duration" : 1.5,
+      "transition" : "podTeleportCatch",
+      "transitionFunction" : "showEnergyBall",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "podTeleportCatch" : {
+      "duration" : 0.3,
+      "transition" : "idle",
+      "armRotation" : 60,
+      "animationState" : {
+        "weapon" : "visible"
+      },
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+
+  "projectileType" : "ct_alta_filled_capture_blast",
+  "projectileParameters" : {
+    "speed" : 40,
+    "level" : 0
+  },
+
+  "podUuid" : null,
+  "pets" : [],
+  "currentCollar" : null,
+  "podItemHasPriority" : false,
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

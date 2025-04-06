@@ -6,6 +6,7 @@ import generate_tenant_guide
 import meta
 import extract_version
 import base
+from wiki import gen
 
 
 PREDEPLOY = True
@@ -47,6 +48,7 @@ if VERSION and TITLE:
 
     print('Step 3. Update the Tenant Guide.')
     print_affected(generate_tenant_guide.run())
+    gen.run()
 
     # Step 4
 

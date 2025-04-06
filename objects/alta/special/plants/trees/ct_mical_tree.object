@@ -1,0 +1,40 @@
+{
+  "objectName" : "ct_mical_tree",
+  "colonyTags" : [ "enterash_prime", "nature", "mical" ],
+  "level" : 6, "category" : "sapling",
+
+  "shortdescription" : "Mical Tree",
+  "description" : "A tree you would only find on enterash planets, hidden among explosive nature and terrain.",
+  "longdescription" : "This tree consists of a special type of wood often used in decorative furniture crafting.",
+  "altaDescription" : "This eco pod contains a sapling of sofara.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 7.5,
+
+  "inventoryIcon" : "ct_mical_tree.png", "fixedIcon" : true,
+  "fixedStem" : "geode", "fixedFoliage" : "geodefoliage",
+  "fixedStemHues" : [ -132 ], "fixedFoliageHues" : [ -132 ],
+  "orientations" : [
+    {
+      "dualImage" : "/objects/alta/ship/sapling/ct_sapling.png:<color>.<stage>.<alt>",
+      "requireTilledAnchors" : false, "requireSoilAnchors" : false,
+      "spaceScan" : 0.1, "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
+  "stages" : [
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "tree" : true }
+  ],
+
+  "builder" : "/items/buildscripts/alta/sapling.lua"
+}

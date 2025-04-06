@@ -3,6 +3,7 @@
   "title" : "CEN Referencing Guide",
   "description" : "An old document with lots of complicated words.",
   "icon" : "paper/title.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Any descriptive document classified as CEN should fall under and is required to only be used as an instance of one of the following categories:
@@ -25,7 +26,7 @@ CEN-8 - Voltage Handling Protocol..."
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_cen-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

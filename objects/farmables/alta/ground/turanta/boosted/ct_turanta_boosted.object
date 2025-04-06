@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_turanta_boosted",
+  "colonyTags" : [ "alterash", "nature", "haven", "farming" ], "learnBlueprintsOnPickup" : [ "ct_turanta_eco_pod" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 5,
+
+  "shortdescription" : "Turanta Sapling ^#2080f0;^reset;",
+  "description" : "This sapling comes with enhanced mutations that allow much faster ripening.",
+  "altaDescription" : "A pretty turanta! Its big petals can be quite useful!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_turanta_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_alta_eco_pod",
+  "colonyTags" : [ "city", "garden", "plant_pod" ], "learnBlueprintsOnPickup" : [ "ct_alta_hydroponics-codex", "ct_alta_sapling" ],
+  "category" : "sapling", "objectType" : "container",
+  "level" : 4, "price" : 100, "race" : "alta",
+
+  "shortdescription" : "Alta Eco Pod",
+  "description" : "An empty composite chamber, presumably made for plants.",
+  "longdescription" : "The capabilities are rather limited, yet even still this is a fascinating peace of technology able to keep a growing lifeform alive and well.",
+  "altaDescription" : "Eco pods like this one are used to safely grow trees on alterash planets, mainly ayakas.",
+
+  "apexDescription" : "I can plant this to grow a tree.",
+  "avianDescription" : "I can grow a tree by planting this sapling.",
+  "floranDescription" : "Floran plant cute sssapling, grow big bad evil tree!",
+  "glitchDescription" : "Wonder. Planting this sapling allows me to grow life.",
+  "humanDescription" : "This sapling will grow into a tree.",
+  "hylotlDescription" : "Such wondrous life, springing forth from the tiniest shoot. Sigh.",
+  "novakidDescription" : "It'll grow into a big tree if I plant it.",
+
+  "health" : 2.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua",
+  "wiki" : { "aliases" : { "Eco Pod" : { }, "Eco Chamber" : { }, "Yava Crom" : { } } }, "alkey" : "Yava Pod"
+}

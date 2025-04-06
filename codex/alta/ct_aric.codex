@@ -4,6 +4,7 @@
   "description" : "An informative paper that can help you tell good shrooms from bad ones.",
   "longdescription" : "Most aric shrooms are constantly exposed to extreme mutation, to the point where it's hard to find 2 exact same species. For this reason, ^#b0e0fc;altas^reset; recognize them by separate aspects of their appearance.",
   "icon" : "paper/aric.png",
+  "species" : "alta",
   "contentPages" : [
 
     "This doc describes ways to distinguish edible, safe, toxic and poisonous ^#3baf2f;arics^reset;.
@@ -19,9 +20,8 @@ As an example, small ^#3baf2f;agaranics^reset; are mostly edible, while most ^#3
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "docs", "aric" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5,
+      "itemTags" : [ "data_source", "docs", "aric" ], "learnBlueprintsOnPickup" : [ "ct_aric-codex" ], // TODO in 2.4:, "ct_akollic_bulb" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

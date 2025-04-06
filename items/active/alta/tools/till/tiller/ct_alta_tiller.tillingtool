@@ -4,6 +4,7 @@
   "description" : "An advanced tool to till soil. RMB for more accurate tilling.",
 
   "level" : 4, "race" : "alta",
+  "itemTags" : [ "tiller", "upgradeableWeapon" ], "learnBlueprintsOnPickup" : [ "ct_composite_cutter" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "twoHanded" : true,
   "inventoryIcon" : "icon.png",
@@ -17,5 +18,11 @@
 
   "pickupQuestTemplates" : [ "firstcrops" ],
 
-  "builder" : "/items/buildscripts/alta/tool.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "image" : "body_upg.png",
+    "shortdescription" : "Startiller ^#8020f0;^reset;",
+    "fireTime" : 0.125
+  }
 }

@@ -4,13 +4,12 @@
   "description" : "A useful tool for cutting lumber. Made from an altan composite.",
 
   "level" : 4, "race" : "alta",
-  "itemTags" : [ "upgradeableWeapon" ],
+  "itemTags" : [ "cutter", "upgradeableWeapon" ], "learnBlueprintsOnPickup" : [ "ct_alta_flowers-codex" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
+
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:idle",
   "twoHanded" : true,
-  "maxStack" : 1,
-
   "image" : "body.png:{frame}",
   "frames" : 5,
   "animationCycle" : 0.5,

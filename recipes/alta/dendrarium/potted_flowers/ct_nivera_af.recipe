@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_warped_chair", "count" : 1 },
+    { "item" : "glowfibre", "count" : 4 },
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "ct_alta_fertilizer", "count" : 1 },
+    { "item" : "ct_alta_tall_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_nivera_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

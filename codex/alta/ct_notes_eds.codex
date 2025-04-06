@@ -3,6 +3,7 @@
   "title" : "EDS Status Analysis",
   "description" : "This ^#b0e0fc;datamass^reset; contains some conclusive notes.",
   "icon" : "datamass/eds.png",
+  "species" : "alta",
   "contentPages" : [
 
     "...No response. Still. Constant retries are so useless at this point it's probably a better idea to take decisive measures.
@@ -13,7 +14,7 @@ Hopefully this reaches Alliana soon, the situation in already dangerous regions 
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "datamass", "eds" ],
+    "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_notes_eds-codex" ],
     "rarity" : "Rare",
     "price" : 160
   }

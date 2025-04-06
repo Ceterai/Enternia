@@ -1,0 +1,29 @@
+{
+  "itemName" : "ct_flowery_grass_seeds",
+  "shortdescription" : "Flowery Grass Seeds",
+  "description" : "Toss these on some damp tilled soil to grow flowery grass!",
+
+  "level" : 1, "price" : 20, "race" : "alta",
+  "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
+  "inventoryIcon" : "ct_flowery_grass_seeds.png",
+  "objectImage" : "ct_flowery_grass_seeds.png",
+  "image" : "ct_flowery_grass_seeds.png",
+
+  "ammoUsage" : 1, "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_flowery_grass_spray",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 0,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

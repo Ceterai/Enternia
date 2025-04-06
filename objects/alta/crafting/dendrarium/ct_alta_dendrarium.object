@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_dendrarium",
-  "colonyTags" : [ "crafting" ],
+  "colonyTags" : [ "crafting", "garden", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_farming-codex", "paper" ],
   "category" : "crafting",
-  "level" : 6, "race" : "alta",
+  "level" : 4, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Dendrarium^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An alta botanics station for farming and gardening. Craft available items to learn new blueprints and make progress.",
+  "longdescription" : "The station provides a self-contained library of farming and gardening materials, including eco pod RI, all useful to learn the beautiful world of plants and plant-like crystals.",
+  "altaDescription" : "A dendrarium for growing and experimenting with flowers, crops, grass, trees, and even some crystals! Very handy.",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "A botanical research table. Seems like I can make farming equipment here.",
+  "avianDescription" : "Ooh, an advanced farming table! I wonder what these buttons do!",
+  "floranDescription" : "Floran can grow ssstronger here! ...Maybe. At leassst Floran can grow ssmaller thingsss.",
+  "glitchDescription" : "Pleased. I can learn to take care of any kinds of flowers using this small computer.",
+  "humanDescription" : "A mini-lab for... plant experiments, I think?",
+  "hylotlDescription" : "An agricultural complex - I could create a beautiful spring garden with this!",
+  "novakidDescription" : "Some computers with a good stack of farmin' tools!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -25,45 +25,49 @@
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/alta/crafting/ui_tabs.config",
-    "filter" : [
-      "alta_t0", "alta_t0m", "alta_t0mm", "alta_t1", "alta_t1+", "alta_t2", "alta_t2+", "alta_t2m",
-      "alta_t3", "alta_t3+", "alta_t3m", "alta_t3mm", "alta_t4", "alta_t4+", "alta_t4m", "alta_t4mm", "alta_t4mmm", "alta_max", "alta_special",
-      "alta_other_0", "alta_other_1", "alta_other_2", "alta_other_3", "alta_other_4", "alta_other_5", "alta_other_6", "alta_other_max"
-    ],
+    "filter" : [ "alta_loot", "alta_ancient", "alta_dendrarium" ],
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA DENDRARIUM", "subtitle" : "^noshadow;^#001054;Farming & Botanics" },
-      "tab1" : { "file" : "" }, "tab8" : { "file" : "" },
-      "bg1" : { "file" : "" }, "bg8" : { "file" : "" },
-      "tab2" : { "file" : "/items/active/alta/tools/till/hoe/icon.png" },
-      "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
-      "tab4" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
-      "tab5" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
-      "tab6" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
-      "tab7" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab1" : { "file" : "/items/active/alta/tools/till/hoe/icon.png" },
+      "tab2" : { "file" : "/items/active/alta/tools/fertilize/ct_basic_fertilizer.png" },
+      "tab3" : { "file" : "/objects/alta/city/sapling/icon.png" },
+      "tab4" : { "file" : "/objects/farmables/alta/main/aya/sapling/icon.png" },
+      "tab5" : { "file" : "/items/active/alta/tools/plant/ct_grass_seeds.png" },
+      "tab6" : { "file" : "/objects/alta/special/plants/pots/flowers/blue/icon.png" },
+      "tab7" : { "file" : "/items/active/alta/spawners/critters/ct_hunter_flower_egg.png" },
+      "tab8" : { "file" : "/items/materials/moonstoneicon.png" },
       "categories" : { "buttons" : [
         {
-          "position" : [22, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "dendrarium_tools" ] }
+          "position" : [6, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "watering_cans", "cutters", "tillers", "codex", "sprinklers", "loot", "dendrarium_other" ] }
+        },
+        {
+          "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "fertilizers", "flower_pots", "eco_pods" ] }
         },
         {
           "position" : [38, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "saplings" ] }
+          "data" : { "filter" : [ "alta_saplings" ] }
         },
         {
           "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "crop", "grass" ] }
+          "data" : { "filter" : [ "alta_crops" ] }
         },
         {
           "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "flowers", "potted_critters" ] }
+          "data" : { "filter" : [ "grass_seeds", "alta_seeds", "omni_grass_seeds" ] }
         },
         {
           "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "flower_critters" ] }
+          "data" : { "filter" : [ "potted_flowers", "potted_critters" ] }
         },
         {
-          "position" : [102,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "ingredients" ] }
+          "position" : [102, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "flower_critters", "wild_plants" ] }
+        },
+        {
+          "position" : [118,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "materials", "ingredients" ] }
         }
       ] }
     }

@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_wild_gil_seed",
+  "colonyTags" : [ "alterash", "nature" ],
+  "rarity" : "Common",
+  "category" : "seed",
+  "objectType" : "farmable",
+  "price" : 240,
+  "hasObjectItem" : false,
+
+  "biomePlaced" : true,
+
+  "shortdescription" : "Wild Gil Seeds",
+  "description" : "A natural source of salt, wow.",
+  "altaDescription" : "A wild gil plant! I should harvest it to get some gils.",
+
+  "apexDescription" : "Tastes like a tomato with spices.",
+  "avianDescription" : "The hardest seeds I've seen.",
+  "floranDescription" : "... Sssssssssssssssssssalt.",
+  "glitchDescription" : "Disappointed. A fruit with salt, what an innovation.",
+  "humanDescription" : "A salty tomato!",
+  "hylotlDescription" : "A salty fruit of unknown origin.",
+  "novakidDescription" : "Have never seen a salty fruit until now.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [680, 1320]
+    },
+    {
+      "duration" : [680, 1320]
+    },
+    {
+      "alts" : 5,
+      "duration" : [1170, 1230]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "ct_gil_poor_harvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_gil_seed", 1, { } ], [ "ct_gil", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_warped_lamp", "count" : 1 },
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "ct_biomix_fertilizer", "count" : 1 },
+    { "item" : "ct_composite_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_bush_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

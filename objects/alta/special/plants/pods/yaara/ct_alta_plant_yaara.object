@@ -1,0 +1,25 @@
+{
+  "objectName" : "ct_alta_plant_yaara",
+  "colonyTags" : [ "city", "garden", "yaara", "pretty", "plant_pod" ], "learnBlueprintsOnPickup" : [ "ct_yaara_node" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Potted Yaara Plant",
+  "description" : "A decorative plant in a big titanium vase.",
+  "altaDescription" : "Some nice ^#20f080;yaara flowers^reset; to bring life to any space! The vase is a complicated device that keeps it alive.",
+
+  "apexDescription" : "This plant seems to grow from a special alta eco pod. An expected level of care towards nature.",
+  "avianDescription" : "A pretty plant that gets all the things it needs from that big pot!",
+  "floranDescription" : "A plant in lotsss of metal. Very protected.",
+  "glitchDescription" : "Unsure. The pot for this plant seems to be bigger than the plant itself.",
+  "humanDescription" : "Reminds me of waiting rooms.",
+  "hylotlDescription" : "A complicated titanium pod with a pretty plant growing inside it.",
+  "novakidDescription" : "Some complicated alta tech, all just to make a plant grow, huh.",
+
+  "health" : 1.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

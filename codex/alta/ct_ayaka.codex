@@ -4,6 +4,7 @@
   "description" : "A set of notes about ^#3587ff;ayaka^reset; growth maintenance made by an ^#b0e0fc;alta^reset; gardener.",
   "longdescription" : "It seems to be caovered in dried up blue stains. The notes were carefully written by a professional with a passion for gardening, a tiny signature at the back says \"Naya\".\n\n**Naya** is a beautiful plant that growth in wet conditions with slight ionization, with some altas ending up choosing it as their name. Though, **Naya The Gardener** usually says that in her case it's a pure coinsidence.",
   "icon" : "paper/ayaka.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#3587ff;Ayaka trees^reset; are generally relatively easy to grow and maintain. This is true for almost all ayaka tree types with small exceptions.  
@@ -32,10 +33,9 @@ Common cooking recipes from ayaka biproducts include: ^#3587ff;Aya Fresh^reset;,
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 80, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 3,
-      "itemTags" : [ "data_source", "docs", "ayaka" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 3,
+      "itemTags" : [ "data_source", "docs", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka-codex" ], // TODO in 2.4:, "ct_ayaka_young_tree" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

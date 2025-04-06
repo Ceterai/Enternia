@@ -1,0 +1,46 @@
+{
+  "objectName" : "ct_alta_lab_sprinkler",
+  "colonyTags" : [ "farming", "alta_lab" ],
+  "category" : "wire",
+  "level" : 5, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Alta Lab Sprinkler",
+  "description" : "An automated soil watering solution.",
+  "longdescription" : "Requires alta robotics AI to function in an autonomous way.",
+  "altaDescription" : "Neat, now nobody has to water plants themselves!.. As if you wouldn't want to...",
+
+  "apexDescription" : "A sprinkler. Quite a clever way to water crops.",
+  "avianDescription" : "It's a machine that waters crops automatically.",
+  "floranDescription" : "Waters cropss..",
+  "glitchDescription" : "Unimpressed. It is an automated soil watering solution. I enjoy watering my plants by hand.",
+  "humanDescription" : "It's a sprinkler for watering crops! Running through sprinklers makes me feel nostalgic.",
+  "hylotlDescription" : "It is used to water crops. Simple, but rather clever.",
+  "novakidDescription" : "Waterin' crops made simple.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "scripts" : [ "/objects/wired/projectiletrap/projectiletrap.lua" ],
+  "scriptDelta" : 2,
+
+  "animation" : "/objects/wired/projectiletrap/projectiletrap.animation",
+  "animationCustom" : { "sounds" : { "shoot" : [ ], "on" : [ ], "off" : [ ] } },
+  "animationParts" : { "bg" : "body.png", "fg" : "body.png" },
+  "projectileDirection" : [0, 1],
+  "projectilePosition" : [1, 0.7],
+
+  "inputNodes" : [ [0, 0] ],
+
+  "inactiveLightColor" : [0, 0, 0],
+  "activeLightColor" : [0, 0, 0],
+
+  "fireTime" : 0.45,
+  "fireTimeVariance" : 0.1,
+  "inaccuracy" : 0.65,
+  "projectile" : "watersprinkledroplet",
+  "projectileConfig" : { "damageTeam" : { "type" : "indiscriminate" }, "power" : 0, "speed" : 25 },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

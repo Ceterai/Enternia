@@ -1,0 +1,12 @@
+{
+  "itemName" : "ct_calin_fertilizer",
+  "shortdescription" : "Calin Fertilizer ^#20f080;^reset;",
+  "description" : "Acidic fertilizer for crystalline plants. Will likely poison you if consumed directly.",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "level" : 4, "race" : "alta", "category" : "food",
+  "build" : { "foodValue" : 4, "rotToEffectRatio" : 19.0, "badEffects" : [ "weakpoison" ] },
+  "inventoryIcon" : "ct_calin_fertilizer.png",
+  "itemTags" : [ "calin", "fertilizer" ], "learnBlueprintsOnPickup" : [ "ct_alta_soil_enrichment-codex" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua"
+}

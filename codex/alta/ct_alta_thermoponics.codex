@@ -1,0 +1,19 @@
+{
+  "id" : "ct_alta_thermoponics",
+  "title" : "Alta Thermoponics ^#f02080;^reset;",
+  "description" : "A logical element with an eco-system database and a functional operating system designed to power and run an eco chamber. Instructions included.",
+  "longdescription" : "The instruction part can be accessed through any device with a screen, even through some eco chambers' interface.",
+  "altaDescription" : "Something similar to RI, but for plant housing.",
+  "icon" : "datamass/stardust.png",
+  "species" : "alta",
+  "contentPages" : [
+    "Thermal plant feeding seemed to be impossible until recently. Even still, it can only be used for a tiny variety of plants, that can survive off of direct energy feeding. These plants often are energy-based, belonging to one of the rarest plant type there is.",
+    "Due to energy conversion efficiency, scientists are trying their best to develop new plants, able to produce common resources from sheer energy - multiple research groups interested in this caused a new subprofession to appear - Alta Thermobotanist, or Alta Niaraia."
+  ],
+  "itemConfig" : {
+    "level" : 7, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "datamass" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [ "ct_stardust_eco_pod", "ct_mical_grass_seeds" ]
+  }
+}

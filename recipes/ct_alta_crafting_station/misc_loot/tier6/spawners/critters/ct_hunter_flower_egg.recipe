@@ -1,8 +1,7 @@
 {
   "input" : [
-    { "item" : "glowfibre", "count" : 4 },
-    { "item" : "ct_cetersphere", "count" : 1 }
+    { "item" : "ct_hunter_flower_af", "count" : 1 }
   ],
   "output" : { "item" : "ct_hunter_flower_egg", "count" : 1 },
-  "groups" : [ "my_enternia", "alta_max", "misc_loot", "yaara", "spawner", "critters", "flower_critters", "consumables", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta_dendrarium", "misc_loot", "yaara", "spawner", "critters", "flower_critters", "consumables", "all", "mod" ]
 }

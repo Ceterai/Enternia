@@ -5,6 +5,7 @@
   "longdescription" : "The data shows numerous energy anomalies, or ^#f080f0;miazmas^reset;, in different so-called ^#8080f0;viona^reset; areas, or ^#8080f0;\"enchanted\" areas^reset; of the planet.",
   "altaDescription" : "An ^#f08f20;Arco^reset; report about miazmas - very dangerous clashes of different types of energies. I heard they can result in explosions, and sometimes even climate micro disasters.",
   "icon" : "datamass/enchanted.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Regional sensors have detected an increase in incidents, with most miazmas growing up to the G2 standard size, which is an acceptable size for single miazmas.
@@ -33,10 +34,9 @@ The sample should be held under the High Containment Protocol, according to thei
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "viona" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_miazma-codex" ], // TODO in 2.4:, "ct_viona_tree" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "RS-17 Santia" : { } },

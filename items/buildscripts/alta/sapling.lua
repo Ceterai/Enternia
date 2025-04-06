@@ -1,7 +1,14 @@
-require "/scripts/util.lua"
 require "/items/buildscripts/alta/object.lua"
 
-local ct_alta_object_builder = build
+
+function build(directory, config, params, level, seed)
+  config, params = getPresetParams(config, params)
+  config = sb.jsonMerge(getItemTypeDefaults('sapling'), config)
+  config, params = buildItem(directory, config, params, level, seed)
+  config, params = buildObject(directory, config, params, level, seed)
+  config, params = buildSapling(directory, config, params, level, seed)
+  return config, params
+end
 
 
 -- # My Enternia Sapling Builder
@@ -13,17 +20,14 @@ local ct_alta_object_builder = build
 -- - `fixedStem` (`str`) - a stem type to override current one. Can be set through `treePool`.
 -- - `fixedFoliage` (`str`) - a foliage type to override current one. Can be set through `treePool`.
 -- - `fixedStemHues` (`int`|`list`) - a hue shift (or a list of them). If a list is provided, a random one will be chosen. Can be set through `treePool`.
--- - `fixedStemHues` (`int`|`list`) - a hue shift (or a list of them). If a list is provided, a random one will be chosen. Can be set through `treePool`.
+-- - `fixedFoliageHues` (`int`|`list`) - a hue shift (or a list of them). If a list is provided, a random one will be chosen. Can be set through `treePool`.
 -- ## Procedural Icon
 -- The item icon can be set directly or generated based on sapling parts and the icon suffix:
 -- - `fixedIcon` (`bool`) - if set to `true`, the original `inventoryIcon` value will be used as the icon;
 -- - `iconSuffix` (`str`) - if set and `fixedIcon` is not `true`, will be used instead of a default suffix `saplingicon.png`;
 -- - `middleLayerSuffix` (`str`) - if set and `fixedIcon` is not `true`, will add a third layer to the genrated icon.
-function build(directory, config, parameters, level, seed)
+function buildSapling(directory, config, parameters, level, seed)
   local configParameter = function(key, default) return getValue(key, default, config, parameters) end
-
-  -- Object stats
-  config, parameters = ct_alta_object_builder(directory, config, parameters, level, seed)
 
   -- Fixed params
   parameters = setTreeParams(inif(config.treePool, sb.jsonMerge(config, rand(config.treePool)), config), parameters)

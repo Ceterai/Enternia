@@ -5,6 +5,7 @@
   "longdescription" : "This story reiterates the connection between life in Io systems, and teaches altas to love life and their surroundings.",
   "altaDescription" : "A whole ebook containing a single small novel. How mysterious.",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "\"Do crystals have a mom?\" - asked the little star excitedly. \"They certainly do!\" - the voice answered her - \"Everything in this world has one mom in common.\"
@@ -18,9 +19,8 @@
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 6,
-      "itemTags" : [ "data_source", "ebook", "stardust" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 6,
+      "itemTags" : [ "data_source", "ebook", "stardust" ], "learnBlueprintsOnPickup" : [ "ct_stardust-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

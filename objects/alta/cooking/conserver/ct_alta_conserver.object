@@ -2,7 +2,7 @@
   "objectName" : "ct_alta_conserver",
   "colonyTags" : [ "cooking" ],
   "category" : "crafting",
-  "level" : 3, "rarity" : "Uncommon", "price" : 60,
+  "level" : 3, "price" : 60,
   "race" : "alta",
 
   "shortdescription" : "Alta Conserver",
@@ -24,7 +24,7 @@
     "config" : "/interface/windowconfig/craftingcampfire.config",
     "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
     "paneLayoutOverride" : {
-      "categories" : { "buttons" : [ { "data" : { "filter" : [ "jam", "honey", "sap", "extract", "marmalade" ] }, "selected" : true } ] },
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "jam", "extract", "pickled", "kefir" ] }, "selected" : true } ] },
       "windowtitle" : { "title" : "  Conserver", "subtitle" : "  Jam-making convenience" }
     }
   },

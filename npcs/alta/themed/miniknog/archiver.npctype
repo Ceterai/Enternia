@@ -2,7 +2,7 @@
   "type" : "ct_mki_archiver",
   "baseType" : "ct_alta_archiver",
   "scriptConfig" : {
-    "merchant" : { "poolsFile" : "/npcs/alta/lab/trade/shop.config", "categories" : { "default" : [
+    "merchant" : { "categories" : { "default" : [
       "common", "uncommon", "rare", "legendary", "unique", "miniknog"
     ] } }
   },

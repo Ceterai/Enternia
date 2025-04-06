@@ -3,6 +3,7 @@
   "title" : "Tech Docs: EDS Set",
   "description" : "A brief description of tier 5 ^#b0e0fc;alta^reset; equipment worn by EDS security.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "A reinforced set of armor focused on ultra-protection against active threats, manufactured by EDS.",
@@ -17,7 +18,7 @@ EDS Armored Greaves - Defensive legwear with added EDS Protection Module providi
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_eds-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

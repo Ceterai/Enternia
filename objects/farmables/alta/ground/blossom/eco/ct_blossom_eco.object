@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_blossom_eco",
+  "colonyTags" : [ "alterash", "nature", "garden", "farming" ], "learnBlueprintsOnPickup" : [ "ct_blossom_boosted", "ct_eva_seed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 5,
+
+  "shortdescription" : "Eco Blossom Sapling",
+  "description" : "This silk fibre sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "Some say these blossoms might be far relatives of ayakas.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_blossom_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

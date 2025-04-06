@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_vendor", "count" : 1 },
+    { "item" : "ct_gyera_set", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_gyera_vendor",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta", "alta_special", "alta_dendrarium", "dendrarium_other", "vendors", "objects", "wired", "all", "mod" ]
+}

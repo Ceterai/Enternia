@@ -40,6 +40,7 @@ function buildItem(directory, config, params, level, seed)
 
   -- BASIC PARAMS --
   config = getDefaults(config, get("category"), get("race"))
+  config.build = sb.jsonMerge((config.build or {}), (params.build or {}))
   if params.shop then params.shop = nil; params.level = nil end
   -- Level
   params.level = getLevel(params.level, level, get("fixedLevel", true))
@@ -48,11 +49,13 @@ function buildItem(directory, config, params, level, seed)
   local bonus = select(2, get("shortdescription", ""):gsub("%", ""))
   -- Price
   if not get("fixedPrice", false) then
-    if params.price ~= nil then params.oPrice = params.price; params.price = nil end
-    local price = params.oPrice or get("price", 0)
+    if params.price ~= nil and config.build.price == nil then params.oPrice = params.price; params.price = nil end
+    if config.build.price ~= nil and params.price == nil then params.oPrice = nil end
+    local price = get("price") or config.build.price or params.oPrice or 0
     config.price = price * root.evalFunction("itemLevelPriceMultiplier", level)
     config.price = config.price + (math.floor((price / 100) + 0.5) * 10 * bonus)
   end
+  config.build.power = config.build.power or (get("price", 1) / (config.build.price or get("price", 1) or 1))
   -- Rarity
   config.rarity = getRarity(config, level, tips)
   -- Damage level multiplier
@@ -65,8 +68,7 @@ function buildItem(directory, config, params, level, seed)
     local a = abil_type .. "Ability"
     if config[a] and config[a].elementalConfig then util.mergeTable(config[a] or {}, config[a].elementalConfig[elementalType] or {}) end
   end
-  local tags = getTags(get("itemTags"), get("race"), get("rarity"), get("elementalType"))
-  config.radioMessagesOnPickup = getPickupMsgs(get("radioMessagesOnPickup", {}), tags)
+  config.radioMessagesOnPickup = getPickupMsgs(get("radioMessagesOnPickup", {}), get("itemTags", {}))
 
 
   -- GRAPHICS --
@@ -273,5 +275,5 @@ function getLevel(level, gen, fixed) if gen and not fixed then return gen else r
 
 
 function getRarity(config, level, tips)
-  return config.rarity or tips.rarityTypes[tostring(math.floor(level))]
+  return config.build.rarity or tips.rarityTypes[tostring(math.floor(level))]
 end

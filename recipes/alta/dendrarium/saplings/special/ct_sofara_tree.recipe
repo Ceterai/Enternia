@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_alta_ship_sapling", "count" : 1 },
+    { "item" : "alienstripedwood", "count" : 16 },
+    { "item" : "giantflowerpetal", "count" : 8 },
+    { "item" : "livingroot", "count" : 1 },
+    { "item" : "rock14", "count" : 1 },
+    { "item" : "liquidlava", "count" : 1 },
+    { "item" : "ct_plasma_fertilizer", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_sofara_tree", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "nature", "enterash_prime_nature", "alien", "alta_saplings", "all", "seedmaker", "saplingsMods", "mod" ]
+}

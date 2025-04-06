@@ -3,6 +3,7 @@
   "title" : "Combat Protocol Datamass",
   "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
   "icon" : "datamass/combat.png",
+  "species" : "alta",
   "contentPages" : [
 
     "COMBAT PROTOCOL DOCUMENTATION
@@ -13,10 +14,9 @@ Note, that starting with discovery of stardust energy capabilities and the Enter
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "combat" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "combat" ], "learnBlueprintsOnPickup" : [ "ct_combat-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : { "Combat Protocol" : { } } }
 }

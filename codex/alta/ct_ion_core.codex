@@ -5,6 +5,7 @@
   "longdescription" : "Seems like this is an ^#b0e0fc;alta^reset; report on the state of the core of one of the ionic planets.",
   "altaDescription" : "An ^#f08f20;Arco^reset; report on the stability of an ion core. The anomaly bit in the end makes me a little cautious.",
   "icon" : "datamass/plasma.png",
+  "species" : "alta",
   "contentPages" : [
 
     "The core stability has regular fluctuations as usual, and the ion radiation seems to be still so far.
@@ -27,10 +28,9 @@ Last time an enchanted item was found, along with a small-size anomaly, which co
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "ion_core" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "ion_core" ], "learnBlueprintsOnPickup" : [ "ct_ion_core-codex" ], // TODO in 2.4:, "ct_calocol_af", "ct_ionic_seed" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "RS-17 Vera" : { } }

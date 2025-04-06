@@ -1,0 +1,45 @@
+{
+  "itemName" : "ct_yaara_wand",
+  "shortdescription" : "Yaara Wand ^#8020f0;^reset;",
+  "description" : "This ^#20f080;yaara^reset; growth can spread seeds of different kinds to grow beautiful things!",
+  "elementalType" : "physical",
+
+  "level" : 6, "twoHanded" : false, "category" : "tool",
+  "itemTags" : [ "weapon", "ranged", "wand", "yaara" ],
+
+  "inventoryIcon" : "ct_yaara_wand.png",
+  "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
+  "animationParts" : { "middle" : "ct_yaara_wand.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : {
+    "primary_press" : [ "/sfx/gun/paintgun5.ogg" ],
+    "primary_hold" : [ "/sfx/gun/grenade2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+  },
+  "baseOffset" : [-0.1, 1.0],
+  "muzzleOffset" : [1.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/alta/rifle.lua"],
+  "primaryAbility" : {
+    "class" : "AltaBlasterSwitch",
+    "name" : "Gardener's Dream",
+    "description" : "Press to disperse seeds! Hold to change seed type. Available: grass, flowers, crimson, colorful, lush and thick.",
+    "baseDps" : 4, "energyUsage" : 16, "fireTime" : 0.40,
+    "defaultFireType" : "grass",
+    "fireTypes" : {
+      "grass" : { "type" : "blast", "params" : { "type" : "ct_omni_grass_spray" }, "holdTimeMax" : 0.75 },
+      "flowery" : { "type" : "blast", "params" : { "type" : "ct_omni_flowery_grass_spray" }, "holdTimeMax" : 0.75 },
+      "crimson" : { "type" : "blast", "params" : { "type" : "ct_omni_crimson_grass_spray" }, "holdTimeMax" : 0.75 },
+      "colorful" : { "type" : "blast", "params" : { "type" : "ct_omni_colorful_grass_spray" }, "holdTimeMax" : 0.75 },
+      "lush" : { "type" : "blast", "params" : { "type" : "ct_omni_lush_grass_spray" }, "holdTimeMax" : 0.75 },
+      "thick" : { "type" : "blast", "params" : { "type" : "ct_omni_thick_grass_spray" }, "holdTimeMax" : 0.75 }
+    },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : false, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true },
+      "winddown" : { "duration" : 0.11, "armRotation" : 2, "weaponRotation" : 2, "twoHanded" : false, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Drones & Droids",
   "description" : "A piece of some technical documentation. Code on the back reads 'CEN-462'.",
   "icon" : "paper/short.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Automated Defensive Mobile Units are levitating drones of any EDS-related series.
@@ -25,7 +26,7 @@ ADMU-MA340, Engineer Drone - An upgrade of MD181 with full EDS armor, repurposed
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_drones-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

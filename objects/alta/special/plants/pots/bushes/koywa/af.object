@@ -1,0 +1,15 @@
+{
+  "objectName" : "ct_koywa_af",
+  "colonyTags" : [ "nature", "koywa", "garden" ],
+  "category" : "decorative",
+  "level" : 1, "price" : 280,
+
+  "shortdescription" : "Potted Koywa",
+  "description" : "A seemingly unsuspecting plant in a small pot.",
+  "altaDescription" : "Looking at it fills me with delight.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

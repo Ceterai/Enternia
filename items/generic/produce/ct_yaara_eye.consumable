@@ -5,11 +5,10 @@
   "longdescription" : "The texture is a bit similar to the pulp of a [lychee](https://en.wikipedia.org/wiki/Lychee) fruit.",
   "altaDescription" : "These are delicious! Especially as yaarings, very good and exciting!",
 
-  "level" : 3, "price" : 30,
-  "itemTags" : [ "yaara" ],
-  "category" : "food", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_consumable",
+  "level" : 3,
+  "itemTags" : [ "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaarings", "ct_yaavi_seed" ],
+  "category" : "food", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_yaara_eye.png",
-  "learnBlueprintsOnPickup" : [ "ct_yaarings" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
 
   "wiki" : { "aliases" : { "Yaara Lychee" : { } } }, "alkey" : "Yaavi"

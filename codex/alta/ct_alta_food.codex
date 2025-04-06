@@ -4,6 +4,7 @@
   "description" : "This guide describes main ^#b0e0fc;alta cuisines^reset; and is designed to help inexperienced altas learn how to cook! (Unlocks tier 2 recipes)",
   "longdescription" : "This ebook was written by a grand alta chef named Miara, a very caring alta looking forward to educate less experienced altas how to cook!",
   "icon" : "ebook/security.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Hi there, fellow ^#b0e0fc;alta^reset;! I, Miara, am a grand chef at one of ^#b0e0fc;Alta-1^reset; biggest restaurants and I'm here to get you accustomed with the basics of ^#b0e0fc;alta kitchen^reset; and culture around it!
@@ -50,10 +51,9 @@ Alta tea has a multitude of recipes, variations and mixes, so this book will onl
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
+      "level" : 4,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua",
+      "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_biomix_icecream", "ct_calio_tea", "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea", "ct_koywa_tea", "ct_maito_tea", "ct_miko_tea",
         "ct_ometonna", "ct_vermont_tea", "ct_yaara_tea", "ct_zandarm_tart", "ct_assorti", "ct_aya_candy", "ct_aya_icecream", "ct_tsay_icecream"

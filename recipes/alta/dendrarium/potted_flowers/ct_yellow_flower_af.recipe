@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "petalyellow", "count" : 4 },
+    { "item" : "plantfibre", "count" : 2 },
+    { "item" : "moonstone", "count" : 1 },
+    { "item" : "ct_basic_fertilizer", "count" : 1 },
+    { "item" : "ct_ayaka_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_yellow_flower_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

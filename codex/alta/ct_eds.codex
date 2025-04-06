@@ -3,6 +3,7 @@
   "title" : "^#f02020;EDS^reset; Database",
   "description" : "A list of short descriptions of unknown technology. It seems like it's missing some entries. Code on the back reads 'CEN-411'.",
   "icon" : "datamass/eds.png",
+  "species" : "alta",
   "contentPages" : [
 
     "EDS TECHNOLOGY (ET) DEVELOPMENTS DOCUMENTATION
@@ -32,9 +33,8 @@ ET288 -d!s."
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "eds" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_eds-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

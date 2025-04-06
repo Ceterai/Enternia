@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_sapling", "count" : 1 },
+    { "item" : "glowfibre", "count" : 8 },
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "liquidfuel", "count" : 1 },
+    { "item" : "ct_biomix_fertilizer", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_tree", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "nature", "alterash_nature", "warped", "alta_saplings", "all", "seedmaker", "saplingsMods", "mod" ]
+}

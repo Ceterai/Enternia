@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_crystal_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_eva_tree", "ct_ayaka_giant_tree" ],
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Crystal Ayaka",
   "description" : "This ^#3587ff;ayaka tree^reset; has overgrown with ^#76c7e4;crystals^reset;. This can usually happen in crystallic or crystal-rich environments.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_crystal_stem_icon.png",
+  "inventoryIcon" : "ct_ayaka_crystal_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_crystal_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "middleLayerSuffix" : "_icon.png",
   "fixedFoliageHues" : [ 30, 15, 0 ],
   "orientations" : [
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

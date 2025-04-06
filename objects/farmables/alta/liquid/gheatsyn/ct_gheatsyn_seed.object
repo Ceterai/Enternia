@@ -1,0 +1,34 @@
+{
+  "objectName" : "ct_gheatsyn_seed",
+  "colonyTags" : [ "alterash_prime", "nature", "crystalline", "gheatsyn", "farming" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn_sapling", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Gheatsyn Bud",
+  "description" : "A budding crystal growing through a rock. Requires to be at least 50% in a liquid.",
+  "altaDescription" : "A gheatsyn bud! It will take a long time, but it will grow into more gheatsyn!",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1670, 1730] },
+    { "alts" : 5, "harvestPool" : "ct_gheatsyn_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

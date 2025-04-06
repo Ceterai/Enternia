@@ -1,0 +1,31 @@
+// Mod support for Many Tabs (https://steamcommunity.com/sharedfiles/filedetails/?id=1119086325)
+[
+    [
+        { "op": "test", "path": "/manytabs", "value": true },
+        {
+            "op": "add",
+            "path": "/paneLayout/speciesTabs/buttons/-",
+            "value": {
+                "position": [4, 5],
+                "baseImage": "/interface/codex/tab_alta.png",
+                "baseImageChecked": "/interface/codex/tab_alta_select.png",
+                "pressedOffset": [0, 0],
+                "data": { "species": "alta" }
+            }
+        }
+    ],
+    [
+        { "op": "test", "path": "/manytabs", "inverse": true },
+        {
+            "op": "add",
+            "path": "/paneLayout/speciesTabs/buttons/-",
+            "value": {
+                "position": [179, 10],
+                "baseImage": "/interface/codex/tab_alta.png",
+                "baseImageChecked": "/interface/codex/tab_alta_select.png",
+                "pressedOffset": [0, 0],
+                "data": { "species": "alta" }
+            }
+        }
+    ]
+]

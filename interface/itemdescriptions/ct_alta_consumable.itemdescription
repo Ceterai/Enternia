@@ -73,6 +73,17 @@
     "showRarity" : false,
     "showBackingImageWhenFull" : true
   },
+  "rotTimeLabel" : {
+    "type" : "label",
+    "position" : [70, 108],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 70,
+    "fontSize": 6,
+    "lineSpacing": 1,
+    "value" : "",
+    "color" : "gray"
+  },
   "foodAmountLabel" : {
     "type" : "label",
     "position" : [40, 150],

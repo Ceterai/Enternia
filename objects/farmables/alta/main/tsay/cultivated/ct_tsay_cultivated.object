@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_tsay_cultivated",
+  "colonyTags" : [ "alterash", "nature", "tsay", "farming" ], "learnBlueprintsOnPickup" : [ "ct_tsay_eco", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Cultivated Tsay Sapling",
+  "description" : "Cultivation further improves speed and stability of growth, but also of ripening.",
+  "altaDescription" : "Tsay is probably the most vibrant tasting fruit out there.",
+
+  "apexDescription" : "Tastes like a tomato with spices.",
+  "avianDescription" : "The hardest seeds I've seen.",
+  "floranDescription" : "... Sssssssssssssssssssalt.",
+  "glitchDescription" : "Disappointed. A fruit with salt, what an innovation.",
+  "humanDescription" : "A salty tomato!",
+  "hylotlDescription" : "A salty fruit of unknown origin.",
+  "novakidDescription" : "Have never seen a salty fruit until now.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_tsay_rich_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

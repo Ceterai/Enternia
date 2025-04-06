@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_prime_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 2, "rarity" : "Common", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_crystal_tree", "ct_ayaka_garden_tree" ],
+  "level" : 2, "category" : "sapling",
 
   "shortdescription" : "Ayaka Prime",
   "description" : "A variation of an ^#3587ff;ayaka tree^reset; commonly found on ^#2080f0;alterash prime^reset; planets or in areas saturated with ^#2080f0;alternia^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_ayaka/stem/ct_ayaka_stem/ct_ayaka_prime_stem_icon.png",
+  "inventoryIcon" : "ct_ayaka_prime_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_prime_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "middleLayerSuffix" : "_icon.png",
   "fixedFoliageHues" : [ 45, 30, 15 ],
   "orientations" : [
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
     { "tree" : true }
   ],
 

@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_yaara_node",
-  "colonyTags" : [ "alterash", "nature", "yaara" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 2, "rarity" : "Common", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaara_crystal_node", "ct_yaara_seed" ],
+  "level" : 2, "category" : "sapling",
 
   "shortdescription" : "Yaara Node",
   "description" : "These ^#20f080;yaara^reset; \"trees\" are actually nodes of intertwined yaara growth. Though they look like trees, technically they're more like bushes.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/plants/trees/ct_yaara/foliage/ct_yaara_leaves/saplingicon.png",
+  "inventoryIcon" : "ct_yaara_node.png", "fixedIcon" : true,
   "fixedStem" : "ct_yaara_node_stem", "fixedFoliage" : "ct_yaara_leaves",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
+    { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] }, { "duration" : [300, 450] },
     { "tree" : true }
   ],
 

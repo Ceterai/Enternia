@@ -5,6 +5,7 @@
   "longdescription" : "The datamass is partially covered in warped growth. This indicates that it was left out near such for a bit too long. Thankfully, the data inside seems to be intact.",
   "altaDescription" : "The spread of warped growth is a prominent topic, especially since it tends to contaminate yaara groves and many underground facilities.",
   "icon" : "datamass/warped.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#9b2d3f;Warped^reset; growth is an uncontrollable, constantly mutating and slowly expanding plant matter.
@@ -29,10 +30,9 @@ This can be done via specialized alta devices, or with cryogenic materials like 
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "warped" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "warped" ], "learnBlueprintsOnPickup" : [ "ct_warped-codex" ], // TODO in 2.4:, "ct_warped_tree", "ct_warped_bush_af" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

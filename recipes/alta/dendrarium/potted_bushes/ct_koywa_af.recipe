@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_verriskoywa_grass4", "count" : 1 },
+    { "item" : "moondust", "count" : 1 },
+    { "item" : "ct_basic_fertilizer", "count" : 1 },
+    { "item" : "ct_ayaka_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_koywa_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

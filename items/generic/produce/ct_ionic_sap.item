@@ -7,7 +7,7 @@
   "foundIn" : [ "^#20f080;Alterash^reset;", "^#2080f0;Alterash Prime^reset;" ],
 
   "itemTags" : [ "ayaka", "ionic" ],
-  "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
+  "category" : "cookingIngredient", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_ionic_sap.png",
   "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "ct_ionic_fresh", "ct_ionice_cube" ],
   "builder" : "/items/buildscripts/alta/item.lua",

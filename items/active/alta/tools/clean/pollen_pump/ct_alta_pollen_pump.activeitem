@@ -34,9 +34,9 @@
     "class" : "LimitedShot",
     "fireOffset" : [2.5, 0.25],
 
-    "energyPerShot" : 45,
+    "energyPerShot" : 25,
 
-    "cooldownTime" : 0.35,
+    "cooldownTime" : 0.25,
     "inaccuracy" : 0.01,
 
     "drawFrameSelector" : "pollenpumpImageSelector",

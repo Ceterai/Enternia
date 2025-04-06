@@ -189,3 +189,74 @@ function AltaRifle:setDefaults()
   }
   self:setParams()
 end
+
+
+
+
+
+--- ### Alta Blaster With Firemodes
+AltaBlasterSwitch = AltaSwitch:new()
+
+function AltaBlasterSwitch:press()
+  if self.fireType ~= config.getParameter('fireType') then self:setParams() end
+  sb.logInfo("\n%s\n", self.pressParams)
+  sb.logInfo("\n%s\n", self.fireType)
+  self.pressParams.method(self, self.pressParams)
+end
+
+function AltaBlasterSwitch:activate()
+  self.active = true
+  animator.playSound(self.holdStart)
+  animator.playSound(self.holdLoop, -1)
+end
+
+function AltaBlasterSwitch:deactivate()
+  self.active = false
+  animator.stopAllSounds(self.holdStart)
+  animator.stopAllSounds(self.holdLoop)
+end
+
+function AltaBlasterSwitch:setParams()
+  self.fireType = config.getParameter('fireType') or self.defaultFireType
+  local params = self.fireTypes[self.fireType]
+  self.pressParams = util.mergeTable(copy(self.actionPresets[params.type or 'none']), copy(params.params or {}))
+  self.pressParams.sound = self.pressParams.sound or (self.abilitySlot .. '_press')
+  self.holdStart = params.holdStart or (self.abilitySlot .. "_start")
+  self.holdLoop = params.holdLoop or (self.abilitySlot .. "_loop")
+  self.holdTimeMin = params.holdTimeMin or 0.25
+  self.holdTimeMax = params.holdTimeMax or 0.0
+  self.holdCooldown = params.holdCooldown or 0.15
+  self.pressCooldown = params.cooldown or 0
+end
+
+function AltaBlasterSwitch:setDefaults()
+  self.pressAttachments = self.pressAttachments or false
+  self.holdFiremodes = self.holdFiremodes or true
+  AltaSwitch.setDefaults(self)
+  self.fireTypeList = {}
+  for fireType, params in pairs(self.fireTypes) do
+    table.insert(self.fireTypeList, fireType)
+  end
+  self.defaultFireType = self.defaultFireType or 'charge'
+  activeItem.setInstanceValue('fireType', config.getParameter('fireType') or self.defaultFireType)
+  self.fireTypes = self.fireTypes or {
+    charge = {
+      type = 'blast', params = { type = 'ct_impulse_medium', sound = 'primary_press', },
+    },
+    semi = { type = 'semi', params = { type = 'ct_impulse_medium', count = 2, } },
+  }
+  self:setParams()
+end
+
+function AltaBlasterSwitch:switchFiremodes()
+  sb.logInfo("\n%s\n", self.fireTypeList)
+  for i, fireType in ipairs(self.fireTypeList) do
+    sb.logInfo("\n%s\n", fireType)
+    sb.logInfo("\n%s\n", config.getParameter('fireType'))
+    if config.getParameter('fireType') == fireType then
+      activeItem.setInstanceValue('fireType', self.fireTypeList[i + 1] or self.fireTypeList[1])
+      animator.playSound('toggleFire')
+      break
+    end
+  end
+end

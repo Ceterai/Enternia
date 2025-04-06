@@ -1,0 +1,42 @@
+{
+  "objectName" : "ct_warped_hive_seed",
+  "colonyTags" : [ "alterash", "nature", "warped", "farming" ], // TODO in 2.4: "learnBlueprintsOnPickup" : [ "ct_warped_hive_sapling", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 2,
+
+  "shortdescription" : "Warped Hive Seed",
+  "description" : "Warped plant with hive growing atop of it.",
+  "altaDescription" : "It's best not to disturb it too much when it ripens...",
+
+  "apexDescription" : "Some strange insects swarm in this hive.",
+  "avianDescription" : "Fie! Something is swarming in this hive!",
+  "floranDescription" : "Thisss plant lookss ssscary. Floran will ssstay alert.",
+  "glitchDescription" : "Careful. Some dangerous hive is growing on this plant.",
+  "humanDescription" : "Why is this plant looks like some kind of a tentacle monster?",
+  "hylotlDescription" : "These 'fruits' can be useful in fights.",
+  "novakidDescription" : "Please tell me that this plant isn't alive!",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1670, 1730] },
+    { "alts" : 5, "harvestPool" : "ct_warped_hive_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

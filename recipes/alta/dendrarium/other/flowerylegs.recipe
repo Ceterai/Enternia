@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "ct_ionic_sap", "count" : 16 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_composite_flower_pot", "count" : 1 },
+    { "item" : "livingroot", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "flowerylegs",
+    "count" : 1
+  },
+  "duration" : 0.01,
+  "groups" : [ "my_enternia", "alta_dendrarium", "wild_plants", "all" ]
+}

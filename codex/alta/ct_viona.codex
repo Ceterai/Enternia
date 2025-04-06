@@ -5,6 +5,7 @@
   "longdescription" : "The poster mentions an ^gray;Alta Viona Corfal^reset; - a correctional facility, or a daycare hospital, for altas severely affected by viona anomalies. Here, they get treatment, care, entertainment and support, to help them deal with the disease.",
   "altaDescription" : "This girl got changed by viona... It's sad, but I'm glad that she's happy, and that she likes her new tail! I hope I could visit this party and hang out with them.",
   "icon" : "paper/enchanted.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Hi, sis!! Wanna throw a party together?!
@@ -25,10 +26,9 @@ P.S. If you do come, I'll let you pet my fluffy tail, hehe ^^ (I got it because 
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "docs", "viona" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4,
+      "itemTags" : [ "data_source", "docs", "viona" ], "learnBlueprintsOnPickup" : [ "ct_viona-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

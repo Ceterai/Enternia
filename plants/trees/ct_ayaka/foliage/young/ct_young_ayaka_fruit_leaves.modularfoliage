@@ -1,0 +1,174 @@
+{
+  "name" : "ct_young_ayaka_fruit_leaves",
+  "shortdescription" : "Young Fruitful Ayaka Leaves",
+  "description" : "A ripe stage of ^#3587ff;ayaka leaves^reset; full of ^#3587ff;ayas^reset;. Usually found on top of fruitful ^#3587ff;garden ayakas^reset;.",
+  "shape" : "ct_ayaka",
+  "inventoryIcon" : "icon.png",
+
+  "dropConfig" : {
+    "drops" : [
+      [ { "item" : "sapling" } ],
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_aya", "count" : 1 }, { "item" : "ct_ionic_sap", "count" : 1 } ],
+      [ { "item" : "sapling" }, { "item" : "ct_ionic_sap", "count" : 1 } ]
+    ],
+    
+    "particles" : {
+      "breakTree" : {
+        "density" : 3,
+        "options" : [
+          {
+            "type" : "ember",
+            "color" : [34, 57, 32],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [58, 83, 48],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [73, 109, 72],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          }
+        ]
+      },
+      "hitGround" : {
+        "density" : 3,
+        "options" : [
+          {
+            "type" : "ember",
+            "color" : [34, 57, 32],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [58, 83, 48],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          },
+          {
+            "type" : "ember",
+            "color" : [73, 109, 72],
+            "timeToLive" : 10,
+            "initialVelocity" : [0, 5],
+            "finalVelocity" : [0, -20],
+            "approach" : [0, 5],
+            "variance" : {
+              "timeToLive" : 3.0,
+              "initialVelocity" : [1.0, 1.0]
+            }
+          }
+        ]
+      }
+    }
+  },
+
+
+  "parallaxFoliage" : false,
+  
+  "crownLeaves" : {
+    "crown1" : {
+      "image" : "crown1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown2" : {
+      "image" : "crown2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "crown3" : {
+      "image" : "crown3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    }
+  },
+  "branchLeaves" : {
+    "branch1" : {
+      "image" : "branch1.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch2" : {
+      "image" : "branch2.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch3" : {
+      "image" : "branch3.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch4" : {
+      "image" : "branch4.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    },
+    "branch5" : {
+      "image" : "branch5.png",
+      "backimage" : "",
+      "attachment" : {
+        "bx" : 0,
+        "by" : 0
+      }
+    }
+  }
+}

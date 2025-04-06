@@ -4,6 +4,7 @@
   "description" : "An ebook containing various crystal-based ^#b0e0fc;alta^reset; recipes and their history. (Unlocks some calin recipes)",
   "longdescription" : "^#b0e0fc;Alta culture^reset; revolves heavily around crystals and their utilization. This ^#b0e0fc;ebook^reset; describes different calin recipes and the culture around them.",
   "icon" : "ebook/gyera.png",
+  "species" : "alta",
   "contentPages" : [
 
     "^#b0e0fc;Calin cuisine^reset;, as the name suggests, is based on edible ^#76c7e4;crystals^reset; and ^#76c7e4;crystallic^reset; ingredients.
@@ -18,10 +19,9 @@ But due to the sheer variety of crystals in ^#ffa8e8;Io^reset;, some dishes can 
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 4,
+      "level" : 4,
       "itemTags" : [ "data_source", "ebook" ],
-      "builder" : "/items/buildscripts/alta/item.lua",
+      "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_crystal_jam", "ct_calio_tea", "ct_crystal_cookies", "ct_crystal_icecream", "ct_gheatsyn_tea",
         "ct_caliopa", "ct_crunchy_pie", "ct_natal_punch", "ct_minto_soup", "ct_pavolda_cake", "ct_staris_soup", "ct_warped_cocktail"

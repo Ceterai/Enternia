@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ct_omni_grass_seeds", "count" : 5 },
+    { "item" : "ct_omni_flowery_grass_seeds", "count" : 5 },
+    { "item" : "ct_omni_lush_grass_seeds", "count" : 5 },
+    { "item" : "ct_omni_thick_grass_seeds", "count" : 5 },
+    { "item" : "ct_alta_scout_blaster", "count" : 1 },
+    { "item" : "ct_gyera_token", "count" : 4 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_gyera_blaster", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l6", "alta_loot", "alta_dendrarium", "tool", "tools", "dendrarium_other", "all", "mod" ]
+}

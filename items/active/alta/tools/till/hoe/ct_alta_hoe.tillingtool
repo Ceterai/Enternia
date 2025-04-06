@@ -4,6 +4,7 @@
   "description" : "A simple tool to till soil. Not very accurate. The tilled soil can then be used to grow all sorts of crops!",
 
   "level" : 1, "race" : "alta",
+  "itemTags" : [ "tiller" ], "learnBlueprintsOnPickup" : [ "ct_alta_watering_can" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "twoHanded" : false,
   "inventoryIcon" : "icon.png",

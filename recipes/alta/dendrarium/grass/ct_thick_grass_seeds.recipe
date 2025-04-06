@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "plantfibre", "count" : 2 },
+    { "item" : "biosample", "count" : 2 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
+  ],
+  "duration" : 0.2,
+  "output" : { "item" : "ct_thick_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l2", "alta_max", "alta_dendrarium", "consumables", "grass_seeds", "all", "mod" ]
+}

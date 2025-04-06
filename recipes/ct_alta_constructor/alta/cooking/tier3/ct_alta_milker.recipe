@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_alta_cup", "count" : 1 },
+    { "item" : "ct_alta_led", "count" : 2 },
+    { "item" : "ct_alta_circuit", "count" : 2 },
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "crystal", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_milker",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor3", "alta", "alta_cooking", "objects", "decoration", "all", "mod" ]
+}

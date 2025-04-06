@@ -6,9 +6,8 @@
   "altaDescription" : "Eating raw aya powder isn't very healthy, because it doesn't have any moisture in it. So, to counter that, you can roll it up in some ^#b0e0fc;izo jam^reset; into a small tasty ball of goodness. My friend calls them **maris**. And yeah, you can thank me later.",
   "inventoryIcon" : "ct_aya_powder.png",
 
-  "level" : 2, "rarity" : "Common", "price" : 10,
-  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
-  "learnBlueprintsOnPickup" : [ "ct_aya_powder", "ct_aya_boiled" ],
+  "level" : 1, "race" : "alta", "category" : "cookingIngredient", "eventCategory" : "eventCrop",
+  "itemTags" : [ "ayaka", "spice" ], // "learnBlueprintsOnPickup" : [ "ct_aya_star" ],
 
   "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Mari" : { } } }, "alkey" : "Ayaris"

@@ -40,20 +40,36 @@
       "tab6" : { "file" : "/objects/alta/special/samples/bion/icon.png" },
       "categories" : { "buttons" : [
         {
-          "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [6, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "terrarium_tools" ] }
         },
         {
-          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "terrarium_materials" ] }
         },
         {
-          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "crystal_materials" ] }
+          "position" : [38, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "terrariums" ] }
+        },
+        {
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "samples" ] }
+        },
+        {
+          "position" : [70, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "fossil_tools" ] }
         },
         {
           "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "samples" ] }
+          "data" : { "filter" : [ "fossil_displays" ] }
+        },
+        {
+          "position" : [102, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "crystal_materials" ] }
+        },
+        {
+          "position" : [118, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "lava_critters" ] }
         }
       ] }
     }

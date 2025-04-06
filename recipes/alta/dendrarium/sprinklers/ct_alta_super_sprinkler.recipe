@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "liquidhealing", "count" : 20 },
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_eds_armor", "count" : 2 },
+    { "item" : "ct_alta_ecoponics-codex", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_alta_super_sprinkler", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "alta_constructor6", "alta_special", "alta_dendrarium", "objects", "wired", "sprinklers", "all", "mod" ]
+}

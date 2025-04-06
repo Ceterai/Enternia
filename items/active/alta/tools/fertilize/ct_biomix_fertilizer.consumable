@@ -1,0 +1,12 @@
+{
+  "itemName" : "ct_biomix_fertilizer",
+  "shortdescription" : "Biomix Fertilizer",
+  "description" : "A mix of rare biotic samples fit for grass-like plants. Will likely poison you if consumed directly.",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "level" : 3, "race" : "alta", "category" : "food",
+  "build" : { "foodValue" : 4, "rotToEffectRatio" : 19.0, "badEffects" : [ "weakpoison" ] },
+  "inventoryIcon" : "ct_biomix_fertilizer.png",
+  "itemTags" : [ "bio", "fertilizer" ], "learnBlueprintsOnPickup" : [ "ct_alta_soil_enrichment-codex" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua"
+}

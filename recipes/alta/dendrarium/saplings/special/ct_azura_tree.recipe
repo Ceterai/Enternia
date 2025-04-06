@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_ship_sapling", "count" : 1 },
+    { "item" : "alienstripedwood", "count" : 24 },
+    { "item" : "livingroot", "count" : 1 },
+    { "item" : "rock14", "count" : 1 },
+    { "item" : "liquidfuel", "count" : 1 },
+    { "item" : "ct_benema_fertilizer", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_azura_tree", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "nature", "enterash_nature", "alien", "alta_saplings", "all", "seedmaker", "saplingsMods", "mod" ]
+}

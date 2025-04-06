@@ -3,6 +3,7 @@
   "title" : "Tech Docs: Combat Set",
   "description" : "A brief description of tier 5 alta equipment worn by regular & private planetary ^#b0e0fc;alta^reset; army.",
   "icon" : "paper/long.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Unlike most alta combat armor, this set is designed for on-ground and air combat. Maybe not as suitable for space.",
@@ -17,7 +18,7 @@ Alta Combat Off-Roaders - Sleek heat-preserving legwear with bionid footing suit
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta",
+    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_combat-codex" ],
     "rarity" : "Common",
     "price" : 120
   }

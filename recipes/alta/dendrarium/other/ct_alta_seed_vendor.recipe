@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_vendor", "count" : 1 },
+    { "item" : "ct_alta_seed_set", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_seed_vendor",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta", "alta_special", "alta_dendrarium", "dendrarium_other", "vendors", "objects", "wired", "all", "mod" ]
+}

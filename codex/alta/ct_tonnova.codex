@@ -5,6 +5,7 @@
   "longdescription" : "Its storyline is purely descriptive, talking about tonnas and tonnova-related events, like sprouting and spiraling, trying to explain them in a playful manner.",
   "altaDescription" : "A pretty magical read, and strongly reminds me of the \"Glowing Kingdom\", written about yonnur-filled warped forests. I guess similar concepts draw to each other, huh.",
   "icon" : "ebook/bionid.png",
+  "species" : "alta",
   "contentPages" : [
 
     "A bright neon-like cold glow lightens up some parts of esetera. Its massive columns are sometimes covered in a carpet of gigantic spirals with pretty bright bulbs, making it look like the columns are covered in glowing dots.
@@ -17,10 +18,9 @@ Be careful while raveling among all the tonnova springs and trees, and watch out
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_tonnova-codex" ], // TODO in 2.4:, "ct_tonnova_tree" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "Neon Forest" : { "icon" : "/items/active/alta/loot/ct_bionid_loot.png" }

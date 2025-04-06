@@ -4,6 +4,7 @@
   "description" : "An advanced tool to till soil. The tilled soil can then be used to grow all sorts of crops!",
 
   "level" : 5, "race" : "alta",
+  "itemTags" : [ "haven", "tiller", "upgradeableWeapon" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "twoHanded" : true,
   "inventoryIcon" : "icon.png",
@@ -17,5 +18,11 @@
 
   "pickupQuestTemplates" : [ "firstcrops" ],
 
-  "builder" : "/items/buildscripts/alta/tool.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "icon_upg.png", "objectImage" : "body_upg.png", "image" : "body_upg.png",
+    "shortdescription" : "Earthcatcher ^#8020f0;^reset;",
+    "fireTime" : 0.15
+  }
 }

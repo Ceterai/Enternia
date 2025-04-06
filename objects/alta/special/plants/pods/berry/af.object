@@ -1,0 +1,25 @@
+{
+  "objectName" : "ct_giant_berry_af",
+  "colonyTags" : [ "city", "garden", "pretty", "plant_pod" ], "learnBlueprintsOnPickup" : [ "berryhead" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 280, "race" : "alta",
+
+  "shortdescription" : "Potted Giant Berry",
+  "description" : "A decorative plant in a big altan vase-like pod.",
+  "altaDescription" : "A plant this big requires a special plant pod to keep it alive and well~",
+
+  "apexDescription" : "This plant seems to grow from a special alta eco pod. An expected level of care towards nature.",
+  "avianDescription" : "A pretty plant that gets all the things it needs from that big pot!",
+  "floranDescription" : "A plant in lotsss of metal. Very protected.",
+  "glitchDescription" : "Unsure. The pot for this plant seems to be bigger than the plant itself.",
+  "humanDescription" : "Reminds me of waiting rooms.",
+  "hylotlDescription" : "A complicated titanium pod with a pretty plant growing inside it.",
+  "novakidDescription" : "Some complicated alta tech, all just to make a plant grow, huh.",
+
+  "health" : 4.5,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-1, 0], "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 0] ], "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

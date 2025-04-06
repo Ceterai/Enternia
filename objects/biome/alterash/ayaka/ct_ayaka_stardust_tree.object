@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_ayaka_stardust_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka", "staris", "stardust" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 4, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash", "nature", "ayaka", "staris", "stardust" ], "learnBlueprintsOnPickup" : [ "ct_ayaka_elin_tree" ],
+  "level" : 4, "category" : "sapling",
 
   "shortdescription" : "Stardust Ayaka",
   "description" : "This ^#3587ff;crystal ayaka^reset; has overgrown with ^#76c7e4;crystals^reset; saturated with ^#ffa8e8;stardust^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 1.5,
 
-  "inventoryIcon" : "/objects/biome/stardust/ct_stardust_crystal/icon.png",
+  "inventoryIcon" : "ct_ayaka_stardust_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_ayaka_crystal_stem", "fixedFoliage" : "ct_ayaka_prime_leaves", "middleLayerSuffix" : "_icon.png",
   "fixedStemHues" : [ -32, 16, 100 ], "fixedFoliageHues" : [ 60, 80, 100, 120 ],
   "orientations" : [
@@ -31,12 +28,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_yaara_eco",
+  "colonyTags" : [ "alterash", "nature", "yaara", "farming" ], "learnBlueprintsOnPickup" : [ "ct_ceternia_seed", "ct_yaara_boosted" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Eco Yaara Sapling ^#20f080;^reset;",
+  "description" : "This yaara sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "A yaara sprout able to live on its own is a pretty rare occurrence!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_yaara_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

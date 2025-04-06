@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_omni_grass_seeds", "count" : 1 },
+    { "item" : "ct_omni_flowery_grass_seeds", "count" : 1 },
+    { "item" : "ct_omni_lush_grass_seeds", "count" : 1 }
+  ],
+  "duration" : 0.1,
+  "output" : { "item" : "ct_alta_grass_nade", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l5m", "alta_max", "alta_dendrarium", "consumables", "omni_grass_seeds", "dendrarium_other", "all", "mod" ]
+}

@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_tonnova_tree",
-  "colonyTags" : [ "alterash_prime", "nature", "bionid", "tonnova" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 5, "rarity" : "Rare", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "colonyTags" : [ "alterash_prime", "nature", "bionid", "tonnova" ], "learnBlueprintsOnPickup" : [ "ct_tonnova_spiral_tree", "ct_tonnova_wide_tree" ],
+  "level" : 5, "category" : "sapling",
 
   "shortdescription" : "Tonnova Tree",
   "description" : "A twisted ^#c1ebf8;tonnova^reset; spike of growth full of ^#299fc5;bionid^reset;.",
@@ -20,7 +17,7 @@
 
   "health" : 2.5,
 
-  "inventoryIcon" : "/plants/trees/ct_tonnova/stem/ct_tonnova_stem/icon.png",
+  "inventoryIcon" : "ct_tonnova_tree.png", "fixedIcon" : true,
   "fixedStem" : "ct_tonnova_stem", "fixedFoliage" : "ct_tonnova_blob", "iconSuffix" : "icon.png",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] },
-    { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] }, { "duration" : [45, 60] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
     { "tree" : true }
   ],
 

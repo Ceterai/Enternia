@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ariling_egg", "count" : 1 },
+    { "item" : "waste", "count" : 1 },
+    { "item" : "ct_composite_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ariling_af", "count" : 1 },
+  "duration" : 1.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_special", "potted_critters", "aric", "objects", "all", "mod" ]
+}

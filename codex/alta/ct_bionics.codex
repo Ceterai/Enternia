@@ -5,6 +5,7 @@
   "longdescription" : "This ebook explains what bionics are and provides examples of popular compounds.\n\nIt's worth noting, that altas themselves are classified as **bionical** creatures, or simply **bionicas**.",
   "altaDescription" : "I've seen some of the compounds discussed in this having a closer look taken at then in some popular alta studies, like ^#b0e0fc;CNOB^reset; and ^#b0e0fc;ECOC-FIOC^reset;.",
   "icon" : "ebook/bionid.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Bionics, or ^#299fc5;bion^reset;-based materials, including ^#299fc5;bion compounds^reset;, are a family of ^#299fc5;bionid^reset;-related variations used mainly by ^#b0e0fc;altas^reset; as armor plating and protective clothing.
@@ -34,10 +35,9 @@ Other useful compounds include:
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_bionics-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "alta bionics" : { "icon" : "none" },

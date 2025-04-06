@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_ruka_boosted",
+  "colonyTags" : [ "alterash", "nature", "bio", "farming" ], "learnBlueprintsOnPickup" : [ "ct_ruka_eco_pod" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 5,
+
+  "shortdescription" : "Ruka 16 Sapling ^#2080f0;^reset;",
+  "description" : "This sapling comes with enhanced mutations that allow much faster ripening.",
+  "altaDescription" : "Science is capable of amazing things!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_ruka_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

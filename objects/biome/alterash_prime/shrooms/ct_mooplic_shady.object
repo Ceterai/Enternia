@@ -1,10 +1,7 @@
 {
   "objectName" : "ct_mooplic_shady",
   "colonyTags" : [ "alterash_prime", "nature", "aric", "shroom" ],
-  "category" : "sapling", "tooltipKind" : "ct_alta_object",
-  "level" : 3, "rarity" : "Uncommon", "price" : 40,
-  "race" : "generic",
-  "printable" : false,
+  "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Mooplic Shroom",
   "description" : "A very suspicious-looking ^#3baf2f;aric^reset; shroom.",
@@ -20,7 +17,7 @@
 
   "health" : 2.5,
 
-  "inventoryIcon" : "/plants/trees/ct_aric/foliage/ct_mooplic/saplingicon.png",
+  "inventoryIcon" : "ct_mooplic_shady.png", "fixedIcon" : true,
   "fixedStem" : "ct_aric_shady", "fixedFoliage" : "ct_mooplic",
   "orientations" : [
     {
@@ -30,12 +27,10 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
+    { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] }, { "duration" : [320, 480] },
     { "tree" : true }
   ],
 

@@ -3,6 +3,7 @@
   "title" : "Hevika Ordis Welcome Message",
   "description" : "An encrypted welcome guide to a workplace in a ^#0050c0;hevika^reset; laboratory.",
   "icon" : "datamass/hevika.png",
+  "species" : "alta",
   "contentPages" : [
 
     "< HEVIKA ORDIS, Confidential >
@@ -24,9 +25,8 @@ Feel free to ask any questions!
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "hevika" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "datamass", "hevika" ], "learnBlueprintsOnPickup" : [ "ct_hevika-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

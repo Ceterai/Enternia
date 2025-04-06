@@ -1,0 +1,31 @@
+{
+  "objectName" : "ct_alta_flower_pot",
+  "colonyTags" : [ "garden" ], "learnBlueprintsOnPickup" : [ "ct_composite_flower_pot", "ct_pink_flower_af" ],
+  "category" : "storage", "objectType" : "container",
+  "level" : 3, "price" : 80, "race" : "alta",
+
+  "shortdescription" : "Alta Flower Pot",
+  "description" : "A simple flower pot made from a layered material for flowers that like more space.",
+  "longdescription" : "Can be used for capturing plant critters for collection and to have them as pets.",
+  "altaDescription" : "An empty flower pot... Or is something just hiding somewhere inside?~",
+
+  "apexDescription" : "A decent aquarium.",
+  "avianDescription" : "A nice aquarium.",
+  "floranDescription" : "Floran likess aquarium.",
+  "glitchDescription" : "Indifferent. A fish square.",
+  "humanDescription" : "A aquarium.",
+  "hylotlDescription" : "An unattractive aquarium.",
+  "novakidDescription" : "Just an aquarium.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_coral_eco",
+  "colonyTags" : [ "enterash_prime", "nature", "coral", "sea", "farming" ], "learnBlueprintsOnPickup" : [ "ct_coral_boosted", "coralcreepseed" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 5,
+
+  "shortdescription" : "Eco Ember Sapling",
+  "description" : "This coral sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "A growing ember coral. These can usually be found on enterash prime planets.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_coral_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

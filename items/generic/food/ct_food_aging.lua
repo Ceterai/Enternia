@@ -1,60 +1,31 @@
-require "/scripts/util.lua"
+require "/items/buildscripts/alta/consumable.lua"
 
-function ageItem(baseItem, aging)
-  local itemConfig = root.itemConfig(baseItem.name)
-  local rot_config = getParam(baseItem, itemConfig, "rotConfig", "/items/generic/food/ct_ionic_rotting.config")
-  if baseItem.parameters.timeToRot then
-    -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
-    if baseItem.parameters.timeToRot == getParam(baseItem, itemConfig, "timeToRotMax", 0) then
-      -- sb.logInfo("\n\nname: %s\nrot: %s\nmax: %s", baseItem.name, baseItem.parameters.timeToRot, getParam(baseItem, itemConfig, "timeToRotMax", 0))
-      -- sb.logInfo("\n\nvariants: %s", itemConfig.config.variants)
-      if itemConfig.config.variants and not baseItem.parameters.variant then
-        local variant = getVariant(itemConfig.config.variants, itemConfig.config.presets)
-        if #variant > 0 then
-          baseItem.parameters = sb.jsonMerge(baseItem.parameters, variant)
-          baseItem.parameters.variant = true
-          -- baseItem.parameters.description = "^cyan;Perfect cooking!^reset; "..(baseItem.parameters.description or "")
-        end
-      end
-    end
-    baseItem.parameters.timeToRot = baseItem.parameters.timeToRot - aging
+-- # My Enternia Item Aging
+-- A hook used by consumable items to age them (if this file is specified in the `agingScripts` list of that item).
+---@param item { name: string, count: number, parameters: table } The current item instance, including amount & custom params.
+---@param aging number A `dt` value passed by the game to indicate how much time has passed since the last update.
+function ageItem(item, aging)
+  local base = root.itemConfig(item.name) ---@type {config:{timeToRot: number,variants:table,presets:table}} Item's base config.
+  local get = function(key, default) return getValue(key, default, base.config, item.parameters) end
 
-    baseItem.parameters.tooltipFields = baseItem.parameters.tooltipFields or {}
-    baseItem.parameters.tooltipFields.rotTimeLabel = getRotTimeDescription(baseItem.parameters.timeToRot, rot_config)
-
-    if baseItem.parameters.timeToRot <= 0 then
-      return {
-        name = getParam(baseItem, itemConfig, "rottedItem", root.assetJson(rot_config .. ":rottedItem")),
-        count = baseItem.count,
-        parameters = {}
-      }
-    end
+  if item.parameters.timeToRot == base.config.timeToRot and base.config.variants and not item.parameters.variant then
+    item.parameters = sb.jsonMerge(item.parameters, chooseVariant(base.config.variants, base.config.presets) or {})
   end
-  return baseItem
+  item.parameters.timeToRot = item.parameters.timeToRot - aging
+  if item.parameters.timeToRot <= 0 then return {name=get("agedItem", "rottenfood"), count=item.count, parameters={}} end
+  item.parameters.tooltipFields = item.parameters.tooltipFields or {}
+  item.parameters.tooltipFields.rotTimeLabel = getRotTimeTooltip(item.parameters.timeToRot, get("rotConfig"), true)
+  return item
 end
 
-function getParam(baseItem, itemConfig, keyName, defaultValue)
-  if baseItem.parameters[keyName] ~= nil then return baseItem.parameters[keyName]
-  elseif itemConfig.config[keyName] ~= nil then return itemConfig.config[keyName]
-  else return defaultValue end
-end
-
-function getVariant(variants, presets)
+---@param variants [string] A list of presets that can be applied in case of **Perfect Cooking**.
+---@param presets table A set of presets (objects) to be used when returning a variant.
+---@return table|nil
+function chooseVariant(variants, presets)
   local total = 0.0
   local roll = util.randomInRange({total, 1.0})
-  -- sb.logInfo("\n- roll: %s", roll)
-  for i, variant in ipairs(variants) do
+  for i, variant in ipairs(variants) do if presets[variant] then
     total = total + (presets[variant].chance or 0.1)
-    -- sb.logInfo("\n- total: %s", total)
-    if roll <= total then return presets[variant] end
-  end
-  return { }
-end
-
-function getRotTimeDescription(rotTime, rotConfig)
-  local descList = root.assetJson(rotConfig .. ":rotTimeDescriptions")
-  for i, desc in ipairs(descList) do
-    if rotTime <= desc[1] then return desc[2] end
-  end
-  return descList[#descList]
+    if roll <= total then return sb.jsonMerge(presets[variant], {variant = true}) end
+  end end
 end

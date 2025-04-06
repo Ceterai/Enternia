@@ -3,6 +3,7 @@
   "title" : "Evacuation Notes",
   "description" : "This ^#b0e0fc;datamass^reset; contains a short report on a hasty evacuation.",
   "icon" : "datamass/impulse.png",
+  "species" : "alta",
   "contentPages" : [
 
     "We're leaving immediately. There's no point in taking everything, so I'll just take what's most important. Some data will be required for further research.
@@ -15,7 +16,7 @@ I hope we still have a chance. - C.T."
 
   ],
   "itemConfig" : {
-    "rarity" : "Legendary",
+    "rarity" : "Legendary", "learnBlueprintsOnPickup" : [ "ct_notes_tiana_leave-codex" ],
     "price" : 0
   }
 }

@@ -3,6 +3,7 @@
   "title" : "Guide to My Enternia",
   "description" : "Contains a small list of things you can get/do to consider the 'My Enternia' mod played through.",
   "icon" : "ebook/basic.png",
+  "species" : "alta",
   "contentPages" : [  // https://github.com/Ceterai/Enternia/wiki/Factions
 
     "                       MY ENTERNIA
@@ -79,7 +80,7 @@ Create the ^#b0e0fc;Alta Scanner^reset; at the crafting station and use it to sc
 
   ],
   "itemConfig" : {
-    "radioMessagesOnPickup" : [ "ct_my_enternia_msg" ],
+    "radioMessagesOnPickup" : [ "ct_my_enternia_msg" ], "learnBlueprintsOnPickup" : [ "ct_my_enternia_guide-codex" ],
     "itemTags" : [ "data_source", "ebook" ],
     "rarity" : "Rare",
     "price" : 40

@@ -1,14 +1,13 @@
 {
   "input" : [
-    { "item" : "ct_ayaka_wood", "count" : 4 },
-    { "item" : "titaniumbar", "count" : 2 },
     { "item" : "ct_verriskoywa_alto", "count" : 1 },
-    { "item" : "ct_verriskoywa_miko", "count" : 1 }
+    { "item" : "ct_verriskoywa_miko", "count" : 1 },
+    { "item" : "ct_alta_plant_bed", "count" : 1 }
   ],
   "output" : {
     "item" : "ct_alta_flower_bed",
     "count" : 1
   },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_constructor2", "alta", "alta_city", "objects", "decoration", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_constructor2", "alta_dendrarium", "potted_flowers", "alta", "alta_city", "objects", "decoration", "all", "mod" ]
 }

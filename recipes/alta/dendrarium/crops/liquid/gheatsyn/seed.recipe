@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_gheatsyn_crystal", "count" : 8 },
+    { "item" : "ct_alternia_shard", "count" : 1 },
+    { "item" : "moonrock", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_gheatsyn_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

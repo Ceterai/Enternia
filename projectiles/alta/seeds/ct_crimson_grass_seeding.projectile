@@ -1,0 +1,25 @@
+{
+  "projectileName" : "ct_crimson_grass_seeding",
+  "image" : "ct_crimson_grass.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "timeToLive" : 2,
+  "physics" : "grenade",
+  "piercing" : true,
+  "flippable" : true,
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "tilled",
+      //"previousMod" : "metamod:none",
+      // "previousMod" : null,
+      "newMod" : "aliengrass",
+      "radius" : 1
+    }
+  ],
+  "damagePoly" : [ ],
+  "damageKind" : "hidden",
+  "statusEffects" : [
+  ]
+}

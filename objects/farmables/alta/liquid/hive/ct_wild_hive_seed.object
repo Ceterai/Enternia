@@ -1,0 +1,36 @@
+{
+  "objectName" : "ct_wild_hive_seed",
+  "colonyTags" : [ "alterash_prime", "nature", "hive" ],
+  "category" : "seed", "objectType" : "farmable",
+  "rarity" : "Common", "price" : 240,
+  "hasObjectItem" : false, "biomePlaced" : true,
+
+  "shortdescription" : "Wild Hive Seed",
+  "description" : "A small growing hive full of fresh edible bugs.",
+  "altaDescription" : "I wonder if this larva plant has a scientific name...",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [570, 630] },
+    { "duration" : [570, 630] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_hive_harvest", "resetToStage" : 2 }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "ct_hive_seed", 1, { } ] ]
+  ],
+
+  "minImmersion" : 0.5,
+  "consumeSoilMoisture" : false
+}

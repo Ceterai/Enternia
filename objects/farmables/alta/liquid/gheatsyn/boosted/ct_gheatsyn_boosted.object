@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_gheatsyn_boosted",
+  "colonyTags" : [ "alterash_prime", "nature", "crystalline", "gheatsyn", "farming" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn_eco_pod" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 6,
+
+  "shortdescription" : "Boosted Gheatsyn Sapling",
+  "description" : "This sapling comes with enhanced mutations that allow much faster ripening. Requires to be at least 50% in a liquid.",
+  "altaDescription" : "A gheatsyn bud! It will take a long time, but it will grow into more gheatsyn!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "ct_gheatsyn_harvest", "resetToStage" : 2 }
+  ],
+
+  "minImmersion" : 0.5,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

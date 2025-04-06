@@ -5,6 +5,7 @@
   "longdescription" : "Sentias are slta-like arachnas, that use special paralyzing venom, tricks in form of love gifts and other sercret ways to catch unsuspecting altas and force them to be their friend.  \nSentias are usually used as a scary story to tech altas about caution and trust.",
   "altaDescription" : "The moral of the story is that you should be wary of tricky evil sentias, and to not fall for their love tricks, so you don't end up a plaything to treat their loneliness, and that there are good sentias too, who try to make friends in a less forceful way.",
   "icon" : "ebook/warped.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Once upon a time, a little nivera sentia named Kria, was growing herself a beautiful nivera garden. She put a lot of effort into it, into decorating everything and looking after it the most she could.
@@ -46,10 +47,9 @@ Some say she wears the crown to this day, and has made many actual alta friends 
 
   ],
     "itemConfig" : {
-      "rarity" : "Uncommon", "price" : 120, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "warped" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 4, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "ebook", "warped" ], "learnBlueprintsOnPickup" : [ "ct_sentia-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

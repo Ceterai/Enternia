@@ -1,0 +1,12 @@
+{
+  "itemName" : "ct_basic_fertilizer",
+  "shortdescription" : "Soil Fertilizer",
+  "description" : "The most basic ferilizer containing rich soils. Will likely poison you if consumed directly.",
+  "longdescription" : "",
+  "altaDescription" : "",
+  "race" : "alta", "category" : "food",
+  "build" : { "foodValue" : 4, "rotToEffectRatio" : 19.0, "badEffects" : [ "weakpoison" ] },
+  "inventoryIcon" : "ct_basic_fertilizer.png",
+  "itemTags" : [ "fertilizer" ], "learnBlueprintsOnPickup" : [ "moonstone", "moondust", "moonrock" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua"
+}

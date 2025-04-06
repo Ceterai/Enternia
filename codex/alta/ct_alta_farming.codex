@@ -1,0 +1,20 @@
+{
+  "id" : "ct_alta_farming",
+  "title" : "Alta Farmer's Notes",
+  "description" : "A read-me notice attached to the dendrarium. You can print it to save to your codex. ^gray;(Unlocks initial farming tool recipes)^reset;",
+  "longdescription" : "The notice goes over a pretty broad set of tasks that dendrarium helps performing.",
+  "altaDescription" : "Useful when getting started at a dendrarium.",
+  "icon" : "paper/short.png",
+  "species" : "alta",
+  "contentPages" : [
+    "Hey there! Alasta here, posting a short helpful notice to go along with the default dendrarium model as permitted by common blueprint storage and main datacenter.\n\nThis is to get you started with this station and tell you what to do with it.",
+    "The dendrarium is meant for all things flora:\n- Farming, or working with crops, like tilling and watering them;\n- Lumbering, or cutting down bigger plants;\n- Mawing, or cutting down smaller plants;\n- Fertelizing, or adding healthy vitamins for plants;\n- Potting, or planting miniature plants, like flowers, into portable containers;\n- Boosting, or genetically or chemically modifying plants for new and better results;\n- Replanting, or extracting healthy seeds, tubers and sprouts from fruits;\n- Eco-engineering, or designing suitable eco pods.",
+    "Farming\n\nThis includes basic tools like watering cans and tillers, which you'll be able to unlock by crafting new available recipes.\nIt also includes automatic water sprinklers, unlockable with advanced Altaponics RI."
+  ],
+  "itemConfig" : {
+    "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "docs" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [ "ct_alta_hoe", "ct_alta_bucket" ]
+  }
+}

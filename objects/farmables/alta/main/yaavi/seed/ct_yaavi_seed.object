@@ -1,0 +1,35 @@
+{
+  "objectName" : "ct_yaavi_seed",
+  "colonyTags" : [ "alterash", "nature", "yaara", "farming" ], "learnBlueprintsOnPickup" : [ "ct_yaavi_sapling" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 2,
+
+  "shortdescription" : "Yaara Eye Sprout",
+  "description" : "A domesticated yaavi sprout, ready to grow into a small spring.",
+  "altaDescription" : "A lab-produced yaavi spring. Seems like this one ripes once in a while, unlike usual yaavi pulps.",
+
+  "inventoryIcon" : "icon.png",
+  "largeImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-3, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    { "duration" : [600, 800] },
+    { "duration" : [600, 800] },
+    { "alts" : 5, "duration" : [1600, 1800] },
+    { "alts" : 5, "harvestPool" : "ct_yaavi_poor_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

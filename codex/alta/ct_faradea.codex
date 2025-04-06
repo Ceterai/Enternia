@@ -3,6 +3,7 @@
   "title" : "Brawl Of Legends Poster",
   "description" : "A poster covered in yellow markings. It's about a fighting contest.\nThe bottom line says \"^#ffe364;Faradea^reset;\" in capital letters.",
   "icon" : "paper/faradea.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Are you brave enough to face the best Faradea Legends around?
@@ -16,9 +17,8 @@ Engage in *regulated combat with other ^#b0e0fc;altas^reset; and opponents of cr
 
   ],
     "itemConfig" : {
-      "rarity" : "Rare", "price" : 160, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-      "fixedPrice" : true, "level" : 5,
-      "itemTags" : [ "data_source", "docs", "faradea" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 5, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs", "faradea" ], "learnBlueprintsOnPickup" : [ "ct_faradea-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

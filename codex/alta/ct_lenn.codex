@@ -5,6 +5,7 @@
   "longdescription" : "In fact, the story seems to belong to a time drifter, a special creature that exists between worlds and doesn't often show itself to the world.",
   "altaDescription" : "Time drifters are mysterious creatures, beyond our comprehension... Answering the question - no idea, what I would do with this kind of power. I don't think I need it in the first place.",
   "icon" : "ebook/stardust.png",
+  "species" : "alta",
   "contentPages" : [
 
     "Have you ever wondered what it would be like to be a powerful being?
@@ -33,9 +34,8 @@ Therefore, the longer I exist, the stronger the feeling within me that observing
 
   ],
     "itemConfig" : {
-      "rarity" : "Legendary", "price" : 240, "race" : "alta", "tooltipKind" : "ct_alta_item",
-      "fixedPrice" : true, "level" : 7,
-      "itemTags" : [ "data_source", "ebook", "lenn", "time_drifter" ],
-      "builder" : "/items/buildscripts/alta/item.lua"
+      "level" : 7,
+      "itemTags" : [ "data_source", "ebook", "lenn", "time_drifter" ], "learnBlueprintsOnPickup" : [ "ct_lenn-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

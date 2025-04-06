@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_eva_seed", "count" : 1 },
+    { "item" : "ct_ayaka_tree", "count" : 1 },
+    { "item" : "ct_ceternia_core", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ionic_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

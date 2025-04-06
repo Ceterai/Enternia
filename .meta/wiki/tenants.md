@@ -1,4 +1,4 @@
-This mod adds a total of 151 tenants.
+This mod adds a total of 150 tenants.
 
 ## Alta
 
@@ -183,18 +183,6 @@ Type: **Alta Designer** (merchant)
 Tags: `alta` (8), `pretty` (8), `valuable` (16)
 
 An aspiring alta designer with some creative, well, designs right with her.
-
-</td></tr>
-
-<tr><td valign="middle" align="middle">
-
-</td><td>
-
-Type: **Alta Gardener** (merchant)
-
-Tags: `alta` (8), `garden` (12), `commerce` (8)
-
-An alta gardener taking care of her garden. She's ready to share her goods with you!
 
 </td></tr>
 
@@ -1220,7 +1208,7 @@ Type: **Alta Earth Fan**
 
 Tags: `alta` (8), `office` (18)
 
-An alta working with papers. While the uniform is not native to altas, she wears it as part of her mission.
+An alta in human clothes. Some might not spot the difference.
 
 </td></tr>
 

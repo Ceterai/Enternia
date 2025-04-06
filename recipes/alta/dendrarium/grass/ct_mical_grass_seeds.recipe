@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 3 },
+    { "item" : "petalred", "count" : 3 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
+  ],
+  "duration" : 0.35,
+  "output" : { "item" : "ct_mical_grass_seeds", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "l5", "alta_max", "alta_dendrarium", "consumables", "grass_seeds", "all", "mod" ]
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "ct_gyera_token",
+  "shortdescription" : "Gyera Token",
+  "description" : "A promotional fertilizing Iora Gyera Ordis jetton made from recyclable materials. Used to open gyera crates and feed plants.",
+  "longdescription" : "These tokens are used as bite-size fertilizers for plants, but are also used by the gyera group as currency able to unlock prizes, in order to promote and encourage mindfulness and attention towards nature.",
+
+  "level" : 2, "price" : 200, "learnBlueprintsOnPickup" : [ "ct_gyera_loot", "ct_haven_loot", "ct_yaara_loot" ],
+  "category" : "currency",
+  "inventoryIcon" : "ct_gyera_token.png",
+  "builder" : "/items/buildscripts/alta/item.lua",
+
+  "alkey" : "Gyera Yu"
+}

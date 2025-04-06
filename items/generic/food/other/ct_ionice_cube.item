@@ -6,9 +6,8 @@
   "altaDescription" : "They can add fizzy freshness to almost any drink. And even some dishes. Come to think of it, the only think I'm missing is an ionfire cube, to counter that.",
   "inventoryIcon" : "ct_ionice_cube.png",
 
-  "level" : 2, "rarity" : "Common", "price" : 10,
-  "maxStack" : 1000, "category" : "cookingIngredient", "eventCategory" : "eventCrop", "tooltipKind" : "ct_alta_item",
-  "learnBlueprintsOnPickup" : [ "ct_ionice_cube" ],
+  "level" : 1, "category" : "cookingIngredient",
+  "itemTags" : [ "ionic", "spice" ], // "learnBlueprintsOnPickup" : [ "ct_viona_dough" ],
 
   "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "aliases" : { "Ionice" : { }, "Enlid Yon" : { } } }, "alkey" : "Enlid'on"

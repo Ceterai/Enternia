@@ -1,0 +1,18 @@
+{
+  "itemName" : "ct_ayaka_stick",
+  "shortdescription" : "Ayaka Stick",
+  "description" : "A sturdy resilient one-handed stick made from ayakut and isowire. Used as a cane, hiking staff, or as a simple baton.",
+
+  "elementalType" : "physical",
+  "itemTags" : [ "weapon", "melee", "shortsword" ],
+  "twoHanded" : false, "category" : "shortsword", "tooltipKind" : "ct_alta_weapon_1",
+
+  "animationParts" : { "handle": "", "blade" : "ct_ayaka_stick.png" },
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : { "fireTime" : 0.67, "baseDps" : 6 },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

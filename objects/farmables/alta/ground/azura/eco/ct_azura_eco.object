@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_azura_eco",
+  "colonyTags" : [ "enterash", "nature", "alien", "farming" ], "learnBlueprintsOnPickup" : [ "ct_azura_boosted" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Eco Azura Sapling ^#20f080;^reset;",
+  "description" : "This striped wood sapling was genetically modified to fit into small spaces and consume almost no liquids.",
+  "altaDescription" : "An azura sprout that produces lots of striped wood!~",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "ct_azura_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

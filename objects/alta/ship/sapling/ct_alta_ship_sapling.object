@@ -1,12 +1,11 @@
 {
   "objectName" : "ct_alta_ship_sapling",
-  "colonyTags" : [ "alta_ship", "garden" ],
+  "colonyTags" : [ "alta_ship", "garden" ], "learnBlueprintsOnPickup" : [ "ct_mical_tree" ],
   "category" : "sapling",
-  "level" : 6, "rarity" : "Legendary", "price" : 20,
-  "race" : "alta",
+  "level" : 6, "race" : "alta",
 
   "shortdescription" : "Alta Ship Sapling",
-  "description" : "A tree sapling with an advanced isolated environment system and life support.",
+  "description" : "A tree sapling with an advanced isolated environment system and life support.  \n^gray;Can be placed on moonstone. Can grow into alien trees, flesh strands, dark rocks and mical geodes.^reset;",
   "altaDescription" : "A ship eco chamber for growing plants or crystal plants with highly specific conditions.",
 
   "apexDescription" : "I can plant this to grow a tree.",
@@ -27,32 +26,30 @@
     }
   ],
 
-  "objectType" : "farmable",
-  "retainObjectParametersInItem" : true,
-  "consumeSoilMoisture" : false,
+  "objectType" : "farmable", "retainObjectParametersInItem" : true, "consumeSoilMoisture" : false,
   "stages" : [
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
-    { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] }, { "duration" : [30, 45] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
+    { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] }, { "duration" : [360, 560] },
     { "tree" : true }
   ],
   "treePool" : [
-    { "fixedStem" : "ct_tonnova_spiral_stem", "fixedFoliage" : "ct_tonnova_bulb" },
-    { "fixedStem" : "ct_tonnova_stem", "fixedFoliage" : "ct_tonnova_blob" },
-    { "fixedStem" : "ct_tonnova_wide_stem", "fixedFoliage" : "ct_tonnova_blob" },
-
-    { "fixedStem" : "ct_aric_bulb_spots", "fixedFoliage" : "ct_akollic" },
-    { "fixedStem" : "ct_aric_bulb", "fixedFoliage" : "ct_akollic" },
-    { "fixedStem" : "ct_aric_mutant_giant", "fixedFoliage" : "ct_coroplic" },
-    { "fixedStem" : "ct_aric_mutant", "fixedFoliage" : "ct_coroplic" },
-    { "fixedStem" : "ct_aric_growth_crystal", "fixedFoliage" : "ct_hyolic" },
-    { "fixedStem" : "ct_aric_growth", "fixedFoliage" : "ct_hyolic" },
-
-    { "fixedStem" : "ct_aric_shady_old", "fixedFoliage" : "ct_mooplic" },
-    { "fixedStem" : "ct_aric_shady", "fixedFoliage" : "ct_mooplic" },
-    { "fixedStem" : "ct_aric_glow_eyes", "fixedFoliage" : "ct_perolic" },
-    { "fixedStem" : "ct_aric_glow_bursting", "fixedFoliage" : "ct_perolic" },
-    { "fixedStem" : "ct_aric_twisted_undone", "fixedFoliage" : "ct_vyralic" },
-    { "fixedStem" : "ct_aric_twisted", "fixedFoliage" : "ct_vyralic" }
+    // Added in 2.3.4e
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "alienbigleaf" },
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "alienbigleaf", "fixedStemHues" : [ 96 ], "fixedFoliageHues" : [ 168 ] },
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "alienbigleaf", "fixedStemHues" : [ -64 ], "fixedFoliageHues" : [ 0 ] },
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "aliencircle" },
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "aliencircle", "fixedStemHues" : [ 96 ], "fixedFoliageHues" : [ 168 ] },
+    { "fixedStem" : "alienstriped", "fixedFoliage" : "aliencircle", "fixedStemHues" : [ -64 ], "fixedFoliageHues" : [ 0 ] },
+    { "fixedStem" : "darkrock" },
+    { "fixedStem" : "darkrock" },
+    { "fixedStem" : "eyestem", "fixedFoliage" : "eyefoliage", "fixedStemHues" : [ -56 ] },
+    { "fixedStem" : "eyestem", "fixedFoliage" : "eyefoliage", "fixedStemHues" : [ -56 ], "fixedFoliageHues" : [ 0, 124 ] },
+    { "fixedStem" : "fleshstem", "fixedFoliage" : "fleshfoliage", "fixedStemHues" : [ -80 ] },
+    { "fixedStem" : "fleshstem", "fixedFoliage" : "fleshfoliage", "fixedStemHues" : [ -90 ] },
+    { "fixedStem" : "geode", "fixedFoliage" : "geodefoliage" },
+    { "fixedStem" : "geode", "fixedFoliage" : "geodefoliage" },
+    { "fixedStem" : "geode", "fixedFoliage" : "geodefoliage", "fixedStemHues" : [ -132 ], "fixedFoliageHues" : [ -132 ] },
+    { "fixedStem" : "geode", "fixedFoliage" : "geodefoliage", "fixedStemHues" : [ -132 ], "fixedFoliageHues" : [ -132 ] }
   ],
 
   "builder" : "/items/buildscripts/alta/sapling.lua"

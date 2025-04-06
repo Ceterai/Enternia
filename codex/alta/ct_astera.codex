@@ -5,6 +5,7 @@
   "longdescription" : "There are relatively big asteroids floating around astera perfectly fit for big industrial compounds like these. Altas call them ^#ffa8e8;moonrock space islands^reset;.",
   "altaDescription" : "This infomass shares a little of the history behind forming of such a massive alta allience, which I find both fascinating and insightful.",
   "icon" : "datamass/astera.png",
+  "species" : "alta",
   "contentPages" : [
 
     "By astera, ^#b0e0fc;altas^reset; usually mean a cosmic area surrounding any ^#ffa8e8;Io structs^reset;, most commonly ^#20f080;alterash^reset; planets.
@@ -22,10 +23,9 @@ This alliance is currently known as Astera Industries, or ^gray;Astera Ordis^res
 
   ],
     "itemConfig" : {
-    "rarity" : "Legendary", "price" : 200, "race" : "alta", "tooltipKind" : "ct_alta_item_long",
-    "fixedPrice" : true, "level" : 6,
-    "itemTags" : [ "data_source", "datamass", "astera" ],
-    "builder" : "/items/buildscripts/alta/item.lua"
+    "level" : 6, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "datamass", "astera" ], "learnBlueprintsOnPickup" : [ "ct_astera-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : { "Astera Ordis" : { } },
   "related" : {

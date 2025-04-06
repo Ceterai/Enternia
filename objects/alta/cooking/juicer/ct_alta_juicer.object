@@ -24,7 +24,7 @@
     "config" : "/interface/windowconfig/craftingcampfire.config",
     "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
     "paneLayoutOverride" : {
-      "categories" : { "buttons" : [ { "data" : { "filter" : [ "fresh", "juice", "essence", "nectar", "puree" ] }, "selected" : true } ] },
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "squish", "juice", "nectar" ] }, "selected" : true } ] },
       "windowtitle" : { "title" : "  Juicer", "subtitle" : "  Juice-making convenience" }
     }
   },

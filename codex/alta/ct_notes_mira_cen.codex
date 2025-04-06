@@ -3,6 +3,7 @@
   "title" : "CEN-7 Reapplication Request",
   "description" : "This ^#b0e0fc;datamass^reset; contains some sort of appeal.",
   "icon" : "datamass/plasma.png",
+  "species" : "alta",
   "contentPages" : [
 
     "...To put it simply - it seems like ET14 just doesn't hold enough energy under CEN-7.
@@ -13,7 +14,7 @@ Maybe if we could pass it under CEN-6, or even... no protocol? - C.M."
 
   ],
   "itemConfig" : {
-    "rarity" : "Legendary",
+    "rarity" : "Legendary", "learnBlueprintsOnPickup" : [ "ct_notes_mira_cen-codex" ],
     "price" : 0
   }
 }

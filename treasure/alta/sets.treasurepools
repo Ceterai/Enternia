@@ -114,5 +114,53 @@
           {"item" : "ct_ghearun_chest"},
           {"item" : "ct_ghearun_legwear"},
           {"item" : "ct_ghearun_back"}
+  ] } ] ],
+
+
+
+  // Item Packs
+  // Added in 2.3.4e
+  "ct_alta_seed-pack" : [ [0, { "fill" : [
+    { "item" : "crystalplantseed" },
+    { "item" : "ct_tsay_seed" },
+    { "item" : "ct_flowery_grass_seeds" },
+    { "item" : "beakseedseed" },
+    { "item" : "ct_gil_seed" },
+    { "item" : "ct_grass_seeds" }
+  ] } ] ],
+  "ct_alta_farming-pack" : [ [0, { "fill" : [
+    { "item" : "ct_alta_hoe" },
+    { "item" : "ct_alta_bucket" },
+    { "item" : "ct_basic_fertilizer" },
+    { "item" : "ct_ayaka_flower_pot" },
+    { "item" : "ct_calin_flower_pot" },
+    { "item" : "bottledwater" }
+  ] } ] ],
+  "ct_alta_farming_2-pack" : [ [0, { "fill" : [
+    { "item" : "ct_alta_tiller" },
+    { "item" : "ct_alta_watering_can" },
+    { "item" : "ct_alta_lumber_cutter" },
+    { "item" : "ct_ionic_fertilizer" },
+    { "item" : "ct_alta_tall_flower_pot" },
+    { "item" : "ct_alta_flower_pot" },
+    { "item" : "bottledwater" }
+  ] } ] ],
+  "ct_alta_farming_3-pack" : [ [0, { "fill" : [
+    { "item" : "ct_alta_tiller" },
+    { "item" : "ct_altan_can" },
+    { "item" : "ct_composite_cutter" },
+    { "item" : "ct_alta_fertilizer" },
+    { "item" : "ct_composite_flower_pot" },
+    { "item" : "ct_bion_flower_pot" },
+    { "item" : "bottledhealingwater" }
+  ] } ] ],
+  "ct_gyera-pack" : [ [0, { "fill" : [
+    { "item" : "ct_gyera_emblem" },
+    { "item" : "ct_gyera-codex" },
+    { "item" : "ct_gyera_can" },
+    { "item" : "ct_gyera_blaster" },
+    { "item" : "ct_gyera_sprinkler" },
+    { "item" : "ct_gyera_fertilizer" },
+    { "item" : "ct_gyera_token" }
   ] } ] ]
 }
