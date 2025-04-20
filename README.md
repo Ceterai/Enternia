@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alterash.png" loading="lazy" width="100%" alt="What awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! Welcome to Alterash.">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alterash.webp" width="100%" alt="What awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! Welcome to Alterash.">
 
 <h1 align="center" id="my-enternia">My Enternia</h1>
 
@@ -8,7 +8,7 @@ All new content **can only be found on those 2 planets**, is fairly balanced, an
 Check out the end of the description for a **rundown of new content**. Or, even better, check out the official **Wiki**!
 
 <div align="center" style="font-size: 150%;">
-<a class="ct_button" href="https://ceterai.github.io/MyEnternia">WEBSITE</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia">GITHUB</a> | <a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2006558650">STEAM</a> | <a class="ct_button" href="https://community.playstarbound.com/resources/my-enternia.6252/">SB FORUMS</a>
+<a class="ct_button" href="https://ceterai.github.io/MyEnternia">WEBSITE</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia">GITHUB</a> | <a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2006558650">STEAM</a> | <a class="ct_button" href="https://community.playstarbound.com/resources/my-enternia.6252/">SB FORUMS</a> | <a class="ct_button" href="https://www.nexusmods.com/starbound/mods/1057">NEXUS MODS</a>
 <br>
 <a class="ct_button" href="https://buymeacoffee.com/ceterai">SUPPORT ME</a> | <a class="ct_button" href="https://discord.gg/qBZDKESdtp" title="Dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^">DISCORD</a>
 <br>
@@ -17,7 +17,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 <a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3180091750">🇨🇳 Chinese Patch/中文翻译补丁 🇨🇳</a>
 </div>
 
-**Version 2.3: Alta Cafe & Monster Buffet** is out! Check out the [changelog](https://github.com/Ceterai/Enternia/tree/main/.meta/changelog.md) for details.
+**Version 2.4: Alta Hobbies** is out! Check out the [changelog](https://github.com/Ceterai/Enternia/tree/main/.meta/changelog.md) for details.
 
 - [Installation](#installation)
   - [Direct](#direct)
@@ -74,7 +74,7 @@ Get this mod on the official Chucklefish Forums!
 
 ### Nexus Mods
 
-- *COMING SOON*
+Install this mod with Vortex from Nexus!
 
 ### Skymods
 
@@ -109,10 +109,10 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 ### Mod Content Rundown
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.png" loading="lazy" width="100%" alt="Alta Species have their own cloths, haircuts, eyes, ship pet drones, codexes, S.A.I.L. chips and a special Alta Scanner!">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.png" loading="lazy" width="100%" alt="Alta Species also have a full set of armor and weapon upgrades, as well as alternative helmets, EPPs and other back items!">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.png" loading="lazy" width="100%" alt="My Enternia includes 2 planets, new weather, effects, biomes, monsters and objects!">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.png" loading="lazy" width="100%" alt="Alta Species have their own upgradeable weapon system with different types and enhanced features, even for shields!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip1.webp" loading="lazy" width="100%" alt="Alta Species have their own cloths, haircuts, eyes, ship pet drones, codexes, S.A.I.L. chips and a special Alta Scanner!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip2.webp" loading="lazy" width="100%" alt="Alta Species also have a full set of armor and weapon upgrades, as well as alternative helmets, EPPs and other back items!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip3.webp" loading="lazy" width="100%" alt="My Enternia includes 2 planets, new weather, effects, biomes, monsters and objects!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/tooltip4.webp" loading="lazy" width="100%" alt="Alta Species have their own upgradeable weapon system with different types and enhanced features, even for shields!">
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
@@ -147,10 +147,10 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR);
 - [More Tabs](https://steamcommunity.com/sharedfiles/filedetails/?id=1119086325) (codex library now has an alta tab).
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.png" loading="lazy" width="100%" alt="My Enternia provides rich mod support for a lot of popular Starbound plugins!">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.png" loading="lazy" width="100%" alt="My Enternia provides support for species-specific traits!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.webp" loading="lazy" width="100%" alt="My Enternia provides rich mod support for a lot of popular Starbound plugins!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.webp" loading="lazy" width="100%" alt="My Enternia provides support for species-specific traits!">
 <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ai.png" loading="lazy" width="100%" alt="My Enternia provides support for S.A.I.L. chips!">
-![All chips are properly animated.](https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif)
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/showcase/2.3.3/ceterai.gif" loading="lazy" width="496" alt="All chips are properly animated.">
 
 #### Other Addon Support
 
@@ -201,14 +201,14 @@ Starting with version [2.1.4a](https://github.com/Ceterai/Enternia/releases/tag/
 
 As mentioned in the content rundown, many different items in this mod have improved, informative tooltips. Below are some examples of that:
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.png" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of items!">
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.png" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of objects!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips1.webp" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of items!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips2.webp" loading="lazy" width="100%" alt="My Enternia provides enhanced tooltips for all kinds of objects!">
 
 ### Tenants
 
 This mod add a large amount of npcs, outpost visitors and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md)
 
-<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.png" loading="lazy" width="100%" alt="Alta Species include around 200 tenants!">
+<img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.webp" loading="lazy" width="100%" alt="Alta Species include around 200 tenants!">
 
 ## Changes
 
@@ -255,5 +255,5 @@ Special, warm thanks to the following people for helping with my mod!~
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alta_sign4.png" loading="lazy" alt="For Alliana!">
+  <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/alta_sign4.webp" loading="lazy" alt="For Alliana!">
 </p>

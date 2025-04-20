@@ -115,6 +115,7 @@ if VERSION and TITLE:
             webbrowser.open(f'{base.REPO}/releases/', new=0, autoraise=True)
             webbrowser.open('https://steamcommunity.com/sharedfiles/filedetails/changelog/2006558650', new=0, autoraise=True)
             webbrowser.open('https://community.playstarbound.com/resources/my-enternia.6252/add-version', new=0, autoraise=True)
+            webbrowser.open('https://www.nexusmods.com/starbound/mods/1057?tab=files', new=0, autoraise=True)
 
             # Step 11
 

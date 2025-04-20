@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_enternia_sapling", "count" : 1 },
+    { "item" : "ct_boost_fertilizer", "count" : 1 },
+    { "item" : "ct_enternia_seed", "count" : 1 },
+    { "item" : "liquidhealing", "count" : 2 },
+    { "item" : "ct_stardust_eco_pod", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_enternia_eco_pod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_crops", "nature", "crop", "all", "mod" ]
+}

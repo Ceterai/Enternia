@@ -1,0 +1,33 @@
+{
+  "name" : "ct_alta_farm_tenant",
+  "priority" : 6,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "farming" : 24,
+    "commerce" : 8
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_farmer",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_chef_gift" },
+
+  "wiki" : {
+    "title" : "Alta Poner",
+    "description" : "An alta farmer taking care of her greenhouse. She's ready to share her goods with you!",
+    "category" : "casual", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

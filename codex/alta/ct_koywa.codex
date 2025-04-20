@@ -20,7 +20,7 @@ The fun starts now!"
   ],
     "itemConfig" : {
       "level" : 3,
-      "itemTags" : [ "data_source", "docs", "koywa" ], "learnBlueprintsOnPickup" : [ "ct_koywa-codex" ], // TODO in 2.4:, "ct_koywa_seed" ],
+      "itemTags" : [ "data_source", "docs", "koywa" ], "learnBlueprintsOnPickup" : [ "ct_koywa-codex", "ct_koywa_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

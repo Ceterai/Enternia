@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_ceternia_seed", "count" : 2 },
+    { "item" : "ct_biomix_fertilizer", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ceternia_sapling", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

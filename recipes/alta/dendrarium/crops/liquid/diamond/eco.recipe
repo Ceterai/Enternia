@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_diamond_sapling", "count" : 1 },
+    { "item" : "ct_calin_fertilizer", "count" : 1 },
+    { "item" : "ct_diamond_seed", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_diamond_eco", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

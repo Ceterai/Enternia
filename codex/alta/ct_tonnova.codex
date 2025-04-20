@@ -19,7 +19,7 @@ Be careful while raveling among all the tonnova springs and trees, and watch out
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_tonnova-codex" ], // TODO in 2.4:, "ct_tonnova_tree" ],
+      "itemTags" : [ "data_source", "ebook", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_tonnova-codex", "ct_tonnova_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {

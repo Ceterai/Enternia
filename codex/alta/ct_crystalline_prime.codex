@@ -19,7 +19,7 @@
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook", "crystalline_prime" ], "learnBlueprintsOnPickup" : [ "ct_crystalline_prime-codex" ], // TODO in 2.4:, "ct_carel_sapling" ],
+      "itemTags" : [ "data_source", "ebook", "crystalline_prime" ], "learnBlueprintsOnPickup" : [ "ct_crystalline_prime-codex", "ct_carel_sapling" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

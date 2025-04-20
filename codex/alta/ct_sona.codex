@@ -29,7 +29,7 @@ Let's see what we can find. I'm very exited!"
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "docs", "sona" ], "learnBlueprintsOnPickup" : [ "ct_sona-codex" ], // TODO in 2.4:, "ct_sona_seed" ],
+      "itemTags" : [ "data_source", "docs", "sona" ], "learnBlueprintsOnPickup" : [ "ct_sona-codex", "ct_sona_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

@@ -34,7 +34,7 @@ Common cooking recipes from ayaka biproducts include: ^#3587ff;Aya Fresh^reset;,
   ],
     "itemConfig" : {
       "level" : 3,
-      "itemTags" : [ "data_source", "docs", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka-codex" ], // TODO in 2.4:, "ct_ayaka_young_tree" ],
+      "itemTags" : [ "data_source", "docs", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka-codex", "ct_ayaka_young_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

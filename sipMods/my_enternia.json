@@ -12889,7 +12889,7 @@
         "shortdescription": "Alternia Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "rare"
+        "rarity": "legendary"
     },
     {
         "path": "/objects/farmables/alta/ground/alternia/pod/",
@@ -13027,7 +13027,7 @@
         "shortdescription": "Ceternia Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "rare"
+        "rarity": "legendary"
     },
     {
         "path": "/objects/farmables/alta/ground/ceternia/pod/",
@@ -13147,7 +13147,7 @@
         "shortdescription": "Enternia Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "rare"
+        "rarity": "legendary"
     },
     {
         "path": "/objects/farmables/alta/ground/enternia/pod/",
@@ -13175,7 +13175,7 @@
         "shortdescription": "Evara Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/ground/eva/",
@@ -13225,16 +13225,16 @@
     },
     {
         "path": "/objects/farmables/alta/ground/haven/",
-        "fileName": "ct_eva_seed.object",
+        "fileName": "ct_haven_seed.object",
         "name": "ct_haven_seed",
         "shortdescription": "Haven Bouquet Sprout",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/ground/haven/",
-        "fileName": "ct_wild_eva_seed.object",
+        "fileName": "ct_wild_haven_seed.object",
         "name": "ct_wild_haven_seed",
         "shortdescription": "Wild Haven Sprout",
         "category": "seed",
@@ -13243,7 +13243,7 @@
     },
     {
         "path": "/objects/farmables/alta/ground/haven/boosted/",
-        "fileName": "ct_eva_boosted.object",
+        "fileName": "ct_haven_boosted.object",
         "name": "ct_haven_boosted",
         "shortdescription": "Boosted Haven Sapling ^#2080f0;^reset;",
         "category": "seed",
@@ -13252,16 +13252,16 @@
     },
     {
         "path": "/objects/farmables/alta/ground/haven/eco/",
-        "fileName": "ct_eva_eco.object",
+        "fileName": "ct_haven_eco.object",
         "name": "ct_haven_eco",
-        "shortdescription": "Eco Haven Sapling ^#20f080;^reset;",
+        "shortdescription": "Eco Haven Sapling",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "uncommon"
+        "rarity": "rare"
     },
     {
         "path": "/objects/farmables/alta/ground/haven/pod/",
-        "fileName": "ct_eva_eco_pod.object",
+        "fileName": "ct_haven_eco_pod.object",
         "name": "ct_haven_eco_pod",
         "shortdescription": "Haven Eco Pod ^#8020f0;^reset;",
         "category": "seed",
@@ -13271,9 +13271,9 @@
     },
     {
         "path": "/objects/farmables/alta/ground/haven/sapling/",
-        "fileName": "ct_eva_sapling.object",
+        "fileName": "ct_haven_sapling.object",
         "name": "ct_haven_sapling",
-        "shortdescription": "Haven Sapling",
+        "shortdescription": "Haven Sapling ^#20f080;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "uncommon"
@@ -13525,7 +13525,7 @@
         "path": "/objects/farmables/alta/ground/stardust/sapling/",
         "fileName": "ct_stardust_sapling.object",
         "name": "ct_stardust_sapling",
-        "shortdescription": "Stardust Sapling",
+        "shortdescription": "Stardust Sapling ^#f02080;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "legendary"
@@ -13537,7 +13537,7 @@
         "shortdescription": "Turanta Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/ground/turanta/",
@@ -13745,7 +13745,7 @@
         "path": "/objects/farmables/alta/liquid/cocola/sapling/",
         "fileName": "ct_cocola_sapling.object",
         "name": "ct_cocola_sapling",
-        "shortdescription": "Cocola Sapling",
+        "shortdescription": "Cocola Sapling ^#20f080;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "uncommon"
@@ -13910,7 +13910,7 @@
         "path": "/objects/farmables/alta/liquid/dream/sapling/",
         "fileName": "ct_dream_sapling.object",
         "name": "ct_dream_sapling",
-        "shortdescription": "Dreamer's Flower Sapling",
+        "shortdescription": "Dreamer's Flower Sapling ^#20f080;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "uncommon"
@@ -13922,7 +13922,7 @@
         "shortdescription": "Ela Sprout",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/liquid/ela/",
@@ -13937,7 +13937,7 @@
         "path": "/objects/farmables/alta/liquid/ela/boosted/",
         "fileName": "ct_ela_boosted.object",
         "name": "ct_ela_boosted",
-        "shortdescription": "Boosted Ela Sapling",
+        "shortdescription": "Boosted Ela Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"
@@ -13949,7 +13949,7 @@
         "shortdescription": "Eco Ela Sapling",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "uncommon"
+        "rarity": "rare"
     },
     {
         "path": "/objects/farmables/alta/liquid/ela/pod/",
@@ -13965,7 +13965,7 @@
         "path": "/objects/farmables/alta/liquid/ela/sapling/",
         "fileName": "ct_ela_sapling.object",
         "name": "ct_ela_sapling",
-        "shortdescription": "Ela Sapling",
+        "shortdescription": "Ela Sapling ^#20f080;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "uncommon"
@@ -14087,7 +14087,7 @@
         "shortdescription": "Ionic Seed",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "rare"
     },
     {
         "path": "/objects/farmables/alta/liquid/ionic/",
@@ -14105,22 +14105,22 @@
         "shortdescription": "Boosted Ionic Sapling",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "rare"
+        "rarity": "legendary"
     },
     {
         "path": "/objects/farmables/alta/liquid/ionic/eco/",
         "fileName": "ct_ionic_eco.object",
         "name": "ct_ionic_eco",
-        "shortdescription": "Eco Ionic Sapling",
+        "shortdescription": "Eco Ionic Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "uncommon"
+        "rarity": "rare"
     },
     {
         "path": "/objects/farmables/alta/liquid/ionic/pod/",
         "fileName": "ct_ionic_eco_pod.object",
         "name": "ct_ionic_eco_pod",
-        "shortdescription": "Ionic Eco Pod ^#8020f0;^reset;",
+        "shortdescription": "Ionic Eco Pod ^#8020f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -14130,10 +14130,10 @@
         "path": "/objects/farmables/alta/liquid/ionic/sapling/",
         "fileName": "ct_ionic_sapling.object",
         "name": "ct_ionic_sapling",
-        "shortdescription": "Ionic Sapling",
+        "shortdescription": "Ionic Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
-        "rarity": "uncommon"
+        "rarity": "rare"
     },
     {
         "path": "/objects/farmables/alta/liquid/jelly/",

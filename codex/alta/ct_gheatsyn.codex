@@ -35,7 +35,7 @@ It would be unpleasant if your beautiful necklace spilled on you and burned you,
   ],
     "itemConfig" : {
       "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "gheatsyn" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn-codex" ], // TODO in 2.4:, "ct_gheatsyn_seed" ],
+      "itemTags" : [ "data_source", "ebook", "gheatsyn" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn-codex", "ct_gheatsyn_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

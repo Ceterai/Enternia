@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_ceternia_seed", "count" : 1 },
+    { "item" : "ct_alternia_seed", "count" : 1 },
+    { "item" : "ct_enternia_seed", "count" : 1 },
+    { "item" : "geodestone", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_stardust_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "nature", "crop", "all", "alta_seeds", "seedmaker", "seedsMods", "mod" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_eva_eco", "count" : 1 },
+    { "item" : "ct_bubble_fertilizer", "count" : 1 },
+    { "item" : "ct_eva_seed", "count" : 1 },
+    { "item" : "liquidmilk", "count" : 2 },
+    { "item" : "ct_alta_lab_eco_pod", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_eva_eco_pod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_crops", "nature", "crop", "all", "mod" ]
+}

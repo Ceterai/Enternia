@@ -27,7 +27,7 @@ Please note that the availability of the Dancefloor can change in case of music 
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "docs", "calin" ], "learnBlueprintsOnPickup" : [ "ct_calin-codex" ], // TODO in 2.4:, "ct_calin_seed" ],
+      "itemTags" : [ "data_source", "docs", "calin" ], "learnBlueprintsOnPickup" : [ "ct_calin-codex", "ct_calin_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

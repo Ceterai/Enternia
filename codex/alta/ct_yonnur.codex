@@ -24,7 +24,7 @@ So be careful, silly altas, and don't go alone to a warped forest, its inhabitor
   ],
     "itemConfig" : {
       "level" : 4, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook", "warped" ], "learnBlueprintsOnPickup" : [ "ct_yonnur-codex" ], // TODO in 2.4:, "ct_ela_seed" ],
+      "itemTags" : [ "data_source", "ebook", "warped" ], "learnBlueprintsOnPickup" : [ "ct_yonnur-codex", "ct_ela_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

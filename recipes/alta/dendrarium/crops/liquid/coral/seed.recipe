@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "coralcreepseed", "count" : 1 },
+    { "item" : "ct_core_seed", "count" : 1 },
+    { "item" : "moondust", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_coral_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "nature", "crop", "all", "alta_seeds", "seedmaker", "seedsMods", "mod" ]
+}

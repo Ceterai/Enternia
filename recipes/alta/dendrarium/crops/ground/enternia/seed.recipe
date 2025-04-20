@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ionic_seed", "count" : 1 },
+    { "item" : "ct_dream_seed", "count" : 1 },
+    { "item" : "meteoriterock", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_enternia_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "nature", "crop", "all", "alta_seeds", "seedmaker", "seedsMods", "mod" ]
+}

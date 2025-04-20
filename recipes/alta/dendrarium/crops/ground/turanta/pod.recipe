@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_turanta_eco", "count" : 1 },
+    { "item" : "ct_biomix_fertilizer", "count" : 1 },
+    { "item" : "ct_turanta_seed", "count" : 1 },
+    { "item" : "liquidwater", "count" : 2 },
+    { "item" : "ct_alta_eco_pod", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_turanta_eco_pod", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_crops", "nature", "crop", "all", "mod" ]
+}

@@ -1,0 +1,37 @@
+{
+  "name" : "ct_alta_botanist_tenant",
+  "priority" : 12,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 12,
+    "farming" : 8,
+    "garden" : 8,
+    "science" : 8,
+    "commerce" : 8,
+    "storage" : 8,
+    "rare" : 6
+  },
+
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_botanist",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Gyera Botanist",
+    "description" : "This alta researcher is part of Iora Gyera Ordis, researching plants, farming, crystal growing, coral handling and more!.",
+    "category" : "casual", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

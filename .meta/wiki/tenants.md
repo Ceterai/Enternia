@@ -1,4 +1,4 @@
-This mod adds a total of 150 tenants.
+This mod adds a total of 154 tenants.
 
 ## Alta
 
@@ -154,6 +154,18 @@ A cafe worker that can serve non-alcoholic drinks.
 
 </td><td>
 
+Type: **Gyera Botanist** (merchant)
+
+Tags: `alta` (12), `farming` (8), `garden` (8), `science` (8), `commerce` (8), `storage` (8), `rare` (6)
+
+This alta researcher is part of Iora Gyera Ordis, researching plants, farming, crystal growing, coral handling and more!.
+
+</td></tr>
+
+<tr><td valign="middle" align="middle">
+
+</td><td>
+
 Type: **Alta Chef** (merchant)
 
 Tags: `alta` (8), `cooking` (20)
@@ -183,6 +195,42 @@ Type: **Alta Designer** (merchant)
 Tags: `alta` (8), `pretty` (8), `valuable` (16)
 
 An aspiring alta designer with some creative, well, designs right with her.
+
+</td></tr>
+
+<tr><td valign="middle" align="middle">
+
+</td><td>
+
+Type: **Alta Poner** (merchant)
+
+Tags: `alta` (8), `farming` (24), `commerce` (8)
+
+An alta farmer taking care of her greenhouse. She's ready to share her goods with you!
+
+</td></tr>
+
+<tr><td valign="middle" align="middle">
+
+</td><td>
+
+Type: **Alta Gardener** (merchant)
+
+Tags: `alta` (8), `garden` (24), `commerce` (8)
+
+An alta gardener taking care of her garden. She's ready to share her goods with you!
+
+</td></tr>
+
+<tr><td valign="middle" align="middle">
+
+</td><td>
+
+Type: **Gyera Archiver** (merchant)
+
+Tags: `alta` (12), `gyera` (12), `commerce` (18), `storage` (18)
+
+This alta researcher is part of Iora Gyera Ordis, focusing on preserving plant, crystal and coral species.
 
 </td></tr>
 

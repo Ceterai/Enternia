@@ -29,7 +29,7 @@ Last time an enchanted item was found, along with a small-size anomaly, which co
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "datamass", "ion_core" ], "learnBlueprintsOnPickup" : [ "ct_ion_core-codex" ], // TODO in 2.4:, "ct_calocol_af", "ct_ionic_seed" ],
+      "itemTags" : [ "data_source", "datamass", "ion_core" ], "learnBlueprintsOnPickup" : [ "ct_ion_core-codex", "ct_calocol_af", "ct_ionic_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

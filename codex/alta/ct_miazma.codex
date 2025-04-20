@@ -35,7 +35,7 @@ The sample should be held under the High Containment Protocol, according to thei
   ],
     "itemConfig" : {
       "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_miazma-codex" ], // TODO in 2.4:, "ct_viona_tree" ],
+      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_miazma-codex", "ct_viona_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

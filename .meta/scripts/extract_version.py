@@ -19,11 +19,11 @@ MESSAGE = """- GitHub direct download links:
 View the changelog for this version here: [url={repo}/blob/main/.meta/changelog.md#{v}]Update {version} Changelog[/url]
 
 - Starbound Forums changelog message:
-My Enternia {version} Patch
+My Enternia {version_bb}
 View the changelog for this version here: [URL='{repo}/blob/main/.meta/changelog.md#{v}']Update {version} Changelog[/URL]
 
 - Discord release message:
-Released My Enternia **{version}**! {release}"""
+Released My Enternia {version_md}! {release}"""
 
 
 def run():
@@ -37,6 +37,8 @@ def run():
             # Extracting title
             result = re.match(TITLE_REGEX, line)
             if result:
+                if version:
+                    break
                 title = result.group(1)
             # Extracting version
             result = re.match(VERSION_REGEX, line)
@@ -57,6 +59,10 @@ def run():
         print(f'  Found latest title: {title}')
     if version:
         print(f'  Found latest version: {version}')
+        segments = version.split('.')
+        version_txt = (f'{".".join(segments[:2])} - {title}') if len(segments) == 3 and segments[2] == '0' else version
+        version_md = (f'**{".".join(segments[:2])}**: **{title}**') if len(segments) == 3 and segments[2] == '0' else version
+        version_bb = ('.'.join(segments[:2]) + ': ' + title) if len(segments) == 3 and segments[2] == '0' else version + ' Patch'
         with open(RELEASE_LOG, 'w') as f:
             for line in changelog[1:-1]:
                 result = re.match(SUBTITLE_REGEX, str(line))
@@ -65,12 +71,15 @@ def run():
                 f.write(re.sub(r'\!\[ \]\(\/', '![ ](' + base.IMAGE_PATH + '/', line))
         print(f'  Release log saved to: {RELEASE_LOG}')
         with open(COMMIT_LOG, 'w') as f:
-            f.write(f'Update {version}\n\n')
+            f.write(f'Update {version_txt}\n\n')
+            prev_l = ''
             for line in changelog[1:-1]:
                 l = re.sub(r'\!\[ \]\([^\)]+\)', '', line.replace('**', '').replace('   \n', '\n'))
                 l = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', l)
-                if l not in ('       \n', '      \n', '     \n', '     \n', '    \n', '   \n', '  \n', ' \n'):
-                    f.write(l)
+                if not (l == '\n' and prev_l == l):
+                    if l not in ('       \n', '      \n', '     \n', '     \n', '    \n', '   \n', '  \n', ' \n'):
+                        f.write(l)
+                prev_l = l
         print(f'  Commit message saved to: {COMMIT_LOG}')
         with open(MESSAGE_LOG, 'w') as f:
             ARCHIVE = base.os.path.join(base.MODS, f'My Enternia {version}')
@@ -81,6 +90,8 @@ def run():
                 notes=RELEASE_LOG,
                 asset=ARCHIVE,
                 release=''.join(release[1:-1]),
+                version_md=version_md,
+                version_bb=version_bb,
             ))
         print(f'  Release templates saved to: {MESSAGE_LOG}')
         return version, title

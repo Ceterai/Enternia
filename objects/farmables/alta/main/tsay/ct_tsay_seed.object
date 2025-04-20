@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_tsay_seed",
-  "colonyTags" : [ "alterash", "nature", "tsay", "farming" ], // TODO in 2.4: "learnBlueprintsOnPickup" : [ "ct_tsay_sapling" ],
+  "colonyTags" : [ "alterash", "nature", "tsay", "farming" ], "learnBlueprintsOnPickup" : [ "ct_tsay_sapling" ],
   "category" : "seed", "objectType" : "farmable",
   "level" : 1,
 

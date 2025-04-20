@@ -23,7 +23,7 @@ Many scientific groups are also interested in developing means to either resist,
   ],
     "itemConfig" : {
       "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_enchanted-codex" ], // TODO in 2.4:, "ct_viona_tree" ],
+      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_enchanted-codex", "ct_viona_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

@@ -2604,6 +2604,7 @@
           "ct_alta_marine_display",
           "ct_alto_flower_af",
           "ct_basic_fertilizer",
+          "ct_coral_seed",
           "ct_faro_flower_af",
           "ct_gyera_fertilizer",
           "ct_koywa_af",
@@ -2809,10 +2810,13 @@
           "ct_basic_fertilizer",
           "ct_blue_flower_af",
           "ct_boost_fertilizer",
+          "ct_haven_seed",
           "ct_hive_tree",
           "ct_hunter_flower_af",
           "ct_pink_flower_af",
           "ct_red_flower_af",
+          "ct_ruka_seed",
+          "ct_sona_seed",
           "ct_starfire",
           "ct_starmatter",
           "ct_starsteel",
@@ -2890,6 +2894,7 @@
           "ct_valley_poptop_egg",
           "ct_warped_anglure_egg",
           "ct_warped_bush_af",
+          "ct_warped_hive_seed",
           "ct_warped_smoker",
           "ct_warped_sporgus_egg",
           "ct_warped_tree",
@@ -3093,6 +3098,7 @@
           "ct_calin_clubdecks",
           "ct_calin_lamp",
           "ct_calin_sample",
+          "ct_calin_seed",
           "ct_calin_shelf",
           "ct_calin_table",
           "ct_cetereye",
@@ -3121,6 +3127,7 @@
         ],
         "crystalblock": [
           "ct_alta_crafting_station9",
+          "ct_calin_seed",
           "ct_glowstick_crystal"
         ],
         "ct_alta_crafting_station8": [
@@ -3751,16 +3758,39 @@
           "ct_aya_sort"
         ],
         "ct_boost_fertilizer": [
+          "ct_alternia_eco_pod",
           "ct_aya_boosted",
+          "ct_azura_boosted",
+          "ct_blossom_boosted",
+          "ct_calin_boosted",
+          "ct_ceternia_eco_pod",
+          "ct_cocola_boosted",
+          "ct_coral_boosted",
+          "ct_core_boosted",
+          "ct_cotton_boosted",
+          "ct_diamond_boosted",
+          "ct_dream_boosted",
+          "ct_ela_boosted",
+          "ct_enternia_eco_pod",
+          "ct_eva_boosted",
           "ct_gheatsyn_boosted",
           "ct_gil_boosted",
+          "ct_haven_boosted",
           "ct_hive_boosted",
+          "ct_in_jelly_boosted",
           "ct_ionic_boosted",
+          "ct_isoslime_boosted",
           "ct_koywa_boosted",
+          "ct_ruka_boosted",
+          "ct_sona_boosted",
+          "ct_stardust_sapling",
+          "ct_starflower_eco_pod",
           "ct_tonna_boosted",
           "ct_tsay_boosted",
+          "ct_turanta_boosted",
           "ct_viona_boosted",
           "ct_voda_boosted",
+          "ct_warped_hive_boosted",
           "ct_yaara_boosted",
           "ct_yaavi_boosted"
         ],
@@ -3771,22 +3801,49 @@
           "ct_aya_eco_pod",
           "ct_aya_fertile",
           "ct_aya_sapling",
-          "ct_benema_fertilizer"
+          "ct_benema_fertilizer",
+          "ct_blossom_seed"
         ],
         "liquidhealing": [
           "ct_alta_super_sprinkler",
+          "ct_alternia_eco_pod",
           "ct_aya_boosted",
+          "ct_azura_boosted",
+          "ct_blossom_boosted",
+          "ct_blossom_eco_pod",
+          "ct_calin_boosted",
           "ct_calocol_tulip_af",
+          "ct_ceternia_eco_pod",
+          "ct_cocola_boosted",
+          "ct_cocola_eco_pod",
+          "ct_coral_boosted",
+          "ct_core_boosted",
+          "ct_core_eco_pod",
+          "ct_cotton_boosted",
+          "ct_diamond_boosted",
+          "ct_dream_boosted",
+          "ct_dream_eco_pod",
+          "ct_ela_boosted",
+          "ct_enternia_eco_pod",
+          "ct_eva_boosted",
           "ct_gheatsyn_boosted",
           "ct_gil_boosted",
           "ct_gyera_fertilizer",
+          "ct_haven_boosted",
           "ct_hive_boosted",
+          "ct_in_jelly_boosted",
           "ct_ionic_boosted",
+          "ct_isoslime_boosted",
           "ct_koywa_boosted",
+          "ct_ruka_boosted",
+          "ct_sona_boosted",
+          "ct_starflower_eco_pod",
           "ct_tonna_boosted",
           "ct_tsay_boosted",
+          "ct_turanta_boosted",
           "ct_viona_boosted",
           "ct_voda_boosted",
+          "ct_warped_hive_boosted",
           "ct_yaara_boosted",
           "ct_yaavi_boosted"
         ],
@@ -3796,19 +3853,44 @@
         "ct_ionic_fertilizer": [
           "ct_alta_farming_set_2",
           "ct_aya_cultivated",
+          "ct_azura_sapling",
+          "ct_blossom_sapling",
+          "ct_calin_eco",
+          "ct_coral_sapling",
+          "ct_cotton_eco",
+          "ct_dream_sapling",
+          "ct_ela_sapling",
+          "ct_eva_sapling",
           "ct_gheatsyn_sapling",
           "ct_gil_cultivated",
+          "ct_haven_sapling",
           "ct_hive_sapling",
+          "ct_in_jelly_eco",
           "ct_ionic_sapling",
+          "ct_isoslime_eco",
+          "ct_ruka_eco",
+          "ct_sona_eco",
           "ct_tonna_sapling",
           "ct_tsay_cultivated",
+          "ct_turanta_eco",
+          "ct_warped_hive_eco",
           "ct_yaavi_cultivated"
         ],
         "ct_alta_fertilizer": [
           "ct_alta_farming_set_3",
           "ct_aya_eco",
+          "ct_azura_eco",
+          "ct_blossom_eco",
+          "ct_cocola_sapling",
+          "ct_coral_eco",
+          "ct_core_sapling",
+          "ct_diamond_sapling",
+          "ct_dream_eco",
+          "ct_ela_eco",
+          "ct_eva_eco",
           "ct_gheatsyn_eco",
           "ct_gil_eco",
+          "ct_haven_eco",
           "ct_hive_eco",
           "ct_ionic_eco",
           "ct_koywa_eco",
@@ -3831,6 +3913,7 @@
           "ct_aya_eco_pod",
           "ct_aya_fertile",
           "ct_aya_sort",
+          "ct_blossom_eco_pod",
           "ct_giant_berry_af",
           "ct_gil_af",
           "ct_gil_eco_pod",
@@ -3838,6 +3921,7 @@
           "ct_gil_mixed",
           "ct_gyera_set",
           "ct_gyera_token",
+          "ct_haven_eco_pod",
           "ct_tsay_af",
           "ct_tsay_eco_pod",
           "ct_tsay_fertile",
@@ -3846,18 +3930,25 @@
         ],
         "liquidwater": [
           "ct_alta_compact_sprinkler",
+          "ct_alta_jelly_eco_pod",
           "ct_alta_lab_sprinkler",
           "ct_alta_marine_display",
           "ct_alta_rincer",
           "ct_alta_sprinkler",
           "ct_alternia_shard",
           "ct_aya_eco_pod",
+          "ct_coral_eco_pod",
+          "ct_cotton_eco_pod",
           "ct_gil_eco_pod",
           "ct_gyera_sprinkler",
+          "ct_in_jelly_eco_pod",
           "ct_ionic_fertilizer",
           "ct_ionice_cube",
           "ct_koywa_eco_pod",
+          "ct_ruka_eco_pod",
+          "ct_sona_eco_pod",
           "ct_tsay_eco_pod",
+          "ct_turanta_eco_pod",
           "ct_viona_eco_pod",
           "ct_voda_eco_pod",
           "ct_waterblaster",
@@ -3867,11 +3958,19 @@
         "ct_alta_eco_pod": [
           "ct_alta_sapling",
           "ct_aya_eco_pod",
+          "ct_calin_eco_pod",
+          "ct_cotton_eco_pod",
           "ct_gil_eco_pod",
+          "ct_haven_eco_pod",
+          "ct_in_jelly_eco_pod",
           "ct_koywa_eco_pod",
+          "ct_ruka_eco_pod",
+          "ct_sona_eco_pod",
           "ct_tsay_eco_pod",
+          "ct_turanta_eco_pod",
           "ct_viona_eco_pod",
           "ct_voda_eco_pod",
+          "ct_warped_hive_eco_pod",
           "ct_yaara_eco_pod",
           "ct_yaavi_eco_pod"
         ],
@@ -3880,16 +3979,24 @@
           "ct_alto_flower_af",
           "ct_aya_sapling",
           "ct_blue_flower_af",
+          "ct_calin_sapling",
+          "ct_cotton_sapling",
           "ct_faro_flower_af",
           "ct_gil_sapling",
+          "ct_in_jelly_sapling",
+          "ct_isoslime_sapling",
           "ct_koywa_af",
           "ct_koywa_bush_af",
           "ct_koywa_sapling",
           "ct_miko_flower_af",
           "ct_red_flower_af",
+          "ct_ruka_sapling",
+          "ct_sona_sapling",
           "ct_tsay_sapling",
+          "ct_turanta_sapling",
           "ct_viona_sapling",
           "ct_voda_sapling",
+          "ct_warped_hive_sapling",
           "ct_yaara_sapling",
           "ct_yaavi_sapling",
           "ct_yellow_flower_af"
@@ -3918,29 +4025,51 @@
           "ct_alta_timer",
           "ct_alta_watcher_drone",
           "ct_alta_xor",
+          "ct_alternia_sapling",
           "ct_aya_sapling",
+          "ct_azura_sapling",
           "ct_back_mimic",
           "ct_barracuda_fin",
+          "ct_blossom_sapling",
+          "ct_calin_sapling",
+          "ct_ceternia_sapling",
+          "ct_cocola_sapling",
           "ct_composite_cutter",
+          "ct_coral_sapling",
+          "ct_core_sapling",
+          "ct_cotton_sapling",
+          "ct_diamond_sapling",
+          "ct_dream_sapling",
           "ct_eds_armor",
+          "ct_ela_sapling",
           "ct_enchanted_twins",
           "ct_energy_shielder",
+          "ct_enternia_sapling",
+          "ct_eva_sapling",
           "ct_gheatsyn_sapling",
           "ct_gil_sapling",
           "ct_gyera_sprinkler",
+          "ct_haven_sapling",
           "ct_hive_sapling",
+          "ct_in_jelly_sapling",
           "ct_ionic_drone",
           "ct_ionic_sapling",
+          "ct_isoslime_sapling",
           "ct_koywa_sapling",
           "ct_neoblaster",
           "ct_phospholion_loot",
           "ct_protospear",
+          "ct_ruka_sapling",
+          "ct_sona_sapling",
           "ct_spacedrifter_shield",
+          "ct_stardust_sapling",
           "ct_tonna_sapling",
           "ct_tool_mimic",
           "ct_tsay_sapling",
+          "ct_turanta_sapling",
           "ct_viona_sapling",
           "ct_voda_sapling",
+          "ct_warped_hive_sapling",
           "ct_yaara_sapling",
           "ct_yaavi_sapling"
         ],
@@ -3955,20 +4084,42 @@
           "ct_wild_aya_seed"
         ],
         "syringe": [
+          "cottonseed",
+          "ct_alternia_seed",
+          "ct_azura_seed",
+          "ct_blossom_seed",
+          "ct_calin_seed",
           "ct_catalyst",
+          "ct_ceternia_seed",
+          "ct_cocola_seed",
+          "ct_coral_seed",
+          "ct_core_seed",
+          "ct_diamond_seed",
+          "ct_dream_seed",
+          "ct_ela_seed",
           "ct_electric_stim",
+          "ct_enternia_seed",
+          "ct_eva_seed",
           "ct_gheatsyn_seed",
+          "ct_haven_seed",
           "ct_hevikai_antidote",
           "ct_hevikai_stim",
           "ct_hive_seed",
           "ct_impulse_stim",
+          "ct_in_jelly_seed",
           "ct_ionic_seed",
           "ct_ionic_stim",
+          "ct_isoslime_seed",
           "ct_koywa_seed",
           "ct_plasma_stim",
+          "ct_ruka_seed",
+          "ct_sona_seed",
+          "ct_stardust_seed",
           "ct_tonna_seed",
+          "ct_turanta_seed",
           "ct_viona_seed",
           "ct_voda_seed",
+          "ct_warped_hive_seed",
           "ct_wild_aya_seed",
           "ct_wild_yaavi_seed",
           "ct_yaara_seed"
@@ -4064,64 +4215,559 @@
           "ct_gil_mixed",
           "ct_tsay_mixed"
         ],
-        "ct_gheatsyn_sapling": [
-          "ct_gheatsyn_boosted",
-          "ct_gheatsyn_eco"
+        "ct_alternia_sapling": [
+          "ct_alternia_eco_pod"
+        ],
+        "ct_alternia_seed": [
+          "ct_alternia_eco_pod",
+          "ct_alternia_sapling",
+          "ct_diamond_seed",
+          "ct_stardust_seed"
+        ],
+        "ct_stardust_eco_pod": [
+          "ct_alternia_eco_pod",
+          "ct_ceternia_eco_pod",
+          "ct_diamond_eco_pod",
+          "ct_enternia_eco_pod"
+        ],
+        "ct_calin_fertilizer": [
+          "ct_alternia_sapling",
+          "ct_calin_eco_pod",
+          "ct_core_eco",
+          "ct_core_eco_pod",
+          "ct_diamond_eco",
+          "ct_diamond_eco_pod",
+          "ct_ezmeralda_af",
+          "ct_gheatsyn_eco_pod",
+          "ct_mical_tree"
+        ],
+        "ct_calin_seed": [
+          "ct_alternia_seed",
+          "ct_calin_boosted",
+          "ct_calin_eco",
+          "ct_calin_eco_pod",
+          "ct_calin_sapling"
         ],
         "ct_gheatsyn_seed": [
+          "ct_alternia_seed",
+          "ct_core_seed",
           "ct_gheatsyn_boosted",
           "ct_gheatsyn_eco",
           "ct_gheatsyn_eco_pod",
           "ct_gheatsyn_sapling"
         ],
-        "ct_gheatsyn_eco": [
-          "ct_gheatsyn_eco_pod"
-        ],
-        "ct_calin_fertilizer": [
+        "obsidian": [
+          "ct_alternia_seed",
+          "ct_dream_seed",
           "ct_ezmeralda_af",
-          "ct_gheatsyn_eco_pod",
+          "ct_ion_core_augment",
+          "ct_ion_core_loot",
+          "ct_ioncore_shield",
           "ct_mical_tree"
+        ],
+        "ct_azura_sapling": [
+          "ct_azura_boosted",
+          "ct_azura_eco"
+        ],
+        "ct_azura_seed": [
+          "ct_azura_boosted",
+          "ct_azura_eco",
+          "ct_azura_eco_pod",
+          "ct_azura_sapling",
+          "ct_ela_seed"
+        ],
+        "ct_azura_eco": [
+          "ct_azura_eco_pod"
+        ],
+        "ct_benema_fertilizer": [
+          "ct_azura_eco_pod",
+          "ct_azura_tree",
+          "ct_calocol_tulip_af",
+          "ct_coral_eco_pod",
+          "ct_enternia_sapling",
+          "ct_hive_tree",
+          "ct_sona_eco_pod"
+        ],
+        "liquidfuel": [
+          "ct_azura_eco_pod",
+          "ct_azura_tree",
+          "ct_dream_seed",
+          "ct_dreamer_set",
+          "ct_ela_eco_pod",
+          "ct_enterite",
+          "ct_ionic_eco_pod",
+          "ct_viona_tree",
+          "ct_warped_tree"
+        ],
+        "ct_alta_ship_eco_pod": [
+          "ct_alta_ship_sapling",
+          "ct_azura_eco_pod",
+          "ct_cocola_eco_pod",
+          "ct_coral_eco_pod",
+          "ct_core_eco_pod",
+          "ct_dream_eco_pod",
+          "ct_ela_eco_pod",
+          "ct_ionic_eco_pod"
+        ],
+        "ct_ela_seed": [
+          "ct_azura_seed",
+          "ct_dream_seed",
+          "ct_ela_boosted",
+          "ct_ela_eco",
+          "ct_ela_eco_pod",
+          "ct_ela_sapling",
+          "ct_in_jelly_seed"
+        ],
+        "ct_yaara_seed": [
+          "ct_azura_seed",
+          "ct_ceternia_seed",
+          "ct_haven_seed",
+          "ct_turanta_seed",
+          "ct_yaara_boosted",
+          "ct_yaara_eco",
+          "ct_yaara_eco_pod",
+          "ct_yaara_sapling"
+        ],
+        "alienrock": [
+          "ct_azura_seed"
+        ],
+        "ct_blossom_sapling": [
+          "ct_blossom_boosted",
+          "ct_blossom_eco"
+        ],
+        "ct_blossom_seed": [
+          "ct_blossom_boosted",
+          "ct_blossom_eco",
+          "ct_blossom_eco_pod",
+          "ct_blossom_sapling"
+        ],
+        "ct_blossom_eco": [
+          "ct_blossom_eco_pod"
+        ],
+        "ct_alta_lab_eco_pod": [
+          "ct_alta_jelly_eco_pod",
+          "ct_alta_lab_sapling",
+          "ct_blossom_eco_pod",
+          "ct_eva_eco_pod",
+          "ct_gheatsyn_eco_pod",
+          "ct_hive_eco_pod",
+          "ct_isoslime_eco_pod",
+          "ct_poi_eco_pod",
+          "ct_tonna_eco_pod"
+        ],
+        "ct_eva_seed": [
+          "cottonseed",
+          "ct_blossom_seed",
+          "ct_eva_boosted",
+          "ct_eva_eco",
+          "ct_eva_eco_pod",
+          "ct_eva_sapling",
+          "ct_ionic_seed",
+          "ct_sona_seed",
+          "ct_warped_hive_seed"
+        ],
+        "cottonseed": [
+          "ct_blossom_seed",
+          "ct_cotton_boosted",
+          "ct_cotton_eco",
+          "ct_cotton_eco_pod",
+          "ct_cotton_sapling",
+          "ct_eva_seed"
+        ],
+        "slush": [
+          "ct_blossom_seed"
+        ],
+        "ct_ceternia_sapling": [
+          "ct_ceternia_eco_pod"
+        ],
+        "ct_ceternia_seed": [
+          "ct_ceternia_eco_pod",
+          "ct_ceternia_sapling",
+          "ct_stardust_seed"
+        ],
+        "ct_biomix_fertilizer": [
+          "ct_ceternia_sapling",
+          "ct_cocola_eco",
+          "ct_cocola_eco_pod",
+          "ct_koywa_eco_pod",
+          "ct_nivera_tree",
+          "ct_ruka_eco_pod",
+          "ct_toxic_flower_af",
+          "ct_turanta_eco_pod",
+          "ct_viona_eco_pod",
+          "ct_voda_eco_pod",
+          "ct_warped_bush_af",
+          "ct_warped_hive_eco_pod",
+          "ct_warped_tree",
+          "ct_yaara_eco_pod",
+          "ct_yaara_flower_af",
+          "ct_yaavi_eco_pod",
+          "ct_yaavi_sort"
+        ],
+        "ct_haven_seed": [
+          "ct_ceternia_seed",
+          "ct_haven_boosted",
+          "ct_haven_eco",
+          "ct_haven_eco_pod",
+          "ct_haven_sapling",
+          "ct_turanta_seed"
+        ],
+        "rock14": [
+          "ct_azura_tree",
+          "ct_ceternia_seed",
+          "ct_livira_tree",
+          "ct_sofara_tree"
+        ],
+        "ct_core_sapling": [
+          "ct_core_boosted",
+          "ct_core_eco"
+        ],
+        "ct_core_seed": [
+          "ct_coral_seed",
+          "ct_core_boosted",
+          "ct_core_eco",
+          "ct_core_eco_pod",
+          "ct_core_sapling",
+          "ct_diamond_seed"
+        ],
+        "ct_core_eco": [
+          "ct_core_eco_pod"
+        ],
+        "ct_coral_seed": [
+          "ct_coral_boosted",
+          "ct_coral_eco",
+          "ct_coral_eco_pod",
+          "ct_coral_sapling",
+          "ct_core_seed"
+        ],
+        "magmarock": [
+          "ct_core_seed",
+          "ct_diamond_seed"
+        ],
+        "ct_cotton_sapling": [
+          "ct_cotton_boosted",
+          "ct_cotton_eco"
+        ],
+        "ct_cotton_eco": [
+          "ct_cotton_eco_pod"
+        ],
+        "ct_bubble_fertilizer": [
+          "ct_alta_jelly_eco",
+          "ct_alta_jelly_eco_pod",
+          "ct_cotton_eco_pod",
+          "ct_dream_eco_pod",
+          "ct_ela_eco_pod",
+          "ct_eva_eco_pod",
+          "ct_hive_eco_pod",
+          "ct_in_jelly_eco_pod",
+          "ct_isoslime_eco_pod",
+          "ct_livira_tree",
+          "ct_poi_eco",
+          "ct_poi_eco_pod",
+          "ct_poppy_prime_af"
+        ],
+        "ct_voda_seed": [
+          "cottonseed",
+          "ct_voda_boosted",
+          "ct_voda_eco",
+          "ct_voda_eco_pod",
+          "ct_voda_sapling"
+        ],
+        "clay": [
+          "cottonseed",
+          "ct_giant_berry_af"
+        ],
+        "ct_enternia_sapling": [
+          "ct_enternia_eco_pod"
+        ],
+        "ct_enternia_seed": [
+          "ct_enternia_eco_pod",
+          "ct_enternia_sapling",
+          "ct_stardust_seed"
+        ],
+        "ct_ionic_seed": [
+          "ct_enternia_seed",
+          "ct_ionic_boosted",
+          "ct_ionic_eco",
+          "ct_ionic_eco_pod",
+          "ct_ionic_sapling"
+        ],
+        "ct_dream_seed": [
+          "ct_dream_boosted",
+          "ct_dream_eco",
+          "ct_dream_eco_pod",
+          "ct_dream_sapling",
+          "ct_enternia_seed"
+        ],
+        "meteoriterock": [
+          "ct_enternia_seed"
+        ],
+        "ct_eva_sapling": [
+          "ct_eva_boosted",
+          "ct_eva_eco"
+        ],
+        "ct_eva_eco": [
+          "ct_eva_eco_pod"
+        ],
+        "liquidmilk": [
+          "ct_eva_eco_pod",
+          "ct_hive_eco_pod",
+          "ct_hive_tree",
+          "ct_tonna_eco_pod"
+        ],
+        "ct_sona_seed": [
+          "ct_cocola_seed",
+          "ct_eva_seed",
+          "ct_isoslime_seed",
+          "ct_sona_boosted",
+          "ct_sona_eco",
+          "ct_sona_eco_pod",
+          "ct_sona_sapling"
+        ],
+        "snow": [
+          "ct_eva_seed",
+          "ct_tonnova_af"
+        ],
+        "ct_haven_sapling": [
+          "ct_haven_boosted",
+          "ct_haven_eco"
+        ],
+        "ct_haven_eco": [
+          "ct_haven_eco_pod"
         ],
         "liquidpoison": [
           "ct_bishyn_augment",
           "ct_bishyn_nade",
+          "ct_calin_eco_pod",
           "ct_ceternia_core",
           "ct_gheatsyn_eco_pod",
+          "ct_haven_eco_pod",
           "ct_nivera_tree",
           "ct_niverisk",
           "ct_warped_hive",
+          "ct_warped_hive_eco_pod",
           "ct_warped_smoker",
           "ct_warped_table",
           "venomsample"
         ],
-        "ct_alta_lab_eco_pod": [
-          "ct_alta_lab_sapling",
-          "ct_gheatsyn_eco_pod",
-          "ct_hive_eco_pod",
-          "ct_tonna_eco_pod"
+        "ct_turanta_seed": [
+          "ct_haven_seed",
+          "ct_ruka_seed",
+          "ct_turanta_boosted",
+          "ct_turanta_eco",
+          "ct_turanta_eco_pod",
+          "ct_turanta_sapling"
         ],
-        "ct_hive_sapling": [
-          "ct_hive_boosted",
-          "ct_hive_eco"
+        "ct_isoslime_sapling": [
+          "ct_isoslime_boosted",
+          "ct_isoslime_eco"
+        ],
+        "ct_isoslime_seed": [
+          "ct_in_jelly_seed",
+          "ct_isoslime_boosted",
+          "ct_isoslime_eco",
+          "ct_isoslime_eco_pod",
+          "ct_isoslime_sapling",
+          "ct_poi_eco",
+          "ct_poi_eco_pod"
+        ],
+        "ct_isoslime_eco": [
+          "ct_isoslime_eco_pod",
+          "ct_poi_eco"
+        ],
+        "liquidslime": [
+          "ct_isoslime_eco_pod",
+          "ct_livira_tree",
+          "ct_poi_eco_pod"
+        ],
+        "ct_poi_eco": [
+          "ct_poi_eco_pod"
+        ],
+        "ct_in_jelly_seed": [
+          "ct_alta_jelly_eco",
+          "ct_alta_jelly_eco_pod",
+          "ct_in_jelly_boosted",
+          "ct_in_jelly_eco",
+          "ct_in_jelly_eco_pod",
+          "ct_in_jelly_sapling",
+          "ct_isoslime_seed"
+        ],
+        "slime": [
+          "ct_in_jelly_seed",
+          "ct_iso_jam",
+          "ct_isoslime_seed"
+        ],
+        "ct_ruka_sapling": [
+          "ct_ruka_boosted",
+          "ct_ruka_eco"
+        ],
+        "ct_ruka_seed": [
+          "ct_ruka_boosted",
+          "ct_ruka_eco",
+          "ct_ruka_eco_pod",
+          "ct_ruka_sapling"
+        ],
+        "ct_ruka_eco": [
+          "ct_ruka_eco_pod"
+        ],
+        "ct_koywa_seed": [
+          "ct_koywa_boosted",
+          "ct_koywa_eco",
+          "ct_koywa_eco_pod",
+          "ct_koywa_sapling",
+          "ct_ruka_seed",
+          "ct_voda_seed"
+        ],
+        "ct_sona_sapling": [
+          "ct_sona_boosted",
+          "ct_sona_eco"
+        ],
+        "ct_sona_eco": [
+          "ct_sona_eco_pod"
+        ],
+        "ct_cocola_seed": [
+          "ct_cocola_boosted",
+          "ct_cocola_eco",
+          "ct_cocola_eco_pod",
+          "ct_cocola_sapling",
+          "ct_sona_seed"
+        ],
+        "ct_stardust_sapling": [
+          "ct_starflower_eco_pod"
+        ],
+        "ct_stardust_seed": [
+          "ct_stardust_sapling",
+          "ct_starflower_eco_pod"
+        ],
+        "ct_omni_eco_pod": [
+          "ct_starflower_eco_pod"
+        ],
+        "geodestone": [
+          "ct_stardust_seed"
+        ],
+        "ct_turanta_sapling": [
+          "ct_turanta_boosted",
+          "ct_turanta_eco"
+        ],
+        "ct_turanta_eco": [
+          "ct_turanta_eco_pod"
+        ],
+        "cloudblock": [
+          "ct_benema_fertilizer",
+          "ct_cocola_seed",
+          "ct_eva_collar",
+          "ct_eva_loot",
+          "ct_poppy_prime_af",
+          "ct_turanta_seed"
+        ],
+        "ct_warped_hive_sapling": [
+          "ct_warped_hive_boosted",
+          "ct_warped_hive_eco"
+        ],
+        "ct_warped_hive_seed": [
+          "ct_ela_seed",
+          "ct_warped_hive_boosted",
+          "ct_warped_hive_eco",
+          "ct_warped_hive_eco_pod",
+          "ct_warped_hive_sapling"
+        ],
+        "ct_warped_hive_eco": [
+          "ct_warped_hive_eco_pod"
         ],
         "ct_hive_seed": [
           "ct_hive_boosted",
           "ct_hive_eco",
           "ct_hive_eco_pod",
-          "ct_hive_sapling"
+          "ct_hive_sapling",
+          "ct_warped_hive_seed"
+        ],
+        "ct_calin_sapling": [
+          "ct_calin_boosted",
+          "ct_calin_eco"
+        ],
+        "ct_calin_eco": [
+          "ct_calin_eco_pod"
+        ],
+        "crystalplantseed": [
+          "ct_alta_seed_set",
+          "ct_calin_seed",
+          "ct_calocol_tulip_af",
+          "ct_ezmeralda_af",
+          "ct_plasma_fertilizer"
+        ],
+        "ct_cocola_sapling": [
+          "ct_cocola_boosted",
+          "ct_cocola_eco"
+        ],
+        "ct_cocola_eco": [
+          "ct_cocola_eco_pod"
+        ],
+        "ct_tonna_seed": [
+          "ct_cocola_seed",
+          "ct_tonna_boosted",
+          "ct_tonna_eco",
+          "ct_tonna_eco_pod",
+          "ct_tonna_sapling"
+        ],
+        "ct_coral_sapling": [
+          "ct_coral_boosted",
+          "ct_coral_eco"
+        ],
+        "ct_coral_eco": [
+          "ct_coral_eco_pod"
+        ],
+        "coralcreepseed": [
+          "ct_coral_seed"
+        ],
+        "ct_diamond_sapling": [
+          "ct_diamond_boosted",
+          "ct_diamond_eco"
+        ],
+        "ct_diamond_seed": [
+          "ct_diamond_boosted",
+          "ct_diamond_eco",
+          "ct_diamond_eco_pod",
+          "ct_diamond_sapling"
+        ],
+        "ct_diamond_eco": [
+          "ct_diamond_eco_pod"
+        ],
+        "liquidlava": [
+          "ct_diamond_eco_pod",
+          "ct_mical_tree",
+          "ct_sofara_tree",
+          "ct_warped_smoker"
+        ],
+        "ct_dream_sapling": [
+          "ct_dream_boosted",
+          "ct_dream_eco"
+        ],
+        "ct_dream_eco": [
+          "ct_dream_eco_pod"
+        ],
+        "ct_ela_sapling": [
+          "ct_ela_boosted",
+          "ct_ela_eco"
+        ],
+        "ct_ela_eco": [
+          "ct_ela_eco_pod"
+        ],
+        "tar": [
+          "ct_ela_seed"
+        ],
+        "ct_gheatsyn_sapling": [
+          "ct_gheatsyn_boosted",
+          "ct_gheatsyn_eco"
+        ],
+        "ct_gheatsyn_eco": [
+          "ct_gheatsyn_eco_pod"
+        ],
+        "ct_hive_sapling": [
+          "ct_hive_boosted",
+          "ct_hive_eco"
         ],
         "ct_hive_eco": [
           "ct_hive_eco_pod"
-        ],
-        "ct_bubble_fertilizer": [
-          "ct_hive_eco_pod",
-          "ct_livira_tree",
-          "ct_poppy_prime_af"
-        ],
-        "liquidmilk": [
-          "ct_hive_eco_pod",
-          "ct_hive_tree",
-          "ct_tonna_eco_pod"
         ],
         "ct_hive_tree": [
           "ct_hive_seed"
@@ -4129,12 +4775,6 @@
         "ct_ionic_sapling": [
           "ct_ionic_boosted",
           "ct_ionic_eco"
-        ],
-        "ct_ionic_seed": [
-          "ct_ionic_boosted",
-          "ct_ionic_eco",
-          "ct_ionic_eco_pod",
-          "ct_ionic_sapling"
         ],
         "ct_ionic_eco": [
           "ct_ionic_eco_pod"
@@ -4145,50 +4785,26 @@
           "ct_tonna_eco_pod",
           "ct_tonnova_af"
         ],
-        "liquidfuel": [
-          "ct_azura_tree",
-          "ct_dreamer_set",
-          "ct_enterite",
-          "ct_ionic_eco_pod",
-          "ct_viona_tree",
-          "ct_warped_tree"
-        ],
-        "ct_alta_ship_eco_pod": [
-          "ct_alta_ship_sapling",
-          "ct_ionic_eco_pod"
-        ],
-        "ct_eva_seed": [
-          "ct_ionic_seed"
-        ],
         "ct_ayaka_tree": [
           "ct_ionic_seed"
+        ],
+        "ct_in_jelly_sapling": [
+          "ct_in_jelly_boosted",
+          "ct_in_jelly_eco"
+        ],
+        "ct_in_jelly_eco": [
+          "ct_alta_jelly_eco",
+          "ct_in_jelly_eco_pod"
+        ],
+        "ct_alta_jelly_eco": [
+          "ct_alta_jelly_eco_pod"
         ],
         "ct_koywa_sapling": [
           "ct_koywa_boosted",
           "ct_koywa_eco"
         ],
-        "ct_koywa_seed": [
-          "ct_koywa_boosted",
-          "ct_koywa_eco",
-          "ct_koywa_eco_pod",
-          "ct_koywa_sapling",
-          "ct_voda_seed"
-        ],
         "ct_koywa_eco": [
           "ct_koywa_eco_pod"
-        ],
-        "ct_biomix_fertilizer": [
-          "ct_koywa_eco_pod",
-          "ct_nivera_tree",
-          "ct_toxic_flower_af",
-          "ct_viona_eco_pod",
-          "ct_voda_eco_pod",
-          "ct_warped_bush_af",
-          "ct_warped_tree",
-          "ct_yaara_eco_pod",
-          "ct_yaara_flower_af",
-          "ct_yaavi_eco_pod",
-          "ct_yaavi_sort"
         ],
         "ct_verriskoywa_grass4": [
           "ct_alta_fertilizer",
@@ -4206,12 +4822,6 @@
         "ct_tonna_sapling": [
           "ct_tonna_boosted",
           "ct_tonna_eco"
-        ],
-        "ct_tonna_seed": [
-          "ct_tonna_boosted",
-          "ct_tonna_eco",
-          "ct_tonna_eco_pod",
-          "ct_tonna_sapling"
         ],
         "ct_tonna_eco": [
           "ct_tonna_eco_pod"
@@ -4239,24 +4849,12 @@
           "ct_voda_boosted",
           "ct_voda_eco"
         ],
-        "ct_voda_seed": [
-          "ct_voda_boosted",
-          "ct_voda_eco",
-          "ct_voda_eco_pod",
-          "ct_voda_sapling"
-        ],
         "ct_voda_eco": [
           "ct_voda_eco_pod"
         ],
         "ct_yaara_sapling": [
           "ct_yaara_boosted",
           "ct_yaara_eco"
-        ],
-        "ct_yaara_seed": [
-          "ct_yaara_boosted",
-          "ct_yaara_eco",
-          "ct_yaara_eco_pod",
-          "ct_yaara_sapling"
         ],
         "ct_yaara_eco": [
           "ct_yaara_eco_pod"
@@ -4347,12 +4945,6 @@
           "ct_tonna_meringue",
           "ct_vermont_tea",
           "reddye"
-        ],
-        "cloudblock": [
-          "ct_benema_fertilizer",
-          "ct_eva_collar",
-          "ct_eva_loot",
-          "ct_poppy_prime_af"
         ],
         "larva": [
           "ct_bio_fresh",
@@ -4484,12 +5076,6 @@
           "ct_ion_risotto",
           "ct_ionic_fertilizer",
           "ct_yuri_cocktail"
-        ],
-        "crystalplantseed": [
-          "ct_alta_seed_set",
-          "ct_calocol_tulip_af",
-          "ct_ezmeralda_af",
-          "ct_plasma_fertilizer"
         ],
         "plantfibre": [
           "ct_blue_flower_af",
@@ -4798,9 +5384,6 @@
         "berryhead": [
           "ct_giant_berry_af"
         ],
-        "clay": [
-          "ct_giant_berry_af"
-        ],
         "ct_alta_plant_pod": [
           "ct_alta_plant",
           "ct_alta_plant_alien",
@@ -4862,9 +5445,6 @@
           "ct_tonnova_tree",
           "ct_tonnova_wide_tree"
         ],
-        "snow": [
-          "ct_tonnova_af"
-        ],
         "ct_warped_lamp": [
           "ct_warped_bush_af"
         ],
@@ -4894,18 +5474,6 @@
           "ct_verriskoywa_alto_twin",
           "ct_yaara_tea",
           "ct_yaarizza"
-        ],
-        "ct_benema_fertilizer": [
-          "ct_azura_tree",
-          "ct_calocol_tulip_af",
-          "ct_hive_tree"
-        ],
-        "obsidian": [
-          "ct_ezmeralda_af",
-          "ct_ion_core_augment",
-          "ct_ion_core_loot",
-          "ct_ioncore_shield",
-          "ct_mical_tree"
         ],
         "ct_verriskoywa_faro": [
           "browndye",
@@ -5021,11 +5589,6 @@
           "ct_livira_tree",
           "ct_sofara_tree"
         ],
-        "rock14": [
-          "ct_azura_tree",
-          "ct_livira_tree",
-          "ct_sofara_tree"
-        ],
         "ct_alta_lab_sapling": [
           "ct_akollic_bulb",
           "ct_akollic_bulb_spots",
@@ -5044,18 +5607,10 @@
           "ct_vyralic_twisted",
           "ct_vyralic_twisted_undone"
         ],
-        "liquidslime": [
-          "ct_livira_tree"
-        ],
         "geode": [
           "ct_crystalline_prime_loot",
           "ct_mical_tree",
           "ct_obj_mimic"
-        ],
-        "liquidlava": [
-          "ct_mical_tree",
-          "ct_sofara_tree",
-          "ct_warped_smoker"
         ],
         "rainbowwood": [
           "ct_viona_tree"
@@ -5145,9 +5700,6 @@
           "ct_minto_soup",
           "ct_minto_spice",
           "nanowrap"
-        ],
-        "slime": [
-          "ct_iso_jam"
         ],
         "ct_verriskoywa_alto_twin": [
           "ct_verriskoywa_alto"
@@ -6916,6 +7468,7 @@
         "coconuticecream",
         "coffeecake",
         "cornpeckers",
+        "cottonseed",
         "crystal",
         "crystalbed",
         "crystalchair",
@@ -7074,6 +7627,8 @@
         "ct_alta_industrial_helmet",
         "ct_alta_ionic_rifle",
         "ct_alta_jam_fo",
+        "ct_alta_jelly_eco",
+        "ct_alta_jelly_eco_pod",
         "ct_alta_jelly_egg",
         "ct_alta_jellyfier",
         "ct_alta_juicer",
@@ -7334,8 +7889,11 @@
         "ct_alterash_yaara_tf",
         "ct_alternia_augment",
         "ct_alternia_crystal",
+        "ct_alternia_eco_pod",
         "ct_alternia_epp",
         "ct_alternia_sample",
+        "ct_alternia_sapling",
+        "ct_alternia_seed",
         "ct_alternia_shard",
         "ct_altersphere",
         "ct_alto_flower_af",
@@ -7428,6 +7986,11 @@
         "ct_ayaka_tree",
         "ct_ayaka_unona_tree",
         "ct_ayaka_young_tree",
+        "ct_azura_boosted",
+        "ct_azura_eco",
+        "ct_azura_eco_pod",
+        "ct_azura_sapling",
+        "ct_azura_seed",
         "ct_azura_tree",
         "ct_back_mimic",
         "ct_backdoor",
@@ -7483,6 +8046,11 @@
         "ct_bishyn_table",
         "ct_bishyn_terminal",
         "ct_bishyn_tortoise_egg",
+        "ct_blossom_boosted",
+        "ct_blossom_eco",
+        "ct_blossom_eco_pod",
+        "ct_blossom_sapling",
+        "ct_blossom_seed",
         "ct_blue_flower_af",
         "ct_body_mimic",
         "ct_boki_egg",
@@ -7496,12 +8064,15 @@
         "ct_bulbonid",
         "ct_calin-codex",
         "ct_calin_bed",
+        "ct_calin_boosted",
         "ct_calin_chair",
         "ct_calin_chest",
         "ct_calin_clubdecks",
         "ct_calin_console",
         "ct_calin_crippit_af",
         "ct_calin_crippit_egg",
+        "ct_calin_eco",
+        "ct_calin_eco_pod",
         "ct_calin_fertilizer",
         "ct_calin_flower_pot",
         "ct_calin_gateway",
@@ -7509,6 +8080,8 @@
         "ct_calin_lamp",
         "ct_calin_loot",
         "ct_calin_sample",
+        "ct_calin_sapling",
+        "ct_calin_seed",
         "ct_calin_shelf",
         "ct_calin_shield",
         "ct_calin_snail_af",
@@ -7546,10 +8119,18 @@
         "ct_cetereye",
         "ct_ceternia_augment",
         "ct_ceternia_core",
+        "ct_ceternia_eco_pod",
         "ct_ceternia_epp",
         "ct_ceternia_sample",
+        "ct_ceternia_sapling",
+        "ct_ceternia_seed",
         "ct_cetersphere",
         "ct_ceterteal_umbrella",
+        "ct_cocola_boosted",
+        "ct_cocola_eco",
+        "ct_cocola_eco_pod",
+        "ct_cocola_sapling",
+        "ct_cocola_seed",
         "ct_colorful_grass_seeds",
         "ct_combat-codex",
         "ct_combat_android",
@@ -7568,8 +8149,22 @@
         "ct_composite_cutter",
         "ct_composite_flower_pot",
         "ct_composite_rod",
+        "ct_coral_boosted",
+        "ct_coral_eco",
+        "ct_coral_eco_pod",
+        "ct_coral_sapling",
+        "ct_coral_seed",
+        "ct_core_boosted",
+        "ct_core_eco",
+        "ct_core_eco_pod",
+        "ct_core_sapling",
+        "ct_core_seed",
         "ct_coroplic_mutant",
         "ct_coroplic_mutant_giant",
+        "ct_cotton_boosted",
+        "ct_cotton_eco",
+        "ct_cotton_eco_pod",
+        "ct_cotton_sapling",
         "ct_crimson_grass_seeds",
         "ct_crippit_af",
         "ct_crippit_egg",
@@ -7589,6 +8184,11 @@
         "ct_crystalline_shield",
         "ct_crystalline_sword",
         "ct_datamass",
+        "ct_diamond_boosted",
+        "ct_diamond_eco",
+        "ct_diamond_eco_pod",
+        "ct_diamond_sapling",
+        "ct_diamond_seed",
         "ct_docs_cen-codex",
         "ct_docs_datamass-codex",
         "ct_docs_drones-codex",
@@ -7596,7 +8196,12 @@
         "ct_docs_mining_desc-codex",
         "ct_docs_units_scout-codex",
         "ct_docs_units_security-codex",
+        "ct_dream_boosted",
         "ct_dream_eater",
+        "ct_dream_eco",
+        "ct_dream_eco_pod",
+        "ct_dream_sapling",
+        "ct_dream_seed",
         "ct_dreamer-codex",
         "ct_dreamer_android",
         "ct_dreamer_android_head",
@@ -7655,6 +8260,11 @@
         "ct_eds_turret",
         "ct_eds_visor",
         "ct_eeriss_egg",
+        "ct_ela_boosted",
+        "ct_ela_eco",
+        "ct_ela_eco_pod",
+        "ct_ela_sapling",
+        "ct_ela_seed",
         "ct_electric_stim",
         "ct_elin-codex",
         "ct_elin_bug_af",
@@ -7692,16 +8302,24 @@
         "ct_entermace",
         "ct_enternia_asteroids_tf",
         "ct_enternia_augment",
+        "ct_enternia_eco_pod",
         "ct_enternia_epp",
         "ct_enternia_sample",
+        "ct_enternia_sapling",
+        "ct_enternia_seed",
         "ct_entersphere",
         "ct_entropy",
         "ct_erkut",
         "ct_esetera-codex",
         "ct_estralis_vi",
         "ct_eva-codex",
+        "ct_eva_boosted",
         "ct_eva_collar",
+        "ct_eva_eco",
+        "ct_eva_eco_pod",
         "ct_eva_loot",
+        "ct_eva_sapling",
+        "ct_eva_seed",
         "ct_evarus-codex",
         "ct_ezmeralda_af",
         "ct_faradea-codex",
@@ -7811,8 +8429,13 @@
         "ct_gyera_vendor",
         "ct_haruplavu_venetto",
         "ct_haven-codex",
+        "ct_haven_boosted",
         "ct_haven_catcher",
+        "ct_haven_eco",
+        "ct_haven_eco_pod",
         "ct_haven_loot",
+        "ct_haven_sapling",
+        "ct_haven_seed",
         "ct_haven_storm",
         "ct_haven_thrower",
         "ct_haven_tiller",
@@ -7860,7 +8483,12 @@
         "ct_impulse_crawler_egg",
         "ct_impulse_nade",
         "ct_impulse_stim",
+        "ct_in_jelly_boosted",
+        "ct_in_jelly_eco",
+        "ct_in_jelly_eco_pod",
         "ct_in_jelly_egg",
+        "ct_in_jelly_sapling",
+        "ct_in_jelly_seed",
         "ct_io_trophy",
         "ct_ion_cake",
         "ct_ion_collider",
@@ -7910,8 +8538,13 @@
         "ct_isoslime3",
         "ct_isoslime_ball",
         "ct_isoslime_blob",
+        "ct_isoslime_boosted",
+        "ct_isoslime_eco",
+        "ct_isoslime_eco_pod",
         "ct_isoslime_loot",
         "ct_isoslime_sample",
+        "ct_isoslime_sapling",
+        "ct_isoslime_seed",
         "ct_isoslime_spawner",
         "ct_juviley_af",
         "ct_juviley_egg",
@@ -8058,6 +8691,8 @@
         "ct_plasmasword",
         "ct_plasmora",
         "ct_plasmorbs",
+        "ct_poi_eco",
+        "ct_poi_eco_pod",
         "ct_poi_plush",
         "ct_poison_crystal1",
         "ct_poison_crystal2",
@@ -8078,14 +8713,24 @@
         "ct_red_flower_af",
         "ct_rimar_motsu",
         "ct_riverside_crab_egg",
+        "ct_ruka_boosted",
+        "ct_ruka_eco",
+        "ct_ruka_eco_pod",
+        "ct_ruka_sapling",
+        "ct_ruka_seed",
         "ct_sentia-codex",
         "ct_shroomic_loot",
         "ct_sinigai",
         "ct_sky_lance",
         "ct_sofara_tree",
         "ct_sona-codex",
+        "ct_sona_boosted",
+        "ct_sona_eco",
+        "ct_sona_eco_pod",
         "ct_sona_helmet",
         "ct_sona_loot",
+        "ct_sona_sapling",
+        "ct_sona_seed",
         "ct_soniathrower",
         "ct_space_tiller",
         "ct_spacedrifter-codex",
@@ -8107,9 +8752,12 @@
         "ct_stardust_poptop_egg",
         "ct_stardust_prism",
         "ct_stardust_sample",
+        "ct_stardust_sapling",
+        "ct_stardust_seed",
         "ct_stardust_trophy",
         "ct_starfields_art",
         "ct_starfire",
+        "ct_starflower_eco_pod",
         "ct_starfly_af",
         "ct_starfly_egg",
         "ct_staris_soup",
@@ -8156,6 +8804,11 @@
         "ct_tsay_seed",
         "ct_tsentarish",
         "ct_tsyntex",
+        "ct_turanta_boosted",
+        "ct_turanta_eco",
+        "ct_turanta_eco_pod",
+        "ct_turanta_sapling",
+        "ct_turanta_seed",
         "ct_unwarped_fly_af",
         "ct_unwarped_fly_egg",
         "ct_valley_poptop_af",
@@ -8209,6 +8862,10 @@
         "ct_warped_grass_seeds",
         "ct_warped_gun",
         "ct_warped_hive",
+        "ct_warped_hive_boosted",
+        "ct_warped_hive_eco",
+        "ct_warped_hive_eco_pod",
+        "ct_warped_hive_sapling",
         "ct_warped_hive_seed",
         "ct_warped_lamp",
         "ct_warped_light",

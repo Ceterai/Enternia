@@ -25,7 +25,7 @@ For Alliana!"
   ],
     "itemConfig" : {
       "level" : 4, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "docs", "warped" ], "learnBlueprintsOnPickup" : [ "ct_nivera-codex" ], // TODO in 2.4:, "ct_nivera_tree", "ct_nivera_af" ],
+      "itemTags" : [ "data_source", "docs", "warped" ], "learnBlueprintsOnPickup" : [ "ct_nivera-codex", "ct_nivera_tree", "ct_nivera_af" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

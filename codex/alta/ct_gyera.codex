@@ -16,7 +16,7 @@ Here, you can also find rare flowers called ^#b0e0fc;Versalia^reset;, as well as
   ],
     "itemConfig" : {
       "level" : 3,
-      "itemTags" : [ "data_source", "ebook", "gyera" ], "learnBlueprintsOnPickup" : [ "ct_gyera-codex" ], // TODO in 2.4:, "ct_gyera_can", "ct_gyera_sprinkler", "ct_gyera_fertilizer" ],
+      "itemTags" : [ "data_source", "ebook", "gyera" ], "learnBlueprintsOnPickup" : [ "ct_gyera-codex", "ct_gyera_can", "ct_gyera_sprinkler", "ct_gyera_fertilizer" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

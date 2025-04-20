@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_isoslime_seed", "count" : 1 },
+    { "item" : "ct_ela_seed", "count" : 1 },
+    { "item" : "slime", "count" : 1 },
+    { "item" : "syringe", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_in_jelly_seed", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "nature", "crop", "all", "alta_seeds", "seedmaker", "seedsMods", "mod" ]
+}

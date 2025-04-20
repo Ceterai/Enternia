@@ -21,7 +21,7 @@ This is why one of the main points of negotiation between altas and yaara keeper
   ],
     "itemConfig" : {
     "level" : 4,
-    "itemTags" : [ "data_source", "datamass", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaara-codex" ], // TODO in 2.4:, "ct_yaara_flower_af", "ct_yaara_node" ],
+    "itemTags" : [ "data_source", "datamass", "yaara" ], "learnBlueprintsOnPickup" : [ "ct_yaara-codex", "ct_yaara_flower_af", "ct_yaara_node" ],
     "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

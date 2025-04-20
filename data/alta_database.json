@@ -179,6 +179,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_guard_tenant",
                     "ct_alta_capital_tenant",
@@ -247,6 +248,7 @@
                     "ct_faradea_legend_tenant",
                     "ct_faradea_merc_tenant",
                     "ct_faradea_scavenger_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_mki_infiltrator_tenant",
                     "ct_mki_intruder_tenant",
                     "ct_mki_navy_tenant",
@@ -283,6 +285,9 @@
                 "nature",
                 "shroom",
                 "uncommon"
+            ],
+            "unlocked_by": [
+                "ct_aric-codex"
             ],
             "loot": {},
             "sources": {
@@ -720,6 +725,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -749,6 +755,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -2217,7 +2224,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_meal_fo"
@@ -2404,11 +2413,19 @@
             "used_in_recipes": [
                 "ct_alta_sapling",
                 "ct_aya_eco_pod",
+                "ct_calin_eco_pod",
+                "ct_cotton_eco_pod",
                 "ct_gil_eco_pod",
+                "ct_haven_eco_pod",
+                "ct_in_jelly_eco_pod",
                 "ct_koywa_eco_pod",
+                "ct_ruka_eco_pod",
+                "ct_sona_eco_pod",
                 "ct_tsay_eco_pod",
+                "ct_turanta_eco_pod",
                 "ct_viona_eco_pod",
                 "ct_voda_eco_pod",
+                "ct_warped_hive_eco_pod",
                 "ct_yaara_eco_pod",
                 "ct_yaavi_eco_pod"
             ],
@@ -3105,13 +3122,24 @@
                 "ct_turanta_seed",
                 "ct_viona_seed",
                 "ct_voda_seed",
+                "ct_warped_hive_seed",
                 "ct_yaara_seed"
             ],
             "used_in_recipes": [
                 "ct_alta_farming_set_3",
                 "ct_aya_eco",
+                "ct_azura_eco",
+                "ct_blossom_eco",
+                "ct_cocola_sapling",
+                "ct_coral_eco",
+                "ct_core_sapling",
+                "ct_diamond_sapling",
+                "ct_dream_eco",
+                "ct_ela_eco",
+                "ct_eva_eco",
                 "ct_gheatsyn_eco",
                 "ct_gil_eco",
+                "ct_haven_eco",
                 "ct_hive_eco",
                 "ct_ionic_eco",
                 "ct_koywa_eco",
@@ -4219,6 +4247,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -4248,6 +4277,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -4611,6 +4641,9 @@
                 "sea"
             ],
             "unlocks_bps": [
+                "ct_alta_jelly_eco_pod"
+            ],
+            "used_in_recipes": [
                 "ct_alta_jelly_eco_pod"
             ],
             "loot": {},
@@ -5071,9 +5104,14 @@
                 "ct_alta_hydroponics-codex"
             ],
             "used_in_recipes": [
+                "ct_alta_jelly_eco_pod",
                 "ct_alta_lab_sapling",
+                "ct_blossom_eco_pod",
+                "ct_eva_eco_pod",
                 "ct_gheatsyn_eco_pod",
                 "ct_hive_eco_pod",
+                "ct_isoslime_eco_pod",
+                "ct_poi_eco_pod",
                 "ct_tonna_eco_pod"
             ],
             "loot": {},
@@ -5717,6 +5755,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -5746,6 +5785,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -5809,6 +5849,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -5838,6 +5879,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -7704,6 +7746,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -7733,6 +7776,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -7786,6 +7830,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_calin_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
@@ -7826,6 +7871,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -9914,6 +9960,12 @@
             ],
             "used_in_recipes": [
                 "ct_alta_ship_sapling",
+                "ct_azura_eco_pod",
+                "ct_cocola_eco_pod",
+                "ct_coral_eco_pod",
+                "ct_core_eco_pod",
+                "ct_dream_eco_pod",
+                "ct_ela_eco_pod",
                 "ct_ionic_eco_pod"
             ],
             "loot": {},
@@ -10613,6 +10665,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -10642,6 +10695,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -12792,20 +12846,23 @@
             "unlocked_by": [
                 "ct_alternia_seed"
             ],
+            "used_in_recipes": [
+                "ct_alternia_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_alternia_seed": {
             "path": "/objects/farmables/alta/ground/alternia/ct_alternia_seed.object",
-            "rarity": "Rare",
+            "rarity": "Legendary",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/alternia/icon.png",
             "colony": [
                 "alterash_prime",
                 "alternia",
                 "farming",
-                "nature",
-                "rare"
+                "legendary",
+                "nature"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -12817,6 +12874,12 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_alternia_eco_pod",
+                "ct_alternia_sapling",
+                "ct_diamond_seed",
+                "ct_stardust_seed"
             ],
             "loot": {},
             "sources": {
@@ -12878,6 +12941,7 @@
                 "ct_calin_clubdecks",
                 "ct_calin_lamp",
                 "ct_calin_sample",
+                "ct_calin_seed",
                 "ct_calin_shelf",
                 "ct_calin_table",
                 "ct_cetereye",
@@ -13879,6 +13943,7 @@
                 "rare"
             ],
             "unlocks_bps": [
+                "ct_akollic_bulb",
                 "ct_aric-codex"
             ],
             "unlocked_by": [
@@ -15444,7 +15509,8 @@
                 "ct_aya_eco_pod",
                 "ct_aya_fertile",
                 "ct_aya_sapling",
-                "ct_benema_fertilizer"
+                "ct_benema_fertilizer",
+                "ct_blossom_seed"
             ],
             "loot": {},
             "sources": {
@@ -15521,6 +15587,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_calin_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
@@ -15561,6 +15628,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -15678,7 +15746,8 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_ayaka-codex"
+                "ct_ayaka-codex",
+                "ct_ayaka_young_tree"
             ],
             "unlocked_by": [
                 "ct_ayaka-codex"
@@ -15822,7 +15891,8 @@
                 "uncommon"
             ],
             "unlocked_by": [
-                "ct_ayaka_crystal_tree"
+                "ct_ayaka_crystal_tree",
+                "ct_evarus-codex"
             ],
             "loot": {},
             "sources": {}
@@ -16408,6 +16478,7 @@
             "unlocked_by": [
                 "ct_alta_botanics-codex",
                 "ct_aya_seed",
+                "ct_ayaka-codex",
                 "ct_wild_aya_seed"
             ],
             "loot": {},
@@ -16456,6 +16527,9 @@
             "unlocked_by": [
                 "ct_azura_sapling"
             ],
+            "used_in_recipes": [
+                "ct_azura_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -16498,6 +16572,10 @@
             "unlocked_by": [
                 "ct_azura_seed"
             ],
+            "used_in_recipes": [
+                "ct_azura_boosted",
+                "ct_azura_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -16523,6 +16601,13 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_azura_boosted",
+                "ct_azura_eco",
+                "ct_azura_eco_pod",
+                "ct_azura_sapling",
+                "ct_ela_seed"
             ],
             "loot": {},
             "sources": {
@@ -16727,16 +16812,24 @@
                 "ct_alto_flower_af",
                 "ct_aya_sapling",
                 "ct_blue_flower_af",
+                "ct_calin_sapling",
+                "ct_cotton_sapling",
                 "ct_faro_flower_af",
                 "ct_gil_sapling",
+                "ct_in_jelly_sapling",
+                "ct_isoslime_sapling",
                 "ct_koywa_af",
                 "ct_koywa_bush_af",
                 "ct_koywa_sapling",
                 "ct_miko_flower_af",
                 "ct_red_flower_af",
+                "ct_ruka_sapling",
+                "ct_sona_sapling",
                 "ct_tsay_sapling",
+                "ct_turanta_sapling",
                 "ct_viona_sapling",
                 "ct_voda_sapling",
+                "ct_warped_hive_sapling",
                 "ct_yaara_sapling",
                 "ct_yaavi_sapling",
                 "ct_yellow_flower_af"
@@ -16801,9 +16894,13 @@
                 "ct_voda_sapling"
             ],
             "used_in_recipes": [
+                "ct_azura_eco_pod",
                 "ct_azura_tree",
                 "ct_calocol_tulip_af",
-                "ct_hive_tree"
+                "ct_coral_eco_pod",
+                "ct_enternia_sapling",
+                "ct_hive_tree",
+                "ct_sona_eco_pod"
             ],
             "loot": {},
             "sources": {
@@ -16969,12 +17066,18 @@
                 "ct_yaavi_eco"
             ],
             "used_in_recipes": [
+                "ct_ceternia_sapling",
+                "ct_cocola_eco",
+                "ct_cocola_eco_pod",
                 "ct_koywa_eco_pod",
                 "ct_nivera_tree",
+                "ct_ruka_eco_pod",
                 "ct_toxic_flower_af",
+                "ct_turanta_eco_pod",
                 "ct_viona_eco_pod",
                 "ct_voda_eco_pod",
                 "ct_warped_bush_af",
+                "ct_warped_hive_eco_pod",
                 "ct_warped_tree",
                 "ct_yaara_eco_pod",
                 "ct_yaara_flower_af",
@@ -17035,7 +17138,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_dessert_fo"
@@ -18787,6 +18892,9 @@
             "unlocked_by": [
                 "ct_blossom_sapling"
             ],
+            "used_in_recipes": [
+                "ct_blossom_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -18829,6 +18937,10 @@
             "unlocked_by": [
                 "ct_blossom_seed"
             ],
+            "used_in_recipes": [
+                "ct_blossom_boosted",
+                "ct_blossom_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -18853,6 +18965,12 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_blossom_boosted",
+                "ct_blossom_eco",
+                "ct_blossom_eco_pod",
+                "ct_blossom_sapling"
             ],
             "loot": {},
             "sources": {
@@ -18986,16 +19104,39 @@
                 "ct_alta_botanics-codex"
             ],
             "used_in_recipes": [
+                "ct_alternia_eco_pod",
                 "ct_aya_boosted",
+                "ct_azura_boosted",
+                "ct_blossom_boosted",
+                "ct_calin_boosted",
+                "ct_ceternia_eco_pod",
+                "ct_cocola_boosted",
+                "ct_coral_boosted",
+                "ct_core_boosted",
+                "ct_cotton_boosted",
+                "ct_diamond_boosted",
+                "ct_dream_boosted",
+                "ct_ela_boosted",
+                "ct_enternia_eco_pod",
+                "ct_eva_boosted",
                 "ct_gheatsyn_boosted",
                 "ct_gil_boosted",
+                "ct_haven_boosted",
                 "ct_hive_boosted",
+                "ct_in_jelly_boosted",
                 "ct_ionic_boosted",
+                "ct_isoslime_boosted",
                 "ct_koywa_boosted",
+                "ct_ruka_boosted",
+                "ct_sona_boosted",
+                "ct_stardust_sapling",
+                "ct_starflower_eco_pod",
                 "ct_tonna_boosted",
                 "ct_tsay_boosted",
+                "ct_turanta_boosted",
                 "ct_viona_boosted",
                 "ct_voda_boosted",
+                "ct_warped_hive_boosted",
                 "ct_yaara_boosted",
                 "ct_yaavi_boosted"
             ],
@@ -19132,8 +19273,18 @@
                 "ct_isoslime_sapling"
             ],
             "used_in_recipes": [
+                "ct_alta_jelly_eco",
+                "ct_alta_jelly_eco_pod",
+                "ct_cotton_eco_pod",
+                "ct_dream_eco_pod",
+                "ct_ela_eco_pod",
+                "ct_eva_eco_pod",
                 "ct_hive_eco_pod",
+                "ct_in_jelly_eco_pod",
+                "ct_isoslime_eco_pod",
                 "ct_livira_tree",
+                "ct_poi_eco",
+                "ct_poi_eco_pod",
                 "ct_poppy_prime_af"
             ],
             "loot": {},
@@ -19204,7 +19355,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_calin-codex"
+                "ct_calin-codex",
+                "ct_calin_seed"
             ],
             "unlocked_by": [
                 "ct_calin-codex"
@@ -19501,6 +19653,9 @@
             "unlocked_by": [
                 "ct_calin_sapling"
             ],
+            "used_in_recipes": [
+                "ct_calin_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -19547,6 +19702,12 @@
                 "ct_gheatsyn_sapling"
             ],
             "used_in_recipes": [
+                "ct_alternia_sapling",
+                "ct_calin_eco_pod",
+                "ct_core_eco",
+                "ct_core_eco_pod",
+                "ct_diamond_eco",
+                "ct_diamond_eco_pod",
                 "ct_ezmeralda_af",
                 "ct_gheatsyn_eco_pod",
                 "ct_mical_tree"
@@ -19804,6 +19965,10 @@
             "unlocked_by": [
                 "ct_calin_seed"
             ],
+            "used_in_recipes": [
+                "ct_calin_boosted",
+                "ct_calin_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -19824,11 +19989,19 @@
                 "ct_calin_sapling"
             ],
             "unlocked_by": [
+                "ct_calin-codex",
                 "ct_calin_eco_pod",
                 "ct_yaara_crystal_node"
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_alternia_seed",
+                "ct_calin_boosted",
+                "ct_calin_eco",
+                "ct_calin_eco_pod",
+                "ct_calin_sapling"
             ],
             "loot": {},
             "sources": {
@@ -20178,7 +20351,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ]
             }
         },
@@ -21357,20 +21532,23 @@
             "unlocked_by": [
                 "ct_ceternia_seed"
             ],
+            "used_in_recipes": [
+                "ct_ceternia_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_ceternia_seed": {
             "path": "/objects/farmables/alta/ground/ceternia/ct_ceternia_seed.object",
-            "rarity": "Rare",
+            "rarity": "Legendary",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/ceternia/icon.png",
             "colony": [
                 "alterash",
                 "ceternia",
                 "farming",
-                "nature",
-                "rare"
+                "legendary",
+                "nature"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -21382,6 +21560,11 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_ceternia_eco_pod",
+                "ct_ceternia_sapling",
+                "ct_stardust_seed"
             ],
             "loot": {},
             "sources": {
@@ -21651,6 +21834,9 @@
             "unlocked_by": [
                 "ct_cocola_sapling"
             ],
+            "used_in_recipes": [
+                "ct_cocola_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -21693,6 +21879,10 @@
             "unlocked_by": [
                 "ct_cocola_seed"
             ],
+            "used_in_recipes": [
+                "ct_cocola_boosted",
+                "ct_cocola_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -21717,6 +21907,13 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_cocola_boosted",
+                "ct_cocola_eco",
+                "ct_cocola_eco_pod",
+                "ct_cocola_sapling",
+                "ct_sona_seed"
             ],
             "loot": {},
             "sources": {
@@ -22356,6 +22553,9 @@
             "unlocked_by": [
                 "ct_coral_sapling"
             ],
+            "used_in_recipes": [
+                "ct_coral_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -22400,6 +22600,10 @@
             "unlocked_by": [
                 "ct_coral_seed"
             ],
+            "used_in_recipes": [
+                "ct_coral_boosted",
+                "ct_coral_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -22425,6 +22629,13 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_coral_boosted",
+                "ct_coral_eco",
+                "ct_coral_eco_pod",
+                "ct_coral_sapling",
+                "ct_core_seed"
             ],
             "loot": {},
             "sources": {
@@ -22505,6 +22716,9 @@
             "unlocked_by": [
                 "ct_core_sapling"
             ],
+            "used_in_recipes": [
+                "ct_core_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -22547,6 +22761,10 @@
             "unlocked_by": [
                 "ct_core_seed"
             ],
+            "used_in_recipes": [
+                "ct_core_boosted",
+                "ct_core_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -22572,6 +22790,14 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_coral_seed",
+                "ct_core_boosted",
+                "ct_core_eco",
+                "ct_core_eco_pod",
+                "ct_core_sapling",
+                "ct_diamond_seed"
             ],
             "loot": {},
             "sources": {
@@ -22686,6 +22912,9 @@
             "unlocked_by": [
                 "ct_cotton_sapling"
             ],
+            "used_in_recipes": [
+                "ct_cotton_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -22724,6 +22953,10 @@
             ],
             "unlocked_by": [
                 "ct_eva_eco"
+            ],
+            "used_in_recipes": [
+                "ct_cotton_boosted",
+                "ct_cotton_eco"
             ],
             "loot": {},
             "sources": {}
@@ -23212,6 +23445,7 @@
                 "rare"
             ],
             "unlocks_bps": [
+                "ct_carel_sapling",
                 "ct_crystalline_prime-codex"
             ],
             "unlocked_by": [
@@ -23684,6 +23918,9 @@
             "unlocked_by": [
                 "ct_diamond_sapling"
             ],
+            "used_in_recipes": [
+                "ct_diamond_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -23728,6 +23965,10 @@
             "unlocked_by": [
                 "ct_diamond_seed"
             ],
+            "used_in_recipes": [
+                "ct_diamond_boosted",
+                "ct_diamond_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -23754,6 +23995,12 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_diamond_boosted",
+                "ct_diamond_eco",
+                "ct_diamond_eco_pod",
+                "ct_diamond_sapling"
             ],
             "loot": {},
             "sources": {
@@ -25272,6 +25519,9 @@
             "unlocked_by": [
                 "ct_dream_sapling"
             ],
+            "used_in_recipes": [
+                "ct_dream_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -25314,6 +25564,10 @@
             "unlocked_by": [
                 "ct_dream_seed"
             ],
+            "used_in_recipes": [
+                "ct_dream_boosted",
+                "ct_dream_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -25340,6 +25594,13 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_dream_boosted",
+                "ct_dream_eco",
+                "ct_dream_eco_pod",
+                "ct_dream_sapling",
+                "ct_enternia_seed"
             ],
             "loot": {},
             "sources": {
@@ -27549,7 +27810,7 @@
         },
         "ct_ela_eco": {
             "path": "/objects/farmables/alta/liquid/ela/eco/ct_ela_eco.object",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ela/eco/icon.png",
             "colony": [
@@ -27557,13 +27818,16 @@
                 "enterash",
                 "farming",
                 "nature",
-                "uncommon"
+                "rare"
             ],
             "unlocks_bps": [
                 "ct_ela_boosted"
             ],
             "unlocked_by": [
                 "ct_ela_sapling"
+            ],
+            "used_in_recipes": [
+                "ct_ela_eco_pod"
             ],
             "loot": {},
             "sources": {}
@@ -27607,20 +27871,24 @@
             "unlocked_by": [
                 "ct_ela_seed"
             ],
+            "used_in_recipes": [
+                "ct_ela_boosted",
+                "ct_ela_eco"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_ela_seed": {
             "path": "/objects/farmables/alta/liquid/ela/ct_ela_seed.object",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ela/icon.png",
             "colony": [
                 "alien",
-                "common",
                 "enterash",
                 "farming",
-                "nature"
+                "nature",
+                "uncommon"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -27629,10 +27897,20 @@
             "unlocked_by": [
                 "ct_dream_eco",
                 "ct_ela_eco_pod",
-                "ct_warped_hive_eco"
+                "ct_warped_hive_eco",
+                "ct_yonnur-codex"
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_azura_seed",
+                "ct_dream_seed",
+                "ct_ela_boosted",
+                "ct_ela_eco",
+                "ct_ela_eco_pod",
+                "ct_ela_sapling",
+                "ct_in_jelly_seed"
             ],
             "loot": {},
             "sources": {
@@ -27713,7 +27991,8 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_elin-codex"
+                "ct_elin-codex",
+                "ct_elin_ayaka_tree"
             ],
             "unlocked_by": [
                 "ct_elin-codex"
@@ -28540,7 +28819,8 @@
                 "viona"
             ],
             "unlocks_bps": [
-                "ct_enchanted-codex"
+                "ct_enchanted-codex",
+                "ct_viona_tree"
             ],
             "unlocked_by": [
                 "ct_enchanted-codex"
@@ -29049,20 +29329,23 @@
             "unlocked_by": [
                 "ct_enternia_seed"
             ],
+            "used_in_recipes": [
+                "ct_enternia_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_enternia_seed": {
             "path": "/objects/farmables/alta/ground/enternia/ct_enternia_seed.object",
-            "rarity": "Rare",
+            "rarity": "Legendary",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/enternia/icon.png",
             "colony": [
                 "enterash",
                 "enternia",
                 "farming",
-                "nature",
-                "rare"
+                "legendary",
+                "nature"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -29074,6 +29357,11 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_enternia_eco_pod",
+                "ct_enternia_sapling",
+                "ct_stardust_seed"
             ],
             "loot": {},
             "sources": {
@@ -29424,7 +29712,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_eva-codex"
+                "ct_eva-codex",
+                "ct_ezmeralda_af"
             ],
             "unlocked_by": [
                 "ct_eva-codex"
@@ -29532,6 +29821,9 @@
             "unlocked_by": [
                 "ct_eva_sapling"
             ],
+            "used_in_recipes": [
+                "ct_eva_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -29608,20 +29900,24 @@
             "unlocked_by": [
                 "ct_eva_seed"
             ],
+            "used_in_recipes": [
+                "ct_eva_boosted",
+                "ct_eva_eco"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_eva_seed": {
             "path": "/objects/farmables/alta/ground/eva/ct_eva_seed.object",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/eva/icon.png",
             "colony": [
                 "alterash",
-                "common",
                 "eva",
                 "farming",
-                "nature"
+                "nature",
+                "uncommon"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -29636,7 +29932,15 @@
                 "pickupseed"
             ],
             "used_in_recipes": [
-                "ct_ionic_seed"
+                "cottonseed",
+                "ct_blossom_seed",
+                "ct_eva_boosted",
+                "ct_eva_eco",
+                "ct_eva_eco_pod",
+                "ct_eva_sapling",
+                "ct_ionic_seed",
+                "ct_sona_seed",
+                "ct_warped_hive_seed"
             ],
             "loot": {},
             "sources": {
@@ -29671,6 +29975,7 @@
                 "uncommon"
             ],
             "unlocks_bps": [
+                "ct_ayaka_eva_tree",
                 "ct_evarus-codex"
             ],
             "unlocked_by": [
@@ -29711,6 +30016,7 @@
                 "nature"
             ],
             "unlocked_by": [
+                "ct_eva-codex",
                 "ct_stardust_eco_pod"
             ],
             "loot": {},
@@ -30596,6 +30902,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_calin_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
@@ -30636,6 +30943,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -31035,7 +31343,8 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_gheatsyn-codex"
+                "ct_gheatsyn-codex",
+                "ct_gheatsyn_seed"
             ],
             "unlocked_by": [
                 "ct_gheatsyn-codex"
@@ -31811,12 +32120,15 @@
             ],
             "unlocked_by": [
                 "ct_calin_eco",
+                "ct_gheatsyn-codex",
                 "ct_gheatsyn_eco_pod"
             ],
             "pickup_msgs": [
                 "pickupseed"
             ],
             "used_in_recipes": [
+                "ct_alternia_seed",
+                "ct_core_seed",
                 "ct_gheatsyn_boosted",
                 "ct_gheatsyn_eco",
                 "ct_gheatsyn_eco_pod",
@@ -32475,7 +32787,8 @@
                 "ct_ionic_fertilizer"
             ],
             "unlocked_by": [
-                "ct_gil"
+                "ct_gil",
+                "ct_gil_seed"
             ],
             "used_in_recipes": [
                 "ct_gil_cultivated"
@@ -32494,6 +32807,9 @@
                 "farming",
                 "gil",
                 "nature"
+            ],
+            "unlocks_bps": [
+                "ct_gil_sapling"
             ],
             "unlocked_by": [
                 "ct_gil_eco_pod",
@@ -32617,7 +32933,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_motsu_fo"
@@ -32674,7 +32992,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "rewards": [
                     "ct_gyera_loot"
@@ -33351,7 +33671,10 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_gyera-codex"
+                "ct_gyera-codex",
+                "ct_gyera_can",
+                "ct_gyera_fertilizer",
+                "ct_gyera_sprinkler"
             ],
             "unlocked_by": [
                 "ct_gyera-codex"
@@ -33444,6 +33767,9 @@
                 "upgradeableWeapon",
                 "watering_can"
             ],
+            "unlocked_by": [
+                "ct_gyera-codex"
+            ],
             "used_in_recipes": [
                 "ct_gyera_set"
             ],
@@ -33531,6 +33857,7 @@
                 "ct_aya_eco",
                 "ct_blossom_sapling",
                 "ct_gil_eco",
+                "ct_gyera-codex",
                 "ct_haven_sapling",
                 "ct_tsay_eco"
             ],
@@ -33539,6 +33866,7 @@
                 "ct_aya_eco_pod",
                 "ct_aya_fertile",
                 "ct_aya_sort",
+                "ct_blossom_eco_pod",
                 "ct_giant_berry_af",
                 "ct_gil_af",
                 "ct_gil_eco_pod",
@@ -33546,6 +33874,7 @@
                 "ct_gil_mixed",
                 "ct_gyera_set",
                 "ct_gyera_token",
+                "ct_haven_eco_pod",
                 "ct_tsay_af",
                 "ct_tsay_eco_pod",
                 "ct_tsay_fertile",
@@ -33658,7 +33987,8 @@
                 "uncommon"
             ],
             "unlocked_by": [
-                "ct_alta_terraponics-codex"
+                "ct_alta_terraponics-codex",
+                "ct_gyera-codex"
             ],
             "used_in_recipes": [
                 "ct_alta_plant_bed",
@@ -33790,7 +34120,9 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_haven-codex"
+                "ct_haven-codex",
+                "ct_haven_tiller",
+                "ct_poppy_prime_af"
             ],
             "unlocked_by": [
                 "ct_haven-codex"
@@ -33823,7 +34155,7 @@
             }
         },
         "ct_haven_boosted": {
-            "path": "/objects/farmables/alta/ground/haven/boosted/ct_eva_boosted.object",
+            "path": "/objects/farmables/alta/ground/haven/boosted/ct_haven_boosted.object",
             "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/haven/boosted/icon.png",
@@ -33853,8 +34185,8 @@
             "sources": {}
         },
         "ct_haven_eco": {
-            "path": "/objects/farmables/alta/ground/haven/eco/ct_eva_eco.object",
-            "rarity": "Uncommon",
+            "path": "/objects/farmables/alta/ground/haven/eco/ct_haven_eco.object",
+            "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/haven/eco/icon.png",
             "colony": [
@@ -33862,7 +34194,7 @@
                 "farming",
                 "haven",
                 "nature",
-                "uncommon"
+                "rare"
             ],
             "unlocks_bps": [
                 "ct_haven_boosted",
@@ -33871,11 +34203,14 @@
             "unlocked_by": [
                 "ct_haven_sapling"
             ],
+            "used_in_recipes": [
+                "ct_haven_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_haven_eco_pod": {
-            "path": "/objects/farmables/alta/ground/haven/pod/ct_eva_eco_pod.object",
+            "path": "/objects/farmables/alta/ground/haven/pod/ct_haven_eco_pod.object",
             "rarity": "Legendary",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/haven/pod/icon.png",
@@ -33935,7 +34270,7 @@
             }
         },
         "ct_haven_sapling": {
-            "path": "/objects/farmables/alta/ground/haven/sapling/ct_eva_sapling.object",
+            "path": "/objects/farmables/alta/ground/haven/sapling/ct_haven_sapling.object",
             "rarity": "Uncommon",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/haven/sapling/icon.png",
@@ -33953,20 +34288,24 @@
             "unlocked_by": [
                 "ct_haven_seed"
             ],
+            "used_in_recipes": [
+                "ct_haven_boosted",
+                "ct_haven_eco"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_haven_seed": {
-            "path": "/objects/farmables/alta/ground/haven/ct_eva_seed.object",
-            "rarity": "Common",
+            "path": "/objects/farmables/alta/ground/haven/ct_haven_seed.object",
+            "rarity": "Uncommon",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/haven/icon.png",
             "colony": [
                 "alterash",
-                "common",
                 "farming",
                 "haven",
-                "nature"
+                "nature",
+                "uncommon"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -33977,6 +34316,14 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_ceternia_seed",
+                "ct_haven_boosted",
+                "ct_haven_eco",
+                "ct_haven_eco_pod",
+                "ct_haven_sapling",
+                "ct_turanta_seed"
             ],
             "loot": {},
             "sources": {
@@ -34083,6 +34430,9 @@
                 "rare",
                 "tiller",
                 "upgradeableWeapon"
+            ],
+            "unlocked_by": [
+                "ct_haven-codex"
             ],
             "pickup_msgs": [
                 "ct_haven_msg"
@@ -35216,7 +35566,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ]
             }
         },
@@ -35317,7 +35669,8 @@
                 "ct_hive_boosted",
                 "ct_hive_eco",
                 "ct_hive_eco_pod",
-                "ct_hive_sapling"
+                "ct_hive_sapling",
+                "ct_warped_hive_seed"
             ],
             "loot": {},
             "sources": {
@@ -35745,6 +36098,10 @@
             "unlocked_by": [
                 "ct_in_jelly_sapling"
             ],
+            "used_in_recipes": [
+                "ct_alta_jelly_eco",
+                "ct_in_jelly_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -35809,6 +36166,10 @@
             "unlocked_by": [
                 "ct_in_jelly_seed"
             ],
+            "used_in_recipes": [
+                "ct_in_jelly_boosted",
+                "ct_in_jelly_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -35835,6 +36196,15 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_alta_jelly_eco",
+                "ct_alta_jelly_eco_pod",
+                "ct_in_jelly_boosted",
+                "ct_in_jelly_eco",
+                "ct_in_jelly_eco_pod",
+                "ct_in_jelly_sapling",
+                "ct_isoslime_seed"
             ],
             "loot": {},
             "sources": {
@@ -35959,7 +36329,9 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_ion_core-codex"
+                "ct_calocol_af",
+                "ct_ion_core-codex",
+                "ct_ionic_seed"
             ],
             "unlocked_by": [
                 "ct_ion_core-codex"
@@ -36362,15 +36734,15 @@
         },
         "ct_ionic_boosted": {
             "path": "/objects/farmables/alta/liquid/ionic/boosted/ct_ionic_boosted.object",
-            "rarity": "Rare",
+            "rarity": "Legendary",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ionic/boosted/icon.png",
             "colony": [
                 "enterash",
                 "farming",
                 "ionic",
-                "nature",
-                "rare"
+                "legendary",
+                "nature"
             ],
             "unlocks_bps": [
                 "ct_ionic_eco_pod"
@@ -36525,7 +36897,7 @@
         },
         "ct_ionic_eco": {
             "path": "/objects/farmables/alta/liquid/ionic/eco/ct_ionic_eco.object",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ionic/eco/icon.png",
             "colony": [
@@ -36533,7 +36905,7 @@
                 "farming",
                 "ionic",
                 "nature",
-                "uncommon"
+                "rare"
             ],
             "unlocks_bps": [
                 "ct_dream_seed",
@@ -36608,12 +36980,27 @@
             "used_in_recipes": [
                 "ct_alta_farming_set_2",
                 "ct_aya_cultivated",
+                "ct_azura_sapling",
+                "ct_blossom_sapling",
+                "ct_calin_eco",
+                "ct_coral_sapling",
+                "ct_cotton_eco",
+                "ct_dream_sapling",
+                "ct_ela_sapling",
+                "ct_eva_sapling",
                 "ct_gheatsyn_sapling",
                 "ct_gil_cultivated",
+                "ct_haven_sapling",
                 "ct_hive_sapling",
+                "ct_in_jelly_eco",
                 "ct_ionic_sapling",
+                "ct_isoslime_eco",
+                "ct_ruka_eco",
+                "ct_sona_eco",
                 "ct_tonna_sapling",
                 "ct_tsay_cultivated",
+                "ct_turanta_eco",
+                "ct_warped_hive_eco",
                 "ct_yaavi_cultivated"
             ],
             "loot": {},
@@ -37232,7 +37619,7 @@
         },
         "ct_ionic_sapling": {
             "path": "/objects/farmables/alta/liquid/ionic/sapling/ct_ionic_sapling.object",
-            "rarity": "Uncommon",
+            "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ionic/sapling/icon.png",
             "colony": [
@@ -37240,7 +37627,7 @@
                 "enterash",
                 "farming",
                 "nature",
-                "uncommon"
+                "rare"
             ],
             "unlocks_bps": [
                 "ct_ionic_eco",
@@ -37258,27 +37645,29 @@
         },
         "ct_ionic_seed": {
             "path": "/objects/farmables/alta/liquid/ionic/ct_ionic_seed.object",
-            "rarity": "Common",
+            "rarity": "Rare",
             "power": 1.0,
             "icon": "/objects/farmables/alta/liquid/ionic/icon.png",
             "colony": [
                 "alterash",
-                "common",
                 "farming",
                 "ionic",
-                "nature"
+                "nature",
+                "rare"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
                 "ct_ionic_sapling"
             ],
             "unlocked_by": [
+                "ct_ion_core-codex",
                 "ct_ionic_eco_pod"
             ],
             "pickup_msgs": [
                 "pickupseed"
             ],
             "used_in_recipes": [
+                "ct_enternia_seed",
                 "ct_ionic_boosted",
                 "ct_ionic_eco",
                 "ct_ionic_eco_pod",
@@ -37624,7 +38013,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_isoslime-codex"
+                "ct_isoslime-codex",
+                "ct_poi_seed"
             ],
             "unlocked_by": [
                 "ct_isoslime-codex"
@@ -37869,6 +38259,10 @@
             "unlocked_by": [
                 "ct_isoslime_sapling"
             ],
+            "used_in_recipes": [
+                "ct_isoslime_eco_pod",
+                "ct_poi_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -37966,6 +38360,10 @@
             "unlocked_by": [
                 "ct_isoslime_seed"
             ],
+            "used_in_recipes": [
+                "ct_isoslime_boosted",
+                "ct_isoslime_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -37991,6 +38389,15 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_in_jelly_seed",
+                "ct_isoslime_boosted",
+                "ct_isoslime_eco",
+                "ct_isoslime_eco_pod",
+                "ct_isoslime_sapling",
+                "ct_poi_eco",
+                "ct_poi_eco_pod"
             ],
             "loot": {},
             "sources": {
@@ -38427,7 +38834,8 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_koywa-codex"
+                "ct_koywa-codex",
+                "ct_koywa_seed"
             ],
             "unlocked_by": [
                 "ct_koywa-codex"
@@ -38656,6 +39064,7 @@
                 "ct_koywa_sapling"
             ],
             "unlocked_by": [
+                "ct_koywa-codex",
                 "ct_koywa_eco_pod"
             ],
             "pickup_msgs": [
@@ -38666,6 +39075,7 @@
                 "ct_koywa_eco",
                 "ct_koywa_eco_pod",
                 "ct_koywa_sapling",
+                "ct_ruka_seed",
                 "ct_voda_seed"
             ],
             "loot": {},
@@ -39472,7 +39882,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_tea_fo"
@@ -39540,7 +39952,8 @@
                 "viona"
             ],
             "unlocks_bps": [
-                "ct_miazma-codex"
+                "ct_miazma-codex",
+                "ct_viona_tree"
             ],
             "unlocked_by": [
                 "ct_miazma-codex"
@@ -40640,7 +41053,9 @@
                 "warped"
             ],
             "unlocks_bps": [
-                "ct_nivera-codex"
+                "ct_nivera-codex",
+                "ct_nivera_af",
+                "ct_nivera_tree"
             ],
             "unlocked_by": [
                 "ct_nivera-codex"
@@ -40686,6 +41101,7 @@
                 "warped"
             ],
             "unlocked_by": [
+                "ct_nivera-codex",
                 "ct_nivera_tree"
             ],
             "loot": {},
@@ -40878,6 +41294,9 @@
             ],
             "unlocks_bps": [
                 "ct_nivera_af"
+            ],
+            "unlocked_by": [
+                "ct_nivera-codex"
             ],
             "loot": {},
             "sources": {
@@ -41256,7 +41675,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ]
             }
         },
@@ -41314,6 +41735,9 @@
             ],
             "unlocked_by": [
                 "ct_alta_omniponics-codex"
+            ],
+            "used_in_recipes": [
+                "ct_starflower_eco_pod"
             ],
             "loot": {},
             "sources": {}
@@ -43013,6 +43437,9 @@
                 "ct_ionic_eco",
                 "ct_isoslime_eco"
             ],
+            "used_in_recipes": [
+                "ct_poi_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -43153,6 +43580,7 @@
                 "rare"
             ],
             "unlocked_by": [
+                "ct_haven-codex",
                 "ct_stardust_eco_pod"
             ],
             "loot": {},
@@ -43687,6 +44115,9 @@
             "unlocked_by": [
                 "ct_ruka_sapling"
             ],
+            "used_in_recipes": [
+                "ct_ruka_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -43726,6 +44157,10 @@
             "unlocked_by": [
                 "ct_ruka_seed"
             ],
+            "used_in_recipes": [
+                "ct_ruka_boosted",
+                "ct_ruka_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -43750,6 +44185,12 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_ruka_boosted",
+                "ct_ruka_eco",
+                "ct_ruka_eco_pod",
+                "ct_ruka_sapling"
             ],
             "loot": {},
             "sources": {
@@ -43974,7 +44415,8 @@
                 "sona"
             ],
             "unlocks_bps": [
-                "ct_sona-codex"
+                "ct_sona-codex",
+                "ct_sona_seed"
             ],
             "unlocked_by": [
                 "ct_sona-codex"
@@ -44038,6 +44480,9 @@
             ],
             "unlocked_by": [
                 "ct_sona_sapling"
+            ],
+            "used_in_recipes": [
+                "ct_sona_eco_pod"
             ],
             "loot": {},
             "sources": {}
@@ -44147,6 +44592,10 @@
             "unlocked_by": [
                 "ct_sona_seed"
             ],
+            "used_in_recipes": [
+                "ct_sona_boosted",
+                "ct_sona_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -44167,10 +44616,20 @@
                 "ct_sona_sapling"
             ],
             "unlocked_by": [
+                "ct_sona-codex",
                 "ct_sona_eco_pod"
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_cocola_seed",
+                "ct_eva_seed",
+                "ct_isoslime_seed",
+                "ct_sona_boosted",
+                "ct_sona_eco",
+                "ct_sona_eco_pod",
+                "ct_sona_sapling"
             ],
             "loot": {},
             "sources": {
@@ -44855,6 +45314,12 @@
             "unlocked_by": [
                 "ct_alta_thermoponics-codex"
             ],
+            "used_in_recipes": [
+                "ct_alternia_eco_pod",
+                "ct_ceternia_eco_pod",
+                "ct_diamond_eco_pod",
+                "ct_enternia_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -44998,6 +45463,9 @@
             "unlocked_by": [
                 "ct_stardust_seed"
             ],
+            "used_in_recipes": [
+                "ct_starflower_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -45025,6 +45493,10 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_stardust_sapling",
+                "ct_starflower_eco_pod"
             ],
             "loot": {},
             "sources": {
@@ -45701,7 +46173,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_dessert_fo",
@@ -45761,6 +46235,7 @@
                 "pickupseed"
             ],
             "used_in_recipes": [
+                "ct_cocola_seed",
                 "ct_tonna_boosted",
                 "ct_tonna_eco",
                 "ct_tonna_eco_pod",
@@ -45932,7 +46407,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_tonnova-codex"
+                "ct_tonnova-codex",
+                "ct_tonnova_tree"
             ],
             "unlocked_by": [
                 "ct_tonnova-codex"
@@ -46049,6 +46525,9 @@
             "unlocks_bps": [
                 "ct_tonnova_spiral_tree",
                 "ct_tonnova_wide_tree"
+            ],
+            "unlocked_by": [
+                "ct_tonnova-codex"
             ],
             "used_in_recipes": [
                 "ct_tonna_seed"
@@ -46365,6 +46844,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_calin_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
@@ -46405,6 +46885,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -46604,7 +47085,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_dessert_fo"
@@ -46649,7 +47132,8 @@
                 "ct_tsay_cultivated"
             ],
             "unlocked_by": [
-                "ct_tsay"
+                "ct_tsay",
+                "ct_tsay_seed"
             ],
             "used_in_recipes": [
                 "ct_tsay_cultivated"
@@ -46668,6 +47152,9 @@
                 "farming",
                 "nature",
                 "tsay"
+            ],
+            "unlocks_bps": [
+                "ct_tsay_sapling"
             ],
             "unlocked_by": [
                 "ct_tsay_eco_pod"
@@ -46881,6 +47368,9 @@
             "unlocked_by": [
                 "ct_turanta_sapling"
             ],
+            "used_in_recipes": [
+                "ct_turanta_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -46923,20 +47413,24 @@
             "unlocked_by": [
                 "ct_turanta_seed"
             ],
+            "used_in_recipes": [
+                "ct_turanta_boosted",
+                "ct_turanta_eco"
+            ],
             "loot": {},
             "sources": {}
         },
         "ct_turanta_seed": {
             "path": "/objects/farmables/alta/ground/turanta/ct_turanta_seed.object",
-            "rarity": "Common",
+            "rarity": "Uncommon",
             "power": 1.0,
             "icon": "/objects/farmables/alta/ground/turanta/icon.png",
             "colony": [
                 "alterash",
-                "common",
                 "farming",
                 "haven",
-                "nature"
+                "nature",
+                "uncommon"
             ],
             "unlocks_bps": [
                 "ct_alta_fertilizer",
@@ -46949,6 +47443,14 @@
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_haven_seed",
+                "ct_ruka_seed",
+                "ct_turanta_boosted",
+                "ct_turanta_eco",
+                "ct_turanta_eco_pod",
+                "ct_turanta_sapling"
             ],
             "loot": {},
             "sources": {
@@ -47842,6 +48344,10 @@
             "unlocks_bps": [
                 "ct_viona_seed"
             ],
+            "unlocked_by": [
+                "ct_enchanted-codex",
+                "ct_miazma-codex"
+            ],
             "used_in_recipes": [
                 "ct_viona_seed"
             ],
@@ -48188,6 +48694,7 @@
                 "pickupseed"
             ],
             "used_in_recipes": [
+                "cottonseed",
                 "ct_voda_boosted",
                 "ct_voda_eco",
                 "ct_voda_eco_pod",
@@ -48329,7 +48836,9 @@
                 "warped"
             ],
             "unlocks_bps": [
-                "ct_warped-codex"
+                "ct_warped-codex",
+                "ct_warped_bush_af",
+                "ct_warped_tree"
             ],
             "unlocked_by": [
                 "ct_warped-codex"
@@ -48526,6 +49035,7 @@
                 "warped"
             ],
             "unlocked_by": [
+                "ct_warped-codex",
                 "ct_warped_tree"
             ],
             "loot": {},
@@ -48963,6 +49473,9 @@
             "unlocked_by": [
                 "ct_warped_hive_sapling"
             ],
+            "used_in_recipes": [
+                "ct_warped_hive_eco_pod"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -49002,6 +49515,13 @@
                 "ct_biomix_fertilizer",
                 "ct_warped_hive_eco"
             ],
+            "unlocked_by": [
+                "ct_warped_hive_seed"
+            ],
+            "used_in_recipes": [
+                "ct_warped_hive_boosted",
+                "ct_warped_hive_eco"
+            ],
             "loot": {},
             "sources": {}
         },
@@ -49017,11 +49537,22 @@
                 "nature",
                 "warped"
             ],
+            "unlocks_bps": [
+                "ct_alta_fertilizer",
+                "ct_warped_hive_sapling"
+            ],
             "unlocked_by": [
                 "ct_warped_hive_eco_pod"
             ],
             "pickup_msgs": [
                 "pickupseed"
+            ],
+            "used_in_recipes": [
+                "ct_ela_seed",
+                "ct_warped_hive_boosted",
+                "ct_warped_hive_eco",
+                "ct_warped_hive_eco_pod",
+                "ct_warped_hive_sapling"
             ],
             "loot": {},
             "sources": {
@@ -49356,6 +49887,9 @@
             "unlocks_bps": [
                 "ct_warped_bush_af"
             ],
+            "unlocked_by": [
+                "ct_warped-codex"
+            ],
             "loot": {},
             "sources": {
                 "merchants": [
@@ -49651,7 +50185,7 @@
             "sources": {}
         },
         "ct_wild_haven_seed": {
-            "path": "/objects/farmables/alta/ground/haven/ct_wild_eva_seed.object",
+            "path": "/objects/farmables/alta/ground/haven/ct_wild_haven_seed.object",
             "rarity": "Common",
             "power": 0.5,
             "price": 120,
@@ -49975,7 +50509,9 @@
                 "yaara"
             ],
             "unlocks_bps": [
-                "ct_yaara-codex"
+                "ct_yaara-codex",
+                "ct_yaara_flower_af",
+                "ct_yaara_node"
             ],
             "unlocked_by": [
                 "ct_yaara-codex"
@@ -50467,6 +51003,9 @@
                 "uncommon",
                 "yaara"
             ],
+            "unlocked_by": [
+                "ct_yaara-codex"
+            ],
             "loot": {},
             "sources": {
                 "merchants": [
@@ -50629,7 +51168,8 @@
             ],
             "unlocked_by": [
                 "ct_alta_plant_yaara",
-                "ct_alta_ponics-codex"
+                "ct_alta_ponics-codex",
+                "ct_yaara-codex"
             ],
             "used_in_recipes": [
                 "ct_yaara_seed"
@@ -50898,6 +51438,10 @@
                 "pickupseed"
             ],
             "used_in_recipes": [
+                "ct_azura_seed",
+                "ct_ceternia_seed",
+                "ct_haven_seed",
+                "ct_turanta_seed",
                 "ct_yaara_boosted",
                 "ct_yaara_eco",
                 "ct_yaara_eco_pod",
@@ -51269,7 +51813,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "rewards": [
                     "ct_yaara_loot"
@@ -51567,6 +52113,7 @@
                 "warped"
             ],
             "unlocks_bps": [
+                "ct_ela_seed",
                 "ct_yonnur-codex"
             ],
             "unlocked_by": [
@@ -51691,7 +52238,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ],
                 "breakables_pools": [
                     "ct_alta_dessert_fo"
@@ -51862,7 +52411,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ]
             }
         },
@@ -51957,6 +52508,9 @@
                 "ct_coral_eco",
                 "ct_coralcreep_eco_pod"
             ],
+            "used_in_recipes": [
+                "ct_coral_seed"
+            ],
             "loot": {},
             "sources": {
                 "shops": [
@@ -51972,6 +52526,14 @@
             "unlocked_by": [
                 "ct_cotton_eco_pod",
                 "ct_eva_eco"
+            ],
+            "used_in_recipes": [
+                "ct_blossom_seed",
+                "ct_cotton_boosted",
+                "ct_cotton_eco",
+                "ct_cotton_eco_pod",
+                "ct_cotton_sapling",
+                "ct_eva_seed"
             ],
             "loot": {},
             "sources": {
@@ -52326,6 +52888,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -52355,6 +52918,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -52460,6 +53024,7 @@
             ],
             "used_in_recipes": [
                 "ct_alta_seed_set",
+                "ct_calin_seed",
                 "ct_calocol_tulip_af",
                 "ct_ezmeralda_af",
                 "ct_plasma_fertilizer"
@@ -53024,6 +53589,7 @@
                 "ct_alta_marine_display",
                 "ct_alto_flower_af",
                 "ct_basic_fertilizer",
+                "ct_coral_seed",
                 "ct_faro_flower_af",
                 "ct_gyera_fertilizer",
                 "ct_koywa_af",
@@ -53100,6 +53666,7 @@
                 "ct_valley_poptop_egg",
                 "ct_warped_anglure_egg",
                 "ct_warped_bush_af",
+                "ct_warped_hive_seed",
                 "ct_warped_smoker",
                 "ct_warped_sporgus_egg",
                 "ct_warped_tree",
@@ -53147,10 +53714,13 @@
                 "ct_basic_fertilizer",
                 "ct_blue_flower_af",
                 "ct_boost_fertilizer",
+                "ct_haven_seed",
                 "ct_hive_tree",
                 "ct_hunter_flower_af",
                 "ct_pink_flower_af",
                 "ct_red_flower_af",
+                "ct_ruka_seed",
+                "ct_sona_seed",
                 "ct_starfire",
                 "ct_starmatter",
                 "ct_starsteel",
@@ -53219,6 +53789,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_tenant",
                     "ct_alta_cargo_tenant",
@@ -53248,6 +53819,7 @@
                     "ct_dreamer_android_tenant",
                     "ct_eds_android_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_stardust_merchant_tenant",
                     "ct_viona_creature_tenant",
                     "ct_viona_merchant_tenant",
@@ -53585,6 +54157,7 @@
                     "ct_alta_agent_tenant",
                     "ct_alta_android_tenant",
                     "ct_alta_bed_tenant",
+                    "ct_alta_botanist_tenant",
                     "ct_alta_calin_tenant",
                     "ct_alta_capital_android_tenant",
                     "ct_alta_capital_official_tenant",
@@ -53637,6 +54210,7 @@
                     "ct_eds_officer_tenant",
                     "ct_eds_official_tenant",
                     "ct_elite_android_tenant",
+                    "ct_gyera_archiver_tenant",
                     "ct_mki_commander_tenant",
                     "ct_mki_officer_tenant",
                     "ct_mki_specialist_tenant",
@@ -53753,7 +54327,9 @@
                 ],
                 "rent": [
                     "ct_alta_bartender_tenant",
-                    "ct_alta_chef_tenant"
+                    "ct_alta_chef_tenant",
+                    "ct_alta_farm_tenant",
+                    "ct_alta_garden_tenant"
                 ]
             }
         },
@@ -53938,20 +54514,42 @@
         },
         "syringe": {
             "used_in_recipes": [
+                "cottonseed",
+                "ct_alternia_seed",
+                "ct_azura_seed",
+                "ct_blossom_seed",
+                "ct_calin_seed",
                 "ct_catalyst",
+                "ct_ceternia_seed",
+                "ct_cocola_seed",
+                "ct_coral_seed",
+                "ct_core_seed",
+                "ct_diamond_seed",
+                "ct_dream_seed",
+                "ct_ela_seed",
                 "ct_electric_stim",
+                "ct_enternia_seed",
+                "ct_eva_seed",
                 "ct_gheatsyn_seed",
+                "ct_haven_seed",
                 "ct_hevikai_antidote",
                 "ct_hevikai_stim",
                 "ct_hive_seed",
                 "ct_impulse_stim",
+                "ct_in_jelly_seed",
                 "ct_ionic_seed",
                 "ct_ionic_stim",
+                "ct_isoslime_seed",
                 "ct_koywa_seed",
                 "ct_plasma_stim",
+                "ct_ruka_seed",
+                "ct_sona_seed",
+                "ct_stardust_seed",
                 "ct_tonna_seed",
+                "ct_turanta_seed",
                 "ct_viona_seed",
                 "ct_voda_seed",
+                "ct_warped_hive_seed",
                 "ct_wild_aya_seed",
                 "ct_wild_yaavi_seed",
                 "ct_yaara_seed"
@@ -54993,6 +55591,7 @@
                 "ct_alta_artist_tenant",
                 "ct_alta_bartender_tenant",
                 "ct_alta_bed_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_calin_tenant",
                 "ct_alta_capital_android_tenant",
                 "ct_alta_capital_guard_tenant",
@@ -55010,8 +55609,10 @@
                 "ct_alta_earth_tenant",
                 "ct_alta_engineer_tenant",
                 "ct_alta_explorer_tenant",
+                "ct_alta_farm_tenant",
                 "ct_alta_field_researcher_tenant",
                 "ct_alta_gamer_tenant",
+                "ct_alta_garden_tenant",
                 "ct_alta_guard_tenant",
                 "ct_alta_holiday_tenant",
                 "ct_alta_hula_tenant",
@@ -55088,6 +55689,7 @@
                 "ct_ghearun_archiver_tenant",
                 "ct_ghearun_field_tenant",
                 "ct_ghearun_tenant",
+                "ct_gyera_archiver_tenant",
                 "ct_hevika_archiver_tenant",
                 "ct_hevika_tenant",
                 "ct_hive_tenant",
@@ -56581,8 +57183,11 @@
                 "ct_alta_agent_tenant",
                 "ct_alta_archiver_tenant",
                 "ct_alta_bartender_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_cargo_tenant",
                 "ct_alta_christmas_tenant",
+                "ct_alta_farm_tenant",
+                "ct_alta_garden_tenant",
                 "ct_alta_lab_archiver_tenant",
                 "ct_alta_merchant_tenant",
                 "ct_alta_service_tenant",
@@ -56591,6 +57196,7 @@
                 "ct_ceterai_archiver_tenant",
                 "ct_eds_archiver_tenant",
                 "ct_ghearun_archiver_tenant",
+                "ct_gyera_archiver_tenant",
                 "ct_hevika_archiver_tenant",
                 "ct_mki_archiver_tenant",
                 "ct_neiteru_archiver_tenant",
@@ -56774,10 +57380,8 @@
                 "ct_ceterai_emblem",
                 "ct_core_seed",
                 "ct_eds_emblem",
-                "ct_ela_seed",
                 "ct_elin_emblem",
                 "ct_enchanted_chest",
-                "ct_eva_seed",
                 "ct_faradea_emblem",
                 "ct_faro_flower_af",
                 "ct_frozen_energy1",
@@ -56793,8 +57397,6 @@
                 "ct_gil_sapling",
                 "ct_gil_seed",
                 "ct_gyera_emblem",
-                "ct_haven_seed",
-                "ct_ionic_seed",
                 "ct_isoslime1",
                 "ct_isoslime2",
                 "ct_isoslime3",
@@ -56824,7 +57426,6 @@
                 "ct_strizychar_af",
                 "ct_tsay_sapling",
                 "ct_tsay_seed",
-                "ct_turanta_seed",
                 "ct_verriskoywa_alto",
                 "ct_verriskoywa_alto_twin",
                 "ct_verriskoywa_faro",
@@ -57419,6 +58020,7 @@
                 "ct_alta_artist_tenant",
                 "ct_alta_bartender_tenant",
                 "ct_alta_bed_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_calin_tenant",
                 "ct_alta_capital_android_tenant",
                 "ct_alta_capital_guard_tenant",
@@ -57436,8 +58038,10 @@
                 "ct_alta_earth_tenant",
                 "ct_alta_engineer_tenant",
                 "ct_alta_explorer_tenant",
+                "ct_alta_farm_tenant",
                 "ct_alta_field_researcher_tenant",
                 "ct_alta_gamer_tenant",
+                "ct_alta_garden_tenant",
                 "ct_alta_guard_tenant",
                 "ct_alta_holiday_tenant",
                 "ct_alta_hula_tenant",
@@ -57536,6 +58140,7 @@
                 "ct_ghearun_archiver_tenant",
                 "ct_ghearun_field_tenant",
                 "ct_ghearun_tenant",
+                "ct_gyera_archiver_tenant",
                 "ct_hevika_archiver_tenant",
                 "ct_hevika_tenant",
                 "ct_hive_tenant",
@@ -58424,7 +59029,10 @@
                 "ct_yaavi_seed",
                 "ct_yaavi_sort"
             ],
-            "tenants": []
+            "tenants": [
+                "ct_alta_botanist_tenant",
+                "ct_alta_farm_tenant"
+            ]
         },
         "fertilizer": {
             "items": [
@@ -58659,7 +59267,10 @@
                 "ct_yaavi_af",
                 "ct_yellow_flower_af"
             ],
-            "tenants": []
+            "tenants": [
+                "ct_alta_botanist_tenant",
+                "ct_alta_garden_tenant"
+            ]
         },
         "gasthrower": {
             "items": [
@@ -58951,7 +59562,9 @@
                 "ct_gyera_sprinkler",
                 "ct_gyera_vendor"
             ],
-            "tenants": []
+            "tenants": [
+                "ct_gyera_archiver_tenant"
+            ]
         },
         "halberd": {
             "items": [
@@ -59583,6 +60196,7 @@
                 "ct_alternia_eco_pod",
                 "ct_alternia_sample",
                 "ct_alternia_sapling",
+                "ct_alternia_seed",
                 "ct_aric_sporgus_af",
                 "ct_aric_tf",
                 "ct_astera_art",
@@ -59607,6 +60221,7 @@
                 "ct_ceternia_eco_pod",
                 "ct_ceternia_sample",
                 "ct_ceternia_sapling",
+                "ct_ceternia_seed",
                 "ct_cocola_eco_pod",
                 "ct_coral_boosted",
                 "ct_coral_eco_pod",
@@ -59636,6 +60251,7 @@
                 "ct_enternia_eco_pod",
                 "ct_enternia_sample",
                 "ct_enternia_sapling",
+                "ct_enternia_seed",
                 "ct_eva_eco_pod",
                 "ct_ezmeralda_af",
                 "ct_geo_trophy",
@@ -59653,6 +60269,7 @@
                 "ct_impulse_bobfae_af",
                 "ct_in_jelly_boosted",
                 "ct_in_jelly_eco_pod",
+                "ct_ionic_boosted",
                 "ct_ionic_crippit_af",
                 "ct_ionic_crustoise_af",
                 "ct_ionic_eco_pod",
@@ -59790,6 +60407,7 @@
                 "ct_alta_artist_tenant",
                 "ct_alta_bartender_tenant",
                 "ct_alta_bed_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_calin_tenant",
                 "ct_alta_capital_android_tenant",
                 "ct_alta_capital_guard_tenant",
@@ -59807,8 +60425,10 @@
                 "ct_alta_earth_tenant",
                 "ct_alta_engineer_tenant",
                 "ct_alta_explorer_tenant",
+                "ct_alta_farm_tenant",
                 "ct_alta_field_researcher_tenant",
                 "ct_alta_gamer_tenant",
+                "ct_alta_garden_tenant",
                 "ct_alta_guard_tenant",
                 "ct_alta_holiday_tenant",
                 "ct_alta_hula_tenant",
@@ -59907,6 +60527,7 @@
                 "ct_ghearun_archiver_tenant",
                 "ct_ghearun_field_tenant",
                 "ct_ghearun_tenant",
+                "ct_gyera_archiver_tenant",
                 "ct_hevika_archiver_tenant",
                 "ct_hevika_tenant",
                 "ct_hive_tenant",
@@ -61539,7 +62160,6 @@
                 "ct_alta_vendor",
                 "ct_alterash_art",
                 "ct_alternia_crystal",
-                "ct_alternia_seed",
                 "ct_anglure_lamp",
                 "ct_arco_pod",
                 "ct_ariling_af",
@@ -61563,7 +62183,6 @@
                 "ct_capsule_blue",
                 "ct_capsule_purple",
                 "ct_capsule_red",
-                "ct_ceternia_seed",
                 "ct_cocola_boosted",
                 "ct_cocola_eco",
                 "ct_combat_pod",
@@ -61581,8 +62200,8 @@
                 "ct_eds_terminal",
                 "ct_eds_turret",
                 "ct_ela_boosted",
+                "ct_ela_eco",
                 "ct_enhancedmoonrock",
-                "ct_enternia_seed",
                 "ct_eva_boosted",
                 "ct_faradea_pod",
                 "ct_felistraza_art",
@@ -61593,13 +62212,16 @@
                 "ct_giant_berry_af",
                 "ct_gil_boosted",
                 "ct_haven_boosted",
+                "ct_haven_eco",
                 "ct_hevika_sample",
                 "ct_hevika_turret",
                 "ct_hive_eco",
                 "ct_hive_tree",
                 "ct_in_jelly_eco",
                 "ct_ion_klee_af",
-                "ct_ionic_boosted",
+                "ct_ionic_eco",
+                "ct_ionic_sapling",
+                "ct_ionic_seed",
                 "ct_isoslime_boosted",
                 "ct_isoslime_sample",
                 "ct_koywa_eco",
@@ -61638,6 +62260,7 @@
                 "ct_yonnur_sample"
             ],
             "tenants": [
+                "ct_alta_botanist_tenant",
                 "ct_combat_captain_tenant",
                 "ct_combat_tenant",
                 "ct_eds_security_tenant",
@@ -61889,6 +62512,7 @@
             ],
             "tenants": [
                 "ct_alta_archiver_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_field_researcher_tenant",
                 "ct_alta_researcher_tenant",
                 "ct_alta_scientist_tenant",
@@ -62455,6 +63079,7 @@
             "tenants": [
                 "ct_alta_agent_tenant",
                 "ct_alta_archiver_tenant",
+                "ct_alta_botanist_tenant",
                 "ct_alta_christmas_tenant",
                 "ct_alta_lab_archiver_tenant",
                 "ct_alta_merchant_tenant",
@@ -62462,6 +63087,7 @@
                 "ct_ceterai_archiver_tenant",
                 "ct_eds_archiver_tenant",
                 "ct_ghearun_archiver_tenant",
+                "ct_gyera_archiver_tenant",
                 "ct_hevika_archiver_tenant",
                 "ct_mki_archiver_tenant",
                 "ct_neiteru_archiver_tenant",
@@ -63439,12 +64065,13 @@
                 "ct_eds_haulter_wires",
                 "ct_eds_lamppost",
                 "ct_eds_table",
-                "ct_ela_eco",
                 "ct_ela_sapling",
+                "ct_ela_seed",
                 "ct_elin_bug_af",
                 "ct_elin_pod",
                 "ct_eva_eco",
                 "ct_eva_sapling",
+                "ct_eva_seed",
                 "ct_frozen_energy_ball",
                 "ct_gheatsyn_bed",
                 "ct_gheatsyn_chair",
@@ -63469,8 +64096,8 @@
                 "ct_gil_fertile",
                 "ct_gil_mixed",
                 "ct_gyera_sprinkler",
-                "ct_haven_eco",
                 "ct_haven_sapling",
+                "ct_haven_seed",
                 "ct_hevika_bed",
                 "ct_hevika_chair",
                 "ct_hevika_chest",
@@ -63488,9 +64115,7 @@
                 "ct_hyolic_growth_crystal",
                 "ct_in_jelly_sapling",
                 "ct_in_jelly_seed",
-                "ct_ionic_eco",
                 "ct_ionic_ferment_sample",
-                "ct_ionic_sapling",
                 "ct_isoslime_eco",
                 "ct_isoslime_sapling",
                 "ct_juviley_af",
@@ -63530,6 +64155,7 @@
                 "ct_tsay_mixed",
                 "ct_turanta_eco",
                 "ct_turanta_sapling",
+                "ct_turanta_seed",
                 "ct_unwarped_fly_af",
                 "ct_vio_zych_af",
                 "ct_viona_sapling",
