@@ -20,7 +20,8 @@
   "objectImage" : "body.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "bottom" ], "requireTilledAnchors" : true
     }
   ],

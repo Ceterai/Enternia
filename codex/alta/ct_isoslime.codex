@@ -22,7 +22,7 @@ Izo Jam is a popular cooking ingredient in itself, used in many different cold d
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook", "isoslime" ], "learnBlueprintsOnPickup" : [ "ct_isoslime-codex", "ct_poi_seed" ],
+      "itemTags" : [ "data_source", "ebook", "isoslime" ], "learnBlueprintsOnPickup" : [ "ct_isoslime-codex", "ct_isoslime_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

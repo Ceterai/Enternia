@@ -23,7 +23,7 @@ This might deem \"warm tavriya\" zones as uniquely valuable because of this curr
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "datamass", "sona" ], "learnBlueprintsOnPickup" : [ "ct_tavriya-codex" ],
+      "itemTags" : [ "data_source", "datamass", "sona" ], "learnBlueprintsOnPickup" : [ "ct_tavriya-codex", "ct_sona_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

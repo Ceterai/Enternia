@@ -21,7 +21,7 @@
   "orientations" : [
     {
       "dualImage" : "body.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-4, 0],
+      "imagePosition" : [4, 0],
       "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]

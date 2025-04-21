@@ -13,8 +13,7 @@
   "orientations" : [
     {
       "dualImage" : "body.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-3, 0],
-      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
     }

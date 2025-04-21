@@ -28,7 +28,7 @@ It's worth noting that there are some species alien to the area that are slowly 
   ],
     "itemConfig" : {
       "level" : 5,
-      "itemTags" : [ "data_source", "datamass", "eva" ], "learnBlueprintsOnPickup" : [ "ct_eva-codex", "ct_ezmeralda_af" ],
+      "itemTags" : [ "data_source", "datamass", "eva" ], "learnBlueprintsOnPickup" : [ "ct_eva-codex", "ct_ezmeralda_af", "ct_eva_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {

@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.4 - Alta Hobbies](#update-24---alta-hobbies)
+    - [2.4.0.fix](#240fix)
     - [2.4.0](#240)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
     - [2.3.4e](#234e)
@@ -67,11 +68,35 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.4 - Alta Hobbies
 
+### 2.4.0.fix
+
+A quick hotfix to address smaller issues coming from 2.4 initial release.
+
+**Main:**
+
+- fixed spacing and positioning on all crops;
+- added missing recipe and treasure entries for new items.
+
+**Alta:**
+
+- added a separate item pool for Alta Christmas Girl's shop;
+- added more unlocked recipes to codexes and crops;
+- updated tool recipes to reflect progress stages properly with according types of recipes;
+- made the Alta Dendrarium recipe to be available in the Alta Crafting Station.
+
+**Other:**
+
+- fixed icons for Aya and Yaavi seeds;
+- moved Aya and Yaavi seeds to the seed tab;
+- Arilings and Hunter Flowers now drop themselves when captured with a bug net;
+- fixed grass blaster item tags;
+- minor bug fixes.
+
 ### 2.4.0
 
 An update that brings you the Dendrarium - a farming & botanics station with new and improved tools, saplings, flowers, fertilizers and more!
 
-Crafted at the tier 1 **Alta Crafting Station**, you can use it to craft farming tools, discover and upgrade saplings, pot **-???-** flowers and plants and craft other botanics-related items, including extracted 4 crop seeds, 8 grass seeds, 6 flower pots, 6 eco pods, **-???-** upgraded crop/tree saplings, 2 plant-like critters, 5 tillers, 5 watering cans, 6 sprinklers, 7 wood cutters, 10 fertilizers and 10 codex entries.
+Crafted at the tier 1 **Alta Crafting Station**, you can use it to craft farming tools, discover and upgrade saplings, pot 20+ flowers and plants and craft other botanics-related items, including extracted 4 crop seeds, 8 grass seeds, 6 flower pots, 6 eco pods, 40+ upgraded crop/tree saplings, 2 plant-like critters, 5 tillers, 5 watering cans, 6 sprinklers, 7 wood cutters, 10 fertilizers and 10 codex entries.
 
 Some of the tools are upgradeable at the **Weapon Upgrade Anvil**.
 
@@ -81,11 +106,11 @@ The update also adds **8** new **cooking stations** for specific food types!
 
 Finally, the mod is now available on [Nexus Mods](https://www.nexusmods.com/starbound/mods/1057)!
 
-**Main**:
+**Main:**
 
 - added **Alta Dendrarium**.
 
-**Alta**:
+**Alta:**
 
 - added **Alta Dendrarium**:
   - added unlockable recipes to dendrarium items - you'll have to progress by crafting items and unlocking new recipes;

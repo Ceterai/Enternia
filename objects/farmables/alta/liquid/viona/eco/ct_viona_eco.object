@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_viona_eco",
-  "colonyTags" : [ "alterash", "nature", "viona", "farming" ], "learnBlueprintsOnPickup" : [ "ct_viona_boosted", "ct_dream_seed" ],
+  "colonyTags" : [ "alterash", "nature", "viona", "farming" ], "learnBlueprintsOnPickup" : [ "ct_viona_boosted", "ct_azura_seed" ],
   "category" : "seed", "objectType" : "farmable",
   "level" : 5,
 
@@ -12,7 +12,9 @@
   "objectImage" : "body.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1], [0, 2] ],
       "anchors" : [ "bottom" ], "requireTilledAnchors" : true
     }
   ],

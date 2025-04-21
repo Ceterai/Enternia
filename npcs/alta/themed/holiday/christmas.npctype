@@ -13,9 +13,7 @@
     ]
   },
   "scriptConfig" : {
-    "merchant" : { "numItems" : 8, "categories" : { "default" : [
-      "aid", "shop", "thrown", "robotics", "augments", "collars", "sets", "shields", "tools", "armor", "decor", "randomguns", "randomswords", "codex", "rare"
-    ] } },
+    "merchant" : { "numItems" : 8, "categories" : { "default" : [ "holiday" ] } },
     "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:tout" } }
   }
 }

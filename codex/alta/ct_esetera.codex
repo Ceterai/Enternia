@@ -26,7 +26,7 @@ This effect is absent near the ^#202080;Ion Core^reset; of the planet."
   ],
     "itemConfig" : {
       "level" : 5,
-      "itemTags" : [ "data_source", "ebook", "esetera" ], "learnBlueprintsOnPickup" : [ "ct_esetera-codex" ],
+      "itemTags" : [ "data_source", "ebook", "esetera" ], "learnBlueprintsOnPickup" : [ "ct_esetera-codex", "ct_cocola_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

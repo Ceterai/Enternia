@@ -28,7 +28,7 @@
           {"weight" : 0.05, "item" : "wavetable"},
           // Cosmetics,         total: 0.04
           {"weight" : 0.03, "item" : "badgooplush"},
-          // TODO in 2.4: {"weight" : 0.01, "item" : "ct_alta_grass_blaster"},
+          {"weight" : 0.01, "item" : "ct_alta_grass_blaster"},
           // Treasure,          total: 0.04
           {"weight" : 0.04, "item" : "ct_aya_virma"},
           // Miscelanious,      total: 0.14
@@ -49,17 +49,17 @@
           {"weight" : 0.04, "item" : [ "bottledwater", 2 ] },
           {"weight" : 0.01, "item" : "bottledhealingwater" },
           {"weight" : 0.11, "item" : [ "ct_glowstick_ceterteal", 2 ] },
-          // TODO in 2.4: {"weight" : 0.01, "item" : [ "ct_grass_seeds", 2 ] },
-          // TODO in 2.4: {"weight" : 0.01, "item" : [ "ct_lush_grass_seeds", 2 ] },
-          // TODO in 2.4: {"weight" : 0.018, "item" : [ "ct_grass_seeds", 4 ] },
-          // TODO in 2.4: {"weight" : 0.002, "item" : [ "ct_omni_grass_seeds", 2 ] },
+          {"weight" : 0.01, "item" : [ "ct_grass_seeds", 2 ] },
+          {"weight" : 0.01, "item" : [ "ct_lush_grass_seeds", 2 ] },
+          {"weight" : 0.018, "item" : [ "ct_grass_seeds", 4 ] },
+          {"weight" : 0.002, "item" : [ "ct_omni_grass_seeds", 2 ] },
           // Nature,            total: 0.08
           {"weight" : 0.02, "item" : "fireflowerpot" },
           {"weight" : 0.02, "item" : "flowerlamp" },
-          // TODO in 2.4: {"weight" : 0.02, "item" : "ct_ayaka_flower_pot" },
-          // TODO in 2.4: {"weight" : 0.02, "item" : "ct_blue_flower_af" },
-          // TODO in 2.4: {"weight" : 0.02, "item" : "ct_red_flower_af" },
-          // TODO in 2.4: {"weight" : 0.02, "item" : "ct_yellow_flower_af" },
+          {"weight" : 0.02, "item" : "ct_ayaka_flower_pot" },
+          {"weight" : 0.02, "item" : "ct_blue_flower_af" },
+          {"weight" : 0.02, "item" : "ct_red_flower_af" },
+          {"weight" : 0.02, "item" : "ct_yellow_flower_af" },
           // Decorations,       total: 0.14
           {"weight" : 0.02, "item" : "tier3bed" },
           {"weight" : 0.03, "item" : "tier3chair" },
@@ -68,7 +68,7 @@
           {"weight" : 0.03, "item" : "tier3light" },
           {"weight" : 0.02, "item" : "tier3table" },
           {"weight" : 0.0399, "item" : "ct_gyera_emblem" },
-          // TODO in 2.4: {"weight" : 0.0001, "item" : "ct_gyera_vendor" },
+          {"weight" : 0.0001, "item" : "ct_gyera_vendor" },
           // Cosmetics,         total: 0.04
           {"weight" : 0.02, "item" : "poptopplush" },
           {"weight" : 0.02, "item" : "bearplush" },
@@ -76,19 +76,19 @@
           {"weight" : 0.01, "item" : [ "ct_gharus_spice", 2 ] },
           {"weight" : 0.01, "item" : "ct_gillikada" },
           {"weight" : 0.02, "item" : "ct_alta_toy_runeva_ball" },
-          // TODO in 2.4: {"weight" : 0.03, "item" : "ct_gyera_sprinkler" },
-          // TODO in 2.4: {"weight" : 0.01, "item" : "ct_alta_sprinkler" },
-          // TODO in 2.4: {"weight" : 0.04, "item" : "ct_gyera_can" },
+          {"weight" : 0.03, "item" : "ct_gyera_sprinkler" },
+          {"weight" : 0.01, "item" : "ct_alta_sprinkler" },
+          {"weight" : 0.04, "item" : "ct_gyera_can" },
           // Miscelanious,      total: 0.26
-          // TODO in 2.4: {"weight" : 0.03, "item" : "ct_gyera_blaster" },
-          // TODO in 2.4: {"weight" : 0.03, "item" : "ct_gyera_token" },
-          // TODO in 2.4: {"weight" : 0.03, "item" : [ "ct_gyera_token", 2 ] },
-          // TODO in 2.4: {"weight" : 0.01, "item" : [ "ct_gyera_token", 3 ] },
+          {"weight" : 0.03, "item" : "ct_gyera_blaster" },
+          {"weight" : 0.03, "item" : "ct_gyera_token" },
+          {"weight" : 0.03, "item" : [ "ct_gyera_token", 2 ] },
+          {"weight" : 0.01, "item" : [ "ct_gyera_token", 3 ] },
           {"weight" : 0.04, "item" : "ct_gil" },
           {"weight" : 0.005, "item" : "ct_gil_seed" },
           {"weight" : 0.045, "item" : "ct_gyera-codex" },
-          // TODO in 2.4: {"weight" : 0.02, "item" : "ct_basic_fertilizer" },
-          // TODO in 2.4: {"weight" : 0.05, "item" : "ct_gyera_fertilizer" },
+          {"weight" : 0.02, "item" : "ct_basic_fertilizer" },
+          {"weight" : 0.05, "item" : "ct_gyera_fertilizer" },
           // Self-loot,         total: 0.02
           {"weight" : 0.02, "item" : "ct_gyera_loot" }
   ] }] ],
@@ -141,11 +141,11 @@
   "ct_haven_loot" : [ [0, { "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ], "pool" : [
           // Resources,         total: 0.36
           {"weight" : 0.10, "item" : [ "cloudblock", 4 ] },
-          // TODO in 2.4: {"weight" : 0.06, "item" : [ "ct_grass_seeds", 4 ] },
-          // TODO in 2.4: {"weight" : 0.06, "item" : [ "ct_lush_grass_seeds", 4 ] },
-          // TODO in 2.4: {"weight" : 0.079, "item" : [ "ct_flowery_grass_seeds", 4 ] },
-          // TODO in 2.4: {"weight" : 0.06, "item" : [ "ct_omni_flowery_grass_seeds", 4 ] },
-          // TODO in 2.4: {"weight" : 0.001, "item" : "ct_alta_grass_nade" },
+          {"weight" : 0.06, "item" : [ "ct_grass_seeds", 4 ] },
+          {"weight" : 0.06, "item" : [ "ct_lush_grass_seeds", 4 ] },
+          {"weight" : 0.079, "item" : [ "ct_flowery_grass_seeds", 4 ] },
+          {"weight" : 0.06, "item" : [ "ct_omni_flowery_grass_seeds", 4 ] },
+          {"weight" : 0.001, "item" : "ct_alta_grass_nade" },
           // Nature,            total: 0.04
           {"weight" : 0.01, "item" : "giantflower1"},
           {"weight" : 0.01, "item" : "giantflower2"},
@@ -165,7 +165,7 @@
           // Treasure,          total: 0.08
           {"weight" : 0.03, "item" : "ct_haven_storm"},
           {"weight" : 0.02, "item" : "ct_flowersword"},
-          // TODO in 2.4: {"weight" : 0.03, "item" : "ct_haven_tiller"},
+          {"weight" : 0.03, "item" : "ct_haven_tiller"},
           // Miscelanious,      total: 0.14
           {"weight" : 0.05, "item" : "fireflowerpot"},
           {"weight" : 0.05, "item" : "flowerlamp"},

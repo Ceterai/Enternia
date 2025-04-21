@@ -19,7 +19,12 @@
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:default.3.0",
   "orientations" : [
-    { "dualImage" : "body.png:<color>.<stage>.<alt>", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "requireTilledAnchors" : true }
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
   ],
 
   "stages" : [

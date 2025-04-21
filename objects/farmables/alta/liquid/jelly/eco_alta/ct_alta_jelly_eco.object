@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_jelly_eco",
-  "colonyTags" : [ "alterash", "nature", "sea", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_jelly_eco_pod" ],
+  "colonyTags" : [ "alterash", "nature", "sea", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_jelly_eco_pod", "ct_isoslime_seed", "ct_hive_seed" ],
   "category" : "seed", "objectType" : "farmable",
   "level" : 5,
 
@@ -12,7 +12,9 @@
   "objectImage" : "body.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "bottom" ], "requireTilledAnchors" : true
     }
   ],

@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_sona_eco",
-  "colonyTags" : [ "alterash_prime", "nature", "sona", "farming" ], "learnBlueprintsOnPickup" : [ "ct_sona_boosted", "ct_eva_seed" ],
+  "colonyTags" : [ "alterash_prime", "nature", "sona", "farming" ], "learnBlueprintsOnPickup" : [ "ct_sona_boosted", "ct_eva_seed", "ct_cocola_seed" ],
   "category" : "seed", "objectType" : "farmable",
   "level" : 4,
 
@@ -12,7 +12,9 @@
   "objectImage" : "body.png:default.3.0",
   "orientations" : [
     {
-      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
       "anchors" : [ "bottom" ], "requireTilledAnchors" : true
     }
   ],

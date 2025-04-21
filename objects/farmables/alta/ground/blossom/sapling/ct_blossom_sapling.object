@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_blossom_sapling",
-  "colonyTags" : [ "alterash", "nature", "garden", "farming" ], "learnBlueprintsOnPickup" : [ "ct_blossom_eco", "ct_gyera_fertilizer" ],
+  "colonyTags" : [ "alterash", "nature", "garden", "farming" ], "learnBlueprintsOnPickup" : [ "ct_blossom_eco", "ct_gyera_fertilizer", "ct_alta_plant_blossom" ],
   "category" : "seed", "objectType" : "farmable",
   "level" : 4,
 
@@ -13,7 +13,7 @@
   "orientations" : [
     {
       "dualImage" : "body.png:<color>.<stage>.<alt>",
-      "imagePosition" : [-3, 0],
+      "imagePosition" : [-4, 0],
       "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
       "requireTilledAnchors" : true,
       "anchors" : [ "bottom" ]
