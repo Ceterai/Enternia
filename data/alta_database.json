@@ -3079,6 +3079,7 @@
                 "ct_alta_fertilizer",
                 "ct_alternia_seed",
                 "ct_azura_seed",
+                "ct_beakseed_cultivated",
                 "ct_blossom_seed",
                 "ct_calin_seed",
                 "ct_ceternia_seed",
@@ -7395,7 +7396,6 @@
                 "ct_datamass_msg"
             ],
             "used_in_recipes": [
-                "ct_alta_flowers-codex",
                 "ct_alta_plant_bed",
                 "ct_alta_plant_pod",
                 "ct_alta_sprinkler",
@@ -15824,7 +15824,8 @@
             ],
             "unlocked_by": [
                 "ct_ayaka_giant_tree",
-                "ct_ayaka_stardust_tree"
+                "ct_ayaka_stardust_tree",
+                "ct_elin-codex"
             ],
             "loot": {},
             "sources": {
@@ -16298,6 +16299,7 @@
                 "ct_alta_energy_mask",
                 "ct_alta_flag",
                 "ct_alta_flower_pot",
+                "ct_alta_flowers-codex",
                 "ct_alta_fridge",
                 "ct_alta_gateway",
                 "ct_alta_hatch",
@@ -16847,6 +16849,68 @@
                 ]
             }
         },
+        "ct_beakseed_boosted": {
+            "path": "/objects/farmables/alta/ground/produce/beakseed/boosted/ct_beakseed_boosted.object",
+            "rarity": "Rare",
+            "power": 1.0,
+            "icon": "/objects/farmables/alta/ground/produce/beakseed/boosted/icon.png",
+            "colony": [
+                "beakseed",
+                "farming",
+                "nature",
+                "rare"
+            ],
+            "unlocks_bps": [
+                "ct_beakseed_eco_pod"
+            ],
+            "unlocked_by": [
+                "ct_beakseed_eco"
+            ],
+            "loot": {},
+            "sources": {}
+        },
+        "ct_beakseed_cultivated": {
+            "path": "/objects/farmables/alta/ground/produce/beakseed/cultivated/ct_beakseed_cultivated.object",
+            "rarity": "Uncommon",
+            "power": 1.0,
+            "icon": "/objects/farmables/alta/ground/produce/beakseed/cultivated/icon.png",
+            "colony": [
+                "beakseed",
+                "farming",
+                "nature",
+                "uncommon"
+            ],
+            "unlocks_bps": [
+                "ct_alta_fertilizer",
+                "ct_beakseed_eco"
+            ],
+            "unlocked_by": [
+                "ct_beakseed_sapling"
+            ],
+            "loot": {},
+            "sources": {}
+        },
+        "ct_beakseed_eco": {
+            "path": "/objects/farmables/alta/ground/produce/beakseed/eco/ct_beakseed_eco.object",
+            "rarity": "Uncommon",
+            "power": 1.0,
+            "icon": "/objects/farmables/alta/ground/produce/beakseed/eco/icon.png",
+            "colony": [
+                "beakseed",
+                "farming",
+                "nature",
+                "uncommon"
+            ],
+            "unlocks_bps": [
+                "ct_beakseed_boosted",
+                "ct_gyera_fertilizer"
+            ],
+            "unlocked_by": [
+                "ct_beakseed_cultivated"
+            ],
+            "loot": {},
+            "sources": {}
+        },
         "ct_beakseed_eco_pod": {
             "path": "/objects/farmables/alta/ground/produce/beakseed/pod/ct_beakseed_eco_pod.object",
             "rarity": "Legendary",
@@ -16860,6 +16924,27 @@
             ],
             "unlocks_bps": [
                 "beakseedseed"
+            ],
+            "unlocked_by": [
+                "ct_beakseed_boosted"
+            ],
+            "loot": {},
+            "sources": {}
+        },
+        "ct_beakseed_sapling": {
+            "path": "/objects/farmables/alta/ground/produce/beakseed/sapling/ct_beakseed_sapling.object",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/objects/farmables/alta/ground/produce/beakseed/sapling/icon.png",
+            "colony": [
+                "beakseed",
+                "common",
+                "farming",
+                "nature"
+            ],
+            "unlocks_bps": [
+                "ct_beakseed_cultivated",
+                "ct_ionic_fertilizer"
             ],
             "loot": {},
             "sources": {}
@@ -27971,8 +28056,8 @@
                 "uncommon"
             ],
             "unlocks_bps": [
-                "ct_elin-codex",
-                "ct_elin_ayaka_tree"
+                "ct_ayaka_elin_tree",
+                "ct_elin-codex"
             ],
             "unlocked_by": [
                 "ct_elin-codex"
@@ -32569,7 +32654,6 @@
                 "crops": [
                     "ct_alien_fruit_eco_pod",
                     "ct_alta_jelly_eco_pod",
-                    "ct_beakseed_eco_pod",
                     "ct_coralcreep_eco_pod",
                     "ct_gil_boosted",
                     "ct_gil_cultivated",
@@ -32854,7 +32938,6 @@
                 "crops": [
                     "ct_alien_fruit_eco_pod",
                     "ct_alta_jelly_eco_pod",
-                    "ct_beakseed_eco_pod",
                     "ct_coralcreep_eco_pod",
                     "ct_gil_boosted",
                     "ct_gil_cultivated",
@@ -33863,6 +33946,7 @@
             "unlocked_by": [
                 "ct_alta_soil_enrichment-codex",
                 "ct_aya_eco",
+                "ct_beakseed_eco",
                 "ct_blossom_sapling",
                 "ct_gil_eco",
                 "ct_gyera-codex",
@@ -37030,6 +37114,7 @@
                 "ionic"
             ],
             "unlocked_by": [
+                "ct_beakseed_sapling",
                 "ct_gil_sapling",
                 "ct_tsay_sapling"
             ],
@@ -37560,7 +37645,6 @@
                     "ct_azura_eco_pod",
                     "ct_azura_sapling",
                     "ct_azura_seed",
-                    "ct_beakseed_eco_pod",
                     "ct_ceternia_eco_pod",
                     "ct_ceternia_sapling",
                     "ct_ceternia_seed",
@@ -40620,7 +40704,6 @@
                 "ct_alta_citadel-codex",
                 "ct_alta_city-codex",
                 "ct_alta_crystals-codex",
-                "ct_alta_flowers-codex",
                 "ct_alta_food-codex",
                 "ct_alta_food_2-codex",
                 "ct_alta_food_calin-codex",
@@ -47828,7 +47911,7 @@
         "ct_verriskoywa_alto_twin": {
             "path": "/objects/biome/alterash/koywa/flowers/alto_twin/ct_verriskoywa_alto_twin.object",
             "rarity": "Common",
-            "power": 1.0,
+            "power": 1.5,
             "price": 30,
             "icon": "/objects/biome/alterash/koywa/flowers/alto_twin/icon.png",
             "colony": [
@@ -47925,7 +48008,7 @@
         "ct_verriskoywa_faro_twin": {
             "path": "/objects/biome/alterash/koywa/flowers/faro_twin/ct_verriskoywa_faro_twin.object",
             "rarity": "Common",
-            "power": 1.0,
+            "power": 1.5,
             "price": 30,
             "icon": "/objects/biome/alterash/koywa/flowers/faro_twin/icon.png",
             "colony": [
@@ -48159,7 +48242,7 @@
         "ct_verriskoywa_miko_twin": {
             "path": "/objects/biome/alterash/koywa/flowers/miko_twin/ct_verriskoywa_miko_twin.object",
             "rarity": "Common",
-            "power": 1.0,
+            "power": 1.5,
             "price": 30,
             "icon": "/objects/biome/alterash/koywa/flowers/miko_twin/icon.png",
             "colony": [
@@ -52754,6 +52837,7 @@
                 "ct_alta_energy_mask",
                 "ct_alta_energy_source",
                 "ct_alta_fermenter",
+                "ct_alta_flowers-codex",
                 "ct_alta_fridge",
                 "ct_alta_grass_blaster",
                 "ct_alta_hand_dryer",
@@ -56718,7 +56802,11 @@
         "beakseed": {
             "items": [],
             "objects": [
-                "ct_beakseed_eco_pod"
+                "ct_beakseed_boosted",
+                "ct_beakseed_cultivated",
+                "ct_beakseed_eco",
+                "ct_beakseed_eco_pod",
+                "ct_beakseed_sapling"
             ],
             "tenants": []
         },
@@ -57550,6 +57638,7 @@
                 "ct_ayaka_sap_blob_ceiling3",
                 "ct_ayaka_tree",
                 "ct_ayaka_young_tree",
+                "ct_beakseed_sapling",
                 "ct_blue_flower_af",
                 "ct_boko_plush",
                 "ct_bulbonid",
@@ -59041,7 +59130,11 @@
                 "ct_azura_eco_pod",
                 "ct_azura_sapling",
                 "ct_azura_seed",
+                "ct_beakseed_boosted",
+                "ct_beakseed_cultivated",
+                "ct_beakseed_eco",
                 "ct_beakseed_eco_pod",
+                "ct_beakseed_sapling",
                 "ct_blossom_boosted",
                 "ct_blossom_eco",
                 "ct_blossom_eco_pod",
@@ -61173,6 +61266,10 @@
                 "ct_azura_sapling",
                 "ct_azura_seed",
                 "ct_azura_tree",
+                "ct_beakseed_boosted",
+                "ct_beakseed_cultivated",
+                "ct_beakseed_eco",
+                "ct_beakseed_sapling",
                 "ct_bionid_snail_af",
                 "ct_blossom_boosted",
                 "ct_blossom_eco",
@@ -62350,6 +62447,7 @@
                 "ct_ayaka_elin_tree",
                 "ct_azura_boosted",
                 "ct_backdoor",
+                "ct_beakseed_boosted",
                 "ct_bion_flower_pot",
                 "ct_bion_sample",
                 "ct_bionid_sample",
@@ -64204,6 +64302,8 @@
                 "ct_azura_sapling",
                 "ct_azura_seed",
                 "ct_azura_tree",
+                "ct_beakseed_cultivated",
+                "ct_beakseed_eco",
                 "ct_bionid_art",
                 "ct_bishyn_bed",
                 "ct_bishyn_chair",

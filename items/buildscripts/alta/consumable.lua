@@ -37,7 +37,7 @@ end
 function buildConsumable(directory, config, params, level, seed)
   local get = function(key, default) return getValue(key, default, config, params) end
 
-  config = sb.jsonMerge(config, ABGMR2(config.build, get("foodValue")))
+  config = sb.jsonMerge(config, ABGMR2(config.build, get("foodValue", get("category") == "medicine")))
   params.timeToRot = config.timeToRot
   config, params = buildFoodOld(directory, config, params, level, seed)
 
@@ -140,7 +140,7 @@ function ABGMR2(config, overrideValue)
     local result = {
       foodValue = util.round(resultFoodValue, 1) or nil,
       timeToRot = math.floor(resultRotTime),
-      effects = {{}},
+      effects = {jarray(),},
     }
     for _, effect in ipairs(config.goodEffects) do
       table.insert(result.effects[1], { effect = effect, duration = util.round(resultEffectTime / #config.goodEffects, 2) })

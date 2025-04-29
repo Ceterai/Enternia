@@ -1,7 +1,8 @@
 {
   "input" : [
-    { "item" : "ct_my_enternia_guide-codex", "count" : 1 },
-    { "item" : "ct_alta_ponics-codex", "count" : 1 }
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "ct_ayaka_wood", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_flowers-codex", "count" : 1 },
   "groups" : [ "my_enternia", "alta", "alta_dendrarium", "alta_codex", "codex", "other", "book", "all", "mod" ]

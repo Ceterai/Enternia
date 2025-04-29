@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.4 - Alta Hobbies](#update-24---alta-hobbies)
+    - [2.4.0a](#240a)
     - [2.4.0.fix](#240fix)
     - [2.4.0](#240)
   - [Update 2.3 - Alta Cafe \& Monster Buffet](#update-23---alta-cafe--monster-buffet)
@@ -67,6 +68,22 @@ If you want to see more detailed changes, you can always navigate to the [commit
 </details>
 
 ## Update 2.4 - Alta Hobbies
+
+### 2.4.0a
+
+A patch that fixes a progression loop with dendrarium codex entries, and brings support for the Growing Trays mod.
+
+**Main:**
+
+- added support for Growing Trays:
+  - alta fertilizers can now be used with the mod and have a low chance of being consumed and high fertilizing value;
+  - organic ME materials can also be used with the mod, with a high chance of being consumed and a lower fertilizing value.
+![ ](/.meta/images/showcase/2.4.0a/growing_trays.png)
+
+**Other:**
+
+- fixed an issue that crashed the player to main menu when eating produce or medicine;
+- minor bug fixes.
 
 ### 2.4.0.fix
 

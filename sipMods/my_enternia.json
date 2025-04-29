@@ -13353,6 +13353,33 @@
         "rarity": "uncommon"
     },
     {
+        "path": "/objects/farmables/alta/ground/produce/beakseed/boosted/",
+        "fileName": "ct_beakseed_boosted.object",
+        "name": "ct_beakseed_boosted",
+        "shortdescription": "Boosted Beakseed Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/beakseed/cultivated/",
+        "fileName": "ct_beakseed_cultivated.object",
+        "name": "ct_beakseed_cultivated",
+        "shortdescription": "Cultivated Beakseed Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/beakseed/eco/",
+        "fileName": "ct_beakseed_eco.object",
+        "name": "ct_beakseed_eco",
+        "shortdescription": "Eco Beakseed Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/farmables/alta/ground/produce/beakseed/pod/",
         "fileName": "ct_beakseed_eco_pod.object",
         "name": "ct_beakseed_eco_pod",
@@ -13361,6 +13388,15 @@
         "icon": "icon.png",
         "rarity": "legendary",
         "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/beakseed/sapling/",
+        "fileName": "ct_beakseed_sapling.object",
+        "name": "ct_beakseed_sapling",
+        "shortdescription": "Beakseed Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
     },
     {
         "path": "/objects/farmables/alta/ground/produce/carel/pod/",

@@ -1,0 +1,27 @@
+[
+    // level 0
+    [ { "op" : "test", "path" : "/ct_basic_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_basic_fertilizer", "value" : [ 50, 60 ] } ],
+    [ { "op" : "test", "path" : "/ct_ionic_sap",        "inverse" : true }, { "op" : "add", "path" : "/ct_ionic_sap",        "value" : [ 95, 20 ] } ],
+    // level 1
+    [ { "op" : "test", "path" : "/ct_ionic_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_ionic_fertilizer", "value" : [ 50, 90 ] } ],
+    [ { "op" : "test", "path" :"/ct_verriskoywa_grass4","inverse" : true }, { "op" : "add", "path" :"/ct_verriskoywa_grass4","value" : [ 85, 25 ] } ],
+    // level 2
+    [ { "op" : "test", "path" : "/ct_alta_fertilizer",  "inverse" : true }, { "op" : "add", "path" : "/ct_alta_fertilizer",  "value" : [ 60, 150] } ],
+    [ { "op" : "test", "path" : "/ct_gyera_token",      "inverse" : true }, { "op" : "add", "path" : "/ct_gyera_token",      "value" : [ 80, 30 ] } ],
+    // level 3
+    [ { "op" : "test", "path" : "/ct_biomix_fertilizer","inverse" : true }, { "op" : "add", "path" : "/ct_biomix_fertilizer","value" : [ 30, 180] } ],
+    [ { "op" : "test", "path" : "/ct_gyera_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_gyera_fertilizer", "value" : [ 60, 200] } ],
+    [ { "op" : "test", "path" : "/ct_yaara_root",       "inverse" : true }, { "op" : "add", "path" : "/ct_yaara_root",       "value" : [ 85, 60 ] } ],
+    // level 4
+    [ { "op" : "test", "path" : "/ct_benema_fertilizer","inverse" : true }, { "op" : "add", "path" : "/ct_benema_fertilizer","value" : [ 30, 220] } ],
+    [ { "op" : "test", "path" : "/ct_bubble_fertilizer","inverse" : true }, { "op" : "add", "path" : "/ct_bubble_fertilizer","value" : [ 50, 240] } ],
+    // level 4*
+    [ { "op" : "test", "path" : "/ct_calin_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_calin_fertilizer", "value" : [ 60, 275] } ],
+    [ { "op" : "test", "path" : "/ct_plasma_fertilizer","inverse" : true }, { "op" : "add", "path" : "/ct_plasma_fertilizer","value" : [ 30, 250] } ],
+    // level 5
+    [ { "op" : "test", "path" : "/ct_boost_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_boost_fertilizer", "value" : [ 60, 300] } ],
+    [ { "op" : "test", "path" : "/ct_ceternia_core",    "inverse" : true }, { "op" : "add", "path" : "/ct_ceternia_core",    "value" : [ 75, 90 ] } ],
+    // level 7
+    [ { "op" : "test", "path" : "/ct_alta_grass_nade",  "inverse" : true }, { "op" : "add", "path" : "/ct_alta_grass_nade",  "value" : [ 80, 300] } ],
+    [ { "op" : "test", "path" : "/ct_stardust",         "inverse" : true }, { "op" : "add", "path" : "/ct_stardust",         "value" : [ 95, 60 ] } ]
+]

@@ -1,0 +1,30 @@
+{
+  "objectName" : "ct_beakseed_cultivated",
+  "colonyTags" : [ "nature", "beakseed", "farming" ], "learnBlueprintsOnPickup" : [ "ct_beakseed_eco", "ct_alta_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 3,
+
+  "shortdescription" : "Cultivated Beakseed Sapling",
+  "description" : "Cultivation further improves speed and stability of growth, but also of ripening.",
+  "altaDescription" : "A nutty fruit beloved by crunch lovers.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>", "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1500, 1600] },
+    { "alts" : 5, "harvestPool" : "beakseedHarvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}
