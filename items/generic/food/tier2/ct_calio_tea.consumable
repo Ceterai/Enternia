@@ -4,7 +4,7 @@
   "description" : "A sweet and sour slightly dense tea, brewed using various alterash prime crystals. Edible ones, of course.",
   "longdescription" : "Their extracts are pretty hard to get, but are very easily brewable into a typical tea.",
   "altaDescription" : "One might be wondering - how in Io do you make tea out of crystals? The answer is simple - you... Oh, I forgot. Unfortunate.",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "level" : 4, "price" : 400, "race" : "alta",
   "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "tea", "crystal" ],
   "inventoryIcon" : "ct_calio_tea.png",
   "effects" : [ [ { "effect" : "poisonblock", "duration" : 240 } ] ],

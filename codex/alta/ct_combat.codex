@@ -2,16 +2,12 @@
   "id" : "ct_combat",
   "title" : "Combat Protocol Datamass",
   "description" : "A list of short descriptions of some kind of regulations. Parts of data are corrupted. Code on the back reads 'CEN-411'.",
+  "longdescription" : "The regulations include regular alta combat protocols, special operations guidelines, and weaponized conflict strategies. The document is partially corrupted, with some entries missing or unreadable. The code on the back indicates that this is part of a larger set of documents related to combat protocols.",
+  "altaDescription" : "I hope I never have to use this...",
   "icon" : "datamass/combat.png",
   "species" : "alta",
   "contentPages" : [
-
-    "COMBAT PROTOCOL DOCUMENTATION
-
-The goal of this document is to describe present combat protocols as well as weaponized conflict and special operations related guidelines.
-
-Note, that starting with discovery of stardust energy capabilities and the Enternia phenomenon, all Enternia-related technology should be marked Enter-technology."
-
+    "COMBAT PROTOCOL DOCUMENTATION\n\nThe goal of this document is to describe present combat protocols as well as weaponized conflict and special operations related guidelines.\n\nNote, that starting with discovery of stardust energy capabilities and the Enternia phenomenon, all Enternia-related technology should be marked Enter-technology."
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",

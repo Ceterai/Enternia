@@ -1,9 +1,8 @@
 {
   "objectName" : "ct_alta_security_camera",
-  "colonyTags" : [ "alta_security" ],
-  "category" : "wired",
-  "level" : 4, "rarity" : "Uncommon", "price" : 80,
-  "race" : "alta",
+  "colonyTags" : [ "alta_security", "wired" ],
+  "category" : "wire",
+  "level" : 4, "price" : 80, "race" : "alta",
 
   "shortdescription" : "Alta Security Camera",
   "description" : "A small ceiling wide-angle surveillance security camera that can be turned on or off.",

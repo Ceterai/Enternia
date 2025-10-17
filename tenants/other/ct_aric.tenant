@@ -1,0 +1,43 @@
+{
+  "name": "ct_aric_ghost_tenant",
+  "priority": 7,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "aric": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "shadow",
+      "type": "shadowvillager",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "aric_cap" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_aric_gift"
+  },
+
+  "wiki" : {
+    "title" : "Aric Ghost",
+    "description" : "It lurks beneath toxic mushrooms... silently.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

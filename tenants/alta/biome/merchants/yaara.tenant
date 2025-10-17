@@ -1,0 +1,31 @@
+{
+  "name" : "ct_yaara_merchant_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "commerce" : 8,
+    "yaara" : 14
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : [ "alta", "floran" ],
+      "type" : "ct_yaara_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_yaara_gift" },
+
+  "wiki" : {
+    "title" : "Yaara Merchant",
+    "description" : "This merchant sells lots yaara-related things.",
+    "category" : "nature", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

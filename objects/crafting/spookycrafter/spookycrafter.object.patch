@@ -1,0 +1,111 @@
+[
+    [
+        {
+            "op": "test",
+            "path": "/learnBlueprintsOnPickup"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_neonjack"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_yaajack"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_miazmur_af"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_warped_spider_af"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_ceternity_poster"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_halloween_poster"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_harrowing_poster"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_ceternity_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_orchid_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_orchid_pumpkin_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_warped_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_warped_spider_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_miazma_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_neonjack_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_yaajack_candy"
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/learnBlueprintsOnPickup",
+            "inverse": true
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup",
+            "value": [
+                "ct_neonjack",
+                "ct_yaajack",
+                "ct_miazmur_af",
+                "ct_warped_spider_af",
+                "ct_ceternity_poster",
+                "ct_halloween_poster",
+                "ct_harrowing_poster",
+                "ct_ceternity_candy",
+                "ct_orchid_candy",
+                "ct_orchid_pumpkin_candy",
+                "ct_warped_candy",
+                "ct_warped_spider_candy",
+                "ct_miazma_candy",
+                "ct_neonjack_candy",
+                "ct_yaajack_candy"
+            ]
+        }
+    ]
+]

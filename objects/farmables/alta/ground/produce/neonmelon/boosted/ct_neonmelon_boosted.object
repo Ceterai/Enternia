@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_neonmelon_boosted",
+  "colonyTags" : [ "nature", "neonmelon", "farming" ], "learnBlueprintsOnPickup" : [ "ct_neonmelon_eco_pod" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 5,
+
+  "shortdescription" : "Boosted Neonmelon Sapl. ^#2080f0;^reset;",
+  "description" : "This sapling comes with enhanced mutations that allow much faster ripening.",
+  "altaDescription" : "I thought only yaara melons could get this big, now it's super-sized!",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "imagePosition" : [-4, 0],
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [280, 320] },
+    { "duration" : [280, 320] },
+    { "alts" : 5, "duration" : [1170, 1230] },
+    { "alts" : 5, "harvestPool" : "neonmelonHarvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

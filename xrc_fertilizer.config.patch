@@ -1,3 +1,6 @@
+// Mod Support for Growing Trays mod. Added in 2.4.0a.
+// The mod can be found here: https://steamcommunity.com/sharedfiles/filedetails/?id=2574257768
+// This patch adds fertilizers and various organic materials from My Enternia as acceptable fertilizers for the Growing Trays system.
 [
     // level 0
     [ { "op" : "test", "path" : "/ct_basic_fertilizer", "inverse" : true }, { "op" : "add", "path" : "/ct_basic_fertilizer", "value" : [ 50, 60 ] } ],

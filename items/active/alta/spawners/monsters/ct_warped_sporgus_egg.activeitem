@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_warped_sporgus_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Uncommon", "level" : 4,
+  "level" : 4,
   "twoHanded" : false, "pet" : "ct_warped_sporgus",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"

@@ -6,7 +6,7 @@ This folder contains humanoid configuration for the alta species.
 
 ## Body Types
 
-While playable alta subspecies all have ~~female~~ feminine body types, this folder also contains `malehead.png` for proper quest displays and `malebody.png` for possible compatability with other mods.
+While playable alta subspecies all have ~~female~~ feminine body types, this folder also contains `malehead.png` for proper quest displays and `malebody.png` for possible compatibility with other mods.
 
 Other than that, currently this species only defines 2 feminine gender options - altaya and kaitera.
 

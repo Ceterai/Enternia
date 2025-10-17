@@ -13,7 +13,7 @@
     "name" : "ct_combat_power_augment",
     "displayName" : "Combat Power Enhancement",
     "displayIcon" : "/items/augments/back/ct_combat_power_augment.png",
-    "effects" : [ "runboostaugment", "jumpboostaugment", "swimboostaugment", "rageaugment1" ]
+    "effects" : [ "runboostaugment", "jumpboostaugment", "swimboost", "rageaugment1" ]
   },
 
   "radioMessagesOnPickup" : [ "pickupaugment" ],

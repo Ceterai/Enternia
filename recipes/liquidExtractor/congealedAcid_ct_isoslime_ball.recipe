@@ -1,0 +1,8 @@
+// Mod Support for Liquid Extractor mod. Added in 2.4.0b.
+{
+  "input" : [
+    { "item" : "ct_isoslime_ball", "count" : 10 }
+  ],
+  "output" : { "item" : "congealedAcid", "count" : 1 },
+  "groups" : [ "liquidExtractor", "materials", "all" ]
+}

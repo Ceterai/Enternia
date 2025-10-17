@@ -4,7 +4,7 @@
   "description" : "A carefully crafted mixture of rare herbs brewed with passion. A perfect drink to make for a loved one.",
   "longdescription" : "This yava mix is often considered a personal gesture in a light-hearted environment and is usually prepared in a single cup, then poured into separate glasses for serving.",
   "altaDescription" : "If you're too afraid to hug someone, or maybe they're just not in the mood, this is a great alternative to that!",
-  "level" : 4, "rarity" : "Uncommon", "price" : 400, "race" : "alta",
+  "level" : 4, "price" : 400, "race" : "alta",
   "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "tea", "love" ],
   "inventoryIcon" : "ct_miko_tea.png",
   "effects" : [ [
@@ -41,7 +41,7 @@
       "description" : "A nice variation on the miko tea if you really want to show off for some reason. Good job I guess.",
       "longdescription" : "With additional spices and increased sweetness from ^#497c64;miko koywa^reset; extract, this drink will go well for someone in an already good mood.",
       "altaDescription" : "Can be a hit and a miss, both taste-wise and sentiment-wise. There's even an alta saying \"Yae Miko is too much\", for when you're not sure if the person you're talking to is comfortable with the subject.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
+      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15, "itemTags" : [ "yava_cuisine", "tea", "bio" ],
       "effects" : [ [ { "effect" : "ct_alta_determination", "duration" : 300 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Amin Chi",
       "paletteSwap" : {"#fa637b":"#dcfa63","#e32353":"#cfe323","#ba1945":"#adba19",
       "#ff68c8":"#68e3ff","#d83c9f":"#3cbcd8","#9d2c74":"#2c889d","#651e4b":"#1e5765",

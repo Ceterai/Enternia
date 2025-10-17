@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "name" : "ct_alta_landing_pad",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "pad1", "pad2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Alta Landing Pad",
+    "description" : "A small landing pad for ships and cargo."
+  },
+  "parts" : [
+    { "name" : "pad1",   "def" : [ "tmx", [ "pad1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "pad2",   "def" : [ "tmx", [ "pad2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

@@ -12,7 +12,7 @@
     "override" : [
       [0, [
           {
-            "head" : [ { "name" : "humantier1head", "parameters" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "bandithat1", "parameters" : { "colorIndex" : 6 } }, "bandithat1" ],
             "chest" : [ { "name" : "humantier1chest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "humantier1pants", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
@@ -21,19 +21,19 @@
         ] ],
       [2, [
           {
-            "head" : [ { "name" : "ct_eds_visor", "parameters" : { "colorIndex" : 6 } } ],
-            "chest" : [ { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 6 } } ],
-            "legs" : [ { "name" : "ct_eds_legwear", "parameters" : { "colorIndex" : 6 } } ],
+            "head" : [ { "name" : "humantier1head", "parameters" : { "colorIndex" : 6 } } ],
+            "chest" : [ { "name" : "humantier1chest", "parameters" : { "colorIndex" : 1 } } ],
+            "legs" : [ { "name" : "humantier1pants", "parameters" : { "colorIndex" : 6 } } ],
             "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ],
             "sheathedprimary" : [ "npcbroadsword" ]
           }
         ] ],
       [3, [
           {
-            "head" : [ "ct_alta_industrial_collar" ],
-            "chest" : [ "ct_alta_service_jacket" ],
-            "legs" : [ "ct_eds_legwear" ],
-            "primary" : [ "ct_protospear" ]
+            "head" : [ "ct_alta_industrial_collar", { "name" : "ct_eds_visor", "parameters" : { "colorIndex" : 6 } }, { "name" : "bandithat1", "parameters" : { "colorIndex" : 6 } }, "bandithat1" ],
+            "chest" : [ { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 6 } } ],
+            "legs" : [ { "name" : "ct_eds_legwear", "parameters" : { "colorIndex" : 6 } } ],
+            "primary" : [ "npcpistol", "npcmachinepistol", "npcassaultrifle" ]
           }
         ] ],
       [4, [

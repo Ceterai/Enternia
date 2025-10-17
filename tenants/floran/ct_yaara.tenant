@@ -1,0 +1,52 @@
+{
+  "name": "ct_yaara_tenant",
+  "priority": 8,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "yaara": 18,
+    "floran": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "generictenant",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    "",
+                    "",
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_mask" } }
+                  ],
+                  "chest" : [
+                    { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara_body_vine" } }
+                  ],
+                  "legs" : [
+                    { "name" : "ct_legs_mimic", "parameters" : { "preset" : "koywa_skirt" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaara Sprout",
+    "description" : "A floran born in a yaara grove, connected to it with their heart. This basic villager-type floran can give regular quests and become a basic crewmember.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

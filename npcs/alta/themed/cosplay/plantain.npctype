@@ -1,0 +1,27 @@
+{
+  "type": "ct_alta_plantain_girl",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "bananahead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "legs" : [
+              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "back" : [
+              { "name" : "simplecapeback", "parameters" : { "colorIndex" : 7 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_gold_tenant",
+  "priority" : 15,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "hoard" : 18
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_knight",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_treasure_gift" },
+
+  "wiki" : {
+    "title" : "Alta Gold Knight",
+    "description" : "Likely just an alta cosplaying glitch knights as her fascination. Likely...",
+    "category" : "themed", "class" : "guard",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

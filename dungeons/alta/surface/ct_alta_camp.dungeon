@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ct_alta_camp",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "camp1", "camp2", "camp3", "camp4" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Alta Camp",
+    "description" : "A small camp area in the wilderness, set up by some travelling altas. Features tents, nature, and picnic tables."
+  },
+  "parts" : [
+    { "name" : "camp1",   "def" : [ "tmx", [ "camp1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "camp2",   "def" : [ "tmx", [ "camp2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "camp3",   "def" : [ "tmx", [ "camp3.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "camp4",   "def" : [ "tmx", [ "camp4.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

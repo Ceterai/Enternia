@@ -1,0 +1,24 @@
+{
+  "type": "ct_alta_dino_girl",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "dinosaurhead", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 7 } }
+            ],
+            "legs" : [
+              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 7 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

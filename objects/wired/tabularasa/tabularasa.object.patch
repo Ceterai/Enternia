@@ -1,3 +1,6 @@
+// Mod support for Tabula Rasa custom filters
+// Adds two new filters: "My Enternia" and "Alta"
+// Each filter is a button that applies an according group as a recipe filter in the Tabula Rasa crafting table interface.
 [
     { "op":"add", "path":"/filterButtons/-", "value": {
         "baseImage" : "/objects/wired/tabularasa/my_enternia.png",

@@ -26,6 +26,7 @@
       "longdescription" : "Worth noting that the wooden texture of this peace of costume doesn't reflect it's protective capabilities.",
       "altaDescription" : "Very... planty?",
       "floranDescription" : "Floran dissquissse ass plant. Ambush prey. Win fightss.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "category" : "headwear",
       "colorOptions" : [
         {"ffca8a":"47b6ab","e0975c":"177a71","a85636":"086458","6f2919":"074c44"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515"},
@@ -48,6 +49,7 @@
       "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disguise.",
       "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
       "floranDescription" : "Full protection for Floran, sso Floran can protect Floran's home.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "category" : "headarmour",
       "colorOptions" : [
         {"ffca8a":"ae75f0","e0975c":"713bb0","a85636":"461e74","6f2919":"341458","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
@@ -140,6 +142,7 @@
       "longdescription" : "This floran relic can vary in shape and materials from tribe to tribe.",
       "altaDescription" : "An extremely precious yaara keeper relic. I should treat it with care.",
       "floranDescription" : "Ressspect the Greenfinger'sss hat. Floran likess the hornsss.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "category" : "headwear",
       "colorOptions" : [
         {"ffca8a":"47b6ab","e0975c":"177a71","a85636":"086458","6f2919":"074c44","e7dfbd":"c9eef6","bcad80":"76c7e4","8d7b58":"4e8fb8","5d4f34":"366388",
           "ffffa7":"fbe7d4","e2c344":"e2944b","a46e06":"a5601f","642f00":"642f00","714f3c":"ae75f0","513a2d":"713bb0","36261e":"461e74"},
@@ -176,6 +179,7 @@
       "description" : "With this hat, you'll be a fungi to be around.",
       "longdescription" : "...Also it might be toxic so be careful.", "foundIn" : [ "^#3baf2f;Biome Chests^reset;", "^#3baf2f;Aric Merchant^reset;" ],
       "altaDescription" : "Doesn't seem to be toxic, so probably safe to wear.",
+      "category" : "headwear",
       "colorOptions" : [
         {"ffca8a":"8affb0","e0975c":"36a83e","a85636":"36a83e","6f2919":"1c6f19","f4e8d0":"d4ff8d","e0d3b8":"b1eb54","887d63":"72a131","5d4b32":"465b12"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","f4e8d0":"d4ff8d","e0d3b8":"b1eb54","887d63":"72a131","5d4b32":"465b12"},
@@ -197,6 +201,7 @@
       "description" : "It never stops staring. Who would make such a thing?",
       "longdescription" : "...Also it might be toxic so be careful.", "foundIn" : [ "^#3baf2f;Biome Chests^reset;", "^#3baf2f;Aric Merchant^reset;" ],
       "altaDescription" : "Will I become toxic if I wear this? I don't want to insult my friends...",
+      "category" : "headwear",
       "colorOptions" : [
         {"ffca8a":"8affb0","e0975c":"36a83e","a85636":"36a83e","6f2919":"1c6f19","f4e8d0":"d4ff8d","c6b99f":"b1eb54","887d63":"72a131","5d4b32":"465b12"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","f4e8d0":"d4ff8d","c6b99f":"b1eb54","887d63":"72a131","5d4b32":"465b12"},
@@ -218,6 +223,7 @@
       "description" : "This fake flower made out of silk represents one of common alta colors.", "foundIn" : [ "Crafting", "^#b0e0fc;Alta Gardener^reset;" ], "price" : 200,
       "longdescription" : "A symbol of patriotism and innocence, this flower is often worn by some ^#b0e0fc;alta social workers^reset; and ^#b0e0fc;alta caretakers^reset;.",
       "altaDescription" : "I like what this flower represents. An how it sits on my hair, too.",
+      "category" : "headwear",
       "colorOptions" : [
         { "ffca8a" : "b0e0fc", "e0975c" : "60c0fc", "a85636" : "2080f0", "6f2919" : "0050c0", "ffffa7" : "f6f6f6", "e2c344" : "d8dcf0" },
         { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515", "ffffa7" : "f6f6f6", "e2c344" : "d8dcf0" },
@@ -239,6 +245,7 @@
       "description" : "A very rare ionic flower that makes for a great hair accessory.", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
       "longdescription" : "It often growns as part of a felistraze bushes, that can grow up to 2 meters in height. You can often find 3-5 flowers per bush.",
       "altaDescription" : "This is quite a find. As far as I remember, these are not usually for sale.",
+      "category" : "headwear",
       "colorOptions" : [
         { "ffca8a" : "e0b0fc", "e0975c" : "c060fc", "a85636" : "8020f0", "6f2919" : "5000c0" },
         { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
@@ -260,6 +267,7 @@
       "description" : "This pretty crown was made with different flowers found around ^#b0e0fc;gyera parks^reset;.", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],
       "longdescription" : "Often worn by nature-lowing altas, and those altas who're not afraid to put some ^#80f020;haven^reset; flowers on their head too.",
       "altaDescription" : "I don't know how someone can not put it on their head immediately. So beautiful!",
+      "category" : "headwear",
       "colorOptions" : [
         {"ffca8a":"f6f6f6","e0975c":"d8dcf0","e446fc":"fcb0ea","ac1bc3":"fc60d4","fa9f2f":"3694fa","d17707":"1a65b5","d64554":"fcb0ea","b2413a":"fc60d4"},
         {"ffca8a":"838383","e0975c":"555555","e446fc":"fcb0ea","ac1bc3":"fc60d4","fa9f2f":"3694fa","d17707":"1a65b5","d64554":"fcb0ea","b2413a":"fc60d4"},
@@ -285,6 +293,7 @@
       "description" : "A cozy hood with pretty ears that will make any gamer happy.",
       "longdescription" : "Increases chances of being hugged by another alta by 500%. Which is mostly useless considering they are already at 90%.",
       "altaDescription" : "I would hug the stardust out of any alta wearing this.",
+      "category" : "headwear",
       "colorOptions" : [  // Standard X Alta Dark
         { "ffca8a" : "707088", "e0975c" : "606074", "a85636" : "404050", "6f2919" : "2c2c34" },
         { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
@@ -306,6 +315,7 @@
       "description" : "A calin crystal mask. It makes your eyes shine.", "foundIn" : [ "^#76c7e4;Biome Chests^reset;", "^#76c7e4;Crystal Merchant^reset;" ],
       "longdescription" : "Make from regular refined calin crystals, it might be a bit heavy to wear and needs some time getting used to.",
       "altaDescription" : "I think I can kinda see through it? If I squint hard enough?",
+      "category" : "headwear",
       "colorOptions" : [  // Standard X Crystal
         { "ffca8a" : "c9eef6", "e0975c" : "76c7e4", "a85636" : "4e8fb8", "6f2919" : "366388" },  // CRYSTAL (DEFAULT)
         { "ffca8a" : "f9fcb0", "e0975c" : "f3fc60", "a85636" : "c5f020", "6f2919" : "8fc000" },  // LIME (BLACK)
@@ -328,6 +338,7 @@
       "longdescription" : "Its pure silk material right from the ^#3587ff;blossoming ayakas^reset; stays well on the bionical alta skin.",
       "altaDescription" : "I mean, this is just helpful for any kind of work with your head down, especially for altas that don't like putting their hair in a tail.",
       "foundIn" : [ "^#b0e0fc;Alta Artist^reset;" ],
+      "category" : "headwear",
       "colorOptions" : [  // Standard X Alta Light
         { "ffca8a" : "f6f6f6", "e0975c" : "d8dcf0", "a85636" : "b0b4c8", "6f2919" : "606478" },
         { "ffca8a" : "707088", "e0975c" : "606074", "a85636" : "404050", "6f2919" : "2c2c34" },
@@ -349,6 +360,7 @@
       "description" : "A pretty neat scarf that increases your artistic charm by 60%.",
       "longdescription" : "Like many alta fasion items, this one was likely designed by ^#b0e0fc;Perizhad^reset;.",
       "altaDescription" : "So cozy and inspiring! Makes you want to make yourself some tea and create something pretty.",
+      "category" : "headwear",
       "colorOptions" : [  // Standard X Alta Dark
         { "ffca8a" : "707088", "e0975c" : "606074", "a85636" : "404050", "6f2919" : "2c2c34" },
         { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
@@ -370,6 +382,7 @@
       "description" : "A simple headband used by some artists to keep hair or other things out of their face.",
       "longdescription" : "Its pure silk material right from the ^#3587ff;blossoming ayakas^reset; stays well on the bionical alta skin.",
       "altaDescription" : "I mean, this is just helpful for any kind of work with your head down, especially for altas that don't like putting their hair in a tail.",
+      "category" : "headwear",
       "colorOptions" : [  // Standard X Alta Light
         { "ffca8a" : "f6f6f6", "e0975c" : "d8dcf0", "a85636" : "b0b4c8", "6f2919" : "606478" },
         { "ffca8a" : "707088", "e0975c" : "606074", "a85636" : "404050", "6f2919" : "2c2c34" },
@@ -391,6 +404,7 @@
       "description" : "This ordinary communication set doesn't take a lot of space on your head, yet still provides simple protection. Like a headset, but useful.",
       "longdescription" : "These are usually worn by supervisors and agents on space stations.",
       "altaDescription" : "That little eye screen displays so much useful info!",
+      "category" : "headarmour",
       "colorOptions" : [  // Standard X Alta Accent
         { "6f2919" : "0050c0", "a85636" : "2080f0", "e0975c" : "60c0fc", "ffca8a" : "b0e0fc" },  // OMNIBLUE (DEFAULT)
         { "6f2919" : "8fc000", "a85636" : "c5f020", "e0975c" : "f3fc60", "ffca8a" : "f9fcb0" },  // LIME (BLACK)
@@ -412,6 +426,7 @@
       "description" : "This magical hood is glittering with stardust colors!",
       "longdescription" : "Very soft it the touch, it was sewed by Celestia herself to make an alta happy.",
       "altaDescription" : "Oaaa~~ «",
+      "category" : "headwear",
       "colorOptions" : [
         // Rainbow
         { "6f2919" : "2c2c34", "a85636" : "404050", "85250f" : "00c050", "c64040" : "20f080", "f37e7e" : "60fcc0", "794b23" : "00c050", "c27d41" : "20f080", "f3ba88" : "60fcc0", "8b7a27" : "0050c0", "b3a250" : "2080f0", "e5d797" : "60c0fc", "2b7f60" : "0050c0", "55be97" : "2080f0", "98dfc5" : "60c0fc", "2a626c" : "5000c0", "438793" : "8020f0", "93d2de" : "c060fc", "1f3a64" : "5000c0", "456493" : "8020f0", "97b6e3" : "c060fc", "6e2900" : "c00050", "af4e00" : "f02080" },

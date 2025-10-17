@@ -12,12 +12,13 @@
 
   "projectileType" : "ct_astera_spear",
   "projectileConfig" : { },
+  "category" : "throwableItem",
 
   "builder" : "/items/buildscripts/alta/item.lua",
   "wiki" : { "skip" : true },
   "presets" : {
     "dart" : { "baseAsset" : "/items/throwables/throwingdart.thrownitem",
-      "shortdescription" : "Alta Dart", "level" : 1, "itemTags" : [ "toy" ], "race" : "alta", "price" : 5,
+      "shortdescription" : "Ayaka Dart", "level" : 1, "itemTags" : [ "toy" ], "race" : "alta", "price" : 5,
       "description" : "A simple toy dart that you can throw at a target. Or horibly miss it instead, whatever.", "alkey" : "Fint",
       "longdescription" : "Usually manufactured in batches, these are commonly sold in entertainment stores with small safety protocols, even if classified as non-lethal.",
       "altaDescription" : "I love these! Now all we need is a matching target board to put on a wall...", "foundIn" : [ "^#b0e0fc;Alta Party Girl^reset;" ],
@@ -33,7 +34,7 @@
     },
     // WIP
     "metal_javelin" : { "baseAsset" : "/items/throwables/energyjavelin.thrownitem",
-      "shortdescription" : "Alta Dart", "level" : 4, "itemTags" : [ "toy" ], "race" : "alta", "price" : 5,
+      "shortdescription" : "Alta Kinetic Javelin", "level" : 4, "itemTags" : [ "toy" ], "race" : "alta", "price" : 5,
       "description" : "A simple toy dart that you can throw at a target. Or horibly miss it instead, whatever.", "alkey" : "Fint",
       "longdescription" : "Usually manufactured in batches, these are commonly sold in entertainment stores with small safety protocols, even if classified as non-lethal.",
       "altaDescription" : "I love these! Now all we need is a matching target board to put on a wall...", "foundIn" : [ "^#b0e0fc;Alta Party Girl^reset;" ],

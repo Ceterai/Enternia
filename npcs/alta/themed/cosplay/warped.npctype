@@ -1,0 +1,24 @@
+{
+  "type": "ct_alta_warped_girl",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "eyehead", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 4 } }
+            ],
+            "legs" : [
+              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 4 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

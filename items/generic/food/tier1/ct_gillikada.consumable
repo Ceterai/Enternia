@@ -4,7 +4,7 @@
   "description" : "A properly cooked gil insides with mashed seeds, served in its fresh salty outsides for extra flavor.",
   "longdescription" : "A pretty rare 1-ingredient dish that utilizes every distinct part of a fruit to achieve a pretty tasty result.",
   "altaDescription" : "If I stare at it long enough, it'll cool down, so probably shouldn't do that.",
-  "level" : 2, "rarity" : "Common", "price" : 280, "race" : "alta", "foodValue" : 20,
+  "level" : 2, "price" : 280, "race" : "alta", "foodValue" : 20,
   "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "maxStack" : 1, "itemTags" : [ "runeva_cuisine", "kada", "gil" ],
   "inventoryIcon" : "ct_gillikada.png",
   "effects" : [ [ { "effect" : "runboostfood", "duration" : 60 } ] ],  // ct_alta_food_fruit

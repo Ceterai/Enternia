@@ -1,4 +1,4 @@
-An artifical species of humanoids, primarily found on ^#b0e0fc;alterash^reset; planets and their [[ subtypes|Alterash#difficulty ]]. The main focus of their decentralized society is research and exploration with purpose of technological advancement, as well as entertainment and quality of life improvement.
+An artificial species of humanoids, primarily found on ^#b0e0fc;alterash^reset; planets and their [[ subtypes|Alterash#difficulty ]]. The main focus of their decentralized society is research and exploration with purpose of technological advancement, as well as entertainment and quality of life improvement.
 
 Due to their partial resistance to electricity, altas mainly reside on planets with highly ionized atmosphere to avoid unwanted conflicts with other races and be able to do their research in peace and privacy.
 Unfortunately, a failed series of experiments that led to creation of **kaiters** and other threats caused altas to invest into development of a number of combat and security technology, and in some cases even relocate their numerous laboratories and entire facilities away from surface.

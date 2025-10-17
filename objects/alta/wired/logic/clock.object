@@ -2,10 +2,9 @@
   "objectName" : "ct_alta_clock",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "level" : 3, "rarity" : "Uncommon", "price" : 10,
   "description" : "The clock output alternates between on and off every 0.5 seconds. Default is 33 ticks (0.5s), sets through `interval`.",
   "shortdescription" : "Alta Logic - Clock",
-  "race" : "alta",
+  "level" : 3, "price" : 10, "race" : "alta",
 
   "floranDescription" : "Clock output alternatesss between on and off every 0.5 secondsss.",
   "glitchDescription" : "Neutral. The clock output alternates between on and off every 0.5 seconds.",

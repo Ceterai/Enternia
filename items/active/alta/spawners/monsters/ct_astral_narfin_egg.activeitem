@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_astral_narfin_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Uncommon", "level" : 3,
+  "level" : 3,
   "twoHanded" : false, "pet" : "ct_astral_narfin",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"

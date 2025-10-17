@@ -2,13 +2,15 @@
   "id" : "ct_docs_energy",
   "title" : "Tech Docs: Energy",
   "description" : "A piece of some technical documentation. Code on the back reads 'CEN-462'.",
+  "longdescription" : "This document serves as a guide for the use of energy sources in alta technology. It outlines the different types of energy, including ceternia, alternia, and enternia, and provides information on how they are produced, stored, and utilized in various alta devices.",
+  "altaDescription" : "Energy is the primary ingredient of life. I should make sure I always have enough of it.",
   "icon" : "paper/short.png",
   "species" : "alta",
   "contentPages" : [
 
     "Altas use crystals to produce, store and gather energy and to convert it to electricity. As such, most alta energy sources are crystal-driven.
 
-Altas distinquish three types of electric energy: ceternia, alternia and enternia."
+Altas distinguish three types of electric energy: ceternia, alternia and enternia."
 
   ],
   "itemConfig" : {

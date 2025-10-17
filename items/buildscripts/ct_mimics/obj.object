@@ -13,6 +13,7 @@
   ],
   "builder" : "/items/buildscripts/alta/object.lua",
   "wiki" : { "skip" : true },
+  "category" : "decorative",
   "presets" : {
     "alternia_sample" : {
       "baseAsset" : "/objects/biome/geologicalsample/geodebluesample/geodebluesample.object",
@@ -44,7 +45,7 @@
       "description" : "This resilient chest is made out of strforged materials.",
       "longdescription" : "It shines with slight stardust tint.",
       "altaDescription" : "A pod made out of spectral cal and starsteel! Is there staris inside?!",
-      "level" : 6, "rarity" : "Legendary", "colonyTags" : [ "staris", "stardust", "light", "unique" ], "health" : 6.0,
+      "level" : 6, "rarity" : "Legendary", "colonyTags" : [ "stardust", "light", "unique" ], "health" : 6.0,
       "foundIn" : [ "^#b0e0fc;Alta Supplier^reset;" ], "slotCount" : 24, "lightColor" : [150, 0, 122]
     },
     "duck" : {

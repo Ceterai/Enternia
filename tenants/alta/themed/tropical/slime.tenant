@@ -1,0 +1,30 @@
+{
+  "name" : "ct_alta_slime_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "slime" : 10
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_bed_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_beach_gift" },
+
+  "wiki" : {
+    "title" : "Alta Slimegirl",
+    "description" : "An alta on a sleepover! Why isn't she sleeping?",
+    "category" : "tropical",
+    "images" : {
+      "primary" : [
+      ]
+    }
+  }
+}

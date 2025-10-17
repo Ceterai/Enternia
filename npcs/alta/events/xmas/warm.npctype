@@ -1,0 +1,28 @@
+{
+  "type": "ct_alta_warm_girl",
+  "baseType": "ct_alta",
+  "matchColorIndices" : false,
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              "",
+              "",
+              { "name" : "winterscarfhead", "parameters" : { "colorIndex" : 8 } }
+            ],
+            "chest" : [
+              { "name" : "prismchest", "parameters" : { "colorIndex" : [0, 3, 8] } }
+            ],
+            "legs" : [
+              { "name" : "hunterlegs", "parameters" : { "colorIndex" : [0, 1] } },
+              { "name" : "toughlegs", "parameters" : { "colorIndex" : 3 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

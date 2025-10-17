@@ -1,0 +1,13 @@
+{
+  "itemName" : "ct_ceternity_candy",
+  "shortdescription" : "Ceternity Candy",
+  "description" : "Sweet and spooky, just like Ceternity! Happy scares!",
+  "longdescription" : "A piece of candy made to celebrate the Ceternity event. Eating this candy will give you a temporary swimming boost effect. Enjoy!",
+  "altaDescription" : "The paper wrap is meant to keep Ceternity and Orchid away from your precious candy!~",
+
+  "level" : 5, "race" : "alta", "category" : "preparedFood",
+  "itemTags" : [ "ceternity", "dessert" ], "emote" : "happy",
+  "inventoryIcon" : "ct_ceternity_candy.png",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "swimboostcandy" ], "foodValue" : 6 }
+}

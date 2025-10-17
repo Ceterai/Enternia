@@ -30,11 +30,13 @@
   "presets" : {
     "cleaner" : {
       "shortdescription" : "Cleaner Drone",
+      "itemTags" : [ "throwable", "spawner", "city", "robotics", "drone" ],
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#0020c0", "#2080f0" : "#2020f0", "#60c0fc" : "#6060fc", "#b0e0fc" : "#b0b0fc" }
     },
     "toy" : {
       "shortdescription" : "Toy Drone ^#20f080;^reset;",
+      "itemTags" : [ "throwable", "spawner", "toy", "robotics", "drone" ],
       "baseParameters" : { "customBody" : "/monsters/alta/pets/drone/parts/cleaner_toy.png" }, "wiki" : { "skip" : true },
       "paletteSwap" : { "#0050c0" : "#7d00c0", "#2080f0" : "#9d20f0", "#60c0fc" : "#a760fc", "#b0e0fc" : "#d1b0fc" }
     }

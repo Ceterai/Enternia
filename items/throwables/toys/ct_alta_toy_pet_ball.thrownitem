@@ -1,12 +1,13 @@
 {
   "itemName" : "ct_alta_toy_pet_ball",
-  "level" : 1, "rarity" : "Common", "price" : 160,
+  "shortdescription" : "Little Pet Toy Ball",
+  "description" : "I'd bet my pet would love playing with this.",
+  "level" : 1, "price" : 160, "race" : "alta",
+  "itemTags" : [ "toy" ],
+
   "category" : "throwableItem",
   "inventoryIcon" : "ct_alta_toy_pet_ball.png",
   "image" : "ct_alta_toy_pet_ball.png",
-
-  "shortdescription" : "Little Pet Toy Ball",
-  "description" : "I'd bet my pet would love playing with this.",
 
   "ammoUsage" : 1,
 
@@ -26,5 +27,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

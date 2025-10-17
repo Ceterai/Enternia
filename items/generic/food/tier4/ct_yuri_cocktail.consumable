@@ -1,7 +1,6 @@
 {
   "itemName" : "ct_yuri_cocktail",
-  "level" : 6, "rarity" : "Legendary", "price" : 1200,
-  "race" : "alta",
+  "level" : 6, "price" : 1200, "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_yuri_cocktail.png",
   "shortdescription" : "Yuri Cocktail",
@@ -57,7 +56,7 @@
       }
     },
     "kaiter" : {
-      "shortdescription" : "Kaiter Cocktail", "variant" : true,
+      "shortdescription" : "Kaiter Cocktail", "variant" : true, "itemTags" : [ "yava_cuisine", "cocktail" ],
       "description" : "You can't describe the emotions that fill you whenever you drink this. What is this?",
       "longdescription" : "This cocktail is blooming with typical love ingredients often used in certain dishes.",
       "altaDescription" : "I wish I had a friend I could drink this with...",

@@ -32,7 +32,7 @@ def build_database(files, tempdir, exclude = []):
     object_upgrades = {}
     object_upgrade_check = []
     all_craftable_objects = set()
-    
+
     station_in_class = {}
     station_in_class["extractionlab"] = []
     station_in_class["extractionlabmadness"] = []
@@ -40,16 +40,16 @@ def build_database(files, tempdir, exclude = []):
     extra_recipes_station["extractionlab"] = ["extractionlab"]
     extra_recipes_station["extractionlabmadness"] = ["extractionlabmadness"]
     extra_recipes_station["xenostation"] = ["xenostation"]
-    
+
     for abspath in files:
-        
+
         skipping = False
-        
+
         path = abspath.replace('\\','/')
         for n in exclude:
             if n in abspath or n in path:
                 skipping = True
-        
+
         if not skipping:
             # Load json as python dict
             try:
@@ -364,7 +364,7 @@ def build_database(files, tempdir, exclude = []):
         sorted(object_upgrade_check),
         sorted(list(all_craftable_objects)),
         extra_recipes,
-        extra_recipes_station
+        extra_recipes_station,
     ]
 
 

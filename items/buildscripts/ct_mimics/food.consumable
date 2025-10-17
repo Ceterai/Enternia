@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_food_mimic",
-  "shortdescription" : "ZZZZ Food Mimic! (Evil, booo!) >>;3", "race" : "alta", "tooltipKind" : "ct_alta_consumable",
+  "shortdescription" : "ZZZZ Food Mimic! (Evil, booo!) >>;3", "tooltipKind" : "ct_alta_consumable",
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "wiki" : { "skip" : true },
@@ -9,7 +9,7 @@
   "description" : "",
   "longdescription" : "",
   "altaDescription" : "",
-  "level" : 2, "rarity" : "Common", "price" : 160,
+  "level" : 2, "price" : 160, "race" : "alta",
   "maxStack" : 1, "category" : "preparedFood", "itemTags" : [ ],
   "foodValue" : 20,
   "blockingEffects" : [ ],
@@ -18,7 +18,7 @@
     "cooked_arics" : { "baseAsset" : "/items/generic/food/tier1/roastedmushrooms.consumable",
       "shortdescription" : "Cooked Arics", "level" : 2, "rarity" : "Common", "itemTags" : [ "yava_cuisine", "aric" ], "race" : "alta", "price" : 200,
       "description" : "Simple cooked edible arics. While they are quite easy to cook, it takes some proficiency to prepare them because aof possible microtoxins.",
-      "longdescription" : "These are usualy made in large portions, roasted in a high-temperature grill, spiced, and often sliced down before serving.",
+      "longdescription" : "These are usually made in large portions, roasted in a high-temperature grill, spiced, and often sliced down before serving.",
       "altaDescription" : "These go very well with salads and porridges. Or maybe even as a snack.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "paletteSwap" : {"#ffca8a":"#8affe1","#e0975c":"#5ce0b1","#a85636":"#36a84e","#6f2919":"#196f23"},
       "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Roasted_Mushrooms
@@ -38,7 +38,7 @@
       "#840748":"#843607","#6c053b":"#6c2b05","#57042f":"#572304"}, "learnBlueprintsOnPickup" : [ ],
       "foodValue" : 20, "effects" : [ ] },  // https://starbounder.org/Hot_Bone
     "boiled_tonna" : { "baseAsset" : "/items/generic/food/tier5/eyebowls.consumable",
-      "shortdescription" : "Boiled Tonna", "level" : 2, "rarity" : "Common", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 300,
+      "shortdescription" : "Boiled Tonna", "level" : 2, "rarity" : "Common", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 300,
       "description" : "Those soft, boiled ^#c1ebf8;tonna^reset; pieces bathing in hot tonna milk, with small steamed eni-leaves adding to the flavor... Better eat it quick!",
       "longdescription" : "This dish is meant to be eaten right away, because after cooling down it looses some of the bubbly texture, as well as some flavor.",
       "altaDescription" : "Nom! Help! Hot-hot-hot! ... Nom! Haah!.. ... Nom!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -53,8 +53,8 @@
     // T1.5
 
     "tonna_bowl" : { "baseAsset" : "/items/generic/food/tier3/coconutrice.consumable",
-      "shortdescription" : "Tonna Bowl", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 360,
-      "description" : "This fulfilling dish is relatively easy to make, but requires quite a lot of tonnas and ^gray;blue buds^reset;. Usualy served with a big spoon.",
+      "shortdescription" : "Tonna Bowl", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 360,
+      "description" : "This fulfilling dish is relatively easy to make, but requires quite a lot of tonnas and ^gray;blue buds^reset;. usually served with a big spoon.",
       "longdescription" : "While it looks like a lot, most of it is basically whipped ^#c1ebf8;tonna fruit^reset; with blue buds and some spices for texture and flavor.",
       "altaDescription" : "This cream is so soft, that it basically melts in your mouth. Yum!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "paletteSwap" : {
@@ -66,7 +66,7 @@
     "stuffed_aya" : { "baseAsset" : "/items/generic/food/tier2/stuffedtomato.consumable",
       "shortdescription" : "Stuffed Aya", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "runeva_cuisine", "ayaka" ], "race" : "alta", "price" : 340,
       "description" : "A properly ^#3587ff;baked aya^reset; stuffed with different runeva goodness. What will you get this time?",
-      "longdescription" : "Its variations usualy include either ^#ff3f5a;gil^reset; filling or a ^#8020f0;nia jam^reset; of your choice.",
+      "longdescription" : "Its variations usually include either ^#ff3f5a;gil^reset; filling or a ^#8020f0;nia jam^reset; of your choice.",
       "altaDescription" : "I wonder what filling this one has. Probably something incredibly tasty.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "paletteSwap" : {
         "#ffa9a9":"#0066ff","#e33535":"#0042a6","#ad1b08":"#002a69","#299e28":"#e5004b",
@@ -76,7 +76,7 @@
     },  // https://starbounder.org/Stuffed_Tomato
     "yaavikada" : { "baseAsset" : "/items/generic/food/tier4/stuffeddirturchin.consumable",
       "shortdescription" : "Yaavikada", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 400,
-      "description" : "Even though is looks like any other ^gray;alta kada^reset;, this is actualy a full-on baked assorti in a ^#20f080;yaara melon^reset; skin.",
+      "description" : "Even though is looks like any other ^gray;alta kada^reset;, this is actually a full-on baked assorti in a ^#20f080;yaara melon^reset; skin.",
       "longdescription" : "As something in between a kada and an assorti, this is similarly difficult to prepare and would require a chef's hand to make it work.",
       "altaDescription" : "The tastiest kada of them all.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "paletteSwap" : {
@@ -113,7 +113,7 @@
       },
       "foodValue" : 25 },  // https://starbounder.org/Eggshoot_Salad
     "tonna_ice_cream" : { "baseAsset" : "/items/generic/food/tier3/bananaicecream.consumable",
-      "shortdescription" : "Tonna Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 480,
+      "shortdescription" : "Tonna Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 480,
       "description" : "A well-made tonna ice cream with a soft tonna flavor and a special ^#7ddcde;cryo jam^reset; in the middle. This is refreshing and recharging.",
       "longdescription" : "If you reach the bottom, you can find a hardened tonna casing underneath the cone. This is frozen ^#c1ebf8;tonna milk^reset; thickened with powder.",
       "altaDescription" : "Seems so simple, but I can only imagine how hard this was to create.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -145,7 +145,7 @@
     // T3
 
     "pizzionna_slice" : { "baseAsset" : "/items/generic/food/tier5/piodia.consumable",
-      "shortdescription" : "Pizzonna Slice", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nia_cuisine", "tonna" ], "race" : "alta", "price" : 800,
+      "shortdescription" : "Pizzonna Slice", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 800,
       "description" : "This nia pizza slice will fill you with special pizzonnic energy. Remember that with great power comes great responsibility.",
       "longdescription" : "The pizza uses a tonna paste as a base layer, with a couple of nia fruits as main filling, with slight amounts of ^#8020f0;nia jam^reset; as filling.",
       "altaDescription" : "One of the easy-to-get-it-all-over-yourself kind of pizzas.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -178,7 +178,7 @@
       "shortdescription" : "Blue-Blend Motsu ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "runeva_cuisine", "motsu", "ayaka" ], "race" : "alta", "price" : 880,
       "description" : "This motsu is usually made for altas in corfals, ^#76c7e4;elin gardens^reset; and hospitals. It's a sweet motsu soup made from ^#3587ff;boiled ayas^reset; and ^#3587ff;alta pears^reset;.",
       "longdescription" : "Usually motsus are not supposed to be sweet, but this dish is an exclusion. Anything for well-behaving altas.",
-      "altaDescription" : "Aww, just like in the early days of my existance!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "altaDescription" : "Aww, just like in the early days of my existence!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "foodValue" : 38 },  // https://starbounder.org/Pussplum_Pudding
     "everything_stew" : { "baseAsset" : "/items/generic/food/tier2/bonbonbonbons.consumable",
       "shortdescription" : "Everything Stew ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine", "stew" ], "race" : "alta", "price" : 920,
@@ -286,7 +286,7 @@
       },
       "foodValue" : 7.5, "effects" : [ ] },  // https://starbounder.org/Neonmelon
     "alta_pear" : { "baseAsset" : "/items/generic/produce/alienfruit.consumable", "learnBlueprintsOnPickup" : [ ],
-      "shortdescription" : "Alta Pear", "level" : 1, "rarity" : "Common", "itemTags" : [ "narute", "alterash", "fruit" ], "price" : 30,
+      "shortdescription" : "Alta Pear", "level" : 1, "rarity" : "Common", "itemTags" : [ "nature", "alterash", "fruit" ], "price" : 30,
       "description" : "These tasty small fruits were named after their shape. These are bush fruits that are very hard to find in the wild, but are often grown by gardeners.",
       "longdescription" : "Some speculate that deep origins of these fruits relate them to ayas, impacted by a differing environment.",
       "altaDescription" : "A pretty alta pear. Not sure why we call them that, they don't look like me at all!", "foundIn" : [ "^#b0e0fc;Alta Gardener^reset;" ],

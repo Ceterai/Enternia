@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_warm_tenant",
+  "priority" : 5,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "ice" : 6
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_warm_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Warm Girl",
+    "description" : "An alta dressed up in warm clothes for the cold. These blue scarfs are given out by local outposts to help keep altas warm.",
+    "category" : "casual",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

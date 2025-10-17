@@ -10,7 +10,8 @@
   "longdescription": "This A.I. chip is constructed by interplanetary standards, though its software is purely alta-native, meaning it performs similar to a datamass.",
   "altaDescription": "A whole ship A.I. condensed into a small datamass... Amusing.",
 
-  "rarity": "Legendary", "price": 220, "level" : 6, "race" : "alta", "itemTags" : [ "ship" ],
+  "rarity": "Legendary", "price": 220, "level" : 6, "race" : "alta",
+  "itemTags" : [ "alta_ai", "alta_ship" ],
 
   "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },

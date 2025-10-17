@@ -1,12 +1,13 @@
 {
   "name": "ct_yaara_keeper_tenant",
-  "priority": 4,
+  "priority": 9,
 
   "colonyTagCriteria": {
     "light": 1,
     "door": 1,
     "yaara": 18,
-    "floran": 18
+    "floran": 18,
+    "combat": 18
   },
 
   "tenants": [
@@ -24,9 +25,7 @@
                     { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper" } },
                     { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper" } },
                     { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper" } },
-                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_mask" } },
-                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_shaman_mask" } },
-                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_crown" } }
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_mask" } }
                   ],
                   "chest" : [
                     { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara_keeper" } }
@@ -47,6 +46,13 @@
 
   "rent": {
     "periodRange": [900.0, 1800.0],
-    "pool": "ct_alta_gift"
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaara Keeper",
+    "description" : "A floran born in a yaara grove, ready to defend their home.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
   }
 }

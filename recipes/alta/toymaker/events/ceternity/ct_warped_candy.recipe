@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_stardust", "count" : 2 },
+    { "item" : "paper", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_warped_candy", "count" : 1 },
+  "duration" : 0.05,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "snacks", "all", "mod", "spookysynergy" ]
+}

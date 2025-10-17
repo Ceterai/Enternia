@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_gheatsyn_crippit_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Rare", "level" : 5,
+  "level" : 5,
   "twoHanded" : false, "pet" : "ct_gheatsyn_crippit",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"

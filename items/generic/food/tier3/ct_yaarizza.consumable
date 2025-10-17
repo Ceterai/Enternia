@@ -1,7 +1,6 @@
 {
   "itemName" : "ct_yaarizza",
-  "level" : 5, "rarity" : "Rare", "price" : 800,
-  "race" : "alta",
+  "level" : 5, "price" : 800, "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_yaarizza.png",
   "shortdescription" : "Yaarizza Slice",
@@ -34,7 +33,7 @@
     "extra" : {
       "shortdescription" : "Yaarizza Extra Toppings Slice", "variant" : true,
       "description" : "This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
-      "longdescription" : "The recipe itself is not much different from the original, with the only signeficant change being extra generosity.",
+      "longdescription" : "The recipe itself is not much different from the original, with the only significant change being extra generosity.",
       "altaDescription" : "The flavor and texture are oozing from the sides! Be careful not to get it on your clothes!",
       "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45,
       "paletteSwap" : {

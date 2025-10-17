@@ -1,0 +1,21 @@
+{
+  "type" : "ct_alta_halloween_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "floranskullhead", "parameters" : { "colorIndex" : 3 } } ],
+          "chest" : [ { "name" : "anatomychest", "parameters" : { "colorIndex" : 3 } } ],
+          "legs" : [ { "name" : "anatomylegs", "parameters" : { "colorIndex" : 3 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:ceternity" }
+  }
+}

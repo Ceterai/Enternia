@@ -2,19 +2,13 @@
   "id" : "ct_elin",
   "title" : "Elin's Invite",
   "description" : "A ^#b0e0fc;datamass^reset; containing some sort of invitation.",
+  "longdescription" : "This datamass contains a message from Elin, inviting new altas into their brand new life.",
+  "altaDescription" : "A warm invitation from Elin... I guess this is how it all began for me.",
   "icon" : "datamass/elin.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Hi! Welcome to your life, dear ^#b0e0fc;alta^reset;.
-It's a shame I can't meet you directly, my little, but don't worry - all energy inside my gardens contains my presence, it runs through every fibre you see around you.
-
-Soon you'll find your way to a happy little corfal, where my caretakers will nurture you until you're ready to venture outside and face the world in all its beauty and wonder!",
-
-"I'm very excited for you, my little, and I hope you're excited too.
-
-With love, ^#76c7e4;Elin^reset;. «"
-
+    "Hi! Welcome to your life, dear ^#b0e0fc;alta^reset;.\nIt's a shame I can't meet you directly, my little, but don't worry - all energy inside my gardens contains my presence, it runs through every fibre you see around you.\n\nSoon you'll find your way to a happy little corfal, where my caretakers will nurture you until you're ready to venture outside and face the world in all its beauty and wonder!",
+    "I'm very excited for you, my little, and I hope you're excited too.\n\nWith love, ^#76c7e4;Elin^reset;. «"
   ],
     "itemConfig" : {
       "level" : 4, "tooltipKind" : "ct_alta_item_long",

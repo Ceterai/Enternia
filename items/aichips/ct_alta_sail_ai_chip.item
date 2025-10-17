@@ -11,6 +11,7 @@
   "altaDescription": "A ship-specific chip that's meant to be compatible with non-alta ships.",
 
   "rarity": "Rare", "price": 180, "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_ai", "alta_ship" ],
 
   "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/ct_alta_sailquestportrait.png" },

@@ -5,11 +5,13 @@
   "longdescription" : "This mysterious and powerful powder, also known as **Staris** by ^#b0e0fc;altas^reset;, is the energy matter of ^#ffa8e8;Io^reset;. When a star explodes, the energy from it bursts in every direction, eventually crystallizing and forming tiny specks, filled with different types of ^#b0e0fc;energy^reset;.  \nRead a related codex for more: ^#b0e0fc;Alta History - From A Speck^reset;",
   "altaDescription" : "Some precious staris. Io's gift of life. I hope I can do it some justice.",
 
-  "level" : 7, "price" : 0, "rarity" : "Legendary",
+  "level" : 7, "price" : 0,
   "category" : "craftingMaterial",
-  "itemTags" : [ "reagent", "staris", "stardust", "energy_source", "life_source", "io", "ceterai" ],
+  "itemTags" : [ "reagent", "stardust", "energy_source", "ceterai" ],
   "learnBlueprintsOnPickup" : [ "ct_alta_plant_stardust" ],
   "inventoryIcon" : "ct_stardust.png",
+
+  "builder" : "/items/buildscripts/alta/item.lua",
 
   "wiki" : {
     "aliases" : { "Io's Gift" : { } },

@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_ayaka_eva_tree",
-  "colonyTags" : [ "alterash", "nature", "ayaka" ],
+  "colonyTags" : [ "alterash", "nature", "ayaka", "eva" ],
   "level" : 3, "category" : "sapling",
 
   "shortdescription" : "Eva Ayaka",
@@ -35,25 +35,5 @@
     { "tree" : true }
   ],
 
-  "builder" : "/items/buildscripts/alta/sapling.lua",
-  "wiki" : {
-    "aliases" : { "Ayaka Tree" : { "icon" : "/plants/trees/ct_ayaka/foliage/ct_ayaka_foliage_blue/icon.png" } },
-    "related" : {
-      "### [[ Biomes ]]" : {
-        "#### Main Biome" : [ "Ayaka Forest" ],
-        "#### Additional Biomes" : [ "Alterash Gardens", "Alterash Prime Gardens", "Starforest", "Antorash Plains", "Enchanted Meadows", "Iora Gyera Park", "Poptop Valley" ]
-      },
-      "### [[ Objects ]]" : {
-        "#### Natural" : [ "Fallen Aya", "Aya Pile", "Ayaka Sap Blob", "Ayaka Sap Pile", "Overgrown Ayaka Sap Blob", "Dripping Ayaka Sap Blob", "Hanging Ayaka Sap Blob" ]
-      },
-      "### [[ Items ]]" : [ "Aya", "Aya Powder", "Ayaka Wood", "Ayaka Sap", "Aya Virma", "Ayaka Loot Crate", "Ayaka Gardener's Notes", "A Virma's Friend" ],
-      "### [[ Plants ]]" : {
-        "#### [[ Trees|Plants#trees ]]" : [ "Ayaka Tree", "Garden Ayaka", "Blossoming Ayaka", "Crystal Ayaka", "Ayaka Prime", "Ayaka Giant", "Elin Ayaka", "Stardust Ayaka", "Great Ayaka Prime" ],
-        "#### [[ Bushes|Plants#bushes ]]" : [ "Alterash Garden Bush", "Valley Bush" ],
-        "#### [[ Roots|Plants#stems ]]" : [ "Aya Sprouts", "Ayaka Roots" ],
-        "#### [[ Foliages|Plants#foliages ]]" : [ "Ripe Ayaka Leaves", "Ayaka Leaves", "Blossoming Ayaka Leaves" ],
-        "#### [[ Stems|Plants#stems ]]" : [ "Short Ayaka Stem", "Crystal Ayaka Stem", "Garden Ayaka Stem", "Ayaka Prime Stem", "Ayaka Giant Stem", "Ayaka Stem" ]
-      }
-    }
-  }, "alkey" : "Ayaka"
+  "builder" : "/items/buildscripts/alta/sapling.lua", "alkey" : "Eva Ayaka"
 }

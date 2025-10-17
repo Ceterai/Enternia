@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_carel_eco",
+  "colonyTags" : [ "nature", "carel", "farming" ], "learnBlueprintsOnPickup" : [ "ct_carel_boosted", "ct_calin_fertilizer" ],
+  "category" : "seed", "objectType" : "farmable",
+  "level" : 4,
+
+  "shortdescription" : "Eco Carel Sapling",
+  "description" : "This smaller sapling will ripen much slower, but doesn't consume soil.",
+  "altaDescription" : "A crystalline plant beloved by crunch lovers.",
+
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png:default.3.0",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<stage>.<alt>",
+      "spaces" : [ [0, 0] ],
+      "anchors" : [ "bottom" ], "requireTilledAnchors" : true
+    }
+  ],
+
+  "stages" : [
+    { "duration" : [500, 600] },
+    { "duration" : [500, 600] },
+    { "alts" : 5, "duration" : [1660, 1720] },
+    { "alts" : 5, "harvestPool" : "ct_carel_harvest", "resetToStage" : 2 }
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false,
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

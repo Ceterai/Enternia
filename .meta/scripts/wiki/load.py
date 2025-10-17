@@ -5,6 +5,7 @@ import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 MODS = os.path.dirname(ROOT)
+DATA = os.path.join(ROOT, 'data', 'alta_database.json')
 META = os.path.join(ROOT, '.meta')
 WIKI = os.path.join(META, 'wiki')
 RELEASE = os.path.join(META, 'release')
@@ -49,6 +50,10 @@ OBJECT_PATHS = [
 ]
 
 CODEX_PATHS = [
+    '',
+]
+
+BIOME_PATHS = [
     '',
 ]
 
@@ -136,7 +141,13 @@ def merge_patches(source: dict, dest: dict):
 
 def decode_patch_list(patch_list):
     obj: dict[str] = {}
+    flat_patch_list = []
     for patch in patch_list:
+        if isinstance(patch, list):
+            flat_patch_list.extend(patch)
+        else:
+            flat_patch_list.append(patch)
+    for patch in flat_patch_list:
         op: str = patch['op']
         if op in ('add', 'replace', ):
             path: str = patch['path']

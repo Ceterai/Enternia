@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "liquidoil", "count" : 8 },
+    { "item" : "purpledye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ceternity_poster", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor3", "alta_special", "objects", "art", "posters", "all", "mod", "ceternity", "spookysynergy", "spookycrafter" ]
+}

@@ -1,0 +1,22 @@
+{
+  "type" : "ct_alta_harrowing_girl",
+  "baseType" : "ct_alta",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ethnichead", "parameters" : { "colorIndex" : 8 } } ],
+          "chest" : [ { "name" : "floranleafchest", "parameters" : { "colorIndex" : 4 } } ],
+          "legs" : [ { "name" : "woollylegs", "parameters" : { "colorIndex" : 7 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:ceternity" }
+  }
+}

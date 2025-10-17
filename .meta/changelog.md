@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.4 - Alta Hobbies](#update-24---alta-hobbies)
+    - [2.4.0b - The Hallowing Ceternity](#240b---the-hallowing-ceternity)
     - [2.4.0a](#240a)
     - [2.4.0.fix](#240fix)
     - [2.4.0](#240)
@@ -69,6 +70,78 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 ## Update 2.4 - Alta Hobbies
 
+### 2.4.0b - The Hallowing Ceternity
+
+**Happy Spooky Season!** This introduces spooky stuff to the mod to celebrate alta version of Halloween - the **Hallowing Ceternity**!
+![ ](/.meta/images/showcase/2.4.0b/ceternity.png)
+This patch also adds more tenants, produce seed upgrades, support for two popular augment mods, as well as a resource recycling mod and a Halloween mod. This patch also fixes a lot of typos. A lot.
+
+**Main:**
+
+- added 3 sets of vanilla produce seed upgrades:
+  - **Neonmelon**
+  - **Oculemon**
+  - **Crystal Plant** (Carel)
+- added 2 secret statues, 1 plushie, and 1 figurine;
+- added 26 NPCs and tenants;
+- added 6 Ceternity candies;
+- added 2 alternative Jack O' Lanterns:
+  - **Neonjack** - made from neonmelon
+  - **Yaajack** - made from yaara orb
+- added 3 festive posters:
+  - **Ceternity Poster** - to celebrate Hallowing Ceternity
+  - **Halloween Poster** - to celebrate Halloween
+  - **Harrowing Poster** - to celebrate The Harrowing from Elithian Alliance mod
+- added support for [Augment Crafting Table](https://steamcommunity.com/sharedfiles/filedetails/?id=2131697647) and [Craftable Augments](https://steamcommunity.com/sharedfiles/filedetails/?id=2828132232) - augment recipes from this mod are now available in these stations;
+- added support for [Liquid Extractor Reborn](https://steamcommunity.com/sharedfiles/filedetails/?id=3525229778) - some resources from this mod can now be used for liquid extraction;
+- added support for [Spooky Synergy](https://steamcommunity.com/sharedfiles/filedetails/?id=3582677809) - alta candy, cookies and monster masks can now drop as loot from reward bags patched by that mod.
+
+**Tenants:**
+
+- added more unique dialogue to existing tenants;
+- added 30 unique rent loot tables for tenants;
+- added 26 new tenants:
+  - **Alta Banana**;
+  - **Alta Dino Girl**;
+  - **Alta Gold Knight**;
+  - **Alta Househead**;
+  - **Alta Plantain Girl**;
+  - **Alta Shark Cosplayer**;
+  - **Alta Albino Shark Cosplayer**;
+  - **Alta Snow Girl**;
+  - **Alta Warm Girl**;
+  - **Alta Shadow Gardener**;
+  - **Alta Floran Prisoner**;
+  - **Alta Slimegirl**;
+  - **Alta Stone Gardener**;
+  - **Arigaran Merchant**;
+  - **Arigaran**;
+  - **Yaaviling**;
+  - **Yaara Shaman**;
+  - **Yaara Sprout**;
+  - **Yaarafinger**;
+  - **Yaaraling**;
+  - **Aric Ghost**;
+  - **Alta Ceternity Girl**;
+  - **Alta Halloween Girl**;
+  - **Alta Harrowing Girl**;
+  - **Alta Spooky Girl**;
+  - **Alta Ceternity Merchant**.
+
+**Other:**
+
+- added and updated some very special objects;
+- added long descriptions and alta descriptions to many items and objects;
+- added converse dialogue groups to a lot of themed NPCs;
+- fixed **Warped Hive** sapling, eco, pod, and boosted harvest loot table;
+- fixed incorrect effect in the **Combat Power Augment**;
+- fixed critters being unable to climb slopes;
+- updated **Alta Scanner** to be able to show multiple authors;
+- updated Tiled tilesets with new objects added before this version;
+- huge number of typo fixes;
+- huge number of item tag and colony tag fixes;
+- minor bug fixes.
+
 ### 2.4.0a
 
 A patch that fixes a progression loop with dendrarium codex entries, and brings support for the Growing Trays mod.
@@ -77,7 +150,8 @@ A patch that fixes a progression loop with dendrarium codex entries, and brings 
 
 - added support for Growing Trays:
   - alta fertilizers can now be used with the mod and have a low chance of being consumed and high fertilizing value;
-  - organic ME materials can also be used with the mod, with a high chance of being consumed and a lower fertilizing value.
+  - organic ME materials can also be used with the mod, with a high chance of being consumed and a lower fertilizing value;
+  - configuration is located here: [`/xrc_fertilizer.config.patch`](../xrc_fertilizer.config.patch).
 ![ ](/.meta/images/showcase/2.4.0a/growing_trays.png)
 
 **Other:**
@@ -99,7 +173,7 @@ A quick hotfix to address smaller issues coming from 2.4 initial release.
 - added a separate item pool for Alta Christmas Girl's shop;
 - added more unlocked recipes to codexes and crops;
 - updated tool recipes to reflect progress stages properly with according types of recipes;
-- made the Alta Dendrarium recipe to be available in the Alta Crafting Station.
+- made the Alta Dendrarium recipe available in the Alta Crafting Station.
 
 **Other:**
 
@@ -267,16 +341,16 @@ Finally, the mod is now available on [Nexus Mods](https://www.nexusmods.com/star
     - these crops can be found in the wild (if they have a wild variation), bought from a merchant, or crafted from other seeds.
   - added almost **260** crop objects for different crop upgrades:
     - **Wild Seed** - takes less space, but can only be found in the wild and drops a normal seed instead;
-    - **Seed** - regular seed, takes up more space, takes a long time to grow and ripe;
+    - **Seed** - regular seed, takes up more space, takes a long time to grow and ripen;
     - **Sapling** - upgraded seed, takes up less space;
     - **Cultivated** - upgraded sapling, grows faster;
-    - **Eco** - upgraded cultivated sapling, very compact, takes a long time to ripe, doesn't need watering;
+    - **Eco** - upgraded cultivated sapling, very compact, takes a long time to ripen, doesn't need watering;
     - **Fertile** - upgraded cultivated sapling, produces a modified version of the fruit;
     - **Sort** - upgraded cultivated sapling, produces a different sort of the fruit;
     - **Mixed** - upgraded cultivated sapling, produces a different fruit;
-    - **Boosted** - upgraded cultivated sapling, ripes fast and gives more produce than usual;
-    - **Eco Pod** - upgraded eco sapling, compact, can be placed anywhere, no water needed, takes a long time to ripe.
-    - most plants don't have all of these upgrades, just **Wild Seed**, **Seed**, **Sapling**, **Eco**, **Boosted** and **Eco Pod**.
+    - **Boosted** - upgraded cultivated sapling, ripens fast and gives more produce than usual;
+    - **Eco Pod** - upgraded eco sapling, compact, can be placed anywhere, no water needed, takes a long time to ripen.
+    - most plants don't have all of these upgrades, just **Wild Seed**, **Seed**, **Sapling**, **Eco**, **Boosted**, and **Eco Pod**.
 - added 8 more food type-specific **Alta Cooking Stations**:
   - **Alta Fermenter**;
   - **Alta Jellyfier**;
@@ -302,7 +376,7 @@ Finally, the mod is now available on [Nexus Mods](https://www.nexusmods.com/star
 
 **Translation:**
 
-- new items and objects have translateable strings.
+- new items and objects have translatable strings.
 
 **Other:**
 
@@ -436,7 +510,7 @@ A patch with minor fixes to loot chances and with some WIP additions.
 **Other:**
 
 - fixed projectiles on more weapons;
-- fixed a tiny melee combo compatability issue with FU;
+- fixed a tiny melee combo compatibility issue with FU;
 - minor bug fixes.
 
 ### 2.3.4c
@@ -470,7 +544,7 @@ This patch adds the wave animation to the glowsticks, as well as focuses on fixi
 **Other:**
 
 - fixed projectiles on more weapons;
-- fixed a tiny melee combo compatability issue with FU;
+- fixed a tiny melee combo compatibility issue with FU;
 - minor bug fixes.
 
 ### 2.3.4b
@@ -816,7 +890,7 @@ This mini-patch refines already existing things and improves the quality of life
 
 It also adds support for a couple more mods!
 
-In time for the release of this patch, a couple more mods were released to provide more compatability and customization:
+In time for the release of this patch, a couple more mods were released to provide more compatibility and customization:
 
 - [Alta A.I. Chips](https://steamcommunity.com/sharedfiles/filedetails/?id=3276795992)
 - [EDS Alta S.A.I.L.](https://steamcommunity.com/sharedfiles/filedetails/?id=3277537016)
@@ -896,7 +970,7 @@ In time for the release of this patch, a couple more mods were released to provi
 - updated some lua and python scripts to allow for more flexibility and provide more insight and comments;
 - added generic alta UI elemtents to an `/interface/alta` folder;
 - added `ct_alta_effects_2` tooltip type for armor items with 2 effects;
-- unified more filenames of object sprites, keeping files with old names for now for the sake of compatability;
+- unified more filenames of object sprites, keeping files with old names for now for the sake of compatibility;
 - added more single-frame sprites named `tiled.png` to objects for use in Tiled;
 - added a fully functional My Enternia tileset for use in Tiled:  
   ![ ](/.meta/images/showcase/2.3.3a/tiled.png)
@@ -989,19 +1063,19 @@ It also adds custom alta S.A.I.L. modifications, so expect standalone alta S.A.I
 
 - updated **Alta Zich** to **Alta Zych**, which led to id changes throughout the mod;
 - updated merchant pools for engineer and mechanic (finally) - they now mostly contain alta items;
-- unified filenames of some object sprites, keeping files with old names for now for the sake of compatability;
+- unified filenames of some object sprites, keeping files with old names for now for the sake of compatibility;
 - added single-frame sprites named `tiled.png` to some objects for use in Tiled;
 - added a fully functional alta tileset for use in Tiled:  
   ![ ](/.meta/images/showcase/2.3.3/tiled.png)
 - added more specific npc types instead of having them as tenants with modifications so they can be spawned directly and through Tiled;
-- added custom npcs behaviors to make alta npcs more vigilant around object stealing;
-- alta npcs now also alert nearby alta drones, causing them to attack the player if they steal anything.
+- added custom npcs behaviors to make alta NPCs more vigilant around object stealing;
+- alta NPCs now also alert nearby alta drones, causing them to attack the player if they steal anything.
 
 **Other:**
 
 - added 4 custom tier 4 food variants;
 - updated icons for perfect tier 4 food;
-- fixed compatability with [Monsters Unique Sounds (SFX from Beta)](https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235):
+- fixed compatibility with [Monsters Unique Sounds (SFX from Beta)](https://steamcommunity.com/sharedfiles/filedetails/?id=1110852235):
   - that mod creates and uses custom parameters in base monster init;
   - alta drones use a custom init that doesn't create those parameters, causing drones to explode on spawn;
   - adding `ouchTimer` to the custom init fixed this issue (although I think ideally this should be handled by the author of that mod).
@@ -1057,7 +1131,7 @@ This patch is meant to fix any immediate issues coming from 2.3, as well as make
 
 **Dev:**
 
-- added explicit icons to monster egg items for better compatability with Spawnable Item Pack;
+- added explicit icons to monster egg items for better compatibility with Spawnable Item Pack;
 - moved the rest of treasure pools to separate files.
 
 **Other:**
@@ -1115,7 +1189,7 @@ This patch is meant to fix any immediate issues coming from 2.3, as well as make
 
 **Dev:**
 
-- added explicit icons to monster egg items for better compatability with Spawnable Item Pack;
+- added explicit icons to monster egg items for better compatibility with Spawnable Item Pack;
 - moved the rest of treasure pools to separate files.
 
 **Other:**
@@ -1411,7 +1485,7 @@ It's time to go. You decide where - whether it's into the wild areas of alterash
 - updated IDs for poptops and shop food;
 - distributed treasure pools and spawn types into smaller files by categories;
 - deprecated certain spawn types;
-- removed old parallax files, now they are only present in the compatability patch.
+- removed old parallax files, now they are only present in the compatibility patch.
 
 **Other:**
 
@@ -1493,7 +1567,7 @@ This update is also to celebrate the mod finally reaching **five stars** in Stea
 
 **Main:**
 
-- posted a separate mod that retains any old deprecated content as a backwards-compatability feature: **My Enternia - Removed Content**:
+- posted a separate mod that retains any old deprecated content as a backwards-compatibility feature: **My Enternia - Removed Content**:
   - [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3169344640)
   - [Starbound Forums Link](https://community.playstarbound.com/resources/my-enternia-removed-content.6282/)
   
@@ -1575,7 +1649,7 @@ This update is also to celebrate the **4th anniversary** of the mod, since it wa
 **Tabula Rasa:**
 
 - added all recipes to the [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) crafting table - `/spawnitem tabularasa`;
-- added `mod` category to most recipes in the mod to make them appear in **Tabula Rasa**, and added categories used by it for compatability - `materials`, `armors`, `weapons`, `consumables`, `tools`, `objects` and `other`;
+- added `mod` category to most recipes in the mod to make them appear in **Tabula Rasa**, and added categories used by it for compatibility - `materials`, `armors`, `weapons`, `consumables`, `tools`, `objects` and `other`;
 - added "mod category" buttons - **My Enternia** and **Alta Species**:
   - **My Enternia** button filters by all recipes from this mod;
   - **Alta Species** button filters by all recipes from this mod that belong to altas or are considered alta technology.
@@ -1648,7 +1722,7 @@ This might be the most stable & bugless update so far, which is nice.
 **Main:**
 
 - many small bugfixes;
-- perfected backwards compatability;
+- perfected backwards compatibility;
 - another id update;
 - Ultimate Crafting Station enhancements;
 
@@ -2203,7 +2277,7 @@ Other small things like adding missing recipes, fixing objects scripts, sounds a
 - cleaned up the mod significantly by removing unused resources and reusing certain assets;
 - restructured certain folders to make them easier to navigate and prepare it for 1.7 update;
 - moved all deprecated resources to the deprecated folder (again);
-- moved all parallaxes to the parallax folder (left old copies in their places for compatability);
+- moved all parallaxes to the parallax folder (left old copies in their places for compatibility);
 - updated 5 codexes (text, formatting, price).
 
 **Alterash Prime:**
@@ -2300,7 +2374,7 @@ Finally, the update adds a [Guide Book](https://github.com/Ceterai/Enternia/wiki
 - added [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) - crafting table (6 tiers) for all objects and loot tables added by the mod and more;
 - added [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) - crafting table (1 tier) for all codexes added by the mod;
 - moved object recipes and tabs from [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station) to [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor);
-- tier 6 of [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) allows to craft naturally occuring objects and loot tables, which are unobtainable otherwise;
+- tier 6 of [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) allows to craft naturally occurring objects and loot tables, which are unobtainable otherwise;
 - both new crafting tables can be crafted at [Alta Crafting Station](https://github.com/Ceterai/Enternia/wiki/Alta-Crafting-Station);
 
 - reworked mod saplings, they now [Uncommon](https://github.com/Ceterai/Enternia/wiki/Uncommon) and can be sold for pixels and crafted with default params ([Garden Ayaka](https://github.com/Ceterai/Enternia/wiki/Garden-Ayaka));

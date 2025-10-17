@@ -1,7 +1,7 @@
 {
   "name" : "ct_alterash_garden",
   "friendlyName" : "Alterash Gardens",
-  "description" : "A peaceful prairie on the surface of Alterash planets, filled with grass, colorful flowers and iridescent ^#ffa8e8;prisms^reset; made of crystallized ^#ffa8e8;stardust^reset;. Rare ayaka trees are scattered around a surface, with ripe bright blue ayas hanging among their leaves.  \nThe underground here is filled with bushes and rare ayaka roots.\n\nYou can find these gardens on every ^#20f080;alterash^reset; planet and is likely the first thing you'll see - this mostly plain terrain with little danger around is a great place for landing.\n\nWhat awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! **Welcome to Alterash.**",
+  "description" : "A peaceful prairie on the surface of Alterash planets, filled with grass, colorful flowers and iridescent ^#ffa8e8;prisms^reset; made of crystallized ^#ffa8e8;stardust^reset;. Rare ayaka trees are scattered around the surface, with ripe bright blue ayas hanging among their leaves.  \nThe underground here is filled with bushes and rare ayaka roots.\n\nYou can find these gardens on every ^#20f080;alterash^reset; planet and is likely the first thing you'll see - this mostly plain terrain with little danger around is a great place for landing.\n\nWhat awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! **Welcome to Alterash.**",
   "icon" : "/items/active/alta/loot/tier1.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
@@ -92,6 +92,10 @@
         "objectSets" : [ { "pool" : [ [1, "statuspod" ] ], "parameters" : { } } ]
       },
       // Dungeons
+      // {
+      //   "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "microdungeon",
+      //   "microdungeons" : [ "ct_alta_landing_pad", "ct_alta_picnic", "ct_boko_grazing", "ct_klee_pit" ]
+      // },
       {
         "mode" : "floor", "priority" : 2, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
         "microdungeons" : [ "aridplatforming", "blank", "none" ]
@@ -99,6 +103,7 @@
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
         "microdungeons" : [ "encounterdungeons" ]
+        // "microdungeons" : [ "ct_faradea_camp", "ct_alta_merchant_stop", "ct_alta_camp", "blank", "none" ]
       },
       // Growth
       {

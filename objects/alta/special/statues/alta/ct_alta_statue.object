@@ -1,0 +1,24 @@
+{
+  "objectName" : "ct_alta_statue",
+  "colonyTags" : [ "city", "patriotic", "pretty", "massive" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 400, "race" : "alta",
+
+  "shortdescription" : "Alta Statue",
+  "description" : "A statue on a titanium platform. The label says the statue was build in the name of all ^#b0e0fc;altas^reset;.",
+  "longdescription" : "The alta in researcher's field suit is holding the alta emblem - a circle with a core and lines of progress.",
+  "altaDescription" : "Looking at the monument to all of us and the progress we've made fills me with determination.",
+
+  "apexDescription" : "An alta monument. Mady by altas. For altas. Interesting.",
+  "avianDescription" : "A statue! I wonder who it's dedicated to...",
+  "floranDescription" : "A cryssstal giant on a pedessstal. Floran ready for fight!",
+  "glitchDescription" : "Bored. Just another humanoid statue.",
+  "humanDescription" : "Looks like a glass statue of a person holding something.",
+  "hylotlDescription" : "A crystal statue of an alta, standing as if she just discovered their nation.",
+  "novakidDescription" : "A pretty big statue for a pretty small person, huh.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-32, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

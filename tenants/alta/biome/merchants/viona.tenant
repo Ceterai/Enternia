@@ -1,0 +1,31 @@
+{
+  "name" : "ct_viona_merchant_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "viona" : 14  // alien, pastel for fairy and rainbow for rainbow warrior
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_viona_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_viona_gift" },
+
+  "wiki" : {
+    "title" : "Viona Merchant",
+    "description" : "This alta sells items and things affected by vionia, or enchanted energy.",
+    "category" : "nature", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

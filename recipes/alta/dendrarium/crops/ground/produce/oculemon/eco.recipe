@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_oculemon_cultivated", "count" : 1 },
+    { "item" : "ct_alta_fertilizer", "count" : 1 },
+    { "item" : "oculemonseed", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_oculemon_eco", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_dendrarium", "alta_constructor6", "alta_crops", "nature", "crop", "all", "mod" ]
+}

@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ct_boko_grazing",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "boko1", "boko2", "boko3", "boko4" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Boko Grazing Area",
+    "description" : "A grazing area for big bokos and small bokis."
+  },
+  "parts" : [
+    { "name" : "boko1",   "def" : [ "tmx", [ "boko1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "boko2",   "def" : [ "tmx", [ "boko2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "boko3",   "def" : [ "tmx", [ "boko3.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "boko4",   "def" : [ "tmx", [ "boko4.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

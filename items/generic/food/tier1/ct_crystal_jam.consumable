@@ -4,7 +4,7 @@
   "description" : "Slightly fluorescent soury jam made from ^#a7e001;gheatsyn^reset;. Very tingy and very energy-reactive.",
   "longdescription" : "One of the easiest calin jams to make, as it only involves triggering ^#a7e001;tsyntex^reset;, followed by mixing, and a simple purification sequence, meant to make the jam edible.",
   "altaDescription" : "Nice one for putting in cookies. Or pies. Love the ^#a7e001;crunchy pies^reset; some altas can cook up.",
-  "level" : 2, "rarity" : "Common", "price" : 260, "race" : "alta",
+  "level" : 2, "price" : 260, "race" : "alta",
   "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "jam", "calin" ],
   "inventoryIcon" : "ct_crystal_jam.png",
   "foodValue" : 20, "effects" : [ [ { "effect" : "lightaugment1", "duration" : 60 }, { "effect" : "ct_crystal_poison", "duration" : 5 } ] ],  // ct_alta_food_crystal

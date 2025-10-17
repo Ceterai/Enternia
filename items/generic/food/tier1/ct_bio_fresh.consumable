@@ -4,8 +4,8 @@
   "description" : "A healthy fresh made out of pure ^#60d600;biosamples^reset; rich on vitamins. Tastes a bit like medicine.",
   "longdescription" : "The taste however is not far off when it comes to the qualities of the drink. Though there' poison in every medicine, as they say.",
   "altaDescription" : "A little strainght-forward with the taste, but the texture is amazing! Especially if you carbonate it...",
-  "level" : 2, "rarity" : "Common", "price" : 120, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "fresh", "extract" ],
+  "level" : 2, "price" : 120, "race" : "alta",
+  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "fresh", "extract", "bio" ],
   "inventoryIcon" : "ct_bio_fresh.png",
   "foodValue" : 12, "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 }, { "effect" : "weakpoison", "duration" : 5 } ] ],  // ct_alta_food_plant
   "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],

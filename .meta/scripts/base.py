@@ -18,6 +18,7 @@ STARBOUND = os.path.dirname(MODS)
 REPO = 'https://github.com/Ceterai/Enternia'
 IMAGE_PATH = 'https://raw.githubusercontent.com/Ceterai/Enternia/main'
 REPO_PATH = f'{REPO}/blob/main'
+WIKI_PATH = 'https://ceterai.github.io/MyEnternia/Wiki'
 HINT_PATH = __file__.replace(ROOT, '').replace('\\', '/').replace(get_file(__file__), '')
 HINT = '// Mod Support for {mod}, generated with this script: ' + REPO_PATH + HINT_PATH + 'mods/{name}'
 

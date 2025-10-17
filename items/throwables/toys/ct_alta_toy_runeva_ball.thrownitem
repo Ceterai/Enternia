@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_toy_runeva_ball",
-  "level" : 1, "rarity" : "Common", "price" : 480,
+  "shortdescription" : "Runeva Ball",
+  "description" : "It's an inflatable tricolor ball.",
+  "level" : 5, "price" : 160, "race" : "alta",
+  "itemTags" : [ "beach", "toy" ],
+
   "category" : "throwableItem",
   "inventoryIcon" : "ct_alta_toy_runeva_ball.png",
   "image" : "ct_alta_toy_runeva_ball.png",
-  "shortdescription" : "Runeva Ball",
-  "description" : "It's an inflatable tricolor ball.",
 
   "ammoUsage" : 1,
 
@@ -23,5 +25,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

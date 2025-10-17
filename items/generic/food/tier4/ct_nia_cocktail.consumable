@@ -1,7 +1,6 @@
 {
   "itemName" : "ct_nia_cocktail",
-  "level" : 6, "rarity" : "Legendary", "price" : 1000,
-  "race" : "alta",
+  "level" : 6, "price" : 1000, "race" : "alta",
   "category" : "drink",
   "inventoryIcon" : "ct_nia_cocktail.png",
   "shortdescription" : "Nia Cocktail",
@@ -64,7 +63,7 @@
     },
     "stardust" : {
       "chance" : 0.1,
-      "shortdescription" : "Staris Cocktail ^#8020f0;^reset;", "itemTags" : [ "nia_cuisine", "cocktail", "staris" ], "variant" : true,
+      "shortdescription" : "Staris Cocktail ^#8020f0;^reset;", "itemTags" : [ "nia_cuisine", "cocktail", "stardust" ], "variant" : true,
       "description" : "An ultimate nia cocktail that perfactly encompasses the vibe and original taste.",
       "longdescription" : "Representing stardust energy and stardust, this drink feels almost like a powder, or a powdery drink, with the food coloring mixixng as you drink, making it seem like the drink is changing colors, or \"reacting\" to you drinking it.",
       "altaDescription" : "The most lucky you can get with a nia cocktail, I believe.",

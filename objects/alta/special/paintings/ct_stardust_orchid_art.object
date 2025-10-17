@@ -1,13 +1,13 @@
 {
   "objectName" : "ct_stardust_orchid_art",
-  "colonyTags" : [ "stardust", "pretty", "painting" ],
+  "colonyTags" : [ "stardust", "pretty" ],
+  "itemTags" : [ "painting" ],
   "category" : "decorative",
-  "level" : 7, "rarity" : "Legendary", "price" : 1250,
-  "race" : "alta",
+  "level" : 7, "price" : 1250, "race" : "alta",
 
   "shortdescription" : "The Stardust Orchid ^#f02080;^reset;",
   "description" : "A drawing of a flower that looks oddly familiar.",
-  "altaDescription" : "This... Wasn't this dranw by... By Ceterai herself?..",
+  "altaDescription" : "This... Wasn't this drawn by... By Ceterai herself?..",
 
   "inventoryIcon" : "ct_stardust_orchid_art.png",
   "orientations" : [

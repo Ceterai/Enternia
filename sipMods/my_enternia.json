@@ -473,7 +473,7 @@
         "path": "/codex/alta/",
         "fileName": "ct_docs_units_alternia.codex",
         "name": "ct_docs_units_alternia-codex",
-        "shortdescription": "Tech Docs: Alternia Set",
+        "shortdescription": "Tech Docs: ^#2080f0;Alternia Set^reset;",
         "category": "codex",
         "icon": "paper/long.png",
         "rarity": "common",
@@ -3560,7 +3560,7 @@
         "fileName": "cavedetector.activeitem",
         "name": "ct_alta_cave_detector",
         "shortdescription": "Cave Detector",
-        "category": "Tool",
+        "category": "tool",
         "icon": "icon.png",
         "rarity": "legendary"
     },
@@ -3569,7 +3569,7 @@
         "fileName": "oredetector.activeitem",
         "name": "ct_alta_ore_detector",
         "shortdescription": "Ore Detector",
-        "category": "Tool",
+        "category": "tool",
         "icon": "icon.png",
         "rarity": "legendary"
     },
@@ -3635,7 +3635,7 @@
         "path": "/items/active/alta/toys/dart/",
         "fileName": "throwingdart.thrownitem",
         "name": "ct_alta_dart",
-        "shortdescription": "Throwing Dart",
+        "shortdescription": "Alta Dart",
         "category": "throwableItem",
         "icon": "throwingdart.png",
         "rarity": "common"
@@ -3644,7 +3644,7 @@
         "path": "/items/active/alta/toys/dart/blue/",
         "fileName": "throwingdart.thrownitem",
         "name": "ct_alta_dart_omniblue",
-        "shortdescription": "Throwing Dart",
+        "shortdescription": "Omniblue Dart",
         "category": "throwableItem",
         "icon": "throwingdart.png",
         "rarity": "common"
@@ -3653,7 +3653,7 @@
         "path": "/items/active/alta/toys/dart/green/",
         "fileName": "throwingdart.thrownitem",
         "name": "ct_alta_dart_ceterteal",
-        "shortdescription": "Throwing Dart",
+        "shortdescription": "Ceterteal Dart",
         "category": "throwableItem",
         "icon": "throwingdart.png",
         "rarity": "common"
@@ -3662,7 +3662,7 @@
         "path": "/items/active/alta/toys/dart/purple/",
         "fileName": "throwingdart.thrownitem",
         "name": "ct_alta_dart_ionic",
-        "shortdescription": "Throwing Dart",
+        "shortdescription": "Ionic Dart",
         "category": "throwableItem",
         "icon": "throwingdart.png",
         "rarity": "common"
@@ -3716,7 +3716,7 @@
         "path": "/items/active/alta/toys/plane/",
         "fileName": "paperplane.thrownitem",
         "name": "ct_paper_plane",
-        "shortdescription": "Paper Plane",
+        "shortdescription": "Ayaka Plane",
         "category": "throwableItem",
         "icon": "paperplane.png",
         "rarity": "common"
@@ -6056,6 +6056,86 @@
         "race": "alta"
     },
     {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_ceternity_candy.consumable",
+        "name": "ct_ceternity_candy",
+        "shortdescription": "Ceternity Candy",
+        "category": "preparedFood",
+        "icon": "ct_ceternity_candy.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_miazma_candy.consumable",
+        "name": "ct_miazma_candy",
+        "shortdescription": "Miazma Candy",
+        "category": "preparedFood",
+        "icon": "ct_miazma_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_neonjack_candy.consumable",
+        "name": "ct_neonjack_candy",
+        "shortdescription": "Neonjack Candy",
+        "category": "preparedFood",
+        "icon": "ct_neonjack_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_orchid_candy.consumable",
+        "name": "ct_orchid_candy",
+        "shortdescription": "Orchid Candy",
+        "category": "preparedFood",
+        "icon": "ct_orchid_candy.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_orchid_pumpkin_candy.consumable",
+        "name": "ct_orchid_pumpkin_candy",
+        "shortdescription": "Orchid's Pumpkin Candy",
+        "category": "preparedFood",
+        "icon": "ct_orchid_pumpkin_candy.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_warped_candy.consumable",
+        "name": "ct_warped_candy",
+        "shortdescription": "Warpy Candy",
+        "category": "preparedFood",
+        "icon": "ct_warped_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_warped_spider_candy.consumable",
+        "name": "ct_warped_spider_candy",
+        "shortdescription": "Spidy Candy",
+        "category": "preparedFood",
+        "icon": "ct_warped_spider_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ceternity/",
+        "fileName": "ct_yaajack_candy.consumable",
+        "name": "ct_yaajack_candy",
+        "shortdescription": "Yaajack Candy",
+        "category": "preparedFood",
+        "icon": "ct_yaajack_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/items/generic/food/other/",
         "fileName": "ct_aya_powder.item",
         "name": "ct_aya_powder",
@@ -6093,96 +6173,6 @@
         "icon": "ct_minto_spice.png",
         "rarity": "uncommon",
         "race": "alta"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_alliana_cake_slice.consumable",
-        "name": "ct_alliana_cake_slice",
-        "shortdescription": "Alliana Cake",
-        "category": "preparedFood",
-        "icon": "ct_alliana_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_allie_cake.consumable",
-        "name": "ct_allie_cake",
-        "shortdescription": "Alliana Cake",
-        "category": "preparedFood",
-        "icon": "ct_allie_cake.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_crystal_cake_slice.consumable",
-        "name": "ct_crystal_cake_slice",
-        "shortdescription": "Pavolda Cake",
-        "category": "preparedFood",
-        "icon": "ct_crystal_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_fortune_flower.consumable",
-        "name": "ct_fortune_flower",
-        "shortdescription": "Palopias",
-        "category": "preparedFood",
-        "icon": "ct_fortune_flower.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_ion_cake_slice.consumable",
-        "name": "ct_ion_cake_slice",
-        "shortdescription": "Ion Cake",
-        "category": "preparedFood",
-        "icon": "ct_ion_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_onitti_cake_slice.consumable",
-        "name": "ct_onitti_cake_slice",
-        "shortdescription": "Onitti Cake",
-        "category": "preparedFood",
-        "icon": "ct_onitti_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_pavolda_cake_slice.consumable",
-        "name": "ct_pavolda_cake_slice",
-        "shortdescription": "Pavolda Cake",
-        "category": "preparedFood",
-        "icon": "ct_pavolda_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_special_mimosa_slice.consumable",
-        "name": "ct_special_mimosa_slice",
-        "shortdescription": "Special Mimosa",
-        "category": "preparedFood",
-        "icon": "ct_special_mimosa_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_trans_cake_slice.consumable",
-        "name": "ct_trans_cake_slice",
-        "shortdescription": "Alliana Cake",
-        "category": "preparedFood",
-        "icon": "ct_trans_cake_slice.png",
-        "rarity": "legendary"
-    },
-    {
-        "path": "/items/generic/food/other/special/",
-        "fileName": "ct_warped_apple.consumable",
-        "name": "ct_warped_apple",
-        "shortdescription": "Warped Cocktail",
-        "category": "drink",
-        "icon": "ct_warped_apple.png",
-        "rarity": "legendary"
     },
     {
         "path": "/items/generic/food/shop/",
@@ -7228,7 +7218,8 @@
         "shortdescription": "Little Pet Toy Ball",
         "category": "throwableItem",
         "icon": "ct_alta_toy_pet_ball.png",
-        "rarity": "common"
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/throwables/toys/",
@@ -7237,7 +7228,8 @@
         "shortdescription": "Runeva Ball",
         "category": "throwableItem",
         "icon": "ct_alta_toy_runeva_ball.png",
-        "rarity": "common"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/items/throwables/toys/",
@@ -7246,7 +7238,8 @@
         "shortdescription": "Ryushay Ball",
         "category": "throwableItem",
         "icon": "ct_alta_toy_ryushay_ball.png",
-        "rarity": "common"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/items/throwables/toys/",
@@ -7255,7 +7248,8 @@
         "shortdescription": "Vizhus Worm Plushie",
         "category": "throwableItem",
         "icon": "ct_alta_toy_vizhus_worm.png",
-        "rarity": "uncommon"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/items/throwables/toys/",
@@ -7653,7 +7647,7 @@
         "shortdescription": "Alta Pod",
         "category": "storage",
         "icon": "icon.png",
-        "rarity": "common",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -7694,16 +7688,6 @@
         "category": "decorative",
         "icon": "icon.png",
         "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/objects/alta/city/statue/",
-        "fileName": "ct_alta_statue.object",
-        "name": "ct_alta_statue",
-        "shortdescription": "Alta Statue",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -8073,7 +8057,7 @@
         "shortdescription": "^orange;Alta Constructor^reset;",
         "category": "crafting",
         "icon": "icon1.png",
-        "rarity": "uncommon",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8083,7 +8067,7 @@
         "shortdescription": "^orange;Alta Crafting Station^reset;",
         "category": "crafting",
         "icon": "icon1.png",
-        "rarity": "uncommon",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8193,7 +8177,7 @@
         "shortdescription": "^orange;Alta Upgrade Station^reset;",
         "category": "crafting",
         "icon": "icon1.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8283,7 +8267,7 @@
         "shortdescription": "^#f02020;EDS^reset; Terminal",
         "category": "wire",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8533,7 +8517,7 @@
         "shortdescription": "Alta Lab Chair",
         "category": "furniture",
         "icon": "icon.png",
-        "rarity": "uncommon",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8583,7 +8567,7 @@
         "shortdescription": "Alta Lifechamber",
         "category": "furniture",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8721,7 +8705,7 @@
         "fileName": "ct_alta_security_camera.object",
         "name": "ct_alta_security_camera",
         "shortdescription": "Alta Security Camera",
-        "category": "wired",
+        "category": "wire",
         "icon": "icon.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -8793,7 +8777,7 @@
         "shortdescription": "Alta Ship Chair",
         "category": "furniture",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8913,7 +8897,7 @@
         "shortdescription": "Broken Alta Ship S.A.I.L",
         "category": "decorative",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8943,7 +8927,7 @@
         "shortdescription": "Broken Alta Ship FTL Fuel Hatch",
         "category": "other",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -8953,7 +8937,7 @@
         "shortdescription": "Alta Ship Locker",
         "category": "storage",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -8963,7 +8947,7 @@
         "shortdescription": "Broken Alta Ship Locker",
         "category": "decorative",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -9182,10 +9166,28 @@
         "rarity": "uncommon"
     },
     {
+        "path": "/objects/alta/special/critters/miazmur/",
+        "fileName": "af.object",
+        "name": "ct_miazmur_af",
+        "shortdescription": "Miazmur",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/alta/special/critters/phosnail/",
         "fileName": "af.object",
         "name": "ct_phosnail_af",
         "shortdescription": "Phosnail",
+        "category": "bug",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/critters/warped_spider/",
+        "fileName": "af.object",
+        "name": "ct_warped_spider_af",
+        "shortdescription": "Warped Spider",
         "category": "bug",
         "icon": "icon.png",
         "rarity": "uncommon"
@@ -9271,13 +9273,64 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/special/events/ceternity/",
+        "fileName": "ct_ceternity_poster.object",
+        "name": "ct_ceternity_poster",
+        "shortdescription": "Ceternity Poster",
+        "category": "decorative",
+        "icon": "ct_ceternity_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ceternity/",
+        "fileName": "ct_halloween_poster.object",
+        "name": "ct_halloween_poster",
+        "shortdescription": "Halloween Poster",
+        "category": "decorative",
+        "icon": "ct_halloween_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ceternity/",
+        "fileName": "ct_harrowing_poster.object",
+        "name": "ct_harrowing_poster",
+        "shortdescription": "Harrowing Poster",
+        "category": "decorative",
+        "icon": "ct_harrowing_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ceternity/neonjack/",
+        "fileName": "ct_neonjack.object",
+        "name": "ct_neonjack",
+        "shortdescription": "Jack O' Lantern",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/events/ceternity/yaajack/",
+        "fileName": "ct_yaajack.object",
+        "name": "ct_yaajack",
+        "shortdescription": "Jack O' Lantern",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "generic"
+    },
+    {
         "path": "/objects/alta/special/figurines/anglure/",
         "fileName": "ct_nightmare_anglure.object",
         "name": "ct_nightmare_anglure_af",
         "shortdescription": "Nightmare Anglure Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_nightmare_anglure.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/anglure/",
@@ -9286,7 +9339,8 @@
         "shortdescription": "Warped Anglure Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_warped_anglure.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/bobfae/",
@@ -9295,7 +9349,8 @@
         "shortdescription": "Berry Bobfae Figurine",
         "category": "actionFigure",
         "icon": "ct_berry_bobfae.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/bobfae/",
@@ -9304,7 +9359,8 @@
         "shortdescription": "Impulse Bobfae Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_impulse_bobfae.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/brutefly/",
@@ -9313,7 +9369,8 @@
         "shortdescription": "Bionfly Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_bionfly.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/brutefly/",
@@ -9322,7 +9379,8 @@
         "shortdescription": "Brutefly Figurine",
         "category": "actionFigure",
         "icon": "ct_brutefly.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9331,7 +9389,8 @@
         "shortdescription": "Bishyn Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_bishyn_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9340,7 +9399,8 @@
         "shortdescription": "Calin Crippit Figurine",
         "category": "actionFigure",
         "icon": "ct_calin_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9349,7 +9409,8 @@
         "shortdescription": "Crippit Figurine",
         "category": "actionFigure",
         "icon": "ct_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9358,7 +9419,8 @@
         "shortdescription": "Crystalline Crippit Figurine",
         "category": "actionFigure",
         "icon": "ct_crystalline_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9367,7 +9429,8 @@
         "shortdescription": "Gheatsyn Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_gheatsyn_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9376,7 +9439,8 @@
         "shortdescription": "Hevika Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_hevika_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9385,7 +9449,8 @@
         "shortdescription": "Ionic Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_ionic_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9394,7 +9459,8 @@
         "shortdescription": "Lava Crippit ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_lava_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9403,7 +9469,8 @@
         "shortdescription": "Mical Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_mical_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9412,7 +9479,8 @@
         "shortdescription": "Obsidian Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_obsidian_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9421,7 +9489,8 @@
         "shortdescription": "Prism Crippit Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_prism_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crippit/",
@@ -9430,7 +9499,8 @@
         "shortdescription": "Stardust Crippit Figurine ^#f02080;^reset;",
         "category": "actionFigure",
         "icon": "ct_stardust_crippit.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crustoise/",
@@ -9439,7 +9509,8 @@
         "shortdescription": "Ionic Crustoise Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_ionic_crustoise.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/crustoise/",
@@ -9448,7 +9519,8 @@
         "shortdescription": "Overcharged Crustoise Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_overcharged_crustoise.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/narfin/",
@@ -9457,7 +9529,8 @@
         "shortdescription": "Astral Narfin Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_astral_narfin.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/narfin/",
@@ -9466,7 +9539,8 @@
         "shortdescription": "Ionic Narfin Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_ionic_narfin.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/narfin/",
@@ -9475,7 +9549,8 @@
         "shortdescription": "Omni Narfin Figurine ^#f02080;^reset;",
         "category": "actionFigure",
         "icon": "ct_omni_narfin.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/narfin/",
@@ -9484,7 +9559,8 @@
         "shortdescription": "Stardust Narfin Figurine",
         "category": "actionFigure",
         "icon": "ct_stardust_narfin.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/orbide/",
@@ -9493,7 +9569,8 @@
         "shortdescription": "Ionic Orbide Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_ionic_orbide.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/orbide/",
@@ -9502,7 +9579,8 @@
         "shortdescription": "Nightmare Orbide Figurine",
         "category": "actionFigure",
         "icon": "ct_nightmare_orbide.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/other/",
@@ -9511,7 +9589,8 @@
         "shortdescription": "Alta Figurine",
         "category": "actionFigure",
         "icon": "ct_alta_af.png",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/other/",
@@ -9520,7 +9599,8 @@
         "shortdescription": "Alta Cake Figurine ^#20f080;^reset;",
         "category": "actionFigure",
         "icon": "ct_alta_cake_af.png",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/other/",
@@ -9529,7 +9609,8 @@
         "shortdescription": "Ceterai Figurine ^#f02080;^reset;",
         "category": "actionFigure",
         "icon": "ct_ceterai_af.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/other/",
@@ -9538,7 +9619,8 @@
         "shortdescription": "Kira Figurine",
         "category": "actionFigure",
         "icon": "ct_kira_af.png",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/poptop/",
@@ -9547,7 +9629,8 @@
         "shortdescription": "Crystal Poptop Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_crystal_poptop.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/poptop/",
@@ -9556,7 +9639,8 @@
         "shortdescription": "Valley Poptop Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_valley_poptop.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/pteropod/",
@@ -9565,7 +9649,8 @@
         "shortdescription": "Bionid Pteropod Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_bionid_pteropod.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/pteropod/",
@@ -9574,7 +9659,8 @@
         "shortdescription": "Isopod Figurine",
         "category": "actionFigure",
         "icon": "ct_isopod.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/sporgus/",
@@ -9583,7 +9669,8 @@
         "shortdescription": "Aric Sporgus Figurine ^#8020f0;^reset;",
         "category": "actionFigure",
         "icon": "ct_aric_sporgus.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/sporgus/",
@@ -9592,7 +9679,8 @@
         "shortdescription": "Warped Sporgus Figurine",
         "category": "actionFigure",
         "icon": "ct_warped_sporgus.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/food/cake/",
@@ -9861,7 +9949,7 @@
         "shortdescription": "Alta Stardust Bed",
         "category": "furniture",
         "icon": "icon.png",
-        "rarity": "common",
+        "rarity": "legendary",
         "race": "alta"
     },
     {
@@ -10403,8 +10491,36 @@
         "shortdescription": "Time Drifter Figurine",
         "category": "actionFigure",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "essential",
         "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/secret/maximus/cagorta/",
+        "fileName": "ct_cagorta_statue.object",
+        "name": "ct_cagorta_statue",
+        "shortdescription": "Cagorta Statue",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/secret/starlight/",
+        "fileName": "ct_b803_af.object",
+        "name": "ct_b803_af",
+        "shortdescription": "B3",
+        "category": "actionFigure",
+        "icon": "ct_b803_af.png",
+        "rarity": "essential"
+    },
+    {
+        "path": "/objects/alta/special/secret/starlight/",
+        "fileName": "ct_b803_plush.object",
+        "name": "ct_b803_plush",
+        "shortdescription": "B3 Plushie",
+        "category": "toy",
+        "icon": "ct_b803_plush.png",
+        "rarity": "essential"
     },
     {
         "path": "/objects/alta/special/secret/statue_lenn/",
@@ -10413,7 +10529,27 @@
         "shortdescription": "Alta Lenn Statue",
         "category": "decorative",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/statues/alta/",
+        "fileName": "ct_alta_statue.object",
+        "name": "ct_alta_statue",
+        "shortdescription": "Alta Statue",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/statues/alterash/",
+        "fileName": "ct_alterash_statue.object",
+        "name": "ct_alterash_statue",
+        "shortdescription": "Alterash Statue ^#2080f0;^reset;",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -10873,7 +11009,8 @@
         "shortdescription": "Alta Trophy ^#8020f0;^reset;",
         "category": "decorative",
         "icon": "ct_alta_trophy.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10882,7 +11019,8 @@
         "shortdescription": "Anglure's Lamp ^#2080f0;^reset;",
         "category": "decorative",
         "icon": "ct_anglure_lamp.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10891,7 +11029,8 @@
         "shortdescription": "Celestia's Trophy ^#f02020;^reset;",
         "category": "decorative",
         "icon": "ct_celestia_trophy.png",
-        "rarity": "essential"
+        "rarity": "essential",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10900,7 +11039,8 @@
         "shortdescription": "Crippit Scab ^#2080f0;^reset;",
         "category": "decorative",
         "icon": "ct_crippit_scab.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10909,7 +11049,8 @@
         "shortdescription": "Drone Visor ^#2080f0;^reset;",
         "category": "decorative",
         "icon": "ct_drone_visor.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10918,7 +11059,8 @@
         "shortdescription": "Geological Trophy ^#f02080;^reset;",
         "category": "decorative",
         "icon": "ct_geo_trophy.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10927,7 +11069,8 @@
         "shortdescription": "Io's Trophy ^#f08020;^reset;",
         "category": "decorative",
         "icon": "ct_io_trophy.png",
-        "rarity": "essential"
+        "rarity": "essential",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10936,7 +11079,8 @@
         "shortdescription": "Lumina Trophy",
         "category": "decorative",
         "icon": "ct_lumina_trophy.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10954,7 +11098,8 @@
         "shortdescription": "Narfin Trophy ^#f02080;^reset;",
         "category": "decorative",
         "icon": "ct_narfin_trophy.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10963,7 +11108,8 @@
         "shortdescription": "Poptop's Claw ^#2080f0;^reset;",
         "category": "decorative",
         "icon": "ct_poptop_claw.png",
-        "rarity": "rare"
+        "rarity": "rare",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/trophies/",
@@ -10972,7 +11118,8 @@
         "shortdescription": "Stardust Trophy ^#f02080;^reset;",
         "category": "decorative",
         "icon": "ct_stardust_trophy.png",
-        "rarity": "legendary"
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/vendors/alta/",
@@ -11071,7 +11218,8 @@
         "shortdescription": "Alta Logic - AND",
         "category": "wire",
         "icon": "and.png:default.1",
-        "rarity": "uncommon"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/wired/logic/",
@@ -11478,7 +11626,7 @@
         "shortdescription": "Nivera-Overgrown Geyser",
         "category": "decorative",
         "icon": "icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "generic"
     },
     {
@@ -11755,7 +11903,7 @@
         "shortdescription": "Yaara Crystal Flower",
         "category": "light",
         "icon": "ct_yaara_lamp_crystal_icon.png",
-        "rarity": "rare",
+        "rarity": "common",
         "race": "generic"
     },
     {
@@ -12632,7 +12780,8 @@
         "shortdescription": "Phospholion Formation",
         "category": "decorative",
         "icon": "icon.png",
-        "rarity": "common"
+        "rarity": "common",
+        "race": "generic"
     },
     {
         "path": "/objects/biome/alterash_prime/shrooms/",
@@ -13399,6 +13548,33 @@
         "rarity": "common"
     },
     {
+        "path": "/objects/farmables/alta/ground/produce/carel/boosted/",
+        "fileName": "ct_carel_boosted.object",
+        "name": "ct_carel_boosted",
+        "shortdescription": "Boosted Carel Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/carel/cultivated/",
+        "fileName": "ct_carel_cultivated.object",
+        "name": "ct_carel_cultivated",
+        "shortdescription": "Cultivated Carel Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/carel/eco/",
+        "fileName": "ct_carel_eco.object",
+        "name": "ct_carel_eco",
+        "shortdescription": "Eco Carel Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/farmables/alta/ground/produce/carel/pod/",
         "fileName": "ct_carel_eco_pod.object",
         "name": "ct_carel_eco_pod",
@@ -13407,6 +13583,42 @@
         "icon": "icon.png",
         "rarity": "legendary",
         "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/carel/sapling/",
+        "fileName": "ct_carel_sapling.object",
+        "name": "ct_carel_sapling",
+        "shortdescription": "Carel Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/neonmelon/boosted/",
+        "fileName": "ct_neonmelon_boosted.object",
+        "name": "ct_neonmelon_boosted",
+        "shortdescription": "Boosted Neonmelon Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/neonmelon/cultivated/",
+        "fileName": "ct_neonmelon_cultivated.object",
+        "name": "ct_neonmelon_cultivated",
+        "shortdescription": "Cultivated Neonmelon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/neonmelon/eco/",
+        "fileName": "ct_neonmelon_eco.object",
+        "name": "ct_neonmelon_eco",
+        "shortdescription": "Eco Neonmelon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/ground/produce/neonmelon/pod/",
@@ -13419,14 +13631,59 @@
         "race": "alta"
     },
     {
+        "path": "/objects/farmables/alta/ground/produce/neonmelon/sapling/",
+        "fileName": "ct_neonmelon_sapling.object",
+        "name": "ct_neonmelon_sapling",
+        "shortdescription": "Neonmelon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/oculemon/boosted/",
+        "fileName": "ct_oculemon_boosted.object",
+        "name": "ct_oculemon_boosted",
+        "shortdescription": "Boosted Oculemon Sapling ^#2080f0;^reset;",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/oculemon/cultivated/",
+        "fileName": "ct_oculemon_cultivated.object",
+        "name": "ct_oculemon_cultivated",
+        "shortdescription": "Cultivated Oculemon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/oculemon/eco/",
+        "fileName": "ct_oculemon_eco.object",
+        "name": "ct_oculemon_eco",
+        "shortdescription": "Eco Oculemon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
         "path": "/objects/farmables/alta/ground/produce/oculemon/pod/",
-        "fileName": "ct_carel_eco_pod.object",
+        "fileName": "ct_oculemon_eco_pod.object",
         "name": "ct_oculemon_eco_pod",
         "shortdescription": "Oculemon Eco Pod ^#8020f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "legendary",
         "race": "alta"
+    },
+    {
+        "path": "/objects/farmables/alta/ground/produce/oculemon/sapling/",
+        "fileName": "ct_oculemon_sapling.object",
+        "name": "ct_oculemon_sapling",
+        "shortdescription": "Oculemon Sapling",
+        "category": "seed",
+        "icon": "icon.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/objects/farmables/alta/ground/ruka/",
@@ -13659,7 +13916,7 @@
     },
     {
         "path": "/objects/farmables/alta/ground/warped_hive/pod/",
-        "fileName": "ct_tsay_eco_pod.object",
+        "fileName": "ct_warped_hive_eco_pod.object",
         "name": "ct_warped_hive_eco_pod",
         "shortdescription": "Warped Hive Eco Pod ^#8020f0;^reset;",
         "category": "seed",

@@ -1,28 +1,27 @@
 {
-  "name" : "ct_warped_merchant_tenant",
-  "priority" : 7,
+  "name" : "ct_alta_warped_tenant",
+  "priority" : 15,
 
   "colonyTagCriteria" : {
     "light" : 1,
     "door" : 1,
-    "alta" : 8,
-    "commerce" : 6,
-    "warped" : 14
+    "alta" : 6,
+    "warped" : 18
   },
   "tenants" : [
     {
       "spawn" : "npc",
       "species" : "alta",
-      "type" : "ct_warped_merchant",
+      "type" : "ct_alta_warped_girl",
       "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_party_gift" },
 
   "wiki" : {
-    "title" : "Warped Merchant",
-    "description" : "This alta sells lots of warpted growth and related things.",
-    "category" : "nature", "class" : "merchant",
+    "title" : "Alta Warped Girl",
+    "description" : "An alta cosplaying as a warped creature.",
+    "category" : "themed",
     "images" : {
       // "main" : "images/sprites/raw/npcs/calin1.png",
       "primary" : [

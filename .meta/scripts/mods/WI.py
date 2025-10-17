@@ -18,7 +18,7 @@ def is_obj_file(name: str) -> bool:
 
 def run():
     paths = base.get_files_flat(is_obj_file)
-    objs = {path: base.get_obj(path) for path in paths}
+    objs = {path: base.get_obj(path) for path in paths if 'deprecated' not in path and 'WIP' not in path}
     result = {
         'head': [],
         'chest': [],

@@ -1,0 +1,23 @@
+{
+  "type" : "ct_alta_spooky_girl",
+  "baseType" : "ct_alta",
+  "matchColorIndices" : false,
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "moneybagschest", "parameters" : { "colorIndex" : 0 } } ],
+          "legs" : [ { "name" : "moneybagspants", "parameters" : { "colorIndex" : 0 } } ],
+          "back" : [ { "name" : "firelordback", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:ceternity" }
+  }
+}

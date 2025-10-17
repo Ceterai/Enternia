@@ -1,0 +1,51 @@
+{
+  "name": "ct_yaarafinger_tenant",
+  "priority": 14,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "yaara": 18,
+    "floran": 18,
+    "legendary": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "generictenant",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_keeper_crown" } }
+                  ],
+                  "chest" : [
+                    { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara_body_vine" } }
+                  ],
+                  "legs" : [
+                    { "name" : "ct_legs_mimic", "parameters" : { "preset" : "koywa_skirt" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaarafinger",
+    "description" : "A floran born in a yaara grove, meant to lead other florans in their grove to prosperity and security.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

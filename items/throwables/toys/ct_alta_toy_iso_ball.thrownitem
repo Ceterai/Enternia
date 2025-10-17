@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_toy_iso_ball",
-  "level" : 1, "rarity" : "Common", "price" : 240,
+  "shortdescription" : "Izo Ball",
+  "description" : "This ball bounces when thrown.",
+  "level" : 2, "price" : 160,
+  "itemTags" : [ "isoslime", "toy" ],
+
   "category" : "throwableItem",
   "inventoryIcon" : "ct_alta_toy_iso_ball.png",
   "image" : "ct_alta_toy_iso_ball.png",
-  "shortdescription" : "Izo Ball",
-  "description" : "This ball bounces when thrown.",
 
   "ammoUsage" : 1,
 
@@ -23,5 +25,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

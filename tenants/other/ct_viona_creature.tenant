@@ -18,5 +18,12 @@
       }
     }
   ],
-  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" }
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_viona_gift" },
+
+  "wiki" : {
+    "title" : "Viona Creature",
+    "description" : "An undescribable being created by viona. Can it see you?..",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
 }

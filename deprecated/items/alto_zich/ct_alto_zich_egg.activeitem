@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_alto_zich_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Uncommon", "price" : 200, "level" : 4,
+  "level" : 4, "price" : 200,
   "twoHanded" : false, "pet" : "ct_alto_zych", "damageTeam" : { "team" : 1, "type" : "passive" },
 
   "builder" : "/items/buildscripts/alta/spawner.lua"

@@ -20,6 +20,7 @@
     "yaara" : {
       "baseAsset" : "/items/armors/decorative/costumes/rainbowood/rainbowwood.chest",
       "price" : 600,
+      "category" : "chestwear",
       "shortdescription" : "Yaara Shirt", "level" : 4, "itemTags" : [ "nature", "yaara" ],
       "description" : "This ^#20f080;yaara^reset; chest makes me feel like a plant.",
       "longdescription" : "Worth noting that the wooden texture of this peace of costume doesn't reflect it's protective capabilities.",
@@ -47,6 +48,7 @@
       "longdescription" : "Mainly used by ^#20f080;yaara keeper^reset; hunters and protectors, it's looks are meant to defend, scare and disguise.",
       "altaDescription" : "A battlewear of a yaara keeper. It's probably venomus, better not touch it.",
       "floranDescription" : "Full protection for Floran, sso Floran can protect Floran's home.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
+      "category" : "chestarmour",
       "colorOptions" : [
         {"ffca8a":"ae75f0","e0975c":"713bb0","a85636":"461e74","6f2919":"341458","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515","e6e6e6":"177a71","b6b6b6":"177a71","ccae7c":"47b6ab","a47844":"177a71","754c23":"086458","472b13":"074c44","7a4828":"086458"},
@@ -70,6 +72,7 @@
       "altaDescription" : "This is not a very decent thing to wear on its own. Perhaps I should put something under it.",
       "floranDescription" : "Plain and ssssimple. Floran likesss pretty vine.", "foundIn" : [ "^#20f080;Biome Chests^reset;", "^#20f080;Yaara Merchant^reset;" ],
       "femaleFrames" : { "body" : "chestm.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+      "category" : "chestwear",
       "colorOptions" : [
         {"ffca8a":"47b6ab","e0975c":"177a71","a85636":"086458","6f2919":"074c44"},
         {"ffca8a":"838383","e0975c":"555555","a85636":"383838","6f2919":"151515"},
@@ -91,6 +94,7 @@
       "description" : "A night dress often worn to ^#b0e0fc;alta clubhouses^reset;. Designed by ^#b0e0fc;Perizhad^reset;.",
       "longdescription" : "Made from a high-quality material, this dress will make you the center of attention.",
       "altaDescription" : "Pretty and effective. I like the calin-like shiny rims on this dress.", "foundIn" : [ "^#b0e0fc;Alta Designer^reset;" ],
+      "category" : "chestwear",
       "colorOptions" : [
         {"ffca8a":"707088","e0975c":"606074","a85636":"404050","6f2919":"2c2c34","555555":"707088","383838":"606074","271f16":"404050","151515":"2c2c34",
           "d3d3d3":"76c7e4","989898":"4e8fb8","5e5e5e":"366388","fbdf71":"76c7e4"},
@@ -124,6 +128,7 @@
       "description" : "A top half of a scientific coat used by alta archivers. Has lots of pockets for storing all the science goods!",
       "longdescription" : "The underlayered sweater is pretty worm and cozy, and is a bit softer compared to the regular researcher attire.",
       "altaDescription" : "The smell of science is coming from this piece of clothing...",
+      "category" : "chestwear",
       "paletteSwap" : {
         "#ffca8a":"#606478","#e0975c":"#4c5064","#a85636":"#383c50","#6f2919":"#24283c",
         "#808080":"#606074","#555555":"#404050","#303030":"#2c2c34",

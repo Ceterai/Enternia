@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_harrowing_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 4,
+    "harrowing" : 10
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_harrowing_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_ceternity_gift" },
+
+  "wiki" : {
+    "title" : "Alta Harrowing Girl",
+    "description" : "An alta dressed up in spooky clothes. She's celebrating Ceternity! Or The Harrowing, as known among elithian alliance species.",
+    "category" : "holiday",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

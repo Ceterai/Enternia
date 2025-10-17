@@ -25,7 +25,7 @@
     },
     "bandade_bion" : { "baseAsset" : "/items/generic/other/bandage.consumable",
       "shortdescription" : "Bion-Aid", "itemTags" : [ "aid", "bion" ], "price" : 70, "level" : 4,
-      "description" : "A professional aid set with additional healing compatability for alta bodies.",
+      "description" : "A professional aid set with additional healing compatibility for alta bodies.",
       "longdescription" : "The base material is comprized from a specific bionic mix, made to be accepted by an alta organism.",
       "altaDescription" : "Not sure how well this will work for any other species...",
       "effects" : [ [ { "effect" : "bandageheal" } ] ], "emote" : "", "emitters" : [ "bandageuse" ], "alkey" : "Mika Amik",

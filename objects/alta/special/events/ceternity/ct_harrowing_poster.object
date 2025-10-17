@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_harrowing_poster",
+  "colonyTags" : [ "harrowing" ],
+  "itemTags" : [ "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Harrowing Poster",
+  "description" : "A simple grimace painted onto a poster made to celebrate a spooky elithian event called The Harrowing. Happy spooky season!",
+  "longdescription" : "A poster featuring a simple grimace, the mascot of The Harrowing event. The design is abstract and colorful, evoking a sense of mystery and wonder. It's a great way to show your support for the event and add some festive decor to your home.",
+  "altaDescription" : "Happy spooky season!~",
+
+  "inventoryIcon" : "ct_harrowing_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_harrowing_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

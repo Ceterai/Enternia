@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_neonmelon_cultivated", "count" : 1 },
+    { "item" : "ct_boost_fertilizer", "count" : 1 },
+    { "item" : "neonmelonseed", "count" : 2 },
+    { "item" : "liquidhealing", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_neonmelon_boosted", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_dendrarium", "alta_crops", "nature", "crop", "all", "mod" ]
+}

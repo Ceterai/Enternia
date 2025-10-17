@@ -1,0 +1,36 @@
+{
+  "itemName" : "ct_pavolda_cake_slice",
+  "rarity" : "Legendary",
+  "price" : 1120,
+  "category" : "preparedFood",
+  "inventoryIcon" : "ct_pavolda_cake_slice.png",
+  "description" : "Calin alta cuisine. A crystally cake with a strange name. Most altas love it anyway.",
+  "shortdescription" : "Pavolda Cake Slice",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+
+  "variants" : [
+    {
+      "shortdescription" : "Celestia's Love ^#8020f0;^reset;",
+      "description" : "Calin alta cuisine. The mother of stars looks at you with love through the crystal specs in this masterpiece of a cake.",
+      "rarity" : "Legendary", "price" : 1520, "foodValue" : 100
+    }
+  ]
+}

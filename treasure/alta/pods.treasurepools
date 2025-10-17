@@ -31,6 +31,11 @@
       "fill" : [ { "pool" : "ct_alta_loot" } ],
       "poolRounds" : [ [0.1, 3], [0.4, 4], [0.4, 5], [0.1, 6] ],
       "pool" : [
+        {"weight" : 0.20, "item" : ["throwingblock", 2]},
+        {"weight" : 0.12, "item" : [ "ct_ayaka_wood", 4 ] },
+        {"weight" : 0.05, "item" : [ "ct_alta_dye", 2 ] },
+        {"weight" : 0.02, "item" : [ "ct_aid_mimic", 1, { "preset" : "bandade" } ] },
+        {"weight" : 0.02, "item" : [ "ct_hevikai_stim", 1, { "preset" : "light" } ] }
       ]
   } ] ],
   "ct_alta_pod_1" : [
@@ -40,7 +45,7 @@
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40
         {"weight" : 0.20, "item" : ["throwingblock", 2]},
-        {"weight" : 0.09, "item" : "titaniumbar"},
+        {"weight" : 0.09, "item" : "titaniumore"},
         {"weight" : 0.04, "item" : "ct_datamass"},
         {"weight" : 0.02, "item" : [ "ct_alta_dye", 2 ] },
         {"weight" : 0.05, "item" : "ct_alta_scout_drone"},
@@ -121,7 +126,7 @@
   } ] ],
   "ct_alta_pod_3" : [
     [0, {
-      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_3"} ],
+      "fill" : [ {"pool" : "ct_alta_codexes_3"} ],
       "poolRounds" : [ [0.1, 3], [0.3, 4], [0.4, 5], [0.2, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.455
@@ -180,7 +185,7 @@
   } ] ],
   "ct_alta_pod_4" : [
     [0, {
-      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_4"} ],
+      "fill" : [ {"pool" : "ct_alta_codexes_4"} ],
       "poolRounds" : [ [0.1, 3], [0.2, 4], [0.4, 5], [0.3, 6] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.45
@@ -230,7 +235,7 @@
   } ] ],
   "ct_alta_pod_5" : [
     [0, {
-      "fill" : [ {"pool" : "ct_alta_loot"}, {"pool" : "ct_alta_codexes_4"} ],
+      "fill" : [ {"pool" : "ct_alta_codexes_4"} ],
       "poolRounds" : [ [0.1, 4], [0.4, 5], [0.4, 6], [0.1, 7] ],
       "pool" : [  //          total: 1.00
         // Resources,         total: 0.40

@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_toy_ryushay_ball",
-  "level" : 1, "rarity" : "Common", "price" : 620,
+  "shortdescription" : "Ryushay Ball",
+  "description" : "It's a colorful inflatable beachball.",
+  "level" : 6, "price" : 160, "race" : "alta",
+  "itemTags" : [ "beach", "toy" ],
+
   "category" : "throwableItem",
   "inventoryIcon" : "ct_alta_toy_ryushay_ball.png",
   "image" : "ct_alta_toy_ryushay_ball.png",
-  "shortdescription" : "Ryushay Ball",
-  "description" : "It's a colorful inflatable beachball.",
 
   "ammoUsage" : 1,
 
@@ -23,5 +25,7 @@
         "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

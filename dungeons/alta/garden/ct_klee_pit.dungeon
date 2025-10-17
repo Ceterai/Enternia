@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ct_klee_pit",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "klee1", "klee2", "klee3", "klee4" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Klee Pit",
+    "description" : "A small overgrown hole where several klees have made their home."
+  },
+  "parts" : [
+    { "name" : "klee1",   "def" : [ "tmx", [ "klee1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "klee2",   "def" : [ "tmx", [ "klee2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "klee3",   "def" : [ "tmx", [ "klee3.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "klee4",   "def" : [ "tmx", [ "klee4.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

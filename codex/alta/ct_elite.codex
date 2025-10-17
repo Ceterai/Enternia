@@ -2,18 +2,12 @@
   "id" : "ct_elite",
   "title" : "^#20f080;Elite^reset; Protection Order",
   "description" : "An order report for large amount of equipment. Most of the data is encrypted.",
+  "longdescription" : "These high-priority are mostly made for big shipments of elite military technology.",
+  "altaDescription" : "I wonder how recent this is. Maybe I can get my hands on some of that stuff?",
   "icon" : "datamass/impulse.png",
   "species" : "alta",
   "contentPages" : [
-
-    "MOTHERSHIP 'ALDERON' > Comm Center > Handle F9-A3BA12F9 > Order #231042
-
-The order for: 'Elite Set Battalion Equipment' has been completed successfully. Please check in with the attached details for final confirmation.
-
-Source: Alliana Citadel
-
-- the rest of the data is encrypted -"
-
+    "MOTHERSHIP 'ALDERON' > Comm Center > Handle F9-A3BA12F9 > Order #231042\n\nThe order for: 'Elite Set Battalion Equipment' has been completed successfully. Please check in with the attached details for final confirmation.\n\nSource: Alliana Citadel\n\n- the rest of the data is encrypted -"
   ],
     "itemConfig" : {
       "level" : 6, "tooltipKind" : "ct_alta_item_long",

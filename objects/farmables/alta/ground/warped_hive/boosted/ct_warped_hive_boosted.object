@@ -4,7 +4,7 @@
   "category" : "seed", "objectType" : "farmable",
   "level" : 5,
 
-  "shortdescription" : "Boosted Warped Hive Sapling ^#2080f0;^reset;",
+  "shortdescription" : "Boosted Warphive Sapl. ^#2080f0;^reset;",
   "description" : "This sapling comes with enhanced mutations that allow much faster ripening.",
   "altaDescription" : "It's best not to disturb it too much when it ripens...",
 
@@ -23,7 +23,7 @@
     { "duration" : [280, 320] },
     { "duration" : [280, 320] },
     { "alts" : 5, "duration" : [1170, 1230] },
-    { "alts" : 5, "harvestPool" : "ct_tsay_boosted_harvest", "resetToStage" : 2 }
+    { "alts" : 5, "harvestPool" : "ct_warped_hive_harvest", "resetToStage" : 2 }
   ],
 
   "maxImmersion" : 0.125,

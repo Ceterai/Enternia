@@ -1,13 +1,14 @@
+// A colony tenant type config. Includes connected NPC type, spawn conditions, rent and wiki information.
 {
-  "name" : "ct_alta_tenant",
-  "priority" : 2,
+  "name" : "ct_alta_tenant",  // ID of the tenant type.
+  "priority" : 2,  // Priority of the tenant in the colony. Higher priority means that this tenant will spawn over another in a room that meets criteria for multiple tenant types.
 
-  "colonyTagCriteria" : {
+  "colonyTagCriteria" : {  // Spawn requirements for the tenant type.
     "light" : 1,
     "door" : 1,
     "alta" : 6
   },
-  "tenants" : [
+  "tenants" : [  // List of possible tenants of this type.
     {
       "spawn" : "npc",
       "species" : "alta",
@@ -19,9 +20,9 @@
 
 
 
-  // Wiki information area, not used by the game an doesn't require modification/translation
+  // Wiki information area, not used by the game and doesn't require modification/translation.
   "wiki" : {
-    "title" : "Alta",
+    "title" : "Alta NPC",
     "description" : "Regular alta dressed up in casual attire - simple, easy to put on and maintain clothes, made according to latest protocols. These clothes don't restrict movement and are quite comfortable to wear.",
     "category" : "casual",
     "images" : {

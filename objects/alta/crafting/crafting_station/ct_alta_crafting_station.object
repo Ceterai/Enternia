@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_crafting_station",
   "colonyTags" : [ "crafting" ],
   "category" : "crafting",
-  "level" : 1, "rarity" : "Uncommon", "price" : 300,
-  "race" : "alta",
+  "level" : 1, "price" : 300, "race" : "alta",
   "radioMessagesOnPickup" : [ "ct_alta_crafting_station_msg" ],
 
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],

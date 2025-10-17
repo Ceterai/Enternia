@@ -1,0 +1,33 @@
+{
+  "metadata" : {
+    "name" : "ct_alta_riverside",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [
+      "bridge1", "bridge2", "island1", "jungle1", "lake1", "lake2", "picnic1", "post1", "post2", "stage1", "swamp1", "swamp2"
+    ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Alta Riversides",
+    "description" : "A beach-like area full of koywa reeds, ponds, sand, and fun activities!"
+  },
+  "parts" : [
+    { "name" : "bridge1",   "def" : [ "tmx", [ "bridge1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "bridge2",   "def" : [ "tmx", [ "bridge2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "island1",   "def" : [ "tmx", [ "island1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "jungle1",   "def" : [ "tmx", [ "jungle1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "lake1",     "def" : [ "tmx", [ "lake1.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "lake2",     "def" : [ "tmx", [ "lake2.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "picnic1",   "def" : [ "tmx", [ "picnic1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "post1",     "def" : [ "tmx", [ "post1.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "post2",     "def" : [ "tmx", [ "post2.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "stage1",    "def" : [ "tmx", [ "stage1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "swamp1",    "def" : [ "tmx", [ "swamp1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "swamp2",    "def" : [ "tmx", [ "swamp2.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

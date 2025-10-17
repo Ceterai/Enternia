@@ -4,7 +4,7 @@
   "description" : "Charges you with fresh energy to get through the day! Literally.",
   "longdescription" : "It's base is made from ionic ferment with lots of usual alta sweeteners. This one of rare freshes not made directly from a fruit.",
   "altaDescription" : "I love drinking fermented foaming ennia goo! It's sarcasm by the way. The drink is still good tho.",
-  "level" : 2, "rarity" : "Common", "price" : 120, "race" : "alta",
+  "level" : 2, "price" : 120, "race" : "alta",
   "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "fresh" ],
   "inventoryIcon" : "ct_ionic_fresh.png",
   "effects" : [ [ { "effect" : "maxenergyboostaugment1", "duration" : 60 }, { "effect" : "ct_ionic_shock", "duration" : 5 } ] ],  // ct_alta_food_energy

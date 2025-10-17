@@ -2,10 +2,9 @@
   "objectName" : "ct_alta_timer",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "level" : 3, "rarity" : "Uncommon", "price" : 10,
   "description" : "A timer that stays active for a set duration. Default is 5s, sets through `duration` - int between 1 and 5.",
   "shortdescription" : "Alta Logic - Timer",
-  "race" : "alta",
+  "level" : 3, "price" : 10, "race" : "alta",
 
   "floranDescription" : "A timer that sstays active for a ssset duration.",
   "glitchDescription" : "Impressed. A timer that stays active for a set duration.",

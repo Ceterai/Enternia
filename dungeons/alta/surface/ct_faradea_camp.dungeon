@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "name" : "ct_faradea_camp",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "faradea1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Faradea Camp",
+    "description" : "A small camp set up by some faradea mercenaries."
+  },
+  "parts" : [
+    { "name" : "faradea1",   "def" : [ "tmx", [ "faradea1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

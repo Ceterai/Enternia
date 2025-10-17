@@ -16,6 +16,11 @@
     ]
   },
   "scriptConfig" : {
-    "merchant" : { "numItems" : 12, "categories" : { "default" : [ "bartender" ] } }
+    "merchant" : { "numItems" : 12, "categories" : { "default" : [ "bartender" ] } },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:bartender" },
+      "converse" : "/dialog/alta.config:barista"
+    }
   }
 }

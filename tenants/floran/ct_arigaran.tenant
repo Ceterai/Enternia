@@ -1,0 +1,45 @@
+{
+  "name": "ct_arigaran_tenant",
+  "priority": 9,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "aric": 18,
+    "combat": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "level": 5,
+      "type": "shroomguard",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "aric_toxicap" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_aric_gift"
+  },
+
+  "wiki" : {
+    "title" : "Arigaran",
+    "description" : "A subtype of agarans coming from one of alterash prime planets.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

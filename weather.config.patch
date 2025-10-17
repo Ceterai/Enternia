@@ -1,5 +1,12 @@
+// Weather config for weather types added by My Enternia.
+// This file is used to add possible weather type combinations and their probabilities of appearing compared to each other within given combination.
+// These combinations of weather types are used by alterash and alterash prime planets.
+// Probabilities sum to 1.0 for exclusive selection.
+// The weather types themselves are defined in the `/weather/` folder in files with `.weather` extension.
 [
-  {
+  // Weather combinations mostly meant for regular alterash planets.
+
+  {  // Mostly rainy weather. Clear weather is still dominant.
     "op" : "add", "path" : "/ct_alterash_normal", "value" : [
       [0.66, "clear"],
       [0.14, "ct_ionic_rain"],
@@ -8,34 +15,40 @@
       [0.04, "ct_ionic_drizzle"]
     ]
   },
-  {
+
+  {  // Clear weather is less dominant. Rain is mostly replaced with stardust falls and glow rains.
     "op" : "add", "path" : "/ct_alterash_stardust", "value" : [
-      [0.55, "clear"],
-      [0.4, "ct_stardust_fall"],
-      [0.2, "ct_ionic_rain"],
-      [0.2, "ct_stardust_storm"],
-      [0.05, "ct_glow_rain"]
+      [0.40, "clear"],
+      [0.30, "ct_stardust_fall"],
+      [0.14, "ct_ionic_rain"],
+      [0.14, "ct_stardust_storm"],
+      [0.02, "ct_glow_rain"]
     ]
   },
-  {
+
+  {  // Clear weather is less dominant. Rain shares its place with glow rains and crystal falls.
     "op" : "add", "path" : "/ct_alterash_crystal", "value" : [
-      [0.55, "clear"],
-      [0.4, "ct_glow_rain"],
-      [0.2, "ct_ionic_rain"],
-      [0.2, "ct_crystal_fall"],
+      [0.40, "clear"],
+      [0.25, "ct_glow_rain"],
+      [0.15, "ct_ionic_rain"],
+      [0.15, "ct_crystal_fall"],
       [0.05, "ct_ionic_drizzle"]
     ]
   },
-  {
+
+  // Weather combinations mostly meant for alterash prime planets.
+
+  {  // A mix of everything: clear weather, glow rains, ionic peak, regular snow and crystal falls. Only regular ionic rains and stardust falls are absent.
     "op" : "add", "path" : "/ct_alterash_prime", "value" : [
-      [0.55, "clear"],
-      [0.05, "ct_glow_rain"],
-      [0.2, "snow"],
-      [0.2, "ct_ionic_peak"],
-      [0.2, "ct_crystal_fall"]
+      [0.46, "clear"],
+      [0.04, "ct_glow_rain"],
+      [0.17, "snow"],
+      [0.17, "ct_ionic_peak"],
+      [0.16, "ct_crystal_fall"]
     ]
   },
-  {
+
+  {  // A mostly snowy set of weather types. Clear weather is still dominant, but snowstorms and hailstones are more common.
     "op" : "add", "path" : "/ct_alterash_snowy", "value" : [
       [0.40, "clear"],
       [0.20, "snow"],
@@ -45,7 +58,8 @@
       [0.05, "ct_glow_rain"]
     ]
   },
-  {
+
+  {  // A mostly snowy set of weather types. Clear weather is very dominant, but when it's not - you should hide.
     "op" : "add", "path" : "/ct_alterash_prime_heavy", "value" : [
       [0.60, "clear"],
       [0.05, "ct_ionic_peak"],
@@ -54,7 +68,8 @@
       [0.15, "ct_crystal_fall"]
     ]
   },
-  {
+
+  {  // No clear weather. Still livable, but not very pleasant.
     "op" : "add", "path" : "/ct_alterash_unstable", "value" : [
       [0.60, "ct_ionic_peak"],
       [0.15, "ct_ionic_storm"],
@@ -62,7 +77,9 @@
       [0.10, "fog"]
     ]
   },
-  {
+
+  {  // You should avoid the surface at all costs. The weather is very hazardous.
+     // All weather types have an equal probability of appearing, summing to 1.0.
     "op" : "add", "path" : "/ct_alterash_hazardous", "value" : [
       [0.2, "clear"],
       [0.2, "ct_crystal_fall"],

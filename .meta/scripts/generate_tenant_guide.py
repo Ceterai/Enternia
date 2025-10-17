@@ -11,7 +11,7 @@ CATEGORIES = {
     'service' : '#### Service',
     'tech' : '#### Tech',
     'science' : '### Scientific',
-    'arco' : '#### A.R.C.O.',
+    'arco' : '#### A.R.C.O',
     'eds' : '#### EDS',
     'hevika' : '#### Hevika Ordis',
     'ghearun' : '#### Ghearun',
@@ -178,7 +178,7 @@ def get_table(tenants: list[Tenant]):
 def get_text():
     all_tenants = get_tenants()
     tenants = get_tenants_by_cats(all_tenants)
-    body = f'This mod adds a total of {len(all_tenants)} tenants.\n\n'
+    body = f'# Tenants\n\nThis mod adds a total of {len(all_tenants)} tenants.\n\n'
     for cat in CATEGORIES:
         body = body + CATEGORIES[cat] + '\n'
         if len(tenants[cat]) > 0:

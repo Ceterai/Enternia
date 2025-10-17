@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ct_aya_bee_nest",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "bee1", "bee2", "bee3", "bee4" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Aya Bee Nest",
+    "description" : "A nest made by aya bees from fallen ayas and a little bit of ayaka sap."
+  },
+  "parts" : [
+    { "name" : "bee1",   "def" : [ "tmx", [ "bee1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "bee2",   "def" : [ "tmx", [ "bee2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "bee3",   "def" : [ "tmx", [ "bee3.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "bee4",   "def" : [ "tmx", [ "bee4.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

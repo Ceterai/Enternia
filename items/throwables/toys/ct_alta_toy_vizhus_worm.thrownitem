@@ -1,11 +1,13 @@
 {
   "itemName" : "ct_alta_toy_vizhus_worm",
-  "level" : 1, "rarity" : "Uncommon", "price" : 640,
+  "shortdescription" : "Vizhus Worm Plushie",
+  "description" : "What have we here?",
+  "level" : 7, "price" : 160, "race" : "alta",
+  "itemTags" : [ "viona", "toy" ],
+
   "category" : "throwableItem",
   "inventoryIcon" : "ct_alta_toy_vizhus_worm.png",
   "image" : "ct_alta_toy_vizhus_worm.png",
-  "shortdescription" : "Vizhus Worm Plushie",
-  "description" : "What have we here?",
 
   "ammoUsage" : 1,
 
@@ -23,5 +25,7 @@
         "options" : [ "/sfx/projectiles/toy_throw1.ogg", "/sfx/projectiles/toy_throw2.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

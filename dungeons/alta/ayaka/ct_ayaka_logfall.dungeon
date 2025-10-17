@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "ct_ayaka_logfall",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "log1", "log2", "log3", "log4" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Ayaka Logfall",
+    "description" : "A fallen ayaka tree."
+  },
+  "parts" : [
+    { "name" : "log1",   "def" : [ "tmx", [ "log1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "log2",   "def" : [ "tmx", [ "log2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "log3",   "def" : [ "tmx", [ "log3.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "log4",   "def" : [ "tmx", [ "log4.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

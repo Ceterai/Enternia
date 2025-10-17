@@ -2,29 +2,13 @@
   "id" : "ct_logs_eds_reload",
   "title" : "EDS Server Connector Log",
   "description" : "Some sort of unknown logging cache.",
+  "longdescription" : "A datamass containing logs from an EDS server attempting to reconnect to its network. The logs contain various error codes and system messages, indicating multiple failed attempts to re-establish connection.",
+  "altaDescription" : "This looks like logs from an EDS server trying to reconnect... I wonder what happened to it?",
   "icon" : "datamass/eds.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Error #264: EDS server address error
-#error264\\008\\%^%$\\=432^&+%^678$^\\%78+$`231
-Performing automatic reboot . . .
-CPU Cooling . . .
-Client: Creation . . .
-Loading textures . . .
-Client: Synchronization . . .
-Loading the system . . .
-System synchronization . . .
-Loading resources . . .
-Resource synchronization . . .
-Program loading . . .
-System software overhaul . . .
-Preliminary preparation . . .",
-
-"Reboot unsuccessful. Will perform a retry #2016533 in 60 seconds.
-
-Continuing autopilot mode until successful connection is established."
-
+    "Error #264: EDS server address error\n#error264\\008\\%^%$\\=432^&+%^678$^\\%78+$`231\nPerforming automatic reboot . . .\nCPU Cooling . . .\nClient: Creation . . .\nLoading textures . . .\nClient: Synchronization . . .\nLoading the system . . .\nSystem synchronization . . .\nLoading resources . . .\nResource synchronization . . .\nProgram loading . . .\nSystem software overhaul . . .\nPreliminary preparation . . .",
+    "Reboot unsuccessful. Will perform a retry #2016533 in 60 seconds.\n\nContinuing autopilot mode until successful connection is established."
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_logs_eds_reload-codex" ],

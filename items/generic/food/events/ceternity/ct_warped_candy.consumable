@@ -1,0 +1,13 @@
+{
+  "itemName" : "ct_warped_candy",
+  "shortdescription" : "Warpy Candy",
+  "description" : "The wrap of this candy has been warped and twisted! Get it, because it's warped candy? Spooky!",
+  "longdescription" : "A piece of candy made to celebrate the Ceternity event. Eating this candy will give you a temporary swimming boost effect. Enjoy!",
+  "altaDescription" : "The paper wrap is meant to keep Ceternity and Orchid away from your precious candy!~",
+
+  "race" : "alta", "category" : "preparedFood",
+  "itemTags" : [ "ceternity", "warped", "dessert" ], "emote" : "happy",
+  "inventoryIcon" : "ct_warped_candy.png",
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "runboost" ], "foodValue" : 6 }
+}

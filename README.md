@@ -30,7 +30,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 - [Contents](#contents)
   - [Screenshots](#screenshots)
   - [Mod Content Rundown](#mod-content-rundown)
-  - [Compatability](#compatability)
+  - [Compatibility](#compatibility)
     - [Incompatible](#incompatible)
     - [Supported Addons](#supported-addons)
     - [Other Addon Support](#other-addon-support)
@@ -66,7 +66,7 @@ Get this mod on the official Chucklefish Forums!
 ### GitHub
 
 1. Download the latest release or clone the repo;
-1. Put the dowloaded/cloned folder into the `mods` folder in your Starbound directory.
+1. Put the downloaded/cloned folder into the `mods` folder in your Starbound directory.
 
 > When downloading a release, you can choose between a `.zip` and a `.pak` version.
 
@@ -80,7 +80,7 @@ Install this mod with Vortex from Nexus!
 
 > Not recommended as the mod on this resource **isn't updated by me**, so tends to be quite **outdated** and the above methods are highly preferred.
 
-Still, you can get it here: [Link](https://catalogue.smods.ru/archives/173393)
+Still, you can get it here: [Skymods | My Enternia](https://catalogue.smods.ru/archives/173393)
 
 ## Where to start
 
@@ -91,12 +91,12 @@ From there, you'll be able to craft:
 
 - mod equipment (armor, weapons, throwables, etc);
 - other mod crafting tables;
-- all mod items that can normally be only found through loot (requires max tier).
+- all mod items that can normally only be found through loot (requires max tier).
 
 Other crafting tables include:
 
 - ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/constructor/icon1.png) [Alta Constructor](https://github.com/Ceterai/Enternia/wiki/Alta-Constructor) for crafting objects/decorations/traps (upgrading to max tier allows you to even craft natural objects and loot tables);
-- ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png) [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) for crafting codexes the tell you the lore and/or explain how certain mod items work (highly recommend to read them so you don't have to visit the wiki);
+- ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/datacenter/icon.png) [Alta Datacenter](https://github.com/Ceterai/Enternia/wiki/Alta-Datacenter) for crafting codexes that tell you the lore and/or explain how certain mod items work (highly recommend reading them so you don't have to visit the wiki);
 - ![Crafting Station -](https://raw.githubusercontent.com/Ceterai/Enternia/main/objects/alta/crafting/upgrade_station/icon1.png) [Alta Upgrade Station](https://github.com/Ceterai/Enternia/wiki/Alta-Upgrade-Station) for upgrading some mod items in exchange for ![small crystals -](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/throwables/ct_gheatsyn_shard.png) [Gheatsyn Shards](https://github.com/Ceterai/Enternia/wiki/Gheatsyn-Shard).
 
 ## Contents
@@ -116,7 +116,7 @@ You can view screenshots on the [Steam page of the mod](https://steamcommunity.c
 
 More information on new weapon features like press&hold, firemodes, attachments and upgrading: [My Enternia Wiki: Weapons](https://github.com/Ceterai/Enternia/wiki/Weapons)
 
-### Compatability
+### Compatibility
 
 1. Doesn't require any other mods to work;
 1. Should be FU-compatible.
@@ -125,15 +125,15 @@ More information on new weapon features like press&hold, firemodes, attachments 
 
 Having these mods doesn't crash the game, but using them with altas will not work.
 
-Temporary partially **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta npcs with it.
+Temporary partially **incompatible** with [NpcSpawner+](https://steamcommunity.com/sharedfiles/filedetails/?id=895140470) - use [this patch](https://steamcommunity.com/sharedfiles/filedetails/?id=3250490837) if you want to create alta NPCs with it.
 
 #### Supported Addons
 
 More about supported addons here: [Mod Support](https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support)
 
 - [Tabula Rasa](https://steamcommunity.com/sharedfiles/filedetails/?id=737353165) (most items and objects are available at the table);
-- [Spawnable Item Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=733665104) (all objects and a lot of items are available here, though less than at Tabula Rasa. I would recommend using max tier Alta Crafting Station, Alta Constructor and Alta Datacenter for all recipes);
-- [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104) (all plant-based and non-organic materials can be studied at the Farm Table and the Mine Table respectfully. Nothing fot the Hunt Table);
+- [Spawnable Item Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=733665104) (all objects and a lot of items are available here, though fewer than at Tabula Rasa. I would recommend using max tier Alta Crafting Station, Alta Constructor and Alta Datacenter for all recipes);
+- [Equivalent Exchange](https://steamcommunity.com/sharedfiles/filedetails/?id=1790667104) (all plant-based and non-organic materials can be studied at the Farm Table and the Mine Table respectively. Nothing for the Hunt Table);
 - [Improved Food Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=731354142) (proper support for all effects added by this mod);
 - [More Planet Info](https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107) (proper support for all effects, weather and biomes of this mod);
 - [True Space](https://steamcommunity.com/sharedfiles/filedetails/?id=730684624) (planets added by this mod are able to spawn near True Space stars. ![Planets like](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_planet.png) [Alterash](https://github.com/Ceterai/Enternia/wiki/Alterash) can spawn as a mild/cool planet or satellite, ![planets like](https://raw.githubusercontent.com/Ceterai/Enternia/main/interface/bookmarks/icons/ct_alterash_prime_planet.png) [Alterash Prime](https://github.com/Ceterai/Enternia/wiki/Alterash-Prime) as a cool/cold planet or satellite);
@@ -141,11 +141,12 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 - [Frackin' Races](https://steamcommunity.com/sharedfiles/filedetails/?id=763259329)/[Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) (PARTIAL: no FU BYOS support. If you need it, you can get it here: [Alta FU Patch+](https://steamcommunity.com/sharedfiles/filedetails/?id=3048977458));
 - [Quickbar Mini](https://steamcommunity.com/sharedfiles/filedetails/?id=1088459034)/[Stardust Core Lite](https://steamcommunity.com/sharedfiles/filedetails/?id=2512589532) (adds ![a tool called](https://raw.githubusercontent.com/Ceterai/Enternia/main/items/active/alta/scanner/icon.png) [Alta Scanner](https://github.com/Ceterai/Enternia/wiki/Alta-Scanner) to the quick bar);
 - [Scripted Artificial Intelligence Lattice (Customisable A.I.!)](https://steamcommunity.com/workshop/filedetails/?id=947429656) (adds A.I. chips that modify S.A.I.L. with alta ship A.I. features and makes alta S.A.I.L. compatible with chips) - if you only want the chips and not the rest of the mod - use this instead: [Alta A.I. Chips](https://github.com/Ceterai/AltaAIChips);
-- [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062) (all armor and clothing from the mod can be found in the wardrobe with proper dying options);
+- [Wardrobe Interface](https://steamcommunity.com/sharedfiles/filedetails/?id=734855062) (all armor and clothing from the mod can be found in the wardrobe with proper dyeing options);
 - [Craftable Seeds NEW](https://steamcommunity.com/sharedfiles/filedetails/?id=1938886559)/[Craftable Seeds](https://steamcommunity.com/sharedfiles/filedetails/?id=731358672) (all crops and saplings from this mod can be crafted in the Seed Maker);
 - [Recipe Browser](https://steamcommunity.com/sharedfiles/filedetails/?id=2018183533) (adds all recipes and crafting stations from this mod to the interface);
 - [Starburst Rework](https://steamcommunity.com/sharedfiles/filedetails/?id=3025139283) (electric protection items from this mod support effects from SR);
-- [More Tabs](https://steamcommunity.com/sharedfiles/filedetails/?id=1119086325) (codex library now has an alta tab).
+- [More Tabs](https://steamcommunity.com/sharedfiles/filedetails/?id=1119086325) (codex library now has an alta tab);
+- [Spooky Synergy](https://steamcommunity.com/sharedfiles/filedetails/?id=3582677809) (adds candy and monster masks as loot to the loot bags patched by that mod).
 
 <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips5.webp" loading="lazy" width="100%" alt="My Enternia provides rich mod support for a lot of popular Starbound plugins!">
 <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips3.webp" loading="lazy" width="100%" alt="My Enternia provides support for species-specific traits!">
@@ -173,7 +174,7 @@ More about supported addons here: [Mod Support](https://github.com/Ceterai/Enter
 1. The mod tries to explore somewhat unusual concepts with unique names so there should be little to no idea overlap;
 1. If you want to make a mod on top of this and want to learn modding-related features of this mod, visit this page: [My Enternia Wiki: Modding](https://github.com/Ceterai/Enternia/wiki/Modding);
 1. Support for mods like IFD and MPI is done by generating patch files using python scripts. To learn more, visit [My Enternia Wiki: Modding - Mod Support](https://github.com/Ceterai/Enternia/wiki/Modding-Mod-Support).
-1. Palettes - most factions and environments in this mod have their palettes and colors. If you wish to follwo those, you can find them in [`/.meta/world.json`](https://github.com/Ceterai/Enternia/tree/main/.meta/world.json) file in text form, or in the [`/.meta/palettes/`](https://github.com/Ceterai/Enternia/tree/main/.meta/palettes/) folder in image form.
+1. Palettes - most factions and environments in this mod have their palettes and colors. If you wish to follow those, you can find them in [`/.meta/world.json`](https://github.com/Ceterai/Enternia/tree/main/.meta/world.json) file in text form, or in the [`/.meta/palettes/`](https://github.com/Ceterai/Enternia/tree/main/.meta/palettes/) folder in image form.
 
 #### Information For Translators
 
@@ -206,7 +207,7 @@ As mentioned in the content rundown, many different items in this mod have impro
 
 ### Tenants
 
-This mod add a large amount of npcs, outpost visitors and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md)
+This mod adds a large number of NPCs, outpost visitors, and tenants. To help you navigate that, check out this helpful tenant guide: [My Enternia Wiki: Tenants](https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md)
 
 <img src="https://raw.githubusercontent.com/Ceterai/Enternia/main/.meta/images/scrn_tooltips4.webp" loading="lazy" width="100%" alt="Alta Species include around 200 tenants!">
 
@@ -217,7 +218,7 @@ You can also find the full list of changes on the [Steam changelog page](https:/
 
 ### Removed Content
 
-During development, new features appear and some features become deprecated. Usually, these features are retained, and, if possible - converted into their relevant alterniatives. With time, deprecated features are removed completely. If you wish to retain them - there's a mod that will let you do that - **My Enternia - Removed Content**:
+During development, new features appear and some features become deprecated. Usually, these features are retained, and, if possible - converted into their relevant alternatives. With time, deprecated features are removed completely. If you wish to retain them - there's a mod that will let you do that - **My Enternia - Removed Content**:
 
 - [Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3169344640)
 - [Starbound Forums Link](https://community.playstarbound.com/resources/my-enternia-removed-content.6282/)

@@ -5,17 +5,8 @@
   "icon" : "datamass/eds.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Strangely enough, this message history doesn't contain any plain written messages at all.
-
-Instead, this just looks like a complete back-and-forth of different technical commands that you would usually see in a programming code.
-
-Why would command centers with real people communicate with each other this way?",
-
-    "...Is there no one there? Just... machines talking to each other?..
-
-What happened?.."
-
+    "Strangely enough, this message history doesn't contain any plain written messages at all.\n\nInstead, this just looks like a complete back-and-forth of different technical commands that you would usually see in a programming code.\n\nWhy would command centers with real people communicate with each other this way?",
+    "...Is there no one there? Just... machines talking to each other?..\n\nWhat happened?.."
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_logs_eds_chatter-codex" ],

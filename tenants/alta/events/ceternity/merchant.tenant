@@ -1,0 +1,33 @@
+{
+  "name" : "ct_alta_ceternity_merchant_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 4,
+    "ceternity" : 16,
+    "storage" : 18,
+    "commerce" : 12
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_ceternity_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_ceternity_gift" },
+
+  "wiki" : {
+    "title" : "Alta Ceternity Merchant",
+    "description" : "This alta is celebrating Ceternity, and she's selling some festive goods!",
+    "category" : "holiday", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

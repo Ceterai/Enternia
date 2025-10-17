@@ -1,0 +1,23 @@
+{
+  "type" : "ct_alta_christmas_girl",
+  "baseType" : "ct_alta_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "hotholidayhead" ],
+          "chest" : [ "hotholidaychest" ],
+          "legs" : [ "hotholidaypants" ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "merchant" : { "numItems" : 8, "categories" : { "default" : [ "holiday" ] } },
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:tout" },
+      "converse" : "/dialog/alta.config:ceternity"
+    }
+  }
+}

@@ -9,6 +9,7 @@
   "itemTags" : [ "gil" ], "learnBlueprintsOnPickup" : [ "ct_gillikada", "ct_gil_sapling" ],
   "category" : "food", "eventCategory" : "eventCrop",
   "inventoryIcon" : "ct_gil.png",
+  "build" : { "foodValue" : 9 },
 
   "builder" : "/items/buildscripts/alta/consumable.lua", "alkey" : "Gil"
 }

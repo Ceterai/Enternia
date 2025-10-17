@@ -1,7 +1,6 @@
 {
   "itemName" : "ct_onitti_cake",
-  "level" : 6, "rarity" : "Legendary", "price" : 1080,
-  "race" : "alta",
+  "level" : 6, "price" : 1080, "race" : "alta",
   "category" : "preparedFood",
   "inventoryIcon" : "ct_onitti_cake.png",
   "shortdescription" : "Onitti Cake",
@@ -15,7 +14,7 @@
     }
   ] ],
   "foodValue" : 70,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cake", "dessert" ],
+  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cake", "dessert", "bio", "yaara" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "maxStack" : 1,
   "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],

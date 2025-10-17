@@ -1,0 +1,18 @@
+{
+  "objectName" : "ct_miazmur_af",
+  "colonyTags" : [ "ceternity", "viona" ],
+  "category" : "decorative",
+  "level" : 4, "price" : 280,
+
+  "shortdescription" : "Miazmur",
+  "description" : "An attached note reads, \"Looking at it through the bottle can cause optical illusions.\"",
+  "altaDescription" : "The best decoration for celebrating Ceternity!~",
+
+  "lightColor" : [96, 16, 64],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

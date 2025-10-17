@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_snow_tenant",
+  "priority" : 15,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 12,
+    "ice" : 24
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_snow_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Snow Girl",
+    "description" : "An alta cosplaying as a snowgirl. Nothing to see here. Move along.",
+    "category" : "casual",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

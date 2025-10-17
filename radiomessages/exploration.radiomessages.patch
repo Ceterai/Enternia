@@ -1,4 +1,4 @@
-[  // Radiomessages explaining lore and concepts in the mod. Use /clearradiomessages to clear the history of recieved messages, /radiomessage <msg> to play one.
+[  // Radiomessages explaining lore and concepts in the mod. Use /clearradiomessages to clear the history of received messages, /radiomessage <msg> to play one.
   { "op":"add", "path":"/ct_ionized_air_msg", "value":{
     "unique" : false, "textSpeed" : 70,
     "text" : "Be careful, the air appears to be ^#5000c0;ionized^reset;. ^#ff8888;Unless you have ^#7733aa;immunity to electricity^#ff8888;, try to not drain your energy as it may damage you periodically.^reset;"
@@ -26,7 +26,7 @@
 
   { "op":"add", "path":"/ct_robot_spawner_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "Seems like you've accquired an ^#b0e0fc;Alta Robotic^reset;, or simply a Drone Spawner. You can activate it to deploy a friendly drone (or droid). Unfortunately, you won't be able to further control it or deactivate it back."
+    "text" : "Seems like you've acquired an ^#b0e0fc;Alta Robotic^reset;, or simply a Drone Spawner. You can activate it to deploy a friendly drone (or droid). Unfortunately, you won't be able to further control it or deactivate it back."
   } },
   { "op":"add", "path":"/ct_energy_shielder_msg", "value":{
     "unique" : true, "textSpeed" : 70,
@@ -51,15 +51,15 @@
   } },
   { "op":"add", "path":"/ct_warped_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "Beware of the warped items you just accquired. ^#9b2d3f;Warped^reset; is a form of wild growth found mainly on ^#20f080;alterash^reset; planets, that tends to spread uncontrollably and contaminate everything in its path.  \nWarped things can be bioluminescent, but they also tend to be quite venomous too. I wouldn't recommend testing your luck."
+    "text" : "Beware of the warped items you just acquired. ^#9b2d3f;Warped^reset; is a form of wild growth found mainly on ^#20f080;alterash^reset; planets, that tends to spread uncontrollably and contaminate everything in its path.  \nWarped things can be bioluminescent, but they also tend to be quite venomous too. I wouldn't recommend testing your luck."
   } },
   { "op":"add", "path":"/ct_haven_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "The item you just got seems to have come for alterash ^#80f020;haven^reset; - flowery areas on ^#20f080;alterash^reset; planets that tend to have higher levels of toxicity than surrounding nature. Although it equals to toxicity levels on most green planets, it's not a usual sight here, so I would reccomend being careful."
+    "text" : "The item you just got seems to have come for alterash ^#80f020;haven^reset; - flowery areas on ^#20f080;alterash^reset; planets that tend to have higher levels of toxicity than surrounding nature. Although it equals to toxicity levels on most green planets, it's not a usual sight here, so I would recommend being careful."
   } },
   { "op":"add", "path":"/ct_faradea_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "Seems like the item you just picked up belongs to ^#ffe364;Faradea^reset; - an independant alta mercenary faction. Let's hope you don't find the previous owner of this item."
+    "text" : "Seems like the item you just picked up belongs to ^#ffe364;Faradea^reset; - an independent alta mercenary faction. Let's hope you don't find the previous owner of this item."
   } },
 
   { "op":"add", "path":"/ct_alterash_msg", "value":{
@@ -76,12 +76,12 @@
   } },
   { "op":"add", "path":"/ct_alta_scanner_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "You've accquired an ^#b0e0fc;alta scanner^reset;! This will expand my database greatly. Feel free to scan items, objects and even monsters. It should provide an extended info and lore, unavailable through regular scanning and tooltips."
+    "text" : "You've acquired an ^#b0e0fc;alta scanner^reset;! This will expand my database greatly. Feel free to scan items, objects and even monsters. It should provide an extended info and lore, unavailable through regular scanning and tooltips."
   } },
 
   { "op":"add", "path":"/ct_alta_head_armor_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta head armor piece. Among usual protection and a special effect, these usually have an in-built ^#b0e0fc;breath protection^reset;, meaning you no longer have to use a ^#b0e0fc;Breathing EPP^reset; in places where you couldn't breath."
+    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta head armor piece. Among usual protection and a special effect, these usually have an in-built ^#b0e0fc;breath protection^reset;, meaning you no longer have to use a ^#b0e0fc;Breathing EPP^reset; in places where you couldn't breathe."
   } },
   { "op":"add", "path":"/ct_alta_back_armor_msg", "value":{
     "unique" : true, "textSpeed" : 70,
@@ -89,7 +89,7 @@
   } },
   { "op":"add", "path":"/ct_alta_legs_armor_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta legs armor piece. Among usual protection and a special effect, these usually have in-built proto-enhancers, increasing knockback threshold by 3 and decreasing falldamage by 15%."
+    "text" : "You've got a hold of a level ^#8020f0;6+^reset; alta legs armor piece. Among usual protection and a special effect, these usually have in-built proto-enhancers, increasing knockback threshold by 3 and decreasing fall damage by 15%."
   } },
 
   { "op":"add", "path":"/ct_datamass_msg", "value":{
@@ -98,15 +98,15 @@
   } },
   { "op":"add", "path":"/ct_ebook_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "You've found an alta ebook - a collimator electronic reader usually used for as a reusable substitude for books. Often crafted in ^#b0e0fc;alta datacenters^reset;."
+    "text" : "You've found an alta ebook - a collimator electronic reader usually used as a reusable substitute for books. Often crafted in ^#b0e0fc;alta datacenters^reset;."
   } },
   { "op":"add", "path":"/ct_sphere_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "What you just accquired is an alta energy sphere, a powerful energy generator that produces energy of one of three types - ceternia, alternia and enternia. These spheres are powered by crystals and pure energy essence that you can find scattered accross ^#ffa8e8;stardust^reset;-type planets like ^#20f080;alterash^reset;.  \nUse them sparingly as they're generally hard to come by."
+    "text" : "What you just acquired is an alta energy sphere, a powerful energy generator that produces energy of one of three types - ceternia, alternia and enternia. These spheres are powered by crystals and pure energy essence that you can find scattered across ^#ffa8e8;stardust^reset;-type planets like ^#20f080;alterash^reset;.  \nUse them sparingly as they're generally hard to come by."
   } },
   { "op":"add", "path":"/ct_loot_crate_msg", "value":{
     "unique" : true, "textSpeed" : 70,
-    "text" : "I detected an alta loot crate in your inventory. These minipods contain random loot from related chests and pods. Altas use them for fast compact transfer, thus everything inside is packed tighly. ^#ff8888;You won't be able to put things back if you open it.^reset;"
+    "text" : "I detected an alta loot crate in your inventory. These minipods contain random loot from related chests and pods. Altas use them for fast compact transfer, thus everything inside is packed tightly. ^#ff8888;You won't be able to put things back if you open it.^reset;"
   } },
   { "op":"add", "path":"/ct_set_msg", "value":{
     "unique" : true, "textSpeed" : 70,

@@ -1,6 +1,6 @@
 {
   "itemName" : "ct_alta_testing_ball",
-  "level" : 4, "rarity" : "Uncommon", "price" : 220, "race" : "alta",
+  "level" : 4, "price" : 220, "race" : "alta",
   "itemTags" : [ "reagent", "energy_source", "plasma" ], "category" : "throwableItem", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_alta_testing_ball.png",
   "image" : "ct_alta_testing_ball.png",
@@ -23,5 +23,7 @@
         "options" : [ "/sfx/projectiles/throw_item_huge.ogg" ]
       }
     ]
-  }
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
 }

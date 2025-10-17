@@ -98,7 +98,7 @@ function getPalette(palette, swaps, directory)
   return palette
 end
 
--- Deprecated, left for compatability
+-- Deprecated, left for compatibility
 
 function getColorDirectives(dirT, dirs)
   for _, v in ipairs(dirT) do dirs = string.format("%s%s", dirs, v) end

@@ -56,12 +56,17 @@
       // Dungeons
       {
         "mode" : "floor", "priority" : 2, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
-        "microdungeons" : [ "aridplatforming", "blank", "none" ]
+        "microdungeons" : [ "aridplatforming", "oasis", "blank", "none" ]
       },
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
         "microdungeons" : [ "encounterdungeons" ]
+        //"microdungeons" : [ "ct_faradea_camp", "ct_alta_merchant_stop", "ct_alta_camp", "blank", "none" ]
       },
+      // {
+      //   "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon", "type" : "microdungeon",
+      //   "microdungeons" : [ "ct_alta_riverside" ]
+      // },
       // Growth
       {
         "mode" : "floor", "priority" : 0.5, "variants" : 4, "distribution" : "/biomes/distributions.config:denseSmall", "type" : "grass",

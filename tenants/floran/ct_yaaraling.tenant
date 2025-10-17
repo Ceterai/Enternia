@@ -1,0 +1,49 @@
+{
+  "name": "ct_yaaraling_tenant",
+  "priority": 5,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "yaara": 6
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "hive",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara" } }
+                  ],
+                  "chest" : [
+                    { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara" } }
+                  ],
+                  "legs" : [
+                    { "name" : "ct_legs_mimic", "parameters" : { "preset" : "yaara" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaaraling",
+    "description" : "A diona that came together from various sentient critters of a yaara grove. Like most dionas, they're peaceful in nature.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

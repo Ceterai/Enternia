@@ -1,0 +1,24 @@
+{
+  "type": "ct_alta_dark_stone_girl",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "rockhat", "parameters" : { "colorIndex" : 1 } }
+            ],
+            "chest" : [
+              { "name" : "floransurvivalistchest", "parameters" : { "colorIndex" : 2 } }
+            ],
+            "legs" : [
+              { "name" : "floransurvivalistlegs", "parameters" : { "colorIndex" : 2 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

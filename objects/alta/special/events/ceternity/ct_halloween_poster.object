@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_halloween_poster",
+  "colonyTags" : [ "halloween" ],
+  "itemTags" : [ "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Halloween Poster",
+  "description" : "A pumpkin face painted onto a poster made to celebrate a spooky human event called Halloween. Happy spooky season!",
+  "longdescription" : "A poster featuring a pumpkin, the biggest mascot of the Halloween event. The design is abstract and colorful, evoking a sense of mystery and wonder. It's a great way to show your support for the event and add some festive decor to your home.",
+  "altaDescription" : "Happy spooky season!~",
+
+  "inventoryIcon" : "ct_halloween_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_halloween_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,32 @@
+{
+  "name" : "ct_stardust_merchant_tenant",
+  "priority" : 7,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "commerce" : 8,
+    "stardust" : 14
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_stardust_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_stardust_gift" },
+
+  "wiki" : {
+    "title" : "Stardust Merchant",
+    "description" : "This alta sells lots of stardust-enchanted things.",
+    "category" : "nature", "class" : "merchant",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

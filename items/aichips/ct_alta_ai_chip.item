@@ -11,6 +11,7 @@
   "altaDescription": "A simple interface in a highly-compatible datamass. Neat.",
 
   "rarity": "Uncommon", "price": 120, "level" : 3, "race" : "alta",
+  "itemTags" : [ "alta_ai", "alta_basic" ],
 
   "tooltipKind": "ct_alta_item", "category": "A.I. Chip", "fixedPrice" : true,
   "tooltipFields" : { "objectImage": "/ai/portraits/altaquestportrait.png" },

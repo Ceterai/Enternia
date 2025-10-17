@@ -50,10 +50,18 @@
         "objectSets" : [ { "pool" : [ [1, "ct_lifechamber" ] ], "parameters" : { } } ]
       },
       // Dungeons
+      // {
+      //   "mode" : "floor", "priority" : 3.0, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredLarge", "type" : "microdungeon",
+      //   "microdungeons" : [ "ct_aya_bee_nest", "ct_ayaka_logfall", "ct_aya_pit" ]
+      // },
       {
         "mode" : "floor", "priority" : 2, "variants" : 2, "distribution" : "/biomes/distributions.config:tiyDist", "type" : "microdungeon",
-        "microdungeons" : ["oasis", "blank", "none" ]
+        "microdungeons" : [ "blank", "none" ]
       },
+      // {
+      //   "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:mainBiomeEncounterDungeon", "type" : "microdungeon",
+      //   "microdungeons" : [ "ct_faradea_camp" ]
+      // },
       // Growth
       {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:moderateClumps", "type" : "object",

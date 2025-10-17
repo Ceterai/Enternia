@@ -1,0 +1,51 @@
+{
+  "name": "ct_yaara_shaman_tenant",
+  "priority": 11,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "yaara": 18,
+    "floran": 18,
+    "rare": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "generictenant",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "yaara_shaman_mask" } }
+                  ],
+                  "chest" : [
+                    { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara_body_vine" } }
+                  ],
+                  "legs" : [
+                    { "name" : "ct_legs_mimic", "parameters" : { "preset" : "koywa_skirt" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaara Shaman",
+    "description" : "A floran born in a yaara grove, connected to it with their heart.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

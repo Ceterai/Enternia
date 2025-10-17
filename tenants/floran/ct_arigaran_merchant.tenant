@@ -1,0 +1,44 @@
+{
+  "name": "ct_arigaran_merchant_tenant",
+  "priority": 9,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "aric": 18,
+    "commerce": 18
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "shroommerchanttenant",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "ct_head_mimic", "parameters" : { "preset" : "aric_toxicap" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_aric_gift"
+  },
+
+  "wiki" : {
+    "title" : "Arigaran Merchant",
+    "description" : "This arigaran wants to sell you stuff straight from the aric patches.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

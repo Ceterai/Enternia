@@ -1,0 +1,176 @@
+// Mod support for Elithian Races (Elithian Alliance).
+// It has a timed Halloween event called "Harrowing".
+// These patches modify the loot of the Harrowing Cache used in that event to add alta items as probable rewards.
+// The contents of this patch are similar to the patches for the Haunted Bag from The Spooky Scary Halloween Special mod.
+[
+  // Halloween Sweets (Candy, Treats, etc.)
+  [
+    { "op" : "test", "path" : "/harrowingEventCandy" },
+    { "op" : "test", "path" : "/harrowingEventCandy/0" },
+    { "op" : "test", "path" : "/harrowingEventCandy/0/1" },
+    { "op" : "test", "path" : "/harrowingEventCandy/0/1/pool" },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.2, "item" : "ct_warped_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : [ "ct_warped_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_warped_candy", 3 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.2, "item" : "ct_warped_spider_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : [ "ct_warped_spider_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_warped_spider_candy", 3 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.2, "item" : "ct_miazma_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : [ "ct_miazma_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_miazma_candy", 3 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "ct_neonjack_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_neonjack_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "ct_yaajack_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_yaajack_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "ct_orchid_pumpkin_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_orchid_pumpkin_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "ct_orchid_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_orchid_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.1, "item" : "ct_ceternity_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_ceternity_candy", 2 ] }
+    },
+
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.15, "item" : "ct_aya_candy" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.10, "item" : [ "ct_aya_candy", 2 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.05, "item" : [ "ct_aya_candy", 3 ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.15, "item" : [ "ct_aya_candy", 1, { "preset" : "pop" } ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.15, "item" : [ "ct_aya_candy", 1, { "preset" : "gheatsyn" } ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.15, "item" : [ "ct_aya_candy", 1, { "preset" : "miko" } ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.15, "item" : [ "ct_aya_candy", 1, { "preset" : "yaara" } ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.10, "item" : "ct_crystal_cookies" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.10, "item" : [ "ct_crystal_cookies", 1, { "preset" : "calin" } ] }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventCandy/0/1/pool/-",
+      "value" : { "weight" : 0.10, "item" : [ "ct_crystal_cookies", 1, { "preset" : "candy" } ] }
+    }
+  ],
+  // Halloween Costumes (Masks, Hats, etc.)
+  [
+    { "op" : "test", "path" : "/harrowingEventArmour" },
+    { "op" : "test", "path" : "/harrowingEventArmour/0" },
+    { "op" : "test", "path" : "/harrowingEventArmour/0/1" },
+    { "op" : "test", "path" : "/harrowingEventArmour/0/1/pool" },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventArmour/0/1/pool/-",
+      "value" : { "weight" : 0.03, "item" : "ct_crippit_head" }
+    },
+    {
+      "op" : "add",
+      "path" : "/harrowingEventArmour/0/1/pool/-",
+      "value" : { "weight" : 0.03, "item" : "ct_impulse_bobfae_head" }
+    }
+  ]
+]

@@ -1,0 +1,25 @@
+{
+  "type": "ct_alta_snow_girl",
+  "baseType": "ct_alta",
+  "matchColorIndices" : false,
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              "icecubehead"
+            ],
+            "chest" : [
+              "prismchest"
+            ],
+            "legs" : [
+              { "name" : "toughlegs", "parameters" : { "colorIndex" : 3 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

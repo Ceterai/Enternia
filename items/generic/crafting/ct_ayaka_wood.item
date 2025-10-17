@@ -6,7 +6,7 @@
   "altaDescription" : "Ordinary refined ayakut straight from a healthy ayaka. Can be used for practically anything. I should probably do something with it.",
   "foundIn" : [ "^#20f080;Alterash^reset;", "^#2080f0;Alterash Prime^reset;" ],
 
-  "itemTags" : [ "reagent", "wood", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "paper", "ct_ayaka_wood" ],
+  "itemTags" : [ "reagent", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ionic_sap", "paper", "ct_ayaka_wood" ],
   "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "ct_ayaka_wood.png",
   "builder" : "/items/buildscripts/alta/item.lua",

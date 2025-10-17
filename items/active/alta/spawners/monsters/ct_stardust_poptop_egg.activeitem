@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_stardust_poptop_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Legendary", "level" : 7,
+  "level" : 7,
   "twoHanded" : false, "pet" : "ct_stardust_poptop",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"

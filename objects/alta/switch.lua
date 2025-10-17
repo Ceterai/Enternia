@@ -2,7 +2,7 @@
 -- General switch/light script. Read more here: [My Enternia Wiki: Modding - Objects:
 -- Switch Logic](https://github.com/Ceterai/Enternia/wiki/Modding-Items#switch-logic)
 -- ## Parameters
--- All parameters are oprional (unless needed for compatability, like `stateType`).
+-- All parameters are optional (unless needed for compatibility, like `stateType`).
 -- - `alwaysLit`, `bool` (default: `false`)
 -- - `alwaysOn`, `bool` (default: `false`)
 -- - `blockInteractIfConnected`, `bool` (default: `false`)

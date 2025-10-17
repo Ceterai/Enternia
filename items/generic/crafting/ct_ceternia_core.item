@@ -7,7 +7,7 @@
   "foundIn" : [ "^#20f080;Alterash^reset; ^gray;mid caves^reset;" ],
 
   "level" : 5,
-  "itemTags" : [ "reagent", "energy_source", "essence", "core", "remnant", "living", "ceternia" ],
+  "itemTags" : [ "reagent", "energy_source", "essence", "core", "ceternia" ],
   "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "ct_ceternia_core.png",
   "builder" : "/items/buildscripts/alta/item.lua",

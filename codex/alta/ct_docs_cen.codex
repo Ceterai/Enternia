@@ -2,28 +2,14 @@
   "id" : "ct_docs_cen",
   "title" : "CEN Referencing Guide",
   "description" : "An old document with lots of complicated words.",
+  "longdescription" : "This document serves as a guide for the classification and use of CEN documents. It outlines the different categories of CEN documents, including instructions, protocols, blueprints, and documentation. It also provides guidelines for the use of these documents in various contexts.",
+  "altaDescription" : "Your guide to everything alta. Rule-wise, that is.",
   "icon" : "paper/title.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Any descriptive document classified as CEN should fall under and is required to only be used as an instance of one of the following categories:
-
-- instructions;
-
-- protocols;
-
-- blueprints;
-
-- documentation.",
-
-"...unsafe compounds.
-
-CEN-6 - Low Safety Protocol. Provides security standards to ensure safe working conditions and is meant for use in regular environments.
-
-CEN-7 - High Safety Protocol. Provides maximum security measures and rules to ensure safe conditions during dangerous experiments, emergencies and lockdowns.
-
-CEN-8 - Voltage Handling Protocol..."
-
+    "Any descriptive document classified as CEN should fall under and is required to only be used as an instance of one of the following categories:\n\n- instructions;\n- protocols;\n- blueprints;\n- documentation.",
+    "CEN-1 - General Instructions. Provides general guidelines for the use of CEN documents and their classification.\n\nCEN-2 - Base Protocols. A system of basic alta protocols to follow at all times.\n\nCEN-3 - Era-Bionica. Main alta blueprint, its subtypes and standards.",
+    "...unsafe compounds.\n\nCEN-6 - Low Safety Protocol. Provides security standards to ensure safe working conditions and is meant for use in regular environments.\n\nCEN-7 - High Safety Protocol. Provides maximum security measures and rules to ensure safe conditions during dangerous experiments, emergencies and lockdowns.\n\nCEN-8 - Voltage Handling Protocol..."
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_cen-codex" ],

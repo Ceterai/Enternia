@@ -2,20 +2,14 @@
   "id" : "ct_docs_units_combat",
   "title" : "Tech Docs: Combat Set",
   "description" : "A brief description of tier 5 alta equipment worn by regular & private planetary ^#b0e0fc;alta^reset; army.",
+  "longdescription" : "This document provides an overview of the combat set used by the alta army, detailing its components and functionalities.",
+  "altaDescription" : "This set looks quite advanced. I wonder how well it would protect me in a fight?",
   "icon" : "paper/long.png",
   "species" : "alta",
   "contentPages" : [
-
     "Unlike most alta combat armor, this set is designed for on-ground and air combat. Maybe not as suitable for space.",
-
-"Alta Combat Mask - An alta army helmet-like mask, covering face and profile completely and supplying a Life Support System.
-
-Alta Combat Uniform - An bulletproof cape with high neck and a weather jacket. Provides Emergency Healer system that can save a life of an alta.
-
-Alta Combat Off-Roaders - Sleek heat-preserving legwear with bionid footing suitable for hard-to-traverse terrain. Includes Velocity Jump mechanisms.",
-
-"> Note: be cautious, since effects like Emergency Healer and Life Support System can be blocked by EMI attacks."
-
+    "Alta Combat Mask - An alta army helmet-like mask, covering face and profile completely and supplying a Life Support System.\n\nAlta Combat Uniform - An bulletproof cape with high neck and a weather jacket. Provides Emergency Healer system that can save a life of an alta.\n\nAlta Combat Off-Roaders - Sleek heat-preserving legwear with bionid footing suitable for hard-to-traverse terrain. Includes Velocity Jump mechanisms.",
+    "> Note: be cautious, since effects like Emergency Healer and Life Support System can be blocked by EMI attacks."
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_combat-codex" ],

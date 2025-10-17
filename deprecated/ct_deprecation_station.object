@@ -1,9 +1,8 @@
 {  // DEPRECATED (ironically)
   "objectName" : "ct_deprecation_station",
-  "colonyTags" : [ "crafting", "electronic" ],
+  "colonyTags" : [ ],
   "category" : "crafting",
-  "level" : 1, "rarity" : "Legendary", "price" : 1250,
-  "race" : "generic",
+  "level" : 1, "price" : 1250, "race" : "generic",
 
   "description" : "Get rewards for deprecated or lost items from Enternia mod.",
   "shortdescription" : "^orange;Deprecation Station^reset;",

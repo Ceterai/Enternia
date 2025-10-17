@@ -2,8 +2,7 @@
   "objectName" : "ct_alta_gateway",
   "colonyTags" : [ "city", "mechanical", "door" ],
   "category" : "door",
-  "level" : 2, "rarity" : "Common", "price" : 120,
-  "race" : "alta",
+  "level" : 2, "price" : 120, "race" : "alta",
 
   "shortdescription" : "Alta Gateway",
   "description" : "This door is airtight and made with incredibly strong materials.",
@@ -28,7 +27,7 @@
       "imagePosition" : [-16, 0],
       "renderLayer" : "Object+5",
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [-2, -1], [-1, -1], [4, 6], [5, 6] ],
+      "fgAnchors" : [ [-1, -1], [4, 6] ],
       "animationPosition" : [-16, 0]
     },
     {
@@ -37,7 +36,7 @@
       "imagePosition" : [-40, 0],
       "renderLayer" : "Object+5",
       "spaceScan" : 0.1,
-      "fgAnchors" : [ [-5, 6], [-4, 6], [1, -1], [2, -1] ],
+      "fgAnchors" : [ [-4, 6], [1, -1] ],
       "animationPosition" : [-40, 0]
     }
   ],

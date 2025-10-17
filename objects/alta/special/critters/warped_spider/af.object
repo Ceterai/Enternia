@@ -1,0 +1,17 @@
+{
+  "objectName" : "ct_warped_spider_af",
+  "colonyTags" : [ "ceternity", "warped" ],
+  "category" : "bug", "itemTags" : [ "bug" ],
+  "level" : 4,
+
+  "shortdescription" : "Warped Spider",
+  "description" : "An attached note reads, \"It creeps and crawls among the darker corners of warped forests.\"",
+  "altaDescription" : "The best decoration for celebrating Ceternity!~",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png:<color>.<frame>", "imagePosition" : [-1, 0], "frames" : 27, "animationCycle" : 2.3, "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

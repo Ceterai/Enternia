@@ -1,0 +1,50 @@
+{
+  "name": "ct_yaara_eye_tenant",
+  "priority": 14,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "yaara": 12,
+    "giantflower": 12
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "floran",
+      "type": "hive",
+      "overrides": {
+        "items" : {
+          "override" : [
+            [0, [
+                {
+                  "head" : [
+                    { "name" : "berryhead", "parameters" : { "colorIndex" : 6 } }
+                  ],
+                  "chest" : [
+                    { "name" : "ct_body_mimic", "parameters" : { "preset" : "yaara" } }
+                  ],
+                  "legs" : [
+                    { "name" : "ct_legs_mimic", "parameters" : { "preset" : "yaara" } }
+                  ]
+                }
+              ] ]
+          ]
+        }
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "ct_yaara_gift"
+  },
+
+  "wiki" : {
+    "title" : "Yaaviling",
+    "description" : "A diona that came together from various sentient critters of a yaara grove. This one has a yaara eye growing on top of it.",
+    "category" : "nature",
+    "images" : { "primary" : [ ] }
+  }
+}

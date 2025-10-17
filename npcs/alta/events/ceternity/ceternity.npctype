@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_ceternity_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "wedding1chest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "wedding1legs", "parameters" : { "colorIndex" : 1 } } ]
+        },
+        {
+          "head" : [ "" ],
+          "chest" : [ { "name" : "wedding2chest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "wedding2legs", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:ceternity" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "ct_alta_yaara_prisoner",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "slimehead", "parameters" : { "colorIndex" : 8 } }
+            ],
+            "chest" : [
+              { "name" : "prismchest" }
+            ],
+            "legs" : [
+              { "name" : "toughlegs", "parameters" : { "colorIndex" : 8 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

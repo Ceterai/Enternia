@@ -1,0 +1,30 @@
+{
+  "name" : "ct_alta_yaara_prison_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 8,
+    "floranprison" : 10
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_yaara_prisoner",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_beach_gift" },
+
+  "wiki" : {
+    "title" : "Alta Floran Prisoner",
+    "description" : "Yaara keepers have captured an alta and are holding her in their prison. She seems to be in good health, but is likely very scared and confused. Perhaps you can help her find a way out of this place.",
+    "category" : "tropical",
+    "images" : {
+      "primary" : [
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "objectName" : "ct_alterash_statue",
+  "colonyTags" : [ "alterash", "patriotic", "pretty", "massive" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 400, "race" : "alta",
+
+  "shortdescription" : "Alterash Statue ^#2080f0;^reset;",
+  "description" : "A statue on a titanium platform. The label says the statue was build to represent ^#b0e0fc;alta^reset; homelands.",
+  "longdescription" : "While the label doesn't explicitly mention it, this model specifically is made to represent Alta-1 - the first alterash planet to be inhabited by altas.",
+  "altaDescription" : "Home sweet home... On a pedestal!",
+
+  "apexDescription" : "A statue on what looks to be a titanium platform. This work is impressive.",
+  "avianDescription" : "A mysterious other world... How many there are like this? What does it hide?",
+  "floranDescription" : "Alterash. Electric girlsss live here. And great Yaara Keeperssss too, guarding them.",
+  "glitchDescription" : "Impressed. A pretty big statue, dedicated to a whole planet. Or planets.",
+  "humanDescription" : "A planet model. Someone's studying astronomy, it's pretty detailed.",
+  "hylotlDescription" : "A vast planetary monument dedicated to a very specific alta planet. Not sure which one.",
+  "novakidDescription" : "A big ol' planet statue. Seen many planets like this one here on my travels.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [ { "dualImage" : "body.png", "imagePosition" : [-32, 0], "spaceScan" : 0.1, "anchors" : [ "bottom" ] } ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

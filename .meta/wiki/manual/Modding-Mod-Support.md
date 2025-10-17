@@ -25,6 +25,9 @@ Navigation:
 - [Starburst Rework](#starburst-rework)
 - [Enhanced Storage](#enhanced-storage)
 - [Many Tabs](#many-tabs)
+- [Augment Crafting Table \& Craftable Augments](#augment-crafting-table--craftable-augments)
+- [Liquid Extractor Reborn](#liquid-extractor-reborn)
+- [Spooky Synergy](#spooky-synergy)
 
 ### Tabula Rasa
 
@@ -178,7 +181,7 @@ Support for this mod consists of 2 parts:
 
 > Added in [2.3.3](https://github.com/Ceterai/Enternia/releases/tag/2.3.3)
 
-This mod alters default monster logic to use some additional parameters like `ouchTimer`. Since these parameters are not present in the custom init used by My ENternia monsters, I needed to add one to eliminate an incompatability which caused alta drones to explode on spawn.
+This mod alters default monster logic to use some additional parameters like `ouchTimer`. Since these parameters are not present in the custom init used by My ENternia monsters, I needed to add one to eliminate an incompatibility which caused alta drones to explode on spawn.
 
 Resulting logic can be found here: [`/monsters/ct_ioterash_monster.lua`](https://github.com/Ceterai/Enternia/blob/main/monsters/ct_ioterash_monster.lua)
 
@@ -272,3 +275,29 @@ This is done through scripts and patches in [`/stats/biomeprotection/`](https://
 This is just adding an alta tab to the codex library to filter out alta codex entries.
 
 This is done by creating the following patch file: [`/interface/windowconfig/codex.config.patch`](https://github.com/Ceterai/Enternia/blob/main/interface/windowconfig/codex.config.patch)
+
+### Augment Crafting Table & Craftable Augments
+
+> Added in [2.4.0b](https://github.com/Ceterai/Enternia/releases/tag/2.4.0b)
+
+[Augment Crafting Table](https://steamcommunity.com/sharedfiles/filedetails/?id=2131697647) and [Craftable Augments](https://steamcommunity.com/sharedfiles/filedetails/?id=2828132232)
+
+This is done by adding recipe groups used by these 2 stations to augment recipes from this mod: `augmentcraftingtable` and `augmentstation` respectively.
+
+### Liquid Extractor Reborn
+
+> Added in [2.4.0b](https://github.com/Ceterai/Enternia/releases/tag/2.4.0b)
+
+Some resources from this mod can be used for liquid extraction. This is done by creating recipes for the liquid extractor.
+
+This is done by adding a `liquidExtractor` group to the recipe's groups.
+
+Examples can be found here: [`/recipes/liquidExtractor/`](https://github.com/Ceterai/Enternia/tree/main/recipes/liquidExtractor)
+
+### Spooky Synergy
+
+> Added in [2.4.0b](https://github.com/Ceterai/Enternia/releases/tag/2.4.0b)
+
+Ceternity items have a `spookysynergy` group in their recipes, which makes them available in the Spooky Synergy filter button in Tabula Rasa.
+
+Some of them also have a `spookycrafter` group, which makes them available in the Haunted Crafting Table from the **The Spooky Scary Halloween Special** mod.

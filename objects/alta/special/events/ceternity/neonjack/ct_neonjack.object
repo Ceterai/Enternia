@@ -1,0 +1,60 @@
+{
+  "objectName" : "ct_neonjack",
+  "colonyTags" : [ "ceternity", "light", "neonmelon" ], "learnBlueprintsOnPickup" : [ "ct_ceternity_poster", "ct_halloween_poster", "ct_harrowing_poster" ],
+  "price" : 60, "level" : 3, "race" : "generic",
+  "category" : "light",
+
+  "shortdescription" : "Jack O' Lantern",
+  "description" : "A \"Neonjack\", as altas call them. A festive neonmelon decoration with Ceternity's face carved into it that glows eerily in the dark.",
+  "longdescription" : "A neonmelon carved into a jack o' lantern, complete with an internal light source. It flickers eerily in the dark, making it perfect for Halloween decorations.",
+  "altaDescription" : "A neonjack! Perfect for celebrating the spooky season~",
+
+  "apexDescription" : "I'll give this one to altas - quite creative.",
+  "avianDescription" : "Oh, how delightful! A melon lantern!",
+  "floranDescription" : "Floran doesssn't understand. Where isss fire?",
+  "glitchDescription" : "Interested. This 'jack o' lantern' doesn't have a candle.",
+  "humanDescription" : "I never thought melons could be so... festive.",
+  "hylotlDescription" : "How innovative! It doesn't even need a candle.",
+  "novakidDescription" : "Finally some decor that makes me feelin' home!",
+
+  "lightColor" : [16, 72, 64],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "maximumLiquidLevel" : 0.2,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png:<color>.<frame>", "imagePosition" : [-4, 0],
+      "direction" : "left", "flipImages" : true,
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ], "anchors" : [ "bottom" ],
+      "animationPosition" : [-4, 0]
+    },
+    {
+      "image" : "body.png:<color>.<frame>", "imagePosition" : [-4, 0],
+      "direction" : "right",
+      "spaces" : [ [0, 0], [0, 1], [1, 0], [1, 1] ], "anchors" : [ "bottom" ],
+      "animationPosition" : [-4, 0]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/torch.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "animation" : "default.animation",
+  "animationParts" : {
+    "bg" : "body.png",
+    "fg" : "lit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "inputNodes" : [ [0, 1] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

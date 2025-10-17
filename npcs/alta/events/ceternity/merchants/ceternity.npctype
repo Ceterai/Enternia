@@ -1,0 +1,23 @@
+{
+  "type" : "ct_alta_ceternity_merchant",
+  "baseType" : "ct_alta_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "wizardhead", "parameters" : { "colorIndex" : 1 } } ],
+          "chest" : [ { "name" : "wizardchest", "parameters" : { "colorIndex" : 1 } } ],
+          "legs" : [ { "name" : "wizardlegs", "parameters" : { "colorIndex" : 1 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "merchant" : { "numItems" : 8, "categories" : { "default" : [ "ceternity" ] } },
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:tout" },
+      "converse" : "/dialog/alta.config:ceternity"
+    }
+  }
+}

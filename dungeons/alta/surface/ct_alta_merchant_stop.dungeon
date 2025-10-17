@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "name" : "ct_alta_merchant_stop",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "merchant1", "merchant2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Alta Merchant Stop",
+    "description" : "A small merchant stop in the wilderness, set up by a travelling alta merchant."
+  },
+  "parts" : [
+    { "name" : "merchant1",   "def" : [ "tmx", [ "merchant1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "merchant2",   "def" : [ "tmx", [ "merchant2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

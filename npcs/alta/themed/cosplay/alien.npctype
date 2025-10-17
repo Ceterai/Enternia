@@ -1,0 +1,24 @@
+{
+  "type": "ct_alta_alien_girl",
+  "baseType": "ct_alta",
+  "items": {
+    "override": [
+      [
+        0,
+        [
+          {
+            "head": [
+              { "name" : "eyehead", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "chest" : [
+              { "name" : "jumpsuitchest", "parameters" : { "colorIndex" : 9 } }
+            ],
+            "legs" : [
+              { "name" : "jumpsuitlegs", "parameters" : { "colorIndex" : 9 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  }
+}

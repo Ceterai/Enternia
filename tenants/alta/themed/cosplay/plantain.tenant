@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_plantain_tenant",
+  "priority" : 16,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 12,
+    "apexvillage" : 24
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_plantain_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_banana_gift" },
+
+  "wiki" : {
+    "title" : "Alta Plantain Girl",
+    "description" : "An alta cosplaying a super hero from apex folklore.",
+    "category" : "themed",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

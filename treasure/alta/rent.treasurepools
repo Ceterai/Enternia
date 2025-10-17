@@ -1,8 +1,10 @@
   // ==============================================================================================
-  //                                    TREASURE POOLS FOR ALTA LOOT
+  //                               TREASURE POOLS FOR ALTA TENANT RENT
   // ==============================================================================================
+  // These pools are used for the gifts given by alta tenants as rent for lining in player's colony.
 
 {
+  // Alta Artist rent options
   "ct_alta_artist_gift" : [
     [0, {
       "pool" : [
@@ -12,7 +14,7 @@
         {"weight" : 0.2, "item" : [ "fabric", 2 ] },
         {"weight" : 0.2, "item" : "cottonwool" },
         {"weight" : 0.080, "item" : "ct_vmax"},
-        {"weight" : 0.010, "item" : "ct_alta_toy_pet_ball"},
+        {"weight" : 0.010, "item" : "berethead"},
         {"weight" : 0.005, "item" : "spaceorgan"},
         {"weight" : 0.005, "item" : "squarewave"}
       ]
@@ -25,7 +27,7 @@
         {"weight" : 0.2, "item" : [ "canvas", 2 ] },
         {"weight" : 0.2, "item" : "silk" },
         {"weight" : 0.080, "item" : "ct_vmax"},
-        {"weight" : 0.010, "item" : "ct_alta_toy_pet_ball"},
+        {"weight" : 0.010, "item" : "berethead"},
         {"weight" : 0.005, "item" : "spaceorgan"},
         {"weight" : 0.005, "item" : "squarewave"}
       ]
@@ -33,6 +35,7 @@
     [7.9, { "fill" : [ { "item" : "paintgunblue" } ] } ]
   ],
 
+  // Alta Scientist rent options
   "ct_alta_science_gift" : [
     [0, {
       "pool" : [
@@ -52,7 +55,6 @@
     [2.9, {
       "pool" : [
         {"weight" : 0.20, "item" : [ "ct_datamass", 2 ] },
-        {"weight" : 0.20, "item" : "ct_alta_energy_cell" },
         {"weight" : 0.10, "item" : "ct_alta_testing_ball" },
         {"weight" : 0.05, "item" : [ "volatilepowder", 2 ] },
         {"weight" : 0.05, "item" : [ "cellmatter", 2 ] },
@@ -70,7 +72,6 @@
     [5.9, {
       "pool" : [
         {"weight" : 0.20, "item" : [ "ct_datamass", 4 ] },
-        {"weight" : 0.20, "item" : [ "ct_alta_energy_cell", 2 ] },
         {"weight" : 0.05, "item" : "ct_docs_cen-codex"},
         {"weight" : 0.05, "item" : "ct_docs_datamass-codex"},
         {"weight" : 0.05, "item" : "ct_docs_drones-codex"},
@@ -94,6 +95,7 @@
     [9.9, { "fill" : [ { "item" : "teleportercore" } ] } ]
   ],
 
+  // Alta Chef rent options
   "ct_alta_chef_gift" : [
     [0, {
         "pool" : [
@@ -127,6 +129,7 @@
     [7.9, { "fill" : [ { "item" : "ultimatejuice" } ] } ]
   ],
 
+  // Alta Guard rent options
   "ct_alta_guard_gift" : [
     [0, {
       "pool" : [
@@ -166,6 +169,7 @@
     [7.9, { "fill" : [ { "item" : "solariumstar" } ] } ]
   ],
 
+  // Casual alta gift options
   "ct_alta_gift" : [
     [0, {
       "pool" : [
@@ -179,7 +183,6 @@
         {"weight" : 0.10, "item" : "ct_gheanade"},
         {"weight" : 0.05, "item" : "ct_alta_backpack"},
         {"weight" : 0.05, "item" : "ct_alta_respiratory_mask"},
-        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask_colorful"},
         {"weight" : 0.05, "item" : "ct_alta_loot_tier0"}
       ]
     } ],
@@ -200,7 +203,6 @@
         {"weight" : 0.05, "item" : [ "ct_aid_mimic", 2, { "preset" : "bandade_pretty" } ] },
         {"weight" : 0.05, "item" : "ct_alta_backpack"},
         {"weight" : 0.05, "item" : "ct_alta_respiratory_mask"},
-        {"weight" : 0.05, "item" : "ct_alta_respiratory_mask_colorful"},
         {"weight" : 0.05, "item" : "ct_alta_hologlasses"},
         {"weight" : 0.05, "item" : "ct_alta_loot_tier1"}
       ]
@@ -208,6 +210,8 @@
     [7.9, { "fill" : [ { "item" : "prisilitestar" } ] } ]
   ],
 
+  // Rent options of alta officials
+  // These gifts are given by alta officials, such as alta executive, alta representative, alta administrator, etc.
   "ct_alta_official_gift" : [
     [0, {
       "pool" : [
@@ -265,6 +269,7 @@
     [7.9, { "fill" : [ { "item" : "diamond" } ] } ]
   ],
 
+  // Rent options of entertainment-related altas, like alta dancers, alta gamers, alta party girls, etc.
   "ct_alta_party_gift" : [
       [0, {
         "poolRounds" : [ [0.9, 1], [0.1, 2] ],
@@ -286,6 +291,677 @@
           {"weight" : 0.05, "item" : "ct_faradea-codex"},
           {"weight" : 0.025, "item" : "ct_alta_respiratory_mask_colorful"},
           {"weight" : 0.025, "item" : "ct_alta_toy_pet_ball"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of riverside & resort altas.
+  "ct_alta_beach_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "ct_glowstick_stardust", 2 ] },
+          {"weight" : 0.25, "item" : "reefshake" },
+          {"weight" : 0.05, "item" : "ct_bio_fresh"},
+          {"weight" : 0.05, "item" : "ct_ionic_fresh"},
+          {"weight" : 0.10, "item" : "seashell7"},
+          {"weight" : 0.05, "item" : "ct_assorti"},
+          {"weight" : 0.05, "item" : "ct_crystal_icecream"},
+          {"weight" : 0.05, "item" : "ct_koywa_tea"},
+          {"weight" : 0.05, "item" : "ct_miko_tea"},
+          {"weight" : 0.025, "item" : "sealamp"},
+          {"weight" : 0.05, "item" : "ct_koywa-codex"},
+          {"weight" : 0.05, "item" : "ct_gyera-codex"},
+          {"weight" : 0.005, "item" : "sunglasses1head"},
+          {"weight" : 0.005, "item" : "kimonochest"},
+          {"weight" : 0.005, "item" : "kimonolegs"},
+          {"weight" : 0.005, "item" : "hawaiianhead"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas working with or looking after flowers, like alta florists and alta flower girls.
+  "ct_alta_flower_gift" : [  // Flower stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "petalblue", 2 ] },
+          {"weight" : 0.10, "item" : [ "petalred", 2 ] },
+          {"weight" : 0.10, "item" : [ "petalyellow", 2 ] },
+          {"weight" : 0.05, "item" : [ "floweryblock", 8 ]},
+          {"weight" : 0.05, "item" : [ "petalblock", 8 ]},
+          {"weight" : 0.05, "item" : [ "ct_verriskoywa_alto", 2 ]},
+          {"weight" : 0.05, "item" : [ "ct_verriskoywa_faro", 2 ]},
+          {"weight" : 0.05, "item" : [ "ct_verriskoywa_miko", 2 ]},
+          {"weight" : 0.03, "item" : [ "ct_verriskoywa_alto_twin", 2 ]},
+          {"weight" : 0.03, "item" : [ "ct_verriskoywa_faro_twin", 2 ]},
+          {"weight" : 0.03, "item" : [ "ct_verriskoywa_miko_twin", 2 ]},
+          {"weight" : 0.03, "item" : [ "ct_flowery_grass_seeds", 2 ] },
+          {"weight" : 0.02, "item" : [ "ct_omni_flowery_grass_seeds", 2 ] },
+          {"weight" : 0.025, "item" : "ct_alta_flowers-codex"},
+          {"weight" : 0.05, "item" : "ct_ayaka_flower_pot"},
+          {"weight" : 0.04, "item" : "ct_calin_flower_pot"},
+          {"weight" : 0.03, "item" : "ct_alta_flower_pot"},
+          {"weight" : 0.005, "item" : "hawaiianhead"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas cosplaying as bananas, like alta bananas and alta plantain girls.
+  "ct_alta_banana_gift" : [  // Bananas and banana-related stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "banana", 3 ] },
+          {"weight" : 0.10, "item" : [ "banana", 2 ] },
+          {"weight" : 0.10, "item" : "bananacon"},
+          {"weight" : 0.10, "item" : "batteredbanana"},
+          {"weight" : 0.05, "item" : "campfirebanana"},
+          {"weight" : 0.05, "item" : "bananaicecream"},
+          {"weight" : 0.025, "item" : "apexbananasign"},
+          {"weight" : 0.01, "item" : "noveltybanana"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of gnome-loving altas, like alta househeads.
+  "ct_alta_gnome_gift" : [  // Gnome stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "throwinggnome", 4 ] },
+          {"weight" : 0.10, "item" : [ "throwinggnome", 3 ] },
+          {"weight" : 0.10, "item" : "smalllamppost"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options for alta cosplayers centered around treasure and gold hoarding, like alta pirates and alta knights.
+  "ct_alta_treasure_gift" : [  // Treasure and gold hoarding stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "money", 48 ] },
+          {"weight" : 0.10, "item" : [ "money", 32 ] },
+          {"weight" : 0.10, "item" : [ "goldbar", 1 ] },
+          {"weight" : 0.10, "item" : [ "treasurehoard", 8 ] },
+          {"weight" : 0.02, "item" : "goldvase1"},
+          {"weight" : 0.01, "item" : "treasuremap"},
+          {"weight" : 0.01, "item" : "gladiatorhead"},
+          {"weight" : 0.01, "item" : "phoenixhat"},
+          {"weight" : 0.005, "item" : "ironavianhelmethead"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas working with rocks, like alta miners, alta geologists, alta prospectors, etc.
+  "ct_alta_miner_gift" : [  // Moonrock, Miner decor, Lunar decor, Phospholion
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.095, "item" : ["moonrock", 8]},
+          {"weight" : 0.075, "item" : "moonrock"},
+          {"weight" : 0.075, "item" : "phospholion"},
+          {"weight" : 0.05, "item" : "ct_docs_mining_desc-codex"},
+          {"weight" : 0.025, "item" : "miningchest"},
+          {"weight" : 0.075, "item" : ["crystal", 4]},
+          {"weight" : 0.075, "item" : ["prisiliteore", 2]},
+          {"weight" : 0.05, "item" : "ct_alta_crystals-codex"},
+          {"weight" : 0.025, "item" : "miningverticaldoor"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas in tiered gear.
+  "ct_alta_tiered_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["money", 32]}
+        ]
+      }
+    ]
+  ],
+
+
+
+  // ALTA EVENTS //
+
+
+
+  // Rent options of altas celebrating Ceternity/Halloween/Harrowing/Spooky Season.
+  "ct_ceternity_gift" : [
+      [0, {
+        "poolRounds" : [ [0.80, 2], [0.15, 3], [0.05, 4] ],
+        "pool" : [
+          // Ceternity candy collection,  total: 0.31
+          {"weight" : 0.025, "item" : "ct_ceternity_candy" },
+          {"weight" : 0.03, "item" : "ct_orchid_pumpkin_candy" },
+          {"weight" : 0.03, "item" : "ct_orchid_candy" },
+          {"weight" : 0.05, "item" : "ct_warped_candy" },
+          {"weight" : 0.05, "item" : "ct_warped_spider_candy" },
+          {"weight" : 0.045, "item" : "ct_miazma_candy" },
+          {"weight" : 0.04, "item" : "ct_yaajack_candy" },
+          {"weight" : 0.04, "item" : "ct_neonjack_candy" }
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas celebrating Alta National Day and similar holidays.
+  "ct_alta_national_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.85, 1], [0.15, 2] ],
+        "pool" : [
+          // Patriotic decorations - 0.27
+          {"weight" : 0.07, "item" : "ct_alta_flag" },
+          {"weight" : 0.05, "item" : "ct_alta_emblem" },
+          {"weight" : 0.03, "item" : "ct_arknight_emblem" },
+          {"weight" : 0.03, "item" : "ct_ceterai_emblem" },
+          {"weight" : 0.03, "item" : "ct_elin_emblem" },
+          {"weight" : 0.03, "item" : "ct_faradea_emblem" },
+          {"weight" : 0.03, "item" : "ct_eds_emblem" },
+          
+          // Glowsticks & lighting - 0.21 (firework-like celebration items)
+          {"weight" : 0.06, "item" : [ "ct_glowstick_omniblue", 2 ] },
+          {"weight" : 0.05, "item" : [ "ct_glowstick_stardust", 2 ] },
+          {"weight" : 0.05, "item" : [ "ct_glowstick_gheatsyn", 2 ] },
+          {"weight" : 0.05, "item" : [ "ct_glowstick_ionic", 2 ] },
+          
+          // Celebratory colors & party items - 0.22
+          {"weight" : 0.04, "item" : [ "ct_alta_dye", 2 ] },
+          {"weight" : 0.04, "item" : [ "ct_blue_dye", 2 ] },
+          {"weight" : 0.04, "item" : [ "ct_magenta_dye", 2 ] },
+          {"weight" : 0.04, "item" : [ "ct_purple_dye", 2 ] },
+          {"weight" : 0.03, "item" : "ct_vmax" },
+          {"weight" : 0.03, "item" : "ct_vr_headset" },
+          
+          // Festive food & drinks - 0.30
+          {"weight" : 0.05, "item" : "ct_alliana_cake" },
+          {"weight" : 0.05, "item" : "ct_ion_cake" },
+          {"weight" : 0.05, "item" : [ "ct_fivaldo_salad", 1, { "preset" : "banquet" } ] },
+          {"weight" : 0.05, "item" : "ct_special_mimosa" },
+          {"weight" : 0.04, "item" : "ct_nia_cocktail" },
+          {"weight" : 0.03, "item" : [ "ct_ionic_fresh", 1, { "preset" : "party" } ] },
+          {"weight" : 0.03, "item" : "ct_warped_cocktail" }
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas celebrating Sona's Veil/Christmas/Winter's Veil/Hannukah/Yule.
+  "ct_sonaveil_gift" : [
+      [0, {
+        "poolRounds" : [ [0.85, 1], [0.15, 2] ],
+        "pool" : [
+          {"weight" : 0.04, "item" : [ "holidayspirit", 1 ] },
+          {"weight" : 0.04, "item" : [ "holidayspirit", 2 ] }
+        ]
+      }
+    ]
+  ],
+
+
+
+  // ALTA ROBOTICS //
+
+
+
+  // Rent options of basic alta androids.
+  "ct_alta_android_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_circuit", 2]},
+          {"weight" : 0.5, "item" : ["ct_alta_led", 2]}
+        ]
+      }
+    ],
+    [3,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_circuit", 4]},
+          {"weight" : 0.5, "item" : ["ct_alta_led", 4]}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of alta security androids.
+  "ct_alta_security_android_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : "ct_alta_energy_cell"},
+          {"weight" : 0.5, "item" : ["ct_alta_button", 2]},
+          {"weight" : 0.05, "item" : "ct_alta_visor" }
+        ]
+      }
+    ],
+    [3,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_energy_cell", 2]},
+          {"weight" : 0.5, "item" : ["ct_alta_button", 4]},
+          {"weight" : 0.05, "item" : "ct_alta_visor" }
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of alta android captains.
+  "ct_alta_android_captain_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : "ct_alta_android"},
+          {"weight" : 0.5, "item" : ["ct_alta_ai_chip", 2]}
+        ]
+      }
+    ],
+    [3,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_android", 2]},
+          {"weight" : 0.5, "item" : ["ct_alta_ai_chip", 4]}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of alta lab androids.
+  "ct_alta_lab_android_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_and", 2]},
+          {"weight" : 0.5, "item" : ["ct_alta_or", 2]},
+          {"weight" : 0.5, "item" : ["ct_alta_xor", 2]}
+        ]
+      }
+    ],
+    [3,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : ["ct_alta_and", 4]},
+          {"weight" : 0.5, "item" : ["ct_alta_or", 4]},
+          {"weight" : 0.5, "item" : ["ct_alta_xor", 4]}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of alta lab androids.
+  "ct_alta_combat_android_gift" : [
+    [0,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : "ct_drone_visor"},
+          {"weight" : 0.5, "item" : ["ct_glowstick_eds", 2]}
+        ]
+      }
+    ],
+    [3,
+      {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.5, "item" : "ct_drone_visor"},
+          {"weight" : 0.5, "item" : ["ct_glowstick_eds", 4]}
+        ]
+      }
+    ]
+  ],
+
+
+
+  // OTHER SPECIES //
+
+
+
+  // Rent options of altas connected to apex culture, mostly MKI (Miniknog Insurgency) operatives and MKI researchers.
+  // The table mostly consists of apex culture items, bananas, and Miniknog technology.
+  "ct_alta_apex_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.095, "item" : ["money", 60]},
+          {"weight" : 0.075, "item" : "banana"},
+          {"weight" : 0.075, "item" : "grapes"},
+          {"weight" : 0.05, "item" : "apexfritter"},
+          {"weight" : 0.05, "item" : "batteredbanana"},
+          {"weight" : 0.05, "item" : "apexpainting1"},
+          {"weight" : 0.05, "item" : "apexpainting2"},
+          {"weight" : 0.05, "item" : "apexpainting3"},
+          {"weight" : 0.05, "item" : "quichelorraine"},
+          {"weight" : 0.05, "item" : "apegrapes"},
+          {"weight" : 0.05, "item" : "campfirebanana"},
+          {"weight" : 0.05, "item" : "mocha"},
+          {"weight" : 0.025, "item" : "apexhistory7"},
+          {"weight" : 0.025, "item" : "bananasplit"},
+          {"weight" : 0.015, "item" : "paintingapexpixellisa"},
+          {"weight" : 0.005, "item" : "bananahead"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas connected to avian culture, mostly avian researchers and avian culture enthusiasts.
+  // The table mostly consists of avian culture items, avian food, and bird-related items.
+  "ct_alta_avian_gift" : [  // Avian culture stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "eggshootsalad"},
+          {"weight" : 0.05, "item" : "feathercrownjam"},
+          {"weight" : 0.05, "item" : "beakseedjam"},
+          {"weight" : 0.05, "item" : "cornpeckers"},
+          {"weight" : 0.05, "item" : "spicyfeathercrown"},
+
+          {"weight" : 0.05, "item" : "avianfancyshirt"},
+          {"weight" : 0.05, "item" : "avianfancyskirt"},
+          {"weight" : 0.05, "item" : "aviantier1head"},
+          {"weight" : 0.05, "item" : "claypot1"},
+          {"weight" : 0.05, "item" : "claypot2"},
+          {"weight" : 0.05, "item" : "claypot3"},
+          {"weight" : 0.05, "item" : "midjar1"},
+          {"weight" : 0.05, "item" : "smalljar1"},
+          {"weight" : 0.05, "item" : "talljar1"},
+          {"weight" : 0.05, "item" : "talljar2"},
+          {"weight" : 0.05, "item" : "seaweedpot"},
+
+          {"weight" : 0.025, "item" : "featherfood"},
+          {"weight" : 0.015, "item" : "desertsalsa"},
+          {"weight" : 0.015, "item" : "avianhistory7"}
+        ]
+      }
+    ],
+      [3, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "eggshootsalad"},
+          {"weight" : 0.05, "item" : "feathercrownjam"},
+          {"weight" : 0.05, "item" : "beakseedjam"},
+          {"weight" : 0.05, "item" : "cornpeckers"},
+          {"weight" : 0.05, "item" : "spicyfeathercrown"},
+
+          {"weight" : 0.05, "item" : "avianfancyshirt"},
+          {"weight" : 0.05, "item" : "avianfancyskirt"},
+          {"weight" : 0.05, "item" : "aviantier1head"},
+          {"weight" : 0.05, "item" : "aviantier2head"},
+          {"weight" : 0.05, "item" : "claypot1"},
+          {"weight" : 0.05, "item" : "claypot2"},
+          {"weight" : 0.05, "item" : "claypot3"},
+          {"weight" : 0.05, "item" : "midjar1"},
+          {"weight" : 0.05, "item" : "smalljar1"},
+          {"weight" : 0.05, "item" : "talljar1"},
+          {"weight" : 0.05, "item" : "talljar2"},
+          {"weight" : 0.05, "item" : "seaweedpot"},
+
+          {"weight" : 0.025, "item" : "feathers1"},
+          {"weight" : 0.025, "item" : "feathers2"},
+          {"weight" : 0.025, "item" : "featherfood"},
+          {"weight" : 0.015, "item" : "desertsalsa"},
+          {"weight" : 0.015, "item" : "avianhistory7"},
+          {"weight" : 0.015, "item" : "avianhistory8"},
+          {"weight" : 0.005, "item" : "featherhead"},
+          {"weight" : 0.001, "item" : "phoenixhat"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas connected to floran culture, mostly floran researchers and floran culture enthusiasts.
+  // The table mostly consists of floran culture items, floran food, and plant-related items.
+  "ct_alta_floran_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : ["flowerygrassseeds", 4]},
+          {"weight" : 0.05, "item" : ["grassseeds", 4]},
+          {"weight" : 0.05, "item" : ["vine", 8]},
+          {"weight" : 0.05, "item" : ["floweryvines", 8]},
+          {"weight" : 0.05, "item" : ["plantchest", 8]},
+          {"weight" : 0.05, "item" : ["reedblock", 8]},
+          {"weight" : 0.05, "item" : ["floweryblock", 8]},
+          {"weight" : 0.05, "item" : ["petalblock", 8]},
+          {"weight" : 0.05, "item" : ["grassy", 8]},
+          {"weight" : 0.05, "item" : ["plantmatter", 8]},
+
+          {"weight" : 0.025, "item" : "swampchest"},
+          {"weight" : 0.001, "item" : "greenfingerhead"},
+          {"weight" : 0.002, "item" : "reedhead"},
+          {"weight" : 0.003, "item" : "beehivehead"},
+
+          {"weight" : 0.025, "item" : "floranhistory6"},
+          {"weight" : 0.025, "item" : "floranhistory4"},
+          {"weight" : 0.025, "item" : "floranhistory2"},
+
+          {"weight" : 0.025, "item" : "florantier1head"},
+          {"weight" : 0.025, "item" : "florantier1chest"},
+          {"weight" : 0.025, "item" : "florantier1pants"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas connected to human culture, mostly human researchers and human culture enthusiasts.
+  // The table mostly consists of human culture items, human food, and casual human things.
+  // This table also includes FHC (First Human Contact) related items and codex entries.
+  "ct_alta_human_gift" : [  // Casual human things, office stuff
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "redapple"},
+          {"weight" : 0.05, "item" : ["wheat", 2]},
+          {"weight" : 0.05, "item" : ["rice", 2]},
+
+          {"weight" : 0.001, "item" : "afrowighead"},
+          {"weight" : 0.001, "item" : "caphead"},
+          {"weight" : 0.001, "item" : "coolfezhead"},
+          {"weight" : 0.001, "item" : "gagnosehead"},
+          {"weight" : 0.001, "item" : "hobohead"},
+          {"weight" : 0.001, "item" : "glasses1head"},
+          {"weight" : 0.001, "item" : "winterscarfhead"},
+
+          {"weight" : 0.025, "item" : "tent1blue"},
+          {"weight" : 0.025, "item" : "sleepingbag"},
+          {"weight" : 0.025, "item" : "smashabledrink3"},
+          {"weight" : 0.025, "item" : "jukebox"},
+          {"weight" : 0.025, "item" : "lavalamp1"}
+        ]
+      }
+    ]
+  ],
+
+  // Rent options of altas connected to novakid culture, mostly novakid researchers and novakid culture enthusiasts.
+  // The table mostly consists of novakid culture items, novakid food, and glowing things.
+  "ct_alta_novakid_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "ct_bionid"},
+          {"weight" : 0.001, "item" : "ct_alta_vr_headset"},
+          {"weight" : 0.05, "item" : "glowstickblue"}
+        ]
+      }
+    ]
+  ],
+
+
+
+
+
+  // Crystal-related gifts given as rent by crystal-related altas, such as crystal researchers, crystal miners, and crystal enthusiasts.
+  "ct_calin_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : ["crystal", 8]},
+          {"weight" : 0.05, "item" : ["ct_gheatsyn_shard", 8]},
+          {"weight" : 0.05, "item" : ["prisiliteore", 4]},
+          {"weight" : 0.05, "item" : "ct_alta_crystals-codex"}
+        ]
+      }
+    ]
+  ],
+
+  // Toxic glowing mushroom things sold by aric merchants.
+  "ct_aric_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "bioshroomtable"},
+          {"weight" : 0.05, "item" : "ct_agaranic5"}
+        ]
+      }
+    ]
+  ],
+
+  // Sky-related gifts given as rent by sky-related altas, such as sky researchers, sky miners, and sky enthusiasts.
+  "ct_eva_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "cloud"}
+        ]
+      }
+    ]
+  ],
+
+  // Riverside and beach-related gifts given by alta tenants related to koywa riversides.
+  "ct_koywa_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "ct_vmax"},
+          {"weight" : 0.05, "item" : "ct_koywa-codex"}
+        ]
+      }
+    ]
+  ],
+
+  "ct_viona_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "ct_viona-codex"}
+        ]
+      }
+    ]
+  ],
+
+  "ct_ayaka_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "ct_ayaka-codex"},
+          {"weight" : 0.05, "item" : "ct_aya"},
+          {"weight" : 0.05, "item" : "ct_aya_soda"},
+          {"weight" : 0.05, "item" : "ct_aya_candy"}
+        ]
+      }
+    ]
+  ],
+
+  "ct_yaara_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.12, "item" : ["crystal", 2]},
+          {"weight" : 0.12, "item" : ["ct_yaara_root", 2]},
+          {"weight" : 0.08, "item" : "crystal"},
+          {"weight" : 0.05, "item" : "ct_yaara_root"},
+          {"weight" : 0.03, "item" : "ct_yaara_eye"},
+          // Decorations,       total: 0.32
+          {"weight" : 0.04, "item" : "ct_yaara_bed"},
+          {"weight" : 0.04, "item" : "ct_yaara_cabinet"},
+          {"weight" : 0.04, "item" : "ct_yaara_couch"},
+          {"weight" : 0.04, "item" : "ct_yaara_door"},
+          {"weight" : 0.04, "item" : "ct_yaara_orb"},
+          {"weight" : 0.04, "item" : "ct_yaara_table"},
+          {"weight" : 0.02, "item" : "ct_yaara_watcher"},
+          {"weight" : 0.03, "item" : "ct_yaara_lamp"},
+          {"weight" : 0.03, "item" : "ct_yaara_lamp_crystal"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.05, "item" : "ct_lifespring"},
+          {"weight" : 0.05, "item" : "ct_yaarings"},
+          {"weight" : 0.04, "item" : "ct_yaara-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_yaara_loot"}
+  ] }] ],
+
+  "ct_warped_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          // Resources,         total: 0.40
+          {"weight" : 0.02, "item" : "ct_warped_hive"},
+          {"weight" : 0.10, "item" : ["glowfibre", 3]},
+          {"weight" : 0.05, "item" : ["glowfibre", 4]},
+          {"weight" : 0.10, "item" : ["ct_warped_glowbomb", 3]},
+          {"weight" : 0.10, "item" : ["ct_warped_hive", 2]},
+          {"weight" : 0.03, "item" : ["ct_glowstick_yonnur", 2]},
+          // Decorations,       total: 0.32
+          {"weight" : 0.04, "item" : "ct_warped_bed"},
+          {"weight" : 0.04, "item" : "ct_warped_chair"},
+          {"weight" : 0.04, "item" : "ct_warped_chest"},
+          {"weight" : 0.04, "item" : "ct_warped_door"},
+          {"weight" : 0.04, "item" : "ct_warped_drainer"},
+          {"weight" : 0.04, "item" : "ct_warped_lamp"},
+          {"weight" : 0.04, "item" : "ct_warped_light"},
+          {"weight" : 0.04, "item" : "ct_warped_table"},
+          // Miscelanious,      total: 0.14
+          {"weight" : 0.06, "item" : "ct_bio_fresh"},
+          {"weight" : 0.01, "item" : "ct_warped_hive_seed"},
+          {"weight" : 0.03, "item" : ["ct_warped_hive", 3]},
+          {"weight" : 0.01, "item" : "ct_nivera-codex"},
+          {"weight" : 0.01, "item" : "ct_sentia-codex"},
+          {"weight" : 0.01, "item" : "ct_warped-codex"},
+          {"weight" : 0.01, "item" : "ct_yonnur-codex"},
+          // Self-loot,         total: 0.02
+          {"weight" : 0.02, "item" : "ct_warped_loot"}
+  ] }] ],
+
+  "ct_stardust_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.05, "item" : "prisiliteore" },
+          {"weight" : 0.05, "item" : "ct_stardust"},
+          {"weight" : 0.025, "item" : "ct_tiana-codex"}
+        ]
+      }
+    ]
+  ],
+
+  "ct_astera_gift" : [
+      [0, {
+        "poolRounds" : [ [0.9, 1], [0.1, 2] ],
+        "pool" : [
+          {"weight" : 0.10, "item" : [ "ct_glowstick_crystal", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_calline", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_gheatsyn", 2 ] },
+          {"weight" : 0.10, "item" : [ "ct_glowstick_mical", 2 ] },
+          {"weight" : 0.05, "item" : "prisiliteore" }
         ]
       }
     ]

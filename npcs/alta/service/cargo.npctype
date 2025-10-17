@@ -20,6 +20,9 @@
   },
   "scriptConfig" : {
     "merchant" : { "numItems" : 12, "categories" : { "default" : [ "rare", "decor", "traps", "astromerchant" ] } },
-    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:servicer" } }
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:servicer" },
+      "converse" : "/dialog/alta.config:cargo"
+    }
   }
 }

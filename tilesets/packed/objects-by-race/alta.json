@@ -3,7 +3,7 @@
   "name" : "objects-by-race/alta",
   "properties" : { },
   "spacing" : 0,
-  "tilecount" : 999,
+  "tilecount" : 1600,
   "tileheight" : 64,
   "tilewidth" : 64,
   "tileproperties" : {
@@ -30,25 +30,25 @@
     "120" : { "object" : "ct_alta_washer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
 
     "121" : { "object" : "ct_alta_bench", "imagePositionX" : "-32", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "122" : { "object" : "ct_alta_crystal_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
     "123" : { "object" : "ct_alta_energy_block", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "124" : { "object" : "ct_alta_flower_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
     "125" : { "object" : "ct_alta_gateway", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "126" : { "object" : "ct_alta_hatch", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "127" : { "object" : "ct_alta_lamppost", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "128" : { "object" : "ct_alta_plant", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "129" : { "object" : "ct_alta_plant_alien", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "130" : { "object" : "ct_alta_plant_coral", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "131" : { "object" : "ct_alta_plant_yaara", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+
+
+
     "132" : { "object" : "ct_alta_pod", "imagePositionX" : "-8", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "133" : { "object" : "ct_alta_pyramid", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "134" : { "object" : "ct_alta_sapling", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "135" : { "object" : "ct_alta_stand_agitate", "imagePositionX" : "-8", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "136" : { "object" : "ct_alta_stand_promo", "imagePositionX" : "-8", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "137" : { "object" : "ct_alta_statue", "imagePositionX" : "-32", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
     "138" : { "object" : "ct_alta_teleporter", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "139" : { "object" : "ct_alta_terminal", "imagePositionX" : "-8", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "140" : { "object" : "ct_alta_vendor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
 
     "141" : { "object" : "ct_alta_bidet", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "142" : { "object" : "ct_alta_bin", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
@@ -58,6 +58,15 @@
     "146" : { "object" : "ct_alta_cafe_table", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "147" : { "object" : "ct_alta_cafe_umbrella", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "148" : { "object" : "ct_alta_cafe_umbrella_striped", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "153" : { "object" : "ct_alta_fermenter", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "154" : { "object" : "ct_alta_jellyfier", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "155" : { "object" : "ct_alta_kadamaker", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "156" : { "object" : "ct_alta_milker", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "157" : { "object" : "ct_alta_mixer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "158" : { "object" : "ct_alta_roaster", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "159" : { "object" : "ct_alta_slicer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "160" : { "object" : "ct_alta_spicer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
 
     "161" : { "object" : "ct_alta_blender", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "162" : { "object" : "ct_alta_cakery", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
@@ -110,9 +119,6 @@
     "235" : { "object" : "ct_alta_timer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "236" : { "object" : "ct_alta_xor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
 
-    "241" : { "object" : "ct_alta_plant_blossom", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "242" : { "object" : "ct_alta_plant_stardust", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "243" : { "object" : "ct_alta_stardust_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "244" : { "object" : "ct_alta_capital_terminal", "imagePositionX" : "-8", "imagePositionY" : "0", "tilesetDirection" : "right" },
 
     "261" : { "object" : "ct_alta_lab_amplifier", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
@@ -378,7 +384,77 @@
     "909" : { "object" : "ct_my_enternia_trophy", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "910" : { "object" : "ct_narfin_trophy", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
     "911" : { "object" : "ct_poptop_claw", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
-    "912" : { "object" : "ct_stardust_trophy", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" }
+    "912" : { "object" : "ct_stardust_trophy", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1201" : { "object" : "ct_alta_vendor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1202" : { "object" : "ct_alta_botanics_vendor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1203" : { "object" : "ct_gyera_vendor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1204" : { "object" : "ct_alta_seed_vendor", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1205" : { "object" : "ct_alta_seed_vendor_rare", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1301" : { "object" : "ct_alta_plant_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1302" : { "object" : "ct_alta_eco_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1303" : { "object" : "ct_alta_lab_eco_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1304" : { "object" : "ct_omni_eco_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1305" : { "object" : "ct_alta_plant_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1306" : { "object" : "ct_alta_ship_eco_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1307" : { "object" : "ct_stardust_eco_pod", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1308" : { "object" : "ct_alta_tray", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1309" : { "object" : "ct_alta_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1310" : { "object" : "ct_ayaka_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1311" : { "object" : "ct_bion_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1312" : { "object" : "ct_calin_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1313" : { "object" : "ct_composite_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1314" : { "object" : "ct_alta_tall_flower_pot", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1315" : { "object" : "ct_alta_sprinkler", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1316" : { "object" : "ct_alta_compact_sprinkler", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1317" : { "object" : "ct_gyera_sprinkler", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1318" : { "object" : "ct_alta_lab_sprinkler", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1319" : { "object" : "ct_alta_rincer", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1320" : { "object" : "ct_alta_super_sprinkler", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1321" : { "object" : "ct_alta_display", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1322" : { "object" : "ct_alta_marine_display", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1323" : { "object" : "ct_alta_terrene_display", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1361" : { "object" : "ct_alta_statue", "imagePositionX" : "-32", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1362" : { "object" : "ct_alterash_statue", "imagePositionX" : "-32", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1401" : { "object" : "ct_koywa_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1402" : { "object" : "ct_koywa_tall_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1403" : { "object" : "ct_tonnova_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1404" : { "object" : "ct_warped_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1441" : { "object" : "ct_aya_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1442" : { "object" : "ct_gil_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1443" : { "object" : "ct_tsay_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1444" : { "object" : "ct_yaavi_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1481" : { "object" : "ct_alto_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1482" : { "object" : "ct_blue_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1483" : { "object" : "ct_calocol_tulip_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1484" : { "object" : "ct_ezmeralda_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1485" : { "object" : "ct_faro_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1486" : { "object" : "ct_miko_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1487" : { "object" : "ct_nivera_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1488" : { "object" : "ct_pink_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1489" : { "object" : "ct_poppy_prime_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1490" : { "object" : "ct_red_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1491" : { "object" : "ct_yaara_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1492" : { "object" : "ct_yellow_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1521" : { "object" : "ct_alta_crystal_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1522" : { "object" : "ct_alta_flower_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1523" : { "object" : "ct_alta_stardust_bed", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+
+    "1541" : { "object" : "ct_alta_plant", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1542" : { "object" : "ct_alta_plant_alien", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1543" : { "object" : "ct_giant_berry_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1544" : { "object" : "ct_alta_plant_blossom", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1545" : { "object" : "ct_alta_plant_coral", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1546" : { "object" : "ct_alta_plant_stardust", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1547" : { "object" : "ct_toxic_flower_af", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" },
+    "1548" : { "object" : "ct_alta_plant_yaara", "imagePositionX" : "0", "imagePositionY" : "0", "tilesetDirection" : "right" }
   },
   "tiles" : {
 
@@ -404,25 +480,25 @@
     "120" : { "image" : "../../../objects/alta/basic/washer/body.png" },
 
     "121" : { "image" : "../../../objects/alta/city/bench/body.png" },
-    "122" : { "image" : "../../../objects/alta/city/crystal_bed/body.png" },
+
     "123" : { "image" : "../../../objects/alta/city/energy_block/body.png" },
-    "124" : { "image" : "../../../objects/alta/city/flower_bed/body.png" },
+
     "125" : { "image" : "../../../objects/alta/city/gateway/tiled.png" },
     "126" : { "image" : "../../../objects/alta/city/hatch/tiled.png" },
     "127" : { "image" : "../../../objects/alta/city/lamppost/tiled.png" },
-    "128" : { "image" : "../../../objects/alta/city/plant/body.png" },
-    "129" : { "image" : "../../../objects/alta/city/plant_alien/body.png" },
-    "130" : { "image" : "../../../objects/alta/city/plant_coral/body.png" },
-    "131" : { "image" : "../../../objects/alta/city/plant_yaara/body.png" },
+
+
+
+
     "132" : { "image" : "../../../objects/alta/city/pod/tiled.png" },
     "133" : { "image" : "../../../objects/alta/city/pyramid/body.png" },
     "134" : { "image" : "../../../objects/alta/city/sapling/tiled.png" },
     "135" : { "image" : "../../../objects/alta/city/stand_agitate/tiled.png" },
     "136" : { "image" : "../../../objects/alta/city/stand_promo/tiled.png" },
-    "137" : { "image" : "../../../objects/alta/city/statue/body.png" },
+
     "138" : { "image" : "../../../objects/alta/city/teleporter/body.png" },
     "139" : { "image" : "../../../objects/alta/city/terminal/tiled.png" },
-    "140" : { "image" : "../../../objects/alta/city/vendor/body.png" },
+
 
     "141" : { "image" : "../../../objects/alta/cafe/bidet/body.png" },
     "142" : { "image" : "../../../objects/alta/cafe/bin/body.png" },
@@ -432,6 +508,15 @@
     "146" : { "image" : "../../../objects/alta/cafe/table/body.png" },
     "147" : { "image" : "../../../objects/alta/cafe/umbrella/tiled.png" },
     "148" : { "image" : "../../../objects/alta/cafe/umbrella_striped/tiled.png" },
+
+    "153" : { "image" : "../../../objects/alta/cooking/fermenter/body.png" },
+    "154" : { "image" : "../../../objects/alta/cooking/jellyfier/body.png" },
+    "155" : { "image" : "../../../objects/alta/cooking/kadamaker/body.png" },
+    "156" : { "image" : "../../../objects/alta/cooking/milker/body.png" },
+    "157" : { "image" : "../../../objects/alta/cooking/mixer/body.png" },
+    "158" : { "image" : "../../../objects/alta/cooking/roaster/body.png" },
+    "159" : { "image" : "../../../objects/alta/cooking/slicer/body.png" },
+    "160" : { "image" : "../../../objects/alta/cooking/spicer/body.png" },
 
     "161" : { "image" : "../../../objects/alta/cooking/blender/body.png" },
     "162" : { "image" : "../../../objects/alta/cooking/cakery/body.png" },
@@ -484,9 +569,6 @@
     "235" : { "image" : "../../../objects/alta/wired/logic/timer_tiled.png" },
     "236" : { "image" : "../../../objects/alta/wired/logic/xor_tiled.png" },
 
-    "241" : { "image" : "../../../objects/alta/capital/plant_blossom/body.png" },
-    "242" : { "image" : "../../../objects/alta/capital/plant_stardust/body.png" },
-    "243" : { "image" : "../../../objects/alta/capital/stardust_bed/body.png" },
     "244" : { "image" : "../../../objects/alta/capital/terminal/tiled.png" },
 
     "261" : { "image" : "../../../objects/alta/lab/amplifier/body.png" },
@@ -746,6 +828,76 @@
     "909" : { "image" : "../../../objects/alta/special/trophies/ct_my_enternia_trophy.png" },
     "910" : { "image" : "../../../objects/alta/special/trophies/ct_narfin_trophy.png" },
     "911" : { "image" : "../../../objects/alta/special/trophies/ct_poptop_claw.png" },
-    "912" : { "image" : "../../../objects/alta/special/trophies/ct_stardust_trophy.png" }
+    "912" : { "image" : "../../../objects/alta/special/trophies/ct_stardust_trophy.png" },
+ 
+    "1201" : { "image" : "../../../objects/alta/special/vendors/alta/body.png" },
+    "1202" : { "image" : "../../../objects/alta/special/vendors/botanics/body.png" },
+    "1203" : { "image" : "../../../objects/alta/special/vendors/gyera/body.png" },
+    "1204" : { "image" : "../../../objects/alta/special/vendors/seeds/body.png" },
+    "1205" : { "image" : "../../../objects/alta/special/vendors/seeds_rare/body.png" },
+ 
+    "1301" : { "image" : "../../../objects/alta/special/tools/pods/bed/body.png" },
+    "1302" : { "image" : "../../../objects/alta/special/tools/pods/eco/body.png" },
+    "1303" : { "image" : "../../../objects/alta/special/tools/pods/lab/body.png" },
+    "1304" : { "image" : "../../../objects/alta/special/tools/pods/omni/body.png" },
+    "1305" : { "image" : "../../../objects/alta/special/tools/pods/plant/body.png" },
+    "1306" : { "image" : "../../../objects/alta/special/tools/pods/ship/body.png" },
+    "1307" : { "image" : "../../../objects/alta/special/tools/pods/stardust/body.png" },
+    "1308" : { "image" : "../../../objects/alta/special/tools/pods/tray/body.png" },
+    "1309" : { "image" : "../../../objects/alta/special/tools/pots/alta/body.png" },
+    "1310" : { "image" : "../../../objects/alta/special/tools/pots/basic/body.png" },
+    "1311" : { "image" : "../../../objects/alta/special/tools/pots/bion/body.png" },
+    "1312" : { "image" : "../../../objects/alta/special/tools/pots/calin/body.png" },
+    "1313" : { "image" : "../../../objects/alta/special/tools/pots/composite/body.png" },
+    "1314" : { "image" : "../../../objects/alta/special/tools/pots/tall/body.png" },
+    "1315" : { "image" : "../../../objects/alta/special/tools/sprinklers/basic/body.png" },
+    "1316" : { "image" : "../../../objects/alta/special/tools/sprinklers/compact/body.png" },
+    "1317" : { "image" : "../../../objects/alta/special/tools/sprinklers/gyera/body.png" },
+    "1318" : { "image" : "../../../objects/alta/special/tools/sprinklers/lab/body.png" },
+    "1319" : { "image" : "../../../objects/alta/special/tools/sprinklers/rincer/body.png" },
+    "1320" : { "image" : "../../../objects/alta/special/tools/sprinklers/super/body.png" },
+
+    "1321" : { "image" : "../../../objects/alta/special/tools/displays/empty/body.png" },
+    "1322" : { "image" : "../../../objects/alta/special/tools/displays/marine/body.png" },
+    "1323" : { "image" : "../../../objects/alta/special/tools/displays/terrene/body.png" },
+
+    "1361" : { "image" : "../../../objects/alta/special/statues/alta/body.png" },
+    "1362" : { "image" : "../../../objects/alta/special/statues/alterash/body.png" },
+
+    "1401" : { "image" : "../../../objects/alta/special/plants/pots/bushes/koywa/body.png" },
+    "1402" : { "image" : "../../../objects/alta/special/plants/pots/bushes/koywa_tall/body.png" },
+    "1403" : { "image" : "../../../objects/alta/special/plants/pots/bushes/tonnova/body.png" },
+    "1404" : { "image" : "../../../objects/alta/special/plants/pots/bushes/warped/body.png" },
+
+    "1441" : { "image" : "../../../objects/alta/special/plants/pots/crops/aya/body.png" },
+    "1442" : { "image" : "../../../objects/alta/special/plants/pots/crops/gil/body.png" },
+    "1443" : { "image" : "../../../objects/alta/special/plants/pots/crops/tsay/body.png" },
+    "1444" : { "image" : "../../../objects/alta/special/plants/pots/crops/yaavi/body.png" },
+
+    "1481" : { "image" : "../../../objects/alta/special/plants/pots/flowers/alto/body.png" },
+    "1482" : { "image" : "../../../objects/alta/special/plants/pots/flowers/blue/body.png" },
+    "1483" : { "image" : "../../../objects/alta/special/plants/pots/flowers/calocol/body.png" },
+    "1484" : { "image" : "../../../objects/alta/special/plants/pots/flowers/ezmeralda/body.png" },
+    "1485" : { "image" : "../../../objects/alta/special/plants/pots/flowers/faro/body.png" },
+    "1486" : { "image" : "../../../objects/alta/special/plants/pots/flowers/miko/body.png" },
+    "1487" : { "image" : "../../../objects/alta/special/plants/pots/flowers/nivera/body.png" },
+    "1488" : { "image" : "../../../objects/alta/special/plants/pots/flowers/pink/body.png" },
+    "1489" : { "image" : "../../../objects/alta/special/plants/pots/flowers/poppy/body.png" },
+    "1490" : { "image" : "../../../objects/alta/special/plants/pots/flowers/red/body.png" },
+    "1491" : { "image" : "../../../objects/alta/special/plants/pots/flowers/yaara_bulb/body.png" },
+    "1492" : { "image" : "../../../objects/alta/special/plants/pots/flowers/yellow/body.png" },
+
+    "1521" : { "image" : "../../../objects/alta/special/plants/beds/crystal/body.png" },
+    "1522" : { "image" : "../../../objects/alta/special/plants/beds/flower/body.png" },
+    "1523" : { "image" : "../../../objects/alta/special/plants/beds/stardust/body.png" },
+
+    "1541" : { "image" : "../../../objects/alta/special/plants/pods/alta/body.png" },
+    "1542" : { "image" : "../../../objects/alta/special/plants/pods/alien/body.png" },
+    "1543" : { "image" : "../../../objects/alta/special/plants/pods/berry/body.png" },
+    "1544" : { "image" : "../../../objects/alta/special/plants/pods/blossom/body.png" },
+    "1545" : { "image" : "../../../objects/alta/special/plants/pods/coral/body.png" },
+    "1546" : { "image" : "../../../objects/alta/special/plants/pods/stardust/body.png" },
+    "1547" : { "image" : "../../../objects/alta/special/plants/pods/toxic/body.png" },
+    "1548" : { "image" : "../../../objects/alta/special/plants/pods/yaara/body.png" }
   }
 }

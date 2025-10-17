@@ -1,0 +1,21 @@
+{
+  "type" : "ct_alta_holiday_girl",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "", { "name" : "hotholidayhead", "parameters" : { "colorIndex" : 8 } } ],
+          "chest" : [ { "name" : "hotholidaychest", "parameters" : { "colorIndex" : 8 } } ],
+          "legs" : [ { "name" : "hotholidaypants", "parameters" : { "colorIndex" : 8 } } ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:sonaveil" }
+  }
+}

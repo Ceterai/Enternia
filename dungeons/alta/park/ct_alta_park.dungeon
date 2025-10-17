@@ -1,0 +1,42 @@
+{
+  "metadata" : {
+    "name" : "ct_alta_park",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [
+      "alley1", "alley2", "balcony1", "balcony2", "bridge1", "cafe1", "cafe2", "lake1",
+      "monitor1", "rest1", "rest2", "rest3", "rest4", "scene1", "security1", "security2", "stairs1", "statue1", "vendor1", "viaduct1"
+    ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+  "wiki" : {
+    "title" : "Alta Park",
+    "description" : "A serene park in the middle of lush landscape, often visited by many altas. Features benches, walking paths, a small pond, cafes, viaducts, lots of social workers, and small security stations."
+  },
+  "parts" : [
+    { "name" : "alley1",     "def" : [ "tmx", [ "alley1.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "alley2",     "def" : [ "tmx", [ "alley2.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "balcony1",   "def" : [ "tmx", [ "balcony1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "balcony2",   "def" : [ "tmx", [ "balcony2.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "bridge1",    "def" : [ "tmx", [ "bridge1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "cafe1",      "def" : [ "tmx", [ "cafe1.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "cafe2",      "def" : [ "tmx", [ "cafe2.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "lake1",      "def" : [ "tmx", [ "lake1.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "monitor1",   "def" : [ "tmx", [ "monitor1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "rest1",      "def" : [ "tmx", [ "rest1.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "rest2",      "def" : [ "tmx", [ "rest2.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "rest3",      "def" : [ "tmx", [ "rest3.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "rest4",      "def" : [ "tmx", [ "rest4.json" ] ],      "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "scene1",     "def" : [ "tmx", [ "scene1.json" ] ],     "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "security1",  "def" : [ "tmx", [ "security1.json" ] ],  "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "security2",  "def" : [ "tmx", [ "security2.json" ] ],  "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "stairs1",    "def" : [ "tmx", [ "stairs1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "statue1",    "def" : [ "tmx", [ "statue1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "vendor1",    "def" : [ "tmx", [ "vendor1.json" ] ],    "rules" : [ [ "maxSpawnCount", [1] ] ] },
+    { "name" : "viaduct1",   "def" : [ "tmx", [ "viaduct1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }
+  ]
+}

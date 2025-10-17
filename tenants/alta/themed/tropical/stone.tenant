@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_stone_tenant",
+  "priority" : 5,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 6,
+    "stonecave" : 8
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_stone_girl",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_alta_gift" },
+
+  "wiki" : {
+    "title" : "Alta Stone Gardener",
+    "description" : "An alta watching over a stone garden.",
+    "category" : "nature",
+    "images" : {
+      // "main" : "images/sprites/raw/npcs/calin1.png",
+      "primary" : [
+      ]
+    }
+  }
+}

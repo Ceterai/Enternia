@@ -7,7 +7,7 @@
   "inventoryIcon" : "ct_crystal_poptop_rare_egg.png",
   "itemTags" : [ "throwable", "spawner", "monster_egg" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_monster", "titleTooltip" : "egg",
-  "rarity" : "Rare", "level" : 5,
+  "level" : 5,
   "twoHanded" : false, "pet" : "ct_crystal_poptop_rare",
 
   "builder" : "/items/buildscripts/alta/spawner.lua"
