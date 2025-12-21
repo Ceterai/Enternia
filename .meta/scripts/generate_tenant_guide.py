@@ -43,7 +43,7 @@ CATEGORIES = {
 
 
 def is_obj_file(name: str) -> bool:
-    return (base.get_ext(name) == 'tenant')
+    return (base.get_ext(name) == 'tenant' and 'deprecated' not in name)
 
 
 def get_image(path: str):

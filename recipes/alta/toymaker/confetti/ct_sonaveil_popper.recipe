@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_alta_basic_popper", "count" : 4 },
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "whitedye", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_sonaveil_popper", "count" : 4 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "confetti", "alta_festive", "sonaveil", "all", "mod" ]
+}

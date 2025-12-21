@@ -6,6 +6,7 @@
   "altaDescription" : "",
   "inventoryIcon" : "ct_alta_water.png",
   "race" : "alta", "category" : "drink",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
 
   "presets" : {

@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_sonaveil_scarf",
+  "shortdescription" : "Sonaveil Scarf",
+  "description" : "Better wrap up - wouldn't want you catching a cold out there.",
+  "longdescription" : "This is a cozy holiday scarf, hand-knitted by an alta. Soft, warm, and carrying that familiar holiday charm. During Sonaveil, altas exchange hand-knitted scarves like this one as tokens of warmth and friendship.",
+  "altaDescription" : "A finely crafted scarf, perfect for the cold solstice! Wish I could knit like this so I could make a gift for my sis...",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "tier6clothing", "sonaveil", "holiday" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "colorOptions" : [  // Alta lightblue
+    { "d5001f" : "d5001f", "b0001a" : "b0001a", "8b0013" : "8b0013", "72000e" : "72000e" },  // ALTA LIGHT BLUE (DEFAULT)
+    { "d5001f" : "838383", "b0001a" : "555555", "8b0013" : "383838", "72000e" : "151515" },  // BLACK
+    { "d5001f" : "707088", "b0001a" : "606074", "8b0013" : "404050", "72000e" : "2c2c34" },  // GREY
+    { "d5001f" : "f6f6f6", "b0001a" : "d8dcf0", "8b0013" : "b0b4c8", "72000e" : "606478" },  // ALTA LIGHT (WHITE)
+    { "d5001f" : "f4988c", "b0001a" : "d93a3a", "8b0013" : "932625", "72000e" : "601119" },  // RED
+    { "d5001f" : "ffd495", "b0001a" : "ea9931", "8b0013" : "af4e00", "72000e" : "6e2900" },  // ORANGE
+    { "d5001f" : "ffffa7", "b0001a" : "e2c344", "8b0013" : "a46e06", "72000e" : "642f00" },  // YELLOW
+    { "d5001f" : "b2e89d", "b0001a" : "51bd3b", "8b0013" : "247824", "72000e" : "144216" },  // GREEN
+    { "d5001f" : "96cbe7", "b0001a" : "5588d4", "8b0013" : "344495", "72000e" : "1a1c51" },  // BLUE
+    { "d5001f" : "d29ce7", "b0001a" : "a451c4", "8b0013" : "6a2284", "72000e" : "320c40" },  // PURPLE
+    { "d5001f" : "eab3db", "b0001a" : "d35eae", "8b0013" : "97276d", "72000e" : "59163f" },  // PINK
+    { "d5001f" : "ccae7c", "b0001a" : "a47844", "8b0013" : "754c23", "72000e" : "472b13" }   // BROWN
+  ],
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

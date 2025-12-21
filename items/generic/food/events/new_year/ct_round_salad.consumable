@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_round_salad",
+  "shortdescription" : "Roundsalad",
+  "description" : "A round layered salad made with fresh vegetables and a light dressing.",
+  "longdescription" : "The palette might not be as vibrant, but this delightful new year's mix of crisp roots, juicy arics, crunchy beakseeds, and colorful tsays, all layed out one after another. Big enough for a big group of friends to share!",
+  "altaDescription" : "A fresh and healthy choice to start the new year right!",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "salad", "new_year", "holiday" ],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ],
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_round_salad.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "runboostfood", "jumpboostfood", "maxhealthscalingboostfood" ], "foodValue" : 15, "rotToEffectRatio" : 1.1 },
+
+  "variants" : [ "banquet" ],
+  "presets" : {
+    "banquet" : {
+      "shortdescription" : "Round Banquet ^#2080f0;^reset;", "variant" : true,
+      "description" : "A true new year's center tablepiece! This large roundsalad is made for sharing with a big group of friends.",
+      "longdescription" : "A well-cooked and carefully prepared roundsalad, made with extra ingredients in a bit of a bigger bowl. Perfect for celebrating the new year with your loved ones, these are more common when celebrating the start of a new alecta.",
+      "altaDescription" : "A grand feast to welcome the new year!",
+      "paletteSwap" : {
+        "#dec162":"#dea062","#ccae4c":"#cc8b4c",
+        "#dcd3b8":"#dcc9b8","#c2b99c":"#c2af9c","#a8a18a":"#a8998a",
+        "#bfde62":"#dedc62","#9ab24f":"#b2af4f",
+        "#62de99":"#de628e","#50b47d":"#b45073"
+      }
+    }
+  }
+}

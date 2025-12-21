@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "milk", "count" : 1 },
+    { "item" : "ct_minto_spice", "count" : 1 },
+    { "item" : "holidayspirit", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_sonasweet", "count" : 1 },
+  "duration" : 2.00,
+  "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "sides", "cooked", "alta_festive", "sonaveil", "all", "mod" ]
+}

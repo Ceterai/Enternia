@@ -1,27 +1,16 @@
 {
   "itemName" : "ct_haruplavu_venetto",
-  "level" : 6, "price" : 1040, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_haruplavu_venetto.png",
   "shortdescription" : "Haruplavu Venetto",
   "description" : "An elegant turn on gillicada mashed with baked ayas.",
   "longdescription" : "Through recipe changes and additions, it turned into a full-blown meal you will find served in an alta restaurant.",
   "altaDescription" : "Very fulfilling and tasty, what ealse can you say.",
-  "effects" : [ [
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 450
-    }
-  ] ],
-  "foodValue" : 60,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "meal" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "meal" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood" ], "foodValue" : 16.5, "rotToEffectRatio" : 1.10 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_haruplavu_venetto.png",
 
   "variants" : [ "prime" ],
   "presets" : {
@@ -30,7 +19,6 @@
       "description" : "A well-made haruplavu that somehow tastes very different from the original. Still incredibly tasty.",
       "longdescription" : "A chef's hand made this dish irreversibly unique.",
       "altaDescription" : "A nice touch on a classic haruplavu.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1340, "foodValue" : 75,
       "paletteSwap" : {
         "#fd7a86":"#fdab7a","#fe4777":"#fe6c47","#c9375a":"#c95837","#ab1241":"#ab2b12","#88012a":"#881701","#681820":"#683518",
         "#108667":"#106e86","#10503f":"#104350","#10352b":"#102e35",

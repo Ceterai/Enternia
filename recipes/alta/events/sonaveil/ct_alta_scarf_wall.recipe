@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "cottonwool", "count" : 4 },
+    { "item" : "holidayspirit", "count" : 4 },
+    { "item" : "string", "count" : 2 },
+    { "item" : "bluedye", "count" : 1 }
+  ],
+  "duration" : 5.00,
+  "output" : { "item" : "ct_alta_scarf_wall", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "alta_constructor3", "alta_special", "objects", "alta_tailor", "alta_festive", "sonaveil", "all", "mod" ]
+}

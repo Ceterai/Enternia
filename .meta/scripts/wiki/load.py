@@ -17,7 +17,6 @@ SKIPPED_EXTS = (
     'animation',
     'parallax',
     'frames',
-    'config',
     'png',
     'lua',
     'txt',

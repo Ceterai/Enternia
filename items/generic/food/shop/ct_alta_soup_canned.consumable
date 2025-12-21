@@ -7,6 +7,7 @@
   "level" : 3, "race" : "alta",
   "inventoryIcon" : "ct_alta_soup_canned.png",
   "category" : "preparedFood",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "rotToEffectRatio" : 10 },
 

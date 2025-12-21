@@ -34,6 +34,7 @@ def generate_data():
         return sorted(set(result_items))
 
     def get_item_info(item_id):
+        items.get_leveled_weapon_stats(item_id)
         return {
             'path': (p := items.raw[item_id]['path'] if item_id in items.raw else None),
             'rarity': items.get_rarity(item_id),

@@ -4,14 +4,15 @@
   "description" : "This icecream flavor is a refreshing mix of crystal-, bio- and herb-based ingredients.",
   "longdescription" : "The recipe includes separate mixes from different cuisines, that are then piled on top of each other, resulting in a layered ice cream.",
   "altaDescription" : "Like it when I can get a little bite of everything, or do it separately to compare the flavors!",
-  "level" : 4, "price" : 440, "race" : "alta",
-  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "dessert", "ice", "bio" ],
-  "inventoryIcon" : "ct_biomix_icecream.png",
-  "effects" : [ [ { "effect" : "thorns", "duration" : 75 }, { "effect" : "maxhealthboost20", "duration" : 75 } ] ],
-  "foodValue" : 20,
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "dessert", "ice", "bio" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "build" : { "goodEffects" : [ "thorns", "maxhealthboost20" ], "foodValue" : 8, "rotToEffectRatio" : 0.80 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_heecho_punch" ],
+  "inventoryIcon" : "ct_biomix_icecream.png",
+
   "variants" : [ "dessert" ],
   "presets" : {
     "dessert" : {
@@ -19,7 +20,7 @@
       "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
       "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
       "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24, "variant" : true, "alkey" : "Biomix Feeri",
+      "variant" : true, "alkey" : "Biomix Feeri",
       "paletteSwap" : {"#c9eef6":"#d2c9f6","#76c7e4":"#9776e4","#4e8fb8":"#7b4eb8","#366388":"#5e3688",
         "#d4ff5a":"#5aff8a","#b7f601":"#01f649","#8dbd01":"#01bd37","#6c9000":"#009029",
         "#9cf600":"#00f6d4","#60d600":"#00cad6","#00b21a":"#0091b2"
@@ -41,7 +42,7 @@
       "description" : "An indescribable taste mix in a very special desert. This is not a regular ice cream anymore!",
       "longdescription" : "Often described as a general icy dessert, it is sometimes served in different alta cafes and restaurants, thanks to its versatile flavor mix.",
       "altaDescription" : "The presentation is pretty imaginitive, and the overall palette only makes it better.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 500, "foodValue" : 24, "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Virmix Feeri",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Virmix Feeri",
       "paletteSwap" : {"#c9eef6":"#e8f6c9","#76c7e4":"#b8e476","#4e8fb8":"#81b84e","#366388":"#588836",
         "#d4ff5a":"#ff5abe","#b7f601":"#f60195","#8dbd01":"#bd0174","#6c9000":"#900058",
         "#9cf600":"#f60041","#60d600":"#d60800","#00b21a":"#b23100"

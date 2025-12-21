@@ -1,42 +1,26 @@
 {
   "itemName" : "ct_gil_tsay_stew",
-  "level" : 5, "price" : 840, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_gil_tsay_stew.png",
   "shortdescription" : "Gil-Tsay Stew",
   "description" : "Your usual meal from unusual ingredients.",
   "longdescription" : "This delicious stew is especially good in cold weather, its fulfilling and satisfying capabilities are through the roof!",
   "altaDescription" : "Home meal to comfort yourself during bad weather outside.",
-  "effects" : [ [
-    {
-        "effect" : "ct_velocity_boost",
-        "duration" : 180
-    },
-    {
-        "effect" : "ct_velocity_swim",
-        "duration" : 180
-    }
-  ] ],
-  "foodValue" : 40,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "stew", "gil", "tsay" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "stew", "gil", "tsay" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 5.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "ct_velocity_boost", "ct_velocity_swim" ], "foodValue" : 13.3, "rotToEffectRatio" : 1.60 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+  "inventoryIcon" : "ct_gil_tsay_stew.png",
 
   "variants" : [ "gharus" ],
   "presets" : {
     "gharus" : {
-      "shortdescription" : "Gharus Stew", "variant" : true,
+      "shortdescription" : "Gharus Stew ^#2080f0;^reset;", "variant" : true,
       "description" : "This spice-rich stew is exceptionally fulfilling!",
       "longdescription" : "What you could literally call a spicy turn on the original recipe, it shifts the main focus of the dish, creating its own distinct taste.",
       "altaDescription" : "M-m-m, the spice is, just, oa-oa!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 50,
       "paletteSwap" : {
         "#ff95a4":"#e2ff95","#ff3f5a":"#ff643f","#dd0120":"#dd2b01","#8c0014":"#658c00",
         "#80ca00":"#0090ca","#538300":"#005d83","#3c5e00":"#00445e"
@@ -47,7 +31,7 @@
       "description" : "This spice-rich stew is exceptionally fulfilling!",
       "longdescription" : "What you could literally call a spicy turn on the original recipe, it shifts the main focus of the dish, creating its own distinct taste.",
       "altaDescription" : "M-m-m, the spice is, just, oa-oa!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 640, "foodValue" : 30,
+      "level" : 4,
       "paletteSwap" : {
         "#ff95a4":"#ffe795","#ff3f5a":"#ffd33f","#dd0120":"#ddab01","#8c0014":"#8c6c00",
         "#80ca00":"#00caae","#538300":"#008371","#3c5e00":"#005e51"

@@ -1,45 +1,25 @@
 {
   "itemName" : "ct_hive_curry",
-  "level" : 5, "price" : 800, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_hive_curry.png",
   "shortdescription" : "Hive Curry",
   "description" : "Healthy, spicy, squishy. Do you like bugs?",
   "longdescription" : "The larva themself are considered a very rarily used ingredient, since altas are vegetarian by nature, but this dish utilizes them in moderate amounts.",
   "altaDescription" : "I think these cryobugs are called izolings? Might be wrong, but the are the things that compile those huge scary caves in undergrounds.",
-  "effects" : [ [
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 215
-    },
-    {
-        "effect" : "ct_poisoncloud",
-        "duration" : 215
-    },
-    {
-        "effect" : "burning",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 40,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "curry", "hive" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "curry", "hive" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood", "ct_poisoncloud" ], "badEffects" : [ "burning" ], "foodValue" : 13.3, "rotToEffectRatio" : 2.00 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_palopias", "ct_onitti_cake" ],
+  "inventoryIcon" : "ct_hive_curry.png",
 
   "variants" : [ "spice" ],
   "presets" : {
     "spice" : {
-      "shortdescription" : "Spice-Hive Curry", "variant" : true,
+      "shortdescription" : "Spice-Hive Curry ^#2080f0;^reset;", "variant" : true,
       "description" : "Don't try this if you're even slightly scared of larva, spices, taste, or eating in general.",
       "longdescription" : "This recipe is ablsolutely overloaded on spices, which might scare some altas off, but will atract other ones looking for something exotic.",
       "altaDescription" : "Spicy! Overwhelmingly curry, to the point where you might not even realise that it's all izoling-based.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 50,
       "paletteSwap" : {
         "#9cf600":"#f67600","#60d600":"#d68e00","#00b21a":"#b29f00",
         "#eae8de":"#e7daee","#c4bba1":"#b695cf","#9d9071":"#8962ab","#756a4e":"#644181","#332b1c":"#ab2460"

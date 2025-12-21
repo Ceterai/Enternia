@@ -112,10 +112,6 @@
         "treasureBoxSets" : [ "ct_gyera_chest" ]
       },
       {
-        "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:minibiomeChests", "type" : "treasureBox",
-        "treasureBoxSets" : [ "ct_gyera_chest" ]
-      },
-      {
         "mode" : "floor", "priority" : 1, "variants" : 1, "distribution" : "/biomes/distributions.config:scatteredSmall", "type" : "object",
         "objectSets" : [ { "pool" : [ [1, "prismrock1"], [1, "prismrock2"], [1, "prismrock3"] ], "parameters" : { } } ]
       }

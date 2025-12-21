@@ -19,7 +19,7 @@
   "animationCustom" : {
     "sounds" : { "init" : [ "/sfx/gun/reload/shotgun_reload_clip2.ogg" ],
       "primary_press" : [ "/sfx/gun/plasma_pistol4.ogg" ], "primary_hold" : [ "/sfx/gun/plasma_shotgun3.ogg" ] },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] } }
   },
   "baseOffset" : [0.75, 0.375], "muzzleOffset" : [1.25, 0.25],
 

@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_sona_milk_hot",
+  "shortdescription" : "Hot Sona Milk",
+  "description" : "Served in a cup with a handle cause it's extra hot! The snow hill on top melts pretty quickly, cooling it down.",
+  "longdescription" : "A warm cup of sona milk, perfect for cold days. Sona milk is known for its rich, creamy texture and subtle sweetness, making it a comforting beverage to enjoy during the chilly Sonaveil season.",
+  "altaDescription" : "A nice warm drink to help you stay cozy during Sonaveil~",
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "sona", "sonaveil", "holiday" ],
+  "learnBlueprintsOnPickup" : [ "ct_sona_milk_hot" ],
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_sona_milk_hot.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "poisonblock" ], "foodValue" : 6, "rotToEffectRatio" : 0.35 },
+
+  "variants" : [ "thick" ],
+  "presets" : {
+    "thick" : {
+      "shortdescription" : "Thick Sona Milk ^#20f080;^reset;", "variant" : true,
+      "description" : "A rich and creamy version of hot sona milk, made with extra tonna cream for a thicker texture and enhanced flavor.",
+      "longdescription" : "Perfect for those cold Sonaveil nights when you need an extra comforting drink.",
+      "altaDescription" : "Mmm, the thickness might not be for everyone, but it makes hot milk just a little bit more nourishing~",
+      "paletteSwap" : {
+        "#f6f6f6" : "#d5001e", "#d8dcf0" : "#b00019", "#b0b4c8" : "#a00014", "#606478" : "#72000d",   
+        "#d5001f" : "#ffe07e", "#b0001a" : "#ffcd3a", "#a00015" : "#e0af1e", "#72000e" : "#bd910f"
+      }
+    }
+  }
+}

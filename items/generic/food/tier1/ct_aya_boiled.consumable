@@ -4,21 +4,23 @@
   "description" : "A bowl of boiled grinded ayas. Less sweet, but very warm and nourishing. Extra-big portion to compensate for an extra-bad day.",
   "longdescription" : "Caretakers often make these for sick and unwell altas, while also adding small slices of other fruits or baking it into a pie for a group of petients.",
   "altaDescription" : "Turn your mind off and enjoy this goodness. No chewing needed, just a spoon and some good-girl behaviour to make your caretaker happy.",
-  "level" : 2, "price" : 200, "race" : "alta",
-  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "ayaka" ],
-  "inventoryIcon" : "ct_aya_boiled.png",
-  "foodValue" : 20,
+
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "ayaka" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "build" : { "foodValue" : 14 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_aya_jam" ],
+  "inventoryIcon" : "ct_aya_boiled.png",
+
   "variants" : [ "blue_boil" ],
   "presets" : {
     "blue_boil" : {
-      "shortdescription" : "Blue Boil",
+      "shortdescription" : "Blue Boil", "itemTags" : [ "fruit", "runeva_cuisine", "ayaka" ],
       "description" : "A bowl of thick dense boiled ayas. Often prepared this way in ^#b0e0fc;alta^reset; hospitals for patients. Very yummy!",
       "longdescription" : "The denseness of the fruits in this dish is also good for making a boiled fruit salad afterwards, if anything is left.",
       "altaDescription" : "For when you feel like having more fruit than boil. I should add something to it to make it even better!",
-      "level" : 3, "rarity" : "Uncommon", "price" : 300, "foodValue" : 24, "variant" : true, "alkey" : "Alto Kui",
+      "level" : 3, "variant" : true, "alkey" : "Alto Kui",
       "paletteSwap" : {"#3587ff":"#ff9ccf","#0066ff":"#4c75ff","#0042a6":"#0063a6","#002a69":"#003f69",
       "#e6e9ea":"#a2d5f7","#c6d2d4":"#2e78c0","#959ea2":"#7497cb","#464a4c":"#004275"}
     }

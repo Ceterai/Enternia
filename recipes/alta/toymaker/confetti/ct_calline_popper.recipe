@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_basic_popper", "count" : 4 },
+    { "item" : "orangedye", "count" : 1 },
+    { "item" : "yellowdye", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_calline_popper", "count" : 4 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "confetti", "calline", "all", "mod" ]
+}

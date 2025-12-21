@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ct_alta_energy_cell", "count" : 1 },
+    { "item" : "ct_alta_led", "count" : 3 },
+    { "item" : "liquidwater", "count" : 1 },
+    { "item" : "ct_isoslime_ball", "count" : 1 }
+  ],
+  "duration" : 2,
+  "output" : { "item" : "ct_alta_neon_bubble_wand", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "tool", "tools", "alta_toys", "toy_weapons", "all", "mod" ]
+}

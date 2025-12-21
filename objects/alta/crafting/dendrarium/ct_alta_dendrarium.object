@@ -2,7 +2,7 @@
   "objectName" : "ct_alta_dendrarium",
   "colonyTags" : [ "crafting", "garden", "farming" ], "learnBlueprintsOnPickup" : [ "ct_alta_farming-codex", "paper" ],
   "category" : "crafting",
-  "level" : 4, "race" : "alta",
+  "level" : 3, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Dendrarium^reset;",
   "description" : "An alta botanics station for farming and gardening. Craft available items to learn new blueprints and make progress.",
@@ -38,7 +38,7 @@
       "tab8" : { "file" : "/items/materials/moonstoneicon.png" },
       "categories" : { "buttons" : [
         {
-          "position" : [6, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [6,  257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "watering_cans", "cutters", "tillers", "codex", "sprinklers", "loot", "dendrarium_other" ] }
         },
         {
@@ -66,7 +66,7 @@
           "data" : { "filter" : [ "flower_critters", "wild_plants" ] }
         },
         {
-          "position" : [118,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [118, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "materials", "ingredients" ] }
         }
       ] }

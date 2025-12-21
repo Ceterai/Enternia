@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 12 },
+    { "item" : "cottonwool", "count" : 8 },
+    { "item" : "pinkdye", "count" : 1 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_valley_poptop_plush", "count" : 1 },
+  "duration" : 3.0,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "objects", "alta_toys", "toys", "plushies", "all", "mod" ]
+}

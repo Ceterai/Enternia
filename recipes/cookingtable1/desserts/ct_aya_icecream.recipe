@@ -2,7 +2,8 @@
   "input" : [
     { "item" : "ct_aya_powder", "count" : 1 },
     { "item" : "ct_aya", "count" : 1 },
-    { "item" : "ct_ionice_cube", "count" : 1 }
+    { "item" : "snowball", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
   ],
   "output" : { "item" : "ct_aya_icecream", "count" : 1 },
   "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "desserts", "icecream", "all", "mod" ]

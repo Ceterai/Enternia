@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_aya", "count" : 1 },
+    { "item" : "ct_gil", "count" : 1 },
+    { "item" : "ct_tsay", "count" : 1 },
+    { "item" : "silk", "count" : 8 }
+  ],
+  "duration" : 1,
+  "output" : { "item" : "ct_alta_toy_runeva_ball", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "alta_toys", "softies", "other", "all", "mod" ]
+}

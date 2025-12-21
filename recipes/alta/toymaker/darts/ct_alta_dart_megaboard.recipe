@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 4 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "greendye", "count" : 1 },
+    { "item" : "purpledye", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 6 }
+  ],
+  "output" : { "item" : "ct_alta_dart_megaboard", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "objects", "alta_toys", "darts", "all", "mod" ]
+}

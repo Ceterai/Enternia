@@ -4,7 +4,7 @@
   "description" : "Energy-rich power fertilizer for compatible plants. Will likely poison you if consumed directly.",
   "longdescription" : "",
   "altaDescription" : "",
-  "level" : 5, "race" : "alta", "category" : "food",
+  "level" : 5, "race" : "alta", "category" : "tool",
   "build" : { "foodValue" : 4, "rotToEffectRatio" : 9.0, "badEffects" : [ "weakpoison" ] },
   "inventoryIcon" : "ct_boost_fertilizer.png",
   "itemTags" : [ "fertilizer" ], "learnBlueprintsOnPickup" : [ "ct_alta_ponics-codex" ],

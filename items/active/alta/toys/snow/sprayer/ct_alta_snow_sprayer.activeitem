@@ -1,0 +1,33 @@
+{
+  "itemName" : "ct_alta_snow_sprayer",
+  "shortdescription" : "Alta Snow Sprayer",
+  "description" : "Spreades a thick layer of snow onto solid surfaces.",
+
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "sona" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+  "twoHanded" : false,
+
+  "animation" : "/items/active/unsorted/wateringcan/wateringcan.animation",
+  "animationParts" : { "wateringcan" : "body.png" },
+  "scripts" : ["/items/active/unsorted/wateringcan/wateringcan.lua"],
+
+  "waterTime" : 0.06,
+  "waterAngle" : 0,
+
+  "cooldownTime" : 0.05,
+
+  "projectileRate" : 0.05,
+  "projectileInaccuracy" : 0.3,
+  "projectileType" : "ct_snow_sprayer_droplet",
+  "projectileParameters" : {
+    "speed" : 20,
+    "power" : 0,
+    "timeToLive" : 0.5,
+    "color" : [ 220, 240, 255 ]
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

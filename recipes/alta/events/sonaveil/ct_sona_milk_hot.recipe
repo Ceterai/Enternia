@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "snowball", "count" : 2 },
+    { "item" : "holidayspirit", "count" : 4 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_sona_milk_hot", "count" : 1 },
+  "duration" : 1.00,
+  "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "drinks", "hot_milk", "alta_festive", "sonaveil", "all", "mod" ]
+}

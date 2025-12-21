@@ -1,6 +1,7 @@
 {
   "objectName" : "ct_neonjack",
   "colonyTags" : [ "ceternity", "light", "neonmelon" ], "learnBlueprintsOnPickup" : [ "ct_ceternity_poster", "ct_halloween_poster", "ct_harrowing_poster" ],
+  "itemTags" : [ "holiday" ],
   "price" : 60, "level" : 3, "race" : "generic",
   "category" : "light",
 
@@ -17,7 +18,7 @@
   "hylotlDescription" : "How innovative! It doesn't even need a candle.",
   "novakidDescription" : "Finally some decor that makes me feelin' home!",
 
-  "lightColor" : [16, 72, 64],
+  "lightColor" : [ 16, 72, 64 ],
 
   "flickerPeriod" : 0.3,
   "flickerMinIntensity" : 0.95,

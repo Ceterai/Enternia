@@ -4,7 +4,7 @@
   "description" : "A fertilizer made by Iora Gyera Ordis, made for garden plants. Will likely poison you if consumed directly.",
   "longdescription" : "",
   "altaDescription" : "",
-  "level" : 3, "race" : "alta", "category" : "food",
+  "level" : 3, "race" : "alta", "category" : "tool",
   "build" : { "foodValue" : 4, "rotToEffectRatio" : 19.0, "badEffects" : [ "weakpoison" ] },
   "inventoryIcon" : "ct_gyera_fertilizer.png",
   "itemTags" : [ "gyera", "fertilizer" ], "learnBlueprintsOnPickup" : [ "ct_alta_soil_enrichment-codex" ],

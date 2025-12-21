@@ -4,7 +4,7 @@
   "description" : "Can be used once to excavate a fossil, with heightened success.",
 
   "level" : 5, "race" : "alta",
-  "itemTags" : ["fossilbrush"],
+  "itemTags" : [ "fossilbrush", "sanitary" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "maxStack" : 100,
   "objectImage" : "body.png",

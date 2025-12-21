@@ -21,7 +21,7 @@
     "primary_press" : [ "/sfx/gun/plasma_shotgun2.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_mp2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 80, 0, 192 ] } }
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],

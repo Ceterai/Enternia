@@ -2,13 +2,13 @@ import base
 import re
 
 
-CHANGELOG = base.os.path.join(base.META, 'changelog.md')
+CHANGELOG = base.os.path.join(base.META, 'changelog/v2.4.md')
 RELEASE_LOG = base.os.path.join(base.RELEASE, 'notes.md')
 COMMIT_LOG = base.os.path.join(base.RELEASE, 'commit.txt')
 MESSAGE_LOG = base.os.path.join(base.RELEASE, 'info.txt')
 
-TITLE_REGEX = r'## Update [0-9].[0-9]+ - ([^\n]+)'
-VERSION_REGEX = r'### ([0-9]\.[0-9]\.[0-9][a-z]?(\.[a-z0-9\-]+)?)'
+TITLE_REGEX = r'# [\[]*Update [0-9].[0-9]+ - ([^\n]+)[\]]*'
+VERSION_REGEX = r'## ([0-9]\.[0-9]\.[0-9][a-z]?(\.[a-z0-9\-]+)?)'
 SUBTITLE_REGEX = r'\*\*([A-Za-z0-9\s]+)\:\*\*'
 
 MESSAGE = """- GitHub direct download links:

@@ -23,7 +23,7 @@
     "config" : "/interface/windowconfig/craftingcampfire.config",
     "filter" : [ "alta_food", "food", "consumables", "craftingfood" ],
     "paneLayoutOverride" : {
-      "categories" : { "buttons" : [ { "data" : { "filter" : [ "milk", "fruit_milk" ] }, "selected" : true } ] },
+      "categories" : { "buttons" : [ { "data" : { "filter" : [ "milk", "fruit_milk", "hot_milk" ] }, "selected" : true } ] },
       "windowtitle" : { "title" : "  Milker", "subtitle" : "  Milk-making convenience" }
     }
   },

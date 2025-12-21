@@ -1,46 +1,26 @@
 {
   "itemName" : "ct_rimar_motsu",
-  "level" : 5, "price" : 840, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_rimar_motsu.png",
   "shortdescription" : "Rimar Motsu Soup",
   "description" : "A tasty mix of various ingredients turned into a favorite ^#b0e0fc;alta^reset; motsu!",
   "longdescription" : "This recipe is slightly more fruit-heavy than usual, with the pallete being pretty diverse depending on its variations.",
   "altaDescription" : "Motsus in general are a good meal to start your day off, but this one feels like you would get it any time of day.",
-  "effects" : [ [
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 180
-    },
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 180
-    },
-    {
-        "effect" : "lightaugment2",
-        "duration" : 180
-    }
-  ] ],
-  "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "motsu", "soup" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "motsu", "soup" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood", "maxenergyscalingboostfood", "lightaugment2" ], "foodValue" : 11.666666667, "rotToEffectRatio" : 0.85 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_staris_soup", "ct_alta_soup" ],
+  "inventoryIcon" : "ct_rimar_motsu.png",
 
   "variants" : [ "perfect" ],
   "presets" : {
     "perfect" : {
-      "shortdescription" : "Perfect Rimar Motsu", "variant" : true,
+      "shortdescription" : "Perfect Rimar Motsu ^#2080f0;^reset;", "variant" : true,
       "description" : "A perfect mix of various ingredients turned into an exquisite ^#b0e0fc;alta^reset; motsu!",
       "longdescription" : "Though this motsu turned out better than usual, it's important to understand that there is no recipe for excellence.",
       "altaDescription" : "Yum!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45,
       "paletteSwap" : {
         "#f4fafd":"#f4f8fd","#acdcec":"#acd1ec","#47b6ab":"#47b684","#177a71":"#17727a","#074c44":"#07484c",
         "#b7f601":"#f68a01","#8dbd01":"#bd0501"

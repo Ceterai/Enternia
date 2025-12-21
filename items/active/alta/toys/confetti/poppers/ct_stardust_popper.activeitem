@@ -1,0 +1,118 @@
+{
+  "itemName" : "ct_stardust_popper",
+  "shortdescription" : "Stardust Popper",
+  "description" : "A confetti popper filled with sparkling stardust confetti. Perfect for celebrating the New Year!",
+  "level" : 3, "price" : 40, "race" : "alta",
+  "category" : "toy", "itemTags" : [ "toy", "holiday" ],
+
+  "inventoryIcon" : "ct_stardust_popper.png",
+  "animationParts" : { "item" : "ct_stardust_popper.png" },
+  "animation" : "/items/active/alta/loot.animation",
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "firing" : {
+          "states" : {
+            "fire" : {
+              "frames" : 2, "cycle" : 0.1,
+              "mode" : "transition", "transition" : "confetti",
+              "properties" : { "immediateSound" : "/sfx/objects/colonydeed_partyhorn.ogg", "particleEmittersOff" : [ "confetti" ] },
+              "frameProperties" : { "stateNudge" : [ [-0.125, 0], [0, 0] ] }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "confetti" : {
+        "emissionRate" : 500.0, "emissionRateVariance" : 0.0, "active" : true,
+        "particles" : [
+          {
+            // Ceterteal, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [32, 240, 128, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Ceterteal, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [32, 240, 128, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // Omniblue, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [32, 128, 240, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Omniblue, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [32, 128, 240, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // Ionic, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [128, 32, 240, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Ionic, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [128, 32, 240, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // Stardust, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [240, 32, 128, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Stardust, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [240, 32, 128, 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scripts" : ["popper.lua"],
+  "fireTime" : 2.0, "fireOffset" : [1.0, 0.0],
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

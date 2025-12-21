@@ -1,0 +1,23 @@
+{
+  "itemName" : "ct_alta_plane_cool",
+  "shortdescription" : "Cool Alta Plane",
+  "description" : "A small aerodynamic plane from colored alta paper made for competitive paper plane throwing.",
+
+  "level" : 5, "price" : 200, "race" : "alta",
+  "category" : "throwableItem", "itemTags" : [ "toy", "paper_plane" ],
+  "inventoryIcon" : "ct_alta_plane_cool.png",
+  "image" : "ct_alta_plane_cool.png",
+
+  "ammoUsage" : 1,
+  "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "paperplane",
+  "projectileConfig" : {
+    "speed" : 45, "power" : 0,
+    "periodicActions" : [
+      { "time" : 0, "repeat" : false, "action" : "sound", "options" : [ "/sfx/projectiles/throw_item_small.ogg" ] }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

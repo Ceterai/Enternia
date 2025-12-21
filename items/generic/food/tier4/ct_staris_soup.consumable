@@ -1,31 +1,16 @@
 {
   "itemName" : "ct_staris_soup",
-  "level" : 6, "price" : 960, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_staris_soup.png",
   "shortdescription" : "Staris Soup",
   "description" : "A ^#ffa8e8;stardust^reset;-like taste experience! This dreamy aftertaste fills you with determination.",
   "longdescription" : "This recipe includes many cooked crystal plants, which gives a somewhat unusual taste for an alta soup.",
   "altaDescription" : "Some nice calin soup that might just suit your taste.",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 315
-    },
-    {
-        "effect" : "ct_alta_determination",
-        "duration" : 270
-    }
-  ] ],
-  "foodValue" : 50,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "soup" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "calin_cuisine", "soup" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "moodEffects" : [ "ct_alta_determination" ], "foodValue" : 14.3, "rotToEffectRatio" : 1.20 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_staris_soup.png",
 
   "variants" : [ "perfect" ],
   "presets" : {
@@ -34,7 +19,6 @@
       "description" : "A dish of the fallen! What are these feelings inside of you? Have you ever felt them before?",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
       "altaDescription" : "Something you would expect from a perfectly cooked dish.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65,
       "paletteSwap" : {
         "#459be2":"#e145e2","#2f5ac6":"#c62f9e",
         "#594bc3":"#594bc3","#4543b9":"#4543b9","#33308f":"#33308f",

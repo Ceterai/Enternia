@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 4 },
+    { "item" : "bluedye", "count" : 1 }
+  ],
+  "duration" : 0.5,
+  "output" : { "item" : "ct_alta_plane", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "paper", "all", "mod" ]
+}

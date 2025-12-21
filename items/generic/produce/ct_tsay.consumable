@@ -8,6 +8,7 @@
   "level" : 2,
   "itemTags" : [ "tsay" ], "learnBlueprintsOnPickup" : [ "ct_tsay_cooked", "ct_tsay_sapling" ],
   "category" : "food", "eventCategory" : "eventCrop",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "inventoryIcon" : "ct_tsay.png",
 
   "builder" : "/items/buildscripts/alta/consumable.lua", "alkey" : "Tsay"

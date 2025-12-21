@@ -9,7 +9,7 @@
       "density" : 0.075,
       "particle" : {
         "type" : "ember",
-        "color" : [32, 128, 240],
+        "color" : [ 32, 128, 240 ],
         "size" : 1.0,
         "velocity" : [0, -1.5],
         "angularVelocity" : 180,
@@ -23,7 +23,7 @@
       "density" : 0.075,
       "particle" : {
         "type" : "ember",
-        "color" : [128, 32, 240],
+        "color" : [ 128, 32, 240 ],
         "size" : 1.0,
         "velocity" : [0, -3.75],
         "angularVelocity" : 180,
@@ -37,7 +37,7 @@
       "density" : 0.075,
       "particle" : {
         "type" : "ember",
-        "color" : [32, 240, 128],
+        "color" : [ 32, 240, 128 ],
         "size" : 1.0,
         "velocity" : [0, -2],
         "timeToLive" : 20,

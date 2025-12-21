@@ -294,15 +294,15 @@
       "tooltipKind" : "ct_alta_weapon_1",
       "upgradeParameters" : { "shortdescription" : "Toxiwarper ^#8020f0;^reset;" }
     },
-    "astrosabredeluxe" : {  // shop https://starbounder.org/Asuterosaberu_DX
-      "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
-      "shortdescription" : "Asterix", "level" : 6, "race" : "alta",
-      "itemTags" : [ "weapon", "melee", "shortsword" ], "elementalType" : "poison",
-      "category" : "shortsword",
-      "description" : "Reinforced titanium blade polished with pure stardust... It shimmers in the dark, as if reflecting light that's not there.",
-      "primaryAbility" : { "name" : "Starblade", "description" : "A set of attacks that glitter with stardust." },
-      "tooltipKind" : "ct_alta_weapon_1"
-    },
+    // "astrosabredeluxe" : {  // shop https://starbounder.org/Asuterosaberu_DX
+    //   "baseAsset" : "/items/active/weapons/boomerang/boomerang.activeitem",
+    //   "shortdescription" : "Asterix", "level" : 6, "race" : "alta",
+    //   "itemTags" : [ "weapon", "melee", "shortsword" ], "elementalType" : "poison",
+    //   "category" : "shortsword",
+    //   "description" : "Reinforced titanium blade polished with pure stardust... It shimmers in the dark, as if reflecting light that's not there.",
+    //   "primaryAbility" : { "name" : "Starblade", "description" : "A set of attacks that glitter with stardust." },
+    //   "tooltipKind" : "ct_alta_weapon_1"
+    // },
 
 
 

@@ -1,42 +1,26 @@
 {
   "itemName" : "ct_niatto_motsu",
-  "level" : 5, "price" : 840, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_niatto_motsu.png",
   "shortdescription" : "Niatto Motsu Soup",
   "description" : "A regular herb-based ^#b0e0fc;alta^reset; soup but based on nia ingredients.",
   "longdescription" : "Prepared with a cross-cuisine twist in mind, this motsu still falls under the milk-herb soup and does follow the taste range well too.",
   "altaDescription" : "A classic nia motsu. I know that there are tons of variations of it, generally called nitsus for short.",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 270
-    },
-    {
-        "effect" : "energyregen",
-        "duration" : 30
-    }
-  ] ],
-  "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "motsu", "soup" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "nia_cuisine", "motsu", "soup" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 5.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood", "energyregen" ], "foodValue" : 11.666666667, "rotToEffectRatio" : 0.85 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "emitters" : [ "drinking" ],
   "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_nia_cocktail", "ct_ion_risotto" ],
+  "inventoryIcon" : "ct_niatto_motsu.png",
 
   "variants" : [ "perfect" ],
   "presets" : {
     "perfect" : {
-      "shortdescription" : "Perfect Niatto Motsu", "variant" : true,
+      "shortdescription" : "Perfect Niatto Motsu ^#2080f0;^reset;", "variant" : true,
       "description" : "A perfectly crafted motsu based on nia ingredients.",
       "longdescription" : "This recipe is not very different from the original, however, it does happen to feature a great ingredient balance, making perfectly following the recipe very worth it.",
       "altaDescription" : "You might not notice the difference at first, because it's pretty subtle. And pretty satisfying.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1040, "foodValue" : 45,
       "paletteSwap" : {
         "#8f47fe":"#5b47fe","#7437c9":"#4b37c9","#5c1f8b":"#3d1f8b","#451868":"#2e1868","#381454":"#261454",
         "#65c1d5":"#6580d5","#2d6aa6":"#372da6",

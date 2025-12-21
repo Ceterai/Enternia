@@ -19,7 +19,7 @@
     "primary_hold" : [ "/sfx/gun/pulsecannon1.ogg" ],
     "primary_loop" : [ "/sfx/melee/charge_up2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] } }
   },
   "baseOffset" : [-0.1, 1.0],
   "muzzleOffset" : [1.25, 3.25],

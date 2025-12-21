@@ -1,0 +1,16 @@
+{
+  "itemName" : "ct_sonasweet",
+  "shortdescription" : "Sonasweet",
+  "description" : "A traditional ^#b0e0fc;Sona's Veil^reset; candy made from a baked sonava fruit.",
+  "longdescription" : "These festive candies are a beloved Sonaveil treat, combining crispy outer sonava shells with melted fruit preserves inside. While sonavas aren't usually used for cooking doe to general lack of flavor and resistance to baking, but this is what makes it a perfect dish for the holiday - with some spices and additional care it becomes a neat little treat that you can share with your sisters!",
+  "altaDescription" : "The best part about these is making them yourself~",
+
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "sona", "sonaveil", "holiday" ],
+  "learnBlueprintsOnPickup" : [ "ct_sonasweet", "ct_sonaveil_pie" ],
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_sonasweet.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood" ], "rotToEffectRatio" : 0.65 }
+}

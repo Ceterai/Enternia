@@ -16,7 +16,8 @@ I hope we still have a chance. - C.T."
 
   ],
   "itemConfig" : {
-    "rarity" : "Legendary", "learnBlueprintsOnPickup" : [ "ct_notes_tiana_leave-codex" ],
-    "price" : 0
+    "level" : 6, "tooltipKind" : "ct_alta_item_long", "price" : 0,
+    "itemTags" : [ "data_source", "datamass" ], "learnBlueprintsOnPickup" : [ "ct_notes_tiana_leave-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -1,20 +1,30 @@
-// All mod worldbuilding concepts like biomes and factions with their color codes and links to respective wiki pages.
-// Note that you can find definitions for most of these on Wiki, and also in the `Guide to My Enternia` codex (/codex/alta/ct_my_enternia_guide.codex)
+// ═══════════════════════════════════════════════════════════════════════════
+// ALTA COMPREHENSIVE ONTOLOGICAL REALITY DATABASE (ALTA CORD)
+// ═══════════════════════════════════════════════════════════════════════════
+//
+// This file serves as the foundational database for all worldbuilding concepts
+// in the My Enternia mod, including biomes, factions, planets, energy types,
+// materials, and their associated color codes, alkey translations, and wiki links.
+//
+// Note that you can find definitions for most of these on Wiki, and also in
+// the `Guide to My Enternia` codex (/codex/alta/ct_my_enternia_guide.codex)
+//
+// ═══════════════════════════════════════════════════════════════════════════
 {
     "colors" : {
         "planets" : [
-            "^#20f080;Alterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Alterash
-            "^#2080f0;Alterash Prime^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alterash-Prime
-            "^#8020f0;Enterash^reset;",        // https://github.com/Ceterai/Enternia/wiki/Enterash
-            "^#f02080;Enterash Prime^reset;"   // https://github.com/Ceterai/Enternia/wiki/Enterash-Prime
+            "^#20f080;Alterash^reset;",        // https://ceterai.github.io/MyEnternia/Wiki/Alterash
+            "^#2080f0;Alterash Prime^reset;",  // https://ceterai.github.io/MyEnternia/Wiki/AlterashPrime
+            "^#8020f0;Enterash^reset;",        // https://ceterai.github.io/MyEnternia/Wiki/Enterash
+            "^#f02080;Enterash Prime^reset;"   // https://ceterai.github.io/MyEnternia/Wiki/EnterashPrime
         ],
         "energy" : [
-            "^#20f080;Ceternia^reset;", "Cenia", "Cena", "Thoughts", "^#20f080;Impulse^reset;",  // https://github.com/Ceterai/Enternia/wiki/Ceternia
-            "^#2080f0;Alternia^reset;", "Alnia", "Alna", "Memories","^#2080f0;Plasma^reset;",  // https://github.com/Ceterai/Enternia/wiki/Alternia
-            "^#8020f0;Enternia^reset;", "Ennia", "Enna", "Dreams", "^#8020f0;Ionic^reset;",  // https://github.com/Ceterai/Enternia/wiki/Enternia
-            "^#ffa8e8;Stardust^reset;", "Staris",           // https://github.com/Ceterai/Enternia/wiki/Stardust
-            "^#8080f0;Enchanted^reset;", "Vionia", "Viona", // https://github.com/Ceterai/Enternia/wiki/Enchanted-Datamass
-            "^#f080f0;Miazma^reset;",                       // https://github.com/Ceterai/Enternia/wiki/Viona-Miazma-Monitoring
+            "^#20f080;Ceternia^reset;", "Cenia", "Cena", "Thoughts", "^#20f080;Impulse^reset;",  // https://ceterai.github.io/MyEnternia/Wiki/Ceternia
+            "^#2080f0;Alternia^reset;", "Alnia", "Alna", "Memories", "^#2080f0;Plasma^reset;",  // https://ceterai.github.io/MyEnternia/Wiki/Alternia
+            "^#8020f0;Enternia^reset;", "Ennia", "Enna", "Dreams", "^#8020f0;Ionic^reset;",  // https://ceterai.github.io/MyEnternia/Wiki/Enternia
+            "^#ffa8e8;Stardust^reset;", "Staris",           // https://ceterai.github.io/MyEnternia/Wiki/Stardust
+            "^#8080f0;Enchanted^reset;", "Vionia", "Viona", // https://ceterai.github.io/MyEnternia/Wiki/EnchantedDatamass
+            "^#f080f0;Miazma^reset;",                       // https://ceterai.github.io/MyEnternia/Wiki/VionaMiazmaMonitoring
             "^#f0f020;Void^reset;"
         ],
         "regions" : [  // Biomes, Minibiomes, Biome types, Worlds, Layers, etc.
@@ -73,53 +83,53 @@
         ]
     },
     "palettes" : {  // More palettes here: /.meta/palettes/colors_swaps.json
-        "omniblue" :        [ "#b0e0fc", "#60c0fc", "#2080f0", "#0050c0" ],
-        "ceterteal" :       [ "#e0b0fc", "#c060fc", "#8020f0", "#5000c0" ],
-        "ionic" :           [ "#b0fce0", "#60fcc0", "#20f080", "#00c050" ],
-        "stardust" :        [ "#fcb0e0", "#fc60c0", "#f02080", "#c00050" ],
+        "omniblue" :        [ "#b0e0fc", "#60c0fc", "#2080f0", "#0050c0" ],  // Alternia-themed: alterash prime planets, plasma, basic alta accent color.
+        "ceterteal" :       [ "#e0b0fc", "#c060fc", "#8020f0", "#5000c0" ],  // Ceternia-themed: yaara plants, impulse electricity.
+        "ionic" :           [ "#b0fce0", "#60fcc0", "#20f080", "#00c050" ],  // Enternia-themed: ionized things, ionic electricity, enterash planets.
+        "stardust" :        [ "#fcb0e0", "#fc60c0", "#f02080", "#c00050" ],  // Combines all 3 energies: marks life and stardust items.
     
         // Other color variations (omniblue hue variations)
-        "omniteal" :        [ "#b0eafc", "#60d4fc", "#209bf0", "#0069c0" ],
-        "omnicyan" :        [ "#b0f4fc", "#60e8fc", "#20b6f0", "#0082c0" ],
-        "crystal_blue" :    [ "#c9eef6", "#76c7e4", "#4e8fb8", "#366388" ],
-        "crystal_purple" :  [ "#c9dcf6", "#769be4", "#4e64b8", "#364288" ],
-        "crystal_magenta" : [ "#cec9f6", "#8b76e4", "#704eb8", "#563688" ],
-        "crystal_violet" :  [ "#f6c9ee", "#e476c7", "#b84e8f", "#883662" ],
-        "emerald" :         [ "#bcf0d4", "#78e3ac", "#41cf9b", "#1ea178" ],
-        "gheatsyn_cold" :   [ "#e2f0bc", "#c4e378", "#91cf41", "#61a11e" ],
-        "hevika_marine" :   [ "#bcdef0", "#78bde3", "#4187cf", "#1e58a1" ],
+        "omniteal" :        [ "#b0eafc", "#60d4fc", "#209bf0", "#0069c0" ],  // Teal variation of omniblue.
+        "omnicyan" :        [ "#b0f4fc", "#60e8fc", "#20b6f0", "#0082c0" ],  // Cyan variation of omniblue.
+        "crystal_blue" :    [ "#c9eef6", "#76c7e4", "#4e8fb8", "#366388" ],  // Blue crystal tones (cal).
+        "crystal_purple" :  [ "#c9dcf6", "#769be4", "#4e64b8", "#364288" ],  // Purple crystal tones.
+        "crystal_magenta" : [ "#cec9f6", "#8b76e4", "#704eb8", "#563688" ],  // Magenta crystal tones.
+        "crystal_violet" :  [ "#f6c9ee", "#e476c7", "#b84e8f", "#883662" ],  // Violet crystal tones.
+        "emerald" :         [ "#bcf0d4", "#78e3ac", "#41cf9b", "#1ea178" ],  // Emerald green tones.
+        "gheatsyn_cold" :   [ "#e2f0bc", "#c4e378", "#91cf41", "#61a11e" ],  // Cold gheatsyn crystal tones.
+        "hevika_marine" :   [ "#bcdef0", "#78bde3", "#4187cf", "#1e58a1" ],  // Marine hevika crystal tones.
     
         // Accent colors
-        "lime" :            [ "#f9fcb0", "#f3fc60", "#c5f020", "#8fc000" ],
-        "teal" :            [ "#b0fcc7", "#60fc91", "#20f081", "#00c063" ],
-        "cyan" :            [ "#b0fcf9", "#60fcf9", "#20d3f0", "#009cc0" ],
-        "red" :             [ "#fcb0c2", "#fc6082", "#f0202d", "#c00003" ],
-        "orange" :          [ "#fcccb0", "#fc9c60", "#f08f20", "#c07000" ],
-        "yellow" :          [ "#fce5b0", "#fcd060", "#f0d420", "#c0af00" ],
-        "green" :           [ "#c2fcb0", "#82fc60", "#2df020", "#03c000" ],
-        "blue" :            [ "#b0ccfc", "#6096fc", "#2049f0", "#001cc0" ],
-        "purple" :          [ "#d1b0fc", "#a660fc", "#9d20f0", "#7c00c0" ],
-        "pink" :            [ "#fcb0ea", "#fc60d4", "#f0209b", "#c00069" ],
-        "crystal" :         [ "#c9eef6", "#76c7e4", "#4e8fb8", "#366388" ],
+        "lime" :            [ "#f9fcb0", "#f3fc60", "#c5f020", "#8fc000" ],  // Lime dye color for alta clothing.
+        "teal" :            [ "#b0fcc7", "#60fc91", "#20f081", "#00c063" ],  // Teal dye color for alta clothing.
+        "cyan" :            [ "#b0fcf9", "#60fcf9", "#20d3f0", "#009cc0" ],  // Cyan dye color for alta clothing.
+        "red" :             [ "#fcb0c2", "#fc6082", "#f0202d", "#c00003" ],  // Red dye color for alta clothing.
+        "orange" :          [ "#fcccb0", "#fc9c60", "#f08f20", "#c07000" ],  // Orange dye color for alta clothing.
+        "yellow" :          [ "#fce5b0", "#fcd060", "#f0d420", "#c0af00" ],  // Yellow dye color for alta clothing.
+        "green" :           [ "#c2fcb0", "#82fc60", "#2df020", "#03c000" ],  // Green dye color for alta clothing.
+        "blue" :            [ "#b0ccfc", "#6096fc", "#2049f0", "#001cc0" ],  // Blue dye color for alta clothing.
+        "purple" :          [ "#d1b0fc", "#a660fc", "#9d20f0", "#7c00c0" ],  // Purple dye color for alta clothing.
+        "pink" :            [ "#fcb0ea", "#fc60d4", "#f0209b", "#c00069" ],  // Pink dye color for alta clothing.
+        "crystal" :         [ "#c9eef6", "#76c7e4", "#4e8fb8", "#366388" ],  // Crystal dye color for alta clothing.
     
         // Factions
-        "alta" :            [ "#f6f6f6", "#d8dcf0", "#b0b4c8", "#606478" ],
-        "alta_dark" :       [ "#707088", "#606074", "#404050", "#2c2c34" ],
-        "eds_light" :       [ "#ff6480", "#ff2c40", "#b81824", "#801c1c" ],
-        "eds" :             [ "#ca002b", "#a42b2b", "#762222", "#551b1b" ],
-        "combat" :          [ "#71d4f8", "#10b4ef", "#1090c0", "#106890" ],
-        "omniblue_dark" :   [ "#60c0fc", "#2080f0", "#0050c0", "#001054" ],
+        "alta" :            [ "#f6f6f6", "#d8dcf0", "#b0b4c8", "#606478" ],  // Standard alta colors (light).
+        "alta_dark" :       [ "#707088", "#606074", "#404050", "#2c2c34" ],  // Dark alta colors.
+        "eds_light" :       [ "#ff6480", "#ff2c40", "#b81824", "#801c1c" ],  // Light EDS colors.
+        "eds" :             [ "#ca002b", "#a42b2b", "#762222", "#551b1b" ],  // Standard EDS colors.
+        "combat" :          [ "#71d4f8", "#10b4ef", "#1090c0", "#106890" ],  // Alta combat unit colors.
+        "omniblue_dark" :   [ "#60c0fc", "#2080f0", "#0050c0", "#001054" ],  // Dark omniblue with deeper blue (#001054).
 
         // Materials
-        "titanium" :        [ "#f6f6f6", "#d8dcf0", "#b0b4c8", "#606478" ],
-        "metal" :           [ "#e6e9ea", "#c6d2d4", "#959ea2", "#464a4c" ],
-        "bion" :            [ "#606478", "#4c5064", "#383c50", "#24283c" ],
-        "eds_armor" :       [ "#707088", "#606074", "#404050", "#2c2c34" ],
-        "metal_dark" :      [ "#6d7278", "#505559", "#373b3e", "#1c1c1e" ],
-        "default" :         [ "#ffca8a", "#e0975c", "#a85636", "#6f2919" ],
+        "altan" :           [ "#f6f6f6", "#d8dcf0", "#b0b4c8", "#606478" ],  // Altan metal tones.
+        "titanium" :        [ "#e6e9ea", "#c6d2d4", "#959ea2", "#464a4c" ],  // Titanium metal tones.
+        "bion" :            [ "#606478", "#4c5064", "#383c50", "#24283c" ],  // Bion compound tones.
+        "eds_armor" :       [ "#707088", "#606074", "#404050", "#2c2c34" ],  // EDS armor material tones.
+        "metal_dark" :      [ "#6d7278", "#505559", "#373b3e", "#1c1c1e" ],  // Dark metal tones.
+        "default" :         [ "#ffca8a", "#e0975c", "#a85636", "#6f2919" ],  // Vanilla clothing colors (default).
     
         // Body colors
-        "hair_color" : [
+        "hair_color" : [  // Alta hair color palette options.
             [ "#59617c", "#45516d", "#2d3852", "#1d283a" ],
             [ "#585b63", "#484c55", "#32353e", "#22252b" ],
             [ "#b2c2f7", "#89a1d9", "#596fa3", "#3a4f73" ],
@@ -129,266 +139,592 @@
         ],
     
         // Biome
-        "bionid" :          [ "#10b4ef", "#71d4f8", "#e1f4fa", "#f4fafd" ],
-        "yaara" :           [ "#47b6ab", "#177a71", "#086458", "#074c44" ],
-        "yaara_light" :     [ "#fbe7d4", "#e2944b", "#a5601f", "#642f00" ],
-        "yaara_flower" :    [ "#ae75f0", "#713bb0", "#461e74", "#341458" ],
-        "gheatsyn" :        [ "#d4ff5a", "#b7f601", "#a7e001", "#8dbd01", "#6c9000" ],
-        "yonnur" :          [ "#9044a8", "#6a2284", "#ffd495", "#ffd495", "#ea9931", "#ae6f1d" ],
-        "aric" :            [ "#8affb0", "#36a83e", "#36a83e", "#1c6f19", "#d4ff8d", "#b1eb54", "#72a131", "#465b12" ]
+        "bionid" :          [ "#10b4ef", "#71d4f8", "#e1f4fa", "#f4fafd" ],  // Bionid biome colors (cyan-blue).
+        "yaara" :           [ "#47b6ab", "#177a71", "#086458", "#074c44" ],  // Yaara plant colors (dark teal).
+        "yaara_light" :     [ "#fbe7d4", "#e2944b", "#a5601f", "#642f00" ],  // Colors of yaara lights (warm tones).
+        "yaara_flower" :    [ "#ae75f0", "#713bb0", "#461e74", "#341458" ],  // Yaara flower colors (purple).
+        "gheatsyn" :        [ "#d4ff5a", "#b7f601", "#a7e001", "#8dbd01", "#6c9000" ],  // Gheatsyn crystal colors (lime-green).
+        "yonnur" :          [ "#9044a8", "#6a2284", "#ffd495", "#ffd495", "#ea9931", "#ae6f1d" ],  // Yonnur (warped glowing juice) colors (purple-orange).
+        "aric" :            [ "#8affb0", "#36a83e", "#36a83e", "#1c6f19", "#d4ff8d", "#b1eb54", "#72a131", "#465b12" ]  // Aric (toxic underground mushroom) colors (green).
     },
-    // Translation table (includes around 230 words/names)
+    // Translation table (includes around 446 words/names)
     "alkey" : {  // You can find definitions for most of these on Wiki, or in the `Guide to My Enternia` codex (/codex/alta/ct_my_enternia_guide.codex)
-        "alkey" : [ "language", "communication", "conversing" ],
+        // ═══════════════════════════════════════════════════════════════════════════
+        // CORE LANGUAGE & IDENTITY
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Language Foundation
+        // PRONUNCIATION NOTES:
+        // - The apostrophe (') indicates softening of the previous letter (e.g., "ashal'" has a soft 'l')
+        // - The letter 'y' represents sounds similar to close central unrounded vowels (IPA: [ɨ], [ɪ])
+        "alkey" : [ "language", "communication", "conversing", "letter g" ],  // The word "alkey" is literally the letter name for 'g', which means communication/language.
         "alta" : [ "blue-ish being", "alternative", "created one" ],
+        // # Alta Subspecies
+        "altaya" : [ "basic alta" ],  // The most common alta type (~99% of population), shorter than average humans.
+        "altari" : [ "mother alta" ],  // Very tall feminine altas, rare, viewed as guardians, often caretakers/commanders/leading scientists.
+        "alter" : [ "defender alta" ],  // Experimental subspecies created as defenders, experiment mostly failed, led to kaiter creation.
+        "kaiter" : [ "corrupted alter" ],  // Failed experiment - cold-resistant but less empathetic, escaped and formed resistance, took over planets.
+        "kaitera" : [ "corrupted altaya" ],  // Failed kaiter corruption attempts on altayas - maintain empathy/sound mind, have black eyewhites and corrupted face.
+        // # Alta Subtypes (Anomalous)
+        "enta" : [ "dream-captured alta", "entalta" ],  // Alta husk whose mind was captured by enterash dream anomaly.
+        "entalta" : [ "dream-captured alta", "enta" ],  // Full form of enta.
+        "voida" : [ "void-captured alta", "voidalta" ],  // Alta husk whose emotions were captured by the void.
+        "voidalta" : [ "void-captured alta", "voida" ],  // Full form of voida.
+        "heva" : [ "crystal-overgrown alta", "hevalta", "alta zombie" ],  // Alta "zombie" who fell sick to hevikai and was overgrown with hevika crystals.
+        "hevalta" : [ "crystal-overgrown alta", "heva", "alta zombie" ],  // Full form of heva.
+        // # Energy Types (The Three Energies + Base)
         "ceternia" : [ "cyan energy", "impulse energy", "thought" ],  // also cenia (short ver.)
         "alternia" : [ "blue energy", "plasmic energy", "memory" ],  // also alnia (short ver.)
         "enternia" : [ "purple energy", "ionic energy", "dream" ],  // also ennia (short ver.)
-        "nia" : [ "energy" ],
-        "aya" : [ "aya" ],  // proper name of a fruit, similar to mango, pear or peach.
+        "nia" : [ "energy" ],  // Base word for all energy types. Secondary meaning: an alta cuisine based around energy-based ingredients.
+        "inia" : [ "electric energy", "general electricity" ],  // Non-specific electric energy type, can be used for any of the 3 main energies.
+        // # Fundamental Concepts
+        "prime" : [ "elite", "prime", "in its true form", "saturated with energy or power" ],
+        "staris" : [ "stardust" ],  // Alkey word for stardust.
+        "munris" : [ "moondust" ],  // Alkey word for moondust.
+        "oa" : [ "wow", "hey" ],  // Exclamation.
+        "izo" : [ "cryo", "cold", "ionic" ],  // Prefix for cold/cryo-related words (izopoi, izolyar, izohivi, etc).
+        "nuro" : [ "alien", "foreign" ],  // Foreign or alien, non-alta.
+        "aun" : [ "weird" ],  // Weird or unusual.
+        "auni" : [ "odd" ],  // Odd or peculiar.
+        "aune" : [ "strange" ],  // Strange or unfamiliar.
+        // # Abstract Concepts (Semantic Field Examples)
+        "arci" : [ "technology" ],  // Uses 'k' (knowledge/technology).
+        "metei" : [ "destiny" ],  // Uses 'm' (good/destiny).
+        "nero" : [ "evil" ],  // Uses 'n' (negation/evil).
+        "das" : [ "cooperation" ],  // Uses 's' (connection/synergy).
+        "dravi" : [ "mechanics" ],  // Uses 'r' (mechanics/realisation).
+        "corgi" : [ "literature" ],  // Uses 'r' (science/realisation) + 'g' (communication).
+        "dar" : [ "work" ],  // Uses 'r' (work/action).
+        "kanai" : [ "awareness" ],  // Uses 'k' (knowledge) + 'n' (awareness).
+        "hinei" : [ "cunning" ],  // Uses 'h' (wit/cunning) + 'n' (cunning).
+        "kra" : [ "to decide" ],  // Uses 'k' (knowledge) + 'r' (realization/action). The transformation of understanding into decisive action.
+        "krai" : [ "decision" ],  // Noun form of 'kra'. Follows the verb+i pattern (mua/muai, era/erai).
+        // # Alphabet & Letters
+        // Note: "alkey" (letter g, meaning language/communication) is documented above in the main section.
+        "key" : [ "letter k" ],  // Knowledge, awareness, technology.
+        "pey" : [ "letter p" ],
+        "alpey" : [ "letter b" ],
+        "tey" : [ "letter t" ],
+        "altey" : [ "letter d" ],  // Movement, mobility.
+        "chey" : [ "letter ch" ],
+        "alchey" : [ "letter j" ],
+        "hey" : [ "letter h" ],  // Wit, cunning.
+        "alhey" : [ "letter г" ],  // Pronounced /ɦ/ (mix of h and g) - lightness, silence, relief.
+        "fey" : [ "letter f" ],
+        "alfey" : [ "letter v" ],
+        "sey" : [ "letter s" ],  // Connection, synergy, cooperation.
+        "alsey" : [ "letter z" ],
+        "shey" : [ "letter sh" ],
+        "alshey" : [ "letter zh" ],
+        "mey" : [ "letter m" ],  // Good feelings, destiny, hope. Many alta names contain 'm'.
+        "ley" : [ "letter l" ],  // Upgrade, progress, life.
+        "ney" : [ "letter n" ],  // End, negation, evil, awareness.
+        "rey" : [ "letter r" ],  // Existence, science, realisation, mechanics, work.
+        // # Pronouns & Basic Grammar
+        "na" : [ "I" ],  // First person singular.
+        "no" : [ "we" ],  // First person plural.
+        "va" : [ "you" ],  // Second person singular.
+        "vo" : [ "you" ],  // Second person plural.
+        "ta" : [ "they" ],  // Third person singular.
+        "to" : [ "they" ],  // Third person plural. Also "to" (preposition) - pronounced with short "o" sound, not "oo".
+        "a" : [ "a" ],  // Question marker, starts a general question. Also "to be" (when not at start of sentence), and "or" (pronounced "ae").
+        "ai" : [ "okay", "hi" ],  // Affirmative/greeting.
+        "aii" : [ "heyy!" ],  // Excited/emphatic version of "ai", like "hii" is an excited "hi".
+        "ni" : [ "name", "title" ],  // Name/title marker. Also "nim".
+        "ashal'" : [ "greetings", "hello" ],  // Friendly greeting, used in multiple situations.
+        "ava" : [ "friend" ],  // Singular friend.
+        "avo" : [ "friends" ],  // Plural of ava.
+        "neva" : [ "stranger", "unknown" ],  // Unknown person, outsider. Can also refer to an unfamiliar concept. Verb: to not know something.
+        "nevo" : [ "strangers", "outsiders", "foreigners" ],  // Plural of neva.
+        // # Basic Verbs
+        "ya" : [ "to have" ],
+        "ka" : [ "to know" ],
+        "ga" : [ "to speak", "to talk" ],
+        "da" : [ "to do" ],
+        "era" : [ "to exist" ],
+        "vi" : [ "to see" ],
+        "ma" : [ "to like" ],
+        "mua" : [ "to love" ],
+        // # Negation & Quantifiers
+        "ne" : [ "no", "not" ],  // Negation prefix (neka = to not know, neya = to not have).
+        "es" : [ "nothing", "0" ],  // Also the number zero in alta hexadecimal counting system.
+        "sit" : [ "everything" ],
+        // # Conjunctions
+        "i" : [ "and" ],  // Pronounced "ee".
+        "ee" : [ "and" ],  // Emphasized spelling of "i" to show pronunciation.
+        "aa" : [ "but" ],  // Pronounced "eh-eh".
+        // # Prepositions & Location
+        "'o" : [ "about" ],  // Apostrophe at the start.
+        "o" : [ "for" ],
+        "nato" : [ "on" ],  // On top of something.
+        "anto" : [ "under" ],
+        "ino" : [ "inside" ],
+        "ao" : [ "outside" ],
+        "eto" : [ "before", "past" ],
+        "teo" : [ "after", "future" ],
+        "otu" : [ "nearby", "here" ],
+        "tou" : [ "far", "there" ],
+        "ot" : [ "from" ],
+        // # Numbers (Hexadecimal System)
+        "al'" : [ "1" ],  // Pronounced with glottal stop.
+        "koi" : [ "2" ],
+        "run" : [ "3" ],
+        "in'" : [ "4" ],  // Pronounced with glottal stop.
+        "yan'" : [ "5" ],  // Pronounced with glottal stop.
+        "p'osh" : [ "6" ],  // Apostrophe indicates glottal stop before "osh".
+        "jy" : [ "7" ],
+        "fes" : [ "8" ],
+        "n'un" : [ "9" ],  // Apostrophe indicates glottal stop before "un".
+        "rai" : [ "10", "A" ],  // Hex A (decimal 10).
+        "tsy" : [ "11", "B" ],  // Hex B (decimal 11).
+        "rin'" : [ "12", "C" ],  // Hex C (decimal 12), pronounced with glottal stop.
+        "os" : [ "13", "D" ],  // Hex D (decimal 13).
+        "jun" : [ "14", "E" ],  // Hex E (decimal 14).
+        "dev" : [ "15", "F" ],  // Hex F (decimal 15).
+        "ales" : [ "16", "10" ],  // Hex 10 (decimal 16) - "the 10 of altas".
+        "koyes" : [ "32", "20" ],  // Hex 20 (decimal 32).
+        "runes" : [ "48", "30" ],  // Hex 30 (decimal 48).
+        "innes" : [ "64", "40" ],  // Hex 40 (decimal 64).
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // NATURAL WORLD (GYERA)
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Planets & Major Regions
+        "alterash" : [ "alternia world", "plasmic world" ],  // Wiki: https://ceterai.github.io/MyEnternia/Wiki/Alterash
+        "enterash" : [ "enternia world", "ionic world" ],  // Wiki: https://ceterai.github.io/MyEnternia/Wiki/Enterash
+        "io" : [ "Io", "alta space/world" ],  // Proper name, often referred to as a being. See: /codex/alta/ct_my_enternia_guide.codex
+        "iorash" : [ "Io land", "Io structs" ],  // Planets, asteroids, etc found in Io.
+        "ceterai" : [ "all that exists", "everything in existence", "universe" ],  // Also used as a proper name/last name.
+        // # Biomes & Environments
+        "antorash" : [ "underland", "underworld" ],  // /codex/alta/ct_antorash.codex, Wiki: https://ceterai.github.io/MyEnternia/Wiki/Alterash#antorash
+        "astera" : [ "cosmic land", "astro land" ],  // Generally asteroid layers orbiting alterash planets. See: /biomes/space/ct_moonrock_space_islands.biome
+        "esetera" : [ "empty space/place" ],  // See: /codex/alta/ct_esetera.codex
+        "gyera" : [ "nature" ],  // Base word for natural environments. Iora gyera = nature of the Io world. Also check "yava", which is more specific to plant life.
+        "malina" : [ "haven" ],  // Refers to Alterash Havens and is a word for haven. See: /biomes/alterash/surface/ct_alterash_haven.biome
+        "vionostera" : [ "enchanted land", "viona land" ],  // Etymology: Viona (enchanted) + tera (land). See: /codex/alta/ct_vionostera.codex
+        // # Atmospheric & Sky
+        "eva" : [ "sky", "air" ],  // See: /codex/alta/ct_eva.codex, /biomes/alterash_prime/evarus prime/ct_eva_prime.biome
+        "evarus" : [ "air force", "atmosphere" ],  // Etymology: Eva (sky) + Rus (force). See: /codex/alta/ct_evarus.codex, Wiki: https://ceterai.github.io/MyEnternia/Wiki/AlterashPrime#evarusprime
+        "evostaris" : [ "stardust sky" ],  // Etymology: Eva (sky) + Staris (stardust). See: /biomes/alterash/evarus/ct_alterash_clouds.biome, Wiki: https://ceterai.github.io/MyEnternia/Wiki/Evostaris
+        // # Caves & Underground
+        "gheatorn" : [ "gheatsyn caves" ],  // Etymology: Ghea (gheatsyn base) + Torn (ground-born). Cave-like area full of gheatsyn-moonrock formations. See: /biomes/alterash_prime/esetera/ct_gheatorn.biome
+        "gheaprism" : [ "gheatsyn prims land" ],  // Etymology: Ghea (gheatsyn base) + Prism (english word). Prims-like asteroid area full of gheatsyn prims (WIP).
+        "hevikara" : [ "overcharged crystal cave" ],  // An area saturated with hevika crystals. See: /biomes/alterash_prime/esetera depths/ct_hevika.biome
+        "enigira" : [ "ion core", "ionic core", "ionized core" ],  // See: /codex/alta/ct_ion_core.codex
+        // # Flora (Plants & Trees)
+        "aya" : [ "aya", "alta peach" ],  // proper name of a fruit, similar to mango, pear or peach.
         "ayaka" : [ "aya tree" ],  // adding endings like "ka", "ra", etc to a fruit/produce forms a type of tree, or general growth: ayaka, yaara, nivera.
         "ayakut" : [ "ayaka wood" ],  // adding endings like "kut", "rut", etc to a tree/growth forms a type of wood/plant matter: ayakut, yaarut, niverut.
         "gil" : [ "gil" ],  // proper name of a fruit.
         "tsay" : [ "tsay" ],  // proper name of a fruit.
-        "prime" : [ "elite", "prime", "in its true form", "saturated with energy or power" ],
-        // Environments
-        "alterash" : [ "alternia world", "plasmic world" ],  // Wiki: https://github.com/Ceterai/Enternia/wiki/Alterash
-        "enterash" : [ "enternia world", "ionic world" ],  // Wiki: https://github.com/Ceterai/Enternia/wiki/Enterash
-        "antorash" : [ "underland", "underworld" ],  // /codex/alta/ct_antorash.codex, Wiki: https://github.com/Ceterai/Enternia/wiki/Alterash#Antorash
-        "astera" : [ "cosmic land", "astro land" ],  // generally astroid layers orbiting alterash planets - /biomes/space/ct_moonrock_space_islands.biome
-        "esetera" : [ "empty space/place" ],  // /codex/alta/ct_esetera.codex
-        "gyera" : [ "nature" ],
-        "vionostera" : [ "enchanted land", "viona land" ],
-        "viona" : [ "enchantment", "magic" ],
-        "vionia" : [ "enchanted energy", "viona energy" ],
+        "koywa" : [ "koywa" ],  // Proper name, reed-like growth.
+        "verriskoywa" : [ "koywa" ],  // Longer version of koywa, specifying the region of growth as sandy riversides.
+        "virma" : [ "virma" ],  // Proper name, poisonous plant living in ayaka forests. See: /codex/alta/ct_virma.codex
+        "yaara" : [ "yaara", "yaa growth" ],  // Proper name. Bioluminescent plant ecosystem with lamp flowers, protective thorns, roots and watchers, guarded by Yaara Keepers.
+        "yaarut" : [ "yaara wood", "yaara root" ],  // Wood/root material from yaara trees, following the -rut/-kut pattern (ayakut, yaarut, niverut).
+        "nivera" : [ "nivera", "nive growth" ],  // Proper name. A type of plant growth system, includes varieties like nivera berries (archulin) and nivera sentia creatures.
+        "tonna" : [ "tonna" ],  // Proper name. Bioluminescent fruit that grows on tonnova trees, used in nia cuisine and energy-rich dishes like motsus.
+        "tonnova" : [ "tonna tree" ],  // Bioluminescent tree system found in Tonnova Groves, produces tonna fruits and springs, important source of bionid material.
+        "aric" : [ "mushroomy", "fungi" ],  // Generally used for anything mushroom-related.
+        "carel" : [ "crystal plant" ],  // See: /codex/alta/ct_alta_crystals.codex
+        "cocola" : [ "cocola plant", "milk fruit plant" ],  // Plant that produces fruits which can be popped to get milk. Proper alkey name.
+        "vodakoywa" : [ "water koywa", "riverside koywa" ],  // Rare riverside koywa plant variant. Etymology: voda (water) + koywa (reed-like growth).
+        "vionora" : [ "viona tree", "rainbow wood tree" ],  // Tree producing rainbow wood. Proper alkey name with viona base + -ra suffix (tree growth).
+        "turanta" : [ "turanta flower", "petal plant" ],  // Flowering plant with large useful petals. Proper alkey name.
+        "sonava" : [ "snow plant", "sona growth" ],  // Plant producing plant-based snow substance. Proper alkey name with sona base + -va suffix.
+        "ruka" : [ "ruka plant", "engineered plant" ],  // Scientific/engineered plant (e.g., Ruka 14-2 variant). Proper alkey name.
+        "phosphobulb" : [ "phospholion bulb", "irradiated bulb" ],  // Irradiated phospholion deposit in bulb form. Etymology: phospholion + bulb.
+        "akollic" : [ "akollic shroom", "wide aric shroom" ],  // Wide aric mushroom with simple cap. Aric mushroom variant with -llic suffix.
+        "coroplic" : [ "coroplic shroom" ],  // Aric mushroom variant with -plic suffix pattern.
+        "mooplic" : [ "mooplic shroom", "suspicious shroom" ],  // Suspicious-looking aric mushroom. Aric variant with -plic suffix.
+        "vyralic" : [ "vyralic shroom", "willowy shroom" ],  // Willowy aric mushroom growing lazily. Etymology: possibly vyurm/vyra- + aric + -lic suffix.
+        "kodorric" : [ "kodorric shroom", "toxic glowing shroom" ],  // Toxic glowing aric mushroom variant. Aric variant with -rric suffix.
+        "agaranic" : [ "agaranic shroom", "agaran mushroom" ],  // Giant greenish mushroom. Etymology: agaran (species) + aric (mushroom).
+        // # Anomalies & Phenomena
+        "viona" : [ "enchantment", "magic" ],  // Refers to magical/enchanted biomes and anomalies, enchanted objects and vionostera lands.
+        "vionia" : [ "enchanted energy", "viona energy" ],  // A type of energy associated with enchantment and magical anomalies, related to viona.
         "miazma" : [ "(enchanted/gravitational) anomaly", "miazma" ],
-        "malina" : [ "haven" ],  // refers to Alterash Havens: /biomes/alterash/surface/ct_alterash_haven.biome
-        "eva" : [ "sky", "air" ],  // /codex/alta/ct_eva.codex, /biomes/alterash_prime/evarus prime/ct_eva_prime.biome, Wiki: Eva Prime
-        "evarus" : [ "air force", "atmosphere" ],  // /codex/alta/ct_evarus.codex, Wiki: https://github.com/Ceterai/Enternia/wiki/Alterash-Prime#evarus-prime
-        "evostaris" : [ "stardust sky" ],  // /biomes/alterash/evarus/ct_alterash_clouds.biome, Wiki: https://github.com/Ceterai/Enternia/wiki/Evostaris
-        "gheatorn" : [ "gheatsyn caves" ],  // cave-like area full of gheatsyn-moonrock formations: /biomes/alterash_prime/esetera/ct_gheatorn.biome
-        "gheaprism" : [ "gheatsyn prims land" ],  // prims-like asteroid area full of gheatsyn prims: WIP
-        "hevikara" : [ "overcharged crystal cave" ],  // an area saturated with hevika crystals: /biomes/alterash_prime/esetera depths/ct_hevika.biome
-        "hevikai" : [ "overcharged disease" ],  // proper name, but can be translated to these.
-        "enigira" : [ "ion core", "ionic core", "ionized core" ],  // /codex/alta/ct_ion_core.codex
-        "koywa" : [ "koywa" ],  // proper name, reed-like growth.
-        "verriskoywa" : [ "koywa" ],  // longer version, specifying the region of growth as sandy riversides.
-        "sona" : [ "snow", "ice element" ],
-        "vuzia" : [ "warped" ],
-        "yaara" : [ "yaara", "yaa growth" ],  // proper name.
-        "nivera" : [ "nivera", "nive growth" ],  // proper name.
-        "virma" : [ "virma" ],  // proper name, poisonous plant living in ayaka forests: /codex/alta/ct_virma.codex
-        "tonna" : [ "tonna" ],  // proper name.
-        "tonnova" : [ "tonna tree" ],
-        "aric" : [ "mushroomy", "fungi" ],  // generally used for anything mushroom-related.
-        "io" : [ "Io", "alta space/world" ],  // proper name, often reffered to as a being: /codex/alta/ct_my_enternia_guide.codex
-        "iorash" : [ "Io land", "Io structs" ],  // planets, asteroids, etc found in Io.
-        "ceterai" : [ "all that exists", "everything in existence", "universe", "Ceterai" ],  // used as a general name, but also as proper name/last name
+        "hevikai" : [ "overcharged disease" ],  // Proper name, but can be translated to these.
+        "sona" : [ "snow", "ice element" ],  // Associated with snow/ice biomes like Tavriya, and the Sona military faction (Sona Soldiers, SG rifles).
+        "voda" : [ "water" ],  // Alkey word for water. Used in plant names like vodakoywa (water koywa).
+        "vuzia" : [ "warped" ],  // Refers to warped biomes, warped growth and mutation, often dangerous and corrupted environments.
+        // # Creatures & Life
         "asta" : [ "stardust being", "little star" ],
         "astia" : [ "stardust orchid", "Tiana", "Tia" ],
-        // Colors
-        "alto" : [ "blue/light blue" ],
-        "faro" : [ "yellow" ],
-        "miko" : [ "red/pink" ],
-        // Materials
-        "bion" : [ "bion" ],  // proper name, /items/generic/crafting/alta/bion.item, /codex/alta/ct_bionics.codex
-        "bionid" : [ "bion-organic variation that occurs in nature" ],  // /items/generic/crafting/ct_bionid.item, /codex/alta/ct_bionid.codex
-        "bionic" : [ "bion compound", "bion-based compound" ],  // you can read more about these here: /codex/alta/ct_bionics.codex (& other related pages).
-        "bionica" : [ "bion creature", "bion-based creature" ],  // altas are considered bionicas: /codex/alta/ct_bionics.codex, /codex/alta/ct_bion.codex
-        "bionium" : [ "bionium" ],  // a type of a bion compound: /codex/alta/ct_bionics.codex
-        "bionix" : [ "bionix" ],  // a type of a bion compound: /codex/alta/ct_bionics.codex
-        "dianid" : [ "dianid" ],  // a type of a bion compound: /codex/alta/ct_bionics.codex
-        "calonid" : [ "calonid" ],  // a type of a bion compound: /codex/alta/ct_bionics.codex
-        "biocaloid" : [ "biocaloid" ],  // a type of a bion compound: /codex/alta/ct_bionics.codex
-        "poi" : [ "slime" ],
-        "izopoi" : [ "cryo slime", "cryonic slime" ],
-        "izoslime" : [ "cryo slime", "cryonic slime" ],  // not pure alkey - this is a mix between izo and slime (english).
-        "isoslime" : [ "cryo slime", "cryonic slime" ],  // not pure alkey - this is a mix between izo and slime (english) - more english-sounding.
-        "phospholion" : [ "phospholion" ],  // radio-reactive metal: /codex/alta/ct_docs_mining_desc.codex, /items/generic/crafting/ct_phospholion.item
-        "yonnur" : [ "yonnur" ],  // proper name of warped bioluminescent juice: /codex/alta/ct_yonnur.codex
-        "archulin" : [ "archulin" ],  // proper name of warped nivera berries
-        "staris" : [ "stardust" ],
-        "munris" : [ "moondust" ],
-        "eni-leaves" : [ "ion-leaves", "ion-charged leaves" ],  // leaves from specific ionic plants. Found here: /items/buildscripts/ct_mimics/food.consumable
-        "yaavi" : [ "yaara eye" ],  // Found here: /items/generic/produce/ct_yaara_eye.consumable
-        // Crystals
-        "bishyn" : [ "poisonous crystal", "crystal poison" ],  // proper name, but can be translated to these.
+        "bionica" : [ "bion creature", "bion-based creature" ],  // Altas are considered bionicas. See: /codex/alta/ct_bionics.codex, /codex/alta/ct_bion.codex
+        "sentia" : [ "nivera sentia" ],  // Big spider-alta-mix creature. See: /codex/alta/ct_sentia.codex
+        "vyurm" : [ "worm", "tentacle", "appendage" ],
+        "arigaran" : [ "aric agaran", "ionic agaran" ],  // Aric (ionic/electric) variant of agarans, created by alta research organization Mita-3V Ordis. Live on Mita-3 under Alliana protection. Enable arilings to inhabit aric forests.
+        "ariling" : [ "aric being", "aric creature" ],  // Small beings inhabiting aric forests, enabled by arigaran presence. Hybrid construction: 'aric' (alkey: ionic) + '-ling' (English productive suffix for small beings). Wiki: https://ceterai.github.io/MyEnternia/Wiki/Ariling
+        "yaara keeper" : [ "yaara guardian", "yaara protector" ],  // Floran subset born in yaara groves on alterash planets. Protect yaara trees from warped infestation and alta exploitation. Wiki: https://ceterai.github.io/MyEnternia/Wiki/AboutYaaraKeepers
+        "baratoad" : [ "bara frog", "swimming frog" ],  // Frog critter with swimming fin. Etymology: Possibly bara (alkey) + toad (English) hybrid.
+        "boki" : [ "fluffy critter", "sheep-like critter" ],  // Small fluffy critter resembling sheep, horns made of stardust prisms. Cub version of boko.
+        "boko" : [ "grumpy critter", "irritable sheep" ],  // Easily-irritated critter found in alterash gardens, known for grumpy demeanor and charging at things. Adult version of boki.
+        "eeriss" : [ "snake", "hissing snake" ],  // Snake critter with relaxing hissing sounds.
+        "isogloop" : [ "gloop critter" ],  // Custom gloop variant critter (vanilla 'gloop' also exists).
+        "koyscream" : [ "screaming frog" ],  // Frog critter known for screaming.
+        "kudok" : [ "squid", "kudok squid" ],  // Squid critter.
+        "miazmur" : [ "flowing elemental", "miazma elemental" ],  // Enchanted anomaly elemental. Etymology: miazma (toxic substance) + elemental nature. Glowing elemental that can be caught with bugnet.
+        "phosnail" : [ "phospholion snail", "energy snail" ],  // Snail infused with phospholion energy. Etymology: phospholion (energy type) + snail. Small bean that can be caught with bugnet and put in bottle.
+        "yaafrog" : [ "yaara frog", "sacred frog" ],  // Frog from yaara groves. Etymology: yaara (sacred tree) + frog.
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // MATERIALS & RESOURCES
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Colors
+        "alto" : [ "blue/light blue" ],  // Word for blue color (e.g., "alto eva" = blue sky).
+        "faro" : [ "yellow" ],  // Word for yellow color.
+        "miko" : [ "red/pink" ],  // Word for red/pink color (e.g., "miko gil" = red/pink gil fruit).
+        "uo" : [ "color" ],  // Base word for color.
+        "spectro" : [ "rainbow", "spectrum" ],  // Rainbow/full spectrum of colors.
+        "odei" : [ "gradient" ],  // Color gradient or smooth transition between colors.
+        "koal" : [ "palette" ],  // Color palette or collection of colors.
+        "kumo" : [ "orange-red" ],  // Specific color: orange-red.
+        "vinkumo" : [ "dark orange-red", "brown" ],  // Dark orange-red / brown color. Compound: vin (dark) + kumo (orange-red).
+        "ciro" : [ "orange" ],  // Orange color.
+        "yolo" : [ "yellow" ],  // Yellow color (alternative to faro).
+        "yezo" : [ "green" ],  // Green color.
+        "ceto" : [ "ceterteal", "cyan-teal" ],  // Ceterteal - cyan/teal color associated with ceternia.
+        "ento" : [ "purple", "ionic purple" ],  // Purple color associated with enternia/ionic energy.
+        "esso" : [ "black" ],  // Black color.
+        "avesso" : [ "light black", "darker grey" ],  // Light black / grey color. Compound: ave (light) + esso (black).
+        "eseo" : [ "transparent", "clear" ],  // Transparent/clear (no color).
+        "eseous" : [ "transparent dye", "clear dye", "color remover" ],  // Transparent/clear dye for removing colors. Derived from eseo.
+        "sito" : [ "white" ],  // White color.
+        "nulo" : [ "deep blue", "dark blue" ],  // Deep/dark blue color.
+        "vin" : [ "dark" ],  // Dark shade or darkness.
+        "ave" : [ "light", "bright" ],  // Light shade or brightness.
+        "rei" : [ "ray" ],  // Ray of light.
+        "dea" : [ "wave" ],  // Wave (light wave, energy wave).
+        // # Dyes (clothing dyes with -us suffix)
+        "altous" : [ "blue dye" ],  // Blue clothing dye. Derived from alto + -us suffix.
+        "farous" : [ "yellow dye" ],  // Yellow clothing dye. Derived from faro + -us suffix.
+        "mikous" : [ "red/pink dye" ],  // Red/pink clothing dye. Derived from miko + -us suffix.
+        "cirous" : [ "orange dye" ],  // Orange clothing dye. Derived from ciro + -us suffix.
+        "vinkumous" : [ "brown dye" ],  // Brown clothing dye. Derived from vinkumo + -us suffix.
+        "yezous" : [ "green dye" ],  // Green clothing dye. Derived from yezo + -us suffix.
+        "entous" : [ "purple dye" ],  // Purple clothing dye. Derived from ento + -us suffix.
+        "essous" : [ "black dye" ],  // Black clothing dye. Derived from esso + -us suffix.
+        "avessous" : [ "grey dye" ],  // Grey clothing dye. Derived from avesso + -us suffix.
+        "sitous" : [ "white dye" ],  // White clothing dye. Derived from sito + -us suffix.
+        // # Bion Compounds
+        "bion" : [ "bion" ],  // Proper name. See: /items/generic/crafting/alta/bion.item, /codex/alta/ct_bionics.codex
+        "bionid" : [ "bion-organic variation that occurs in nature" ],  // See: /items/generic/crafting/ct_bionid.item, /codex/alta/ct_bionid.codex
+        "bionic" : [ "bion compound", "bion-based compound" ],  // You can read more about these here. See: /codex/alta/ct_bionics.codex (& other related pages)
+        "bionium" : [ "bionium" ],  // A type of bion compound. See: /codex/alta/ct_bionics.codex
+        "bionix" : [ "bionix" ],  // A type of bion compound. See: /codex/alta/ct_bionics.codex
+        "dianid" : [ "dianid" ],  // A type of bion compound. See: /codex/alta/ct_bionics.codex
+        "calonid" : [ "calonid" ],  // A type of bion compound. See: /codex/alta/ct_bionics.codex
+        "biocaloid" : [ "biocaloid" ],  // A type of bion compound. See: /codex/alta/ct_bionics.codex
+        // # Crystals
         "cal" : [ "crystal" ],
         "calin" : [ "crystalline", "crystallic environment/area" ],
-        "calline" : [ "crystalline" ],  // not pure alkey - this is a mix between cal/calin and crystalline (english).
-        "gheatsyn" : [ "crystallic liquid", "liquid crystal" ],  // proper name, but can be translated to these.
-        "tsyntex" : [ "tsyntex" ],  // crystallization/decryst-n under electric pressure: /items/active/weapons/ranged/alta/blaster/ct_tsyntex.activeitem
-        "hevika" : [ "overcharged crystal", "saturated crystal" ],  // proper name, but can be translated to these.
-        "calotorn" : [ "geode" ],  // /codex/alta/ct_alta_crystals.codex
-        "soneva" : [ "ice crystal" ],  // /codex/alta/ct_alta_crystals.codex
-        "statsyn" : [ "stardust crystal" ],  // /codex/alta/ct_alta_crystals.codex
-        "mical" : [ "pink crystal" ],  // /codex/alta/ct_alta_crystals.codex
-        "carel" : [ "crystal plant" ],  // /codex/alta/ct_alta_crystals.codex
-        // Creatures
-        "sentia" : [ "nivera sentia" ],  // big spider-alta-mix creature: /codex/alta/ct_sentia.codex
-        "vyurm" : [ "worm", "tenctacle", "appendage" ],
-        // Artificial Environment
-        "tek" : [ "lab", "laboratory" ],
-        "evia" : [ "ship", "spaceship" ],
-        "ordis" : [ "company", "organization", "faction", "order" ],
-        // Factions
-        "faradea" : [ "faradea" ],  // proper name, prefix "far" refers to the power of will and the color yellow (faro). Find on Wiki for more info.
-        "ghearun" : [ "ghearun" ],  // proper name, stems from gheatsyn. More: /codex/alta/ct_ghearun.codex
-        "al'deron" : [ "alderon" ],  // proper name of a mothership.
-        "neiteru" : [ "neiteru" ],  // proper name of a research group like A.R.C.O, Tserera, Project C.T., etc.
-        "tserera" : [ "tserera" ],  // proper name of a research group like A.R.C.O, Neiteru, Project C.T., etc.
-        "unika" : [ "unika" ],  // proper name.
-        "perizhad" : [ "perizhad" ],  // proper name.
-        // Professions, Hobbies, Lifestyle
+        "calline" : [ "crystalline" ],  // Not pure alkey - this is a mix between cal/calin and crystalline (english).
+        "bishyn" : [ "poisonous crystal", "crystal poison" ],  // Proper name, but can be translated to these.
+        "gheatsyn" : [ "crystallic liquid", "liquid crystal" ],  // Proper name, but can be translated to these.
+        "tsyntex" : [ "tsyntex" ],  // Crystallization/decrystallization under electric pressure. See: /items/active/weapons/ranged/alta/blaster/ct_tsyntex.activeitem
+        "hevika" : [ "overcharged crystal", "saturated crystal" ],  // Proper name, but can be translated to these.
+        "calotorn" : [ "geode" ],  // Etymology: Cal (crystal) + Torn (ground-born). See: /codex/alta/ct_alta_crystals.codex
+        "soneva" : [ "ice crystal" ],  // See: /codex/alta/ct_alta_crystals.codex
+        "statsyn" : [ "stardust crystal" ],  // See: /codex/alta/ct_alta_crystals.codex
+        "mical" : [ "pink crystal" ],  // See: /codex/alta/ct_alta_crystals.codex
+        // # Slimes & Organics
+        "poi" : [ "slime" ],  // Base word for slime creatures and materials.
+        "izopoi" : [ "cryo slime", "cryonic slime" ],
+        "izoslime" : [ "cryo slime", "cryonic slime" ],  // Not pure alkey - this is a mix between izo and slime (english).
+        "isoslime" : [ "cryo slime", "cryonic slime" ],  // Not pure alkey - this is a mix between izo and slime (english), more english-sounding.
+        "yonnur" : [ "yonnur" ],  // Proper name of warped bioluminescent juice. See: /codex/alta/ct_yonnur.codex
+        "archulin" : [ "archulin" ],  // Proper name of warped nivera berries.
+        "yon" : [ "glow", "glowing" ],  // Base word for glowing/bioluminescent properties.
+        "yora" : [ "glowing fibre" ],  // Etymology: Yon (glow) + -ra suffix (growth). Glowing plant fibres.
+        // # Minerals & Metals
+        "phospholion" : [ "phospholion" ],  // Radio-reactive metal. See: /codex/alta/ct_docs_mining_desc.codex, /items/generic/crafting/ct_phospholion.item
+        // # Plant Materials
+        "eni-leaves" : [ "ion-leaves", "ion-charged leaves" ],  // Leaves from specific ionic plants. See: /items/buildscripts/ct_mimics/food.consumable
+        "yaavi" : [ "yaara eye" ],  // Etymology: Yaa (yaara base part) + vi (to see). See: /items/generic/produce/ct_yaara_eye.consumable
+        "kog" : [ "paper" ],  // Etymology: K (knowledge) + g (communication). Material for recording knowledge and communication, traditionally made from ayakut (ayaka wood).
+        // # Crafting Components
+        "calar" : [ "electronics", "crystal electronics" ],  // Etymology: Cal (crystal) + -ar suffix. Used in calotronics (crystal electronics).
+        "lyar" : [ "wire" ],  // Base word for wiring components (izolyar = isolated wire).
+        "gir" : [ "core", "energy core" ],  // Used in energy cores: cenia gir (ceternia core), phosigir (phospholion core).
+        "moltengir" : [ "molten core", "heat core" ],  // Etymology: Molten (English) + gir (core). Hybrid term for heat-based core technology.
+        "telegir" : [ "teleporter core" ],  // Etymology: Tele- (English prefix for distance) + gir (core). Hybrid term for imported teleportation technology.
+        "rist" : [ "shard", "crystal fragment" ],  // Used for energy shards: alnia rist (alternia shard).
+        "faa" : [ "sphere", "orb" ],  // Used in energy spheres: enter-faa, ceter-faa, alter-faa.
+        "initan" : [ "composite", "composite material" ],  // Composite armor material used in alta equipment.
+        "edst" : [ "EDS armor unit" ],  // Abbreviation for EDS armor crafting material.
+        "izolyar" : [ "isolated wire", "ionic wire" ],  // Etymology: Izo (cryo/ionic) + lyar (wire).
+        "phosigir" : [ "phospholion core" ],  // Etymology: Phospholion + gir (core).
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // ALTA SOCIETY & CIVILIZATION
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Facilities & Infrastructure
+        "tek" : [ "lab", "laboratory" ],  // Refers to alta laboratory environments, research facilities, often underground in esetera spaces with bion equipment.
+        "evia" : [ "ship", "spaceship" ],  // Refers to alta spaceship facilities and interiors, like motherships (Al'deron) and high-tier ship equipment.
+        "ordis" : [ "company", "organization", "faction", "order" ],  // Used for alta factions and companies (A.R.C.O., Ghearun, Hevika Ordis, Yava Gyera Ordis, etc.).
+        // # Major Factions & Organizations
+        "faradea" : [ "faradea" ],  // Proper name, prefix "far" refers to the power of will and the color yellow (faro). Find on Wiki for more info.
+        "ghearun" : [ "ghearun" ],  // Proper name, stems from gheatsyn. See: /codex/alta/ct_ghearun.codex
+        "al'deron" : [ "alderon" ],  // Proper name of a mothership.
+        "neiteru" : [ "neiteru" ],  // Proper name of a research group like A.R.C.O, Tserera, Project C.T., etc.
+        "tserera" : [ "tserera" ],  // Proper name of a research group like A.R.C.O, Neiteru, Project C.T., etc.
         "arco" : [ "science in action", "technology" ],  // A.R.C.O. is a tech company, its name is an abbreviation that also ends up forming a word "arco".
-        "diva" : [ "alta metrocop" ],  // this is not a direct translation, but the closest description of what an alta diva is.
-        "scava" : [ "scout" ],
-        "varda" : [ "security", "guardian" ],
-        "arknite" : [ "alta arknight", "warrior of flight" ],
-        "aena" : [ "dreamer" ],  // an alta dreamer - alta + ennia, or enternia.
-        "arca" : [ "researcher", "scientist" ],  // also arcia or arkia
-        "arcana" : [ "alta gladiator", "alta berserker" ],  // not a direct translation: /items/active/weapons/melee/alta/heavy/ct_plasmasword.activeitem
-        "arkana" : [ "alta gladiator", "alta berserker" ],  // same as arcana
-        "glasta" : [ "soldier", "combat unit" ],
-        // Equipment
+        // # Companies & Enterprises
+        "unika" : [ "unika" ],  // Furniture company. See: /.meta/scripts/wiki/pages/result/Unika/README.md
+        "perizhad" : [ "perizhad" ],  // Fashion company. See: /.meta/scripts/wiki/pages/result/Perizhad/README.md
+        // # Professions & Roles (Security & Combat)
+        "diva" : [ "alta metrocop" ],  // This is not a direct translation, but the closest description of what an alta diva is. Wears Diva Veus light armor with visor.
+        "scava" : [ "scout" ],  // Alta scout profession, wears Scava Veus armor set, focuses on mobility and reconnaissance, often uses protospears.
+        "varda" : [ "security", "guardian" ],  // Alta security guard profession, wears Varda Veus armor, part of security hierarchy (Varda > EDS-Varda > Prime Varda).
+        "arknite" : [ "alta arknight", "warrior of flight" ],  // Elite alta warrior order, protects altas from the sky, uses Eva Protos shields and Arknite Taum equipment.
+        "glasta" : [ "soldier", "combat unit" ],  // Alta combat soldier profession, wears Glasta Veus (Combat armor set), part of alta army with universal equipment.
+        // # Professions & Roles (Other)
+        "aena" : [ "dreamer" ],  // An alta dreamer - alta + ennia, or enternia.
+        "arca" : [ "researcher", "scientist" ],  // Also arcia or arkia.
+        "arcana" : [ "alta gladiator", "alta berserker" ],  // Not a direct translation. See: /items/active/weapons/melee/alta/heavy/ct_plasmasword.activeitem
+        "arkana" : [ "alta gladiator", "alta berserker" ],  // Same as arcana.
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // EQUIPMENT & TECHNOLOGY
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Armor & Protective Gear
         "veus" : [ "set of things", "full uniform/equipment set" ],
         "taum" : [ "shield", "sturdy protection" ],
         "pad" : [ "shield", "sturdy protection" ],
+        "proto" : [ "energy-protective", "connected/protected/united" ],  // unlike prime, proto often refers to the alta way of calling protection/defense - prot/protei.
+        // Protosystems are defensive energy systems, protohelmets are special "energy protection" helmets, Protolaris is a name of a high-tier shield, etc
+        "nit" : [ "helmet", "head armor" ],  // Armor naming pattern: [type] + nit (Protonit, Varda Nit, Glasta Nit, etc).
+        "gard" : [ "chest guard", "chest armor" ],  // Armor naming pattern: [type] + gard (Prime Gard, Gaush Gard, EDS Gard, etc).
+        "fazh" : [ "wear", "clothing", "chest piece" ],  // Also used for chest armor alongside gard.
+        "ling" : [ "leg armor", "greaves" ],  // Armor naming pattern: [type] + ling (Prime Nia Ling, EDS Ling, etc).
+        "linko" : [ "leg armor", "greaves" ],  // Variant of ling (Sona Linko, Protolinko).
+        "grom" : [ "heavy helmet", "great helm" ],  // Heavy armor naming pattern: [type] + grom (Prime Grom, Avari Grom, etc).
+        "niacor" : [ "energy core", "energy generator" ],  // Back item naming pattern: [type] + niacor (Prime Niacor, Avari Niacor).
+        "amaikav" : [ "pack", "backpack" ],  // Back item naming pattern: [type] + amaikav (Varda Amaikav, etc).
+        "mesh" : [ "mask" ],  // Armor naming suffix for masks (Sona Glasta Mesh).
+        "viz" : [ "visor" ],  // Visor suffix (Gaushviz).
+        "cora" : [ "crown", "headpiece" ],  // Crown naming (Stante Cora).
+        "virexi" : [ "thrusters", "boosters" ],  // Back item thrusters (Gaush Virexi).
+        // # Energy & Power
         "nion" : [ "energy cell", "accumulator", "battery" ],
+        "niaton" : [ "energy halter", "energy stunner" ],  // In full it is "nia tonn", something that uses energy to stop things. (ct_alta_stun_stick, ct_entermace)
+        // # Data & Information
         "arkves" : [ "datamass", "a pack/bundle/storage of data" ],
-        "nami" : [ "my personal", "personal", "private" ],
+        // # Robotics
         "droi" : [ "robot", "robotic" ],
         "drei" : [ "drone" ],
         "dron" : [ "droid" ],
-        "niaton" : [ "energy halter", "energy stunner" ],  // in full it is "nia tonn", something that uses energy to stop things. (ct_alta_stun_stick, ct_entermace)
-        "isk" : [ "spear-like", "pointy stick", "spike", "pike" ],  // used to describe spear-like weapons and spikes. Doesn't have to be sharp.
-        "vir" : [ "visor", "ocular" ],  // most integrated and standalone alta visors are called virs.
-        "proto" : [ "energy-protective", "connected/protected/united" ],  // unlike prime, proto often refers to the alta way of calling protection/defense - prot/protei.
-        // Protosystems are defensive energy systems, protohelmets are special "energy protection" helmets, Protolaris is a name of a high-tier shield, etc
-        // Food stuff
-        "minto" : [ "minto" ],  // proper name.
-        "motsu" : [ "motsu" ],  // proper name, a type of plant-only soup.
-        "ciranga" : [ "ciranga" ],  // proper name, a citrus-like taste made from random fruits.
-        "gillimon" : [ "gillimon" ],  // proper name, a gil-poi mix.
-        "kada" : [ "kada" ],  // proper name, a type of dish made inside of a fruit, using its other parts as separate ingredients.
-        "vermont" : [ "vermont" ],  // proper name.
-        "fival'do" : [ "fivaldo" ],  // proper name.
-        "heecho" : [ "heecho" ],  // proper name.
-        "natal" : [ "natal" ],  // proper name.
-        "niatto" : [ "energy-rich" ],  // proper name, but can be translated to these.
-        "onitti" : [ "onitti" ],  // proper name.
-        "rimar" : [ "rimar" ],  // proper name.
-        "haruplavu_venetto" : [ "haruplavu_venetto" ],  // proper name.
-        "mohitava" : [ "yava mojito" ],  // proper name, mojito made using ingredients from alta yava cuisine.
-        "pavolda" : [ "pavolda" ],  // proper name.
-        "gharus" : [ "gharus" ],  // proper name, a certain spicy-meaty taste/style.
-        "markvin" : [ "markvin" ],  // proper name - a riverside multifruit mix with a mango-ish aftertaste.
-        "viola" : [ "viola" ],  // proper name.
-        "poivani" : [ "poivani" ],  // proper name, slime (poi) based.
-        "keromix" : [ "keromix" ],  // proper name of a taste mix resulting in red coloration.
-        "ayakoycalin" : [ "ayabaycalin" ],  // proper name, slight differences when translated to english.
-        "gheamont" : [ "gheatsyn vermont" ],
-        "maito" : [ "spicy" ],
-        "yae" : [ "passion" ],
-        "estra" : [ "desire", "lust", "pursuit" ],
-        "runeva" : [ "runeva" ],  // with ru meaning 3, this refers to the 3 main ingredients of runeva cuisine - aya, gil and tsay.
-        "yava" : [ "plant-based" ],
-        // Unique - concepts that are only mentioned once or twice in special items or codexes
-        // From /items/buildscripts/ct_mimics/tool.activeitem:
-        "sura" : [ "sura" ],  // proper name, mentioned in "presets.suria"
-        "suria" : [ "sura energy" ],  // mentioned in "presets.suria"
-        // From /items/buildscripts/ct_mimics/food.consumable:
-        "junilin" : [ "junilin", "juni crystal" ],  // proper name, mentioned in "presets.juni_porridge_w_galo"
-        "juni" : [ "juni", "junilin fruit" ],  // proper name, mentioned in "presets.juni_porridge_w_galo"
-        "chinid" : [ "chinid" ],  // proper name, a type of crystal plant mentioned in "presets.juni_porridge_w_galo"
-        "yukva" : [ "yukva" ],  // proper name, a berry plant mentioned in "presets.graa_venetto"
-        "galo" : [ "galo" ],  // proper name, a mix of ingredients mentioned in "presets.juni_porridge_w_galo"
-        "koichi pea" : [ "koichi pea" ],  // a mix of a word koichi (type of plant, proper name) and pea (english) mentioned in "presets.juni_porridge_w_galo"
-        "alunika" : [ "alunika" ],  // proper name.
-        "cuva" : [ "cuva" ],  // a made-up fruit/essence of uknown origin.
-        "cuvia" : [ "cuva energy" ],
-        // From /items/buildscripts/ct_mimics/head.head:
-        "felistraza" : [ "felistraza" ],  // proper name of a flower.
-        // From /plants/bushes/ground/ct_yaara/ct_yaara.bush:
-        "ialista" : [ "ialista" ],  // proper name.
-        "bayun" : [ "bayun" ],  // proper name.
-        "bayo" : [ "bayo" ],  // proper name.
-        "caloya" : [ "caloya" ],  // proper name.
-        // Given names & more proper names
+        "nami" : [ "my personal", "personal", "private" ],
+        // # Weapons & Tools
+        "isk" : [ "spear-like", "pointy stick", "spike", "pike" ],  // Used to describe spear-like weapons and spikes. Doesn't have to be sharp.
+        "vir" : [ "visor", "ocular" ],  // Most integrated and standalone alta visors are called virs.
+        // # Medical & Consumables
+        "helis" : [ "stimulant", "enhancement", "boost" ],  // Consumable naming pattern: [type] + helis (Cenia Helis, Alnia Helis, etc).
+        "protis" : [ "shield", "protection" ],  // Consumable shield naming pattern: [type] + protis (Ruprotis, Niaprotis, etc).
+        "amik" : [ "medical aid", "bandage" ],  // Medical item naming pattern: [material] + amik (Ayaka Amik, Mika Amik).
+        "netrima" : [ "antidote", "cure", "neutralizer" ],  // Antidote naming pattern: [condition] + netrima (Hevikai Netrima).
+        "tsor" : [ "thorns", "repellent" ],  // Thorns/repellent things (thorns are grown to repel). Used in Tsor Helis.
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // CULINARY ARTS (FOOD & CUISINE)
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Cuisine Styles
+        "runeva" : [ "runeva" ],  // With ru meaning 3, this refers to the 3 main ingredients of runeva cuisine - aya, gil and tsay.
+        "yava" : [ "plant-based" ],  // Yava cuisine style, purely herb-based dishes using vitamin-rich plants (yaara, koywa), focuses on health improvement and regeneration.
+        // "nia" is also used to refer to energy-based cuisine style.
+        // "calin" is also used to refer to crystal-based cuisine style.
+        // "alta cuisine" is used to refer to any alta cuisine, but also to any mixed alta cuisine that doesn't fall into specific cuisines.
+        // # Dishes & Preparations
+        "chi" : [ "tea" ],  // Tea preparation pattern: [ingredient] + chi (ayachi, gilchi, tsaychi, etc.).
+        "izohivi" : [ "ice cream" ],  // Etymology: Izo (cold/cryo) + hivi. Cold dessert preparation.
+        "feeri" : [ "premium ice cream", "fairy" ],  // Premium ice cream variant, name suggests magical/fairy-like quality.
+        "v'ei" : [ "jam" ],  // Fruit preserve/jam preparation.
+        "noi" : [ "honey" ],  // Sweet syrup/honey preparation or ingredient.
+        "nur" : [ "fresh", "juice", "extract" ],  // Fresh juice or extract preparation. Used in yonnur (warped glow extract).
+        "erin" : [ "essence", "premium fresh" ],  // Premium fresh/essence preparation, higher quality than nur.
+        "kesa" : [ "cooked" ],  // General cooking preparation method.
+        "kui" : [ "boiled" ],  // Boiling preparation method.
+        "koyu" : [ "garnish" ],  // Garnish or topping preparation.
+        "gava" : [ "baked" ],  // Baking preparation method.
+        "puvi" : [ "candy" ],  // Candy/sweet confection preparation.
+        "ovak" : [ "cake" ],  // Cake preparation or baked dessert.
+        "muai" : [ "cake topping", "kiss" ],  // Cake topping/decoration, secondary meaning suggests affectionate gesture.
+        "choni" : [ "cookie" ],  // Cookie/biscuit preparation.
+        "pop" : [ "popcorn" ],  // Popped grain snack.
+        "fizh" : [ "fizzy", "carbonated" ],  // Carbonated/fizzy drink preparation.
+        "yaki" : [ "grilled" ],  // Grilling preparation method.
+        "minto" : [ "minto" ],  // Proper name.
+        "motsu" : [ "motsu" ],  // Proper name, a type of plant-only soup.
+        "ciranga" : [ "ciranga" ],  // Proper name, a citrus-like taste made from random fruits.
+        "gillimon" : [ "gillimon" ],  // Proper name, a gil-poi mix.
+        "kada" : [ "kada" ],  // Proper name, a type of dish made inside of a fruit, using its other parts as separate ingredients.
+        "vermont" : [ "vermont" ],  // Proper name.
+        "fival'do" : [ "fivaldo" ],  // Proper name.
+        "heecho" : [ "heecho" ],  // Proper name.
+        "natal" : [ "natal" ],  // Proper name.
+        "niatto" : [ "energy-rich" ],  // Proper name, but can be translated to these.
+        "onitti" : [ "onitti" ],  // Proper name.
+        "rimar" : [ "rimar" ],  // Proper name.
+        "haruplavu_venetto" : [ "haruplavu_venetto" ],  // Proper name.
+        "mohitava" : [ "yava mojito" ],  // Proper name, mojito made using ingredients from alta yava cuisine.
+        "pavolda" : [ "pavolda" ],  // Proper name.
+        "ayakoycalin" : [ "ayabaycalin" ],  // Proper name, slight differences when translated to english.
+        "gheamont" : [ "gheatsyn vermont" ],  // A food item combining gheatsyn crystals with vermont (calin cuisine style, crystal-based dishes).
+        // # Flavors & Ingredients
+        "mintorish" : [ "minto spice" ],  // Spice derived from minto, adds specific flavor profile.
+        "gharush" : [ "gharus spice" ],  // Gharus spice, adds spicy-meaty flavor to dishes.
+        "ayaris" : [ "aya powder" ],  // Powdered aya fruit, used as ingredient or flavoring.
+        "enlid'on" : [ "ionice cube" ],  // Ionic ice cube, cold ingredient with electric properties.
+        "zandarm" : [ "zandarm" ],  // Tart ingredient, adds sour/tart flavor to dishes.
+        "yakuro" : [ "grilled dish style" ],  // Grilled preparation style, related to yaki (grilled).
+        "amavali" : [ "lifespring", "life water" ],  // Special water with life-giving properties, premium ingredient.
+        "altamisu" : [ "alta soup" ],  // Alta-style soup.
+        "gharus" : [ "gharus" ],  // Proper name, a certain spicy-meaty taste/style.
+        "markvin" : [ "markvin" ],  // Proper name - a riverside multifruit mix with a mango-ish aftertaste.
+        "viola" : [ "viola" ],  // Proper name.
+        "poivani" : [ "poivani" ],  // Proper name, slime (poi) based.
+        "keromix" : [ "keromix" ],  // Proper name of a taste mix resulting in red coloration.
+        "maito" : [ "spicy" ],  // A spicy ingredient used in tea preparations, appears in maito_tea recipes.
+        "yae" : [ "passion" ],  // Refers to passion/intensity in food, also a variant of tea preparation style.
+        "estra" : [ "desire", "lust", "pursuit" ],  // Also verb form: "to desire". Estralis extract/sap, a natural juice from estralis vyurm (pink worm plant), used in drinks and cuisine.
+        "soyi" : [ "soyi" ],  // Baked aya & gil powder dessert. See: /codex/alta/ct_alta_crystals.codex
+        "allibanas" : [ "allibanas" ],  // Small warm dishes named after Alliana. See: /codex/alta/ct_alta_crystals.codex
+        "shokka" : [ "shokka" ],  // Sweet meaty nia stew. See: /codex/alta/ct_alta_crystals.codex
+        "jinighat" : [ "jinighat" ],  // Advanced dish using rare cojil crystals. See: /codex/alta/ct_alta_crystals.codex
+        "cojil" : [ "cojil crystal", "soury-hot crystal" ],  // Rare volcanic underwater crystal. See: /codex/alta/ct_alta_crystals.codex
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // RARE & UNIQUE CONCEPTS
+        // ═══════════════════════════════════════════════════════════════════════════
+        // # Descriptors & Adjectives
+        "yu" : [ "token", "marker", "symbol" ],  // Used to mark or denote something specific.
+        "avari" : [ "imperial" ],  // Imperial/regal descriptor, often used in high-tier equipment (Avari Grom, Avari Niacor).
+        "gaush" : [ "battle", "combat", "military" ],  // Battle/combat descriptor (Gaushviz, Gaush Gard, Gaush Virexi).
+        "strish" : [ "strange", "alien" ],  // Strange/alien descriptor, marks unusual or exotic items.
+        "animus" : [ "spirit", "soul" ],  // Spirit/soul concept, used in philosophical or mystical contexts.
+        // # Rare Terms
+        "sura" : [ "sura" ],  // Proper name, mentioned in "presets.suria". See: /items/buildscripts/ct_mimics/tool.activeitem
+        "suria" : [ "sura energy" ],  // Mentioned in "presets.suria". See: /items/buildscripts/ct_mimics/tool.activeitem
+        "junilin" : [ "junilin", "juni crystal" ],  // Proper name, mentioned in "presets.juni_porridge_w_galo". See: /items/buildscripts/ct_mimics/food.consumable
+        "juni" : [ "juni", "junilin fruit" ],  // Proper name, mentioned in "presets.juni_porridge_w_galo". See: /items/buildscripts/ct_mimics/food.consumable
+        "chinid" : [ "chinid" ],  // Proper name, a type of crystal plant mentioned in "presets.juni_porridge_w_galo". See: /items/buildscripts/ct_mimics/food.consumable
+        "yukva" : [ "yukva" ],  // Proper name, a berry plant mentioned in "presets.graa_venetto". See: /items/buildscripts/ct_mimics/food.consumable
+        "galo" : [ "galo" ],  // Proper name, a mix of ingredients mentioned in "presets.juni_porridge_w_galo". See: /items/buildscripts/ct_mimics/food.consumable
+        "koichi pea" : [ "koichi pea" ],  // A mix of a word koichi (type of plant, proper name) and pea (english) mentioned in "presets.juni_porridge_w_galo". See: /items/buildscripts/ct_mimics/food.consumable
+        "alunika" : [ "alunika" ],  // Proper name.
+        "cuva" : [ "cuva" ],  // A made-up fruit/essence of unknown origin.
+        "cuvia" : [ "cuva energy" ],  // Adding "ia" to a fruit/produce forms a type of energy/essence: cuvia, tsayia, gilia.
+        "felistraza" : [ "felistraza" ],  // Proper name of a flower. See: /items/buildscripts/ct_mimics/head.head
+        "ialista" : [ "ialista" ],  // Proper name. See: /plants/bushes/ground/ct_yaara/ct_yaara.bush
+        "bayun" : [ "bayun" ],  // Proper name. See: /plants/bushes/ground/ct_yaara/ct_yaara.bush
+        "bayo" : [ "bayo" ],  // Proper name. See: /plants/bushes/ground/ct_yaara/ct_yaara.bush
+        "caloya" : [ "caloya" ],  // Proper name. See: /plants/bushes/ground/ct_yaara/ct_yaara.bush
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // PROPER NAMES (PEOPLE & ITEMS)
+        // ═══════════════════════════════════════════════════════════════════════════
         "names" : [  // Note that this might overlap with some entries in the alkey section.
             // People (plus everything from /species/alta_namegen.config)
             "Protea",  // Stardust scout - once a regular scout, she has done great things and became a hero and an icon among altas, saving numerous alta lives.
-            "Alliana",  // proper name of the main alta capital, but also of its empress, Alliana.
-            "Celestia",
-            "Mira",
-            "Elin",
+            // Commander Order / First Altas (alta prototypes created by Celestia with help of Io to give lonely stardust beings friends)
+            "Mira",  // The very first "alta" - an AI who uses an android body (first alta body prototype). Goals: alta progress and ensuring fallen stars don't feel alone. See: /codex/alta/ct_alta_security.codex, /.meta/scripts/wiki/pages/result/Orchid/README.md
+            "Alliana",  // The very first altari - kind and motherly empress of the main alta capital (also named Alliana) on Alta-1. Beloved by all altas.
+            "Elin",  // The very first altaya - somewhat shy alta who became the actual alta prototype. All altayas are grown from her blueprint in Elin Gardens.
+            "Celestia",  // All-powerful stardust being, mother of stars, considered an alta by altas despite being a stardust being. See: /codex/alta/ct_alta_lore_*.codex
             "Tiana",  // Little Orchid // check out "astia" in the "alkey" section.
-            "Ceterai",  // check out "ceterai" in the "alkey" section.
-            "Lenn",
-            "Estria",  // a nivera sentia's name
-            "Octavia",
-            "Sonia",
-            "Naya",  // from /codex/alta/ct_ayaka.codex or https://github.com/Ceterai/Enternia/wiki/Ayaka-Gardener%27s-Notes
+            "Ceterai",  // Check out "ceterai" in the "alkey" section.
+            "Lenn",  // Major alta character.
+            "Estria",  // A nivera sentia's name.
+            "Octavia",  // Major alta character.
+            "Sonia",  // Major alta character.
+            "Naya",  // See: /codex/alta/ct_ayaka.codex or https://ceterai.github.io/MyEnternia/Wiki/AyakaGardenersNotes
+            "Miara",  // Grand alta chef, author of Alta Culinary Guide and Alta Chef's Guide. See: /codex/alta/ct_alta_food.codex, /codex/alta/ct_alta_food_2.codex
+            "Alasta",  // Alta dendrarium specialist. See: /codex/alta/ct_alta_farming.codex
             // Items
-            "Asirai",
-            "Ammerax",
-            "Astralis",
-            "Celeste",
-            "Sinigai",
-            "Uvi-Staa",
-            "Jinix-AU",
-            "Razhus Az'Ar",
-            "Lira",
+            "Asirai",  // Legendary double-ended spear with electric abilities.
+            "Ammerax",  // Heavy hammer-halberd that generates electricity.
+            "Astralis",  // Powerful stardust-themed heavy weapon.
+            "Celeste",  // Stardust-themed heavy weapon (Staris Chin).
+            "Sinigai",  // Stardust katana with ionic power.
+            "Uvi-Staa",  // Stardust-themed light sword.
+            "Jinix-AU",  // Ionic mace weapon.
+            "Razhus Az'Ar",  // Bishyn poison spear.
+            "Lira",  // Stardust-themed musical spear weapon.
             "Niverisk",  // Nivera-Isk
             "Faradeus",  // Referring to Faradea
-            "Plasmora",
-            "Viter-Shai",
-            "Vitero",
-            "Aina Veritas",
-            "NGX-000",
+            "Plasmora",  // Plasma blaster weapon.
+            "Viter-Shai",  // Alta cannon weapon.
+            "Vitero",  // Alta cannon upgrade variant.
+            "Aina Veritas",  // Alta cannon highest-tier variant.
+            "NGX-000",  // Neiteru-themed heavy rifle.
             "Eva Linn",  // Sky Lance, meant to sound close to Evelyn
-            "Bipolaris",
-            "Enal'Nia",
-            "Nia Erea Desit",
-            "Alistraza",
+            "Bipolaris",  // Ionic rifle weapon.
+            "Enal'Nia",  // Energy rifle weapon.
+            "Nia Erea Desit",  // Energy rifle upgrade variant.
+            "Alistraza",  // Alta chakram weapon.
             "Ararang",  // Mix of aric and boomerang
-            "Naghurta",
-            "Inarus",
-            "Tsentarish",
-            "Oni-Nerus",
-            "Ikai Protolaris",
+            "Naghurta",  // Unique ranged weapon.
+            "Inarus",  // Plasma chakram variant.
+            "Tsentarish",  // Unique wrist weapon (WIP).
+            "Oni-Nerus",  // Wrist weapon.
+            "Ikai Protolaris",  // High-tier energy shield.
             "S'urysk",  // from /items/buildscripts/ct_mimics/tool.activeitem
             "Mirazh",  // from /items/buildscripts/ct_mimics/tool.activeitem
-            "Asterix",  // from /items/buildscripts/ct_mimics/tool.activeitem
-            "Vi-Callista",  // vi is short for viona, from /items/buildscripts/ct_mimics/tool.activeitem
-            "Ruvikva",  // from /items/buildscripts/ct_mimics/food.consumable
-            "Graa Venetto",  // from /items/buildscripts/ct_mimics/food.consumable
-            "Caliopa",  // crystal pizza, from /items/generic/food/tier3/ct_caliopa.consumable
-            "Palopias",  // crystal pizza, from /items/generic/food/tier4/ct_palopias.consumable
+            "Asterix",  // From /items/buildscripts/ct_mimics/tool.activeitem
+            "Vi-Callista",  // Vi is short for viona. From /items/buildscripts/ct_mimics/tool.activeitem
+            "Ruvikva",  // From /items/buildscripts/ct_mimics/food.consumable
+            "Graa Venetto",  // From /items/buildscripts/ct_mimics/food.consumable
+            "Caliopa",  // Crystal pizza. From /items/generic/food/tier3/ct_caliopa.consumable
+            "Palopias",  // Crystal pizza. From /items/generic/food/tier4/ct_palopias.consumable
+            // Professions & Job Titles (from /codex/alta/ct_alta_botanics.codex)
+            "Alta Poners",  // Alta workers growing and looking after plants in general.
+            "Alta Gatherers",  // Ones who focus on regularly retrieving produce from crops and fruitful plants.
+            "Alta Gardeners",  // Ones who mostly manage decorative and high-variety gardens, often interacting with wild nature.
+            "Alta Preservers",  // Ones who focus on archiving and studying rare plant species.
+            "Alta Botanists",  // Studying the field in general and finding a scientific approach to everything plant-related.
+            "Alta Agronomists",  // Plant agriculture specialists.
+            "Alta Plant GEs",  // Plant genetic engineers (GE = Genetic Engineer).
+            "Alta Elin Researchers",  // Researchers working with Elin Garden genetics and alta biology.
             // Factions
-            "Faradea",  // proper name, prefix "far" refers to the power of will and the color yellow (faro). Find on Wiki for more info.
-            "Ghearun",  // proper name, stems from gheatsyn. More: /codex/alta/ct_ghearun.codex
-            "Neiteru",  // proper name of a research group like A.R.C.O, Tserera, Project C.T., etc.
-            "Tserera",  // proper name of a research group like A.R.C.O, Neiteru, Project C.T., etc.
-            "Unika",
-            "Perizhad",
-            "A.R.C.O.",  // no clear meaining behind each letter separately as of now (except that O is Ordis), check out "arco" in the "alkey" section.
+            "Faradea",  // Proper name, prefix "far" refers to the power of will and the color yellow (faro). Find on Wiki for more info.
+            "Ghearun",  // Proper name, stems from gheatsyn. See: /codex/alta/ct_ghearun.codex
+            "Neiteru",  // Proper name of a research group like A.R.C.O, Tserera, Project C.T., etc.
+            "Tserera",  // Proper name of a research group like A.R.C.O, Neiteru, Project C.T., etc.
+            "Unika",  // Furniture company.
+            "Perizhad",  // Fashion company.
+            "A.R.C.O.",  // No clear meaning behind each letter separately as of now (except that O is Ordis), check out "arco" in the "alkey" section.
             // Space ships, vehicles, etc
-            "Al'deron"  // proper name of a mothership.
+            "Al'deron"  // Proper name of a mothership.
         ],
         "abbreviations" : [
-            "EDS",
-            "SSR",  // no meaning as of now, originally came from "super-super rare", subject to change.
-            "GSR",  // no meaning as of now.
-            "A.R.C.O.",  // check out "arco" in the "alkey" section and "A.R.C.O" in the "alkey.names" section.
-            "MECA",  // an abbreviation of names of 4 members of Commander Order, or 4 Alta Mothers - Mira, Elin, Celestia, Alliana.
-            "CNOB",  // from: /codex/alta/ct_bionics.codex
-            "ECOC-FIOC",  // from: /codex/alta/ct_bionics.codex
-            "NG",  // NG4, NG5, etc - nia girin (energy rifle), SG - sona girin (snow rifle)
-            "NGX-000"  // N can stand for both Nia and Neiteru
+            // Alta Systems & Organizations
+            "Alta UIKA",  // Alta Universal Information & Knowledge Accumulation - main alta database system. See: /data/alta_database.json
+            "Alta BGMR2",  // Alta Bromatology, Gastronomy & Medicine Regulation M2 - food calculation system. See: /items/buildscripts/alta/consumable.lua
+            "Alta XSEM",  // Alta Xenological Scanner Enhancement Matrix - scanner database for cross-cultural item analysis. See: /items/active/alta/scanner/items.config
+            "Alta CORD",  // Alta Comprehensive Ontological Reality Database - worldbuilding foundation database. See: /.meta/world.json
+            "Advanced Alta FEA",  // Advanced Floral Enhancement Appliances and Applications - plant enhancement technology. See: /codex/alta/ct_alta_botanics.codex
+            // Military & Defense
+            "EDS",  // Alta military and defense faction.
+            "RAA",  // Regular Alta Army, positioned under the authority of Alliana. See: /items/buildscripts/ct_texts.config
+            // Research & Technology
+            "A.R.C.O.",  // Check out "arco" in the "alkey" section and "A.R.C.O" in the "alkey.names" section.
+            "CNOB",  // See: /codex/alta/ct_bionics.codex
+            "ECOC-FIOC",  // See: /codex/alta/ct_bionics.codex
+            "A.I.",  // Artificial Intelligence - Alta A.I. systems are common across alta technology and ships.
+            // Other Abbreviations
+            "SSR",  // No clear meaning as of now, originally came from "super-super rare", subject to change.
+            "GSR",  // No clear meaning as of now.
+            "MECA",  // An abbreviation of names of 4 members of Commander Order, or 4 Alta Mothers - Mira, Elin, Celestia, Alliana.
+            "NG",  // NG4, NG5, etc - nia girin (energy rifle), SG - sona girin (snow rifle).
+            "NGX-000",  // N can stand for both Nia and Neiteru.
+            "NS-Hev",  // Energy Conderblock - converts excessive enternia into kinetic energy. See: /items/throwables/ct_hevika_javelin.thrownitem
+            "GE",  // Genetic Engineer (as in "Alta Plant GEs").
+            "M2"  // Regulation version identifier (as in "Alta BGMR2").
         ]
     },
-    "materials" : {  // l0,                 l1,                 l2,             l3,                     l4,                     l5,             l6
+    "materials" : {  // Vanilla Starbound item tier progression (l0-l6). See: https://starbounder.org/Tier
+        // l0,                 l1,                 l2,             l3,                     l4,                     l5,             l6
         "cloth" : [     "fabric",           "cottonwool",       "cottonwool",   "ct_altan",             "silk",                 "ct_bion",      "ct_bion" ],
         "armor" : [     "ct_ayaka_wood",    "ct_ayaka_wood",    "crystal",      "ct_altan",             "ct_composite",         "ct_eds",       "3" ],
         "energy" : [    "ct_isowire",       "ct_calotronics",   "ct_datamass",  "ct_alta_energy_cell",  "ct_alta_energy_cell",  "ct_phosicore", "3" ],

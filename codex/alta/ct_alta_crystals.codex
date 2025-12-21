@@ -7,35 +7,15 @@
   "icon" : "ebook/lab.png",
   "species" : "alta",
   "contentPages" : [
-
-    "^#ffa8e8;Stardust^reset; ^#ffffff;planets^reset; and cosmic bodies, or ^#ffa8e8;Io Structs^reset;, thrive with a variety of crystals and semi-crystal matters. Even the integral part of ^#ffa8e8;Io^reset; - stardust itself - can be found here in form of ^#ffa8e8;stardust crystals^reset;.
-
-This ^#76c7e4;Crystal Rapture^reset; can be explained by the ^#7733aa;electric^reset; nature of Io Structs, since these ^#76c7e4;crystallic environments^reset; tend to interact with electricity in different ways.  
-Currently, alta researchers have discovered a pretty long list of species and subspecies of crystals.",
-
-"The list below contains the main superspecies discovered so far:
-
-- ^#76c7e4;Cal^reset; (Crystals, Common)
-- ^#76c7e4;Calin^reset; (Crystal Caves or ^#76c7e4;Calocaves^reset;)
-- ^#76c7e4;Calline Prime^reset; (Crystalline, Prime)
-- ^#76c7e4;Gheatsyn^reset; (Liquid Crystals)
-- ^#76c7e4;Calotorn^reset; (General ^#76c7e4;Geodes^reset;)
-- ^#76c7e4;Soneva^reset; (^#76c7e4;Ice Crystals^reset;)
-- ^#76c7e4;Statsyn^reset; (^#76c7e4;Stardust Crystals^reset;)
-- ^#76c7e4;Bishyn^reset; (Poison Crystals)
-- ^#76c7e4;Hevika^reset; (Overcharged Crystals)
-- ^#76c7e4;Mical^reset; (Pink Crystals)
-- ^#76c7e4;Carel^reset; (^#76c7e4;Crystal Plants^reset;)",
-
-"Altas use these in a variety of ways - from energy managing and building to decorating and even cooking.
-Even regular cal is used as glass, energy containers, light sources and more.
-
-Read more on individual crystal species to learn more about them and how they are used by altas."
-
+    "^#ffa8e8;Stardust^reset; planets and cosmic bodies, or ^#ffa8e8;Io Structs^reset;, thrive with a variety of crystals and semi-crystalline matter. Even the integral part of ^#ffa8e8;Io^reset; - stardust itself - can be found here in form of ^#ffa8e8;stardust crystals^reset;.\n\nThis ^#76c7e4;Crystal Rapture^reset; can be explained by the ^#7733aa;electric^reset; nature of Io Structs, since these ^#76c7e4;crystallic environments^reset; tend to interact with electricity in different ways.",
+    "Currently, alta researchers have discovered a pretty long list of species and subspecies of crystals.\n\nThe list below contains the main superspecies discovered so far:\n\n- ^#76c7e4;Cal^reset; (Crystals, Common)\n- ^#76c7e4;Calin^reset; (Crystal Caves or ^#76c7e4;Calocaves^reset;)\n- ^#76c7e4;Calline Prime^reset; (Crystalline, Prime)",
+    "- ^#a7e001;Gheatsyn^reset; (Liquid Crystals)\n- ^#76c7e4;Calotorn^reset; (General ^#76c7e4;Geodes^reset;)\n- ^#ffffff;Soneva^reset; (^#76c7e4;Ice Crystals^reset;)\n- ^#ffa8e8;Statsyn^reset; (^#76c7e4;Stardust Crystals^reset;)\n- ^#378754;Bishyn^reset; (Poison Crystals)\n- ^#0050c0;Hevika^reset; (Overcharged Crystals)\n- ^#ff60a0;Mical^reset; (Pink Crystals)\n- ^#c1dfae;Carel^reset; (^#76c7e4;Crystal Plants^reset;)",
+    "There are also some rare and specialized crystal types that have been discovered:\n\n- ^#60c0fc;Juni^reset; (Rare crystal fruit)\n- ^#c1dfae;Chinid^reset; (Crystal plant type)\n\nAltas use these in a variety of ways - from energy managing and building to decorating and even cooking.\n\nEven regular cal is used as glass, energy containers, light sources and more.",
+    "Read more on individual crystal species to learn more about them and how they are used by altas."
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "farming" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {

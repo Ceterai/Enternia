@@ -15,7 +15,7 @@ As the name suggests, this is a herb-based cuisine filled with various vitamins 
   ],
     "itemConfig" : {
       "level" : 4,
-      "itemTags" : [ "data_source", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_bio_fresh", "ct_lifespring", "ct_yaarings", "ct_koywa_tea", "ct_yaara_tea",

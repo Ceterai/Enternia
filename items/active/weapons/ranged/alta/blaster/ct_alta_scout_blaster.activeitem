@@ -22,10 +22,10 @@
     "primary_loop" : [ "/sfx/melee/charge_combo4.ogg" ],
     "primary_hold" : [ "/sfx/gun/plasma_shotgun1.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] },
-      "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [0, 12, 64] },
+    "lights" : { "muzzleFlash" : { "color" : [ 0, 80, 192 ] },
+      "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [ 0, 12, 64 ] },
       "flashlight" : { "active" : true, "position" : [-1.25, -0.5],
-        "transformationGroups" : ["muzzle"], "color" : [0, 24, 108], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5 }
+        "transformationGroups" : ["muzzle"], "color" : [ 0, 24, 108 ], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5 }
     }
   },
   "baseOffset" : [0.15, 0.375], "muzzleOffset" : [1.25, 0.25],
@@ -56,10 +56,10 @@
     "description" : "This special tool with advanced mechanisms uses ^#ffa8e8;stardust^reset; energy for its charges. Anything to protect an ^#b0e0fc;alta^reset;.",
     "longdescription" : "The casing of this improved version is made from ^#299fc5;bionix^reset;. This ensures sturdines of the tool while making it lighter and more resistant to temperature changes.",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/projectiles/electric_barrier_shock_kill.ogg" ] },
-      "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] },
-        "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [0, 80, 192] },
+      "lights" : { "muzzleFlash" : { "color" : [ 0, 80, 192 ] },
+        "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [ 0, 80, 192 ] },
         "flashlight" : { "active" : true, "position" : [-1.25, -0.5],
-          "transformationGroups" : ["muzzle"], "color" : [32, 128, 240], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5 }
+          "transformationGroups" : ["muzzle"], "color" : [ 32, 128, 240 ], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5 }
       }
     },
     "primaryAbility" : { "baseDps" : 1.5, "energyUsage" : 10, "holdTimeMax" : 0.55,

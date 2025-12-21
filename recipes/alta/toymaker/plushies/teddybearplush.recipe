@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "cottonwool", "count" : 4 },
+    { "item" : "browndye", "count" : 1 },
+    { "item" : "reddye", "count" : 1 }
+  ],
+  "output" : { "item" : "teddybearplush", "count" : 1 },
+  "duration" : 2.5,
+  "groups" : [ "my_enternia", "alta_toys", "plushies", "all" ]
+}

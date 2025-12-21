@@ -2,7 +2,7 @@
   "type" : "ct_alta_ceternity_merchant",
   "baseType" : "ct_alta_merchant",
   "items" : {
-    "override" : [
+    "override" : [  // Witch costume (not wizard-themed despite the name)
       [0, [
         {
           "head" : [ { "name" : "wizardhead", "parameters" : { "colorIndex" : 1 } } ],

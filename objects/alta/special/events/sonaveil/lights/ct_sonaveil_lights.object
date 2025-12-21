@@ -1,0 +1,43 @@
+{
+  "objectName" : "ct_sonaveil_lights",
+  "colonyTags" : [ "sonaveil", "light" ], "itemTags" : [ "holiday" ],
+  "category" : "light",
+  "level" : 3, "price" : 60, "race" : "alta",
+
+  "shortdescription" : "Sonaveil Lights",
+  "description" : "Twinkling string lights in warm holiday colors, perfect for decorating during ^#b0e0fc;Sona's Veil^reset;.",
+  "longdescription" : "These twinkling string lights are a staple of Sonaveil decorations, hung throughout alta homes and cities during the cold solstice season.",
+  "altaDescription" : "The twinkling lights make everything feel so warm and festive! Perfect for Sonaveil~",
+
+  "apexDescription" : "These little lights are quite pretty.",
+  "avianDescription" : "It's hard not to love these pretty little lights.",
+  "floranDescription" : "Much sssparkle.",
+  "glitchDescription" : "Happy. These twinkling lights add much to the cheery atmosphere.",
+  "humanDescription" : "I've always been fond of string lights.",
+  "hylotlDescription" : "Such simple beauty.",
+  "novakidDescription" : "Little twinklin' lights, kinda pretty.",
+
+  "lightColor" : [ 179, 159, 100 ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "top" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

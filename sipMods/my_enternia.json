@@ -51,6 +51,16 @@
     },
     {
         "path": "/codex/alta/",
+        "fileName": "ct_alta_date.codex",
+        "name": "ct_alta_date-codex",
+        "shortdescription": "A Perfect Riverside Date",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_alta_ecoponics.codex",
         "name": "ct_alta_ecoponics-codex",
         "shortdescription": "Alta Ecoponics ^#8020f0;^reset;",
@@ -116,6 +126,16 @@
         "shortdescription": "Nia Cuisine Book",
         "category": "codex",
         "icon": "ebook/gyera.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_food_perfect.codex",
+        "name": "ct_alta_food_perfect-codex",
+        "shortdescription": "Perfect Cooking",
+        "category": "codex",
+        "icon": "ebook/crystalline_prime.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -197,6 +217,16 @@
         "category": "codex",
         "icon": "ebook/basic.png",
         "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_new_year.codex",
+        "name": "ct_alta_new_year-codex",
+        "shortdescription": "Alta New Year - Lann 10",
+        "category": "codex",
+        "icon": "paper/bishyn.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -397,6 +427,16 @@
         "category": "codex",
         "icon": "datamass/plasma.png",
         "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_ceternity.codex",
+        "name": "ct_ceternity-codex",
+        "shortdescription": "The Spooks of Ceternity",
+        "category": "codex",
+        "icon": "ebook/bionid.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -857,6 +897,16 @@
         "category": "codex",
         "icon": "paper/sona.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_sonaveil.codex",
+        "name": "ct_sonaveil-codex",
+        "shortdescription": "Sonaveil Guide",
+        "category": "codex",
+        "icon": "ebook/enchanted.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -1353,6 +1403,16 @@
         "category": "mysteriousReward",
         "icon": "ct_yaara_loot.png",
         "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/loot/events/",
+        "fileName": "sonaveil.activeitem",
+        "name": "ct_sonaveil_gift",
+        "shortdescription": "Sonaveil Gift",
+        "category": "mysteriousReward",
+        "icon": "sonaveil.png",
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/loot/other/",
@@ -2823,6 +2883,16 @@
         "race": "alta"
     },
     {
+        "path": "/items/active/alta/tools/clean/sprayer/",
+        "fileName": "ct_alta_sprayer.activeitem",
+        "name": "ct_alta_sprayer",
+        "shortdescription": "Alta Sprayer",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/items/active/alta/tools/climb/climbing_tool/",
         "fileName": "ct_alta_climbing_tool.activeitem",
         "name": "ct_alta_climbing_tool",
@@ -2857,7 +2927,7 @@
         "fileName": "ct_alta_fertilizer.consumable",
         "name": "ct_alta_fertilizer",
         "shortdescription": "Alta Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_alta_fertilizer.png",
         "rarity": "common",
         "race": "alta"
@@ -2867,7 +2937,7 @@
         "fileName": "ct_basic_fertilizer.consumable",
         "name": "ct_basic_fertilizer",
         "shortdescription": "Soil Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_basic_fertilizer.png",
         "rarity": "common",
         "race": "alta"
@@ -2877,7 +2947,7 @@
         "fileName": "ct_benema_fertilizer.consumable",
         "name": "ct_benema_fertilizer",
         "shortdescription": "Benema Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_benema_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -2887,7 +2957,7 @@
         "fileName": "ct_biomix_fertilizer.consumable",
         "name": "ct_biomix_fertilizer",
         "shortdescription": "Biomix Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_biomix_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -2897,7 +2967,7 @@
         "fileName": "ct_boost_fertilizer.consumable",
         "name": "ct_boost_fertilizer",
         "shortdescription": "Boostilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_boost_fertilizer.png",
         "rarity": "rare",
         "race": "alta"
@@ -2907,7 +2977,7 @@
         "fileName": "ct_bubble_fertilizer.consumable",
         "name": "ct_bubble_fertilizer",
         "shortdescription": "Bubble Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_bubble_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -2917,7 +2987,7 @@
         "fileName": "ct_calin_fertilizer.consumable",
         "name": "ct_calin_fertilizer",
         "shortdescription": "Calin Fertilizer ^#20f080;^reset;",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_calin_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -2927,7 +2997,7 @@
         "fileName": "ct_gyera_fertilizer.consumable",
         "name": "ct_gyera_fertilizer",
         "shortdescription": "Gyera Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_gyera_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -2937,7 +3007,7 @@
         "fileName": "ct_ionic_fertilizer.consumable",
         "name": "ct_ionic_fertilizer",
         "shortdescription": "Ionic Fertilizer",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_ionic_fertilizer.png",
         "rarity": "common",
         "race": "alta"
@@ -2947,7 +3017,7 @@
         "fileName": "ct_plasma_fertilizer.consumable",
         "name": "ct_plasma_fertilizer",
         "shortdescription": "Plasma Fertilizer ^#20f080;^reset;",
-        "category": "food",
+        "category": "tool",
         "icon": "ct_plasma_fertilizer.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -3056,7 +3126,7 @@
         "fileName": "ct_alta_flare_blaster.activeitem",
         "name": "ct_alta_flare_blaster",
         "shortdescription": "Alta Flare Blaster",
-        "category": "ranged",
+        "category": "tool",
         "icon": "body.png",
         "rarity": "common",
         "race": "alta"
@@ -3159,6 +3229,16 @@
         "category": "shortsword",
         "icon": null,
         "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/tools/other/",
+        "fileName": "ct_alta_charger.activeitem",
+        "name": "ct_alta_charger",
+        "shortdescription": "Alta Charger",
+        "category": "ranged",
+        "icon": "ct_alta_charger.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/tools/other/",
@@ -3409,7 +3489,7 @@
         "path": "/items/active/alta/tools/rain/blue_umbrella/",
         "fileName": "parasol.activeitem",
         "name": "ct_omniblue_umbrella",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Omniblue Umbrella",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "common",
@@ -3419,7 +3499,7 @@
         "path": "/items/active/alta/tools/rain/green_umbrella/",
         "fileName": "parasol.activeitem",
         "name": "ct_ceterteal_umbrella",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Ceterteal Umbrella",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "common",
@@ -3429,7 +3509,7 @@
         "path": "/items/active/alta/tools/rain/hover_tool/",
         "fileName": "parasol.activeitem",
         "name": "ct_alta_hover_tool",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Alta Hover Tool",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "uncommon",
@@ -3439,7 +3519,7 @@
         "path": "/items/active/alta/tools/rain/null_hover_tool/",
         "fileName": "parasol.activeitem",
         "name": "ct_alta_null_hover_tool",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Alta Null Hover Tool",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3449,7 +3529,7 @@
         "path": "/items/active/alta/tools/rain/purple_umbrella/",
         "fileName": "parasol.activeitem",
         "name": "ct_ionic_umbrella",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Ionic Umbrella",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "common",
@@ -3459,7 +3539,7 @@
         "path": "/items/active/alta/tools/rain/star_parasol/",
         "fileName": "parasol.activeitem",
         "name": "ct_star_parasol",
-        "shortdescription": "Alta Umbrella",
+        "shortdescription": "Star Parasol",
         "category": "tool",
         "icon": "icon.png",
         "rarity": "legendary",
@@ -3614,7 +3694,7 @@
         "race": "alta"
     },
     {
-        "path": "/items/active/alta/toys/bow/",
+        "path": "/items/active/alta/toys/bows/basic/",
         "fileName": "ct_alta_bow.activeitem",
         "name": "ct_alta_bow",
         "shortdescription": "Alta Bow",
@@ -3623,58 +3703,193 @@
         "rarity": "common"
     },
     {
-        "path": "/items/active/alta/toys/bubble/blaster/",
-        "fileName": "ct_alta_bubbler.activeitem",
-        "name": "ct_alta_bubbler",
-        "shortdescription": "Bubble Blaster",
-        "category": "toy",
-        "icon": "icon.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/alta/toys/dart/",
-        "fileName": "throwingdart.thrownitem",
-        "name": "ct_alta_dart",
-        "shortdescription": "Alta Dart",
-        "category": "throwableItem",
-        "icon": "throwingdart.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/alta/toys/dart/blue/",
-        "fileName": "throwingdart.thrownitem",
-        "name": "ct_alta_dart_omniblue",
-        "shortdescription": "Omniblue Dart",
-        "category": "throwableItem",
-        "icon": "throwingdart.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/alta/toys/dart/green/",
-        "fileName": "throwingdart.thrownitem",
-        "name": "ct_alta_dart_ceterteal",
-        "shortdescription": "Ceterteal Dart",
-        "category": "throwableItem",
-        "icon": "throwingdart.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/alta/toys/dart/purple/",
-        "fileName": "throwingdart.thrownitem",
-        "name": "ct_alta_dart_ionic",
-        "shortdescription": "Ionic Dart",
-        "category": "throwableItem",
-        "icon": "throwingdart.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/active/alta/toys/love/",
-        "fileName": "cupidsbow.activeitem",
+        "path": "/items/active/alta/toys/bows/love/",
+        "fileName": "ct_estria_bow.activeitem",
         "name": "ct_estria_bow",
         "shortdescription": "Estria's Bow",
         "category": "bow",
-        "icon": "cupidsbowicon.png",
-        "rarity": "rare"
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bubble/blaster/",
+        "fileName": "ct_alta_bubbler.activeitem",
+        "name": "ct_alta_bubbler",
+        "shortdescription": "Alta Bubbler",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bubble/cannon/",
+        "fileName": "ct_alta_bubble_cannon.activeitem",
+        "name": "ct_alta_bubble_cannon",
+        "shortdescription": "Alta Bubble Cannon",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bubble/wands/basic/",
+        "fileName": "ct_alta_bubble_wand.activeitem",
+        "name": "ct_alta_bubble_wand",
+        "shortdescription": "Alta Bubble Wand",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bubble/wands/neon/",
+        "fileName": "ct_alta_neon_bubble_wand.activeitem",
+        "name": "ct_alta_neon_bubble_wand",
+        "shortdescription": "Alta Neon Bubble Wand",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/bubble/wands/stardust/",
+        "fileName": "ct_stardust_bubble_wand.activeitem",
+        "name": "ct_stardust_bubble_wand",
+        "shortdescription": "Stardust Bubble Wand",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_alta_basic_popper.activeitem",
+        "name": "ct_alta_basic_popper",
+        "shortdescription": "Alta Popper Base",
+        "category": "toy",
+        "icon": "ct_alta_basic_popper.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_alta_popper.activeitem",
+        "name": "ct_alta_popper",
+        "shortdescription": "Alta Popper",
+        "category": "toy",
+        "icon": "ct_alta_popper.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_alta_rainbow_popper.activeitem",
+        "name": "ct_alta_rainbow_popper",
+        "shortdescription": "Rainbow Alta Popper",
+        "category": "toy",
+        "icon": "ct_alta_rainbow_popper.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_calline_popper.activeitem",
+        "name": "ct_calline_popper",
+        "shortdescription": "Calline Popper",
+        "category": "toy",
+        "icon": "ct_calline_popper.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_sonaveil_popper.activeitem",
+        "name": "ct_sonaveil_popper",
+        "shortdescription": "Sonaveil Popper",
+        "category": "toy",
+        "icon": "ct_sonaveil_popper.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/confetti/poppers/",
+        "fileName": "ct_stardust_popper.activeitem",
+        "name": "ct_stardust_popper",
+        "shortdescription": "Stardust Popper",
+        "category": "toy",
+        "icon": "ct_stardust_popper.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/",
+        "fileName": "ct_alta_dart.thrownitem",
+        "name": "ct_alta_dart",
+        "shortdescription": "Alta Dart",
+        "category": "throwableItem",
+        "icon": "ct_alta_dart.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/",
+        "fileName": "ct_alta_dart_ceterteal.thrownitem",
+        "name": "ct_alta_dart_ceterteal",
+        "shortdescription": "Ceterteal Dart",
+        "category": "throwableItem",
+        "icon": "ct_alta_dart_ceterteal.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/",
+        "fileName": "ct_alta_dart_ionic.thrownitem",
+        "name": "ct_alta_dart_ionic",
+        "shortdescription": "Ionic Dart",
+        "category": "throwableItem",
+        "icon": "ct_alta_dart_ionic.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/",
+        "fileName": "ct_alta_dart_omniblue.thrownitem",
+        "name": "ct_alta_dart_omniblue",
+        "shortdescription": "Omniblue Dart",
+        "category": "throwableItem",
+        "icon": "ct_alta_dart_omniblue.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/fireworks/",
+        "fileName": "ct_alta_firework.thrownitem",
+        "name": "ct_alta_firework",
+        "shortdescription": "Alta Firework",
+        "category": "throwableItem",
+        "icon": "ct_alta_firework.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/fireworks/",
+        "fileName": "ct_stardust_firework.thrownitem",
+        "name": "ct_stardust_firework",
+        "shortdescription": "Stardust Firework",
+        "category": "throwableItem",
+        "icon": "ct_stardust_firework.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/fireworks/cannon/",
+        "fileName": "ct_alta_firework_cannon.activeitem",
+        "name": "ct_alta_firework_cannon",
+        "shortdescription": "Alta Firework Cannon",
+        "category": "rocketLauncher",
+        "icon": "body.png:default.1",
+        "rarity": "legendary"
     },
     {
         "path": "/items/active/alta/toys/paint/",
@@ -3713,22 +3928,84 @@
         "rarity": "uncommon"
     },
     {
-        "path": "/items/active/alta/toys/plane/",
-        "fileName": "paperplane.thrownitem",
-        "name": "ct_paper_plane",
+        "path": "/items/active/alta/toys/paper/plane/",
+        "fileName": "ct_alta_plane.thrownitem",
+        "name": "ct_alta_plane",
+        "shortdescription": "Alta Plane",
+        "category": "throwableItem",
+        "icon": "ct_alta_plane.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/paper/plane/",
+        "fileName": "ct_alta_plane_cool.thrownitem",
+        "name": "ct_alta_plane_cool",
+        "shortdescription": "Cool Alta Plane",
+        "category": "throwableItem",
+        "icon": "ct_alta_plane_cool.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/paper/plane/",
+        "fileName": "ct_alta_plane_pretty.thrownitem",
+        "name": "ct_alta_plane_pretty",
+        "shortdescription": "Pretty Alta Plane",
+        "category": "throwableItem",
+        "icon": "ct_alta_plane_pretty.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/paper/plane/",
+        "fileName": "ct_ayaka_plane.thrownitem",
+        "name": "ct_ayaka_plane",
         "shortdescription": "Ayaka Plane",
         "category": "throwableItem",
-        "icon": "paperplane.png",
-        "rarity": "common"
+        "icon": "ct_ayaka_plane.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/snow/blaster/",
-        "fileName": "snowgun.activeitem",
+        "fileName": "ct_alta_snowthrower.activeitem",
         "name": "ct_alta_snowthrower",
-        "shortdescription": "Snowball Shooter",
+        "shortdescription": "Alta Snowthrower",
         "category": "toy",
-        "icon": "snowgun.png",
-        "rarity": "uncommon"
+        "icon": "ct_alta_snowthrower.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/snow/cannon/",
+        "fileName": "ct_alta_snow_cannon.activeitem",
+        "name": "ct_alta_snow_cannon",
+        "shortdescription": "Alta Snow Cannon",
+        "category": "toy",
+        "icon": "ct_alta_snow_cannon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/snow/sprayer/",
+        "fileName": "ct_alta_snow_sprayer.activeitem",
+        "name": "ct_alta_snow_sprayer",
+        "shortdescription": "Alta Snow Sprayer",
+        "category": "tool",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/snow/thrower/",
+        "fileName": "ct_alta_coldthrower.activeitem",
+        "name": "ct_alta_coldthrower",
+        "shortdescription": "Alta Coldthrower",
+        "category": "toy",
+        "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/water/blaster/",
@@ -3737,7 +4014,8 @@
         "shortdescription": "Waterblaster",
         "category": "toy",
         "icon": "ct_waterblaster.png",
-        "rarity": "legendary"
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/items/active/shields/",
@@ -4724,6 +5002,26 @@
         "category": "chestwear",
         "icon": "icon.png",
         "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/alta/events/sonaveil/alta_scarf/",
+        "fileName": "ct_alta_scarf.head",
+        "name": "ct_alta_scarf",
+        "shortdescription": "Alta Scarf",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/alta/events/sonaveil/scarf/",
+        "fileName": "ct_sonaveil_scarf.head",
+        "name": "ct_sonaveil_scarf",
+        "shortdescription": "Sonaveil Scarf",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "legendary",
         "race": "alta"
     },
     {
@@ -6136,6 +6434,86 @@
         "race": "alta"
     },
     {
+        "path": "/items/generic/food/events/new_year/",
+        "fileName": "ct_milebites.consumable",
+        "name": "ct_milebites",
+        "shortdescription": "Milebites ^#2080f0;^reset;",
+        "category": "preparedFood",
+        "icon": "ct_milebites.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/new_year/",
+        "fileName": "ct_round_salad.consumable",
+        "name": "ct_round_salad",
+        "shortdescription": "Roundsalad",
+        "category": "preparedFood",
+        "icon": "ct_round_salad.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/new_year/",
+        "fileName": "ct_special_mimosa.consumable",
+        "name": "ct_special_mimosa",
+        "shortdescription": "Special Mimosa ^#8020f0;^reset;",
+        "category": "preparedFood",
+        "icon": "ct_special_mimosa.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/new_year/",
+        "fileName": "ct_special_sparkles.consumable",
+        "name": "ct_special_sparkles",
+        "shortdescription": "Special Sparkles ^#8020f0;^reset;",
+        "category": "drink",
+        "icon": "ct_special_sparkles.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/sonaveil/",
+        "fileName": "ct_sonasweet.consumable",
+        "name": "ct_sonasweet",
+        "shortdescription": "Sonasweet",
+        "category": "preparedFood",
+        "icon": "ct_sonasweet.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/sonaveil/",
+        "fileName": "ct_sonaveil_cake.consumable",
+        "name": "ct_sonaveil_cake",
+        "shortdescription": "Sonaveil Cake",
+        "category": "preparedFood",
+        "icon": "ct_sonaveil_cake.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/sonaveil/",
+        "fileName": "ct_sonaveil_pie.consumable",
+        "name": "ct_sonaveil_pie",
+        "shortdescription": "Sonaveil Pie ^#2080f0;^reset;",
+        "category": "preparedFood",
+        "icon": "ct_sonaveil_pie.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/sonaveil/",
+        "fileName": "ct_sona_milk_hot.consumable",
+        "name": "ct_sona_milk_hot",
+        "shortdescription": "Hot Sona Milk",
+        "category": "drink",
+        "icon": "ct_sona_milk_hot.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/items/generic/food/other/",
         "fileName": "ct_aya_powder.item",
         "name": "ct_aya_powder",
@@ -6791,16 +7169,6 @@
         "shortdescription": "Pavolda Cake",
         "category": "preparedFood",
         "icon": "ct_pavolda_cake.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/generic/food/tier4/",
-        "fileName": "ct_special_mimosa.consumable",
-        "name": "ct_special_mimosa",
-        "shortdescription": "Special Mimosa",
-        "category": "preparedFood",
-        "icon": "ct_special_mimosa.png",
         "rarity": "legendary",
         "race": "alta"
     },
@@ -8101,6 +8469,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/crafting/festive_station/",
+        "fileName": "ct_alta_festive_station.object",
+        "name": "ct_alta_festive_station",
+        "shortdescription": "^orange;Alta Festive Station^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/crafting/insectarium/",
         "fileName": "ct_alta_insectarium.object",
         "name": "ct_alta_insectarium",
@@ -8157,7 +8535,7 @@
         "shortdescription": "^orange;Alta Tailor^reset;",
         "category": "crafting",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -8167,7 +8545,17 @@
         "shortdescription": "^orange;Alta Terrarium^reset;",
         "category": "crafting",
         "icon": "icon.png",
-        "rarity": "legendary",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/crafting/toymaker/",
+        "fileName": "ct_alta_toymaker.object",
+        "name": "ct_alta_toymaker",
+        "shortdescription": "^orange;Alta Toymaker^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -9303,6 +9691,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/special/events/ceternity/lights/",
+        "fileName": "ct_ceternity_lights.object",
+        "name": "ct_ceternity_lights",
+        "shortdescription": "Ceternity Lights",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/special/events/ceternity/neonjack/",
         "fileName": "ct_neonjack.object",
         "name": "ct_neonjack",
@@ -9321,6 +9719,126 @@
         "icon": "icon.png",
         "rarity": "uncommon",
         "race": "generic"
+    },
+    {
+        "path": "/objects/alta/special/events/national_day/lights/",
+        "fileName": "ct_alta_lights.object",
+        "name": "ct_alta_lights",
+        "shortdescription": "Alta String Lights",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/new_year/lights/",
+        "fileName": "ct_stardust_lights.object",
+        "name": "ct_stardust_lights",
+        "shortdescription": "Stardust Lights",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/",
+        "fileName": "ct_alta_scarf_wall.object",
+        "name": "ct_alta_scarf_wall",
+        "shortdescription": "Alta Wall Scarf",
+        "category": "decorative",
+        "icon": "ct_alta_scarf_wall.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/",
+        "fileName": "ct_christmas_poster.object",
+        "name": "ct_christmas_poster",
+        "shortdescription": "Christmas Poster",
+        "category": "decorative",
+        "icon": "ct_christmas_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/",
+        "fileName": "ct_sonaveil_poster.object",
+        "name": "ct_sonaveil_poster",
+        "shortdescription": "Sonaveil Poster",
+        "category": "decorative",
+        "icon": "ct_sonaveil_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/",
+        "fileName": "ct_sonaveil_scarf_wall.object",
+        "name": "ct_sonaveil_scarf_wall",
+        "shortdescription": "Sonaveil Wall Scarf",
+        "category": "decorative",
+        "icon": "ct_sonaveil_scarf_wall.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/",
+        "fileName": "ct_sona_poster.object",
+        "name": "ct_sona_poster",
+        "shortdescription": "Sona Poster",
+        "category": "decorative",
+        "icon": "ct_sona_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/lights/",
+        "fileName": "ct_sonaveil_lights.object",
+        "name": "ct_sonaveil_lights",
+        "shortdescription": "Sonaveil Lights",
+        "category": "light",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/snowalta1/",
+        "fileName": "ct_snowalta.object",
+        "name": "ct_snowalta",
+        "shortdescription": "Snowalta",
+        "category": "breakable",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/snowalta2/",
+        "fileName": "ct_sonaveil_snowalta.object",
+        "name": "ct_sonaveil_snowalta",
+        "shortdescription": "Fancy Snowalta",
+        "category": "breakable",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/snowglobe1/",
+        "fileName": "ct_sonia_af.object",
+        "name": "ct_sonia_af",
+        "shortdescription": "Sonaglobe",
+        "category": "actionFigure",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/sonaveil/snowglobe2/",
+        "fileName": "ct_sonaveil_af.object",
+        "name": "ct_sonaveil_af",
+        "shortdescription": "Sonaveil Sonaglobe",
+        "category": "actionFigure",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
     },
     {
         "path": "/objects/alta/special/figurines/anglure/",
@@ -10078,6 +10596,42 @@
         "rarity": "uncommon"
     },
     {
+        "path": "/objects/alta/special/plants/pots/crops/beakseed/",
+        "fileName": "af.object",
+        "name": "ct_beakseed_af",
+        "shortdescription": "Potted Beakseed",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/cocola/",
+        "fileName": "af.object",
+        "name": "ct_cocola_af",
+        "shortdescription": "Potted Cocola",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/ela/",
+        "fileName": "af.object",
+        "name": "ct_ela_af",
+        "shortdescription": "Potted Ela",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/eva/",
+        "fileName": "af.object",
+        "name": "ct_eva_af",
+        "shortdescription": "Potted Evara",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
         "path": "/objects/alta/special/plants/pots/crops/gil/",
         "fileName": "af.object",
         "name": "ct_gil_af",
@@ -10087,6 +10641,33 @@
         "rarity": "uncommon"
     },
     {
+        "path": "/objects/alta/special/plants/pots/crops/haven/",
+        "fileName": "af.object",
+        "name": "ct_haven_af",
+        "shortdescription": "Potted Haven Bouquet",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/ruka/",
+        "fileName": "af.object",
+        "name": "ct_ruka_af",
+        "shortdescription": "Potted Ruka",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/sona/",
+        "fileName": "af.object",
+        "name": "ct_sona_af",
+        "shortdescription": "Potted Sonava",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
+    },
+    {
         "path": "/objects/alta/special/plants/pots/crops/tsay/",
         "fileName": "af.object",
         "name": "ct_tsay_af",
@@ -10094,6 +10675,15 @@
         "category": "decorative",
         "icon": "icon.png",
         "rarity": "uncommon"
+    },
+    {
+        "path": "/objects/alta/special/plants/pots/crops/voda/",
+        "fileName": "af.object",
+        "name": "ct_voda_af",
+        "shortdescription": "Potted Vodakoywa",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "rare"
     },
     {
         "path": "/objects/alta/special/plants/pots/crops/yaavi/",
@@ -10485,11 +11075,31 @@
         "race": "alta"
     },
     {
-        "path": "/objects/alta/special/secret/figure_time_drifter/",
-        "fileName": "ct_alta_figure_time_drifter.object",
-        "name": "ct_alta_figure_time_drifter",
+        "path": "/objects/alta/special/secret/artizzi/",
+        "fileName": "ct_elunya_statue.object",
+        "name": "ct_elunya_statue",
+        "shortdescription": "Elu'nya & Ael'tiri Statue",
+        "category": "decorative",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/secret/lenn/af/",
+        "fileName": "ct_lenn_af.object",
+        "name": "ct_lenn_af",
         "shortdescription": "Time Drifter Figurine",
         "category": "actionFigure",
+        "icon": "icon.png",
+        "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/secret/lenn/statue/",
+        "fileName": "ct_lenn_statue.object",
+        "name": "ct_lenn_statue",
+        "shortdescription": "Lenn Statue",
+        "category": "decorative",
         "icon": "icon.png",
         "rarity": "essential",
         "race": "alta"
@@ -10521,16 +11131,6 @@
         "category": "toy",
         "icon": "ct_b803_plush.png",
         "rarity": "essential"
-    },
-    {
-        "path": "/objects/alta/special/secret/statue_lenn/",
-        "fileName": "ct_alta_statue_lenn.object",
-        "name": "ct_alta_statue_lenn",
-        "shortdescription": "Alta Lenn Statue",
-        "category": "decorative",
-        "icon": "icon.png",
-        "rarity": "essential",
-        "race": "alta"
     },
     {
         "path": "/objects/alta/special/statues/alta/",
@@ -10770,6 +11370,46 @@
         "category": "terraformer",
         "icon": "icon.png",
         "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/boards/darts/basic/",
+        "fileName": "ct_alta_dart_board.object",
+        "name": "ct_alta_dart_board",
+        "shortdescription": "Alta Dart Board",
+        "category": "toy",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/boards/darts/hard/",
+        "fileName": "ct_alta_dart_hardboard.object",
+        "name": "ct_alta_dart_hardboard",
+        "shortdescription": "Alta Dart Hardboard",
+        "category": "toy",
+        "icon": "body.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/boards/darts/mega/",
+        "fileName": "ct_alta_dart_megaboard.object",
+        "name": "ct_alta_dart_megaboard",
+        "shortdescription": "Alta Dart Megaboard",
+        "category": "toy",
+        "icon": "body.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/tools/boards/darts/super/",
+        "fileName": "ct_alta_dart_superboard.object",
+        "name": "ct_alta_dart_superboard",
+        "shortdescription": "Alta Dart Superboard",
+        "category": "toy",
+        "icon": "body.png",
+        "rarity": "uncommon",
         "race": "alta"
     },
     {
@@ -13256,7 +13896,7 @@
         "path": "/objects/farmables/alta/ground/cotton/boosted/",
         "fileName": "ct_cotton_boosted.object",
         "name": "ct_cotton_boosted",
-        "shortdescription": "Boosted Evara Sapling ^#2080f0;^reset;",
+        "shortdescription": "Boosted Cotton Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"
@@ -13597,7 +14237,7 @@
         "path": "/objects/farmables/alta/ground/produce/neonmelon/boosted/",
         "fileName": "ct_neonmelon_boosted.object",
         "name": "ct_neonmelon_boosted",
-        "shortdescription": "Boosted Neonmelon Sapling ^#2080f0;^reset;",
+        "shortdescription": "Boosted Neonmelon Sapl. ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"
@@ -13900,7 +14540,7 @@
         "path": "/objects/farmables/alta/ground/warped_hive/boosted/",
         "fileName": "ct_warped_hive_boosted.object",
         "name": "ct_warped_hive_boosted",
-        "shortdescription": "Boosted Warped Hive Sapling ^#2080f0;^reset;",
+        "shortdescription": "Boosted Warphive Sapl. ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"

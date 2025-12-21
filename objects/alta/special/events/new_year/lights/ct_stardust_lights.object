@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_stardust_lights",
+  "colonyTags" : [ "stardust", "light" ], "itemTags" : [ "holiday" ],
+  "category" : "light",
+  "level" : 4, "price" : 60, "race" : "alta",
+
+  "shortdescription" : "Stardust Lights",
+  "description" : "This string of small, twinkling holiday lights is the perfect way to get festive.",
+
+  "apexDescription" : "These little lights are quite pretty.",
+  "avianDescription" : "It's hard not to love these pretty little lights.",
+  "floranDescription" : "Much sssparkle.",
+  "glitchDescription" : "Happy. These twinkling lights add much to the cheery atmosphere.",
+  "humanDescription" : "I've always been fond of string lights.",
+  "hylotlDescription" : "Such simple beauty.",
+  "novakidDescription" : "Little twinklin' lights, kinda pretty.",
+
+  "lightColor" : [ 179, 100, 159 ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "top" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

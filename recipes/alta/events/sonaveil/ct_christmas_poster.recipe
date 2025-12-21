@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 2 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "holidayspirit", "count" : 8 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "greendye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_christmas_poster", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor3", "alta_special", "objects", "art", "posters", "all", "mod", "alta_festive", "sonaveil" ]
+}

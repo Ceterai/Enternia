@@ -1,0 +1,26 @@
+{
+  "id" : "ct_alta_food_perfect",
+  "title" : "Perfect Cooking",
+  "description" : "A guide on what perfect cooking is and how to achieve it. ^gray;Explains the Perfect Cooking mechanic of alta food.^reset;",
+  "longdescription" : "This guide explains the art of perfect cooking - that magical moment when a dish transcends its base recipe to become something truly special.",
+  "altaDescription" : "You're telling me I can cook by the book to cook better than by the book?!",
+  "icon" : "ebook/crystalline_prime.png",
+  "species" : "alta",
+  "contentPages" : [
+    "^#2080f0;Perfect Cooking^reset;\n\nBy Miara, Grand Alta Chef\n\nEvery chef knows that magical feeling - when you taste a dish fresh from preparation and realize it's come out absolutely perfect. Not just good, but extraordinary.\n\nThis guide will help you understand and recognize when you've achieved culinary perfection!",
+    "^#20f080;What is Perfect Cooking?^reset;\n\nWhen you finish preparing a dish - in that brief window before it begins aging - there's a chance it will develop enhanced properties beyond the base recipe.\n\nThink of it as all the variables aligning perfectly: temperature, timing, ingredient quality, even your mood while cooking!",
+    "^#2080f0;The Moment of Truth^reset;\n\nThe transformation happens right after preparation, not while aging. Once a dish starts its aging process, what you have is what you get!\n\nSome dishes are more likely to achieve perfection than others. Complex preparations with multiple components have more variables to align.",
+    "^#20f080;Recognizing Perfect Results^reset;\n\nA perfectly cooked dish will have:\n\n- Enhanced name (often legendary rarity)\n- Improved effects or duration\n- Better presentation\n- Sometimes unique coloration\n\nFor example, a standard ^#b0e0fc;Alta Dinner^reset; might become ^#ffa8e8;Caretaker's Love^reset; - made with that extra care!",
+    "^#2080f0;Special Cases^reset;\n\nSome dishes naturally vary during preparation, separate from perfect cooking:\n\n^#20f080;Nia Cocktails^reset; will polarize into Ceternia, Alternia, or Enternia variants. Perfect cooking creates the rare ^#ffa8e8;Staris Cocktail^reset; instead!",
+    "^#20f080;The Lesser - The Better^reset;\n\nMake sure to pour your efforts and love into a single dish, and not try to mass-produce! Perfect cooking is more likely to occur when focusing on one preparation at a time ^gray;(a 10% chance)^reset;. Stacking multiple preparations reduces this chance significantly ^gray;(5% for a stack of 2 items, 3.3% for a stack of 3, etc)^reset;.",
+    "^#2080f0;Tips from Experience^reset;\n\n1. Fresh ingredients matter! Higher tier produce creates better results.\n\n2. Complex dishes (higher tier) have more potential for perfection.\n\n3. Some recipes are designed for variation rather than perfection.",
+    "4. Perfect cooking cannot be forced or predicted - that's what makes it special!\n\n5. Even 'failed' variations can be delicious in their own way~\n\n^#20f080;Good luck in your kitchen, and may your dishes always come out perfectly!^reset;"
+  ],
+  "itemConfig" : {
+    "level" : 4,
+    "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "ebook", "cooking" ],
+    "learnBlueprintsOnPickup" : [ "ct_alta_food_perfect-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
+  }
+}

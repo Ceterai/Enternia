@@ -1,27 +1,16 @@
 {
   "itemName" : "ct_alta_soup",
-  "level" : 6, "price" : 960, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_alta_soup.png",
   "shortdescription" : "Altasoup",
   "description" : "The best combination of boiled ayas, fresh gils and cooked tsays. It's filling and will keep for a long time.",
   "longdescription" : "Another stable in alta kitchen, named accordingly for its prominence. There are even canned versions sold to non-alta buyers as an insight into what the culinary world of altas can provide.",
   "altaDescription" : "A classic soup with according taste, texture and smell. Unlike motsus, these are served hot.",
-  "effects" : [ [
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 270
-    }
-  ] ],
-  "foodValue" : 50,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "soup" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "soup" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood" ], "foodValue" : 14.3, "rotToEffectRatio" : 1.20 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_alta_soup.png",
 
   "variants" : [ "perfect" ],
   "presets" : {
@@ -30,7 +19,6 @@
       "description" : "This soup is exceptionally nourishing! Only the best ^#b0e0fc;alta^reset; restaurants are able to make them taste this good.",
       "longdescription" : "A perfectly followed recipe that led to a perfectly cooked meal. Nothing else to add here, really.",
       "altaDescription" : "You have to be an exceptional alta chef to consitenly be able to make these.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1260, "foodValue" : 65,
       "paletteSwap" : {
         "#c3944b":"#c3744b","#b88c49":"#b86e49","#b98043":"#b96043","#8f6130":"#8f4830",
         "#6bb959":"#a5cbce","#408c4b":"#94a8b5",

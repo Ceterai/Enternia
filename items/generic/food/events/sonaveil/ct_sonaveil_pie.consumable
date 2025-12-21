@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_sonaveil_pie",
+  "shortdescription" : "Sonaveil Pie ^#2080f0;^reset;",
+  "description" : "A warm holiday pie filled with sweet and savory fruits and spices. The perfect treat to share during ^#b0e0fc;Sona's Veil^reset;!",
+  "longdescription" : "This festive pie combines ^#b0e0fc;cooked gils^reset;, ^#b0e0fc;sonasweets^reset;, ^#b0e0fc;koywa dough^reset;, warming spices, and tonna milk butter into the quintessential Sonaveil dish. The pie keeps its warmth remarkably longer than ordinary pies - some say it requires a touch of holiday spirit to bake properly. Altas share these during the cold solstice, gathering with their sisters under warm blankets, surrounded by hanging scarfs and strip lights, drinking hot tonna yaavi milk. The recipe varies between alta cities, corfals and colonies, each adding their own cherished touches.",
+  "altaDescription" : "Mmm, the smell of Sonaveil spirit! Makes you feel like gathering with the girls on the solstice, wrapped in blankets under the holiday lights~ So cozy and warm!",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "pie", "sona", "sonaveil", "holiday" ],
+  "learnBlueprintsOnPickup" : [ "ct_sonasweet", "ct_sonaveil_pie" ],
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_sonaveil_pie.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "ct_longfall" ], "foodValue" : 14, "rotToEffectRatio" : 0.65 },
+
+  "variants" : [ "hug" ],
+  "presets" : {
+    "hug" : {
+      "shortdescription" : "Sona's Embrace ^#2080f0;^reset;", "variant" : true,
+      "description" : "An exceptionally prepared Sonaveil pie with perfect golden crust and magical warmth. ^gray;Can be used as substitute for Sonaveil Pie.^reset;",
+      "longdescription" : "\"Sona's Embrace\" is what altas call the perfect Sonaveil pie - one where every element comes together in harmony. The koywa crust is delicately flaky yet sturdy, the gil and sonasweet filling perfectly balanced between sweet, savory and spiced, the tonna butter adds rich smoothness, and the whole pie radiates an almost magical warmth that lasts for hours. Made with extra love and holiday spirit, it embodies the true heart of ^#b0e0fc;Sona's Veil^reset;. These are typically made by master chefs like Miara, experienced caretakers from Elin Gardens, or loving sisters who pour genuine holiday spirit into every step. The warmth these pies generate isn't just physical - altas say you can taste the care and affection baked into them. Sharing this pie during Sonaveil is considered a deep expression of sisterly love and the season's true meaning: staying warm together when it's cold outside.",
+      "altaDescription" : "This is perfect! The kind that makes you feel loved and warm inside, like a hug from your favorite sister~ I could cry happy tears! ;-;",
+      "paletteSwap" : {
+        "#ddedfd":"#f9f8e1","#b3d3f1":"#e9e7ba","#98bde0":"#d7d4a0",
+        "#b0001a":"#b00055","#870010":"#87003d","#570008":"#570025",
+        "#ffdc81":"#e4d29c","#ffc100":"#c8a937","#c29300":"#988129",
+        "#78893e":"#4d893e","#667433":"#74333b"
+      }
+    }
+  }
+}

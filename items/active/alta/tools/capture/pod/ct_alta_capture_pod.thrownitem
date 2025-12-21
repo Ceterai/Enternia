@@ -4,6 +4,7 @@
   "description" : "Throw it at a monster to forcefully capture it and bring it to a new home.",
 
   "level" : 5, "race" : "alta",
+  "itemTags" : [ "capture_pod" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "body.png",
   "objectImage" : "body.png",

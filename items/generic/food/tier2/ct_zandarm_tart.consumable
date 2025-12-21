@@ -4,23 +4,14 @@
   "description" : "A dish form weird ingredients that somehow tastes good.",
   "longdescription" : "A special baking recipe that results in a sweet, chewy desset full of melty condiment.",
   "altaDescription" : "Not a big fan of tarts, but this one is pretty interesting, even if in concept.",
-  "level" : 4, "price" : 520, "race" : "alta",
-  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "dessert" ],
-  "inventoryIcon" : "ct_zandarm_tart.png",
-  "effects" : [ [
-    {
-        "effect" : "energyregen",
-        "duration" : 120
-    },
-    {
-        "effect" : "ct_ionic_shock",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 25,
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "nia_cuisine", "dessert" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "build" : { "goodEffects" : [ "energyregen" ], "badEffects" : [ "ct_ionic_shock" ], "rotToEffectRatio" : 0.95 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_niatto_motsu" ],
+  "inventoryIcon" : "ct_zandarm_tart.png",
 
   "variants" : [ "prime" ],
   "presets" : {
@@ -29,7 +20,7 @@
       "description" : "This tart turned out amazing. The tingy filling slowly oozes from the side, waiting to be eaten.",
       "longdescription" : "The right amount of exposure, the temperature and the distribution of ingredients played a huge role in the result.",
       "altaDescription" : "Not too soft, not too crunchy, letting you fully focus on the taste. Very nice!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 580, "foodValue" : 29, "variant" : true, "alkey" : "Zandarm Prime",
+      "variant" : true, "alkey" : "Zandarm Prime",
       "paletteSwap" : {"#a3d744":"#44c7d7","#8dbd35":"#35afbd","#729f1e":"#1e929f","#557d0b":"#0b717d","#36699c":"#75369c"}
     }
   }, "alkey" : "Zandarm"

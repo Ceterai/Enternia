@@ -12,7 +12,7 @@
   ],
   "itemConfig" : {
     "level" : 8, "tooltipKind" : "ct_alta_item_long",
-    "itemTags" : [ "data_source", "datamass" ],
+    "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_omni_eco_pod" ]
   }

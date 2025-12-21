@@ -4,6 +4,7 @@
   "description" : "Toss these on some damp tilled soil to grow flowery grass!",
 
   "level" : 1, "price" : 20, "race" : "alta",
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_flowery_grass_seeds.png",
   "objectImage" : "ct_flowery_grass_seeds.png",

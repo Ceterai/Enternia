@@ -1,3 +1,5 @@
+// Add blueprints for The Hallowing Ceternity decorations and items to the "learnBlueprintsOnPickup" list
+// of the Haunted Crafting Table from the The Spooky Scary Halloween Special mod.
 [
     [
         {
@@ -78,6 +80,16 @@
             "op": "add",
             "path": "/learnBlueprintsOnPickup/-",
             "value": "ct_yaajack_candy"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_ceternity_lights"
+        },
+        {
+            "op": "add",
+            "path": "/learnBlueprintsOnPickup/-",
+            "value": "ct_ceternity-codex"
         }
     ],
     [
@@ -104,7 +116,9 @@
                 "ct_warped_spider_candy",
                 "ct_miazma_candy",
                 "ct_neonjack_candy",
-                "ct_yaajack_candy"
+                "ct_yaajack_candy",
+                "ct_ceternity_lights",
+                "ct_ceternity-codex"
             ]
         }
     ]

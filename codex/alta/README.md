@@ -16,6 +16,78 @@ Alta codexes come in three different types:
 
 Each codex item has an appropriate item tag to indicate that, as it is used for assigning a pickup radio message.
 
+## Page Sizing Guidelines
+
+Starbound codex pages have specific character and line limits:
+
+### Display Limits
+
+- **Width:** `32` characters per line
+- **Height:** `16` lines per page
+- **Maximum:** `≤512` characters per page (32 × 16)
+
+### How Line Counting Works
+
+The game calculates lines by wrapping text:
+
+- **Short lines (≤32 chars):** Count as 1 line each
+- **Long lines (>32 chars):** Split by word wrapping
+- **Empty lines:** Count as 1 line each
+
+**Examples:**
+
+```text
+"Short line"              // 11 chars = 1 line
+"This is a longer line that exceeds the width"  // 45 chars = 2 lines, word-wrapped
+""                        // Empty = 1 line
+```
+
+### Best Practices
+
+**Keep important content together:**
+
+- Headers + their paragraphs should stay on same page
+- Don't split lists across pages unnecessarily
+
+**Estimate your line usage:**
+
+```text
+Header (15 chars)         // 1 line
+Empty line                // 1 line  
+Paragraph (60 chars)      // 2 lines
+Another paragraph (80)    // 3 lines
+List item (20 chars)      // 1 line
+List item (25 chars)      // 1 line
+                          // Total: 9 lines (fits comfortably!)
+```
+
+**Color codes don't count toward character limits:**
+
+```text
+"^#2080f0;Alta Technology^reset;"  // Visible: 15 chars, not 36!
+```
+
+**Warning signs of overflow:**
+
+- More than 5-6 paragraphs
+- Lists with 10+ items  
+- Multiple sections with headers
+- Very long sentences (80+ chars)
+
+### Testing Your Codex
+
+**Manual check:**
+
+1. Count lines (including empty ones)
+2. For lines `>32` chars: divide by `32`, round up
+3. Total should be `≤16` lines per page
+
+**In-game check:**
+
+- Craft the codex and read it
+- If text cuts off mid-sentence → page overflow!
+- If new page starts awkwardly → adjust page breaks
+
 ## Example Structure
 
 ```jsonc
@@ -45,5 +117,7 @@ Each codex item has an appropriate item tag to indicate that, as it is used for 
 ## Modding
 
 Great example to use for context is the **Alta Botanics** codex entry: [`ct_alta_botanics.codex`](ct_alta_botanics.codex)
+
+See the builder script used for alta codex items: [`/items/buildscripts/alta/codex.lua`](/items/buildscripts/alta/codex.lua)
 
 More about modding items in this mod: [Modding: Items](https://github.com/Ceterai/Enternia/wiki/Modding-Items)

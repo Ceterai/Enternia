@@ -20,8 +20,8 @@
     "primary_hold" : [ "/sfx/gun/pulsecannon1.ogg" ],
     "primary_loop" : [ "/sfx/melee/charge_up2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] },
-      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [0, 12, 64] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [ 0, 12, 64 ] } }
   },
   "baseOffset" : [0.75, 0.375],
   "muzzleOffset" : [1.25, 0.25],
@@ -76,8 +76,8 @@
     "description" : "An improved pulse blaster enchanted with pure ^#ffa8e8;stardust^reset; energy.\nNow has an attached laserpointer.",
     "longdescription" : "From a toy to an energy tool to a stardust relic. In the right hands, anything can reach its prime state.",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/tech/tech_blink_cooldown1.ogg" ] },
-      "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] },
-        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 12, 64] }
+      "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] },
+        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [ 0, 12, 64 ] }
       }
     },
     "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [26, 221, 227, 128], "length" : 32, "segments" : 6, "angle" : 0 } ] },

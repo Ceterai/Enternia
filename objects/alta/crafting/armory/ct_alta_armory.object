@@ -26,7 +26,7 @@
   "interactData" : {
     "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_clothing" ],
     "paneLayoutOverride" : {
-      "windowtitle" : { "title" : " Alta Energy Station", "subtitle" : " For sewing things together." },
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA ARMORY", "subtitle" : "^noshadow;^#001054;Armor & Protection" },
       "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
       "tab2" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
       "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },

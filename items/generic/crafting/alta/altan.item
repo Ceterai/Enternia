@@ -9,7 +9,7 @@
 
   // Item params - no translation required.
   "level" : 3, "race" : "alta",
-  "itemTags" : [ "reagent", "cloth", "armor", "compound", "titanium", "altan" ],
+  "itemTags" : [ "reagent", "cloth", "armor", "compound", "titanium" ],
   "category" : "craftingMaterial", "tooltipKind" : "ct_alta_item_long",
   "inventoryIcon" : "altan.png",
   "builder" : "/items/buildscripts/alta/item.lua",

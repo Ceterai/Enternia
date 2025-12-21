@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_cocola_eco", "count" : 1 },
+    { "item" : "moonstone", "count" : 1 },
+    { "item" : "ct_benema_fertilizer", "count" : 1 },
+    { "item" : "ct_composite_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_cocola_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

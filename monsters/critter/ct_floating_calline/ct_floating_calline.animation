@@ -26,7 +26,7 @@
   "rotationGroups" : { "body" : { "rotationCenter" : [0, 0], "angularVelocity" : 5 } },
   "effects" : { "blink" : { "type" : "flash", "time" : 0, "directives" : "fade=ffffff;0.5" } },
   "sounds" : { "turnHostile" : [ ], "deathPuff" : [ "/sfx/npc/enemydeathpuff.ogg" ] },
-  "lights" : { "Glow" : { "active" : true, "position" : [0, 0], "color" : [100, 120, 20], "pointLight" : true } },
+  "lights" : { "Glow" : { "active" : true, "position" : [0, 0], "color" : [ 100, 120, 20 ], "pointLight" : true } },
 
   "particleEmitters" : {
     "deathPoof" : {

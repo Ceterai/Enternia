@@ -19,7 +19,7 @@
     "primary_hold" : [ "/sfx/gun/magnorbs_fire8.ogg", "/sfx/gun/magnorbs_fire9.ogg", "/sfx/gun/magnorbs_fire10.ogg" ],
     "primary_start" : [ ], "primary_loop" : [ ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] } }
   },
   "baseOffset" : [0.0, 0.0], "muzzleOffset" : [0.7, 0.1],
 
@@ -54,7 +54,7 @@
   "upgradeParameters" : {
     "inventoryIcon" : "ct_estralis_vi_2.png",
     "animationParts" : { "middle" : "ct_estralis_vi_2.png" },
-    "shortdescription" : "Estralis Vyurm ^#8020f0;^reset;",
+    "shortdescription" : "Estria's Vyurm ^#8020f0;^reset;",
     "description" : "Seems like the mysterious plasmic claws have grown and come to life... Is this all the ^#ffa8e8;stardust^reset;?",
     "primaryAbility" : {
       "name" : "Starstrains",

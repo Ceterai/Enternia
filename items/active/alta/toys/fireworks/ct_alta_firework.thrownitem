@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_alta_firework",
+  "shortdescription" : "Alta Firework",
+  "description" : "Time for a celebration!",
+  "level" : 1, "price" : 50, "race" : "alta",
+  "category" : "throwableItem", "itemTags" : [ "holiday", "patriotic" ],
+  "inventoryIcon" : "ct_alta_firework.png",
+  "image" : "ct_alta_firework.png?replace=000000=ffffff00",
+
+  "ammoUsage" : 1,
+  "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_alta_firework1",
+  "projectileConfig" : {
+    "speed" : 5, "power" : 0.1,
+    "periodicActions" : [
+      { "time" : 0, "repeat" : false, "action" : "sound", "options" : [ "/sfx/projectiles/throw_item_small.ogg" ] }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

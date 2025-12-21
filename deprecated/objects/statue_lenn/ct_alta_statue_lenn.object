@@ -1,0 +1,51 @@
+{
+  "objectName" : "ct_alta_statue_lenn",
+  "colonyTags" : [ ],
+  "category" : "decorative",
+  "level" : 10, "price" : 1600, "race" : "alta",
+
+  "shortdescription" : "Deprecated Alta Lenn Statue",
+  "description" : "A holographic statue on a composite platform. The label simply reads 'Lenn'.",
+  "longdescription" : "The shimmering static 3D image showcases what seems to be a being from another realm.",
+  "altaDescription" : "A statue dedicated to Lenn, one of the Time Drifters, who decided to help.",
+
+  "apexDescription" : "A hologram dedicated to science. An alta structure.",
+  "avianDescription" : "An electric statue of a planet?",
+  "floranDescription" : "A ghosstly ssstatue. Floran can't touch it.",
+  "glitchDescription" : "Intrigued. This holographic statue looks like... a planet?",
+  "humanDescription" : "Why build an actual statue, if you can just fake it?",
+  "hylotlDescription" : "I don't understand why someone would skip the joy of sculpting something like this.",
+  "novakidDescription" : "A transparent solar system of sorts. I think.",
+
+  "lightColor" : [ 0, 80, 192 ],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 4,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ct_alta_statue_lenn.png:<color>.on",
+      "imagePosition" : [-32, 0],
+      "spaces" : [ [0,0], [1,0], [2,0], [3,0], [4,0], [5,0], [6,0], [7,0], [0,1], [1,1], [2,1], [3,1], [4,1], [5,1], [6,1], [7,1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/outpostmonitor_static.ogg",
+
+  "animation" : "/objects/wired/switch/switch4bgfullbright.animation",
+  "animationCustom" : { "animatedParts" : {"stateTypes":{"switchState":{"default":"on","states":{"on":{"frames":3,"cycle":0.3,"mode":"loop"} } } } } },
+  "animationParts" : {
+    "bg" : "ct_alta_statue_lenn.png",
+    "fg" : "ct_alta_statue_lenn_lit.png"
+  },
+  "animationPosition" : [-32, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -18,7 +18,7 @@
     "init" : [ "/sfx/gun/mech_shielddrone_recover1.ogg" ],
     "primary_press" : [ "/sfx/gun/plasma_sniper2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 80, 0, 192 ] } }
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [1.875, 0.125],

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "liquidwater", "count" : 16 },
+    { "item" : "ct_isoslime_ball", "count" : 16 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_bubble_cannon", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "weapon", "weapons", "ranged", "alta_toys", "toy_weapons", "all", "mod" ]
+}

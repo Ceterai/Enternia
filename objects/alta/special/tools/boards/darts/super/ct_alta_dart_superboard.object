@@ -1,0 +1,19 @@
+{
+  "objectName" : "ct_alta_dart_superboard",
+  "colonyTags" : [ "party" ],
+  "itemTags" : [ "toy" ],
+  "category" : "toy",
+  "level" : 4, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Alta Dart Superboard",
+  "description" : "A basic alta board for playing darts.",
+
+  "inventoryIcon" : "body.png",
+  "orientations" : [
+    { "dualImage" : "left.png", "spaceScan" : 0.1, "anchors" : [ "left" ], "direction" : "right" },
+    { "dualImage" : "right.png", "spaceScan" : 0.1, "anchors" : [ "right" ], "direction" : "right" },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

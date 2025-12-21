@@ -1,40 +1,16 @@
 {
   "itemName" : "ct_yuri_cocktail",
-  "level" : 6, "price" : 1200, "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_yuri_cocktail.png",
   "shortdescription" : "Yuri Cocktail",
   "description" : "The drink of love.",
   "longdescription" : "With the diversity of ingredients this drink can provide a whole variety of effects.",
   "altaDescription" : "It's a casual thing to buy one with a double-straw for you and your friend!",
-  "effects" : [ [
-    {
-        "effect" : "ct_alta_love",
-        "duration" : 270
-    },
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 270
-    },
-    {
-        "effect" : "slowlove",
-        "duration" : 270
-    },
-    {
-        "effect" : "invulnerable",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cocktail", "love" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "cocktail", "love" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood" ], "moodEffects" : [ "ct_alta_love", "slowlove" ], "badEffects" : [ "invulnerable" ], "foodValue" : 6, "rotToEffectRatio" : 0.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_yuri_cocktail.png",
 
   "variants" : [ "deluxe" ],
   "presets" : {
@@ -43,7 +19,6 @@
       "description" : "You can't describe the emotions that fill you whenever you drink this. What is this?",
       "longdescription" : "This cocktail is blooming with typical love ingredients often used in certain dishes.",
       "altaDescription" : "I wish I had a friend I could drink this with...",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
       "paletteSwap" : {
         "#d162ab":"#62d1ac","#b55696":"#56b595",
         "#f86037":"#f837cf","#ee4619":"#ee19c0","#d52d00":"#d500a7",

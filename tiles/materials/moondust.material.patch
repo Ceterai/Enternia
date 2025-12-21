@@ -1,0 +1,27 @@
+// A JSON patch that makes moondust material tillable and plantable so that ayaka trees and alterash crops can grow on it.
+[
+    [
+        {
+            "op": "test",
+            "path": "/tillableMod",
+            "inverse": true
+        },
+        {
+            "op": "add",
+            "path": "/tillableMod",
+            "value": 32
+        }
+    ],
+    [
+        {
+            "op": "test",
+            "path": "/soil",
+            "inverse": true
+        },
+        {
+            "op": "add",
+            "path": "/soil",
+            "value": true
+        }
+    ]
+]

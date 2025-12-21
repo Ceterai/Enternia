@@ -1,27 +1,16 @@
 {
   "itemName" : "ct_onitti_cake",
-  "level" : 6, "price" : 1080, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_onitti_cake.png",
   "shortdescription" : "Onitti Cake",
   "description" : "A delicious layered cake with yaara flower topping. Legends says there's a rare chance you'll get ceternia core out of it.",
   "longdescription" : "The process of preparation includes quite a lot of yaara fibres and petals, which sometimes might result in some ceternia essence transfering to the cake.",
   "altaDescription" : "A nicely-sized portioned caked that you can by either for yourself, or for a group of friends!",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 495
-    }
-  ] ],
-  "foodValue" : 70,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cake", "dessert", "bio", "yaara" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "cake", "dessert", "bio", "yaara" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 20, "rotToEffectRatio" : 0.6428571 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_onitti_cake.png",
 
   "variants" : [ "love" ],
   "presets" : {
@@ -31,7 +20,6 @@
       "longdescription" : "This advanced recipe makes sure you put a lot of effort in it to achieve perfection.",
       "altaDescription" : "I've heard that this is momma Elin's own recipe. Very exciting!",
       "variant" : true, "alkey" : "Elin Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1480, "foodValue" : 90,
       "paletteSwap" : {
         "#c9eef6":"#f1c9f6","#76c7e4":"#e176e4","#4e8fb8":"#b84ead","#366388":"#88367b",
         "#3aa73f":"#3a86a7","#497c56":"#49627c","#2d564a":"#2d2f56","#252c33":"#2f2533",

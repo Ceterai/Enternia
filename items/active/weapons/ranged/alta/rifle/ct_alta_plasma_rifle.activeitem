@@ -20,7 +20,7 @@
     "primary_press" : [ "/sfx/gun/plasma_ar1.ogg" ],
     "auto" : [ "/sfx/gun/plasma_mp1.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 0, 80, 192 ] } }
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],

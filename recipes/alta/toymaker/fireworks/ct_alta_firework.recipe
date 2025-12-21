@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_alta_popper", "count" : 1 },
+    { "item" : "volatilepowder", "count" : 1 },
+    { "item" : "paper", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_alta_firework", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "fireworks", "alta_festive", "national_day", "all", "mod" ]
+}

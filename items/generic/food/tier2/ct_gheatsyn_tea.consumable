@@ -4,24 +4,14 @@
   "description" : "A good balance of sour and bitter with a hint of sweetness, no need to add sugar or lemon!",
   "longdescription" : "This tea is also the main ingredient in multiple popular alta cocktails, sodas and lemonades due to its disctint taste and ease of preparation.",
   "altaDescription" : "This is very nice to mix with a couple of spices and enjoy with some freshly baked cookies.",
-  "level" : 4, "price" : 400, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "tea", "gheatsyn" ],
-  "inventoryIcon" : "ct_gheatsyn_tea.png",
-  "effects" : [ [
-    {
-        "effect" : "ct_alta_curiosity",
-        "duration" : 240
-    },
-    {
-        "effect" : "lightaugment2",
-        "duration" : 240
-    }
-  ] ],
-  "foodValue" : 10,
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "calin_cuisine", "tea", "gheatsyn" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "lightaugment2" ], "moodEffects" : [ "ct_alta_curiosity" ], "foodValue" : 4, "rotToEffectRatio" : 1.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_natal_punch", "ct_minto_spice", "ct_rimar_motsu" ],
+  "inventoryIcon" : "ct_gheatsyn_tea.png",
 
   "variants" : [ "gheamont" ],
   "presets" : {
@@ -30,8 +20,7 @@
       "description" : "Some gheatsyn vermont tea. You can feel the spice just enough to get the resemblance.",
       "longdescription" : "The mix is much more complicated than with a regular gheatsyn tea, and requires a set of roasted spices to prepare.",
       "altaDescription" : "Perfect. Now to get myself some cookies, a cozy blanket and some ionic rain outside.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "lightaugment2", "duration" : 300 } ] ], "variant" : true, "alkey" : "Gheamont",
+      "variant" : true, "alkey" : "Gheamont",
       "paletteSwap" : {"#d4ff5a":"#b3ff5a","#b7f601":"#85f601","#8dbd01":"#67bd01",
       "#c2dc48":"#dc7f48","#8ab120":"#a6b120","#598629":"#6b8629","#2b5414":"#14544a"}
     },

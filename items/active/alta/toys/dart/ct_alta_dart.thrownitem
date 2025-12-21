@@ -1,0 +1,23 @@
+{
+  "itemName" : "ct_alta_dart",
+  "shortdescription" : "Alta Dart",
+  "description" : "A throwing dart, aim for the bullseye.",
+
+  "price" : 20, "race" : "alta",
+  "category" : "throwableItem", "itemTags" : [ "toy", "throwing_dart" ],
+  "inventoryIcon" : "ct_alta_dart.png",
+  "image" : "ct_alta_dart.png",
+
+  "ammoUsage" : 1,
+  "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.5,
+
+  "projectileType" : "throwingdart",
+  "projectileConfig" : {
+    "speed" : 80, "power" : 5, "knockback" : 10,
+    "periodicActions" : [
+      { "time" : 0, "repeat" : false, "action" : "sound", "options" : [ "/sfx/projectiles/throw_item_small.ogg" ] }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

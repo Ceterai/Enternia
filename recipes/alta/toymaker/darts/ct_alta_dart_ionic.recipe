@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "ct_glowstick_ionic", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_alta_dart_ionic", "count" : 4 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "darts", "all", "mod" ]
+}

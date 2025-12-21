@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 2 },
+    { "item" : "paper", "count" : 4 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_alta_basic_popper", "count" : 4 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "confetti", "all", "mod" ]
+}

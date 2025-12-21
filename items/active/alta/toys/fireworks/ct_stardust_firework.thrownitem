@@ -1,0 +1,22 @@
+{
+  "itemName" : "ct_stardust_firework",
+  "shortdescription" : "Stardust Firework",
+  "description" : "Time for a celebration!",
+  "level" : 3, "price" : 50, "race" : "alta",
+  "category" : "throwableItem", "itemTags" : [ "holiday", "stardust" ],
+  "inventoryIcon" : "ct_stardust_firework.png",
+  "image" : "ct_stardust_firework.png?replace=000000=ffffff00",
+
+  "ammoUsage" : 1,
+  "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 0.4,
+
+  "projectileType" : "ct_stardust_firework1",
+  "projectileConfig" : {
+    "speed" : 5, "power" : 0.1,
+    "periodicActions" : [
+      { "time" : 0, "repeat" : false, "action" : "sound", "options" : [ "/sfx/projectiles/throw_item_small.ogg" ] }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

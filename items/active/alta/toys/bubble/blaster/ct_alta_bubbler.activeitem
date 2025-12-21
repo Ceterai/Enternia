@@ -1,77 +1,35 @@
 {
   "itemName" : "ct_alta_bubbler",
-  "shortdescription" : "Bubble Blaster",
-  "description" : "A bubble gun! It shoots bubbles! Wheeeee!",
-  "level" : 1,
-  "category" : "toy",
-  "itemTags" : [ "toy" ],
+  "shortdescription" : "Alta Bubbler",
+  "description" : "A bubble blaster! It shoots bubbles! Wheeeee!",
+
+  "level" : 1, "race" : "alta",
+  "category" : "toy", "itemTags" : [ "toy" ],
   "inventoryIcon" : "icon.png",
 
+  "elementalType" : "physical",
+
   "animation" : "/items/active/weapons/ranged/gun.animation",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "body.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
-  },
-  "animationCustom" : {
-    "sounds" : {
-      "fire" : [ ]
-    },
-    "lights" : {
-      "muzzleFlash" : {
-        "color" : [0, 0, 0]
-      }
-    }
-  },
+  "animationParts" : { "butt" : "", "middle" : "body.png", "barrel" : "", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : { "fire" : [ ] }, "lights" : { "muzzleFlash" : { "color" : [ 0, 0, 0 ] } } },
 
   "baseOffset" : [0.625, 0.25],
   "muzzleOffset" : [1.875, 0.25],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
-  "elementalType" : "physical",
-
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"], "class" : "GunFire",
 
-    "fireTime" : 0.2,
-    "baseDps" : 0,
-    "energyUsage" : 0,
-    "inaccuracy" : 0.02,
-
-    "projectileCount" : 1,
-    "fireType" : "auto",
+    "fireTime" : 0.2, "baseDps" : 0, "energyUsage" : 0, "inaccuracy" : 0.02,
+    "projectileCount" : 1, "fireType" : "auto",
 
     "projectileType" : "friendlybubble",
-    "projectileParameters" : {
-      "speed" : [40, 60]
-    },
+    "projectileParameters" : { "speed" : [40, 60] },
     "stances" : {
-      "idle" : {
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-
-        "allowRotate" : true,
-        "allowFlip" : true
-      },
-      "fire" : {
-        "duration" : 0,
-        "armRotation" : 1,
-        "weaponRotation" : 1,
-
-        "allowRotate" : false,
-        "allowFlip" : true
-      },
-      "cooldown" : {
-        "duration" : 0.1,
-        "armRotation" : 1,
-        "weaponRotation" : 1,
-
-        "allowRotate" : false,
-        "allowFlip" : true
-      }
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 1, "weaponRotation" : 1, "allowRotate" : false, "allowFlip" : true },
+      "cooldown" : { "duration" : 0.1, "armRotation" : 1, "weaponRotation" : 1, "allowRotate" : false, "allowFlip" : true }
     }
   },
 

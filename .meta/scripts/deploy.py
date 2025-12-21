@@ -40,7 +40,7 @@ def process_changes():
     print('Step 1. Extract latest version and changelog to make sure a new version exists.')
     VERSION, TITLE = extract_version.run()
     if not VERSION or not TITLE:
-        raise RuntimeError()
+        raise RuntimeError('Version extraction failed: VERSION or TITLE is missing')
     return VERSION, TITLE
 
 def update_mod_support():

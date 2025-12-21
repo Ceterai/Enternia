@@ -1,43 +1,26 @@
 {
   "itemName" : "ct_natal_punch",
-  "level" : 5, "price" : 720, "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_natal_punch.png",
   "shortdescription" : "Natal Punch",
   "description" : "A punch high on calcium.",
   "longdescription" : "Its ingredients are mainly crystals and minty herbs, and the puch itself in general is not just refreshing, but also quite high on vitamins.",
   "altaDescription" : "Very nice and, most importantly, healthy too! I've heard they boil it with herbs after the whole sugaring process.",
-  "effects" : [ [
-    {
-        "effect" : "biomeradiationImmunity",
-        "duration" : 300
-    },
-    {
-        "effect" : "ct_crystal_poison",
-        "duration" : 10
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "punch", "fruit" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "punch", "fruit" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "biomeradiationImmunity" ], "badEffects" : [ "ct_crystal_poison" ], "foodValue" : 8, "rotToEffectRatio" : 3.00 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_minto_spice", "ct_minto_soup", "ct_warped_cocktail" ],
+  "inventoryIcon" : "ct_natal_punch.png",
 
   "variants" : [ "deluxe" ],
   "presets" : {
     "deluxe" : {
-      "shortdescription" : "Natal Punch Deluxe", "variant" : true,
+      "shortdescription" : "Natal Punch Deluxe ^#2080f0;^reset;", "variant" : true,
       "description" : "A punch so high on calcium it might grow bones and run away, so better drink it quickly.",
       "longdescription" : "This \"premium\" version of the recipe contains a much higher concentration of crystals and thus might not be for everyone.",
       "altaDescription" : "Nice touch if you have something chewy to go along with it, or something like a pizza.",
-      "level" : 6, "rarity" : "Legendary", "price" : 920, "foodValue" : 30,
-      "effects" : [ [ { "effect" : "biomeradiationImmunity", "duration" : 360 } ] ],
+      "build" : { "badEffects" : [ ] },
       "paletteSwap" : {
         "#d4ff5a":"#f67600","#b7f601":"#d68e00","#c2dc48":"#b29f00","#8dbd01":"#b29f00","#6c9000":"#6c9000",
         "#f4ffed":"#f0ffed","#d0fc99":"#bcfc99","#a6e94b":"#86e94b","#8ceb64":"#64ebb7","#69dc48":"#3db993",
@@ -49,7 +32,6 @@
       "description" : "A bubble gum-flavored punch made from crystallic ingredients.",
       "longdescription" : "This \"premium\" version of the recipe contains a much higher concentration of crystals and thus might not be for everyone.",
       "altaDescription" : "Nice touch if you have something chewy to go along with it, or something like a pizza.",
-      "level" : 5, "rarity" : "Rare", "price" : 780, "foodValue" : 27,
       "paletteSwap" : {
         "#d4ff5a":"#5affcf","#b7f601":"#01f6af","#c2dc48":"#48dca4","#8dbd01":"#01bd86","#6c9000":"#009065",
         "#f4ffed":"#edf7ff","#d0fc99":"#99e2fc","#a6e94b":"#4bc2e9","#8ceb64":"#ab8aff","#69dc48":"#9364e9",

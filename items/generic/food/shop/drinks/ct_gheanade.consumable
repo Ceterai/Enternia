@@ -7,6 +7,7 @@
   "inventoryIcon" : "ct_gheanade.png",
   "level" : 2, "race" : "alta", "category" : "drink",
   "itemTags" : [ "gheatsyn", "vendor_drink" ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "rotToEffectRatio" : 10, "goodEffects" : [ "maxenergyscalingboostfood" ] },
 

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "greendye", "count" : 1 },
+    { "item" : "liquidwater", "count" : 4 },
+    { "item" : "ct_isoslime_ball", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_bubbler", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "weapon", "weapons", "ranged", "alta_toys", "toy_weapons", "all", "mod" ]
+}

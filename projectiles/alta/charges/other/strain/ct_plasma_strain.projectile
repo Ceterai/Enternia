@@ -11,7 +11,7 @@
   "renderLayer" : "Player+1",
   "damagePoly" : [ [-1.0, -1.0], [-1.0, 1.0], [1.0, 1.0], [1.0, -1.0] ],
   "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
-  "lightColor" : [32, 128, 240],
+  "lightColor" : [ 32, 128, 240 ],
 
   "physics" : "laser",
   "bounces" : -1,

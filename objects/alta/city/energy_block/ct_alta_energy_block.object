@@ -17,7 +17,7 @@
   "hylotlDescription" : "What could be the purpose of this block?",
   "novakidDescription" : "Looks to me like an energy cube.",
 
-  "lightColor" : [0, 20, 48],
+  "lightColor" : [ 0, 20, 48 ],
   "inventoryIcon" : "icon.png",
   "orientations" : [
     { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ], "collision" : "platform" },

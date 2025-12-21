@@ -1,0 +1,61 @@
+{
+  "objectName" : "ct_alta_festive_station",
+  "colonyTags" : [ "crafting", "holiday" ],
+  "category" : "crafting",
+  "level" : 6, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Festive Station^reset;",
+  "description" : "A festive crafting station for celebrating alta holidays throughout the planetary and interplanetary calendars.",
+  "longdescription" : "The Alta Festive Station allows crafting of holiday-themed decorations, costumes, and special items for celebrating ^#ffa8e8;Ceternity^reset;, ^#b0e0fc;Sona's Veil^reset;, ^#ff60a0;Ava Day^reset;, and ^#60c0fc;Alta National Day^reset;. Each holiday brings its own unique crafts and traditions, from spooky costumes to warm winter decorations to gift-giving items to patriotic displays.",
+  "altaDescription" : "The festival station! I love switching between holiday crafts throughout the year~ Each season brings new celebrations!",
+
+  "apexDescription" : "Alta holiday crafting station. The organization by celebration type is efficient.",
+  "avianDescription" : "A station for creating festival items! Altas seem to like celebrating, huh.",
+  "floranDescription" : "Floran likesss bright colorss! Alta festivalss look fun!",
+  "glitchDescription" : "Impressed. This station organizes crafts by cultural celebration with remarkable clarity.",
+  "humanDescription" : "Alta holiday station! Some of these celebrations seem familiar... Christmas-ish, Halloween-ish, Valentine's-ish.",
+  "hylotlDescription" : "A beautiful approach to organizing seasonal celebrations through dedicated crafting. The respect for tradition is admirable.",
+  "novakidDescription" : "Holiday craftin' station! Those altas sure know how to celebrate in style!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui_tabs.config",
+    "filter" : [ "alta_loot", "alta_ancient", "alta_festive" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;FESTIVE STATION", "subtitle" : "^noshadow;^#001054;Holidays & Celebration" },
+      "tab1" : { "file" : "" }, "bg1" : { "file" : "" },
+      "tab2" : { "file" : "" }, "bg2" : { "file" : "" },
+      "tab3" : { "file" : "/objects/alta/special/events/ceternity/neonjack/icon.png" },
+      "tab4" : { "file" : "/items/generic/crafting/holidayspirit.png" },
+      "tab5" : { "file" : "/items/active/alta/toys/fireworks/ct_stardust_firework.png" },
+      "tab6" : { "file" : "/items/active/alta/toys/fireworks/ct_alta_firework.png" },
+      "tab7" : { "file" : "" }, "bg7" : { "file" : "" },
+      "tab8" : { "file" : "" }, "bg8" : { "file" : "" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "ceternity" ] }
+        },
+        {
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "sonaveil" ] }
+        },
+        {
+          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "new_year" ] }
+        },
+        {
+          "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "national_day" ] }  // ava_day
+        }
+      ] }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

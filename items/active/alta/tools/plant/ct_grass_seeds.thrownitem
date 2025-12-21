@@ -4,6 +4,7 @@
   "description" : "Toss these on some damp tilled soil to grow grass.",
 
   "price" : 20, "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_grass_seeds" ],
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_grass_seeds.png",
   "objectImage" : "ct_grass_seeds.png",

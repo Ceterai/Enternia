@@ -8,11 +8,11 @@
     } } ] }
   },
   "lights" : {
-    "min" : { "active" : false, "position" : [0, 0], "color" : [0, 96, 40] },
-    "dim" : { "active" : false, "position" : [0, 0], "color" : [0, 192, 80] },
-    "mid" : { "active" : false, "position" : [0, 0], "color" : [32, 240, 128] },
-    "bright" : { "active" : false, "position" : [0, 0], "color" : [96, 252, 192] },
-    "max" : { "active" : false, "position" : [0, 0], "color" : [176, 252, 224] }
+    "min" : { "active" : false, "position" : [0, 0], "color" : [ 0, 96, 40 ] },
+    "dim" : { "active" : false, "position" : [0, 0], "color" : [ 0, 192, 80 ] },
+    "mid" : { "active" : false, "position" : [0, 0], "color" : [ 32, 240, 128 ] },
+    "bright" : { "active" : false, "position" : [0, 0], "color" : [ 96, 252, 192 ] },
+    "max" : { "active" : false, "position" : [0, 0], "color" : [ 176, 252, 224 ] }
   },
   "sounds" : {
     "burn" : [ "/sfx/projectiles/flame_burning.ogg" ],

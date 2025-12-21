@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_sona_poster",
+  "colonyTags" : [ "sonaveil" ], "itemTags" : [ "holiday", "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Sona Poster",
+  "description" : "A poster depicting a snowalta.",
+  "longdescription" : "This festive poster features a snowalta - an alta-shaped snowman figure that has become the beloved symbol of Sona's Veil celebrations. Snowaltas are built during the cold solstice season as a joyful winter activity, using snow, crystals, ayaka branches and fruit noses. They are often decorated with scarves, hats, and string lights to add warmth and cheer.",
+  "altaDescription" : "Cute snowalta poster! Building these is one of my favorite Sonaveil traditions~",
+
+  "apexDescription" : "Alta snow sculpture poster. The anthropomorphic design is charming.",
+  "avianDescription" : "An alta snowman!",
+  "floranDescription" : "Snow robogirl... Sssnowgirl?..",
+  "glitchDescription" : "Delighted. This snowalta is wearing a hat.",
+  "humanDescription" : "Alta snowman on a poster! They call them 'snowaltas' - I love it!",
+  "hylotlDescription" : "A whimsical representation of finding joy in seasonal activities.",
+  "novakidDescription" : "Snow critter poster! Looks mighty friendly and festive.",
+
+  "inventoryIcon" : "ct_sona_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_sona_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

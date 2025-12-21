@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 12 },
+    { "item" : "ct_alta_energy_cell", "count" : 8 },
+    { "item" : "crystal", "count" : 16 },
+    { "item" : "venomsample", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_alta_constructor", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t1+", "alta_stations", "objects", "all", "mod" ]
+}

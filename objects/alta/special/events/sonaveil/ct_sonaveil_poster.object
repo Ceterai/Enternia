@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_sonaveil_poster",
+  "colonyTags" : [ "sonaveil" ], "itemTags" : [ "holiday", "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Sonaveil Poster",
+  "description" : "A cheerful poster celebrating ^#b0e0fc;Sona's Veil^reset; - the alta cold solstice holiday of warmth and togetherness.",
+  "longdescription" : "The poster features traditional sona imagery, like snowflakes and string lights, and warm colors, reminding altas of the holiday atmosphere. These posters are commonly displayed in public spaces, squares, and outposts during the holiday season.",
+  "altaDescription" : "Such a pleasant Sonaveil poster! Makes me feel warm just looking at it~",
+
+  "apexDescription" : "Alta winter solstice celebration poster.",
+  "avianDescription" : "A festive alta poster! They celebrate the cold season too.",
+  "floranDescription" : "Pretty red picture! Floran likesss warm colorsss.",
+  "glitchDescription" : "Appreciative. This holiday poster fills you with warmth.",
+  "humanDescription" : "Is it Christmas already?",
+  "hylotlDescription" : "A beautiful expression of finding warmth in community during harsh seasons.",
+  "novakidDescription" : "A festive alta poster of sorts.",
+
+  "inventoryIcon" : "ct_sonaveil_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_sonaveil_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

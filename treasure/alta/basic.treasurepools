@@ -177,6 +177,67 @@
           {"weight" : 0.20, "item" : "ct_vmax"}
     ] } ]
   ],
+
+  // Secret easter egg items
+  "ct_alta_secret" : [
+    [0, {
+      "pool" : [  //          total: 1.00
+        {"weight" : 0.20, "item" : "ct_cagorta_statue"},
+        {"weight" : 0.20, "item" : "ct_elunya_statue"},
+        {"weight" : 0.15, "item" : "ct_lenn_af"},
+        {"weight" : 0.15, "item" : "ct_b803_af"},
+        {"weight" : 0.15, "item" : "ct_b803_plush"},
+        {"weight" : 0.15, "item" : "ct_lenn_statue"}
+      ]
+    } ]
+  ],
+
+  // Event treasure pools
+
+  // Sonaveil Gift crate loot pool - meant to be opened during the Sona's Veil event, should contain 3-6 holiday spirit and 1-2 festive items
+  "ct_sonaveil_gift" : [
+    [0, {
+      "fill" : [ { "pool" : "ct_sonaveil_spirit" } ],
+      "poolRounds" : [ [0.8, 1], [0.2, 2] ],
+      "pool" : [  //          total: 1.00
+        // Resources - 0.16 weight total
+        { "weight" : 0.08, "item" : [ "snowball", 8 ] },
+        { "weight" : 0.08, "item" : [ "snowflake", 8 ] },
+
+        // Food items - 0.40 weight total
+        { "weight" : 0.13, "item" : "ct_sonasweet" },
+        { "weight" : 0.05, "item" : "ct_sonaveil_cake" },
+        { "weight" : 0.01, "item" : [ "ct_sonaveil_cake", 1, { "preset" : "love" } ] },
+        { "weight" : 0.07, "item" : "ct_sonaveil_pie" },
+        { "weight" : 0.01, "item" : [ "ct_sonaveil_pie", 1, { "preset" : "hug" } ] },
+        { "weight" : 0.13, "item" : [ "ct_gheatsyn_tea", 1, { "preset" : "gheamont" } ] },
+
+        // Decorations - 0.34 weight total
+        { "weight" : 0.03, "item" : [ "ct_sonaveil_lights", 4 ] },
+        { "weight" : 0.035, "item" : [ "ct_sonaveil_lights", 2 ] },
+        { "weight" : 0.035, "item" : "ct_sonaveil_scarf_wall" },
+        { "weight" : 0.035, "item" : "ct_alta_scarf_wall" },
+        { "weight" : 0.035, "item" : "ct_sonaveil_poster" },
+        { "weight" : 0.035, "item" : "ct_sona_poster" },
+        { "weight" : 0.035, "item" : "ct_christmas_poster" },
+        { "weight" : 0.025, "item" : "ct_snowalta" },
+        { "weight" : 0.025, "item" : "ct_sonaveil_snowalta" },
+        { "weight" : 0.025, "item" : "ct_sonia_af" },
+        { "weight" : 0.025, "item" : "ct_sonaveil_af" },
+
+        // Cosmetics - 0.06 weight total
+        { "weight" : 0.02, "item" : "ct_sonaveil_scarf" },
+        { "weight" : 0.04, "item" : "ct_alta_scarf" },
+
+        // Miscellaneous - 0.04 weight total
+        { "weight" : 0.02, "item" : "ct_sonaveil-codex" },
+        { "weight" : 0.02, "item" : "ct_sonaveil_gift" }
+      ]
+    } ]
+  ],
+
+  // Endgame treasure pools
+
   "ct_alterashEndNoteTreasure" : [ [0,{"poolRounds":[[0.6,0],[0.4,1]],"pool":[{"weight":1,"item":"ct_notes_maya_backdoor-codex"}]}] ],
   "ct_alterashEndTreasure" : [ [0, {
         "fill" : [ {"pool" : "ct_alterashEndNoteTreasure"} ],

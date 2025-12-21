@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "avesmingojuice", "count" : 1 },
+    { "item" : "holidayspirit", "count" : 12 },
+    { "item" : "sugar", "count" : 1 },
+    { "item" : "milk", "count" : 1 },
+    { "item" : "egg", "count" : 1 },
+    { "item" : "avesmingo", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_sonaveil_cake", "count" : 1, "parameters" : { "preset" : "love" } },
+  "duration" : 4.00,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "desserts", "cakes", "alta_festive", "sonaveil", "all", "mod" ]
+}

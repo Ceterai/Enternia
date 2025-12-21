@@ -13,7 +13,7 @@
   ],
   "itemConfig" : {
     "level" : 4, "tooltipKind" : "ct_alta_item_long",
-    "itemTags" : [ "data_source", "ebook" ],
+    "itemTags" : [ "data_source", "ebook", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_basic_fertilizer", "ct_ayaka_flower_pot", "ct_grass_seeds" ]
   }

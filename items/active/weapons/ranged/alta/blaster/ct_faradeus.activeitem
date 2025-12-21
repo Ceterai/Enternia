@@ -17,8 +17,8 @@
   "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
   "animationParts" : { "middle" : "ct_faradeus.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/plasma_small.png" },
   "animationCustom" : { "sounds" : { "primary_press" : [ "/sfx/gun/mp3.ogg" ], "primary_start" : [ ], "primary_loop" : [ ], "primary_end" : [ ] },
-    "lights" : { "muzzleFlash" : { "color" : [0, 80, 192] },
-      "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 12, 64] }
+    "lights" : { "muzzleFlash" : { "color" : [ 0, 80, 192 ] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [ 0, 12, 64 ] }
     }
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],

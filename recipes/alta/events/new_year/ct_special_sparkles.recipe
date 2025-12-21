@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_miko_tea", "count" : 1 },
+    { "item" : "ct_aya_baked", "count" : 1 },
+    { "item" : "ct_ionice_cube", "count" : 2 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_special_sparkles", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "drinks", "alta_festive", "new_year", "all", "mod" ]
+}

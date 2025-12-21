@@ -5,7 +5,7 @@
   "shape" : "desert",
   "inventoryIcon" : "icon.png",
 
-  "lightColor" : [0, 90, 40],
+  "lightColor" : [ 0, 90, 40 ],
 
   "dropConfig" : {
     "drops" : [
@@ -18,7 +18,7 @@
       "glow" : {
         "active" : true,
         "position" : [0.5, 0.5],
-        "color" : [0, 30, 130]
+        "color" : [ 0, 30, 130 ]
       }
     },
     
@@ -28,7 +28,7 @@
         "options" : [
           {
             "type" : "ember",
-            "color" : [55, 55, 13],
+            "color" : [ 55, 55, 13 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -40,7 +40,7 @@
           },
           {
             "type" : "ember",
-            "color" : [73, 77, 22],
+            "color" : [ 73, 77, 22 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -52,7 +52,7 @@
           },
           {
             "type" : "ember",
-            "color" : [97, 111, 34],
+            "color" : [ 97, 111, 34 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -69,7 +69,7 @@
         "options" : [
           {
             "type" : "ember",
-            "color" : [55, 55, 13],
+            "color" : [ 55, 55, 13 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -81,7 +81,7 @@
           },
           {
             "type" : "ember",
-            "color" : [73, 77, 22],
+            "color" : [ 73, 77, 22 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -93,7 +93,7 @@
           },
           {
             "type" : "ember",
-            "color" : [97, 111, 34],
+            "color" : [ 97, 111, 34 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -111,7 +111,7 @@
 
   "crownLeaves" : {
     "crown1" : {
-      "lightColor" : [0, 90, 40],
+      "lightColor" : [ 0, 90, 40 ],
       "image" : "",
       "backimage" : "crown1.png",
       "attachment" : {
@@ -120,7 +120,7 @@
       }
     },
     "crown2" : {
-      "lightColor" : [0, 90, 40],
+      "lightColor" : [ 0, 90, 40 ],
       "image" : "",
       "backimage" : "crown2.png",
       "attachment" : {
@@ -130,7 +130,7 @@
       }
     },
     "crown3" : {
-      "lightColor" : [0, 90, 40],
+      "lightColor" : [ 0, 90, 40 ],
       "image" : "",
       "backimage" : "crown3.png",
       "attachment" : {

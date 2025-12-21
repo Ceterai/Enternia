@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "ct_alta_dye", "count" : 1 },
+    { "item" : "liquidwater", "count" : 8 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_waterblaster", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "weapon", "weapons", "ranged", "alta_toys", "toy_weapons", "all", "mod" ]
+}

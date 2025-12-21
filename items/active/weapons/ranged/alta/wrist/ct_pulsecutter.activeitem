@@ -16,8 +16,8 @@
   "animationParts" : { "middle" : "ct_pulsecutter.png", "muzzleFlash" : "/items/active/weapons/ranged/alta/abils/muzzle/impulse.png" },
   "animationCustom" : {
     "sounds" : { "primary_press" : [ "/sfx/gun/plasma_mp1.ogg" ], "primary_hold" : [ "/sfx/gun/plasma_ar1.ogg" ], "primary_start" : [ ] },
-    "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] },
-      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [0, 64, 12] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 0, 192, 80 ] },
+      "laser" : { "transformationGroups" : ["weapon"], "active" : false, "position" : [1.8, 0.385], "color" : [ 0, 64, 12 ] } }
   },
   "baseOffset" : [0.0, 0.0], "muzzleOffset" : [0.7, 0.1],
 
@@ -58,8 +58,8 @@
     "shortdescription" : "Hyperblaster ^#8020f0;^reset;",
     "description" : "This cutting tool has been upgraded to a full-on automatic blaster that uses ^#ffa8e8;stardust^reset; energy for its pulses.\nNow with a laser pointer.",
     "animationCustom" : { "sounds" : { "init" : [ "/sfx/gun/reload/ar_reload_clip1.ogg" ] },
-      "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] },
-        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [0, 64, 12] }
+      "lights" : { "muzzleFlash" : { "color" : [ 0, 192, 80 ] },
+        "laser" : { "transformationGroups" : ["weapon"], "active" : true, "position" : [1.8, 0.385], "color" : [ 0, 64, 12 ] }
       }
     },
     "scriptedAnimationParameters" : { "beams" : [ { "offset" : [1.8, 0.5], "color" : [32, 240, 128, 128], "length" : 32, "segments" : 6, "angle" : 0 } ] },

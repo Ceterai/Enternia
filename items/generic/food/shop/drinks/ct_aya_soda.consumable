@@ -7,6 +7,7 @@
   "inventoryIcon" : "ct_aya_soda.png",
   "level" : 1, "race" : "alta", "category" : "drink",
   "itemTags" : [ "ayaka", "vendor_drink" ],
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "rotToEffectRatio" : 9, "goodEffects" : [ "maxenergyscalingboostfood" ] },
 

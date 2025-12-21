@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_alta_scarf",
+  "shortdescription" : "Alta Scarf",
+  "description" : "A soft, cozy scarf in alta colors - perfect for keeping warm.",
+  "longdescription" : "This beautifully hand-knitted scarf features lovely shades of lightblue and white. Crafted by skilled alta hands, it's both stylish and incredibly warm. These scarves are usually given out to travelers at alta outposts in colder regions, as a rule of hospitality and care.",
+  "altaDescription" : "Soft touch, steady pattern. It feels… grounding. Like a warm hug from a sister.",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "tier5clothing", "sonaveil", "holiday" ],
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+  "colorOptions" : [  // Alta lightblue
+    { "9cd8ff" : "9cd8ff", "78bae3" : "78bae3", "4182cf" : "4182cf", "1e54a1" : "1e54a1" },  // ALTA LIGHT BLUE (DEFAULT)
+    { "9cd8ff" : "838383", "78bae3" : "555555", "4182cf" : "383838", "1e54a1" : "151515" },  // BLACK
+    { "9cd8ff" : "707088", "78bae3" : "606074", "4182cf" : "404050", "1e54a1" : "2c2c34" },  // GREY
+    { "9cd8ff" : "f6f6f6", "78bae3" : "d8dcf0", "4182cf" : "b0b4c8", "1e54a1" : "606478" },  // ALTA LIGHT (WHITE)
+    { "9cd8ff" : "f4988c", "78bae3" : "d93a3a", "4182cf" : "932625", "1e54a1" : "601119" },  // RED
+    { "9cd8ff" : "ffd495", "78bae3" : "ea9931", "4182cf" : "af4e00", "1e54a1" : "6e2900" },  // ORANGE
+    { "9cd8ff" : "ffffa7", "78bae3" : "e2c344", "4182cf" : "a46e06", "1e54a1" : "642f00" },  // YELLOW
+    { "9cd8ff" : "b2e89d", "78bae3" : "51bd3b", "4182cf" : "247824", "1e54a1" : "144216" },  // GREEN
+    { "9cd8ff" : "96cbe7", "78bae3" : "5588d4", "4182cf" : "344495", "1e54a1" : "1a1c51" },  // BLUE
+    { "9cd8ff" : "d29ce7", "78bae3" : "a451c4", "4182cf" : "6a2284", "1e54a1" : "320c40" },  // PURPLE
+    { "9cd8ff" : "eab3db", "78bae3" : "d35eae", "4182cf" : "97276d", "1e54a1" : "59163f" },  // PINK
+    { "9cd8ff" : "ccae7c", "78bae3" : "a47844", "4182cf" : "754c23", "1e54a1" : "472b13" }   // BROWN
+  ],
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

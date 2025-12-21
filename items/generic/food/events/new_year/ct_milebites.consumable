@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_milebites",
+  "shortdescription" : "Milebites ^#2080f0;^reset;",
+  "description" : "A large bowl of neat milestone bites - a traditional new year treat.",
+  "longdescription" : "As the name suggests, these are made to celebrate milestones and new beginnings. They are small, bite-sized pieces of various ingredients, often including sweet and savory flavors, symbolizing the pleasant experiences of the past year and the hope for a prosperous new one.",
+  "altaDescription" : "This meal is a milestone in and of itself~",
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "new_year", "holiday" ],
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "ct_velocity_boost", "ct_velocity_swim" ], "foodValue" : 13, "rotToEffectRatio" : 3.0 },
+
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_alta_soup", "ct_haruplavu_venetto", "ct_special_mimosa" ],
+  "inventoryIcon" : "ct_milebites.png"
+}

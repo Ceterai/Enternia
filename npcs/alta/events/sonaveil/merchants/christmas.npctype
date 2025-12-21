@@ -1,0 +1,24 @@
+{
+  "type" : "ct_alta_christmas_girl",
+  "baseType" : "ct_alta_merchant",
+  "items" : {
+    "override" : [
+      // A red Santa outfit with a skirt for Christmas, sells Christmas items
+      [0, [
+        {
+          "head" : [ "hotholidayhead" ],
+          "chest" : [ "hotholidaychest" ],
+          "legs" : [ "hotholidaypants" ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "merchant" : { "numItems" : 12, "categories" : { "default" : [ "holiday" ] } },
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:tout" },
+      "converse" : "/dialog/alta.config:sonaveil"
+    }
+  }
+}

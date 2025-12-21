@@ -4,6 +4,7 @@
   "description" : "Toss these on some damp tilled soil to grow crimson-colored grass!",
 
   "level" : 3, "price" : 20, "race" : "alta",
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_crimson_grass_seeds.png",
   "objectImage" : "ct_crimson_grass_seeds.png",

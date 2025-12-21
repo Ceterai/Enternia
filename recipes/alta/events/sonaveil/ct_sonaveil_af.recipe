@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "cotton", "count" : 2 },
+    { "item" : "cottonwool", "count" : 2 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "holidayspirit", "count" : 12 },
+    { "item" : "crystal", "count" : 12 }
+  ],
+  "output" : { "item" : "ct_sonaveil_af", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor6", "alta_special", "objects", "alta_toys", "figurines", "all", "mod", "alta_festive", "sonaveil" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_special_sparkles",
+  "shortdescription" : "Special Sparkles ^#8020f0;^reset;",
+  "description" : "All this fizziness might end up everywhere if you're not careful enough.",
+  "longdescription" : "A festive new year's drink, made with sparkling water, a hint of ciranga, and a touch of sweetness. The drink is garnished with edible glitter to give it that extra sparkle, making it perfect for celebrating the new year in style.",
+  "altaDescription" : "A drink that sparkles as much as the fireworks in the sky~",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "new_year", "holiday" ],
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_special_sparkles.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood", "ragefood" ], "foodValue" : 2, "rotToEffectRatio" : 1.25 }
+}

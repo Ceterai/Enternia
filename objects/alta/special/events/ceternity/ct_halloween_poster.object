@@ -1,7 +1,6 @@
 {
   "objectName" : "ct_halloween_poster",
-  "colonyTags" : [ "halloween" ],
-  "itemTags" : [ "poster" ],
+  "colonyTags" : [ "halloween" ], "itemTags" : [ "holiday", "poster" ],
   "category" : "decorative",
   "level" : 2, "price" : 200, "race" : "alta",
 
@@ -9,6 +8,14 @@
   "description" : "A pumpkin face painted onto a poster made to celebrate a spooky human event called Halloween. Happy spooky season!",
   "longdescription" : "A poster featuring a pumpkin, the biggest mascot of the Halloween event. The design is abstract and colorful, evoking a sense of mystery and wonder. It's a great way to show your support for the event and add some festive decor to your home.",
   "altaDescription" : "Happy spooky season!~",
+
+  "apexDescription" : "Human autumn celebration featuring themed symbols.",
+  "avianDescription" : "A carved face for human festivities.",
+  "floranDescription" : "Orange fruit face! Floran thinksss it looksss funny.",
+  "glitchDescription" : "Curious. Humans celebrate similarly to altas.",
+  "humanDescription" : "Classic jack-o'-lantern! Nice seeing altas appreciate it.",
+  "hylotlDescription" : "Different species, similar seasonal celebration themes.",
+  "novakidDescription" : "A pumpkin poster!",
 
   "inventoryIcon" : "ct_halloween_poster.png",
   "orientations" : [

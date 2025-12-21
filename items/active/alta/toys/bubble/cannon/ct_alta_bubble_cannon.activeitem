@@ -1,0 +1,37 @@
+{
+  "itemName" : "ct_alta_bubble_cannon",
+  "shortdescription" : "Alta Bubble Cannon",
+  "description" : "A powerful bubble cannon! It shoots big bubbles that can knock back enemies!",
+
+  "level" : 3, "race" : "alta",
+  "category" : "toy", "itemTags" : [ "toy" ],
+  "inventoryIcon" : "icon.png",
+
+  "elementalType" : "physical", "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : { "butt" : "", "middle" : "body.png", "barrel" : "", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : { "fire" : [ ] }, "lights" : { "muzzleFlash" : { "color" : [ 0, 0, 0 ] } } },
+
+  "baseOffset" : [-0.625, 0.45],
+  "muzzleOffset" : [2.175, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"], "class" : "GunFire",
+
+    "fireTime" : 0.1, "baseDps" : 0, "energyUsage" : 0, "inaccuracy" : 0.02,
+    "projectileCount" : 1, "fireType" : "auto",
+
+    "projectileType" : "friendlybubble",
+    "projectileParameters" : { "speed" : [40, 60] },
+    "stances" : {
+      "idle" : { "armRotation" : 0, "weaponRotation" : 0, "twoHanded" : true, "allowRotate" : true, "allowFlip" : true },
+      "fire" : { "duration" : 0, "armRotation" : 1, "weaponRotation" : 1, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true },
+      "cooldown" : { "duration" : 0.1, "armRotation" : 1, "weaponRotation" : 1, "twoHanded" : true, "allowRotate" : false, "allowFlip" : true }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

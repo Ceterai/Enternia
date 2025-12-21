@@ -1,0 +1,16 @@
+{
+  "objectName" : "ct_sonaveil_scarf_wall",
+  "colonyTags" : [ "sonaveil" ], "itemTags" : [ "holiday", "cozy" ],
+  "category" : "decorative",
+  "level" : 5, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Sonaveil Wall Scarf",
+  "description" : "",
+
+  "inventoryIcon" : "ct_sonaveil_scarf_wall.png",
+  "orientations" : [
+    { "dualImage" : "ct_sonaveil_scarf_wall.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -8,7 +8,7 @@
   "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
   "animation" : "default.animation",
-  "animationPosition" : [12, 12],
+  "animationPosition" : [12, 16],
   "inventoryIcon" : "icon1.png",
   "placementImage" : "body1.png",
   "placementImagePosition" : [0, 0],
@@ -39,16 +39,14 @@
         "placementImage" : "body1.png",
         "price" : 1200,
 
-        "shortdescription" : "^orange;Emergency Alta Workshop^white;",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
+        "shortdescription" : "^orange;Alta Workshop^white;",
+        "description" : "Used for crafting basic ^#b0e0fc;alta^reset; technology and resources."
       },
       "interactData" : {
-        "config" : "/objects/alta/crafting/upgrade_station/default.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Emergency Alta Workshop",
-            "subtitle" : " ^#b9b5b2;Simple crafting works to help a stranded alta!",
-            "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon1.png" }
-        } },
+        "config" : "/interface/alta/crafting/ui.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA WORKSHOP", "subtitle" : "^noshadow;^#001054;Welcome back, alta!" }
+        },
         "filter" : [ "alta_stations0" ], "initialRecipeUnlocks" : [],
         "upgradeMaterials" : [
           { "item" : "ct_gheatsyn_crystal", "count" : 32 },
@@ -71,12 +69,10 @@
       },
 
       "interactData" : {
-        "config" : "/objects/alta/crafting/upgrade_station/default.config",
-        "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Ultimate Alta Station",
-            "subtitle" : " ^#b9b5b2;Gheatsyn Upgrades",
-            "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon2.png" }
-        } },
+        "config" : "/interface/alta/crafting/ui.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA WORKSHOP", "subtitle" : "^noshadow;^#001054;Welcome back, alta!" }
+        },
         "filter" : [ "alta_stations0", "alta_stations" ], "initialRecipeUnlocks" : []
       },
 

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ct_tsay_cooked", "count" : 2 },
+    { "item" : "ct_gillikada", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_milebites", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "mains", "stew", "alta_festive", "new_year", "all", "mod" ]
+}

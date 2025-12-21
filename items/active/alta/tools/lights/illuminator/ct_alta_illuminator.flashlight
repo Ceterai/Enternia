@@ -4,6 +4,7 @@
   "description" : "A pretty powerful flashlight.",
 
   "level" : 6, "price" : 240, "race" : "alta",
+  "itemTags" : [ "light" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png",
@@ -12,7 +13,7 @@
   "image" : "body.png",
   "handPosition" : [-2, 0],
   "lightPosition" : [4, 0],
-  "lightColor" : [255, 255, 255],
+  "lightColor" : [ 255, 255, 255 ],
   "beamLevel" : 5,
   "beamAmbience" : 1.0,
 

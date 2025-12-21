@@ -1,37 +1,25 @@
 {
   "itemName" : "ct_tonna_meringue",
-  "level" : 5, "price" : 760, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_tonna_meringue.png",
   "shortdescription" : "Tonna Meringue",
   "description" : "A very soft ^#c1ebf8;tonna^reset; pie with meringue topping.",
   "longdescription" : "The way tonnas are utilized to create a topping and the filling at the same time requires some culinary skill.",
   "altaDescription" : "A very sweet dessert that's presented to look like a slice of pie. Presumably because that's part of how these are made.",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 255
-    }
-  ] ],
-  "foodValue" : 45,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "dessert", "tonnova" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "nia_cuisine", "dessert", "tonnova" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 15, "rotToEffectRatio" : 1.75 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_ion_risotto", "ct_tonna_split" ],
+  "inventoryIcon" : "ct_tonna_meringue.png",
 
   "variants" : [ "kada" ],
   "presets" : {
     "kada" : {
-      "shortdescription" : "Tonnakada Meringue", "variant" : true,
+      "shortdescription" : "Tonnakada Meringue ^#2080f0;^reset;", "variant" : true,
       "description" : "The softness of this full-on meringue makes it feel like it's melting in your mouth.",
       "longdescription" : "This recipe uses a freshly-made tonnakada as base for its recipe. Therefore, the baked tonna shell is used as pie casing too.",
       "altaDescription" : "A very cool turn on a regular tonna meringue, that just sounds like a fun idea.",
-      "level" : 6, "rarity" : "Legendary", "price" : 960, "foodValue" : 55,
       "paletteSwap" : {
         "#106686":"#10867a","#103f50":"#105049","#102b35":"#103531",
         "#f4fafd":"#f4fafd","#acdcec":"#acdcec","#10b4ef":"#10b4ef",
@@ -44,7 +32,7 @@
       "description" : "The softness of this crumble pie makes it feel like it's melting in your mouth.",
       "longdescription" : "A combination of rare fruits gives it an additionally exceptional texture, eating it hot is preferred due to that as well.",
       "altaDescription" : "A soft, warm crumble pie is such an excellent dish to go along with some tea!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 560, "foodValue" : 35, "itemTags" : [ "alta_cuisine", "dessert", "crumble" ],
+      "level" : 4, "itemTags" : [ "alta_cuisine", "dessert", "crumble" ],
       "paletteSwap" : {
         "#106686":"#863f10","#103f50":"#502910","#102b35":"#351e10",
         "#f4fafd":"#b689a4","#acdcec":"#a95b8b","#10b4ef":"#80245c",

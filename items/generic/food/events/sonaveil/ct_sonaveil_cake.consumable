@@ -1,0 +1,32 @@
+{
+  "itemName" : "ct_sonaveil_cake",
+  "shortdescription" : "Sonaveil Cake",
+  "description" : "A simple festive ^#b0e0fc;Sonaveil^reset; with pleasant thin layer of pink frosting. Happy holidays!",
+  "longdescription" : "This traditional Sonaveil dessert combines unsweetened cake layers with some jam filling.",
+  "altaDescription" : "Can't say it looks extra presentable or sweet, but it's surprizingly pleasant if you actually try it!",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "cake", "dessert", "sona", "sonaveil", "holiday" ],
+  "learnBlueprintsOnPickup" : [ "ct_sonaveil_cake" ],
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_sonaveil_cake.png",
+
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 20, "rotToEffectRatio" : 0.55 },
+
+  "variants" : [ "love" ],
+  "presets" : {
+    "love" : {
+      "shortdescription" : "Sona's Love ^#8020f0;^reset;",
+      "description" : "A perfectly baked ^#b0e0fc;Sonaveil Cake^reset; decorated with crimson frosting and snow-white crystalline sugar.",
+      "longdescription" : "This special variant of Sonaveil cake is made with extra care and love, resulting in perfectly balanced flavors and a beautiful warm crimson frosting with cooling sonasweet sprinkles designed to resemble fresh snow. The crimson represents the warmth of love shared during the cold season - the very heart of Sona's Veil's message about staying warm together. Perfect for sharing it with all of your friends!",
+      "altaDescription" : "Oh Io, this looks so festive I almost don't want to eat it~",
+      "level" : 6, "variant" : true, "alkey" : "Sona Muai",
+      "paletteSwap" : {
+        "#c97939":"#c94639","#a4551a":"#a4251a","#74390f":"#74160f",  // Frosting
+        "#db4f3d":"#ffe0d3","#e71a00":"#ffb796","#b81600":"#fdb296",  // Sprinkles and filling layered
+        "#fed508":"#ae923e","#feaa07":"#ae773e","#f94c02":"#85512f"   // Cake body
+      }
+    }
+  }, "alkey" : "Sonia Ovak"
+}

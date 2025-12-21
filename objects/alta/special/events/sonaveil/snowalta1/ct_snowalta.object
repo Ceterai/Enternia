@@ -1,0 +1,46 @@
+{
+  "objectName" : "ct_snowalta",
+  "colonyTags" : [ "sona", "sonaveil" ], "itemTags" : [ "holiday" ],
+  "level" : 1, "price" : 100, "race" : "alta",
+  "category" : "breakable",
+
+  "shortdescription" : "Snowalta",
+  "description" : "A perfect little snowalta.",
+
+  "apexDescription" : "An adorable snowalta. How are you today?",
+  "avianDescription" : "A snowalta. He feels like he's missing something.",
+  "floranDescription" : "Floran hunt sssnowalta. Sssnowalta not care. Sssnowalta crumble.",
+  "glitchDescription" : "Jealous. Glitch bodies have too many corners for me to create an accurate snowglitch.",
+  "humanDescription" : "A snowalta! Temptation to kick its head off... rising...",
+  "hylotlDescription" : "This snow effigy will one day melt, and return to the water from whence it came. It also has a cute carrot nose.",
+  "novakidDescription" : "Is this a snow sculpture? Or did someone stand around in a snow storm for too long?",
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "body.png",
+      "direction" : "left",
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "body.png",
+      "direction" : "right",
+      "imagePosition" : [-8, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2], [-1, 3], [0, 3], [1, 3] ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/bed_leave.ogg" ],
+  "smashDropOptions" : [
+    [ [ "giganticsnowball", 1, { } ], [ "largesnowball", 1, { } ], [ "mediumsnowball", 1, { } ], [ "ct_aya", 1, { } ], [ "ct_ayaka_wood", 1, { } ], [ "crystal", 2, { } ] ]
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

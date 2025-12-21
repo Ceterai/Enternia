@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ruka_eco", "count" : 1 },
+    { "item" : "moondust", "count" : 1 },
+    { "item" : "ct_biomix_fertilizer", "count" : 1 },
+    { "item" : "ct_alta_tall_flower_pot", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ruka_af", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_constructor6", "alta_special", "alta_dendrarium", "potted_flowers", "all", "mod" ]
+}

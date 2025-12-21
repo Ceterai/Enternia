@@ -4,7 +4,7 @@
   "description" : "Shoots happy water sprinkles. Hold LMB to charge a water balloon!",
   "elementalType" : "water",
 
-  "level" : 3, "rarity" : "Legendary",
+  "level" : 3, "race" : "alta",
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1",
   "twoHanded" : false, "category" : "toy",
@@ -22,7 +22,7 @@
     },
     "lights" : {
       "muzzleFlash" : {
-        "color" : [26, 221, 227]
+        "color" : [ 26, 221, 227 ]
       }
     }
   },

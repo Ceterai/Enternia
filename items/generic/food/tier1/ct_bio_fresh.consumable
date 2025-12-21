@@ -4,13 +4,15 @@
   "description" : "A healthy fresh made out of pure ^#60d600;biosamples^reset; rich on vitamins. Tastes a bit like medicine.",
   "longdescription" : "The taste however is not far off when it comes to the qualities of the drink. Though there' poison in every medicine, as they say.",
   "altaDescription" : "A little strainght-forward with the taste, but the texture is amazing! Especially if you carbonate it...",
-  "level" : 2, "price" : 120, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "fresh", "extract", "bio" ],
-  "inventoryIcon" : "ct_bio_fresh.png",
-  "foodValue" : 12, "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 }, { "effect" : "weakpoison", "duration" : 5 } ] ],  // ct_alta_food_plant
-  "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ], "blockingEffects" : [ "wellfed" ], "emitters" : [ "drinking" ],
-  "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ],
+
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "fresh", "extract", "bio" ],  // ct_alta_food_plant
   "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxhealthboost20" ], "badEffects" : [ "weakpoison" ], "foodValue" : 8, "rotToEffectRatio" : 0.70 },
+  "category" : "drink", "itemAgingScripts" : [ "/items/generic/food/ct_food_aging.lua" ],
+  "learnBlueprintsOnPickup" : [ "ct_biomix_icecream", "ct_maito_tea" ],
+  "inventoryIcon" : "ct_bio_fresh.png",
+
   "variants" : [ "essence" ],
   "presets" : {
     "essence" : {
@@ -18,16 +20,15 @@
       "description" : "This vitamin-full juice, made from finest prime ^#60d600;biosamples^reset;, is both very healthy and exceptionally refreshing.",
       "longdescription" : "Biosample primification involves exposing it to environments of differing toxicity levels, and seeing which one will \"click\".",
       "altaDescription" : "This looks like it was synthesysed in a lab, even if it was made on accident.",
-      "level" : 3, "rarity" : "Uncommon", "price" : 220, "variant" : true,
-      "foodValue" : 15, "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 75 } ] ], "alkey" : "Yava Erin",
+      "variant" : true, "alkey" : "Yava Erin", "build" : { "badEffects" : [ ] },
       "paletteSwap" : {"#9cf600":"#00f6bb","#60d600":"#00d6cb","#00b21a":"#00a3b2","#f3ffac":"#accfff","#cdd88e":"#8eacd8","#4bd93a":"#d93a45","#409325":"#93253c"}
     },
     "miko" : {
-      "shortdescription" : "Miko Fresh", "price" : 160, "foodValue" : 14,
+      "shortdescription" : "Miko Fresh",
       "description" : "A direct extract from ^#497c64;miko koywa^reset; petals. Active components in its fibres tend to positively impact inner workings of different organisms.",
       "longdescription" : "Aspiring ^#b0e0fc;alta artists^reset; often drink these in search of muse and inspiration, as miko flower dishes tend to have culturally positive connotations to them.",
       "altaDescription" : "Aww, this is so sweet and inspiring! Kinda like ^#ffa8e8;miko honey^reset;.", "itemTags" : [ "yava_cuisine", "fresh", "love", "koywa" ],
-      "wiki" : { "skip" : true }, "variant" : true, "effects" : [ [ { "effect" : "maxhealthboost20", "duration" : 60 }, { "effect" : "love", "duration" : 5 } ] ],
+      "wiki" : { "skip" : true }, "variant" : true, "build" : { "badEffects" : [ ], "moodEffects" : [ "love" ] },
       "paletteSwap" : {"#9cf600":"#ff68c8","#60d600":"#d83c9f","#00b21a":"#9d2c74","#f3ffac":"#82ae42","#cdd88e":"#5b8324","#292712":"#496a1a",
       "#4bd93a":"#3aa779","#409325":"#497c71"}, "alkey" : "Mikonur"
     }

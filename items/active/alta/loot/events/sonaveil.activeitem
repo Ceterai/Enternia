@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_sonaveil_gift",
+  "shortdescription" : "Sonaveil Gift",
+  "description" : "Contains some perfect Sonaveil gifts wrapped in true holiday spirit!",
+  "longdescription" : "This small loot crate is filled with various treats and goodies and is meant to be shared with your sisters around the cold solstice.",
+  "altaDescription" : "A hope there's a warm knitted scarf inside!",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "loot", "sonaveil", "holiday" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "sonaveil.png",
+  "treasure" : { "pool" : "ct_sonaveil_gift" },
+  "builder" : "/items/buildscripts/alta/loot.lua",
+
+  "wiki" : { "aliases" : { "Sonaveil Crate" : { }, "Sonaveil Loot Crate" : { } } }, "alkey" : "Sonaola Pad"
+}

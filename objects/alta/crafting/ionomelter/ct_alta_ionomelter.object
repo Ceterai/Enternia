@@ -26,7 +26,7 @@
   "interactData" : {
     "config" : "/interface/alta/crafting/ui1.config", "filter" : [ "alta_t1", "alta_t1+" ],
     "paneLayoutOverride" : {
-      "windowtitle" : { "title" : " Ionomelter", "subtitle" : " For sewing things together." },
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA IONOMELTER", "subtitle" : "^noshadow;^#001054;Processing & Refinement" },
       "categories" : {
         "type" : "radioGroup", "toggleMode" : false,
         "buttons" : [ { "data" : { "filter" : [ "ionomelter" ] }, "selected" : true, "baseImage" : "", "baseImageChecked" : "" } ]

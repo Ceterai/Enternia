@@ -22,10 +22,10 @@
       "primary_press" : ["/sfx/gun/plasma_shotgun3.ogg"]
     },
     "lights" : {
-      "muzzleFlash" : { "color" : [116, 141, 126] },
-      "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [72, 88, 80] },
+      "muzzleFlash" : { "color" : [ 116, 141, 126 ] },
+      "flashlightSpread" : { "active" : true, "position" : [-0.75, -0.5], "transformationGroups" : ["muzzle"], "color" : [ 72, 88, 80 ] },
       "flashlight" : { "active" : true, "position" : [-1.25, -0.5],
-        "transformationGroups" : ["muzzle"], "color" : [181, 215, 191], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5
+        "transformationGroups" : ["muzzle"], "color" : [ 181, 215, 191 ], "pointLight" : true, "pointAngle" : 0.00, "pointBeam" : 2.5
       }
     }
   },

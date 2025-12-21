@@ -4,23 +4,13 @@
   "description" : "A spicy tea mixture with sweetness of ayas. A good choice if you caught a cold or just feeling spicy.",
   "longdescription" : "This hot brew stands out due to its strong kick, compared to most alta tea, and is an often find in a ^#b0e0fc;sona soldier^reset;'s backpack.",
   "altaDescription" : "Frrr, yeah, that's a kick and a half! You need to be prepared for this. So tasty too!",
-  "level" : 4, "price" : 400, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "tea" ],
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "tea" ],
   "inventoryIcon" : "ct_vermont_tea.png",
-  "effects" : [ [
-    {
-        "effect" : "ct_alta_confusion",
-        "duration" : 120
-    },
-    {
-        "effect" : "iceblockaugment",
-        "duration" : 240
-    }
-  ] ],
-  "foodValue" : 10,
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "iceblockaugment" ], "moodEffects" : [ "ct_alta_confusion" ], "foodValue" : 4, "rotToEffectRatio" : 1.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_aya_punch", "ct_gil_tsay_stew", "ct_alta_dinner" ],
 
   "variants" : [ "exotic" ],
@@ -30,8 +20,7 @@
       "description" : "This definitely tastes weird. Good weird, I think you're onto something.",
       "longdescription" : "The original vermont tea mix with significant modifications. It's secret lies in switching up spices with aya powder, and using less soury ingredients.",
       "altaDescription" : "It's really hard to describe the flavor other than a sweet and milky vermont tea. I feel like I've unlocked a new color palette.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "iceblockaugment", "duration" : 300 } ] ], "variant" : true, "alkey" : "Ozuri Chi",
+      "variant" : true, "alkey" : "Ozuri Chi",
       "paletteSwap" : {"#d5f958":"#d5f958","#a0c531":"#a0c531","#749d24":"#749d24","#ff95a4":"#ffc595","#ff3f5a":"#ff973f",
       "#3587ff":"#ff3565","#0066ff":"#ff003b","#0042a6":"#a60026","#002a69":"#690018"}
     },

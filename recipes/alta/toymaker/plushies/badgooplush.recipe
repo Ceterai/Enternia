@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silk", "count" : 10 },
+    { "item" : "cottonwool", "count" : 4 },
+    { "item" : "purpledye", "count" : 1 }
+  ],
+  "output" : { "item" : "badgooplush", "count" : 1 },
+  "duration" : 2.5,
+  "groups" : [ "my_enternia", "alta_toys", "plushies", "all" ]
+}

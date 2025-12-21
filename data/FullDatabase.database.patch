@@ -691,8 +691,8 @@
             "inventoryIcon": "icon1.png",
             "placementImage": "body1.png",
             "price": 1200,
-            "shortdescription": "^orange;Emergency Alta Workshop^white;",
-            "description": "Used for crafting ^#b0e0fc;alta^reset; technology and resources.",
+            "shortdescription": "^orange;Alta Workshop^white;",
+            "description": "Used for crafting basic ^#b0e0fc;alta^reset; technology and resources.",
             "startingUpgradeStage": 1
           }
         },
@@ -818,21 +818,17 @@
         "alta_t0": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_t0m": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium"
+          "ct_alta_bestiarium"
         ],
         "alta_t0mm": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium"
+          "ct_alta_bestiarium"
         ],
         "alta_t1": [
           "ct_alta_aquarium",
@@ -851,9 +847,7 @@
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
           "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_ionomelter",
-          "ct_alta_terrarium"
+          "ct_alta_ionomelter"
         ],
         "alta_t1+": [
           "ct_alta_aquarium",
@@ -871,9 +865,7 @@
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
           "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_ionomelter",
-          "ct_alta_terrarium"
+          "ct_alta_ionomelter"
         ],
         "alta_t2": [
           "ct_alta_aquarium",
@@ -889,9 +881,7 @@
           "ct_alta_crafting_station6",
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t2+": [
           "ct_alta_aquarium",
@@ -906,9 +896,7 @@
           "ct_alta_crafting_station6",
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t2m": [
           "ct_alta_aquarium",
@@ -922,9 +910,7 @@
           "ct_alta_crafting_station6",
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t3": [
           "ct_alta_aquarium",
@@ -937,9 +923,7 @@
           "ct_alta_crafting_station6",
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t3+": [
           "ct_alta_aquarium",
@@ -951,9 +935,7 @@
           "ct_alta_crafting_station13",
           "ct_alta_crafting_station7",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t3m": [
           "ct_alta_aquarium",
@@ -964,9 +946,7 @@
           "ct_alta_crafting_station12",
           "ct_alta_crafting_station13",
           "ct_alta_crafting_station8",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t3mm": [
           "ct_alta_aquarium",
@@ -976,9 +956,7 @@
           "ct_alta_crafting_station11",
           "ct_alta_crafting_station12",
           "ct_alta_crafting_station13",
-          "ct_alta_crafting_station9",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station9"
         ],
         "alta_t4": [
           "ct_alta_aquarium",
@@ -987,9 +965,7 @@
           "ct_alta_crafting_station10",
           "ct_alta_crafting_station11",
           "ct_alta_crafting_station12",
-          "ct_alta_crafting_station13",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station13"
         ],
         "alta_t4+": [
           "ct_alta_aquarium",
@@ -997,108 +973,80 @@
           "ct_alta_bestiarium",
           "ct_alta_crafting_station11",
           "ct_alta_crafting_station12",
-          "ct_alta_crafting_station13",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station13"
         ],
         "alta_t4m": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
           "ct_alta_bestiarium",
           "ct_alta_crafting_station12",
-          "ct_alta_crafting_station13",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station13"
         ],
         "alta_t4mm": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
           "ct_alta_bestiarium",
-          "ct_alta_crafting_station13",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station13"
         ],
         "alta_t4mmm": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
           "ct_alta_bestiarium",
-          "ct_alta_crafting_station13",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_crafting_station13"
         ],
         "alta_max": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_special": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_0": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_1": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_2": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_3": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_4": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_5": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_6": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_other_max": [
           "ct_alta_aquarium",
           "ct_alta_architect_station",
-          "ct_alta_bestiarium",
-          "ct_alta_insectarium",
-          "ct_alta_terrarium"
+          "ct_alta_bestiarium"
         ],
         "alta_clothing": [
           "ct_alta_armory",
           "ct_alta_energy_station",
-          "ct_alta_resque_station",
           "ct_alta_robocrafter",
           "ct_alta_stellarium",
           "ct_alta_tailor"
@@ -1144,13 +1092,46 @@
           "ct_alta_datacenter"
         ],
         "alta_loot": [
-          "ct_alta_dendrarium"
+          "ct_alta_dendrarium",
+          "ct_alta_festive_station",
+          "ct_alta_insectarium",
+          "ct_alta_resque_station",
+          "ct_alta_tailor",
+          "ct_alta_terrarium",
+          "ct_alta_toymaker"
         ],
         "alta_ancient": [
-          "ct_alta_dendrarium"
+          "ct_alta_dendrarium",
+          "ct_alta_festive_station",
+          "ct_alta_insectarium",
+          "ct_alta_resque_station",
+          "ct_alta_tailor",
+          "ct_alta_terrarium",
+          "ct_alta_toymaker"
         ],
         "alta_dendrarium": [
           "ct_alta_dendrarium"
+        ],
+        "alta_festive": [
+          "ct_alta_festive_station"
+        ],
+        "alta_insectarium": [
+          "ct_alta_insectarium"
+        ],
+        "alta_aid": [
+          "ct_alta_resque_station"
+        ],
+        "alta_sanitary": [
+          "ct_alta_resque_station"
+        ],
+        "alta_tailor": [
+          "ct_alta_tailor"
+        ],
+        "alta_terrarium": [
+          "ct_alta_terrarium"
+        ],
+        "alta_toys": [
+          "ct_alta_toymaker"
         ],
         "ct_alta_upg1": [
           "ct_alta_upgrade_station",
@@ -1237,7 +1218,6 @@
           "ct_alta_emblem",
           "ct_alta_emergency_bench2",
           "ct_alta_engineer_drone",
-          "ct_alta_figure_time_drifter",
           "ct_alta_frigate_drone",
           "ct_alta_frigate_drone_empty",
           "ct_alta_impulse_rifle_mk2",
@@ -1261,6 +1241,7 @@
           "ct_alta_lab_teleporter",
           "ct_alta_lab_terminal",
           "ct_alta_lab_trapdoor",
+          "ct_alta_lights",
           "ct_alta_loot_tier3",
           "ct_alta_mixer",
           "ct_alta_plasma_rifle",
@@ -1286,7 +1267,6 @@
           "ct_alta_ship_teleporter",
           "ct_alta_ship_terminal",
           "ct_alta_spider_droid",
-          "ct_alta_statue_lenn",
           "ct_alta_super_sprinkler",
           "ct_alta_tray",
           "ct_alta_trophy",
@@ -1311,6 +1291,7 @@
           "ct_aric_sporgus_af",
           "ct_arknight_emblem",
           "ct_astral_narfin_af",
+          "ct_b803_af",
           "ct_back_mimic",
           "ct_backdoor",
           "ct_berry_bobfae_af",
@@ -1324,6 +1305,7 @@
           "ct_bishyn_crippit_af",
           "ct_bishyn_helmet",
           "ct_brutefly_af",
+          "ct_cagorta_statue",
           "ct_calin_crippit_af",
           "ct_capsule",
           "ct_celestia_trophy",
@@ -1338,6 +1320,7 @@
           "ct_ceterai_pod",
           "ct_ceterai_set",
           "ct_ceternia_sample",
+          "ct_ceternity_lights",
           "ct_combat-codex",
           "ct_combat_android",
           "ct_combat_android_head",
@@ -1375,6 +1358,7 @@
           "ct_elite_drone",
           "ct_elite_pod",
           "ct_elite_stunner",
+          "ct_elunya_statue",
           "ct_enalnia",
           "ct_enternia_sample",
           "ct_estralis_vi",
@@ -1413,6 +1397,8 @@
           "ct_isoslime_sample",
           "ct_kira_af",
           "ct_lava_crippit_af",
+          "ct_lenn_af",
+          "ct_lenn_statue",
           "ct_lifechamber",
           "ct_lumina_trophy",
           "ct_meteoblaster",
@@ -1441,9 +1427,12 @@
           "ct_pulsecutter",
           "ct_sky_lance",
           "ct_sona_helmet",
+          "ct_sonaveil_gift",
+          "ct_sonaveil_lights",
           "ct_soniathrower",
           "ct_starburst",
           "ct_stardust_crippit_af",
+          "ct_stardust_lights",
           "ct_stardust_narfin_af",
           "ct_stardust_sample",
           "ct_stardust_trophy",
@@ -1515,6 +1504,8 @@
           "ct_alta_blender",
           "ct_alta_broom",
           "ct_alta_brush",
+          "ct_alta_bubble_cannon",
+          "ct_alta_bubbler",
           "ct_alta_bug_net",
           "ct_alta_cabinet",
           "ct_alta_cafe_chair",
@@ -1527,6 +1518,7 @@
           "ct_alta_chair",
           "ct_alta_cleaner",
           "ct_alta_climbing_tool",
+          "ct_alta_coldthrower",
           "ct_alta_compact_sprinkler",
           "ct_alta_conserver",
           "ct_alta_constructor",
@@ -1534,6 +1526,9 @@
           "ct_alta_cookdecks",
           "ct_alta_cooler",
           "ct_alta_crafting_station",
+          "ct_alta_dart_ceterteal",
+          "ct_alta_dart_ionic",
+          "ct_alta_dart_omniblue",
           "ct_alta_datacenter",
           "ct_alta_dendrarium",
           "ct_alta_door",
@@ -1547,6 +1542,7 @@
           "ct_alta_energy_rod",
           "ct_alta_energy_source",
           "ct_alta_fermenter",
+          "ct_alta_festive_station",
           "ct_alta_flashlight",
           "ct_alta_flower_pot",
           "ct_alta_flowers-codex",
@@ -1564,6 +1560,7 @@
           "ct_alta_illuminator",
           "ct_alta_impulse_rifle",
           "ct_alta_impulse_rifle_mk2",
+          "ct_alta_insectarium",
           "ct_alta_juicer",
           "ct_alta_kettle",
           "ct_alta_kitchener",
@@ -1582,6 +1579,8 @@
           "ct_alta_mining_drone",
           "ct_alta_monitor",
           "ct_alta_multi_tool",
+          "ct_alta_neon_bubble_wand",
+          "ct_alta_new_year-codex",
           "ct_alta_null_hover_tool",
           "ct_alta_ore_detector",
           "ct_alta_oven",
@@ -1659,27 +1658,33 @@
           "ct_alta_sink",
           "ct_alta_slime_cleaner",
           "ct_alta_slime_sprayer",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
           "ct_alta_sona_rifle",
           "ct_alta_speaker",
           "ct_alta_stand_agitate",
           "ct_alta_stand_promo",
           "ct_alta_statue",
-          "ct_alta_statue_lenn",
           "ct_alta_step",
           "ct_alta_stove",
           "ct_alta_stun_stick",
           "ct_alta_table",
           "ct_alta_table_mini",
+          "ct_alta_tailor",
           "ct_alta_teleporter",
           "ct_alta_terminal",
+          "ct_alta_terrarium",
           "ct_alta_testing_ball",
           "ct_alta_tiller",
+          "ct_alta_toymaker",
           "ct_alta_umbrella",
           "ct_alta_upgrade_station",
           "ct_alta_vendor",
           "ct_alta_vent",
           "ct_alta_waiter",
           "ct_alta_washer",
+          "ct_alta_workshop",
           "ct_altan_can",
           "ct_altan_umbrella",
           "ct_alterash_prime_tf",
@@ -1699,6 +1704,7 @@
           "ct_bishyn_spear",
           "ct_brontor",
           "ct_bug_lover",
+          "ct_cagorta_statue",
           "ct_calin_sword",
           "ct_celeste",
           "ct_celestial_rod",
@@ -1713,6 +1719,7 @@
           "ct_elin_helmet",
           "ct_elin_loot",
           "ct_elite_shielder",
+          "ct_elunya_statue",
           "ct_enchanted_blaster",
           "ct_enchanted_twins",
           "ct_enternia_sample",
@@ -1733,6 +1740,7 @@
           "ct_ionic_nade",
           "ct_ionic_umbrella",
           "ct_isoslime_sample",
+          "ct_lenn_af",
           "ct_lira",
           "ct_my_enternia_guide-codex",
           "ct_ngx000",
@@ -1746,6 +1754,7 @@
           "ct_sinigai",
           "ct_sky_lance",
           "ct_sona_helmet",
+          "ct_sonaveil-codex",
           "ct_space_tiller",
           "ct_star_catcher",
           "ct_star_parasol",
@@ -1969,8 +1978,7 @@
           "ct_tool_mimic",
           "ct_tsyntex",
           "ct_vitershai",
-          "ct_warped_gun",
-          "ct_waterblaster"
+          "ct_warped_gun"
         ],
         "ct_alta_constructor2": [
           "ct_alta_constructor3"
@@ -2141,7 +2149,6 @@
           "ct_alta_ship_ai",
           "ct_alta_ship_locker",
           "ct_alta_ship_teleporter",
-          "ct_alta_statue_lenn",
           "ct_alta_testing_ball",
           "ct_alterash_prime_tf",
           "ct_alternia_augment",
@@ -2149,6 +2156,7 @@
           "ct_ararang",
           "ct_arknight_pod",
           "ct_brontor",
+          "ct_cagorta_statue",
           "ct_celeste",
           "ct_ceterai-codex",
           "ct_ceterai_android_head",
@@ -2160,10 +2168,12 @@
           "ct_ceterai_mindframe",
           "ct_ceterai_pod",
           "ct_ceterai_set",
+          "ct_elunya_statue",
           "ct_enalnia",
           "ct_faradea_scavenger",
           "ct_gsr_pod",
           "ct_hevika_turret_gun",
+          "ct_lenn_af",
           "ct_lira",
           "ct_mindframe_collar",
           "ct_ngx000",
@@ -2369,7 +2379,6 @@
           "ct_phospholion_augment",
           "ct_phospholion_loot",
           "ct_phospholion_sample",
-          "ct_poi_plush",
           "ct_poptop_claw",
           "ct_prism_crippit_af",
           "ct_sinigai",
@@ -2388,7 +2397,6 @@
           "ct_starmatter",
           "ct_starsteel",
           "ct_valley_poptop_af",
-          "ct_valley_poptop_plush",
           "ct_warped_anglure_af",
           "ct_warped_augment",
           "ct_warped_candy",
@@ -2542,7 +2550,6 @@
           "alienfruitjam",
           "alienwoodsap",
           "beakseedjam",
-          "congealedAcid",
           "ct_aid_mimic",
           "ct_alta_crafting_station2",
           "ct_alta_hoe",
@@ -2591,6 +2598,7 @@
           "floweryhead",
           "flowerylegs",
           "kiwijam",
+          "liquidpoison",
           "money",
           "moondust",
           "moonrock",
@@ -2616,8 +2624,10 @@
           "ct_koywa_af",
           "ct_koywa_bush_af",
           "ct_miko_flower_af",
+          "ct_ruka_af",
           "ct_stardust",
-          "ct_viona_tree"
+          "ct_viona_tree",
+          "ct_voda_af"
         ],
         "ct_alta_crafting_station": [
           "ct_alta_crafting_station2"
@@ -2638,7 +2648,6 @@
           "ct_alta_eco_pod",
           "ct_alta_energy_block",
           "ct_alta_energy_mask",
-          "ct_alta_figure_time_drifter",
           "ct_alta_fridge",
           "ct_alta_gateway",
           "ct_alta_halogen_pack",
@@ -2672,6 +2681,7 @@
           "ct_alta_mini_drone",
           "ct_alta_mixer",
           "ct_alta_monitor",
+          "ct_alta_neon_bubble_wand",
           "ct_alta_not",
           "ct_alta_or",
           "ct_alta_oxygen_mask",
@@ -2716,8 +2726,10 @@
           "ct_alta_stun_stick",
           "ct_alta_teleporter",
           "ct_alta_timer",
+          "ct_alta_toy_flashlight",
           "ct_alta_watcher_drone",
           "ct_alta_xor",
+          "ct_b803_af",
           "ct_backdoor",
           "ct_bishyn_door",
           "ct_bishyn_hatch",
@@ -2746,13 +2758,13 @@
           "ct_elin_helmet",
           "ct_enchanted_blaster",
           "ct_ionic_drone",
+          "ct_lenn_statue",
           "ct_lifechamber",
           "ct_plasmasword",
           "ct_protohelmet",
           "ct_protospear"
         ],
         "ct_yaara_root": [
-          "congealedWater",
           "ct_alta_crafting_station4",
           "ct_alta_impulse_rifle",
           "ct_alta_plant",
@@ -2787,6 +2799,8 @@
           "ct_omni_thick_grass_seeds",
           "ct_omni_warped_grass_seeds",
           "ct_onitti_motsu",
+          "ct_poi_plush",
+          "ct_round_salad",
           "ct_tonna_seed",
           "ct_viona_seed",
           "ct_voda_seed",
@@ -2809,6 +2823,7 @@
           "ct_yaara_thorns4",
           "ct_yaara_wand",
           "ct_yaara_watcher",
+          "liquidwater",
           "livingroot",
           "plantfibre"
         ],
@@ -2818,8 +2833,10 @@
           "ct_alta_crafting_station4",
           "ct_aya_af",
           "ct_basic_fertilizer",
+          "ct_beakseed_af",
           "ct_blue_flower_af",
           "ct_boost_fertilizer",
+          "ct_cocola_af",
           "ct_haven_seed",
           "ct_hive_tree",
           "ct_hunter_flower_af",
@@ -2870,6 +2887,7 @@
           "ct_crystal_poptop_rare_egg",
           "ct_crystalline_crippit_egg",
           "ct_eds_armor",
+          "ct_ela_af",
           "ct_enhancedmoonrock",
           "ct_enterite_sample",
           "ct_gheatsyn_crippit_egg",
@@ -2932,8 +2950,11 @@
           "staticcell"
         ],
         "ct_isoslime_ball": [
-          "congealedAcid",
+          "ct_alta_bubble_cannon",
+          "ct_alta_bubble_wand",
+          "ct_alta_bubbler",
           "ct_alta_crafting_station7",
+          "ct_alta_neon_bubble_wand",
           "ct_alta_toy_iso_ball",
           "ct_food_mimic",
           "ct_ionic_fresh",
@@ -2942,10 +2963,12 @@
           "ct_isoslime_sample",
           "ct_phosicore",
           "ct_plasma_fertilizer",
+          "ct_stardust_bubble_wand",
           "ct_tonna_shake",
           "ct_tonnakada",
           "ct_yaarings",
           "greenslime",
+          "liquidslime",
           "staticcell"
         ],
         "ct_alta_crafting_station6": [
@@ -3073,7 +3096,9 @@
           "ct_maito_tea",
           "ct_ometonna",
           "ct_rimar_motsu",
+          "ct_round_salad",
           "ct_tonnakada",
+          "liquidmilk",
           "milk"
         ],
         "ct_alta_crafting_station7": [
@@ -3089,13 +3114,12 @@
           "ct_alta_botanics-codex",
           "ct_alta_crafting_station9",
           "ct_alta_datacenter",
-          "ct_alta_figure_time_drifter",
-          "ct_alta_statue_lenn",
           "ct_alternia_crystal",
           "ct_alternia_sample",
           "ct_altersphere",
           "ct_arknight_shield",
           "ct_ayaka_prime_tree",
+          "ct_b803_af",
           "ct_bishyn_bed",
           "ct_bishyn_chair",
           "ct_bishyn_chest",
@@ -3105,6 +3129,7 @@
           "ct_bishyn_monitor",
           "ct_bishyn_sample",
           "ct_bishyn_table",
+          "ct_cagorta_statue",
           "ct_calin_bed",
           "ct_calin_chair",
           "ct_calin_chest",
@@ -3115,6 +3140,7 @@
           "ct_calin_shelf",
           "ct_calin_table",
           "ct_cetereye",
+          "ct_elunya_statue",
           "ct_frozen_energy1",
           "ct_frozen_energy2",
           "ct_frozen_energy3",
@@ -3133,6 +3159,8 @@
           "ct_hevika_turret",
           "ct_hevikai_stim",
           "ct_ion_collider",
+          "ct_lenn_af",
+          "ct_lenn_statue",
           "ct_plasma_nade",
           "ct_staris_soup",
           "ct_starsteel",
@@ -3196,6 +3224,7 @@
           "ct_alta_energy_drill",
           "ct_alta_energy_hook",
           "ct_alta_energy_rod",
+          "ct_alta_festive_station",
           "ct_alta_flashlight",
           "ct_alta_foam_sprayer",
           "ct_alta_fossil_cleaner",
@@ -3204,6 +3233,7 @@
           "ct_alta_hologlasses",
           "ct_alta_hover_tool",
           "ct_alta_illuminator",
+          "ct_alta_insectarium",
           "ct_alta_loot_tier0",
           "ct_alta_loot_tier1",
           "ct_alta_lumber_cutter",
@@ -3225,9 +3255,13 @@
           "ct_alta_slime_cleaner",
           "ct_alta_slime_sprayer",
           "ct_alta_stardust_bed",
+          "ct_alta_tailor",
+          "ct_alta_terrarium",
           "ct_alta_tiller",
+          "ct_alta_toymaker",
           "ct_alta_umbrella",
           "ct_alta_visor",
+          "ct_alta_workshop",
           "ct_altan_can",
           "ct_altan_umbrella",
           "ct_arco_shielder",
@@ -3265,10 +3299,12 @@
           "ct_ionic_umbrella",
           "ct_omniblue_umbrella",
           "ct_photon_drill",
+          "ct_sonaveil_snowalta",
           "ct_space_tiller",
           "ct_star_catcher",
           "ct_star_parasol",
           "ct_stardust",
+          "ct_stardust_bubble_wand",
           "ct_stardust_prism",
           "ct_starmatter_brush",
           "ct_warped_rod"
@@ -3296,10 +3332,13 @@
           "ct_alta_ai_chip",
           "ct_alta_and",
           "ct_alta_blender",
+          "ct_alta_bubble_cannon",
+          "ct_alta_bubbler",
           "ct_alta_cakery",
           "ct_alta_capital_terminal",
           "ct_alta_circuit",
           "ct_alta_clock",
+          "ct_alta_coldthrower",
           "ct_alta_conserver",
           "ct_alta_constructor",
           "ct_alta_cookdecks",
@@ -3307,6 +3346,7 @@
           "ct_alta_crystal_bed",
           "ct_alta_cup",
           "ct_alta_datacenter",
+          "ct_alta_date-codex",
           "ct_alta_delay",
           "ct_alta_door",
           "ct_alta_drone_spawner",
@@ -3344,6 +3384,7 @@
           "ct_alta_microwave",
           "ct_alta_milker",
           "ct_alta_monitor",
+          "ct_alta_new_year-codex",
           "ct_alta_not",
           "ct_alta_omniponics-codex",
           "ct_alta_or",
@@ -3374,6 +3415,9 @@
           "ct_alta_ship_sapling",
           "ct_alta_ship_table",
           "ct_alta_slicer",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
           "ct_alta_spicer",
           "ct_alta_stand_agitate",
           "ct_alta_stand_promo",
@@ -3437,6 +3481,7 @@
           "ct_calin_table",
           "ct_calin_terminal",
           "ct_capsule",
+          "ct_ceternity-codex",
           "ct_combat_set",
           "ct_combat_shielder",
           "ct_companion_helmet",
@@ -3522,13 +3567,18 @@
           "ct_poison_crystal4",
           "ct_prism_crippit_egg",
           "ct_protolaris",
+          "ct_snowalta",
           "ct_sona_helmet",
+          "ct_sonaveil-codex",
+          "ct_sonaveil_af",
+          "ct_sonia_af",
           "ct_stardust_crippit_egg",
           "ct_stardust_crystal",
           "ct_stardust_narfin_egg",
           "ct_stardust_poptop_egg",
           "ct_thermomix_nade",
           "ct_valley_poptop_egg",
+          "ct_valley_poptop_plush",
           "ct_warped_anglure_egg",
           "ct_warped_glowbomb",
           "ct_warped_lamp",
@@ -3586,9 +3636,12 @@
           "ct_aid_mimic",
           "ct_alta_abstract_art",
           "ct_alta_art",
+          "ct_alta_basic_popper",
           "ct_alta_bed",
           "ct_alta_bench",
           "ct_alta_bin",
+          "ct_alta_bow",
+          "ct_alta_bubble_wand",
           "ct_alta_bucket",
           "ct_alta_button",
           "ct_alta_cabinet",
@@ -3600,6 +3653,8 @@
           "ct_alta_chair",
           "ct_alta_circuit",
           "ct_alta_cooler",
+          "ct_alta_dart",
+          "ct_alta_date-codex",
           "ct_alta_door",
           "ct_alta_dye",
           "ct_alta_energy_cell",
@@ -3620,6 +3675,7 @@
           "ct_alta_light_switch",
           "ct_alta_minimal_art",
           "ct_alta_monitor",
+          "ct_alta_new_year-codex",
           "ct_alta_oxygen_mask",
           "ct_alta_pilot_helmet",
           "ct_alta_plant_blossom",
@@ -3653,6 +3709,7 @@
           "ct_alta_teleporter",
           "ct_alta_terminal",
           "ct_alta_touchpad",
+          "ct_alta_toy_flashlight",
           "ct_alta_vent",
           "ct_alta_visor",
           "ct_alta_vr_headset",
@@ -3669,7 +3726,9 @@
           "ct_ayaka_tree",
           "ct_bionid_art",
           "ct_cards_welcome-codex",
+          "ct_ceternity-codex",
           "ct_ceternity_poster",
+          "ct_christmas_poster",
           "ct_colorful_grass_seeds",
           "ct_crimson_grass_seeds",
           "ct_datamass",
@@ -3684,6 +3743,13 @@
           "ct_ionic_sap",
           "ct_lush_grass_seeds",
           "ct_mical_grass_seeds",
+          "ct_snowalta",
+          "ct_sona_poster",
+          "ct_sonaveil-codex",
+          "ct_sonaveil_af",
+          "ct_sonaveil_poster",
+          "ct_sonaveil_snowalta",
+          "ct_sonia_af",
           "ct_stardust",
           "ct_stardust_orchid_art",
           "ct_starfields_art",
@@ -3699,16 +3765,43 @@
           "whitedye"
         ],
         "greydye": [
-          "ct_altan_can"
+          "ct_alta_plane_cool",
+          "ct_altan_can",
+          "ct_b803_plush",
+          "poptopplush"
         ],
         "ct_alta_bucket": [
           "ct_alta_farming_set",
           "ct_alta_watering_can"
         ],
         "bluedye": [
+          "ct_alta_bubble_cannon",
+          "ct_alta_coldthrower",
+          "ct_alta_dart_board",
+          "ct_alta_dart_hardboard",
+          "ct_alta_dart_megaboard",
+          "ct_alta_dart_superboard",
           "ct_alta_flower_pot",
+          "ct_alta_lights",
+          "ct_alta_plane",
+          "ct_alta_plane_cool",
+          "ct_alta_popper",
+          "ct_alta_rainbow_popper",
+          "ct_alta_scarf",
+          "ct_alta_scarf_wall",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
           "ct_alta_watering_can",
-          "ct_back_mimic"
+          "ct_b803_plush",
+          "ct_back_mimic",
+          "ct_poi_plush",
+          "ct_sona_poster",
+          "ct_stardust_lights",
+          "ct_stardust_popper",
+          "ct_waterblaster",
+          "plainorbplush",
+          "poptopplush"
         ],
         "ct_alta_flowers-codex": [
           "ct_alta_botanics-codex",
@@ -3723,8 +3816,14 @@
           "ct_alta_tray"
         ],
         "paper": [
+          "ct_alta_basic_popper",
           "ct_alta_farming-codex",
           "ct_alta_fertilizer",
+          "ct_alta_firework",
+          "ct_alta_plane",
+          "ct_alta_plane_cool",
+          "ct_alta_plane_pretty",
+          "ct_ayaka_plane",
           "ct_basic_fertilizer",
           "ct_benema_fertilizer",
           "ct_biomix_fertilizer",
@@ -3739,6 +3838,7 @@
           "ct_orchid_candy",
           "ct_orchid_pumpkin_candy",
           "ct_plasma_fertilizer",
+          "ct_stardust_firework",
           "ct_warped_candy",
           "ct_warped_spider_candy",
           "ct_yaajack_candy"
@@ -4047,6 +4147,7 @@
           "ct_gil_mixed",
           "ct_gyera_set",
           "ct_gyera_token",
+          "ct_haven_af",
           "ct_haven_eco_pod",
           "ct_tsay_af",
           "ct_tsay_eco_pod",
@@ -4055,10 +4156,14 @@
           "ct_yaavi_af"
         ],
         "liquidwater": [
+          "ct_alta_bubble_cannon",
+          "ct_alta_bubble_wand",
+          "ct_alta_bubbler",
           "ct_alta_compact_sprinkler",
           "ct_alta_jelly_eco_pod",
           "ct_alta_lab_sprinkler",
           "ct_alta_marine_display",
+          "ct_alta_neon_bubble_wand",
           "ct_alta_rincer",
           "ct_alta_sprinkler",
           "ct_alternia_shard",
@@ -4071,12 +4176,12 @@
           "ct_gyera_sprinkler",
           "ct_in_jelly_eco_pod",
           "ct_ionic_fertilizer",
-          "ct_ionice_cube",
           "ct_koywa_eco_pod",
           "ct_neonmelon_eco_pod",
           "ct_oculemon_eco_pod",
           "ct_ruka_eco_pod",
           "ct_sona_eco_pod",
+          "ct_stardust_bubble_wand",
           "ct_tsay_eco_pod",
           "ct_turanta_eco_pod",
           "ct_viona_eco_pod",
@@ -4142,6 +4247,10 @@
         "durasteelbar": [
           "ct_alta_and",
           "ct_alta_clock",
+          "ct_alta_dart_board",
+          "ct_alta_dart_hardboard",
+          "ct_alta_dart_megaboard",
+          "ct_alta_dart_superboard",
           "ct_alta_delay",
           "ct_alta_halogen_pack",
           "ct_alta_impulse_rifle",
@@ -4315,6 +4424,7 @@
           "ct_mooplic_shady_old",
           "ct_perolic_glow",
           "ct_perolic_glow_eyes",
+          "ct_round_salad",
           "ct_shroomic_loot",
           "ct_thick_grass_seeds",
           "ct_tonnova_spiral_tree",
@@ -4463,10 +4573,12 @@
           "ct_azura_eco_pod",
           "ct_azura_tree",
           "ct_calocol_tulip_af",
+          "ct_cocola_af",
           "ct_coral_eco_pod",
           "ct_enternia_sapling",
           "ct_hive_tree",
-          "ct_sona_eco_pod"
+          "ct_sona_eco_pod",
+          "ct_voda_af"
         ],
         "liquidfuel": [
           "ct_azura_eco_pod",
@@ -4566,11 +4678,13 @@
           "ct_stardust_seed"
         ],
         "ct_biomix_fertilizer": [
+          "ct_beakseed_af",
           "ct_ceternia_sapling",
           "ct_cocola_eco",
           "ct_cocola_eco_pod",
           "ct_koywa_eco_pod",
           "ct_nivera_tree",
+          "ct_ruka_af",
           "ct_ruka_eco_pod",
           "ct_toxic_flower_af",
           "ct_turanta_eco_pod",
@@ -4637,6 +4751,7 @@
           "ct_cotton_eco_pod",
           "ct_dream_eco_pod",
           "ct_ela_eco_pod",
+          "ct_eva_af",
           "ct_eva_eco_pod",
           "ct_hive_eco_pod",
           "ct_in_jelly_eco_pod",
@@ -4645,7 +4760,8 @@
           "ct_oculemon_eco_pod",
           "ct_poi_eco",
           "ct_poi_eco_pod",
-          "ct_poppy_prime_af"
+          "ct_poppy_prime_af",
+          "ct_sona_af"
         ],
         "ct_voda_seed": [
           "cottonseed",
@@ -4688,6 +4804,7 @@
           "ct_eva_eco"
         ],
         "ct_eva_eco": [
+          "ct_eva_af",
           "ct_eva_eco_pod"
         ],
         "liquidmilk": [
@@ -4706,7 +4823,12 @@
           "ct_sona_sapling"
         ],
         "snow": [
+          "ct_alta_coldthrower",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
           "ct_eva_seed",
+          "ct_sona_af",
           "ct_tonnova_af"
         ],
         "ct_haven_sapling": [
@@ -4714,6 +4836,7 @@
           "ct_haven_eco"
         ],
         "ct_haven_eco": [
+          "ct_haven_af",
           "ct_haven_eco_pod"
         ],
         "liquidpoison": [
@@ -4794,6 +4917,7 @@
           "ct_beakseed_cultivated"
         ],
         "ct_beakseed_eco": [
+          "ct_beakseed_af",
           "ct_beakseed_eco_pod"
         ],
         "ct_viona_seed": [
@@ -4856,6 +4980,7 @@
           "ct_neonmelon_eco_pod"
         ],
         "ct_plasma_fertilizer": [
+          "ct_ela_af",
           "ct_ionic_eco_pod",
           "ct_neonmelon_eco_pod",
           "ct_sofara_tree",
@@ -4908,6 +5033,7 @@
           "ct_ruka_eco"
         ],
         "ct_ruka_eco": [
+          "ct_ruka_af",
           "ct_ruka_eco_pod"
         ],
         "ct_koywa_seed": [
@@ -4923,6 +5049,7 @@
           "ct_sona_eco"
         ],
         "ct_sona_eco": [
+          "ct_sona_af",
           "ct_sona_eco_pod"
         ],
         "ct_cocola_seed": [
@@ -4955,6 +5082,7 @@
         "cloudblock": [
           "ct_benema_fertilizer",
           "ct_cocola_seed",
+          "ct_eva_af",
           "ct_eva_collar",
           "ct_eva_loot",
           "ct_poppy_prime_af",
@@ -4993,6 +5121,7 @@
           "ct_cocola_eco"
         ],
         "ct_cocola_eco": [
+          "ct_cocola_af",
           "ct_cocola_eco_pod"
         ],
         "ct_coral_sapling": [
@@ -5036,6 +5165,7 @@
           "ct_ela_eco"
         ],
         "ct_ela_eco": [
+          "ct_ela_af",
           "ct_ela_eco_pod"
         ],
         "tar": [
@@ -5093,6 +5223,8 @@
           "ct_koywa_bush_af",
           "ct_koywa_loot",
           "ct_koywa_seed",
+          "ct_sonaveil_cake",
+          "ct_sonaveil_pie",
           "ct_verriskoywa_grass1",
           "ct_verriskoywa_grass2",
           "ct_verriskoywa_grass3",
@@ -5124,6 +5256,7 @@
           "ct_voda_eco"
         ],
         "ct_voda_eco": [
+          "ct_voda_af",
           "ct_voda_eco_pod"
         ],
         "ct_yaara_sapling": [
@@ -5415,6 +5548,7 @@
         ],
         "ct_calin_flower_pot": [
           "ct_alta_farming_set",
+          "ct_haven_af",
           "ct_hunter_flower_af",
           "ct_yaara_flower_af"
         ],
@@ -5437,10 +5571,13 @@
         "ct_alta_tall_flower_pot": [
           "ct_alta_farming_set_2",
           "ct_alto_flower_af",
+          "ct_ela_af",
+          "ct_eva_af",
           "ct_faro_flower_af",
           "ct_koywa_bush_af",
           "ct_miko_flower_af",
-          "ct_nivera_af"
+          "ct_nivera_af",
+          "ct_ruka_af"
         ],
         "ct_alta_flower_pot": [
           "ct_alta_farming_set_2",
@@ -5459,15 +5596,19 @@
         "ct_composite_flower_pot": [
           "ct_alta_farming_set_3",
           "ct_ariling_af",
+          "ct_cocola_af",
           "ct_warped_bush_af",
           "flowerylegs"
         ],
         "ct_bion_flower_pot": [
           "ct_alta_farming_set_3",
+          "ct_beakseed_af",
           "ct_calocol_tulip_af",
           "ct_ezmeralda_af",
           "ct_poppy_prime_af",
-          "ct_tonnova_af"
+          "ct_sona_af",
+          "ct_tonnova_af",
+          "ct_voda_af"
         ],
         "bottledhealingwater": [
           "ct_alta_farming_set_3"
@@ -5545,17 +5686,30 @@
           "ct_stardust_eco_pod"
         ],
         "reddye": [
+          "ct_alta_bubble_cannon",
+          "ct_alta_bubbler",
           "ct_alta_tall_flower_pot",
           "ct_back_mimic",
-          "ct_eds_beret"
+          "ct_christmas_poster",
+          "ct_eds_beret",
+          "ct_sonaveil_af",
+          "ct_sonaveil_gift",
+          "ct_sonaveil_lights",
+          "ct_sonaveil_popper",
+          "ct_sonaveil_poster",
+          "ct_sonaveil_scarf",
+          "ct_sonaveil_scarf_wall",
+          "teddybearplush"
         ],
         "ct_bionid": [
           "ct_aid_mimic",
+          "ct_alta_date-codex",
           "ct_bion",
           "ct_bionid_augment",
           "ct_bionid_loot",
           "ct_bionid_sample",
           "ct_bulbonid",
+          "ct_ceternity-codex",
           "ct_glowstick_bionid",
           "ct_isoslime_loot",
           "ct_tonna",
@@ -5574,6 +5728,9 @@
         "ct_hunter_flower_egg": [
           "ct_hunter_flower_af"
         ],
+        "floweryblock": [
+          "ct_haven_af"
+        ],
         "ct_verriskoywa_alto": [
           "ct_alta_dinner",
           "ct_alta_flower_bed",
@@ -5591,6 +5748,7 @@
           "ct_onitti_cake",
           "ct_onitti_motsu",
           "ct_rimar_motsu",
+          "ct_round_salad",
           "ct_verriskoywa_alto_twin",
           "ct_yaara_tea",
           "ct_yaarizza"
@@ -5694,6 +5852,8 @@
           "ct_ayaka_loot",
           "ct_crystal_icecream",
           "ct_food_mimic",
+          "ct_snowalta",
+          "ct_sonaveil_snowalta",
           "ct_tonnakada",
           "ct_yuri_cocktail"
         ],
@@ -5733,6 +5893,554 @@
         ],
         "rainbowwood": [
           "ct_viona_tree"
+        ],
+        "ct_miko_tea": [
+          "ct_alta_date-codex",
+          "ct_alta_tea_fo",
+          "ct_heecho_punch",
+          "ct_special_sparkles",
+          "ct_yuri_cocktail"
+        ],
+        "neonmelon": [
+          "ct_ceternity-codex",
+          "ct_ionic_fresh",
+          "ct_iso_jam",
+          "ct_neonjack",
+          "ct_warped_cocktail",
+          "neonmelonjam"
+        ],
+        "ct_alta_led": [
+          "ct_alta_conserver",
+          "ct_alta_fermenter",
+          "ct_alta_icer",
+          "ct_alta_kitchener",
+          "ct_alta_lamp",
+          "ct_alta_light",
+          "ct_alta_light_bar",
+          "ct_alta_lights",
+          "ct_alta_milker",
+          "ct_alta_neon_bubble_wand",
+          "ct_alta_oven",
+          "ct_alta_speaker",
+          "ct_alta_terminal",
+          "ct_alta_vendor",
+          "ct_ceternity_lights",
+          "ct_sonaveil_lights",
+          "ct_stardust_lights"
+        ],
+        "yellowdye": [
+          "ct_alta_bubbler",
+          "ct_alta_rainbow_popper",
+          "ct_b803_plush",
+          "ct_calline_popper",
+          "ct_ceternity_lights",
+          "ct_sonaveil_af",
+          "ct_sonaveil_gift",
+          "ct_sonaveil_lights",
+          "ct_sonaveil_popper",
+          "ct_sonaveil_poster",
+          "ct_sonaveil_scarf",
+          "ct_sonaveil_scarf_wall",
+          "poptopplush"
+        ],
+        "greendye": [
+          "ct_alta_bubbler",
+          "ct_alta_dart_hardboard",
+          "ct_alta_dart_megaboard",
+          "ct_alta_dart_superboard",
+          "ct_alta_rainbow_popper",
+          "ct_ceternity_lights",
+          "ct_christmas_poster",
+          "ct_harrowing_poster",
+          "ct_stardust_lights",
+          "ct_stardust_popper",
+          "plainorbplush"
+        ],
+        "silk": [
+          "badgooplush",
+          "ct_aid_mimic",
+          "ct_alta_abstract_art",
+          "ct_alta_art",
+          "ct_alta_backpack",
+          "ct_alta_bench",
+          "ct_alta_dart_board",
+          "ct_alta_dart_hardboard",
+          "ct_alta_dart_megaboard",
+          "ct_alta_dart_superboard",
+          "ct_alta_lab_bed",
+          "ct_alta_lab_chair",
+          "ct_alta_metrocop_set",
+          "ct_alta_minimal_art",
+          "ct_alta_researcher_coat",
+          "ct_alta_researcher_skirt",
+          "ct_alta_respiratory_mask",
+          "ct_alta_respiratory_mask_colorful",
+          "ct_alta_scout_art",
+          "ct_alta_scout_lightwear",
+          "ct_alta_scout_set",
+          "ct_alta_security_captain_set",
+          "ct_alta_security_chest",
+          "ct_alta_security_droid_set",
+          "ct_alta_security_helmet",
+          "ct_alta_security_legwear",
+          "ct_alta_security_mk2_set",
+          "ct_alta_security_pack",
+          "ct_alta_security_set",
+          "ct_alta_state_beret",
+          "ct_alta_toy_iso_ball",
+          "ct_alta_toy_pet_ball",
+          "ct_alta_toy_runeva_ball",
+          "ct_alta_toy_ryushay_ball",
+          "ct_alta_toy_vizhus_worm",
+          "ct_alta_toy_warpball",
+          "ct_alterash_art",
+          "ct_arco_legwear",
+          "ct_aric_art",
+          "ct_astera_art",
+          "ct_astral_narfin_plush",
+          "ct_aya_virma_plush",
+          "ct_b803_plush",
+          "ct_back_mimic",
+          "ct_bionid_art",
+          "ct_body_mimic",
+          "ct_boko_plush",
+          "ct_calin_shield",
+          "ct_catalyst",
+          "ct_ceterai_helmet",
+          "ct_ceternity_poster",
+          "ct_christmas_poster",
+          "ct_combat_chest",
+          "ct_combat_legwear",
+          "ct_combat_mask",
+          "ct_combat_mask_mk2",
+          "ct_crystalline_shield",
+          "ct_dreamer_enhancer",
+          "ct_dreamer_helmet",
+          "ct_eds_chest",
+          "ct_eds_helmet",
+          "ct_eds_legwear",
+          "ct_eds_shield",
+          "ct_eds_visor",
+          "ct_elite_chest",
+          "ct_elite_generator",
+          "ct_elite_helmet",
+          "ct_elite_legwear",
+          "ct_felistraza_art",
+          "ct_halloween_poster",
+          "ct_harrowing_poster",
+          "ct_head_mimic",
+          "ct_hevikai_stim",
+          "ct_ioncore_shield",
+          "ct_kinetic_shield",
+          "ct_kira_plush",
+          "ct_kuda_plush",
+          "ct_legs_mimic",
+          "ct_omni_narfin_plush",
+          "ct_poi_plush",
+          "ct_proj_mimic",
+          "ct_sona_poster",
+          "ct_sonaveil_poster",
+          "ct_stardust_orchid_art",
+          "ct_starfields_art",
+          "ct_thermomix_nade",
+          "ct_tool_mimic",
+          "ct_valley_poptop_plush",
+          "ct_yaara_art",
+          "plainorbplush",
+          "poptopplush"
+        ],
+        "liquidoil": [
+          "ct_alta_abstract_art",
+          "ct_alta_art",
+          "ct_alta_minimal_art",
+          "ct_alta_scout_art",
+          "ct_alterash_art",
+          "ct_aric_art",
+          "ct_astera_art",
+          "ct_bionid_art",
+          "ct_ceternity_poster",
+          "ct_felistraza_art",
+          "ct_halloween_poster",
+          "ct_harrowing_poster",
+          "ct_stardust_orchid_art",
+          "ct_starfields_art",
+          "ct_yaara_art"
+        ],
+        "purpledye": [
+          "badgooplush",
+          "ct_alta_dart_megaboard",
+          "ct_ceternity_poster",
+          "ct_stardust_lights",
+          "ct_stardust_popper"
+        ],
+        "orangedye": [
+          "ct_alta_bow",
+          "ct_alta_plane_cool",
+          "ct_alta_toy_flashlight",
+          "ct_calline_popper",
+          "ct_halloween_poster"
+        ],
+        "ct_yaara_orb": [
+          "ct_yaajack"
+        ],
+        "volatilepowder": [
+          "ct_alta_firework",
+          "ct_alta_new_year-codex",
+          "ct_stardust_firework",
+          "ct_thermomix_nade"
+        ],
+        "ct_tsay_cooked": [
+          "ct_alta_dinner",
+          "ct_alta_soup",
+          "ct_assorti",
+          "ct_food_mimic",
+          "ct_gil_tsay_stew",
+          "ct_milebites",
+          "ct_special_mimosa"
+        ],
+        "potato": [
+          "carrotsoup",
+          "ct_special_mimosa",
+          "tomatosoup"
+        ],
+        "carrot": [
+          "carrotcake",
+          "carrotsoup",
+          "ct_special_mimosa",
+          "ct_yuri_cocktail"
+        ],
+        "egg": [
+          "cake",
+          "carrotcake",
+          "chocolatecake",
+          "coffeecake",
+          "ct_alliana_cake",
+          "ct_biomix_icecream",
+          "ct_crystal_cookies",
+          "ct_crystal_icecream",
+          "ct_food_mimic",
+          "ct_ion_cake",
+          "ct_ometonna",
+          "ct_onitti_cake",
+          "ct_pavolda_cake",
+          "ct_sonaveil_cake",
+          "ct_special_mimosa",
+          "ct_tsay_icecream",
+          "mushroomquiche",
+          "oculemonmeringue",
+          "quichelorraine"
+        ],
+        "kelp": [
+          "ct_alta_marine_display",
+          "ct_special_mimosa"
+        ],
+        "ct_gillikada": [
+          "ct_food_mimic",
+          "ct_gil_tsay_stew",
+          "ct_gillikada",
+          "ct_haruplavu_venetto",
+          "ct_heecho_punch",
+          "ct_milebites",
+          "ct_sonaveil_pie"
+        ],
+        "ct_gharus_spice": [
+          "8gbpizzap",
+          "automatostew",
+          "boltos",
+          "cornpeckers",
+          "ct_alta_soup",
+          "ct_crystal_cookies",
+          "ct_food_mimic",
+          "ct_gil_tsay_stew",
+          "ct_gillikada",
+          "ct_haruplavu_venetto",
+          "ct_hive_curry",
+          "ct_milebites",
+          "ct_palopias",
+          "ct_sonaveil_pie",
+          "ct_special_mimosa",
+          "ct_staris_soup",
+          "ct_tsay_cooked",
+          "ct_yaarizza",
+          "fishstew",
+          "meatstew",
+          "oculemonstew",
+          "pineapplepizzaslice",
+          "piodia",
+          "pizzaslice",
+          "porridge",
+          "reefpodsurprise",
+          "seafoodgratin",
+          "wartweedstew"
+        ],
+        "ct_assorti": [
+          "ct_alliana_cake",
+          "ct_fivaldo_salad",
+          "ct_round_salad"
+        ],
+        "ct_aya_baked": [
+          "ct_biomix_icecream",
+          "ct_food_mimic",
+          "ct_haruplavu_venetto",
+          "ct_special_mimosa",
+          "ct_special_sparkles",
+          "ct_warped_cocktail",
+          "ct_yuri_cocktail"
+        ],
+        "ct_aya_boiled": [
+          "ct_alta_soup",
+          "ct_aya_gil_pie",
+          "ct_aya_jam",
+          "ct_food_mimic",
+          "ct_special_mimosa"
+        ],
+        "ct_ionice_cube": [
+          "automatoshake",
+          "avesmingoicecream",
+          "bananaicecream",
+          "cactiicecream",
+          "coconuticecream",
+          "ct_alliana_cake",
+          "ct_aya_candy",
+          "ct_aya_fresh",
+          "ct_aya_icecream",
+          "ct_aya_punch",
+          "ct_bio_fresh",
+          "ct_biomix_icecream",
+          "ct_crystal_icecream",
+          "ct_food_mimic",
+          "ct_heecho_punch",
+          "ct_ion_cake",
+          "ct_ionic_fresh",
+          "ct_mohitava_cocktail",
+          "ct_natal_punch",
+          "ct_nia_cocktail",
+          "ct_onitti_cake",
+          "ct_pavolda_cake",
+          "ct_special_sparkles",
+          "ct_staris_soup",
+          "ct_tsay_icecream",
+          "ct_warped_cocktail",
+          "ct_yuri_cocktail",
+          "eggshooticecream",
+          "kiwijuice",
+          "liquidwater",
+          "pineapplejuice",
+          "reefjuice",
+          "reefshake",
+          "sweetpunch"
+        ],
+        "milk": [
+          "automatoshake",
+          "avesmingoicecream",
+          "bananacreampie",
+          "bananaicecream",
+          "boltos",
+          "cactiicecream",
+          "cake",
+          "carrotcake",
+          "carrotsoup",
+          "chocolatecake",
+          "coconuticecream",
+          "coffeecake",
+          "ct_alliana_cake",
+          "ct_aya_icecream",
+          "ct_biomix_icecream",
+          "ct_crystal_cookies",
+          "ct_crystal_icecream",
+          "ct_food_mimic",
+          "ct_ion_cake",
+          "ct_nia_cocktail",
+          "ct_niatto_motsu",
+          "ct_onitti_cake",
+          "ct_onitti_motsu",
+          "ct_pavolda_cake",
+          "ct_sona_milk_hot",
+          "ct_sonasweet",
+          "ct_sonaveil_cake",
+          "ct_sonaveil_pie",
+          "ct_special_sparkles",
+          "ct_tonna",
+          "ct_tonna_shake",
+          "ct_tonna_split",
+          "ct_tsay_icecream",
+          "ct_yuri_cocktail",
+          "eggshooticecream",
+          "porridge",
+          "reefshake",
+          "tomatosoup"
+        ],
+        "pinkdye": [
+          "ct_alta_plane_pretty",
+          "ct_stardust_lights",
+          "ct_stardust_popper",
+          "ct_valley_poptop_plush"
+        ],
+        "ct_alta_dye": [
+          "ct_alta_coldthrower",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
+          "ct_waterblaster"
+        ],
+        "holidayspirit": [
+          "ct_alta_coldthrower",
+          "ct_alta_scarf",
+          "ct_alta_scarf_wall",
+          "ct_alta_snow_cannon",
+          "ct_alta_snow_sprayer",
+          "ct_alta_snowthrower",
+          "ct_christmas_poster",
+          "ct_sona_milk_hot",
+          "ct_sona_poster",
+          "ct_sonasweet",
+          "ct_sonaveil_af",
+          "ct_sonaveil_cake",
+          "ct_sonaveil_lights",
+          "ct_sonaveil_pie",
+          "ct_sonaveil_poster",
+          "ct_sonaveil_scarf",
+          "ct_sonaveil_scarf_wall",
+          "ct_sonia_af"
+        ],
+        "cottonwool": [
+          "badgooplush",
+          "ct_alta_artist_croptop",
+          "ct_alta_artist_shorts",
+          "ct_alta_artist_sweater",
+          "ct_alta_light_shirt",
+          "ct_alta_light_skirt",
+          "ct_alta_light_sweater",
+          "ct_alta_official_jacket",
+          "ct_alta_official_skirt",
+          "ct_alta_official_tights",
+          "ct_alta_researcher_coat",
+          "ct_alta_researcher_skirt",
+          "ct_alta_scarf",
+          "ct_alta_scarf_wall",
+          "ct_alta_service_jacket",
+          "ct_alta_service_pants",
+          "ct_alta_service_skirt",
+          "ct_alta_social_bottom",
+          "ct_alta_social_top",
+          "ct_astral_narfin_plush",
+          "ct_aya_virma_plush",
+          "ct_b803_plush",
+          "ct_boko_plush",
+          "ct_kira_plush",
+          "ct_kuda_plush",
+          "ct_omni_narfin_plush",
+          "ct_poi_plush",
+          "ct_sonaveil_af",
+          "ct_sonaveil_scarf_wall",
+          "ct_valley_poptop_plush",
+          "plainorbplush",
+          "poptopplush",
+          "teddybearplush"
+        ],
+        "string": [
+          "ct_alta_bow",
+          "ct_alta_scarf",
+          "ct_alta_scarf_wall",
+          "ct_sonaveil_scarf_wall"
+        ],
+        "giganticsnowball": [
+          "ct_snowalta",
+          "ct_sonaveil_snowalta"
+        ],
+        "largesnowball": [
+          "ct_snowalta",
+          "ct_sonaveil_snowalta"
+        ],
+        "mediumsnowball": [
+          "ct_snowalta",
+          "ct_sonaveil_snowalta"
+        ],
+        "ct_minto_spice": [
+          "2kbpotage",
+          "carrotsoup",
+          "ct_aya_gil_pie",
+          "ct_caliopa",
+          "ct_food_mimic",
+          "ct_ion_risotto",
+          "ct_minto_soup",
+          "ct_mohitava_cocktail",
+          "ct_niatto_motsu",
+          "ct_onitti_motsu",
+          "ct_palopias",
+          "ct_rimar_motsu",
+          "ct_sonasweet",
+          "ct_warped_cocktail",
+          "eyebowls",
+          "mushroomquiche",
+          "quichelorraine",
+          "tomatosoup"
+        ],
+        "snowflake": [
+          "ct_sonaveil-codex",
+          "ct_sonaveil_gift"
+        ],
+        "cotton": [
+          "ct_sonaveil_af",
+          "ct_sonia_af"
+        ],
+        "avesmingojuice": [
+          "ct_sonaveil_cake"
+        ],
+        "snowball": [
+          "avesmingoicecream",
+          "bananaicecream",
+          "cactiicecream",
+          "coconuticecream",
+          "ct_aya_icecream",
+          "ct_biomix_icecream",
+          "ct_crystal_icecream",
+          "ct_food_mimic",
+          "ct_ionice_cube",
+          "ct_sona_milk_hot",
+          "ct_sonaveil_cake",
+          "ct_sonaveil_gift",
+          "ct_tsay_icecream",
+          "eggshooticecream"
+        ],
+        "ct_sonaveil-codex": [
+          "ct_sonaveil_gift"
+        ],
+        "ct_alta_scarf": [
+          "ct_sonaveil_scarf"
+        ],
+        "ct_sonaveil_scarf": [
+          "ct_sonaveil_snowalta"
+        ],
+        "sugar": [
+          "alienfruitjam",
+          "applecrumble",
+          "bananacreampie",
+          "beakseedjam",
+          "cake",
+          "carrotcake",
+          "chocolatecake",
+          "coffeecake",
+          "ct_alliana_cake",
+          "ct_food_mimic",
+          "ct_ion_cake",
+          "ct_sonaveil_cake",
+          "feathercrownjam",
+          "featherfood",
+          "kiwijam",
+          "neonmelonjam",
+          "oculemonmeringue",
+          "pearlpeajam",
+          "pineapplejam",
+          "pussplumjam",
+          "toxictopjam",
+          "wartweedjam"
+        ],
+        "avesmingo": [
+          "avesmingoicecream",
+          "ct_food_mimic",
+          "ct_sonaveil_cake",
+          "ct_yaara_tea"
         ],
         "ct_alto_zych_egg": [
           "ct_alto_zych_af"
@@ -5821,136 +6529,165 @@
         "ct_warped_spider_egg": [
           "ct_warped_spider_af"
         ],
+        "ct_bionid_snail_af": [
+          "ct_bionid_snail_egg"
+        ],
+        "ct_calin_snail_af": [
+          "ct_calin_snail_egg"
+        ],
+        "ct_gheatsyn_snail_af": [
+          "ct_gheatsyn_snail_egg"
+        ],
+        "ct_phosnail_af": [
+          "ct_phosnail_egg"
+        ],
         "ct_miazmur_egg": [
           "ct_miazmur_af"
         ],
-        "silk": [
-          "ct_aid_mimic",
-          "ct_alta_abstract_art",
-          "ct_alta_art",
-          "ct_alta_backpack",
-          "ct_alta_bench",
-          "ct_alta_lab_bed",
-          "ct_alta_lab_chair",
-          "ct_alta_metrocop_set",
-          "ct_alta_minimal_art",
-          "ct_alta_researcher_coat",
-          "ct_alta_researcher_skirt",
-          "ct_alta_respiratory_mask",
-          "ct_alta_respiratory_mask_colorful",
-          "ct_alta_scout_art",
-          "ct_alta_scout_lightwear",
-          "ct_alta_scout_set",
-          "ct_alta_security_captain_set",
-          "ct_alta_security_chest",
-          "ct_alta_security_droid_set",
-          "ct_alta_security_helmet",
-          "ct_alta_security_legwear",
-          "ct_alta_security_mk2_set",
-          "ct_alta_security_pack",
-          "ct_alta_security_set",
-          "ct_alta_state_beret",
-          "ct_alta_toy_iso_ball",
-          "ct_alta_toy_pet_ball",
-          "ct_alta_toy_runeva_ball",
-          "ct_alta_toy_ryushay_ball",
-          "ct_alta_toy_vizhus_worm",
-          "ct_alta_toy_warpball",
-          "ct_alterash_art",
-          "ct_arco_legwear",
-          "ct_aric_art",
-          "ct_astera_art",
-          "ct_astral_narfin_plush",
-          "ct_aya_virma_plush",
-          "ct_back_mimic",
-          "ct_bionid_art",
-          "ct_body_mimic",
-          "ct_boko_plush",
-          "ct_calin_shield",
-          "ct_catalyst",
-          "ct_ceterai_helmet",
-          "ct_ceternity_poster",
-          "ct_combat_chest",
-          "ct_combat_legwear",
-          "ct_combat_mask",
-          "ct_combat_mask_mk2",
-          "ct_crystalline_shield",
-          "ct_dreamer_enhancer",
-          "ct_dreamer_helmet",
-          "ct_eds_chest",
-          "ct_eds_helmet",
-          "ct_eds_legwear",
-          "ct_eds_shield",
-          "ct_eds_visor",
-          "ct_elite_chest",
-          "ct_elite_generator",
-          "ct_elite_helmet",
-          "ct_elite_legwear",
-          "ct_felistraza_art",
-          "ct_halloween_poster",
-          "ct_harrowing_poster",
-          "ct_head_mimic",
-          "ct_hevikai_stim",
-          "ct_ioncore_shield",
-          "ct_kinetic_shield",
-          "ct_kira_plush",
-          "ct_kuda_plush",
-          "ct_legs_mimic",
-          "ct_omni_narfin_plush",
-          "ct_poi_plush",
-          "ct_proj_mimic",
-          "ct_stardust_orchid_art",
-          "ct_starfields_art",
-          "ct_thermomix_nade",
-          "ct_tool_mimic",
-          "ct_valley_poptop_plush",
-          "ct_yaara_art"
+        "ct_alta_basic_popper": [
+          "ct_alta_popper",
+          "ct_alta_rainbow_popper",
+          "ct_calline_popper",
+          "ct_sonaveil_popper",
+          "ct_stardust_popper"
         ],
-        "liquidoil": [
-          "ct_alta_abstract_art",
-          "ct_alta_art",
-          "ct_alta_minimal_art",
-          "ct_alta_scout_art",
-          "ct_alterash_art",
-          "ct_aric_art",
-          "ct_astera_art",
-          "ct_bionid_art",
-          "ct_ceternity_poster",
-          "ct_felistraza_art",
-          "ct_halloween_poster",
-          "ct_harrowing_poster",
-          "ct_stardust_orchid_art",
-          "ct_starfields_art",
-          "ct_yaara_art"
+        "whitedye": [
+          "ct_alta_popper",
+          "ct_alta_rainbow_popper",
+          "ct_sonaveil_popper"
         ],
-        "purpledye": [
-          "ct_ceternity_poster"
+        "ct_glowstick_ceterteal": [
+          "ct_alta_dart_ceterteal",
+          "ct_impulse_stim"
         ],
-        "orangedye": [
-          "ct_halloween_poster"
+        "ct_glowstick_ionic": [
+          "ct_alta_dart_ionic",
+          "ct_ionic_stim"
         ],
-        "greendye": [
-          "ct_harrowing_poster"
+        "ct_glowstick_omniblue": [
+          "ct_alta_dart_omniblue",
+          "ct_plasma_stim"
         ],
-        "neonmelon": [
-          "ct_ionic_fresh",
-          "ct_iso_jam",
-          "ct_neonjack",
-          "ct_warped_cocktail",
-          "neonmelonjam"
+        "goldbar": [
+          "ct_alta_af",
+          "ct_alta_cake_af",
+          "ct_alta_trophy",
+          "ct_anglure_lamp",
+          "ct_aric_sporgus_af",
+          "ct_astral_narfin_af",
+          "ct_berry_bobfae_af",
+          "ct_bionfly_af",
+          "ct_bionid_pteropod_af",
+          "ct_bishyn_crippit_af",
+          "ct_brutefly_af",
+          "ct_calin_crippit_af",
+          "ct_celestia_trophy",
+          "ct_ceterai_af",
+          "ct_crippit_af",
+          "ct_crippit_scab",
+          "ct_crystal_poptop_af",
+          "ct_crystalline_crippit_af",
+          "ct_drone_visor",
+          "ct_geo_trophy",
+          "ct_gheatsyn_crippit_af",
+          "ct_hevika_crippit_af",
+          "ct_impulse_bobfae_af",
+          "ct_io_trophy",
+          "ct_ionic_crippit_af",
+          "ct_ionic_crustoise_af",
+          "ct_ionic_narfin_af",
+          "ct_ionic_orbide_af",
+          "ct_isopod_af",
+          "ct_kira_af",
+          "ct_lava_crippit_af",
+          "ct_lumina_trophy",
+          "ct_mical_crippit_af",
+          "ct_my_enternia_trophy",
+          "ct_narfin_trophy",
+          "ct_nightmare_anglure_af",
+          "ct_nightmare_orbide_af",
+          "ct_obsidian_crippit_af",
+          "ct_omni_narfin_af",
+          "ct_overcharged_crustoise_af",
+          "ct_poptop_claw",
+          "ct_prism_crippit_af",
+          "ct_stardust_crippit_af",
+          "ct_stardust_narfin_af",
+          "ct_stardust_trophy",
+          "ct_valley_poptop_af",
+          "ct_warped_anglure_af",
+          "ct_warped_sporgus_af"
         ],
-        "ct_yaara_orb": [
-          "ct_yaajack"
+        "ct_alta_popper": [
+          "ct_alta_firework"
         ],
-        "ct_aya_boiled": [
-          "ct_alta_soup",
-          "ct_aya_gil_pie",
-          "ct_aya_jam",
-          "ct_food_mimic",
-          "ct_special_mimosa"
+        "ct_stardust_popper": [
+          "ct_stardust_firework"
+        ],
+        "fabric": [
+          "ct_alta_artist_croptop",
+          "ct_alta_artist_shorts",
+          "ct_alta_artist_sweater",
+          "ct_alta_bed",
+          "ct_alta_cafe_umbrella",
+          "ct_alta_cafe_umbrella_striped",
+          "ct_alta_cookdecks",
+          "ct_alta_flag",
+          "ct_alta_light_shirt",
+          "ct_alta_light_skirt",
+          "ct_alta_light_sweater",
+          "ct_alta_official_jacket",
+          "ct_alta_official_skirt",
+          "ct_alta_official_tights",
+          "ct_alta_service_jacket",
+          "ct_alta_service_pants",
+          "ct_alta_service_skirt",
+          "ct_alta_social_bottom",
+          "ct_alta_social_top",
+          "teddybearplush"
+        ],
+        "browndye": [
+          "teddybearplush"
+        ],
+        "venomsample": [
+          "ct_agaranic1",
+          "ct_agaranic2",
+          "ct_agaranic3",
+          "ct_agaranic4",
+          "ct_agaranic5",
+          "ct_akollic_bulb",
+          "ct_akollic_bulb_spots",
+          "ct_alta_constructor",
+          "ct_alternia_shard",
+          "ct_bishyn_loot",
+          "ct_coroplic_mutant",
+          "ct_coroplic_mutant_giant",
+          "ct_hyolic_growth",
+          "ct_hyolic_growth_crystal",
+          "ct_kodorric1",
+          "ct_kodorric2",
+          "ct_kodorric3",
+          "ct_kodorric4",
+          "ct_kodorric5",
+          "ct_mooplic_shady",
+          "ct_mooplic_shady_old",
+          "ct_perolic_glow",
+          "ct_perolic_glow_eyes",
+          "ct_poison_crystal1",
+          "ct_poison_crystal2",
+          "ct_poison_crystal3",
+          "ct_poison_crystal4",
+          "ct_shroomic_loot",
+          "ct_vyralic_twisted",
+          "ct_vyralic_twisted_undone"
+        ],
+        "ct_alta_energy_source": [
+          "ct_alta_datacenter",
+          "ct_alta_pyramid",
+          "ct_alta_statue",
+          "ct_alta_upgrade_station"
         ],
         "ct_gheatsyn_shard": [
-          "congealedAcid",
           "ct_accumulator_collar",
           "ct_alta_impulse_rifle_mk2",
           "ct_alta_plasma_rifle",
@@ -5999,6 +6736,7 @@
           "energyjavelin",
           "glowfibre",
           "javelin",
+          "liquidpoison",
           "money",
           "throwingspear",
           "venomsample"
@@ -6030,79 +6768,6 @@
           "ct_food_mimic",
           "ct_heecho_punch",
           "ct_nia_cocktail"
-        ],
-        "ct_assorti": [
-          "ct_alliana_cake",
-          "ct_fivaldo_salad"
-        ],
-        "ct_ionice_cube": [
-          "automatoshake",
-          "avesmingoicecream",
-          "bananaicecream",
-          "cactiicecream",
-          "coconuticecream",
-          "congealedWater",
-          "ct_alliana_cake",
-          "ct_aya_candy",
-          "ct_aya_fresh",
-          "ct_aya_icecream",
-          "ct_aya_punch",
-          "ct_bio_fresh",
-          "ct_biomix_icecream",
-          "ct_crystal_icecream",
-          "ct_food_mimic",
-          "ct_heecho_punch",
-          "ct_ion_cake",
-          "ct_ionic_fresh",
-          "ct_mohitava_cocktail",
-          "ct_natal_punch",
-          "ct_nia_cocktail",
-          "ct_onitti_cake",
-          "ct_pavolda_cake",
-          "ct_staris_soup",
-          "ct_tsay_icecream",
-          "ct_warped_cocktail",
-          "ct_yuri_cocktail",
-          "eggshooticecream",
-          "kiwijuice",
-          "pineapplejuice",
-          "reefjuice",
-          "reefshake",
-          "sweetpunch"
-        ],
-        "milk": [
-          "automatoshake",
-          "avesmingoicecream",
-          "bananacreampie",
-          "bananaicecream",
-          "boltos",
-          "cactiicecream",
-          "cake",
-          "carrotcake",
-          "carrotsoup",
-          "chocolatecake",
-          "coconuticecream",
-          "coffeecake",
-          "ct_alliana_cake",
-          "ct_biomix_icecream",
-          "ct_crystal_cookies",
-          "ct_crystal_icecream",
-          "ct_food_mimic",
-          "ct_ion_cake",
-          "ct_nia_cocktail",
-          "ct_niatto_motsu",
-          "ct_onitti_cake",
-          "ct_onitti_motsu",
-          "ct_pavolda_cake",
-          "ct_tonna",
-          "ct_tonna_shake",
-          "ct_tonna_split",
-          "ct_tsay_icecream",
-          "ct_yuri_cocktail",
-          "eggshooticecream",
-          "porridge",
-          "reefshake",
-          "tomatosoup"
         ],
         "ct_iso_jam": [
           "ct_aya_candy",
@@ -6169,25 +6834,6 @@
           "ct_food_mimic",
           "ct_mohitava_cocktail"
         ],
-        "ct_minto_spice": [
-          "2kbpotage",
-          "carrotsoup",
-          "ct_aya_gil_pie",
-          "ct_caliopa",
-          "ct_food_mimic",
-          "ct_ion_risotto",
-          "ct_minto_soup",
-          "ct_mohitava_cocktail",
-          "ct_niatto_motsu",
-          "ct_onitti_motsu",
-          "ct_palopias",
-          "ct_rimar_motsu",
-          "ct_warped_cocktail",
-          "eyebowls",
-          "mushroomquiche",
-          "quichelorraine",
-          "tomatosoup"
-        ],
         "ct_calio_tea": [
           "ct_natal_punch",
           "ct_staris_soup"
@@ -6196,62 +6842,6 @@
           "ct_minto_soup",
           "ct_natal_punch",
           "ct_warped_cocktail"
-        ],
-        "ct_aya_baked": [
-          "ct_biomix_icecream",
-          "ct_food_mimic",
-          "ct_haruplavu_venetto",
-          "ct_special_mimosa",
-          "ct_warped_cocktail",
-          "ct_yuri_cocktail"
-        ],
-        "ct_miko_tea": [
-          "ct_alta_tea_fo",
-          "ct_heecho_punch",
-          "ct_yuri_cocktail"
-        ],
-        "ct_tsay_cooked": [
-          "ct_alta_dinner",
-          "ct_alta_soup",
-          "ct_assorti",
-          "ct_food_mimic",
-          "ct_gil_tsay_stew",
-          "ct_special_mimosa"
-        ],
-        "ct_gillikada": [
-          "ct_food_mimic",
-          "ct_gil_tsay_stew",
-          "ct_gillikada",
-          "ct_haruplavu_venetto",
-          "ct_heecho_punch"
-        ],
-        "ct_gharus_spice": [
-          "8gbpizzap",
-          "automatostew",
-          "boltos",
-          "cornpeckers",
-          "ct_alta_soup",
-          "ct_crystal_cookies",
-          "ct_food_mimic",
-          "ct_gil_tsay_stew",
-          "ct_gillikada",
-          "ct_haruplavu_venetto",
-          "ct_hive_curry",
-          "ct_palopias",
-          "ct_special_mimosa",
-          "ct_staris_soup",
-          "ct_tsay_cooked",
-          "ct_yaarizza",
-          "fishstew",
-          "meatstew",
-          "oculemonstew",
-          "pineapplepizzaslice",
-          "piodia",
-          "pizzaslice",
-          "porridge",
-          "reefpodsurprise",
-          "seafoodgratin",
-          "wartweedstew"
         ],
         "chili": [
           "ct_food_mimic",
@@ -6262,26 +6852,6 @@
         "rice": [
           "ct_food_mimic",
           "ct_hive_curry"
-        ],
-        "egg": [
-          "cake",
-          "carrotcake",
-          "chocolatecake",
-          "coffeecake",
-          "ct_alliana_cake",
-          "ct_biomix_icecream",
-          "ct_crystal_cookies",
-          "ct_crystal_icecream",
-          "ct_food_mimic",
-          "ct_ion_cake",
-          "ct_ometonna",
-          "ct_onitti_cake",
-          "ct_pavolda_cake",
-          "ct_special_mimosa",
-          "ct_tsay_icecream",
-          "mushroomquiche",
-          "oculemonmeringue",
-          "quichelorraine"
         ],
         "cheese": [
           "8gbpizzap",
@@ -6304,41 +6874,6 @@
           "ct_combat_pod",
           "ct_elin_pod",
           "ct_elite_pod"
-        ],
-        "fabric": [
-          "ct_alta_artist_croptop",
-          "ct_alta_artist_shorts",
-          "ct_alta_artist_sweater",
-          "ct_alta_bed",
-          "ct_alta_cafe_umbrella",
-          "ct_alta_cafe_umbrella_striped",
-          "ct_alta_cookdecks",
-          "ct_alta_flag",
-          "ct_alta_light_shirt",
-          "ct_alta_light_skirt",
-          "ct_alta_light_sweater",
-          "ct_alta_official_jacket",
-          "ct_alta_official_skirt",
-          "ct_alta_official_tights",
-          "ct_alta_service_jacket",
-          "ct_alta_service_pants",
-          "ct_alta_service_skirt",
-          "ct_alta_social_bottom",
-          "ct_alta_social_top"
-        ],
-        "ct_alta_led": [
-          "ct_alta_conserver",
-          "ct_alta_fermenter",
-          "ct_alta_icer",
-          "ct_alta_kitchener",
-          "ct_alta_lamp",
-          "ct_alta_light",
-          "ct_alta_light_bar",
-          "ct_alta_milker",
-          "ct_alta_oven",
-          "ct_alta_speaker",
-          "ct_alta_terminal",
-          "ct_alta_vendor"
         ],
         "ct_alta_light_switch": [
           "ct_alta_lamp"
@@ -6390,10 +6925,6 @@
           "ct_alta_oven",
           "ct_alta_spicer",
           "ct_alta_vendor"
-        ],
-        "kelp": [
-          "ct_alta_marine_display",
-          "ct_special_mimosa"
         ],
         "coralfragment": [
           "ct_alta_marine_display",
@@ -6463,12 +6994,6 @@
         ],
         "ct_yaara_lamp_crystal": [
           "ct_alta_plant_yaara"
-        ],
-        "ct_alta_energy_source": [
-          "ct_alta_datacenter",
-          "ct_alta_pyramid",
-          "ct_alta_statue",
-          "ct_alta_upgrade_station"
         ],
         "ct_alta_touchpad": [
           "ct_alta_vendor"
@@ -6565,56 +7090,6 @@
           "ct_protohelmet",
           "ct_protospear"
         ],
-        "goldbar": [
-          "ct_alta_af",
-          "ct_alta_cake_af",
-          "ct_alta_trophy",
-          "ct_anglure_lamp",
-          "ct_aric_sporgus_af",
-          "ct_astral_narfin_af",
-          "ct_berry_bobfae_af",
-          "ct_bionfly_af",
-          "ct_bionid_pteropod_af",
-          "ct_bishyn_crippit_af",
-          "ct_brutefly_af",
-          "ct_calin_crippit_af",
-          "ct_celestia_trophy",
-          "ct_ceterai_af",
-          "ct_crippit_af",
-          "ct_crippit_scab",
-          "ct_crystal_poptop_af",
-          "ct_crystalline_crippit_af",
-          "ct_drone_visor",
-          "ct_geo_trophy",
-          "ct_gheatsyn_crippit_af",
-          "ct_hevika_crippit_af",
-          "ct_impulse_bobfae_af",
-          "ct_io_trophy",
-          "ct_ionic_crippit_af",
-          "ct_ionic_crustoise_af",
-          "ct_ionic_narfin_af",
-          "ct_ionic_orbide_af",
-          "ct_isopod_af",
-          "ct_kira_af",
-          "ct_lava_crippit_af",
-          "ct_lumina_trophy",
-          "ct_mical_crippit_af",
-          "ct_my_enternia_trophy",
-          "ct_narfin_trophy",
-          "ct_nightmare_anglure_af",
-          "ct_nightmare_orbide_af",
-          "ct_obsidian_crippit_af",
-          "ct_omni_narfin_af",
-          "ct_overcharged_crustoise_af",
-          "ct_poptop_claw",
-          "ct_prism_crippit_af",
-          "ct_stardust_crippit_af",
-          "ct_stardust_narfin_af",
-          "ct_stardust_trophy",
-          "ct_valley_poptop_af",
-          "ct_warped_anglure_af",
-          "ct_warped_sporgus_af"
-        ],
         "ct_alliana_cake": [
           "ct_alta_cake_fo"
         ],
@@ -6645,32 +7120,6 @@
         ],
         "ct_alta_soup": [
           "ct_alta_soup_fo"
-        ],
-        "cottonwool": [
-          "ct_alta_artist_croptop",
-          "ct_alta_artist_shorts",
-          "ct_alta_artist_sweater",
-          "ct_alta_light_shirt",
-          "ct_alta_light_skirt",
-          "ct_alta_light_sweater",
-          "ct_alta_official_jacket",
-          "ct_alta_official_skirt",
-          "ct_alta_official_tights",
-          "ct_alta_researcher_coat",
-          "ct_alta_researcher_skirt",
-          "ct_alta_service_jacket",
-          "ct_alta_service_pants",
-          "ct_alta_service_skirt",
-          "ct_alta_social_bottom",
-          "ct_alta_social_top",
-          "ct_astral_narfin_plush",
-          "ct_aya_virma_plush",
-          "ct_boko_plush",
-          "ct_kira_plush",
-          "ct_kuda_plush",
-          "ct_omni_narfin_plush",
-          "ct_poi_plush",
-          "ct_valley_poptop_plush"
         ],
         "ct_phospholion": [
           "ct_phosicore",
@@ -6814,38 +7263,6 @@
           "ct_warped_lamp",
           "ct_warped_light"
         ],
-        "venomsample": [
-          "ct_agaranic1",
-          "ct_agaranic2",
-          "ct_agaranic3",
-          "ct_agaranic4",
-          "ct_agaranic5",
-          "ct_akollic_bulb",
-          "ct_akollic_bulb_spots",
-          "ct_alta_constructor",
-          "ct_alternia_shard",
-          "ct_bishyn_loot",
-          "ct_coroplic_mutant",
-          "ct_coroplic_mutant_giant",
-          "ct_hyolic_growth",
-          "ct_hyolic_growth_crystal",
-          "ct_kodorric1",
-          "ct_kodorric2",
-          "ct_kodorric3",
-          "ct_kodorric4",
-          "ct_kodorric5",
-          "ct_mooplic_shady",
-          "ct_mooplic_shady_old",
-          "ct_perolic_glow",
-          "ct_perolic_glow_eyes",
-          "ct_poison_crystal1",
-          "ct_poison_crystal2",
-          "ct_poison_crystal3",
-          "ct_poison_crystal4",
-          "ct_shroomic_loot",
-          "ct_vyralic_twisted",
-          "ct_vyralic_twisted_undone"
-        ],
         "toxicwaste": [
           "ct_akollic_bulb",
           "ct_akollic_bulb_spots",
@@ -6951,11 +7368,6 @@
           "feathercrownjam",
           "featherfood"
         ],
-        "avesmingo": [
-          "avesmingoicecream",
-          "ct_food_mimic",
-          "ct_yaara_tea"
-        ],
         "cacti": [
           "cactiicecream",
           "ct_tonna_shake"
@@ -6991,12 +7403,6 @@
         ],
         "ct_strizychar_af": [
           "ct_mohitava_cocktail"
-        ],
-        "carrot": [
-          "carrotcake",
-          "carrotsoup",
-          "ct_special_mimosa",
-          "ct_yuri_cocktail"
         ],
         "beakseed": [
           "beakseedjam",
@@ -7079,43 +7485,10 @@
           "toxictart",
           "wartweedstew"
         ],
-        "sugar": [
-          "alienfruitjam",
-          "applecrumble",
-          "avesmingoicecream",
-          "bananacreampie",
-          "bananaicecream",
-          "beakseedjam",
-          "cactiicecream",
-          "cake",
-          "carrotcake",
-          "chocolatecake",
-          "coconuticecream",
-          "coffeecake",
-          "ct_alliana_cake",
-          "ct_food_mimic",
-          "ct_ion_cake",
-          "eggshooticecream",
-          "feathercrownjam",
-          "featherfood",
-          "kiwijam",
-          "neonmelonjam",
-          "oculemonmeringue",
-          "pearlpeajam",
-          "pineapplejam",
-          "pussplumjam",
-          "toxictopjam",
-          "wartweedjam"
-        ],
         "ct_juviley_af": [
           "ct_food_mimic",
           "ct_haruplavu_venetto",
           "ct_minto_soup"
-        ],
-        "potato": [
-          "carrotsoup",
-          "ct_special_mimosa",
-          "tomatosoup"
         ],
         "beakseedbread": [
           "ct_food_mimic"
@@ -7132,13 +7505,6 @@
         "wartweed": [
           "wartweedjam",
           "wartweedstew"
-        ],
-        "snowball": [
-          "avesmingoicecream",
-          "bananaicecream",
-          "cactiicecream",
-          "coconuticecream",
-          "eggshooticecream"
         ],
         "coconut": [
           "coconuticecream"
@@ -7262,17 +7628,8 @@
         "ct_ionic_stim": [
           "ct_entersphere"
         ],
-        "volatilepowder": [
-          "ct_thermomix_nade"
-        ],
         "ct_hevika_javelin": [
           "ct_ion_javelin"
-        ],
-        "ct_glowstick_ceterteal": [
-          "ct_impulse_stim"
-        ],
-        "ct_glowstick_omniblue": [
-          "ct_plasma_stim"
         ],
         "staticcell": [
           "ct_enterite",
@@ -7282,9 +7639,6 @@
           "ct_ionic_stim",
           "ct_kinetic_shield",
           "ct_tonna"
-        ],
-        "ct_glowstick_ionic": [
-          "ct_ionic_stim"
         ],
         "titaniumore": [
           "ct_titanium_dye"
@@ -7328,20 +7682,8 @@
         "ct_ariling_af": [
           "ct_ariling_egg"
         ],
-        "ct_bionid_snail_af": [
-          "ct_bionid_snail_egg"
-        ],
-        "ct_calin_snail_af": [
-          "ct_calin_snail_egg"
-        ],
-        "ct_gheatsyn_snail_af": [
-          "ct_gheatsyn_snail_egg"
-        ],
         "ct_hunter_flower_af": [
           "ct_hunter_flower_egg"
-        ],
-        "ct_phosnail_af": [
-          "ct_phosnail_egg"
         ],
         "ct_alta_security_drone": [
           "ct_alta_companion_drone",
@@ -7626,6 +7968,7 @@
         "automatoshake",
         "automatostew",
         "avesmingoicecream",
+        "badgooplush",
         "bananacreampie",
         "bananaicecream",
         "beakseedjam",
@@ -7644,8 +7987,6 @@
         "chocolatecake",
         "coconuticecream",
         "coffeecake",
-        "congealedAcid",
-        "congealedWater",
         "cornpeckers",
         "cottonseed",
         "crystal",
@@ -7676,6 +8017,7 @@
         "ct_alta_artist_shorts",
         "ct_alta_artist_sweater",
         "ct_alta_backpack",
+        "ct_alta_basic_popper",
         "ct_alta_bed",
         "ct_alta_bench",
         "ct_alta_bidet",
@@ -7683,8 +8025,12 @@
         "ct_alta_blender",
         "ct_alta_botanics-codex",
         "ct_alta_botanics_vendor",
+        "ct_alta_bow",
         "ct_alta_broom",
         "ct_alta_brush",
+        "ct_alta_bubble_cannon",
+        "ct_alta_bubble_wand",
+        "ct_alta_bubbler",
         "ct_alta_bucket",
         "ct_alta_bug_net",
         "ct_alta_button",
@@ -7709,6 +8055,7 @@
         "ct_alta_climbing_tool",
         "ct_alta_clock",
         "ct_alta_cocktail_fo",
+        "ct_alta_coldthrower",
         "ct_alta_compact_sprinkler",
         "ct_alta_companion_drone",
         "ct_alta_conserver",
@@ -7738,7 +8085,16 @@
         "ct_alta_crystal_drone",
         "ct_alta_crystals-codex",
         "ct_alta_cup",
+        "ct_alta_dart",
+        "ct_alta_dart_board",
+        "ct_alta_dart_ceterteal",
+        "ct_alta_dart_hardboard",
+        "ct_alta_dart_ionic",
+        "ct_alta_dart_megaboard",
+        "ct_alta_dart_omniblue",
+        "ct_alta_dart_superboard",
         "ct_alta_datacenter",
+        "ct_alta_date-codex",
         "ct_alta_defensive_droid",
         "ct_alta_defensive_drone",
         "ct_alta_delay",
@@ -7768,7 +8124,8 @@
         "ct_alta_farming_set_3",
         "ct_alta_fermenter",
         "ct_alta_fertilizer",
-        "ct_alta_figure_time_drifter",
+        "ct_alta_festive_station",
+        "ct_alta_firework",
         "ct_alta_flag",
         "ct_alta_flashlight",
         "ct_alta_flower_bed",
@@ -7804,6 +8161,7 @@
         "ct_alta_impulse_rifle_mk2",
         "ct_alta_industrial_collar",
         "ct_alta_industrial_helmet",
+        "ct_alta_insectarium",
         "ct_alta_ionic_rifle",
         "ct_alta_jam_fo",
         "ct_alta_jelly_eco",
@@ -7846,6 +8204,7 @@
         "ct_alta_light_skirt",
         "ct_alta_light_sweater",
         "ct_alta_light_switch",
+        "ct_alta_lights",
         "ct_alta_loot_tier0",
         "ct_alta_loot_tier1",
         "ct_alta_loot_tier2",
@@ -7868,6 +8227,8 @@
         "ct_alta_monitor",
         "ct_alta_motsu_fo",
         "ct_alta_multi_tool",
+        "ct_alta_neon_bubble_wand",
+        "ct_alta_new_year-codex",
         "ct_alta_not",
         "ct_alta_null_hover_tool",
         "ct_alta_official_jacket",
@@ -7880,6 +8241,9 @@
         "ct_alta_oxygen_mask",
         "ct_alta_pie_fo",
         "ct_alta_pilot_helmet",
+        "ct_alta_plane",
+        "ct_alta_plane_cool",
+        "ct_alta_plane_pretty",
         "ct_alta_plant",
         "ct_alta_plant_alien",
         "ct_alta_plant_bed",
@@ -7894,6 +8258,7 @@
         "ct_alta_pod",
         "ct_alta_pollen_pump",
         "ct_alta_ponics-codex",
+        "ct_alta_popper",
         "ct_alta_pot",
         "ct_alta_power_drill",
         "ct_alta_preserver",
@@ -7902,6 +8267,7 @@
         "ct_alta_pyramid",
         "ct_alta_quick_builder",
         "ct_alta_rail_hook",
+        "ct_alta_rainbow_popper",
         "ct_alta_relocator",
         "ct_alta_researcher_coat",
         "ct_alta_researcher_skirt",
@@ -7918,6 +8284,8 @@
         "ct_alta_saturator",
         "ct_alta_scab_egg",
         "ct_alta_scanner",
+        "ct_alta_scarf",
+        "ct_alta_scarf_wall",
         "ct_alta_science_ocular",
         "ct_alta_science_pack",
         "ct_alta_scout_art",
@@ -7992,6 +8360,9 @@
         "ct_alta_slicer",
         "ct_alta_slime_cleaner",
         "ct_alta_slime_sprayer",
+        "ct_alta_snow_cannon",
+        "ct_alta_snow_sprayer",
+        "ct_alta_snowthrower",
         "ct_alta_social_bottom",
         "ct_alta_social_top",
         "ct_alta_soil_enrichment-codex",
@@ -8008,7 +8379,6 @@
         "ct_alta_stardust_bed",
         "ct_alta_state_beret",
         "ct_alta_statue",
-        "ct_alta_statue_lenn",
         "ct_alta_step",
         "ct_alta_stove",
         "ct_alta_stun_stick",
@@ -8017,22 +8387,26 @@
         "ct_alta_switch",
         "ct_alta_table",
         "ct_alta_table_mini",
+        "ct_alta_tailor",
         "ct_alta_tall_flower_pot",
         "ct_alta_tea_fo",
         "ct_alta_teleporter",
         "ct_alta_terminal",
         "ct_alta_terraponics-codex",
+        "ct_alta_terrarium",
         "ct_alta_testing_ball",
         "ct_alta_thermoponics-codex",
         "ct_alta_tiller",
         "ct_alta_timer",
         "ct_alta_touchpad",
+        "ct_alta_toy_flashlight",
         "ct_alta_toy_iso_ball",
         "ct_alta_toy_pet_ball",
         "ct_alta_toy_runeva_ball",
         "ct_alta_toy_ryushay_ball",
         "ct_alta_toy_vizhus_worm",
         "ct_alta_toy_warpball",
+        "ct_alta_toymaker",
         "ct_alta_trans_drone",
         "ct_alta_tray",
         "ct_alta_trophy",
@@ -8047,6 +8421,7 @@
         "ct_alta_washer",
         "ct_alta_watcher_drone",
         "ct_alta_watering_can",
+        "ct_alta_workshop",
         "ct_alta_workshop2",
         "ct_alta_xor",
         "ct_altan_can",
@@ -8154,6 +8529,7 @@
         "ct_ayaka_garden_tree",
         "ct_ayaka_giant_tree",
         "ct_ayaka_loot",
+        "ct_ayaka_plane",
         "ct_ayaka_prime_tree",
         "ct_ayaka_rod",
         "ct_ayaka_sap_blob1",
@@ -8171,11 +8547,14 @@
         "ct_azura_sapling",
         "ct_azura_seed",
         "ct_azura_tree",
+        "ct_b803_af",
+        "ct_b803_plush",
         "ct_back_mimic",
         "ct_backdoor",
         "ct_baratoad_egg",
         "ct_barracuda_fin",
         "ct_basic_fertilizer",
+        "ct_beakseed_af",
         "ct_beakseed_boosted",
         "ct_beakseed_cultivated",
         "ct_beakseed_eco",
@@ -8246,6 +8625,7 @@
         "ct_bubble_fertilizer",
         "ct_bug_lover",
         "ct_bulbonid",
+        "ct_cagorta_statue",
         "ct_calin-codex",
         "ct_calin_bed",
         "ct_calin_boosted",
@@ -8275,6 +8655,7 @@
         "ct_calin_terminal",
         "ct_calio_tea",
         "ct_caliopa",
+        "ct_calline_popper",
         "ct_calocol_tulip_af",
         "ct_capsule",
         "ct_capsule_blue",
@@ -8313,10 +8694,14 @@
         "ct_ceternia_sample",
         "ct_ceternia_sapling",
         "ct_ceternia_seed",
+        "ct_ceternity-codex",
         "ct_ceternity_candy",
+        "ct_ceternity_lights",
         "ct_ceternity_poster",
         "ct_cetersphere",
         "ct_ceterteal_umbrella",
+        "ct_christmas_poster",
+        "ct_cocola_af",
         "ct_cocola_boosted",
         "ct_cocola_eco",
         "ct_cocola_eco_pod",
@@ -8451,6 +8836,7 @@
         "ct_eds_turret",
         "ct_eds_visor",
         "ct_eeriss_egg",
+        "ct_ela_af",
         "ct_ela_boosted",
         "ct_ela_eco",
         "ct_ela_eco_pod",
@@ -8480,6 +8866,7 @@
         "ct_elite_set",
         "ct_elite_shielder",
         "ct_elite_stunner",
+        "ct_elunya_statue",
         "ct_enalnia",
         "ct_enchanted-codex",
         "ct_enchanted_blaster",
@@ -8504,6 +8891,7 @@
         "ct_esetera-codex",
         "ct_estralis_vi",
         "ct_eva-codex",
+        "ct_eva_af",
         "ct_eva_boosted",
         "ct_eva_collar",
         "ct_eva_eco",
@@ -8622,6 +9010,7 @@
         "ct_harrowing_poster",
         "ct_haruplavu_venetto",
         "ct_haven-codex",
+        "ct_haven_af",
         "ct_haven_boosted",
         "ct_haven_catcher",
         "ct_haven_eco",
@@ -8771,6 +9160,8 @@
         "ct_lava_drone",
         "ct_legs_mimic",
         "ct_lenn-codex",
+        "ct_lenn_af",
+        "ct_lenn_statue",
         "ct_lifechamber",
         "ct_lifespring",
         "ct_lira",
@@ -8793,6 +9184,7 @@
         "ct_mical_tree",
         "ct_miko_flower_af",
         "ct_miko_tea",
+        "ct_milebites",
         "ct_mindframe_collar",
         "ct_mini_pinky_egg",
         "ct_mini_poi_egg",
@@ -8922,6 +9314,8 @@
         "ct_red_flower_af",
         "ct_rimar_motsu",
         "ct_riverside_crab_egg",
+        "ct_round_salad",
+        "ct_ruka_af",
         "ct_ruka_boosted",
         "ct_ruka_eco",
         "ct_ruka_eco_pod",
@@ -8931,33 +9325,55 @@
         "ct_shroomic_loot",
         "ct_sinigai",
         "ct_sky_lance",
+        "ct_snowalta",
         "ct_sofara_tree",
         "ct_sona-codex",
+        "ct_sona_af",
         "ct_sona_boosted",
         "ct_sona_eco",
         "ct_sona_eco_pod",
         "ct_sona_helmet",
         "ct_sona_loot",
+        "ct_sona_milk_hot",
+        "ct_sona_poster",
         "ct_sona_sapling",
         "ct_sona_seed",
+        "ct_sonasweet",
+        "ct_sonaveil-codex",
+        "ct_sonaveil_af",
+        "ct_sonaveil_cake",
+        "ct_sonaveil_gift",
+        "ct_sonaveil_lights",
+        "ct_sonaveil_pie",
+        "ct_sonaveil_popper",
+        "ct_sonaveil_poster",
+        "ct_sonaveil_scarf",
+        "ct_sonaveil_scarf_wall",
+        "ct_sonaveil_snowalta",
+        "ct_sonia_af",
         "ct_soniathrower",
         "ct_space_tiller",
         "ct_spacedrifter-codex",
         "ct_spacedrifter_shield",
         "ct_special_mimosa",
+        "ct_special_sparkles",
         "ct_spectre",
         "ct_star_catcher",
         "ct_star_parasol",
         "ct_starburst",
         "ct_stardust",
         "ct_stardust-codex",
+        "ct_stardust_bubble_wand",
         "ct_stardust_crippit_af",
         "ct_stardust_crippit_egg",
         "ct_stardust_crystal",
         "ct_stardust_eco_pod",
+        "ct_stardust_firework",
+        "ct_stardust_lights",
         "ct_stardust_narfin_af",
         "ct_stardust_narfin_egg",
         "ct_stardust_orchid_art",
+        "ct_stardust_popper",
         "ct_stardust_poptop_egg",
         "ct_stardust_prism",
         "ct_stardust_sample",
@@ -9046,6 +9462,7 @@
         "ct_vionia-codex",
         "ct_virma-codex",
         "ct_vitershai",
+        "ct_voda_af",
         "ct_voda_boosted",
         "ct_voda_eco",
         "ct_voda_eco_pod",
@@ -9171,6 +9588,10 @@
         "javelin",
         "kiwijam",
         "kiwijuice",
+        "liquidmilk",
+        "liquidpoison",
+        "liquidslime",
+        "liquidwater",
         "livingroot",
         "logblock",
         "meatstew",
@@ -9195,7 +9616,9 @@
         "pinkdye",
         "piodia",
         "pizzaslice",
+        "plainorbplush",
         "plantfibre",
+        "poptopplush",
         "porridge",
         "prisiliteore",
         "protectorateflowerhead",
@@ -9217,6 +9640,7 @@
         "staticcell",
         "sweetpunch",
         "syringe",
+        "teddybearplush",
         "throwingblock",
         "throwingspear",
         "tomatosoup",

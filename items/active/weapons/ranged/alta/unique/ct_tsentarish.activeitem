@@ -27,9 +27,9 @@
     } },
     "sounds" : { "init" : [ "/sfx/gun/reload/machinepistol_reload_clip2.ogg" ] },
     "lights" : {
-      "orb1" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] },
-      "orb2" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] },
-      "orb3" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [235, 126, 2] }
+      "orb1" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [ 235, 126, 2 ] },
+      "orb2" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [ 235, 126, 2 ] },
+      "orb3" : { "active" : true, "offset" : [1.5, 0.0], "orbPosition" : [0, 0.0], "transformationGroups" : [ "weapon", "orb1", "orbs" ], "color" : [ 235, 126, 2 ] }
     }
   },
   "scripts" : [ "/items/active/weapons/ranged/alta/abils/orbs/orbs.lua" ],

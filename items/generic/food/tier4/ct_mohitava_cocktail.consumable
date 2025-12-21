@@ -1,32 +1,16 @@
 {
   "itemName" : "ct_mohitava_cocktail",
-  "level" : 6, "price" : 1000, "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_mohitava_cocktail.png",
   "shortdescription" : "Mohitava",
   "description" : "A mojito made with appropriate yava alternatives. Very refreshing!",
   "longdescription" : "While its origins fall outside of alta culture, it got quickly adapted with ingredients being replaced with ones more common in alta culture.",
   "altaDescription" : "A very refreshing drink with a pretty simple recipe. I heard it was one of Orchid's favorites!",
-  "effects" : [ [
-    {
-        "effect" : "lowgrav",
-        "duration" : 180
-    },
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 180
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "cocktail" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "cocktail" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "lowgrav", "maxenergyscalingboostfood" ], "foodValue" : 6, "rotToEffectRatio" : 0.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_mohitava_cocktail.png",
 
   "variants" : [ "deluxe" ],
   "presets" : {
@@ -35,7 +19,6 @@
       "description" : "A prime mohitava with an extra refreshing aftertaste.",
       "longdescription" : "The base in this recipe changed from plain water to yaara crystal juice for added taste!",
       "altaDescription" : "This cocktail feels like it has more taste than usual.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1200, "foodValue" : 30,
       "paletteSwap" : {
         "#9cf600":"#cefcef","#60d600":"#a9e4d4","#00b21a":"#92cabb",
         "#3abcd9":"#d93a79","#258f93":"#932561",

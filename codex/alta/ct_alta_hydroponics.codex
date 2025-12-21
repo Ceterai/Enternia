@@ -14,7 +14,7 @@
   ],
   "itemConfig" : {
     "level" : 5, "tooltipKind" : "ct_alta_item_long",
-    "itemTags" : [ "data_source", "datamass" ],
+    "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_alta_lab_eco_pod", "ct_crimson_grass_seeds", "ct_alta_compact_sprinkler", "ct_alta_lab_sprinkler", "ct_alta_rincer" ]
   }

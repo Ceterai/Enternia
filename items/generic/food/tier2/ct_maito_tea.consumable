@@ -4,28 +4,14 @@
   "description" : "A very calming tea mixture used to relax and concentrate.",
   "longdescription" : "This tea doesn't contain many spices, but is high on tonna milk and ayaka extract, making it perfect for all those tiresome and lazy days.",
   "altaDescription" : "This is often called a comfort food by many altas, because of how just plain nice and mello it is.",
-  "level" : 4, "price" : 400, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "tea" ],
-  "inventoryIcon" : "ct_maito_tea.png",
-  "effects" : [ [
-    {
-        "effect" : "ct_alta_boredom",
-        "duration" : 120
-    },
-    {
-        "effect" : "regeneration1",
-        "duration" : 180
-    },
-    {
-        "effect" : "lowgrav",
-        "duration" : 180
-    }
-  ] ],
-  "foodValue" : 10,
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "tea" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "regeneration1", "lowgrav" ], "moodEffects" : [ "ct_alta_boredom" ], "foodValue" : 4, "rotToEffectRatio" : 1.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_hive_curry", "ct_niatto_motsu", "ct_heecho_punch" ],
+  "inventoryIcon" : "ct_maito_tea.png",
 
   "variants" : [ "calm" ],
   "presets" : {
@@ -34,8 +20,7 @@
       "description" : "A mixed cuisine tea that will make all the toubles go away.",
       "longdescription" : "Using specific concentration of tonna fruit and extract with fired ayaka sap and specific calin spices creates a natural sedative, considered very efficient by altas.",
       "altaDescription" : "Borderline medicine, but in a good way. Nothing better to drink if you're nervous or afraid. The slight taste of boiled tonna milk is a perfect finisher.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ], "variant" : true, "alkey" : "Ovai Chi",
+      "variant" : true, "alkey" : "Ovai Chi",
       "paletteSwap" : {"#63a8fa":"#63c6fa","#238ce3":"#23b1e3","#1975ba":"#1994ba",
       "#59987d":"#865998","#699718":"#97188c","#255700":"#57003d"}
     },
@@ -44,8 +29,7 @@
       "description" : "A mixed cuisine tea that will make all the toubles go away.",
       "longdescription" : "Using specific concentration of tonna fruit and extract with fired ayaka sap and specific calin spices creates a natural sedative, considered very efficient by altas.",
       "altaDescription" : "Borderline medicine, but in a good way. Nothing better to drink if you're nervous or afraid. The slight taste of boiled tonna milk is a perfect finisher.",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 15,
-      "effects" : [ [ { "effect" : "regeneration1", "duration" : 240 }, { "effect" : "lowgrav", "duration" : 240 } ] ], "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Makava Chi",
+      "wiki" : { "skip" : true }, "variant" : true, "alkey" : "Makava Chi",
       "paletteSwap" : {"#63a8fa":"#ce63fa","#238ce3":"#9a23e3","#1975ba":"#7919ba",
       "#59987d":"#98598e","#699718":"#971854","#255700":"#570016"}
     }

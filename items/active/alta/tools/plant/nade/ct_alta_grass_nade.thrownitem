@@ -4,6 +4,7 @@
   "description" : "Toss these on any ground to explode with various grass.",
 
   "level" : 7, "price" : 20, "race" : "alta",
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_alta_grass_nade.png",
   "objectImage" : "ct_alta_grass_nade.png",

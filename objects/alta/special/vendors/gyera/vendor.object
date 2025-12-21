@@ -22,7 +22,7 @@
   "smashSounds" : [ "/sfx/melee/shield_break_metal.ogg" ],
   "smashParticles" : [ { "count" : 4, "particle" : "metalshard" }, { "count" : 6, "particle" : "steelshard" } ],
 
-  "lightColor" : [100, 105, 125],
+  "lightColor" : [ 100, 105, 125 ],
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {

@@ -1,10 +1,12 @@
 {
   "itemName" : "ct_alta_brush",
   "shortdescription" : "Alta Brush",
-  "description" : "Can be used once to excavate a fossil, with limited success.",
+  "description" : "A basic alta brush for uncovering fossils, with limited success.",
+  "longdescription" : "Standard alta multipurpose tool used for cleaning, careful excavation and fossil recovery. While basic, it's effective enough for most casual task but is barely capable of excavation work.",
+  "altaDescription" : "Oh, a brush. Not suitable for you teeth~",
 
   "level" : 2, "price" : 20, "race" : "alta",
-  "itemTags" : ["fossilbrush"],
+  "itemTags" : [ "fossilbrush", "tool" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "maxStack" : 100,
   "objectImage" : "body.png",

@@ -1,39 +1,15 @@
 {
   "animatedParts" : {
-    "stateTypes" : {
-      "stage" : {
-        "default" : "tier1",
-        "states" : {
-          "tier1" : {},
-          "tier2" : {}
-        }
-      }
-    },
+    "stateTypes" : { "stage" : { "default" : "tier1", "states" : { "tier1" : {}, "tier2" : {} } } },
 
     "parts" : {
-      "lights" : {
-        "properties" : {},
-        "partStates" : {
-          "stage" : {
-            "tier1" : {},
-            "tier2" : {}
-          }
-        }
-      },
+      "lights" : { "properties" : {}, "partStates" : { "stage" : { "tier1" : {}, "tier2" : {} } } },
       "chassis" : {
         "properties" : {},
         "partStates" : {
           "stage" : {
-            "tier1" : {
-              "properties" : {
-                "image" : "body1.png"
-              }
-            },
-            "tier2" : {
-              "properties" : {
-                "image" : "body2.png"
-              }
-            }
+            "tier1" : { "properties" : { "image" : "body1.png" } },
+            "tier2" : { "properties" : { "image" : "body2.png" } }
           }
         }
       }

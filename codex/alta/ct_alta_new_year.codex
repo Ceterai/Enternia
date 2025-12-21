@@ -1,0 +1,38 @@
+{
+  "id" : "ct_alta_new_year",
+  "title" : "Alta New Year - Lann 10",
+  "description" : "An official announcement from Alliana about the interplanetary alta new year celebration! ^gray;(Unlocks holiday recipes)^reset;",
+  "longdescription" : "This announcement details the traditions, foods, and spirit of the alta new year - a universal celebration that brings all altas together regardless of where they are in the universe.",
+  "altaDescription" : "The Empress's new year speech! Always makes me feel so hopeful and connected to all my sisters~",
+  "icon" : "paper/bishyn.png",
+  "species" : "alta",
+  "contentPages" : [
+    "^#b0e0fc;OFFICIAL ANNOUNCEMENT^reset;\n^#606478;Office of Empress Alliana^reset;\n^#606478;Alta-1, Alliana Capital^reset;\n^#606478;Date: Lann 10-1/1/1^reset;\n\n---------------------\n\nTo all my beloved sisters across the stars,\n\nAs Alecta 10 begins its first cycle, I write to you with warmth in my heart and hope for our shared future.",
+    "Whether you find yourself beneath ^#20f080;alterash^reset; skies, deep in ^#2080f0;esetera^reset; labs, or aboard ships beneath ^#606478;astera^reset;, this moment connects us all.\n\nThe new year arrives not with routines and deadlines - but with universal ^#ffa8e8;stardust^reset; light in our hearts.",
+    "^#2080f0;The Octagonal Sign^reset;\n\nThe symbol of the cycle - an octagon with one line - represents completion and continuation. Eight sides for eight season halves, one line marking the next step on our shared path forward.\n\nEndings are also beginnings, and every sister matters.",
+    "^#ff8080;Traditional Celebrations^reset;\n\nGather with your sisters! Set a large table with generous portions - there's always room for more. Light up the night with ^#ffa8e8;fireworks^reset; painting the sky, ^#20f080;sparklers^reset; dancing in the night, ^#8020f0;confetti poppers^reset; bursting and ^#60c0fc;rainbow lights^reset; stringing the colors of the future.",
+    "^#80f020;The Feast^reset;\n\n^#ff8080;Roundsalad^reset; - Circular and full of vegetables, fruits, and herbs representing time's cycle. Each sister adds favorites!\n\n^#ffd080;Milebites^reset; - Milestone treats marking achievements. Bigger portions mean bigger celebrations!\n\nPrepare enough to share - you never know who might join!",
+    "^#20f080;Words from the Heart^reset;\n\nMy dearest sisters,\n\nThis past year brought challenges and triumphs. From ^#f02020;EDS^reset; protecting borders, to ^#ffe364;Faradea^reset; exploring frontiers, to every researcher pursuing knowledge - you contributed to our shared story.",
+    "To ^#80f020;gardeners^reset; tending ^#20f080;yaara groves^reset;, ^#2080f0;scientists^reset; unraveling mysteries, ^#60c0fc;guards^reset; keeping us safe, and every alta living her best life - thank you.\n\nYou are why our civilization thrives.",
+    "As we step into this cycle together, I encourage you to do one of the following things:\n\n- Reach out to a sister\n- Try something scary\n- Share knowledge freely\n- Remember you're never alone\n- Keep ^#ffa8e8;stardust^reset; spirit alive\n\nLook up at the stars tonight. Others are looking up too, thinking of you.",
+    "We are connected by more than technology or biology. We are connected by choice, by purpose, by bonds we forge every day.\n\nHere's to another year of discovery, growth, and sisterhood!\n\nWith endless love and hope,\n\n^#b0e0fc;Empress Alliana^reset;\n^#606478;Alta-1, Alliana Capital^reset;",
+    "^#ffa8e8;Celebration Tips^reset;\n\n- Decorate with rainbow lights in octagonal pattern\n- Set extra table places\n- Share your achievements\n- Toast with ^#60c0fc;ionic fresh^reset; or ^#20f080;gheatsyn tea^reset;\n- Light fireworks at midnight\n- Send messages to distant sisters\n- Reflect and set intentions\n- Dance!\n\nBe with those who matter."
+  ],
+  "itemConfig" : {
+    "level" : 4,
+    "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "docs", "holiday", "new_year" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_new_year-codex",
+      "ct_stardust_lights",
+      "ct_stardust_firework",
+      "ct_stardust_popper",
+      "ct_alta_rainbow_popper",
+      "ct_milebites",
+      "ct_round_salad",
+      "ct_special_mimosa",
+      "ct_special_sparkles"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
+  }
+}

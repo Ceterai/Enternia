@@ -1,0 +1,36 @@
+{
+  "type": "ct_alta_sonaveil_girl",
+  "baseType": "ct_alta",
+  "matchColorIndices" : false,
+  "items": {
+    "override": [
+      // A warm red yellow and darkgray outfit for the Sonaveil event
+      [
+        0,
+        [
+          {
+            "head": [
+              "ct_sonaveil_scarf"
+            ],
+            "chest" : [
+              { "name" : "prismchest", "parameters" : { "colorIndex" : 4 } },
+              { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 4 } },
+              { "name" : "ct_alta_light_sweater", "parameters" : { "colorIndex" : 4 } },
+              "ct_alta_light_sweater"
+            ],
+            "legs" : [
+              { "name" : "hunterlegs", "parameters" : { "colorIndex" : [0, 1] } },
+              { "name" : "toughlegs", "parameters" : { "colorIndex" : 3 } }
+            ]
+          }
+        ]
+      ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:sonaveil" }
+  }
+}

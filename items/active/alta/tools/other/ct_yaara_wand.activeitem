@@ -5,7 +5,7 @@
   "elementalType" : "physical",
 
   "level" : 6, "twoHanded" : false, "category" : "tool",
-  "itemTags" : [ "weapon", "ranged", "wand", "yaara", "grass_blaster" ],
+  "itemTags" : [ "weapon", "ranged", "wand", "yaara", "plant_tool" ],
 
   "inventoryIcon" : "ct_yaara_wand.png",
   "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
@@ -14,7 +14,7 @@
     "primary_press" : [ "/sfx/gun/paintgun5.ogg" ],
     "primary_hold" : [ "/sfx/gun/grenade2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] } }
   },
   "baseOffset" : [-0.1, 1.0],
   "muzzleOffset" : [1.25, 0.25],

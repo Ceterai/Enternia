@@ -9,7 +9,7 @@
 
   "maxStack" : 1, "tooltipKind" : "ct_alta_weapon_1", "isWrist" : true,
   "twoHanded" : false, "category" : "uniqueWeapon",
-  "itemTags" : [ "weapon", "ranged", "wrist", "sona", "bionid", "upgradeableWeapon" ],
+  "itemTags" : [ "weapon", "ranged", "wrist", "thrower", "sona", "bionid", "upgradeableWeapon" ],
 
   "inventoryIcon" : "ct_soniathrower.png",
   "animation" : "/items/active/weapons/ranged/alta/ranged.animation",
@@ -21,7 +21,7 @@
     "primary_loop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
     "primary_end" : [ "/sfx/gun/flamethrower_stop.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [80, 0, 192] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 80, 0, 192 ] } }
   },
   "baseOffset" : [0.0, 0.0], "muzzleOffset" : [1.0, 0.0],
 

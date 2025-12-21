@@ -1,9 +1,10 @@
 {
   "itemName" : "ct_alta_hover_tool",
-  "shortdescription" : "Alta Umbrella",
+  "shortdescription" : "Alta Hover Tool",
   "description" : "Open to gently float while falling. It's bad luck to open inside the house.",
 
   "level" : 4, "race" : "alta",
+  "itemTags" : [ "hover_tool" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "icon.png",

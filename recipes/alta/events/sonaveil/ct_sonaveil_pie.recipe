@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_gillikada", "count" : 1 },
+    { "item" : "ct_gharus_spice", "count" : 1 },
+    { "item" : "ct_verriskoywa_grass4", "count" : 1 },
+    { "item" : "milk", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_sonaveil_pie", "count" : 1 },
+  "duration" : 3.25,
+  "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "mains", "pies", "alta_festive", "sonaveil", "all", "mod" ]
+}

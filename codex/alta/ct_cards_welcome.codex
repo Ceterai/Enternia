@@ -7,14 +7,11 @@
   "icon" : "paper/title.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Ashal!
-
-Have a nice stay!"
-
+    "Ashal!\n\nHave a nice stay!"
   ],
     "itemConfig" : {
-    "rarity" : "Common", "learnBlueprintsOnPickup" : [ "ct_cards_welcome-codex", "ct_my_enternia_guide-codex" ],
-    "price" : 120
+      "level" : 1, "tooltipKind" : "ct_alta_item_long",
+      "itemTags" : [ "data_source", "docs" ], "learnBlueprintsOnPickup" : [ "ct_cards_welcome-codex", "ct_my_enternia_guide-codex" ],
+      "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

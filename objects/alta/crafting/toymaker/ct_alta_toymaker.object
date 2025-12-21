@@ -1,0 +1,77 @@
+{
+  "objectName" : "ct_alta_toymaker",
+  "colonyTags" : [ "crafting", "party" ],
+  "category" : "crafting",
+  "level" : 5, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Toymaker^reset;",
+  "description" : "An alta crafting station for creating toys and entertainment items.",
+  "longdescription" : "The Alta Toymaker is a tier 5 crafting station dedicated to producing toys, games, and entertainment items for alta leisure culture. This station creates everything from toy weapons like water blasters and bubble guns to plushies, fireworks, arcade machines, and collectible figurines. Alta society values play and entertainment as essential to well-being, making the Toymaker an important part of recreational technology. The station features specialized equipment for safe toy assembly, including soft material processors, harmless projectile calibrators, and electronic game component assembly tools.",
+  "altaDescription" : "The toy station! I love making fun things here~ From water guns to plushies to arcade machines, it's all about having a good time!",
+
+  "apexDescription" : "Alta toy manufacturing station. The safety features for toy weapons are impressively engineered.",
+  "avianDescription" : "A station for making toys and games! Altas really value their playtime and entertainment.",
+  "floranDescription" : "Floran like colorful toy maker! Makesss fun thingsss to play with!",
+  "glitchDescription" : "Delighted. This crafting station demonstrates that altas prioritize joy and play in their society.",
+  "humanDescription" : "Alta toy factory! Water guns, fireworks, arcade games - they've got the fun covered!",
+  "hylotlDescription" : "A beautiful synthesis of recreation and craftsmanship. The dedication to safe, quality entertainment is admirable.",
+  "novakidDescription" : "Toy-makin' station! All sorts of fun gadgets and games. Altas sure know how to have a good time!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui_tabs.config",
+    "filter" : [ "alta_loot", "alta_ancient", "alta_toys" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA TOYMAKER", "subtitle" : "^noshadow;^#001054;Toys & Entertainment" },
+      "tab1" : { "file" : "/items/active/alta/toys/bows/basic/icon.png" },
+      "tab2" : { "file" : "/objects/alta/crafting/toymaker/tab_plushies.png" },
+      "tab3" : { "file" : "/items/active/alta/toys/confetti/poppers/ct_alta_popper.png" },
+      "tab4" : { "file" : "/objects/alta/special/tools/boards/darts/basic/icon.png" },
+      "tab5" : { "file" : "/objects/alta/crafting/toymaker/tab_balls.png" },
+      "tab6" : { "file" : "/objects/hylotl/arcadeblue/arcadeblueicon.png" },
+      "tab7" : { "file" : "/objects/avian/goldenducky/goldenduckyicon.png" },
+      "tab8" : { "file" : "/objects/alta/special/figurines/other/ct_alta_af.png" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [6,  257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "toy_weapons" ] }  // water guns, bubble guns, snow guns, paint guns, tonna guns, toy bows, slime guns, dart guns, etc.
+        },
+        {
+          "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "plushies" ] }
+        },
+        {
+          "position" : [38, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "fireworks", "confetti", "sparklers", "glowsticks" ] }
+        },
+        {
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "darts", "paper" ] }  // paper airplanes, darts, dart boards, etc.
+        },
+        {
+          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "softies" ] }  // throwable balls and soft toys
+        },
+        {
+          "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "arcade" ] }  // arcade machines, dance pads, dance floors, etc.
+        },
+        {
+          "position" : [102,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "misc_toys" ] }  // rubber duck analogs
+        },
+        {
+          "position" : [118,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "figurines" ] }  // action figures
+        }
+      ] }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,29 @@
+{
+  "objectName" : "ct_sonia_af",
+  "colonyTags" : [ "sonaveil", "pretty" ], "itemTags" : [ "holiday" ],
+  "category" : "actionFigure",
+  "level" : 2, "price" : 5000, "race" : "alta",
+
+  "shortdescription" : "Sonaglobe",
+  "description" : "The label reads, \"Happy Sona's Veil!\"",
+  "altaDescription" : "Ooh, the snow starts falling inside if you shake it!",
+
+  "apexDescription" : "A glass sphere with a snowman inside. It's adorable.",
+  "avianDescription" : "A snowman is entombed inside, frozen in time.",
+  "floranDescription" : "Floran want to kick and sssmash snowglobe.",
+  "glitchDescription" : "Reading. According to my translator, 'made in China' is printed on the bottom. What does this mean?",
+  "humanDescription" : "Ooh, a snowglobe. Can't help but give it a shake!",
+  "hylotlDescription" : "This reminds me of a fish bowl. Even model snowmen should not be held captive.",
+  "novakidDescription" : "Aww, just look at that little snow guy in there.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "frames" : 8, "animationCycle" : 1.15,
+      "imagePosition" : [-1, 0], "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

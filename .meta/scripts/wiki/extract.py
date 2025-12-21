@@ -1,6 +1,8 @@
 import math
 import wiki.load
 from wiki.pages.urls import RECIPE_SOURCES, RECIPE_SOURCES_ADMIN
+from wiki.pages.images import save_all_icons
+from wiki.pages.settings import settings
 
 
 class AbstractLib:
@@ -211,6 +213,8 @@ class ItemLib:
         self.defs = wiki.load.json('/items/buildscripts/alta/defaults.config')
         self.raw: dict[str, dict[str]] = self.get_tables(wiki.load.ITEM_PATHS)
         self.tips = wiki.load.json('/items/buildscripts/ct_texts.config')
+        self.formulas = wiki.load.json('/.meta/scripts/wiki/levelingmultipliers.jsonc')
+        save_all_icons(self)
 
     def get_tables(self, paths: list[str]):
         """Loads and processes item data from the given file paths."""
@@ -222,7 +226,7 @@ class ItemLib:
         transmutations = [e['path'][1:].split('/') for e in transmutations]
         transmutations = {e[2]: e[0] + e[1] for e in transmutations}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) in self.exts:
+            if wiki.load.ext(path) in self.exts and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 for id_param in self.id_params:
                     if obj.get(id_param):
@@ -239,19 +243,27 @@ class ItemLib:
                             obj['growing_tray_value'] = fertilizers[obj[id_param]]
                         if obj[id_param] in transmutations:
                             obj['transmutation'] = transmutations[obj[id_param]]
-                        raw.update({obj[id_param]: obj})
+                        if not obj[id_param].endswith('mimic'):  # Filter out non-preset mimics
+                            raw.update({obj[id_param]: obj})
                         if 'presets' in obj:
                             for preset in obj['presets']:
-                                obj2 = dict(self.merge(obj, obj['presets'][preset]))
+                                preset_obj = obj['presets'][preset]
+                                if 'baseAsset' in preset_obj:
+                                    base_path = wiki.load.single_root(preset_obj['baseAsset'], settings.ROOT_VANILLA)
+                                    base = wiki.load.json(base_path, settings.ROOT_VANILLA)
+                                    base.pop('itemName', None)
+                                    base.pop('objectName', None)
+                                    preset_obj = dict(self.merge(base, preset_obj))
+                                obj2 = dict(self.merge(obj, preset_obj))
                                 obj2.pop('presets')
-                                if 'variants' in obj2:
-                                    obj2.pop('variants')
-                                raw2.update({obj2[id_param] + '-' + preset: obj2})
-                                if 'upgradeParameters' in obj2:
+                                obj2.pop('variants', None)
+                                obj2_id = obj2[id_param] + '-' + preset
+                                raw2.update({obj2_id: obj2})
+                                if 'upgradeParameters' in obj2 and obj2['upgradeParameters'] != obj.get('upgradeParameters') and obj2['upgradeParameters'].get('shortdescription'):
                                     obj3 = dict(self.merge(obj2, obj2['upgradeParameters']))
                                     obj3.pop('upgradeParameters')
                                     obj3['level'] = 6
-                                    raw2.update({obj3[id_param] + '-upgrade': obj3})
+                                    raw2.update({obj2_id + '-upgrade': obj3})
                         if 'upgradeParameters' in obj:
                             obj2 = dict(self.merge(obj, obj['upgradeParameters']))
                             obj2.pop('upgradeParameters')
@@ -346,7 +358,7 @@ class ItemLib:
         if item_id in self.raw and self.raw[item_id].get("itemTags"):
             tags: list[str] = self.raw[item_id].get("itemTags", [])
             tags.extend([self.raw[item_id].get("race"), (self.get_rarity(item_id) or '').lower(), self.raw[item_id].get("elementalType")])
-            return sorted(set([tag for tag in tags if tag]))
+            return sorted(set([tag for tag in tags if tag and 'oh no...' not in tag]))
         return []
 
     def get_colony_tags(self, item_id: str) -> list[str]:
@@ -371,8 +383,16 @@ class ItemLib:
         """Returns the path to the item's icon."""
         if item_id in self.raw:
             icon: str = self.raw[item_id].get("inventoryIcon", self.raw[item_id].get("icon")) or self.raw[item_id].get("animationParts", {}).get("blade")
+            if type(icon) is list:
+                for layer in icon:
+                    if layer and layer.get('image'):
+                        icon = layer['image']
+                        break
             if icon and not icon.startswith('/'):
-                icon = wiki.load.os.path.dirname(self.raw[item_id]['path']) + '/' + icon
+                if 'baseAsset' in self.raw[item_id]:
+                    icon = wiki.load.os.path.dirname(self.raw[item_id]['baseAsset']) + '/' + icon
+                else:
+                    icon = wiki.load.os.path.dirname(self.raw[item_id]['path']) + '/' + icon
             return icon
 
     def get_bonus(self, item_id: str) -> int:
@@ -411,6 +431,61 @@ class ItemLib:
             return round(self.raw[item_id].get('power', (
                 (self.get_price(item_id) or 1) / (self.raw[item_id].get("price") or self.raw[item_id].get("build", {}).get("price") or (self.get_price(item_id) or 1))
             )), 2)
+
+    def get_leveled_stats(self, item_id: str) -> dict[str, str]:
+        """Returns a dictionary of leveled stats/bonuses for the item."""
+        if item_id in self.raw:
+            obj = self.raw[item_id]
+            if 'leveledStatusEffects' in obj:
+                obj['bonuses'] = {}
+                bonuses: list[dict] = obj['leveledStatusEffects']
+                for bonus in bonuses:
+                    formula_name = bonus['levelFunction']
+                    stat_name = bonus['stat']
+                    lvl = obj.get('level', 0)
+                    multiplier = bonus.get('amount') or (bonus.get('baseMultiplier') - 1)
+                    percent = bool(bonus.get('baseMultiplier') is not None)
+                    formula = self.formulas[formula_name][2:]
+                    for leveled_bonus in formula:
+                        leveled_bonus_level = leveled_bonus[0]
+                        leveled_bonus_multiplier = leveled_bonus[1]
+                        if int(lvl) == int(leveled_bonus_level):
+                            mod = leveled_bonus_multiplier * multiplier
+                            obj['bonuses'][stat_name] = str(round(mod, 2)) if not percent else (str(round(mod * 100, 2)) + '%')
+                            break
+                return obj['bonuses']
+        return {}
+
+    def get_leveled_weapon_stats(self, item_id: str) -> dict[int, list[str]]:
+        """Returns a dictionary of leveled weapon stats/bonuses for the item."""
+        if item_id in self.raw:
+            obj = self.raw[item_id]
+            obj['bonuses_weapon'] = {}
+            abilities = []
+            pa = obj.get('primaryAbility')
+            aa = obj.get('altAbility')
+            if isinstance(pa, dict):
+                abilities.append(pa)
+            if isinstance(aa, dict):
+                abilities.append(aa)
+            alvl = 'weaponDamageLevelMultiplier'
+            lvl = obj.get('level')
+            Multipliers = self.formulas[alvl][2:]
+            for ability in abilities:
+                base_value = ability.get('baseDps')
+                if base_value is None:
+                    continue
+                for level_entry in Multipliers:
+                    mul_lvl = level_entry[0]
+                    mul_val = level_entry[1]
+                    if lvl == mul_lvl:
+                        mod = base_value * mul_val
+                        obj['bonuses_weapon']['baseDps'] = mod
+                        break
+            if obj['bonuses_weapon']:
+                print(f'- {item_id}: {obj["bonuses_weapon"]}')
+            return obj['bonuses_weapon']
+        return {}
 
     def get_reward_bags_by_loot_id(self, loot_id: str, levels: list[int] = None):
         """Returns a sorted list of item IDs that are reward bags for the given loot pool."""
@@ -511,7 +586,7 @@ class TenantLib(AbstractLib):
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) == self.ext:
+            if wiki.load.ext(path) == self.ext and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 obj['path'] = path.replace(wiki.load.ROOT, '').replace('\\', '/')
                 obj.update(obj['tenants'][0])
@@ -550,7 +625,7 @@ class NPCLib(AbstractLib):
             if visitor_id in self.raw:
                 self.raw[visitor_id]['visits_outpost'] = True
         self.apply_bases()
-    
+
     def apply_bases(self):
         while self.check_bases_exist():
             for npc in self.raw:
@@ -579,7 +654,7 @@ class NPCLib(AbstractLib):
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) == self.ext:
+            if wiki.load.ext(path) == self.ext and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 obj['path'] = path.replace(wiki.load.ROOT, '').replace('\\', '/')
                 raw.update({obj['type']: obj})
@@ -631,7 +706,7 @@ class MonsterLib(AbstractLib):
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) == self.ext:
+            if wiki.load.ext(path) == self.ext and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 obj['path'] = path.replace(wiki.load.ROOT, '').replace('\\', '/')
                 raw.update({obj['type']: obj})
@@ -658,7 +733,7 @@ class TreeLib:
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) in self.exts:
+            if wiki.load.ext(path) in self.exts and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 if obj.get('name'):
                     obj['path'] = path.replace(wiki.load.ROOT, '').replace('\\', '/')
@@ -692,7 +767,7 @@ class EffectLib(AbstractLib):
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) == self.ext:
+            if wiki.load.ext(path) == self.ext and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 obj['path'] = path.replace(wiki.load.ROOT, '').replace('\\', '/')
                 raw.update({obj['name']: obj})
@@ -971,8 +1046,11 @@ class ShopEntry(Item):
     """
 
     def __init__(self, shop_entry: dict, items: ItemLib):
-        self.item_raw: dict = shop_entry.get('item', {})
-        super().__init__([self.item_raw.get('name'), self.item_raw.get('count', 1), self.item_raw.get('parameters', {})])
+        self.item_raw: dict | str = shop_entry.get('item', {})
+        if type(self.item_raw) == dict:
+            super().__init__([self.item_raw.get('name'), self.item_raw.get('count', 1), self.item_raw.get('parameters', {})])
+        else:
+            super().__init__(self.item_raw)
         self.rarity = shop_entry.get('rarity', 0.0)
         self.price = shop_entry.get('price', items.get_price(self.get_full_id()) or 0)
         self.raw = shop_entry
@@ -1049,12 +1127,23 @@ class ShopLib(AbstractLib):
         tables (dict[str, LootTable]): Parsed shop tables, filtered to only include those with entries.
     """
 
+    def get_tables(self, paths: list[str]) -> dict[str, dict[str, list[tuple[int, dict]]]]:
+        raw: dict[str] = {}
+        for path in paths:
+            if path.endswith(f'{self.ext}.patch'):
+                patch_list = wiki.load.json(path)
+                raw.update({path: wiki.load.decode_patch_list(patch_list)})
+            elif wiki.load.ext(path) == self.ext:
+                obj = wiki.load.json(path)
+                raw.update({path: obj})
+        return raw
+
     def __init__(self, items: ItemLib):
         try:
             self.ext = 'config'
-            self.tables_raw: dict[str, list[tuple[int, dict]]] = self.get_tables(wiki.load.filepaths_in_dirs(wiki.load.dirs(['npcs'])))
-            self.tables = {str(key): ShopTable(self.tables_raw[key], items) for key in self.tables_raw}
-            self.tables = {key: self.tables[key] for key in self.tables if self.tables[key].entries}
+            self.tables_raw: dict[str, dict[str, list[tuple[int, dict]]]] = self.get_tables(wiki.load.filepaths_in_dirs(wiki.load.dirs(['npcs'])))
+            self.tables = {path: {str(key): ShopTable(self.tables_raw[path][key], items) for key in self.tables_raw[path]} for path in self.tables_raw}
+            self.tables = {path: {key: self.tables[path][key] for key in self.tables[path] if self.tables[path][key].entries} for path in self.tables}
             print(f'- Generated {len(self.tables)} shop tables ({len(self.tables_raw)} entries total found, including chests)')
         except Exception as e:
             print(f'Can\'t parse shop library.')
@@ -1200,6 +1289,13 @@ class BiomeLib(AbstractLib):
     def __init__(self):
         self.ext = 'biome'
         self.raw: dict[str, dict[str]] = self.get_tables(wiki.load.BIOME_PATHS)
+        self.ores_data = wiki.load.json('/biomes/oredistributions.configfunctions.patch')
+        self.robotics = wiki.load.json('/spawntypes/alta/robotics.spawntypes')
+        self.creatures = wiki.load.json('/spawntypes/my_enternia/creatures.spawntypes')
+        self.bugs = wiki.load.json('/spawntypes/my_enternia/bugs.spawntypes')
+        self.critter = wiki.load.json('/spawntypes/my_enternia/critter.spawntypes')
+        self.alta_treasurechests = wiki.load.json('/treasure/alta/pods.treasurechests')
+        self.my_enternia_treasurechests = wiki.load.json('/treasure/my_enternia/pods.treasurechests')
 
     def get_tables(self, paths: list[str]):
         raw: dict[str, dict] = {}
@@ -1210,3 +1306,236 @@ class BiomeLib(AbstractLib):
                 raw.update({obj['name']: obj})
         print(f'- Generated {len(raw)} biomes')
         return raw
+
+    def get_monster_ids_from_spawn_tag(self, spawn_tag: str) -> list[str]:
+        result: set[str] = set()
+        for spawntypes in (self.robotics, self.creatures, self.bugs, self.critter):
+            if not isinstance(spawntypes, list):
+                continue
+            for entry in spawntypes:
+                if not isinstance(entry, dict):
+                    continue
+                if entry.get("name") != spawn_tag:
+                    continue
+                mt = (
+                    entry.get("monsterType")
+                    or entry.get("monsterTypes")
+                    or entry.get("monsters")
+                )
+
+                # [[0.8, "ct_alta_scout_drone"], ...]
+                if isinstance(mt, list):
+                    for m in mt:
+                        if isinstance(m, list) and len(m) >= 2:
+                            mob_id = m[1]
+                            if isinstance(mob_id, str) and mob_id:
+                                result.add(mob_id)
+                        elif isinstance(m, str) and m:
+                            # ["mob1", "mob2"]
+                            result.add(m)
+
+                # "ct_alta_roomba"
+                elif isinstance(mt, str) and mt:
+                    result.add(mt)
+
+        return sorted(result)
+
+    def get_things_by_biome_id(self, biome_id: str) -> dict[str, list[str]]:
+        biome = self.raw.get(biome_id)
+        if not isinstance(biome, dict):
+            return {}
+        blocks: set[str] = set()
+        ores: set[str] = set()
+        monsters: set[str] = set()
+        objects: set[str] = set()
+        bushes: set[str] = set()
+        grasses: set[str] = set()
+        dungeons: set[str] = set()
+        chests: set[str] = set()
+        trees: set[str] = set()  
+        treasurePools: set[str] = set()  
+
+        # --- BLOCKS (mainBlock + subBlocks) ---
+        mb = biome.get("mainBlock")
+        if isinstance(mb, str) and mb:
+            blocks.add(mb)
+
+        sb = biome.get("subBlocks")
+        if isinstance(sb, list):
+            for b in sb:
+                if isinstance(b, str) and b:
+                    blocks.add(b)
+
+        # --- ORES ---
+        def get_ore_names(ores_id: str) -> list[str]:
+            for item in self.ores_data:
+                if item.get("path") == f"/{ores_id}":
+                    ore_names: set[str] = set()
+                    for level_entry in item.get("value", []):
+                        # level_entry = [0.5, [ [ "prisilite", 1.00 ], [ "titanium", 1.00 ] ] ]
+                        if not (isinstance(level_entry, list) and len(level_entry) >= 2):
+                            continue
+                        ore_list = level_entry[1]
+                        if isinstance(ore_list, list):
+                            for ore_pair in ore_list:
+                                if (
+                                    isinstance(ore_pair, list)
+                                    and len(ore_pair) >= 1
+                                    and isinstance(ore_pair[0], str)
+                                    and ore_pair[0]
+                                ):
+                                    ore_names.add(ore_pair[0])
+                    return sorted(ore_names)
+            return []
+
+        ore_id = biome.get("ores")
+        if isinstance(ore_id, str) and ore_id:
+            ores.update(get_ore_names(ore_id))
+        elif isinstance(ore_id, list):
+            for o in ore_id:
+                if isinstance(o, str) and o:
+                    ores.update(get_ore_names(o))
+
+        # --- MONSTERS from spawnProfile.groups[].pool -> [weight, "monster_spawn_id"] ---
+        sp = biome.get("spawnProfile")
+        if isinstance(sp, dict):
+            groups = sp.get("groups")
+            if isinstance(groups, list):
+                for group in groups:
+                    if not isinstance(group, dict):
+                        continue
+
+                    pool = group.get("pool")
+                    if not isinstance(pool, list):
+                        continue
+
+                    for entry in pool:
+                        # [0.8, "ct_alta_drone_tier1"]
+                        if not (isinstance(entry, list) and len(entry) >= 2):
+                            continue
+                        spawn_tag = entry[1]
+                        if not (isinstance(spawn_tag, str) and spawn_tag):
+                            continue
+                        mob_ids = self.get_monster_ids_from_spawn_tag(spawn_tag)
+                        monsters.update(mob_ids)
+
+        # --- helper for surfacePlaceables / undergroundPlaceables ---
+        def collect_from_placeables(placeables: dict) -> None:
+            items = placeables.get("items")
+            if not isinstance(items, list):
+                return
+
+            for it in items:
+                if not isinstance(it, dict):
+                    continue
+
+                t = it.get("type")
+
+                # OBJECTS: type == "object" -> objectSets[].pool[][1]
+                if t == "object":
+                    obj_sets = it.get("objectSets")
+                    if isinstance(obj_sets, list):
+                        for s in obj_sets:
+                            if not isinstance(s, dict):
+                                continue
+                            pool = s.get("pool")
+                            if not isinstance(pool, list):
+                                continue
+                            for entry in pool:
+                                if isinstance(entry, list) and len(entry) >= 2:
+                                    obj_id = entry[1]
+                                    if isinstance(obj_id, str) and obj_id:
+                                        objects.add(obj_id)
+
+                # CHESTS: type == "treasureBox" -> treasureBoxSets[]
+                elif t == "treasureBox":
+                    tsets = it.get("treasureBoxSets")
+                    if isinstance(tsets, list):
+                        for chest_key in tsets:
+                            if isinstance(chest_key, str) and chest_key:
+                                # We use already downloaded data from __init__
+                                for tb in (self.alta_treasurechests, self.my_enternia_treasurechests):
+                                    if isinstance(tb, dict) and chest_key in tb:
+                                        entry = tb[chest_key][0]
+                                        # containers
+                                        for cont in entry.get("containers", []):
+                                            if isinstance(cont, str):
+                                                chests.add(cont)
+                                        # treasurePool
+                                        tp = entry.get("treasurePool")
+                                        if isinstance(tp, str):
+                                            treasurePools.add(tp)
+                
+
+                # GRASSES: type == "grass" -> grasses[]
+                elif t == "grass":
+                    gs = it.get("grasses")
+                    if isinstance(gs, list):
+                        for g in gs:
+                            if isinstance(g, str) and g:
+                                grasses.add(g)
+
+                # BUSHES: type == "bush" -> bushes[] (строки или dict{"name": ...})
+                elif t == "bush":
+                    bs = it.get("bushes")
+                    if isinstance(bs, list):
+                        for b in bs:
+                            if isinstance(b, str) and b:
+                                bushes.add(b)
+                            elif isinstance(b, dict):
+                                name = b.get("name")
+                                if isinstance(name, str) and name:
+                                    bushes.add(name)
+
+                # MICRODUNGEONS: type == "microdungeon" -> microdungeons[]
+                elif t == "microdungeon":
+                    mds = it.get("microdungeons")
+                    if isinstance(mds, list):
+                        for d in mds:
+                            if isinstance(d, str) and d:
+                                dungeons.add(d)
+
+                # TREES: type == "tree" -> treeStemList[], treeFoliageList[]
+                elif t == "tree":
+                    stems = it.get("treeStemList")
+                    if isinstance(stems, list):
+                        for s in stems:
+                            if isinstance(s, str) and s:
+                                trees.add(s)
+
+                    foliage = it.get("treeFoliageList")
+                    if isinstance(foliage, list):
+                        for f in foliage:
+                            if isinstance(f, str) and f:
+                                trees.add(f)
+
+        # --- surfacePlaceables + undergroundPlaceables ---
+        for key in ("surfacePlaceables", "undergroundPlaceables"):
+            placeables = biome.get(key)
+            if isinstance(placeables, dict):
+                collect_from_placeables(placeables)
+
+        result: dict[str, list[str]] = {}
+        if blocks:
+            result["blocks"] = sorted(blocks)
+        if ores:
+            result["ores"] = sorted(ores)
+        if monsters:
+            result["monsters"] = sorted(monsters)
+        if objects:
+            result["objects"] = sorted(objects)
+        if bushes:
+            result["bushes"] = sorted(bushes)
+        if grasses:
+            result["grasses"] = sorted(grasses)
+        if dungeons:
+            result["dungeons"] = sorted(dungeons)
+        if chests:
+            result["chests"] = sorted(chests)
+        if trees:
+            result["trees"] = sorted(trees)
+        if treasurePools:
+            result["treasurePools"] = sorted(treasurePools)
+        print(result)
+
+        return result

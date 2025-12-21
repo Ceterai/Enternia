@@ -38,7 +38,8 @@ function buildConsumable(directory, config, params, level, seed)
   local get = function(key, default) return getValue(key, default, config, params) end
 
   config = sb.jsonMerge(config, ABGMR2(config.build, get("foodValue", get("category") == "medicine")))
-  params.timeToRot = config.timeToRot
+  if not config.timeToRot and get("foodValue") then config.timeToRot = 10800 * get("rottingMultiplier", 1.0) end
+  if not params.timeToRot and config.timeToRot then params.timeToRot = config.timeToRot end
   config, params = buildFoodOld(directory, config, params, level, seed)
 
   -- TOOLTIPS --
@@ -118,8 +119,8 @@ function ABGMR2(config, overrideValue)
 
     -- Setting base values
     local baseFoodValue = 10
-    local baseEffectTime = 60
-    local baseRotTime = 10800
+    local baseEffectTime = 90
+    local baseRotTime = 12000
     local baseBadEffectTime = 5
     local baseMoodTime = 30
 

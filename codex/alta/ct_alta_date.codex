@@ -1,0 +1,26 @@
+{
+  "id" : "ct_alta_date",
+  "title" : "A Perfect Riverside Date",
+  "description" : "A personal diary entry describing an ideal alta date experience. ^gray;(Unlocks recipes for romantic items)^reset;",
+  "longdescription" : "This intimate diary entry captures the magic of a traditional alta date, from riverside walks to stargazing. A wonderful example of alta romance and dating culture.",
+  "altaDescription" : "Reading this makes my heart flutter~ Such a beautiful experience to dream about!",
+  
+  "icon" : "ebook/basic.png",
+  "species" : "alta",
+  "contentPages" : [
+    "^#2080f0;Entry by Mina^reset;\n^gray;Season 2, Week 12^reset;\n\nToday was absolutely magical! Omnika and I went on the most wonderful date to a nearby ^#2d4c56;koywa resort^reset;~ «\n\n^white;Afternoon:^reset; We walked along the crystal-lined paths, hand-in-hand, watching strizychars dance between ^#497c64;miko koywa^reset; flowers.",
+    "Rare ^#3587ff;ayakas^reset; in the resort's garden were in full bloom - so beautiful! We even found some fallen silk balls together as souvenirs~\n\n^white;Calo Garden:^reset; The crystal garden was even more breathtaking! We took so many photos with rare formations, and she gave me a small mical crystal - it's so tiny it looks pink! I'll treasure it forever...",
+    "^white;Dinner:^reset; The resort restaurant was **amazing**! We shared a delicious fruit bowl together, and had some grilled tsays with garnish and a fresh gil salad with rukas! Finally, we had a calin cake with luminescent frosting (so pretty it glowed! >~<)\n\nThe last part was especially delicious~",
+    "^white;Evening Entertainment:^reset; We danced under the party lights at the resort club! The alta dancers' performance was incredible. We played some party games too - I even won at ring toss! ^^\n\n^white;Stargazing:^reset; We ended the night at the observation deck, watching stars and distant planets.",
+    "We talked about our dreams... She wants to become a ^#60c0fc;spacedrifter^reset; one day. I told her I'd wait for her, no matter how long...\n\nAnd then... she gave me a kiss. My heart is still racing! «««",
+    "I can't stop smiling. This is what happiness feels like...\n\n^gray;End of entry.^reset;\n\n^#20f080;― For all altas dreaming of their perfect date ―^reset;"
+  ],
+  
+  "itemConfig" : {
+    "level" : 3,
+    "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "ebook" ],
+    "learnBlueprintsOnPickup" : [ "ct_alta_date-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
+  }
+}

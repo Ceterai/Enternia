@@ -1,0 +1,77 @@
+{
+  "itemName" : "ct_alta_sprayer",
+  "shortdescription" : "Alta Sprayer",
+  "description" : "A basic alta applicator with a spray nozzle.",
+
+  "level" : 1, "race" : "alta",
+  "itemTags" : [ "watering_can", "sanitary" ],
+  "category" : "tool", "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
+
+  "animation" : "/items/active/weapons/ranged/unrand/gluesprayer/gluesprayer.animation",
+  "animationParts" : { "middle" : "body.png", "middleFullbright" : "lit.png", "muzzleFlash" : "" },
+  "animationCustom" : { "sounds" : { "fire" : ["/sfx/projectiles/bubble_blow2.ogg"] } },
+
+  "baseOffset" : [0.0, 0.125],
+  "muzzleOffset" : [2.25, 0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "water",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.15,
+    "baseDps" : 0,
+    "energyUsage" : 0,
+    "projectileCount" : 1,
+    "inaccuracy" : 0.1,
+    "fireType" : "auto",
+
+    "projectileType" : "watersprinkledroplet",
+    "projectileParameters" : {
+      "speed" : 13,
+      "power" : 0,
+      "timeToLive" : 5,
+      "color" : [ 10, 255, 10 ]
+    },
+    "muzzleFlashVariants" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+        "weaponOffset" : [0.7, -0.7]
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "weaponOffset" : [0.7, -0.7]
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+        "weaponOffset" : [0.7, -0.7]
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/tool.lua"
+}

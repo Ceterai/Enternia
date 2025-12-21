@@ -22,7 +22,7 @@
     "charge" : [ ],
     "charging" : [ "/sfx/melee/charge_combo7.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [0, 192, 80] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 0, 192, 80 ] } }
   },
   "animationScripts" : [ "/items/active/effects/laserbeam.lua" ],
   "baseOffset" : [0.625, 0.125], "muzzleOffset" : [2.375, 0.125],

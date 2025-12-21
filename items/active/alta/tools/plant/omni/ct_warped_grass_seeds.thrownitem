@@ -4,6 +4,7 @@
   "description" : "Toss these on any ground to grow tiny warped roots!",
 
   "level" : 4, "price" : 20, "race" : "alta",
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_warped_grass_seeds.png",
   "objectImage" : "ct_warped_grass_seeds.png",

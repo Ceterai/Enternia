@@ -4,6 +4,7 @@
   "description" : "Toss these on any ground to grow jungle-like grass!",
 
   "level" : 5, "price" : 20, "race" : "alta",
+  "itemTags" : [ "plant_tool" ],
   "category" : "throwableItem", "tooltipKind" : "ct_alta_item", "maxStack" : 1000,
   "inventoryIcon" : "ct_lush_grass_seeds.png",
   "objectImage" : "ct_lush_grass_seeds.png",

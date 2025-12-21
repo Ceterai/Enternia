@@ -1,0 +1,41 @@
+{
+  "objectName" : "ct_alta_lights",
+  "colonyTags" : [ "patriotic", "light" ], "itemTags" : [ "holiday" ],
+  "category" : "light",
+  "level" : 2, "price" : 60, "race" : "alta",
+
+  "shortdescription" : "Alta String Lights",
+  "description" : "This string of small, twinkling holiday lights is the perfect way to get festive.",
+
+  "apexDescription" : "These little lights are quite pretty.",
+  "avianDescription" : "It's hard not to love these pretty little lights.",
+  "floranDescription" : "Much sssparkle lightss.",
+  "glitchDescription" : "Contentment. These twinkling lights help build a relaxed atmosphere.",
+  "humanDescription" : "I've always been fond of string lights.",
+  "hylotlDescription" : "Such simple beauty.",
+  "novakidDescription" : "Bunch'a sparklin' li'l lights all strung up.",
+
+  "lightColor" : [ 107, 156, 179 ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "background" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "left", "flipImages" : true, "spaceScan" : 0.1, "anchors" : [ "top" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "body.png", "fullbright" : true }, { "image" : "lit.png" } ],
+      "imagePosition" : [-8, 0], "direction" : "right", "spaceScan" : 0.1, "anchors" : [ "top" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

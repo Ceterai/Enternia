@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_special_mimosa",
+  "shortdescription" : "Special Mimosa ^#8020f0;^reset;",
+  "description" : "A special version of mimosa salad made of the finest ^#b0e0fc;alta^reset; fruits and spices.",
+  "longdescription" : "The recipe follows an original concept of a layered sauce-like salad.",
+  "altaDescription" : "This will probably more then enough for a whole party.",
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "salad", "new_year", "holiday" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxhealthscalingboostfood" ], "foodValue" : 21, "rotToEffectRatio" : 0.80 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_special_mimosa.png",
+
+  "variants" : [ "lenn" ],
+  "presets" : {
+    "lenn" : {
+      "shortdescription" : "Lenn's Mimosa ^#8020f0;^reset;", "variant" : true,
+      "description" : "A very special mimosa that tastes exactly like that one time! That one time...",
+      "longdescription" : "This very special recipe variation was created for a very special person.",
+      "altaDescription" : "As far as I know, dishes like mohitavas and mimosas were brought to us by time drifters. I guess that's why it's named like that...",
+      "paletteSwap" : {
+        "#f6da66":"#f6a066","#efb529":"#ef6529",
+        "#e2c657":"#e2c657","#cc9512":"#cc9512",
+        "#4671e9":"#7846e9","#335bcd":"#6333cd","#1c42ad":"#481cad",
+        "#189f55":"#189f91","#146f3d":"#146f66"
+      }
+    }
+  }
+}

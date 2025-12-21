@@ -1,29 +1,17 @@
 {
   "itemName" : "ct_aya_punch",
-  "level" : 5, "price" : 720, "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_aya_punch.png",
   "description" : " A sweet aya punch. Simple, but powerful.",
   "longdescription" : "While the preparation process takes time, ayas sweeten out quite fast and thus are very good for a fast-marinaded punch, while most other alta punches use the fast-boiled kompot-like methods.",
   "altaDescription" : "Ayas are pretty sweet as it is, so having a less-sweet drink with a similar taste is pretty neat.",
   "shortdescription" : "Aya Punch",
-  "effects" : [ [
-    {
-        "effect" : "lowgrav",
-        "duration" : 270
-    }
-  ] ],
-  "foodValue" : 25,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "runeva_cuisine", "punch", "ayaka" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "runeva_cuisine", "punch", "ayaka" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 2.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "lowgrav" ], "foodValue" : 8, "rotToEffectRatio" : 3.00 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_alliana_cake", "ct_haruplavu_venetto" ],
+  "inventoryIcon" : "ct_aya_punch.png",
 
   "variants" : [ "bluesweet" ],
   "presets" : {
@@ -32,8 +20,6 @@
       "description" : "An aya punch with extra ayas and extra sweetness. The name checks out.",
       "longdescription" : "For this recipe, ayas are intentionally kept as sweet as possible. This results in a flavor shower that keeps on giving.",
       "altaDescription" : "A punch with an actual flavor punch to it, huh. Wouldn't expect it from something just plain sweet.",
-      "level" : 5, "rarity" : "Rare", "price" : 840, "foodValue" : 28,
-      "effects" : [ [ { "effect" : "lowgrav", "duration" : 330 } ] ],
       "paletteSwap" : {"#a0d1ff":"#a0a2ff","#0088ff":"#6670ff","#0066ff":"#009cff","#0040aa":"#0064aa","#00256b":"#003c6b","#ff6bcb":"#6babff","#ef359e":"#3576ef","#ca1679":"#1652ca"}
     }
   }

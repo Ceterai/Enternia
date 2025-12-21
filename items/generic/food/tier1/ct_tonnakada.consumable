@@ -4,14 +4,15 @@
   "description" : "A properly cooked ^#c1ebf8;tonna^reset; fresh from a fully grown ^#c1ebf8;tonnova^reset;!",
   "longdescription" : "Like many kadas, this one takes advantage of each part of a tonna separately to make a dish that tastes completely different.",
   "altaDescription" : "Nice and self-contained. I can hold it with my bare hands, which is very convenient.",
-  "level" : 2, "price" : 280, "race" : "alta",
-  "maxStack" : 1, "category" : "preparedFood", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "kada", "tonnova" ],
-  "inventoryIcon" : "ct_tonnakada.png",
-  "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 60 } ] ],
-  "foodValue" : 20,
+
+  "level" : 2, "race" : "alta",
+  "itemTags" : [ "nia_cuisine", "kada", "tonnova" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 14, "rotToEffectRatio" : 0.80 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_ometonna", "ct_maito_tea" ],
+  "inventoryIcon" : "ct_tonnakada.png",
+
   "variants" : [ "split" ],
   "presets" : {
     "split" : {
@@ -19,7 +20,7 @@
       "description" : "A perfectly cooked tonna. These soft milky insides are oozing from the sides!",
       "longdescription" : "Interesting how extra effort can result in a different taste and an even more enticing presentation.",
       "altaDescription" : "I think I will need a napkin for this one.",
-      "level" : 3, "rarity" : "Uncommon", "price" : 380, "foodValue" : 24, "variant" : true, "alkey" : "Tonnakadia",
+      "level" : 3, "variant" : true, "alkey" : "Tonnakadia",
       "paletteSwap" : {"#f4fafd":"#f4f5fd","#acdcec":"#acbaec","#10b4ef":"#6378c0","#106686":"#108586","#103f50":"#105050","#102b35":"#919fd5"}
     },
     "virma" : {

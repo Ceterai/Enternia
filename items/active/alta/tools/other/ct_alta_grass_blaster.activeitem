@@ -5,7 +5,7 @@
   "elementalType" : "physical",
 
   "level" : 5, "twoHanded" : false, "category" : "tool",
-  "itemTags" : [ "weapon", "ranged", "blaster", "grass_blaster" ],
+  "itemTags" : [ "weapon", "ranged", "blaster", "plant_tool" ],
 
   "inventoryIcon" : "ct_alta_grass_blaster.png",
   "animation" : "/items/active/weapons/ranged/alta/rifle.animation",
@@ -14,7 +14,7 @@
     "primary_press" : [ "/sfx/gun/paintgun5.ogg" ],
     "primary_hold" : [ "/sfx/gun/grenade2.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [26, 221, 227] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 26, 221, 227 ] } }
   },
   "baseOffset" : [0.75, 0],
   "muzzleOffset" : [2.5, 0.4],

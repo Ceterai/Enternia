@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "giganticsnowball", "count" : 1 },
+    { "item" : "largesnowball", "count" : 1 },
+    { "item" : "mediumsnowball", "count" : 1 },
+    { "item" : "ct_ayaka_wood", "count" : 1 },
+    { "item" : "ct_aya", "count" : 1 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { "item" : "ct_snowalta", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "alta_constructor3", "alta_special", "objects", "alta_festive", "sonaveil", "all", "mod" ]
+}

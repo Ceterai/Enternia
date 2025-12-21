@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_bion", "count" : 2 },
+    { "item" : "ct_alta_led", "count" : 4 },
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "greendye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ceternity_lights", "count" : 4 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor3", "alta_special", "objects", "lights", "all", "mod", "alta_festive", "ceternity", "spookysynergy", "spookycrafter" ]
+}

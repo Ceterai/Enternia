@@ -16,7 +16,7 @@
     }
   },
 
-  "lights" : { "glow" : { "active" : true, "position" : [0, 0], "color" : [255, 255, 255] } },
+  "lights" : { "glow" : { "active" : true, "position" : [0, 0], "color" : [ 255, 255, 255 ] } },
   "transformationGroups" : { "weapon" : {} },
   "sounds" : {
     "throw" : [ "/sfx/projectiles/throw_item_small.ogg" ],

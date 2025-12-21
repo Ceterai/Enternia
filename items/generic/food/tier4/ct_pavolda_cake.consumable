@@ -1,31 +1,16 @@
 {
   "itemName" : "ct_pavolda_cake",
-  "level" : 6, "price" : 1120, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_pavolda_cake.png",
   "shortdescription" : "Pavolda Cake",
   "description" : "A crystally cake with a strange name. Most ^#b0e0fc;altas^reset; love it anyway.",
   "longdescription" : "While the origin of the name is related to the mix of crystals used in its recipe, referring to the name of the taste, the ingredients themself are a combination of crystal plants, aya dough and some additional sweet spices and frosting.",
   "altaDescription" : "The frosting is my favorite part! Also the candy balls on the sides. And the cream filling. And the jam. All of it is good.",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 270
-    },
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 270
-    }
-  ] ],
-  "foodValue" : 80,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "cake", "dessert" ],
+
+  "level" : 6, "race" : "alta",
+  "itemTags" : [ "calin_cuisine", "cake", "dessert", "calin" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood", "jumpboostfood" ], "foodValue" : 22.857142, "rotToEffectRatio" : 0.6428571 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "inventoryIcon" : "ct_pavolda_cake.png",
 
   "variants" : [ "love" ],
   "presets" : {
@@ -35,7 +20,6 @@
       "longdescription" : "The recipe itself makes the cakes crunchier than the original recipe, with an additional shift in taste.",
       "altaDescription" : "I feel cared for while eating this, maybe because it was actually made with love.",
       "variant" : true, "alkey" : "Celestia Muai",
-      "level" : 6, "rarity" : "Legendary", "price" : 1520, "foodValue" : 100,
       "paletteSwap" : {
         "#99e2c6":"#e299dc","#5aa88b":"#5aa6a8","#319972":"#319699","#126746":"#126667","#134736":"#134347",
         "#cb3e7a":"#3ecbc7","#902f58":"#2f908d",  // "#cb3e7a":"#cb3e8d","#902f58":"#902f65",

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 16 },
+    { "item" : "prisiliteore", "count" : 16 }
+  ],
+  "output" : { "item" : "ct_alta_festive_station", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_t2", "alta_stations", "objects", "all", "mod" ]
+}

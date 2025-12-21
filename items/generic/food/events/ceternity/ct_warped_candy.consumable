@@ -6,8 +6,9 @@
   "altaDescription" : "The paper wrap is meant to keep Ceternity and Orchid away from your precious candy!~",
 
   "race" : "alta", "category" : "preparedFood",
-  "itemTags" : [ "ceternity", "warped", "dessert" ], "emote" : "happy",
+  "itemTags" : [ "ceternity", "warped", "dessert", "alta_cuisine", "candy", "holiday" ], "emote" : "happy",
   "inventoryIcon" : "ct_warped_candy.png",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "goodEffects" : [ "runboost" ], "foodValue" : 6 }
 }

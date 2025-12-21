@@ -14,7 +14,8 @@ Maybe if we could pass it under CEN-6, or even... no protocol? - C.M."
 
   ],
   "itemConfig" : {
-    "rarity" : "Legendary", "learnBlueprintsOnPickup" : [ "ct_notes_mira_cen-codex" ],
-    "price" : 0
+    "level" : 6, "tooltipKind" : "ct_alta_item_long", "price" : 0,
+    "itemTags" : [ "data_source", "datamass" ], "learnBlueprintsOnPickup" : [ "ct_notes_mira_cen-codex" ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

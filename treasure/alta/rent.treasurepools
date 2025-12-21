@@ -498,16 +498,16 @@
     ]
   ],
 
-  // Rent options of altas celebrating Sona's Veil/Christmas/Winter's Veil/Hannukah/Yule.
-  "ct_sonaveil_gift" : [
-      [0, {
-        "poolRounds" : [ [0.85, 1], [0.15, 2] ],
-        "pool" : [
-          {"weight" : 0.04, "item" : [ "holidayspirit", 1 ] },
-          {"weight" : 0.04, "item" : [ "holidayspirit", 2 ] }
-        ]
-      }
-    ]
+  // Rent options of altas celebrating Sona's Veil/Christmas/Hannukah/Yule/Midwinter.
+  "ct_sonaveil_spirit" : [
+    [0, {
+      "pool" : [  //          total: 1.00
+        {"weight" : 0.30, "item" : [ "holidayspirit", 3 ] },
+        {"weight" : 0.40, "item" : [ "holidayspirit", 4 ] },
+        {"weight" : 0.30, "item" : [ "holidayspirit", 5 ] },
+        {"weight" : 0.20, "item" : [ "holidayspirit", 6 ] }
+      ]
+    } ]
   ],
 
 

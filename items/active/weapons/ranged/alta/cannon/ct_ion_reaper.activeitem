@@ -29,7 +29,7 @@
       "alt_hold" : ["/sfx/gun/grenade2.ogg"],
       "alt_loop" : [ "/sfx/melee/charge_combo7.ogg" ]
     },
-    "lights" : { "muzzleFlash" : { "color" : [128, 32, 240] } }
+    "lights" : { "muzzleFlash" : { "color" : [ 128, 32, 240 ] } }
   },
 
   "baseOffset" : [0.125, 0.625],

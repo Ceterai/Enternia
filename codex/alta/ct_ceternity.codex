@@ -1,0 +1,43 @@
+{
+  "id" : "ct_ceternity",
+  "title" : "The Spooks of Ceternity",
+  "description" : "A friendly guide to all the spooks and creatures that appear during Hallowing Ceternity! Learn about who's trying to trick you and who's just here for fun~ ^gray;(Unlocks holiday recipes)^reset;",
+  "longdescription" : "This guide covers the various spooky beings that make Ceternity special - from the mysterious Ceternity face itself to the candy-stealing Orchi the Stardust Orchid, ghostly shadows, and nightmare creatures.",
+  "altaDescription" : "That's why I always double-lock my candy stash during Ceternity!",
+  "icon" : "ebook/bionid.png",
+  "species" : "alta",
+  "contentPages" : [
+    "^#8020f0;The Spooks of Ceternity^reset;\n\nIt's the spooky season!\n\nThe Hallowing Ceternity wouldn't be complete without its cast of spooky characters! From mysterious beings to mischievous candy thieves, here's your guide to the (mostly!) friendly faces of the spook night.",
+    "^#2080f0;Ceternity - The Heart of Spooks^reset;\n\nThe holiday's namesake! Ceternity appears as an abstract, colorful face on posters and decorations throughout alta cities.\n\nNo one knows what Ceternity really is - a being? A concept? An aesthetic? But everyone agrees it's the perfect symbol for spooky season!",
+    "^#ffa8e8;Stardust Orchid - Candy Thief!^reset;\n\nWatch your treats! The Orchid loves to trick silly altas and steal their Ceternity candies.\n\nIf you see mysterious stardust sparkles near your candy stash, she's probably nearby! Don't worry though - she's more playful than scary~",
+    "Candies often feature protective wrappers designed to keep Ceternity and Orchid away from your precious sweets. Whether these actually work is... debatable. But they look cute!",
+    "^#606478;Shadows - Ghostly Guests^reset;\n\nDuring Ceternity, altas invite ^#606478;shadows^reset; to join celebrations! These ghostly void creatures fit perfectly into the spooky atmosphere.\n\nTheir civilization remains mysterious, but encounters are usually positive - especially when expected! Perfect party guests for spooky season~",
+    "^#8020f0;Spooksmen - Professional Scares^reset;\n\nThese outer space experts in creating eerie atmospheres collaborate with altas to enhance Ceternity! Known for their professional scaring skills, spooksmen add extra excitement and mystery to celebrations.\n\nThey take spookiness seriously - but in a fun way!",
+    "^#20f080;Jack O' Lanterns - Glowing Guardians^reset;\n\n^#20f080;Neonjacks^reset; (carved neonmelons) glow teal-green, while ^#ff8020;Yaajacks^reset; (carved yaara melons) glow orange. Both use natural internal light to create eerie illumination!\n\nThese bioluminescent lanterns line streets and doorways, keeping the spooky atmosphere alive all night long.",
+    "^#c0e0ff;Nightmare Creatures^reset;\n\nRare spooky variants of familiar creatures appear during Ceternity season:\n\n^#c0e0ff;Nightmare Orbides^reset; - their limping is the only thing you'll hear in the dark\n^#c0e0ff;Nightmare Anglures^reset; - only their mysterious light visible at night\n\nThey're more terrifying than usual, but still part of the fun!",
+    "^#ff60a0;Costume Strategy^reset;\n\nHere's the secret: dress in scary costumes so the spooks think you're one of them! They'll share their candy instead of stealing yours.\n\nElegant dark dresses, vampire costumes, witch robes - anything spooky works! The better your costume, the more treats you might receive~",
+    "^#f02080;Lighthearted Spooks^reset;\n\nDespite all the eerie atmosphere and mysterious beings, Ceternity remains a cheerful celebration! The spooks are friendly, the scares are fun, and everyone's here to enjoy the season.\n\nSo don't be afraid - embrace the spookiness and join the party! Just maybe keep your candy somewhere safe..."
+  ],
+  "itemConfig" : {
+    "level" : 3,
+    "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "ebook", "ceternity", "holiday" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_ceternity-codex",
+      "ct_ceternity_candy",
+      "ct_orchid_candy",
+      "ct_orchid_pumpkin_candy",
+      "ct_neonjack_candy",
+      "ct_yaajack_candy",
+      "ct_miazma_candy",
+      "ct_warped_spider_candy",
+      "ct_warped_candy",
+      "ct_ceternity_poster",
+      "ct_halloween_poster",
+      "ct_harrowing_poster",
+      "ct_neonjack",
+      "ct_yaajack"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
+  }
+}

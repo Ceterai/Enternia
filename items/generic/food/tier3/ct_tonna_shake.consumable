@@ -1,39 +1,25 @@
 {
   "itemName" : "ct_tonna_shake",
-  "level" : 5, "price" : 800, "race" : "alta",
-  "category" : "drink",
-  "inventoryIcon" : "ct_tonna_shake.png",
   "shortdescription" : "Tonna Shake",
   "description" : "Milky substance you get from baked ^#c1ebf8;tonnas^reset; turned into a milkshake!",
   "longdescription" : "A multistep process to achieve a milkshakey goodness in this case differs from a lot of classic alta shakes, as this one includes and additional step of baking the tonna to get proper milk consistency.",
   "altaDescription" : "If you're into nia cuisine and are at a party, this choice is definitely for you. Don't forget to cover it in some jam! Gheatsyn one will work quite well.",
-  "effects" : [ [
-    {
-        "effect" : "maxenergyscalingboostfood",
-        "duration" : 300
-    }
-  ] ],
-  "foodValue" : 30,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "nia_cuisine", "shake", "tonnova" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "nia_cuisine", "shake", "tonnova" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 10, "rotToEffectRatio" : 1.00 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_ion_cake", "ct_nia_cocktail", "ct_tonna_split" ],
+  "inventoryIcon" : "ct_tonna_shake.png",
 
   "variants" : [ "perfect" ],
   "presets" : {
     "perfect" : {
-      "shortdescription" : "Perfect Tonna Shake", "variant" : true,
+      "shortdescription" : "Perfect Tonna Shake ^#2080f0;^reset;", "variant" : true,
       "description" : "A tonna milkshake made with the best baked tonnas around!",
       "longdescription" : "This shake has turned out really well. Experimenting does pay back pretty nicely sometimes.",
       "altaDescription" : "It's extra-good! Yum...",
-      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 35,
-      "effects" : [ [ { "effect" : "maxenergyscalingboostfood", "duration" : 420 } ] ],
       "paletteSwap" : {
         "#10b4ef":"#f4fafd","#106686":"#acdcec","#103f50":"#10b4ef","#102b35":"#2d6aa6",
         "#f2f2f2":"#f2f2f2","#dadada":"#dadada","#acacac":"#acacac",
@@ -56,7 +42,7 @@
       "description" : "A simple alta milkshake made with most basic ingredients available in alta culinary culture.",
       "longdescription" : "While its components are pretty common to find, it doesn't impact its taste negatively in any way.",
       "altaDescription" : "So milky, so shaky! Wait, milkshakes aren't supposed to shake on their own...",
-      "level" : 4, "rarity" : "Uncommon", "price" : 600, "foodValue" : 25,
+      "level" : 4,
       "paletteSwap" : {
         "#10b4ef":"#ffeff7","#106686":"#fcdff0","#103f50":"#f2b4d8","#102b35":"#e686c4",
         "#f2f2f2":"#f6f6f6","#dadada":"#d8dcf0","#acacac":"#b0b4c8",

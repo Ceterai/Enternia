@@ -4,6 +4,7 @@
   "description" : "A fairly fast one-handed net made for catching bugs and various critters!",
 
   "level" : 5, "race" : "alta",
+  "itemTags" : [ "bug_net" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "inventoryIcon" : "icon.png",
   "objectImage" : "body.png:idle",

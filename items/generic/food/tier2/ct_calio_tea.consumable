@@ -4,15 +4,15 @@
   "description" : "A sweet and sour slightly dense tea, brewed using various alterash prime crystals. Edible ones, of course.",
   "longdescription" : "Their extracts are pretty hard to get, but are very easily brewable into a typical tea.",
   "altaDescription" : "One might be wondering - how in Io do you make tea out of crystals? The answer is simple - you... Oh, I forgot. Unfortunate.",
-  "level" : 4, "price" : 400, "race" : "alta",
-  "maxStack" : 1, "category" : "drink", "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "calin_cuisine", "tea", "crystal" ],
-  "inventoryIcon" : "ct_calio_tea.png",
-  "effects" : [ [ { "effect" : "poisonblock", "duration" : 240 } ] ],
-  "foodValue" : 10,
+
+  "level" : 4, "race" : "alta",
+  "itemTags" : [ "calin_cuisine", "tea", "crystal" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"], "blockingEffects" : [ "wellfed" ],
-  "emitters" : [ "drinking" ],
+  "build" : { "goodEffects" : [ "poisonblock" ], "foodValue" : 4, "rotToEffectRatio" : 1.80 },
+  "category" : "drink", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_caliopa", "ct_natal_punch" ],
+  "inventoryIcon" : "ct_calio_tea.png",
+
   "variants" : [ "thick" ],
   "presets" : {
     "thick" : {
@@ -20,8 +20,7 @@
       "description" : "This calio tea is dense with tingy calin sweetness! Like some nice tea with honey, this is definitely perfect.",
       "longdescription" : "Jam is a prevalent ingredient in thick types of tea, often replaced with honey, extract, sap, and other sweet jam-like substances.",
       "altaDescription" : "You can feel the saturation on your tongue!",
-      "level" : 4, "rarity" : "Uncommon", "price" : 460, "foodValue" : 12,
-      "effects" : [ [ { "effect" : "poisonblock", "duration" : 300 } ] ], "variant" : true, "alkey" : "Dicalio Chi",
+      "variant" : true, "alkey" : "Dicalio Chi",
       "paletteSwap" : {"#c9f6ca":"#a7e7d1","#76e481":"#4be8be","#4eb866":"#28c0a9",
       "#ffc744":"#ffc744","#fc7800":"#fc7800"}
     },

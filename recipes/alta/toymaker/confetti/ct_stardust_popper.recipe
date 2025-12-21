@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ct_alta_basic_popper", "count" : 4 },
+    { "item" : "greendye", "count" : 1 },
+    { "item" : "bluedye", "count" : 1 },
+    { "item" : "purpledye", "count" : 1 },
+    { "item" : "pinkdye", "count" : 1 }
+  ],
+  "duration" : 0.25,
+  "output" : { "item" : "ct_stardust_popper", "count" : 4 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_toys", "confetti", "alta_festive", "new_year", "all", "mod" ]
+}

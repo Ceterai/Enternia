@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "orangedye", "count" : 1 },
+    { "item" : "string", "count" : 1 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_alta_bow", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "weapon", "weapons", "ranged", "alta_toys", "toy_weapons", "all", "mod" ]
+}

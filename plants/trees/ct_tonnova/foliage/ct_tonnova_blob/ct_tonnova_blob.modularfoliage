@@ -5,7 +5,7 @@
   "shape" : "desert",
   "inventoryIcon" : "icon.png",
 
-  "lightColor" : [0, 90, 40],
+  "lightColor" : [ 0, 90, 40 ],
 
   "dropConfig" : {
     "drops" : [
@@ -21,7 +21,7 @@
         "options" : [
           {
             "type" : "ember",
-            "color" : [55, 55, 13],
+            "color" : [ 55, 55, 13 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -33,7 +33,7 @@
           },
           {
             "type" : "ember",
-            "color" : [73, 77, 22],
+            "color" : [ 73, 77, 22 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -45,7 +45,7 @@
           },
           {
             "type" : "ember",
-            "color" : [97, 111, 34],
+            "color" : [ 97, 111, 34 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -62,7 +62,7 @@
         "options" : [
           {
             "type" : "ember",
-            "color" : [55, 55, 13],
+            "color" : [ 55, 55, 13 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -74,7 +74,7 @@
           },
           {
             "type" : "ember",
-            "color" : [73, 77, 22],
+            "color" : [ 73, 77, 22 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],
@@ -86,7 +86,7 @@
           },
           {
             "type" : "ember",
-            "color" : [97, 111, 34],
+            "color" : [ 97, 111, 34 ],
             "timeToLive" : 10,
             "initialVelocity" : [0, 5],
             "finalVelocity" : [0, -20],

@@ -22,9 +22,9 @@
         "transformationGroups" : ["weapon"],
         "active" : true,
         "position" : [2.5, 0.385],
-        "color" : [0, 12, 64]
+        "color" : [ 0, 12, 64 ]
       },
-      "muzzleFlash" : { "color" : [0, 80, 192] }
+      "muzzleFlash" : { "color" : [ 0, 80, 192 ] }
     },
     "sounds" : {
       "init" : [ "/sfx/gun/mech_multidrone1.ogg" ],

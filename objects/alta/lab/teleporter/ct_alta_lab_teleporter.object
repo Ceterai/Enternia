@@ -22,7 +22,7 @@
   "smashParticles" : [ { "count" : 4, "particle" : "steelshard" }, { "count" : 10, "particle" : "metalshard" } ],
   "smashDropPool" : "remoteteleporter",
 
-  "lightColor" : [0, 80, 192],
+  "lightColor" : [ 0, 80, 192 ],
   "lightPosition" : [0, 1],
 
   "interactAction" : "OpenTeleportDialog",

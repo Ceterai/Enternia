@@ -10,7 +10,7 @@
   "renderLayer" : "Player+1",
   "damagePoly" : [ [-1.0, -1.0], [-1.0, 1.0], [1.0, 1.0], [1.0, -1.0] ],
   "emitters" : [ ],
-  "lightColor" : [32, 128, 240],
+  "lightColor" : [ 32, 128, 240 ],
 
   "physics" : "laser",
   "bounces" : -1,

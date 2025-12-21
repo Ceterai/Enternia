@@ -1,0 +1,32 @@
+{
+  "objectName" : "ct_sonaveil_af",
+  "colonyTags" : [ "sonaveil", "pretty" ], "itemTags" : [ "holiday" ],
+  "category" : "actionFigure",
+  "level" : 3, "price" : 5000, "race" : "alta",
+
+  "shortdescription" : "Sonaveil Sonaglobe",
+  "description" : "The label reads, \"Happy Sona's Veil!\"",
+  "altaDescription" : "Ooh, the snow starts falling inside if you shake it!",
+
+  "apexDescription" : "An adorable penguin inside a snowglobe.",
+  "avianDescription" : "Ah, the penguin. I feel for you, my flightless kin.",
+  "floranDescription" : "Floran like glassss with sssnack in.",
+  "glitchDescription" : "Alarm. There are faint lifesigns coming from inside this snowglobe.",
+  "humanDescription" : "Aww, a cute lil penguin. I want to cuddle it.",
+  "hylotlDescription" : "A tiny penguin trapped inside a glass prison. Barbaric.",
+  "novakidDescription" : "Penguins sure are cute, but I'm not fooled. They're rascals, all of 'em!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "body.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 8,
+      "animationCycle" : 1.15,
+
+      "spaces" : [ [0, 0] ], "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

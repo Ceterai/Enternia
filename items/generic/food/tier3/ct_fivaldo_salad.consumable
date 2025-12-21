@@ -1,45 +1,25 @@
 {
   "itemName" : "ct_fivaldo_salad",
-  "level" : 5, "price" : 880, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_fivaldo_salad.png",
   "shortdescription" : "Fival'do Salad",
   "description" : "Various tasty stuff all conveniently mixed together.",
   "longdescription" : "The roughly cut fruit pieces are mixed with herbs and edible crystals, with added dressing and spice create a unique experince with intertwined taste scope of different cuisines.",
   "altaDescription" : "Something you would see in a fancy restaurant. Or prepared by your friend for a party, really goes both ways here.",
-  "effects" : [ [
-    {
-        "effect" : "runboostfood",
-        "duration" : 210
-    },
-    {
-        "effect" : "jumpboostfood",
-        "duration" : 210
-    },
-    {
-        "effect" : "maxhealthscalingboostfood",
-        "duration" : 210
-    }
-  ] ],
-  "foodValue" : 45,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "alta_cuisine", "salad" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "alta_cuisine", "salad", "fruit"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "runboostfood", "jumpboostfood", "maxhealthscalingboostfood" ], "foodValue" : 15, "rotToEffectRatio" : 1.60 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_mohitava_cocktail", "ct_palopias" ],
+  "inventoryIcon" : "ct_fivaldo_salad.png",
 
   "variants" : [ "banquet" ],
   "presets" : {
     "banquet" : {
-      "shortdescription" : "Fival'do Banquet", "variant" : true,
+      "shortdescription" : "Fival'do Banquet ^#2080f0;^reset;", "variant" : true,
       "description" : "Now we're talking! This salad goes far and beyond, what a masterpiece!",
       "longdescription" : "While this particular variation doesn't require as much cutting and mixing as the original salad, the presentation and distribution play a big role in the overall experience.",
       "altaDescription" : "A whole banquet is very much a party thing. Fast to prepare, and the big portion size is great for a lot of friends. Or even just for you.",
-      "level" : 6, "rarity" : "Legendary", "price" : 1100, "foodValue" : 55,
       "paletteSwap" : {
         "#9cf600":"#00f608","#60d600":"#00d62f","#00b21a":"#00b290",
         "#68dcff":"#6877ff","#3cb3d8":"#3c4bd8","#2c839d":"#2c379d","#252c33":"#272533",

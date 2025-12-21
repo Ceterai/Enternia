@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_christmas_poster",
+  "colonyTags" : [ "christmas" ], "itemTags" : [ "holiday", "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+  
+  "shortdescription" : "Christmas Poster",
+  "description" : "A festive poster celebrating Christmas - a human holiday very similar to Sonaveil!",
+  "longdescription" : "Both holidays emphasize warmth, gathering with loved ones, and gift-giving during the coldest season. Some altas who are interested in human culture display these posters alongside traditional Sonaveil decorations, finding common ground in the universal desire to stay warm together when it's cold outside.",
+  "altaDescription" : "Christmas! Different traditions, same warm spirit~",
+
+  "apexDescription" : "Human winter celebration poster.",
+  "avianDescription" : "A human holiday poster celebrating winter warmth and giving.",
+  "floranDescription" : "Floran sssees many pretty thingsss.",
+  "glitchDescription" : "Curious. Humans share some relatable values in their winter celebrations.",
+  "humanDescription" : "Christmas poster! Nice to see altas appreciate our holiday traditions.",
+  "hylotlDescription" : "Observing how different species celebrate similar seasonal themes is enlightening.",
+  "novakidDescription" : "Human holiday poster! Warm and festive-lookin'.",
+
+  "inventoryIcon" : "ct_christmas_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_christmas_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -8,6 +8,7 @@
   "level" : 3, "race" : "alta",
   "itemTags" : [ "bio", "vendor_drink" ],
   "category" : "drink",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "rotToEffectRatio" : 10, "goodEffects" : [ "swimboostcola", "maxenergyscalingboostfood" ] },
 

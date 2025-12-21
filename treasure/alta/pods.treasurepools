@@ -254,10 +254,11 @@
         {"weight" : 0.04, "item" : "ct_alta_ship_container"},
         {"weight" : 0.04, "item" : "ct_alta_ship_container_medium"},
         {"weight" : 0.04, "item" : ["ct_alta_ship_shelf", 2]},
-        {"weight" : 0.04, "item" : ["ct_alta_ship_shelf", 4]},
+        {"weight" : 0.03, "item" : ["ct_alta_ship_shelf", 4]},
         {"weight" : 0.04, "item" : "ct_alta_ship_table"},
         {"weight" : 0.01, "item" : "ct_alta_ship_ai_chip"},
         {"weight" : 0.01, "item" : "ct_ceterai_ai_chip"},
+        {"weight" : 0.01, "pool" : "ct_alta_secret"},
         // Cosmetics,         total: 0.04
         {"weight" : 0.01, "item" : "ct_alta_halogen_pack"},
         {"weight" : 0.01, "item" : "ct_alta_energy_mask"},

@@ -1,9 +1,10 @@
 {
   "itemName" : "ct_star_parasol",
-  "shortdescription" : "Alta Umbrella",
+  "shortdescription" : "Star Parasol",
   "description" : "Open to gently float while falling. It's bad luck to open inside the house.",
 
   "price" : 240, "level" : 6, "race" : "alta",
+  "itemTags" : [ "umbrella" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
 
   "inventoryIcon" : "icon.png",

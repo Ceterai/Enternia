@@ -1,41 +1,25 @@
 {
   "itemName" : "ct_yaarizza",
-  "level" : 5, "price" : 800, "race" : "alta",
-  "category" : "preparedFood",
-  "inventoryIcon" : "ct_yaarizza.png",
   "shortdescription" : "Yaarizza Slice",
   "description" : "Yaara roots make this pizza satisfyingly crunchy.",
   "longdescription" : "The overall recipe follows classic alta pizza preparation, including runeva cheese and some herbs and spices.",
   "altaDescription" : "Just because something was made out of yaara, doesn't mean that it's alive.",
-  "effects" : [ [
-    {
-        "effect" : "regeneration2",
-        "duration" : 270
-    },
-    {
-        "effect" : "weakpoison",
-        "duration" : 5
-    }
-  ] ],
-  "foodValue" : 35,
-  "tooltipKind" : "ct_alta_consumable", "itemTags" : [ "yava_cuisine", "pizza", "yaara" ],
+
+  "level" : 5, "race" : "alta",
+  "itemTags" : [ "yava_cuisine", "pizza", "yaara" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
-    "wellfed"
-  ],
+  "build" : { "goodEffects" : [ "regeneration2" ], "badEffects" : [ "weakpoison" ], "foodValue" : 11.66666667, "rotToEffectRatio" : 0.90 },
+  "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
   "learnBlueprintsOnPickup" : [ "ct_gharus_spice", "ct_onitti_cake", "ct_mohitava_cocktail", "ct_palopias" ],
+  "inventoryIcon" : "ct_yaarizza.png",
 
   "variants" : [ "extra" ],
   "presets" : {
     "extra" : {
-      "shortdescription" : "Yaarizza Extra Toppings Slice", "variant" : true,
+      "shortdescription" : "Yaarizza Extra Toppings Slice ^#2080f0;^reset;", "variant" : true,
       "description" : "This yaarizza ended up with extra toppings. More deliciousness for you I guess!",
       "longdescription" : "The recipe itself is not much different from the original, with the only significant change being extra generosity.",
       "altaDescription" : "The flavor and texture are oozing from the sides! Be careful not to get it on your clothes!",
-      "level" : 6, "rarity" : "Legendary", "price" : 1000, "foodValue" : 45,
       "paletteSwap" : {
         "#4fc6ba":"#fbe7d4","#6634a0":"#e2944b",
         "#ae75f0":"#75bff0","#713bb0":"#3b81b0","#461e74":"#1e5174",

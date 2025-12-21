@@ -36,7 +36,7 @@ These four main cuisines represent the ^#b0e0fc;Alta Quaternion^reset; - a commo
   ],
     "itemConfig" : {
       "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook" ],
+      "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [
         "ct_alta_dinner", "ct_aya_punch", "ct_caliopa", "ct_crunchy_pie", "ct_fivaldo_salad", "ct_heecho_punch", "ct_hive_curry", "ct_natal_punch",

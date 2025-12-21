@@ -1,0 +1,121 @@
+{
+  "itemName" : "ct_sonaveil_popper",
+  "shortdescription" : "Sonaveil Popper",
+  "description" : "A festive confetti popper to celebrate ^#b0e0fc;Sona's Veil^reset;. Pop it to shower the area with holiday cheer!",
+  "longdescription" : "This confetti popper is filled with red, yellow, and white confetti - the warm colors of the Sonaveil season. When popped, it releases a burst of festive confetti to celebrate the cold solstice holiday. Altas use these during Sonaveil gatherings to add excitement and joy to their celebrations.",
+  "altaDescription" : "Pop! Instant festive atmosphere! These warm colors make me happy~",
+
+  "level" : 3, "price" : 40, "race" : "alta",
+  "category" : "toy", "itemTags" : [ "toy", "holiday", "sonaveil" ],
+
+  "inventoryIcon" : "ct_sonaveil_popper.png",
+  "animationParts" : { "item" : "ct_sonaveil_popper.png" },
+  "animation" : "/items/active/alta/loot.animation",
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "firing" : {
+          "states" : {
+            "fire" : {
+              "frames" : 2, "cycle" : 0.1,
+              "mode" : "transition", "transition" : "confetti",
+              "properties" : { "immediateSound" : "/sfx/objects/colonydeed_partyhorn.ogg", "particleEmittersOff" : [ "confetti" ] },
+              "frameProperties" : { "stateNudge" : [ [-0.125, 0], [0, 0] ] }
+            }
+          }
+        }
+      }
+    },
+    "particleEmitters" : {
+      "confetti" : {
+        "emissionRate" : 500.0, "emissionRateVariance" : 0.0, "active" : true,
+        "particles" : [
+          {
+            // Red, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 0, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Red, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 0, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // Yellow, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 255, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Yellow, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 255, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // Red, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 0, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // Red, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 0, 0 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          },
+          {
+            // White, drifting
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 255, 255 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 9.0], "finalVelocity" : [0.0, -5.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [2, 2.0] }
+            }
+          },
+          {
+            // White, falling fast
+            "particle" : {
+              "type" : "ember", "position" : [0, 0], "size" : 2.0,
+              "color" : [255, 255, 255 , 255], "light" : [50, 50, 50], "fade" : 0.9,
+              "initialVelocity" : [0.0, 7.0], "finalVelocity" : [0.0, -50.0],
+              "approach" : [0, 20], "timeToLive" : 5, "layer" : "middle",
+              "variance" : { "initialVelocity" : [5, 2.0] }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "scripts" : ["popper.lua"],
+  "fireTime" : 2.0, "fireOffset" : [1.0, 0.0],
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

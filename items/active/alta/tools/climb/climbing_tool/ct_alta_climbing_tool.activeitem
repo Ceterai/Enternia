@@ -4,6 +4,7 @@
   "description" : "A length of rope made from isowire with a hook. Useful for climbing and tying things together!",
 
   "level" : 1, "price" : 20, "race" : "alta",
+  "itemTags" : [ "grapple" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "objectImage" : "body.png",
   "inventoryIcon" : "icon.png",

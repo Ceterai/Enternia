@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "cottonwool", "count" : 20 },
+    { "item" : "holidayspirit", "count" : 20 },
+    { "item" : "string", "count" : 4 },
+    { "item" : "bluedye", "count" : 1 }
+  ],
+  "duration" : 5.00,
+  "output" : { "item" : "ct_alta_scarf", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "equipment", "consumables", "alta_tailor", "alta_festive", "sonaveil", "all", "mod" ]
+}

@@ -4,7 +4,7 @@
   "description" : "Holds a friendly creature in stasis in order to safely relocate it.",
 
   "level" : 4, "race" : "alta",
-  "itemTags" : [ "upgradeableWeapon" ],
+  "itemTags" : [ "relocator", "upgradeableWeapon" ],
   "category" : "tool", "tooltipKind" : "ct_alta_item",
   "twoHanded" : true,
   "objectImage" : "body.png:0",
