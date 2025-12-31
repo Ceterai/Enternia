@@ -3888,8 +3888,9 @@
         "name": "ct_alta_firework_cannon",
         "shortdescription": "Alta Firework Cannon",
         "category": "rocketLauncher",
-        "icon": "body.png:default.1",
-        "rarity": "legendary"
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/paint/",
@@ -11857,7 +11858,7 @@
         "name": "ct_alta_and",
         "shortdescription": "Alta Logic - AND",
         "category": "wire",
-        "icon": "and.png:default.1",
+        "icon": "and_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11867,7 +11868,7 @@
         "name": "ct_alta_clock",
         "shortdescription": "Alta Logic - Clock",
         "category": "wire",
-        "icon": "clock.png:default.1",
+        "icon": "clock_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11877,7 +11878,7 @@
         "name": "ct_alta_delay",
         "shortdescription": "Alta Logic - Delay",
         "category": "wire",
-        "icon": "delay.png:default.1",
+        "icon": "delay_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11887,7 +11888,7 @@
         "name": "ct_alta_latch",
         "shortdescription": "Alta Logic - Latch",
         "category": "wire",
-        "icon": "latch.png:default.1",
+        "icon": "latch_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11897,7 +11898,7 @@
         "name": "ct_alta_not",
         "shortdescription": "Alta Logic - NOT",
         "category": "wire",
-        "icon": "not.png:default.1",
+        "icon": "not_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11907,7 +11908,7 @@
         "name": "ct_alta_or",
         "shortdescription": "Alta Logic - OR",
         "category": "wire",
-        "icon": "or.png:default.1",
+        "icon": "or_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11917,7 +11918,7 @@
         "name": "ct_alta_timer",
         "shortdescription": "Alta Logic - Timer",
         "category": "wire",
-        "icon": "timer.png:default.5.1",
+        "icon": "timer_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11927,7 +11928,7 @@
         "name": "ct_alta_xor",
         "shortdescription": "Alta Logic - XOR",
         "category": "wire",
-        "icon": "xor.png:default.1",
+        "icon": "xor_tiled.png",
         "rarity": "uncommon",
         "race": "alta"
     },

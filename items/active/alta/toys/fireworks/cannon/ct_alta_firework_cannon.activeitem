@@ -1,17 +1,14 @@
 {
   "itemName" : "ct_alta_firework_cannon",
-  "price" : 1500,
-  "inventoryIcon" : "body.png:default.1",
-  "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Yes, it shoots fireworks!",
   "shortdescription" : "Alta Firework Cannon",
-  "level" : 1,
-  "tooltipKind" : "gun",
+  "description" : "Yes, it shoots fireworks!",
+
+  "level" : 6, "race" : "alta",
   "category" : "rocketLauncher",
-  "itemTags" : ["weapon","ranged","rocketlauncher"],
+  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "toy" ],
   "twoHanded" : true,
 
+  "inventoryIcon" : "icon.png",
   "animation" : "default.animation",
   "animationParts" : {
     "middle" : "body.png",
@@ -78,5 +75,5 @@
 
   "altAbilityType" : "sparkles",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/alta/tool.lua"
 }

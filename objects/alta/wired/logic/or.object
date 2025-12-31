@@ -2,20 +2,19 @@
   "objectName" : "ct_alta_or",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "description" : "An /'OR'/ switch. Allows you to have multiple individual inputs.",
   "shortdescription" : "Alta Logic - OR",
+  "description" : "An \"OR\" switch. Allows you to have multiple individual inputs.",
   "level" : 3, "price" : 10, "race" : "alta",
 
-  "floranDescription" : "An /'OR'/ sswitch. Allowsss you to have multiple individual inputs.",
-  "glitchDescription" : "Pleased. An /'OR'/ switch. Allows you to have multiple individual inputs.",
+  "floranDescription" : "An \"OR\" sswitch. Allowsss you to have multiple individual inputs.",
+  "glitchDescription" : "Pleased. An \"OR\" switch. Allows you to have multiple individual inputs.",
 
-  "inventoryIcon" : "or.png:default.1",
+  "inventoryIcon" : "or_tiled.png",
   "orientations" : [
     {
       "image" : "or.png:<color>.off",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-
       "direction" : "right"
     }
   ],

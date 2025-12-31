@@ -2,20 +2,19 @@
   "objectName" : "ct_alta_xor",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "description" : "An /'XOR'/ switch. Requires one input to be on, and one off.",
   "shortdescription" : "Alta Logic - XOR",
+  "description" : "An \"XOR\" switch. Requires one input to be on, and one off.",
   "level" : 3, "price" : 10, "race" : "alta",
 
-  "floranDescription" : "An /'XOR'/ sswitch. Requiresss one input to be on, and one off.",
-  "glitchDescription" : "Observation. An /'XOR'/ switch. Requires one input to be on, and one off.",
+  "floranDescription" : "An \"XOR\" sswitch. Requiresss one input to be on, and one off.",
+  "glitchDescription" : "Observation. An \"XOR\" switch. Requires one input to be on, and one off.",
 
-  "inventoryIcon" : "xor.png:default.1",
+  "inventoryIcon" : "xor_tiled.png",
   "orientations" : [
     {
       "image" : "xor.png:<color>.off",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-
       "direction" : "right"
     }
   ],

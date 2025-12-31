@@ -2,14 +2,14 @@
   "objectName" : "ct_alta_delay",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "description" : "A circuit that relays signals after a set delay. Default is 0.5s, sets through `delay`.",
   "shortdescription" : "Alta Logic - Delay",
+  "description" : "A circuit that relays signals after a set delay. Default is 0.5s, sets through `delay`.",
   "level" : 3, "price" : 10, "race" : "alta",
 
   "floranDescription" : "A circuit that relays signalsss after a sset delay.",
   "glitchDescription" : "Neutral. A circuit that relays signals after a set delay.",
 
-  "inventoryIcon" : "delay.png:default.1",
+  "inventoryIcon" : "delay_tiled.png",
   "orientations" : [
     {
       "image" : "delay.png:<color>.off",

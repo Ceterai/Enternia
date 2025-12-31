@@ -2,17 +2,19 @@
   "objectName" : "ct_alta_not",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "description" : "<A /'NOT'/ switch. Inverts the input on the circuit.>",
   "shortdescription" : "Alta Logic - NOT",
+  "description" : "A \"NOT\" switch. Inverts the input on the circuit.",
   "level" : 3, "price" : 10, "race" : "alta",
 
-  "inventoryIcon" : "not.png:default.1",
+  "floranDescription" : "A \"NOT\" ssswitch. Invertsss the input on the circuit.",
+  "glitchDescription" : "Curious. A \"NOT\" switch. Inverts the input on the circuit.",
+
+  "inventoryIcon" : "not_tiled.png",
   "orientations" : [
     {
       "image" : "not.png:<color>.off",
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-
       "direction" : "right"
     }
   ],

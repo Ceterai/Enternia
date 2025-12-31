@@ -79,7 +79,7 @@ List item (25 chars)      // 1 line
 **Manual check:**
 
 1. Count lines (including empty ones)
-2. For lines `>32` chars: divide by `32`, round up
+2. For lines `>32` chars: divide by `32`, round up (or split by words)
 3. Total should be `≤16` lines per page
 
 **In-game check:**

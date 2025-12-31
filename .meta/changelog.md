@@ -6,6 +6,7 @@ If you want to see more detailed changes, you can always navigate to the [commit
 
 - [Changelog](#changelog)
   - [Update 2.4 - Alta Hobbies](#update-24---alta-hobbies)
+    - [2.4.0c.fix](#240cfix)
     - [2.4.0c](#240c)
     - [2.4.0b](#240b)
     - [2.4.0a](#240a)
@@ -70,6 +71,10 @@ If you want to see more detailed changes, you can always navigate to the [commit
 </details>
 
 ## [Update 2.4 - Alta Hobbies](changelog/v2.4.md)
+
+### 2.4.0c.fix
+
+[Read more](changelog/v2.4.md#240cfix)
 
 ### 2.4.0c
 

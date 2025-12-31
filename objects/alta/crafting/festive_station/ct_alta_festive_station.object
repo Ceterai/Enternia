@@ -19,9 +19,10 @@
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
-    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
+  "learnBlueprintsOnPickup" : [ "ct_sonaveil-codex", "ct_ceternity-codex", "ct_alta_new_year-codex" ],  // , "ct_ava_day_codex", "ct_alta_national_day_codex"
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/alta/crafting/ui_tabs.config",

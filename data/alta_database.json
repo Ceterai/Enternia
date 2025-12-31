@@ -737,7 +737,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/and.png:default.1",
+            "icon": "/objects/alta/wired/logic/and_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -1979,7 +1979,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/clock.png:default.1",
+            "icon": "/objects/alta/wired/logic/clock_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -2558,7 +2558,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/delay.png:default.1",
+            "icon": "/objects/alta/wired/logic/delay_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -3658,6 +3658,11 @@
                 "crafting",
                 "holiday",
                 "legendary"
+            ],
+            "unlocks_bps": [
+                "ct_alta_new_year-codex",
+                "ct_ceternity-codex",
+                "ct_sonaveil-codex"
             ]
         },
         "ct_alta_filled_capture_pod": {
@@ -3688,14 +3693,16 @@
         "ct_alta_firework_cannon": {
             "path": "/items/active/alta/toys/fireworks/cannon/ct_alta_firework_cannon.activeitem",
             "rarity": "Legendary",
-            "power": 1.0,
-            "price": 1500,
-            "icon": "/items/active/alta/toys/fireworks/cannon/body.png:default.1",
+            "power": 3.5,
+            "price": 2520,
+            "icon": "/items/active/alta/toys/fireworks/cannon/icon.png",
             "tags": [
+                "alta",
                 "legendary",
                 "physical",
                 "ranged",
                 "rocketlauncher",
+                "toy",
                 "weapon"
             ],
             "pickup_msgs": [
@@ -6132,7 +6139,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/latch.png:default.1",
+            "icon": "/objects/alta/wired/logic/latch_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -7466,6 +7473,7 @@
                 "ct_stardust_popper"
             ],
             "unlocked_by": [
+                "ct_alta_festive_station",
                 "ct_alta_new_year-codex"
             ]
         },
@@ -7474,7 +7482,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/not.png:default.1",
+            "icon": "/objects/alta/wired/logic/not_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -7616,7 +7624,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/or.png:default.1",
+            "icon": "/objects/alta/wired/logic/or_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -13554,7 +13562,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/timer.png:default.5.1",
+            "icon": "/objects/alta/wired/logic/timer_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -14426,7 +14434,7 @@
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 20,
-            "icon": "/objects/alta/wired/logic/xor.png:default.1",
+            "icon": "/objects/alta/wired/logic/xor_tiled.png",
             "colony": [
                 "alta",
                 "uncommon",
@@ -25823,6 +25831,7 @@
                 "ct_yaajack_candy"
             ],
             "unlocked_by": [
+                "ct_alta_festive_station",
                 "ct_ceternity-codex"
             ],
             "pickup_msgs": [
@@ -55762,8 +55771,7 @@
                 "sona"
             ],
             "unlocked_by": [
-                "ct_sona_eco",
-                "ct_sonaveil-codex"
+                "ct_sona_eco"
             ],
             "sources": {
                 "tables_explicit": [
@@ -56132,7 +56140,6 @@
                 "ct_alta_snowthrower",
                 "ct_christmas_poster",
                 "ct_snowalta",
-                "ct_sona_af",
                 "ct_sona_hot_milk",
                 "ct_sona_poster",
                 "ct_sonasweet",
@@ -56147,12 +56154,14 @@
                 "ct_sonaveil_scarf",
                 "ct_sonaveil_scarf_wall",
                 "ct_sonaveil_snowalta",
+                "ct_sonia_af",
                 "giganticsnowball",
                 "largesnowball",
                 "mediumsnowball",
                 "snowball"
             ],
             "unlocked_by": [
+                "ct_alta_festive_station",
                 "ct_sonaveil-codex"
             ],
             "pickup_msgs": [
@@ -56641,6 +56650,9 @@
                 "common",
                 "pretty",
                 "sonaveil"
+            ],
+            "unlocked_by": [
+                "ct_sonaveil-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -68802,6 +68814,7 @@
                 "ct_alta_fertilizer",
                 "ct_alta_filled_capture_pod",
                 "ct_alta_firework",
+                "ct_alta_firework_cannon",
                 "ct_alta_flare_blaster",
                 "ct_alta_flashlight",
                 "ct_alta_flashlight-upgrade",
@@ -80494,6 +80507,7 @@
                 "ct_alta_dart_megaboard",
                 "ct_alta_dart_omniblue",
                 "ct_alta_dart_superboard",
+                "ct_alta_firework_cannon",
                 "ct_alta_neon_bubble_wand",
                 "ct_alta_painter_blue",
                 "ct_alta_painter_green",

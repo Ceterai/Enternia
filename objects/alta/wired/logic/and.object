@@ -2,21 +2,19 @@
   "objectName" : "ct_alta_and",
   "colonyTags" : [ "wired" ],
   "category" : "wire",
-  "description" : "An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
   "shortdescription" : "Alta Logic - AND",
+  "description" : "An \"AND\" switch. Requires all inputs to be \"on\" to work.",
   "level" : 3, "price" : 10, "race" : "alta",
 
-  "floranDescription" : "An /'AND'/ ssswitch. Requiress all inputs to be /'on'/ to work.",
-  "glitchDescription" : "Pleased. An /'AND'/ switch. Requires all inputs to be /'on'/ to work.",
+  "floranDescription" : "An \"AND\" ssswitch. Requiress all inputs to be \"on\" to work.",
+  "glitchDescription" : "Pleased. An \"AND\" switch. Requires all inputs to be \"on\" to work.",
 
-  "inventoryIcon" : "and.png:default.1",
+  "inventoryIcon" : "and_tiled.png",
   "orientations" : [
     {
       "image" : "and.png:<color>.off",
-
       "spaceScan" : 0.1,
       "anchors" : [ "background" ],
-
       "direction" : "right"
     }
   ],
