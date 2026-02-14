@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_energy_station",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "electronic" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Energy Station^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; energy technology workshop for crafting ^#60c0fc;energy tools^reset;, ^#60c0fc;wiring^reset;, and electronic devices.",
+  "longdescription" : "The Alta Energy Station is a tier 6 comprehensive energy systems workshop dedicated to electrical and electronic fabrication. This advanced station produces ^#60c0fc;energy tools^reset; (what altas call weapons - energy projectors, plasma emitters, ionic disruptors), ^#60c0fc;wiring components^reset; for circuit construction, electronic ^#60c0fc;augments^reset; for equipment enhancement, and various ^#60c0fc;small energy devices^reset; like scanners and tools. It features energy cell assembly equipment, circuit board fabrication systems, and ^#60c0fc;calotronics^reset; (crystal-based electronics) integration tools. The station represents alta mastery over electrical engineering and energy manipulation.",
+  "altaDescription" : "My energy workshop! This is where we build energy tools (the scientific term for weapons), wiring, augments, and all sorts of electronic devices~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta energy systems workshop. Their circuit design methodology differs interestingly from ours.",
+  "avianDescription" : "A workshop for energy devices and electric tools! Lightning harnessed for creation.",
+  "floranDescription" : "Makesss energy weaponsss and wiring thingsss. Floran likesss sharp better but energy good.",
+  "glitchDescription" : "Intrigued. Their terminology 'energy tools' for weapons reveals their scientific perspective.",
+  "humanDescription" : "Electronics workshop! Energy weapons, wiring, augments - all the electrical stuff.",
+  "hylotlDescription" : "A station honoring the flow of energy. The alta understand electricity as a natural force to guide.",
+  "novakidDescription" : "Energy device maker! All sorts of electrical gadgets, weapons, and wirin' components.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -52,7 +52,7 @@
         },
         {
           "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "alta_wiring" ] }
+          "data" : { "filter" : [ "alta_wired" ] }
         },
         {
           "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",

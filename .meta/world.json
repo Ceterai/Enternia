@@ -352,7 +352,7 @@
         "asta" : [ "stardust being", "little star" ],
         "astia" : [ "stardust orchid", "Tiana", "Tia" ],
         "bionica" : [ "bion creature", "bion-based creature" ],  // Altas are considered bionicas. See: /codex/alta/ct_bionics.codex, /codex/alta/ct_bion.codex
-        "sentia" : [ "nivera sentia" ],  // Big spider-alta-mix creature. See: /codex/alta/ct_sentia.codex
+        "sentia" : [ "nivera sentia", "warped sentia", "virma sentia" ],  // Big spider-alta-mix creature. See: /codex/alta/ct_sentia.codex
         "vyurm" : [ "worm", "tentacle", "appendage" ],
         "arigaran" : [ "aric agaran", "ionic agaran" ],  // Aric (ionic/electric) variant of agarans, created by alta research organization Mita-3V Ordis. Live on Mita-3 under Alliana protection. Enable arilings to inhabit aric forests.
         "ariling" : [ "aric being", "aric creature" ],  // Small beings inhabiting aric forests, enabled by arigaran presence. Hybrid construction: 'aric' (alkey: ionic) + '-ling' (English productive suffix for small beings). Wiki: https://ceterai.github.io/MyEnternia/Wiki/Ariling
@@ -459,6 +459,8 @@
         // ═══════════════════════════════════════════════════════════════════════════
         // ALTA SOCIETY & CIVILIZATION
         // ═══════════════════════════════════════════════════════════════════════════
+        // # Historical & Ancient Structures
+        "erenai" : [ "endlessness" ],  // Erenai Star Temple is an ancient stellar sanctuary - a historical temple from the Orchid Era, built by and for stardust beings.
         // # Facilities & Infrastructure
         "tek" : [ "lab", "laboratory" ],  // Refers to alta laboratory environments, research facilities, often underground in esetera spaces with bion equipment.
         "evia" : [ "ship", "spaceship" ],  // Refers to alta spaceship facilities and interiors, like motherships (Al'deron) and high-tier ship equipment.
@@ -695,7 +697,18 @@
             "Perizhad",  // Fashion company.
             "A.R.C.O.",  // No clear meaning behind each letter separately as of now (except that O is Ordis), check out "arco" in the "alkey" section.
             // Space ships, vehicles, etc
-            "Al'deron"  // Proper name of a mothership.
+            "Al'deron",  // Proper name of a mothership.
+            // Historical Terms & Locations
+            "Orchid Era",  // Historical period when the Starflower Order and Erenai Star Temple were created - the prime era of stardust beings.
+            "Erenai Star Temple",  // An ancient stellar sanctuary - a historical temple from the Orchid Era, built by and for stardust beings.
+            "Starflower Order",  // Secret group of twelve powerful fallen star-flowers from the Orchid Era.
+            "Alta-1",  // Planet in Alexia Galaxy, Una Sector, She System. First alta capital (Alliana) was built here, on continent Nirash.
+            "Iceterion",  // An alterash prime planet that became the birthplace and stronghold of kaiters after they escaped alta control.
+            "Mita-3",  // A controversial facility operated by Mita-3V Ordis where arigarans were created through genetic modification.
+            "Chronowonder",  // A fictional alterash prime planet where planetary calendar perfectly aligns with interplanetary alta calendar. Used as a dummy planet in calculations.
+            "Are'Stia",  // Full warped planet named by Orchid after herself and Are'Naash.
+            "Are'Naash",  // A special kind of warped infestation that took over Are'Stia, named so by Orchid after she discovered it.
+            "Sen'Tia"  // Orchid after becoming a warped sentia. See: sentia.
         ],
         "abbreviations" : [
             // Alta Systems & Organizations

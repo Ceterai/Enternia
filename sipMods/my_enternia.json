@@ -881,6 +881,16 @@
     },
     {
         "path": "/codex/alta/",
+        "fileName": "ct_orchid.codex",
+        "name": "ct_orchid-codex",
+        "shortdescription": "Little Star and The Starflower Order",
+        "category": "codex",
+        "icon": "ebook/stardust.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_sentia.codex",
         "name": "ct_sentia-codex",
         "shortdescription": "A Sentia's Crown",
@@ -937,16 +947,6 @@
         "category": "codex",
         "icon": "datamass/sona.png",
         "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/codex/alta/",
-        "fileName": "ct_tiana.codex",
-        "name": "ct_tiana-codex",
-        "shortdescription": "Little Star and The Starflower Order",
-        "category": "codex",
-        "icon": "ebook/stardust.png",
-        "rarity": "legendary",
         "race": "alta"
     },
     {
@@ -1406,6 +1406,16 @@
     },
     {
         "path": "/items/active/alta/loot/events/",
+        "fileName": "ava_day.activeitem",
+        "name": "ct_ava_day_gift",
+        "shortdescription": "Ava Day Gift",
+        "category": "mysteriousReward",
+        "icon": "ava_day.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/loot/events/",
         "fileName": "sonaveil.activeitem",
         "name": "ct_sonaveil_gift",
         "shortdescription": "Sonaveil Gift",
@@ -1648,7 +1658,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "capital.activeitem",
         "name": "ct_alta_capital_android",
-        "shortdescription": "Imperial Android",
+        "shortdescription": "Imperial Android Nade",
         "category": "throwableItem",
         "icon": "capital.png",
         "rarity": "legendary",
@@ -1668,7 +1678,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "combat.activeitem",
         "name": "ct_combat_android",
-        "shortdescription": "Combat Android ^#2080f0;^reset;",
+        "shortdescription": "Combat Android Nade ^#2080f0;^reset;",
         "category": "throwableItem",
         "icon": "combat.png",
         "rarity": "rare",
@@ -1678,7 +1688,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "dreamer.activeitem",
         "name": "ct_dreamer_android",
-        "shortdescription": "Dreamer Android ^#8020f0;^reset;",
+        "shortdescription": "Dreamer Android Nade ^#8020f0;^reset;",
         "category": "throwableItem",
         "icon": "dreamer.png",
         "rarity": "legendary",
@@ -1688,7 +1698,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "eds.activeitem",
         "name": "ct_eds_android",
-        "shortdescription": "^#f02020;EDS^reset; Android ^#2080f0;^reset;",
+        "shortdescription": "^#f02020;EDS^reset; Android Nade^#2080f0;^reset;",
         "category": "throwableItem",
         "icon": "eds.png",
         "rarity": "rare",
@@ -1698,7 +1708,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "elite.activeitem",
         "name": "ct_elite_android",
-        "shortdescription": "^#20f080;Elite^reset; Android ^#8020f0;^reset;",
+        "shortdescription": "^#20f080;Elite^reset; Android Nade^#8020f0;^reset;",
         "category": "throwableItem",
         "icon": "elite.png",
         "rarity": "legendary",
@@ -1708,7 +1718,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "lab.activeitem",
         "name": "ct_alta_lab_android",
-        "shortdescription": "Alta Lab Android",
+        "shortdescription": "Alta Lab Android Nade",
         "category": "throwableItem",
         "icon": "lab.png",
         "rarity": "rare",
@@ -1718,7 +1728,7 @@
         "path": "/items/active/alta/spawners/androids/",
         "fileName": "security.activeitem",
         "name": "ct_alta_security_android",
-        "shortdescription": "Security Android",
+        "shortdescription": "Security Android Nade",
         "category": "throwableItem",
         "icon": "security.png",
         "rarity": "uncommon",
@@ -6355,6 +6365,26 @@
         "race": "alta"
     },
     {
+        "path": "/items/generic/food/events/ava_day/",
+        "fileName": "ct_ava_candy.consumable",
+        "name": "ct_ava_candy",
+        "shortdescription": "Friendship Candy",
+        "category": "preparedFood",
+        "icon": "ct_ava_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/ava_day/",
+        "fileName": "ct_ava_cookie.consumable",
+        "name": "ct_ava_cookie",
+        "shortdescription": "Ava Cookie",
+        "category": "preparedFood",
+        "icon": "ct_ava_cookie.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/items/generic/food/events/ceternity/",
         "fileName": "ct_ceternity_candy.consumable",
         "name": "ct_ceternity_candy",
@@ -7221,6 +7251,16 @@
         "category": "shield",
         "icon": "ct_arco_shielder.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/other/",
+        "fileName": "ct_ava_day.consumable",
+        "name": "ct_ava_day-codex",
+        "shortdescription": "Happy Ava Day! ^#f080c0;«^reset;",
+        "category": "codex",
+        "icon": "/codex/alta/paper/enchanted.png",
+        "rarity": "essential",
         "race": "alta"
     },
     {
@@ -8500,6 +8540,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/crafting/kitchenmaker/",
+        "fileName": "ct_alta_kitchenmaker.object",
+        "name": "ct_alta_kitchenmaker",
+        "shortdescription": "^orange;Alta Kitchenmaker^reset;",
+        "category": "crafting",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/crafting/resque_station/",
         "fileName": "ct_alta_resque_station.object",
         "name": "ct_alta_resque_station",
@@ -9658,6 +9708,46 @@
         "shortdescription": "Iora Gyera Emblem",
         "category": "decorative",
         "icon": "body.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ava_day/",
+        "fileName": "ct_alta_love_poster.object",
+        "name": "ct_alta_love_poster",
+        "shortdescription": "Alta Love Poster",
+        "category": "decorative",
+        "icon": "ct_alta_love_poster.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ava_day/",
+        "fileName": "ct_ava_day_giftbox1.object",
+        "name": "ct_ava_day_giftbox1",
+        "shortdescription": "Ava Day Gift Box",
+        "category": "decorative",
+        "icon": "ct_ava_day_giftbox1.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ava_day/",
+        "fileName": "ct_ava_day_giftbox2.object",
+        "name": "ct_ava_day_giftbox2",
+        "shortdescription": "Ava Day Gift Package",
+        "category": "decorative",
+        "icon": "ct_ava_day_giftbox2.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/special/events/ava_day/",
+        "fileName": "ct_ava_day_poster.object",
+        "name": "ct_ava_day_poster",
+        "shortdescription": "Ava Day Poster",
+        "category": "decorative",
+        "icon": "ct_ava_day_poster.png",
         "rarity": "common",
         "race": "alta"
     },
@@ -14090,7 +14180,7 @@
         "path": "/objects/farmables/alta/ground/isoslime/boosted/",
         "fileName": "ct_isoslime_boosted.object",
         "name": "ct_isoslime_boosted",
-        "shortdescription": "Isoslime Sapling ^#2080f0;^reset;",
+        "shortdescription": "Boosted Isoslime Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"
@@ -14486,7 +14576,7 @@
         "path": "/objects/farmables/alta/ground/turanta/boosted/",
         "fileName": "ct_turanta_boosted.object",
         "name": "ct_turanta_boosted",
-        "shortdescription": "Turanta Sapling ^#2080f0;^reset;",
+        "shortdescription": "Boosted Turanta Sapling ^#2080f0;^reset;",
         "category": "seed",
         "icon": "icon.png",
         "rarity": "rare"

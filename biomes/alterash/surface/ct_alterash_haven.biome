@@ -6,6 +6,7 @@
   "mainBlock" : "moonstone",
   "subBlocks" : [ "cloudblock", "cloudblock" ],
   "ores" : "prismore",
+  "wiki" : { "aliases" : { "Haven" : { }, "Flower Haven" : { } } },
 
   "hueShiftOptions" : [20],
   "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
@@ -29,6 +30,8 @@
   },
 
   "surfacePlaceables" : {
+    "friendlyName" : "Haven Surface",
+    "description" : "The surface of haven is covered in flowery grass and various colourful flowers. There are frequent big cloud patches in the soil made of thick walkable clouds. The air here has a slight toxic tinge to it, but it's still safe for most travelers. Various peaceful creatures can be found here, enjoying the serene environment.\n\nIn the sky, you can see floating dense clouds overgrown with flowery. Can't reach them? Search for tall stalks rising from the ground and climb them!",
     "grassMod" : [ "flowerygrass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.9,
     "items" : [
@@ -103,6 +106,8 @@
   },
 
   "undergroundPlaceables" : {
+    "friendlyName" : "Haven Subsurface",
+    "description" : "Since haven flora is more toxic than the non-toxic alterash flora, that level of toxicity, though low, needs time and space to dissolve to transition into regular soil or flora. Because of this, haven flora can be found underground in small quantities, but not as dense as on the surface. Rare underground pools of light poison can  be found here, in places where the toxins have concentrated enough to be hazardous to regular alterash ionized nature. The grass is still quite thick here, and the flowers are just as vibrant as they are on the haven surface.",
     "grassMod" : [ "thickgrass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [

@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 3 },
+    { "item" : "fabric", "count" : 2 },
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "pinkdye", "count" : 1 },
+    { "item" : "reddye", "count" : 1 },
+    { "item" : "whitedye", "count" : 1 },
+    { "item" : "ct_ava_candy", "count" : 4 }
+  ],
+  "output" : { "item" : "ct_ava_day_gift", "count" : 1 },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta", "alta_constructor2", "alta_special", "objects", "decorative", "all", "mod", "alta_festive", "ava_day" ]
+}

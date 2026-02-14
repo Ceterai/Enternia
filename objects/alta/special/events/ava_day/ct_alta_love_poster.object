@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_alta_love_poster",
+  "colonyTags" : [ "valentines" ], "itemTags" : [ "holiday", "poster" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 200, "race" : "alta",
+
+  "shortdescription" : "Alta Love Poster",
+  "description" : "A cheerful poster celebrating ^#2080f0;Ava Day^reset; - the alta ^#b0e0fc;friendship^reset; holiday where friends exchange gifts and appreciation!",
+  "longdescription" : "This poster features warm, friendly designs with hearts and stars, promoting the spirit of connection and appreciation. Alta Love is when altas celebrate all types of bonds - between friends, colleagues, caretakers, and loved ones. It's a day to show gratitude for the people who make life meaningful.",
+  "altaDescription" : "Happy Ava Day! Time to appreciate all my wonderful friends~",
+
+  "apexDescription" : "A poster promoting an alta friendship celebration.",
+  "avianDescription" : "Warm and inviting, celebrating bonds between people.",
+  "floranDescription" : "Posster about friendsss! Floran likesss!",
+  "glitchDescription" : "Pleased. A holiday dedicated to appreciation and connection.",
+  "humanDescription" : "Like Valentine's Day, but for all friendships! Sweet.",
+  "hylotlDescription" : "A celebration of the bonds that unite us.",
+  "novakidDescription" : "Friendship day poster! That's mighty wholesome.",
+
+  "inventoryIcon" : "ct_alta_love_poster.png",
+  "orientations" : [
+    { "dualImage" : "ct_alta_love_poster.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -1,0 +1,41 @@
+{
+  "type" : "ct_ceterai_helper",
+  "baseType" : "ct_alta_agent",
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "ct_alta_respiratory_mask_colorful", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "chest" : [
+              { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "legs" : [
+              { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : 11 } },
+              { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : 11 } }
+            ],
+            "back" : [
+              { "name" : "ct_alta_security_pack", "parameters" : { "preset" : "lab", "colorIndex" : 11 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "merchant" : { "numItems" : 32, "categories" : { "default" : [
+      "debug", "debug2"
+      // "shields", "tools", "armor",
+      // "shields_leveled", "tools_leveled", "armor_leveled",
+      // "ranged_random", "melee_random"
+    ] } },
+    "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:tout" } }
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : { "baseValue" : 1.0 },
+      "healthRegen" : { "baseValue" : 0.00 }
+    }
+  }
+}

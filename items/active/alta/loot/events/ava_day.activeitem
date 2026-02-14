@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_ava_day_gift",
+  "shortdescription" : "Ava Day Gift",
+  "description" : "A box full of chocolates!",
+  "longdescription" : "Usually gifted to loved ones, this box of chocolates is a symbol of affection and care. The sweet aroma of the chocolates inside is sure to bring a smile to anyone's face. Whether it's for a special occasion or just to show someone you care, this Ava Day Gift is the perfect way to express your feelings.",
+  "altaDescription" : "I like the ones with the tonna strips in the middle.",
+
+  "level" : 3, "race" : "alta",
+  "itemTags" : [ "loot", "ava_day", "holiday" ],
+  "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item",
+
+  "inventoryIcon" : "ava_day.png",
+  "treasure" : { "pool" : "ct_ava_day_gift" },
+  "builder" : "/items/buildscripts/alta/loot.lua",
+
+  "wiki" : { "aliases" : { "Ava Day Gift" : { }, "Ava Day Loot" : { } } }, "alkey" : "Avadai Pad"
+}

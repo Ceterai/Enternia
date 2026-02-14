@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 2 },
+    { "item" : "ct_stardust", "count" : 16 },
+    { "item" : "pinkdye", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_ava_day-codex", "count" : 1 },
+  "duration" : 5.0,
+  "groups" : [ "my_enternia", "alta", "alta_festive", "alta_codex", "codex", "other", "card", "ava_day", "all", "mod" ]
+}

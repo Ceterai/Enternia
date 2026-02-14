@@ -1,13 +1,13 @@
 {
   "objectName" : "ct_alta_tailor",
-  "colonyTags" : [ "crafting" ],
+  "colonyTags" : [ "crafting", "commerce" ],
   "category" : "crafting",
   "level" : 3, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Tailor^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; textile crafting station for sewing ^#60c0fc;clothing^reset;, ^#60c0fc;dyes^reset;, and soft decorations.",
+  "longdescription" : "The Alta Tailor is a tier 3 crafting station designed for textile work in the ^#b0e0fc;Arcolar^reset; fashion style. It features automated safety systems that protect operators from needle injuries while enabling precise sewing of ^#60c0fc;silk^reset;, ^#60c0fc;fabric^reset;, and ^#60c0fc;bion compounds^reset;. Beyond clothing, the station can produce dyes from ^#20f080;alterash^reset; plants, decorative wall hangings, and even soft plushies. ^#b0e0fc;Perizhad^reset; fashion company recommends this model for both professional tailors and hobbyists.",
+  "altaDescription" : "A sewing station! I can make all sorts of cute clothes, aya dyes, and even plushies here~ The safety features are really nice too!",
 
   "apexDescription" : "Alta sewing technology. The automated safety systems are impressively designed.",
   "avianDescription" : "A sewing machine that is extra safe!",
@@ -26,6 +26,7 @@
   "interactData" : {
     "config" : "/interface/alta/crafting/ui_tabs.config",
     "filter" : [ "alta_loot", "alta_ancient", "alta_clothing", "alta_tailor" ],
+    "requiresBlueprint" : false,
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA TAILOR", "subtitle" : "^noshadow;^#001054;Sewing & Textiles" },
       "tab1" : { "file" : "/items/generic/crafting/silk.png" },
@@ -34,16 +35,16 @@
       "tab4" : { "file" : "/items/armors/alta/clothing/light_sweater/icon.png" },
       "tab5" : { "file" : "/items/armors/alta/clothing/light_skirt/icon.png" },
       "tab6" : { "file" : "/items/armors/alta/other/backpack/icon.png" },
-      "tab7" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab7" : { "file" : "/objects/alta/basic/sweater_stack/icon.png" },
       "tab8" : { "file" : "/objects/alta/crafting/toymaker/tab_plushies.png" },
       "categories" : { "buttons" : [
         {
           "position" : [6,  257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "cloth" ] }
+          "data" : { "filter" : [ "cloth" ] }  // cloth materials: bion, silk, cotton, fabric, etc.
         },
         {
           "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "dyes" ] }
+          "data" : { "filter" : [ "dyes", "tailor_tools" ] }
         },
         {
           "position" : [38, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",

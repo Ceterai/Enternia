@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ct_ayaka_wood", "count" : 4 },
+    { "item" : "pinkdye", "count" : 1 },
+    { "item" : "string", "count" : 1 },
+    { "item" : "ct_gheatsyn_shard", "count" : 2 }
+  ],
+  "duration" : 4,
+  "output" : { "item" : "ct_estria_bow", "count" : 1 },
+  "groups" : [ "my_enternia", "alta_max", "misc_loot", "weapon", "weapons", "ranged", "alta_toys", "toy_weapons", "alta_festive", "ava_day", "all", "mod" ]
+}

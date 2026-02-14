@@ -1,0 +1,14 @@
+{
+  "itemName" : "ct_ava_cookie",
+  "shortdescription" : "Ava Cookie",
+  "description" : "A heart-shaped cookie baked for ^#2080f0;Ava Day^reset; celebrations!",
+  "longdescription" : "These cookies are traditionally made and shared during Ava Day festivities. Heart-shaped and decorated with colorful icing, they represent the warmth and affection altas feel for their friends. Baking these cookies together is a popular Ava Day activity, creating memories while preparing treats to share.",
+  "altaDescription" : "Baked with friendship and a little bit of gheatsyn for that special sparkle~",
+
+  "level" : 3, "race" : "alta", "category" : "preparedFood",
+  "itemTags" : [ "ava_day", "dessert", "alta_cuisine", "cookies", "holiday" ],
+  "inventoryIcon" : "ct_ava_cookie.png",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "goodEffects" : [ "maxenergyscalingboostfood", "glow" ], "foodValue" : 12, "rotToEffectRatio" : 2.10 }
+}

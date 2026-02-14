@@ -15,5 +15,8 @@
     "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_omni_eco_pod" ]
+  },
+  "wiki" : {
+    "aliases" : { "Omniponics" : { } }
   }
 }

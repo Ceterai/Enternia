@@ -12,7 +12,7 @@
   },
   "wiki" : {
     "title" : "Aya Pit",
-    "description" : "A small pit full of fallen ayas from nearby ayaka trees."
+    "description" : "A small pit full of fallen ayas from nearby ayaka trees. The air smells faintly of ionic sap."
   },
   "parts" : [
     { "name" : "pit1",   "def" : [ "tmx", [ "pit1.json" ] ],   "rules" : [ [ "maxSpawnCount", [1] ] ] }

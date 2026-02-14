@@ -219,7 +219,8 @@
         {"weight" : 0.01, "item" : "ct_alta_energy_mask"},  // ct_specops_visor
         // Treasure,          total: 0.04
         {"weight" : 0.02, "item" : "ct_spacedrifter_shield"},
-        {"weight" : 0.02, "item" : "ct_plasmora"},
+        {"weight" : 0.01, "item" : "ct_plasmora"},
+        {"weight" : 0.01, "item" : [ "ct_alta_impulse_rifle", 1, { "level" : 6 } ] },
         // Miscelanious,      total: 0.17
         {"weight" : 0.03, "item" : "ct_elite-codex"},
         {"weight" : 0.03, "item" : "ct_ceterai-codex"},

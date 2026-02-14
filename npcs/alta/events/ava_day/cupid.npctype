@@ -1,0 +1,30 @@
+{
+  "type" : "ct_alta_cupid",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [  // Full cupid's outfit - Heart Wreath, Sash, Pants, and Wings!
+        {
+          "head" : [ 
+            { "name" : "cupidshead", "parameters" : { "colorIndex" : [ 4, 8 ] } }
+          ],
+          "chest" : [ 
+            { "name" : "cupidschest" }
+          ],
+          "legs" : [
+            { "name" : "cupidslegs" }
+          ],
+          "back" : [
+            { "name" : "cupidsback" }
+          ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "dialogMode" : "random",
+    "dialog" : {
+      "converse" : "/dialog/alta.config:ava_day"
+    }
+  }
+}

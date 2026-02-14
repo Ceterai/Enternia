@@ -24,7 +24,9 @@
   },
   "scriptConfig" : {
     "merchant" : { "numItems" : 16, "categories" : { "default" : [
-      "aid", "shop", "thrown", "robotics", "augments", "collars", "sets", "shields", "tools", "armor", "decor", "randomguns", "randomswords", "codex", "rare"
+      "aid", "shop", "thrown", "robotics", "augments", "collars", "sets",
+      "shields", "tools", "armor", "shields_leveled", "tools_leveled", "armor_leveled", "ranged_random", "melee_random",
+      "decor", "codex", "rare"
     ] } },
     "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:tout" } }
   }

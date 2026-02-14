@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_bestiarium",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "nature" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Bestiarium^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; xenobiology station for capturing creatures, crafting ^#60c0fc;collars^reset;, and preserving monster trophies.",
+  "longdescription" : "The Alta Bestiarium is a tier 6 comprehensive xenobiology workshop dedicated to the study and care of alien creatures. This station produces creature capture tools like ^#60c0fc;relocators^reset; and containment pods, crafts advanced ^#60c0fc;pet collars^reset; with AI mindframes, creates monster spawning equipment for research purposes, and prepares decorative ^#60c0fc;trophies^reset; from defeated creatures. It represents alta dedication to understanding and preserving alien wildlife - whether as companions, research subjects, or memorable specimens. Essential for any alta xenobiologist or monster hunter.",
+  "altaDescription" : "My creature care station! I can make tools for catching monsters, collars for keeping pets, and even spawn eggs for research. Plus trophy displays for memorable encounters!~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta xenobiology and creature containment technology. Sophisticated capture and care systems.",
+  "avianDescription" : "A workshop for befriending and studying wild creatures! How wonderful to see such respect for life.",
+  "floranDescription" : "Catchesss beastsss, makesss them friendsss. Floran likesss thiss! Also makesss trophiesss from huntss.",
+  "glitchDescription" : "Impressed. This station balances creature preservation, research, and companionship admirably.",
+  "humanDescription" : "Monster catching and pet care station! Capture pods, collars, spawn eggs, and trophy cases.",
+  "hylotlDescription" : "A harmonious approach to xenobiology. The alta seek to understand creatures, not merely exploit them.",
+  "novakidDescription" : "Critter catchin' station! For makin' wild beasties into friendly companions or study subjects.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

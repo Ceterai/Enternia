@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_stellarium",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "science" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Stellarium^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; cosmic research station for working with ^#60c0fc;stardust^reset;, stellar components, and void phenomena.",
+  "longdescription" : "The Alta Stellarium is a tier 6 advanced stellar research facility dedicated to studying and manipulating cosmic energies. This specialized station works with ^#60c0fc;stardust^reset; - the primordial energy that created altas themselves - as well as ^#2080f0;ceternia^reset;, ^#2080f0;alternia^reset;, and ^#60c0fc;enternia^reset; energies. It produces stellar analysis tools, processes cosmic materials into usable components, and can even work with dangerous ^shadow^void^reset; phenomena. The Stellarium represents the pinnacle of alta understanding of the universe's fundamental energies, including research into ^#60c0fc;poi^reset; elementals and other stellar beings.",
+  "altaDescription" : "The stellar research station! This is where we work with stardust itself - the energy our creators used to make us. It's both humbling and amazing~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta cosmic energy research. Their understanding of stellar phenomena is beyond our current science.",
+  "avianDescription" : "A station for studying the stars and cosmic energies! The heavens' mysteries unveiled.",
+  "floranDescription" : "Studiesss star magic. Very bright, very powerful. Floran carefulsss around thisss.",
+  "glitchDescription" : "Awed. This station works with fundamental cosmic energies. The scope is staggering.",
+  "humanDescription" : "Cosmic energy lab! Stardust, void stuff, stellar components - heavy sci-fi territory here.",
+  "hylotlDescription" : "A profound station dedicated to understanding the cosmos. The alta seek to comprehend their own origins.",
+  "novakidDescription" : "I hear this station works with stardust and cosmic stuff - makes sense why they'd be interested in novakids!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -24,7 +24,8 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_clothing" ],
+    "config" : "/interface/alta/crafting/ui_tabs.config",
+    "filter" : [ "alta_loot", "alta_ancient", "alta_stellarium" ],
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA STELLARIUM", "subtitle" : "^noshadow;^#001054;Stellar Tools & Components" },
       "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },

@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_ava_day_giftbox1",
+  "colonyTags" : [ "ava_day", "pretty" ], "itemTags" : [ "holiday" ],
+  "category" : "decorative",
+  "level" : 2, "price" : 150, "race" : "alta",
+
+  "shortdescription" : "Ava Day Gift Box",
+  "description" : "A beautifully wrapped gift box for ^#2080f0;Ava Day^reset;. The bow sparkles with crystalline threads!",
+  "longdescription" : "Gift boxes like this are exchanged during Ava Day celebrations. Traditionally, they contain small tokens of appreciation - chocolates, handmade items, datamasses with messages, or small crystals. The wrapping itself is considered part of the gift, with friends often competing to create the most beautiful presentations.",
+  "altaDescription" : "I love the way the ribbon catches the light~ I hope whoever receives this feels appreciated!",
+
+  "apexDescription" : "A decorative gift container. Wrapped neatly.",
+  "avianDescription" : "A lovely wrapped present with a shimmering bow.",
+  "floranDescription" : "Pretty box! Floran wondersss what inssside!",
+  "glitchDescription" : "Curious. A ceremonial gift container for friendship exchange.",
+  "humanDescription" : "A present! Wonder what's inside?",
+  "hylotlDescription" : "Elegant packaging befitting a thoughtful gift.",
+  "novakidDescription" : "That's a mighty pretty wrapped present!",
+
+  "inventoryIcon" : "ct_ava_day_giftbox1.png",
+  "orientations" : [
+    { "dualImage" : "ct_ava_day_giftbox1.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

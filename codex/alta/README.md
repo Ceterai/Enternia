@@ -109,7 +109,7 @@ List item (25 chars)      // 1 line
     "tooltipKind" : "ct_alta_item_long",  // The kind of tooltip to show when hovering over the item in the inventory.
     "itemTags" : [ "data_source", "ebook" ],  // Tags for the item, used for filtering and categorization.
     "learnBlueprintsOnPickup" : [ "ct_boost_fertilizer", "ct_lush_grass_seeds", "ct_ayaka_young_tree" ],  // Blueprints (recipes) to learn when the item is picked up, allowing the player to craft related items.
-    "builder" : "/items/buildscripts/alta/codex.lua"  // The script used to build the item, allowing for custom item creation logic.
+    "builder" : "/items/buildscripts/alta/codex.lua"  // The script used to build the item, allowing for custom item creation logic. See /items/buildscripts/alta/README.md for more information.
   }
 }
 ```

@@ -1,8 +1,13 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "crystal", "count" : 2 },
+    { "item" : "fabric", "count" : 2 },
+    { "item" : "cotton", "count" : 2 },
+    { "item" : "cottonwool", "count" : 4 },
+    { "item" : "silk", "count" : 20 },
+    { "item" : "bluedye", "count" : 1 }
   ],
   "output" : { "item" : "ct_legs_mimic", "count" : 1, "parameters" : { "preset" : "calin_dress" } },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "alta_basic", "clothing", "legs", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "alta_basic", "clothing", "legs", "alta_tailor", "all", "mod" ]
 }

@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_aquarium",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "nature", "science" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Aquarium^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; aquatic research station for studying marine life, fishing, and cultivating ^#60c0fc;water crops^reset;.",
+  "longdescription" : "The Alta Aquarium is a tier 6 comprehensive aquatic biology station dedicated to studying and preserving aquatic lifeforms. This station produces fishing equipment including ^#60c0fc;rods^reset;, ^#60c0fc;reels^reset;, and ^#60c0fc;lures^reset;, creates spawn eggs for marine creatures like ^#60c0fc;jellies^reset; and ^#60c0fc;squids^reset;, and provides tools for cultivating aquatic plants. It features specialized equipment for malacology (study of mollusks), jellyology (study of jellyfish), and general marine biology. The station also crafts aquarium display containers for showcasing collected specimens. Essential for any alta interested in underwater exploration and aquatic ecosystems.",
+  "altaDescription" : "My aquatic research station! I can make fishing gear, grow water crops, and create spawn eggs for all sorts of cute sea creatures like jellies and squids~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta aquatic research technology. Their understanding of marine ecosystems is comprehensive.",
+  "avianDescription" : "A workshop for studying underwater life! The mysteries beneath the waves revealed.",
+  "floranDescription" : "Studiesss water creaturesss. Floran likesss land better but water life isss interessting.",
+  "glitchDescription" : "Fascinated. This station demonstrates alta dedication to understanding aquatic biodiversity.",
+  "humanDescription" : "Aquatic biology station! Fishing gear, water plants, jellyfish eggs - everything ocean-related.",
+  "hylotlDescription" : "A beautifully designed station honoring aquatic life. The alta show great respect for water ecosystems.",
+  "novakidDescription" : "Underwater critter station! Fishin' rods, sea creature eggs, and water plants galore!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

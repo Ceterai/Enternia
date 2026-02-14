@@ -70,7 +70,7 @@ end
 
 function getDirectivesList(palette, option)
   local dirs = {}
-  for k, v in pairs(palette[option + 1] or {}) do table.insert(dirs, string.format("?replace=%s=%s", k:gsub('#', ''), v:gsub('#', ''))) end
+  for k, v in pairs(palette[rand(option) + 1] or {}) do table.insert(dirs, string.format("?replace=%s=%s", k:gsub('#', ''), v:gsub('#', ''))) end
   return dirs
 end
 

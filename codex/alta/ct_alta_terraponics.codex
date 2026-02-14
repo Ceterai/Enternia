@@ -17,5 +17,8 @@
     "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_alta_eco_pod", "ct_thick_grass_seeds", "ct_gyera_sprinkler", "ct_ruka_seed" ]
+  },
+  "wiki" : {
+    "aliases" : { "Terraponics" : { } }
   }
 }

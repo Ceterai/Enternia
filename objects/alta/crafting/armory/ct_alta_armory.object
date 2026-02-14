@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_armory",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "combat" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Armory^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; military crafting station for producing ^#60c0fc;armor^reset;, ^#60c0fc;shields^reset;, and defensive equipment.",
+  "longdescription" : "The Alta Armory is a tier 6 military equipment fabrication station specialized in defensive technology. This fortress-grade workshop produces ^#60c0fc;combat armor sets^reset; with integrated energy shields, ^#60c0fc;EPP modules^reset; with environmental protection, defensive ^#60c0fc;augments^reset; for enhanced survivability, and various ^#60c0fc;shield generators^reset; and protective devices. The station features armor plating forges, shield field calibration equipment, and ^#60c0fc;bion compound^reset; integration systems. While altas prefer peaceful solutions, the Armory ensures they're well-protected when danger is unavoidable.",
+  "altaDescription" : "The defense equipment station! We may prefer peace, but when exploration gets dangerous, proper armor and shields are essential for survival~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta defensive technology workshop. Their energy shield integration is highly sophisticated.",
+  "avianDescription" : "A forge for protective armor! Even peaceful explorers need good defense sometimes.",
+  "floranDescription" : "Makesss armor and shieldsss. Floran likesss offenssse more but defenssse good too.",
+  "glitchDescription" : "Approving. This station demonstrates that altas value protection over aggression.",
+  "humanDescription" : "Armor workshop! Shields, EPPs, defensive augments - full protection suite.",
+  "hylotlDescription" : "A station dedicated to defense rather than offense. The alta philosophy of protection resonates deeply.",
+  "novakidDescription" : "Armor makin' station! Shields and protective gear for when things get rough out there.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -34,15 +34,15 @@
       "categories" : { "buttons" : [
         {
           "position" : [175, 37], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "energy" ] }
+          "data" : { "filter" : [ "armor_sets" ] }
         },
         {
           "position" : [18, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "ai" ] }
+          "data" : { "filter" : [ "epps" ] }
         },
         {
           "position" : [45, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "head_devices", "back_devices" ] }
+          "data" : { "filter" : [ "shields" ] }
         },
         {
           "position" : [72, 221], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",

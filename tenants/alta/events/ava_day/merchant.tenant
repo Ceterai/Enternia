@@ -1,0 +1,31 @@
+{
+  "name" : "ct_alta_love_merchant_tenant",
+  "priority" : 14,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 4,
+    "ava_day" : 16,
+    "storage" : 18,
+    "commerce" : 12
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_love_merchant",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_ava_day_gift" },
+
+  "wiki" : {
+    "title" : "Alta Love Merchant",
+    "description" : "This alta is celebrating Ava Day, and she's selling all kinds of romantic gifts and friendship items! Perfect for finding that special something for someone you care about~",
+    "category" : "holiday", "class" : "merchant",
+    "images" : {
+      "primary" : []
+    }
+  }
+}

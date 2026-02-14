@@ -1,8 +1,10 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "cottonwool", "count" : 2 },
+    { "item" : "silk", "count" : 20 },
+    { "item" : "bluedye", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_researcher_coat", "count" : 1, "parameters" : { "preset" : "ceterai" } },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "ceterai", "clothing", "body", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "ceterai", "clothing", "body", "alta_tailor", "all", "mod" ]
 }

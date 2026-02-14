@@ -1,0 +1,26 @@
+{
+  "type" : "ct_alta_love_merchant",
+  "baseType" : "ct_alta_merchant",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ { "name" : "ct_head_mimic", "parameters" : { "preset" : "headband", "colorIndex" : [ 10 ] } } ],
+          "chest" : [ { "name" : "ct_alta_service_jacket", "parameters" : { "colorIndex" : [ 10 ], "preset" : "light" } } ],
+          "legs" : [
+            { "name" : "ct_alta_service_pants", "parameters" : { "colorIndex" : [ 10 ], "preset" : "light" } },
+            { "name" : "ct_alta_service_skirt", "parameters" : { "colorIndex" : [ 10 ], "preset" : "light" } }
+          ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "merchant" : { "numItems" : 8, "categories" : { "default" : [ "ava_day" ] } },
+    "dialog" : {
+      "merchant" : { "tout" : "/dialog/alta.config:tout" },
+      "converse" : "/dialog/alta.config:ava_day"
+    }
+  }
+}

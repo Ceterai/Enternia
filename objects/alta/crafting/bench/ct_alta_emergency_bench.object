@@ -1,6 +1,6 @@
 {
   "objectName" : "ct_alta_emergency_bench",
-  "colonyTags" : [ "crafting", "gheatsyn" ],
+  // "colonyTags" : [ "crafting", "gheatsyn" ],
   "category" : "crafting",
   "price" : 400,
   "race" : "alta",
@@ -14,16 +14,16 @@
   "placementImagePosition" : [0, 0],
 
   "shortdescription" : "^orange;Alta Emergency Bench^reset;",
-  "description" : "Used to craft basic alta armor and upgrade to a beacon.",
-  "altaDescription" : "This station allows to upgrade equipment using gheatsyn shards.",
+  "description" : "Used to craft basic ^#b0e0fc;alta^reset; emergency equipment when stranded. Upgradeable to an emergency station and beacon.",
+  "altaDescription" : "This basic bench saved my life when I was stranded! Just needs a few crystals and some bion to get started~",
 
-  "apexDescription" : "A workbench, presumably for general works with titanium and crystal matters.",
-  "avianDescription" : "A crafting bench made of titanium.",
-  "floranDescription" : "Floran putsss a crystal in - getsss a shiny out.",
-  "glitchDescription" : "Impressed. Simple yet functional, contains unusual instruments.",
-  "humanDescription" : "A crafting table out of a titanium. Do you need to have another workbench just to create this one?",
-  "hylotlDescription" : "The simplicity of its design compliments the simplicity of its functionality.",
-  "novakidDescription" : "Basic lookin' bench.",
+  "apexDescription" : "A simple alta emergency crafting bench. Basic but functional survival equipment.",
+  "avianDescription" : "An emergency workshop for stranded altas! Even in crisis, they maintain their craftsmanship.",
+  "floranDescription" : "Sssimple bench for ssstranded altass. Makesss survival thingsss.",
+  "glitchDescription" : "Resourceful. This basic station demonstrates alta ability to adapt in emergency situations.",
+  "humanDescription" : "Emergency crafting bench. Looks like altas have a survival protocol for being stranded.",
+  "hylotlDescription" : "A humble station born of necessity. Even stripped of resources, altas create tools to endure.",
+  "novakidDescription" : "Emergency bench for when you're stuck somewhere. Smart to have a plan for that!",
 
   "breakDropOptions" : [], "learnBlueprintsOnPickup" : [], "startingUpgradeStage" : 1, "maxUpgradeStage" : 3,
 
@@ -36,13 +36,13 @@
       "itemSpawnParameters" : {
         "inventoryIcon" : "icon1.png", "placementImage" : "body1.png", "price" : 400,
         "shortdescription" : "^orange;Emergency Alta Bench^white;",
-        "description" : "Used for crafting ^#b0e0fc;alta^reset; technology and resources."
+        "description" : "A tier 0 emergency bench for crafting basic survival equipment when stranded on unknown planets."
       },
       "interactData" : {
         "config" : "/objects/alta/crafting/upgrade_station/default.config",
         "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Alta Research Station",
-            "subtitle" : " ^#b9b5b2;Simple crafting works to help a stranded alta!",
+            "title" : " Emergency Alta Bench",
+            "subtitle" : " ^#b9b5b2;Basic survival crafting for stranded altas",
             "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon1.png" }
         } },
         "filter" : [ "tier0" ], "initialRecipeUnlocks" : [],
@@ -60,14 +60,14 @@
       "itemSpawnParameters" : {
         "inventoryIcon" : "icon2.png", "placementImage" : "body2.png", "price" : 600,
         "shortdescription" : "^orange;Emergency Alta Station^white;",
-        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
+        "description" : "A tier 1 emergency station with expanded crafting capabilities and ^#20f080;gheatsyn^reset; upgrade recipes."
       },
 
       "interactData" : {
         "config" : "/objects/alta/crafting/upgrade_station/default.config",
         "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Ultimate Alta Station",
-            "subtitle" : " ^#b9b5b2;Gheatsyn Upgrades",
+            "title" : " Emergency Alta Station",
+            "subtitle" : " ^#b9b5b2;Enhanced survival gear",
             "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon2.png" }
         } },
         "filter" : [ "tier0", "tier1" ], "initialRecipeUnlocks" : []
@@ -81,14 +81,14 @@
       "itemSpawnParameters" : {
         "inventoryIcon" : "icon2.png", "placementImage" : "body2.png", "price" : 800,
         "shortdescription" : "^orange;Emergency Alta Beacon^white;",
-        "description" : "Used for crafting all ^#b0e0fc;alta^reset; technology, resources and materials."
+        "description" : "A tier 2 emergency beacon with full crafting suite and distress signal broadcasting capabilities."
       },
 
       "interactData" : {
         "config" : "/objects/alta/crafting/upgrade_station/default.config",
         "paneLayoutOverride" : { "windowtitle" : {
-            "title" : " Ultimate Alta Station",
-            "subtitle" : " ^#b9b5b2;Gheatsyn Upgrades",
+            "title" : " Emergency Alta Beacon",
+            "subtitle" : " ^#b9b5b2;Full emergency systems and rescue signal",
             "icon" : { "file" : "/objects/alta/crafting/upgrade_station/ui/icon2.png" }
         } },
         "filter" : [ "tier0", "tier1", "tier2" ], "initialRecipeUnlocks" : []

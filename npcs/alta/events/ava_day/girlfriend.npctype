@@ -1,0 +1,27 @@
+{
+  "type" : "ct_alta_girlfriend",
+  "baseType" : "ct_alta",
+  "items" : {
+    "override" : [
+      [0, [
+        {
+          "head" : [ "" ],
+          "chest" : [ 
+            { "name" : "ct_alta_artist_croptop", "parameters" : { "colorIndex" : [ 4, 5, 6, 7 ] } },
+            { "name" : "ct_alta_light_shirt", "parameters" : { "colorIndex" : [ 4, 5, 6, 7 ] } }
+          ],
+          "legs" : [
+            { "name" : "ct_alta_artist_shorts", "parameters" : { "colorIndex" : [ 4, 5, 6, 7 ] } },
+            { "name" : "ct_alta_light_skirt", "parameters" : { "colorIndex" : [ 4, 5, 6, 7 ] } }
+          ]
+        }
+      ] ]
+    ]
+  },
+  "scriptConfig" : {
+    "behaviorConfig" : { "greetingChance" : 0.0 },
+    "questGenerator" : { "pools" : [ "common", "tenant" ] },
+    "dialogMode" : "random",  // default is "static", which chooses one and remembers it
+    "dialog" : { "converse" : "/dialog/alta.config:ava_day" }
+  }
+}

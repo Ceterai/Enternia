@@ -6,7 +6,7 @@
   "altaDescription" : "I won't get tired of the same taste thanks to spice, but I would recomment switching the bite from one to another for maximum enjoyment.",
 
   "level" : 4, "race" : "alta",
-  "itemTags" : [ "runeva_cuisine", "ayaka", "tsay", "fruit", "Salad" ],
+  "itemTags" : [ "runeva_cuisine", "ayaka", "tsay", "fruit", "salad" ],
   "builder" : "/items/buildscripts/alta/consumable.lua",
   "build" : { "goodEffects" : [ "runboostfood" ] },
   "category" : "preparedFood", "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],

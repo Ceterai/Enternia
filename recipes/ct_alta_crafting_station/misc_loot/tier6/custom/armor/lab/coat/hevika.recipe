@@ -1,8 +1,10 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "cottonwool", "count" : 2 },
+    { "item" : "silk", "count" : 20 },
+    { "item" : "purpledye", "count" : 1 }
   ],
   "output" : { "item" : "ct_alta_researcher_coat", "count" : 1, "parameters" : { "preset" : "hevika" } },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "hevika", "clothing", "body", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "hevika", "clothing", "body", "alta_tailor", "all", "mod" ]
 }

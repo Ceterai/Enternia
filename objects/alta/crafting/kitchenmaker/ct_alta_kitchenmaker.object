@@ -1,0 +1,77 @@
+{
+  "objectName" : "ct_alta_kitchenmaker",
+  // "colonyTags" : [ "crafting", "cooking" ],
+  "category" : "crafting",
+  "level" : 4, "race" : "alta",
+
+  "shortdescription" : "^orange;Alta Kitchenmaker^reset;",
+  "description" : "An ^#b0e0fc;alta^reset; culinary workshop for crafting ^#60c0fc;kitchen appliances^reset;, ^#60c0fc;dishery^reset;, and cooking tools.",
+  "longdescription" : "The Alta Kitchenmaker is a tier 4 comprehensive culinary equipment fabrication station designed for producing everything needed in a modern alta kitchen. This versatile workshop creates ^#60c0fc;kitchen appliances^reset; like icers (refrigerators), mixers, blenders, slicers, and cookdecks (stovetops), crafts ^#60c0fc;dishery^reset; including plates, cups, bowls, and pots, and produces specialized ^#60c0fc;kitchen tools^reset; such as knives, pizza cutters, spatulas, and measuring implements. It also creates decorative kitchen furniture and storage solutions. Essential for any alta chef, gastronomist, or home cook who takes their culinary arts seriously.",
+  "altaDescription" : "My kitchen equipment station! I can make all sorts of appliances like icers and cookdecks, dishery for serving, and proper cooking tools. Every chef needs good equipment!~",
+
+  "apexDescription" : "Alta kitchen equipment fabrication. Their appliance designs are quite efficient and practical.",
+  "avianDescription" : "A workshop for creating cooking tools and kitchen devices! The foundation of good cuisine.",
+  "floranDescription" : "Makesss kitchen thingsss. Platesss, knivsss, cooking boxesss. Floran likesss sharp knivsss!",
+  "glitchDescription" : "Pleased. This station demonstrates alta appreciation for proper culinary preparation tools.",
+  "humanDescription" : "Kitchen equipment maker! Appliances, dishes, cooking tools - everything for a proper kitchen setup.",
+  "hylotlDescription" : "A station honoring the culinary arts. Proper tools elevate cooking from necessity to craft.",
+  "novakidDescription" : "Kitchen gear maker! All sorts of cookin' gadgets, dishes, and utensils for makin' good grub!",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ], "collision" : "platform" }
+  ],
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/alta/crafting/ui_tabs.config",
+    "filter" : [ "alta_loot", "alta_ancient", "alta_kitchener" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA KITCHENER", "subtitle" : "^noshadow;^#001054;Culinary Equipment & Tools" },
+      "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab2" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab4" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab5" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab6" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab7" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab8" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "categories" : { "buttons" : [
+        {
+          "position" : [6,  257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "appliances", "codex" ] }  // icers, mixers, blenders, slicers, cookdecks, ovens
+        },
+        {
+          "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "dishery" ] }  // plates, cups, bowls, pots, pans
+        },
+        {
+          "position" : [38, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "cutlery" ] }  // knives, forks, spoons, chopsticks
+        },
+        {
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "utensils" ] }  // spatulas, ladles, whisks, tongs, peelers
+        },
+        {
+          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "specialized_tools" ] }  // pizza cutters, graters, measuring cups, timers
+        },
+        {
+          "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "storage" ] }  // containers, jars, canisters
+        },
+        {
+          "position" : [102,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "furniture" ] }  // kitchen counters, sinks, prep tables
+        },
+        {
+          "position" : [118,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "decor" ] }  // kitchen decorations, art, plants
+        }
+      ] }
+    }
+  },
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

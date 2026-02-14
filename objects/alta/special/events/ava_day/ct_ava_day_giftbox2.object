@@ -1,0 +1,26 @@
+{
+  "objectName" : "ct_ava_day_giftbox2",
+  "colonyTags" : [ "ava_day", "pretty" ], "itemTags" : [ "holiday" ],
+  "category" : "decorative",
+  "level" : 3, "price" : 150, "race" : "alta",
+
+  "shortdescription" : "Ava Day Gift Package",
+  "description" : "A warmly colored gift package ready for ^#2080f0;Ava Day^reset; gifting!",
+  "longdescription" : "This style of gift wrapping is popular during Ava Day, featuring warm colors that represent friendship and connection. The package might contain anything from homemade treats to small gadgets or meaningful trinkets. The joy is as much in the presentation as it is in the gift itself.",
+  "altaDescription" : "The colors are so warm and inviting~ Perfect for showing someone they're appreciated!",
+
+  "apexDescription" : "A decorative gift container. Wrapped neatly.",
+  "avianDescription" : "A lovely wrapped present with a shimmering bow.",
+  "floranDescription" : "Pretty box! Floran wondersss what'ss inssside!",
+  "glitchDescription" : "Curious. A ceremonial gift container for friendship exchange.",
+  "humanDescription" : "A present! Wonder what's inside?",
+  "hylotlDescription" : "Elegant packaging befitting a thoughtful gift.",
+  "novakidDescription" : "That's a mighty pretty wrapped present!",
+
+  "inventoryIcon" : "ct_ava_day_giftbox2.png",
+  "orientations" : [
+    { "dualImage" : "ct_ava_day_giftbox2.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
+  ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

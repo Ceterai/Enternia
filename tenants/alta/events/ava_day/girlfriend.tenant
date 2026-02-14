@@ -1,0 +1,29 @@
+{
+  "name" : "ct_alta_girlfriend_tenant",
+  "priority" : 9,
+
+  "colonyTagCriteria" : {
+    "light" : 1,
+    "door" : 1,
+    "alta" : 4,
+    "ava_day" : 10
+  },
+  "tenants" : [
+    {
+      "spawn" : "npc",
+      "species" : "alta",
+      "type" : "ct_alta_girlfriend",
+      "overrides" : { "statusControllerSettings" : { "stats" : { "healthRegen" : { "baseValue" : 0.0 } } } }
+    }
+  ],
+  "rent" : { "periodRange" : [ 1800.0, 2700.0 ], "pool" : "ct_ava_day_gift" },
+
+  "wiki" : {
+    "title" : "Alta Girlfriend",
+    "description" : "A romantic alta celebrating Ava Day! She's here to spread love and warmth~ <3",
+    "category" : "holiday",
+    "images" : {
+      "primary" : []
+    }
+  }
+}

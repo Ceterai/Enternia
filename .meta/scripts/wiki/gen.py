@@ -43,6 +43,7 @@ def generate_data():
             'icon': items.get_icon(item_id),
             'upgrade': items.get_upgrade(item_id),
             'downgrade': items.get_downgrade(item_id),
+            'original': items.get_original(item_id),
             'tags': items.get_tags(item_id),
             'colony': items.get_colony_tags(item_id),
             'unlocks_bps': items.get_learned_bps(item_id),
@@ -124,6 +125,7 @@ def generate_data():
     for biome_id in biomes.raw:
         result_biomes[biome_id] = {
             'path': (biomes.raw[biome_id]['path'] if biome_id in biomes.raw else None),
+            'icon': (biomes.raw[biome_id].get('icon') if biome_id in biomes.raw else None),
         }
 
     # Cleanup

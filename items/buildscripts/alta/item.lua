@@ -41,22 +41,14 @@ function buildItem(directory, config, params, level, seed)
   -- BASIC PARAMS --
   config = getDefaults(config, get("category"), get("race"))
   config.build = sb.jsonMerge((config.build or {}), (params.build or {}))
-  if params.shop then params.shop = nil; params.level = nil end
-  -- Level
   params.level = getLevel(params.level, level, get("fixedLevel", true))
   level = get("level")
-  -- Bonus
-  local bonus = select(2, get("shortdescription", ""):gsub("%", ""))
-  -- Price
   if not get("fixedPrice", false) then
-    if params.price ~= nil and config.build.price == nil then params.oPrice = params.price; params.price = nil end
-    if config.build.price ~= nil and params.price == nil then params.oPrice = nil end
-    local price = get("price") or config.build.price or params.oPrice or 0
+    local price = get("price") or config.build.price or 0
     config.price = price * root.evalFunction("itemLevelPriceMultiplier", level)
-    config.price = config.price + (math.floor((price / 100) + 0.5) * 10 * bonus)
+    config.price = config.price + (math.floor((price / 100) + 0.5) * 10 * getBonus(config, params))
   end
   config.build.power = config.build.power or (get("price", 1) / (config.build.price or get("price", 1) or 1))
-  -- Rarity
   config.rarity = getRarity(config, level, tips)
   -- Damage level multiplier
   config.damageLevelMultiplier = root.evalFunction("weaponDamageLevelMultiplier", level)
@@ -66,7 +58,7 @@ function buildItem(directory, config, params, level, seed)
   for i, abil_type in ipairs({"primary", "alt"}) do
     setupAbility(config, params, abil_type)
     local a = abil_type .. "Ability"
-    if config[a] and config[a].elementalConfig then util.mergeTable(config[a] or {}, config[a].elementalConfig[elementalType] or {}) end
+    if config[a] and config[a].elementalConfig then util.mergeTable(config[a], config[a].elementalConfig[elementalType] or {}) end
   end
   config.radioMessagesOnPickup = getPickupMsgs(get("radioMessagesOnPickup", {}), get("itemTags", {}))
 
@@ -74,7 +66,6 @@ function buildItem(directory, config, params, level, seed)
   -- GRAPHICS --
 
   -- Palette Swaps
-  if type(params.colorIndex) == "table" then params.colorIndex = util.randomChoice(params.colorIndex) end
   config, params = getColorChanges(
     config, params, directory, params.colorIndex, get("paletteSwap"), get("paletteSwaps"), get("inventoryIcon"), get("colorOptions")
   )
@@ -96,15 +87,10 @@ end
 
 
 function getPresetParams(config, parameters)
-  if parameters.preset and config.presets then
-    config, parameters = getPreset(config, parameters)
-  end
-  if parameters.baseAsset then
-    config, parameters = getBaseAsset(config, parameters)
-  end
-  if parameters.upgraded and config.upgradeParameters then
-    config, parameters = getUpgrade(config, parameters)
-  end
+  if parameters.shop then parameters.level = parameters.levelShop end
+  if not parameters.cfg and parameters.preset and config.presets then config, parameters = getPreset(config, parameters) end
+  if parameters.cfg then config = sb.jsonMerge(config, parameters.cfg) end
+  if parameters.upgraded and config.upgradeParameters then config, parameters = getUpgrade(config, parameters) end
   return config, parameters
 end
 
@@ -112,43 +98,31 @@ end
 function getPreset(config, parameters)  -- applying a preset from `presets`
   if config.deprecation and config.deprecation[parameters.preset] then parameters.preset = config.deprecation[parameters.preset] end
   if config.presets and config.presets[parameters.preset] ~= nil then
-    parameters = sb.jsonMerge(config.presets[parameters.preset], parameters)
-    if parameters.upgradeParameters then config.upgradeParameters = parameters.upgradeParameters end
-    if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
-    if parameters.price then config.price = parameters.price end
+    parameters.cfg = config.presets[parameters.preset]
+    if parameters.cfg.baseAsset then parameters.cfg = sb.jsonMerge(getBaseAsset(parameters.cfg.baseAsset) or {}, parameters.cfg or {}) end
   end
   return config, parameters
 end
 
 
-function getBaseAsset(config, parameters)  -- applying asset params as a preset
-  if not parameters.cfg then
-    local base = root.assetJson(parameters.baseAsset)
-    nullify(base, {"price", "rarity"})
-    local cfg = sb.jsonMerge(base, copy(parameters))
-    cfg.tooltipKind = parameters.tooltipKind or config.tooltipKind
-    replaceRegexInData(cfg, parameters.baseAsset:gsub('[^/]+$', ''))
-    parameters = {baseAsset=parameters.baseAsset, cfg=cfg, upgraded=parameters.upgraded}
-    nullify(parameters.cfg, {"baseAsset", "cfg", "itemName", "wiki", "preset", "upgraded"})
-  end
-  for k, v in pairs(parameters.cfg) do if v ~= nil then config[k] = v end end
-  return config, parameters
+function getBaseAsset(baseAsset)  -- applying asset params as a preset
+  local base = root.assetJson(baseAsset)
+  nullify(base, {"price", "rarity", "level", "baseAsset", "cfg", "wiki", "itemName", "upgradeParameters", "shortdescription", "tooltipKind"})
+  replaceRegexInData(base, baseAsset:gsub('[^/]+$', ''))
+  return base
 end
 
 
 function getUpgrade(config, parameters)  -- applying upgrade params as a preset
   config = sb.jsonMerge(config, config.upgradeParameters)
-  if parameters.preset and not parameters.baseAsset then parameters = sb.jsonMerge(parameters, config.upgradeParameters) end
-  if parameters.shortdescription then config.shortdescription = parameters.shortdescription end
-  if parameters.price then config.price = parameters.price end
   config.upgradeParameters = nil
-  parameters.upgradeParameters = nil
-  parameters.level = 6
+  config.level = 6
   return config, parameters
 end
 
 
 function getColorChanges(config, parameters, directory, index, preset_swap, swaps, icon, options)  -- applying color swaps and directives
+  if type(parameters.colorIndex) == "table" then parameters.colorIndex = util.randomChoice(parameters.colorIndex) end
   config.colorOptions = getPalette(options, preset_swap, directory)
   if config.colorOptions or preset_swap then
     config.dirs = getDirectivesList(config.colorOptions or {preset_swap,}, index or 0)
@@ -165,6 +139,7 @@ end
 
 function getTooltips(config, parameters, level, elementalType, tips, directory)
   local get = function(key, default) return getValue(key, default, config, parameters) end
+  config = applyLevelPrefix(config, parameters, level, tips)  -- Apply level-based prefix if appropriate
   config.tooltipFields = config.tooltipFields or {}
   config.tooltipFields.rarityLabel = tips.rarities[level..""]
   config.tooltipFields.levelLabel = level
@@ -271,9 +246,45 @@ function getDefaults(config, category, race)
 end
 
 
-function getLevel(level, gen, fixed) if gen and not fixed then return gen else return level end end
+function getLevel(level, gen, fixed) if gen and not fixed then return gen elseif level ~= nil then return math.floor(tonumber(level) or 0) end end
 
 
-function getRarity(config, level, tips)
-  return config.build.rarity or tips.rarityTypes[tostring(math.floor(level))]
+function getRarity(config, level, tips) return config.build.rarity or tips.rarityTypes[tostring(math.floor(level))] end
+
+
+function getBonus(config, params) return select(2, getValue("shortdescription", "", config, params):gsub("%", "")) end
+
+
+function applyLevelPrefix(config, params, level, tips)
+  local originalLevel = config.level
+  local currentLevel = level
+
+  -- Only apply prefix if there's a level difference
+  if originalLevel and currentLevel and originalLevel ~= currentLevel then
+    local levelDiff = currentLevel - originalLevel
+
+    -- Clamp level difference to [-10, 10]
+    if levelDiff < -10 then levelDiff = -10 end
+    if levelDiff > 10 then levelDiff = 10 end
+
+    -- Skip if no difference after clamping
+    if levelDiff == 0 then return config end
+
+    -- Determine which prefix set to use based on category
+    local category = config.category or params.category
+    local prefixSet = "default"
+    if category == "food" or category == "preparedFood" or category == "drink" then
+      prefixSet = "food"
+    end
+
+    -- Get the prefix from tips
+    local prefix = tips.prefixes and tips.prefixes[prefixSet] and tips.prefixes[prefixSet][tostring(levelDiff)]
+
+    -- Apply prefix to shortdescription if found
+    if prefix and config.shortdescription then
+      config.shortdescription = prefix .. config.shortdescription
+    end
+  end
+
+  return config
 end

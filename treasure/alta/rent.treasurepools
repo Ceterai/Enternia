@@ -510,6 +510,21 @@
     } ]
   ],
 
+  // Rent options of altas celebrating Valentine's Day/Ava Day.
+  "ct_ava_day_gift" : [
+    [0,
+      {
+        "pool" : [
+          {"weight" : 0.60, "item" : [ "ct_ava_candy", 4, { "colorIndex" : [0, 1, 2, 3] } ] },
+          {"weight" : 0.20, "item" : [ "ct_ava_cookie", 3 ] },
+          {"weight" : 0.10, "item" : [ "ct_ava_cookie", 2, { "level" : 4 } ] },
+          {"weight" : 0.05, "item" : [ "ct_ava_cookie", 2, { "level" : 5 } ] },
+          {"weight" : 0.05, "item" : [ "ct_ava_cookie", 4, { "level" : 2 } ] }
+        ]
+      }
+    ]
+  ],
+
 
 
   // ALTA ROBOTICS //
@@ -738,7 +753,6 @@
           {"weight" : 0.05, "item" : ["grassseeds", 4]},
           {"weight" : 0.05, "item" : ["vine", 8]},
           {"weight" : 0.05, "item" : ["floweryvines", 8]},
-          {"weight" : 0.05, "item" : ["plantchest", 8]},
           {"weight" : 0.05, "item" : ["reedblock", 8]},
           {"weight" : 0.05, "item" : ["floweryblock", 8]},
           {"weight" : 0.05, "item" : ["petalblock", 8]},
@@ -750,9 +764,9 @@
           {"weight" : 0.002, "item" : "reedhead"},
           {"weight" : 0.003, "item" : "beehivehead"},
 
-          {"weight" : 0.025, "item" : "floranhistory6"},
-          {"weight" : 0.025, "item" : "floranhistory4"},
-          {"weight" : 0.025, "item" : "floranhistory2"},
+          {"weight" : 0.025, "item" : "floranhistory6-codex"},
+          {"weight" : 0.025, "item" : "floranhistory4-codex"},
+          {"weight" : 0.025, "item" : "floranhistory2-codex"},
 
           {"weight" : 0.025, "item" : "florantier1head"},
           {"weight" : 0.025, "item" : "florantier1chest"},
@@ -947,7 +961,7 @@
         "pool" : [
           {"weight" : 0.05, "item" : "prisiliteore" },
           {"weight" : 0.05, "item" : "ct_stardust"},
-          {"weight" : 0.025, "item" : "ct_tiana-codex"}
+          {"weight" : 0.025, "item" : "ct_orchid-codex"}
         ]
       }
     ]

@@ -9,7 +9,5 @@
   "level" : 4, "race" : "alta",
   "itemTags" : [ "set", "city", "alta_security", "robotics", "android" ],
   "category" : "mysteriousReward", "tooltipKind" : "ct_alta_item_long",
-  "builder" : "/items/buildscripts/alta/set.lua",
-
-  "wiki" : { "aliases" : { "Alta Security Android" : { }, "Security Android" : { } } }
+  "builder" : "/items/buildscripts/alta/set.lua"
 }

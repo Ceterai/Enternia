@@ -52,7 +52,7 @@
         },
         {
           "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "national_day" ] }  // ava_day
+          "data" : { "filter" : [ "national_day", "ava_day" ] }
         }
       ] }
     }

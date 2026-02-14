@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_insectarium",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "nature", "science" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Insectarium^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; station dedicated to the study and collection of ^#60c0fc;insects^reset;, ^#60c0fc;bugs^reset;, and other small critters.",
+  "longdescription" : "The Alta Insectarium is a tier 6 crafting station focused on arthropods and entomology research. It provides tools for capturing, studying, and preserving various bug species found across ^#20f080;alterash^reset; and ^#f020f0;alterash prime^reset; planets - from ^#60c0fc;ionic^reset; hive creatures to crystal snails and bioluminescent beetles. The station includes specialized nets, terrariums for bottled displays, and spawning equipment for recreating collected species.",
+  "altaDescription" : "My little bug collection station! I can craft nets, bottled displays, and even spawn eggs for all the cute critters I've studied~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta entomology station. The specimen preservation technology is remarkably advanced.",
+  "avianDescription" : "A station for studying tiny creatures! So many interesting bugs to discover!",
+  "floranDescription" : "Floran likesss catching bugsss! Thisss station helpsss with that!",
+  "glitchDescription" : "Fascinated. This workstation allows comprehensive study of arthropod specimens.",
+  "humanDescription" : "Bug collecting station! Nets, terrariums, and all kinds of creepy crawlies to study.",
+  "hylotlDescription" : "A beautifully organized insectarium. The attention to specimen care reflects alta scientific values.",
+  "novakidDescription" : "Bug-catchin' station! All sorts of critters from them alterash planets!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

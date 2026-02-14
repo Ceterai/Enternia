@@ -15,5 +15,8 @@
     "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_stardust_eco_pod", "ct_mical_grass_seeds" ]
+  },
+  "wiki" : {
+    "aliases" : { "Thermoponics" : { } }
   }
 }

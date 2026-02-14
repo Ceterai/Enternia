@@ -226,7 +226,7 @@ class ItemLib:
         transmutations = [e['path'][1:].split('/') for e in transmutations]
         transmutations = {e[2]: e[0] + e[1] for e in transmutations}
         for path in wiki.load.filepaths_in_dirs(wiki.load.dirs(paths)):
-            if wiki.load.ext(path) in self.exts and 'deprecated' not in path:
+            if wiki.load.ext(path) in self.exts and 'deprecated' not in path and 'obj.object' not in path:
                 obj = wiki.load.json(path)
                 for id_param in self.id_params:
                     if obj.get(id_param):
@@ -243,6 +243,8 @@ class ItemLib:
                             obj['growing_tray_value'] = fertilizers[obj[id_param]]
                         if obj[id_param] in transmutations:
                             obj['transmutation'] = transmutations[obj[id_param]]
+                        if obj.get('wiki', {}).get('shortdescription'):
+                            obj['shortdescription'] = obj['wiki']['shortdescription']
                         if not obj[id_param].endswith('mimic'):  # Filter out non-preset mimics
                             raw.update({obj[id_param]: obj})
                         if 'presets' in obj:
@@ -256,7 +258,10 @@ class ItemLib:
                                     preset_obj = dict(self.merge(base, preset_obj))
                                 obj2 = dict(self.merge(obj, preset_obj))
                                 obj2.pop('presets')
-                                obj2.pop('variants', None)
+                                obj2.pop('wiki', None)
+                                if 'variants' in obj2 and preset in obj2['variants']:
+                                    obj2['original'] = obj[id_param]
+                                    obj2.pop('variants')
                                 obj2_id = obj2[id_param] + '-' + preset
                                 raw2.update({obj2_id: obj2})
                                 if 'upgradeParameters' in obj2 and obj2['upgradeParameters'] != obj.get('upgradeParameters') and obj2['upgradeParameters'].get('shortdescription'):
@@ -268,8 +273,9 @@ class ItemLib:
                             obj2 = dict(self.merge(obj, obj['upgradeParameters']))
                             obj2.pop('upgradeParameters')
                             obj2['level'] = 6
+                            obj2.pop('wiki', None)
                             raw2.update({obj2[id_param] + '-upgrade': obj2})
-            elif wiki.load.ext(path) == 'codex':
+            elif wiki.load.ext(path) == 'codex' and 'deprecated' not in path:
                 obj = wiki.load.json(path)
                 if obj.get('id') and obj.get('itemConfig'):
                     obj.update(obj.get('itemConfig'))
@@ -416,6 +422,11 @@ class ItemLib:
         if item_id.endswith('-upgrade') and item_id[:-8] in self.raw:
             return item_id[:-8]
 
+    def get_original(self, item_id: str) -> bool|None:
+        """Returns ID of this variant's original food item, if it exists."""
+        if item_id in self.raw and self.raw[item_id].get('original') and self.raw[item_id]['original'] in self.raw:
+            return self.raw[item_id]['original']
+
     def get_price(self, item_id: str) -> int|None:
         """Returns the calculated price of the item, applying level and bonus modifiers."""
         if item_id in self.raw:
@@ -482,8 +493,8 @@ class ItemLib:
                         mod = base_value * mul_val
                         obj['bonuses_weapon']['baseDps'] = mod
                         break
-            if obj['bonuses_weapon']:
-                print(f'- {item_id}: {obj["bonuses_weapon"]}')
+            # if obj['bonuses_weapon']:
+                # print(f'- {item_id}: {obj["bonuses_weapon"]}')
             return obj['bonuses_weapon']
         return {}
 
@@ -826,6 +837,8 @@ class Item:
             full_id = full_id + '-' + self.params['preset']
         if 'upgraded' in self.params and self.params['upgraded']:
             full_id = full_id + '-upgrade'
+        if 'level' in self.params:
+            full_id = full_id + f'-{self.params["level"]}'
         return full_id
 
 

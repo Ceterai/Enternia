@@ -6,6 +6,7 @@
   "mainBlock" : "moonrock",
   "subBlocks" : [ "moonstone", "moondust" ],
   "ores" : "prismore",
+  "wiki" : { "aliases" : { "Blossoming Valley" : { }, "Rose Valley" : { } } },
 
   "hueShiftOptions" : [250],
   "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
@@ -29,6 +30,8 @@
   },
 
   "surfacePlaceables" : {
+    "friendlyName" : "Poptop Valley Surface",
+    "description" : "From the surface, poptop valleys might look like a pleasant mix of pink and red - with the reddish grass fields of poptop grouns being partially covered in light pink blossoming ayaka foliage.",
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [
@@ -95,6 +98,8 @@
   },
 
   "undergroundPlaceables" : {
+    "friendlyName" : "Poptop Valley Underground",
+    "description" : "The undergrounds of poptop valleys are often filled with the roots of the numerous ayaka bushes above. Occasionally, you might find hidden gil groves - small clusters of gil crops growing in the dark, nourished by underground water sources.",
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [

@@ -1,8 +1,9 @@
 {
   "input" : [
-    { "item" : "silk", "count" : 2 }
+    { "item" : "titaniumbar", "count" : 10 },
+    { "item" : "ct_verriskoywa_miko", "count" : 20 }
   ],
   "output" : { "item" : "ct_dreamer_helmet", "count" : 1, "parameters" : { "preset" : "viona" } },
   "duration" : 0.25,
-  "groups" : [ "my_enternia", "alta_max", "alta", "medic", "armor", "armors", "head_armor", "all", "mod" ]
+  "groups" : [ "my_enternia", "alta_max", "alta", "medic", "armor", "armors", "head_armor", "alta_festive", "ava_day", "all", "mod" ]
 }

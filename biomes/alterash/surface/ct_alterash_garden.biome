@@ -2,7 +2,7 @@
   "name" : "ct_alterash_garden",
   "friendlyName" : "Alterash Gardens",
   "description" : "A peaceful prairie on the surface of Alterash planets, filled with grass, colorful flowers and iridescent ^#ffa8e8;prisms^reset; made of crystallized ^#ffa8e8;stardust^reset;. Rare ayaka trees are scattered around the surface, with ripe bright blue ayas hanging among their leaves.  \nThe underground here is filled with bushes and rare ayaka roots.\n\nYou can find these gardens on every ^#20f080;alterash^reset; planet and is likely the first thing you'll see - this mostly plain terrain with little danger around is a great place for landing.\n\nWhat awaits you in the distance? What lies beneath the surface? What hides up high behind those clouds? Time to find out! **Welcome to Alterash.**",
-  "icon" : "/items/active/alta/loot/tier1.png",
+  "icon" : "/items/active/alta/loot/tier0.png",
   "statusEffects" : [ "ct_ionized_air" ],
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "moondust" ],
@@ -75,6 +75,8 @@
   },
 
   "surfacePlaceables" : {
+    "friendlyName" : "Alterash Garden Surface",
+    "description" : "The surface of gardens is mostly flat and uneventful - covered in regular grass and flowers. There are all sorts of things you can find here - flower fields, boko grazing grounds, fruitful ayakas, klee nest holes, alta picnics and landing pads, stardust prism shards lying on the ground...\n\nAt night, scary creatures like nightmare orbides and nightmare anglures come out to hunt, so be careful when exploring after dark!\n\nYou might also find some alta capsules and status pods scattered around the surface - alta scouts and arknights often leave these behind for travelers to find, just in case they need some supplies.",
     "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
     "items" : [
@@ -137,6 +139,8 @@
   },
 
   "undergroundPlaceables" : {
+    "friendlyName" : "Altelush Garnels",
+    "description" : "The alterash garden subsurface, simply known as alterash lush garden tunnels, or Altelush Garnels for short, is a series of long overgrown caves, leading from the flat garden surface deeper underground, closer to the next layer of the planet.\n\nThese tunnels are full of garden bushes, overgrown caverns, little to no roots though - due to surface ayakas being somewhat scarce.\nThey also can sometimes contain little secret alta stashes! These might not contain lots of loot, but they are usually pretty cozy - some altas build these as small neat hideouts for themselves, especially useful when leaving the city for a garden picnic or a hike.\nYou also might find some flowers or bugs that you wouldn't be able to find on the surface.",
     "grassMod" : [ "thickgrass" ], "grassModDensity" : 0.9,
     "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
     "items" : [

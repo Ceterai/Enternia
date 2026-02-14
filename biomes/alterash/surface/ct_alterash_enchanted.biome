@@ -1,25 +1,26 @@
 {
   "name" : "ct_alterash_enchanted",
   "friendlyName" : "Enchanted Meadows",
-  "description" : "^#8080f0;Vionostera^reset;, or enchanted land, is an almost magical place full of mystical things, hence the name.  \nBlue fields of dense grass with pink tops of ^#8080f0;blossoming ayakas^reset;, ^#8080f0;enchanted orbs^reset; and rare ^#8080f0;beakseed^reset; bushes showing above the surface.  \nUnder the ground there are glowing ^#8080f0;enchanted bushes^reset;, lighting up the caves with pink bioluminescence.\n\nThis place looks almost magical, even though this kind of view is somewhat common for the ionized temperate climate.  \nAt its core, this place is an anomaly, caused by high concentration of conflicting energies.\n\nA much rarer variation of this biome is called ^#f080f0;Invertia^reset;.",
+  "description" : "^#8080f0;Vionostera^reset;, or enchanted land, is an almost magical place full of mystical things, hence the name.  \nBlue fields of dense grass with pink tops of ^#8080f0;blossoming ayakas^reset;, ^#8080f0;enchanted orbs^reset; and rare ^#8080f0;beakseed^reset; bushes showing above the surface.  \nUnder the ground there are glowing ^#8080f0;enchanted bushes^reset;, lighting up the caves with pink bioluminescence.\n\nThis place looks almost magical, even though this kind of view is somewhat common for the ionized temperate climate.  \nAt its core, this place is an anomaly, caused by high concentration of conflicting energies.\n\nA much rarer variation of this biome is called ^#f080f0;Invertia^reset; - the main difference is that the whole palette turns upside-down, and greener grass can occur amid usual enchanted purple.",
   "longdescription" : "\nMore information about the Enchantment phenomenon can be discovered with the ^#8080f0;Enchanted Datamass^reset;.",
-  "icon" : "/items/active/alta/loot/ct_enchanted_loot.png",
+  "icon" : "/items/active/alta/loot/biome/ct_enchanted_loot.png",
   "mainBlock" : "moonstone",
   "subBlocks" : [ "moonrock", "cloudblock" ],
-  "ores" : "prismore",
+  "ores" : "prismore",  // Main (and only) ore type found in this biome inside blocks are Prism Shards
 
-  "hueShiftOptions" : [0],
-  "parallax" : "/parallax/surface/ct_alterash_garden.parallax",
+  "hueShiftOptions" : [0],  // No hue shift for grass or blocks (hue shifts for trees and bushes are defined in placeables)
+  "parallax" : "/parallax/surface/ct_alterash_garden.parallax",  // Biome background - for now uses regular alterash garden scenery
 
   "spawnProfile" : {
-    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },
+    "monsterParameters" : { "colors" : "ocean", "statusSettings" : { "stats" : { "electricStatusImmunity" : { "baseValue" : 1.0 } } } },  // Randomly generated creatures will have "ocean" colors (not applicable as no random creatures spawn here) and all spawned creatures are immune to electric status effects
     "groups" : [
-      { "select" : 1, "pool" : [ [ 1, "ct_astral_narfin_spawn" ] ] },
-      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },
-      // Bugs
-      { "select" : 1, "pool" : [ [ 1, "ct_vio_zych_spawn" ] ] },
-      // Critter
-      { "select" : 3, "pool" : [ [ 1, "ct_miazmur_spawn"], [ 0.15, "prismelementalcritter"], [ 0.15, "bioluminfireflyspawner"] ] }
+      // Ground hostile creatures - /spawntypes/my_enternia/creatures.spawntypes
+      { "select" : 1, "pool" : [ [ 1, "ct_astral_narfin_spawn" ] ] },  // Astral narfins, spawn both on surface and subsurface
+      { "select" : 1, "pool" : [ [ 1, "ct_alterash_night_spawn" ] ] },  // Spawn nightmare orbides and anglures on the surface at night
+      // Bugs - /spawntypes/my_enternia/bugs.spawntypes
+      { "select" : 1, "pool" : [ [ 1, "ct_vio_zych_spawn" ] ] },  // Vio Zyches, spawn both on surface and subsurface but only during the day
+      // Critters - /spawntypes/my_enternia/critter.spawntypes
+      { "select" : 3, "pool" : [ [ 1, "ct_miazmur_spawn"], [ 0.15, "prismelementalcritter"], [ 0.15, "bioluminfireflyspawner"] ] }  // Miamzurs on surface at night, prism elementals on surface during day, and bioluminescent fireflies on surface at night
     ]
   },
 
@@ -33,8 +34,10 @@
   },
 
   "surfacePlaceables" : {
-    "grassMod" : [ "colourfulgrass" ], "grassModDensity" : 0.9,
-    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,
+    "friendlyName" : "Enchanted Surface",
+    "description" : "The surface of vionostera is full of colourful grass and mystical plants. That said, since originally it was a usual alterash garden or forest, you can see enchanted ayakas from time to time, as well as some other familiar sites.\n\nStill, vionia has changed this place a lot, making it look magical - with purple-magenta colours dominating the scenery.\n\nThe main crop of the surface is beakseed, more common on avian-inhabited worlds, but thriving here as well.\n\nFrom time to time you can find an enchanted orb - an organic vionic formation holding some enchanted loot. Critters of the surface, on the other hand, are not organic - these tiny vibrant magenta-purple elementals are called miazmurs, and they glow in the dark.\n\nFinally, the enchanted surface is home to little flying bugs called vio zyches, which are attracted to energy-filled plants and flowers and are also viona-colored.\n\nBecause of viona nature, the surface is also full of energetic anomalies and anomalous structures, usually floating in the air.",
+    "grassMod" : [ "colourfulgrass" ], "grassModDensity" : 0.9,  // Dense blue-pink grass
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.5,  // Some small brown undergrowth on ceilings of overhangs
     "items" : [
       // Tech
       {
@@ -98,8 +101,10 @@
   },
 
   "undergroundPlaceables" : {
-    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,
-    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,
+    "friendlyName" : "Enchanted Underground",
+    "description" : "The underground of vionostera is just as enchanted as the surface, though mostly crystallic - with glowing crystal formations illuminating the caves with pink bioluminescence.\n\nHere, main anomalies are often harder to spot - sudden spirals, floating liquids, and strangely colored rock formations are common.",
+    "grassMod" : [ "grass" ], "grassModDensity" : 0.9,  // Dense green grass on floors of caves
+    "ceilingGrassMod" : [ "undergrowth" ], "ceilingGrassModDensity" : 0.3,  // Some small brown undergrowth on ceilings of caves
     "items" : [
       // Tech
       {

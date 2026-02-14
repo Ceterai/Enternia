@@ -17,5 +17,8 @@
     "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_alta_ship_eco_pod", "ct_warped_grass_seeds", "ct_alta_super_sprinkler" ]
+  },
+  "wiki" : {
+    "aliases" : { "Ecoponics" : { } }
   }
 }

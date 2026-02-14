@@ -2,6 +2,8 @@
   "itemName" : "ct_estria_bow",
   "shortdescription" : "Estria's Bow",
   "description" : "Arrows loosed from this bow provoke unbridled passion.",
+  "longdescription" : "Named after ^#20f080;Estria^reset;, a nivera sentia known for her passionate nature, this bow shoots heart-shaped arrows that inspire feelings of love and connection. It's a popular ^#2080f0;Ava Day^reset; gift for those who want to playfully express their affection! The bow's elegant pink design captures the warm, romantic spirit of the holiday.",
+  "altaDescription" : "Perfect for making your feelings known~ The heart arrows are so cute! >~<",
 
   "level" : 4, "race" : "alta",
   "category" : "bow", "tooltipKind" : "ct_alta_weapon_1", "twoHanded" : true,
@@ -10,13 +12,9 @@
 
   "inventoryIcon" : "icon.png",
   "animation" : "/items/active/weapons/bow/bow.animation",
-  "animationParts" : {
-    "bow" : "body.png"
-  },
+  "animationParts" : { "bow" : "body.png" },
   "animationCustom" : {
-    "animatedParts" : { "parts" : { "bow" : { "properties" : {
-      "offset" : [0, 0]
-    }}}},
+    "animatedParts" : { "parts" : { "bow" : { "properties" : { "offset" : [0, 0] } } } },
     "sounds" : {
       "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
       "release" : [ "/sfx/gun/bow_loose.ogg" ],

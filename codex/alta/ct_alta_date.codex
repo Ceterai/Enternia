@@ -20,7 +20,19 @@
     "level" : 3,
     "tooltipKind" : "ct_alta_item_long",
     "itemTags" : [ "ebook" ],
-    "learnBlueprintsOnPickup" : [ "ct_alta_date-codex" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_date-codex",
+      "ct_ava_candy",
+      "ct_ava_cookie",
+      "ct_ava_day_poster",
+      "ct_alta_love_poster",
+      "ct_ava_day_gift",
+      "ct_ava_day_giftbox1",
+      "ct_ava_day_giftbox2",
+      "ct_estria_bow",
+      "ct_love-codex",
+      "ct_ava_day-codex"
+    ],
     "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

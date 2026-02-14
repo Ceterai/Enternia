@@ -1,3 +1,4 @@
+import json
 import os
 import pyjson5
 import re
@@ -13,6 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 MODS = os.path.dirname(ROOT)
 META = os.path.join(ROOT, '.meta')
 WIKI = os.path.join(META, 'wiki')
+PAGES = os.path.join(META, 'scripts', 'wiki', 'pages')
 RELEASE = os.path.join(META, 'release')
 STARBOUND = os.path.dirname(MODS)
 REPO = 'https://github.com/Ceterai/Enternia'
@@ -51,3 +53,13 @@ def get_objects(filter_f) -> list[dict[str]]:
 
 def get_ext(name: str):
     return name.split('.')[-1] if '.' in name else ''
+
+def write_json(path: str, obj: dict, indent: int = 4):
+    if not os.path.exists(dirname := os.path.dirname(path)): os.mkdir(dirname)
+    with open(path, 'w') as f: json.dump(obj, f, indent=indent)
+
+def sort_dict(d: dict) -> dict:
+    return dict(sorted(d.items())) if d else {}
+
+def prepare_dict(d: dict, skip_keys: list[str] = None) -> dict:
+    return sort_dict({k: v for k, v in d.items() if k not in (skip_keys or [])}) if d else {}

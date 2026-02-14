@@ -1,22 +1,30 @@
 # Tenants
 
-This mod adds a total of 183 tenants.
+This mod adds a total of 186 tenants.
 
 ## Alta
 
 ### Casual
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
+
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/casual1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta NPC**
 
@@ -24,8 +32,7 @@ Tags: `alta` (6)
 
 Regular alta dressed up in casual attire - simple, easy to put on and maintain clothes, made according to latest protocols. These clothes don't restrict movement and are quite comfortable to wear.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/casual1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/casual2.png)
@@ -46,10 +53,11 @@ Regular alta dressed up in casual attire - simple, easy to put on and maintain c
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/calin1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta in a Calin Dress**
 
@@ -57,8 +65,7 @@ Tags: `alta` (6), `calin` (8)
 
 An alta in a beautiful calin-themed dress.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin2.png)
@@ -70,10 +77,11 @@ An alta in a beautiful calin-themed dress.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/capital1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta from a Capital**
 
@@ -83,10 +91,11 @@ Regular alta dressed up in casual attire in alta capital-themed colors.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/dancer2.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Dancer**
 
@@ -94,8 +103,7 @@ Tags: `alta` (8), `musical` (8)
 
 A professional alta dancer. Can be often seen in clubs and dancing events. Likes clothing that doesn't restrict her movement.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/dancer1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/dancer5.png)
@@ -106,10 +114,11 @@ A professional alta dancer. Can be often seen in clubs and dancing events. Likes
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/gamer2.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Gamer**
 
@@ -117,8 +126,7 @@ Tags: `alta` (8), `party` (8)
 
 This alta is a heavy fan of gaming and various types of entertainment.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/gamer1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/gamer2.png)
@@ -128,9 +136,9 @@ This alta is a heavy fan of gaming and various types of entertainment.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Snow Girl**
 
@@ -140,9 +148,9 @@ An alta cosplaying as a snowgirl. Nothing to see here. Move along.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Warm Girl**
 
@@ -152,9 +160,9 @@ An alta dressed up in warm clothes for the cold. These blue scarfs are given out
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Artist** (merchant)
 
@@ -164,9 +172,9 @@ An aspiring alta artist pursuing her hobby. Would you like to support her?
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Bartender** (merchant)
 
@@ -176,9 +184,9 @@ A cafe worker that can serve non-alcoholic drinks.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Gyera Botanist** (merchant)
 
@@ -188,9 +196,9 @@ This alta researcher is part of Iora Gyera Ordis, researching plants, farming, c
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Chef** (merchant)
 
@@ -200,9 +208,9 @@ A professional alta chef. Can cook pretty much anything.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Collectioner** (merchant)
 
@@ -212,9 +220,9 @@ A profficient collectioner with a stash of rare items. Care to have a look?
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Designer** (merchant)
 
@@ -224,9 +232,9 @@ An aspiring alta designer with some creative, well, designs right with her.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Poner** (merchant)
 
@@ -236,9 +244,9 @@ An alta farmer taking care of her greenhouse. She's ready to share her goods wit
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Gardener** (merchant)
 
@@ -248,9 +256,9 @@ An alta gardener taking care of her garden. She's ready to share her goods with 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Gyera Archiver** (merchant)
 
@@ -260,9 +268,9 @@ This alta researcher is part of Iora Gyera Ordis, focusing on preserving plant, 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Party Girl** (merchant)
 
@@ -276,16 +284,23 @@ This alta likes to party a lot, and also help others organize their own parties 
 
 #### Official
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Representative**
 
@@ -295,9 +310,9 @@ An alta official representing a capital city.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Administrator**
 
@@ -307,9 +322,9 @@ This alta official is responsible for running an alta capital from its citadel. 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Executive**
 
@@ -319,9 +334,9 @@ An alta city official managing city frameworks.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Commander**
 
@@ -331,9 +346,9 @@ An EDS official responsible for organizing operations from their command center.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Official**
 
@@ -343,9 +358,9 @@ An alta official with various responsibilities in a small infrastructure.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Security Commander**
 
@@ -359,16 +374,23 @@ A security official responsible for organizing operations from their command cen
 
 #### Service
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Agent** (merchant)
 
@@ -378,9 +400,9 @@ A proffesional alta secial service member able to provide according goods.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Cargo Agent** (merchant)
 
@@ -390,9 +412,9 @@ A shipment manager able to manipulate various shipments.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Officer**
 
@@ -402,9 +424,9 @@ An EDS member responsible for most non-field EDS activity.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Merchant** (merchant)
 
@@ -414,9 +436,9 @@ This versatile alta trader has quite a lot of various goods for sale.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Security Officer**
 
@@ -426,9 +448,9 @@ A security representative responsible for most non-field security work.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Servicer** (merchant)
 
@@ -438,10 +460,11 @@ A service worker that can provide you with neat essentials.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/social1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Social Worker**
 
@@ -449,8 +472,7 @@ Tags: `alta` (8), `patriotic` (8)
 
 Altas who volunteer to clean public spaces and help people in need.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/social1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/social2.png)
@@ -466,16 +488,23 @@ Altas who volunteer to clean public spaces and help people in need.
 
 #### Tech
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Engineer** (merchant)
 
@@ -485,9 +514,9 @@ Alta electronics and light machinery expert, that can also sell you a couple of 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Mechanic** (merchant)
 
@@ -497,9 +526,9 @@ Alta robotics and heavy machinery expert, that can also sell you a couple of spa
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Miner**
 
@@ -509,9 +538,9 @@ Since altas use machines to do the actual crystal mining for them, this one is m
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Resque Worker**
 
@@ -525,16 +554,23 @@ An alta in an easily recognizable high-vis resque uniform. In her free time, she
 
 ### Scientific
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Field Researcher**
 
@@ -544,9 +580,9 @@ This alta researcher is performing her independent research in order to advance 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Researcher**
 
@@ -556,9 +592,9 @@ This alta researcher is performing her independent research in order to advance 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Archiver** (merchant)
 
@@ -572,16 +608,23 @@ This alta researcher is performing her independent research in order to advance 
 
 #### A.R.C.O
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **A.R.C.O. Security Guard** (guard)
 
@@ -591,9 +634,9 @@ An alta security unit protecting according field researchers and other A.R.C.O. 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **A.R.C.O. Field Researcher**
 
@@ -603,9 +646,9 @@ This alta researcher is part of Arc Ordis, focusing on environmental studies and
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **A.R.C.O. Researcher**
 
@@ -615,9 +658,9 @@ This alta researcher is part of Arc Ordis, focusing on environmental studies and
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **A.R.C.O. Archiver** (merchant)
 
@@ -631,16 +674,23 @@ This alta researcher is part of Arc Ordis, focusing on environmental studies and
 
 #### EDS
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **EDS Researcher**
 
@@ -650,9 +700,9 @@ This alta researcher is part of EDS, focusing on protective technology and high-
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Archiver** (merchant)
 
@@ -666,16 +716,23 @@ This alta researcher is part of EDS, focusing on protective technology and high-
 
 #### Hevika Ordis
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Hevika Researcher**
 
@@ -685,9 +742,9 @@ This alta researcher is part of Hevika Ordis, focusing on ionic energy research 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Hevika Archiver** (merchant)
 
@@ -701,16 +758,23 @@ This alta researcher is part of Hevika Ordis, focusing on ionic energy research 
 
 #### Ghearun
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Ghearun Field Researcher**
 
@@ -720,9 +784,9 @@ This alta researcher is part of Ghearun, focusing on geological research and min
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Ghearun Researcher**
 
@@ -732,9 +796,9 @@ This alta researcher is part of Ghearun, focusing on geological research and min
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Ghearun Archiver** (merchant)
 
@@ -748,16 +812,23 @@ This alta researcher is part of Ghearun, focusing on geological research and min
 
 #### Ceterai Project
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Ceterai Field Researcher**
 
@@ -767,9 +838,9 @@ This alta researcher is part of the Ceterai Project, focusing on studying stardu
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Ceterai Researcher**
 
@@ -779,9 +850,9 @@ This alta researcher is part of the Ceterai Project, focusing on studying stardu
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Ceterai Archiver** (merchant)
 
@@ -795,16 +866,23 @@ This alta researcher is part of the Ceterai Project, focusing on studying stardu
 
 #### Neiteru-1
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Neiteru Researcher**
 
@@ -814,9 +892,9 @@ This alta researcher is part of Neiteru, most likely Neiteru-1, focusing on high
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Neiteru Archiver** (merchant)
 
@@ -830,16 +908,23 @@ This alta researcher is part of Neiteru, most likely Neiteru-1, focusing on high
 
 #### Alta Lab
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Lab Guard** (guard)
 
@@ -849,9 +934,9 @@ An alta security unit protecting general alta laboratories and their personnel.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Lab Researcher**
 
@@ -861,9 +946,9 @@ This alta researcher is part of general alta research labs, focusing on general 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Lab Archiver** (merchant)
 
@@ -877,16 +962,23 @@ This alta researcher is part of general alta research labs, focusing on general 
 
 #### Tserera
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Tserera Researcher**
 
@@ -896,9 +988,9 @@ This alta researcher is part of Tserera, focusing on common alta tech.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Tserera Archiver** (merchant)
 
@@ -912,16 +1004,23 @@ This alta researcher is part of Tserera, focusing on common alta tech.
 
 #### Themed Researchers
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Oceanologist**
 
@@ -931,9 +1030,9 @@ This alta researcher is most interested in studying aquatic environments - ocean
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Archaeologist**
 
@@ -943,9 +1042,9 @@ This alta researcher is most interested in studying archaic environments - fossi
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Aricologist**
 
@@ -955,9 +1054,9 @@ This alta researcher is most interested in studying aric environments - mushroom
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Biologist**
 
@@ -967,9 +1066,9 @@ This alta researcher is most interested in studying biological environments - ce
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Geologist**
 
@@ -979,9 +1078,9 @@ This alta researcher is most interested in studying ground environments - rocks,
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Hive Keeper**
 
@@ -991,9 +1090,9 @@ This alta researcher is most interested in studying hive environments - bugs, cl
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Volcanologist**
 
@@ -1003,9 +1102,9 @@ This alta researcher is most interested in studying hot environments - magma, la
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Toxicologist**
 
@@ -1019,16 +1118,23 @@ This alta researcher is most interested in studying toxic environments - poisons
 
 ### Themed
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Alien Girl**
 
@@ -1038,9 +1144,9 @@ An alta cosplaying as an alien creature.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Warped Girl**
 
@@ -1050,9 +1156,9 @@ An alta cosplaying as a warped creature.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Albino Shark Cosplayer**
 
@@ -1062,9 +1168,9 @@ An alta cosplaying a monster from human history. Allegedly.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Banana**
 
@@ -1074,9 +1180,9 @@ An alta cosplaying a monster from apex history. Allegedly.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Dinogirl**
 
@@ -1086,9 +1192,9 @@ An alta cosplaying a monster from human history. Allegedly.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Gold Knight** (guard)
 
@@ -1098,9 +1204,9 @@ Likely just an alta cosplaying glitch knights as her fascination. Likely...
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Househead**
 
@@ -1110,9 +1216,9 @@ An alta cosplaying as a house. Yes, really.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Huntress** (guard)
 
@@ -1122,9 +1228,9 @@ Likely just an alta cosplaying floran hunters as her fascination. Likely...
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Knight** (guard)
 
@@ -1134,9 +1240,9 @@ Likely just an alta cosplaying glitch knights as her fascination. Likely...
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Pirate** (guard)
 
@@ -1146,9 +1252,9 @@ Likely just an alta cosplaying avian pirates as her fascination. Likely...
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Plantain Girl**
 
@@ -1158,9 +1264,9 @@ An alta cosplaying a super hero from apex folklore.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Shark Cosplayer**
 
@@ -1174,16 +1280,23 @@ An alta cosplaying a monster from human history. Allegedly.
 
 #### Travel
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Explorer**
 
@@ -1193,9 +1306,9 @@ An alta fully equipped to explore the furthest ends of different planets.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Traveller**
 
@@ -1209,16 +1322,23 @@ A regular alta traveller on a regular camping trip.
 
 #### Order
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Peacekeeper**
 
@@ -1228,9 +1348,9 @@ This alta is part of the interplanetary peacekeeper organization. While the unif
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Protectorate Student**
 
@@ -1244,16 +1364,23 @@ This alta was one of the students back at protectorate. While the uniform is not
 
 #### MKI
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **MKI Archiver** (merchant)
 
@@ -1263,9 +1390,9 @@ This alta is archiving the outcomes of MiniKnog Infiltration research and can sh
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Commander** (guard)
 
@@ -1275,9 +1402,9 @@ This alta is wearing an apex commander uniform to infiltrate Miniknog. While the
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Infiltrator** (guard)
 
@@ -1287,9 +1414,9 @@ This alta is a part of the MiniKnog Infiltration project. While the uniform is n
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Intruder** (guard)
 
@@ -1299,9 +1426,9 @@ This alta is the final result of the MiniKnog Infiltration project. While the un
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Navy** (guard)
 
@@ -1311,9 +1438,9 @@ This alta is wearing an apex navy uniform to infiltrate Miniknog. While the unif
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Officer**
 
@@ -1323,9 +1450,9 @@ This alta is wearing an apex officer uniform to infiltrate Miniknog. While the u
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Researcher**
 
@@ -1335,9 +1462,9 @@ This alta is part of the MiniKnog Infiltration research group that studies Minik
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **MKI Specialist**
 
@@ -1351,16 +1478,23 @@ This alta is wearing an apex specialist uniform to infiltrate Miniknog. While th
 
 #### Human
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Lunar Guard** (guard)
 
@@ -1370,9 +1504,9 @@ An alta astronaut helping human miners. While the uniform is not native to altas
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta FHC Operative** (guard)
 
@@ -1382,9 +1516,9 @@ This alta is a former member of the First Human Contact initiative. After protec
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Earth Fan**
 
@@ -1394,9 +1528,9 @@ An alta in human clothes. Some might not spot the difference.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Lunar Miner**
 
@@ -1406,9 +1540,9 @@ An alta helping humans mine erchius. While the uniform is not native to altas, s
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Office Worker**
 
@@ -1418,10 +1552,11 @@ An alta working with papers. While the uniform is not native to altas, she wears
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/peace1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta from the Outpost**
 
@@ -1429,8 +1564,7 @@ Tags: `alta` (8), `outpost` (18)
 
 An alta that frequents various outposts. Often has protectorate-related insignias and clothes usually seen on other species.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/outpost1.png)
 
@@ -1438,9 +1572,9 @@ An alta that frequents various outposts. Often has protectorate-related insignia
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Supervisor** (guard)
 
@@ -1454,16 +1588,23 @@ An alta designated to look after humans. While the uniform is not native to alta
 
 #### Nature
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Cal Merchant** (merchant)
 
@@ -1473,9 +1614,9 @@ This alta sells lots of crystals, crystalline and crystallic objects.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Stardust Merchant** (merchant)
 
@@ -1485,9 +1626,9 @@ This alta sells lots of stardust-enchanted things.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Viona Merchant** (merchant)
 
@@ -1497,9 +1638,9 @@ This alta sells items and things affected by vionia, or enchanted energy.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Warped Merchant** (merchant)
 
@@ -1509,9 +1650,9 @@ This alta sells lots of warpted growth and related things.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaara Merchant** (merchant)
 
@@ -1521,9 +1662,9 @@ This merchant sells lots yaara-related things.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Shadow Gardener**
 
@@ -1533,9 +1674,9 @@ An alta watching over a dark stone garden.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Stone Gardener**
 
@@ -1545,9 +1686,9 @@ An alta watching over a stone garden.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Arigaran**
 
@@ -1557,9 +1698,9 @@ A subtype of agarans coming from one of alterash prime planets.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Arigaran Merchant**
 
@@ -1569,9 +1710,9 @@ This arigaran wants to sell you stuff straight from the aric patches.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaara Sprout**
 
@@ -1581,9 +1722,9 @@ A floran born in a yaara grove, connected to it with their heart. This basic vil
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaarafinger**
 
@@ -1593,9 +1734,9 @@ A floran born in a yaara grove, meant to lead other florans in their grove to pr
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaaraling**
 
@@ -1605,9 +1746,9 @@ A diona that came together from various sentient critters of a yaara grove. Like
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaaviling**
 
@@ -1617,9 +1758,9 @@ A diona that came together from various sentient critters of a yaara grove. This
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaara Keeper**
 
@@ -1629,9 +1770,9 @@ A floran born in a yaara grove, ready to defend their home.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Yaara Shaman**
 
@@ -1641,9 +1782,9 @@ A floran born in a yaara grove, connected to it with their heart.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Aric Ghost**
 
@@ -1653,9 +1794,9 @@ It lurks beneath toxic mushrooms... silently.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Viona Creature**
 
@@ -1669,16 +1810,23 @@ An undescribable being created by viona. Can it see you?..
 
 #### Colorful
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Neon Dancer**
 
@@ -1688,9 +1836,9 @@ An alta dancer under neon spotlights creating a vibrant show.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Princess**
 
@@ -1700,9 +1848,9 @@ An alta in a pricess dress. At least that's what altas think princesses look lik
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Rainbow Girl** (guard)
 
@@ -1712,9 +1860,9 @@ A rainbow alta warrior that will defend her sisters at all costs.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Vibrant Dancer**
 
@@ -1728,16 +1876,23 @@ An alta in a vibrant neon suit about to dance a vibrant neon dance.
 
 #### Tropical
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Bedtimer**
 
@@ -1747,9 +1902,9 @@ An alta on a sleepover! Why isn't she sleeping?
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Hula Dancer**
 
@@ -1759,10 +1914,11 @@ An alta dancer who grew liking to certain parts of human culture, especially hul
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/calin1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Festival Girl**
 
@@ -1770,8 +1926,7 @@ Tags: `alta` (6), `island` (18)
 
 A festival visitor with a festive spirit and a pretty robe to go along with it.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin2.png)
@@ -1783,10 +1938,11 @@ A festival visitor with a festive spirit and a pretty robe to go along with it.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/calin1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Koywa Dancer**
 
@@ -1794,8 +1950,7 @@ Tags: `koywa` (12)
 
 A professional koywa dancer in a koywa skirt, likely performing a koywa dance.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin2.png)
@@ -1807,10 +1962,11 @@ A professional koywa dancer in a koywa skirt, likely performing a koywa dance.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/calin1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Swimmer**
 
@@ -1818,8 +1974,7 @@ Tags: `alta` (6), `oasis` (18)
 
 Just an alta at the beach - swimsuits, snorkels, party stuff.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin2.png)
@@ -1831,9 +1986,9 @@ Just an alta at the beach - swimsuits, snorkels, party stuff.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Floran Prisoner**
 
@@ -1843,10 +1998,11 @@ Yaara keepers have captured an alta and are holding her in their prison. She see
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/sprites/raw/npcs/calin1.png)
-</td><td>
+
+</td><td markdown="1">
 
 Type: **Alta Resort Girl**
 
@@ -1854,8 +2010,7 @@ Tags: `alta` (6), `sea` (18)
 
 An alta visiting a riverside resort. Often in sunglasses or a beautiful sunny hat.
 
-<details>
-<summary>Examples: (Expand)</summary>
+<details markdown="1"><summary>Examples: (Expand)</summary>
 
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin1.png)
 ![ ](https://raw.githubusercontent.com/wiki/Ceterai/Enternia/images/tenants/calin2.png)
@@ -1867,9 +2022,9 @@ An alta visiting a riverside resort. Often in sunglasses or a beautiful sunny ha
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Slimegirl**
 
@@ -1883,16 +2038,59 @@ An alta on a sleepover! Why isn't she sleeping?
 
 #### Holiday
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
+
+Type: **Alta Cupid**
+
+Tags: `alta` (4), `valentines` (12)
+
+A cheerful alta dressed as Cupid for Ava Day! She spreads friendship and joy with heart arrows~ (ෆ˙ᵕ˙ෆ)♡
+
+</td></tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
+
+Type: **Alta Girlfriend**
+
+Tags: `alta` (4), `ava_day` (10)
+
+A romantic alta celebrating Ava Day! She's here to spread love and warmth~ <3
+
+</td></tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
+
+Type: **Alta Love Merchant** (merchant)
+
+Tags: `alta` (4), `ava_day` (16), `storage` (18), `commerce` (12)
+
+This alta is celebrating Ava Day, and she's selling all kinds of romantic gifts and friendship items! Perfect for finding that special something for someone you care about~
+
+</td></tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Ceternity Girl**
 
@@ -1902,9 +2100,9 @@ An alta dressed up in spooky clothes. She's celebrating Ceternity!
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Halloween Girl**
 
@@ -1914,9 +2112,9 @@ An alta dressed up in spooky clothes. She's celebrating Ceternity! Or Halloween,
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Harrowing Girl**
 
@@ -1926,9 +2124,9 @@ An alta dressed up in spooky clothes. She's celebrating Ceternity! Or The Harrow
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Ceternity Merchant** (merchant)
 
@@ -1938,9 +2136,9 @@ This alta is celebrating Ceternity, and she's selling some festive goods!
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Spooky Girl**
 
@@ -1950,9 +2148,9 @@ An alta dressed up in spooky clothes. She's celebrating Ceternity!
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Holiday Girl**
 
@@ -1962,9 +2160,9 @@ An alta dressed up in human festive clothes. While the culture is not native to 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Sonaveil Girl**
 
@@ -1974,9 +2172,9 @@ A Sonaveil alta dressed in warm festive clothes.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Christmas Girl** (merchant)
 
@@ -1986,9 +2184,9 @@ An alta dressed up in human festive clothes giving out presents. While the cultu
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Sonaveil Merchant** (merchant)
 
@@ -2002,16 +2200,23 @@ A Sonaveil alta ready to provide you with means to celebrate the Sone's Veil!
 
 #### Track
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Brigadier** (guard)
 
@@ -2021,9 +2226,9 @@ This alta is guarding a special interspecies team of space explorers. While the 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Trackmate**
 
@@ -2037,16 +2242,23 @@ This alta is part of a special interspecies team of space explorers. While the u
 
 #### Tiered
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Copper Girl**
 
@@ -2056,9 +2268,9 @@ This alta is cosplaying as a copper warrior. Probably.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Iron Girl**
 
@@ -2068,9 +2280,9 @@ This alta is cosplaying as an iron warrior. Probably.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Impervium Protecta**
 
@@ -2080,9 +2292,9 @@ An alta protecta in impervium armor.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Tungsten Girl**
 
@@ -2092,9 +2304,9 @@ This alta is cosplaying as a tungsten warrior. Probably.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Titanium Girl**
 
@@ -2104,9 +2316,9 @@ This alta is cosplaying as a titanium warrior. Probably.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Durasteel Girl**
 
@@ -2116,9 +2328,9 @@ This alta is cosplaying as a durasteel warrior. Probably.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Aegisalt Protecta**
 
@@ -2128,9 +2340,9 @@ An alta protecta in aegisalt armor.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Ferozium Protecta**
 
@@ -2140,9 +2352,9 @@ An alta protecta in ferozium armor.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Violium Protecta**
 
@@ -2152,9 +2364,9 @@ An alta protecta in violium armor.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Solarium Protecta**
 
@@ -2164,9 +2376,9 @@ An alta protecta in solarium armor.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Diamond Protecta**
 
@@ -2180,16 +2392,23 @@ An alta protecta in diamond armor.
 
 ### Guards
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **EDS Guard** (guard)
 
@@ -2199,9 +2418,9 @@ A generic EDS protector alta. Has different equipment based on threat level.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Faradea Guard** (guard)
 
@@ -2211,9 +2430,9 @@ A generic Faradea merc alta. Has different equipment based on threat level.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Guard** (guard)
 
@@ -2227,16 +2446,23 @@ A generic protector alta. Has different equipment based on threat level.
 
 #### Level 3
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Medic** (guard)
 
@@ -2246,9 +2472,9 @@ An alta ready to assist other altas in need, anywhere and anytime.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Metrocop** (guard)
 
@@ -2258,9 +2484,9 @@ An alta analog of human police, equipped to easily traverse the city on her legs
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Scout** (guard)
 
@@ -2274,16 +2500,23 @@ A highly versatile scouting unit able to traverse difficult landscape with excep
 
 #### Level 4
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Elin Guard** (guard)
 
@@ -2293,9 +2526,9 @@ An alta security unit guarding the Elin Gardens from intruders.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Security Guard** (guard)
 
@@ -2305,9 +2538,9 @@ An alta security unit protecting vital infrastructure, commonly found in alta ci
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Security Captain** (guard)
 
@@ -2317,9 +2550,9 @@ An alta security unit commanding other units in her squad.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Thermounit** (guard)
 
@@ -2333,16 +2566,23 @@ A special camo unit meant to make the overgrown places on alta planets more habi
 
 #### Level 5
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Arknight** (guard)
 
@@ -2352,9 +2592,9 @@ An order keeper from the sky above, ready to assist any alta in trouble.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Soldier** (guard)
 
@@ -2364,9 +2604,9 @@ An alta army member with universal equipment.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Security** (guard)
 
@@ -2376,9 +2616,9 @@ An EDS member with standard protective equipment.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Faradea Merc** (guard)
 
@@ -2388,9 +2628,9 @@ A freedom-loving alta on a bounty. Or a treasure hunt. Or a contract. Or just pa
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Sona Soldier** (guard)
 
@@ -2404,16 +2644,23 @@ An alta soldier prepared for cold environments.
 
 #### Level 6
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Imperial Guard** (guard)
 
@@ -2423,9 +2670,9 @@ This heavily equipped alta guard is meant to protect alta capitals.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Army Captain** (guard)
 
@@ -2435,9 +2682,9 @@ This alta commands combat operations executed by regular alta army.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Dreamer** (guard)
 
@@ -2447,9 +2694,9 @@ This alta is a dreamer. Not that kind of dreamer - this one is a powerful indepe
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Heavy Soldier** (guard)
 
@@ -2459,9 +2706,9 @@ This heavily equipped EDS soldier is meant to protect highest security EDS objec
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Elite Guard** (guard)
 
@@ -2471,9 +2718,9 @@ This heavily equipped alta guard is meant to protect high security objects, like
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Faradea Scavenger** (guard)
 
@@ -2487,16 +2734,23 @@ A highly experienced faradea merc, used to field combat and difficult adventures
 
 #### Level 7 and above
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Citadel Guard** (guard)
 
@@ -2506,9 +2760,9 @@ WIP. These guards are granted the most efficient equipment Alliana has to offer 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Faradea Legend** (guard)
 
@@ -2518,9 +2772,9 @@ WIP. A true faradea merc, legendary for their deeds.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Spacedrifter** (guard)
 
@@ -2530,9 +2784,9 @@ WIP. An alta traveler, roaming the space and taking on cosmic adventures.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Stardust Scout** (guard)
 
@@ -2548,16 +2802,23 @@ WIP. A true alta protector, following the call of stardust.
 
 #### Androids
 
-<table> <tbody valign="top">
+<table markdown="1"> <tbody valign="top" markdown="1">
 
-<tr valign="middle"><th>
+<tr valign="middle" markdown="1">
+<th markdown="1">
+
 Sprite
-</th> <th>
-Description </th></tr>
 
-<tr><td valign="middle" align="middle">
+</th><th markdown="1">
 
-</td><td>
+Description
+
+</th>
+</tr>
+
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
+
+</td><td markdown="1">
 
 Type: **Alta Android** (guard)
 
@@ -2567,9 +2828,9 @@ A tier 1 alta robotic, android type. Performs general preset tasks.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **A.R.C.O. Android** (guard)
 
@@ -2579,9 +2840,9 @@ A tier 3 alta robotic, android type. Assists during A.R.C.O. research.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Imperial Android** (guard)
 
@@ -2591,9 +2852,9 @@ A tier 4 alta robotic, android type. Protects alta capitals alongside elite guar
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **C.T. Android** (guard)
 
@@ -2603,9 +2864,9 @@ A tier 4 alta robotic, android type. Assists during Project Ceterai research.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Combat Android** (guard)
 
@@ -2615,9 +2876,9 @@ A tier 3 alta robotic, android type. Assists in various alta combat missions.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Dreamer Android** (guard)
 
@@ -2627,9 +2888,9 @@ A tier 4 alta robotic, android type. Meant to gather the dreaming essence on ent
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **EDS Android** (guard)
 
@@ -2639,9 +2900,9 @@ A tier 3 alta robotic, android type. Assists in various EDS missions.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Elite Android** (guard)
 
@@ -2651,9 +2912,9 @@ A tier 4 alta robotic, android type. Protects high security objects along elite 
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Lab Android** (guard)
 
@@ -2663,9 +2924,9 @@ A tier 3 alta robotic, android type. Protects general alta labs.
 
 </td></tr>
 
-<tr><td valign="middle" align="middle">
+<tr markdown="1"><td valign="middle" align="middle" markdown="1">
 
-</td><td>
+</td><td markdown="1">
 
 Type: **Alta Security Android** (guard)
 

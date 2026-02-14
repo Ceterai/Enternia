@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_architect_station",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "mechanical" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Architect Station^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; heavy engineering station for constructing ^#60c0fc;vehicles^reset;, ^#60c0fc;mechs^reset;, and large-scale machinery.",
+  "longdescription" : "The Alta Architect Station is a tier 6 advanced heavy engineering workshop designed for fabricating extra-large devices and machinery. This massive station produces ^#60c0fc;vehicles^reset; like hovercrafts and exploratory rovers, ^#60c0fc;mechs^reset; for combat and construction, ^#60c0fc;terraformers^reset; for planetary modification, and ^#60c0fc;microformers^reset; for biome manipulation. It features heavy-duty assembly equipment, large-scale welding systems, and advanced CAD holographic design interfaces. The station represents the pinnacle of alta industrial engineering, capable of producing machinery far too large for standard crafting stations.",
+  "altaDescription" : "The big machinery workshop! This is where we build vehicles, mechs, and massive terraforming equipment. It's like the workshop but for REALLY big projects!~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta heavy engineering capabilities. Their vehicle and mech technology rivals our own.",
+  "avianDescription" : "A workshop for building grand machines! Vehicles that soar and mechs that march.",
+  "floranDescription" : "Makesss big metal thingsss. Big vechilesss, big robotsss. Floran impresssed.",
+  "glitchDescription" : "Impressed. This station's scale and engineering precision are remarkable achievements.",
+  "humanDescription" : "Heavy machinery workshop! Mechs, vehicles, terraformers - the big stuff.",
+  "hylotlDescription" : "Engineering on a grand scale. The alta balance ambition with careful craftsmanship.",
+  "novakidDescription" : "Big machine builder! Rovers, mechs, all kinds of heavy equipment and vehicles.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -34,26 +34,26 @@
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA ARCHITECT STATION", "subtitle" : "^noshadow;^#001054;Large Machinery & Vehicles" },
       "tab1" : { "file" : "" }, "tab2" : { "file" : "" }, "tab7" : { "file" : "" }, "tab8" : { "file" : "" },
       "bg1" : { "file" : "" }, "bg2" : { "file" : "" }, "bg7" : { "file" : "" }, "bg8" : { "file" : "" },
-      "tab3" : { "file" : "/items/active/alta/tools/grab/grabber/relocator.png:0" },
-      "tab4" : { "file" : "/items/augments/pet/ct_mindframe_collar.png" },
-      "tab5" : { "file" : "/items/active/alta/spawners/monsters/ct_crippit_egg.png" },
-      "tab6" : { "file" : "/objects/alta/special/trophies/ct_crippit_scab.png" },
+      "tab3" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab4" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab5" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
+      "tab6" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },
       "categories" : { "buttons" : [
         {
           "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "bestiarium_tools" ] }
+          "data" : { "filter" : [ "vehicles" ] }
         },
         {
           "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "collars" ] }
+          "data" : { "filter" : [ "mechs" ] }
         },
         {
           "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "monsters" ] }
+          "data" : { "filter" : [ "terraformers" ] }
         },
         {
           "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "monster_trophies" ] }
+          "data" : { "filter" : [ "microformers" ] }
         }
       ] }
     }

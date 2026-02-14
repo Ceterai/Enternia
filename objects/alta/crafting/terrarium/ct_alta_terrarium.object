@@ -1,11 +1,21 @@
 {
   "objectName" : "ct_alta_terrarium",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "science" ],
   "category" : "crafting",
   "level" : 4, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Terrarium^reset;",
-  "description" : "",
+  "description" : "An ^#b0e0fc;alta^reset; geology and archaeology station for studying rocks, excavating fossils, and preserving specimens.",
+  "longdescription" : "The Alta Terrarium is a tier 4 geological research station dedicated to the study of minerals, crystals, and ancient life. This comprehensive workshop produces archaeological tools like ^#60c0fc;brushes^reset; and excavation equipment, creates display cases for ^#60c0fc;rock samples^reset; and ^#60c0fc;fossils^reset;, and processes various geological materials. It features crystal analysis equipment for studying ^#20f080;alterash^reset; crystals, fossil preparation tools for displaying ancient remains, and terrariums for preserving mineral specimens. Essential for any alta geologist or paleontologist.",
+  "altaDescription" : "My geology station! I can make tools for excavating fossils, display cases for rock samples, and equipment for studying all sorts of minerals and crystals~",
+
+  "apexDescription" : "Alta geological research station. Their crystal analysis capabilities are quite advanced.",
+  "avianDescription" : "A workshop for studying rocks and ancient fossils! The earth holds many secrets.",
+  "floranDescription" : "Studiesss old dead thingsss in rocksss. Floran prefersss living thingsss but rocksss pretty.",
+  "glitchDescription" : "Intrigued. This station demonstrates alta dedication to understanding planetary history through geology.",
+  "humanDescription" : "Geology and archaeology station! Rock samples, fossil displays, excavation tools - the works.",
+  "hylotlDescription" : "A patient discipline. The study of ancient stones reveals the slow wisdom of time.",
+  "novakidDescription" : "Rock studyin' station! Diggin' up old fossils and lookin' at pretty minerals.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [

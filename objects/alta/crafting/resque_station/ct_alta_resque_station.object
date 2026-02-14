@@ -1,11 +1,21 @@
 {
   "objectName" : "ct_alta_resque_station",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "medical" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Resque Station^reset;",
-  "description" : "",
+  "description" : "An ^#b0e0fc;alta^reset; medical crafting station for emergency supplies, medicine, and protective equipment.",
+  "longdescription" : "The Alta Resque Station is a tier 6 emergency preparedness crafting station designed for producing medical supplies, protective gear, and survival equipment. This station creates everything from basic ^#60c0fc;bandages^reset; and healing items to advanced ^#60c0fc;enhancers^reset; and ^#60c0fc;shielders^reset;. It also produces emergency signaling equipment like glowsticks and flares for rescue operations. Essential for any alta outpost or exploration team, the Resque Station ensures altas are always prepared for medical emergencies and hazardous situations.",
+  "altaDescription" : "My emergency supply station! I can make medicine, protective gear, and emergency signals here. Safety first!~",
+
+  "apexDescription" : "Alta medical and emergency equipment fabrication. Comprehensive safety protocols.",
+  "avianDescription" : "A station for making medical supplies and emergency gear! Very important for explorers.",
+  "floranDescription" : "Makesss healing thingsss. Floran prefersss own methodsss but thisss helpsss too.",
+  "glitchDescription" : "Approving. A well-equipped medical fabrication station. Preparedness is vital.",
+  "humanDescription" : "First aid and emergency supply maker. Good to have this around!",
+  "hylotlDescription" : "A thoughtful station focused on wellness and safety. The alta value preservation of life.",
+  "novakidDescription" : "Medical station for makin' healin' supplies and safety gear. Real handy to have!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -14,7 +24,7 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/alta/crafting/ui4.config",
+    "config" : "/interface/alta/crafting/ui_tabs.config",
     "filter" : [ "alta_loot", "alta_ancient", "alta_aid", "alta_sanitary" ],
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA RESQUE STATION", "subtitle" : "^noshadow;^#001054;Medical & Emergency Supplies" },

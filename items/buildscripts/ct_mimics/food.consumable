@@ -191,6 +191,11 @@
       "description" : "Full of sweet-sweet hardened ^#9b2d3f;warped honey^reset;, enchanting ^#497c64;miko koywa^reset; extracts and ^#9b2d3f;archulin jam^reset;-based topping, this pie is basically filled with love! And... something else?...",
       "longdescription" : "It's known that ^#9b2d3f;nivera sentias^reset; are often seen baking this interesting dish, and feeding it to unsuspecting altas. Sounds scary...",
       "altaDescription" : "I'm not sure if it's right to eat a sentia's cooking. Only if none of them are nearby, I suppose.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
+      "paletteSwap" : {
+        "#c5fde7":"#fed7f3","#7aebbe":"#f1a4db","#4bcd98":"#dd84c5",
+        "#e24254":"#e24254","#bc1b32":"#bc1b32","#8b0c27":"#8b0c27",
+        "#be86f6":"#be86f6","#965cd1":"#965cd1","#7645a7":"#7645a7"
+      },
       "foodValue" : 40 },  // https://starbounder.org/Spooky_Pie
     "juni_porridge_w_galo" : { "baseAsset" : "/items/generic/food/tier2/specialrice.consumable",
       "shortdescription" : "Juni Porridge w/ Galo ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "calin_cuisine", "carel" ], "race" : "alta", "price" : 920,

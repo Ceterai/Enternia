@@ -1,21 +1,21 @@
 {
   "objectName" : "ct_alta_robocrafter",
-  "colonyTags" : [ "crafting" ],
+  // "colonyTags" : [ "crafting", "mechanical" ],
   "category" : "crafting",
   "level" : 6, "race" : "alta",
 
   "shortdescription" : "^orange;Alta Robocrafter^reset;",
-  "description" : "An alta sewing machine with additional functionality.",
-  "longdescription" : "Can create folded seams and protects the operator from the needle.",
-  "altaDescription" : "I can make cloth and clothing here.",
+  "description" : "An ^#b0e0fc;alta^reset; robotics assembly station for creating ^#60c0fc;drones^reset;, ^#60c0fc;droids^reset;, ^#60c0fc;androids^reset;, and AI helpers.",
+  "longdescription" : "The Alta Robocrafter is a tier 6 advanced robotics fabrication station specializing in artificial intelligence and mechanical companions. This sophisticated workshop creates everything from simple ^#60c0fc;security drones^reset; to complex ^#60c0fc;android helpers^reset;. The station includes AI core programming suites, neural network calibration tools, and precision robotic assembly equipment. It's the heart of alta robotics research, producing the mechanical companions that assist altas in daily tasks, security, exploration, and companionship.",
+  "altaDescription" : "My robot workshop! I can build all kinds of helpful companions here - drones, droids, and even advanced androids with AI personalities!~",
 
-  "apexDescription" : "Some sort of an alta mainframe. Might contain useful information.",
-  "avianDescription" : "A giant electronic library!",
-  "floranDescription" : "Floran can make equipment for wiring thingsss.",
-  "glitchDescription" : "Pleased. A workstation for creating wiring related equipment. Very handy.",
-  "humanDescription" : "Wiring related equipment can be crafted on this workstation. Neat!",
-  "hylotlDescription" : "For wiring tools and accessories, this is the go to workstation.",
-  "novakidDescription" : "A workstation for all things wirin' related.",
+  "apexDescription" : "Alta robotics assembly station. Their AI technology is surprisingly sophisticated.",
+  "avianDescription" : "A workshop for building robot companions! The alta create such helpful machines.",
+  "floranDescription" : "Makesss metal friendsss. Floran not trussst them like plantss but they work good.",
+  "glitchDescription" : "Fascinated. As a robotic being myself, I find alta AI development methodology quite intriguing.",
+  "humanDescription" : "Robot building station! From security drones to android buddies. Pretty cool tech.",
+  "hylotlDescription" : "An elegant synthesis of engineering and artificial consciousness. The alta honor their creations.",
+  "novakidDescription" : "Robot makin' station! All sorts of helpful mechanical critters and companions.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
@@ -24,7 +24,8 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/alta/crafting/ui4.config", "filter" : [ "alta_clothing" ],
+    "config" : "/interface/alta/crafting/ui_tabs.config",
+    "filter" : [ "alta_loot", "alta_ancient", "alta_robotics" ],
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;ALTA ROBOCRAFTER", "subtitle" : "^noshadow;^#001054;Robotics & AI" },
       "tab1" : { "file" : "/objects/alta/crafting/datacenter/icon.png" },

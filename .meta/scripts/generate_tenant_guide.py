@@ -127,33 +127,45 @@ def get_tenants_by_cats(all_tenants: list[Tenant]):
 
 def get_table_head():
     return '''
-<tr valign="middle"><th>
+
+<tr valign="middle" markdown=\"1\">
+<th markdown=\"1\">
+
 Sprite
-</th> <th>
-Description </th></tr>
+
+</th><th markdown=\"1\">
+
+Description
+
+</th>
+</tr>
 '''
 
 
 def get_table_expand(tenant: Tenant):
     return f'''
-<details>
-<summary>Examples: (Expand)</summary>
+
+<details markdown=\"1\"><summary>Examples: (Expand)</summary>
 
 {tenant.primary_images}
 
 {tenant.secondary_images}
 
 {tenant.old_images}
+
 </details>
+
 ''' if tenant.primary_images or tenant.secondary_images or tenant.old_images else ''
 
 
 def get_table_row(tenant: Tenant):
     return f'''
-<tr><td valign="middle" align="middle">
+
+<tr markdown=\"1\"><td valign="middle" align="middle" markdown=\"1\">
 
 {tenant.icon}
-</td><td>
+
+</td><td markdown=\"1\">
 
 Type: **{tenant.name}**{tenant.class_str}
 
@@ -161,17 +173,23 @@ Tags: {tenant.tags_str}
 
 {tenant.desc}
 {get_table_expand(tenant)}
+
 </td></tr>
+
 '''
 
 
 def get_table(tenants: list[Tenant]):
     rows = '\n'.join(get_table_row(tenant) for tenant in tenants)
     return f'''
-<table> <tbody valign="top">
+
+<table markdown=\"1\"> <tbody valign="top" markdown=\"1\">
+
 {get_table_head()}
 {rows}
+
 </table>
+
 '''
 
 
@@ -188,6 +206,6 @@ def get_text():
 
 
 def run():
-    with open(base.ROOT + FILE_PATH, 'w') as guide:
+    with open(base.ROOT + FILE_PATH, 'w', encoding='utf-8') as guide:
         guide.write(get_text())
     return AFFECTED_FILES

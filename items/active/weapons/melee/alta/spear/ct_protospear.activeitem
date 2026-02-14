@@ -208,9 +208,10 @@
   "builder" : "/items/buildscripts/alta/tool.lua",
 
   "upgradeParameters" : {
-    "shortdescription" : "Protea's Spear ^#8020f0;^reset;",
+    "shortdescription" : "Protea's Spear ^#8020f0;^reset;", "itemTags" : [ "weapon", "melee", "spear", "protea" ],
     "description" : "This ^#ffa8e8;stardust^reset; relic belongs to Protea. Seems like it's yours now. Enjoy!",
     "longdescription" : "And don't forget to say thank you, because this tool was very important to her.",
+    "altaDescription" : "Oaa, Protea's spear... Legends say it was fused with stardust all the way in Erenai... It feels light, yet powerful. I can see why she loved it so much.",
     "inventoryIcon" : "ct_protospear_2.png", "animationParts" : { "blade" : "ct_protospear_2.png" },
     "elementalType" : "electric",
     "primaryAbility" : {

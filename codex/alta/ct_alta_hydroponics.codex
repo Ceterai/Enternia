@@ -17,5 +17,8 @@
     "itemTags" : [ "data_source", "datamass", "farming" ],
     "builder" : "/items/buildscripts/alta/codex.lua",
     "learnBlueprintsOnPickup" : [ "ct_alta_lab_eco_pod", "ct_crimson_grass_seeds", "ct_alta_compact_sprinkler", "ct_alta_lab_sprinkler", "ct_alta_rincer" ]
+  },
+  "wiki" : {
+    "aliases" : { "Hydroponics" : { } }
   }
 }
