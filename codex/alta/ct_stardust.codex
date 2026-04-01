@@ -11,9 +11,13 @@
     "\"It's Io, silly!\" - the voice answered warmly and giggled slightly - \"She is the mother of everyone and everything, because even the smallest crystal is almost the same star as you, just much smaller... well, and perhaps not as sociable.\" - the voice chuckled cheerfully again, and the hand of its owner reached out to the star and began to stroke her head.",
     "\"Remember, my little flower, crystals are your good friends, so don't be mean to them.\" - the voice pointed out to her.\n\"I know! I'm already friends with them, I really like them!\" - the star answered her joyfully.\n\"That's good. Always remember that in any crystal, even just a stone, there can be a small speck of stardust. And even though not all things in this world are alive, all things have their own value, and everything has its own meaning.\""
   ],
-    "itemConfig" : {
-      "level" : 6,
-      "itemTags" : [ "data_source", "ebook", "stardust" ], "learnBlueprintsOnPickup" : [ "ct_stardust-codex" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 6, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "ebook", "stardust" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_stardust-codex",
+      "ct_glowstick_stardust"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

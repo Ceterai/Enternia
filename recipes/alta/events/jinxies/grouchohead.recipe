@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "orangedye", "count" : 1 },
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "volatilepowder", "count" : 16 },
+    { "item" : "titaniumbar", "count" : 1 }
+  ],
+  "output" : { "item" : "grouchohead", "count" : 1 },
+  "duration" : 0.95,
+  "groups" : [ "alta_festive", "jinxies" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bluedye", "count" : 2 },
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "paper", "count" : 1 }
+  ],
+  "duration" : 1.00,
+  "output" : { "item" : "ct_alta_paper-codex", "count" : 1 },
+  "groups" : [ "my_enternia", "alta", "alta_toys", "alta_codex", "codex", "other", "document", "paper", "all", "mod" ]
+}

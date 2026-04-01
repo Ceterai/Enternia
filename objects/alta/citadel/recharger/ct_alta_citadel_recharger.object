@@ -1,0 +1,38 @@
+{
+  "objectName" : "ct_alta_citadel_recharger",
+  "colonyTags" : [ "citadel", "electronic" ],
+  "category" : "misc", "objectType" : "container",
+  "level" : 6, "price" : 120, "race" : "alta",
+
+  "shortdescription" : "Alta Citadel Recharger ^#8020f0;^reset;",
+  "description" : "A powerful citadel-grade ^#b0e0fc;alta^reset; energy station that projects a strong ^#2080f0;energy^reset; replenishing field.",
+  "longdescription" : "High-end recharging technology exclusive to advanced ^#b0e0fc;alta^reset; installations. The storage bay remains non-functional for direct charging.",
+  "altaDescription" : "You can practically feel the energy radiating off this one! The output is no joke.",
+
+  "apexDescription" : "A high-power energy device. Impressive technology.",
+  "avianDescription" : "This device radiates powerful energy. Almost overwhelming.",
+  "floranDescription" : "Big buzzy box! Makess Floran's leaves stand up!",
+  "glitchDescription" : "Impressed. A high-output energy replenishing station.",
+  "humanDescription" : "A top-tier recharger. The energy field is intense.",
+  "hylotlDescription" : "A powerful recharging station. Remarkable engineering.",
+  "novakidDescription" : "Now THAT'S a recharger. I can feel it from here!",
+
+  "lightColor" : [0, 80, 192],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] },
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "statusEffects" : [ "ct_energy_generator" ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

@@ -9,7 +9,7 @@
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_notes_eds-codex" ],
-    "rarity" : "Rare",
-    "price" : 160
+    "level" : 5, "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -26,7 +26,7 @@ P.S. If you do come, I'll let you pet my fluffy tail, hehe ^^ (I got it because 
 
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "docs", "viona" ], "learnBlueprintsOnPickup" : [ "ct_viona-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

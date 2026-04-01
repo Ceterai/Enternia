@@ -11,7 +11,7 @@
     "As an example, ^#b0e0fc;Jinighat^reset; is an advanced alta dish that uses very rare crystals in its recipe, called ^#76c7e4;cojils^reset;.\n\n^#76c7e4;Cojil^reset; is a soury-hot crystal that can be found in volcanic underwater environments."
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [

@@ -31,7 +31,7 @@ The calling card of alta labs is considered to be the ^#b0e0fc;alta lab pod^rese
 
   ],
     "itemConfig" : {
-      "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "alta_lab" ], "learnBlueprintsOnPickup" : [ "ct_alta_lab-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

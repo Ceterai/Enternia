@@ -12,6 +12,9 @@
   "animationParts" : { "butt" : "", "middle" : "body.png", "barrel" : "", "muzzleFlash" : "" },
   "animationCustom" : { "sounds" : { "fire" : [ ] }, "lights" : { "muzzleFlash" : { "color" : [ 0, 0, 0 ] } } },
 
+  "baseOffset" : [0.0, 0.25],
+  "muzzleOffset" : [1.65, 0.65],
+
   "durability" : 20.0,
   "durabilityLabel" : "Charge: %s blows.",
   "durabilityPerUse" : 1,
@@ -21,7 +24,7 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"], "class" : "GunFire",
 
-    "fireTime" : 0.1, "baseDps" : 0, "energyUsage" : 0, "inaccuracy" : 0.02,
+    "fireTime" : 0.3, "baseDps" : 0, "energyUsage" : 0, "inaccuracy" : 0.02,
     "projectileCount" : 1, "fireType" : "auto",
 
     "projectileType" : "friendlybubble",

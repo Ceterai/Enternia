@@ -34,7 +34,7 @@ Common cooking recipes from ayaka byproducts include: ^#3587ff;Aya Fresh^reset;,
 
   ],
     "itemConfig" : {
-      "level" : 3,
+      "level" : 3, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "docs", "ayaka" ], "learnBlueprintsOnPickup" : [ "ct_ayaka-codex", "ct_ayaka_young_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

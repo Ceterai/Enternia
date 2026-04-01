@@ -14,7 +14,7 @@
     "Such a pastime smoothes out the atmosphere in the city, and increases the overall level of quality of life and satisfaction with its conditions, and numerous parks and common natural areas, along with cleanliness and order, are very pleasing to the eye."
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "city" ], "learnBlueprintsOnPickup" : [ "ct_alta_city-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

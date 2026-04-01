@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 1 },
+    { "item" : "volatilepowder", "count" : 4 },
+    { "item" : "paper", "count" : 1 }
+  ],
+  "output" : { "item" : "ct_jinxies_nade", "count" : 1 },
+  "duration" : 0.05,
+  "groups" : [ "my_enternia", "alta_food", "food", "consumables", "snacks", "all", "mod", "alta_festive", "jinxies", "spookysynergy" ]
+}

@@ -12,7 +12,7 @@
   ],
   "itemConfig" : {
     "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_logs_eds_reload-codex" ],
-    "rarity" : "Uncommon",
-    "price" : 120
+    "level" : 3, "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

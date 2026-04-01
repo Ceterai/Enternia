@@ -12,8 +12,8 @@
     "> ^#2080f0;Note^reset;: be cautious, since effects like ^#2080f0;Omniblue Vision^reset; and ^#2080f0;Energy Support System^reset; can be blocked by ^#2080f0;EMI attacks^reset;."
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_alternia-codex" ],
-    "rarity" : "Common",
-    "price" : 120
+    "itemTags" : [ "data_source", "docs" ], "learnBlueprintsOnPickup" : [ "ct_docs_units_alternia-codex" ],
+    "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

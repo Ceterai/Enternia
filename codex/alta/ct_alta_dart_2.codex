@@ -1,0 +1,24 @@
+{
+  "id" : "ct_alta_dart_2",
+  "title" : "Alta Dartic Championships",
+  "description" : "An electronic book for adepts of darts arts. (Unlocks advanced dart recipes)",
+  "longdescription" : "This in-depth encyclopedia covers everything from darts history to various blueprints for aerodynamic darts and enhanced dart boards.",
+  "altaDescription" : "This would probably be so heavy if it was made out of paper...",
+  "icon" : "ebook/isoslime.png",
+  "species" : "alta",
+  "contentPages" : [
+    "The table of contents lists several units of sport discovery, origins, development, then goes over the community and culture around it, as well as various strategies, techniques and detailed blueprints."
+  ],
+  "itemConfig" : {
+    "level" : 4, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "ebook", "toy" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_dart_2-codex",
+      "ct_alta_dart-codex",
+      "ct_alta_dart_ceterteal", "ct_alta_dart_omniblue", "ct_alta_dart_ionic",
+      "ct_alta_dart_hardboard", "ct_alta_dart_superboard", "ct_alta_dart_megaboard",
+      "ct_alta_darter"
+    ]
+  }
+}

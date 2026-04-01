@@ -22,7 +22,7 @@
     { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "bottom" ] }
   ],
 
-  "learnBlueprintsOnPickup" : [ "ct_sonaveil-codex", "ct_ceternity-codex", "ct_alta_new_year-codex" ],  // , "ct_ava_day_codex", "ct_alta_national_day_codex"
+  "learnBlueprintsOnPickup" : [ "ct_sonaveil-codex", "ct_ceternity-codex", "ct_alta_new_year-codex", "ct_ava_day-codex", "ct_jinxies-codex" ],  // , "ct_alta_national_day-codex"
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
     "config" : "/interface/alta/crafting/ui_tabs.config",
@@ -30,29 +30,37 @@
     "paneLayoutOverride" : {
       "windowtitle" : { "title" : "^noshadow;^#0050c0;FESTIVE STATION", "subtitle" : "^noshadow;^#001054;Holidays & Celebration" },
       "tab1" : { "file" : "" }, "bg1" : { "file" : "" },
-      "tab2" : { "file" : "" }, "bg2" : { "file" : "" },
-      "tab3" : { "file" : "/objects/alta/special/events/ceternity/neonjack/icon.png" },
-      "tab4" : { "file" : "/items/generic/crafting/holidayspirit.png" },
-      "tab5" : { "file" : "/items/active/alta/toys/fireworks/ct_stardust_firework.png" },
-      "tab6" : { "file" : "/items/active/alta/toys/fireworks/ct_alta_firework.png" },
-      "tab7" : { "file" : "" }, "bg7" : { "file" : "" },
+      "tab2" : { "file" : "/objects/alta/special/events/ceternity/neonjack/icon.png" },
+      "tab3" : { "file" : "/items/generic/crafting/holidayspirit.png" },
+      "tab4" : { "file" : "/items/active/alta/toys/fireworks/ct_stardust_firework.png" },
+      "tab5" : { "file" : "/items/active/alta/toys/bows/love/icon.png" },
+      "tab6" : { "file" : "/items/generic/food/events/jinxies/ct_jinxies_candy.png" },
+      "tab7" : { "file" : "/items/active/alta/toys/fireworks/ct_alta_firework.png" },
       "tab8" : { "file" : "" }, "bg8" : { "file" : "" },
       "categories" : { "buttons" : [
         {
-          "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [22, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "ceternity" ] }
         },
         {
-          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [38, 257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "sonaveil" ] }
         },
         {
-          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "position" : [54, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
           "data" : { "filter" : [ "new_year" ] }
         },
         {
+          "position" : [70, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "ava_day" ] }
+        },
+        {
           "position" : [86, 257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "national_day", "ava_day" ] }
+          "data" : { "filter" : [ "jinxies" ] }
+        },
+        {
+          "position" : [102,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
+          "data" : { "filter" : [ "national_day" ] }
         }
       ] }
     }

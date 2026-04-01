@@ -22,9 +22,15 @@ This is where a lot of stardust-related research comes from, as well as research
 This alliance is currently known as Astera Industries, or ^gray;Astera Ordis^reset; for short."
 
   ],
-    "itemConfig" : {
+  "itemConfig" : {
     "level" : 6, "tooltipKind" : "ct_alta_item_long",
-    "itemTags" : [ "data_source", "datamass", "astera" ], "learnBlueprintsOnPickup" : [ "ct_astera-codex" ],
+    "itemTags" : [ "data_source", "datamass", "astera" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_astera-codex",
+      "ct_glowstick_ceterteal",
+      "ct_glowstick_omniblue",
+      "ct_glowstick_ionic"
+    ],
     "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : { "Astera Ordis" : { } },

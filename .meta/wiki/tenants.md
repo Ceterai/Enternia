@@ -2586,7 +2586,7 @@ Description
 
 Type: **Arknight** (guard)
 
-Tags: `combat` (12), `rainbow` (8), `alta` (8)
+Tags: `combat` (12), `arknight` (8), `alta` (8)
 
 An order keeper from the sky above, ready to assist any alta in trouble.
 

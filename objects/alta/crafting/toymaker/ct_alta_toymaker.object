@@ -35,7 +35,7 @@
       "tab5" : { "file" : "/objects/alta/crafting/toymaker/tab_balls.png" },
       "tab6" : { "file" : "/objects/hylotl/arcadeblue/arcadeblueicon.png" },
       "tab7" : { "file" : "/objects/avian/goldenducky/goldenduckyicon.png" },
-      "tab8" : { "file" : "/objects/alta/special/figurines/other/ct_alta_af.png" },
+      "tab8" : { "file" : "/objects/alta/crafting/toymaker/tab_figurines.png" },
       "categories" : { "buttons" : [
         {
           "position" : [6,  257], "selected" : true, "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
@@ -63,7 +63,7 @@
         },
         {
           "position" : [102,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
-          "data" : { "filter" : [ "misc_toys" ] }  // rubber duck analogs
+          "data" : { "filter" : [ "misc_toys" ] }  // rubber duck analogs and fun clothing
         },
         {
           "position" : [118,257], "baseImage" : "/interface/alta/untab.png", "baseImageChecked" : "/interface/alta/tab.png",
@@ -72,6 +72,34 @@
       ] }
     }
   },
+
+  "learnBlueprintsOnPickup" : [
+    "ct_alta_dart",
+    "ct_alta_toy_flashlight",
+    "ct_ayaka_plane",
+    "ct_waterblaster",
+    "ct_alta_painter_blue",
+    "paper",
+    "ct_alta_firework",
+    "ct_alta_popper",
+    "ct_alta_basic_popper",
+    "ct_alta_bubble_wand",
+    "ct_alta_bubbler",
+    "ct_alta_bubble_cannon",
+    "ct_alta_neon_bubble_wand",
+    "ct_stardust_bubble_wand",
+    "ct_alta_toy_iso_ball",
+    "ct_alta_toy_pet_ball",
+    "ct_alta_toy_runeva_ball",
+    "ct_alta_toy_ryushay_ball",
+    "ct_alta_toy_vizhus_worm",
+    "ct_alta_toy_warpball",
+    "ct_alta_no_head",
+    "ct_alta_no_body",
+    "ct_alta_no_legs",
+    "ct_alta_no_back",
+    "teddybearplush"
+  ],
 
   "builder" : "/items/buildscripts/alta/object.lua"
 }

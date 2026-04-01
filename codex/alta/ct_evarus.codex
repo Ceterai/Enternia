@@ -27,7 +27,7 @@ And farthest from all, in every star, around it and everywhere, there is ^#ffa8e
 
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "eva" ], "learnBlueprintsOnPickup" : [ "ct_evarus-codex", "ct_ayaka_eva_tree" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

@@ -1,0 +1,18 @@
+{
+  "projectileName" : "ct_alta_dart_proj",
+  "image" : "ct_alta_dart.png",
+  "animationCycle" : 0.25,
+  "physics" : "bullet",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 180,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 200.0,
+  "damageKind" : "dagger",
+  "emitters" : [ "daggerblue" ]
+}

@@ -1,0 +1,14 @@
+{
+  "itemName" : "ct_alta_no_body",
+  "shortdescription" : "Invisible Shirt",
+  "description" : "Where did you go?!",
+
+  "race" : "alta",
+  "category" : "chestwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : { "body" : "chest.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+  "femaleFrames" : { "body" : "chest.png", "backSleeve" : "bsleeve.png", "frontSleeve" : "fsleeve.png" },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

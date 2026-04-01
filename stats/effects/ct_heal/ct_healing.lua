@@ -16,7 +16,13 @@ function initHealStats()
 end
 
 function healTick(dt)  -- Replenishes `healStat`. Doesn't apply in case where a non-player entity has <= 5 health, if `healStat` set to health.
-  if not (self.healingStat == "health" and entity.entityType() ~= 'player' and status.resource(self.healingStat) <= 5) then
+  if status.isResource(self.healingStat) and not
+    (
+      self.healingStat == "health" and
+      entity.entityType() ~= 'player' and
+      status.resource(self.healingStat) <= 5
+    )
+  then
     status.modifyResourcePercentage(self.healingStat, self.healingRate * dt)
   end
 end

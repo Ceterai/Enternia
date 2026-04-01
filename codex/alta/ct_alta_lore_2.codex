@@ -37,7 +37,7 @@ And thus, with the help of Io, altas were born.",
 
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_2-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

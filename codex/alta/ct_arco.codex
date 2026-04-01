@@ -22,7 +22,7 @@ Please see appropriate research, descriptions and instructions below.
 
   ],
     "itemConfig" : {
-      "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "datamass", "arco" ], "learnBlueprintsOnPickup" : [ "ct_arco-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

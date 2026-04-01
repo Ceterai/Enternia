@@ -29,7 +29,7 @@
     "questGenerator" : { "pools" : ["common", "tenant", "merchant"], "graduation" : { "nextNpcType" : [ [1, "crewmembertailor"] ] } },
     "merchant" : {
       "waitTime" : 40, "storeRadius" : 16, "poolsFile" : "/npcs/alta/shop.config", "buyFactorRange" : [ 1.8, 2.4 ], "sellFactorRange" : [ 0.2, 0.2 ],
-      "numItems" : 16, "categories" : { "default" : [ "art", "plushies", "designer", "music" ] }
+      "numItems" : 16, "categories" : { "default" : [ "art", "dyes", "plushies", "designer", "music" ] }
     },
     "dialogMode" : "random",  // default is "static", which chooses one and remembers it
     "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:artist" } }

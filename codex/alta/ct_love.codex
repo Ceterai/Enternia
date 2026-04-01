@@ -23,7 +23,7 @@
     "I'm sorry that I won't be able to travel with you, but I promise to forever light your path, so that you...\n\n...won't have to ever be afraid.\""
   ],
   "itemConfig" : {
-    "level" : 7,
+    "level" : 7, "tooltipKind" : "ct_alta_item",
     "itemTags" : [ "data_source", "ebook", "ava_day", "orchid", "lenn" ],
     "learnBlueprintsOnPickup" : [
       "ct_alta_date-codex",

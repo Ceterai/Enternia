@@ -1,0 +1,15 @@
+{
+  "itemName" : "ct_alta_no_head",
+  "shortdescription" : "Invisible Mask",
+  "description" : "Where did you go?!",
+
+  "race" : "alta",
+  "category" : "headwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

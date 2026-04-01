@@ -951,13 +951,24 @@
                 "holiday",
                 "toy"
             ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
             "used_in_recipes": [
                 "ct_alta_popper",
                 "ct_alta_rainbow_popper",
                 "ct_calline_popper",
                 "ct_sonaveil_popper",
                 "ct_stardust_popper"
-            ]
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_baton": {
             "path": "/items/active/alta/tools/other/ct_alta_baton.activeitem",
@@ -1170,7 +1181,15 @@
             "pickup_msgs": [
                 "ct_alta_weapon_msg",
                 "pickupbow"
-            ]
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_broom": {
             "path": "/items/active/alta/tools/clean/broom/ct_alta_broom.activeitem",
@@ -1208,7 +1227,18 @@
                 "physical",
                 "toy",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_bubble_wand": {
             "path": "/items/active/alta/toys/bubble/wands/basic/ct_alta_bubble_wand.activeitem",
@@ -1220,7 +1250,18 @@
                 "alta",
                 "common",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_bubbler": {
             "path": "/items/active/alta/toys/bubble/blaster/ct_alta_bubbler.activeitem",
@@ -1233,7 +1274,18 @@
                 "common",
                 "physical",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_bucket": {
             "path": "/items/active/alta/tools/water/bucket/ct_alta_bucket.activeitem",
@@ -1867,6 +1919,19 @@
                 "storage"
             ]
         },
+        "ct_alta_citadel_recharger": {
+            "path": "/objects/alta/citadel/recharger/ct_alta_citadel_recharger.object",
+            "rarity": "Legendary",
+            "power": 4.17,
+            "price": 500,
+            "icon": "/objects/alta/citadel/recharger/icon.png",
+            "colony": [
+                "alta",
+                "citadel",
+                "electronic",
+                "legendary"
+            ]
+        },
         "ct_alta_city-codex": {
             "path": "/codex/alta/ct_alta_city.codex",
             "rarity": "Uncommon",
@@ -2162,6 +2227,13 @@
                 "ct_alta_crafting_station2"
             ]
         },
+        "ct_alta_credit": {
+            "path": "/items/generic/other/ct_alta_credit.item",
+            "rarity": "Uncommon",
+            "power": 2.5,
+            "price": 10,
+            "icon": "/items/generic/other/ct_alta_credit.png"
+        },
         "ct_alta_crystal_bed": {
             "path": "/objects/alta/special/plants/beds/crystal/ct_alta_crystal_bed.object",
             "rarity": "Common",
@@ -2318,7 +2390,156 @@
                 "common",
                 "throwing_dart",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart-codex",
+                "ct_alta_toymaker"
+            ],
+            "used_in_recipes": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_dart-codex": {
+            "path": "/codex/alta/ct_alta_dart.codex",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/codex/alta/datamass/sona.png",
+            "tags": [
+                "common",
+                "data_source",
+                "datamass",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_dart",
+                "ct_alta_dart-codex",
+                "ct_alta_dart_board"
+            ],
+            "unlocked_by": [
+                "ct_alta_dart-codex",
+                "ct_alta_dart_2-codex"
+            ],
+            "pickup_msgs": [
+                "ct_datamass_msg"
+            ],
+            "used_in_recipes": [
+                "ct_alta_dart_2-codex",
+                "ct_alta_plush_1-codex",
+                "ct_alta_plush_2-codex",
+                "ct_alta_plush_3-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
+        },
+        "ct_alta_dart_2-codex": {
+            "path": "/codex/alta/ct_alta_dart_2.codex",
+            "rarity": "Uncommon",
+            "power": 1.0,
+            "icon": "/codex/alta/ebook/isoslime.png",
+            "tags": [
+                "data_source",
+                "ebook",
+                "toy",
+                "uncommon"
+            ],
+            "unlocks_bps": [
+                "ct_alta_dart-codex",
+                "ct_alta_dart_2-codex",
+                "ct_alta_dart_ceterteal",
+                "ct_alta_dart_hardboard",
+                "ct_alta_dart_ionic",
+                "ct_alta_dart_megaboard",
+                "ct_alta_dart_omniblue",
+                "ct_alta_dart_superboard",
+                "ct_alta_darter"
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "pickup_msgs": [
+                "ct_ebook_msg"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
         },
         "ct_alta_dart_board": {
             "path": "/objects/alta/special/tools/boards/darts/basic/ct_alta_dart_board.object",
@@ -2335,7 +2556,18 @@
                 "alta",
                 "common",
                 "party"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_ceterteal": {
             "path": "/items/active/alta/toys/dart/ct_alta_dart_ceterteal.thrownitem",
@@ -2348,14 +2580,25 @@
                 "common",
                 "throwing_dart",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_hardboard": {
             "path": "/objects/alta/special/tools/boards/darts/hard/ct_alta_dart_hardboard.object",
             "rarity": "Uncommon",
             "power": 2.0,
             "price": 400,
-            "icon": "/objects/alta/special/tools/boards/darts/hard/body.png",
+            "icon": "/objects/alta/special/tools/boards/darts/hard/icon.png",
             "tags": [
                 "alta",
                 "toy",
@@ -2365,7 +2608,18 @@
                 "alta",
                 "party",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_ionic": {
             "path": "/items/active/alta/toys/dart/ct_alta_dart_ionic.thrownitem",
@@ -2378,14 +2632,25 @@
                 "common",
                 "throwing_dart",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_megaboard": {
             "path": "/objects/alta/special/tools/boards/darts/mega/ct_alta_dart_megaboard.object",
             "rarity": "Rare",
             "power": 3.0,
             "price": 600,
-            "icon": "/objects/alta/special/tools/boards/darts/mega/body.png",
+            "icon": "/objects/alta/special/tools/boards/darts/mega/icon.png",
             "tags": [
                 "alta",
                 "rare",
@@ -2395,7 +2660,18 @@
                 "alta",
                 "party",
                 "rare"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_omniblue": {
             "path": "/items/active/alta/toys/dart/ct_alta_dart_omniblue.thrownitem",
@@ -2408,14 +2684,25 @@
                 "common",
                 "throwing_dart",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_dart_superboard": {
             "path": "/objects/alta/special/tools/boards/darts/super/ct_alta_dart_superboard.object",
             "rarity": "Uncommon",
             "power": 2.5,
             "price": 500,
-            "icon": "/objects/alta/special/tools/boards/darts/super/body.png",
+            "icon": "/objects/alta/special/tools/boards/darts/super/icon.png",
             "tags": [
                 "alta",
                 "toy",
@@ -2425,7 +2712,155 @@
                 "alta",
                 "party",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_darter": {
+            "path": "/items/active/alta/toys/dart/rifle/ct_alta_darter.activeitem",
+            "rarity": "Uncommon",
+            "power": 2.5,
+            "price": 1800,
+            "icon": "/items/active/alta/toys/dart/rifle/ct_alta_darter.png",
+            "tags": [
+                "alta",
+                "physical",
+                "ranged",
+                "toy",
+                "uncommon"
+            ],
+            "unlocks_bps": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "unlocked_by": [
+                "ct_alta_dart_2-codex",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_darter_ceterteal": {
+            "path": "/items/active/alta/toys/dart/rifle/ct_alta_darter_ceterteal.activeitem",
+            "rarity": "Rare",
+            "power": 3.0,
+            "price": 2160,
+            "icon": "/items/active/alta/toys/dart/rifle/ct_alta_darter_ceterteal.png",
+            "tags": [
+                "alta",
+                "physical",
+                "ranged",
+                "rare",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "unlocked_by": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_darter_ionic": {
+            "path": "/items/active/alta/toys/dart/rifle/ct_alta_darter_ionic.activeitem",
+            "rarity": "Rare",
+            "power": 3.0,
+            "price": 2160,
+            "icon": "/items/active/alta/toys/dart/rifle/ct_alta_darter_ionic.png",
+            "tags": [
+                "alta",
+                "physical",
+                "ranged",
+                "rare",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "unlocked_by": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_darter_omniblue": {
+            "path": "/items/active/alta/toys/dart/rifle/ct_alta_darter_omniblue.activeitem",
+            "rarity": "Rare",
+            "power": 3.0,
+            "price": 2160,
+            "icon": "/items/active/alta/toys/dart/rifle/ct_alta_darter_omniblue.png",
+            "tags": [
+                "alta",
+                "physical",
+                "ranged",
+                "rare",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "unlocked_by": [
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_datacenter": {
             "path": "/objects/alta/crafting/datacenter/ct_alta_datacenter.object",
@@ -3021,11 +3456,16 @@
                 "crystallamp",
                 "ct_alta_and",
                 "ct_alta_capital_terminal",
+                "ct_alta_citadel_recharger",
                 "ct_alta_clock",
                 "ct_alta_constructor",
                 "ct_alta_cooler",
                 "ct_alta_crafting_station4",
                 "ct_alta_crafting_station5",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_delay",
                 "ct_alta_eco_pod",
                 "ct_alta_energy_block",
@@ -3090,6 +3530,7 @@
                 "ct_alta_security_legwear",
                 "ct_alta_security_mk2_set",
                 "ct_alta_security_pod",
+                "ct_alta_security_recharger",
                 "ct_alta_security_set",
                 "ct_alta_security_spike",
                 "ct_alta_security_stand",
@@ -3658,7 +4099,9 @@
             ],
             "unlocks_bps": [
                 "ct_alta_new_year-codex",
+                "ct_ava_day-codex",
                 "ct_ceternity-codex",
+                "ct_jinxies-codex",
                 "ct_sonaveil-codex"
             ]
         },
@@ -3685,7 +4128,18 @@
                 "common",
                 "holiday",
                 "patriotic"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_firework_cannon": {
             "path": "/items/active/alta/toys/fireworks/cannon/ct_alta_firework_cannon.activeitem",
@@ -7486,7 +7940,18 @@
                 "alta",
                 "common",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_new_year-codex": {
             "path": "/codex/alta/ct_alta_new_year.codex",
@@ -7513,6 +7978,42 @@
             "unlocked_by": [
                 "ct_alta_festive_station",
                 "ct_alta_new_year-codex"
+            ]
+        },
+        "ct_alta_no_back": {
+            "path": "/items/armors/misc/ct_invisible/back/ct_alta_no_back.back",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/armors/misc/ct_invisible/back/icon.png",
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ]
+        },
+        "ct_alta_no_body": {
+            "path": "/items/armors/misc/ct_invisible/chest/ct_alta_no_body.chest",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/armors/misc/ct_invisible/chest/icon.png",
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ]
+        },
+        "ct_alta_no_head": {
+            "path": "/items/armors/misc/ct_invisible/head/ct_alta_no_head.head",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/armors/misc/ct_invisible/head/icon.png",
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ]
+        },
+        "ct_alta_no_legs": {
+            "path": "/items/armors/misc/ct_invisible/legs/ct_alta_no_legs.legs",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/armors/misc/ct_invisible/legs/icon.png",
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ]
         },
         "ct_alta_not": {
@@ -7751,52 +8252,200 @@
             }
         },
         "ct_alta_painter_blue": {
-            "path": "/items/active/alta/toys/paint/paintgunblue.activeitem",
-            "rarity": "Uncommon",
+            "path": "/items/active/alta/toys/paint/ct_alta_painter_blue.activeitem",
+            "rarity": "Common",
             "power": 1.0,
-            "price": 500,
-            "icon": "/items/active/alta/toys/paint/paintgunblue.png",
+            "price": 720,
+            "icon": "/items/active/alta/toys/paint/ct_alta_painter_blue.png",
             "tags": [
+                "alta",
+                "common",
                 "physical",
-                "toy",
-                "uncommon"
-            ]
+                "ranged",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "unlocked_by": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red",
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_painter_green": {
-            "path": "/items/active/alta/toys/paint/paintgungreen.activeitem",
-            "rarity": "Uncommon",
+            "path": "/items/active/alta/toys/paint/ct_alta_painter_green.activeitem",
+            "rarity": "Common",
             "power": 1.0,
-            "price": 500,
-            "icon": "/items/active/alta/toys/paint/paintgungreen.png",
+            "price": 720,
+            "icon": "/items/active/alta/toys/paint/ct_alta_painter_green.png",
             "tags": [
+                "alta",
+                "common",
                 "physical",
-                "toy",
-                "uncommon"
-            ]
+                "ranged",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "unlocked_by": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_painter_purple": {
-            "path": "/items/active/alta/toys/paint/paintgunpurple.activeitem",
-            "rarity": "Uncommon",
+            "path": "/items/active/alta/toys/paint/ct_alta_painter_purple.activeitem",
+            "rarity": "Common",
             "power": 1.0,
-            "price": 500,
-            "icon": "/items/active/alta/toys/paint/paintgunpurple.png",
+            "price": 720,
+            "icon": "/items/active/alta/toys/paint/ct_alta_painter_purple.png",
             "tags": [
+                "alta",
+                "common",
                 "physical",
-                "toy",
-                "uncommon"
-            ]
+                "ranged",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "unlocked_by": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_painter_red": {
-            "path": "/items/active/alta/toys/paint/paintgunred.activeitem",
-            "rarity": "Uncommon",
+            "path": "/items/active/alta/toys/paint/ct_alta_painter_red.activeitem",
+            "rarity": "Common",
             "power": 1.0,
-            "price": 500,
-            "icon": "/items/active/alta/toys/paint/paintgunred.png",
+            "price": 720,
+            "icon": "/items/active/alta/toys/paint/ct_alta_painter_red.png",
             "tags": [
+                "alta",
+                "common",
                 "physical",
-                "toy",
-                "uncommon"
-            ]
+                "ranged",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "unlocked_by": [
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_paper-codex": {
+            "path": "/codex/alta/ct_alta_paper.codex",
+            "rarity": "Rare",
+            "power": 1.0,
+            "icon": "/codex/alta/paper/short.png",
+            "tags": [
+                "data_source",
+                "docs",
+                "rare",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_paper-codex",
+                "ct_alta_plane",
+                "ct_alta_plane_cool",
+                "ct_alta_plane_pretty",
+                "ct_ayaka_plane",
+                "paper"
+            ],
+            "unlocked_by": [
+                "ct_alta_paper-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
         },
         "ct_alta_pick": {
             "path": "/items/active/alta/tools/mine/pick/ct_alta_pick.miningtool",
@@ -7894,7 +8543,18 @@
                 "common",
                 "paper_plane",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_paper-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_plane_cool": {
             "path": "/items/active/alta/toys/paper/plane/ct_alta_plane_cool.thrownitem",
@@ -7907,7 +8567,18 @@
                 "paper_plane",
                 "rare",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_paper-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_plane_pretty": {
             "path": "/items/active/alta/toys/paper/plane/ct_alta_plane_pretty.thrownitem",
@@ -7920,7 +8591,18 @@
                 "paper_plane",
                 "toy",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_paper-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_plant": {
             "path": "/objects/alta/special/plants/pods/alta/ct_alta_plant.object",
@@ -8241,6 +8923,194 @@
                 "ct_alta_cookdecks"
             ]
         },
+        "ct_alta_plush_1-codex": {
+            "path": "/codex/alta/ct_alta_plush_1.codex",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/codex/alta/ebook/basic.png",
+            "tags": [
+                "common",
+                "data_source",
+                "ebook",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_plush_1-codex",
+                "ct_boko_plush",
+                "ct_kira_plush",
+                "ct_kuda_plush",
+                "ct_poi_plush"
+            ],
+            "unlocked_by": [
+                "ct_alta_plush_1-codex"
+            ],
+            "pickup_msgs": [
+                "ct_ebook_msg"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
+        },
+        "ct_alta_plush_2-codex": {
+            "path": "/codex/alta/ct_alta_plush_2.codex",
+            "rarity": "Uncommon",
+            "power": 1.0,
+            "icon": "/codex/alta/ebook/basic.png",
+            "tags": [
+                "data_source",
+                "ebook",
+                "toy",
+                "uncommon"
+            ],
+            "unlocks_bps": [
+                "badgooplush",
+                "ct_alta_plush_2-codex",
+                "plainorbplush",
+                "poptopplush"
+            ],
+            "unlocked_by": [
+                "ct_alta_plush_2-codex"
+            ],
+            "pickup_msgs": [
+                "ct_ebook_msg"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
+        },
+        "ct_alta_plush_3-codex": {
+            "path": "/codex/alta/ct_alta_plush_3.codex",
+            "rarity": "Rare",
+            "power": 1.0,
+            "icon": "/codex/alta/ebook/basic.png",
+            "tags": [
+                "data_source",
+                "ebook",
+                "rare",
+                "toy"
+            ],
+            "unlocks_bps": [
+                "ct_alta_plush_3-codex",
+                "ct_astral_narfin_plush",
+                "ct_aya_virma_plush",
+                "ct_omni_narfin_plush",
+                "ct_valley_poptop_plush"
+            ],
+            "unlocked_by": [
+                "ct_alta_plush_3-codex"
+            ],
+            "pickup_msgs": [
+                "ct_ebook_msg"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_codexes"
+                ],
+                "tables": [
+                    "ct_alta_codexes",
+                    "ct_alta_loot",
+                    "ct_alta_pod_0",
+                    "ct_alta_pod_1",
+                    "ct_alta_pod_2",
+                    "ct_alta_pod_loot",
+                    "ct_alterashEndTreasure"
+                ],
+                "chests": [
+                    "ct_alta_pod_tier0",
+                    "ct_alta_pod_tier1",
+                    "ct_alta_pod_tier2",
+                    "ct_big_cargoChest"
+                ],
+                "chest_objects": [
+                    "ct_alta_pod",
+                    "ct_alta_security_pod",
+                    "outpostshippingcontainer"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_alta_loot_tier0",
+                    "ct_alta_loot_tier1",
+                    "ct_alta_loot_tier2"
+                ]
+            }
+        },
         "ct_alta_pod": {
             "path": "/objects/alta/city/pod/ct_alta_pod.object",
             "rarity": "Uncommon",
@@ -8375,9 +9245,20 @@
                 "holiday",
                 "toy"
             ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
             "used_in_recipes": [
                 "ct_alta_firework"
-            ]
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_pot": {
             "path": "/objects/alta/cooking/pot/ct_alta_pot.object",
@@ -8591,6 +9472,26 @@
             ],
             "unlocked_by": [
                 "ct_alta_new_year-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_alta_recharger": {
+            "path": "/objects/alta/city/recharger/ct_alta_recharger.object",
+            "rarity": "Common",
+            "power": 1.5,
+            "price": 180,
+            "icon": "/objects/alta/city/recharger/icon.png",
+            "colony": [
+                "alta",
+                "common",
+                "electronic"
             ]
         },
         "ct_alta_relocator": {
@@ -11054,6 +11955,19 @@
                 "uncommon"
             ]
         },
+        "ct_alta_security_recharger": {
+            "path": "/objects/alta/security/recharger/ct_alta_security_recharger.object",
+            "rarity": "Uncommon",
+            "power": 2.5,
+            "price": 300,
+            "icon": "/objects/alta/security/recharger/icon.png",
+            "colony": [
+                "alta",
+                "alta_security",
+                "electronic",
+                "uncommon"
+            ]
+        },
         "ct_alta_security_set": {
             "path": "/items/active/alta/sets/security.activeitem",
             "rarity": "Uncommon",
@@ -12780,7 +13694,6 @@
                 "poison",
                 "robotics",
                 "spawner",
-                "specops",
                 "throwable"
             ],
             "pickup_msgs": [
@@ -13634,18 +14547,32 @@
                 "alta",
                 "toy",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_alta_toy_iso_ball": {
-            "path": "/items/throwables/toys/ct_alta_toy_iso_ball.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_iso_ball.thrownitem",
             "rarity": "Common",
             "power": 1.5,
             "price": 240,
-            "icon": "/items/throwables/toys/ct_alta_toy_iso_ball.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_iso_ball.png",
             "tags": [
                 "common",
                 "isoslime",
                 "toy"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "sources": {
                 "tables_explicit": [
@@ -13672,15 +14599,18 @@
             }
         },
         "ct_alta_toy_pet_ball": {
-            "path": "/items/throwables/toys/ct_alta_toy_pet_ball.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_pet_ball.thrownitem",
             "rarity": "Common",
             "power": 1.0,
             "price": 160,
-            "icon": "/items/throwables/toys/ct_alta_toy_pet_ball.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_pet_ball.png",
             "tags": [
                 "alta",
                 "common",
                 "toy"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "sources": {
                 "tables_explicit": [
@@ -13730,16 +14660,19 @@
             }
         },
         "ct_alta_toy_runeva_ball": {
-            "path": "/items/throwables/toys/ct_alta_toy_runeva_ball.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_runeva_ball.thrownitem",
             "rarity": "Rare",
             "power": 3.0,
             "price": 480,
-            "icon": "/items/throwables/toys/ct_alta_toy_runeva_ball.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_runeva_ball.png",
             "tags": [
                 "alta",
                 "beach",
                 "rare",
                 "toy"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "sources": {
                 "tables_explicit": [
@@ -13770,16 +14703,19 @@
             }
         },
         "ct_alta_toy_ryushay_ball": {
-            "path": "/items/throwables/toys/ct_alta_toy_ryushay_ball.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_ryushay_ball.thrownitem",
             "rarity": "Legendary",
             "power": 3.5,
             "price": 560,
-            "icon": "/items/throwables/toys/ct_alta_toy_ryushay_ball.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_ryushay_ball.png",
             "tags": [
                 "alta",
                 "beach",
                 "legendary",
                 "toy"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "sources": {
                 "tables_explicit": [
@@ -13806,16 +14742,19 @@
             }
         },
         "ct_alta_toy_vizhus_worm": {
-            "path": "/items/throwables/toys/ct_alta_toy_vizhus_worm.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_vizhus_worm.thrownitem",
             "rarity": "Legendary",
             "power": 4.0,
             "price": 640,
-            "icon": "/items/throwables/toys/ct_alta_toy_vizhus_worm.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_vizhus_worm.png",
             "tags": [
                 "alta",
                 "legendary",
                 "toy",
                 "viona"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "sources": {
                 "tables_explicit": [
@@ -13842,15 +14781,18 @@
             }
         },
         "ct_alta_toy_warpball": {
-            "path": "/items/throwables/toys/ct_alta_toy_warpball.thrownitem",
+            "path": "/items/active/alta/toys/soft/ct_alta_toy_warpball.thrownitem",
             "rarity": "Uncommon",
             "power": 2.5,
             "price": 400,
-            "icon": "/items/throwables/toys/ct_alta_toy_warpball.png",
+            "icon": "/items/active/alta/toys/soft/ct_alta_toy_warpball.png",
             "tags": [
                 "toy",
                 "uncommon",
                 "warped"
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
             ],
             "pickup_msgs": [
                 "ct_warped_msg"
@@ -13874,6 +14816,33 @@
                 "crafting",
                 "party",
                 "rare"
+            ],
+            "unlocks_bps": [
+                "ct_alta_basic_popper",
+                "ct_alta_bubble_cannon",
+                "ct_alta_bubble_wand",
+                "ct_alta_bubbler",
+                "ct_alta_dart",
+                "ct_alta_firework",
+                "ct_alta_neon_bubble_wand",
+                "ct_alta_no_back",
+                "ct_alta_no_body",
+                "ct_alta_no_head",
+                "ct_alta_no_legs",
+                "ct_alta_painter_blue",
+                "ct_alta_popper",
+                "ct_alta_toy_flashlight",
+                "ct_alta_toy_iso_ball",
+                "ct_alta_toy_pet_ball",
+                "ct_alta_toy_runeva_ball",
+                "ct_alta_toy_ryushay_ball",
+                "ct_alta_toy_vizhus_worm",
+                "ct_alta_toy_warpball",
+                "ct_ayaka_plane",
+                "ct_stardust_bubble_wand",
+                "ct_waterblaster",
+                "paper",
+                "teddybearplush"
             ]
         },
         "ct_alta_trans_drone": {
@@ -14981,8 +15950,7 @@
                 "crystal",
                 "energy_source",
                 "rare",
-                "reagent",
-                "shard"
+                "reagent"
             ],
             "used_in_recipes": [
                 "crystal",
@@ -16625,7 +17593,10 @@
                 "legendary"
             ],
             "unlocks_bps": [
-                "ct_astera-codex"
+                "ct_astera-codex",
+                "ct_glowstick_ceterteal",
+                "ct_glowstick_ionic",
+                "ct_glowstick_omniblue"
             ],
             "unlocked_by": [
                 "ct_astera-codex"
@@ -16834,6 +17805,9 @@
                 "pretty",
                 "rare"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_3-codex"
+            ],
             "sources": {
                 "tables_explicit": [
                     "ct_astral_narfin_hunt"
@@ -17015,6 +17989,7 @@
             ],
             "unlocked_by": [
                 "ct_alta_date-codex",
+                "ct_alta_festive_station",
                 "ct_ava_day-codex"
             ],
             "sources": {
@@ -18883,6 +19858,9 @@
                 "pretty",
                 "uncommon"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_3-codex"
+            ],
             "sources": {
                 "merchants": [
                     "ct_alta_artist",
@@ -19214,7 +20192,19 @@
                 "common",
                 "paper_plane",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_paper-codex",
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_ayaka_prime_tree": {
             "path": "/objects/biome/alterash/ayaka/ct_ayaka_prime_tree.object",
@@ -19480,6 +20470,7 @@
                 "ct_alta_circuit",
                 "ct_alta_cooler",
                 "ct_alta_dart",
+                "ct_alta_dart-codex",
                 "ct_alta_date-codex",
                 "ct_alta_door",
                 "ct_alta_dye",
@@ -20080,11 +21071,9 @@
             "icon": "/items/armors/biome/colorful/crayonredback/icon.png",
             "sources": {
                 "merchants": [
-                    "ct_alta_artist",
                     "ct_alta_party"
                 ],
                 "merchant_tenants": [
-                    "ct_alta_artist_tenant",
                     "ct_alta_party_tenant"
                 ]
             }
@@ -20979,6 +21968,7 @@
                 "ct_alta_cake_af",
                 "ct_alta_capital_android",
                 "ct_alta_citadel_pod",
+                "ct_alta_citadel_recharger",
                 "ct_alta_compact_sprinkler",
                 "ct_alta_crafting_station9",
                 "ct_alta_defensive_droid",
@@ -21548,7 +22538,12 @@
             ],
             "used_in_recipes": [
                 "ct_aid_mimic",
+                "ct_alta_dart-codex",
+                "ct_alta_dart_2-codex",
                 "ct_alta_date-codex",
+                "ct_alta_plush_1-codex",
+                "ct_alta_plush_2-codex",
+                "ct_alta_plush_3-codex",
                 "ct_bion",
                 "ct_bionid_augment",
                 "ct_bionid_loot",
@@ -21637,7 +22632,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_bionid-codex"
+                "ct_bionid-codex",
+                "ct_glowstick_bionid"
             ],
             "unlocked_by": [
                 "ct_bionid-codex"
@@ -23131,6 +24127,9 @@
                 "common",
                 "pretty"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_1-codex"
+            ],
             "sources": {
                 "merchants": [
                     "ct_alta_artist",
@@ -23475,7 +24474,8 @@
             ],
             "unlocks_bps": [
                 "ct_calin-codex",
-                "ct_calin_seed"
+                "ct_calin_seed",
+                "ct_glowstick_crystal"
             ],
             "unlocked_by": [
                 "ct_calin-codex"
@@ -24768,7 +25768,18 @@
                 "holiday",
                 "toy",
                 "uncommon"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_crystalline_prime-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_calocol_tulip_af": {
             "path": "/objects/alta/special/plants/pots/flowers/calocol/af.object",
@@ -28679,8 +29690,10 @@
                 "rare"
             ],
             "unlocks_bps": [
+                "ct_calline_popper",
                 "ct_carel_sapling",
-                "ct_crystalline_prime-codex"
+                "ct_crystalline_prime-codex",
+                "ct_glowstick_calline"
             ],
             "unlocked_by": [
                 "ct_crystalline_prime-codex"
@@ -29175,11 +30188,13 @@
             ],
             "sources": {
                 "tables_explicit": [
+                    "ct_alta_codexes_0",
                     "ct_alta_official_gift",
                     "ct_alta_pod_1",
                     "ct_alta_science_gift"
                 ],
                 "tables": [
+                    "ct_alta_codexes_0",
                     "ct_alta_official_gift",
                     "ct_alta_pod_1",
                     "ct_alta_pod_loot",
@@ -29383,11 +30398,9 @@
         "ct_docs_cen-codex": {
             "path": "/codex/alta/ct_docs_cen.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/title.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -29488,11 +30501,9 @@
         "ct_docs_datamass-codex": {
             "path": "/codex/alta/ct_docs_datamass.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/short.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -29581,11 +30592,9 @@
         "ct_docs_drones-codex": {
             "path": "/codex/alta/ct_docs_drones.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/short.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -29674,17 +30683,18 @@
         "ct_docs_energy-codex": {
             "path": "/codex/alta/ct_docs_energy.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/short.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
             ],
             "unlocks_bps": [
-                "ct_docs_energy-codex"
+                "ct_docs_energy-codex",
+                "ct_glowstick_ceterteal",
+                "ct_glowstick_ionic",
+                "ct_glowstick_omniblue"
             ],
             "unlocked_by": [
                 "ct_docs_energy-codex"
@@ -29767,11 +30777,9 @@
         "ct_docs_mining_desc-codex": {
             "path": "/codex/alta/ct_docs_mining_desc.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/short.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -29810,11 +30818,9 @@
         "ct_docs_units_alternia-codex": {
             "path": "/codex/alta/ct_docs_units_alternia.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -29906,11 +30912,9 @@
         "ct_docs_units_ceternia-codex": {
             "path": "/codex/alta/ct_docs_units_ceternia.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30002,11 +31006,9 @@
         "ct_docs_units_combat-codex": {
             "path": "/codex/alta/ct_docs_units_combat.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30098,11 +31100,9 @@
         "ct_docs_units_eds-codex": {
             "path": "/codex/alta/ct_docs_units_eds.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30194,11 +31194,9 @@
         "ct_docs_units_enternia-codex": {
             "path": "/codex/alta/ct_docs_units_enternia.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30290,11 +31288,9 @@
         "ct_docs_units_enviro-codex": {
             "path": "/codex/alta/ct_docs_units_enviro.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30386,11 +31382,9 @@
         "ct_docs_units_scout-codex": {
             "path": "/codex/alta/ct_docs_units_scout.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -30482,11 +31476,9 @@
         "ct_docs_units_security-codex": {
             "path": "/codex/alta/ct_docs_units_security.codex",
             "rarity": "Common",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/paper/long.png",
             "tags": [
-                "alta",
                 "common",
                 "data_source",
                 "docs"
@@ -31181,7 +32173,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_eds-codex"
+                "ct_eds-codex",
+                "ct_glowstick_eds"
             ],
             "unlocked_by": [
                 "ct_eds-codex"
@@ -33323,7 +34316,7 @@
             "price": 700,
             "icon": "/objects/alta/special/plants/pots/crops/ela/icon.png",
             "colony": [
-                "ela",
+                "alien",
                 "garden",
                 "nature",
                 "potted",
@@ -34587,6 +35580,7 @@
             "tags": [
                 "data_source",
                 "datamass",
+                "enchanted",
                 "uncommon",
                 "viona"
             ],
@@ -34718,6 +35712,7 @@
             "colony": [
                 "alterash",
                 "common",
+                "enchanted",
                 "generic",
                 "nature",
                 "storage",
@@ -35248,6 +36243,7 @@
             ],
             "used_in_recipes": [
                 "ct_alta_citadel_pod",
+                "ct_alta_citadel_recharger",
                 "ct_alta_constructor4",
                 "ct_alta_crafting_station11",
                 "ct_alta_crafting_station12",
@@ -36609,6 +37605,7 @@
                 "alta",
                 "alta_cuisine",
                 "koywa",
+                "pie",
                 "rare"
             ],
             "sources": {
@@ -36652,6 +37649,7 @@
             "tags": [
                 "alta",
                 "common",
+                "jam",
                 "runeva_cuisine"
             ],
             "sources": {
@@ -36729,7 +37727,8 @@
             "tags": [
                 "alta",
                 "calin_cuisine",
-                "common"
+                "common",
+                "jam"
             ],
             "unlocks_bps": [
                 "pussplumtart"
@@ -36922,7 +37921,8 @@
                 "calin_cuisine",
                 "carel",
                 "koywa",
-                "legendary"
+                "legendary",
+                "meal"
             ],
             "unlocks_bps": [
                 "eyebowls"
@@ -37152,6 +38152,7 @@
                 "alta",
                 "alta_cuisine",
                 "gil",
+                "ice",
                 "slime",
                 "uncommon"
             ],
@@ -37173,7 +38174,8 @@
             "tags": [
                 "alta",
                 "alta_cuisine",
-                "common"
+                "common",
+                "jam"
             ],
             "unlocks_bps": [
                 "toxicjamdonut"
@@ -37206,6 +38208,7 @@
                 "alta",
                 "koywa",
                 "legendary",
+                "meal",
                 "warped",
                 "yava_cuisine"
             ],
@@ -37244,6 +38247,7 @@
                 "alta",
                 "calin_cuisine",
                 "carel",
+                "meal",
                 "rare"
             ],
             "sources": {
@@ -37272,6 +38276,7 @@
             "icon": "/items/generic/food/tier4/toxictopjam.png",
             "tags": [
                 "alta",
+                "jam",
                 "uncommon",
                 "yava_cuisine"
             ],
@@ -37371,6 +38376,7 @@
             "tags": [
                 "alta",
                 "nia_cuisine",
+                "salad",
                 "uncommon"
             ],
             "unlocks_bps": [
@@ -37403,6 +38409,7 @@
             "tags": [
                 "alta",
                 "nia_cuisine",
+                "pizza",
                 "rare",
                 "tonnova"
             ],
@@ -37475,6 +38482,7 @@
             "tags": [
                 "alta",
                 "ayaka",
+                "pizza",
                 "rare",
                 "runeva_cuisine"
             ],
@@ -37584,6 +38592,7 @@
             "icon": "/items/generic/food/tier3/bananaicecream.png",
             "tags": [
                 "alta",
+                "ice",
                 "nia_cuisine",
                 "tonnova",
                 "uncommon"
@@ -37671,6 +38680,7 @@
             "icon": "/items/generic/food/tier5/eggshooticecream.png",
             "tags": [
                 "alta",
+                "ice",
                 "uncommon",
                 "yaara",
                 "yava_cuisine"
@@ -38186,7 +39196,8 @@
                 "rare"
             ],
             "unlocks_bps": [
-                "ct_ghearun-codex"
+                "ct_ghearun-codex",
+                "ct_glowstick_gheatsyn"
             ],
             "unlocked_by": [
                 "ct_ghearun-codex"
@@ -40497,6 +41508,9 @@
                 "light",
                 "rare"
             ],
+            "unlocked_by": [
+                "ct_bionid-codex"
+            ],
             "sources": {
                 "tables_explicit": [
                     "ct_bionid_loot",
@@ -40542,6 +41556,9 @@
                 "glowstick",
                 "light",
                 "uncommon"
+            ],
+            "unlocked_by": [
+                "ct_crystalline_prime-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -40607,6 +41624,8 @@
                 "ct_glowstick_omniblue"
             ],
             "unlocked_by": [
+                "ct_astera-codex",
+                "ct_docs_energy-codex",
                 "ct_glowstick_ceterteal",
                 "ct_glowstick_ionic",
                 "ct_glowstick_omniblue"
@@ -40665,6 +41684,9 @@
                 "common",
                 "glowstick",
                 "light"
+            ],
+            "unlocked_by": [
+                "ct_calin-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -40726,6 +41748,9 @@
                 "light",
                 "uncommon"
             ],
+            "unlocked_by": [
+                "ct_eds-codex"
+            ],
             "pickup_msgs": [
                 "ct_eds_msg"
             ],
@@ -40773,6 +41798,9 @@
                 "glowstick",
                 "light",
                 "uncommon"
+            ],
+            "unlocked_by": [
+                "ct_ghearun-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -40840,6 +41868,8 @@
                 "ct_glowstick_omniblue"
             ],
             "unlocked_by": [
+                "ct_astera-codex",
+                "ct_docs_energy-codex",
                 "ct_glowstick_ceterteal",
                 "ct_glowstick_ionic",
                 "ct_glowstick_omniblue"
@@ -40902,6 +41932,9 @@
                 "mical",
                 "uncommon"
             ],
+            "unlocked_by": [
+                "ct_miazma-codex"
+            ],
             "sources": {
                 "tables_explicit": [
                     "ct_alta_party_gift",
@@ -40955,6 +41988,8 @@
                 "ct_glowstick_omniblue"
             ],
             "unlocked_by": [
+                "ct_astera-codex",
+                "ct_docs_energy-codex",
                 "ct_glowstick_ceterteal",
                 "ct_glowstick_ionic",
                 "ct_glowstick_omniblue"
@@ -41016,6 +42051,9 @@
                 "light",
                 "stardust",
                 "uncommon"
+            ],
+            "unlocked_by": [
+                "ct_stardust-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -41085,6 +42123,9 @@
                 "light",
                 "uncommon",
                 "warped"
+            ],
+            "unlocked_by": [
+                "ct_yonnur-codex"
             ],
             "pickup_msgs": [
                 "ct_warped_msg"
@@ -47185,6 +48226,10 @@
                 "ct_alta_bubbler",
                 "ct_alta_crafting_station7",
                 "ct_alta_neon_bubble_wand",
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red",
                 "ct_alta_toy_iso_ball",
                 "ct_food_mimic",
                 "ct_ionic_fresh",
@@ -47513,6 +48558,198 @@
                 "reagent"
             ]
         },
+        "ct_jinxies-codex": {
+            "path": "/items/generic/other/ct_jinxies.consumable",
+            "rarity": "Essential",
+            "power": 4.5,
+            "price": 270,
+            "icon": "/codex/alta/paper/koywa.png",
+            "tags": [
+                "alta",
+                "docs",
+                "essential",
+                "holiday",
+                "jinxies"
+            ],
+            "unlocks_bps": [
+                "ct_jinxies-codex",
+                "ct_jinxies_candy",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_noface",
+                "ct_jinxies_snack",
+                "gagnosehead",
+                "glasses4head",
+                "grouchohead",
+                "larvachest",
+                "larvahead",
+                "larvalegs"
+            ],
+            "unlocked_by": [
+                "ct_alta_festive_station",
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_candy": {
+            "path": "/items/generic/food/events/jinxies/ct_jinxies_candy.consumable",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/generic/food/events/jinxies/ct_jinxies_candy.png",
+            "tags": [
+                "alta",
+                "alta_cuisine",
+                "candy",
+                "common",
+                "dessert",
+                "holiday",
+                "jinxies"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_cyclop": {
+            "path": "/items/armors/alta/events/jinxies/cyclop/ct_jinxies_cyclop.head",
+            "rarity": "Rare",
+            "power": 1.0,
+            "icon": "/items/armors/alta/events/jinxies/cyclop/icon.png",
+            "tags": [
+                "alta",
+                "holiday",
+                "jinxies",
+                "rare",
+                "tier5clothing"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_mystery": {
+            "path": "/items/generic/food/events/jinxies/ct_jinxies_mystery.consumable",
+            "rarity": "Common",
+            "power": 1.0,
+            "icon": "/items/generic/food/events/jinxies/ct_jinxies_mystery.png",
+            "tags": [
+                "alta",
+                "alta_cuisine",
+                "candy",
+                "common",
+                "dessert",
+                "holiday",
+                "jinxies"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_nade": {
+            "path": "/items/generic/food/events/jinxies/ct_jinxies_nade.thrownitem",
+            "rarity": "Common",
+            "power": 1.5,
+            "price": 60,
+            "icon": "/items/generic/food/events/jinxies/ct_jinxies_nade.png",
+            "tags": [
+                "alta",
+                "common",
+                "holiday",
+                "jinxies",
+                "nade"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_noface": {
+            "path": "/items/armors/alta/events/jinxies/noface/ct_jinxies_noface.head",
+            "rarity": "Rare",
+            "power": 1.0,
+            "icon": "/items/armors/alta/events/jinxies/noface/icon.png",
+            "tags": [
+                "alta",
+                "holiday",
+                "jinxies",
+                "rare",
+                "tier5clothing"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
+        "ct_jinxies_snack": {
+            "path": "/items/generic/food/events/jinxies/ct_jinxies_snack.consumable",
+            "rarity": "Common",
+            "power": 1.5,
+            "price": 300,
+            "icon": "/items/generic/food/events/jinxies/ct_jinxies_snack.png",
+            "tags": [
+                "alta",
+                "alta_cuisine",
+                "common",
+                "dessert",
+                "holiday",
+                "jinxies"
+            ],
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
+        },
         "ct_juviley_af": {
             "path": "/objects/alta/special/bugs/juviley/ct_juviley.object",
             "rarity": "Uncommon",
@@ -47785,6 +49022,9 @@
                 "alta",
                 "common",
                 "pretty"
+            ],
+            "unlocked_by": [
+                "ct_alta_plush_1-codex"
             ],
             "sources": {
                 "merchants": [
@@ -48476,6 +49716,9 @@
                 "pretty",
                 "uncommon"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_1-codex"
+            ],
             "sources": {
                 "merchants": [
                     "ct_alta_artist",
@@ -48509,10 +49752,10 @@
             "colony": [
                 "alta",
                 "crippit",
-                "lava",
                 "legendary",
                 "pretty",
-                "valuable"
+                "valuable",
+                "volcanic"
             ],
             "sources": {
                 "tables_explicit": [
@@ -48559,11 +49802,11 @@
                 "alta",
                 "droid",
                 "fire",
-                "lava",
                 "legendary",
                 "robotics",
                 "spawner",
-                "throwable"
+                "throwable",
+                "volcanic"
             ],
             "pickup_msgs": [
                 "ct_robot_spawner_msg"
@@ -49122,8 +50365,7 @@
         "ct_logs_eds_chatter-codex": {
             "path": "/codex/alta/ct_logs_eds_chatter.codex",
             "rarity": "Uncommon",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/datamass/eds.png",
             "tags": [
                 "data_source",
@@ -49180,8 +50422,7 @@
         "ct_logs_eds_reload-codex": {
             "path": "/codex/alta/ct_logs_eds_reload.codex",
             "rarity": "Uncommon",
-            "power": 0.5,
-            "price": 60,
+            "power": 1.0,
             "icon": "/codex/alta/datamass/eds.png",
             "tags": [
                 "data_source",
@@ -49653,6 +50894,7 @@
                 "viona"
             ],
             "unlocks_bps": [
+                "ct_glowstick_mical",
                 "ct_miazma-codex",
                 "ct_viona_tree"
             ],
@@ -49791,6 +51033,7 @@
                 "uncommon"
             ],
             "used_in_recipes": [
+                "ct_jinxies-codex",
                 "ct_miazmur_af"
             ],
             "sources": {
@@ -50555,8 +51798,7 @@
         "ct_my_enternia_guide-codex": {
             "path": "/codex/alta/ct_my_enternia_guide.codex",
             "rarity": "Rare",
-            "power": 0.5,
-            "price": 20,
+            "power": 1.0,
             "icon": "/codex/alta/ebook/basic.png",
             "tags": [
                 "data_source",
@@ -51875,8 +53117,7 @@
         "ct_notes_eds-codex": {
             "path": "/codex/alta/ct_notes_eds.codex",
             "rarity": "Rare",
-            "power": 0.5,
-            "price": 80,
+            "power": 1.0,
             "icon": "/codex/alta/datamass/eds.png",
             "tags": [
                 "data_source",
@@ -52572,6 +53813,9 @@
                 "legendary",
                 "pretty",
                 "stardust"
+            ],
+            "unlocked_by": [
+                "ct_alta_plush_3-codex"
             ],
             "sources": {
                 "tables_explicit": [
@@ -54552,6 +55796,9 @@
                 "pretty",
                 "uncommon"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_1-codex"
+            ],
             "sources": {
                 "merchants": [
                     "ct_alta_artist",
@@ -54820,15 +56067,7 @@
                 "alta",
                 "common",
                 "toy"
-            ],
-            "sources": {
-                "merchants": [
-                    "ct_alta_party"
-                ],
-                "merchant_tenants": [
-                    "ct_alta_party_tenant"
-                ]
-            }
+            ]
         },
         "ct_proj_mimic-metal_javelin": {
             "path": "/items/buildscripts/ct_mimics/proj.thrownitem",
@@ -55685,7 +56924,7 @@
             "upgrade": "ct_sky_lance-upgrade",
             "tags": [
                 "alta",
-                "arknights",
+                "arknight",
                 "ice",
                 "ranged",
                 "rare",
@@ -55735,7 +56974,7 @@
             "downgrade": "ct_sky_lance",
             "tags": [
                 "alta",
-                "arknights",
+                "arknight",
                 "ice",
                 "legendary",
                 "ranged",
@@ -56580,9 +57819,11 @@
             ],
             "sources": {
                 "merchants": [
+                    "ct_alta_party",
                     "ct_alta_sonaveil_merchant"
                 ],
                 "merchant_tenants": [
+                    "ct_alta_party_tenant",
                     "ct_alta_sonaveil_merchant_tenant"
                 ]
             }
@@ -57150,7 +58391,7 @@
             "icon": "/items/active/weapons/ranged/alta/wrist/ct_starburst.png",
             "tags": [
                 "alta",
-                "arknights",
+                "arknight",
                 "electric",
                 "legendary",
                 "ranged",
@@ -57413,6 +58654,7 @@
                 "stardust"
             ],
             "unlocks_bps": [
+                "ct_glowstick_stardust",
                 "ct_stardust-codex"
             ],
             "unlocked_by": [
@@ -57460,7 +58702,18 @@
                 "alta",
                 "common",
                 "toy"
-            ]
+            ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_stardust_crippit_af": {
             "path": "/objects/alta/special/figurines/crippit/ct_stardust_crippit.object",
@@ -57573,7 +58826,15 @@
             ],
             "unlocked_by": [
                 "ct_alta_new_year-codex"
-            ]
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_stardust_lights": {
             "path": "/objects/alta/special/events/new_year/lights/ct_stardust_lights.object",
@@ -57687,7 +58948,15 @@
             ],
             "used_in_recipes": [
                 "ct_stardust_firework"
-            ]
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "ct_stardust_poptop_egg": {
             "path": "/items/active/alta/spawners/monsters/ct_stardust_poptop_egg.activeitem",
@@ -61082,6 +62351,9 @@
                 "pretty",
                 "rare"
             ],
+            "unlocked_by": [
+                "ct_alta_plush_3-codex"
+            ],
             "sources": {
                 "merchants": [
                     "ct_alta_artist",
@@ -61971,7 +63243,8 @@
                 "alterash",
                 "colourful",
                 "nature",
-                "uncommon"
+                "uncommon",
+                "viona"
             ],
             "unlocks_bps": [
                 "ct_viona_seed"
@@ -63965,6 +65238,9 @@
                 "uncommon",
                 "water"
             ],
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
             "sources": {
                 "tables_explicit": [
                     "ct_koywa_loot"
@@ -63977,6 +65253,12 @@
                 ],
                 "chest_objects": [
                     "giantflowerchest"
+                ],
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
                 ],
                 "rewards": [
                     "ct_koywa_loot"
@@ -66634,6 +67916,7 @@
             ],
             "unlocks_bps": [
                 "ct_ela_seed",
+                "ct_glowstick_yonnur",
                 "ct_yonnur-codex"
             ],
             "unlocked_by": [
@@ -66916,6 +68199,41 @@
         }
     },
     "vanilla_items": {
+        "badgooplush": {
+            "unlocked_by": [
+                "ct_alta_plush_2-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_ayaka_loot",
+                    "ct_enchanted_loot"
+                ],
+                "tables": [
+                    "ct_ayaka_loot",
+                    "ct_enchanted_loot"
+                ],
+                "chests": [
+                    "ct_ayaka_chest",
+                    "ct_enchanted_chest"
+                ],
+                "chest_objects": [
+                    "alienchest",
+                    "ct_enchanted_chest"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_ayaka_loot",
+                    "ct_enchanted_loot"
+                ]
+            }
+        },
         "beakseedseed": {
             "unlocked_by": [
                 "ct_beakseed_eco_pod"
@@ -67112,6 +68430,27 @@
                 "ct_food_mimic-multi_punch"
             ]
         },
+        "gagnosehead": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_alta_human_gift"
+                ],
+                "tables": [
+                    "ct_alta_human_gift"
+                ],
+                "rent": [
+                    "ct_alta_contact_tenant",
+                    "ct_alta_earth_tenant",
+                    "ct_alta_lunar_guard_tenant",
+                    "ct_alta_office_tenant",
+                    "ct_alta_outpost_tenant",
+                    "ct_alta_supervisor_tenant"
+                ]
+            }
+        },
         "gardensalad": {
             "unlocked_by": [
                 "ct_food_mimic-alta_pear_tea",
@@ -67147,6 +68486,16 @@
                 ]
             }
         },
+        "glasses4head": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ]
+        },
+        "grouchohead": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ]
+        },
         "largesnowball": {
             "unlocked_by": [
                 "ct_sonaveil-codex"
@@ -67169,6 +68518,21 @@
                     "ct_sonaveil_snowalta"
                 ]
             }
+        },
+        "larvachest": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ]
+        },
+        "larvahead": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ]
+        },
+        "larvalegs": {
+            "unlocked_by": [
+                "ct_jinxies-codex"
+            ]
         },
         "mediumsnowball": {
             "unlocked_by": [
@@ -67435,6 +68799,8 @@
         "paper": {
             "unlocked_by": [
                 "ct_alta_dendrarium",
+                "ct_alta_paper-codex",
+                "ct_alta_toymaker",
                 "ct_ayaka_wood"
             ],
             "used_in_recipes": [
@@ -67443,9 +68809,11 @@
                 "ct_alta_fertilizer",
                 "ct_alta_firework",
                 "ct_alta_love_poster",
+                "ct_alta_paper-codex",
                 "ct_alta_plane",
                 "ct_alta_plane_cool",
                 "ct_alta_plane_pretty",
+                "ct_ava_candy",
                 "ct_ava_day-codex",
                 "ct_ava_day_gift",
                 "ct_ava_day_giftbox1",
@@ -67461,6 +68829,11 @@
                 "ct_ceternity_candy",
                 "ct_gyera_fertilizer",
                 "ct_ionic_fertilizer",
+                "ct_jinxies-codex",
+                "ct_jinxies_candy",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_snack",
                 "ct_miazma_candy",
                 "ct_neonjack_candy",
                 "ct_orchid_candy",
@@ -67485,6 +68858,12 @@
                 ],
                 "chest_objects": [
                     "giantflowerchest"
+                ],
+                "merchants": [
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_party_tenant"
                 ],
                 "rent": [
                     "ct_alta_archiver_tenant",
@@ -67519,6 +68898,66 @@
                     "ct_toxic_tenant",
                     "ct_tserera_archiver_tenant",
                     "ct_tserera_tenant"
+                ],
+                "rewards": [
+                    "ct_gyera_loot"
+                ]
+            }
+        },
+        "plainorbplush": {
+            "unlocked_by": [
+                "ct_alta_plush_2-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_elin_loot"
+                ],
+                "tables": [
+                    "ct_elin_loot"
+                ],
+                "chests": [
+                    "ct_elin_pod"
+                ],
+                "chest_objects": [
+                    "ct_elin_pod"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ],
+                "rewards": [
+                    "ct_elin_loot"
+                ]
+            }
+        },
+        "poptopplush": {
+            "unlocked_by": [
+                "ct_alta_plush_2-codex"
+            ],
+            "sources": {
+                "tables_explicit": [
+                    "ct_gyera_loot"
+                ],
+                "tables": [
+                    "ct_gyera_loot"
+                ],
+                "chests": [
+                    "ct_gyera_chest"
+                ],
+                "chest_objects": [
+                    "giantflowerchest"
+                ],
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
                 ],
                 "rewards": [
                     "ct_gyera_loot"
@@ -67648,6 +69087,21 @@
             "unlocked_by": [
                 "ct_food_mimic-poi_tea"
             ]
+        },
+        "teddybearplush": {
+            "unlocked_by": [
+                "ct_alta_toymaker"
+            ],
+            "sources": {
+                "merchants": [
+                    "ct_alta_artist",
+                    "ct_alta_party"
+                ],
+                "merchant_tenants": [
+                    "ct_alta_artist_tenant",
+                    "ct_alta_party_tenant"
+                ]
+            }
         },
         "tomatosoup": {
             "unlocked_by": [
@@ -68647,6 +70101,7 @@
             "path": "/stats/effects/ct_heal/ct_energizer.statuseffect",
             "icon": "/stats/effects/ct_heal/ct_energizer.png",
             "items": [
+                "ct_alta_recharger",
                 "ct_alta_science_pack",
                 "ct_alta_security_captain_helmet",
                 "ct_alta_security_helmet-upgrade",
@@ -68665,6 +70120,7 @@
             "path": "/stats/effects/ct_heal/ct_energy_generator.statuseffect",
             "icon": "/stats/effects/ct_heal/ct_energy_generator.png",
             "items": [
+                "ct_alta_citadel_recharger",
                 "ct_alta_energy_mask",
                 "ct_alta_pilot_helmet",
                 "ct_alta_security_helmet-celestia",
@@ -68680,6 +70136,7 @@
             "items": [
                 "ct_alta_oxygen_mask",
                 "ct_alta_security_droid_back",
+                "ct_alta_security_recharger",
                 "ct_ceterai_chest"
             ]
         },
@@ -68833,6 +70290,7 @@
                 "ct_azura_sapling",
                 "ct_azura_seed",
                 "ct_azura_tree",
+                "ct_ela_af",
                 "ct_ela_boosted",
                 "ct_ela_eco",
                 "ct_ela_eco_pod",
@@ -68889,6 +70347,10 @@
                 "ct_alta_dart_megaboard",
                 "ct_alta_dart_omniblue",
                 "ct_alta_dart_superboard",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_defensive_droid",
                 "ct_alta_defensive_drone",
                 "ct_alta_dinner",
@@ -68959,6 +70421,10 @@
                 "ct_alta_neon_bubble_wand",
                 "ct_alta_null_hover_tool",
                 "ct_alta_oxygen_mask",
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red",
                 "ct_alta_pick",
                 "ct_alta_pick-upgrade",
                 "ct_alta_pilot_helmet",
@@ -69269,19 +70735,6 @@
                 "ct_crystal_jam-bishyn",
                 "ct_crystal_jam-calline",
                 "ct_datamass",
-                "ct_docs_cen-codex",
-                "ct_docs_datamass-codex",
-                "ct_docs_drones-codex",
-                "ct_docs_energy-codex",
-                "ct_docs_mining_desc-codex",
-                "ct_docs_units_alternia-codex",
-                "ct_docs_units_ceternia-codex",
-                "ct_docs_units_combat-codex",
-                "ct_docs_units_eds-codex",
-                "ct_docs_units_enternia-codex",
-                "ct_docs_units_enviro-codex",
-                "ct_docs_units_scout-codex",
-                "ct_docs_units_security-codex",
                 "ct_dream_eater",
                 "ct_dreamer_android",
                 "ct_dreamer_android_head",
@@ -69509,6 +70962,13 @@
                 "ct_iso_jam-cryo",
                 "ct_iso_jam-honey",
                 "ct_isowire",
+                "ct_jinxies-codex",
+                "ct_jinxies_candy",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_noface",
+                "ct_jinxies_snack",
                 "ct_kira_plush",
                 "ct_koywa_tea",
                 "ct_koywa_tea-dreamer",
@@ -69756,6 +71216,7 @@
                 "ct_alta_capital_terminal",
                 "ct_alta_circuit",
                 "ct_alta_citadel_pod",
+                "ct_alta_citadel_recharger",
                 "ct_alta_clock",
                 "ct_alta_cocktail_fo",
                 "ct_alta_compact_sprinkler",
@@ -69855,6 +71316,7 @@
                 "ct_alta_pot",
                 "ct_alta_punch_fo",
                 "ct_alta_pyramid",
+                "ct_alta_recharger",
                 "ct_alta_rincer",
                 "ct_alta_roaster",
                 "ct_alta_salad_fo",
@@ -69867,6 +71329,7 @@
                 "ct_alta_security_camera",
                 "ct_alta_security_pod",
                 "ct_alta_security_rack",
+                "ct_alta_security_recharger",
                 "ct_alta_security_spike",
                 "ct_alta_security_stand",
                 "ct_alta_security_terminal",
@@ -70400,6 +71863,9 @@
                 "ct_heecho_punch-gillimon",
                 "ct_heecho_punch-prism",
                 "ct_ionic_fresh-party",
+                "ct_jinxies_candy",
+                "ct_jinxies_mystery",
+                "ct_jinxies_snack",
                 "ct_maito_tea",
                 "ct_maito_tea-calm",
                 "ct_maito_tea-crimson",
@@ -70553,6 +72019,7 @@
                 "ct_alta_security_camera",
                 "ct_alta_security_pod",
                 "ct_alta_security_rack",
+                "ct_alta_security_recharger",
                 "ct_alta_security_spike",
                 "ct_alta_security_stand",
                 "ct_alta_security_terminal"
@@ -71087,22 +72554,18 @@
                 "ct_arknight_shield-upgrade",
                 "ct_combat_chest-light",
                 "ct_combat_legwear-light",
-                "ct_eds_visor-light"
+                "ct_eds_visor-light",
+                "ct_sky_lance",
+                "ct_sky_lance-upgrade",
+                "ct_starburst"
             ],
             "objects": [
                 "ct_arknight_emblem",
                 "ct_arknight_pod"
             ],
-            "tenants": []
-        },
-        "arknights": {
-            "items": [
-                "ct_sky_lance",
-                "ct_sky_lance-upgrade",
-                "ct_starburst"
-            ],
-            "objects": [],
-            "tenants": []
+            "tenants": [
+                "ct_arknight_tenant"
+            ]
         },
         "armor": {
             "items": [
@@ -71774,6 +73237,8 @@
             "items": [
                 "ct_ava_candy",
                 "ct_ceternity_candy",
+                "ct_jinxies_candy",
+                "ct_jinxies_mystery",
                 "ct_miazma_candy",
                 "ct_neonjack_candy",
                 "ct_orchid_candy",
@@ -72004,6 +73469,7 @@
             ],
             "objects": [
                 "ct_alta_citadel_pod",
+                "ct_alta_citadel_recharger",
                 "ct_alta_ship_ai",
                 "ct_alta_ship_ai_broken"
             ],
@@ -72257,6 +73723,7 @@
                 "ct_alta_climbing_tool",
                 "ct_alta_coldthrower",
                 "ct_alta_dart",
+                "ct_alta_dart-codex",
                 "ct_alta_dart_board",
                 "ct_alta_dart_ceterteal",
                 "ct_alta_dart_ionic",
@@ -72278,9 +73745,14 @@
                 "ct_alta_mini_drone-kinetic",
                 "ct_alta_minimal_art",
                 "ct_alta_neon_bubble_wand",
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red",
                 "ct_alta_pick",
                 "ct_alta_pick-upgrade",
                 "ct_alta_plane",
+                "ct_alta_plush_1-codex",
                 "ct_alta_popper",
                 "ct_alta_rainbow_popper",
                 "ct_alta_respiratory_mask",
@@ -72383,6 +73855,10 @@
                 "ct_iso_jam-cryo",
                 "ct_isoslime_ball",
                 "ct_isowire",
+                "ct_jinxies_candy",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_snack",
                 "ct_kira_plush",
                 "ct_klee_af",
                 "ct_klee_egg",
@@ -72480,6 +73956,7 @@
                 "ct_alta_plate",
                 "ct_alta_plate_stack",
                 "ct_alta_pot",
+                "ct_alta_recharger",
                 "ct_alta_ship_ai_broken",
                 "ct_alta_ship_chair",
                 "ct_alta_ship_fuel_hatch_broken",
@@ -73009,6 +74486,8 @@
                 "ct_alta_citadel-codex",
                 "ct_alta_city-codex",
                 "ct_alta_crystals-codex",
+                "ct_alta_dart-codex",
+                "ct_alta_dart_2-codex",
                 "ct_alta_ecoponics-codex",
                 "ct_alta_farming-codex",
                 "ct_alta_flowers-codex",
@@ -73026,6 +74505,10 @@
                 "ct_alta_lore_3-codex",
                 "ct_alta_lore_4-codex",
                 "ct_alta_omniponics-codex",
+                "ct_alta_paper-codex",
+                "ct_alta_plush_1-codex",
+                "ct_alta_plush_2-codex",
+                "ct_alta_plush_3-codex",
                 "ct_alta_ponics-codex",
                 "ct_alta_security-codex",
                 "ct_alta_ship-codex",
@@ -73118,6 +74601,7 @@
         },
         "datamass": {
             "items": [
+                "ct_alta_dart-codex",
                 "ct_alta_ecoponics-codex",
                 "ct_alta_hydroponics-codex",
                 "ct_alta_omniponics-codex",
@@ -73203,6 +74687,9 @@
                 "ct_ion_cake",
                 "ct_ion_cake-alien",
                 "ct_ion_cake-love",
+                "ct_jinxies_candy",
+                "ct_jinxies_mystery",
+                "ct_jinxies_snack",
                 "ct_miazma_candy",
                 "ct_neonjack_candy",
                 "ct_onitti_cake",
@@ -73249,6 +74736,7 @@
             "items": [
                 "ct_alta_farming-codex",
                 "ct_alta_new_year-codex",
+                "ct_alta_paper-codex",
                 "ct_aric-codex",
                 "ct_ava_day-codex",
                 "ct_ayaka-codex",
@@ -73270,6 +74758,7 @@
                 "ct_docs_units_scout-codex",
                 "ct_docs_units_security-codex",
                 "ct_faradea-codex",
+                "ct_jinxies-codex",
                 "ct_koywa-codex",
                 "ct_nivera-codex",
                 "ct_sona-codex",
@@ -73612,6 +75101,7 @@
                 "ct_alta_citadel-codex",
                 "ct_alta_city-codex",
                 "ct_alta_crystals-codex",
+                "ct_alta_dart_2-codex",
                 "ct_alta_date-codex",
                 "ct_alta_flowers-codex",
                 "ct_alta_food-codex",
@@ -73626,6 +75116,9 @@
                 "ct_alta_lore_2-codex",
                 "ct_alta_lore_3-codex",
                 "ct_alta_lore_4-codex",
+                "ct_alta_plush_1-codex",
+                "ct_alta_plush_2-codex",
+                "ct_alta_plush_3-codex",
                 "ct_alta_ship-codex",
                 "ct_alta_soil_enrichment-codex",
                 "ct_antorash-codex",
@@ -73733,13 +75226,6 @@
                 "ct_eds_researcher_tenant",
                 "ct_eds_security_tenant"
             ]
-        },
-        "ela": {
-            "items": [],
-            "objects": [
-                "ct_ela_af"
-            ],
-            "tenants": []
         },
         "electric": {
             "items": [
@@ -73874,6 +75360,7 @@
             ],
             "objects": [
                 "ct_alta_capital_terminal",
+                "ct_alta_citadel_recharger",
                 "ct_alta_hand_dryer",
                 "ct_alta_lab_amplifier",
                 "ct_alta_lab_barrier",
@@ -73883,7 +75370,9 @@
                 "ct_alta_laptop",
                 "ct_alta_monitor",
                 "ct_alta_pyramid",
+                "ct_alta_recharger",
                 "ct_alta_security_barrier",
+                "ct_alta_security_recharger",
                 "ct_alta_security_spike",
                 "ct_alta_security_stand",
                 "ct_alta_security_terminal",
@@ -73987,6 +75476,7 @@
         },
         "enchanted": {
             "items": [
+                "ct_enchanted-codex",
                 "ct_enchanted_blaster",
                 "ct_enchanted_blaster-upgrade",
                 "ct_enchanted_loot",
@@ -73996,6 +75486,7 @@
                 "ct_tool_mimic-viona_shield"
             ],
             "objects": [
+                "ct_enchanted_chest",
                 "ct_vio_zych_af"
             ],
             "tenants": []
@@ -74177,6 +75668,7 @@
                 "ct_b803_plush",
                 "ct_celestial_bow",
                 "ct_celestial_pick",
+                "ct_jinxies-codex",
                 "ct_photon_drill"
             ],
             "objects": [
@@ -75293,6 +76785,13 @@
                 "ct_estria_bow",
                 "ct_halloween_poster",
                 "ct_harrowing_poster",
+                "ct_jinxies-codex",
+                "ct_jinxies_candy",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_noface",
+                "ct_jinxies_snack",
                 "ct_miazma_candy",
                 "ct_milebites",
                 "ct_neonjack",
@@ -75426,6 +76925,9 @@
                 "ct_enchanted_blaster-upgrade",
                 "ct_enchanted_twins",
                 "ct_enchanted_twins-upgrade",
+                "ct_food_mimic-gillimon_ice_cream",
+                "ct_food_mimic-tonna_ice_cream",
+                "ct_food_mimic-yaavi_ice_cream",
                 "ct_oni_nerus",
                 "ct_sky_lance",
                 "ct_sky_lance-upgrade",
@@ -75610,8 +77112,25 @@
                 "ct_crystal_jam",
                 "ct_crystal_jam-bishyn",
                 "ct_crystal_jam-calline",
+                "ct_food_mimic-alta_pear_jam",
+                "ct_food_mimic-alunika_jam",
+                "ct_food_mimic-gillimon_jam",
+                "ct_food_mimic-miko_honey",
                 "ct_iso_jam",
                 "ct_iso_jam-cryo"
+            ],
+            "objects": [],
+            "tenants": []
+        },
+        "jinxies": {
+            "items": [
+                "ct_jinxies-codex",
+                "ct_jinxies_candy",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_mystery",
+                "ct_jinxies_nade",
+                "ct_jinxies_noface",
+                "ct_jinxies_snack"
             ],
             "objects": [],
             "tenants": []
@@ -75709,15 +77228,6 @@
                 "ct_alta_koywa_tenant",
                 "ct_thermo_tenant"
             ]
-        },
-        "lava": {
-            "items": [
-                "ct_lava_drone"
-            ],
-            "objects": [
-                "ct_lava_crippit_af"
-            ],
-            "tenants": []
         },
         "legendary": {
             "items": [
@@ -76136,6 +77646,7 @@
                 "ct_alta_cake_fo",
                 "ct_alta_cakery",
                 "ct_alta_citadel_pod",
+                "ct_alta_citadel_recharger",
                 "ct_alta_cocktail_fo",
                 "ct_alta_datacenter",
                 "ct_alta_festive_station",
@@ -76669,6 +78180,9 @@
             "items": [
                 "ct_alta_dinner",
                 "ct_alta_dinner-caretaker",
+                "ct_food_mimic-calin_jam_dumplings",
+                "ct_food_mimic-graa_venetto",
+                "ct_food_mimic-juni_porridge_w_galo",
                 "ct_haruplavu_venetto",
                 "ct_haruplavu_venetto-prime",
                 "ct_ion_risotto",
@@ -76979,6 +78493,7 @@
                 "ct_bishyn_nade",
                 "ct_impulse_nade",
                 "ct_ionic_nade",
+                "ct_jinxies_nade",
                 "ct_phosphonade",
                 "ct_plasma_nade",
                 "ct_thermomix_nade",
@@ -77667,6 +79182,10 @@
                 "ct_alta_bubble_cannon",
                 "ct_alta_bubbler",
                 "ct_alta_bug_net",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_energy_drill",
                 "ct_alta_firework_cannon",
                 "ct_alta_foam_sprayer",
@@ -77742,6 +79261,7 @@
                 "ct_aya_gil_pie-runeva",
                 "ct_crunchy_pie",
                 "ct_crunchy_pie-calin",
+                "ct_food_mimic-alta_charlotte",
                 "ct_food_mimic-sentia_crown_pie",
                 "ct_sonaveil_pie",
                 "ct_sonaveil_pie-hug"
@@ -77771,6 +79291,8 @@
             "items": [
                 "ct_caliopa",
                 "ct_caliopa-stuffed",
+                "ct_food_mimic-pizzionna_slice",
+                "ct_food_mimic-ruvikva_pizza_slice",
                 "ct_yaarizza",
                 "ct_yaarizza-extra"
             ],
@@ -78186,17 +79708,14 @@
             "objects": [],
             "tenants": []
         },
-        "rainbow": {
-            "items": [],
-            "objects": [],
-            "tenants": [
-                "ct_arknight_tenant"
-            ]
-        },
         "ranged": {
             "items": [
                 "ct_alistraza",
                 "ct_alta_bow",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_firework_cannon",
                 "ct_alta_flare_blaster",
                 "ct_alta_grass_blaster",
@@ -78207,6 +79726,10 @@
                 "ct_alta_impulse_rifle_mk2",
                 "ct_alta_impulse_rifle_mk2-upgrade",
                 "ct_alta_ionic_rifle",
+                "ct_alta_painter_blue",
+                "ct_alta_painter_green",
+                "ct_alta_painter_purple",
+                "ct_alta_painter_red",
                 "ct_alta_plasma_rifle",
                 "ct_alta_plasma_rifle-upgrade",
                 "ct_alta_scout_blaster",
@@ -78311,6 +79834,9 @@
                 "ct_alta_capture_pod",
                 "ct_alta_crystals-codex",
                 "ct_alta_dart_megaboard",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_defensive_droid",
                 "ct_alta_dinner",
                 "ct_alta_dinner-caretaker",
@@ -78328,9 +79854,11 @@
                 "ct_alta_lab_android",
                 "ct_alta_loot_tier3",
                 "ct_alta_oxygen_mask",
+                "ct_alta_paper-codex",
                 "ct_alta_plane_cool",
                 "ct_alta_plasma_rifle",
                 "ct_alta_plasma_rifle-upgrade",
+                "ct_alta_plush_3-codex",
                 "ct_alta_pollenizer",
                 "ct_alta_pollenizer-upgrade",
                 "ct_alta_power_drill",
@@ -78576,6 +80104,8 @@
                 "ct_isoblaster",
                 "ct_isoblaster-upgrade",
                 "ct_isoslime-codex",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_noface",
                 "ct_kinetic_shield",
                 "ct_kinetic_shield-orange",
                 "ct_kinetic_shield-red",
@@ -79060,6 +80590,7 @@
                 "ct_assorti-salad",
                 "ct_fivaldo_salad",
                 "ct_fivaldo_salad-banquet",
+                "ct_food_mimic-nia_assorti",
                 "ct_round_salad",
                 "ct_round_salad-banquet",
                 "ct_special_mimosa",
@@ -79239,13 +80770,6 @@
                 "ct_tonna_shake-alien",
                 "ct_tonna_shake-alta",
                 "ct_tonna_shake-perfect"
-            ],
-            "objects": [],
-            "tenants": []
-        },
-        "shard": {
-            "items": [
-                "ct_alternia_shard"
             ],
             "objects": [],
             "tenants": []
@@ -79697,13 +81221,6 @@
                 "ct_protospear-upgrade",
                 "ct_winged_halberd",
                 "ctspear"
-            ],
-            "objects": [],
-            "tenants": []
-        },
-        "specops": {
-            "items": [
-                "ct_alta_stalker_droid"
             ],
             "objects": [],
             "tenants": []
@@ -80319,7 +81836,9 @@
                 "ct_alta_science_pack",
                 "ct_eds_beret",
                 "ct_eds_visor",
-                "ct_eds_visor-light"
+                "ct_eds_visor-light",
+                "ct_jinxies_cyclop",
+                "ct_jinxies_noface"
             ],
             "objects": [],
             "tenants": []
@@ -80518,6 +82037,8 @@
                 "ct_alta_bubbler",
                 "ct_alta_coldthrower",
                 "ct_alta_dart",
+                "ct_alta_dart-codex",
+                "ct_alta_dart_2-codex",
                 "ct_alta_dart_board",
                 "ct_alta_dart_ceterteal",
                 "ct_alta_dart_hardboard",
@@ -80525,15 +82046,23 @@
                 "ct_alta_dart_megaboard",
                 "ct_alta_dart_omniblue",
                 "ct_alta_dart_superboard",
+                "ct_alta_darter",
+                "ct_alta_darter_ceterteal",
+                "ct_alta_darter_ionic",
+                "ct_alta_darter_omniblue",
                 "ct_alta_firework_cannon",
                 "ct_alta_neon_bubble_wand",
                 "ct_alta_painter_blue",
                 "ct_alta_painter_green",
                 "ct_alta_painter_purple",
                 "ct_alta_painter_red",
+                "ct_alta_paper-codex",
                 "ct_alta_plane",
                 "ct_alta_plane_cool",
                 "ct_alta_plane_pretty",
+                "ct_alta_plush_1-codex",
+                "ct_alta_plush_2-codex",
+                "ct_alta_plush_3-codex",
                 "ct_alta_popper",
                 "ct_alta_rainbow_popper",
                 "ct_alta_security_drone-toy",
@@ -80677,8 +82206,10 @@
                 "ct_alta_cleaner",
                 "ct_alta_companion_drone",
                 "ct_alta_crystal_drone",
+                "ct_alta_dart_2-codex",
                 "ct_alta_dart_hardboard",
                 "ct_alta_dart_superboard",
+                "ct_alta_darter",
                 "ct_alta_date-codex",
                 "ct_alta_drill",
                 "ct_alta_drill-upgrade",
@@ -80713,11 +82244,8 @@
                 "ct_alta_multi_tool",
                 "ct_alta_multi_tool-upgrade",
                 "ct_alta_new_year-codex",
-                "ct_alta_painter_blue",
-                "ct_alta_painter_green",
-                "ct_alta_painter_purple",
-                "ct_alta_painter_red",
                 "ct_alta_plane_pretty",
+                "ct_alta_plush_2-codex",
                 "ct_alta_pollen_pump",
                 "ct_alta_pollen_pump-upgrade",
                 "ct_alta_ponics-codex",
@@ -81160,6 +82688,7 @@
                 "ct_alta_security_camera",
                 "ct_alta_security_pod",
                 "ct_alta_security_rack",
+                "ct_alta_security_recharger",
                 "ct_alta_security_spike",
                 "ct_alta_security_terminal",
                 "ct_alta_slicer",
@@ -81689,6 +83218,7 @@
                 "ct_viona_eco_pod",
                 "ct_viona_sapling",
                 "ct_viona_seed",
+                "ct_viona_tree",
                 "ct_wild_viona_seed"
             ],
             "tenants": [
@@ -81727,8 +83257,12 @@
             "tenants": []
         },
         "volcanic": {
-            "items": [],
-            "objects": [],
+            "items": [
+                "ct_lava_drone"
+            ],
+            "objects": [
+                "ct_lava_crippit_af"
+            ],
             "tenants": [
                 "ct_pyro_tenant"
             ]

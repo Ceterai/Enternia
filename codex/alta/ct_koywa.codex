@@ -11,7 +11,7 @@
     "Grab your ^#b0e0fc;waterblaster^reset;, your floatie and your ^#b0e0fc;snorkel^reset;, and don't forget your ^#b0e0fc;bikini top^reset;! ..And ^#b0e0fc;bikini bottom^reset; too, obviously. Your choice.\n\nThe fun starts now!"
   ],
     "itemConfig" : {
-      "level" : 3,
+      "level" : 3, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "docs", "koywa" ], "learnBlueprintsOnPickup" : [ "ct_koywa-codex", "ct_koywa_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

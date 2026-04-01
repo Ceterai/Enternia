@@ -102,7 +102,7 @@
     // T2
 
     "nia_assorti" : { "baseAsset" : "/items/generic/food/tier5/eggshootsalad.consumable",
-      "shortdescription" : "Nia Assorti", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine" ], "race" : "alta", "price" : 520,
+      "shortdescription" : "Nia Assorti", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "salad" ], "race" : "alta", "price" : 520,
       "description" : "A finely-cut and arranged assorti of nia fruit slices, alta pear rings and izo-balls, all covered a slight layer of ^#8020f0;ion jam^reset;.",
       "longdescription" : "Every chef has a preference in arranging, as well as favourite cutting granularity, resulting in differing assortis from chef to chef.",
       "altaDescription" : "If I don't die from sweetness of this, it was worth it.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -113,7 +113,7 @@
       },
       "foodValue" : 25 },  // https://starbounder.org/Eggshoot_Salad
     "tonna_ice_cream" : { "baseAsset" : "/items/generic/food/tier3/bananaicecream.consumable",
-      "shortdescription" : "Tonna Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 480,
+      "shortdescription" : "Tonna Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "nia_cuisine", "tonnova", "ice" ], "race" : "alta", "price" : 480,
       "description" : "A well-made tonna ice cream with a soft tonna flavor and a special ^#7ddcde;cryo jam^reset; in the middle. This is refreshing and recharging.",
       "longdescription" : "If you reach the bottom, you can find a hardened tonna casing underneath the cone. This is frozen ^#c1ebf8;tonna milk^reset; thickened with powder.",
       "altaDescription" : "Seems so simple, but I can only imagine how hard this was to create.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -122,7 +122,7 @@
       },
       "foodValue" : 24 },  // https://starbounder.org/Banana_Ice_Cream
     "yaavi_ice_cream" : { "baseAsset" : "/items/generic/food/tier5/eggshooticecream.consumable",
-      "shortdescription" : "Yaavi Ice Cream", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara" ], "race" : "alta", "price" : 440,
+      "shortdescription" : "Yaavi Ice Cream", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "yaara", "ice" ], "race" : "alta", "price" : 440,
       "description" : "A simple ice cream in ^#20f080;yaara eye^reset; colors. In reality only the yellow layer uses a yaara eye powder as an ingredient.",
       "longdescription" : "One of many special custom recipes shared by many alta chefs. Meant to taste like a caramelled fruit part of the yaara eye.",
       "altaDescription" : "If I lick only the \"eye\" part, could I call this a yaakut ice cream insted?", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -131,7 +131,7 @@
       },
       "foodValue" : 20 },  // https://starbounder.org/Eggshoot_Ice_Cream
     "gillimon_ice_cream" : { "baseAsset" : "/items/generic/food/tier3/cactiicecream.consumable",
-      "shortdescription" : "Gillimon Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine", "gil", "slime" ], "race" : "alta", "price" : 480,
+      "shortdescription" : "Gillimon Ice Cream ^#20f080;^reset;", "level" : 4, "rarity" : "Uncommon", "itemTags" : [ "alta_cuisine", "gil", "slime", "ice" ], "race" : "alta", "price" : 480,
       "description" : "An ice cream flavor made from a distinct gil-poi mix called ^gray;gillimon^reset;. The nia candy sticks in it are a nice addition.",
       "longdescription" : "The flavor could be described as a barely-sour milk chocolate, with more milk than chocolate.",
       "altaDescription" : "I like to push the sticks deep inside, and than munch on them as I get to them.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -145,13 +145,13 @@
     // T3
 
     "pizzionna_slice" : { "baseAsset" : "/items/generic/food/tier5/piodia.consumable",
-      "shortdescription" : "Pizzonna Slice", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nia_cuisine", "tonnova" ], "race" : "alta", "price" : 800,
+      "shortdescription" : "Pizzonna Slice", "level" : 5, "rarity" : "Rare", "itemTags" : [ "nia_cuisine", "tonnova", "pizza" ], "race" : "alta", "price" : 800,
       "description" : "This nia pizza slice will fill you with special pizzonnic energy. Remember that with great power comes great responsibility.",
       "longdescription" : "The pizza uses a tonna paste as a base layer, with a couple of nia fruits as main filling, with slight amounts of ^#8020f0;nia jam^reset; as filling.",
       "altaDescription" : "One of the easy-to-get-it-all-over-yourself kind of pizzas.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "foodValue" : 30 },  // https://starbounder.org/Piodia_Slice
     "alta_charlotte" : { "baseAsset" : "/items/generic/food/tier4/oculemonmeringue.consumable",
-      "shortdescription" : "Alta Charlotte", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine", "koywa" ], "race" : "alta", "price" : 760,
+      "shortdescription" : "Alta Charlotte", "level" : 5, "rarity" : "Rare", "itemTags" : [ "alta_cuisine", "koywa", "pie" ], "race" : "alta", "price" : 760,
       "description" : "This charlotte is baked using ^#497c64;faro koywa^reset; dough, with sweet fruits like ^#3587ff;ayas^reset;, ^#3587ff;alta pears^reset; and ^#20f080;yaara eyes^reset;, or even ^#ff3f5a;alunikas^reset;.",
       "longdescription" : "At its base, this charlotte can become a regular pie is you use jam instead of solid fruits, so make sure not to squish them too much.",
       "altaDescription" : "I hope I can get a mistery charlotte one day, and then try and guess the flavor!", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -198,13 +198,13 @@
       },
       "foodValue" : 40 },  // https://starbounder.org/Spooky_Pie
     "juni_porridge_w_galo" : { "baseAsset" : "/items/generic/food/tier2/specialrice.consumable",
-      "shortdescription" : "Juni Porridge w/ Galo ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "calin_cuisine", "carel" ], "race" : "alta", "price" : 920,
+      "shortdescription" : "Juni Porridge w/ Galo ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "calin_cuisine", "carel", "meal" ], "race" : "alta", "price" : 920,
       "description" : "A salty porridge made from heated grinded junis - biocrystals called ^gray;junilin^reset;, and a ^#c1dfae;chinid^reset; (a crystal plant) leaf on top.",
       "longdescription" : "Its ingredients also include different runeva spices and some small ^gray;koichi peas^reset; mixed in with the juni porridge.",
       "altaDescription" : "Seems so simple, but I can only imagine how hard this was to create.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
       "foodValue" : 60 },  // https://starbounder.org/Special_Fried_Rice
     "ruvikva_pizza_slice" : { "baseAsset" : "/items/generic/food/tier3/pineapplepizzaslice.consumable",
-      "shortdescription" : "\"Ruvikva\" Pizza Slice ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "runeva_cuisine", "ayaka" ], "race" : "alta", "price" : 880,
+      "shortdescription" : "\"Ruvikva\" Pizza Slice ^#2080f0;^reset;", "level" : 5, "rarity" : "Rare", "itemTags" : [ "runeva_cuisine", "ayaka", "pizza" ], "race" : "alta", "price" : 880,
       "description" : "A chunky pizza for big-bite lovers. ^#3587ff;Roasted aya^reset; slices can be easily cut through, so sharing is not a problem!",
       "longdescription" : "The unique coloring of this pizza is achived through the harmonical combination of its topping, slowly melted together during cooking.",
       "altaDescription" : "This is pizza. Enough said. Let's eat. And then kiss the chef as a sign of appreciation.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -234,7 +234,7 @@
       },
       "foodValue" : 75 },  // https://starbounder.org/Coffee_Cake
     "calin_jam_dumplings" : { "baseAsset" : "/items/generic/food/tier5/eggshootsalad.consumable",
-      "shortdescription" : "Calin Jam Dumplings", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "calin_cuisine", "carel", "koywa" ], "race" : "alta", "price" : 1040,
+      "shortdescription" : "Calin Jam Dumplings", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "calin_cuisine", "carel", "koywa", "meal" ], "race" : "alta", "price" : 1040,
       "description" : "Very tasty ^#497c64;koywa^reset; dumplings with ^#c1dfae;calin jam^reset; filling. While sweet, they're also very fulfilling and high on minerals and vitamins.",
       "longdescription" : "Prepared together with ^#c1dfae;chinid^reset; leaves and covered in spices, a simple serving of dumplings turns into a delicacy.",
       "altaDescription" : "Sometimes, if you get extra juicy ones - be careful when popping them, especially if they're still hot.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -245,7 +245,7 @@
       },
       "foodValue" : 60 },  // https://starbounder.org/Eggshoot_Salad
     "graa_venetto" : { "baseAsset" : "/items/generic/food/tier4/oceanrisotto.consumable",
-      "shortdescription" : "Graa Venetto", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "yava_cuisine", "koywa", "warped" ], "race" : "alta", "price" : 1040,
+      "shortdescription" : "Graa Venetto", "level" : 6, "rarity" : "Legendary", "itemTags" : [ "yava_cuisine", "koywa", "warped", "meal" ], "race" : "alta", "price" : 1040,
       "description" : "A pleasant dish with a layered cake-like mixture with ^#497c64;yukva^reset; cream and ^#497c64;koywa bread^reset;, with roasted ^#9b2d3f;archulin^reset; paste base.",
       "longdescription" : "This complicated dish smells similar to roasted vegetables. The cake part is meant to be eaten together with paste, dipped in it slightly.",
       "altaDescription" : "Never knew how some chefs are able to make something like this. Truly incredible.", "foundIn" : [ "^#b0e0fc;Alta Chef^reset;" ],
@@ -370,7 +370,7 @@
     // JAM
 
     "alta_pear_jam" : { "baseAsset" : "/items/generic/food/tier2/kiwijam.consumable",
-      "shortdescription" : "Alta Pear Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "runeva_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Alta Pear Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "runeva_cuisine", "jam" ], "race" : "alta", "price" : 280,
       "description" : "Moderately sweet jam with borderline liquid viscousity and small pieces of ^#3587ff;alta pear^reset; blending in with everything else.",
       "longdescription" : "Although alta pears are not particularly rare, they usually grow in very specific regions, making such jams pseudo-common in general.",
       "altaDescription" : "A decent jam flavor. Never really learned how to make it, I prefer ^#3587ff;aya jam^reset; instead.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
@@ -381,7 +381,7 @@
       },
       "foodValue" : 25 },  // https://starbounder.org/Kiwi_Jam
     "alunika_jam" : { "baseAsset" : "/items/generic/food/tier4/pussplumjam.consumable",
-      "shortdescription" : "Alunika Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "calin_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Alunika Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "calin_cuisine", "jam" ], "race" : "alta", "price" : 280,
       "description" : "This plain ^#ff3f5a;alunika^reset; jam is a favourite for many altas, but requires special tech to make. Too bad you don't know any recipes that use it...",
       "longdescription" : "While making some alunika powder doesn't seem like a problem, an important part of this jam - alunika extract, is pretty hard to... well, extract.",
       "altaDescription" : "Those darker spots are clumps of powder. Alunika jam is pretty hard to make evenly.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
@@ -392,7 +392,7 @@
       },
       "foodValue" : 25 },  // https://starbounder.org/Pussplum_Jam
     "gillimon_jam" : { "baseAsset" : "/items/generic/food/tier4/toxictopjam.consumable",
-      "shortdescription" : "Gillimon Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine" ], "race" : "alta", "price" : 280,
+      "shortdescription" : "Gillimon Jam", "level" : 2, "rarity" : "Common", "itemTags" : [ "alta_cuisine", "jam" ], "race" : "alta", "price" : 280,
       "description" : "A gil-poi mix called ^gray;gillimon^reset; turned into jam. Perfect for sweet bakery and desserts. Too bad you don't know any recipes that use it...",
       "longdescription" : "While not known for its sweetness, it's often used in desserts to provide a unique, interesting flavor.",
       "altaDescription" : "Honestly, I didn't even know they make it. Such a good ice cream flavor!", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],
@@ -405,7 +405,7 @@
       },
       "foodValue" : 25 },  // https://starbounder.org/Toxictop_Jam
     "miko_honey" : { "baseAsset" : "/items/generic/food/tier4/toxictopjam.consumable",
-      "shortdescription" : "Miko Honey", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine" ], "race" : "alta", "price" : 380,
+      "shortdescription" : "Miko Honey", "level" : 3, "rarity" : "Uncommon", "itemTags" : [ "yava_cuisine", "jam" ], "race" : "alta", "price" : 380,
       "description" : "An incredibly sweet honey made from a ^#497c64;miko koywa^reset; extract. It's bright pink and it was made with love! Too bad you don't know any recipes that use it...",
       "longdescription" : "This herb-based honey can sweeten-up any dish, even if not intended, so be careful.",
       "altaDescription" : "The taste, and even the smell itself is very alluring.", "foundIn" : [ "^#b0e0fc;Alta Bartender^reset;" ],

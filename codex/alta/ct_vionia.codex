@@ -20,7 +20,7 @@ So be careful, silly altas, and don't play with vionia and tricky miazmas too mu
 
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "viona" ], "learnBlueprintsOnPickup" : [ "ct_vionia-codex", "ct_viona_seed" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

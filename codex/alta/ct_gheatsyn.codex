@@ -33,10 +33,14 @@ The only pity is that it cannot be used for decoration in its pure form.
 It would be unpleasant if your beautiful necklace spilled on you and burned you, simply because electricity got into it."
 
   ],
-    "itemConfig" : {
-      "level" : 4,
-      "itemTags" : [ "data_source", "ebook", "gheatsyn" ], "learnBlueprintsOnPickup" : [ "ct_gheatsyn-codex", "ct_gheatsyn_seed" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 4, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "ebook", "gheatsyn" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_gheatsyn-codex",
+      "ct_gheatsyn_seed"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : {

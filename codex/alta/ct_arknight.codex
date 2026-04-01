@@ -24,7 +24,7 @@ Every ^#b0e0fc;alta^reset; matters."
 
   ],
     "itemConfig" : {
-      "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "arknight" ], "learnBlueprintsOnPickup" : [ "ct_arknight-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

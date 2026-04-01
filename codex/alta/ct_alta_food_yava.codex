@@ -10,7 +10,7 @@
     "^#b0e0fc;Yava cuisine^reset; is not as common among altas, used to crystals and pulps, compared to other cuisines.\n\nAs the name suggests, this is a herb-based cuisine filled with various vitamins and natural textures."
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [

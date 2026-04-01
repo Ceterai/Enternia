@@ -27,8 +27,8 @@ ADMU-MA340, Engineer Drone - An upgrade of MD181 with full EDS armor, repurposed
 
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_drones-codex" ],
-    "rarity" : "Common",
-    "price" : 120
+    "itemTags" : [ "data_source", "docs" ], "learnBlueprintsOnPickup" : [ "ct_docs_drones-codex" ],
+    "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

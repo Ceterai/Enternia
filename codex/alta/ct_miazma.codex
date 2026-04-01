@@ -33,10 +33,15 @@ The sample should be held under the High Containment Protocol, according to thei
 "As far as we're aware, Neiteru were already able to successfully use a live miazma before, in a project called ^#f080f0;\"Vionos Twins\"^reset;, so let's keep our hopes up."
 
   ],
-    "itemConfig" : {
-      "level" : 4,
-      "itemTags" : [ "data_source", "datamass", "viona" ], "learnBlueprintsOnPickup" : [ "ct_miazma-codex", "ct_viona_tree" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 4, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "datamass", "viona" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_miazma-codex",
+      "ct_viona_tree",
+      "ct_glowstick_mical"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "RS-17 Santia" : { } },

@@ -1,0 +1,14 @@
+{
+  "itemName" : "ct_alta_no_back",
+  "shortdescription" : "Invisible Backpack",
+  "description" : "Where did you go?!",
+
+  "race" : "alta",
+  "category" : "backwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

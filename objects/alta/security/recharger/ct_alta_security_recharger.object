@@ -1,0 +1,37 @@
+{
+  "objectName" : "ct_alta_security_recharger",
+  "colonyTags" : [ "alta_security", "electronic" ],
+  "category" : "misc", "objectType" : "container",
+  "level" : 4, "price" : 120, "race" : "alta",
+
+  "shortdescription" : "Alta Security Recharger",
+  "description" : "A security-grade ^#b0e0fc;alta^reset; device that emits a moderate ^#2080f0;energy^reset; replenishing field.",
+  "longdescription" : "Commonly installed on walls of security outposts and patrol routes. The storage bay is non-functional for direct charging.",
+  "altaDescription" : "These are everywhere in security facilities. I think some vardas just stand next to them to nap >~>",
+
+  "apexDescription" : "A wall-mounted energy device. Military grade.",
+  "avianDescription" : "An energy device mounted to the wall. It hums with power.",
+  "floranDescription" : "Wall buzzy-box iss bigger than other one!",
+  "glitchDescription" : "Curious. A medium-power energy replenishing station.",
+  "humanDescription" : "A wall-mounted recharger. Looks official.",
+  "hylotlDescription" : "A pragmatic security installation. Effective, if uninspired.",
+  "novakidDescription" : "A fancy recharger bolted to the wall.",
+
+  "lightColor" : [0, 60, 150],
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    { "dualImage" : "body.png", "spaceScan" : 0.1, "anchors" : [ "background" ] }
+  ],
+
+  "statusEffects" : [ "ct_energy_support_system" ],
+
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "openSounds" : [ "/sfx/objects/metalbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalbox_close.ogg" ],
+
+  "builder" : "/items/buildscripts/alta/object.lua"
+}

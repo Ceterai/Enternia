@@ -31,7 +31,7 @@ And sometimes, little fallen stars find each other, somewhere on the path of the
 
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_1-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

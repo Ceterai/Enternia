@@ -22,7 +22,7 @@ And then that thought dissipated in ceternia, as she went on, smiling towards th
 
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_3-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

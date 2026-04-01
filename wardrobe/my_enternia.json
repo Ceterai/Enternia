@@ -1,6 +1,174 @@
 {
   "head": [
     {
+      "path": "/items/armors/alta/events/jinxies/cyclop/",
+      "fileName": "ct_jinxies_cyclop.head",
+      "name": "ct_jinxies_cyclop",
+      "icon": "icon.png",
+      "shortdescription": "Cyclop's Eye",
+      "maleFrames": "head.png",
+      "femaleFrames": "head.png",
+      "mask": "mask.png",
+      "colorOptions": [
+        {
+          "#0050c0": "0050c0",
+          "#2080f0": "2080f0",
+          "#60c0fc": "60c0fc",
+          "#b0e0fc": "b0e0fc"
+        },
+        {
+          "#0050c0": "8fc000",
+          "#2080f0": "c5f020",
+          "#60c0fc": "f3fc60",
+          "#b0e0fc": "f9fcb0"
+        },
+        {
+          "#0050c0": "00c063",
+          "#2080f0": "20f081",
+          "#60c0fc": "60fc91",
+          "#b0e0fc": "b0fcc7"
+        },
+        {
+          "#0050c0": "009cc0",
+          "#2080f0": "20d3f0",
+          "#60c0fc": "60fcf9",
+          "#b0e0fc": "b0fcf9"
+        },
+        {
+          "#0050c0": "c00003",
+          "#2080f0": "f0202d",
+          "#60c0fc": "fc6082",
+          "#b0e0fc": "fcb0c2"
+        },
+        {
+          "#0050c0": "c07000",
+          "#2080f0": "f08f20",
+          "#60c0fc": "fc9c60",
+          "#b0e0fc": "fcccb0"
+        },
+        {
+          "#0050c0": "c0af00",
+          "#2080f0": "f0d420",
+          "#60c0fc": "fcd060",
+          "#b0e0fc": "fce5b0"
+        },
+        {
+          "#0050c0": "03c000",
+          "#2080f0": "2df020",
+          "#60c0fc": "82fc60",
+          "#b0e0fc": "c2fcb0"
+        },
+        {
+          "#0050c0": "001cc0",
+          "#2080f0": "2049f0",
+          "#60c0fc": "6096fc",
+          "#b0e0fc": "b0ccfc"
+        },
+        {
+          "#0050c0": "7c00c0",
+          "#2080f0": "9d20f0",
+          "#60c0fc": "a660fc",
+          "#b0e0fc": "d1b0fc"
+        },
+        {
+          "#0050c0": "c00069",
+          "#2080f0": "f0209b",
+          "#60c0fc": "fc60d4",
+          "#b0e0fc": "fcb0ea"
+        },
+        {
+          "#0050c0": "366388",
+          "#2080f0": "4e8fb8",
+          "#60c0fc": "76c7e4",
+          "#b0e0fc": "c9eef6"
+        }
+      ]
+    },
+    {
+      "path": "/items/armors/alta/events/jinxies/noface/",
+      "fileName": "ct_jinxies_noface.head",
+      "name": "ct_jinxies_noface",
+      "icon": "icon.png",
+      "shortdescription": "Noface",
+      "maleFrames": "head.png",
+      "femaleFrames": "head.png",
+      "mask": "mask.png",
+      "colorOptions": [
+        {
+          "#d5001f": "d5001f",
+          "#b0001a": "b0001a",
+          "#8b0013": "8b0013",
+          "#72000e": "72000e"
+        },
+        {
+          "#d5001f": "838383",
+          "#b0001a": "555555",
+          "#8b0013": "383838",
+          "#72000e": "151515"
+        },
+        {
+          "#d5001f": "707088",
+          "#b0001a": "606074",
+          "#8b0013": "404050",
+          "#72000e": "2c2c34"
+        },
+        {
+          "#d5001f": "f6f6f6",
+          "#b0001a": "d8dcf0",
+          "#8b0013": "b0b4c8",
+          "#72000e": "606478"
+        },
+        {
+          "#d5001f": "f4988c",
+          "#b0001a": "d93a3a",
+          "#8b0013": "932625",
+          "#72000e": "601119"
+        },
+        {
+          "#d5001f": "ffd495",
+          "#b0001a": "ea9931",
+          "#8b0013": "af4e00",
+          "#72000e": "6e2900"
+        },
+        {
+          "#d5001f": "ffffa7",
+          "#b0001a": "e2c344",
+          "#8b0013": "a46e06",
+          "#72000e": "642f00"
+        },
+        {
+          "#d5001f": "b2e89d",
+          "#b0001a": "51bd3b",
+          "#8b0013": "247824",
+          "#72000e": "144216"
+        },
+        {
+          "#d5001f": "96cbe7",
+          "#b0001a": "5588d4",
+          "#8b0013": "344495",
+          "#72000e": "1a1c51"
+        },
+        {
+          "#d5001f": "d29ce7",
+          "#b0001a": "a451c4",
+          "#8b0013": "6a2284",
+          "#72000e": "320c40"
+        },
+        {
+          "#d5001f": "eab3db",
+          "#b0001a": "d35eae",
+          "#8b0013": "97276d",
+          "#72000e": "59163f"
+        },
+        {
+          "#d5001f": "ccae7c",
+          "#b0001a": "a47844",
+          "#8b0013": "754c23",
+          "#72000e": "472b13"
+        }
+      ]
+    },
+    {
       "path": "/items/armors/alta/events/sonaveil/alta_scarf/",
       "fileName": "ct_alta_scarf.head",
       "name": "ct_alta_scarf",
@@ -3961,6 +4129,16 @@
       ]
     },
     {
+      "path": "/items/armors/misc/ct_invisible/head/",
+      "fileName": "ct_alta_no_head.head",
+      "name": "ct_alta_no_head",
+      "icon": "icon.png",
+      "shortdescription": "Invisible Mask",
+      "maleFrames": "head.png",
+      "femaleFrames": "head.png",
+      "mask": "mask.png"
+    },
+    {
       "path": "/items/armors/misc/ct_misc_crystal_pillar_hat/",
       "fileName": "ct_misc_crystal_pillar_hat.head",
       "name": "ct_misc_crystal_pillar_hat",
@@ -5856,6 +6034,23 @@
           "#d4ff5a": "c9eef6fe"
         }
       ]
+    },
+    {
+      "path": "/items/armors/misc/ct_invisible/chest/",
+      "fileName": "ct_alta_no_body.chest",
+      "name": "ct_alta_no_body",
+      "icon": "icon.png",
+      "shortdescription": "Invisible Shirt",
+      "maleFrames": {
+        "body": "chest.png",
+        "backSleeve": "bsleeve.png",
+        "frontSleeve": "fsleeve.png"
+      },
+      "femaleFrames": {
+        "body": "chest.png",
+        "backSleeve": "bsleeve.png",
+        "frontSleeve": "fsleeve.png"
+      }
     }
   ],
   "legs": [
@@ -7281,6 +7476,15 @@
           "#d4ff5a": "c9eef6fe"
         }
       ]
+    },
+    {
+      "path": "/items/armors/misc/ct_invisible/legs/",
+      "fileName": "ct_alta_no_legs.legs",
+      "name": "ct_alta_no_legs",
+      "icon": "icon.png",
+      "shortdescription": "Invisible Skirt",
+      "maleFrames": "pants.png",
+      "femaleFrames": "pants.png"
     }
   ],
   "back": [
@@ -8623,6 +8827,15 @@
           "#6f2919": "472b13"
         }
       ]
+    },
+    {
+      "path": "/items/armors/misc/ct_invisible/back/",
+      "fileName": "ct_alta_no_back.back",
+      "name": "ct_alta_no_back",
+      "icon": "icon.png",
+      "shortdescription": "Invisible Backpack",
+      "maleFrames": "back.png",
+      "femaleFrames": "back.png"
     },
     {
       "path": "/items/armors/misc/ct_misc_deprecation_device/",

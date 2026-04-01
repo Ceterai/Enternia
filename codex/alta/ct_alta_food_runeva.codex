@@ -16,7 +16,7 @@
     "^#b0e0fc;Alterash Breeze^reset; is a refreshing drink that smells similar to ^#20f080;blossoming ayaka valleys^reset; found on ^#20f080;alterash^reset; planets.\n\n^#b0e0fc;Allibanas^reset; are small dishes named after ^#b0e0fc;Alliana^reset;. They're served warm and are meant to be eaten right away."
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [

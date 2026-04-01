@@ -51,6 +51,26 @@
     },
     {
         "path": "/codex/alta/",
+        "fileName": "ct_alta_dart.codex",
+        "name": "ct_alta_dart-codex",
+        "shortdescription": "Alta Dartic Module",
+        "category": "codex",
+        "icon": "datamass/sona.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_dart_2.codex",
+        "name": "ct_alta_dart_2-codex",
+        "shortdescription": "Alta Dartic Championships",
+        "category": "codex",
+        "icon": "ebook/isoslime.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
         "fileName": "ct_alta_date.codex",
         "name": "ct_alta_date-codex",
         "shortdescription": "A Perfect Riverside Date",
@@ -237,6 +257,46 @@
         "category": "codex",
         "icon": "datamass/void.png",
         "rarity": "essential",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_paper.codex",
+        "name": "ct_alta_paper-codex",
+        "shortdescription": "Alta Paper Utilization",
+        "category": "codex",
+        "icon": "paper/short.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_plush_1.codex",
+        "name": "ct_alta_plush_1-codex",
+        "shortdescription": "Alta Plushery. Part 1",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_plush_2.codex",
+        "name": "ct_alta_plush_2-codex",
+        "shortdescription": "Alta Plushery. Part 2",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/codex/alta/",
+        "fileName": "ct_alta_plush_3.codex",
+        "name": "ct_alta_plush_3-codex",
+        "shortdescription": "Alta Plushery. Part 3",
+        "category": "codex",
+        "icon": "ebook/basic.png",
+        "rarity": "rare",
         "race": "alta"
     },
     {
@@ -3873,6 +3933,46 @@
         "race": "alta"
     },
     {
+        "path": "/items/active/alta/toys/dart/rifle/",
+        "fileName": "ct_alta_darter.activeitem",
+        "name": "ct_alta_darter",
+        "shortdescription": "Alta Dart Rifle",
+        "category": "toy",
+        "icon": "ct_alta_darter.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/rifle/",
+        "fileName": "ct_alta_darter_ceterteal.activeitem",
+        "name": "ct_alta_darter_ceterteal",
+        "shortdescription": "Ceterteal Alta Dart Rifle",
+        "category": "toy",
+        "icon": "ct_alta_darter_ceterteal.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/rifle/",
+        "fileName": "ct_alta_darter_ionic.activeitem",
+        "name": "ct_alta_darter_ionic",
+        "shortdescription": "Ionic Alta Dart Rifle",
+        "category": "toy",
+        "icon": "ct_alta_darter_ionic.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/dart/rifle/",
+        "fileName": "ct_alta_darter_omniblue.activeitem",
+        "name": "ct_alta_darter_omniblue",
+        "shortdescription": "Omniblue Alta Dart Rifle",
+        "category": "toy",
+        "icon": "ct_alta_darter_omniblue.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/items/active/alta/toys/fireworks/",
         "fileName": "ct_alta_firework.thrownitem",
         "name": "ct_alta_firework",
@@ -3904,39 +4004,43 @@
     },
     {
         "path": "/items/active/alta/toys/paint/",
-        "fileName": "paintgunblue.activeitem",
+        "fileName": "ct_alta_painter_blue.activeitem",
         "name": "ct_alta_painter_blue",
-        "shortdescription": "Blue Paintgun",
+        "shortdescription": "Blue Alta Painter",
         "category": "toy",
-        "icon": "paintgunblue.png",
-        "rarity": "uncommon"
+        "icon": "ct_alta_painter_blue.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/paint/",
-        "fileName": "paintgungreen.activeitem",
+        "fileName": "ct_alta_painter_green.activeitem",
         "name": "ct_alta_painter_green",
-        "shortdescription": "Green Paintgun",
+        "shortdescription": "Green Alta Painter",
         "category": "toy",
-        "icon": "paintgungreen.png",
-        "rarity": "uncommon"
+        "icon": "ct_alta_painter_green.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/paint/",
-        "fileName": "paintgunpurple.activeitem",
+        "fileName": "ct_alta_painter_purple.activeitem",
         "name": "ct_alta_painter_purple",
-        "shortdescription": "Purple Paintgun",
+        "shortdescription": "Purple Alta Painter",
         "category": "toy",
-        "icon": "paintgunpurple.png",
-        "rarity": "uncommon"
+        "icon": "ct_alta_painter_purple.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/paint/",
-        "fileName": "paintgunred.activeitem",
+        "fileName": "ct_alta_painter_red.activeitem",
         "name": "ct_alta_painter_red",
-        "shortdescription": "Red Paintgun",
+        "shortdescription": "Red Alta Painter",
         "category": "toy",
-        "icon": "paintgunred.png",
-        "rarity": "uncommon"
+        "icon": "ct_alta_painter_red.png",
+        "rarity": "common",
+        "race": "alta"
     },
     {
         "path": "/items/active/alta/toys/paper/plane/",
@@ -4017,6 +4121,64 @@
         "icon": "body.png",
         "rarity": "common",
         "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_iso_ball.thrownitem",
+        "name": "ct_alta_toy_iso_ball",
+        "shortdescription": "Izo Ball",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_iso_ball.png",
+        "rarity": "common"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_pet_ball.thrownitem",
+        "name": "ct_alta_toy_pet_ball",
+        "shortdescription": "Little Pet Toy Ball",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_pet_ball.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_runeva_ball.thrownitem",
+        "name": "ct_alta_toy_runeva_ball",
+        "shortdescription": "Runeva Ball",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_runeva_ball.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_ryushay_ball.thrownitem",
+        "name": "ct_alta_toy_ryushay_ball",
+        "shortdescription": "Ryushay Ball",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_ryushay_ball.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_vizhus_worm.thrownitem",
+        "name": "ct_alta_toy_vizhus_worm",
+        "shortdescription": "Vizhus Worm Plushie",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_vizhus_worm.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
+        "path": "/items/active/alta/toys/soft/",
+        "fileName": "ct_alta_toy_warpball.thrownitem",
+        "name": "ct_alta_toy_warpball",
+        "shortdescription": "Warpball",
+        "category": "throwableItem",
+        "icon": "ct_alta_toy_warpball.png",
+        "rarity": "uncommon"
     },
     {
         "path": "/items/active/alta/toys/water/blaster/",
@@ -5016,6 +5178,26 @@
         "race": "alta"
     },
     {
+        "path": "/items/armors/alta/events/jinxies/cyclop/",
+        "fileName": "ct_jinxies_cyclop.head",
+        "name": "ct_jinxies_cyclop",
+        "shortdescription": "Cyclop's Eye",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/alta/events/jinxies/noface/",
+        "fileName": "ct_jinxies_noface.head",
+        "name": "ct_jinxies_noface",
+        "shortdescription": "Noface",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "rare",
+        "race": "alta"
+    },
+    {
         "path": "/items/armors/alta/events/sonaveil/alta_scarf/",
         "fileName": "ct_alta_scarf.head",
         "name": "ct_alta_scarf",
@@ -5826,6 +6008,46 @@
         "race": "alta"
     },
     {
+        "path": "/items/armors/misc/ct_invisible/back/",
+        "fileName": "ct_alta_no_back.back",
+        "name": "ct_alta_no_back",
+        "shortdescription": "Invisible Backpack",
+        "category": "backwear",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/misc/ct_invisible/chest/",
+        "fileName": "ct_alta_no_body.chest",
+        "name": "ct_alta_no_body",
+        "shortdescription": "Invisible Shirt",
+        "category": "chestwear",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/misc/ct_invisible/head/",
+        "fileName": "ct_alta_no_head.head",
+        "name": "ct_alta_no_head",
+        "shortdescription": "Invisible Mask",
+        "category": "headwear",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/armors/misc/ct_invisible/legs/",
+        "fileName": "ct_alta_no_legs.legs",
+        "name": "ct_alta_no_legs",
+        "shortdescription": "Invisible Skirt",
+        "category": "legwear",
+        "icon": "icon.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
         "path": "/items/armors/misc/ct_misc_crystal_pillar_hat/",
         "fileName": "ct_misc_crystal_pillar_hat.head",
         "name": "ct_misc_crystal_pillar_hat",
@@ -6461,6 +6683,46 @@
         "shortdescription": "Yaajack Candy",
         "category": "preparedFood",
         "icon": "ct_yaajack_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/jinxies/",
+        "fileName": "ct_jinxies_candy.consumable",
+        "name": "ct_jinxies_candy",
+        "shortdescription": "Joy Candy",
+        "category": "preparedFood",
+        "icon": "ct_jinxies_candy.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/jinxies/",
+        "fileName": "ct_jinxies_mystery.consumable",
+        "name": "ct_jinxies_mystery",
+        "shortdescription": "Mystery Candy",
+        "category": "preparedFood",
+        "icon": "ct_jinxies_mystery.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/jinxies/",
+        "fileName": "ct_jinxies_nade.thrownitem",
+        "name": "ct_jinxies_nade",
+        "shortdescription": "Sweet Surprise",
+        "category": "preparedFood",
+        "icon": "ct_jinxies_nade.png",
+        "rarity": "common",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/food/events/jinxies/",
+        "fileName": "ct_jinxies_snack.consumable",
+        "name": "ct_jinxies_snack",
+        "shortdescription": "Boom Snack",
+        "category": "throwableItem",
+        "icon": "ct_jinxies_snack.png",
         "rarity": "common",
         "race": "alta"
     },
@@ -7245,6 +7507,15 @@
     },
     {
         "path": "/items/generic/other/",
+        "fileName": "ct_alta_credit.item",
+        "name": "ct_alta_credit",
+        "shortdescription": "Alta Credit",
+        "category": "currency",
+        "icon": "ct_alta_credit.png",
+        "rarity": "uncommon"
+    },
+    {
+        "path": "/items/generic/other/",
         "fileName": "ct_arco_shielder.consumable",
         "name": "ct_arco_shielder",
         "shortdescription": "Enviro Shielder ^#2080f0;^reset;",
@@ -7380,6 +7651,16 @@
         "category": "medicine",
         "icon": "ct_ionic_stim.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/items/generic/other/",
+        "fileName": "ct_jinxies.consumable",
+        "name": "ct_jinxies-codex",
+        "shortdescription": "Best Alta Recipes",
+        "category": "codex",
+        "icon": "/codex/alta/paper/koywa.png",
+        "rarity": "essential",
         "race": "alta"
     },
     {
@@ -7609,64 +7890,6 @@
         "shortdescription": "Warped Hive",
         "category": "throwableItem",
         "icon": "ct_warped_hive.png",
-        "rarity": "uncommon"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_iso_ball.thrownitem",
-        "name": "ct_alta_toy_iso_ball",
-        "shortdescription": "Izo Ball",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_iso_ball.png",
-        "rarity": "common"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_pet_ball.thrownitem",
-        "name": "ct_alta_toy_pet_ball",
-        "shortdescription": "Little Pet Toy Ball",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_pet_ball.png",
-        "rarity": "common",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_runeva_ball.thrownitem",
-        "name": "ct_alta_toy_runeva_ball",
-        "shortdescription": "Runeva Ball",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_runeva_ball.png",
-        "rarity": "rare",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_ryushay_ball.thrownitem",
-        "name": "ct_alta_toy_ryushay_ball",
-        "shortdescription": "Ryushay Ball",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_ryushay_ball.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_vizhus_worm.thrownitem",
-        "name": "ct_alta_toy_vizhus_worm",
-        "shortdescription": "Vizhus Worm Plushie",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_vizhus_worm.png",
-        "rarity": "legendary",
-        "race": "alta"
-    },
-    {
-        "path": "/items/throwables/toys/",
-        "fileName": "ct_alta_toy_warpball.thrownitem",
-        "name": "ct_alta_toy_warpball",
-        "shortdescription": "Warpball",
-        "category": "throwableItem",
-        "icon": "ct_alta_toy_warpball.png",
         "rarity": "uncommon"
     },
     {
@@ -8000,6 +8223,16 @@
         "race": "alta"
     },
     {
+        "path": "/objects/alta/citadel/recharger/",
+        "fileName": "ct_alta_citadel_recharger.object",
+        "name": "ct_alta_citadel_recharger",
+        "shortdescription": "Alta Citadel Recharger ^#8020f0;^reset;",
+        "category": "misc",
+        "icon": "icon.png",
+        "rarity": "legendary",
+        "race": "alta"
+    },
+    {
         "path": "/objects/alta/city/bench/",
         "fileName": "ct_alta_bench.object",
         "name": "ct_alta_bench",
@@ -8067,6 +8300,16 @@
         "category": "furniture",
         "icon": "icon.png",
         "rarity": "rare",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/city/recharger/",
+        "fileName": "ct_alta_recharger.object",
+        "name": "ct_alta_recharger",
+        "shortdescription": "Alta Recharger",
+        "category": "other",
+        "icon": "icon.png",
+        "rarity": "common",
         "race": "alta"
     },
     {
@@ -9165,6 +9408,16 @@
         "name": "ct_alta_security_rack",
         "shortdescription": "Alta Security Rack",
         "category": "storage",
+        "icon": "icon.png",
+        "rarity": "uncommon",
+        "race": "alta"
+    },
+    {
+        "path": "/objects/alta/security/recharger/",
+        "fileName": "ct_alta_security_recharger.object",
+        "name": "ct_alta_security_recharger",
+        "shortdescription": "Alta Security Recharger",
+        "category": "misc",
         "icon": "icon.png",
         "rarity": "uncommon",
         "race": "alta"
@@ -11479,7 +11732,7 @@
         "name": "ct_alta_dart_hardboard",
         "shortdescription": "Alta Dart Hardboard",
         "category": "toy",
-        "icon": "body.png",
+        "icon": "icon.png",
         "rarity": "uncommon",
         "race": "alta"
     },
@@ -11489,7 +11742,7 @@
         "name": "ct_alta_dart_megaboard",
         "shortdescription": "Alta Dart Megaboard",
         "category": "toy",
-        "icon": "body.png",
+        "icon": "icon.png",
         "rarity": "rare",
         "race": "alta"
     },
@@ -11499,7 +11752,7 @@
         "name": "ct_alta_dart_superboard",
         "shortdescription": "Alta Dart Superboard",
         "category": "toy",
-        "icon": "body.png",
+        "icon": "icon.png",
         "rarity": "uncommon",
         "race": "alta"
     },

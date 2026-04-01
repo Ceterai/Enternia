@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 2 },
+    { "item" : "crystal", "count" : 4 },
+    { "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ct_alta_recharger",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_constructor1", "alta", "alta_city", "objects", "all", "mod" ]
+}

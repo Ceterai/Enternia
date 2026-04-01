@@ -59,7 +59,21 @@
           {"weight" : 0.08, "item" : "ct_notes_eds-codex"},
 
           {"weight" : 0.06, "item" : "ct_notes_mira_cen-codex"},
-          {"weight" : 0.06, "item" : "ct_notes_tiana_leave-codex"}
+          {"weight" : 0.06, "item" : "ct_notes_tiana_leave-codex"},
+
+          // Added in 2.4.0e
+          {"weight" : 0.08, "item" : "ct_alta_dart-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_dart_2-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_paper-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_plush_1-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_plush_2-codex"},
+          {"weight" : 0.08, "item" : "ct_alta_plush_3-codex"}
+        ]
+  } ] ],
+  "ct_alta_codexes_0" : [
+    [0, { "poolRounds" : [ [1.0, 1] ],
+        "pool" : [
+          {"weight" : 0.06, "item" : "ct_datamass"}
         ]
   } ] ],
   "ct_alta_codexes_1" : [

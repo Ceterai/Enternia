@@ -16,7 +16,7 @@
     "In addition to social life in alta capitals, just as in other alta cities, there is a high level of social responsibility.\n\nVolunteer altas engaged in regular cleaning, general errands and simply helping other altas, are the pride of the community and very often form social associations, promoting cleanliness, order and understanding, and with the support of administrative forces help build a bright future for each alta."
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "capital" ], "learnBlueprintsOnPickup" : [ "ct_alta_capital-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

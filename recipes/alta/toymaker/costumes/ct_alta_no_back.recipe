@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "phasematter", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ct_alta_no_back",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups" : [ "my_enternia", "alta_max", "alta", "clothing", "back", "alta_toys", "misc_toys", "all", "mod" ]
+}

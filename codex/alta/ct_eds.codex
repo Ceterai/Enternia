@@ -34,9 +34,13 @@ ET21, Enternia Stabilizer - AT8206 RM-1 of EDS development, keeps void-related i
 ET288 -d!s."
 
   ],
-    "itemConfig" : {
-      "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "datamass", "eds" ], "learnBlueprintsOnPickup" : [ "ct_eds-codex" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 5, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "datamass", "eds" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_eds-codex",
+      "ct_glowstick_eds"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

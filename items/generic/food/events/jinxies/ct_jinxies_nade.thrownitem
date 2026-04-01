@@ -1,0 +1,30 @@
+{
+  "itemName" : "ct_jinxies_nade",
+  "shortdescription" : "Sweet Surprise",
+  "description" : "An innocent-looking candy that totally won't explode. Definitely food. Trust us. ^#f02080;«^reset;",
+  "longdescription" : "This ^#f02080;Jinxies^reset; item looks exactly like a delicious treat, complete with a mouth-watering food tooltip. But appearances can be deceiving during Jinxies... Try to eat it, and watch what happens!",
+  "altaDescription" : "Wait why is my hand moving back-- oh. OH. Got you! >>:3",
+
+  "level" : 2, "price" : 40, "race" : "alta",
+  "itemTags" : [ "jinxies", "holiday", "nade" ],
+  "category" : "preparedFood",
+  "tooltipKind" : "ct_alta_consumable",
+  "inventoryIcon" : "ct_jinxies_nade.png",
+  "image" : "ct_jinxies_nade.png",
+
+  "tooltipFields" : {
+    "foodAmountLabel" : "",
+    "effectLabel" : "^#20f080;+Jump Boost^reset;",
+    "rotTimeLabel" : "^#20f080;Will stay fresh for a long time^reset;"
+  },
+
+  "ammoUsage" : 1,
+  "edgeTrigger" : true, "windupTime" : 0.0, "cooldown" : 1.0,
+  "projectileType" : "ct_isoslime_charge",
+  "projectileConfig" : {
+    "speed" : 40, "power" : 1,
+    "periodicActions" : [ { "time" : 0, "repeat" : false, "action" : "sound", "options" : [ "/sfx/projectiles/throw_item_small.ogg" ] } ]
+  },
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

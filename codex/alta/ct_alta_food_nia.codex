@@ -11,7 +11,7 @@
     "A great example of that would be ^#b0e0fc;shokkas^reset;. ^#b0e0fc;Shokka^reset; is a sweet meaty satisfying nia stew that is similar in texture to the ^#b0e0fc;blue boil^reset;.\nIt takes time to process, mostly leaving poor altas full to the brim, only willing to lie on the bed until the effect wears off.\n\n^#b0e0fc;Corfal caretakers^reset; use this as a pacifier method for very energetic unbehaving altas."
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [

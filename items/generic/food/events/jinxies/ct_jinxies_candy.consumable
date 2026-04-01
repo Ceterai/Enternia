@@ -1,0 +1,28 @@
+{
+  "itemName" : "ct_jinxies_candy",
+  "shortdescription" : "Joy Candy",
+  "description" : "A special ^#f02080;Jinxies^reset; candy that fills you with ^#20f080;warmth^reset; and ^#2080f0;energy^reset;! Try it!",
+  "longdescription" : "This brightly colored candy is one of the classic ^#f02080;Jinxies^reset; treats. The wrapper promises a burst of pure joy and inner warmth. Who would doubt such a cute little candy?",
+  "altaDescription" : "Hehe. >>:3",
+
+  "level" : 2, "race" : "alta", "category" : "preparedFood",
+  "itemTags" : [ "jinxies", "dessert", "alta_cuisine", "candy", "holiday" ], "emote" : "happy",
+  "inventoryIcon" : "ct_jinxies_candy.png",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : {
+    "badEffects" : [ "burning" ],
+    "foodValue" : 5,
+    "rotToEffectRatio" : 2.50,
+    "jinxies" : {
+      "effectLabel" : "^#20f080;+Energy Boost^reset;"
+    }
+  },
+
+  "colorOptions" : [
+    { "#ffdcf4" : "#ffdcf4", "#ffb7e9" : "#ffb7e9", "#ffa1e2" : "#ffa1e2", "#dc5bb6" : "#dc5bb6", "#8d2b7e" : "#8d2b7e" },
+    { "#ffdcf4" : "#dcfffb", "#ffb7e9" : "#b7fff6", "#ffa1e2" : "#a1fff4", "#dc5bb6" : "#5bdcca", "#8d2b7e" : "#2b8d72" },
+    { "#ffdcf4" : "#fffcdc", "#ffb7e9" : "#fff6b7", "#ffa1e2" : "#fff4a1", "#dc5bb6" : "#dcca5b", "#8d2b7e" : "#8d722b" },
+    { "#ffdcf4" : "#dcfcff", "#ffb7e9" : "#b7e9ff", "#ffa1e2" : "#a1d8ff", "#dc5bb6" : "#5b9cdc", "#8d2b7e" : "#2b658d" }
+  ]
+}

@@ -19,7 +19,7 @@ If you stumble upon an ^#b0e0fc;alta city^reset;, be sure to check in with a ^#b
 
   ],
     "itemConfig" : {
-      "level" : 4,
+      "level" : 4, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "antorash" ], "learnBlueprintsOnPickup" : [ "ct_antorash-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

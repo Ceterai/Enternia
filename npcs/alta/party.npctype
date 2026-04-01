@@ -35,7 +35,7 @@
     ]
   },
   "scriptConfig" : {
-    "merchant" : { "categories" : { "default" : [ "toys", "plushies", "party", "music" ] } },
+    "merchant" : { "categories" : { "default" : [ "jinxies", "toys", "plushies", "plushie_recipes", "darts", "dart_recipes", "planes", "plane_recipes", "painters", "painter_recipes", "poppers", "popper_recipes", "party", "music" ] } },
     "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:party" } }
   }
 }

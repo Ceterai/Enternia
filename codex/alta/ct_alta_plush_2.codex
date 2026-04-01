@@ -1,0 +1,23 @@
+{
+  "id" : "ct_alta_plush_2",
+  "title" : "Alta Plushery. Part 2",
+  "description" : "A book about making cute stuffed toys and clothing! (Unlocks basic plushie recipes)",
+  "longdescription" : "A part of a series, this tome only covers a handful of crafty creations.",
+  "altaDescription" : "I can make softies with this~",
+  "icon" : "ebook/basic.png",
+  "species" : "alta",
+  "contentPages" : [
+    "A lovely book about making your day a little bit better."
+  ],
+  "itemConfig" : {
+    "level" : 3, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "ebook", "toy" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_plush_2-codex",
+      "badgooplush",
+      "plainorbplush",
+      "poptopplush"
+    ]
+  }
+}

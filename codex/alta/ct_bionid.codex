@@ -7,20 +7,17 @@
   "icon" : "paper/bionid.png",
   "species" : "alta",
   "contentPages" : [
-
-    "Local bionid subtype is increasingly reactive to sunlight and general radiation. Given the environment, some of the area is already exposed to rich phospholion deposits in the upper layers of esetera.
-
-There is noticeable visual difference between safe state bionid and unstable one, exposed to the deposits.",
-
-"This implies that this specific bionid variation could be used to determine radioactive presence in the area, but it also means that the extraction should be done in radio-low areas, with further refinement process.
-
-This bionid variation cannot be used as a direct building material due to its unstable abilities."
-
+    "Local bionid subtype is increasingly reactive to sunlight and general radiation. Given the environment, some of the area is already exposed to rich phospholion deposits in the upper layers of esetera.\n\nThere is noticeable visual difference between safe state bionid and unstable one, exposed to the deposits.",
+    "This implies that this specific bionid variation could be used to determine radioactive presence in the area, but it also means that the extraction should be done in radio-low areas, with further refinement process.\n\nThis bionid variation cannot be used as a direct building material due to its unstable abilities."
   ],
-    "itemConfig" : {
-      "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "docs", "bionid", "bion" ], "learnBlueprintsOnPickup" : [ "ct_bionid-codex" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 5, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "docs", "bionid", "bion" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_bionid-codex",
+      "ct_glowstick_bionid"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : { "aliases" : {
     "Nerigid" : { "icon" : "none" },

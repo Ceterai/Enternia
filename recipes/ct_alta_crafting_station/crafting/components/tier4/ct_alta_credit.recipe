@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ct_alta_credit",
+    "count" : 1
+  },
+  "groups" : [ "my_enternia", "alta_max", "alta", "components", "currency", "all", "mod" ]
+}

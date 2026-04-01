@@ -1,0 +1,25 @@
+{
+  "id" : "ct_alta_paper",
+  "title" : "Alta Paper Utilization",
+  "description" : "A manual on handling paper, its uses and restrictions.",
+  "longdescription" : "Ironically enough, this manual is printed on a piece of paper, and contains instructions on how to fold it into a paper plane!",
+  "altaDescription" : "Don't waste paper. Download ebooks! Paint in a laptop! Reuse paper planes!",
+  "icon" : "paper/short.png",
+  "species" : "alta",
+  "contentPages" : [
+    "Since all paper is made from ayaka wood, it's generally not recommended for long-lasting uses. For communication and storage, other means are highly preferred. If you have encountered a used yet no longer needed piece of paper, please recycle it. Using paper for making planes is fine, but should only be done in reasonable amounts."
+  ],
+  "itemConfig" : {
+    "level" : 5, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "docs", "toy" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_paper-codex",
+      "paper",
+      "ct_ayaka_plane",
+      "ct_alta_plane",
+      "ct_alta_plane_pretty",
+      "ct_alta_plane_cool"
+    ]
+  }
+}

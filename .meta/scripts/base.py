@@ -56,7 +56,9 @@ def get_ext(name: str):
 
 def write_json(path: str, obj: dict, indent: int = 4):
     if not os.path.exists(dirname := os.path.dirname(path)): os.mkdir(dirname)
-    with open(path, 'w') as f: json.dump(obj, f, indent=indent)
+    with open(path, 'w') as f:
+        json.dump(obj, f, indent=indent)
+        f.write('\n')
 
 def sort_dict(d: dict) -> dict:
     return dict(sorted(d.items())) if d else {}

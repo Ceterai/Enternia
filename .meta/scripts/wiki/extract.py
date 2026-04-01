@@ -259,6 +259,7 @@ class ItemLib:
                                 obj2 = dict(self.merge(obj, preset_obj))
                                 obj2.pop('presets')
                                 obj2.pop('wiki', None)
+                                obj2.pop('alkey', None)
                                 if 'variants' in obj2 and preset in obj2['variants']:
                                     obj2['original'] = obj[id_param]
                                     obj2.pop('variants')
@@ -274,6 +275,7 @@ class ItemLib:
                             obj2.pop('upgradeParameters')
                             obj2['level'] = 6
                             obj2.pop('wiki', None)
+                            obj2.pop('alkey', None)
                             raw2.update({obj2[id_param] + '-upgrade': obj2})
             elif wiki.load.ext(path) == 'codex' and 'deprecated' not in path:
                 obj = wiki.load.json(path)
@@ -284,6 +286,7 @@ class ItemLib:
                     obj['shortdescription'] = obj['title']
                     obj.pop('title')
                     obj = self.get_defaults(obj, obj['path'], obj.get('race'))
+                    obj['category'] = 'codex'
                     raw.update({obj['id'] + '-codex': obj})
         print(f'- Generated {len(raw)} items')
         print(f'- Generated {len(raw2)} item variations')

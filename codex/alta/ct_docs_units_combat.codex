@@ -12,8 +12,8 @@
     "> Note: be cautious, since effects like Emergency Healer and Life Support System can be blocked by EMI attacks."
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_units_combat-codex" ],
-    "rarity" : "Common",
-    "price" : 120
+    "itemTags" : [ "data_source", "docs" ], "learnBlueprintsOnPickup" : [ "ct_docs_units_combat-codex" ],
+    "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "id" : "ct_alta_dart",
+  "title" : "Alta Dartic Module",
+  "description" : "A basic manual containing basic dart set scematics and instructions. (Unlocks basic dart recipes)",
+  "longdescription" : "This datamass is fully compatible with toymaker stations and autonomous systems of various alta robotics!",
+  "altaDescription" : "A small darts competition never hurt anyone~ Except for my belongings.",
+  "icon" : "datamass/sona.png",
+  "species" : "alta",
+  "contentPages" : [
+    "Darts is a more or less of an imported board game designed to be played by an undefined number of players, limited by reason and size of the dart board."
+  ],
+  "itemConfig" : {
+    "level" : 2, "tooltipKind" : "ct_alta_item",
+    "itemTags" : [ "data_source", "datamass", "toy" ],
+    "builder" : "/items/buildscripts/alta/codex.lua",
+    "learnBlueprintsOnPickup" : [
+      "ct_alta_dart-codex",
+      "ct_alta_dart",
+      "ct_alta_dart_board"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "itemName" : "ct_jinxies_snack",
+  "shortdescription" : "Boom Snack",
+  "description" : "This blast device bursts with... ^#2080f0;flavor^reset;!",
+  "longdescription" : "Shaped and painted to look like an alta ^#2080f0;plasma^reset; nade, this ^#f02080;Jinxies^reset; treat is 100% edible. The 'fuse' is actually a licorice string, and the 'explosive core' is filled with sweet ^#b0e0fc;aya jam^reset;. Don't panic, just take a bite!",
+  "altaDescription" : "I swear I saw someone scream before they bit into this. Best snack experience ever.",
+
+  "level" : 2, "race" : "alta", "category" : "throwableItem",
+  "itemTags" : [ "jinxies", "dessert", "alta_cuisine", "holiday" ],
+  "tooltipKind" : "ct_alta_item",
+  "inventoryIcon" : "ct_jinxies_snack.png",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "maxStack" : 1000,
+  "blockingEffects" : [ "wellfed" ],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+  "build" : { "price" : 200, "goodEffects" : [ "maxenergyscalingboostfood" ], "foodValue" : 8, "rotToEffectRatio" : 2.0 }
+}

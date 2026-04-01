@@ -341,7 +341,8 @@
       "category" : "shield",
       "altaDescription" : "So pretty! I'm interested in how this was made - it looks handmade using crystals, but quite hardened, seemingly due to an anomaly of sorts.",
       "baseShieldHealth" : 64, "animationCustom" : { "sounds" : { "init" : [ ] } }, "scripts" : ["/items/active/shields/ct_alta_shield.lua"], "elementalType" : "electric",
-      "inventoryIcon" : "images/uncommon/1.png:nearidle", "animationParts" : { "shield" : "images/uncommon/1.png" }, "knockbackStatusEffects" : [ "electrified" ],
+      "inventoryIcon" : "/items/active/shields/images/uncommon/1.png:nearidle",
+      "animationParts" : { "shield" : "/items/active/shields/images/uncommon/1.png" }, "knockbackStatusEffects" : [ "electrified" ],
       "passiveAbility" : { "name" : "Vi-Charged Panels", "description" : "Applies ^#f0f080;Electrified^reset; to its targets on knockback." },
       "tooltipKind" : "ct_alta_weapon_1"
     }

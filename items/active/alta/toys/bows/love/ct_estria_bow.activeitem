@@ -26,14 +26,14 @@
 
   "primaryAbilityType" : "bowshot",
   "primaryAbility" : {
-    "projectileType" : "heartarrow",
-    "powerProjectileType" : "chargedheartarrow",
+    "projectileType" : "ct_estria_arrow",
+    "powerProjectileType" : "ct_estria_arrow_charged",
     "projectileParameters" : { "power" : 6.5 }
   },
 
   "altAbilityType" : "zenshot",
   "altAbility" : {
-    "projectileType" : "heartarrow",
+    "projectileType" : "ct_estria_arrow",
     "projectileParameters" : { "power" : 8.125 }
   },
 

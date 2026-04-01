@@ -22,10 +22,15 @@ This way, some of the creatures learned how to have their own glowing essence, a
 So be careful, silly altas, and don't go alone to a warped forest, its inhabitors don't really like starnge, lonely visitors..."
 
   ],
-    "itemConfig" : {
-      "level" : 4, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "ebook", "warped" ], "learnBlueprintsOnPickup" : [ "ct_yonnur-codex", "ct_ela_seed" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 4, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "ebook", "warped" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_yonnur-codex",
+      "ct_ela_seed",
+      "ct_glowstick_yonnur"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "related" : {

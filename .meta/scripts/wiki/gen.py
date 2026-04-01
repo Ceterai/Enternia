@@ -1,6 +1,7 @@
 import json
 import wiki.load
 import wiki.extract
+import wiki.pages.db.fetch_vanilla_tags
 
 
 items = wiki.extract.ItemLib()

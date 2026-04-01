@@ -13,7 +13,7 @@
     "Sometimes such palaces are located at the very top of the citadel in form of penthouses overlooking the city. Citadels with palaces of this type can reach particularly big heights, and also allow for greater attention to be paid to defense on the lower floors.\n\nSuch citadels are usually located in capitals on planets and continents of high danger, for example on ^#2080f0;alterash prime^reset; planets."
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "citadel" ], "learnBlueprintsOnPickup" : [ "ct_alta_citadel-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

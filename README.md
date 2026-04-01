@@ -10,7 +10,7 @@ Check out the end of the description for a **rundown of new content**. Or, even 
 <div align="center" style="font-size: 150%;">
 <a class="ct_button" href="https://ceterai.github.io/MyEnternia">WEBSITE</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia">GITHUB</a> | <a class="ct_button" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2006558650">STEAM</a> | <a class="ct_button" href="https://community.playstarbound.com/resources/my-enternia.6252/">SB FORUMS</a> | <a class="ct_button" href="https://www.nexusmods.com/starbound/mods/1057">NEXUS MODS</a>
 <br>
-<a class="ct_button" href="https://buymeacoffee.com/ceterai">SUPPORT ME</a> | <a class="ct_button" href="https://discord.gg/qBZDKESdtp" title="Dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^">DISCORD</a>
+<a class="ct_button" href="https://ko-fi.com/ceterai">KO-FI</a> | <a class="ct_button" href="https://buymeacoffee.com/ceterai">BUY ME A COFFEE</a> | <a class="ct_button" href="https://discord.gg/qBZDKESdtp" title="Dev updates, mod-related questions, bug reporting, and lots of emojis and stickers! ^^">DISCORD</a>
 <br>
 <a class="ct_button" href="https://ceterai.github.io/MyEnternia/Mods/">ADDONS</a> | <a class="ct_button" href="https://ceterai.github.io/MyEnternia/Wiki">WIKI</a> | <a class="ct_button" href="https://github.com/Ceterai/Enternia/tree/main/.meta/wiki/tenants.md">TENANTS</a>
 <br>

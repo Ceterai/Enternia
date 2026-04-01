@@ -22,7 +22,7 @@ What does the future hold for them? Only the time will show.
 
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook" ], "learnBlueprintsOnPickup" : [ "ct_alta_lore_4-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   },

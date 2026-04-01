@@ -21,8 +21,16 @@
   },
 
   "scripts" : ["/items/active/weapons/bow/bow.lua"],
-  "primaryAbilityType" : "bowshot", "primaryAbility" : { },
-  "altAbilityType" : "zenshot", "altAbility" : { },
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "projectileType" : "ct_alta_toy_arrow",
+    "powerProjectileType" : "ct_alta_toy_arrow_charged"
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "projectileType" : "ct_alta_toy_arrow"
+  },
 
   "builder" : "/items/buildscripts/alta/tool.lua"
 }

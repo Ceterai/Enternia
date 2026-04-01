@@ -10,10 +10,15 @@
     "Come to the Clubhouse \"Ix-Contrix\" for infinite, concentrated entertainment!\nThis multiplex contains any and all kinds of services you can think of!\nWhile you're here, make sure to:\n`- - Check out the Arcades!\n    - Visit our Partybase! -\n      Crash the biggest Dancefloor in the city! - -\n\n`- - - - - Have some snacks at the Bar to refill your energy...\n    Then go to the Cinema for an immersive show!",
     "`- - And finally, have some fun at the Space Pit!\n\nBut that's not all...\nCome during weekends to see a breathtaking Lazer Show on the roof!\n\n---\n\nPlease note that the availability of the Dancefloor can change in case of music tours, in this case they're booked in advance by the band/performer."
   ],
-    "itemConfig" : {
-      "level" : 5, "tooltipKind" : "ct_alta_item_long",
-      "itemTags" : [ "data_source", "docs", "calin" ], "learnBlueprintsOnPickup" : [ "ct_calin-codex", "ct_calin_seed" ],
-      "builder" : "/items/buildscripts/alta/codex.lua"
+  "itemConfig" : {
+    "level" : 5, "tooltipKind" : "ct_alta_item_long",
+    "itemTags" : [ "data_source", "docs", "calin" ],
+    "learnBlueprintsOnPickup" : [
+      "ct_calin-codex",
+      "ct_calin_seed",
+      "ct_glowstick_crystal"
+    ],
+    "builder" : "/items/buildscripts/alta/codex.lua"
   },
   "wiki" : {
     "aliases" : { "Ix-Contrix" : { }, "Alta Clubhouse" : { }, "Clubhouse" : { } }

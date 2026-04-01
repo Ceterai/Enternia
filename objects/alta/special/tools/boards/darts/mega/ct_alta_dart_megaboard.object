@@ -6,9 +6,10 @@
   "level" : 5, "price" : 200, "race" : "alta",
 
   "shortdescription" : "Alta Dart Megaboard",
-  "description" : "A basic alta board for playing darts.",
+  "description" : "A huge alta board for playing darts.",
 
-  "inventoryIcon" : "body.png",
+  "inventoryIcon" : "icon.png",
+  "objectImage" : "body.png",
   "orientations" : [
     { "dualImage" : "left.png", "spaceScan" : 0.1, "anchors" : [ "left" ], "direction" : "right" },
     { "dualImage" : "right.png", "spaceScan" : 0.1, "anchors" : [ "right" ], "direction" : "right" },

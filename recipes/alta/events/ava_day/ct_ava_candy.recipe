@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "chocolate", "count" : 1 },
     { "item" : "ct_tsay", "count" : 1 },
-    { "item" : "plantfibre", "count" : 3 }
+    { "item" : "paper", "count" : 3 }
   ],
   "output" : { "item" : "ct_ava_candy", "count" : 3 },
   "groups" : [ "my_enternia", "alta_food", "craftingfood", "consumables", "dessert", "alta_festive", "ava_day", "all", "mod" ]

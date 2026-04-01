@@ -10,8 +10,8 @@
     "Datamass is a data storage device, useful for saving and transferring useful or technical information like documents and databases.\n\nDatamasses often contain data understood by other alta technology, like blueprints and recipes that can be understood by a crafting station or a terminal."
   ],
   "itemConfig" : {
-    "itemTags" : [ "data_source", "docs" ], "race" : "alta", "learnBlueprintsOnPickup" : [ "ct_docs_datamass-codex" ],
-    "rarity" : "Common",
-    "price" : 120
+    "itemTags" : [ "data_source", "docs" ], "learnBlueprintsOnPickup" : [ "ct_docs_datamass-codex" ],
+    "tooltipKind" : "ct_alta_item",
+    "builder" : "/items/buildscripts/alta/codex.lua"
   }
 }

@@ -11,7 +11,7 @@
     "It needs to be mentioned that haven toxins are far less powerful or harmful compared to ^#3baf2f;aric^reset; toxins, even when compared to edible ^#3baf2f;aric sporelings^reset;."
   ],
     "itemConfig" : {
-    "level" : 4,
+    "level" : 4, "tooltipKind" : "ct_alta_item",
     "itemTags" : [ "data_source", "ebook", "haven" ], "learnBlueprintsOnPickup" : [ "ct_haven-codex", "ct_haven_tiller", "ct_poppy_prime_af", "ct_haven_seed" ],
     "builder" : "/items/buildscripts/alta/codex.lua"
   }

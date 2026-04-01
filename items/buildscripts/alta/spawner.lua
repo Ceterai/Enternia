@@ -32,7 +32,7 @@ function build(directory, config, parameters, level, seed)
   local img = nil
   if config.npc then
     -- img = root.npcPortrait("bust", config.petSpecies, config.pet, 6.0, seed, parameters.baseParameters)
-    imp = { image = config.inventoryIcon }
+    img = { image = config.inventoryIcon }
   else
     img = root.monsterPortrait(config.pet, parameters.baseParameters)
   end

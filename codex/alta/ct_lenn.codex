@@ -34,7 +34,7 @@ Therefore, the longer I exist, the stronger the feeling within me that observing
 
   ],
     "itemConfig" : {
-      "level" : 7,
+      "level" : 7, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "time_drifter" ], "learnBlueprintsOnPickup" : [ "ct_lenn-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

@@ -14,7 +14,7 @@
     "Related resources:\n\n- ^#b0e0fc;Alta Chef's Guide^reset;\n- ^#b0e0fc;Calin Cuisine Book^reset;\n- ^#b0e0fc;Runeva Cuisine Book^reset;\n- ^#b0e0fc;Nia Cuisine Book^reset;\n- ^#b0e0fc;Yava Cuisine Book^reset;"
   ],
     "itemConfig" : {
-      "level" : 3,
+      "level" : 3, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "cooking" ],
       "builder" : "/items/buildscripts/alta/codex.lua",
       "learnBlueprintsOnPickup" : [

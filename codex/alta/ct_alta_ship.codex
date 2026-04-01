@@ -34,7 +34,7 @@ Although regular ^#b0e0fc;alta ship pods^reset; are also suitable for carrying c
 
   ],
     "itemConfig" : {
-      "level" : 6,
+      "level" : 6, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "ebook", "alta_ship" ], "learnBlueprintsOnPickup" : [ "ct_alta_ship-codex" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

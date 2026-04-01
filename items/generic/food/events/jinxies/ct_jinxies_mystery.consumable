@@ -1,0 +1,40 @@
+{
+  "itemName" : "ct_jinxies_mystery",
+  "shortdescription" : "Mystery Candy",
+  "description" : "A ^#f02080;Jinxies^reset; mystery candy! You never know what you're gonna get~",
+  "longdescription" : "Each of these colorful candies contains one of several possible surprise effects. The mystery is part of the fun! Some effects are pleasant, some... less so. That's ^#f02080;Jinxies^reset; for you!",
+  "altaDescription" : "It's like a box of chocolates, except each chocolate is a candy, and each candy might betray you. I love it.",
+
+  "level" : 2, "race" : "alta", "category" : "preparedFood",
+  "itemTags" : [ "jinxies", "dessert", "alta_cuisine", "candy", "holiday" ], "emote" : "happy",
+  "inventoryIcon" : "ct_jinxies_mystery.png",
+  "itemAgingScripts" : ["/items/generic/food/ct_food_aging.lua"],
+  "builder" : "/items/buildscripts/alta/consumable.lua",
+
+  "foodValue" : 5,
+  "effects" : [
+    [ { "effect" : "jumpboostfood", "duration" : 30 } ],
+    [ { "effect" : "maxenergyscalingboostfood", "duration" : 30 } ],
+    [ { "effect" : "glow", "duration" : 60 } ],
+    [ { "effect" : "burning", "duration" : 5 } ],
+    [ { "effect" : "lowgrav", "duration" : 30 } ],
+    [ { "effect" : "rage", "duration" : 15 } ],
+    [ { "effect" : "swimboostfood", "duration" : 30 } ],
+    [ { "effect" : "maxhealthscalingboostfood", "duration" : 30 } ]
+  ],
+
+  "build" : {
+    "jinxies" : {
+      "effectLabel" : "^#f02080;???^reset; ^#8020f0;Mystery effect!^reset;"
+    }
+  },
+
+  "colorOptions" : [
+    { "#ffdcf4" : "#f0c0c0", "#ffb7e9" : "#f09090", "#ffa1e2" : "#f06060", "#dc5bb6" : "#c03030", "#8d2b7e" : "#801818" },
+    { "#ffdcf4" : "#c0f0c0", "#ffb7e9" : "#90f090", "#ffa1e2" : "#60f060", "#dc5bb6" : "#30c030", "#8d2b7e" : "#188018" },
+    { "#ffdcf4" : "#c0c0f0", "#ffb7e9" : "#9090f0", "#ffa1e2" : "#6060f0", "#dc5bb6" : "#3030c0", "#8d2b7e" : "#181880" },
+    { "#ffdcf4" : "#f0f0c0", "#ffb7e9" : "#f0f090", "#ffa1e2" : "#f0f060", "#dc5bb6" : "#c0c030", "#8d2b7e" : "#808018" },
+    { "#ffdcf4" : "#f0c0f0", "#ffb7e9" : "#f090f0", "#ffa1e2" : "#f060f0", "#dc5bb6" : "#c030c0", "#8d2b7e" : "#801880" },
+    { "#ffdcf4" : "#c0f0f0", "#ffb7e9" : "#90f0f0", "#ffa1e2" : "#60f0f0", "#dc5bb6" : "#30c0c0", "#8d2b7e" : "#188080" }
+  ]
+}

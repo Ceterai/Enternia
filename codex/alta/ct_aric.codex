@@ -21,7 +21,7 @@ As an example, small ^#3baf2f;agaranics^reset; are mostly edible, while most ^#3
 
   ],
     "itemConfig" : {
-      "level" : 5,
+      "level" : 5, "tooltipKind" : "ct_alta_item",
       "itemTags" : [ "data_source", "docs", "aric" ], "learnBlueprintsOnPickup" : [ "ct_aric-codex", "ct_akollic_bulb" ],
       "builder" : "/items/buildscripts/alta/codex.lua"
   }

@@ -22,7 +22,7 @@
   },
   "scriptConfig" : {
     "questGenerator" : { "graduation" : { "nextNpcType" : [ [1, "crewmembertailor"] ] } },
-    "merchant" : { "numItems" : 20, "categories" : { "default" : [ "designer", "clothes", "humanclothes" ] } },
+    "merchant" : { "numItems" : 20, "categories" : { "default" : [ "designer", "dyes", "clothes", "humanclothes" ] } },
     "dialog" : { "merchant" : { "tout" : "/dialog/alta.config:designer" } }
   }
 }

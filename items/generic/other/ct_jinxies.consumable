@@ -1,0 +1,47 @@
+{
+  "itemName" : "ct_jinxies-codex",
+  "shortdescription" : "Best Alta Recipes",
+  "description" : "A completely generic cookbook that will teach you how to make candy.",
+  "longdescription" : "Only a select few overly smart people can read the contents of this interesting set of notes.",
+  "altaDescription" : "GET JINXED!",
+  "apexDescription" : "Not again...",
+  "ceteraiDescription" : "Happy jinxies!",
+
+  "alkey" : "Bwaaa",
+
+  "level" : 8, "race" : "alta",
+  "category" : "codex",
+  "inventoryIcon" : "/codex/alta/paper/koywa.png",
+  "contentPages" : [
+    "JINXIES!!!"
+  ],
+
+  "wiki" : {
+    "trivia" : [
+      "To unlock the last secret achievement, press buttons Alt and F4 on your keyboard at the same time!",
+      "According to global alta data, your shoelaces are white and your back is untied."
+    ]
+  },
+
+  "tooltipKind" : "ct_alta_item",
+  "itemTags" : [ "docs", "holiday", "jinxies" ],
+  "learnBlueprintsOnPickup" : [
+    "ct_jinxies-codex",
+    "ct_jinxies_candy",
+    "ct_jinxies_nade",
+    "ct_jinxies_mystery",
+    "ct_jinxies_snack",
+    "ct_jinxies_cyclop",
+    "ct_jinxies_noface",
+    "gagnosehead",
+    "glasses4head",
+    "grouchohead",
+    "larvahead",
+    "larvachest",
+    "larvalegs"
+  ],
+
+  "blockingEffects" : [ ],
+  
+  "builder" : "/items/buildscripts/alta/codex.lua"
+}

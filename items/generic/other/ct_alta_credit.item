@@ -1,0 +1,11 @@
+{
+  "itemName" : "ct_alta_credit",
+  "shortdescription" : "Alta Credit",
+  "description" : "A standardized ^#b0e0fc;alta^reset; currency token equivalent to ^yellow;4 pixels^reset;.",
+  "longdescription" : "^#b0e0fc;Alta^reset; credits allow converting ^yellow;pixels^reset; into physical tokens, convenient for stockpiling and transporting value in bulk.",
+
+  "level" : 4, "price" : 4, "maxStack" : 1000,
+  "category" : "currency",
+  "inventoryIcon" : "ct_alta_credit.png",
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

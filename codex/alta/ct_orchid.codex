@@ -14,7 +14,7 @@
     "Some were engaged in science, some were engaged in protecting the innocent and those in danger, some mentored less experienced stars and helped them find themselves, some were engaged in adventures in search of gifts and finds for the order, and some simply decorated the flowerbed and tried to make it as cozy and pleasant as possible for others."
   ],
   "itemConfig" : {
-    "level" : 7,
+    "level" : 7, "tooltipKind" : "ct_alta_item",
     "itemTags" : [ "data_source", "ebook", "orchid", "ceterai" ],
     "learnBlueprintsOnPickup" : [ "ct_orchid-codex" ],
     "builder" : "/items/buildscripts/alta/codex.lua"

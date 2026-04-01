@@ -1,0 +1,14 @@
+{
+  "itemName" : "ct_alta_no_legs",
+  "shortdescription" : "Invisible Skirt",
+  "description" : "Where did you go?!",
+
+  "race" : "alta",
+  "category" : "legwear", "tooltipKind" : "ct_alta_effects",
+
+  "inventoryIcon" : "icon.png",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "builder" : "/items/buildscripts/alta/item.lua"
+}

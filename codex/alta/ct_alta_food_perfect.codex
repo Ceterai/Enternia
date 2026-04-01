@@ -17,8 +17,7 @@
     "4. Perfect cooking cannot be forced or predicted - that's what makes it special!\n\n5. Even 'failed' variations can be delicious in their own way~\n\n^#20f080;Good luck in your kitchen, and may your dishes always come out perfectly!^reset;"
   ],
   "itemConfig" : {
-    "level" : 4,
-    "tooltipKind" : "ct_alta_item",
+    "level" : 4, "tooltipKind" : "ct_alta_item",
     "itemTags" : [ "data_source", "ebook", "cooking" ],
     "learnBlueprintsOnPickup" : [ "ct_alta_food_perfect-codex" ],
     "builder" : "/items/buildscripts/alta/codex.lua"
